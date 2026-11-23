@@ -6,26 +6,30 @@ approximately 3–4 players.
 
 ## Current verified artifact
 
-[EXPECT_SDCRAFT_FINAL_GITHUB_2026-11-24.zip](D:\Games\SDCRAFT\EXPECT_SDCRAFT_FINAL_GITHUB_2026-11-24.zip)  
-SHA256: `71d6f23bdb2780d4305abbbc4a4bf8693b45543848c894cf68838f71ead05f46`  
-Size: 405,663,332 bytes  
-Archive entries: 744
+[EXPECT_SDCRAFT_NPC100_2026-11-24.zip](D:\Games\SDCRAFT\EXPECT_SDCRAFT_NPC100_2026-11-24.zip)  
+SHA256: `9e7abd30aa4c2821b0ab5a19bfa598a4de0849f488a84fc60fe9952f897f4d37`  
+Size: 405,682,396 bytes  
+Archive entries: 745
 
 The archive was extracted into a new disposable directory and booted with Java
 25. It reached `Done`, loaded 20 plugins, reported `Economy Legacy: SDCraft
-Wallet`, confirmed 20 NPC anchors, and stopped cleanly. The packaged world was
+Wallet`, confirmed the original NPC anchors, and stopped cleanly. The packaged world was
 allowed to perform Paper’s one-time storage migration only in that disposable
 copy; the canonical world and Aternos backup were not overwritten.
 
 ## Verified implementation
 
-- 67 SDCraftCore JUnit tests pass.
+- 71 SDCraftCore JUnit tests pass.
 - SDCraftCore registers the Vault `SD Craft Wallet` and automatically runs
   `mtv vault setup` after startup; the smoke log confirms MTVehicles uses it.
 - ProtocolLib and SimpleLogin load without the plaintext-password warning;
   SimpleLogin uses a valid one-day session.
 - Runtime and fresh-install NPC defaults use audited walkable coordinates.
   `docs/validate_sites.py` reports 38/38 valid site and anchor positions.
+- The dense-city update configures 100 NPC identities: 20 protected service
+  characters plus 80 proximity-managed pedestrians and merchants. Ambient
+  characters wander; about 30% retaliate, others flee, and defeated ambient
+  NPCs provide controlled loot with a respawn cooldown.
 - GTA layer includes phone/shop/garage, GPS, wanted/arrest/jail/fines,
   waypoint missions, duty/salary/credits, and approval-based promotion.
 - The 15-PNG branding bundle is generated and validated.

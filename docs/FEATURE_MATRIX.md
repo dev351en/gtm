@@ -10,9 +10,10 @@ tested.
 | New Blockston world | Included | Isolated world copy is packed; it is not asserted to be the newest Aternos save. |
 | Paper 26.3 / Java 25 | Tested | Disposable full server reaches `Done` with 20 plugins. |
 | 60 approved NPC policy choices | Included | Preserved in the user handoff and blueprint/dialogue files. |
-| 20 named NPC profiles | Included | Dialogue, skins, actions, and 20 audited anchors. |
-| NPC proximity spawning | Implemented; runtime pending | Citizens reflection with protected villager fallback; 64/96 hysteresis; coordinates pass 38/38 walkability checks. |
-| Active NPC limits | Implemented | Maximum 6 police and 20 non-police; status command reports caps. |
+| City population | Implemented; player test pending | 100 configured identities: 20 protected named service NPCs plus 80 generated pedestrians and merchants. |
+| NPC proximity spawning | Boot tested | Citizens reflection with villager fallback; 56/80 block hysteresis; 100 anchors generated on the live Paper world copy. |
+| Active NPC limits | Implemented | Maximum 6 police and 94 non-police, with offscreen abstraction and proximity despawning. |
+| Ambient walking/combat/loot | Implemented; player test pending | Pedestrians wander near home anchors; about 30% retaliate, others flee, and defeated ambient NPCs yield controlled wallet/food loot with a respawn cooldown. |
 | Wandering civilian traffic | Not implemented | Background civilian target remains a design requirement. |
 | Police idle patrol | Partial | Up to two idle police anchors; no road patrol/pursuit AI. |
 | Wallet and bank starter grant | Implemented; unit tested | One-time $500 wallet / $1,000 bank grant with atomic YAML ledger. |

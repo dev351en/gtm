@@ -2,15 +2,26 @@
 world: {name: world}
 server: {target-real-players: 4, memory-ceiling-mb: 3584, disk-ceiling-mb: 10240}
 population:
+  target-total: 100
+  max-physical-total: 100
   max-physical-police: 6
-  idle-police-patrol: 2
+  idle-police-patrol: 6
   police-per-level: [1, 2, 3]
-  max-physical-nonpolice: 20
-  target-civilian-min: 8
-  target-civilian-max: 12
-  activation-blocks: 64
-  deactivation-blocks: 96
+  max-physical-nonpolice: 94
+  target-civilian-min: 60
+  target-civilian-max: 94
+  activation-blocks: 56
+  deactivation-blocks: 80
   abstract-offscreen: true
+  ambient-tough-percent: 30
+  ambient-wander-radius-blocks: 12
+  ambient-retaliation-seconds: 20
+  ambient-melee-damage: 2.0
+  ambient-loot-enabled: true
+  ambient-loot-min-cents: 300
+  ambient-loot-max-cents: 1500
+  ambient-merchant-bonus-cents: 500
+  ambient-respawn-seconds: 180
 welcome: {wallet-cents: 50000, bank-cents: 100000}
 crime:
   # Security-first: must remain false until WG regions and validated robbery logic are installed.

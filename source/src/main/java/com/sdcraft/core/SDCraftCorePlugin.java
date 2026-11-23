@@ -86,12 +86,12 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
                     Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "mtv vault setup");
             });
         }
-        npcs = new NpcService(this, dialogues);
         ai = new AiService(this);
         restoration = new RestorationEngine(this);
         guns = new GunEngine(this);
         gps = new GpsManager(this);
         gta = new GtaEngine(this, ledger, gps);
+        npcs = new NpcService(this, dialogues, ledger, gta);
         Objects.requireNonNull(getCommand("sdcraft")).setExecutor(this);
         Objects.requireNonNull(getCommand("sdcraft")).setTabCompleter(this);
         for (String c : List.of("map", "gps", "spawn", "car", "kit", "gun", "pack", "phone")) {
@@ -104,6 +104,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
         Bukkit.getPluginManager().registerEvents(restoration, this);
         Bukkit.getPluginManager().registerEvents(guns, this);
         Bukkit.getPluginManager().registerEvents(gta, this);
+        Bukkit.getPluginManager().registerEvents(npcs, this);
         World mainWorld = Bukkit.getWorld(getConfig().getString("world.name", "world"));
         if (mainWorld != null) {
             mainWorld.setSpawnLocation(10, 70, 3);
@@ -117,6 +118,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
         }
         Bukkit.getScheduler().runTaskTimer(this, this::second, 20L, 20L);
         Bukkit.getScheduler().runTaskTimer(this, () -> npcs.tick(), 100L, 200L);
+        Bukkit.getScheduler().runTaskTimer(this, () -> npcs.pulse(), 120L, 10L);
         getLogger().info(
                 "SDCraftCore loaded: secure ledger, NPC service, transport, crime, medical and duty workflows. Check README for limitations.");
     }
@@ -151,6 +153,10 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
             return site;
         }
         return new Location(world, 10.5, 70.0, 3.5, 0.0f, 0.0f);
+    }
+
+    boolean isManagedNpc(Entity entity) {
+        return npcs != null && npcs.identify(entity) != null;
     }
 
     public void grantStarterKit(Player p, boolean force) {
@@ -310,6 +316,12 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
         if (id == null)
             return;
         e.setCancelled(true);
+        if (npcs.isAmbient(id)) {
+            e.getPlayer().sendMessage("§6" + npcs.name(id) + " §7(" + npcs.role(id) + "): §f"
+                    + npcs.greeting(id, "en"));
+            if (npcs.isMerchant(id)) gta.handleNpcAction(e.getPlayer(), "view_catalog");
+            return;
+        }
         openNpc(e.getPlayer(), id);
     }
 

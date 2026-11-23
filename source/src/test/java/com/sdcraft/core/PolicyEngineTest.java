@@ -69,6 +69,17 @@ class PolicyEngineTest {
     }
 
     @Test
+    @DisplayName("NPC hysteresis accepts lower proximity distances for a dense ambient pool")
+    void configurableNpcHysteresis() {
+        assertTrue(PolicyEngine.shouldBeActive(false, 56.0, 56.0, 80.0));
+        assertFalse(PolicyEngine.shouldBeActive(false, 56.1, 56.0, 80.0));
+        assertTrue(PolicyEngine.shouldBeActive(true, 80.0, 56.0, 80.0));
+        assertFalse(PolicyEngine.shouldBeActive(true, 80.1, 56.0, 80.0));
+        assertThrows(IllegalArgumentException.class,
+                () -> PolicyEngine.shouldBeActive(false, 10.0, 80.0, 56.0));
+    }
+
+    @Test
     @DisplayName("Witness awareness check follows 70% immediate, 20% delayed, 10% silent")
     void testWitnessAwareness() {
         // 0..69: immediate (70%)

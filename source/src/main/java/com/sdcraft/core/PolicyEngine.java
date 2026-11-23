@@ -17,9 +17,17 @@ public final class PolicyEngine {
 
     /** Hysteresis: spawn <=64 blocks; an active NPC remains until >96 blocks. */
     public static boolean shouldBeActive(boolean currentlyActive, double distanceBlocks) {
+        return shouldBeActive(currentlyActive, distanceBlocks, 64.0, 96.0);
+    }
+
+    /** Configurable population hysteresis used by the ambient city pool. */
+    public static boolean shouldBeActive(boolean currentlyActive, double distanceBlocks,
+                                         double activationBlocks, double deactivationBlocks) {
         if (Double.isNaN(distanceBlocks) || distanceBlocks < 0 || Double.isInfinite(distanceBlocks))
             return false;
-        return currentlyActive ? distanceBlocks <= 96.0 : distanceBlocks <= 64.0;
+        if (activationBlocks <= 0 || deactivationBlocks < activationBlocks)
+            throw new IllegalArgumentException("Invalid NPC activation distances");
+        return currentlyActive ? distanceBlocks <= deactivationBlocks : distanceBlocks <= activationBlocks;
     }
 
     /** Returns immediate, delayed, or silent for a previously eligible witness. */

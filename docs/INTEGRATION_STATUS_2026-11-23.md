@@ -92,8 +92,8 @@ validation and a real economy-plugin transaction test are still needed.
 2. Check each provisional site in `plugins/SDCraftCore/runtime.yml` in-game,
    especially `jail`, `bank`, `hospital`, and mission checkpoints. Use
    `/sdc setsite <id>` while standing at the intended safe block to correct it.
-3. Host the new unified resource pack and configure its public URL and SHA-1.
-   `server.properties` still points to the MTVehicles-only pack.
+3. Confirm the GitHub raw resource-pack URL remains public and its downloaded
+   bytes match SHA1 `4633349625598AF3EFF64CAF24C74FB953BF0A4D`.
 4. Configure authentication at the host/proxy level. The current
    `online-mode=false` installation relies on SimpleLogin and must not expose
    unauthenticated admin access. Confirm its login gate and OP identities.
@@ -128,3 +128,24 @@ resource-download acceptance.
 bundle. Rebuilding the unified pack after adding its pack icon and item models
 produces SHA1 `4633349625598AF3EFF64CAF24C74FB953BF0A4D`. The old SHA1 in the
 earlier paragraphs is historical and must not be used for this current ZIP.
+
+## Dense city population update - 2026-11-24
+
+The configured population is now 100 identities: 20 protected named service
+NPCs plus 80 generated ambient pedestrians. The generated population includes
+merchants, commuters, workers, students, tourists, delivery characters,
+security characters, and two additional patrol officers. The active caps are
+6 police and 94 non-police.
+
+Ambient NPCs use 56/80-block activation hysteresis, remain abstract while
+offscreen, and receive lightweight Citizens navigation near their home anchor.
+About 30 percent are configured to retaliate briefly when attacked; other
+pedestrians flee. Defeating an ambient NPC grants a controlled $3-$15 wallet
+drop, a $5 merchant bonus, occasional food/material loot, a wanted response,
+and a three-minute respawn cooldown. Named service NPCs remain protected.
+
+The rebuilt core passes 71 tests. A fresh disposable Paper boot loaded all 20
+plugins, reached `Done`, registered the Vault wallet, generated 100 NPC anchors,
+and reported `configured=100, active police=0/6, other=0/94` with no players
+online. Actual wandering, retaliation, defeat loot, and multi-player
+performance still require a real-player staging test before production.

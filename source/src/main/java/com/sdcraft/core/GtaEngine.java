@@ -231,6 +231,7 @@ final class GtaEngine implements Listener {
     @EventHandler(priority = EventPriority.HIGH, ignoreCancelled = true)
     public void onPlayerDamage(EntityDamageByEntityEvent event) {
         if (!(event.getEntity() instanceof Player victim)) return;
+        if (plugin.isManagedNpc(victim)) return; // Ambient NPC combat is owned by NpcService.
         Player attacker = attacker(event.getDamager());
         if (attacker == null || attacker.equals(victim)) return;
         if (isSafeZone(victim.getLocation()) || isSafeZone(attacker.getLocation())) {

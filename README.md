@@ -33,12 +33,26 @@ world.
 - Approximately 3-4 concurrent players
 - 3.5 GB RAM and 10 GB disk target
 - 20 validated plugin JARs in the private portable server build
-- 67 SDCraftCore automated tests
-- 38/38 audited service and NPC coordinates
+- 71 SDCraftCore automated tests
+- 38/38 audited original service coordinates
+- 100 configured NPC identities and 100 generated runtime anchors
 
 The exact portable server archive reached `Done`, reported all 20 plugins,
 registered `SDCraft Wallet` with Vault, connected MTVehicles to that wallet,
-and confirmed 20 NPC anchors.
+and reported a 100-person population policy with 100 anchors.
+
+## Dense city population
+
+- 20 protected named service NPCs
+- 80 generated pedestrians, merchants, workers, commuters and patrol officers
+- 56/80-block proximity activation so offscreen NPCs do not consume resources
+- Lightweight wandering near each pedestrian's home district
+- About 30% of ambient NPCs retaliate when attacked; others flee
+- Controlled $3-$15 loot, merchant bonus, occasional food/material drops and
+  a three-minute respawn cooldown
+
+The 100-person boot and configuration are verified. Real-player wandering,
+combat, loot and multiplayer performance testing remains required.
 
 ## Repository layout
 
@@ -64,7 +78,7 @@ The complete host-upload archive is intentionally not committed to this public
 repository. It contains third-party plugin JARs whose licenses and distribution
 terms differ; at least two currently declare All Rights Reserved. Publish those
 JARs only with permission from their authors. The local tested artifact is
-named `EXPECT_SDCRAFT_FINAL_GITHUB_2026-11-24.zip`.
+named `EXPECT_SDCRAFT_NPC100_2026-11-24.zip`.
 
 ## Important limitations
 

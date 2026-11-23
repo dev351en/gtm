@@ -121,3 +121,483 @@ anchors:
     y: 70.0
     z: 58.0
     yaw: 90.0
+  ambient_001:
+    world: world
+    x: 12.5
+    y: 71.0
+    z: 4.5
+    yaw: 180.0
+  ambient_002:
+    world: world
+    x: 16.5
+    y: 71.0
+    z: 4.5
+    yaw: 227.0
+  ambient_003:
+    world: world
+    x: 2.5
+    y: 73.0
+    z: 4.5
+    yaw: 274.0
+  ambient_004:
+    world: world
+    x: 22.5
+    y: 68.0
+    z: 66.5
+    yaw: 321.0
+  ambient_005:
+    world: world
+    x: 116.5
+    y: 66.0
+    z: -44.5
+    yaw: 368.0
+  ambient_006:
+    world: world
+    x: 110.5
+    y: 64.0
+    z: -50.5
+    yaw: 415.0
+  ambient_007:
+    world: world
+    x: 100.5
+    y: 65.0
+    z: -31.5
+    yaw: 462.0
+  ambient_008:
+    world: world
+    x: 125.5
+    y: 66.0
+    z: -50.5
+    yaw: 509.0
+  ambient_009:
+    world: world
+    x: -58.5
+    y: 65.0
+    z: 143.5
+    yaw: 556.0
+  ambient_010:
+    world: world
+    x: -60.5
+    y: 65.0
+    z: 141.5
+    yaw: 603.0
+  ambient_011:
+    world: world
+    x: -63.5
+    y: 63.0
+    z: 143.5
+    yaw: 650.0
+  ambient_012:
+    world: world
+    x: -64.5
+    y: 62.0
+    z: 148.5
+    yaw: 697.0
+  ambient_013:
+    world: world
+    x: 56.5
+    y: 67.0
+    z: -117.5
+    yaw: 744.0
+  ambient_014:
+    world: world
+    x: 58.5
+    y: 72.0
+    z: -120.5
+    yaw: 791.0
+  ambient_015:
+    world: world
+    x: 193.5
+    y: 71.0
+    z: 78.5
+    yaw: 838.0
+  ambient_016:
+    world: world
+    x: 185.5
+    y: 69.0
+    z: 76.5
+    yaw: 885.0
+  ambient_017:
+    world: world
+    x: -146.5
+    y: 69.0
+    z: -77.5
+    yaw: 932.0
+  ambient_018:
+    world: world
+    x: -145.5
+    y: 67.0
+    z: -78.5
+    yaw: 979.0
+  ambient_019:
+    world: world
+    x: -208.5
+    y: 71.0
+    z: 65.5
+    yaw: 1026.0
+  ambient_020:
+    world: world
+    x: -209.5
+    y: 72.0
+    z: 58.5
+    yaw: 1073.0
+  ambient_021:
+    world: world
+    x: 2.5
+    y: 73.0
+    z: 4.5
+    yaw: 270.0
+  ambient_022:
+    world: world
+    x: 8.5
+    y: 71.0
+    z: 4.5
+    yaw: 317.0
+  ambient_023:
+    world: world
+    x: 0.5
+    y: 70.0
+    z: 3.5
+    yaw: 364.0
+  ambient_024:
+    world: world
+    x: 26.5
+    y: 68.0
+    z: 63.5
+    yaw: 411.0
+  ambient_025:
+    world: world
+    x: 120.5
+    y: 66.0
+    z: -49.5
+    yaw: 458.0
+  ambient_026:
+    world: world
+    x: 118.5
+    y: 66.0
+    z: -49.5
+    yaw: 505.0
+  ambient_027:
+    world: world
+    x: 105.5
+    y: 64.0
+    z: -26.5
+    yaw: 552.0
+  ambient_028:
+    world: world
+    x: 125.5
+    y: 66.0
+    z: -42.5
+    yaw: 599.0
+  ambient_029:
+    world: world
+    x: -63.5
+    y: 63.0
+    z: 147.5
+    yaw: 646.0
+  ambient_030:
+    world: world
+    x: -63.5
+    y: 63.0
+    z: 136.5
+    yaw: 693.0
+  ambient_031:
+    world: world
+    x: -63.5
+    y: 63.0
+    z: 133.5
+    yaw: 740.0
+  ambient_032:
+    world: world
+    x: -63.5
+    y: 63.0
+    z: 139.5
+    yaw: 787.0
+  ambient_033:
+    world: world
+    x: 62.5
+    y: 71.0
+    z: -121.5
+    yaw: 834.0
+  ambient_034:
+    world: world
+    x: 67.5
+    y: 70.0
+    z: -117.5
+    yaw: 881.0
+  ambient_035:
+    world: world
+    x: 197.5
+    y: 70.0
+    z: 84.5
+    yaw: 928.0
+  ambient_036:
+    world: world
+    x: 182.5
+    y: 69.0
+    z: 82.5
+    yaw: 975.0
+  ambient_037:
+    world: world
+    x: -153.5
+    y: 68.0
+    z: -74.5
+    yaw: 1022.0
+  ambient_038:
+    world: world
+    x: -151.5
+    y: 67.0
+    z: -80.5
+    yaw: 1069.0
+  ambient_039:
+    world: world
+    x: -209.5
+    y: 72.0
+    z: 57.5
+    yaw: 1116.0
+  ambient_040:
+    world: world
+    x: -206.5
+    y: 70.0
+    z: 52.5
+    yaw: 1163.0
+  ambient_041:
+    world: world
+    x: 0.5
+    y: 72.0
+    z: 4.5
+    yaw: 360.0
+  ambient_042:
+    world: world
+    x: 10.5
+    y: 72.0
+    z: -1.5
+    yaw: 407.0
+  ambient_043:
+    world: world
+    x: 6.5
+    y: 70.0
+    z: -3.5
+    yaw: 454.0
+  ambient_044:
+    world: world
+    x: 34.5
+    y: 64.0
+    z: 62.5
+    yaw: 501.0
+  ambient_045:
+    world: world
+    x: 127.5
+    y: 66.0
+    z: -42.5
+    yaw: 548.0
+  ambient_046:
+    world: world
+    x: 118.5
+    y: 66.0
+    z: -39.5
+    yaw: 595.0
+  ambient_047:
+    world: world
+    x: 98.5
+    y: 66.0
+    z: -20.5
+    yaw: 642.0
+  ambient_048:
+    world: world
+    x: 115.5
+    y: 67.0
+    z: -43.5
+    yaw: 689.0
+  ambient_049:
+    world: world
+    x: -63.5
+    y: 63.0
+    z: 133.5
+    yaw: 736.0
+  ambient_050:
+    world: world
+    x: -63.5
+    y: 63.0
+    z: 128.5
+    yaw: 783.0
+  ambient_051:
+    world: world
+    x: -59.5
+    y: 65.0
+    z: 132.5
+    yaw: 830.0
+  ambient_052:
+    world: world
+    x: -54.5
+    y: 65.0
+    z: 142.5
+    yaw: 877.0
+  ambient_053:
+    world: world
+    x: 65.5
+    y: 70.0
+    z: -114.5
+    yaw: 924.0
+  ambient_054:
+    world: world
+    x: 61.5
+    y: 65.0
+    z: -108.5
+    yaw: 971.0
+  ambient_055:
+    world: world
+    x: 188.5
+    y: 69.0
+    z: 89.5
+    yaw: 1018.0
+  ambient_056:
+    world: world
+    x: 174.5
+    y: 70.0
+    z: 80.5
+    yaw: 1065.0
+  ambient_057:
+    world: world
+    x: -156.5
+    y: 67.0
+    z: -84.5
+    yaw: 1112.0
+  ambient_058:
+    world: world
+    x: -147.5
+    y: 68.0
+    z: -89.5
+    yaw: 1159.0
+  ambient_059:
+    world: world
+    x: -201.5
+    y: 70.0
+    z: 55.5
+    yaw: 1206.0
+  ambient_060:
+    world: world
+    x: -198.5
+    y: 70.0
+    z: 57.5
+    yaw: 1253.0
+  ambient_061:
+    world: world
+    x: 7.5
+    y: 72.0
+    z: -5.5
+    yaw: 450.0
+  ambient_062:
+    world: world
+    x: 23.5
+    y: 70.0
+    z: -2.5
+    yaw: 497.0
+  ambient_063:
+    world: world
+    x: 14.5
+    y: 70.0
+    z: 3.5
+    yaw: 544.0
+  ambient_064:
+    world: world
+    x: 32.5
+    y: 67.0
+    z: 71.5
+    yaw: 591.0
+  ambient_065:
+    world: world
+    x: 118.5
+    y: 66.0
+    z: -34.5
+    yaw: 638.0
+  ambient_066:
+    world: world
+    x: 105.5
+    y: 64.0
+    z: -40.5
+    yaw: 685.0
+  ambient_067:
+    world: world
+    x: 91.5
+    y: 65.0
+    z: -31.5
+    yaw: 732.0
+  ambient_068:
+    world: world
+    x: 116.5
+    y: 66.0
+    z: -56.5
+    yaw: 779.0
+  ambient_069:
+    world: world
+    x: -59.5
+    y: 65.0
+    z: 132.5
+    yaw: 826.0
+  ambient_070:
+    world: world
+    x: -53.5
+    y: 65.0
+    z: 133.5
+    yaw: 873.0
+  ambient_071:
+    world: world
+    x: -52.5
+    y: 66.0
+    z: 143.5
+    yaw: 920.0
+  ambient_072:
+    world: world
+    x: -58.5
+    y: 65.0
+    z: 155.5
+    yaw: 967.0
+  ambient_073:
+    world: world
+    x: 53.5
+    y: 64.0
+    z: -108.5
+    yaw: 1014.0
+  ambient_074:
+    world: world
+    x: 50.5
+    y: 68.0
+    z: -114.5
+    yaw: 1061.0
+  ambient_075:
+    world: world
+    x: 183.5
+    y: 70.0
+    z: 77.5
+    yaw: 1108.0
+  ambient_076:
+    world: world
+    x: 179.5
+    y: 69.0
+    z: 68.5
+    yaw: 1155.0
+  ambient_077:
+    world: world
+    x: -144.5
+    y: 67.0
+    z: -88.5
+    yaw: 1202.0
+  ambient_078:
+    world: world
+    x: -136.5
+    y: 67.0
+    z: -83.5
+    yaw: 1249.0
+  ambient_079:
+    world: world
+    x: -197.5
+    y: 70.0
+    z: 67.5
+    yaw: 1296.0
+  ambient_080:
+    world: world
+    x: -204.5
+    y: 70.0
+    z: 67.5
+    yaw: 1343.0
