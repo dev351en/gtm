@@ -1,0 +1,29 @@
+# ----------------------------------------------------------------------------
+# GeyserMC Configuration for SD Craft (Paper 26.3 + Bedrock / Pocket Edition)
+# ----------------------------------------------------------------------------
+
+bedrock:
+  address: 0.0.0.0
+  # Default Bedrock UDP port; adjust if your hosting provider assigns a specific Bedrock port
+  port: 19132
+  motd1: "SD Craft - New Blockston City RP"
+  motd2: "GTA Roleplay SMP | Fresh Animations"
+
+remote:
+  address: auto
+  port: 25565
+  # floodgate allows Bedrock players to join seamlessly without separate Java login
+  auth-type: floodgate
+
+# ----------------------------------------------------------------------------
+# Bedrock Resource Pack Auto-Send Configuration
+# ----------------------------------------------------------------------------
+# Any .mcpack or .zip placed inside the 'packs' folder will be automatically
+# sent to connecting Bedrock and Pocket Edition (PE) clients.
+resource-packs:
+  # When true, Bedrock / PE players MUST download the resource pack to join the SMP
+  force-resource-packs: true
+
+# Advanced settings
+metrics:
+  enabled: false

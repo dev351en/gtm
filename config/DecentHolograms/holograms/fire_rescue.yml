@@ -1,0 +1,16 @@
+location: world:190.500:73.500:86.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+down-origin: false
+pages:
+  - lines:
+      - content: '&4&l🚒 &c&lSAN ANDREAS FIRE & RESCUE &4&l🚒'
+        height: 0.3
+      - content: '&fStation 4 - Hazardous Incident Response'
+        height: 0.3
+      - content: '&7Speak to &cChief Sullivan &7for emergency calls'
+        height: 0.3
+      - content: '&eFire extinguishers, heavy extraction & hazard gear'
+        height: 0.3

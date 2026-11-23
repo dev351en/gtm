@@ -1,0 +1,16 @@
+location: world:120.500:69.500:-45.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+down-origin: false
+pages:
+  - lines:
+      - content: '&9&l🛡 &b&lMETRO POLICE DEPARTMENT &9&l🛡'
+        height: 0.3
+      - content: '&fPrecinct 1 - San Andreas Law Enforcement'
+        height: 0.3
+      - content: '&7Speak to &bCaptain Miller &7for duty enlistment'
+        height: 0.3
+      - content: '&cWanted level reports & armory check-in'
+        height: 0.3

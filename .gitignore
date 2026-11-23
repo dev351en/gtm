@@ -12,3 +12,9 @@
 *.sqlite
 *.sqlite3
 eula.txt
+tools/fa_cache/
+
+# Ignore bulky third-party plugin binaries; download according to docs/PLUGIN_MANIFEST.md
+plugins/*.jar
+!plugins/VaultUnlocked-2.20.3.jar
+!plugins/SDCraftCore-1.0.0.jar

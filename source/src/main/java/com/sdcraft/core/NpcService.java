@@ -443,6 +443,14 @@ final class NpcService implements Listener {
                         trait.getClass().getMethod("setSkinName", String.class).invoke(trait, name(id));
                     } catch (Throwable ignored) {}
                 }
+                try {
+                    Class<?> lookCloseClass = Class.forName("net.citizensnpcs.trait.LookClose");
+                    Object lookClose = citizensNpc.getClass().getMethod("getOrAddTrait", Class.class)
+                            .invoke(citizensNpc, lookCloseClass);
+                    lookClose.getClass().getMethod("lookClose", boolean.class).invoke(lookClose, true);
+                    try { lookClose.getClass().getMethod("setRange", double.class).invoke(lookClose, 6.0); }
+                    catch (Throwable ignored) {}
+                } catch (Throwable ignored) {}
                 citizensNpc.getClass().getMethod("spawn", Location.class).invoke(citizensNpc, where);
                 Object result = citizensNpc.getClass().getMethod("getEntity").invoke(citizensNpc);
                 if (result instanceof Entity spawned) entity = spawned;
@@ -464,6 +472,8 @@ final class NpcService implements Listener {
                 villager.setAI(ambientNpc);
                 villager.setInvulnerable(!ambientNpc);
                 villager.setSilent(!ambientNpc);
+                villager.setCollidable(ambientNpc);
+                if (!ambientNpc) villager.setGravity(false);
                 villager.setRemoveWhenFarAway(false);
                 entity = villager;
             } catch (Exception ex) {

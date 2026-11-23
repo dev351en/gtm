@@ -1,0 +1,18 @@
+location: world:-150.500:70.500:-82.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+down-origin: false
+pages:
+  - lines:
+      - content: '&e&l🏎 &6&lPREMIUM MOTORSPORTS DEALERSHIP &e&l🏎'
+        height: 0.3
+      - content: '&fAuthorized MTVehicles Dealership & Showroom'
+        height: 0.3
+      - content: '&7Speak to &eDealer Marcus &7or Mechanic Axel'
+        height: 0.3
+      - content: '&bSedans, Supercars, Cruisers, Bikes & Helicopters'
+        height: 0.3
+      - content: '&aTest drive vehicles instantly via &f/arsenal'
+        height: 0.3

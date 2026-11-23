@@ -31,6 +31,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
     private GpsManager gps;
     private GtaEngine gta;
     private VaultWallet vaultWallet;
+    private CreativeArsenalManager arsenal;
     private YamlConfiguration dialogues, data;
     private File dataFile;
     private final Map<UUID, Pending> pending = new HashMap<>();
@@ -91,10 +92,11 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
         guns = new GunEngine(this);
         gps = new GpsManager(this);
         gta = new GtaEngine(this, ledger, gps);
+        arsenal = new CreativeArsenalManager(this, ledger, gps, gta, guns);
         npcs = new NpcService(this, dialogues, ledger, gta);
         Objects.requireNonNull(getCommand("sdcraft")).setExecutor(this);
         Objects.requireNonNull(getCommand("sdcraft")).setTabCompleter(this);
-        for (String c : List.of("map", "gps", "spawn", "car", "kit", "gun", "pack", "phone")) {
+        for (String c : List.of("map", "gps", "spawn", "car", "kit", "gun", "pack", "phone", "arsenal", "creativemenu", "testitems", "testing")) {
             if (getCommand(c) != null) {
                 Objects.requireNonNull(getCommand(c)).setExecutor(this);
                 Objects.requireNonNull(getCommand(c)).setTabCompleter(this);
@@ -336,6 +338,13 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
                 catch (Exception ex) { err(e.getPlayer(), "Phone unavailable: " + ex.getMessage()); }
                 return;
             }
+            if (item != null && item.getType() == Material.NETHER_STAR && item.hasItemMeta()
+                    && item.getItemMeta().hasDisplayName()
+                    && item.getItemMeta().getDisplayName().contains("Arsenal")) {
+                e.setCancelled(true);
+                if (arsenal != null) arsenal.openArsenal(e.getPlayer());
+                return;
+            }
             if (item != null && item.getType() == Material.COMPASS && item.hasItemMeta()
                     && item.getItemMeta().hasDisplayName()
                     && item.getItemMeta().getDisplayName().contains("GPS")) {
@@ -362,6 +371,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
 
     @EventHandler
     public void onInventory(InventoryClickEvent e) {
+        if (arsenal != null && arsenal.handleInventory(e)) return;
         if (gta.handleInventory(e)) return;
         if (e.getWhoClicked() instanceof Player gpPlayer && e.getView().getTitle().equals(GpsManager.GUI_TITLE)) {
             e.setCancelled(true);
@@ -422,9 +432,10 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
             return;
         e.setCancelled(true);
         ItemStack item = e.getCurrentItem();
-        if (item == null || !item.hasItemMeta() || !item.getItemMeta().hasDisplayName())
+        if (item == null || !item.hasItemMeta() || !item.getItemMeta().hasDisplayName() || item.getType() == Material.GRAY_STAINED_GLASS_PANE)
             return;
-        String action = item.getItemMeta().getDisplayName().replace("§b", "");
+        String action = item.getItemMeta().getDisplayName().replace("§b", "").trim();
+        if (action.isEmpty()) return;
         p.closeInventory();
         gta.handleNpcAction(p, action);
     }
@@ -519,24 +530,70 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
 
     private void openNpc(Player p, String id) {
         String lang = ledger.language(p.getUniqueId());
-        p.sendMessage(
-                "§6" + npcs.name(id) + " §7(" + npcs.role(id) + ") §8[" + npcs.skin(id) + " | " + npcs.model(id) + "]");
-        p.sendMessage("§f" + npcs.greeting(id, lang));
-        p.sendMessage("§7Free-text AI is enabled only when configured; /sdc talk " + id
-                + " <text>. Standard services use verified commands.");
+        String npcName = npcs.name(id);
+        String npcRole = npcs.role(id);
+        String npcDept = npcs.dept(id).toUpperCase(Locale.ROOT);
+        String greeting = npcs.greeting(id, lang);
+
+        p.sendMessage("§8━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
+        p.sendMessage("§6§l▶ §e§l" + npcName + " §7(" + npcRole + " • §6" + npcDept + "§7)");
+        p.sendMessage("§f\"" + greeting + "\"");
+        p.sendMessage("§7Select an action in the menu below or type §f/sdc help§7.");
+        p.sendMessage("§8━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
+
+        p.playSound(p.getLocation(), Sound.ENTITY_VILLAGER_YES, 0.8f, 1.1f);
+        p.sendActionBar(net.kyori.adventure.text.Component.text("§eSpeaking with §6" + npcName + " §7- §aChoose an action"));
+
         List<String> actions = npcs.actions(id);
-        Inventory inv = Bukkit.createInventory(null, 27, "SD Craft: " + npcs.name(id));
-        for (int i = 0; i < Math.min(18, actions.size()); i++) {
-            ItemStack item = new ItemStack(Material.PAPER);
+        Inventory inv = Bukkit.createInventory(null, 27, "SD Craft: " + npcName);
+
+        ItemStack border = new ItemStack(Material.GRAY_STAINED_GLASS_PANE);
+        ItemMeta bMeta = border.getItemMeta();
+        if (bMeta != null) {
+            bMeta.setDisplayName(" ");
+            border.setItemMeta(bMeta);
+        }
+        for (int i = 0; i < 27; i++) {
+            inv.setItem(i, border);
+        }
+
+        int[] actionSlots = { 10, 11, 12, 13, 14, 15, 16, 1, 2, 3, 4, 5, 6, 7 };
+        for (int i = 0; i < Math.min(actionSlots.length, actions.size()); i++) {
+            String act = actions.get(i);
+            Material mat = getThematicMaterial(act);
+            ItemStack item = new ItemStack(mat);
             ItemMeta meta = item.getItemMeta();
             if (meta != null) {
-                meta.setDisplayName("§b" + actions.get(i).replace('_', ' '));
+                meta.setDisplayName("§b" + act.replace('_', ' '));
+                meta.setLore(List.of(
+                        "§7Official " + npcDept + " Service",
+                        "§a▶ Click to proceed"
+                ));
                 item.setItemMeta(meta);
             }
-            inv.setItem(i, item);
+            inv.setItem(actionSlots[i], item);
         }
         guiNpc.put(p.getUniqueId(), id);
         p.openInventory(inv);
+    }
+
+    private Material getThematicMaterial(String action) {
+        String act = action.toLowerCase(Locale.ROOT);
+        if (act.contains("police") || act.contains("crime") || act.contains("duty") || act.contains("report"))
+            return Material.SHIELD;
+        if (act.contains("bank") || act.contains("balance") || act.contains("deposit") || act.contains("withdraw") || act.contains("transfer"))
+            return Material.EMERALD;
+        if (act.contains("medic") || act.contains("treatment") || act.contains("hospital") || act.contains("revive") || act.contains("first_aid"))
+            return Material.GOLDEN_APPLE;
+        if (act.contains("transit") || act.contains("metro") || act.contains("bus") || act.contains("taxi") || act.contains("ticket"))
+            return Material.COMPASS;
+        if (act.contains("car") || act.contains("vehicle") || act.contains("catalog") || act.contains("test_drive") || act.contains("repair"))
+            return Material.MINECART;
+        if (act.contains("fire") || act.contains("rescue") || act.contains("extinguisher"))
+            return Material.WATER_BUCKET;
+        if (act.contains("register") || act.contains("permit") || act.contains("statement"))
+            return Material.WRITABLE_BOOK;
+        return Material.GOLD_INGOT;
     }
 
     private void second() {
@@ -652,7 +709,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
     }
 
     private String commandHelp() {
-        return "/sdc map, gps, spawn, car, kit, gun, pack, ammo, account, promotion, bank, pin, confirm, cancel, npc, npcs, setnpc, duty, work, fees, taxi, ride, setsite, report, rob, surrender, revive, medical, mission, status, talk, zone, restore";
+        return "/sdc map, gps, spawn, car, kit, gun, pack, arsenal, testing, ammo, account, promotion, bank, pin, confirm, cancel, npc, npcs, setnpc, duty, work, fees, taxi, ride, setsite, report, rob, surrender, revive, medical, mission, status, talk, zone, restore";
     }
 
     @Override
@@ -736,14 +793,37 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
         }
         if (cmdName.equals("pack") || cmdName.equals("resourcepack") || cmdName.equals("packs")) {
             if (sender instanceof Player p) {
-                p.sendMessage("§e================ §6[ SD CRAFT 3D RESOURCE PACK ] §e================");
-                p.sendMessage("§fTo see 3D realistic cars, police cruisers, and QualityArmory guns:");
-                p.sendMessage("§aInstall §bresourcepacks/SDCraft_Unified_26.3_CityPack.zip §afrom the server files.");
-                p.sendMessage("§7Drop the ZIP into your §f.minecraft/resourcepacks §7folder and enable it.");
-                p.sendMessage("§e============================================================");
+                p.sendMessage("§e================ §6[ SD CRAFT UNIFIED RESOURCE PACK ] §e================");
+                p.sendMessage("§a★ Included Systems:");
+                p.sendMessage("§f  • §aFresh Animations 1.11.2 (26.3) §8+ §eAll Extensions §7(Details, Emissive, Objects, Player)");
+                p.sendMessage("§f  • §b3D MTVehicles §7(Cars, Bikes, Helicopters, Speedboats)");
+                p.sendMessage("§f  • §cQualityArmory Firearms §7(70 realistic modern weapons)");
+                p.sendMessage("§f  • §6City Custom Items §7(Phone, ATM cards, Cash, Metro tickets)");
+                p.sendMessage("§e★ Client Recommendation:");
+                p.sendMessage("§7  Use §fEntity Model Features (EMF) §7+ §fETF §7or OptiFine on your client for full CEM animations!");
+                p.sendMessage("§e★ Direct Download:");
+                p.sendMessage("§b  resourcepacks/SDCraft_Unified_26.3_CityPack.zip §7(Mandatory SMP Pack)");
+                p.sendMessage("§b  resourcepacks/FreshAnimations_v1.11.2_All_Extensions_26.3.zip §7(Standalone FA)");
+                p.sendMessage("§e==================================================================");
                 p.playSound(p.getLocation(), Sound.UI_BUTTON_CLICK, 0.8f, 1.2f);
             } else {
                 msg(sender, "Resource pack: resourcepacks/SDCraft_Unified_26.3_CityPack.zip");
+            }
+            return true;
+        }
+        if (cmdName.equals("arsenal") || cmdName.equals("creativemenu") || cmdName.equals("testitems")) {
+            if (sender instanceof Player p) {
+                arsenal.openArsenal(p);
+            } else {
+                msg(sender, "Creative Testing Arsenal is for players in-game.");
+            }
+            return true;
+        }
+        if (cmdName.equals("testing")) {
+            if (sender instanceof Player p) {
+                arsenal.enableTestingMode(p);
+            } else {
+                msg(sender, "Testing mode is for players in-game.");
             }
             return true;
         }
@@ -777,6 +857,16 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
         }
         if (action.equals("gun") && !a[1].equalsIgnoreCase("give")) {
             if (sender instanceof Player p) gta.handleStandaloneGun(p, Arrays.copyOfRange(a, 1, a.length));
+            return true;
+        }
+        if (action.equals("arsenal") || action.equals("creativemenu") || action.equals("testitems")) {
+            if (sender instanceof Player p) arsenal.openArsenal(p);
+            else msg(sender, "Creative Testing Arsenal is for players in-game.");
+            return true;
+        }
+        if (action.equals("testing")) {
+            if (sender instanceof Player p) arsenal.enableTestingMode(p);
+            else msg(sender, "Testing mode is for players in-game.");
             return true;
         }
         if (gta.handles(action)) {

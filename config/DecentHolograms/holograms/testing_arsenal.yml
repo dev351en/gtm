@@ -1,0 +1,16 @@
+location: world:8.500:73.500:17.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+down-origin: false
+pages:
+  - lines:
+      - content: '&d&l⚔ &5&lDEVELOPER & TESTING ARSENAL &d&l⚔'
+        height: 0.3
+      - content: '&eInstant Creative & Roleplay Testing Suite'
+        height: 0.3
+      - content: '&fClick or run &a/arsenal &f/ &a/testing'
+        height: 0.3
+      - content: '&bAll Vehicles • QualityArmory Guns • Ammo • Godmode'
+        height: 0.3

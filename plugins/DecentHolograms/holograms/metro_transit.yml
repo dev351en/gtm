@@ -1,0 +1,16 @@
+location: world:26.500:71.500:63.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+down-origin: false
+pages:
+  - lines:
+      - content: '&3&l🚆 &b&lSAN ANDREAS METRO & TRANSIT &3&l🚆'
+        height: 0.3
+      - content: '&fTrainCarts High-Speed Rail Network'
+        height: 0.3
+      - content: '&7Speak to &bConductor Vance &7for route maps'
+        height: 0.3
+      - content: '&eAutomated trains arriving every 60 seconds'
+        height: 0.3

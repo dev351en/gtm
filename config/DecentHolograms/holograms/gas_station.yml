@@ -1,0 +1,16 @@
+location: world:-204.500:73.500:60.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+down-origin: false
+pages:
+  - lines:
+      - content: '&6&l⛽ &e&lCITY CENTRAL GAS & REPAIR &6&l⛽'
+        height: 0.3
+      - content: '&fVehicle Refuel, Maintenance & Roadside Assist'
+        height: 0.3
+      - content: '&7Speak to &eAttendant Otis &7for Jerry Cans & Tuning'
+        height: 0.3
+      - content: '&aKeep your vehicle fueled & tires inflated'
+        height: 0.3

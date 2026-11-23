@@ -1,0 +1,16 @@
+location: world:56.500:70.500:-118.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+down-origin: false
+pages:
+  - lines:
+      - content: '&2&l$ &a&lFIRST NATIONAL CITY BANK &2&l$'
+        height: 0.3
+      - content: '&fSan Andreas Financial Reserve & Vault'
+        height: 0.3
+      - content: '&7Speak to &aBanker Jenkins &7to access accounts & balance'
+        height: 0.3
+      - content: '&eDeposit, withdraw, transfer & safety deposit vaults'
+        height: 0.3

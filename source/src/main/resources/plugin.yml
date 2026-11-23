@@ -38,6 +38,10 @@ commands:
   phone:
     description: Open the city services phone
     usage: /phone
+  arsenal:
+    description: Open the Creative Testing Arsenal for vehicles, guns, ammo, cash, and teleportation
+    usage: /arsenal
+    aliases: [creativemenu, testitems, testing]
 permissions:
   sdcraft.player:
     description: Basic player commands for SD Craft

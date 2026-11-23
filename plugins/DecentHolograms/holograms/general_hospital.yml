@@ -1,0 +1,16 @@
+location: world:-61.500:68.500:140.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+down-origin: false
+pages:
+  - lines:
+      - content: '&c&l✚ &f&lMOUNT ZONAH GENERAL HOSPITAL &c&l✚'
+        height: 0.3
+      - content: '&fEmergency Medical Services & Trauma Center'
+        height: 0.3
+      - content: '&7Speak to &aChief Hayes &7for medical care & revive kits'
+        height: 0.3
+      - content: '&eHealthcare subsidies & medkit dispensary'
+        height: 0.3

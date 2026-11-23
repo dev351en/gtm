@@ -1,0 +1,16 @@
+location: world:10.500:73.500:3.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+down-origin: false
+pages:
+  - lines:
+      - content: '&6&l🏛 &e&lCITY HALL &6&l🏛'
+        height: 0.3
+      - content: '&fCivilian Registrations & City Administration'
+        height: 0.3
+      - content: '&7Speak to &eMayor Sterling &7or &eClerk Davis'
+        height: 0.3
+      - content: '&aGet Citizen IDs, Property Permits, City Directives'
+        height: 0.3

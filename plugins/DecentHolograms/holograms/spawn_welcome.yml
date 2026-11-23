@@ -1,0 +1,20 @@
+location: world:10.500:74.200:15.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+down-origin: false
+pages:
+  - lines:
+      - content: '&6&l★ &e&lSDCRAFT &6&l- &f&lGTA ROLEPLAY &6&l★'
+        height: 0.3
+      - content: '&7Welcome to the San Andreas City experience!'
+        height: 0.3
+      - content: '&bType &f/testing &bto enter instant testing mode'
+        height: 0.3
+      - content: '&aType &f/arsenal &afor Vehicles, Guns & Testing Gear'
+        height: 0.3
+      - content: '&eInteract with NPCs around the city to take jobs & services'
+        height: 0.3
+      - content: '&dPress &fM &dto view the live City Map & GPS'
+        height: 0.3

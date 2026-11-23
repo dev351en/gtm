@@ -115,6 +115,15 @@ final class GtaEngine implements Listener {
         }
     }
 
+    void clearWanted(Player player) {
+        if (player == null) return;
+        String base = playerPath(player.getUniqueId());
+        state.set(base + ".wanted", 0);
+        state.set(base + ".last-crime", 0L);
+        save();
+        updateHud(player);
+    }
+
     boolean handles(String action) {
         return Set.of("phone", "shop", "garage", "wanted", "surrender", "arrest", "jail",
                 "mission", "missions", "rob").contains(action);
