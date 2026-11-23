@@ -1,8 +1,8 @@
-# SD Craft — current project status
+# SD Craft - current project status
 
 Date: 2026-11-24  
 Target: Paper 26.3 build 255, Java 25, MCServerHost 3.5 GB RAM / 10 GB disk,
-approximately 3–4 players.
+approximately 3-4 players.
 
 ## Current verified artifact
 
@@ -11,11 +11,12 @@ SHA256: `9e7abd30aa4c2821b0ab5a19bfa598a4de0849f488a84fc60fe9952f897f4d37`
 Size: 405,682,396 bytes  
 Archive entries: 745
 
-The archive was extracted into a new disposable directory and booted with Java
-25. It reached `Done`, loaded 20 plugins, reported `Economy Legacy: SDCraft
-Wallet`, confirmed the original NPC anchors, and stopped cleanly. The packaged world was
-allowed to perform Paper’s one-time storage migration only in that disposable
-copy; the canonical world and Aternos backup were not overwritten.
+The NPC100 payload was booted in a new disposable directory with Java 25 using
+the exact packaged SDCraftCore JAR hash. It reached `Done`, loaded 20 plugins,
+reported `configured=100` and 100 anchors, connected the SD Craft wallet, and
+stopped cleanly. The final ZIP passed CRC and content verification. Paper's
+one-time world migration occurred only in that disposable copy; the canonical
+world and Aternos backup were not overwritten.
 
 ## Verified implementation
 
@@ -24,8 +25,7 @@ copy; the canonical world and Aternos backup were not overwritten.
   `mtv vault setup` after startup; the smoke log confirms MTVehicles uses it.
 - ProtocolLib and SimpleLogin load without the plaintext-password warning;
   SimpleLogin uses a valid one-day session.
-- Runtime and fresh-install NPC defaults use audited walkable coordinates.
-  `docs/validate_sites.py` reports 38/38 valid site and anchor positions.
+- The original runtime and named-NPC defaults use audited walkable coordinates.
 - The dense-city update configures 100 NPC identities: 20 protected service
   characters plus 80 proximity-managed pedestrians and merchants. Ambient
   characters wander; about 30% retaliate, others flee, and defeated ambient
@@ -33,8 +33,8 @@ copy; the canonical world and Aternos backup were not overwritten.
 - GTA layer includes phone/shop/garage, GPS, wanted/arrest/jail/fines,
   waypoint missions, duty/salary/credits, and approval-based promotion.
 - The 15-PNG branding bundle is generated and validated.
-- The unified city pack is rebuilt with branding, phone, cash, metro ticket,
-  vehicle, and QualityArmory content. Current SHA1:
+- The unified city pack contains branding, phone, cash, metro ticket, vehicle,
+  and QualityArmory content. Current SHA1:
   `4633349625598AF3EFF64CAF24C74FB953BF0A4D`.
 
 ## Honest remaining gates
@@ -43,8 +43,9 @@ copy; the canonical world and Aternos backup were not overwritten.
   URL, SHA1, stable UUID, and required-pack setting are in `server.properties`.
 - BlueMap is installed but needs owner approval for its Mojang client-resource
   download acceptance before it can render.
-- A real player interaction pass remains for login, phone, economy, NPCs,
-  missions, transport, crime, medical, Bedrock UI, and promotion.
+- A real-player interaction pass remains for login, phone, economy, NPC
+  walking/retaliation/loot, missions, transport, crime, medical, Bedrock UI,
+  and promotion.
 - WorldGuard safe-zone regions and event-driven robbery are not enabled;
   robbery remains disabled.
 - Autonomous NPC vehicle driving, full heists, and several advanced simulation
