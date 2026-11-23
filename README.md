@@ -64,7 +64,7 @@ The complete host-upload archive is intentionally not committed to this public
 repository. It contains third-party plugin JARs whose licenses and distribution
 terms differ; at least two currently declare All Rights Reserved. Publish those
 JARs only with permission from their authors. The local tested artifact is
-named `EXPECT_SDCRAFT_FINAL_GITHUB_2026-11-23.zip`.
+named `EXPECT_SDCRAFT_FINAL_GITHUB_2026-11-24.zip`.
 
 ## Important limitations
 
