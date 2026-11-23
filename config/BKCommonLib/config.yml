@@ -1,0 +1,13 @@
+# SD Craft BKCommonLib profile for TrainCarts 2.0.5.
+# Missing keys use BKCommonLib 2.0.6 defaults.
+
+enableMapDisplays: true
+enableItemFrameDisplays: false
+enableItemFrameTiling: false
+teleportPlayersToSeat: true
+forceSynchronousSaving: false
+cloudDisableBrigadier: false
+preloadTemplateClasses: false
+trackForcedChunkCreationStack: false
+fallbackItemModelType: IRON_NUGGET
+enableProtocolLibPacketHandler: true

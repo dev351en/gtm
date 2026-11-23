@@ -32,14 +32,27 @@ world.
 - Java 25
 - Approximately 3-4 concurrent players
 - 3.5 GB RAM and 10 GB disk target
-- 20 validated plugin JARs in the private portable server build
+- 22 validated plugin JARs in the private portable server build
 - 71 SDCraftCore automated tests
 - 38/38 audited original service coordinates
 - 100 configured NPC identities and 100 generated runtime anchors
 
-The exact portable server archive reached `Done`, reported all 20 plugins,
+The exact portable server archive reached `Done`, reported all 22 plugins,
 registered `SDCraft Wallet` with Vault, connected MTVehicles to that wallet,
-and reported a 100-person population policy with 100 anchors.
+reported a 100-person population policy with 100 anchors, and enabled
+TrainCarts 2.0.5 with its required BKCommonLib 2.0.6 dependency.
+
+## TrainCarts integration
+
+The private portable build includes the official Paper 26.3 versions of
+TrainCarts and BKCommonLib. A full-server boot reached `Done`; `train version`
+reported both exact builds and the startup log confirmed TrainCarts detected
+the SDCraftCore Vault economy. Conservative example configurations are in
+`config/Train_Carts/` and `config/BKCommonLib/`.
+
+This installs the train engine only. A physical rail line, stations, saved
+train, and route signs have not been built in the city world yet. See the
+[TrainCarts setup guide](docs/TRAINCARTS_SETUP.md) before staging a route.
 
 ## Dense city population
 
@@ -78,7 +91,7 @@ The complete host-upload archive is intentionally not committed to this public
 repository. It contains third-party plugin JARs whose licenses and distribution
 terms differ; at least two currently declare All Rights Reserved. Publish those
 JARs only with permission from their authors. The local tested artifact is
-named `EXPECT_SDCRAFT_NPC100_2026-11-24.zip`.
+named `EXPECT_SDCRAFT_TRAINCARTS_2026-11-24.zip`.
 
 ## Important limitations
 
@@ -88,6 +101,8 @@ named `EXPECT_SDCRAFT_NPC100_2026-11-24.zip`.
   verified.
 - Autonomous NPC vehicle driving and full heists are not represented as
   complete features.
+- TrainCarts is installed and boot-tested, but the physical railway and
+  real-player route test remain pending.
 - VoxelMap is client-side software; Invisible Item Frames and Placeable Items
   did not provide compatible Paper 26.3 server builds.
 

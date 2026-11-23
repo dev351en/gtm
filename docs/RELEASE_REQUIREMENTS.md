@@ -22,10 +22,14 @@ production deployment. The following gates remain explicit:
 7. Measure memory, TPS, disk growth, and logs on the target host with 3–4
    players before public use. Keep the proximity-managed population within 6
    police and 94 non-police; reduce those caps if the target host loses TPS.
-8. Preserve the Aternos backup. Replace the isolated world with a newer Aternos
+8. Build the first TrainCarts line in a disposable world copy. Verify rails,
+   station signs, boarding/ejection, route recovery, fare ownership, train
+   persistence after restart, and TPS. Keep `keepChunksLoaded` off until an
+   unattended-route test proves the host can afford it.
+9. Preserve the Aternos backup. Replace the isolated world with a newer Aternos
    save only when the owner explicitly selects that save and it has been copied
    into a separate backup first.
-9. Obtain final deployment approval and a fresh target-host backup before any
+10. Obtain final deployment approval and a fresh target-host backup before any
    upload or live-server mutation.
 
 Features such as NPC autonomous vehicle driving, full heists, event-driven

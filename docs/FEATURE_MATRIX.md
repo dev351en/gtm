@@ -8,7 +8,7 @@ tested.
 | Feature | Status | Evidence / limitation |
 |---|---|---|
 | New Blockston world | Included | Isolated world copy is packed; it is not asserted to be the newest Aternos save. |
-| Paper 26.3 / Java 25 | Tested | Disposable full server reaches `Done` with 20 plugins. |
+| Paper 26.3 / Java 25 | Tested | Disposable full server reaches `Done` with 22 plugins. |
 | 60 approved NPC policy choices | Included | Preserved in the user handoff and blueprint/dialogue files. |
 | City population | Implemented; player test pending | 100 configured identities: 20 protected named service NPCs plus 80 generated pedestrians and merchants. |
 | NPC proximity spawning | Boot tested | Citizens reflection with villager fallback; 56/80 block hysteresis; 100 anchors generated on the live Paper world copy. |
@@ -25,6 +25,7 @@ tested.
 | Police dispatch / witnesses | Partial | Human police messaging and policy checks; no full pursuit or witness intelligence. |
 | Medical fees and treatment | Implemented; player smoke pending | Site-based diagnosis/treatment/admission flows. SimpleRevive owns downed state. |
 | Taxi, bus, metro | Implemented as simulated transport; player smoke pending | Fare quote and verified destination teleport; no autonomous vehicle movement. |
+| Physical TrainCarts rail service | Plugin boot-tested; infrastructure pending | TrainCarts 2.0.5 and BKCommonLib 2.0.6 load on Paper 26.3, report the SD Craft economy hook, and use guarded low-memory settings. No rails, stations, saved trains, or live routes have been built in the city yet. |
 | Jobs, duty salary, credits, promotion approval | Implemented; player smoke pending | Duty tracking, thresholds, and human approval command are present. |
 | Waypoint missions | Implemented; player smoke pending | Persisted checkpoint routes pay on verified arrival. Passenger/theft/evidence events remain partial. |
 | Offline English/Hindi/Hinglish dialogue | Implemented; unit tested | Deterministic local parser and scripted fallback; external AI is off by default. |

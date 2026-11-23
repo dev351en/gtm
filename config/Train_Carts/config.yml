@@ -1,0 +1,20 @@
+# SD Craft TrainCarts profile for Paper 26.3 and a 3.5 GB SMP host.
+# Missing keys use TrainCarts 2.0.5 defaults.
+
+resourcePack: server
+keepChunksLoadedOnlyWhenMoving: true
+maxKeepChunksLoadedRadius: 2
+
+enabledWorlds:
+  - world
+disabledWorlds: []
+spawnSignCooldown: 5.0
+cartLimits:
+  maxCartsPerWorld: 80
+  countUnloaded: true
+  maxCartsPerTrain: 8
+
+allowSchematicAttachment: false
+pathFindingMaxProcessingPerTick: 10
+attachmentTransformParallelism: 1
+currencyFormat: '$%value%'

@@ -149,3 +149,28 @@ plugins, reached `Done`, registered the Vault wallet, generated 100 NPC anchors,
 and reported `configured=100, active police=0/6, other=0/94` with no players
 online. Actual wandering, retaliation, defeat loot, and multi-player
 performance still require a real-player staging test before production.
+
+## TrainCarts integration update - 2026-11-24
+
+The canonical candidate now includes the official Paper 26.3 releases
+TrainCarts 2.0.5 build 1787 and its required BKCommonLib 2.0.6 build 2110.
+Both downloads passed their Modrinth SHA-512 checks and full JAR CRC checks.
+
+A disposable Java 25 / Paper 26.3 boot initialized 22 plugins and reached
+`Done`. `train version` reported Train_Carts 2.0.5, BKCommonLib 2.0.6, and
+Paper 26.3. The startup log confirmed `Support for Economy plugin
+'SDCraftCore' enabled`, so TrainCarts sees the same Vault wallet used by SD
+Craft. A clean `stop` disabled and persisted both plugins without an error.
+
+The production profile reuses the server resource pack, keeps train chunk
+loading opt-in, stops holding chunks when a train is not moving, limits the
+radius to two chunks, caps the main world at 80 carts and eight carts per
+train, limits route calculation to 10 ms/tick, uses one attachment worker, and
+disables schematic attachments and unused BKCommonLib item-frame tracking.
+
+The TrainCarts Ticket Shop addon was intentionally not installed: its current
+release does not declare Minecraft 26.3 support, and a second ticket economy
+would compete with the existing SD Craft metro fare and wallet flow. No
+physical rail line, station, saved train, or route sign has been placed yet;
+that world-building and real-player test remains a release gate documented in
+`docs/TRAINCARTS_SETUP.md`.

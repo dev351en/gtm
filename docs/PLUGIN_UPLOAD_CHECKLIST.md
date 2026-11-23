@@ -1,10 +1,11 @@
 # SD Craft plugin upload checklist
 
-The portable release contains 20 valid Paper plugin JARs. Each JAR opens as a
+The portable release contains 22 valid Paper plugin JARs. Each JAR opens as a
 valid ZIP/JAR and contains a Paper or Bukkit plugin descriptor.
 
 | File | Server plugin name | Version |
 |---|---|---|
+| `BKCommonLib-2.0.6-2110.jar` | BKCommonLib | 2.0.6 build 2110 |
 | `bluemap-5.29-paper.jar` | BlueMap | 5.29 |
 | `Citizens-2.0.44-b4275.jar` | Citizens | 2.0.44 build 4275 |
 | `ClearLag-2.0.3.jar` | ClearLag | 2.0.3 |
@@ -22,6 +23,7 @@ valid ZIP/JAR and contains a Paper or Bukkit plugin descriptor.
 | `SimpleRevive-1.5.0.0.jar` | SimpleRevive | 1.5.0.0 |
 | `SkinsRestorer-15.12.6.jar` | SkinsRestorer | 15.12.6 |
 | `SmoothElevator-1.4.jar` | Elevador | 1.4 |
+| `TrainCarts-2.0.5-1787.jar` | Train_Carts | 2.0.5 build 1787 |
 | `VaultUnlocked-2.20.3.jar` | Vault | 2.20.3 |
 | `worldedit-bukkit-7.4.6.jar` | WorldEdit | 7.4.6 |
 | `worldguard-bukkit-7.0.21.jar` | WorldGuard | 7.0.21 |
@@ -35,10 +37,10 @@ The `/plugins` command shows descriptor names, so SmoothElevator appears as
 2. Extract the release into the server root. The server root must directly
    contain `plugins/`, `world/`, `server.properties`, and
    `paper-26.3-255.jar`; do not leave them inside an extra enclosing folder.
-3. Confirm all 20 JARs exist in the host's root-level `plugins/` folder.
+3. Confirm all 22 JARs exist in the host's root-level `plugins/` folder.
 4. Start with Java 25 and Paper 26.3 build 255.
 5. Wait for the console to print `Done`, then run `plugins` in the console.
-6. If fewer than 20 load, download `logs/latest.log`; the first `ERROR`,
+6. If fewer than 22 load, download `logs/latest.log`; the first `ERROR`,
    `SEVERE`, `Could not load`, or `Unknown/missing dependency` line identifies
    the host-side problem.
 
@@ -53,3 +55,6 @@ backup.
 
 Those three are intentionally absent rather than disguised as working server
 plugins.
+
+TrainCarts needs BKCommonLib. Keep both JARs together and do not hot-reload
+either plugin. See `docs/TRAINCARTS_SETUP.md` before building a live route.

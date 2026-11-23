@@ -8,7 +8,17 @@ ZIP.
 Bundled integrations include Paper, VaultUnlocked, LuckPerms, WorldEdit,
 WorldGuard, Citizens, BlueMap, MTVehicles, QualityArmory, CommandPanels,
 ProtocolLib, SimpleLogin, SimpleRevive, PlayerCorpses, GSit, DreamDisplays,
-DecentHolograms, ClearLag++, SkinsRestorer, and The Smooth Elevator.
+DecentHolograms, ClearLag++, SkinsRestorer, The Smooth Elevator, TrainCarts,
+and BKCommonLib.
+
+Train integration acquired from the official Modrinth projects:
+
+- `TrainCarts-2.0.5-1787.jar` - Train_Carts 2.0.5 build 1787, MIT,
+  <https://modrinth.com/plugin/traincarts>
+  SHA-512: `241A0B54CE666CD5DA2136A0212C237AEF975FA477B1C4BD227BFF92D06DB5416CA14974E6F5091CF483A2CD103F5A7AC2BD33C9FA9E46FE52A2C6D31266E726`
+- `BKCommonLib-2.0.6-2110.jar` - BKCommonLib 2.0.6 build 2110, MIT,
+  <https://modrinth.com/plugin/bkcommonlib>
+  SHA-512: `873AE3F31E2944667B11639663235D2AE921C16F1A03096AA7402345A0A10B6615CC7D6490527961C423DEE9224D0206CD3C3231E291AA33D6DF190204165748`
 
 The exact versions and SHA-512 records used during acquisition are preserved in
 the working project history and startup logs. Do not replace a JAR without
@@ -24,6 +34,9 @@ Important integration notes:
   download acceptance and the target host’s disk/port budget is checked.
 - Geyser/Floodgate and Bedrock client support are not bundled here.
 - VoxelMap is client-side Fabric software and is not a Paper server plugin.
+- TrainCarts Ticket Shop was not bundled because its current release does not
+  declare Paper/Minecraft 26.3 support and SD Craft already owns metro fares in
+  its single authoritative wallet ledger.
 
 No credentials, API keys, Aternos backup, or live-host data belongs in this
 manifest or release archive.

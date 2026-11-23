@@ -6,13 +6,13 @@ approximately 3-4 players.
 
 ## Current verified artifact
 
-[EXPECT_SDCRAFT_NPC100_2026-11-24.zip](D:\Games\SDCRAFT\EXPECT_SDCRAFT_NPC100_2026-11-24.zip)  
-SHA256: `9e7abd30aa4c2821b0ab5a19bfa598a4de0849f488a84fc60fe9952f897f4d37`  
-Size: 405,682,396 bytes  
-Archive entries: 745
+- Artifact: `EXPECT_SDCRAFT_TRAINCARTS_2026-11-24.zip`
+- SHA256: `f242ebb3698a65ed1c04f985598858def02d0cdac1fead933a5f4134596aeeaf`
+- Size: 417,663,392 bytes
+- Archive entries: 750
 
 The NPC100 payload was booted in a new disposable directory with Java 25 using
-the exact packaged SDCraftCore JAR hash. It reached `Done`, loaded 20 plugins,
+the exact packaged SDCraftCore JAR hash. It reached `Done`, loaded 22 plugins,
 reported `configured=100` and 100 anchors, connected the SD Craft wallet, and
 stopped cleanly. The final ZIP passed CRC and content verification. Paper's
 one-time world migration occurred only in that disposable copy; the canonical
@@ -25,6 +25,9 @@ world and Aternos backup were not overwritten.
   `mtv vault setup` after startup; the smoke log confirms MTVehicles uses it.
 - ProtocolLib and SimpleLogin load without the plaintext-password warning;
   SimpleLogin uses a valid one-day session.
+- TrainCarts 2.0.5 and BKCommonLib 2.0.6 pass their official SHA-512 checks,
+  enable on Paper 26.3, and detect the SDCraftCore Vault economy. The packaged
+  low-memory configuration caps cart counts and keeps chunk loading opt-in.
 - The original runtime and named-NPC defaults use audited walkable coordinates.
 - The dense-city update configures 100 NPC identities: 20 protected service
   characters plus 80 proximity-managed pedestrians and merchants. Ambient
@@ -46,6 +49,9 @@ world and Aternos backup were not overwritten.
 - A real-player interaction pass remains for login, phone, economy, NPC
   walking/retaliation/loot, missions, transport, crime, medical, Bedrock UI,
   and promotion.
+- A physical TrainCarts rail line, station signs, saved train, and route still
+  need to be built and tested in a disposable world copy; plugin installation
+  alone does not add railway infrastructure.
 - WorldGuard safe-zone regions and event-driven robbery are not enabled;
   robbery remains disabled.
 - Autonomous NPC vehicle driving, full heists, and several advanced simulation
