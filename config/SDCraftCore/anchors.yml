@@ -1,0 +1,123 @@
+# SD Craft NPC Official Anchor Coordinates
+# Pre-calibrated across New Blockston city landmarks
+anchors:
+  nisha_bhat:
+    world: world
+    x: 8.0
+    y: 71.0
+    z: 4.0
+    yaw: 180.0
+  sameer_qureshi:
+    world: world
+    x: 16.0
+    y: 71.0
+    z: 4.0
+    yaw: 90.0
+  rehan_khan:
+    world: world
+    x: 6.0
+    y: 71.0
+    z: 4.0
+    yaw: 270.0
+  anjali_rao:
+    world: world
+    x: 26.0
+    y: 68.0
+    z: 64.0
+    yaw: 0.0
+  mira_rao:
+    world: world
+    x: 120.0
+    y: 66.0
+    z: -44.0
+    yaw: 180.0
+  arjun_shah:
+    world: world
+    x: 114.0
+    y: 67.0
+    z: -46.0
+    yaw: 90.0
+  kabir_sethi:
+    world: world
+    x: 100.0
+    y: 68.0
+    z: -28.0
+    yaw: 0.0
+  riya_kapoor:
+    world: world
+    x: 122.0
+    y: 66.0
+    z: -48.0
+    yaw: 0.0
+  asha_mehta:
+    world: world
+    x: -62.0
+    y: 65.0
+    z: 142.0
+    yaw: 180.0
+  rohan_iyer:
+    world: world
+    x: -62.0
+    y: 65.0
+    z: 138.0
+    yaw: 90.0
+  sana_ali:
+    world: world
+    x: -62.0
+    y: 65.0
+    z: 140.0
+    yaw: 270.0
+  karan_joshi:
+    world: world
+    x: -62.0
+    y: 65.0
+    z: 146.0
+    yaw: 0.0
+  priya_desai:
+    world: world
+    x: 60.0
+    y: 68.0
+    z: -116.0
+    yaw: 180.0
+  aditya_verma:
+    world: world
+    x: 62.0
+    y: 69.0
+    z: -116.0
+    yaw: 270.0
+  kavya_nair:
+    world: world
+    x: 192.0
+    y: 70.0
+    z: 82.0
+    yaw: 180.0
+  dev_malhotra:
+    world: world
+    x: 182.0
+    y: 69.0
+    z: 78.0
+    yaw: 90.0
+  imran_sheikh:
+    world: world
+    x: -150.0
+    y: 69.0
+    z: -80.0
+    yaw: 180.0
+  neha_patel:
+    world: world
+    x: -146.0
+    y: 67.0
+    z: -82.0
+    yaw: 270.0
+  vikram_singh:
+    world: world
+    x: -206.0
+    y: 70.0
+    z: 62.0
+    yaw: 180.0
+  meera_kulkarni:
+    world: world
+    x: -206.0
+    y: 70.0
+    z: 58.0
+    yaw: 90.0

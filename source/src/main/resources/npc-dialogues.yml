@@ -1,0 +1,319 @@
+npcs:
+  mira_rao:
+    name: Captain Mira Rao
+    role: Police commander
+    department: police
+    personality: authoritative
+    greeting:
+      en: Welcome to SDPD. I can help you report a crime, review an incident, or apply
+        for duty.
+      hi: SDPD में आपका स्वागत है। आप अपराध की रिपोर्ट कर सकते हैं, घटना की जानकारी
+        ले सकते हैं या ड्यूटी के लिए आवेदन कर सकते हैं।
+    actions:
+    - report_crime
+    - review_report
+    - apply_police_job
+    skin: skin_mira_rao.png
+    model: slim
+    skin_sha256: 1d95d234ccc6ca87440a48e312bf48553af2f71ff4c3ea82c32e02aa0a5760fd
+  arjun_shah:
+    name: Officer Arjun Shah
+    role: Patrol officer
+    department: police
+    personality: firm and calm
+    greeting:
+      en: I am on patrol. You can report suspicious activity or request police assistance.
+      hi: मैं गश्त पर हूँ। आप संदिग्ध गतिविधि की रिपोर्ट कर सकते हैं या पुलिस सहायता
+        माँग सकते हैं।
+    actions:
+    - report_crime
+    - request_assistance
+    skin: skin_arjun_shah.png
+    model: classic
+    skin_sha256: b72ca1e995e6b88db3046f4bf82fa6d08fa60dfc65390abe0b56d0b5fc93738f
+  kabir_sethi:
+    name: Officer Kabir Sethi
+    role: Response officer
+    department: police
+    personality: clear and direct
+    greeting:
+      en: For your safety, follow my instructions. You may explain the situation before
+        any arrest decision is made.
+      hi: आपकी सुरक्षा के लिए मेरे निर्देशों का पालन करें। गिरफ्तारी का निर्णय लेने
+        से पहले आप अपनी बात रख सकते हैं।
+    actions:
+    - view_incident
+    - surrender
+    - request_supervisor
+    skin: skin_kabir_sethi.png
+    model: classic
+    skin_sha256: 6cdbada7e3218b150b48c25e215a3b504f64448e875f252dc436a88fd531dd97
+  riya_kapoor:
+    name: Detective Riya Kapoor
+    role: Detective
+    department: police
+    personality: methodical
+    greeting:
+      en: I can take your statement and review recorded evidence. Only verified reports
+        affect the case.
+      hi: मैं आपका बयान दर्ज कर सकती हूँ और उपलब्ध सबूत देख सकती हूँ। केवल सत्यापित
+        रिपोर्ट ही मामले को प्रभावित करेगी।
+    actions:
+    - give_statement
+    - review_case
+    skin: skin_riya_kapoor.png
+    model: slim
+    skin_sha256: bce5c5e8f781decf84548fcabe784f0b0a50745d97c811a75caab84971e853af
+  asha_mehta:
+    name: Dr. Asha Mehta
+    role: Hospital doctor
+    department: medical
+    personality: reassuring
+    greeting:
+      en: Tell me what happened. We can examine injuries, run tests, and discuss treatment
+        costs before proceeding.
+      hi: बताइए क्या हुआ। हम चोटों की जाँच, टेस्ट और इलाज की फीस पहले बता सकते हैं।
+    actions:
+    - diagnosis
+    - medical_tests
+    - treatment
+    skin: skin_asha_mehta.png
+    model: slim
+    skin_sha256: d01c6a52b4cab947279932a7113cccf1d921f8e0fa6611c301caa4c2a2578223
+  rohan_iyer:
+    name: Dr. Rohan Iyer
+    role: Specialist doctor
+    department: medical
+    personality: analytical
+    greeting:
+      en: I can assess your symptoms and recommend the next in-game treatment stage.
+      hi: मैं आपके लक्षण जाँच सकता हूँ और खेल में इलाज का अगला चरण सुझा सकता हूँ।
+    actions:
+    - specialist_review
+    - treatment
+    skin: skin_rohan_iyer.png
+    model: classic
+    skin_sha256: 68a7835b7c2f0d82aa4e8466d9829cbd61d47d4b923bae86abe67eb31f792367
+  sana_ali:
+    name: Nurse Sana Ali
+    role: Hospital nurse
+    department: medical
+    personality: gentle
+    greeting:
+      en: I can check your recovery status and guide you through the next care step.
+      hi: मैं आपकी रिकवरी की स्थिति जाँच सकती हूँ और देखभाल का अगला कदम बता सकती हूँ।
+    actions:
+    - recovery_status
+    - treatment
+    skin: skin_sana_ali.png
+    model: slim
+    skin_sha256: d5c6820cc42e038468111cb7ece8217cac4e33775a70b1ea3fde68d840a922f4
+  karan_joshi:
+    name: Paramedic Karan Joshi
+    role: Paramedic
+    department: medical
+    personality: urgent and reassuring
+    greeting:
+      en: Emergency response is available. I will verify your condition and arrange
+        revival or hospital transfer.
+      hi: आपातकालीन सहायता उपलब्ध है। मैं आपकी स्थिति जाँचकर पुनर्जीवन या अस्पताल
+        पहुँचाने की व्यवस्था करूँगा।
+    actions:
+    - emergency_stabilize
+    - revive
+    - ambulance_request
+    skin: skin_karan_joshi.png
+    model: classic
+    skin_sha256: 1e0873bb9c1f681e614c664c29dd7b991f8f98018c9437aa38a79b07010d00fe
+  kavya_nair:
+    name: Kavya Nair
+    role: Rescue coordinator
+    department: fire
+    personality: calm and decisive
+    greeting:
+      en: I coordinate fire and rescue incidents. Tell me the location so I can log
+        a verified response request.
+      hi: मैं आग और बचाव कार्यों का समन्वय करती हूँ। स्थान बताइए ताकि सहायता अनुरोध
+        दर्ज हो सके।
+    actions:
+    - report_fire
+    - request_rescue
+    skin: skin_kavya_nair.png
+    model: slim
+    skin_sha256: 64b216829f41d8e4863fd5f1f4fd3aa3ff9d89cf2db99332af050b5183860736
+  dev_malhotra:
+    name: Firefighter Dev Malhotra
+    role: Firefighter
+    department: fire
+    personality: helpful and focused
+    greeting:
+      en: Stay clear of the incident area. I can guide you through fire response and
+        rescue tasks.
+      hi: घटना स्थल से सुरक्षित दूरी रखें। मैं अग्निशमन और बचाव कार्यों में आपकी सहायता
+        कर सकता हूँ।
+    actions:
+    - fire_response
+    - rescue_task
+    skin: skin_dev_malhotra.png
+    model: classic
+    skin_sha256: eed13fb0b6b501b0c0fe05c22d6764067897dc06c23ce1d41c440ec8d01c76f7
+  rehan_khan:
+    name: Rehan Khan
+    role: Transport dispatcher
+    department: transport
+    personality: efficient
+    greeting:
+      en: Where would you like to travel? I will show the available routes and fare
+        before you confirm.
+      hi: आप कहाँ जाना चाहते हैं? पुष्टि से पहले मैं रास्ते और किराया दिखाऊँगा।
+    actions:
+    - taxi_quote
+    - bus_schedule
+    - metro_schedule
+    skin: skin_rehan_khan.png
+    model: classic
+    skin_sha256: c1053f5e5c152a6df4ef094a6d0ebd7c15cce903fb75997c00dc83c421a9335c
+  sameer_qureshi:
+    name: Driver Sameer Qureshi
+    role: Taxi driver
+    department: transport
+    personality: friendly
+    greeting:
+      en: Tell me your destination. I will calculate the fare before the trip begins.
+      hi: अपनी मंज़िल बताइए। यात्रा शुरू होने से पहले मैं किराया बता दूँगा।
+    actions:
+    - taxi_quote
+    - start_ride
+    skin: skin_sameer_qureshi.png
+    model: classic
+    skin_sha256: c262d275fae7bbda1d1f2442d26800536a93f2a559ee0a96ce822437c5be20ce
+  anjali_rao:
+    name: Metro Supervisor Anjali Rao
+    role: Metro supervisor
+    department: transport
+    personality: precise
+    greeting:
+      en: Metro departures run every three real minutes. I can show stations and sell
+        a ticket.
+      hi: मेट्रो हर तीन वास्तविक मिनट में चलती है। मैं स्टेशन और टिकट की जानकारी दे
+        सकती हूँ।
+    actions:
+    - metro_schedule
+    - buy_metro_ticket
+    skin: skin_anjali_rao.png
+    model: slim
+    skin_sha256: 5b7b02e93620e5d8d25763b124fd624de153234a1cbde6f1ecb230be3c785833
+  priya_desai:
+    name: Priya Desai
+    role: Bank teller
+    department: bank
+    personality: professional
+    greeting:
+      en: I can help with deposits, withdrawals, and transaction history. Sensitive
+        actions require secure confirmation.
+      hi: मैं जमा, निकासी और लेन-देन का इतिहास दिखा सकती हूँ। संवेदनशील कामों के लिए
+        सुरक्षित पुष्टि ज़रूरी है।
+    actions:
+    - deposit
+    - withdraw
+    - transaction_history
+    skin: skin_priya_desai.png
+    model: slim
+    skin_sha256: 698e2daeeafbf969260c13b130137a9913957ed35b0c76f8591b51de43e7730a
+  aditya_verma:
+    name: Loan Officer Aditya Verma
+    role: Loan officer
+    department: bank
+    personality: formal
+    greeting:
+      en: I can explain loan terms and prepare an application. Only the verified banking
+        system can approve it.
+      hi: मैं लोन की शर्तें समझा सकता हूँ और आवेदन तैयार कर सकता हूँ। मंज़ूरी सत्यापित
+        बैंकिंग सिस्टम ही देगा।
+    actions:
+    - loan_terms
+    - loan_application
+    skin: skin_aditya_verma.png
+    model: classic
+    skin_sha256: 3252976459bfc016b14a0f66370f6c08aa979f626285e65c78b6fe4c71b20d1d
+  neha_patel:
+    name: Neha Patel
+    role: Shopkeeper
+    department: retail
+    personality: cheerful
+    greeting:
+      en: Welcome! I can show prices, available items and negotiate within the shop
+        rules.
+      hi: स्वागत है! मैं कीमतें और सामान दिखा सकती हूँ तथा दुकान के नियमों के अनुसार
+        मोलभाव कर सकती हूँ।
+    actions:
+    - show_catalog
+    - negotiate
+    - buy_item
+    skin: skin_neha_patel.png
+    model: slim
+    skin_sha256: 1593756d6da7dfb3fb569e5456647f4ca11c4583edbf360c9200e743d3d952a0
+  imran_sheikh:
+    name: Imran Sheikh
+    role: Store manager
+    department: retail
+    personality: businesslike
+    greeting:
+      en: I can help with purchases, stock information and a verified receipt.
+      hi: मैं खरीदारी, स्टॉक की जानकारी और सत्यापित रसीद देने में मदद कर सकता हूँ।
+    actions:
+    - show_catalog
+    - buy_item
+    - receipt
+    skin: skin_imran_sheikh.png
+    model: classic
+    skin_sha256: 905780bc36be0f0cd97b042200904ca4f0fae3e9150730d9dbbc99bffc440f18
+  vikram_singh:
+    name: Vikram Singh
+    role: Maintenance supervisor
+    department: maintenance
+    personality: practical
+    greeting:
+      en: I can assign repair work at approved sites or prepare a construction proposal
+        for an administrator.
+      hi: मैं स्वीकृत जगहों पर मरम्मत का काम दे सकता हूँ या प्रशासक के लिए निर्माण
+        प्रस्ताव बना सकता हूँ।
+    actions:
+    - report_damage
+    - maintenance_task
+    - construction_proposal
+    skin: skin_vikram_singh.png
+    model: classic
+    skin_sha256: 119edcfd069cfd42c86b71098a60a1ffaca85422dd5da9651ceea2bfad0e67ad
+  meera_kulkarni:
+    name: Technician Meera Kulkarni
+    role: Technician
+    department: maintenance
+    personality: precise and helpful
+    greeting:
+      en: I handle streetlights and public equipment. Repairs are recorded after the
+        task is verified.
+      hi: मैं स्ट्रीटलाइट और सार्वजनिक उपकरणों की मरम्मत करती हूँ। काम सत्यापित होने
+        पर ही रिकॉर्ड होगा।
+    actions:
+    - report_damage
+    - maintenance_task
+    skin: skin_meera_kulkarni.png
+    model: slim
+    skin_sha256: 32fa3079ca9a1cc9d6856d1c6474844023734d15c63d010ae1e1b8810c8114c3
+  nisha_bhat:
+    name: Administrator Nisha Bhat
+    role: City information officer
+    department: civic
+    personality: courteous
+    greeting:
+      en: Welcome to City Hall. I can explain services and submit requests for review
+        by a human administrator.
+      hi: सिटी हॉल में आपका स्वागत है। मैं सेवाओं की जानकारी दे सकती हूँ और अनुरोध
+        मानव प्रशासक को भेज सकती हूँ।
+    actions:
+    - city_info
+    - submit_request
+    skin: skin_nisha_bhat.png
+    model: slim
+    skin_sha256: dec0cd5efe1078a7f1559773bdca2537906c81cfaa4207765c35b28c6da0fe59

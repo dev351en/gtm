@@ -1,0 +1,56 @@
+name: SDCraftCore
+version: 1.0.0
+main: com.sdcraft.core.SDCraftCorePlugin
+api-version: '26.3'
+author: SDCraft
+softdepend: [Citizens, Denizen, WorldGuard, LuckPerms, Vault, Geyser-Spigot, MTVehicles, BlueMap, QualityArmory, CommandPanels]
+description: Integrated SD Craft server controller; some external systems require plugins or commissioning.
+commands:
+  sdcraft:
+    description: SD Craft city services, banking, NPCs and admin setup
+    usage: /sdcraft help
+    aliases: [sdc]
+  map:
+    description: Open the real-time 3D city web map link and view current district coordinates
+    usage: /map
+  gps:
+    description: Open the GTA-style City Navigation GPS waypoint menu
+    usage: /gps
+  spawn:
+    description: Return to New Blockston City Hall Plaza surface
+    usage: /spawn
+  car:
+    description: Claim or manage your GTA roleplay vehicle
+    usage: /car
+    aliases: [vehicle, cars]
+  kit:
+    description: Claim your GTA starter weapons, car keys, GPS, and supplies
+    usage: /kit
+    aliases: [starter]
+  gun:
+    description: Equip SD Craft firearms and ammunition
+    usage: /gun
+    aliases: [guns]
+  pack:
+    description: Download link and setup for the 3D Vehicles & City Resource Pack
+    usage: /pack
+    aliases: [resourcepack, packs]
+  phone:
+    description: Open the city services phone
+    usage: /phone
+permissions:
+  sdcraft.player:
+    description: Basic player commands for SD Craft
+    default: true
+  sdcraft.admin:
+    default: op
+  sdcraft.police:
+    default: op
+  sdcraft.medic:
+    default: op
+  sdcraft.profession.police:
+    default: op
+  sdcraft.profession.medic:
+    default: op
+  sdcraft.profession.firefighter:
+    default: op

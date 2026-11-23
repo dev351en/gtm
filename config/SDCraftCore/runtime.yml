@@ -1,0 +1,19 @@
+sites:
+  spawn: {world: world, x: 10.5, y: 70.0, z: 3.5}
+  city_hall: {world: world, x: 10.5, y: 70.0, z: 3.5}
+  police: {world: world, x: 120.5, y: 66.0, z: -45.5}
+  hospital: {world: world, x: -61.5, y: 65.0, z: 140.5}
+  bank: {world: world, x: 56.5, y: 67.0, z: -118.5}
+  fire: {world: world, x: 190.5, y: 70.0, z: 86.5}
+  dealership: {world: world, x: -150.5, y: 67.0, z: -82.5}
+  gas_station: {world: world, x: -204.5, y: 70.0, z: 60.5}
+  airport: {world: world, x: -384.5, y: 64.0, z: -306.5}
+  jail: {world: world, x: 122.5, y: 66.0, z: -48.5}
+  taxi: {world: world, x: 16.5, y: 71.0, z: 4.5}
+  metro: {world: world, x: 26.5, y: 68.0, z: 63.5}
+  retail: {world: world, x: -146.5, y: 67.0, z: -82.5}
+  delivery: {world: world, x: -150.5, y: 67.0, z: -82.5}
+  chef: {world: world, x: 10.5, y: 70.0, z: 3.5}
+  medic: {world: world, x: -61.5, y: 65.0, z: 140.5}
+  firefighter: {world: world, x: 190.5, y: 70.0, z: 86.5}
+  maintenance: {world: world, x: -204.5, y: 70.0, z: 60.5}

@@ -1,0 +1,14 @@
+.idea/
+.vscode/
+**/.gradle/
+**/build/
+**/bin/
+**/logs/
+**/cache/
+*.log
+*.tmp
+*.bak
+*.db
+*.sqlite
+*.sqlite3
+eula.txt

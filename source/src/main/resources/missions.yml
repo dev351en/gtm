@@ -1,0 +1,66 @@
+# Approved mission taxonomy and verification requirements.
+# Route checkpoints use calibrated sites in runtime.yml. Missions pay on verified arrival.
+max-routine-simultaneous: 2
+critical-priority: true
+rewards:
+  easy: {bonus: 50, credits: 1}
+  medium: {bonus: 85, credits: 2}
+  hard: {bonus: 120, credits: 3}
+missions:
+  police_report:
+    profession: police
+    difficulty: easy
+    steps: [validate_report, collect_evidence, record_case]
+  police_pursuit:
+    profession: police
+    difficulty: hard
+    steps: [confirm_serious_offense, dispatch_units, offer_surrender, verify_arrest]
+  medical_triage:
+    profession: medic
+    difficulty: easy
+    steps: [examine, diagnose, recommend_treatment]
+  medical_emergency:
+    profession: medic
+    difficulty: hard
+    steps: [stabilize, evaluate_revival, revive_or_transfer]
+  fire_response:
+    profession: firefighter
+    difficulty: hard
+    steps: [confirm_fire_zone, secure_scene, extinguish_localized_fire, verify_rescue]
+  taxi_trip:
+    profession: taxi
+    difficulty: easy
+    steps: [select_destination, calculate_quote, transport, verify_arrival]
+  maintenance_repair:
+    profession: maintenance
+    difficulty: medium
+    steps: [inspect_authorized_site, record_actual_changes, verify_restoration]
+  delivery_job:
+    profession: delivery
+    difficulty: easy
+    steps: [pickup, transport, delivery, receipt_verified]
+  chef_job:
+    profession: chef
+    difficulty: easy
+    steps: [verify_order, prepare_item, serve, order_delivered]
+  retail_sale:
+    profession: retail
+    difficulty: easy
+    steps: [select_item, negotiate_within_10_percent, confirm_payment, issue_receipt]
+  vehicle_recovery:
+    title: Vehicle Recovery
+    profession: any
+    difficulty: medium
+    route: [dealership, airport, police]
+  street_race:
+    title: Blockston Street Circuit
+    profession: any
+    difficulty: medium
+    route: [dealership, gas_station, airport, dealership]
+  bank_heist:
+    title: Bank Heist
+    profession: any
+    difficulty: hard
+    criminal: true
+    cooldown-seconds: 1800
+    route: [bank, airport, gas_station]

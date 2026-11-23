@@ -1,0 +1,75 @@
+# SD Craft approved policy values; some systems require external integration and are not fully operational.
+world: {name: world}
+server: {target-real-players: 4, memory-ceiling-mb: 3584, disk-ceiling-mb: 10240}
+population:
+  max-physical-police: 6
+  idle-police-patrol: 2
+  police-per-level: [1, 2, 3]
+  max-physical-nonpolice: 20
+  target-civilian-min: 8
+  target-civilian-max: 12
+  activation-blocks: 64
+  deactivation-blocks: 96
+  abstract-offscreen: true
+welcome: {wallet-cents: 50000, bank-cents: 100000}
+crime:
+  # Security-first: must remain false until WG regions and validated robbery logic are installed.
+  robbery-enabled: false
+  robbery-wallet-percent: 25
+  robbery-max-cents: 200000
+  robber-cooldown-seconds: 1800
+  victim-protection-seconds: 3600
+  witness-radius: 32
+  witness-immediate-percent: 70
+  witness-delayed-percent: 20
+  witness-silent-percent: 10
+  surrender-seconds: 15
+  jail-minutes: [5,10,20]
+  conviction-fines-cents: [5000,15000,30000]
+medical:
+  downed-enabled: false # SimpleRevive handles downed state.
+  downed-seconds: 90
+  procedure-seconds: 30
+  emergency-stabilize-cents: 0
+  diagnosis-cents: 2500
+  treatment-cents: 5000
+  admission-cents: 7500
+transport:
+  taxi-base-cents: 2500
+  taxi-cents-per-block: 6
+  bus-cents: 1500
+  metro-cents: 1000
+  metro-interval-seconds: 180
+  bus-interval-seconds: 300
+  npc-driving-bridge-enabled: false
+ai:
+  external-enabled: false
+  provider-api-base: ''
+  daily-request-limit: 200
+  per-player-five-minute-limit: 10
+  conversation-retention-hours: 24
+  secrets-file: ai-secrets.properties
+  scripted-fallback: true
+  languages: [en,hi]
+economy:
+  vault-provider-enabled: true
+  salary-per-10-min-rank-cents: [12000,14500,17000,19500,22000,24500,27000]
+  mission-reward-dollars: [50,85,120]
+  npc-pay-cents: 0
+  max-registered-city-professions: 3
+  max-traditional-jobs: 2
+  salary-verified-activity-seconds: 120
+service:
+  routine-concurrent-max: 2
+  emergency-preemption: true
+  human-accept-seconds: 10
+  shift-day-seconds: 1200
+  shift-night-seconds: 600
+  clock-in-late-seconds: 180
+  lateness-discipline: warning-only
+  offline-at-shift-start-exempt: true
+gta:
+  hud: {enabled: true}
+  safe-zone-radius: 18
+  wanted: {decay-seconds: 120}
+  shop: {vehicle-sedan-cents: 150000}
