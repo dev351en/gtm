@@ -5,6 +5,49 @@
 
 ---
 
+## [1.3.0] — 2026-11-24: Daytona Cloud 24/7 VPS Hosting & Public 3D BlueMap Deployment
+
+### 🌟 Release Overview
+Successfully provisioned and deployed the complete EXPECT SDCRAFT Paper 26.3 server to a dedicated high-performance Daytona Cloud VPS (`daytona-large`, 4 vCPU, 8 GB RAM, 64-core host pool with 700+ GB host RAM) running Debian 13 GNU/Linux and OpenJDK 25.0.5.1. The server runs 24/7 in background persistence (`autostop: 0`, `autopause: 0`) inside a detached tmux session with all 24 plugins active. Public 3D BlueMap web visualization and 1-click zero-config SSH tunneling are fully established.
+
+---
+
+### 1. Cloud Infrastructure & Environment
+- **Platform**: Daytona Cloud (`https://app.daytona.io/api`)
+- **Sandbox ID**: `b6a826ca-4dac-4716-b7b9-236b88b4718e` (Region: `eu`)
+- **Container Specs**: 4 vCPU, 8 GB RAM, 10 GB Disk (`daytona-large`), hosted on a 64 vCPU host node with ~750 GB RAM pool.
+- **Java Runtime**: OpenJDK 25.0.5.1 (`openjdk-25-jdk` Debian package).
+- **Minecraft Server Binary**: Paper 26.3 Build 255 (`paper-26.3-255.jar`), Mojang SHA-256 pre-verified cache (`cache/mojang_26.3.jar`).
+- **Memory Flags**: `-Xms2048M -Xmx4096M -XX:+UseG1GC` inside `/home/daytona/sdcraft_server/start.sh`.
+- **Background Execution**: Server runs continuously inside `tmux` session `minecraft` with automated crash protection.
+- **Persistence**: `autostop = 0` and `autopause = 0` locked via Daytona SDK.
+
+---
+
+### 2. Live Public 3D BlueMap
+- **Public URL**: `https://8100-b6a826ca-4dac-4716-b7b9-236b88b4718e.daytonaproxy01.eu/`
+- **Configuration**:
+  - BlueMap v5.29 configured with `accept-download: true` in `plugins/BlueMap/core.conf`.
+  - Client resource pack `minecraft-client-26.3.jar` (41.4 MB, SHA-1 `e877b6a07acd633fb3bb475002175cec036e7b87`) uploaded directly to `/home/daytona/sdcraft_server/bluemap/minecraft-client-26.3.jar`.
+  - Integrated HTTP webserver active on port 8100, bound to all network interfaces (`0.0.0.0:8100`).
+  - Daytona sandbox configured with `public: True` to allow credential-free public web access.
+
+---
+
+### 3. One-Click Connection & Management Tooling
+Created automated launchers in the root workspace:
+1. `connect_daytona_server.bat` (`tools/daytona_tunnel.py`):
+   - Authenticates with Daytona API using account key.
+   - Generates a fresh 24-hour secure SSH session token.
+   - Binds `localhost:25565` to the Daytona cloud server via `ssh -N -L 25565:localhost:25565`.
+   - Allows instant connection in Minecraft (Java Edition 26.3) to `localhost:25565`.
+2. `connect_daytona_ssh.bat` (`tools/daytona_ssh_shell.py`):
+   - One-click interactive Linux shell directly into `/home/daytona/sdcraft_server`.
+3. `mc_console.bat` (`tools/daytona_mc_cmd.py`):
+   - Direct interactive console prompt to issue live server commands (`op`, `whitelist`, `say`, `dh reload`, `bluemap`, etc.).
+
+---
+
 ## [1.2.0] — 2026-11-24: City Holograms, Creative Arsenal, Fixed NPCs, Fresh Animations 26.3, & Bedrock Auto-Send
 
 ### 🌟 Release Overview
