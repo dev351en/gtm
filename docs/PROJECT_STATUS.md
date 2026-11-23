@@ -1,0 +1,60 @@
+# SD Craft — current project status
+
+Date: 2026-11-24  
+Target: Paper 26.3 build 255, Java 25, MCServerHost 3.5 GB RAM / 10 GB disk,
+approximately 3–4 players.
+
+## Current verified artifact
+
+[EXPECT_SDCRAFT_FINAL_GITHUB_2026-11-24.zip](D:\Games\SDCRAFT\EXPECT_SDCRAFT_FINAL_GITHUB_2026-11-24.zip)  
+SHA256: `71d6f23bdb2780d4305abbbc4a4bf8693b45543848c894cf68838f71ead05f46`  
+Size: 405,663,332 bytes  
+Archive entries: 744
+
+The archive was extracted into a new disposable directory and booted with Java
+25. It reached `Done`, loaded 20 plugins, reported `Economy Legacy: SDCraft
+Wallet`, confirmed 20 NPC anchors, and stopped cleanly. The packaged world was
+allowed to perform Paper’s one-time storage migration only in that disposable
+copy; the canonical world and Aternos backup were not overwritten.
+
+## Verified implementation
+
+- 67 SDCraftCore JUnit tests pass.
+- SDCraftCore registers the Vault `SD Craft Wallet` and automatically runs
+  `mtv vault setup` after startup; the smoke log confirms MTVehicles uses it.
+- ProtocolLib and SimpleLogin load without the plaintext-password warning;
+  SimpleLogin uses a valid one-day session.
+- Runtime and fresh-install NPC defaults use audited walkable coordinates.
+  `docs/validate_sites.py` reports 38/38 valid site and anchor positions.
+- GTA layer includes phone/shop/garage, GPS, wanted/arrest/jail/fines,
+  waypoint missions, duty/salary/credits, and approval-based promotion.
+- The 15-PNG branding bundle is generated and validated.
+- The unified city pack is rebuilt with branding, phone, cash, metro ticket,
+  vehicle, and QualityArmory content. Current SHA1:
+  `4633349625598AF3EFF64CAF24C74FB953BF0A4D`.
+
+## Honest remaining gates
+
+- The unified pack is public at `github.com/dev351en/gtm`; the direct GitHub
+  URL, SHA1, stable UUID, and required-pack setting are in `server.properties`.
+- BlueMap is installed but needs owner approval for its Mojang client-resource
+  download acceptance before it can render.
+- A real player interaction pass remains for login, phone, economy, NPCs,
+  missions, transport, crime, medical, Bedrock UI, and promotion.
+- WorldGuard safe-zone regions and event-driven robbery are not enabled;
+  robbery remains disabled.
+- Autonomous NPC vehicle driving, full heists, and several advanced simulation
+  systems remain partial, as documented in `sdcraft_isolated/docs/FEATURE_MATRIX.md`.
+- No live host or Aternos deployment has been performed.
+
+## Authoritative files
+
+- Gameplay specification: `sdcraft_isolated/docs/SDCRAFT_CODEX_FULL_CHAT_SUMMARY.md`
+- Integration evidence: `sdcraft_isolated/INTEGRATION_STATUS_2026-11-23.md`
+- Feature matrix: `sdcraft_isolated/docs/FEATURE_MATRIX.md`
+- Release gates: `sdcraft_isolated/docs/RELEASE_REQUIREMENTS.md`
+- Gemini handoff: `GEMINI_HANDOFF_PROMPT.md`
+- Public repository: `https://github.com/dev351en/gtm`
+
+Do not overwrite the Aternos backup or a live host while testing. Obtain final
+deployment approval and make a fresh target-host backup first.
