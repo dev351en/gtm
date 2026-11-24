@@ -1,8 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
-  <rect width="256" height="256" rx="32" fill="#0D1115"/>
-  <rect x="8" y="8" width="240" height="240" rx="24" fill="none" stroke="#D6AD59" stroke-width="4" stroke-opacity="0.4"/>
-  <circle cx="128" cy="100" r="54" fill="none" stroke="#D6AD59" stroke-width="8"/>
-  <text x="128" y="112" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="900" fill="#D6AD59" text-anchor="middle">SD_</text>
-  <text x="128" y="185" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#D6AD59" text-anchor="middle">SD CRAFT MOTORSPORT</text>
-  <text x="128" y="210" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#D2B997" text-anchor="middle">DEALERSHIP • Exclusive Luxury Supercar Showroom</text>
+  <defs>
+    <radialGradient id="g_sd_motors" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#252F38"/>
+      <stop offset="100%" stop-color="#0D1115"/>
+    </radialGradient>
+  </defs>
+  <rect width="256" height="256" rx="40" fill="url(#g_sd_motors)"/>
+  <rect x="6" y="6" width="244" height="244" rx="34" fill="none" stroke="#D6AD59" stroke-width="4" stroke-opacity="0.6"/>
+  <path d="M128 42 L204 68 V142 C204 188 128 218 128 218 C128 218 52 188 52 142 V68 Z" fill="#151B20" stroke="#D6AD59" stroke-width="8"/><path d="M74 134 Q128 90 190 120 L166 150 Q120 132 74 134 Z" fill="#D6AD59"/>
 </svg>

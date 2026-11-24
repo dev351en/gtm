@@ -4,14 +4,14 @@
     {
       "description": {
         "identifier": "geometry.gtm.beverage_cooler_glass",
-        "texture_width": 64,
-        "texture_height": 64,
-        "visible_bounds_width": 1.7,
-        "visible_bounds_height": 2.45,
+        "texture_width": 256,
+        "texture_height": 256,
+        "visible_bounds_width": 2.15,
+        "visible_bounds_height": 2.95,
         "visible_bounds_offset": [
-          0,
-          0.975,
-          0
+          0.0,
+          0.97,
+          0.0
         ]
       },
       "bones": [
@@ -25,28 +25,234 @@
         },
         {
           "name": "base",
-          "parent": "root",
           "pivot": [
-            0,
-            0,
-            0
+            0.0,
+            0.0,
+            0.0
           ],
+          "parent": "root",
           "cubes": [
             {
               "origin": [
-                -9.6,
-                0,
-                -6.0
+                -8.832,
+                0.0,
+                -5.4
               ],
               "size": [
-                19.2,
-                31.2,
-                12.0
+                17.664,
+                28.704,
+                10.8
               ],
-              "uv": [
-                0,
-                0
-              ]
+              "uv": {
+                "north": {
+                  "uv": [
+                    97,
+                    225
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    97,
+                    225
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    97,
+                    225
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    97,
+                    225
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    97,
+                    225
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    97,
+                    225
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                }
+              }
+            },
+            {
+              "origin": [
+                -9.216,
+                28.704,
+                -5.64
+              ],
+              "size": [
+                18.432,
+                2.496,
+                11.28
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                }
+              }
+            },
+            {
+              "origin": [
+                -7.488,
+                11.856,
+                4.34
+              ],
+              "size": [
+                14.976,
+                14.976,
+                1.4
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    33,
+                    97
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    33,
+                    97
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    33,
+                    97
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    33,
+                    97
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    33,
+                    97
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    33,
+                    97
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                }
+              }
             }
           ]
         }

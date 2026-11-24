@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "timestamp": "2026-11-24T23:59:00Z",
+  "quality_tier": "V2_ZBUFFER_32X32_VECTOR",
   "domains_validated": {
     "domain_1_branding_ui": {
       "server_icon": "64x64 RGB verified",
@@ -10,57 +10,52 @@
     },
     "domain_2_transport": {
       "transport_models_count": 87,
-      "road_vehicles": 65,
-      "rail_ropeway": 10,
-      "helicopters": 4,
-      "marine_vessels": 8,
-      "mapping_entries": 65
+      "transport_icons_count": 87,
+      "road_mappings": 65
     },
     "domain_3_furniture_facilities": {
-      "functional_furniture_count": 200,
-      "legacy_mappings_count": 200,
+      "furniture_models_count": 200,
+      "furniture_icons_count": 200,
       "municipal_facilities_surveyed": 46
     },
     "domain_4_characters": {
       "npc_skins_count": 500,
       "unique_skin_textures": 500,
-      "gang_boss_id": "npc-481",
-      "prisoner_ids": [
-        "npc-482",
-        "npc-483",
-        "npc-484",
-        "npc-485",
-        "npc-486"
-      ],
       "outfits_count": 100
     },
     "domain_5_equipment_finishes_food": {
       "equipment_models_count": 92,
-      "finishes_migration_mappings": 300,
+      "hero_props_count": 11,
       "fictional_weapons_count": 30,
-      "finishes_per_weapon": 10,
+      "finishes_textures_count": 300,
       "food_items_count": 30
     },
     "domain_6_festivals_signage": {
       "festival_installations_count": 100,
-      "bilingual_signs_count": 120,
-      "signage_categories": {
-        "transport": 20,
-        "road": 20,
-        "civic": 15,
-        "store": 25,
-        "commercial": 25,
-        "public_safety": 15
-      }
+      "bilingual_signs_count": 120
     }
   },
-  "file_integrity": {},
+  "packs_validated": {
+    "model_32x32_textures_count": 100,
+    "world_32x32_block_textures_count": 86,
+    "java_world_pack_bytes": 455742,
+    "bedrock_world_pack_bytes": 264273,
+    "local_minecraft_installed": true
+  },
   "contact_sheets": [
     "creative/previews/brands_contact_sheet.png",
-    "creative/previews/phone_icons_contact_sheet.png",
-    "creative/previews/skins_sample_contact_sheet.png",
-    "creative/previews/outfits_sample_contact_sheet.png",
+    "creative/previews/equipment_sample_contact_sheet.png",
+    "creative/previews/festivals_sample_contact_sheet.png",
     "creative/previews/food_contact_sheet.png",
-    "creative/previews/signage_sample_contact_sheet.png"
+    "creative/previews/furniture_sample_contact_sheet.png",
+    "creative/previews/hud_contact_sheet.png",
+    "creative/previews/icons_v3_contact_sheet.png",
+    "creative/previews/outfits_sample_contact_sheet.png",
+    "creative/previews/phone_icons_contact_sheet.png",
+    "creative/previews/signage_sample_contact_sheet.png",
+    "creative/previews/skins_sample_contact_sheet.png",
+    "creative/previews/transport_contact_sheet.png",
+    "creative/previews/weapons_contact_sheet.png",
+    "creative/previews/world_32x_blocks_contact_sheet.png"
   ]
 }

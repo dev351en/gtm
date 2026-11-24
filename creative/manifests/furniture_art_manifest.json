@@ -8,6 +8,7 @@
       0.85,
       1.8
     ],
+    "cube_count": 12,
     "floor_anchor": [
       0.0,
       0.0,
@@ -35,7 +36,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/sectional_sofa.geo.json",
-    "sha256": "fbfce41f89dbb7c8ae64ef37ead284b7d39cafdb3cacbcc022ef2d0d8f29d25a"
+    "java_model_path": "creative/source/models/furniture/java/sectional_sofa.json",
+    "icon_path": "creative/source/icons/furniture/sectional_sofa.png",
+    "sha256": "2aa4c049437db7afc6f7766d4d9e871139e8e022140af9aaae5c1d29a60ed42f"
   },
   {
     "id": "gtm:leather_armchair",
@@ -46,6 +49,7 @@
       0.9,
       0.85
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -73,7 +77,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/leather_armchair.geo.json",
-    "sha256": "3ce1f0613abda041c2e25380243ae1b7d5ed38efef87227afdab77dc61556b52"
+    "java_model_path": "creative/source/models/furniture/java/leather_armchair.json",
+    "icon_path": "creative/source/icons/furniture/leather_armchair.png",
+    "sha256": "cc27ef6d05428049aa7027fea921315fdcd6f29f1d2e9ff2cc9ed7b4d84a5488"
   },
   {
     "id": "gtm:coffee_table_teak",
@@ -84,6 +90,7 @@
       0.45,
       0.7
     ],
+    "cube_count": 7,
     "floor_anchor": [
       0.0,
       0.0,
@@ -111,7 +118,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/coffee_table_teak.geo.json",
-    "sha256": "91ad218a7fd058c60d52190caee1844fc2c929a220b6a1268475c616dc07fb63"
+    "java_model_path": "creative/source/models/furniture/java/coffee_table_teak.json",
+    "icon_path": "creative/source/icons/furniture/coffee_table_teak.png",
+    "sha256": "e5b342f5820102df34db35471f02c8c8a9593c0d218fe425cf93a1eb084592e7"
   },
   {
     "id": "gtm:glass_end_table",
@@ -122,6 +131,7 @@
       0.55,
       0.6
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -149,7 +159,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/glass_end_table.geo.json",
-    "sha256": "c5ecd396f0293b94829b252af5390d66ab94cd41c1086eaad935c7c035e351ea"
+    "java_model_path": "creative/source/models/furniture/java/glass_end_table.json",
+    "icon_path": "creative/source/icons/furniture/glass_end_table.png",
+    "sha256": "654ed81327486f4f0990694b3cac5ae860a1812a32bc1e33bc4f98c1ba416614"
   },
   {
     "id": "gtm:media_console",
@@ -160,6 +172,7 @@
       0.55,
       0.45
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -187,7 +200,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/media_console.geo.json",
-    "sha256": "4a774f6f63397c0bc06ba8ffd7d7ada256b320c3e07766976d8e54258ab92698"
+    "java_model_path": "creative/source/models/furniture/java/media_console.json",
+    "icon_path": "creative/source/icons/furniture/media_console.png",
+    "sha256": "d0adda95bc3068be736a51e84834d333970e87b6a373f428b11f58f1f4234247"
   },
   {
     "id": "gtm:floor_arc_lamp",
@@ -198,6 +213,7 @@
       1.9,
       1.1
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -225,7 +241,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/floor_arc_lamp.geo.json",
-    "sha256": "3c1808821c1857e15b1dfe0b4bc0637a51f49309b0b03970ef77075d5f0f4d5d"
+    "java_model_path": "creative/source/models/furniture/java/floor_arc_lamp.json",
+    "icon_path": "creative/source/icons/furniture/floor_arc_lamp.png",
+    "sha256": "67f3436608ed2ce6c37e17c0d5ce15481ca240ee566955204e96f2266e634acf"
   },
   {
     "id": "gtm:bookshelf_open",
@@ -236,6 +254,7 @@
       1.8,
       0.35
     ],
+    "cube_count": 9,
     "floor_anchor": [
       0.0,
       0.0,
@@ -263,7 +282,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/bookshelf_open.geo.json",
-    "sha256": "eba215551ba389d08af486ccfcd5b02ee530fd6e9b3511733f2462f1b268a135"
+    "java_model_path": "creative/source/models/furniture/java/bookshelf_open.json",
+    "icon_path": "creative/source/icons/furniture/bookshelf_open.png",
+    "sha256": "79a9ab9ee8201b997d56139618ced78fc5f6b5cfdd99afcd60b4b6776412332a"
   },
   {
     "id": "gtm:accent_chair_velvet",
@@ -274,6 +295,7 @@
       0.85,
       0.75
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -301,7 +323,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/accent_chair_velvet.geo.json",
-    "sha256": "0c18a4b8a535f12c5b568faab37980a738bf18e4e25a7203b976d5511a9776a8"
+    "java_model_path": "creative/source/models/furniture/java/accent_chair_velvet.json",
+    "icon_path": "creative/source/icons/furniture/accent_chair_velvet.png",
+    "sha256": "0bdc12a62e6bcfbb886900aaa2f9b054f9463892301f92487d8d5db998acd0d1"
   },
   {
     "id": "gtm:magazine_rack",
@@ -312,6 +336,7 @@
       0.5,
       0.3
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -339,7 +364,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/magazine_rack.geo.json",
-    "sha256": "b361d5580339117bdceb22662fd4689dada8a5429691938679ffbb109afd7e01"
+    "java_model_path": "creative/source/models/furniture/java/magazine_rack.json",
+    "icon_path": "creative/source/icons/furniture/magazine_rack.png",
+    "sha256": "ed611b5255ec6214eaf0529d20966b18a0b216ca4f88692342b274341f314652"
   },
   {
     "id": "gtm:wall_display_unit",
@@ -350,6 +377,7 @@
       1.2,
       0.3
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -377,7 +405,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/wall_display_unit.geo.json",
-    "sha256": "9261f29782ad955a2149642ab4920040470bf3f21b15abeea74bd13f106d0d3e"
+    "java_model_path": "creative/source/models/furniture/java/wall_display_unit.json",
+    "icon_path": "creative/source/icons/furniture/wall_display_unit.png",
+    "sha256": "ec3f485058448454b9725e3c70c131928aa7b3668d04e604d220831eacc523d8"
   },
   {
     "id": "gtm:ottoman_storage",
@@ -388,6 +418,7 @@
       0.45,
       0.8
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -415,7 +446,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/ottoman_storage.geo.json",
-    "sha256": "63f08c292a6dd9024532a0e0be9fe82d52d6036afd36688865afaf65363ca7c9"
+    "java_model_path": "creative/source/models/furniture/java/ottoman_storage.json",
+    "icon_path": "creative/source/icons/furniture/ottoman_storage.png",
+    "sha256": "31b4ebaaf1a8453166fb4bc4b5f66d848444215bcd00243b0acfc903e31931c5"
   },
   {
     "id": "gtm:chaise_lounge",
@@ -426,6 +459,7 @@
       0.85,
       1.6
     ],
+    "cube_count": 9,
     "floor_anchor": [
       0.0,
       0.0,
@@ -453,7 +487,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/chaise_lounge.geo.json",
-    "sha256": "710a2cf0c547983b209a38726e1a2110f4d82ba7a1bdaf8e1543b6d6849286ac"
+    "java_model_path": "creative/source/models/furniture/java/chaise_lounge.json",
+    "icon_path": "creative/source/icons/furniture/chaise_lounge.png",
+    "sha256": "a7fe6a650125090bf9d97f5e4ae78b8bf1dd5a22cb4124b7e428d85595c35ac5"
   },
   {
     "id": "gtm:nesting_tables",
@@ -464,6 +500,7 @@
       0.5,
       0.7
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -491,7 +528,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/nesting_tables.geo.json",
-    "sha256": "d17e58c77e651b0eb97d96424c09c11a114e677013d8c333180d08a1f02f42ca"
+    "java_model_path": "creative/source/models/furniture/java/nesting_tables.json",
+    "icon_path": "creative/source/icons/furniture/nesting_tables.png",
+    "sha256": "494e308572cc4bf4f9a932f7adf0490515ed0117c7aa474a317571eaae9d3a2e"
   },
   {
     "id": "gtm:credenza_sideboard",
@@ -502,6 +541,7 @@
       0.8,
       0.45
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -529,7 +569,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/credenza_sideboard.geo.json",
-    "sha256": "aad83cd4afc1cea7e059da0a55074ca9db54d1c0969209a0972ee87cb7c0c2ed"
+    "java_model_path": "creative/source/models/furniture/java/credenza_sideboard.json",
+    "icon_path": "creative/source/icons/furniture/credenza_sideboard.png",
+    "sha256": "7913d9857a3884e70ee9d945123afdea92e2b7d77ae500fa28ad04e4a5ff10f0"
   },
   {
     "id": "gtm:room_divider_jali",
@@ -540,6 +582,7 @@
       1.9,
       0.15
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -567,7 +610,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/room_divider_jali.geo.json",
-    "sha256": "4b320d0585fc0a6468aee09dc770b04c75f3f5b2b1000045c01ba0674afc90e7"
+    "java_model_path": "creative/source/models/furniture/java/room_divider_jali.json",
+    "icon_path": "creative/source/icons/furniture/room_divider_jali.png",
+    "sha256": "5513e464a51bb4b720e60789fb5a753aac9b3c8058152de044cf3d8cf991b8b2"
   },
   {
     "id": "gtm:indoor_planter",
@@ -578,6 +623,7 @@
       0.9,
       0.5
     ],
+    "cube_count": 4,
     "floor_anchor": [
       0.0,
       0.0,
@@ -605,7 +651,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/indoor_planter.geo.json",
-    "sha256": "1a34f0672bd01a8f2f11c374130d0452122dad22e0c7b71e821dfe9ad0e14bb7"
+    "java_model_path": "creative/source/models/furniture/java/indoor_planter.json",
+    "icon_path": "creative/source/icons/furniture/indoor_planter.png",
+    "sha256": "e03d4e2573c771b6951bc0119f0ab21cecc86aba596cbfc4d28093433c3aa212"
   },
   {
     "id": "gtm:ceiling_fan_wood",
@@ -616,6 +664,7 @@
       0.4,
       1.4
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -643,7 +692,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/ceiling_fan_wood.geo.json",
-    "sha256": "05d31deee319ce5a3161f84fb3497803b32f2c74276a058e1493404046543ca2"
+    "java_model_path": "creative/source/models/furniture/java/ceiling_fan_wood.json",
+    "icon_path": "creative/source/icons/furniture/ceiling_fan_wood.png",
+    "sha256": "eb82b02179206d4b4b121049cda42ae072a97d98dd8023dd4558230382766a49"
   },
   {
     "id": "gtm:fireplace_electric",
@@ -654,6 +705,7 @@
       0.9,
       0.35
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -681,7 +733,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/fireplace_electric.geo.json",
-    "sha256": "b32ecec0d553feeaf84a347ddff37a6c16f4825a58965865b39e883dbf69c54b"
+    "java_model_path": "creative/source/models/furniture/java/fireplace_electric.json",
+    "icon_path": "creative/source/icons/furniture/fireplace_electric.png",
+    "sha256": "4cdc84e048eeb254807a4f0de3ecf52930d62886b3b3b7db672efcbe38e71a14"
   },
   {
     "id": "gtm:wall_mirror_sunburst",
@@ -692,6 +746,7 @@
       0.9,
       0.1
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -719,7 +774,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/wall_mirror_sunburst.geo.json",
-    "sha256": "e4d9989b6f30d078f61dd77553107b7a8aee532ae552edd5c300395ce179917b"
+    "java_model_path": "creative/source/models/furniture/java/wall_mirror_sunburst.json",
+    "icon_path": "creative/source/icons/furniture/wall_mirror_sunburst.png",
+    "sha256": "bf9553481cf62a392131add692ae27706b6a5dd361fd90ae018811df56d3cb65"
   },
   {
     "id": "gtm:pouffe_cushion",
@@ -730,6 +787,7 @@
       0.35,
       0.6
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -757,7 +815,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/pouffe_cushion.geo.json",
-    "sha256": "dda0084ce92e08266080eccaa88174937a8d7cd8748d2e16fa4608865e39b13a"
+    "java_model_path": "creative/source/models/furniture/java/pouffe_cushion.json",
+    "icon_path": "creative/source/icons/furniture/pouffe_cushion.png",
+    "sha256": "74fa39805aea79ac9650e6180cdf45e5f6d267a4a8f9295322f857cc803f8efc"
   },
   {
     "id": "gtm:king_bed_upholstered",
@@ -768,6 +828,7 @@
       1.1,
       2.1
     ],
+    "cube_count": 10,
     "floor_anchor": [
       0.0,
       0.0,
@@ -795,7 +856,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/king_bed_upholstered.geo.json",
-    "sha256": "833068465a01164831f72dd426530a60f6bd2aa830822c2065ba462727c25676"
+    "java_model_path": "creative/source/models/furniture/java/king_bed_upholstered.json",
+    "icon_path": "creative/source/icons/furniture/king_bed_upholstered.png",
+    "sha256": "2dd9f5a829ea34e513650f817ab3bf3e7420196d2e6d32a2c79250feaa41aeec"
   },
   {
     "id": "gtm:single_cot_wood",
@@ -806,6 +869,7 @@
       0.9,
       2.0
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -833,7 +897,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/single_cot_wood.geo.json",
-    "sha256": "b21e228866ca29cb1a2e40ed7f0a35b5c6c4d2fde876b79e0f90bc348636472c"
+    "java_model_path": "creative/source/models/furniture/java/single_cot_wood.json",
+    "icon_path": "creative/source/icons/furniture/single_cot_wood.png",
+    "sha256": "fe1a5338556ca75717547d88638372d1865dd14f4366695434335959fb2678b9"
   },
   {
     "id": "gtm:nightstand_drawers",
@@ -844,6 +910,7 @@
       0.6,
       0.45
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -871,7 +938,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/nightstand_drawers.geo.json",
-    "sha256": "12486b2a8a7307be7c5dbe5dcaba5a7e93437079f73a294f78d097842bd320dc"
+    "java_model_path": "creative/source/models/furniture/java/nightstand_drawers.json",
+    "icon_path": "creative/source/icons/furniture/nightstand_drawers.png",
+    "sha256": "8deb66ce5c70d7708eeca840b1915353a7a1d8120a4e1498ab146217b85f2083"
   },
   {
     "id": "gtm:wardrobe_sliding",
@@ -882,6 +951,7 @@
       2.1,
       0.65
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -909,7 +979,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/wardrobe_sliding.geo.json",
-    "sha256": "c2a4c27392b668ba6dc236b026398062555f57fce24bb95646260288e8dce670"
+    "java_model_path": "creative/source/models/furniture/java/wardrobe_sliding.json",
+    "icon_path": "creative/source/icons/furniture/wardrobe_sliding.png",
+    "sha256": "79a65e7f72d0d187726745abbaa613e78f18bd45eb72579075221873bfb6f42d"
   },
   {
     "id": "gtm:dresser_mirror",
@@ -920,6 +992,7 @@
       1.7,
       0.5
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -947,7 +1020,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/dresser_mirror.geo.json",
-    "sha256": "1c91583428fbfdfb3c6be11c0ffca0e3c0cf91e7c89f8d7ab9f8c313a660ff46"
+    "java_model_path": "creative/source/models/furniture/java/dresser_mirror.json",
+    "icon_path": "creative/source/icons/furniture/dresser_mirror.png",
+    "sha256": "fdc9b89f0fd9f7d8013229164254103e9fd83cc59f54d7c9b7f17f57ff93b45f"
   },
   {
     "id": "gtm:bedside_sconce",
@@ -958,6 +1033,7 @@
       0.4,
       0.3
     ],
+    "cube_count": 9,
     "floor_anchor": [
       0.0,
       0.0,
@@ -985,7 +1061,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/bedside_sconce.geo.json",
-    "sha256": "0990d30f8c97d6e02cff60f7379f7411f81c456f8bbfef9d35b751e7a5aa0d23"
+    "java_model_path": "creative/source/models/furniture/java/bedside_sconce.json",
+    "icon_path": "creative/source/icons/furniture/bedside_sconce.png",
+    "sha256": "e4f2fecf494c346e83aef38d22f01233e8a6a12b7609799e427f6d5e98f76c97"
   },
   {
     "id": "gtm:blanket_chest",
@@ -996,6 +1074,7 @@
       0.55,
       0.55
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1023,7 +1102,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/blanket_chest.geo.json",
-    "sha256": "238086c6abbafc6d4e54e1dc79283d930480afab7571eb0fe9acb192b71d5e60"
+    "java_model_path": "creative/source/models/furniture/java/blanket_chest.json",
+    "icon_path": "creative/source/icons/furniture/blanket_chest.png",
+    "sha256": "837eab79815c1622a1ce378dd2b6e5ff70e38132555b0dc84a52fc092c68f3d5"
   },
   {
     "id": "gtm:vanity_stool",
@@ -1034,6 +1115,7 @@
       0.45,
       0.45
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1061,7 +1143,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/vanity_stool.geo.json",
-    "sha256": "bff95517d1480161f7d8bd098d2da98f637a73b6ddc2f609787c24dc964ff6fa"
+    "java_model_path": "creative/source/models/furniture/java/vanity_stool.json",
+    "icon_path": "creative/source/icons/furniture/vanity_stool.png",
+    "sha256": "9e1fce4baf52c6edc2def4a02fc221bb5e0f2ee877f06f475737160851f751c5"
   },
   {
     "id": "gtm:full_length_mirror",
@@ -1072,6 +1156,7 @@
       1.75,
       0.45
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1099,7 +1184,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/full_length_mirror.geo.json",
-    "sha256": "b643d48e2ea85e9aae18b7be4cd87c29e5ad2e0910a14fa7a428ffe7b0ab0861"
+    "java_model_path": "creative/source/models/furniture/java/full_length_mirror.json",
+    "icon_path": "creative/source/icons/furniture/full_length_mirror.png",
+    "sha256": "a4951ac9315bf00ea6aec43d33050b0d7da1d5b32cb62ee408d8d45166180580"
   },
   {
     "id": "gtm:clothes_valet",
@@ -1110,6 +1197,7 @@
       1.15,
       0.35
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1137,7 +1225,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/clothes_valet.geo.json",
-    "sha256": "836d6bb248029a9fcbd099e94a89b0efa0874de58ec67128c26549cfa9fa8bb9"
+    "java_model_path": "creative/source/models/furniture/java/clothes_valet.json",
+    "icon_path": "creative/source/icons/furniture/clothes_valet.png",
+    "sha256": "5d46c181d70d63931882291a133d400fe60c1fa6d5179658a78a9a44812add21"
   },
   {
     "id": "gtm:bed_bench_tufted",
@@ -1148,6 +1238,7 @@
       0.45,
       0.45
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1175,7 +1266,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/bed_bench_tufted.geo.json",
-    "sha256": "7f18554e41b5be7dbd517e249f0051d84ab5a2ff9c1bd3f989c385a5b677521d"
+    "java_model_path": "creative/source/models/furniture/java/bed_bench_tufted.json",
+    "icon_path": "creative/source/icons/furniture/bed_bench_tufted.png",
+    "sha256": "8f7c363d348a6c1b438ff7ecb4e6954caf7ce64fd9f18b61a40564ace09574b4"
   },
   {
     "id": "gtm:bunk_bed_twin",
@@ -1186,6 +1279,7 @@
       1.8,
       2.05
     ],
+    "cube_count": 12,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1213,7 +1307,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/bunk_bed_twin.geo.json",
-    "sha256": "a874d4da9d4a9d6ba6c81dd850f78fbde41752d717566cd99c29e1c53140e5b3"
+    "java_model_path": "creative/source/models/furniture/java/bunk_bed_twin.json",
+    "icon_path": "creative/source/icons/furniture/bunk_bed_twin.png",
+    "sha256": "ede41cd6d372cc44b36174f1833ac4a168967e7ab6e150a720d48aa798dd6fe3"
   },
   {
     "id": "gtm:canopy_bed_frame",
@@ -1224,6 +1320,7 @@
       2.1,
       2.1
     ],
+    "cube_count": 10,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1251,7 +1348,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/canopy_bed_frame.geo.json",
-    "sha256": "03a73516fb010ad92114987134c96d85da6663887f3b632d5dd074fbeec4b934"
+    "java_model_path": "creative/source/models/furniture/java/canopy_bed_frame.json",
+    "icon_path": "creative/source/icons/furniture/canopy_bed_frame.png",
+    "sha256": "293e7a7d6cbcebadfb6fb4cd3259e83c708f90a45147c607bfee0f3ac04cc9e8"
   },
   {
     "id": "gtm:corner_wardrobe",
@@ -1262,6 +1361,7 @@
       2.1,
       1.1
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1289,7 +1389,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/corner_wardrobe.geo.json",
-    "sha256": "941e350154081aa7f3e6929754f8f6091af17882b95cbe2d2bc238fb4bc6f355"
+    "java_model_path": "creative/source/models/furniture/java/corner_wardrobe.json",
+    "icon_path": "creative/source/icons/furniture/corner_wardrobe.png",
+    "sha256": "fb136c9937685034c577f13be6888d9b122a32061f80400fee0ff862629b9701"
   },
   {
     "id": "gtm:alarm_dock_station",
@@ -1300,6 +1402,7 @@
       0.15,
       0.15
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1327,7 +1430,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/alarm_dock_station.geo.json",
-    "sha256": "c4598c60208fafed0780d8144d0aea11ada0fac69ade2373d0664e09aa99ad6b"
+    "java_model_path": "creative/source/models/furniture/java/alarm_dock_station.json",
+    "icon_path": "creative/source/icons/furniture/alarm_dock_station.png",
+    "sha256": "dc1fa1d8c371f6e03fcce41fc908133312016bd0da61869b566cd21663b5a8cd"
   },
   {
     "id": "gtm:modular_counter_base",
@@ -1338,6 +1443,7 @@
       0.9,
       0.65
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1365,7 +1471,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/modular_counter_base.geo.json",
-    "sha256": "aaa78fb4a968ee3772c30e313d023ff1a554ae06f13b7f7026fd0d55049e225f"
+    "java_model_path": "creative/source/models/furniture/java/modular_counter_base.json",
+    "icon_path": "creative/source/icons/furniture/modular_counter_base.png",
+    "sha256": "ba0d51c24fe2717ee18eede965e7be163f784ccc15d13ecc692dd4b409f9e39f"
   },
   {
     "id": "gtm:kitchen_sink_double",
@@ -1376,6 +1484,7 @@
       0.9,
       0.65
     ],
+    "cube_count": 4,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1403,7 +1512,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/kitchen_sink_double.geo.json",
-    "sha256": "9f9892835b0acc0ad58ed2fe0f6a49464af1e48434344593de102ba1495511cd"
+    "java_model_path": "creative/source/models/furniture/java/kitchen_sink_double.json",
+    "icon_path": "creative/source/icons/furniture/kitchen_sink_double.png",
+    "sha256": "07d1dc3b1ced2c775f5a3fa37edbf136f09c359b8fdca76c8096f4c826494b0d"
   },
   {
     "id": "gtm:gas_stove_4burner",
@@ -1414,6 +1525,7 @@
       0.9,
       0.65
     ],
+    "cube_count": 4,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1441,7 +1553,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/gas_stove_4burner.geo.json",
-    "sha256": "c502849512aec07c5c8bc7dd737bffb9bf22b1c32b38342d5c817dc501303147"
+    "java_model_path": "creative/source/models/furniture/java/gas_stove_4burner.json",
+    "icon_path": "creative/source/icons/furniture/gas_stove_4burner.png",
+    "sha256": "e0a6951d3a46edc625a4145746b5e04d214c8c73aaecda2eba37f76ac819074c"
   },
   {
     "id": "gtm:chimney_hood",
@@ -1452,6 +1566,7 @@
       0.7,
       0.5
     ],
+    "cube_count": 4,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1479,7 +1594,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/chimney_hood.geo.json",
-    "sha256": "f8da5873e6d9b921a95afa0e04bdd9873768e422e903a2cf4aaccc16be4490e9"
+    "java_model_path": "creative/source/models/furniture/java/chimney_hood.json",
+    "icon_path": "creative/source/icons/furniture/chimney_hood.png",
+    "sha256": "2f8b380dc52651114f07c0b944ee417f768d41c091b74e1a2c549bb8a34cfde3"
   },
   {
     "id": "gtm:refrigerator_french",
@@ -1490,6 +1607,7 @@
       1.9,
       0.75
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1517,7 +1635,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/refrigerator_french.geo.json",
-    "sha256": "0e56a86a62ba9324d0a2667a7b1862ef1b2a0cfa06418bca19a5f1d98f5396d9"
+    "java_model_path": "creative/source/models/furniture/java/refrigerator_french.json",
+    "icon_path": "creative/source/icons/furniture/refrigerator_french.png",
+    "sha256": "dde76bb519862da8f42a86c16f3caf4468a52871d697d2a475da35e22058edf6"
   },
   {
     "id": "gtm:microwave_cabinet",
@@ -1528,6 +1648,7 @@
       1.5,
       0.6
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1555,7 +1676,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/microwave_cabinet.geo.json",
-    "sha256": "4c13176c76aa7eccf5164f6ab12bad254b83035e2363b0365696940dc9daf29f"
+    "java_model_path": "creative/source/models/furniture/java/microwave_cabinet.json",
+    "icon_path": "creative/source/icons/furniture/microwave_cabinet.png",
+    "sha256": "309245acff2e1bef70746d375b2aadba3059b5a5f1f211d5936ef43620584e57"
   },
   {
     "id": "gtm:dining_table_6seater",
@@ -1566,6 +1689,7 @@
       0.75,
       0.9
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1593,7 +1717,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/dining_table_6seater.geo.json",
-    "sha256": "39fbcb99ba4bd7bbde3099113fc70cf429806585cb17a9899dfc06be584477b5"
+    "java_model_path": "creative/source/models/furniture/java/dining_table_6seater.json",
+    "icon_path": "creative/source/icons/furniture/dining_table_6seater.png",
+    "sha256": "bbfb3555ba62573cdbe6a9205ecc37c29a46f0a57c177350d08184533fe70adc"
   },
   {
     "id": "gtm:dining_chair_cushion",
@@ -1604,6 +1730,7 @@
       0.88,
       0.5
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1631,7 +1758,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/dining_chair_cushion.geo.json",
-    "sha256": "2bafe3c0b1b70d24c528b3d06eb83be59ced2728c9d12549ea3e9d973b15e5d9"
+    "java_model_path": "creative/source/models/furniture/java/dining_chair_cushion.json",
+    "icon_path": "creative/source/icons/furniture/dining_chair_cushion.png",
+    "sha256": "453173a2c82b40cc2f5f703853886b54f65219a1ee3d6c924e200267a8f395dc"
   },
   {
     "id": "gtm:kitchen_island",
@@ -1642,6 +1771,7 @@
       0.9,
       0.9
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1669,7 +1799,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/kitchen_island.geo.json",
-    "sha256": "92a1ede158db05c84dda7a1a85b5508bb9b903bce80a2d08da3bf0464f2cba8e"
+    "java_model_path": "creative/source/models/furniture/java/kitchen_island.json",
+    "icon_path": "creative/source/icons/furniture/kitchen_island.png",
+    "sha256": "358d1fe11e0ed00728b44c51d98f443572c2e50f6a72ff602b795b2316a56a36"
   },
   {
     "id": "gtm:bar_stool_swivel",
@@ -1680,6 +1812,7 @@
       0.95,
       0.45
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1707,7 +1840,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/bar_stool_swivel.geo.json",
-    "sha256": "2abc77360a368ad4aca6abc92d29896713d0f1487ef44e887028a67185c8df77"
+    "java_model_path": "creative/source/models/furniture/java/bar_stool_swivel.json",
+    "icon_path": "creative/source/icons/furniture/bar_stool_swivel.png",
+    "sha256": "ed35a0fb03a84f36c37901c28403565306094e1e918edf8f39a11f441b00821a"
   },
   {
     "id": "gtm:spice_rack_carousel",
@@ -1718,6 +1853,7 @@
       0.45,
       0.35
     ],
+    "cube_count": 9,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1745,7 +1881,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/spice_rack_carousel.geo.json",
-    "sha256": "f6e1eb715c92c3e1743981aa17b6de3dee68a9a13ca569a97be7624417d80fa1"
+    "java_model_path": "creative/source/models/furniture/java/spice_rack_carousel.json",
+    "icon_path": "creative/source/icons/furniture/spice_rack_carousel.png",
+    "sha256": "7d65884c9eb0929dbcfd6482687b7e027f154b5b7beec704a62f12c1fba581a0"
   },
   {
     "id": "gtm:wall_cupboard_glass",
@@ -1756,6 +1894,7 @@
       0.7,
       0.35
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1783,7 +1922,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/wall_cupboard_glass.geo.json",
-    "sha256": "d0a5f316a8fa8c582814ade6e99ce02ec696e497bcfb63c13483b96df8042e00"
+    "java_model_path": "creative/source/models/furniture/java/wall_cupboard_glass.json",
+    "icon_path": "creative/source/icons/furniture/wall_cupboard_glass.png",
+    "sha256": "3fdfe28f6df61931f1058b5e0d156806b174fc1e3216c806d8dad2aa0b45bfa1"
   },
   {
     "id": "gtm:chai_brew_station",
@@ -1794,6 +1935,7 @@
       0.7,
       0.4
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1821,7 +1963,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/chai_brew_station.geo.json",
-    "sha256": "cdb4b651c9d549917c9f5a3fd5b44a681f138ae510dee95f1c4ee9fa4de3a310"
+    "java_model_path": "creative/source/models/furniture/java/chai_brew_station.json",
+    "icon_path": "creative/source/icons/furniture/chai_brew_station.png",
+    "sha256": "d1b57889e5ad1e3e0066e41bce26ff32b2acce52df2447e5068272cd8f16b9e7"
   },
   {
     "id": "gtm:tandoor_clay_oven",
@@ -1832,6 +1976,7 @@
       1.0,
       0.9
     ],
+    "cube_count": 4,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1859,7 +2004,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/tandoor_clay_oven.geo.json",
-    "sha256": "2113905da9ba3ad910ac57c305da1e4ed45f0c85bda0baa74278d97390bbdcc1"
+    "java_model_path": "creative/source/models/furniture/java/tandoor_clay_oven.json",
+    "icon_path": "creative/source/icons/furniture/tandoor_clay_oven.png",
+    "sha256": "700460b5e304a8b76b85712ff30c63089416131174cc9700875b7ce5570c0e4c"
   },
   {
     "id": "gtm:ro_water_purifier",
@@ -1870,6 +2017,7 @@
       0.55,
       0.3
     ],
+    "cube_count": 4,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1897,7 +2045,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/ro_water_purifier.geo.json",
-    "sha256": "0cb3b7d3a7f80f1b246dc355fd108b730d9ee422032205e7aa091eaee327a448"
+    "java_model_path": "creative/source/models/furniture/java/ro_water_purifier.json",
+    "icon_path": "creative/source/icons/furniture/ro_water_purifier.png",
+    "sha256": "fdbddc0b5d62171e01848e3a6ed290bea9bfe750263493a4bc48e37a915d532e"
   },
   {
     "id": "gtm:cutlery_cart_mobile",
@@ -1908,6 +2058,7 @@
       0.85,
       0.5
     ],
+    "cube_count": 26,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1935,7 +2086,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/cutlery_cart_mobile.geo.json",
-    "sha256": "54be864cf2182f222dbea4be889cd7897142ece9aa907f5739b3b97b054e1743"
+    "java_model_path": "creative/source/models/furniture/java/cutlery_cart_mobile.json",
+    "icon_path": "creative/source/icons/furniture/cutlery_cart_mobile.png",
+    "sha256": "c5af6713404ee0ab0bf5b88af68f105c2f58364a0f7114ebf9c903c034c6f78a"
   },
   {
     "id": "gtm:pantry_tall_unit",
@@ -1946,6 +2099,7 @@
       2.1,
       0.6
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -1973,7 +2127,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/pantry_tall_unit.geo.json",
-    "sha256": "1a4001421076b96869603178fa505447033ff8c636ff9ffbaa5af5360d9d8b12"
+    "java_model_path": "creative/source/models/furniture/java/pantry_tall_unit.json",
+    "icon_path": "creative/source/icons/furniture/pantry_tall_unit.png",
+    "sha256": "78bd451292d94a81e110a4677a6d059aa8f2febf096a64af03dedf74c8e58901"
   },
   {
     "id": "gtm:breakfast_counter",
@@ -1984,6 +2140,7 @@
       0.85,
       0.45
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2011,7 +2168,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/breakfast_counter.geo.json",
-    "sha256": "7ebe314080e8fc74c1f71b97c0675cd4c7efe8fee57ca404b91324f226632d1c"
+    "java_model_path": "creative/source/models/furniture/java/breakfast_counter.json",
+    "icon_path": "creative/source/icons/furniture/breakfast_counter.png",
+    "sha256": "db15ecf6a77e97cfea955819589e06f19a5d3ccdc4320c149a7978cb786daf70"
   },
   {
     "id": "gtm:pot_rack_hanging",
@@ -2022,6 +2181,7 @@
       0.4,
       0.6
     ],
+    "cube_count": 4,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2049,7 +2209,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/pot_rack_hanging.geo.json",
-    "sha256": "b890f67cf33f2fff394b4edf4b88de0e3389ac7051801c839c464123643fd8c7"
+    "java_model_path": "creative/source/models/furniture/java/pot_rack_hanging.json",
+    "icon_path": "creative/source/icons/furniture/pot_rack_hanging.png",
+    "sha256": "1aa727a036dd92e18dfdb3b856ae6802e7e536389e6b0115961cdffff99ceee1"
   },
   {
     "id": "gtm:dishwasher_undercounter",
@@ -2060,6 +2222,7 @@
       0.85,
       0.6
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2087,7 +2250,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/dishwasher_undercounter.geo.json",
-    "sha256": "fb9e0565fa7e64547b67c64ce80bab2fa5885a9bca4b36c2af44ef1c0c024b3a"
+    "java_model_path": "creative/source/models/furniture/java/dishwasher_undercounter.json",
+    "icon_path": "creative/source/icons/furniture/dishwasher_undercounter.png",
+    "sha256": "a6769b403b775ebeb7d25eeeedda2ae25f389243304480d8600fc4283551d650"
   },
   {
     "id": "gtm:executive_desk_lshape",
@@ -2098,6 +2263,7 @@
       0.75,
       1.6
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2125,7 +2291,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/executive_desk_lshape.geo.json",
-    "sha256": "edfa1d0a805f7da18a75fdb9f08d4ce47fce446e5aa5e9560ffada7188c1e299"
+    "java_model_path": "creative/source/models/furniture/java/executive_desk_lshape.json",
+    "icon_path": "creative/source/icons/furniture/executive_desk_lshape.png",
+    "sha256": "de43281eadb039883718511bf820524ab4640a94d35f70c3423c4eb2235c2b9c"
   },
   {
     "id": "gtm:ergonomic_task_chair",
@@ -2136,6 +2304,7 @@
       1.15,
       0.65
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2163,7 +2332,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/ergonomic_task_chair.geo.json",
-    "sha256": "730ddd39a0576c5bbd11f0f7aa49920a6bdfd34110f6cf1f70d088e03c33f0db"
+    "java_model_path": "creative/source/models/furniture/java/ergonomic_task_chair.json",
+    "icon_path": "creative/source/icons/furniture/ergonomic_task_chair.png",
+    "sha256": "56b23051ffd0b48874db96ce0dfa7c6caf1ed7b33682d657304c25722660cb9c"
   },
   {
     "id": "gtm:dual_monitor_mount",
@@ -2174,6 +2345,7 @@
       0.5,
       0.3
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2201,7 +2373,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/dual_monitor_mount.geo.json",
-    "sha256": "c490f0715a83db9f41b3d8fdfa9f2d24dda1e1ae36e9a24434cc6d967f5d1210"
+    "java_model_path": "creative/source/models/furniture/java/dual_monitor_mount.json",
+    "icon_path": "creative/source/icons/furniture/dual_monitor_mount.png",
+    "sha256": "0643c4c8f1870a3699155f30542848ddaacf158973f4f2babf5f1625e45639a4"
   },
   {
     "id": "gtm:filing_cabinet_fireproof",
@@ -2212,6 +2386,7 @@
       1.35,
       0.65
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2239,7 +2414,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/filing_cabinet_fireproof.geo.json",
-    "sha256": "27a640a35e9e7f0e5ec9c8a189395e60aa35c3801f64661e5fd7ab8737827eff"
+    "java_model_path": "creative/source/models/furniture/java/filing_cabinet_fireproof.json",
+    "icon_path": "creative/source/icons/furniture/filing_cabinet_fireproof.png",
+    "sha256": "336213910e78fa1029727ad16a5e8ea236d58ce88efbc14686f4f9d13cbf0002"
   },
   {
     "id": "gtm:server_rack_half",
@@ -2250,6 +2427,7 @@
       1.0,
       0.8
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2277,7 +2455,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/server_rack_half.geo.json",
-    "sha256": "c414019a880cee044009ccad2de5402cb99afe02f25ac4696a22d1781fc325a6"
+    "java_model_path": "creative/source/models/furniture/java/server_rack_half.json",
+    "icon_path": "creative/source/icons/furniture/server_rack_half.png",
+    "sha256": "9b2ec00c937f9d7ef9ba29fa15b9da7fda40bd6ab25638cdee65fb5a2fd30253"
   },
   {
     "id": "gtm:conference_table_10p",
@@ -2288,6 +2468,7 @@
       0.75,
       1.2
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2315,7 +2496,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/conference_table_10p.geo.json",
-    "sha256": "a088c5a0694a3ee0893bd883564898f948ae03760de2a644374119ca9d178785"
+    "java_model_path": "creative/source/models/furniture/java/conference_table_10p.json",
+    "icon_path": "creative/source/icons/furniture/conference_table_10p.png",
+    "sha256": "5c8e5e92b88f8d04cf03463b72311d7db1528096ea462ff7dabc0abc602581c9"
   },
   {
     "id": "gtm:boardroom_chair",
@@ -2326,6 +2509,7 @@
       0.9,
       0.55
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2353,7 +2537,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/boardroom_chair.geo.json",
-    "sha256": "0cc2c561be63905e4be39784909074f5eecd48fddb351a7df54b20ec589848e4"
+    "java_model_path": "creative/source/models/furniture/java/boardroom_chair.json",
+    "icon_path": "creative/source/icons/furniture/boardroom_chair.png",
+    "sha256": "7eac2de8a6d8f1fa084a281971645c477765bfc85c8286078d2d9e68820c6be9"
   },
   {
     "id": "gtm:magnetic_whiteboard",
@@ -2364,6 +2550,7 @@
       1.85,
       0.5
     ],
+    "cube_count": 4,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2391,7 +2578,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/magnetic_whiteboard.geo.json",
-    "sha256": "e7fbd7aa2d75a73216e17968c862da0899170d0beab256bb712c4e3c26afd3a2"
+    "java_model_path": "creative/source/models/furniture/java/magnetic_whiteboard.json",
+    "icon_path": "creative/source/icons/furniture/magnetic_whiteboard.png",
+    "sha256": "74a0369f94f9d8f1dd31dde69b922dbd6d8fdcc060fc673e4a25d76dde8743ac"
   },
   {
     "id": "gtm:reception_podium",
@@ -2402,6 +2591,7 @@
       1.1,
       0.9
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2429,7 +2619,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/reception_podium.geo.json",
-    "sha256": "ce9db787619d336ff7dd37a382ca5bbbb949979fe34a2aa50831f32ce1ec3b76"
+    "java_model_path": "creative/source/models/furniture/java/reception_podium.json",
+    "icon_path": "creative/source/icons/furniture/reception_podium.png",
+    "sha256": "235c65dab73b972eb34a166a4abb970d136de33ebd19a52f7219a879473d2dc2"
   },
   {
     "id": "gtm:credenza_creed",
@@ -2440,6 +2632,7 @@
       0.75,
       0.45
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2467,7 +2660,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/credenza_creed.geo.json",
-    "sha256": "51f73d65da1a728fced35aafc4c83c6e9058a4a9f15666a3e7a968ae99b70809"
+    "java_model_path": "creative/source/models/furniture/java/credenza_creed.json",
+    "icon_path": "creative/source/icons/furniture/credenza_creed.png",
+    "sha256": "8542cc9453484190e206dc14bbd763de2e00046d08d74aff8518c5432da6e0b3"
   },
   {
     "id": "gtm:water_dispenser",
@@ -2478,6 +2673,7 @@
       1.15,
       0.35
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2505,7 +2701,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/water_dispenser.geo.json",
-    "sha256": "6ef8f264d6c94c1cd319d449663e10e75c2fdad64e7fdeb34f3ae955c50e8a0c"
+    "java_model_path": "creative/source/models/furniture/java/water_dispenser.json",
+    "icon_path": "creative/source/icons/furniture/water_dispenser.png",
+    "sha256": "5d53f0797abeb1947f21f8cc98b2e3ca8271109e47d07e128b208c9f65c500a5"
   },
   {
     "id": "gtm:printer_copier_station",
@@ -2516,6 +2714,7 @@
       1.1,
       0.75
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2543,7 +2742,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/printer_copier_station.geo.json",
-    "sha256": "3d69d69cb78fc9676d286a3cf45f2849887310cf578ebc358a7f5d7b94e38106"
+    "java_model_path": "creative/source/models/furniture/java/printer_copier_station.json",
+    "icon_path": "creative/source/icons/furniture/printer_copier_station.png",
+    "sha256": "7ca122915b115d3f9bad689ed47d4d6f9fb04777c30a7fa3c1c3e5c688f72fc0"
   },
   {
     "id": "gtm:workstation_cubicle",
@@ -2554,6 +2755,7 @@
       1.35,
       1.4
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2581,7 +2783,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/workstation_cubicle.geo.json",
-    "sha256": "2092ff752c14d6f92b7ed56f447efaae194dec00cb64a8b3dacc2b56a91f93b9"
+    "java_model_path": "creative/source/models/furniture/java/workstation_cubicle.json",
+    "icon_path": "creative/source/icons/furniture/workstation_cubicle.png",
+    "sha256": "032ee7cc908ccc8b0f66838bdd4513a0c0426d1f9d4cd6acdc9d4ff03d8f7a85"
   },
   {
     "id": "gtm:desk_lamp_led",
@@ -2592,6 +2796,7 @@
       0.55,
       0.3
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2619,7 +2824,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/desk_lamp_led.geo.json",
-    "sha256": "820ceecac4bd267f04ff296022591d448f2734de1d40c84e9c363d28fc06c8dc"
+    "java_model_path": "creative/source/models/furniture/java/desk_lamp_led.json",
+    "icon_path": "creative/source/icons/furniture/desk_lamp_led.png",
+    "sha256": "aefb2a84eacca266278fdc6b8de1d8b1741bc1ad0b575c78a6529a18a6442017"
   },
   {
     "id": "gtm:presentation_screen",
@@ -2630,6 +2837,7 @@
       1.85,
       0.6
     ],
+    "cube_count": 4,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2657,7 +2865,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/presentation_screen.geo.json",
-    "sha256": "38c4682469ff99dde5198123538b543165a6bcad8a5f1aa8d5c33b076a59d0ee"
+    "java_model_path": "creative/source/models/furniture/java/presentation_screen.json",
+    "icon_path": "creative/source/icons/furniture/presentation_screen.png",
+    "sha256": "d5b65ed75ba019e353ccc720c816077a184ad2b2ee7c4a51c13b2464c1cce2a2"
   },
   {
     "id": "gtm:literature_carousel",
@@ -2668,6 +2878,7 @@
       1.6,
       0.45
     ],
+    "cube_count": 9,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2695,7 +2906,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/literature_carousel.geo.json",
-    "sha256": "153101be9b64d0c46b59a4a10eab2a81ab83855aebe2eafb00e2cee6ad3eaddf"
+    "java_model_path": "creative/source/models/furniture/java/literature_carousel.json",
+    "icon_path": "creative/source/icons/furniture/literature_carousel.png",
+    "sha256": "78de1f08248726a56d9d541b076bfed48da22bcfe2e4c2cedfe6a39d87459dd9"
   },
   {
     "id": "gtm:acoustic_pod_solo",
@@ -2706,6 +2919,7 @@
       2.2,
       1.1
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2733,7 +2947,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/acoustic_pod_solo.geo.json",
-    "sha256": "57aa6f6886515f5416a2d246800d527df49a10943eadfbe1dd76c4bb1b27bc69"
+    "java_model_path": "creative/source/models/furniture/java/acoustic_pod_solo.json",
+    "icon_path": "creative/source/icons/furniture/acoustic_pod_solo.png",
+    "sha256": "f6f332d6c3c9b70bb01e2e1d0197c50128fbe97a6cd8cde9b059b78fa3b086d7"
   },
   {
     "id": "gtm:shredder_bin",
@@ -2744,6 +2960,7 @@
       0.65,
       0.4
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2771,7 +2988,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/shredder_bin.geo.json",
-    "sha256": "161bcae5f25edf6db5d6e3fe6435c778262862f7002a202cc4b8bcd063103d87"
+    "java_model_path": "creative/source/models/furniture/java/shredder_bin.json",
+    "icon_path": "creative/source/icons/furniture/shredder_bin.png",
+    "sha256": "bfbe713040ee9dd9647bac785b7c4d72df1409f901d214ab73bbbd934fd5e7cd"
   },
   {
     "id": "gtm:coat_stand_tree",
@@ -2782,6 +3001,7 @@
       1.8,
       0.45
     ],
+    "cube_count": 7,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2809,7 +3029,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/coat_stand_tree.geo.json",
-    "sha256": "a0e5f9995eacbc730ff178cc52b4131dcf741eee666750d7c1bdd6af6ebbcbe5"
+    "java_model_path": "creative/source/models/furniture/java/coat_stand_tree.json",
+    "icon_path": "creative/source/icons/furniture/coat_stand_tree.png",
+    "sha256": "a7f9236f4ec1da65420f86d9347b4d36e20cb5ff56b5b237c201c0ac40980b1f"
   },
   {
     "id": "gtm:cable_spine_vertical",
@@ -2820,6 +3042,7 @@
       0.75,
       0.15
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2847,7 +3070,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/cable_spine_vertical.geo.json",
-    "sha256": "c5541ab857bf92bd7611f950374e8ad467c86ac18a60640c2fbd730aceaf56eb"
+    "java_model_path": "creative/source/models/furniture/java/cable_spine_vertical.json",
+    "icon_path": "creative/source/icons/furniture/cable_spine_vertical.png",
+    "sha256": "fc7a1af4b2ad91176fea4ee5746b711dd94005ee930cc0a1b56f5b224d529027"
   },
   {
     "id": "gtm:hospital_icu_bed",
@@ -2858,6 +3083,7 @@
       1.0,
       2.15
     ],
+    "cube_count": 11,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2885,7 +3111,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/hospital_icu_bed.geo.json",
-    "sha256": "5f31e7cb4b3cc67bdf8de1f76d034087228d4e3a327da9c103f1121392ca5661"
+    "java_model_path": "creative/source/models/furniture/java/hospital_icu_bed.json",
+    "icon_path": "creative/source/icons/furniture/hospital_icu_bed.png",
+    "sha256": "20bc9b51ec0b5881a5b81aea42beaac991a8ecb06b00f55148df6702dc98eacd"
   },
   {
     "id": "gtm:mobile_iv_pole",
@@ -2896,6 +3124,7 @@
       1.9,
       0.5
     ],
+    "cube_count": 35,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2923,7 +3152,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/mobile_iv_pole.geo.json",
-    "sha256": "f6b99697013dd7ed15f8696ab9a76d16c78def9b5d1a36eb08002ae81344f041"
+    "java_model_path": "creative/source/models/furniture/java/mobile_iv_pole.json",
+    "icon_path": "creative/source/icons/furniture/mobile_iv_pole.png",
+    "sha256": "1f41156d5cf122542a3323766fadd6c0764bd081879e206ec7bee81efaa2e3a3"
   },
   {
     "id": "gtm:examination_table",
@@ -2934,6 +3165,7 @@
       0.8,
       1.9
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2961,7 +3193,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/examination_table.geo.json",
-    "sha256": "3968d4c72923954579e1ed659740d08bd8990a54f9465651ceb6b1c10e6b2de5"
+    "java_model_path": "creative/source/models/furniture/java/examination_table.json",
+    "icon_path": "creative/source/icons/furniture/examination_table.png",
+    "sha256": "b7e6454243ca19bba31d4c248d9b1ffb2fae8230cc272aabf18c5a39600651e4"
   },
   {
     "id": "gtm:defibrillator_crash_cart",
@@ -2972,6 +3206,7 @@
       1.3,
       0.6
     ],
+    "cube_count": 26,
     "floor_anchor": [
       0.0,
       0.0,
@@ -2999,7 +3234,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/defibrillator_crash_cart.geo.json",
-    "sha256": "bfb81ff82a4ed97494a4077e3d94f8efcba5b67a320e441fa211a976ebe6b386"
+    "java_model_path": "creative/source/models/furniture/java/defibrillator_crash_cart.json",
+    "icon_path": "creative/source/icons/furniture/defibrillator_crash_cart.png",
+    "sha256": "2f1541534c01f6bb5f8ae9d942ee6df4feb5ae991b4a167f4d96d15aecb155c5"
   },
   {
     "id": "gtm:patient_privacy_screen",
@@ -3010,6 +3247,7 @@
       1.75,
       0.3
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3037,7 +3275,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/patient_privacy_screen.geo.json",
-    "sha256": "3777e70c446b63c8e7f1e1e23fe1886f810e092ec7631cadc448300c43adfdcf"
+    "java_model_path": "creative/source/models/furniture/java/patient_privacy_screen.json",
+    "icon_path": "creative/source/icons/furniture/patient_privacy_screen.png",
+    "sha256": "b3733aa4fce1a76b102a1b27a9e500e152d7cd65f181f692d73bedb429c36ccf"
   },
   {
     "id": "gtm:mayo_surgical_stand",
@@ -3048,6 +3288,7 @@
       1.05,
       0.5
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3075,7 +3316,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/mayo_surgical_stand.geo.json",
-    "sha256": "e067672d22a51c23898990f5f45513efdd2239523498cb16929fcd4644a3d7a6"
+    "java_model_path": "creative/source/models/furniture/java/mayo_surgical_stand.json",
+    "icon_path": "creative/source/icons/furniture/mayo_surgical_stand.png",
+    "sha256": "6c7f4b4e1bbceb4d1a3f61001151388869841169d922836185bad0fe804c6a13"
   },
   {
     "id": "gtm:vital_signs_monitor",
@@ -3086,6 +3329,7 @@
       1.45,
       0.55
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3113,7 +3357,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/vital_signs_monitor.geo.json",
-    "sha256": "89b6633f4f133400c34bd109cc09a7ffab937982dbccc0da491cad2babc577c9"
+    "java_model_path": "creative/source/models/furniture/java/vital_signs_monitor.json",
+    "icon_path": "creative/source/icons/furniture/vital_signs_monitor.png",
+    "sha256": "2c71b496a8cc19dcac50ebd49882381814f22d6c9a34690f08f880609479b034"
   },
   {
     "id": "gtm:medicine_dispense_cabinet",
@@ -3124,6 +3370,7 @@
       1.8,
       0.45
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3151,7 +3398,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/medicine_dispense_cabinet.geo.json",
-    "sha256": "4cb28b0cca301fd7b3f16e365778d4daf457b06db20b545ed8d750a19c32c2e8"
+    "java_model_path": "creative/source/models/furniture/java/medicine_dispense_cabinet.json",
+    "icon_path": "creative/source/icons/furniture/medicine_dispense_cabinet.png",
+    "sha256": "fad764e5e2c10f675c01b1d9812c6fc7c5ae362bf4940a2104bc8134fe809848"
   },
   {
     "id": "gtm:wheelchair_standard",
@@ -3162,6 +3411,7 @@
       0.95,
       1.0
     ],
+    "cube_count": 22,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3189,7 +3439,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/wheelchair_standard.geo.json",
-    "sha256": "06e4fe4e9dc176c17841d29286301c6929098ae04c23890a073791e9253a9b99"
+    "java_model_path": "creative/source/models/furniture/java/wheelchair_standard.json",
+    "icon_path": "creative/source/icons/furniture/wheelchair_standard.png",
+    "sha256": "e41b5cd022c6f52ff2c17e2a5c88c3431a7313bbcdfe844b652efcdb45d15511"
   },
   {
     "id": "gtm:transport_stretcher",
@@ -3200,6 +3452,7 @@
       0.9,
       2.1
     ],
+    "cube_count": 9,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3227,7 +3480,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/transport_stretcher.geo.json",
-    "sha256": "120376cb83fe58ecb6dc1d38bee3bc56e2cab1e022cbe1e6aa23ad663c111f10"
+    "java_model_path": "creative/source/models/furniture/java/transport_stretcher.json",
+    "icon_path": "creative/source/icons/furniture/transport_stretcher.png",
+    "sha256": "b1fc7e52ee6f855bc60d2484291fd0c37bf0805bda4a1e3f607436af8893447c"
   },
   {
     "id": "gtm:operating_theatre_lamp",
@@ -3238,6 +3493,7 @@
       0.6,
       1.6
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3265,7 +3521,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/operating_theatre_lamp.geo.json",
-    "sha256": "ea1c47e2b645768e6feace20a4e38aa463c702d2c7c184b1010f6378462c179b"
+    "java_model_path": "creative/source/models/furniture/java/operating_theatre_lamp.json",
+    "icon_path": "creative/source/icons/furniture/operating_theatre_lamp.png",
+    "sha256": "ff33eb16e1502295c8ecb37e8d15abf8f43abac231404db0fca2bf5e441138c1"
   },
   {
     "id": "gtm:autoclave_sterilizer",
@@ -3276,6 +3534,7 @@
       0.55,
       0.65
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3303,7 +3562,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/autoclave_sterilizer.geo.json",
-    "sha256": "f36d7503ea27d1e3f91cf934c2d6726e9512ab650807f12c9fe0813bee34fc83"
+    "java_model_path": "creative/source/models/furniture/java/autoclave_sterilizer.json",
+    "icon_path": "creative/source/icons/furniture/autoclave_sterilizer.png",
+    "sha256": "9a8c39100925f9018fefd46dc275414347aabcb02aaf45e46d978873fe5f627a"
   },
   {
     "id": "gtm:scrub_sink_double",
@@ -3314,6 +3575,7 @@
       1.15,
       0.65
     ],
+    "cube_count": 4,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3341,7 +3603,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/scrub_sink_double.geo.json",
-    "sha256": "e775bfe415c2285fa949855bd2ea264df205a5f8118351a29c56fab3fdda967b"
+    "java_model_path": "creative/source/models/furniture/java/scrub_sink_double.json",
+    "icon_path": "creative/source/icons/furniture/scrub_sink_double.png",
+    "sha256": "e21463af86c0c160b04ccd263131fcfeb84a85609221edd851da61f56c1e99c2"
   },
   {
     "id": "gtm:hospital_overbed_table",
@@ -3352,6 +3616,7 @@
       0.85,
       0.45
     ],
+    "cube_count": 11,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3379,7 +3644,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/hospital_overbed_table.geo.json",
-    "sha256": "db121e9768048ba9ae8d29d09437fef252bafc7cb98d338ca333e0e4a395242a"
+    "java_model_path": "creative/source/models/furniture/java/hospital_overbed_table.json",
+    "icon_path": "creative/source/icons/furniture/hospital_overbed_table.png",
+    "sha256": "b48fadc7ca1351b339b4cc53d7122b219d3d44016e22205e1e3f82fb2735e104"
   },
   {
     "id": "gtm:triage_nursing_station",
@@ -3390,6 +3657,7 @@
       1.15,
       0.85
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3417,7 +3685,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/triage_nursing_station.geo.json",
-    "sha256": "393a8e14513c0eeb1a8769db64a3020fbb9c9f7d66e580f386e97b2fd4de85a0"
+    "java_model_path": "creative/source/models/furniture/java/triage_nursing_station.json",
+    "icon_path": "creative/source/icons/furniture/triage_nursing_station.png",
+    "sha256": "8f9630796559383c33f9cdef08d4c15301ce2957d0ebc4f474e58ced12e9b8c3"
   },
   {
     "id": "gtm:oxygen_cylinder_trolley",
@@ -3428,6 +3698,7 @@
       1.3,
       0.45
     ],
+    "cube_count": 26,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3455,7 +3726,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/oxygen_cylinder_trolley.geo.json",
-    "sha256": "b3b49fdd01a26b5eeb5ee36db1c124f96d2f6a87a6cab1e2e26cb0221a606872"
+    "java_model_path": "creative/source/models/furniture/java/oxygen_cylinder_trolley.json",
+    "icon_path": "creative/source/icons/furniture/oxygen_cylinder_trolley.png",
+    "sha256": "c6fbae6d2c8962d5d81d74863210dd5cdcc1ab00f650f6b2948e7ce416b001aa"
   },
   {
     "id": "gtm:biohazard_foot_bin",
@@ -3466,6 +3739,7 @@
       0.7,
       0.45
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3493,7 +3767,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/biohazard_foot_bin.geo.json",
-    "sha256": "90c61f8d4fa0dee1105af18ac6a18706bf4a898f0f7cb85853bdd044351f7763"
+    "java_model_path": "creative/source/models/furniture/java/biohazard_foot_bin.json",
+    "icon_path": "creative/source/icons/furniture/biohazard_foot_bin.png",
+    "sha256": "48e4e42fd7619f6d823efa3dee9fab86097fda57c958d09e721e18c03ac7278c"
   },
   {
     "id": "gtm:xray_viewing_lightbox",
@@ -3504,6 +3780,7 @@
       0.55,
       0.1
     ],
+    "cube_count": 4,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3531,7 +3808,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/xray_viewing_lightbox.geo.json",
-    "sha256": "aebcfcc326ed84ea8928f839a8dccacd0cce0b5f4011038102a119a8607af91e"
+    "java_model_path": "creative/source/models/furniture/java/xray_viewing_lightbox.json",
+    "icon_path": "creative/source/icons/furniture/xray_viewing_lightbox.png",
+    "sha256": "0f6fefa1413d9c93f00049653fdccf8f2b86a4b9a902dae2f77d2d46720881c2"
   },
   {
     "id": "gtm:phlebotomy_chair",
@@ -3542,6 +3821,7 @@
       1.1,
       0.85
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3569,7 +3849,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/phlebotomy_chair.geo.json",
-    "sha256": "aa561ca42328cdfdc86d81350f7800d062b6505e26895c90599478665d3afdc6"
+    "java_model_path": "creative/source/models/furniture/java/phlebotomy_chair.json",
+    "icon_path": "creative/source/icons/furniture/phlebotomy_chair.png",
+    "sha256": "e35addc37d7972a7d43ceeabcd7fd15739ce041653d8391b707eb25c2111980b"
   },
   {
     "id": "gtm:hospital_bedside_locker",
@@ -3580,6 +3862,7 @@
       0.8,
       0.45
     ],
+    "cube_count": 11,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3607,7 +3890,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/hospital_bedside_locker.geo.json",
-    "sha256": "d0930a555551c5c333976a7d349dad32d1f8c6e04154df94aa876ca70e1d83cd"
+    "java_model_path": "creative/source/models/furniture/java/hospital_bedside_locker.json",
+    "icon_path": "creative/source/icons/furniture/hospital_bedside_locker.png",
+    "sha256": "1cc16a7f810c57436a68da797309b422528ee21360350e4f9706f9c03322599f"
   },
   {
     "id": "gtm:interrogation_table",
@@ -3618,6 +3903,7 @@
       0.75,
       0.8
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3645,7 +3931,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/interrogation_table.geo.json",
-    "sha256": "2f67ad6d8e9c2afa86e31efad631d7956b31f0049f12156e7dbea5825d17104f"
+    "java_model_path": "creative/source/models/furniture/java/interrogation_table.json",
+    "icon_path": "creative/source/icons/furniture/interrogation_table.png",
+    "sha256": "04a3763669561ab888121e7b0a66637a87a239f5e54887d79b3d0d0c72d69a4f"
   },
   {
     "id": "gtm:suspect_restraint_chair",
@@ -3656,6 +3944,7 @@
       0.85,
       0.55
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3683,7 +3972,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/suspect_restraint_chair.geo.json",
-    "sha256": "7f2305c5967e823c7ef681cb960ffde8debfe33ed8fc2a9f63bf3537adebe81c"
+    "java_model_path": "creative/source/models/furniture/java/suspect_restraint_chair.json",
+    "icon_path": "creative/source/icons/furniture/suspect_restraint_chair.png",
+    "sha256": "ccaf42fd49be9051e0bc845b5c3dd45f5aaf8d6187de5e209d386f5554b8dd10"
   },
   {
     "id": "gtm:evidence_locker_grid",
@@ -3694,6 +3985,7 @@
       1.95,
       0.5
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3721,7 +4013,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/evidence_locker_grid.geo.json",
-    "sha256": "a2a484326894b2c56955456fbb0ddc444ac148b185fd81b14fc6553b5ec46c54"
+    "java_model_path": "creative/source/models/furniture/java/evidence_locker_grid.json",
+    "icon_path": "creative/source/icons/furniture/evidence_locker_grid.png",
+    "sha256": "9d29f5f5209a8005e291fc1ad3e01e5eb3d2b4f56c3b0a03cc41891de9de6aed"
   },
   {
     "id": "gtm:booking_fingerprint_kiosk",
@@ -3732,6 +4026,7 @@
       1.35,
       0.65
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3759,7 +4054,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/booking_fingerprint_kiosk.geo.json",
-    "sha256": "3e9c776b8f8de03f4d183b37089043f4a8a448c474f6091d6837aa918b069240"
+    "java_model_path": "creative/source/models/furniture/java/booking_fingerprint_kiosk.json",
+    "icon_path": "creative/source/icons/furniture/booking_fingerprint_kiosk.png",
+    "sha256": "c3fb08f5f67fb7018f3acc410e24f69176b91887d9416bfe71e5700a98d9f475"
   },
   {
     "id": "gtm:jail_cell_bunk_steel",
@@ -3770,6 +4067,7 @@
       1.7,
       2.05
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3797,7 +4095,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/jail_cell_bunk_steel.geo.json",
-    "sha256": "d206ee28a2e0b425d65501718c8e039dee70b431c165b692987904d2bd9f91fe"
+    "java_model_path": "creative/source/models/furniture/java/jail_cell_bunk_steel.json",
+    "icon_path": "creative/source/icons/furniture/jail_cell_bunk_steel.png",
+    "sha256": "aa70230e253667bf1b8c072c3efa64754a2e0ea009d23efb68da48f544ff2c76"
   },
   {
     "id": "gtm:cell_combi_toilet_sink",
@@ -3808,6 +4108,7 @@
       0.95,
       0.65
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3835,7 +4136,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/cell_combi_toilet_sink.geo.json",
-    "sha256": "f4182e97e19d7375ec9e8d5a62ad17f7fb41ddaae66b6339d6101fe0d0c929a3"
+    "java_model_path": "creative/source/models/furniture/java/cell_combi_toilet_sink.json",
+    "icon_path": "creative/source/icons/furniture/cell_combi_toilet_sink.png",
+    "sha256": "1d93873fed7b15d042a6f085d01232ed560cad37cffa0b0a5ae5aff9198d910a"
   },
   {
     "id": "gtm:patrol_sergeant_desk",
@@ -3846,6 +4149,7 @@
       1.25,
       0.8
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3873,7 +4177,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/patrol_sergeant_desk.geo.json",
-    "sha256": "f650304c103c718905f69caac8543b9ee67b404a399f5761fbcebe2d7ad4d1d2"
+    "java_model_path": "creative/source/models/furniture/java/patrol_sergeant_desk.json",
+    "icon_path": "creative/source/icons/furniture/patrol_sergeant_desk.png",
+    "sha256": "e6404894c1ad06d59d56be0ea2058969b075d692d0fe1307acad20d9144d820d"
   },
   {
     "id": "gtm:weapon_armory_cage",
@@ -3884,6 +4190,7 @@
       2.1,
       0.55
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3911,7 +4218,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/weapon_armory_cage.geo.json",
-    "sha256": "f3c37602a21a491b2c8cf41b7d968810105724d0223be77adc3901e638d81f68"
+    "java_model_path": "creative/source/models/furniture/java/weapon_armory_cage.json",
+    "icon_path": "creative/source/icons/furniture/weapon_armory_cage.png",
+    "sha256": "31e28ed9647962abb8b12166b2f7ea1a3ed74ec4870f8cc4d31a83c48b7662a8"
   },
   {
     "id": "gtm:wanted_bulletin_corkboard",
@@ -3922,6 +4231,7 @@
       1.0,
       0.1
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3949,7 +4259,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/wanted_bulletin_corkboard.geo.json",
-    "sha256": "abd199fb491caf0d3d453279ff476354cc79c8ed06a721cfc0de1d71722cf414"
+    "java_model_path": "creative/source/models/furniture/java/wanted_bulletin_corkboard.json",
+    "icon_path": "creative/source/icons/furniture/wanted_bulletin_corkboard.png",
+    "sha256": "4baec3ba91d6031f46af4a1ea94809cf463f89d1a27283141999480da736b31c"
   },
   {
     "id": "gtm:breathalyzer_test_bench",
@@ -3960,6 +4272,7 @@
       1.0,
       0.6
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -3987,7 +4300,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/breathalyzer_test_bench.geo.json",
-    "sha256": "8c24da23c29ef86ae68234293012eb9cfbc8c13d362794067d2b1003ebef4954"
+    "java_model_path": "creative/source/models/furniture/java/breathalyzer_test_bench.json",
+    "icon_path": "creative/source/icons/furniture/breathalyzer_test_bench.png",
+    "sha256": "7f38ae6869cd6659a653789061bb0d458450f5f60e5d97259d5c24ad7080d5b0"
   },
   {
     "id": "gtm:detention_bench_handcuff",
@@ -3998,6 +4313,7 @@
       0.45,
       0.45
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4025,7 +4341,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/detention_bench_handcuff.geo.json",
-    "sha256": "28965984d6a0aaca82577c795bbd94f0fac2df8a9f1215f31b13bcc26054f753"
+    "java_model_path": "creative/source/models/furniture/java/detention_bench_handcuff.json",
+    "icon_path": "creative/source/icons/furniture/detention_bench_handcuff.png",
+    "sha256": "312772dec7a12f2f2debeca81d32775fd709af1efd5778563f548ffd111f28c6"
   },
   {
     "id": "gtm:mugshot_height_backdrop",
@@ -4036,6 +4354,7 @@
       2.0,
       0.05
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4063,7 +4382,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/mugshot_height_backdrop.geo.json",
-    "sha256": "70c0d04b6523664655e3d3350ff4f981ecb5bb029be053cfe3719c83e04adcd5"
+    "java_model_path": "creative/source/models/furniture/java/mugshot_height_backdrop.json",
+    "icon_path": "creative/source/icons/furniture/mugshot_height_backdrop.png",
+    "sha256": "f0e581cfa9cf49d8c3ab4f8b110ba7e5d7b8406ec3f50bcdc043bac81833bd0b"
   },
   {
     "id": "gtm:surveillance_wall_cctv",
@@ -4074,6 +4395,7 @@
       1.8,
       0.7
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4101,7 +4423,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/surveillance_wall_cctv.geo.json",
-    "sha256": "8ec8b773d5742a5fc8c28e7a5367264739aa932cf12a8f7ed1c9853b11d237cb"
+    "java_model_path": "creative/source/models/furniture/java/surveillance_wall_cctv.json",
+    "icon_path": "creative/source/icons/furniture/surveillance_wall_cctv.png",
+    "sha256": "6b9b7274450244bcac76ff3a916b86c5316b4946b5900d4417ba4eeb2d9cf41e"
   },
   {
     "id": "gtm:riot_shield_rack",
@@ -4112,6 +4436,7 @@
       1.4,
       0.6
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4139,7 +4464,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/riot_shield_rack.geo.json",
-    "sha256": "ffade3216fd2070a487365de7ef38b66ae19221dd07f4e602291a6d8eb48c665"
+    "java_model_path": "creative/source/models/furniture/java/riot_shield_rack.json",
+    "icon_path": "creative/source/icons/furniture/riot_shield_rack.png",
+    "sha256": "0d44bae8bd61a961195e754a895ff2495341583276844ce2415a13be45381a4c"
   },
   {
     "id": "gtm:traffic_radar_calibration",
@@ -4150,6 +4477,7 @@
       0.9,
       0.6
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4177,7 +4505,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/traffic_radar_calibration.geo.json",
-    "sha256": "e2273b0434d55e960af5a8eff94bec84e15e82a2f640bfe6ee382d5824cab029"
+    "java_model_path": "creative/source/models/furniture/java/traffic_radar_calibration.json",
+    "icon_path": "creative/source/icons/furniture/traffic_radar_calibration.png",
+    "sha256": "3d31fb7cd7f4da0d3eb2bdcb18e4c661213fe2712c8c3e874dc6fe1825371d16"
   },
   {
     "id": "gtm:retail_cashwrap_wrap",
@@ -4188,6 +4518,7 @@
       1.05,
       0.85
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4215,7 +4546,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/retail_cashwrap_wrap.geo.json",
-    "sha256": "27b309946d94c6604c31da4b0990f552083f8a8f9df3178e0f0664bc3b21b44d"
+    "java_model_path": "creative/source/models/furniture/java/retail_cashwrap_wrap.json",
+    "icon_path": "creative/source/icons/furniture/retail_cashwrap_wrap.png",
+    "sha256": "9594bdb9ae533ebce8a0050872dd5cf54c273cc60cd3e00fe429d70a645a4b56"
   },
   {
     "id": "gtm:clothing_gondola_double",
@@ -4226,6 +4559,7 @@
       1.5,
       0.8
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4253,7 +4587,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/clothing_gondola_double.geo.json",
-    "sha256": "86e75406079bad58b090f0d10aa5b8ca21786021b8ee6465897dfc79661eef96"
+    "java_model_path": "creative/source/models/furniture/java/clothing_gondola_double.json",
+    "icon_path": "creative/source/icons/furniture/clothing_gondola_double.png",
+    "sha256": "54e6c5c840339717aff904755b06083321255beffd521f777f28619f22043e6b"
   },
   {
     "id": "gtm:supermarket_produce_bin",
@@ -4264,6 +4600,7 @@
       1.3,
       0.9
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4291,7 +4628,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/supermarket_produce_bin.geo.json",
-    "sha256": "252e4c6168c92d0487b53fec1308bf5e29a2013254208627e523e24980957bda"
+    "java_model_path": "creative/source/models/furniture/java/supermarket_produce_bin.json",
+    "icon_path": "creative/source/icons/furniture/supermarket_produce_bin.png",
+    "sha256": "ad36900753b4c9739f0587f8b85d40a66b376883cb4b3a9781785353f5b71803"
   },
   {
     "id": "gtm:checkout_belt_counter",
@@ -4302,6 +4641,7 @@
       0.95,
       1.1
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4329,7 +4669,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/checkout_belt_counter.geo.json",
-    "sha256": "c6e2f6505312fe6364c1f0967f7d42c8e24a339a2e0d3045c46418270363fe44"
+    "java_model_path": "creative/source/models/furniture/java/checkout_belt_counter.json",
+    "icon_path": "creative/source/icons/furniture/checkout_belt_counter.png",
+    "sha256": "bcde5b628d0c8dd3e99086b798d84b92e55f36c88d89ced6f5879911facc097e"
   },
   {
     "id": "gtm:beverage_cooler_glass",
@@ -4340,6 +4682,7 @@
       1.95,
       0.75
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4367,7 +4710,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/beverage_cooler_glass.geo.json",
-    "sha256": "84769428fc9a531a0732918395c9f3efabd4b492b71e3f601b8873d6e6d5924f"
+    "java_model_path": "creative/source/models/furniture/java/beverage_cooler_glass.json",
+    "icon_path": "creative/source/icons/furniture/beverage_cooler_glass.png",
+    "sha256": "5e1eeb6b81b6aff21c912280d9ada3448e53ed7a1403637ed7f51023c4b707f1"
   },
   {
     "id": "gtm:ice_cream_freezer",
@@ -4378,6 +4723,7 @@
       0.9,
       0.7
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4405,7 +4751,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/ice_cream_freezer.geo.json",
-    "sha256": "bee2cdb38abac8c55b3aa3df039c75e542a928f98bfe3f640ab7a96b9280c0d0"
+    "java_model_path": "creative/source/models/furniture/java/ice_cream_freezer.json",
+    "icon_path": "creative/source/icons/furniture/ice_cream_freezer.png",
+    "sha256": "4358f853ffe9db204f35009cd09551aa80055516c75b7fcac222cea72492f116"
   },
   {
     "id": "gtm:bakery_glass_display",
@@ -4416,6 +4764,7 @@
       1.2,
       0.75
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4443,7 +4792,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/bakery_glass_display.geo.json",
-    "sha256": "d4af8d40469cb62097479af8daedb85d23a17b0488b07d836d8aff1ca4340232"
+    "java_model_path": "creative/source/models/furniture/java/bakery_glass_display.json",
+    "icon_path": "creative/source/icons/furniture/bakery_glass_display.png",
+    "sha256": "aa2e5aafb7569788742a6f11618a41065e04830e68239ff60fb98a8f014e3c20"
   },
   {
     "id": "gtm:mannequin_podium",
@@ -4454,6 +4805,7 @@
       0.25,
       0.7
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4481,7 +4833,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/mannequin_podium.geo.json",
-    "sha256": "25eba873bf1022da8b9c3eeaa49d389eaf4fad581722b924d1920320c0702a01"
+    "java_model_path": "creative/source/models/furniture/java/mannequin_podium.json",
+    "icon_path": "creative/source/icons/furniture/mannequin_podium.png",
+    "sha256": "28e29d17e60d158883748b578f498e36aaa66fdb833813757a35f5425ff6d010"
   },
   {
     "id": "gtm:shoe_display_wall",
@@ -4492,6 +4846,7 @@
       2.1,
       0.4
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4519,7 +4874,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/shoe_display_wall.geo.json",
-    "sha256": "472dcb1df887d0a0b73b4d58f8671868ac8d09fd6ec18902f55e8f55547ee96b"
+    "java_model_path": "creative/source/models/furniture/java/shoe_display_wall.json",
+    "icon_path": "creative/source/icons/furniture/shoe_display_wall.png",
+    "sha256": "2b86cb881b225b0117910a5aa0bc0082734a28346c51293374843d68f8af7d7c"
   },
   {
     "id": "gtm:jewelry_glass_case",
@@ -4530,6 +4887,7 @@
       1.05,
       0.6
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4557,7 +4915,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/jewelry_glass_case.geo.json",
-    "sha256": "d901ca2b64dff30a75008b95e6669add1bd8f8b6851128b452f1f629877fac13"
+    "java_model_path": "creative/source/models/furniture/java/jewelry_glass_case.json",
+    "icon_path": "creative/source/icons/furniture/jewelry_glass_case.png",
+    "sha256": "e99ad11f63978d57ef3b81b2457065ab98fb76bde4209108e3a7f5922cfc1640"
   },
   {
     "id": "gtm:pharmacy_pill_bay",
@@ -4568,6 +4928,7 @@
       2.1,
       0.45
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4595,7 +4956,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/pharmacy_pill_bay.geo.json",
-    "sha256": "1fb24f29c2eaf507e705ba81d76be8a986330c2040c98887c33ee6355985e24d"
+    "java_model_path": "creative/source/models/furniture/java/pharmacy_pill_bay.json",
+    "icon_path": "creative/source/icons/furniture/pharmacy_pill_bay.png",
+    "sha256": "bfc27d4937a20f52ccc151744bae133f4ac73afbf0b57c85a02cd506a8555c95"
   },
   {
     "id": "gtm:atm_lobby_enclosure",
@@ -4606,6 +4969,7 @@
       2.0,
       0.9
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4633,7 +4997,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/atm_lobby_enclosure.geo.json",
-    "sha256": "0c3ed4f9d33a4bf1f58a5093a0139189e61a95cafa9fea005856254243452bff"
+    "java_model_path": "creative/source/models/furniture/java/atm_lobby_enclosure.json",
+    "icon_path": "creative/source/icons/furniture/atm_lobby_enclosure.png",
+    "sha256": "ec93bd4bc3101a923473a920de8b6c55ece397c938cd0181c1787e4381255a4e"
   },
   {
     "id": "gtm:security_turnstile_rfid",
@@ -4644,6 +5010,7 @@
       1.0,
       1.0
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4671,7 +5038,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/security_turnstile_rfid.geo.json",
-    "sha256": "02800cb331b47809b545ba9d7ac46f6ab031cb80ed5ef188e14009ae6f6576fa"
+    "java_model_path": "creative/source/models/furniture/java/security_turnstile_rfid.json",
+    "icon_path": "creative/source/icons/furniture/security_turnstile_rfid.png",
+    "sha256": "945b9445d46e857e23daf4a950aee26bf3c05ac6ad2aa44f11cc96385278f58d"
   },
   {
     "id": "gtm:shopping_cart_nest",
@@ -4682,6 +5051,7 @@
       1.0,
       3.2
     ],
+    "cube_count": 26,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4709,7 +5079,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/shopping_cart_nest.geo.json",
-    "sha256": "9714427b23d54280a3fe4df43a2edcd1ed98069565049cb6d3725a4dd0beebf6"
+    "java_model_path": "creative/source/models/furniture/java/shopping_cart_nest.json",
+    "icon_path": "creative/source/icons/furniture/shopping_cart_nest.png",
+    "sha256": "9b5a615bb8cccda27efec7e819d8088193d91f59f58f80a2d605d59c9d26fb2a"
   },
   {
     "id": "gtm:fitting_room_cubicle",
@@ -4720,6 +5092,7 @@
       2.1,
       1.2
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4747,7 +5120,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/fitting_room_cubicle.geo.json",
-    "sha256": "7c2bdb6e17f5b30f868c6ec981abfa87a786377408211972f928f9ffbf0a4ef1"
+    "java_model_path": "creative/source/models/furniture/java/fitting_room_cubicle.json",
+    "icon_path": "creative/source/icons/furniture/fitting_room_cubicle.png",
+    "sha256": "7bf2015b3606e7340d62eb03aa833e1f4a368eee1a9133fd09e3d6ec506454cb"
   },
   {
     "id": "gtm:retail_security_gate",
@@ -4758,6 +5133,7 @@
       1.5,
       0.15
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4785,7 +5161,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/retail_security_gate.geo.json",
-    "sha256": "dc9c3c98ae1917bb33064b05ccb5097f19fe7f04c618a1164c94da7dbb6bfb48"
+    "java_model_path": "creative/source/models/furniture/java/retail_security_gate.json",
+    "icon_path": "creative/source/icons/furniture/retail_security_gate.png",
+    "sha256": "73e68b64a2f3fb3da02e639a36f28b7fc8a1c5197f9dbabb9af3b11d06dc1761"
   },
   {
     "id": "gtm:snack_vending_machine",
@@ -4796,6 +5174,7 @@
       1.9,
       0.85
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4823,7 +5202,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/snack_vending_machine.geo.json",
-    "sha256": "d1bcb6152c5d302c1a96152c38bbf702222463beb936498b68e79e32a7589637"
+    "java_model_path": "creative/source/models/furniture/java/snack_vending_machine.json",
+    "icon_path": "creative/source/icons/furniture/snack_vending_machine.png",
+    "sha256": "9f2a2486d095754f6116140018274507b21b78275f05b20761c805843b15f5a5"
   },
   {
     "id": "gtm:magazine_kiosk_wire",
@@ -4834,6 +5215,7 @@
       1.7,
       0.55
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4861,7 +5243,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/magazine_kiosk_wire.geo.json",
-    "sha256": "0d02e4016c43d595497c1249d5e96def1d907409826558e374e0e321854c0585"
+    "java_model_path": "creative/source/models/furniture/java/magazine_kiosk_wire.json",
+    "icon_path": "creative/source/icons/furniture/magazine_kiosk_wire.png",
+    "sha256": "a458aba90e31ca55bb3ead77c3ab3dc0889bce4dcf0bd700c031a85b5ab8b615"
   },
   {
     "id": "gtm:cosmetics_tester_bar",
@@ -4872,6 +5256,7 @@
       1.4,
       0.6
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4899,7 +5284,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/cosmetics_tester_bar.geo.json",
-    "sha256": "081f2349c5d828e8ef283401dedabdaba832bf340f63831ca3a3540b7ae7c9c6"
+    "java_model_path": "creative/source/models/furniture/java/cosmetics_tester_bar.json",
+    "icon_path": "creative/source/icons/furniture/cosmetics_tester_bar.png",
+    "sha256": "f97b2ef9ac9746cdcaab42c46e9836e06e8e492b125a7a535337828a74098fc4"
   },
   {
     "id": "gtm:pos_pedestal_standalone",
@@ -4910,6 +5297,7 @@
       1.2,
       0.45
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4937,7 +5325,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/pos_pedestal_standalone.geo.json",
-    "sha256": "3f17c6de45da662052f22749f385ed437253096acb17b83189eff42f3fccd7e5"
+    "java_model_path": "creative/source/models/furniture/java/pos_pedestal_standalone.json",
+    "icon_path": "creative/source/icons/furniture/pos_pedestal_standalone.png",
+    "sha256": "433738798bee0065f424de1ebd06f3c4c4147add08d65e498dc079e7dfba67ea"
   },
   {
     "id": "gtm:bulk_grain_dispenser",
@@ -4948,6 +5338,7 @@
       1.6,
       0.5
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -4975,7 +5366,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/bulk_grain_dispenser.geo.json",
-    "sha256": "6dbcb2aa4a952307c938313e7aa727d77d696450f28c083370333fe5a8f9b4be"
+    "java_model_path": "creative/source/models/furniture/java/bulk_grain_dispenser.json",
+    "icon_path": "creative/source/icons/furniture/bulk_grain_dispenser.png",
+    "sha256": "27decff58b72066e08d30fdb79fd9efe4700f4cb5cd914e083248c2cf58bf659"
   },
   {
     "id": "gtm:umbrella_stand_drip",
@@ -4986,6 +5379,7 @@
       0.65,
       0.4
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5013,7 +5407,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/umbrella_stand_drip.geo.json",
-    "sha256": "3978c5b2126f8110cdccfbf7e6a820f4c965986339c76179eada5cdacdc21f4a"
+    "java_model_path": "creative/source/models/furniture/java/umbrella_stand_drip.json",
+    "icon_path": "creative/source/icons/furniture/umbrella_stand_drip.png",
+    "sha256": "d5aeed587d13cf3e60ab928cb840d920e7da306f6bcf1fcd3554892ceec0aeb4"
   },
   {
     "id": "gtm:crowd_stanchion_belt",
@@ -5024,6 +5420,7 @@
       0.95,
       0.35
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5051,7 +5448,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/crowd_stanchion_belt.geo.json",
-    "sha256": "c725b4194da347ac5d08d6efe32270dddc495f49a67b4d9d10da28a404f5ead7"
+    "java_model_path": "creative/source/models/furniture/java/crowd_stanchion_belt.json",
+    "icon_path": "creative/source/icons/furniture/crowd_stanchion_belt.png",
+    "sha256": "71a4a37b0bb242630fc8f74cfaef458f32e3435395dce7b05a590917acd13acc"
   },
   {
     "id": "gtm:electronics_demo_bench",
@@ -5062,6 +5461,7 @@
       0.95,
       0.85
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5089,7 +5489,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/electronics_demo_bench.geo.json",
-    "sha256": "c6720986d9895e89561a8dd48e6457dd1b374a14ff0549584dcac8ff749a97ae"
+    "java_model_path": "creative/source/models/furniture/java/electronics_demo_bench.json",
+    "icon_path": "creative/source/icons/furniture/electronics_demo_bench.png",
+    "sha256": "6d1ca5c5db99edb4ea7c05517800d1ffec67e5fa61560f483d05f7aeed9f2b7d"
   },
   {
     "id": "gtm:luggage_scale_weigh",
@@ -5100,6 +5502,7 @@
       0.85,
       0.8
     ],
+    "cube_count": 26,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5127,7 +5530,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/luggage_scale_weigh.geo.json",
-    "sha256": "251240b50fe919e1fca9d2bf349a809171098c65a8c15854f854fa930bc5544c"
+    "java_model_path": "creative/source/models/furniture/java/luggage_scale_weigh.json",
+    "icon_path": "creative/source/icons/furniture/luggage_scale_weigh.png",
+    "sha256": "4ea397575a739a1e48f03b667bc0009a5bec9db1cf138a43ea6c91618c2180dc"
   },
   {
     "id": "gtm:park_bench_teak",
@@ -5138,6 +5543,7 @@
       0.85,
       0.7
     ],
+    "cube_count": 7,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5165,7 +5571,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/park_bench_teak.geo.json",
-    "sha256": "c6444ac7012ea60d13b953d343482bc93d4a99b3f63fc077bfbb92817b29fe89"
+    "java_model_path": "creative/source/models/furniture/java/park_bench_teak.json",
+    "icon_path": "creative/source/icons/furniture/park_bench_teak.png",
+    "sha256": "51ef16ee8d40fb16792888ce2510108986fc3cdae6b12bd91e2ee2f27160b55f"
   },
   {
     "id": "gtm:street_lamppost_colonial",
@@ -5176,6 +5584,7 @@
       4.2,
       0.9
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5203,7 +5612,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/street_lamppost_colonial.geo.json",
-    "sha256": "01e5be37e29422db9a574850a6d226d938bb21f35b4cb5c5b3a60423537b4463"
+    "java_model_path": "creative/source/models/furniture/java/street_lamppost_colonial.json",
+    "icon_path": "creative/source/icons/furniture/street_lamppost_colonial.png",
+    "sha256": "ec45551dca1fa7e329051331fd7cff032cb667d3234487a2d89eb3f449eaee7d"
   },
   {
     "id": "gtm:bus_shelter_glass",
@@ -5214,6 +5625,7 @@
       2.6,
       1.8
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5241,7 +5653,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/bus_shelter_glass.geo.json",
-    "sha256": "5e446142a681de53a01c52f59cdb6fce92f6b2c20a5e02dae994d85bc02de9a6"
+    "java_model_path": "creative/source/models/furniture/java/bus_shelter_glass.json",
+    "icon_path": "creative/source/icons/furniture/bus_shelter_glass.png",
+    "sha256": "8efaba2a8dd69ee410a240c06bc98dab4f7386d71432fbdaf2ac007d9d33f1da"
   },
   {
     "id": "gtm:municipal_litter_bin",
@@ -5252,6 +5666,7 @@
       0.95,
       0.4
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5279,7 +5694,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/municipal_litter_bin.geo.json",
-    "sha256": "70628c956378e09981a239af0bcfad98b8ff1878cae726e81487aa59d272f2a8"
+    "java_model_path": "creative/source/models/furniture/java/municipal_litter_bin.json",
+    "icon_path": "creative/source/icons/furniture/municipal_litter_bin.png",
+    "sha256": "2dcc9375bed7cc77b4cdd4fb418146feafb1aef3fb550fbc56c03ff4ab3da42c"
   },
   {
     "id": "gtm:traffic_bollard_steel",
@@ -5290,6 +5707,7 @@
       0.85,
       0.25
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5317,7 +5735,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/traffic_bollard_steel.geo.json",
-    "sha256": "9020c7837bc69535150bd9c24438ce1c029f2e365c10d23b3c34e1c161839c29"
+    "java_model_path": "creative/source/models/furniture/java/traffic_bollard_steel.json",
+    "icon_path": "creative/source/icons/furniture/traffic_bollard_steel.png",
+    "sha256": "2594a13b998c902b8a4d3aa33bb682ceafc83dad3060a7e247a4a1a9267b87d6"
   },
   {
     "id": "gtm:tree_planter_curb",
@@ -5328,6 +5748,7 @@
       0.6,
       1.2
     ],
+    "cube_count": 4,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5355,7 +5776,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/tree_planter_curb.geo.json",
-    "sha256": "66b5493222e6ac6b52500bd17206dee06f105b6000ae38b1ad697c50a4af1867"
+    "java_model_path": "creative/source/models/furniture/java/tree_planter_curb.json",
+    "icon_path": "creative/source/icons/furniture/tree_planter_curb.png",
+    "sha256": "9d6e2702c948750d0a7dcd6d6ff52e274b3a6c087fdff5ea133be642fe29aad9"
   },
   {
     "id": "gtm:vendor_kiosk_tea",
@@ -5366,6 +5789,7 @@
       2.4,
       1.8
     ],
+    "cube_count": 7,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5393,7 +5817,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/vendor_kiosk_tea.geo.json",
-    "sha256": "cd7a03e453ec60d12d9bc1a7ac40a6e3193275765034374913d38c7202fcaf47"
+    "java_model_path": "creative/source/models/furniture/java/vendor_kiosk_tea.json",
+    "icon_path": "creative/source/icons/furniture/vendor_kiosk_tea.png",
+    "sha256": "248750fba50e39bf2fbd53c8e24130d0bc54aff70122f439a751e5ba72bdfcb4"
   },
   {
     "id": "gtm:street_market_tarp",
@@ -5404,6 +5830,7 @@
       2.2,
       2.5
     ],
+    "cube_count": 7,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5431,7 +5858,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/street_market_tarp.geo.json",
-    "sha256": "e650c9a2dbbba94e6e304aec965f7cefea5b433c3203ad45e13337c55ea3108b"
+    "java_model_path": "creative/source/models/furniture/java/street_market_tarp.json",
+    "icon_path": "creative/source/icons/furniture/street_market_tarp.png",
+    "sha256": "22b42ab2da9ff80dbcf7abd9da2fc9d9464d146b83ad9d39f9d155e00153b75a"
   },
   {
     "id": "gtm:drinking_fountain_pedestal",
@@ -5442,6 +5871,7 @@
       0.95,
       0.6
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5469,7 +5899,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/drinking_fountain_pedestal.geo.json",
-    "sha256": "d9f8f4af3ea50bf91f15d64a1cf6bdf71ac2714a79bf0b3a5b54c98a237c8581"
+    "java_model_path": "creative/source/models/furniture/java/drinking_fountain_pedestal.json",
+    "icon_path": "creative/source/icons/furniture/drinking_fountain_pedestal.png",
+    "sha256": "3e4ba368d5d9d11cac787fedd78d3ab3b68af33895682855c2ccbd44f6f96a79"
   },
   {
     "id": "gtm:bicycle_docking_rack",
@@ -5480,6 +5912,7 @@
       0.85,
       0.5
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5507,7 +5940,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/bicycle_docking_rack.geo.json",
-    "sha256": "ab9cc42479123c09e6b6d1190c099122a8b7caad1c0e80b30e5287783f2a25cd"
+    "java_model_path": "creative/source/models/furniture/java/bicycle_docking_rack.json",
+    "icon_path": "creative/source/icons/furniture/bicycle_docking_rack.png",
+    "sha256": "3ad8d755ae69ffd8089a97126d2b767b9415cfdba2d1670d0aa227df96e636d1"
   },
   {
     "id": "gtm:fire_hydrant_brass",
@@ -5518,6 +5953,7 @@
       0.75,
       0.4
     ],
+    "cube_count": 8,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5545,7 +5981,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/fire_hydrant_brass.geo.json",
-    "sha256": "7b3b5059d06f4fc464115c15f28524965462297b869084081ec5ac591576a613"
+    "java_model_path": "creative/source/models/furniture/java/fire_hydrant_brass.json",
+    "icon_path": "creative/source/icons/furniture/fire_hydrant_brass.png",
+    "sha256": "5fe5840f5b2a9eeb9df665a051da4558ac29ec7c555a091b7890b5a108b9f712"
   },
   {
     "id": "gtm:traffic_signal_pole",
@@ -5556,6 +5994,7 @@
       5.5,
       3.2
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5583,7 +6022,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/traffic_signal_pole.geo.json",
-    "sha256": "29557302754bc3bf39029d29a28764159153df29603699ddbaf84b8180a6f5cf"
+    "java_model_path": "creative/source/models/furniture/java/traffic_signal_pole.json",
+    "icon_path": "creative/source/icons/furniture/traffic_signal_pole.png",
+    "sha256": "a84c74bcca83bbcd113affd1ae7aca3bb5898b0d257ec8eaf7a646131ff85cfa"
   },
   {
     "id": "gtm:speed_camera_gantry",
@@ -5594,6 +6035,7 @@
       0.8,
       0.6
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5621,7 +6063,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/speed_camera_gantry.geo.json",
-    "sha256": "5ccd574148d66fc9fc0719ee4765adb6c0a94b9b637bb0b82782eac4c5a496ee"
+    "java_model_path": "creative/source/models/furniture/java/speed_camera_gantry.json",
+    "icon_path": "creative/source/icons/furniture/speed_camera_gantry.png",
+    "sha256": "9618aef2fda8e285a08cda2675923aa77c0034153b9086aa86aff0adabf20672"
   },
   {
     "id": "gtm:street_name_signpost",
@@ -5632,6 +6076,7 @@
       2.8,
       0.1
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5659,7 +6104,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/street_name_signpost.geo.json",
-    "sha256": "70c402f46ca2116e74e9536422d74c3390f76f6b5621f27230f8a645f826831f"
+    "java_model_path": "creative/source/models/furniture/java/street_name_signpost.json",
+    "icon_path": "creative/source/icons/furniture/street_name_signpost.png",
+    "sha256": "b176c779656ddb47f071d1a3b7cd253455df6115b0c50b82b03ee66071da5640"
   },
   {
     "id": "gtm:utility_junction_box",
@@ -5670,6 +6117,7 @@
       1.15,
       0.4
     ],
+    "cube_count": 4,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5697,7 +6145,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/utility_junction_box.geo.json",
-    "sha256": "62a79bd3b15b475759eb9f053c8c9172b27485cf959df2281df72c7efeae2c16"
+    "java_model_path": "creative/source/models/furniture/java/utility_junction_box.json",
+    "icon_path": "creative/source/icons/furniture/utility_junction_box.png",
+    "sha256": "26d8a69700de001873d1c9e6250ad67113e22be63628cd05f37610971f1da8d8"
   },
   {
     "id": "gtm:public_emergency_pillar",
@@ -5708,6 +6158,7 @@
       2.4,
       0.35
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5735,7 +6186,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/public_emergency_pillar.geo.json",
-    "sha256": "9401c57fa2ed45f7c7491daf6e57ea4d3bbceeb23e0951c54057a9e2ac6fde40"
+    "java_model_path": "creative/source/models/furniture/java/public_emergency_pillar.json",
+    "icon_path": "creative/source/icons/furniture/public_emergency_pillar.png",
+    "sha256": "b3f4b95a3976336bccd74e1bb33fa6cf042150b1d51d2c01813b26a8ddada308"
   },
   {
     "id": "gtm:decorative_fountain_tier",
@@ -5746,6 +6199,7 @@
       2.4,
       3.2
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5773,7 +6227,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/decorative_fountain_tier.geo.json",
-    "sha256": "50d3ed0e45716f079e5af40c43f90cc11e546454b1774024532d3a64560db3fa"
+    "java_model_path": "creative/source/models/furniture/java/decorative_fountain_tier.json",
+    "icon_path": "creative/source/icons/furniture/decorative_fountain_tier.png",
+    "sha256": "79e79066065a890dfec838763e0d00e7053dc1178aa3f43d371e8017d762889b"
   },
   {
     "id": "gtm:pavement_newspaper_stand",
@@ -5784,6 +6240,7 @@
       1.0,
       0.6
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5811,7 +6268,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/pavement_newspaper_stand.geo.json",
-    "sha256": "2403fb6b0a71e2d6b7eadbf9fec29bcaa2bd66a5282d13c2942b7f9217d39225"
+    "java_model_path": "creative/source/models/furniture/java/pavement_newspaper_stand.json",
+    "icon_path": "creative/source/icons/furniture/pavement_newspaper_stand.png",
+    "sha256": "6795b2c372727d5ac18f3fe8e047008feb7e3d10e8d91368ddeee3f64ad34917"
   },
   {
     "id": "gtm:concrete_barrier_jersey",
@@ -5822,6 +6281,7 @@
       0.85,
       0.6
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5849,7 +6309,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/concrete_barrier_jersey.geo.json",
-    "sha256": "7cca2f13ef19008667dfc37087074b3303bf1a198627884af7d42c80ba7ac920"
+    "java_model_path": "creative/source/models/furniture/java/concrete_barrier_jersey.json",
+    "icon_path": "creative/source/icons/furniture/concrete_barrier_jersey.png",
+    "sha256": "4c4a74da90a3128145a002b2085be74e5c921ff555d4b60ce820c563effdf7ce"
   },
   {
     "id": "gtm:pedestrian_crossing_beacon",
@@ -5860,6 +6322,7 @@
       3.2,
       0.35
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5887,7 +6350,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/pedestrian_crossing_beacon.geo.json",
-    "sha256": "abf899e804a8340935eb5e8d08467608241d8df3897de924a00a34f650cbd159"
+    "java_model_path": "creative/source/models/furniture/java/pedestrian_crossing_beacon.json",
+    "icon_path": "creative/source/icons/furniture/pedestrian_crossing_beacon.png",
+    "sha256": "5045804d127751b129bacf2ac403f47f2bc70379eac62297a20f9ed4b1d24eeb"
   },
   {
     "id": "gtm:street_paan_stall",
@@ -5898,6 +6363,7 @@
       1.4,
       0.8
     ],
+    "cube_count": 7,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5925,7 +6391,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/street_paan_stall.geo.json",
-    "sha256": "8e5f93aa4f0992462c2fcd4e207bd99b064a99f98b05f5ae07bd0a779b03ce87"
+    "java_model_path": "creative/source/models/furniture/java/street_paan_stall.json",
+    "icon_path": "creative/source/icons/furniture/street_paan_stall.png",
+    "sha256": "fc6c9aaf4d86f07d52166b6ed689ac0b388eaa76d505512ec43d352e5c55b0a8"
   },
   {
     "id": "gtm:rooftop_satellite_dish",
@@ -5936,6 +6404,7 @@
       2.1,
       1.8
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -5963,7 +6432,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/rooftop_satellite_dish.geo.json",
-    "sha256": "9a4bf5163fbe80f8a9a21e00aac3c40a3d986620e369385c02ee0920ec5eb1ef"
+    "java_model_path": "creative/source/models/furniture/java/rooftop_satellite_dish.json",
+    "icon_path": "creative/source/icons/furniture/rooftop_satellite_dish.png",
+    "sha256": "df36cebbda1b88b9a1154128bac6679ebb3d6bec53a1a1fcbd6d142fd01e17df"
   },
   {
     "id": "gtm:security_checkpoint_barrier",
@@ -5974,6 +6445,7 @@
       1.1,
       0.4
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6001,7 +6473,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/security_checkpoint_barrier.geo.json",
-    "sha256": "1db8f5061de4a8723fd46cbe2dc367320ab5fc84699fc7f8f3798045302b4303"
+    "java_model_path": "creative/source/models/furniture/java/security_checkpoint_barrier.json",
+    "icon_path": "creative/source/icons/furniture/security_checkpoint_barrier.png",
+    "sha256": "a248c9b6175dc0452e84108c3fee127b88ab03cd30611ff381ab18b20fa0b3d2"
   },
   {
     "id": "gtm:coastal_lifebuoy_stand",
@@ -6012,6 +6486,7 @@
       1.4,
       0.25
     ],
+    "cube_count": 4,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6039,7 +6514,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/coastal_lifebuoy_stand.geo.json",
-    "sha256": "5b5425d3e62549180859f81123272a25053124d08b471da3ffc9e279e652ce41"
+    "java_model_path": "creative/source/models/furniture/java/coastal_lifebuoy_stand.json",
+    "icon_path": "creative/source/icons/furniture/coastal_lifebuoy_stand.png",
+    "sha256": "244381b45f08d3b361a601532cf6c7b08a7410a13749e03980c1902712320c32"
   },
   {
     "id": "gtm:monument_plinth_bronze",
@@ -6050,6 +6527,7 @@
       1.8,
       1.4
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6077,7 +6555,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/monument_plinth_bronze.geo.json",
-    "sha256": "f61e31d255b96b6198a24c4c69d75c483c7cf6dfe20d2875179cf990618cc8a9"
+    "java_model_path": "creative/source/models/furniture/java/monument_plinth_bronze.json",
+    "icon_path": "creative/source/icons/furniture/monument_plinth_bronze.png",
+    "sha256": "bf8fad2f43e9219a83630f56bfe630fc5acbbf61c7d5bea089bfe27974450b86"
   },
   {
     "id": "gtm:charpai_woven_cot",
@@ -6088,6 +6568,7 @@
       0.55,
       1.95
     ],
+    "cube_count": 13,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6115,7 +6596,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/charpai_woven_cot.geo.json",
-    "sha256": "c1a032f7c4785858976f721e0c4f943fafc3842e568adae61710fb88bbcd785e"
+    "java_model_path": "creative/source/models/furniture/java/charpai_woven_cot.json",
+    "icon_path": "creative/source/icons/furniture/charpai_woven_cot.png",
+    "sha256": "11cadfff44ae762497a2c6712308b4c26f0299bf6d6a5e2f1474001f6b08c57a"
   },
   {
     "id": "gtm:jhula_swing_carved",
@@ -6126,6 +6609,7 @@
       1.7,
       0.85
     ],
+    "cube_count": 8,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6153,7 +6637,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/jhula_swing_carved.geo.json",
-    "sha256": "258cc4d75bb4408a64d1e9ead694fbb176ea6ec17e4ec4b172e3287007a6bbc9"
+    "java_model_path": "creative/source/models/furniture/java/jhula_swing_carved.json",
+    "icon_path": "creative/source/icons/furniture/jhula_swing_carved.png",
+    "sha256": "fbfbbae368b8e51909c26b147dc859c8070ea895b660e83c96826c44d60db63d"
   },
   {
     "id": "gtm:diwan_daybed_bolster",
@@ -6164,6 +6650,7 @@
       0.5,
       2.0
     ],
+    "cube_count": 11,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6191,7 +6678,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/diwan_daybed_bolster.geo.json",
-    "sha256": "efe8171ef1eaf4681d9310fcd1dc20949962e00ef670bad705e3cc3adee7c354"
+    "java_model_path": "creative/source/models/furniture/java/diwan_daybed_bolster.json",
+    "icon_path": "creative/source/icons/furniture/diwan_daybed_bolster.png",
+    "sha256": "cc7d8bb90044c8c40e1694201f8084f5a37b0c56fd1736ef613e20a4a1b55a20"
   },
   {
     "id": "gtm:urli_brass_bowl",
@@ -6202,6 +6691,7 @@
       0.25,
       0.65
     ],
+    "cube_count": 4,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6229,7 +6719,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/urli_brass_bowl.geo.json",
-    "sha256": "7ea464140a4f433f69d15120548721cbf175406a764927baadcdf1614c29a8b0"
+    "java_model_path": "creative/source/models/furniture/java/urli_brass_bowl.json",
+    "icon_path": "creative/source/icons/furniture/urli_brass_bowl.png",
+    "sha256": "dec4c91a0a860a35863aafde2151ab31a69cc68cc29a769977a80f18da3ae2ad"
   },
   {
     "id": "gtm:pooja_mandir_shrine",
@@ -6240,6 +6732,7 @@
       1.35,
       0.5
     ],
+    "cube_count": 8,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6267,7 +6760,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/pooja_mandir_shrine.geo.json",
-    "sha256": "aa52dd87cdb631285edef67a1b838d14fc28308ae0398c0a3b479d8844f8982d"
+    "java_model_path": "creative/source/models/furniture/java/pooja_mandir_shrine.json",
+    "icon_path": "creative/source/icons/furniture/pooja_mandir_shrine.png",
+    "sha256": "f6c948889bf9f0edf908468137d6845ffa88bff51e21cca182babf5bf7571010"
   },
   {
     "id": "gtm:baithak_low_table",
@@ -6278,6 +6773,7 @@
       0.25,
       0.8
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6305,7 +6801,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/baithak_low_table.geo.json",
-    "sha256": "0dcd3c69f47f0b8fe3ea34f972dbedf50e9008b192fd9461a59a7fa33f519005"
+    "java_model_path": "creative/source/models/furniture/java/baithak_low_table.json",
+    "icon_path": "creative/source/icons/furniture/baithak_low_table.png",
+    "sha256": "3ad4b2bdc3d650294af56d2a6bbafea8d548086ff2d0615781df97244dafb449"
   },
   {
     "id": "gtm:gaddi_floor_cushions",
@@ -6316,6 +6814,7 @@
       0.2,
       1.8
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6343,7 +6842,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/gaddi_floor_cushions.geo.json",
-    "sha256": "f6997dc4c0d4a5b8450d12724d63d79ba037592f3055a08e43812a678c958619"
+    "java_model_path": "creative/source/models/furniture/java/gaddi_floor_cushions.json",
+    "icon_path": "creative/source/icons/furniture/gaddi_floor_cushions.png",
+    "sha256": "11b5e790c2df73cb5d33941e5b8ce3a7a26878454e4fe92d5e7dec2343538332"
   },
   {
     "id": "gtm:brass_samai_diya",
@@ -6354,6 +6855,7 @@
       1.45,
       0.4
     ],
+    "cube_count": 4,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6381,7 +6883,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/brass_samai_diya.geo.json",
-    "sha256": "f44d623d4fcdcf79cf81c5e5ab679ea4e068a3950e3422eea3b9d501c578d7a3"
+    "java_model_path": "creative/source/models/furniture/java/brass_samai_diya.json",
+    "icon_path": "creative/source/icons/furniture/brass_samai_diya.png",
+    "sha256": "521c73fea9877bee604e5e61fc6f876cd67477c182938560d7ec8552e0c90d80"
   },
   {
     "id": "gtm:jali_partition_sheesham",
@@ -6392,6 +6896,7 @@
       1.85,
       0.2
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6419,7 +6924,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/jali_partition_sheesham.geo.json",
-    "sha256": "b2e402cb1c2572933b6137d7abd42db2d6bceb18d9871ec83d95d8fc45ad70a5"
+    "java_model_path": "creative/source/models/furniture/java/jali_partition_sheesham.json",
+    "icon_path": "creative/source/icons/furniture/jali_partition_sheesham.png",
+    "sha256": "56f3205f7025e66295c6a0ac69e663668601e0a3a620a08370f0343cbde8631f"
   },
   {
     "id": "gtm:sindoor_box_meenakari",
@@ -6430,6 +6937,7 @@
       0.35,
       0.35
     ],
+    "cube_count": 4,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6457,7 +6965,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/sindoor_box_meenakari.geo.json",
-    "sha256": "86ab9e4c86ae550baea84cf96227cc9111d5929d8da385e2b2898afce2f1391b"
+    "java_model_path": "creative/source/models/furniture/java/sindoor_box_meenakari.json",
+    "icon_path": "creative/source/icons/furniture/sindoor_box_meenakari.png",
+    "sha256": "624032355a52f912dafeff3d145690e9a23f801cb25a130df8ab63a91f3f89a7"
   },
   {
     "id": "gtm:hookah_ornate_pipe",
@@ -6468,6 +6978,7 @@
       0.95,
       0.4
     ],
+    "cube_count": 4,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6495,7 +7006,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/hookah_ornate_pipe.geo.json",
-    "sha256": "20b23586710f40dd9aa67af3bf5a93ab7d815470e85e7c3ef9ef1453c63a5d99"
+    "java_model_path": "creative/source/models/furniture/java/hookah_ornate_pipe.json",
+    "icon_path": "creative/source/icons/furniture/hookah_ornate_pipe.png",
+    "sha256": "db29be3cdf3c33423a0c014e12312920d2750cab349ff61db3954b5885dbd202"
   },
   {
     "id": "gtm:dholak_musical_drum",
@@ -6506,6 +7019,7 @@
       0.45,
       0.4
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6533,7 +7047,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/dholak_musical_drum.geo.json",
-    "sha256": "a491f4a49b31df467fe6d0b263e168f95da58ffcb0392290231f16adcc512b21"
+    "java_model_path": "creative/source/models/furniture/java/dholak_musical_drum.json",
+    "icon_path": "creative/source/icons/furniture/dholak_musical_drum.png",
+    "sha256": "2ecc84e1a0b1aba7e145dcebc102dcdd9ffa274bd93f76a5c2b8b3be678a8ba5"
   },
   {
     "id": "gtm:sitar_wooden_stand",
@@ -6544,6 +7060,7 @@
       1.25,
       0.45
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6571,7 +7088,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/sitar_wooden_stand.geo.json",
-    "sha256": "5317464ae4f21795ad6dec87c65feb72c6f307e2edccabf1c533e65bd334b9f6"
+    "java_model_path": "creative/source/models/furniture/java/sitar_wooden_stand.json",
+    "icon_path": "creative/source/icons/furniture/sitar_wooden_stand.png",
+    "sha256": "94d3ee6d2fc852b14220500faab7895fc7d2f348a451590c64c226234f3de68d"
   },
   {
     "id": "gtm:tiffin_carrier_brass",
@@ -6582,6 +7101,7 @@
       0.45,
       0.25
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6609,7 +7129,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/tiffin_carrier_brass.geo.json",
-    "sha256": "27e8ac48ba48105f6aa95c9ef5d13e12cac9485064a50f0c4992858727e62a32"
+    "java_model_path": "creative/source/models/furniture/java/tiffin_carrier_brass.json",
+    "icon_path": "creative/source/icons/furniture/tiffin_carrier_brass.png",
+    "sha256": "491e4729a7f25971f1ad105ef280b045f2a669ca1c9ba6fc48cb30647c577363"
   },
   {
     "id": "gtm:attar_perfume_tray",
@@ -6620,6 +7142,7 @@
       0.2,
       0.3
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6647,7 +7170,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/attar_perfume_tray.geo.json",
-    "sha256": "f1b7dc7fdc0483d4d6fa887f30835da0b4f0e7b47fe0a59d21eab53a48cc51d8"
+    "java_model_path": "creative/source/models/furniture/java/attar_perfume_tray.json",
+    "icon_path": "creative/source/icons/furniture/attar_perfume_tray.png",
+    "sha256": "4e5ab8b53e87ce933a55f5f94b9916c5e19f279f3ea165f49f891ce86a75400c"
   },
   {
     "id": "gtm:spice_box_masala_dabba",
@@ -6658,6 +7183,7 @@
       0.15,
       0.3
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6685,7 +7211,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/spice_box_masala_dabba.geo.json",
-    "sha256": "52e308582e3de502439daa6dbb3c9200c4743a3cd9434696d30d508f1d369550"
+    "java_model_path": "creative/source/models/furniture/java/spice_box_masala_dabba.json",
+    "icon_path": "creative/source/icons/furniture/spice_box_masala_dabba.png",
+    "sha256": "6b6b98639dabc7be7cbc9c221a80e4e0fd9557e2010fa57fa590f8b011c7e8b9"
   },
   {
     "id": "gtm:handloom_charkha",
@@ -6696,6 +7224,7 @@
       0.5,
       0.4
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6723,7 +7252,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/handloom_charkha.geo.json",
-    "sha256": "f5d7bcb40420e99dc56d2e204a197d0b4f2cf51e26680fc062443d33b1877c88"
+    "java_model_path": "creative/source/models/furniture/java/handloom_charkha.json",
+    "icon_path": "creative/source/icons/furniture/handloom_charkha.png",
+    "sha256": "99d758b5f6b0707af4a343915eae8fac535fd29d00c105336b25ae3999c0d26f"
   },
   {
     "id": "gtm:traditional_safe_tijori",
@@ -6734,6 +7265,7 @@
       0.95,
       0.6
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6761,7 +7293,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/traditional_safe_tijori.geo.json",
-    "sha256": "3dcad2442d440c03630e3f0f40078c9e503f64b55a30b6d74db479506002e39b"
+    "java_model_path": "creative/source/models/furniture/java/traditional_safe_tijori.json",
+    "icon_path": "creative/source/icons/furniture/traditional_safe_tijori.png",
+    "sha256": "2d2f03b009f21cd9615384c851d3e04006b124d25265a092234ea241cc0ead2f"
   },
   {
     "id": "gtm:terracotta_matka_pot",
@@ -6772,6 +7306,7 @@
       0.6,
       0.4
     ],
+    "cube_count": 4,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6799,7 +7334,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/terracotta_matka_pot.geo.json",
-    "sha256": "f856abc67ca017992d3c2830ddc9e23f657f72a40f4ec25c1360c92a3e42783d"
+    "java_model_path": "creative/source/models/furniture/java/terracotta_matka_pot.json",
+    "icon_path": "creative/source/icons/furniture/terracotta_matka_pot.png",
+    "sha256": "6c51a1531bbd973e16853ec71d702751d849ef2699c3df84041cd7247dbbbd25"
   },
   {
     "id": "gtm:doorway_toran_marigold",
@@ -6810,6 +7347,7 @@
       0.4,
       0.1
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6837,7 +7375,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/doorway_toran_marigold.geo.json",
-    "sha256": "bc92e3bbd94b74c288b5b95bdad7a61e262305cf25da312e6c4a4a8434c33d97"
+    "java_model_path": "creative/source/models/furniture/java/doorway_toran_marigold.json",
+    "icon_path": "creative/source/icons/furniture/doorway_toran_marigold.png",
+    "sha256": "570ce7881c7ce21ba4030d6ddf3fcea2ea8b9c3a21759455cdcfee39984da3e1"
   },
   {
     "id": "gtm:heavy_steel_workbench",
@@ -6848,6 +7388,7 @@
       0.9,
       0.9
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6875,7 +7416,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/heavy_steel_workbench.geo.json",
-    "sha256": "da7f3250841f82de0a0cf19cdebd4e9b64e104d74e41bb7cdf92d54a44f6daa1"
+    "java_model_path": "creative/source/models/furniture/java/heavy_steel_workbench.json",
+    "icon_path": "creative/source/icons/furniture/heavy_steel_workbench.png",
+    "sha256": "909c5f07f9fe2c6f8bdcd74bb91b0f1913298cf998dfe14f64ee12400236551f"
   },
   {
     "id": "gtm:parts_storage_racks",
@@ -6886,6 +7429,7 @@
       3.2,
       1.0
     ],
+    "cube_count": 9,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6913,7 +7457,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/parts_storage_racks.geo.json",
-    "sha256": "7759e66aabf39902c4a5574b54078a98505aef56aeb8228edf2e10c9b7486871"
+    "java_model_path": "creative/source/models/furniture/java/parts_storage_racks.json",
+    "icon_path": "creative/source/icons/furniture/parts_storage_racks.png",
+    "sha256": "399c53288f17668d820eb35b0129f61cdb2ded168fac9215efa5f53762bea873"
   },
   {
     "id": "gtm:hydraulic_auto_lift",
@@ -6924,6 +7470,7 @@
       2.9,
       1.4
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6951,7 +7498,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/hydraulic_auto_lift.geo.json",
-    "sha256": "62e8c7715837cc7fb59a5290bb69a1da5dd7492f3ef532cd6f9b0ca8e0abfe04"
+    "java_model_path": "creative/source/models/furniture/java/hydraulic_auto_lift.json",
+    "icon_path": "creative/source/icons/furniture/hydraulic_auto_lift.png",
+    "sha256": "0483dc9bfec3b556a4e8961bde6b70cbdf7524b9ad534d2c6f2e4326552f18ba"
   },
   {
     "id": "gtm:rolling_tool_cabinet",
@@ -6962,6 +7511,7 @@
       1.1,
       0.6
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -6989,7 +7539,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/rolling_tool_cabinet.geo.json",
-    "sha256": "0f640d7c10797e8a1a41b5a80561536811721a44024625b4a63582938613eab7"
+    "java_model_path": "creative/source/models/furniture/java/rolling_tool_cabinet.json",
+    "icon_path": "creative/source/icons/furniture/rolling_tool_cabinet.png",
+    "sha256": "a90f9cf4b890757346c8cc51a0b00808922b2b302d5587daef4959920306df18"
   },
   {
     "id": "gtm:chemical_drum_pallet",
@@ -7000,6 +7552,7 @@
       1.1,
       1.3
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -7027,7 +7580,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/chemical_drum_pallet.geo.json",
-    "sha256": "c22686a908d020e84fb13c8d16590aa82794cc9ebe21c56afe8a72de943f12b3"
+    "java_model_path": "creative/source/models/furniture/java/chemical_drum_pallet.json",
+    "icon_path": "creative/source/icons/furniture/chemical_drum_pallet.png",
+    "sha256": "7c83d846caf5fcce571cbfab4e6dd931028bf84a44e4e8e4597fad9944102f53"
   },
   {
     "id": "gtm:diesel_generator_silent",
@@ -7038,6 +7593,7 @@
       1.5,
       1.0
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -7065,7 +7621,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/diesel_generator_silent.geo.json",
-    "sha256": "4cc531eeba864c1fe12368aa7ff44ed34a6bf6693e58a5e6955df64ebb7bee4f"
+    "java_model_path": "creative/source/models/furniture/java/diesel_generator_silent.json",
+    "icon_path": "creative/source/icons/furniture/diesel_generator_silent.png",
+    "sha256": "f0ec2a897a66110b64fd9589920354966381a3c00fa70edcd6640c3e6251e0cc"
   },
   {
     "id": "gtm:air_compressor_tank",
@@ -7076,6 +7634,7 @@
       1.35,
       0.6
     ],
+    "cube_count": 15,
     "floor_anchor": [
       0.0,
       0.0,
@@ -7103,7 +7662,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/air_compressor_tank.geo.json",
-    "sha256": "757bd6a40382073bc65ccc1305890b9b272021a659cdbbfafe0cae35944b112f"
+    "java_model_path": "creative/source/models/furniture/java/air_compressor_tank.json",
+    "icon_path": "creative/source/icons/furniture/air_compressor_tank.png",
+    "sha256": "37d8070ba676141d1d13d9b27b77880ada5c86b3cb1177583e3710d7a188f763"
   },
   {
     "id": "gtm:welding_rig_cart",
@@ -7114,6 +7675,7 @@
       1.2,
       0.7
     ],
+    "cube_count": 14,
     "floor_anchor": [
       0.0,
       0.0,
@@ -7141,7 +7703,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/welding_rig_cart.geo.json",
-    "sha256": "8d8eefa568d3096f23112d24ae691f8c234ac31adba5a0d072a3deb0ed979e30"
+    "java_model_path": "creative/source/models/furniture/java/welding_rig_cart.json",
+    "icon_path": "creative/source/icons/furniture/welding_rig_cart.png",
+    "sha256": "b365d87ba28db4c86e49c6df32230eb3db92b637cd62a518496784c7b20c18a1"
   },
   {
     "id": "gtm:parts_washer_degreaser",
@@ -7152,6 +7716,7 @@
       1.0,
       0.7
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -7179,7 +7744,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/parts_washer_degreaser.geo.json",
-    "sha256": "8046144da44b43f3cc1507617dd3bdddb44995dfce6144a664c8c2bd8fbe9ff8"
+    "java_model_path": "creative/source/models/furniture/java/parts_washer_degreaser.json",
+    "icon_path": "creative/source/icons/furniture/parts_washer_degreaser.png",
+    "sha256": "43c57cfaa22d7bfba08dc7de1f7d75d760ec4c7da73c000b4b176dcb9f4c45df"
   },
   {
     "id": "gtm:industrial_drill_press",
@@ -7190,6 +7757,7 @@
       1.85,
       0.8
     ],
+    "cube_count": 4,
     "floor_anchor": [
       0.0,
       0.0,
@@ -7217,7 +7785,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/industrial_drill_press.geo.json",
-    "sha256": "7797a914b6ea77542092c3b681a0e5ec58924408ed1cbfd023295fff4cc0332e"
+    "java_model_path": "creative/source/models/furniture/java/industrial_drill_press.json",
+    "icon_path": "creative/source/icons/furniture/industrial_drill_press.png",
+    "sha256": "087fcf38d7d70674abf7a69b640847227642cd97572114d0c19d068e36e2949b"
   },
   {
     "id": "gtm:tire_changer_machine",
@@ -7228,6 +7798,7 @@
       1.7,
       1.0
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -7255,7 +7826,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/tire_changer_machine.geo.json",
-    "sha256": "402489f37198f55d88804b9df0f90b2866391d6f701d5d424983e5d2dfce7457"
+    "java_model_path": "creative/source/models/furniture/java/tire_changer_machine.json",
+    "icon_path": "creative/source/icons/furniture/tire_changer_machine.png",
+    "sha256": "09e2f3b33a9a9a5ecb8bc43e3e04781593a07f2d08add72f94da7b780a6c4215"
   },
   {
     "id": "gtm:wheel_balancer_digital",
@@ -7266,6 +7839,7 @@
       1.4,
       0.9
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -7293,7 +7867,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/wheel_balancer_digital.geo.json",
-    "sha256": "0931d233e40c25e88f0a12e680d649c27b816ff7f574198029e57c6dd5c528b8"
+    "java_model_path": "creative/source/models/furniture/java/wheel_balancer_digital.json",
+    "icon_path": "creative/source/icons/furniture/wheel_balancer_digital.png",
+    "sha256": "9066825e93f535a3a9caee5ede049a7b1cf76b2b210908fd1982ec493559dbfe"
   },
   {
     "id": "gtm:overhead_crane_gantry",
@@ -7304,6 +7880,7 @@
       0.8,
       0.6
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -7331,7 +7908,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/overhead_crane_gantry.geo.json",
-    "sha256": "bf5a64f7f32306c6db60667b939afa84da83db9d74afd3ff68639926ad30ebdc"
+    "java_model_path": "creative/source/models/furniture/java/overhead_crane_gantry.json",
+    "icon_path": "creative/source/icons/furniture/overhead_crane_gantry.png",
+    "sha256": "8b45ff07b6e523c80a7de23defb5c5a2134b7164160178c432ffa0ee9cb71a4f"
   },
   {
     "id": "gtm:eyewash_safety_shower",
@@ -7342,6 +7921,7 @@
       2.3,
       0.8
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -7369,7 +7949,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/eyewash_safety_shower.geo.json",
-    "sha256": "9af2d69aeaddb764efc9dfdab99c50d2befe4bd8eb9c44a767cbd2755351fd55"
+    "java_model_path": "creative/source/models/furniture/java/eyewash_safety_shower.json",
+    "icon_path": "creative/source/icons/furniture/eyewash_safety_shower.png",
+    "sha256": "b6ec1c6f29c318bc503a2ec4beee5dbbfcf98bcdc709f8fdec74825be95d3aeb"
   },
   {
     "id": "gtm:flammable_safety_cabinet",
@@ -7380,6 +7962,7 @@
       1.65,
       0.55
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -7407,7 +7990,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/flammable_safety_cabinet.geo.json",
-    "sha256": "6f5072f2cbfdffb5a468f82ae4f0890d2cefd95f1bf8eeb8bd51a62528c2ea2d"
+    "java_model_path": "creative/source/models/furniture/java/flammable_safety_cabinet.json",
+    "icon_path": "creative/source/icons/furniture/flammable_safety_cabinet.png",
+    "sha256": "ce41b97d471bd1460e6738138ed2e9b8289256144fad039b1056113ed54ce5ca"
   },
   {
     "id": "gtm:pallet_jack_manual",
@@ -7418,6 +8003,7 @@
       1.2,
       1.5
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -7445,7 +8031,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/pallet_jack_manual.geo.json",
-    "sha256": "a72078de2eb9667168a13b7ce410485f38f44c065d095299c8f4d29e0c2abd47"
+    "java_model_path": "creative/source/models/furniture/java/pallet_jack_manual.json",
+    "icon_path": "creative/source/icons/furniture/pallet_jack_manual.png",
+    "sha256": "0c4c8fb2a2e6816b61caa4adc5dcf547313c56ad2999828da67720b7f0defd09"
   },
   {
     "id": "gtm:dock_leveler_plate",
@@ -7456,6 +8044,7 @@
       0.3,
       2.2
     ],
+    "cube_count": 3,
     "floor_anchor": [
       0.0,
       0.0,
@@ -7483,7 +8072,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/dock_leveler_plate.geo.json",
-    "sha256": "d34d1e8a4e8a647364413a4c1b299173031d8fe39358e3b0f9746cc5e5c6d966"
+    "java_model_path": "creative/source/models/furniture/java/dock_leveler_plate.json",
+    "icon_path": "creative/source/icons/furniture/dock_leveler_plate.png",
+    "sha256": "947ade0aff6efa8dd758e631a22290137f02fe8a75798020533e42f7314d0e54"
   },
   {
     "id": "gtm:industrial_exhaust_fan",
@@ -7494,6 +8085,7 @@
       1.2,
       0.45
     ],
+    "cube_count": 4,
     "floor_anchor": [
       0.0,
       0.0,
@@ -7521,7 +8113,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/industrial_exhaust_fan.geo.json",
-    "sha256": "ac87fc5e1f4921dd9ae2fc75704f85f362fbf756d735a2d0232ed645d697c841"
+    "java_model_path": "creative/source/models/furniture/java/industrial_exhaust_fan.json",
+    "icon_path": "creative/source/icons/furniture/industrial_exhaust_fan.png",
+    "sha256": "c2e2e2871f62a043c8fdfcb0c2fecd760071c4939bd6daf27bb6ac12c9bdc082"
   },
   {
     "id": "gtm:motor_oil_dispense_rack",
@@ -7532,6 +8126,7 @@
       1.6,
       0.75
     ],
+    "cube_count": 6,
     "floor_anchor": [
       0.0,
       0.0,
@@ -7559,7 +8154,9 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/motor_oil_dispense_rack.geo.json",
-    "sha256": "e2cb4ea639eea1ba5d2f5852dc0108b6c17f21f295c960d84a5853c2211ebe6e"
+    "java_model_path": "creative/source/models/furniture/java/motor_oil_dispense_rack.json",
+    "icon_path": "creative/source/icons/furniture/motor_oil_dispense_rack.png",
+    "sha256": "8f20560fce19455713bec24fcb1e9649260693eab18ca75cb35afd9f8957c222"
   },
   {
     "id": "gtm:transformer_station_sub",
@@ -7570,6 +8167,7 @@
       2.2,
       1.6
     ],
+    "cube_count": 5,
     "floor_anchor": [
       0.0,
       0.0,
@@ -7597,6 +8195,8 @@
       "yaw": 0
     },
     "json_path": "creative/source/models/furniture/transformer_station_sub.geo.json",
-    "sha256": "b4943ff19475172384c4254cf51c47229e27b7f299a01a5f7fc5e99ef30ed0a3"
+    "java_model_path": "creative/source/models/furniture/java/transformer_station_sub.json",
+    "icon_path": "creative/source/icons/furniture/transformer_station_sub.png",
+    "sha256": "49d8b9343b12ea7eddf55d7cb14fa17a74d88e6d46868fa14aa5f2effd4f4cc9"
   }
 ]

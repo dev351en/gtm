@@ -1,8 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
-  <rect width="256" height="256" rx="32" fill="#DC3545"/>
-  <rect x="8" y="8" width="240" height="240" rx="24" fill="none" stroke="#0D1115" stroke-width="4" stroke-opacity="0.4"/>
-  <circle cx="128" cy="100" r="54" fill="none" stroke="#0D1115" stroke-width="8"/>
-  <text x="128" y="112" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="900" fill="#0D1115" text-anchor="middle">BLA</text>
-  <text x="128" y="185" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#0D1115" text-anchor="middle">BLACK LOTUS SYNDICATE</text>
-  <text x="128" y="210" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#D2B997" text-anchor="middle">UNDERGROUND • Shadow Port Cartel & Contraband</text>
+  <defs>
+    <radialGradient id="g_black_lotus" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#252F38"/>
+      <stop offset="100%" stop-color="#0D1115"/>
+    </radialGradient>
+  </defs>
+  <rect width="256" height="256" rx="40" fill="url(#g_black_lotus)"/>
+  <rect x="6" y="6" width="244" height="244" rx="34" fill="none" stroke="#0D1115" stroke-width="4" stroke-opacity="0.6"/>
+  <polygon points="128,44 148,128 128,200 108,128" fill="#DC3545"/><polygon points="128,160 64,84 108,138" fill="#9D174D"/><polygon points="128,160 192,84 148,138" fill="#9D174D"/><polygon points="128,176 42,144 98,160" fill="#BE185D"/><polygon points="128,176 214,144 158,160" fill="#BE185D"/>
 </svg>

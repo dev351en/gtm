@@ -1,0 +1,1036 @@
+{
+  "credit": "SD Craft - original Minecraft City RP prop model",
+  "ambientocclusion": false,
+  "gui_light": "front",
+  "textures": {
+    "barrel": "sdcraft:item/gun_shotgun_barrel",
+    "receiver": "sdcraft:item/gun_shotgun_receiver",
+    "stock": "sdcraft:item/gun_shotgun_stock",
+    "pump": "sdcraft:item/gun_shotgun_pump",
+    "particle": "#barrel"
+  },
+  "elements": [
+    {
+      "name": "shoulder_stock",
+      "from": [
+        1.0,
+        7.65,
+        7.2
+      ],
+      "to": [
+        5.7,
+        9.35,
+        8.8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stock"
+        },
+        "south": {
+          "texture": "#stock"
+        },
+        "east": {
+          "texture": "#stock"
+        },
+        "west": {
+          "texture": "#stock"
+        },
+        "up": {
+          "texture": "#stock"
+        },
+        "down": {
+          "texture": "#stock"
+        }
+      }
+    },
+    {
+      "name": "shoulder_butt_pad",
+      "from": [
+        0.35,
+        7.35,
+        7.06
+      ],
+      "to": [
+        1.2,
+        9.75,
+        8.94
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "stock_cheek_ridge",
+      "from": [
+        2.0,
+        9.32,
+        7.38
+      ],
+      "to": [
+        4.85,
+        9.65,
+        8.62
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stock"
+        },
+        "south": {
+          "texture": "#stock"
+        },
+        "east": {
+          "texture": "#stock"
+        },
+        "west": {
+          "texture": "#stock"
+        },
+        "up": {
+          "texture": "#stock"
+        },
+        "down": {
+          "texture": "#stock"
+        }
+      }
+    },
+    {
+      "name": "pistol_grip",
+      "from": [
+        5.0,
+        5.75,
+        7.26
+      ],
+      "to": [
+        6.23,
+        8.2,
+        8.74
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stock"
+        },
+        "south": {
+          "texture": "#stock"
+        },
+        "east": {
+          "texture": "#stock"
+        },
+        "west": {
+          "texture": "#stock"
+        },
+        "up": {
+          "texture": "#stock"
+        },
+        "down": {
+          "texture": "#stock"
+        }
+      },
+      "rotation": {
+        "origin": [
+          5.75,
+          8.1,
+          8
+        ],
+        "axis": "z",
+        "angle": -22.5,
+        "rescale": false
+      }
+    },
+    {
+      "name": "receiver_housing",
+      "from": [
+        5.35,
+        8.1,
+        7.17
+      ],
+      "to": [
+        8.4,
+        10.26,
+        8.83
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "receiver_top_rib",
+      "from": [
+        6.15,
+        10.25,
+        7.53
+      ],
+      "to": [
+        8.35,
+        10.58,
+        8.47
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "ejection_port",
+      "from": [
+        7.05,
+        9.3,
+        8.84
+      ],
+      "to": [
+        8.02,
+        9.89,
+        8.96
+      ],
+      "faces": {
+        "north": {
+          "texture": "#barrel"
+        },
+        "south": {
+          "texture": "#barrel"
+        },
+        "east": {
+          "texture": "#barrel"
+        },
+        "west": {
+          "texture": "#barrel"
+        },
+        "up": {
+          "texture": "#barrel"
+        },
+        "down": {
+          "texture": "#barrel"
+        }
+      }
+    },
+    {
+      "name": "long_barrel",
+      "from": [
+        8.25,
+        9.18,
+        7.66
+      ],
+      "to": [
+        15.65,
+        9.86,
+        8.34
+      ],
+      "faces": {
+        "north": {
+          "texture": "#barrel"
+        },
+        "south": {
+          "texture": "#barrel"
+        },
+        "east": {
+          "texture": "#barrel"
+        },
+        "west": {
+          "texture": "#barrel"
+        },
+        "up": {
+          "texture": "#barrel"
+        },
+        "down": {
+          "texture": "#barrel"
+        }
+      }
+    },
+    {
+      "name": "barrel_muzzle",
+      "from": [
+        15.45,
+        9.1,
+        7.55
+      ],
+      "to": [
+        15.9,
+        9.92,
+        8.45
+      ],
+      "faces": {
+        "north": {
+          "texture": "#barrel"
+        },
+        "south": {
+          "texture": "#barrel"
+        },
+        "east": {
+          "texture": "#barrel"
+        },
+        "west": {
+          "texture": "#barrel"
+        },
+        "up": {
+          "texture": "#barrel"
+        },
+        "down": {
+          "texture": "#barrel"
+        }
+      }
+    },
+    {
+      "name": "tubular_magazine",
+      "from": [
+        8.15,
+        8.24,
+        7.69
+      ],
+      "to": [
+        14.65,
+        8.68,
+        8.31
+      ],
+      "faces": {
+        "north": {
+          "texture": "#barrel"
+        },
+        "south": {
+          "texture": "#barrel"
+        },
+        "east": {
+          "texture": "#barrel"
+        },
+        "west": {
+          "texture": "#barrel"
+        },
+        "up": {
+          "texture": "#barrel"
+        },
+        "down": {
+          "texture": "#barrel"
+        }
+      }
+    },
+    {
+      "name": "front_magazine_cap",
+      "from": [
+        14.55,
+        8.13,
+        7.59
+      ],
+      "to": [
+        14.88,
+        8.81,
+        8.41
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "pump_foregrip",
+      "from": [
+        9.2,
+        7.94,
+        7.14
+      ],
+      "to": [
+        12.15,
+        9.15,
+        8.86
+      ],
+      "faces": {
+        "north": {
+          "texture": "#pump"
+        },
+        "south": {
+          "texture": "#pump"
+        },
+        "east": {
+          "texture": "#pump"
+        },
+        "west": {
+          "texture": "#pump"
+        },
+        "up": {
+          "texture": "#pump"
+        },
+        "down": {
+          "texture": "#pump"
+        }
+      }
+    },
+    {
+      "name": "pump_rib_9.44",
+      "from": [
+        9.44,
+        7.9,
+        7.06
+      ],
+      "to": [
+        9.6,
+        9.18,
+        7.15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "pump_rib_9.78",
+      "from": [
+        9.78,
+        7.9,
+        7.06
+      ],
+      "to": [
+        9.94,
+        9.18,
+        7.15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "pump_rib_10.12",
+      "from": [
+        10.12,
+        7.9,
+        7.06
+      ],
+      "to": [
+        10.28,
+        9.18,
+        7.15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "pump_rib_10.46",
+      "from": [
+        10.46,
+        7.9,
+        7.06
+      ],
+      "to": [
+        10.620000000000001,
+        9.18,
+        7.15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "pump_rib_10.8",
+      "from": [
+        10.8,
+        7.9,
+        7.06
+      ],
+      "to": [
+        10.96,
+        9.18,
+        7.15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "pump_rib_11.14",
+      "from": [
+        11.14,
+        7.9,
+        7.06
+      ],
+      "to": [
+        11.3,
+        9.18,
+        7.15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "pump_rib_11.48",
+      "from": [
+        11.48,
+        7.9,
+        7.06
+      ],
+      "to": [
+        11.64,
+        9.18,
+        7.15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "pump_rib_11.82",
+      "from": [
+        11.82,
+        7.9,
+        7.06
+      ],
+      "to": [
+        11.98,
+        9.18,
+        7.15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "pump_guide_rail",
+      "from": [
+        8.2,
+        8.7,
+        7.88
+      ],
+      "to": [
+        12.7,
+        8.9,
+        8.12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#barrel"
+        },
+        "south": {
+          "texture": "#barrel"
+        },
+        "east": {
+          "texture": "#barrel"
+        },
+        "west": {
+          "texture": "#barrel"
+        },
+        "up": {
+          "texture": "#barrel"
+        },
+        "down": {
+          "texture": "#barrel"
+        }
+      }
+    },
+    {
+      "name": "rear_sight",
+      "from": [
+        7.35,
+        10.5,
+        7.62
+      ],
+      "to": [
+        7.85,
+        10.85,
+        8.38
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "front_bead_sight",
+      "from": [
+        14.7,
+        9.83,
+        7.83
+      ],
+      "to": [
+        14.92,
+        10.12,
+        8.17
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "trigger_guard_top",
+      "from": [
+        5.96,
+        7.82,
+        7.55
+      ],
+      "to": [
+        7.55,
+        8.1,
+        8.45
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "trigger_guard_front",
+      "from": [
+        7.31,
+        6.6,
+        7.55
+      ],
+      "to": [
+        7.62,
+        8.02,
+        8.45
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "trigger_guard_bottom",
+      "from": [
+        6.15,
+        6.6,
+        7.55
+      ],
+      "to": [
+        7.62,
+        6.91,
+        8.45
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "trigger",
+      "from": [
+        6.63,
+        7.05,
+        7.77
+      ],
+      "to": [
+        6.9,
+        7.81,
+        8.23
+      ],
+      "faces": {
+        "north": {
+          "texture": "#barrel"
+        },
+        "south": {
+          "texture": "#barrel"
+        },
+        "east": {
+          "texture": "#barrel"
+        },
+        "west": {
+          "texture": "#barrel"
+        },
+        "up": {
+          "texture": "#barrel"
+        },
+        "down": {
+          "texture": "#barrel"
+        }
+      }
+    }
+  ],
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [
+        -12,
+        90,
+        -20
+      ],
+      "translation": [
+        1.8,
+        1.7,
+        1
+      ],
+      "scale": [
+        1.18,
+        1.18,
+        1.18
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -12,
+        -90,
+        20
+      ],
+      "translation": [
+        -1.8,
+        1.7,
+        1
+      ],
+      "scale": [
+        1.18,
+        1.18,
+        1.18
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        90,
+        -40
+      ],
+      "translation": [
+        0.0,
+        1.4,
+        0
+      ],
+      "scale": [
+        0.87,
+        0.87,
+        0.87
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        -90,
+        40
+      ],
+      "translation": [
+        0,
+        1.4,
+        0
+      ],
+      "scale": [
+        0.87,
+        0.87,
+        0.87
+      ]
+    },
+    "gui": {
+      "rotation": [
+        20,
+        135,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.93,
+        0.93,
+        0.93
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "translation": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        0.72,
+        0.72,
+        0.72
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    }
+  }
+}

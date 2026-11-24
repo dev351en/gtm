@@ -8,7 +8,7 @@
     "bg_color": "#151B20",
     "svg": "creative/source/branding/wahindra.svg",
     "png": "creative/source/branding/wahindra.png",
-    "sha256": "e89093591b218f6c947b64a46745b7c74145109135f5fae2d4a83cc2d7712034"
+    "sha256": "1c8f3e414397e10bc2e6b7322b58ec0a280240544b2f6884325d82af5dd2bb7a"
   },
   {
     "id": "tavara",
@@ -19,7 +19,7 @@
     "bg_color": "#151B20",
     "svg": "creative/source/branding/tavara.svg",
     "png": "creative/source/branding/tavara.png",
-    "sha256": "76d2b5f585c4d729237e82d1897243f534aa85ad720e4107dce91a0416557556"
+    "sha256": "3816b72b22408a52416d9bf15b77a01ffa1e79572990eba58f2d593ef0977fde"
   },
   {
     "id": "maruva",
@@ -30,7 +30,7 @@
     "bg_color": "#151B20",
     "svg": "creative/source/branding/maruva.svg",
     "png": "creative/source/branding/maruva.png",
-    "sha256": "6c964bd275eba8e4ffd9d006644c661abfff75586615842681a385ac70ce9a12"
+    "sha256": "9f4d8e6f6f8e9dabe16079fec30a370429b8e429055c22cd9b0d21d0c3f1d253"
   },
   {
     "id": "toyora",
@@ -41,7 +41,7 @@
     "bg_color": "#151B20",
     "svg": "creative/source/branding/toyora.svg",
     "png": "creative/source/branding/toyora.png",
-    "sha256": "32372cf430c265afc4342dd5b95bdaf6f20a4bb4dc2c774aa9c27194f9f7971b"
+    "sha256": "4fdff6b85718a087b57e333c387a36f190b627dda155a8a4d7f66a2e379f9509"
   },
   {
     "id": "royal_iron",
@@ -49,10 +49,10 @@
     "sector": "Motorcycles",
     "tagline": "Authentic Heavy Thump Cruisers",
     "primary_color": "#B28834",
-    "bg_color": "#0D1115",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/royal_iron.svg",
     "png": "creative/source/branding/royal_iron.png",
-    "sha256": "cc369e72b7a5a3d3d1d5a443de73d19959b1c66e39ee725c1d551c4e317bfbab"
+    "sha256": "7f41f2300254ed226cb1c8798c6d9a09de5e0b7f47d578d973e302e52748604f"
   },
   {
     "id": "veero",
@@ -63,7 +63,7 @@
     "bg_color": "#151B20",
     "svg": "creative/source/branding/veero.svg",
     "png": "creative/source/branding/veero.png",
-    "sha256": "91d815a7405557a8c9f242603a9297d973d59fe14a56787385335df885a9196a"
+    "sha256": "c77927f9764f9abffe688c28e8bf384671028c470dd93dc201911e27cc515db1"
   },
   {
     "id": "hondo",
@@ -74,7 +74,7 @@
     "bg_color": "#151B20",
     "svg": "creative/source/branding/hondo.svg",
     "png": "creative/source/branding/hondo.png",
-    "sha256": "76d2b5f585c4d729237e82d1897243f534aa85ad720e4107dce91a0416557556"
+    "sha256": "aa5adcf6501a18f8944752ff587f8d9ef4c9e3991bbb3ca18834ac0c53f07fb1"
   },
   {
     "id": "quoggle",
@@ -82,10 +82,10 @@
     "sector": "Technology",
     "tagline": "Search, Cloud & Intelligent Navigation",
     "primary_color": "#2680EB",
-    "bg_color": "#FFFFFF",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/quoggle.svg",
     "png": "creative/source/branding/quoggle.png",
-    "sha256": "c09e95a60679406fac80dd8813c7f94c620c7505840da82b4e6cacb047e96c32"
+    "sha256": "9a794fdae23aaf92c99f659ea7c94fe0d5fcbf8f5ab5daec8aad982593fa6c70"
   },
   {
     "id": "amazzo",
@@ -96,7 +96,7 @@
     "bg_color": "#151B20",
     "svg": "creative/source/branding/amazzo.svg",
     "png": "creative/source/branding/amazzo.png",
-    "sha256": "32372cf430c265afc4342dd5b95bdaf6f20a4bb4dc2c774aa9c27194f9f7971b"
+    "sha256": "29c682254d534cd31ecbabab0a1d226e8f0ae7b25042f3de59a10e3657c55461"
   },
   {
     "id": "flippit",
@@ -104,10 +104,10 @@
     "sector": "E-Commerce",
     "tagline": "Electronics & Flash Shopping",
     "primary_color": "#2680EB",
-    "bg_color": "#D6AD59",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/flippit.svg",
     "png": "creative/source/branding/flippit.png",
-    "sha256": "59e04c10ac2c5e4096db8cf5ae11138bf48102b826738ad0d72256cc46860c37"
+    "sha256": "9ec5f1a3dceb03bed0d8a8e04f87e92d88b06f4b69985cb2b85f7cc061ec0788"
   },
   {
     "id": "arkpay",
@@ -115,10 +115,10 @@
     "sector": "Financial",
     "tagline": "Instant Contactless Municipal Banking",
     "primary_color": "#236653",
-    "bg_color": "#D6AD59",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/arkpay.svg",
     "png": "creative/source/branding/arkpay.png",
-    "sha256": "12e24520851937305f3220bd62c308acdb9c050b9545035dfb635ce98cd4a0fb"
+    "sha256": "5b72a122df821fe3806440713a1db5cc4b89422084c7eb05df3c20c5b6845970"
   },
   {
     "id": "zomatoo",
@@ -126,10 +126,10 @@
     "sector": "Delivery",
     "tagline": "24/7 Restaurant Courier Delivery",
     "primary_color": "#DC3545",
-    "bg_color": "#FFFFFF",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/zomatoo.svg",
     "png": "creative/source/branding/zomatoo.png",
-    "sha256": "1fbafe775fc918b0b592782b401a47e59d12a30b04e7419a6e0f1c1ebfcd6d4b"
+    "sha256": "a2099d92c3d20a8cb2503833917e3da719ab40c90f8eb23ccdcbbafa1396bac5"
   },
   {
     "id": "swiffy",
@@ -137,10 +137,10 @@
     "sector": "Delivery",
     "tagline": "Hyper-Local 10-Minute Grocery Delivery",
     "primary_color": "#AD5637",
-    "bg_color": "#FFFFFF",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/swiffy.svg",
     "png": "creative/source/branding/swiffy.png",
-    "sha256": "3a7022ae99f82b66ee123bdac8469749e40d5c3b90fd593027cffb8d5bf7de49"
+    "sha256": "aacd561b8486b626899fb8b1487e5f2b6bfa4a70b04e08a955b1af782d40e434"
   },
   {
     "id": "indra_fuel",
@@ -148,10 +148,10 @@
     "sector": "Energy",
     "tagline": "State Refineries & High-Octane Fuel",
     "primary_color": "#2680EB",
-    "bg_color": "#D6AD59",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/indra_fuel.svg",
     "png": "creative/source/branding/indra_fuel.png",
-    "sha256": "59e04c10ac2c5e4096db8cf5ae11138bf48102b826738ad0d72256cc46860c37"
+    "sha256": "11c7ae7e9b81de7c53bb89bd73833263a207c0c7ad30ee01035f173bbce3adfb"
   },
   {
     "id": "indra_bank",
@@ -159,10 +159,10 @@
     "sector": "Banking",
     "tagline": "Authoritative Vault Accounts & Escrow",
     "primary_color": "#D6AD59",
-    "bg_color": "#0D1115",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/indra_bank.svg",
     "png": "creative/source/branding/indra_bank.png",
-    "sha256": "aa13db8f4c22a3d7234d951e4f001a797f08d747640226f50e8e635dcd4c2f56"
+    "sha256": "ece1be2fea4efb8987d68a8101ec72b427f8712aacddb30948d2cb16f5810fa5"
   },
   {
     "id": "vayu_bharat",
@@ -170,10 +170,10 @@
     "sector": "Aviation",
     "tagline": "Coastal & International Air Carrier",
     "primary_color": "#2680EB",
-    "bg_color": "#FFFFFF",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/vayu_bharat.svg",
     "png": "creative/source/branding/vayu_bharat.png",
-    "sha256": "c09e95a60679406fac80dd8813c7f94c620c7505840da82b4e6cacb047e96c32"
+    "sha256": "37720795da5b954a5d39cd4aa9d9c00e7db88afddb0ea0be1372bde7614bea73"
   },
   {
     "id": "skyindra",
@@ -181,10 +181,10 @@
     "sector": "Transit",
     "tagline": "Harbour Aerial Cableway Transit",
     "primary_color": "#236653",
-    "bg_color": "#D2B997",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/skyindra.svg",
     "png": "creative/source/branding/skyindra.png",
-    "sha256": "52e77b6cc2f2e355bf79467c97832fefd6a9a43dd432e623f2c0c640ed820da8"
+    "sha256": "fd6b539b9f9c2d04fe712c5a7cbf482cddebfcc368d6d7ba43516f9af67c93b9"
   },
   {
     "id": "cinevista",
@@ -192,10 +192,10 @@
     "sector": "Entertainment",
     "tagline": "Bollywood Cinema & Film Production",
     "primary_color": "#D6AD59",
-    "bg_color": "#DC3545",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/cinevista.svg",
     "png": "creative/source/branding/cinevista.png",
-    "sha256": "414f67ab465088db9fe4e46b997f1e4030414770056f8fa1779a63a9f7bd6c6c"
+    "sha256": "0eaae3e72881b2a14007a89c3d476811bfff7a0d706f692b5994686f48062cc6"
   },
   {
     "id": "d_bazaar",
@@ -203,10 +203,10 @@
     "sector": "Retail",
     "tagline": "Multi-Floor Wholesale Supermarkets",
     "primary_color": "#236653",
-    "bg_color": "#FFFFFF",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/d_bazaar.svg",
     "png": "creative/source/branding/d_bazaar.png",
-    "sha256": "632a7897192c224c8f70fcae2ddb17fc1842379f34380b742a8e958b1d2ac307"
+    "sha256": "afc78704b4c9dc5d7d4486bd72632aa1ac20d316cdfb8846750d0ef1874e7fa8"
   },
   {
     "id": "amora",
@@ -214,10 +214,10 @@
     "sector": "Fashion",
     "tagline": "Heritage Handloom & Modern Silk Wear",
     "primary_color": "#AD5637",
-    "bg_color": "#D6AD59",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/amora.svg",
     "png": "creative/source/branding/amora.png",
-    "sha256": "e87497adde7ffd475a2c9f6df66acd385f00685a04623f07ec364e97bae88086"
+    "sha256": "370269ba8d29cd32ebddad8b2960704c5cf2257e4a665e52916645682f08b609"
   },
   {
     "id": "rang_bharat",
@@ -225,10 +225,10 @@
     "sector": "Fashion",
     "tagline": "Festival Costumes & Ceremonial Silks",
     "primary_color": "#D6AD59",
-    "bg_color": "#236653",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/rang_bharat.svg",
     "png": "creative/source/branding/rang_bharat.png",
-    "sha256": "504c1655e1b72359d727047081cb44819aac41dd08987792291b0871ed8017f2"
+    "sha256": "4841ddd593a5e804634994bc4bea767aa14aafee210fccf1327d329a94322be2"
   },
   {
     "id": "jyon",
@@ -236,10 +236,10 @@
     "sector": "Fashion",
     "tagline": "Youth Streetwear & Athletic Apparel",
     "primary_color": "#252F38",
-    "bg_color": "#E8C87E",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/jyon.svg",
     "png": "creative/source/branding/jyon.png",
-    "sha256": "57327bb50a2c6fcc3ca49fcd32b276ae6c12901686fc022c97717d65df8680c4"
+    "sha256": "b9d1485dfdd098f05ff30881c9ec0362351b1e0309b4e0cdeb00f416791f0f6c"
   },
   {
     "id": "airwave",
@@ -247,10 +247,10 @@
     "sector": "Telecom",
     "tagline": "High-Bandwidth City Telecom Network",
     "primary_color": "#2680EB",
-    "bg_color": "#FFFFFF",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/airwave.svg",
     "png": "creative/source/branding/airwave.png",
-    "sha256": "c09e95a60679406fac80dd8813c7f94c620c7505840da82b4e6cacb047e96c32"
+    "sha256": "fda7b2fe711012f011dd7c3a6503feb5bf8e49646854ab8abf2dbb0f038cd158"
   },
   {
     "id": "indra24",
@@ -258,10 +258,10 @@
     "sector": "Media",
     "tagline": "24-Hour Metropolitan Breaking News",
     "primary_color": "#DC3545",
-    "bg_color": "#FFFFFF",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/indra24.svg",
     "png": "creative/source/branding/indra24.png",
-    "sha256": "1fbafe775fc918b0b592782b401a47e59d12a30b04e7419a6e0f1c1ebfcd6d4b"
+    "sha256": "80dadce6149d5bbed2ae47fa9ebbfbce647ed6c03b1df0951310f6627e745325"
   },
   {
     "id": "jan_awaaz",
@@ -269,10 +269,10 @@
     "sector": "Media",
     "tagline": "Civic Journalism & Citizen Radio",
     "primary_color": "#151B20",
-    "bg_color": "#D2B997",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/jan_awaaz.svg",
     "png": "creative/source/branding/jan_awaaz.png",
-    "sha256": "e1c61a0967d0e7fb9d8b4c784fbd886f296d8a82eced82d79c077d63536f133f"
+    "sha256": "c2d80ae65cd25c5fcf704be012508b6da45abb90b187573439b644887390d0a1"
   },
   {
     "id": "indra_metro",
@@ -280,10 +280,10 @@
     "sector": "Transit",
     "tagline": "Rapid Underground & Elevated Commuter",
     "primary_color": "#2680EB",
-    "bg_color": "#236653",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/indra_metro.svg",
     "png": "creative/source/branding/indra_metro.png",
-    "sha256": "cd7c2ffcc82c909468f83423edc20784cae0de8f424cf7748aae815bc216ec9c"
+    "sha256": "fb99388fe511509d25a7721f48d613cca774094b6adf7630f185f38c333d8d79"
   },
   {
     "id": "indra_suburban",
@@ -291,10 +291,10 @@
     "sector": "Transit",
     "tagline": "Lifeline Coastal Local Train Network",
     "primary_color": "#AD5637",
-    "bg_color": "#D6AD59",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/indra_suburban.svg",
     "png": "creative/source/branding/indra_suburban.png",
-    "sha256": "e87497adde7ffd475a2c9f6df66acd385f00685a04623f07ec364e97bae88086"
+    "sha256": "daff8e0f109cb154cc88ecaef5cd78bc9ea7114ae5552eaa8263af25ace33159"
   },
   {
     "id": "skylink",
@@ -302,10 +302,10 @@
     "sector": "Transit",
     "tagline": "Suspended Harbour Gondola Network",
     "primary_color": "#236653",
-    "bg_color": "#FFFFFF",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/skylink.svg",
     "png": "creative/source/branding/skylink.png",
-    "sha256": "632a7897192c224c8f70fcae2ddb17fc1842379f34380b742a8e958b1d2ac307"
+    "sha256": "1beec0baf358ab7b03d88304442c2c5fd36162758d017268f409224d13f37d1a"
   },
   {
     "id": "maya_residences",
@@ -316,7 +316,7 @@
     "bg_color": "#151B20",
     "svg": "creative/source/branding/maya_residences.svg",
     "png": "creative/source/branding/maya_residences.png",
-    "sha256": "85d5c323b90997b1de7eb3e95c4ea16f545f3263ed77a8e2082d70d2a28474e3"
+    "sha256": "2928428c40fc104243ea0185326557ded8f093a29d4e8ad3a408930d58e99af7"
   },
   {
     "id": "sd_motors",
@@ -324,10 +324,10 @@
     "sector": "Dealership",
     "tagline": "Exclusive Luxury Supercar Showroom",
     "primary_color": "#D6AD59",
-    "bg_color": "#0D1115",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/sd_motors.svg",
     "png": "creative/source/branding/sd_motors.png",
-    "sha256": "aa13db8f4c22a3d7234d951e4f001a797f08d747640226f50e8e635dcd4c2f56"
+    "sha256": "354468702c145cf190807db15608cb113d48687ec70bbea9f2b91fd1716e5d37"
   },
   {
     "id": "black_lotus",
@@ -335,10 +335,10 @@
     "sector": "Underground",
     "tagline": "Shadow Port Cartel & Contraband",
     "primary_color": "#0D1115",
-    "bg_color": "#DC3545",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/black_lotus.svg",
     "png": "creative/source/branding/black_lotus.png",
-    "sha256": "052f70694b9d81807f8ffcf914f217c4a7b51cc52416d9c3d7c224a592301482"
+    "sha256": "295585c4c0671bf1d5e54c278bb7f03b10b039aa3eb2d3af8d49fc7738eeb13d"
   },
   {
     "id": "gtm",
@@ -346,9 +346,9 @@
     "sector": "Master Brand",
     "tagline": "Metropolitan Roleplay Universe",
     "primary_color": "#D6AD59",
-    "bg_color": "#0D1115",
+    "bg_color": "#151B20",
     "svg": "creative/source/branding/gtm.svg",
     "png": "creative/source/branding/gtm.png",
-    "sha256": "aa13db8f4c22a3d7234d951e4f001a797f08d747640226f50e8e635dcd4c2f56"
+    "sha256": "f02dee3dc3e3c069437e141655f43ed3c9947e710999774fe407ebf849496f36"
   }
 ]

@@ -3,336 +3,336 @@
     "id": "app_quoggle",
     "title_en": "Quoggle",
     "title_hi": "\u0915\u094d\u0935\u093e\u0917\u0932",
-    "bg_color": "#2680EB",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_quoggle.svg",
     "png": "creative/source/icons/app_quoggle.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "6e1e5f882963e074fccfa2d8443151472e6159e5673ffe0345830c79a05989d5",
-    "v3_source": "creative/source/icons_v3/quoggle.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "d2667d8b1e8e2485079e4bf7ea770fa616980794e0aa7dcddf5cfebb05946bf6"
   },
   {
     "id": "app_amazzo",
     "title_en": "Amazzo",
     "title_hi": "\u0905\u092e\u0947\u091c\u093c\u094b",
-    "bg_color": "#D6AD59",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_amazzo.svg",
     "png": "creative/source/icons/app_amazzo.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "e28b1c606d444fb524b6a58a911dfe92c7ec1306450837b3edc49db69976d56f",
-    "v3_source": "creative/source/icons_v3/amazzo.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "b5ff0f4315df5f05afae6b6cd45e57fa6d1cd3103767251a633b0b760f6bda7b"
   },
   {
     "id": "app_flippit",
     "title_en": "Flippit",
     "title_hi": "\u092b\u094d\u0932\u093f\u092a\u093f\u091f",
-    "bg_color": "#2680EB",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_flippit.svg",
     "png": "creative/source/icons/app_flippit.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "cb6233c197bf128aa6f86f62710d68e3cbd8e2f9789ea8fba2685f4195452b79",
-    "v3_source": "creative/source/icons_v3/flippit.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "58fc5432cbc07cf1a8d489ac8e73bb3fb101d0c08f55398f065115f62b59cea2"
   },
   {
     "id": "app_arkpay",
     "title_en": "ARK Pay",
     "title_hi": "\u0906\u0930\u094d\u0915 \u092a\u0947",
-    "bg_color": "#236653",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_arkpay.svg",
     "png": "creative/source/icons/app_arkpay.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "53535cf1d1f465b20538e189c3235b277e8af0bc18d3017fd21f75110beaa6e6",
-    "v3_source": "creative/source/icons_v3/arkpay.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "dbd5a94ab89993ae169e96cf271ed90abf872bdc338fbf12d531c51c5eb3b3c0"
   },
   {
     "id": "app_zomatoo",
     "title_en": "Zomatoo",
     "title_hi": "\u091c\u093c\u094b\u092e\u0948\u091f\u094b",
-    "bg_color": "#DC3545",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_zomatoo.svg",
     "png": "creative/source/icons/app_zomatoo.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "b720219f56c4660ab39a8bf109758688fe129570e5f96aa98ba50cc46edd3743",
-    "v3_source": "creative/source/icons_v3/zomatoo.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "851a37c8b109548448e697e05b951e94a1db4ed010d2438ce20a5b6ea35cdcb1"
   },
   {
     "id": "app_swiffy",
     "title_en": "Swiffy",
     "title_hi": "\u0938\u094d\u0935\u093f\u092b\u0940",
-    "bg_color": "#AD5637",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_swiffy.svg",
     "png": "creative/source/icons/app_swiffy.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "affe56e9bcf54afc21f351a218055638af5a04ca8dfa4d0469ca1eae24c8056b",
-    "v3_source": "creative/source/icons_v3/swiffy.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "a187e3b107e31004f93f06ecda5a9e4bfe507f6fda41932bd75ee64f7f06c686"
   },
   {
     "id": "app_fashion",
     "title_en": "Vogue Indra",
     "title_hi": "\u092b\u0948\u0936\u0928",
-    "bg_color": "#D2B997",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_fashion.svg",
     "png": "creative/source/icons/app_fashion.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "fe6a55d002ccfbd18a0d69f86c1b948e3b4723bbe0d332b0b9eb20aed8a3bf80",
-    "v3_source": "creative/source/icons_v3/fashion.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "035c9f165746eea6b6d6297e6a425bd166300c28f0a11947d10484f5eeb36bf2"
   },
   {
     "id": "app_property",
     "title_en": "Properties",
     "title_hi": "\u0938\u0902\u092a\u0924\u094d\u0924\u093f",
-    "bg_color": "#D6AD59",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_property.svg",
     "png": "creative/source/icons/app_property.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "cbf72722787f909f3327794871e3e55eb5297b9034c8f419f9a567df8937e030",
-    "v3_source": "creative/source/icons_v3/property.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "ec0b238aef5a608a7e4ad3dbd44359a15c96f0209f28524d830426cee49a8a95"
   },
   {
     "id": "app_car_app",
     "title_en": "Motor Mile",
     "title_hi": "\u092e\u094b\u091f\u0930",
-    "bg_color": "#AD5637",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_car_app.svg",
     "png": "creative/source/icons/app_car_app.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "38ccb96e8fc341565504a733c28d48d15cc7549484d0975b76911c8a9d661eef",
-    "v3_source": "creative/source/icons_v3/garage.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "b72bf226f178766aaed4648b3907fe1570b9d2d21095d018ce28776c83afa1e5"
   },
   {
     "id": "app_maps",
     "title_en": "City GPS",
     "title_hi": "\u092e\u093e\u0928\u091a\u093f\u0924\u094d\u0930",
-    "bg_color": "#2680EB",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_maps.svg",
     "png": "creative/source/icons/app_maps.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "00a26c8b1c933a187d091bd606942d683ea14eea62ffef3b49cfbdf5558c4581",
-    "v3_source": "creative/source/icons_v3/maps.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "a29f7bec0d1e844a3d2e9f2059b66715a23154c99c79377530fb46bc53ef2c6c"
   },
   {
     "id": "app_garage",
     "title_en": "My Garage",
     "title_hi": "\u0917\u0948\u0930\u093e\u091c",
-    "bg_color": "#252F38",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_garage.svg",
     "png": "creative/source/icons/app_garage.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "38ccb96e8fc341565504a733c28d48d15cc7549484d0975b76911c8a9d661eef",
-    "v3_source": "creative/source/icons_v3/garage.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "f2891c86f156ecf5f6d98220ed9362ea28681b67fcca71093a0fa6c0bf10f2d0"
   },
   {
     "id": "app_bank",
-    "title_en": "Maze Bank",
-    "title_hi": "\u092e\u0947\u091c\u093c \u092c\u0948\u0902\u0915",
-    "bg_color": "#236653",
+    "title_en": "Indra Bank",
+    "title_hi": "\u092c\u0948\u0902\u0915",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_bank.svg",
     "png": "creative/source/icons/app_bank.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "78e10abda143e089bf65b5ec9ee8b2578dd42f80e9803c42329d5202e536203d",
-    "v3_source": "creative/source/icons_v3/bank.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "288e9b5f48187d446d0384d44c0ec6b63447c2c517f892bfeacc40589f4e871b"
   },
   {
     "id": "app_loans",
     "title_en": "Municipal Loans",
     "title_hi": "\u090b\u0923",
-    "bg_color": "#B28834",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_loans.svg",
     "png": "creative/source/icons/app_loans.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "37a0e053c0fadf4f09db2e5f24ffeae66c9db86a32b3e299d6f6016668b5740c",
-    "v3_source": "creative/source/icons_v3/loans.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "a41a31bbf2ca6c41e3178409f50cd5bf1d8d7486b355a144d9513c22a217337a"
   },
   {
     "id": "app_taxi",
     "title_en": "City Cabs",
     "title_hi": "\u091f\u0948\u0915\u094d\u0938\u0940",
-    "bg_color": "#D6AD59",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_taxi.svg",
     "png": "creative/source/icons/app_taxi.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "08a23a0f2e371a229672944f16ea1fe62fcfb4d2623e8d42c5621b3f4d93b0c8",
-    "v3_source": "creative/source/icons_v3/taxi.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "ad461a29bcf865e34c083c60f24620d69458d3f63718af3d5441844a482fda5a"
   },
   {
     "id": "app_transport",
     "title_en": "Metro & Rail",
     "title_hi": "\u092e\u0947\u091f\u094d\u0930\u094b",
-    "bg_color": "#2680EB",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_transport.svg",
     "png": "creative/source/icons/app_transport.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "69b7e6bbbebd05faa109a75517024e08ea4d19bd11b84b6681b1a5195f8f5b25",
-    "v3_source": "creative/source/icons_v3/transport.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "9cd338b910e3e6ea132ad3a08c7ad15c6b07da142974123c22d1864ba6d74a06"
   },
   {
     "id": "app_news",
     "title_en": "Indra 24",
     "title_hi": "\u0938\u092e\u093e\u091a\u093e\u0930",
-    "bg_color": "#DC3545",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_news.svg",
     "png": "creative/source/icons/app_news.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "ca0b4f32ab1ca6b420874b7d2568d19c1cfba16c9319d9c8219149a517e615e5",
-    "v3_source": "creative/source/icons_v3/news.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "212dc929055b9d360420c0d25b0a0dea684f75022c52ecd16a06e290e4f396fb"
   },
   {
     "id": "app_police",
     "title_en": "SDPD Law",
     "title_hi": "\u092a\u0941\u0932\u093f\u0938",
-    "bg_color": "#2680EB",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_police.svg",
     "png": "creative/source/icons/app_police.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "417def7778e45998e8bb6e3ac5dc8604cbd189be36ab259daa2b71d3ef7ed8c2",
-    "v3_source": "creative/source/icons_v3/police.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "dfd6bfcc918f2cf80450526cf5899ffb062de0f682bf0a05d8b6259b73cb8d12"
   },
   {
     "id": "app_medical",
     "title_en": "Trauma Bay",
     "title_hi": "\u0905\u0938\u094d\u092a\u0924\u093e\u0932",
-    "bg_color": "#DC3545",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_medical.svg",
     "png": "creative/source/icons/app_medical.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "4f82bafd020e04adbde69464522d075f3e82d74cf310085f39424a4db364e4f1",
-    "v3_source": "creative/source/icons_v3/medical.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "25fa92cfa75a85cc66decfd362838f37586c2eec08e6a3eaf9fd2b8913b80f55"
   },
   {
     "id": "app_events",
     "title_en": "Festivals",
     "title_hi": "\u0909\u0924\u094d\u0938\u0935",
-    "bg_color": "#D6AD59",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_events.svg",
     "png": "creative/source/icons/app_events.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "4e81907af77ab3301e8fbcd1d19941fb6552648aa985b3cd4d3b45fbbc0db972",
-    "v3_source": "creative/source/icons_v3/events.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "fbc63bc06d009d141c48e4fca0e424c5e34642381481cb840e00cd50ca25ad4c"
   },
   {
     "id": "app_missions",
     "title_en": "Contracts",
     "title_hi": "\u092e\u093f\u0936\u0928",
-    "bg_color": "#AD5637",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_missions.svg",
     "png": "creative/source/icons/app_missions.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "a765c282befe09e312bd1efaf5b826725fee93e9c2cb9d7e85b5edf34725030c",
-    "v3_source": "creative/source/icons_v3/missions.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "dc0a37f6caf16359c2d057314fb2f9f8fa9543c59f47b5ae03d7215780fd29f7"
   },
   {
     "id": "app_careers",
     "title_en": "City Jobs",
     "title_hi": "\u0928\u094c\u0915\u0930\u0940",
-    "bg_color": "#D2B997",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_careers.svg",
     "png": "creative/source/icons/app_careers.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "2b985c01896bcc22a7907645afc3d7a8d2f816fa15f66c5dbdf40a02ec29fa2a",
-    "v3_source": "creative/source/icons_v3/careers.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "7ac27bf9b1bc23ed16dbaf3f2a7b1d8c7ee2d6d852675b4b0c8e30617dad607a"
   },
   {
     "id": "app_contacts",
     "title_en": "Contacts",
     "title_hi": "\u0938\u0902\u092a\u0930\u094d\u0915",
-    "bg_color": "#2680EB",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_contacts.svg",
     "png": "creative/source/icons/app_contacts.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "962c42ea7bf9badc2ef4ff7cc86af6f48ebd301d3a36ead7608688c39c0070f4",
-    "v3_source": "creative/source/icons_v3/contacts.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "3eec3ec166d80ed245ff275d4f7c3673de0053275be088b3c532c7b125c3d353"
   },
   {
     "id": "app_keys",
     "title_en": "Key Fob",
     "title_hi": "\u091a\u093e\u092c\u0940",
-    "bg_color": "#E8C87E",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_keys.svg",
     "png": "creative/source/icons/app_keys.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "cc4acd33e7fada5c738913453caadbb8bb215f00c7d398db1b2e19ee40063329",
-    "v3_source": "creative/source/icons_v3/keys.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "34f6cd7b8a6124c5c69832fa43b1977d6d5b5c9e7f3c13720823715d309e5579"
   },
   {
     "id": "app_settings",
     "title_en": "Settings",
     "title_hi": "\u0938\u0947\u091f\u093f\u0902\u0917\u094d\u0938",
-    "bg_color": "#252F38",
+    "bg_color": "#151B20",
     "svg": "creative/source/icons/app_settings.svg",
     "png": "creative/source/icons/app_settings.png",
     "dimensions": [
-      64,
-      64
+      128,
+      128
     ],
-    "sha256": "027bcc49a94d6785cd6587de67f046196405368515855cec29864b1f2b3fae5e",
-    "v3_source": "creative/source/icons_v3/settings.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "dbfab8580ed67ad07dacfc6aca0a844010904bdac10b63c93e78e3a4dd0fcb66"
   }
 ]

@@ -2,8 +2,8 @@
   {
     "id": "wanted_star_empty",
     "dimensions": [
-      32,
-      32
+      64,
+      64
     ],
     "anchor": "top_right",
     "safe_area_java": {
@@ -15,14 +15,14 @@
       "y_ratio": 0.08
     },
     "png": "creative/source/ui/wanted_star_empty.png",
-    "sha256": "3f2a97be1970f20c74d6b70c6823d8dec3aebd66faabf3d0e8d4672079e4e5f2",
-    "v3_source": "creative/source/icons_v3/wanted_star_empty.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "33047370ea5a511ba35dddfa34ac7271aa9488cce9463d05989b939e2f588c53"
   },
   {
     "id": "wanted_star_filled",
     "dimensions": [
-      32,
-      32
+      64,
+      64
     ],
     "anchor": "top_right",
     "safe_area_java": {
@@ -34,14 +34,14 @@
       "y_ratio": 0.08
     },
     "png": "creative/source/ui/wanted_star_filled.png",
-    "sha256": "13bff3a26ff333a97f63d46ebf83f32f9be42908ba5505c187f80a9e46aad979",
-    "v3_source": "creative/source/icons_v3/wanted_star_filled.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "7b2a703d55c8838986d33c5fb7d1222d78028a56c596f68ce91eb1e8cbd329d3"
   },
   {
     "id": "health",
     "dimensions": [
-      32,
-      32
+      64,
+      64
     ],
     "anchor": "bottom_left",
     "safe_area_java": {
@@ -53,14 +53,14 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/health.png",
-    "sha256": "d45f4de94f0d65e6c92cdec43b4507f409c335414b42f750380c2a0aa217b331",
-    "v3_source": "creative/source/icons_v3/health.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "5930ebc9f3e339d88460e5e8f49c9edba427618d9c664477e7a2e9420d201ebc"
   },
   {
     "id": "armour",
     "dimensions": [
-      32,
-      32
+      64,
+      64
     ],
     "anchor": "bottom_left",
     "safe_area_java": {
@@ -72,14 +72,14 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/armour.png",
-    "sha256": "9c2e670ffe1faa17b2bd511df83dc1f80487830526467a3fa7f82ed7cf589f2f",
-    "v3_source": "creative/source/icons_v3/armour.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "a2c32d9ce7bd6ce6006b28c56b61ecafa9d6b216d5ed61641602f77e6e8cb149"
   },
   {
     "id": "fuel",
     "dimensions": [
-      32,
-      32
+      64,
+      64
     ],
     "anchor": "bottom_right",
     "safe_area_java": {
@@ -91,14 +91,14 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/fuel.png",
-    "sha256": "33b9245b34b5d6709a5d104f08131f039451ce490fc713d9b258e6dfce7f5659",
-    "v3_source": "creative/source/icons_v3/fuel.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "30233c893b69a6809e767e6b26e070bc84479c496b730468ec95ef9373051cde"
   },
   {
     "id": "battery",
     "dimensions": [
-      32,
-      32
+      64,
+      64
     ],
     "anchor": "bottom_right",
     "safe_area_java": {
@@ -110,14 +110,14 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/battery.png",
-    "sha256": "fa51418cd5efad5fe99faae39ba80d792e4ff78d0f2e02f3ae54069167d009e6",
-    "v3_source": "creative/source/icons_v3/battery.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "c60c49fdd1e2bce97c11473da27c63d174161b7fd86d6ecb7757ea4137840947"
   },
   {
     "id": "engine_condition",
     "dimensions": [
-      32,
-      32
+      64,
+      64
     ],
     "anchor": "bottom_right",
     "safe_area_java": {
@@ -129,14 +129,14 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/engine_condition.png",
-    "sha256": "d8110d36a4e043f8dc334184885b557db9efebab5fc61713dfc2a38622debee3",
-    "v3_source": "creative/source/icons_v3/engine_condition.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "3b7342660ed0542bfedd48374fcbd2978edf2b24953b3c89ffb5e53201122272"
   },
   {
     "id": "speedometer_analog",
     "dimensions": [
-      96,
-      96
+      128,
+      128
     ],
     "anchor": "bottom_right",
     "safe_area_java": {
@@ -148,14 +148,14 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/speedometer_analog.png",
-    "sha256": "4f0a26d72bf02ada5b69caf691ff5857e729dc62848d3cb85084227f60dce6c5",
-    "v3_source": "creative/source/icons_v3/speedometer_analog.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "c15b05aea1c289ffc54954755d74ffddd753143bdf951a2436da97d4ff2dcef7"
   },
   {
     "id": "speedometer_digital",
     "dimensions": [
-      96,
-      48
+      128,
+      64
     ],
     "anchor": "bottom_right",
     "safe_area_java": {
@@ -167,14 +167,14 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/speedometer_digital.png",
-    "sha256": "941a9fbee930bf426a413648869f8278477b5f3bba6176f3dbcb9267daba43ba",
-    "v3_source": "creative/source/icons_v3/speedometer_digital.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "bf06c2659e8d9a1190fcf956e1b383c28d494d8bb20401b742d691d6e42d9eba"
   },
   {
     "id": "speedometer_compact",
     "dimensions": [
-      64,
-      32
+      128,
+      64
     ],
     "anchor": "bottom_right",
     "safe_area_java": {
@@ -186,8 +186,8 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/speedometer_compact.png",
-    "sha256": "2171d65144dfbf0a3fd45506ce14210797f569bc005d3f2af39a4aecd89f1e93",
-    "v3_source": "creative/source/icons_v3/speedometer_compact.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "33f64df6c36bc282eeed5596e7f0e72ff9c3575c674027028adc81e65ac67494"
   },
   {
     "id": "minimap_circle",
@@ -205,13 +205,13 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/minimap_circle.png",
-    "sha256": "0f86e5f80f2bb1c85f564879628361e123125357cd549f8ffa9cd83c9db298cd",
-    "v3_source": "creative/source/icons_v3/minimap_circle.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "a00f7bbee98782c5045d9b8ddc2c2ec27b61e22f9827ec631a7ad3968f3aac3a"
   },
   {
     "id": "minimap_rectangle",
     "dimensions": [
-      128,
+      160,
       96
     ],
     "anchor": "bottom_left",
@@ -224,14 +224,14 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/minimap_rectangle.png",
-    "sha256": "7ab06523312458b04195a3241be9a94ce4da0ff07f8fab25907668a8afcf0ada",
-    "v3_source": "creative/source/icons_v3/minimap_rectangle.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "830746f1e5822c0f8ec53ea7d310c97c0fd5ccf8e1771471efbc70c23c728753"
   },
   {
     "id": "player_arrow",
     "dimensions": [
-      32,
-      32
+      64,
+      64
     ],
     "anchor": "bottom_left",
     "safe_area_java": {
@@ -243,14 +243,14 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/player_arrow.png",
-    "sha256": "4511e20f00839f2df78ff4b76a04062c67f7f367178f725c21cb1a2a68b29ad6",
-    "v3_source": "creative/source/icons_v3/player_arrow.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "fb6c8894d8706be4a5eedac8b3f9d3b24b15bbccd615b5993bca34aef367eb47"
   },
   {
     "id": "gps_route",
     "dimensions": [
-      32,
-      32
+      64,
+      64
     ],
     "anchor": "bottom_left",
     "safe_area_java": {
@@ -262,14 +262,14 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/gps_route.png",
-    "sha256": "60c1aa680a8ac3d228de9c4c885c162778699f78746dbe282ae455a6e7ad59bb",
-    "v3_source": "creative/source/icons_v3/gps_route.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "c5a3d693d173ffff2ab017a9150cb263be0bc76bd989e0a1e92286f44a3817c7"
   },
   {
     "id": "map_police",
     "dimensions": [
-      24,
-      24
+      64,
+      64
     ],
     "anchor": "bottom_left",
     "safe_area_java": {
@@ -281,14 +281,14 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/map_police.png",
-    "sha256": "6f48b8da894c5c01819424bd4db089c9f319f5aa8f19cf2dc8c500c61a42be7e",
-    "v3_source": "creative/source/icons_v3/map_police.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "4a9461a4c328add49880890f241663a32629b480547d1821e444cf89ed1f2cb9"
   },
   {
     "id": "map_hospital",
     "dimensions": [
-      24,
-      24
+      64,
+      64
     ],
     "anchor": "bottom_left",
     "safe_area_java": {
@@ -300,14 +300,14 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/map_hospital.png",
-    "sha256": "a4d816140eba0a6e6382aab9b61a8cc97faf90e4ef035adca86fb867833cfe0c",
-    "v3_source": "creative/source/icons_v3/map_hospital.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "6bc631f5acf5988a148b57213dad28c973a99843b359597b02d8bca63dd64598"
   },
   {
     "id": "map_fuel",
     "dimensions": [
-      24,
-      24
+      64,
+      64
     ],
     "anchor": "bottom_left",
     "safe_area_java": {
@@ -319,14 +319,14 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/map_fuel.png",
-    "sha256": "4e403a8736958046e1944043dc829c7a88abd775a1ecb7350f384058d94e6165",
-    "v3_source": "creative/source/icons_v3/map_fuel.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "5262c97ee8ad0db84ca137028cf2ec7bbdf11ceccc7d3b205fa577d2fe828f52"
   },
   {
     "id": "map_shop",
     "dimensions": [
-      24,
-      24
+      64,
+      64
     ],
     "anchor": "bottom_left",
     "safe_area_java": {
@@ -338,14 +338,14 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/map_shop.png",
-    "sha256": "614ba5a9491ead80425590c78d87849fa8c259b6232eb5b657589c728b7d4edb",
-    "v3_source": "creative/source/icons_v3/map_shop.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "ce190904ef932678fef15ffab456329bde3c49556c6aee6d8a319fd75b72646b"
   },
   {
     "id": "map_property",
     "dimensions": [
-      24,
-      24
+      64,
+      64
     ],
     "anchor": "bottom_left",
     "safe_area_java": {
@@ -357,14 +357,14 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/map_property.png",
-    "sha256": "4c0271b3a37c9f072f43615db205a0fbaa6198b181a08550cd220b65c3a830ae",
-    "v3_source": "creative/source/icons_v3/map_property.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "1fa7540d6ac394c369fef2e5cfee5621e9a8037a961c1652e601fecf302dd355"
   },
   {
     "id": "map_station",
     "dimensions": [
-      24,
-      24
+      64,
+      64
     ],
     "anchor": "bottom_left",
     "safe_area_java": {
@@ -376,14 +376,14 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/map_station.png",
-    "sha256": "a9c5cdda69fbec5fffc13387a4a259663ec0e0908ed026bae501b17ee3332b98",
-    "v3_source": "creative/source/icons_v3/map_station.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "aea5b942a309b0d81572fdd522dc27a6fc59f82bc18e7ce3902bee06b7520fa1"
   },
   {
     "id": "map_mission",
     "dimensions": [
-      24,
-      24
+      64,
+      64
     ],
     "anchor": "bottom_left",
     "safe_area_java": {
@@ -395,14 +395,14 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/map_mission.png",
-    "sha256": "7972c3e5891ce228c28843170f29ac74a8c26526741f0c767a33ac1c7f43984c",
-    "v3_source": "creative/source/icons_v3/map_mission.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "d45a820a84256ba79c90c21e0c2e46182188309730ca429fbf34303cb4c6a1ba"
   },
   {
     "id": "phone_shortcut",
     "dimensions": [
-      48,
-      48
+      64,
+      64
     ],
     "anchor": "bottom_right",
     "safe_area_java": {
@@ -414,14 +414,14 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/phone_shortcut.png",
-    "sha256": "00afcf8cf9cb0c48f75dc2daa4b14c404a0e37a2925b83410bc2de87450696b0",
-    "v3_source": "creative/source/icons_v3/phone_shortcut.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "76a2c8fc209686054d1f2c6d2563f80df924e82860d3ae39f37141b9df51dcc6"
   },
   {
     "id": "hotbar_frame",
     "dimensions": [
       182,
-      22
+      48
     ],
     "anchor": "top_left",
     "safe_area_java": {
@@ -433,14 +433,14 @@
       "y_ratio": 0.08
     },
     "png": "creative/source/ui/hotbar_frame.png",
-    "sha256": "1843a09520ebafb009df8973f167586bf61e24401dd5310c86cd3e6100abea52",
-    "v3_source": "creative/source/icons_v3/hotbar_frame.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "076ae250a2460b87135e72c6db62f6e9ffd669687175e8eb2f6530cbb5046966"
   },
   {
     "id": "hotbar_selected",
     "dimensions": [
-      24,
-      24
+      64,
+      64
     ],
     "anchor": "top_left",
     "safe_area_java": {
@@ -452,14 +452,14 @@
       "y_ratio": 0.08
     },
     "png": "creative/source/ui/hotbar_selected.png",
-    "sha256": "aeca845cfd7107cfc861b74e6d8881308b89bceefa6c7b670459482a201dc703",
-    "v3_source": "creative/source/icons_v3/hotbar_selected.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "e312b247bb7a930fa6813226cff2f583842165edd925ebd0a90fe000d5af0af5"
   },
   {
     "id": "dialogue_bubble",
     "dimensions": [
-      256,
-      64
+      160,
+      96
     ],
     "anchor": "center",
     "safe_area_java": {
@@ -471,14 +471,14 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/dialogue_bubble.png",
-    "sha256": "c742f35e6d91576e595cb2eb9b7a2268c9ff8463996f567433271221295f5d4c",
-    "v3_source": "creative/source/icons_v3/dialogue_bubble.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "7b26d9291cab5651612d17bdac819517abf282c61e9173df35cb24bfba986f88"
   },
   {
     "id": "notification_frame",
     "dimensions": [
-      220,
-      48
+      160,
+      80
     ],
     "anchor": "top_center",
     "safe_area_java": {
@@ -490,13 +490,13 @@
       "y_ratio": 0.08
     },
     "png": "creative/source/ui/notification_frame.png",
-    "sha256": "59c5066f19b7186dd651b8a46768ac34229c4d6f07444ee932180ceda60ee79f",
-    "v3_source": "creative/source/icons_v3/notification_frame.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "6bc8b4fb68437cc6d4db9de3bda37dd98f7819adbed6b158680e5466a1f88711"
   },
   {
     "id": "wasted_title",
     "dimensions": [
-      256,
+      192,
       64
     ],
     "anchor": "center",
@@ -509,13 +509,13 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/wasted_title.png",
-    "sha256": "f448ab6b5d0bc684b82aea748d0e2ebc788b4d73bbebe44df15fbcaf098097ee",
-    "v3_source": "creative/source/icons_v3/wasted_title.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "c3b9fbd97c97697061a39d83c908d2123dae67682bf08ef3c6e5903bf0a7d579"
   },
   {
     "id": "busted_title",
     "dimensions": [
-      256,
+      192,
       64
     ],
     "anchor": "center",
@@ -528,14 +528,14 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/busted_title.png",
-    "sha256": "6f3e15b91a55634117f7f8e19254c6694603d30d5bb6bd4c7ddb51e24ece662b",
-    "v3_source": "creative/source/icons_v3/busted_title.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "d9d701b400685346135a0bacb11cb7e659e8c1f3e20e07ead15fd94da2ecac35"
   },
   {
     "id": "city_enter",
     "dimensions": [
-      192,
-      48
+      160,
+      96
     ],
     "anchor": "top_center",
     "safe_area_java": {
@@ -547,14 +547,14 @@
       "y_ratio": 0.08
     },
     "png": "creative/source/ui/city_enter.png",
-    "sha256": "65eedfe2ece78da4015c7b2a15d4944c44dd46a389a7fcdd2cb8424c48a92cd3",
-    "v3_source": "creative/source/icons_v3/city_enter.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "823b82309583449e7a60f775baba0a8cf543fff64be0afaf023a62a18b601f20"
   },
   {
     "id": "city_exit",
     "dimensions": [
-      192,
-      48
+      160,
+      96
     ],
     "anchor": "top_center",
     "safe_area_java": {
@@ -566,14 +566,14 @@
       "y_ratio": 0.08
     },
     "png": "creative/source/ui/city_exit.png",
-    "sha256": "636dad63955a3c1db1205864b9c50d1ff0e89df4877ef473426de2629d8813e1",
-    "v3_source": "creative/source/icons_v3/city_exit.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "e6a97de2b0be7caf47411745afc5d710d39c442dae3aa43970de97bb9ef0fe66"
   },
   {
     "id": "ark_symbol",
     "dimensions": [
-      32,
-      32
+      64,
+      64
     ],
     "anchor": "top_right",
     "safe_area_java": {
@@ -585,14 +585,14 @@
       "y_ratio": 0.08
     },
     "png": "creative/source/ui/ark_symbol.png",
-    "sha256": "3ea4bd42d235b378f95dcf79a206bab499f9a1695d60b3eb6e213e4179eed853",
-    "v3_source": "creative/source/icons_v3/ark_symbol.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "7e5fcd3d20ee166cfb7cd656653fef59123d2a01b896cba0dbe5d8d0fad92663"
   },
   {
     "id": "low_fuel",
     "dimensions": [
-      32,
-      32
+      64,
+      64
     ],
     "anchor": "bottom_right",
     "safe_area_java": {
@@ -604,14 +604,14 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/low_fuel.png",
-    "sha256": "ccec1961c236012ffe336bc30f6e8a95bee3a4389c6fe163e7b14d65c8c12906",
-    "v3_source": "creative/source/icons_v3/low_fuel.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "82794a2b41d64378204da4f4847ca24605e23aa919723aeb65ad49fd3715f2c0"
   },
   {
     "id": "critical_damage",
     "dimensions": [
-      32,
-      32
+      96,
+      64
     ],
     "anchor": "bottom_right",
     "safe_area_java": {
@@ -623,7 +623,7 @@
       "y_ratio": 0.92
     },
     "png": "creative/source/ui/critical_damage.png",
-    "sha256": "36a39ce7befa9cfd3a9469939bbbe41107206c6ed819e8c0ae486d2bb30e6c9c",
-    "v3_source": "creative/source/icons_v3/critical_damage.png"
+    "v3_cleaned_from_sheet": true,
+    "sha256": "3eb899e0629cbc2ec3a572467f3a2db3dd43a6a836c1425c548831d0eb348bd1"
   }
 ]

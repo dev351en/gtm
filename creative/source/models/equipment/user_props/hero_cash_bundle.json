@@ -1,0 +1,474 @@
+{
+  "credit": "SD Craft - 3D Cash Bundle",
+  "ambientocclusion": true,
+  "gui_light": "side",
+  "textures": {
+    "bills_side": "sdcraft:item/cash_bills_side",
+    "bills_top": "sdcraft:item/cash_bills_top",
+    "band": "sdcraft:item/cash_band",
+    "particle": "#bills_side"
+  },
+  "elements": [
+    {
+      "name": "Bill_Layer_01",
+      "from": [
+        3.05,
+        5.5,
+        6
+      ],
+      "to": [
+        12.95,
+        6.44,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#bills_side"
+        },
+        "south": {
+          "texture": "#bills_side"
+        },
+        "east": {
+          "texture": "#bills_side"
+        },
+        "west": {
+          "texture": "#bills_side"
+        },
+        "up": {
+          "texture": "#bills_top"
+        },
+        "down": {
+          "texture": "#bills_top"
+        }
+      }
+    },
+    {
+      "name": "Bill_Layer_02",
+      "from": [
+        3,
+        6.5,
+        6
+      ],
+      "to": [
+        13,
+        7.44,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#bills_side"
+        },
+        "south": {
+          "texture": "#bills_side"
+        },
+        "east": {
+          "texture": "#bills_side"
+        },
+        "west": {
+          "texture": "#bills_side"
+        },
+        "up": {
+          "texture": "#bills_top"
+        },
+        "down": {
+          "texture": "#bills_top"
+        }
+      }
+    },
+    {
+      "name": "Bill_Layer_03",
+      "from": [
+        3,
+        7.5,
+        6.05
+      ],
+      "to": [
+        13,
+        8.44,
+        9.95
+      ],
+      "faces": {
+        "north": {
+          "texture": "#bills_side"
+        },
+        "south": {
+          "texture": "#bills_side"
+        },
+        "east": {
+          "texture": "#bills_side"
+        },
+        "west": {
+          "texture": "#bills_side"
+        },
+        "up": {
+          "texture": "#bills_top"
+        },
+        "down": {
+          "texture": "#bills_top"
+        }
+      }
+    },
+    {
+      "name": "Bill_Layer_04",
+      "from": [
+        3.05,
+        8.5,
+        6
+      ],
+      "to": [
+        12.95,
+        9.44,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#bills_side"
+        },
+        "south": {
+          "texture": "#bills_side"
+        },
+        "east": {
+          "texture": "#bills_side"
+        },
+        "west": {
+          "texture": "#bills_side"
+        },
+        "up": {
+          "texture": "#bills_top"
+        },
+        "down": {
+          "texture": "#bills_top"
+        }
+      }
+    },
+    {
+      "name": "Bill_Layer_05",
+      "from": [
+        3,
+        9.5,
+        6
+      ],
+      "to": [
+        13,
+        10.44,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#bills_side"
+        },
+        "south": {
+          "texture": "#bills_side"
+        },
+        "east": {
+          "texture": "#bills_side"
+        },
+        "west": {
+          "texture": "#bills_side"
+        },
+        "up": {
+          "texture": "#bills_top"
+        },
+        "down": {
+          "texture": "#bills_top"
+        }
+      }
+    },
+    {
+      "name": "Paper_Band_Front",
+      "from": [
+        7.25,
+        5.4,
+        5.82
+      ],
+      "to": [
+        8.75,
+        10.58,
+        6.03
+      ],
+      "faces": {
+        "north": {
+          "texture": "#band"
+        },
+        "south": {
+          "texture": "#band"
+        },
+        "east": {
+          "texture": "#band"
+        },
+        "west": {
+          "texture": "#band"
+        },
+        "up": {
+          "texture": "#band"
+        },
+        "down": {
+          "texture": "#band"
+        }
+      }
+    },
+    {
+      "name": "Paper_Band_Back",
+      "from": [
+        7.25,
+        5.4,
+        9.97
+      ],
+      "to": [
+        8.75,
+        10.58,
+        10.18
+      ],
+      "faces": {
+        "north": {
+          "texture": "#band"
+        },
+        "south": {
+          "texture": "#band"
+        },
+        "east": {
+          "texture": "#band"
+        },
+        "west": {
+          "texture": "#band"
+        },
+        "up": {
+          "texture": "#band"
+        },
+        "down": {
+          "texture": "#band"
+        }
+      }
+    },
+    {
+      "name": "Paper_Band_Top_Angled",
+      "from": [
+        7.25,
+        10.44,
+        5.9
+      ],
+      "to": [
+        8.75,
+        10.59,
+        10.1
+      ],
+      "faces": {
+        "north": {
+          "texture": "#band"
+        },
+        "south": {
+          "texture": "#band"
+        },
+        "east": {
+          "texture": "#band"
+        },
+        "west": {
+          "texture": "#band"
+        },
+        "up": {
+          "texture": "#band"
+        },
+        "down": {
+          "texture": "#band"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          10.5,
+          8
+        ],
+        "axis": "y",
+        "angle": 22.5,
+        "rescale": false
+      }
+    },
+    {
+      "name": "Paper_Band_Bottom",
+      "from": [
+        7.25,
+        5.38,
+        5.9
+      ],
+      "to": [
+        8.75,
+        5.55,
+        10.1
+      ],
+      "faces": {
+        "north": {
+          "texture": "#band"
+        },
+        "south": {
+          "texture": "#band"
+        },
+        "east": {
+          "texture": "#band"
+        },
+        "west": {
+          "texture": "#band"
+        },
+        "up": {
+          "texture": "#band"
+        },
+        "down": {
+          "texture": "#band"
+        }
+      }
+    },
+    {
+      "name": "Paper_Band_Front_Seal",
+      "from": [
+        7.5,
+        7.4,
+        5.77
+      ],
+      "to": [
+        8.5,
+        8.5,
+        5.83
+      ],
+      "faces": {
+        "north": {
+          "texture": "#band"
+        },
+        "south": {
+          "texture": "#band"
+        },
+        "east": {
+          "texture": "#band"
+        },
+        "west": {
+          "texture": "#band"
+        },
+        "up": {
+          "texture": "#band"
+        },
+        "down": {
+          "texture": "#band"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        25,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        -25,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        15,
+        35,
+        -8
+      ],
+      "translation": [
+        1.25,
+        2,
+        0.25
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        15,
+        -35,
+        8
+      ],
+      "translation": [
+        -1.25,
+        2,
+        0.25
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        1.5,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    },
+    "gui": {
+      "rotation": [
+        25,
+        135,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.25,
+        1.25,
+        1.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

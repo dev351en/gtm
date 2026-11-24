@@ -4,14 +4,14 @@
     {
       "description": {
         "identifier": "geometry.gtm.snack_vending_machine",
-        "texture_width": 64,
-        "texture_height": 64,
-        "visible_bounds_width": 1.5,
-        "visible_bounds_height": 2.4,
+        "texture_width": 256,
+        "texture_height": 256,
+        "visible_bounds_width": 2.0,
+        "visible_bounds_height": 2.9,
         "visible_bounds_offset": [
-          0,
+          0.0,
           0.95,
-          0
+          0.0
         ]
       },
       "bones": [
@@ -25,28 +25,234 @@
         },
         {
           "name": "base",
-          "parent": "root",
           "pivot": [
-            0,
-            0,
-            0
+            0.0,
+            0.0,
+            0.0
           ],
+          "parent": "root",
           "cubes": [
             {
               "origin": [
-                -8.0,
-                0,
-                -6.8
+                -7.36,
+                0.0,
+                -6.12
               ],
               "size": [
-                16.0,
-                30.4,
-                13.6
+                14.72,
+                27.968,
+                12.24
               ],
-              "uv": [
-                0,
-                0
-              ]
+              "uv": {
+                "north": {
+                  "uv": [
+                    33,
+                    1
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    33,
+                    1
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    33,
+                    1
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    33,
+                    1
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    33,
+                    1
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    33,
+                    1
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                }
+              }
+            },
+            {
+              "origin": [
+                -7.68,
+                27.968,
+                -6.392
+              ],
+              "size": [
+                15.36,
+                2.432,
+                12.784
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                }
+              }
+            },
+            {
+              "origin": [
+                -6.24,
+                11.552,
+                5.012
+              ],
+              "size": [
+                12.48,
+                14.592,
+                1.4
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    129,
+                    193
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    129,
+                    193
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    129,
+                    193
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    129,
+                    193
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    129,
+                    193
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    129,
+                    193
+                  ],
+                  "uv_size": [
+                    30,
+                    30
+                  ]
+                }
+              }
             }
           ]
         }

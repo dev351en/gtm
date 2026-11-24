@@ -16,7 +16,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:kavach_9_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/kavach_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/kavach_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/kavach_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/kavach_9_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:pistol_01",
@@ -29,7 +33,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:kavach_9_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/kavach_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/kavach_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/kavach_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/kavach_9_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:pistol_02",
@@ -42,7 +50,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:kavach_9_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/kavach_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/kavach_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/kavach_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/kavach_9_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:pistol_03",
@@ -55,7 +67,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:kavach_9_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/kavach_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/kavach_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/kavach_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/kavach_9_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:pistol_04",
@@ -68,7 +84,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:kavach_9_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/kavach_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/kavach_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/kavach_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/kavach_9_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:pistol_05",
@@ -81,7 +101,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:kavach_9_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/kavach_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/kavach_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/kavach_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/kavach_9_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:pistol_06",
@@ -94,7 +118,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:kavach_9_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/kavach_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/kavach_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/kavach_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/kavach_9_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:pistol_07",
@@ -107,7 +135,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:kavach_9_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/kavach_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/kavach_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/kavach_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/kavach_9_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:pistol_08",
@@ -120,7 +152,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:kavach_9_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/kavach_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/kavach_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/kavach_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/kavach_9_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:pistol_09",
@@ -133,7 +169,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:kavach_9_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/kavach_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/kavach_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/kavach_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/kavach_9_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:pistol_10",
@@ -146,7 +186,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:rajput_45_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/rajput_45.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/rajput_45.json",
+      "weapon_icon_path": "creative/source/icons/weapons/rajput_45.png",
+      "finish_texture_path": "creative/source/textures/finishes/rajput_45_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:pistol_11",
@@ -159,7 +203,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:rajput_45_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/rajput_45.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/rajput_45.json",
+      "weapon_icon_path": "creative/source/icons/weapons/rajput_45.png",
+      "finish_texture_path": "creative/source/textures/finishes/rajput_45_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:pistol_12",
@@ -172,7 +220,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:rajput_45_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/rajput_45.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/rajput_45.json",
+      "weapon_icon_path": "creative/source/icons/weapons/rajput_45.png",
+      "finish_texture_path": "creative/source/textures/finishes/rajput_45_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:pistol_13",
@@ -185,7 +237,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:rajput_45_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/rajput_45.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/rajput_45.json",
+      "weapon_icon_path": "creative/source/icons/weapons/rajput_45.png",
+      "finish_texture_path": "creative/source/textures/finishes/rajput_45_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:pistol_14",
@@ -198,7 +254,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:rajput_45_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/rajput_45.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/rajput_45.json",
+      "weapon_icon_path": "creative/source/icons/weapons/rajput_45.png",
+      "finish_texture_path": "creative/source/textures/finishes/rajput_45_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:pistol_15",
@@ -211,7 +271,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:rajput_45_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/rajput_45.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/rajput_45.json",
+      "weapon_icon_path": "creative/source/icons/weapons/rajput_45.png",
+      "finish_texture_path": "creative/source/textures/finishes/rajput_45_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:pistol_16",
@@ -224,7 +288,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:rajput_45_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/rajput_45.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/rajput_45.json",
+      "weapon_icon_path": "creative/source/icons/weapons/rajput_45.png",
+      "finish_texture_path": "creative/source/textures/finishes/rajput_45_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:pistol_17",
@@ -237,7 +305,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:rajput_45_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/rajput_45.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/rajput_45.json",
+      "weapon_icon_path": "creative/source/icons/weapons/rajput_45.png",
+      "finish_texture_path": "creative/source/textures/finishes/rajput_45_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:pistol_18",
@@ -250,7 +322,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:rajput_45_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/rajput_45.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/rajput_45.json",
+      "weapon_icon_path": "creative/source/icons/weapons/rajput_45.png",
+      "finish_texture_path": "creative/source/textures/finishes/rajput_45_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:pistol_19",
@@ -263,7 +339,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:rajput_45_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/rajput_45.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/rajput_45.json",
+      "weapon_icon_path": "creative/source/icons/weapons/rajput_45.png",
+      "finish_texture_path": "creative/source/textures/finishes/rajput_45_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:pistol_20",
@@ -276,7 +356,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:maratha_auto_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/maratha_auto.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/maratha_auto.json",
+      "weapon_icon_path": "creative/source/icons/weapons/maratha_auto.png",
+      "finish_texture_path": "creative/source/textures/finishes/maratha_auto_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:pistol_21",
@@ -289,7 +373,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:maratha_auto_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/maratha_auto.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/maratha_auto.json",
+      "weapon_icon_path": "creative/source/icons/weapons/maratha_auto.png",
+      "finish_texture_path": "creative/source/textures/finishes/maratha_auto_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:pistol_22",
@@ -302,7 +390,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:maratha_auto_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/maratha_auto.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/maratha_auto.json",
+      "weapon_icon_path": "creative/source/icons/weapons/maratha_auto.png",
+      "finish_texture_path": "creative/source/textures/finishes/maratha_auto_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:pistol_23",
@@ -315,7 +407,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:maratha_auto_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/maratha_auto.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/maratha_auto.json",
+      "weapon_icon_path": "creative/source/icons/weapons/maratha_auto.png",
+      "finish_texture_path": "creative/source/textures/finishes/maratha_auto_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:pistol_24",
@@ -328,7 +424,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:maratha_auto_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/maratha_auto.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/maratha_auto.json",
+      "weapon_icon_path": "creative/source/icons/weapons/maratha_auto.png",
+      "finish_texture_path": "creative/source/textures/finishes/maratha_auto_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:pistol_25",
@@ -341,7 +441,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:maratha_auto_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/maratha_auto.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/maratha_auto.json",
+      "weapon_icon_path": "creative/source/icons/weapons/maratha_auto.png",
+      "finish_texture_path": "creative/source/textures/finishes/maratha_auto_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:pistol_26",
@@ -354,7 +458,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:maratha_auto_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/maratha_auto.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/maratha_auto.json",
+      "weapon_icon_path": "creative/source/icons/weapons/maratha_auto.png",
+      "finish_texture_path": "creative/source/textures/finishes/maratha_auto_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:pistol_27",
@@ -367,7 +475,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:maratha_auto_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/maratha_auto.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/maratha_auto.json",
+      "weapon_icon_path": "creative/source/icons/weapons/maratha_auto.png",
+      "finish_texture_path": "creative/source/textures/finishes/maratha_auto_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:pistol_28",
@@ -380,7 +492,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:maratha_auto_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/maratha_auto.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/maratha_auto.json",
+      "weapon_icon_path": "creative/source/icons/weapons/maratha_auto.png",
+      "finish_texture_path": "creative/source/textures/finishes/maratha_auto_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:pistol_29",
@@ -393,7 +509,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:maratha_auto_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/maratha_auto.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/maratha_auto.json",
+      "weapon_icon_path": "creative/source/icons/weapons/maratha_auto.png",
+      "finish_texture_path": "creative/source/textures/finishes/maratha_auto_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:pistol_30",
@@ -406,7 +526,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:deccan_compact_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/deccan_compact.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/deccan_compact.json",
+      "weapon_icon_path": "creative/source/icons/weapons/deccan_compact.png",
+      "finish_texture_path": "creative/source/textures/finishes/deccan_compact_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:pistol_31",
@@ -419,7 +543,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:deccan_compact_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/deccan_compact.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/deccan_compact.json",
+      "weapon_icon_path": "creative/source/icons/weapons/deccan_compact.png",
+      "finish_texture_path": "creative/source/textures/finishes/deccan_compact_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:pistol_32",
@@ -432,7 +560,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:deccan_compact_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/deccan_compact.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/deccan_compact.json",
+      "weapon_icon_path": "creative/source/icons/weapons/deccan_compact.png",
+      "finish_texture_path": "creative/source/textures/finishes/deccan_compact_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:pistol_33",
@@ -445,7 +577,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:deccan_compact_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/deccan_compact.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/deccan_compact.json",
+      "weapon_icon_path": "creative/source/icons/weapons/deccan_compact.png",
+      "finish_texture_path": "creative/source/textures/finishes/deccan_compact_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:pistol_34",
@@ -458,7 +594,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:deccan_compact_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/deccan_compact.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/deccan_compact.json",
+      "weapon_icon_path": "creative/source/icons/weapons/deccan_compact.png",
+      "finish_texture_path": "creative/source/textures/finishes/deccan_compact_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:pistol_35",
@@ -471,7 +611,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:deccan_compact_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/deccan_compact.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/deccan_compact.json",
+      "weapon_icon_path": "creative/source/icons/weapons/deccan_compact.png",
+      "finish_texture_path": "creative/source/textures/finishes/deccan_compact_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:pistol_36",
@@ -484,7 +628,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:deccan_compact_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/deccan_compact.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/deccan_compact.json",
+      "weapon_icon_path": "creative/source/icons/weapons/deccan_compact.png",
+      "finish_texture_path": "creative/source/textures/finishes/deccan_compact_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:pistol_37",
@@ -497,7 +645,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:deccan_compact_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/deccan_compact.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/deccan_compact.json",
+      "weapon_icon_path": "creative/source/icons/weapons/deccan_compact.png",
+      "finish_texture_path": "creative/source/textures/finishes/deccan_compact_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:pistol_38",
@@ -510,7 +662,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:deccan_compact_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/deccan_compact.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/deccan_compact.json",
+      "weapon_icon_path": "creative/source/icons/weapons/deccan_compact.png",
+      "finish_texture_path": "creative/source/textures/finishes/deccan_compact_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:pistol_39",
@@ -523,7 +679,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:deccan_compact_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/deccan_compact.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/deccan_compact.json",
+      "weapon_icon_path": "creative/source/icons/weapons/deccan_compact.png",
+      "finish_texture_path": "creative/source/textures/finishes/deccan_compact_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:pistol_40",
@@ -536,7 +696,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:konkan_magnum_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/konkan_magnum.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/konkan_magnum.json",
+      "weapon_icon_path": "creative/source/icons/weapons/konkan_magnum.png",
+      "finish_texture_path": "creative/source/textures/finishes/konkan_magnum_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:pistol_41",
@@ -549,7 +713,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:konkan_magnum_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/konkan_magnum.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/konkan_magnum.json",
+      "weapon_icon_path": "creative/source/icons/weapons/konkan_magnum.png",
+      "finish_texture_path": "creative/source/textures/finishes/konkan_magnum_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:pistol_42",
@@ -562,7 +730,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:konkan_magnum_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/konkan_magnum.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/konkan_magnum.json",
+      "weapon_icon_path": "creative/source/icons/weapons/konkan_magnum.png",
+      "finish_texture_path": "creative/source/textures/finishes/konkan_magnum_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:pistol_43",
@@ -575,7 +747,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:konkan_magnum_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/konkan_magnum.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/konkan_magnum.json",
+      "weapon_icon_path": "creative/source/icons/weapons/konkan_magnum.png",
+      "finish_texture_path": "creative/source/textures/finishes/konkan_magnum_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:pistol_44",
@@ -588,7 +764,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:konkan_magnum_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/konkan_magnum.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/konkan_magnum.json",
+      "weapon_icon_path": "creative/source/icons/weapons/konkan_magnum.png",
+      "finish_texture_path": "creative/source/textures/finishes/konkan_magnum_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:pistol_45",
@@ -601,7 +781,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:konkan_magnum_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/konkan_magnum.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/konkan_magnum.json",
+      "weapon_icon_path": "creative/source/icons/weapons/konkan_magnum.png",
+      "finish_texture_path": "creative/source/textures/finishes/konkan_magnum_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:pistol_46",
@@ -614,7 +798,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:konkan_magnum_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/konkan_magnum.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/konkan_magnum.json",
+      "weapon_icon_path": "creative/source/icons/weapons/konkan_magnum.png",
+      "finish_texture_path": "creative/source/textures/finishes/konkan_magnum_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:pistol_47",
@@ -627,7 +815,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:konkan_magnum_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/konkan_magnum.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/konkan_magnum.json",
+      "weapon_icon_path": "creative/source/icons/weapons/konkan_magnum.png",
+      "finish_texture_path": "creative/source/textures/finishes/konkan_magnum_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:pistol_48",
@@ -640,7 +832,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:konkan_magnum_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/konkan_magnum.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/konkan_magnum.json",
+      "weapon_icon_path": "creative/source/icons/weapons/konkan_magnum.png",
+      "finish_texture_path": "creative/source/textures/finishes/konkan_magnum_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:pistol_49",
@@ -653,7 +849,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:konkan_magnum_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/konkan_magnum.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/konkan_magnum.json",
+      "weapon_icon_path": "creative/source/icons/weapons/konkan_magnum.png",
+      "finish_texture_path": "creative/source/textures/finishes/konkan_magnum_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:pistol_50",
@@ -666,7 +866,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:astra_holdout_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/astra_holdout.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/astra_holdout.json",
+      "weapon_icon_path": "creative/source/icons/weapons/astra_holdout.png",
+      "finish_texture_path": "creative/source/textures/finishes/astra_holdout_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:pistol_51",
@@ -679,7 +883,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:astra_holdout_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/astra_holdout.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/astra_holdout.json",
+      "weapon_icon_path": "creative/source/icons/weapons/astra_holdout.png",
+      "finish_texture_path": "creative/source/textures/finishes/astra_holdout_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:pistol_52",
@@ -692,7 +900,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:astra_holdout_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/astra_holdout.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/astra_holdout.json",
+      "weapon_icon_path": "creative/source/icons/weapons/astra_holdout.png",
+      "finish_texture_path": "creative/source/textures/finishes/astra_holdout_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:pistol_53",
@@ -705,7 +917,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:astra_holdout_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/astra_holdout.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/astra_holdout.json",
+      "weapon_icon_path": "creative/source/icons/weapons/astra_holdout.png",
+      "finish_texture_path": "creative/source/textures/finishes/astra_holdout_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:pistol_54",
@@ -718,7 +934,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:astra_holdout_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/astra_holdout.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/astra_holdout.json",
+      "weapon_icon_path": "creative/source/icons/weapons/astra_holdout.png",
+      "finish_texture_path": "creative/source/textures/finishes/astra_holdout_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:pistol_55",
@@ -731,7 +951,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:astra_holdout_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/astra_holdout.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/astra_holdout.json",
+      "weapon_icon_path": "creative/source/icons/weapons/astra_holdout.png",
+      "finish_texture_path": "creative/source/textures/finishes/astra_holdout_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:pistol_56",
@@ -744,7 +968,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:astra_holdout_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/astra_holdout.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/astra_holdout.json",
+      "weapon_icon_path": "creative/source/icons/weapons/astra_holdout.png",
+      "finish_texture_path": "creative/source/textures/finishes/astra_holdout_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:pistol_57",
@@ -757,7 +985,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:astra_holdout_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/astra_holdout.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/astra_holdout.json",
+      "weapon_icon_path": "creative/source/icons/weapons/astra_holdout.png",
+      "finish_texture_path": "creative/source/textures/finishes/astra_holdout_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:pistol_58",
@@ -770,7 +1002,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:astra_holdout_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/astra_holdout.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/astra_holdout.json",
+      "weapon_icon_path": "creative/source/icons/weapons/astra_holdout.png",
+      "finish_texture_path": "creative/source/textures/finishes/astra_holdout_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:pistol_59",
@@ -783,7 +1019,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:astra_holdout_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/astra_holdout.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/astra_holdout.json",
+      "weapon_icon_path": "creative/source/icons/weapons/astra_holdout.png",
+      "finish_texture_path": "creative/source/textures/finishes/astra_holdout_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:pistol_60",
@@ -796,7 +1036,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:sher_pump_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/sher_pump.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/sher_pump.json",
+      "weapon_icon_path": "creative/source/icons/weapons/sher_pump.png",
+      "finish_texture_path": "creative/source/textures/finishes/sher_pump_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:pistol_61",
@@ -809,7 +1053,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:sher_pump_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/sher_pump.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/sher_pump.json",
+      "weapon_icon_path": "creative/source/icons/weapons/sher_pump.png",
+      "finish_texture_path": "creative/source/textures/finishes/sher_pump_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:pistol_62",
@@ -822,7 +1070,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:sher_pump_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/sher_pump.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/sher_pump.json",
+      "weapon_icon_path": "creative/source/icons/weapons/sher_pump.png",
+      "finish_texture_path": "creative/source/textures/finishes/sher_pump_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:pistol_63",
@@ -835,7 +1087,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:sher_pump_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/sher_pump.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/sher_pump.json",
+      "weapon_icon_path": "creative/source/icons/weapons/sher_pump.png",
+      "finish_texture_path": "creative/source/textures/finishes/sher_pump_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:pistol_64",
@@ -848,7 +1104,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:sher_pump_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/sher_pump.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/sher_pump.json",
+      "weapon_icon_path": "creative/source/icons/weapons/sher_pump.png",
+      "finish_texture_path": "creative/source/textures/finishes/sher_pump_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:pistol_65",
@@ -861,7 +1121,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:sher_pump_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/sher_pump.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/sher_pump.json",
+      "weapon_icon_path": "creative/source/icons/weapons/sher_pump.png",
+      "finish_texture_path": "creative/source/textures/finishes/sher_pump_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:pistol_66",
@@ -874,7 +1138,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:sher_pump_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/sher_pump.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/sher_pump.json",
+      "weapon_icon_path": "creative/source/icons/weapons/sher_pump.png",
+      "finish_texture_path": "creative/source/textures/finishes/sher_pump_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:pistol_67",
@@ -887,7 +1155,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:sher_pump_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/sher_pump.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/sher_pump.json",
+      "weapon_icon_path": "creative/source/icons/weapons/sher_pump.png",
+      "finish_texture_path": "creative/source/textures/finishes/sher_pump_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:pistol_68",
@@ -900,7 +1172,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:sher_pump_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/sher_pump.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/sher_pump.json",
+      "weapon_icon_path": "creative/source/icons/weapons/sher_pump.png",
+      "finish_texture_path": "creative/source/textures/finishes/sher_pump_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:pistol_69",
@@ -913,7 +1189,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:sher_pump_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/sher_pump.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/sher_pump.json",
+      "weapon_icon_path": "creative/source/icons/weapons/sher_pump.png",
+      "finish_texture_path": "creative/source/textures/finishes/sher_pump_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:pistol_70",
@@ -926,7 +1206,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:ghadial_12g_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/ghadial_12g.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ghadial_12g.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ghadial_12g.png",
+      "finish_texture_path": "creative/source/textures/finishes/ghadial_12g_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:pistol_71",
@@ -939,7 +1223,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:ghadial_12g_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/ghadial_12g.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ghadial_12g.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ghadial_12g.png",
+      "finish_texture_path": "creative/source/textures/finishes/ghadial_12g_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:pistol_72",
@@ -952,7 +1240,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:ghadial_12g_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/ghadial_12g.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ghadial_12g.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ghadial_12g.png",
+      "finish_texture_path": "creative/source/textures/finishes/ghadial_12g_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:pistol_73",
@@ -965,7 +1257,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:ghadial_12g_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/ghadial_12g.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ghadial_12g.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ghadial_12g.png",
+      "finish_texture_path": "creative/source/textures/finishes/ghadial_12g_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:pistol_74",
@@ -978,7 +1274,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:ghadial_12g_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/ghadial_12g.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ghadial_12g.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ghadial_12g.png",
+      "finish_texture_path": "creative/source/textures/finishes/ghadial_12g_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:shotgun_00",
@@ -991,7 +1291,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:ghadial_12g_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/ghadial_12g.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ghadial_12g.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ghadial_12g.png",
+      "finish_texture_path": "creative/source/textures/finishes/ghadial_12g_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:shotgun_01",
@@ -1004,7 +1308,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:ghadial_12g_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/ghadial_12g.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ghadial_12g.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ghadial_12g.png",
+      "finish_texture_path": "creative/source/textures/finishes/ghadial_12g_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:shotgun_02",
@@ -1017,7 +1325,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:ghadial_12g_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/ghadial_12g.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ghadial_12g.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ghadial_12g.png",
+      "finish_texture_path": "creative/source/textures/finishes/ghadial_12g_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:shotgun_03",
@@ -1030,7 +1342,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:ghadial_12g_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/ghadial_12g.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ghadial_12g.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ghadial_12g.png",
+      "finish_texture_path": "creative/source/textures/finishes/ghadial_12g_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:shotgun_04",
@@ -1043,7 +1359,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:ghadial_12g_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/ghadial_12g.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ghadial_12g.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ghadial_12g.png",
+      "finish_texture_path": "creative/source/textures/finishes/ghadial_12g_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:shotgun_05",
@@ -1056,7 +1376,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:sahyadri_enforcer_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/sahyadri_enforcer.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/sahyadri_enforcer.json",
+      "weapon_icon_path": "creative/source/icons/weapons/sahyadri_enforcer.png",
+      "finish_texture_path": "creative/source/textures/finishes/sahyadri_enforcer_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:shotgun_06",
@@ -1069,7 +1393,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:sahyadri_enforcer_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/sahyadri_enforcer.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/sahyadri_enforcer.json",
+      "weapon_icon_path": "creative/source/icons/weapons/sahyadri_enforcer.png",
+      "finish_texture_path": "creative/source/textures/finishes/sahyadri_enforcer_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:shotgun_07",
@@ -1082,7 +1410,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:sahyadri_enforcer_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/sahyadri_enforcer.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/sahyadri_enforcer.json",
+      "weapon_icon_path": "creative/source/icons/weapons/sahyadri_enforcer.png",
+      "finish_texture_path": "creative/source/textures/finishes/sahyadri_enforcer_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:shotgun_08",
@@ -1095,7 +1427,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:sahyadri_enforcer_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/sahyadri_enforcer.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/sahyadri_enforcer.json",
+      "weapon_icon_path": "creative/source/icons/weapons/sahyadri_enforcer.png",
+      "finish_texture_path": "creative/source/textures/finishes/sahyadri_enforcer_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:shotgun_09",
@@ -1108,7 +1444,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:sahyadri_enforcer_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/sahyadri_enforcer.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/sahyadri_enforcer.json",
+      "weapon_icon_path": "creative/source/icons/weapons/sahyadri_enforcer.png",
+      "finish_texture_path": "creative/source/textures/finishes/sahyadri_enforcer_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:shotgun_10",
@@ -1121,7 +1461,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:sahyadri_enforcer_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/sahyadri_enforcer.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/sahyadri_enforcer.json",
+      "weapon_icon_path": "creative/source/icons/weapons/sahyadri_enforcer.png",
+      "finish_texture_path": "creative/source/textures/finishes/sahyadri_enforcer_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:shotgun_11",
@@ -1134,7 +1478,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:sahyadri_enforcer_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/sahyadri_enforcer.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/sahyadri_enforcer.json",
+      "weapon_icon_path": "creative/source/icons/weapons/sahyadri_enforcer.png",
+      "finish_texture_path": "creative/source/textures/finishes/sahyadri_enforcer_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:shotgun_12",
@@ -1147,7 +1495,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:sahyadri_enforcer_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/sahyadri_enforcer.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/sahyadri_enforcer.json",
+      "weapon_icon_path": "creative/source/icons/weapons/sahyadri_enforcer.png",
+      "finish_texture_path": "creative/source/textures/finishes/sahyadri_enforcer_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:shotgun_13",
@@ -1160,7 +1512,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:sahyadri_enforcer_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/sahyadri_enforcer.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/sahyadri_enforcer.json",
+      "weapon_icon_path": "creative/source/icons/weapons/sahyadri_enforcer.png",
+      "finish_texture_path": "creative/source/textures/finishes/sahyadri_enforcer_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:shotgun_14",
@@ -1173,7 +1529,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:sahyadri_enforcer_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/sahyadri_enforcer.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/sahyadri_enforcer.json",
+      "weapon_icon_path": "creative/source/icons/weapons/sahyadri_enforcer.png",
+      "finish_texture_path": "creative/source/textures/finishes/sahyadri_enforcer_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:shotgun_15",
@@ -1186,7 +1546,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:garuda_breacher_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/garuda_breacher.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/garuda_breacher.json",
+      "weapon_icon_path": "creative/source/icons/weapons/garuda_breacher.png",
+      "finish_texture_path": "creative/source/textures/finishes/garuda_breacher_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:shotgun_16",
@@ -1199,7 +1563,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:garuda_breacher_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/garuda_breacher.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/garuda_breacher.json",
+      "weapon_icon_path": "creative/source/icons/weapons/garuda_breacher.png",
+      "finish_texture_path": "creative/source/textures/finishes/garuda_breacher_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:shotgun_17",
@@ -1212,7 +1580,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:garuda_breacher_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/garuda_breacher.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/garuda_breacher.json",
+      "weapon_icon_path": "creative/source/icons/weapons/garuda_breacher.png",
+      "finish_texture_path": "creative/source/textures/finishes/garuda_breacher_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:shotgun_18",
@@ -1225,7 +1597,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:garuda_breacher_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/garuda_breacher.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/garuda_breacher.json",
+      "weapon_icon_path": "creative/source/icons/weapons/garuda_breacher.png",
+      "finish_texture_path": "creative/source/textures/finishes/garuda_breacher_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:shotgun_19",
@@ -1238,7 +1614,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:garuda_breacher_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/garuda_breacher.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/garuda_breacher.json",
+      "weapon_icon_path": "creative/source/icons/weapons/garuda_breacher.png",
+      "finish_texture_path": "creative/source/textures/finishes/garuda_breacher_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:shotgun_20",
@@ -1251,7 +1631,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:garuda_breacher_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/garuda_breacher.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/garuda_breacher.json",
+      "weapon_icon_path": "creative/source/icons/weapons/garuda_breacher.png",
+      "finish_texture_path": "creative/source/textures/finishes/garuda_breacher_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:shotgun_21",
@@ -1264,7 +1648,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:garuda_breacher_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/garuda_breacher.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/garuda_breacher.json",
+      "weapon_icon_path": "creative/source/icons/weapons/garuda_breacher.png",
+      "finish_texture_path": "creative/source/textures/finishes/garuda_breacher_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:shotgun_22",
@@ -1277,7 +1665,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:garuda_breacher_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/garuda_breacher.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/garuda_breacher.json",
+      "weapon_icon_path": "creative/source/icons/weapons/garuda_breacher.png",
+      "finish_texture_path": "creative/source/textures/finishes/garuda_breacher_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:shotgun_23",
@@ -1290,7 +1682,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:garuda_breacher_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/garuda_breacher.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/garuda_breacher.json",
+      "weapon_icon_path": "creative/source/icons/weapons/garuda_breacher.png",
+      "finish_texture_path": "creative/source/textures/finishes/garuda_breacher_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:shotgun_24",
@@ -1303,7 +1699,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:garuda_breacher_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/garuda_breacher.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/garuda_breacher.json",
+      "weapon_icon_path": "creative/source/icons/weapons/garuda_breacher.png",
+      "finish_texture_path": "creative/source/textures/finishes/garuda_breacher_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:shotgun_25",
@@ -1316,7 +1716,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:cyclone_tactical_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/cyclone_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/cyclone_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/cyclone_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/cyclone_tactical_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:shotgun_26",
@@ -1329,7 +1733,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:cyclone_tactical_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/cyclone_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/cyclone_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/cyclone_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/cyclone_tactical_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:shotgun_27",
@@ -1342,7 +1750,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:cyclone_tactical_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/cyclone_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/cyclone_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/cyclone_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/cyclone_tactical_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:shotgun_28",
@@ -1355,7 +1767,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:cyclone_tactical_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/cyclone_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/cyclone_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/cyclone_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/cyclone_tactical_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:shotgun_29",
@@ -1368,7 +1784,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:cyclone_tactical_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/cyclone_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/cyclone_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/cyclone_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/cyclone_tactical_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:shotgun_30",
@@ -1381,7 +1801,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:cyclone_tactical_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/cyclone_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/cyclone_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/cyclone_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/cyclone_tactical_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:shotgun_31",
@@ -1394,7 +1818,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:cyclone_tactical_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/cyclone_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/cyclone_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/cyclone_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/cyclone_tactical_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:shotgun_32",
@@ -1407,7 +1835,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:cyclone_tactical_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/cyclone_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/cyclone_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/cyclone_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/cyclone_tactical_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:shotgun_33",
@@ -1420,7 +1852,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:cyclone_tactical_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/cyclone_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/cyclone_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/cyclone_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/cyclone_tactical_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:shotgun_34",
@@ -1433,7 +1869,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:cyclone_tactical_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/cyclone_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/cyclone_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/cyclone_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/cyclone_tactical_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:shotgun_35",
@@ -1446,7 +1886,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:tulwar_short_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/tulwar_short.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/tulwar_short.json",
+      "weapon_icon_path": "creative/source/icons/weapons/tulwar_short.png",
+      "finish_texture_path": "creative/source/textures/finishes/tulwar_short_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:shotgun_36",
@@ -1459,7 +1903,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:tulwar_short_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/tulwar_short.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/tulwar_short.json",
+      "weapon_icon_path": "creative/source/icons/weapons/tulwar_short.png",
+      "finish_texture_path": "creative/source/textures/finishes/tulwar_short_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:shotgun_37",
@@ -1472,7 +1920,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:tulwar_short_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/tulwar_short.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/tulwar_short.json",
+      "weapon_icon_path": "creative/source/icons/weapons/tulwar_short.png",
+      "finish_texture_path": "creative/source/textures/finishes/tulwar_short_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:shotgun_38",
@@ -1485,7 +1937,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:tulwar_short_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/tulwar_short.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/tulwar_short.json",
+      "weapon_icon_path": "creative/source/icons/weapons/tulwar_short.png",
+      "finish_texture_path": "creative/source/textures/finishes/tulwar_short_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:shotgun_39",
@@ -1498,7 +1954,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:tulwar_short_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/tulwar_short.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/tulwar_short.json",
+      "weapon_icon_path": "creative/source/icons/weapons/tulwar_short.png",
+      "finish_texture_path": "creative/source/textures/finishes/tulwar_short_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:shotgun_40",
@@ -1511,7 +1971,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:tulwar_short_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/tulwar_short.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/tulwar_short.json",
+      "weapon_icon_path": "creative/source/icons/weapons/tulwar_short.png",
+      "finish_texture_path": "creative/source/textures/finishes/tulwar_short_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:shotgun_41",
@@ -1524,7 +1988,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:tulwar_short_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/tulwar_short.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/tulwar_short.json",
+      "weapon_icon_path": "creative/source/icons/weapons/tulwar_short.png",
+      "finish_texture_path": "creative/source/textures/finishes/tulwar_short_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:shotgun_42",
@@ -1537,7 +2005,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:tulwar_short_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/tulwar_short.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/tulwar_short.json",
+      "weapon_icon_path": "creative/source/icons/weapons/tulwar_short.png",
+      "finish_texture_path": "creative/source/textures/finishes/tulwar_short_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:shotgun_43",
@@ -1550,7 +2022,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:tulwar_short_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/tulwar_short.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/tulwar_short.json",
+      "weapon_icon_path": "creative/source/icons/weapons/tulwar_short.png",
+      "finish_texture_path": "creative/source/textures/finishes/tulwar_short_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:shotgun_44",
@@ -1563,7 +2039,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:tulwar_short_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/tulwar_short.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/tulwar_short.json",
+      "weapon_icon_path": "creative/source/icons/weapons/tulwar_short.png",
+      "finish_texture_path": "creative/source/textures/finishes/tulwar_short_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:shotgun_45",
@@ -1576,7 +2056,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:chetak_9_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/chetak_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/chetak_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/chetak_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/chetak_9_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:shotgun_46",
@@ -1589,7 +2073,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:chetak_9_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/chetak_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/chetak_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/chetak_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/chetak_9_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:shotgun_47",
@@ -1602,7 +2090,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:chetak_9_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/chetak_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/chetak_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/chetak_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/chetak_9_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:shotgun_48",
@@ -1615,7 +2107,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:chetak_9_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/chetak_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/chetak_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/chetak_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/chetak_9_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:shotgun_49",
@@ -1628,7 +2124,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:chetak_9_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/chetak_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/chetak_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/chetak_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/chetak_9_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:shotgun_50",
@@ -1641,7 +2141,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:chetak_9_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/chetak_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/chetak_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/chetak_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/chetak_9_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:shotgun_51",
@@ -1654,7 +2158,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:chetak_9_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/chetak_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/chetak_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/chetak_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/chetak_9_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:shotgun_52",
@@ -1667,7 +2175,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:chetak_9_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/chetak_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/chetak_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/chetak_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/chetak_9_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:shotgun_53",
@@ -1680,7 +2192,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:chetak_9_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/chetak_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/chetak_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/chetak_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/chetak_9_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:shotgun_54",
@@ -1693,7 +2209,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:chetak_9_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/chetak_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/chetak_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/chetak_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/chetak_9_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:shotgun_55",
@@ -1706,7 +2226,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:viper_sub_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/viper_sub.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/viper_sub.json",
+      "weapon_icon_path": "creative/source/icons/weapons/viper_sub.png",
+      "finish_texture_path": "creative/source/textures/finishes/viper_sub_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:shotgun_56",
@@ -1719,7 +2243,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:viper_sub_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/viper_sub.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/viper_sub.json",
+      "weapon_icon_path": "creative/source/icons/weapons/viper_sub.png",
+      "finish_texture_path": "creative/source/textures/finishes/viper_sub_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:shotgun_57",
@@ -1732,7 +2260,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:viper_sub_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/viper_sub.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/viper_sub.json",
+      "weapon_icon_path": "creative/source/icons/weapons/viper_sub.png",
+      "finish_texture_path": "creative/source/textures/finishes/viper_sub_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:shotgun_58",
@@ -1745,7 +2277,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:viper_sub_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/viper_sub.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/viper_sub.json",
+      "weapon_icon_path": "creative/source/icons/weapons/viper_sub.png",
+      "finish_texture_path": "creative/source/textures/finishes/viper_sub_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:shotgun_59",
@@ -1758,7 +2294,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:viper_sub_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/viper_sub.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/viper_sub.json",
+      "weapon_icon_path": "creative/source/icons/weapons/viper_sub.png",
+      "finish_texture_path": "creative/source/textures/finishes/viper_sub_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:shotgun_60",
@@ -1771,7 +2311,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:viper_sub_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/viper_sub.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/viper_sub.json",
+      "weapon_icon_path": "creative/source/icons/weapons/viper_sub.png",
+      "finish_texture_path": "creative/source/textures/finishes/viper_sub_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:shotgun_61",
@@ -1784,7 +2328,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:viper_sub_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/viper_sub.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/viper_sub.json",
+      "weapon_icon_path": "creative/source/icons/weapons/viper_sub.png",
+      "finish_texture_path": "creative/source/textures/finishes/viper_sub_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:shotgun_62",
@@ -1797,7 +2345,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:viper_sub_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/viper_sub.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/viper_sub.json",
+      "weapon_icon_path": "creative/source/icons/weapons/viper_sub.png",
+      "finish_texture_path": "creative/source/textures/finishes/viper_sub_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:shotgun_63",
@@ -1810,7 +2362,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:viper_sub_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/viper_sub.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/viper_sub.json",
+      "weapon_icon_path": "creative/source/icons/weapons/viper_sub.png",
+      "finish_texture_path": "creative/source/textures/finishes/viper_sub_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:shotgun_64",
@@ -1823,7 +2379,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:viper_sub_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/viper_sub.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/viper_sub.json",
+      "weapon_icon_path": "creative/source/icons/weapons/viper_sub.png",
+      "finish_texture_path": "creative/source/textures/finishes/viper_sub_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:shotgun_65",
@@ -1836,7 +2396,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:shikari_pdw_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/shikari_pdw.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/shikari_pdw.json",
+      "weapon_icon_path": "creative/source/icons/weapons/shikari_pdw.png",
+      "finish_texture_path": "creative/source/textures/finishes/shikari_pdw_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:shotgun_66",
@@ -1849,7 +2413,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:shikari_pdw_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/shikari_pdw.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/shikari_pdw.json",
+      "weapon_icon_path": "creative/source/icons/weapons/shikari_pdw.png",
+      "finish_texture_path": "creative/source/textures/finishes/shikari_pdw_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:shotgun_67",
@@ -1862,7 +2430,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:shikari_pdw_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/shikari_pdw.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/shikari_pdw.json",
+      "weapon_icon_path": "creative/source/icons/weapons/shikari_pdw.png",
+      "finish_texture_path": "creative/source/textures/finishes/shikari_pdw_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:shotgun_68",
@@ -1875,7 +2447,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:shikari_pdw_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/shikari_pdw.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/shikari_pdw.json",
+      "weapon_icon_path": "creative/source/icons/weapons/shikari_pdw.png",
+      "finish_texture_path": "creative/source/textures/finishes/shikari_pdw_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:shotgun_69",
@@ -1888,7 +2464,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:shikari_pdw_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/shikari_pdw.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/shikari_pdw.json",
+      "weapon_icon_path": "creative/source/icons/weapons/shikari_pdw.png",
+      "finish_texture_path": "creative/source/textures/finishes/shikari_pdw_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:shotgun_70",
@@ -1901,7 +2481,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:shikari_pdw_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/shikari_pdw.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/shikari_pdw.json",
+      "weapon_icon_path": "creative/source/icons/weapons/shikari_pdw.png",
+      "finish_texture_path": "creative/source/textures/finishes/shikari_pdw_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:shotgun_71",
@@ -1914,7 +2498,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:shikari_pdw_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/shikari_pdw.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/shikari_pdw.json",
+      "weapon_icon_path": "creative/source/icons/weapons/shikari_pdw.png",
+      "finish_texture_path": "creative/source/textures/finishes/shikari_pdw_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:shotgun_72",
@@ -1927,7 +2515,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:shikari_pdw_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/shikari_pdw.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/shikari_pdw.json",
+      "weapon_icon_path": "creative/source/icons/weapons/shikari_pdw.png",
+      "finish_texture_path": "creative/source/textures/finishes/shikari_pdw_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:shotgun_73",
@@ -1940,7 +2532,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:shikari_pdw_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/shikari_pdw.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/shikari_pdw.json",
+      "weapon_icon_path": "creative/source/icons/weapons/shikari_pdw.png",
+      "finish_texture_path": "creative/source/textures/finishes/shikari_pdw_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:shotgun_74",
@@ -1953,7 +2549,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:shikari_pdw_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/shikari_pdw.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/shikari_pdw.json",
+      "weapon_icon_path": "creative/source/icons/weapons/shikari_pdw.png",
+      "finish_texture_path": "creative/source/textures/finishes/shikari_pdw_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:smg_00",
@@ -1966,7 +2566,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:storm_9_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/storm_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/storm_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/storm_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/storm_9_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:smg_01",
@@ -1979,7 +2583,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:storm_9_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/storm_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/storm_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/storm_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/storm_9_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:smg_02",
@@ -1992,7 +2600,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:storm_9_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/storm_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/storm_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/storm_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/storm_9_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:smg_03",
@@ -2005,7 +2617,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:storm_9_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/storm_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/storm_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/storm_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/storm_9_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:smg_04",
@@ -2018,7 +2634,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:storm_9_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/storm_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/storm_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/storm_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/storm_9_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:smg_05",
@@ -2031,7 +2651,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:storm_9_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/storm_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/storm_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/storm_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/storm_9_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:smg_06",
@@ -2044,7 +2668,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:storm_9_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/storm_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/storm_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/storm_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/storm_9_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:smg_07",
@@ -2057,7 +2685,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:storm_9_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/storm_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/storm_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/storm_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/storm_9_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:smg_08",
@@ -2070,7 +2702,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:storm_9_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/storm_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/storm_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/storm_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/storm_9_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:smg_09",
@@ -2083,7 +2719,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:storm_9_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/storm_9.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/storm_9.json",
+      "weapon_icon_path": "creative/source/icons/weapons/storm_9.png",
+      "finish_texture_path": "creative/source/textures/finishes/storm_9_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:smg_10",
@@ -2096,7 +2736,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:lotus_burst_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/lotus_burst.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/lotus_burst.json",
+      "weapon_icon_path": "creative/source/icons/weapons/lotus_burst.png",
+      "finish_texture_path": "creative/source/textures/finishes/lotus_burst_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:smg_11",
@@ -2109,7 +2753,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:lotus_burst_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/lotus_burst.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/lotus_burst.json",
+      "weapon_icon_path": "creative/source/icons/weapons/lotus_burst.png",
+      "finish_texture_path": "creative/source/textures/finishes/lotus_burst_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:smg_12",
@@ -2122,7 +2770,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:lotus_burst_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/lotus_burst.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/lotus_burst.json",
+      "weapon_icon_path": "creative/source/icons/weapons/lotus_burst.png",
+      "finish_texture_path": "creative/source/textures/finishes/lotus_burst_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:smg_13",
@@ -2135,7 +2787,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:lotus_burst_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/lotus_burst.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/lotus_burst.json",
+      "weapon_icon_path": "creative/source/icons/weapons/lotus_burst.png",
+      "finish_texture_path": "creative/source/textures/finishes/lotus_burst_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:smg_14",
@@ -2148,7 +2804,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:lotus_burst_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/lotus_burst.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/lotus_burst.json",
+      "weapon_icon_path": "creative/source/icons/weapons/lotus_burst.png",
+      "finish_texture_path": "creative/source/textures/finishes/lotus_burst_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:smg_15",
@@ -2161,7 +2821,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:lotus_burst_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/lotus_burst.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/lotus_burst.json",
+      "weapon_icon_path": "creative/source/icons/weapons/lotus_burst.png",
+      "finish_texture_path": "creative/source/textures/finishes/lotus_burst_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:smg_16",
@@ -2174,7 +2838,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:lotus_burst_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/lotus_burst.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/lotus_burst.json",
+      "weapon_icon_path": "creative/source/icons/weapons/lotus_burst.png",
+      "finish_texture_path": "creative/source/textures/finishes/lotus_burst_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:smg_17",
@@ -2187,7 +2855,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:lotus_burst_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/lotus_burst.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/lotus_burst.json",
+      "weapon_icon_path": "creative/source/icons/weapons/lotus_burst.png",
+      "finish_texture_path": "creative/source/textures/finishes/lotus_burst_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:smg_18",
@@ -2200,7 +2872,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:lotus_burst_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/lotus_burst.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/lotus_burst.json",
+      "weapon_icon_path": "creative/source/icons/weapons/lotus_burst.png",
+      "finish_texture_path": "creative/source/textures/finishes/lotus_burst_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:smg_19",
@@ -2213,7 +2889,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:lotus_burst_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/lotus_burst.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/lotus_burst.json",
+      "weapon_icon_path": "creative/source/icons/weapons/lotus_burst.png",
+      "finish_texture_path": "creative/source/textures/finishes/lotus_burst_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:smg_20",
@@ -2226,7 +2906,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:varun_rapid_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/varun_rapid.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/varun_rapid.json",
+      "weapon_icon_path": "creative/source/icons/weapons/varun_rapid.png",
+      "finish_texture_path": "creative/source/textures/finishes/varun_rapid_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:smg_21",
@@ -2239,7 +2923,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:varun_rapid_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/varun_rapid.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/varun_rapid.json",
+      "weapon_icon_path": "creative/source/icons/weapons/varun_rapid.png",
+      "finish_texture_path": "creative/source/textures/finishes/varun_rapid_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:smg_22",
@@ -2252,7 +2940,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:varun_rapid_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/varun_rapid.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/varun_rapid.json",
+      "weapon_icon_path": "creative/source/icons/weapons/varun_rapid.png",
+      "finish_texture_path": "creative/source/textures/finishes/varun_rapid_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:smg_23",
@@ -2265,7 +2957,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:varun_rapid_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/varun_rapid.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/varun_rapid.json",
+      "weapon_icon_path": "creative/source/icons/weapons/varun_rapid.png",
+      "finish_texture_path": "creative/source/textures/finishes/varun_rapid_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:smg_24",
@@ -2278,7 +2974,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:varun_rapid_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/varun_rapid.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/varun_rapid.json",
+      "weapon_icon_path": "creative/source/icons/weapons/varun_rapid.png",
+      "finish_texture_path": "creative/source/textures/finishes/varun_rapid_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:smg_25",
@@ -2291,7 +2991,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:varun_rapid_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/varun_rapid.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/varun_rapid.json",
+      "weapon_icon_path": "creative/source/icons/weapons/varun_rapid.png",
+      "finish_texture_path": "creative/source/textures/finishes/varun_rapid_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:smg_26",
@@ -2304,7 +3008,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:varun_rapid_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/varun_rapid.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/varun_rapid.json",
+      "weapon_icon_path": "creative/source/icons/weapons/varun_rapid.png",
+      "finish_texture_path": "creative/source/textures/finishes/varun_rapid_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:smg_27",
@@ -2317,7 +3025,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:varun_rapid_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/varun_rapid.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/varun_rapid.json",
+      "weapon_icon_path": "creative/source/icons/weapons/varun_rapid.png",
+      "finish_texture_path": "creative/source/textures/finishes/varun_rapid_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:smg_28",
@@ -2330,7 +3042,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:varun_rapid_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/varun_rapid.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/varun_rapid.json",
+      "weapon_icon_path": "creative/source/icons/weapons/varun_rapid.png",
+      "finish_texture_path": "creative/source/textures/finishes/varun_rapid_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:smg_29",
@@ -2343,7 +3059,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:varun_rapid_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/varun_rapid.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/varun_rapid.json",
+      "weapon_icon_path": "creative/source/icons/weapons/varun_rapid.png",
+      "finish_texture_path": "creative/source/textures/finishes/varun_rapid_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:smg_30",
@@ -2356,7 +3076,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:indrayani_carbine_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/indrayani_carbine.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/indrayani_carbine.json",
+      "weapon_icon_path": "creative/source/icons/weapons/indrayani_carbine.png",
+      "finish_texture_path": "creative/source/textures/finishes/indrayani_carbine_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:smg_31",
@@ -2369,7 +3093,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:indrayani_carbine_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/indrayani_carbine.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/indrayani_carbine.json",
+      "weapon_icon_path": "creative/source/icons/weapons/indrayani_carbine.png",
+      "finish_texture_path": "creative/source/textures/finishes/indrayani_carbine_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:smg_32",
@@ -2382,7 +3110,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:indrayani_carbine_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/indrayani_carbine.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/indrayani_carbine.json",
+      "weapon_icon_path": "creative/source/icons/weapons/indrayani_carbine.png",
+      "finish_texture_path": "creative/source/textures/finishes/indrayani_carbine_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:smg_33",
@@ -2395,7 +3127,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:indrayani_carbine_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/indrayani_carbine.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/indrayani_carbine.json",
+      "weapon_icon_path": "creative/source/icons/weapons/indrayani_carbine.png",
+      "finish_texture_path": "creative/source/textures/finishes/indrayani_carbine_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:smg_34",
@@ -2408,7 +3144,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:indrayani_carbine_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/indrayani_carbine.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/indrayani_carbine.json",
+      "weapon_icon_path": "creative/source/icons/weapons/indrayani_carbine.png",
+      "finish_texture_path": "creative/source/textures/finishes/indrayani_carbine_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:smg_35",
@@ -2421,7 +3161,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:indrayani_carbine_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/indrayani_carbine.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/indrayani_carbine.json",
+      "weapon_icon_path": "creative/source/icons/weapons/indrayani_carbine.png",
+      "finish_texture_path": "creative/source/textures/finishes/indrayani_carbine_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:smg_36",
@@ -2434,7 +3178,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:indrayani_carbine_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/indrayani_carbine.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/indrayani_carbine.json",
+      "weapon_icon_path": "creative/source/icons/weapons/indrayani_carbine.png",
+      "finish_texture_path": "creative/source/textures/finishes/indrayani_carbine_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:smg_37",
@@ -2447,7 +3195,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:indrayani_carbine_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/indrayani_carbine.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/indrayani_carbine.json",
+      "weapon_icon_path": "creative/source/icons/weapons/indrayani_carbine.png",
+      "finish_texture_path": "creative/source/textures/finishes/indrayani_carbine_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:smg_38",
@@ -2460,7 +3212,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:indrayani_carbine_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/indrayani_carbine.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/indrayani_carbine.json",
+      "weapon_icon_path": "creative/source/icons/weapons/indrayani_carbine.png",
+      "finish_texture_path": "creative/source/textures/finishes/indrayani_carbine_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:smg_39",
@@ -2473,7 +3229,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:indrayani_carbine_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/indrayani_carbine.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/indrayani_carbine.json",
+      "weapon_icon_path": "creative/source/icons/weapons/indrayani_carbine.png",
+      "finish_texture_path": "creative/source/textures/finishes/indrayani_carbine_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:smg_40",
@@ -2486,7 +3246,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:trishul_ar_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/trishul_ar.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/trishul_ar.json",
+      "weapon_icon_path": "creative/source/icons/weapons/trishul_ar.png",
+      "finish_texture_path": "creative/source/textures/finishes/trishul_ar_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:smg_41",
@@ -2499,7 +3263,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:trishul_ar_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/trishul_ar.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/trishul_ar.json",
+      "weapon_icon_path": "creative/source/icons/weapons/trishul_ar.png",
+      "finish_texture_path": "creative/source/textures/finishes/trishul_ar_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:smg_42",
@@ -2512,7 +3280,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:trishul_ar_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/trishul_ar.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/trishul_ar.json",
+      "weapon_icon_path": "creative/source/icons/weapons/trishul_ar.png",
+      "finish_texture_path": "creative/source/textures/finishes/trishul_ar_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:smg_43",
@@ -2525,7 +3297,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:trishul_ar_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/trishul_ar.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/trishul_ar.json",
+      "weapon_icon_path": "creative/source/icons/weapons/trishul_ar.png",
+      "finish_texture_path": "creative/source/textures/finishes/trishul_ar_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:smg_44",
@@ -2538,7 +3314,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:trishul_ar_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/trishul_ar.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/trishul_ar.json",
+      "weapon_icon_path": "creative/source/icons/weapons/trishul_ar.png",
+      "finish_texture_path": "creative/source/textures/finishes/trishul_ar_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:smg_45",
@@ -2551,7 +3331,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:trishul_ar_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/trishul_ar.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/trishul_ar.json",
+      "weapon_icon_path": "creative/source/icons/weapons/trishul_ar.png",
+      "finish_texture_path": "creative/source/textures/finishes/trishul_ar_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:smg_46",
@@ -2564,7 +3348,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:trishul_ar_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/trishul_ar.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/trishul_ar.json",
+      "weapon_icon_path": "creative/source/icons/weapons/trishul_ar.png",
+      "finish_texture_path": "creative/source/textures/finishes/trishul_ar_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:smg_47",
@@ -2577,7 +3365,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:trishul_ar_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/trishul_ar.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/trishul_ar.json",
+      "weapon_icon_path": "creative/source/icons/weapons/trishul_ar.png",
+      "finish_texture_path": "creative/source/textures/finishes/trishul_ar_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:smg_48",
@@ -2590,7 +3382,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:trishul_ar_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/trishul_ar.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/trishul_ar.json",
+      "weapon_icon_path": "creative/source/icons/weapons/trishul_ar.png",
+      "finish_texture_path": "creative/source/textures/finishes/trishul_ar_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:smg_49",
@@ -2603,7 +3399,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:trishul_ar_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/trishul_ar.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/trishul_ar.json",
+      "weapon_icon_path": "creative/source/icons/weapons/trishul_ar.png",
+      "finish_texture_path": "creative/source/textures/finishes/trishul_ar_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:smg_50",
@@ -2616,7 +3416,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:vijay_service_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/vijay_service.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/vijay_service.json",
+      "weapon_icon_path": "creative/source/icons/weapons/vijay_service.png",
+      "finish_texture_path": "creative/source/textures/finishes/vijay_service_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:smg_51",
@@ -2629,7 +3433,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:vijay_service_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/vijay_service.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/vijay_service.json",
+      "weapon_icon_path": "creative/source/icons/weapons/vijay_service.png",
+      "finish_texture_path": "creative/source/textures/finishes/vijay_service_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:smg_52",
@@ -2642,7 +3450,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:vijay_service_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/vijay_service.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/vijay_service.json",
+      "weapon_icon_path": "creative/source/icons/weapons/vijay_service.png",
+      "finish_texture_path": "creative/source/textures/finishes/vijay_service_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:smg_53",
@@ -2655,7 +3467,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:vijay_service_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/vijay_service.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/vijay_service.json",
+      "weapon_icon_path": "creative/source/icons/weapons/vijay_service.png",
+      "finish_texture_path": "creative/source/textures/finishes/vijay_service_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:smg_54",
@@ -2668,7 +3484,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:vijay_service_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/vijay_service.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/vijay_service.json",
+      "weapon_icon_path": "creative/source/icons/weapons/vijay_service.png",
+      "finish_texture_path": "creative/source/textures/finishes/vijay_service_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:smg_55",
@@ -2681,7 +3501,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:vijay_service_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/vijay_service.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/vijay_service.json",
+      "weapon_icon_path": "creative/source/icons/weapons/vijay_service.png",
+      "finish_texture_path": "creative/source/textures/finishes/vijay_service_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:smg_56",
@@ -2694,7 +3518,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:vijay_service_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/vijay_service.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/vijay_service.json",
+      "weapon_icon_path": "creative/source/icons/weapons/vijay_service.png",
+      "finish_texture_path": "creative/source/textures/finishes/vijay_service_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:smg_57",
@@ -2707,7 +3535,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:vijay_service_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/vijay_service.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/vijay_service.json",
+      "weapon_icon_path": "creative/source/icons/weapons/vijay_service.png",
+      "finish_texture_path": "creative/source/textures/finishes/vijay_service_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:smg_58",
@@ -2720,7 +3552,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:vijay_service_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/vijay_service.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/vijay_service.json",
+      "weapon_icon_path": "creative/source/icons/weapons/vijay_service.png",
+      "finish_texture_path": "creative/source/textures/finishes/vijay_service_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:smg_59",
@@ -2733,7 +3569,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:vijay_service_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/vijay_service.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/vijay_service.json",
+      "weapon_icon_path": "creative/source/icons/weapons/vijay_service.png",
+      "finish_texture_path": "creative/source/textures/finishes/vijay_service_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:smg_60",
@@ -2746,7 +3586,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:ashoka_tactical_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/ashoka_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ashoka_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ashoka_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/ashoka_tactical_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:smg_61",
@@ -2759,7 +3603,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:ashoka_tactical_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/ashoka_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ashoka_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ashoka_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/ashoka_tactical_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:smg_62",
@@ -2772,7 +3620,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:ashoka_tactical_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/ashoka_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ashoka_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ashoka_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/ashoka_tactical_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:smg_63",
@@ -2785,7 +3637,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:ashoka_tactical_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/ashoka_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ashoka_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ashoka_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/ashoka_tactical_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:smg_64",
@@ -2798,7 +3654,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:ashoka_tactical_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/ashoka_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ashoka_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ashoka_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/ashoka_tactical_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:smg_65",
@@ -2811,7 +3671,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:ashoka_tactical_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/ashoka_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ashoka_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ashoka_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/ashoka_tactical_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:smg_66",
@@ -2824,7 +3688,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:ashoka_tactical_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/ashoka_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ashoka_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ashoka_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/ashoka_tactical_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:smg_67",
@@ -2837,7 +3705,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:ashoka_tactical_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/ashoka_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ashoka_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ashoka_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/ashoka_tactical_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:smg_68",
@@ -2850,7 +3722,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:ashoka_tactical_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/ashoka_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ashoka_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ashoka_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/ashoka_tactical_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:smg_69",
@@ -2863,7 +3739,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:ashoka_tactical_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/ashoka_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ashoka_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ashoka_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/ashoka_tactical_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:smg_70",
@@ -2876,7 +3756,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:brahmos_precision_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/brahmos_precision.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/brahmos_precision.json",
+      "weapon_icon_path": "creative/source/icons/weapons/brahmos_precision.png",
+      "finish_texture_path": "creative/source/textures/finishes/brahmos_precision_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:smg_71",
@@ -2889,7 +3773,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:brahmos_precision_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/brahmos_precision.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/brahmos_precision.json",
+      "weapon_icon_path": "creative/source/icons/weapons/brahmos_precision.png",
+      "finish_texture_path": "creative/source/textures/finishes/brahmos_precision_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:smg_72",
@@ -2902,7 +3790,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:brahmos_precision_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/brahmos_precision.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/brahmos_precision.json",
+      "weapon_icon_path": "creative/source/icons/weapons/brahmos_precision.png",
+      "finish_texture_path": "creative/source/textures/finishes/brahmos_precision_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:smg_73",
@@ -2915,7 +3807,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:brahmos_precision_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/brahmos_precision.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/brahmos_precision.json",
+      "weapon_icon_path": "creative/source/icons/weapons/brahmos_precision.png",
+      "finish_texture_path": "creative/source/textures/finishes/brahmos_precision_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:smg_74",
@@ -2928,7 +3824,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:brahmos_precision_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/brahmos_precision.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/brahmos_precision.json",
+      "weapon_icon_path": "creative/source/icons/weapons/brahmos_precision.png",
+      "finish_texture_path": "creative/source/textures/finishes/brahmos_precision_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:rifle_00",
@@ -2941,7 +3841,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:brahmos_precision_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/brahmos_precision.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/brahmos_precision.json",
+      "weapon_icon_path": "creative/source/icons/weapons/brahmos_precision.png",
+      "finish_texture_path": "creative/source/textures/finishes/brahmos_precision_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:rifle_01",
@@ -2954,7 +3858,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:brahmos_precision_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/brahmos_precision.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/brahmos_precision.json",
+      "weapon_icon_path": "creative/source/icons/weapons/brahmos_precision.png",
+      "finish_texture_path": "creative/source/textures/finishes/brahmos_precision_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:rifle_02",
@@ -2967,7 +3875,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:brahmos_precision_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/brahmos_precision.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/brahmos_precision.json",
+      "weapon_icon_path": "creative/source/icons/weapons/brahmos_precision.png",
+      "finish_texture_path": "creative/source/textures/finishes/brahmos_precision_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:rifle_03",
@@ -2980,7 +3892,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:brahmos_precision_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/brahmos_precision.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/brahmos_precision.json",
+      "weapon_icon_path": "creative/source/icons/weapons/brahmos_precision.png",
+      "finish_texture_path": "creative/source/textures/finishes/brahmos_precision_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:rifle_04",
@@ -2993,7 +3909,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:brahmos_precision_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/brahmos_precision.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/brahmos_precision.json",
+      "weapon_icon_path": "creative/source/icons/weapons/brahmos_precision.png",
+      "finish_texture_path": "creative/source/textures/finishes/brahmos_precision_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:rifle_05",
@@ -3006,7 +3926,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:arya_recon_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/arya_recon.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/arya_recon.json",
+      "weapon_icon_path": "creative/source/icons/weapons/arya_recon.png",
+      "finish_texture_path": "creative/source/textures/finishes/arya_recon_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:rifle_06",
@@ -3019,7 +3943,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:arya_recon_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/arya_recon.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/arya_recon.json",
+      "weapon_icon_path": "creative/source/icons/weapons/arya_recon.png",
+      "finish_texture_path": "creative/source/textures/finishes/arya_recon_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:rifle_07",
@@ -3032,7 +3960,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:arya_recon_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/arya_recon.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/arya_recon.json",
+      "weapon_icon_path": "creative/source/icons/weapons/arya_recon.png",
+      "finish_texture_path": "creative/source/textures/finishes/arya_recon_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:rifle_08",
@@ -3045,7 +3977,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:arya_recon_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/arya_recon.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/arya_recon.json",
+      "weapon_icon_path": "creative/source/icons/weapons/arya_recon.png",
+      "finish_texture_path": "creative/source/textures/finishes/arya_recon_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:rifle_09",
@@ -3058,7 +3994,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:arya_recon_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/arya_recon.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/arya_recon.json",
+      "weapon_icon_path": "creative/source/icons/weapons/arya_recon.png",
+      "finish_texture_path": "creative/source/textures/finishes/arya_recon_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:rifle_10",
@@ -3071,7 +4011,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:arya_recon_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/arya_recon.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/arya_recon.json",
+      "weapon_icon_path": "creative/source/icons/weapons/arya_recon.png",
+      "finish_texture_path": "creative/source/textures/finishes/arya_recon_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:rifle_11",
@@ -3084,7 +4028,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:arya_recon_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/arya_recon.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/arya_recon.json",
+      "weapon_icon_path": "creative/source/icons/weapons/arya_recon.png",
+      "finish_texture_path": "creative/source/textures/finishes/arya_recon_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:rifle_12",
@@ -3097,7 +4045,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:arya_recon_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/arya_recon.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/arya_recon.json",
+      "weapon_icon_path": "creative/source/icons/weapons/arya_recon.png",
+      "finish_texture_path": "creative/source/textures/finishes/arya_recon_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:rifle_13",
@@ -3110,7 +4062,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:arya_recon_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/arya_recon.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/arya_recon.json",
+      "weapon_icon_path": "creative/source/icons/weapons/arya_recon.png",
+      "finish_texture_path": "creative/source/textures/finishes/arya_recon_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:rifle_14",
@@ -3123,7 +4079,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:arya_recon_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/arya_recon.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/arya_recon.json",
+      "weapon_icon_path": "creative/source/icons/weapons/arya_recon.png",
+      "finish_texture_path": "creative/source/textures/finishes/arya_recon_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:rifle_15",
@@ -3136,7 +4096,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:ghatkopar_bat_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/ghatkopar_bat.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ghatkopar_bat.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ghatkopar_bat.png",
+      "finish_texture_path": "creative/source/textures/finishes/ghatkopar_bat_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:rifle_16",
@@ -3149,7 +4113,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:ghatkopar_bat_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/ghatkopar_bat.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ghatkopar_bat.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ghatkopar_bat.png",
+      "finish_texture_path": "creative/source/textures/finishes/ghatkopar_bat_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:rifle_17",
@@ -3162,7 +4130,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:ghatkopar_bat_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/ghatkopar_bat.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ghatkopar_bat.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ghatkopar_bat.png",
+      "finish_texture_path": "creative/source/textures/finishes/ghatkopar_bat_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:rifle_18",
@@ -3175,7 +4147,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:ghatkopar_bat_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/ghatkopar_bat.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ghatkopar_bat.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ghatkopar_bat.png",
+      "finish_texture_path": "creative/source/textures/finishes/ghatkopar_bat_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:rifle_19",
@@ -3188,7 +4164,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:ghatkopar_bat_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/ghatkopar_bat.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ghatkopar_bat.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ghatkopar_bat.png",
+      "finish_texture_path": "creative/source/textures/finishes/ghatkopar_bat_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:rifle_20",
@@ -3201,7 +4181,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:ghatkopar_bat_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/ghatkopar_bat.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ghatkopar_bat.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ghatkopar_bat.png",
+      "finish_texture_path": "creative/source/textures/finishes/ghatkopar_bat_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:rifle_21",
@@ -3214,7 +4198,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:ghatkopar_bat_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/ghatkopar_bat.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ghatkopar_bat.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ghatkopar_bat.png",
+      "finish_texture_path": "creative/source/textures/finishes/ghatkopar_bat_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:rifle_22",
@@ -3227,7 +4215,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:ghatkopar_bat_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/ghatkopar_bat.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ghatkopar_bat.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ghatkopar_bat.png",
+      "finish_texture_path": "creative/source/textures/finishes/ghatkopar_bat_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:rifle_23",
@@ -3240,7 +4232,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:ghatkopar_bat_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/ghatkopar_bat.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ghatkopar_bat.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ghatkopar_bat.png",
+      "finish_texture_path": "creative/source/textures/finishes/ghatkopar_bat_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:rifle_24",
@@ -3253,7 +4249,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:ghatkopar_bat_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/ghatkopar_bat.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/ghatkopar_bat.json",
+      "weapon_icon_path": "creative/source/icons/weapons/ghatkopar_bat.png",
+      "finish_texture_path": "creative/source/textures/finishes/ghatkopar_bat_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:rifle_25",
@@ -3266,7 +4266,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:talwar_cleaver_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/talwar_cleaver.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/talwar_cleaver.json",
+      "weapon_icon_path": "creative/source/icons/weapons/talwar_cleaver.png",
+      "finish_texture_path": "creative/source/textures/finishes/talwar_cleaver_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:rifle_26",
@@ -3279,7 +4283,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:talwar_cleaver_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/talwar_cleaver.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/talwar_cleaver.json",
+      "weapon_icon_path": "creative/source/icons/weapons/talwar_cleaver.png",
+      "finish_texture_path": "creative/source/textures/finishes/talwar_cleaver_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:rifle_27",
@@ -3292,7 +4300,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:talwar_cleaver_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/talwar_cleaver.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/talwar_cleaver.json",
+      "weapon_icon_path": "creative/source/icons/weapons/talwar_cleaver.png",
+      "finish_texture_path": "creative/source/textures/finishes/talwar_cleaver_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:rifle_28",
@@ -3305,7 +4317,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:talwar_cleaver_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/talwar_cleaver.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/talwar_cleaver.json",
+      "weapon_icon_path": "creative/source/icons/weapons/talwar_cleaver.png",
+      "finish_texture_path": "creative/source/textures/finishes/talwar_cleaver_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:rifle_29",
@@ -3318,7 +4334,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:talwar_cleaver_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/talwar_cleaver.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/talwar_cleaver.json",
+      "weapon_icon_path": "creative/source/icons/weapons/talwar_cleaver.png",
+      "finish_texture_path": "creative/source/textures/finishes/talwar_cleaver_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:rifle_30",
@@ -3331,7 +4351,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:talwar_cleaver_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/talwar_cleaver.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/talwar_cleaver.json",
+      "weapon_icon_path": "creative/source/icons/weapons/talwar_cleaver.png",
+      "finish_texture_path": "creative/source/textures/finishes/talwar_cleaver_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:rifle_31",
@@ -3344,7 +4368,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:talwar_cleaver_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/talwar_cleaver.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/talwar_cleaver.json",
+      "weapon_icon_path": "creative/source/icons/weapons/talwar_cleaver.png",
+      "finish_texture_path": "creative/source/textures/finishes/talwar_cleaver_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:rifle_32",
@@ -3357,7 +4385,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:talwar_cleaver_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/talwar_cleaver.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/talwar_cleaver.json",
+      "weapon_icon_path": "creative/source/icons/weapons/talwar_cleaver.png",
+      "finish_texture_path": "creative/source/textures/finishes/talwar_cleaver_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:rifle_33",
@@ -3370,7 +4402,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:talwar_cleaver_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/talwar_cleaver.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/talwar_cleaver.json",
+      "weapon_icon_path": "creative/source/icons/weapons/talwar_cleaver.png",
+      "finish_texture_path": "creative/source/textures/finishes/talwar_cleaver_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:rifle_34",
@@ -3383,7 +4419,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:talwar_cleaver_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/talwar_cleaver.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/talwar_cleaver.json",
+      "weapon_icon_path": "creative/source/icons/weapons/talwar_cleaver.png",
+      "finish_texture_path": "creative/source/textures/finishes/talwar_cleaver_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:rifle_35",
@@ -3396,7 +4436,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:lathi_tactical_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/lathi_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/lathi_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/lathi_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/lathi_tactical_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:rifle_36",
@@ -3409,7 +4453,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:lathi_tactical_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/lathi_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/lathi_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/lathi_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/lathi_tactical_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:rifle_37",
@@ -3422,7 +4470,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:lathi_tactical_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/lathi_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/lathi_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/lathi_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/lathi_tactical_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:rifle_38",
@@ -3435,7 +4487,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:lathi_tactical_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/lathi_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/lathi_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/lathi_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/lathi_tactical_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:rifle_39",
@@ -3448,7 +4504,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:lathi_tactical_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/lathi_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/lathi_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/lathi_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/lathi_tactical_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:rifle_40",
@@ -3461,7 +4521,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:lathi_tactical_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/lathi_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/lathi_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/lathi_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/lathi_tactical_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:rifle_41",
@@ -3474,7 +4538,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:lathi_tactical_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/lathi_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/lathi_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/lathi_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/lathi_tactical_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:rifle_42",
@@ -3487,7 +4555,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:lathi_tactical_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/lathi_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/lathi_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/lathi_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/lathi_tactical_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:rifle_43",
@@ -3500,7 +4572,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:lathi_tactical_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/lathi_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/lathi_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/lathi_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/lathi_tactical_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:rifle_44",
@@ -3513,7 +4589,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:lathi_tactical_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/lathi_tactical.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/lathi_tactical.json",
+      "weapon_icon_path": "creative/source/icons/weapons/lathi_tactical.png",
+      "finish_texture_path": "creative/source/textures/finishes/lathi_tactical_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:rifle_45",
@@ -3526,7 +4606,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:khanda_blade_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/khanda_blade.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/khanda_blade.json",
+      "weapon_icon_path": "creative/source/icons/weapons/khanda_blade.png",
+      "finish_texture_path": "creative/source/textures/finishes/khanda_blade_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:rifle_46",
@@ -3539,7 +4623,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:khanda_blade_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/khanda_blade.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/khanda_blade.json",
+      "weapon_icon_path": "creative/source/icons/weapons/khanda_blade.png",
+      "finish_texture_path": "creative/source/textures/finishes/khanda_blade_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:rifle_47",
@@ -3552,7 +4640,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:khanda_blade_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/khanda_blade.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/khanda_blade.json",
+      "weapon_icon_path": "creative/source/icons/weapons/khanda_blade.png",
+      "finish_texture_path": "creative/source/textures/finishes/khanda_blade_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:rifle_48",
@@ -3565,7 +4657,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:khanda_blade_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/khanda_blade.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/khanda_blade.json",
+      "weapon_icon_path": "creative/source/icons/weapons/khanda_blade.png",
+      "finish_texture_path": "creative/source/textures/finishes/khanda_blade_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:rifle_49",
@@ -3578,7 +4674,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:khanda_blade_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/khanda_blade.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/khanda_blade.json",
+      "weapon_icon_path": "creative/source/icons/weapons/khanda_blade.png",
+      "finish_texture_path": "creative/source/textures/finishes/khanda_blade_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:rifle_50",
@@ -3591,7 +4691,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:khanda_blade_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/khanda_blade.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/khanda_blade.json",
+      "weapon_icon_path": "creative/source/icons/weapons/khanda_blade.png",
+      "finish_texture_path": "creative/source/textures/finishes/khanda_blade_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:rifle_51",
@@ -3604,7 +4708,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:khanda_blade_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/khanda_blade.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/khanda_blade.json",
+      "weapon_icon_path": "creative/source/icons/weapons/khanda_blade.png",
+      "finish_texture_path": "creative/source/textures/finishes/khanda_blade_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:rifle_52",
@@ -3617,7 +4725,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:khanda_blade_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/khanda_blade.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/khanda_blade.json",
+      "weapon_icon_path": "creative/source/icons/weapons/khanda_blade.png",
+      "finish_texture_path": "creative/source/textures/finishes/khanda_blade_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:rifle_53",
@@ -3630,7 +4742,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:khanda_blade_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/khanda_blade.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/khanda_blade.json",
+      "weapon_icon_path": "creative/source/icons/weapons/khanda_blade.png",
+      "finish_texture_path": "creative/source/textures/finishes/khanda_blade_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:rifle_54",
@@ -3643,7 +4759,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:khanda_blade_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/khanda_blade.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/khanda_blade.json",
+      "weapon_icon_path": "creative/source/icons/weapons/khanda_blade.png",
+      "finish_texture_path": "creative/source/textures/finishes/khanda_blade_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:rifle_55",
@@ -3656,7 +4776,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:kurukshetra_dmr_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/kurukshetra_dmr.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/kurukshetra_dmr.json",
+      "weapon_icon_path": "creative/source/icons/weapons/kurukshetra_dmr.png",
+      "finish_texture_path": "creative/source/textures/finishes/kurukshetra_dmr_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:rifle_56",
@@ -3669,7 +4793,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:kurukshetra_dmr_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/kurukshetra_dmr.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/kurukshetra_dmr.json",
+      "weapon_icon_path": "creative/source/icons/weapons/kurukshetra_dmr.png",
+      "finish_texture_path": "creative/source/textures/finishes/kurukshetra_dmr_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:rifle_57",
@@ -3682,7 +4810,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:kurukshetra_dmr_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/kurukshetra_dmr.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/kurukshetra_dmr.json",
+      "weapon_icon_path": "creative/source/icons/weapons/kurukshetra_dmr.png",
+      "finish_texture_path": "creative/source/textures/finishes/kurukshetra_dmr_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:rifle_58",
@@ -3695,7 +4827,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:kurukshetra_dmr_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/kurukshetra_dmr.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/kurukshetra_dmr.json",
+      "weapon_icon_path": "creative/source/icons/weapons/kurukshetra_dmr.png",
+      "finish_texture_path": "creative/source/textures/finishes/kurukshetra_dmr_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:rifle_59",
@@ -3708,7 +4844,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:kurukshetra_dmr_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/kurukshetra_dmr.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/kurukshetra_dmr.json",
+      "weapon_icon_path": "creative/source/icons/weapons/kurukshetra_dmr.png",
+      "finish_texture_path": "creative/source/textures/finishes/kurukshetra_dmr_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:rifle_60",
@@ -3721,7 +4861,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:kurukshetra_dmr_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/kurukshetra_dmr.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/kurukshetra_dmr.json",
+      "weapon_icon_path": "creative/source/icons/weapons/kurukshetra_dmr.png",
+      "finish_texture_path": "creative/source/textures/finishes/kurukshetra_dmr_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:rifle_61",
@@ -3734,7 +4878,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:kurukshetra_dmr_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/kurukshetra_dmr.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/kurukshetra_dmr.json",
+      "weapon_icon_path": "creative/source/icons/weapons/kurukshetra_dmr.png",
+      "finish_texture_path": "creative/source/textures/finishes/kurukshetra_dmr_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:rifle_62",
@@ -3747,7 +4895,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:kurukshetra_dmr_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/kurukshetra_dmr.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/kurukshetra_dmr.json",
+      "weapon_icon_path": "creative/source/icons/weapons/kurukshetra_dmr.png",
+      "finish_texture_path": "creative/source/textures/finishes/kurukshetra_dmr_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:rifle_63",
@@ -3760,7 +4912,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:kurukshetra_dmr_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/kurukshetra_dmr.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/kurukshetra_dmr.json",
+      "weapon_icon_path": "creative/source/icons/weapons/kurukshetra_dmr.png",
+      "finish_texture_path": "creative/source/textures/finishes/kurukshetra_dmr_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:rifle_64",
@@ -3773,7 +4929,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:kurukshetra_dmr_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/kurukshetra_dmr.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/kurukshetra_dmr.json",
+      "weapon_icon_path": "creative/source/icons/weapons/kurukshetra_dmr.png",
+      "finish_texture_path": "creative/source/textures/finishes/kurukshetra_dmr_cyber_neon.png"
     },
     {
       "legacy_id": "gtm:rifle_65",
@@ -3786,7 +4946,11 @@
       "target_finish_name": "ARK Gold Leaf",
       "target_full_id": "gtm:vajra_heavy_gold_leaf",
       "rarity": "legendary",
-      "palette_primary": "#D6AD59"
+      "palette_primary": "#D6AD59",
+      "weapon_model_path": "creative/source/models/weapons/vajra_heavy.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/vajra_heavy.json",
+      "weapon_icon_path": "creative/source/icons/weapons/vajra_heavy.png",
+      "finish_texture_path": "creative/source/textures/finishes/vajra_heavy_gold_leaf.png"
     },
     {
       "legacy_id": "gtm:rifle_66",
@@ -3799,7 +4963,11 @@
       "target_finish_name": "Monsoon Storm Camo",
       "target_full_id": "gtm:vajra_heavy_monsoon_camo",
       "rarity": "rare",
-      "palette_primary": "#236653"
+      "palette_primary": "#236653",
+      "weapon_model_path": "creative/source/models/weapons/vajra_heavy.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/vajra_heavy.json",
+      "weapon_icon_path": "creative/source/icons/weapons/vajra_heavy.png",
+      "finish_texture_path": "creative/source/textures/finishes/vajra_heavy_monsoon_camo.png"
     },
     {
       "legacy_id": "gtm:rifle_67",
@@ -3812,7 +4980,11 @@
       "target_finish_name": "Graphite Urban Stealth",
       "target_full_id": "gtm:vajra_heavy_graphite_stealth",
       "rarity": "uncommon",
-      "palette_primary": "#151B20"
+      "palette_primary": "#151B20",
+      "weapon_model_path": "creative/source/models/weapons/vajra_heavy.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/vajra_heavy.json",
+      "weapon_icon_path": "creative/source/icons/weapons/vajra_heavy.png",
+      "finish_texture_path": "creative/source/textures/finishes/vajra_heavy_graphite_stealth.png"
     },
     {
       "legacy_id": "gtm:rifle_68",
@@ -3825,7 +4997,11 @@
       "target_finish_name": "Chhatrapati Royal Emerald",
       "target_full_id": "gtm:vajra_heavy_royal_emerald",
       "rarity": "epic",
-      "palette_primary": "#1F4E3F"
+      "palette_primary": "#1F4E3F",
+      "weapon_model_path": "creative/source/models/weapons/vajra_heavy.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/vajra_heavy.json",
+      "weapon_icon_path": "creative/source/icons/weapons/vajra_heavy.png",
+      "finish_texture_path": "creative/source/textures/finishes/vajra_heavy_royal_emerald.png"
     },
     {
       "legacy_id": "gtm:rifle_69",
@@ -3838,7 +5014,11 @@
       "target_finish_name": "Sandstone Terracotta",
       "target_full_id": "gtm:vajra_heavy_terracotta_dune",
       "rarity": "common",
-      "palette_primary": "#AD5637"
+      "palette_primary": "#AD5637",
+      "weapon_model_path": "creative/source/models/weapons/vajra_heavy.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/vajra_heavy.json",
+      "weapon_icon_path": "creative/source/icons/weapons/vajra_heavy.png",
+      "finish_texture_path": "creative/source/textures/finishes/vajra_heavy_terracotta_dune.png"
     },
     {
       "legacy_id": "gtm:rifle_70",
@@ -3851,7 +5031,11 @@
       "target_finish_name": "Deccan Mirrored Chrome",
       "target_full_id": "gtm:vajra_heavy_deccan_chrome",
       "rarity": "rare",
-      "palette_primary": "#C0D5E0"
+      "palette_primary": "#C0D5E0",
+      "weapon_model_path": "creative/source/models/weapons/vajra_heavy.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/vajra_heavy.json",
+      "weapon_icon_path": "creative/source/icons/weapons/vajra_heavy.png",
+      "finish_texture_path": "creative/source/textures/finishes/vajra_heavy_deccan_chrome.png"
     },
     {
       "legacy_id": "gtm:rifle_71",
@@ -3864,7 +5048,11 @@
       "target_finish_name": "Sahyadri Weathered Rust",
       "target_full_id": "gtm:vajra_heavy_maratha_rust",
       "rarity": "uncommon",
-      "palette_primary": "#8C4727"
+      "palette_primary": "#8C4727",
+      "weapon_model_path": "creative/source/models/weapons/vajra_heavy.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/vajra_heavy.json",
+      "weapon_icon_path": "creative/source/icons/weapons/vajra_heavy.png",
+      "finish_texture_path": "creative/source/textures/finishes/vajra_heavy_maratha_rust.png"
     },
     {
       "legacy_id": "gtm:rifle_72",
@@ -3877,7 +5065,11 @@
       "target_finish_name": "Black Lotus Iridescent",
       "target_full_id": "gtm:vajra_heavy_lotus_pearl",
       "rarity": "legendary",
-      "palette_primary": "#452D40"
+      "palette_primary": "#452D40",
+      "weapon_model_path": "creative/source/models/weapons/vajra_heavy.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/vajra_heavy.json",
+      "weapon_icon_path": "creative/source/icons/weapons/vajra_heavy.png",
+      "finish_texture_path": "creative/source/textures/finishes/vajra_heavy_lotus_pearl.png"
     },
     {
       "legacy_id": "gtm:rifle_73",
@@ -3890,7 +5082,11 @@
       "target_finish_name": "Bazaar Glazed Ceramic",
       "target_full_id": "gtm:vajra_heavy_bazaar_mosaic",
       "rarity": "rare",
-      "palette_primary": "#FFBD3E"
+      "palette_primary": "#FFBD3E",
+      "weapon_model_path": "creative/source/models/weapons/vajra_heavy.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/vajra_heavy.json",
+      "weapon_icon_path": "creative/source/icons/weapons/vajra_heavy.png",
+      "finish_texture_path": "creative/source/textures/finishes/vajra_heavy_bazaar_mosaic.png"
     },
     {
       "legacy_id": "gtm:rifle_74",
@@ -3903,7 +5099,11 @@
       "target_finish_name": "Indraprastha Cyber Glow",
       "target_full_id": "gtm:vajra_heavy_cyber_neon",
       "rarity": "epic",
-      "palette_primary": "#87E0D7"
+      "palette_primary": "#87E0D7",
+      "weapon_model_path": "creative/source/models/weapons/vajra_heavy.geo.json",
+      "weapon_java_model_path": "creative/source/models/weapons/java/vajra_heavy.json",
+      "weapon_icon_path": "creative/source/icons/weapons/vajra_heavy.png",
+      "finish_texture_path": "creative/source/textures/finishes/vajra_heavy_cyber_neon.png"
     }
   ]
 }

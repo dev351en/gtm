@@ -5,16 +5,15 @@
 
 ---
 
-## Revision 4 development — Antigravity Creative Track complete
+## Revision 4 development — Antigravity Creative Track complete (V2 Studio Quality Overhaul)
 
-Completed Antigravity creative track deliverables on branch `gtm/creative-r4`. All assets isolated within `creative/` with zero modifications to gameplay engines, ledgers, or live world.
-- **Visual Identity & UI**: 64x64 server icon, 32 fictional brands (SVG+PNG), 24 phone app icons (V3 updated 64x64 PNG), 33 HUD components (V3 updated with Java/Bedrock safe areas), and 14 web dashboard tokens.
-- **Transport**: 87 Blockbench models (65 road vehicles, 10 rail/ropeway, 4 helicopters, 8 marine vessels) and non-destructive legacy-to-approved mapping in `creative/manifests/transport_catalog_mapping.json`.
-- **Furniture & Facilities**: 200 functional furniture models across 10 categories, 200 legacy-to-functional mappings, and 46 municipal facility architectural surveys in `creative/manifests/facilities_manifest.json`.
-- **Characters & Outfits**: 500 unique 64x64 skins (including Black Lotus boss `npc-481` and 5 initial prisoners `npc-482..486`), 100 outfits across 7 categories, and surveyed walkable positions for all 400 extended NPCs.
-- **Equipment, Finishes & Food**: 92 equipment props (55 protection, 20 civic, 2 property, 5 effect, 10 entertainment), 300 finishes 1-to-1 entitlement migration table (4 families -> 30 fictional weapons x 10 finishes), and 30 food items with 3D models and 48x48 icons.
-- **Festivals & Signage**: 100 festival installations with placement bounds and approved 8-theme mapping, and 120 bilingual signs (English + Devanagari/Marathi) across 6 categories.
-- **QA & Verification**: Full automated validation suite passing with 0 errors (`creative/reports/ASSET_VALIDATION_REPORT.json`), 6 contact sheet visual previews in `creative/previews/`, and comprehensive handoff guide in `docs/creative/CREATIVE_CHANGELOG.md`.
+Completed and visually audited full creative asset regeneration on branch `gtm/creative-r4`. Fixed 3D cube normal winding / Z-buffering, replaced placeholder graphics, upgraded all model textures to `32x32`, and built/installed a matching `32x32` World Resource Pack:
+- **Visual Identity & UI**: 32 distinct AI-generated glossy V3 brand emblems (256x256 RGBA + unique SVGs), 24 V3 Phone App icons & 33 HUD elements cleanly sliced above card text labels with flood-fill transparency, plus upgraded 64x64 GTM shield server-icon.
+- **Bilingual Signage**: 120 signs (512x256 RGBA) rendered via headless Chromium DirectWrite for 100% crisp Marathi/Devanagari typography, SVG transit/road pictograms, and embedded 3D brand emblems.
+- **Transport, Furniture, Equipment, Weapons, Food & Festivals**: All 509+ models regenerated with real-world anatomical archetypes, populated rotor/wheel/door bones, 11 User Hero 3D models imported, 30 sleek sculpted fictional weapons + 300 painted finish skins, and all 128x128 icons rendered via a True Per-Pixel Z-Buffered & 32x32 UV-Textured Studio Renderer.
+- **Characters & Outfits**: 500 dual-layer `64x64` skins (distinguishing Gang Boss `npc-481` blazer/shades and 5 orange detention prisoners `npc-482..486`) + 100 outfits with Front+Back 3D preview sheets.
+- **32x32 World & Model Texture Packs**: 100 individual `32x32` model textures (`creative/source/textures/32x32/`) + 86 cohesive `32x32` Indraprastha city/world block textures packaged into `GTM_Indraprastha_World_32x_Java.zip` and `GTM_Indraprastha_World_32x_Bedrock.mcpack`, and installed locally in `%APPDATA%\.minecraft\resourcepacks\`.
+- **QA**: Verified with 0 errors across 14 visual contact sheets and `creative/reports/ASSET_VALIDATION_REPORT.json`.
 
 ## Revision 4 development — Antigravity creative handoff
 

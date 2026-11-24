@@ -1,8 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
-  <rect width="256" height="256" rx="32" fill="#D6AD59"/>
-  <rect x="8" y="8" width="240" height="240" rx="24" fill="none" stroke="#2680EB" stroke-width="4" stroke-opacity="0.4"/>
-  <circle cx="128" cy="100" r="54" fill="none" stroke="#2680EB" stroke-width="8"/>
-  <text x="128" y="112" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="900" fill="#2680EB" text-anchor="middle">IND</text>
-  <text x="128" y="185" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#2680EB" text-anchor="middle">INDRAPRASTHA PETROLEUM</text>
-  <text x="128" y="210" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#D2B997" text-anchor="middle">ENERGY • State Refineries & High-Octane Fuel</text>
+  <defs>
+    <radialGradient id="g_indra_fuel" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#252F38"/>
+      <stop offset="100%" stop-color="#0D1115"/>
+    </radialGradient>
+  </defs>
+  <rect width="256" height="256" rx="40" fill="url(#g_indra_fuel)"/>
+  <rect x="6" y="6" width="244" height="244" rx="34" fill="none" stroke="#2680EB" stroke-width="4" stroke-opacity="0.6"/>
+  <polygon points="128,36 216,128 128,220 40,128" fill="#202A34" stroke="#D6AD59" stroke-width="6"/><path d="M128 72 C156 106 164 134 152 158 C142 176 114 176 104 158 C92 134 100 106 128 72 Z" fill="#2DD4BF"/>
 </svg>

@@ -10,6 +10,7 @@
       1.45,
       3.8
     ],
+    "cube_count": 44,
     "geometry": "geometry.gtm.hatchback_swift",
     "variants": [
       "normal",
@@ -17,20 +18,14 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/hatchback_swift.geo.json",
+    "java_model_path": "creative/source/models/transport/java/hatchback_swift.json",
+    "icon_path": "creative/source/icons/transport/hatchback_swift.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.4,
-          0.51,
-          0.19
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.4,
           0.51,
           0.19
         ],
@@ -51,9 +46,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/hatchback_swift.geo.json",
-    "sha256": "47b65b61ebcdaec0676656a4f885c98568d4dddc6993218d08b092a7d51af7a2"
+    "sha256": "0d73bd76e7c3620cd9c43eedb86ff37263e41694ac3144b0f699dfd21cff638a"
   },
   {
     "id": "gtm:hatchback_baleno",
@@ -66,6 +59,7 @@
       1.45,
       3.9
     ],
+    "cube_count": 44,
     "geometry": "geometry.gtm.hatchback_baleno",
     "variants": [
       "normal",
@@ -73,20 +67,14 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/hatchback_baleno.geo.json",
+    "java_model_path": "creative/source/models/transport/java/hatchback_baleno.json",
+    "icon_path": "creative/source/icons/transport/hatchback_baleno.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.42,
-          0.51,
-          0.2
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.42,
           0.51,
           0.2
         ],
@@ -107,9 +95,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/hatchback_baleno.geo.json",
-    "sha256": "79b367518574efffb5969aa030104bbdca9661609a04972f74416384db506167"
+    "sha256": "bceaf6ac989e413349c43280b687a4b3bfc15cb6ebde01ef6f007b1bc7024229"
   },
   {
     "id": "gtm:hatchback_wagonr",
@@ -122,6 +108,7 @@
       1.65,
       3.6
     ],
+    "cube_count": 44,
     "geometry": "geometry.gtm.hatchback_wagonr",
     "variants": [
       "normal",
@@ -129,20 +116,14 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/hatchback_wagonr.geo.json",
+    "java_model_path": "creative/source/models/transport/java/hatchback_wagonr.json",
+    "icon_path": "creative/source/icons/transport/hatchback_wagonr.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.38,
-          0.58,
-          0.18
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.38,
           0.58,
           0.18
         ],
@@ -163,9 +144,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/hatchback_wagonr.geo.json",
-    "sha256": "0b64bcd28023091d847a474d573b30be979dd8991ffcaba2a6a2f9b3adf00729"
+    "sha256": "f297c439f4957d4d3334b5d45efdaac9645eb3a1dc2f45a0d8b631e5d069d2a7"
   },
   {
     "id": "gtm:hatchback_alto",
@@ -178,6 +157,7 @@
       1.45,
       3.4
     ],
+    "cube_count": 44,
     "geometry": "geometry.gtm.hatchback_alto",
     "variants": [
       "normal",
@@ -185,20 +165,14 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/hatchback_alto.geo.json",
+    "java_model_path": "creative/source/models/transport/java/hatchback_alto.json",
+    "icon_path": "creative/source/icons/transport/hatchback_alto.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.36,
-          0.51,
-          0.17
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.36,
           0.51,
           0.17
         ],
@@ -219,9 +193,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/hatchback_alto.geo.json",
-    "sha256": "1fb29068b9cfb768bff0a2bf45b1b3f9ff3070f9f0050dd6bd0931dee7989dc0"
+    "sha256": "a223b1560f3cd065174ce558033f94cec8bda93ad84c00bea9c0fd00ae0aebd3"
   },
   {
     "id": "gtm:hatchback_i10",
@@ -234,6 +206,7 @@
       1.5,
       3.8
     ],
+    "cube_count": 44,
     "geometry": "geometry.gtm.hatchback_i10",
     "variants": [
       "normal",
@@ -241,20 +214,14 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/hatchback_i10.geo.json",
+    "java_model_path": "creative/source/models/transport/java/hatchback_i10.json",
+    "icon_path": "creative/source/icons/transport/hatchback_i10.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.41,
-          0.52,
-          0.19
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.41,
           0.52,
           0.19
         ],
@@ -275,9 +242,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/hatchback_i10.geo.json",
-    "sha256": "7051f8dd5ae26b6c846194b46fddb995f4b3636f084c490726cf0dc582ee4319"
+    "sha256": "8ae04e74c5953b89927f7527b0249aa596043e631307a33d6e4e5d023bf91e34"
   },
   {
     "id": "gtm:hatchback_tiago",
@@ -290,6 +255,7 @@
       1.5,
       3.75
     ],
+    "cube_count": 44,
     "geometry": "geometry.gtm.hatchback_tiago",
     "variants": [
       "normal",
@@ -297,20 +263,14 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/hatchback_tiago.geo.json",
+    "java_model_path": "creative/source/models/transport/java/hatchback_tiago.json",
+    "icon_path": "creative/source/icons/transport/hatchback_tiago.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.41,
-          0.52,
-          0.19
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.41,
           0.52,
           0.19
         ],
@@ -331,9 +291,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/hatchback_tiago.geo.json",
-    "sha256": "9a8f0d55a956532c8e3fedd32ab9302396cddb4783beff73f8822dd79634d727"
+    "sha256": "47f8a069202c727bcc9da28770f26d050e509426a5ced94f29dd25c37f6680b1"
   },
   {
     "id": "gtm:hatchback_i20",
@@ -346,6 +304,7 @@
       1.45,
       4.0
     ],
+    "cube_count": 44,
     "geometry": "geometry.gtm.hatchback_i20",
     "variants": [
       "normal",
@@ -353,20 +312,14 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/hatchback_i20.geo.json",
+    "java_model_path": "creative/source/models/transport/java/hatchback_i20.json",
+    "icon_path": "creative/source/icons/transport/hatchback_i20.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.44,
-          0.51,
-          0.2
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.44,
           0.51,
           0.2
         ],
@@ -387,9 +340,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/hatchback_i20.geo.json",
-    "sha256": "b7edd111a74581124b114dc7c6415dedb81c067aa327f21e7364eec9bae8e09e"
+    "sha256": "da5a6379896f46a1f532974b740af7316d57f0aec67248b73dbcfbbcfb5e495b"
   },
   {
     "id": "gtm:sedan_dzire",
@@ -402,6 +353,7 @@
       1.5,
       4.0
     ],
+    "cube_count": 45,
     "geometry": "geometry.gtm.sedan_dzire",
     "variants": [
       "normal",
@@ -409,6 +361,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/sedan_dzire.geo.json",
+    "java_model_path": "creative/source/models/transport/java/sedan_dzire.json",
+    "icon_path": "creative/source/icons/transport/sedan_dzire.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -416,33 +371,6 @@
           -0.42,
           0.52,
           0.2
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.42,
-          0.52,
-          0.2
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.42,
-          0.52,
-          -1.0
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.42,
-          0.52,
-          -1.0
         ],
         "yaw": 0
       }
@@ -461,9 +389,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/sedan_dzire.geo.json",
-    "sha256": "cc3d140f01bebd35d9170ab072f92fe24cd03c434b82b1adfb71cf59cd924138"
+    "sha256": "ce8ec7fccf17edc1281e70acf8da80ab104b1ee1099b97333867e54f78f3f53c"
   },
   {
     "id": "gtm:sedan_aura",
@@ -476,6 +402,7 @@
       1.5,
       3.99
     ],
+    "cube_count": 45,
     "geometry": "geometry.gtm.sedan_aura",
     "variants": [
       "normal",
@@ -483,6 +410,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/sedan_aura.geo.json",
+    "java_model_path": "creative/source/models/transport/java/sedan_aura.json",
+    "icon_path": "creative/source/icons/transport/sedan_aura.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -490,33 +420,6 @@
           -0.42,
           0.52,
           0.2
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.42,
-          0.52,
-          0.2
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.42,
-          0.52,
-          -1.0
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.42,
-          0.52,
-          -1.0
         ],
         "yaw": 0
       }
@@ -535,9 +438,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/sedan_aura.geo.json",
-    "sha256": "0e5444a5e7bca4d189a3c5993478c3c8401371abcb01e777b408b069b4a63743"
+    "sha256": "98e9b6273805987fd9e2ef64f6df893b8bbcecb178c8a5685068432b2bca7fe1"
   },
   {
     "id": "gtm:sedan_amaze",
@@ -550,6 +451,7 @@
       1.5,
       4.0
     ],
+    "cube_count": 45,
     "geometry": "geometry.gtm.sedan_amaze",
     "variants": [
       "normal",
@@ -557,6 +459,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/sedan_amaze.geo.json",
+    "java_model_path": "creative/source/models/transport/java/sedan_amaze.json",
+    "icon_path": "creative/source/icons/transport/sedan_amaze.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -564,33 +469,6 @@
           -0.42,
           0.52,
           0.2
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.42,
-          0.52,
-          0.2
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.42,
-          0.52,
-          -1.0
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.42,
-          0.52,
-          -1.0
         ],
         "yaw": 0
       }
@@ -609,9 +487,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/sedan_amaze.geo.json",
-    "sha256": "68996e0b480b8c9271eaf11ec429e225f1d98793768dfbe8795c81b6500b0def"
+    "sha256": "1c2661ee09d19acc187518dbd0ee6f0c23780a56b8a0e0e2b50ac78b4900b2b3"
   },
   {
     "id": "gtm:sedan_verna",
@@ -624,6 +500,7 @@
       1.48,
       4.4
     ],
+    "cube_count": 45,
     "geometry": "geometry.gtm.sedan_verna",
     "variants": [
       "normal",
@@ -631,6 +508,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/sedan_verna.geo.json",
+    "java_model_path": "creative/source/models/transport/java/sedan_verna.json",
+    "icon_path": "creative/source/icons/transport/sedan_verna.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -638,33 +518,6 @@
           -0.44,
           0.52,
           0.22
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.44,
-          0.52,
-          0.22
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.44,
-          0.52,
-          -1.1
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.44,
-          0.52,
-          -1.1
         ],
         "yaw": 0
       }
@@ -683,9 +536,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/sedan_verna.geo.json",
-    "sha256": "ee2f0d764e1b731a72e2090f113f4d9e8e82d952a25d63576d2ff3fa6c48e0cb"
+    "sha256": "b4681affe51287c0d966061a3761f53ed30a3b434707d0c2f3e0f21d170d6d01"
   },
   {
     "id": "gtm:sedan_city",
@@ -698,6 +549,7 @@
       1.48,
       4.5
     ],
+    "cube_count": 45,
     "geometry": "geometry.gtm.sedan_city",
     "variants": [
       "normal",
@@ -705,6 +557,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/sedan_city.geo.json",
+    "java_model_path": "creative/source/models/transport/java/sedan_city.json",
+    "icon_path": "creative/source/icons/transport/sedan_city.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -712,33 +567,6 @@
           -0.43,
           0.52,
           0.23
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.43,
-          0.52,
-          0.23
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.43,
-          0.52,
-          -1.12
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.43,
-          0.52,
-          -1.12
         ],
         "yaw": 0
       }
@@ -757,9 +585,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/sedan_city.geo.json",
-    "sha256": "9143c0735158eb6abb60f9c915a8cc6ca6e42cc0152f1b59138e202b21e37799"
+    "sha256": "0c2f30c28884e4284b96a81cb610d0e8d99beb604be46413a3f0fac1f8928773"
   },
   {
     "id": "gtm:sedan_slavia",
@@ -772,6 +598,7 @@
       1.5,
       4.54
     ],
+    "cube_count": 45,
     "geometry": "geometry.gtm.sedan_slavia",
     "variants": [
       "normal",
@@ -779,6 +606,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/sedan_slavia.geo.json",
+    "java_model_path": "creative/source/models/transport/java/sedan_slavia.json",
+    "icon_path": "creative/source/icons/transport/sedan_slavia.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -786,33 +616,6 @@
           -0.44,
           0.52,
           0.23
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.44,
-          0.52,
-          0.23
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.44,
-          0.52,
-          -1.14
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.44,
-          0.52,
-          -1.14
         ],
         "yaw": 0
       }
@@ -831,9 +634,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/sedan_slavia.geo.json",
-    "sha256": "d6f5260aa2ff502e98a8c7838f8222ad816a86e91ad052f4e2b4373c0ff577bb"
+    "sha256": "53eda398326a0bd4745a9be82184debbd9ec2bc304a03cf48a1cf178b2bc2a74"
   },
   {
     "id": "gtm:suv_thar",
@@ -846,6 +647,7 @@
       1.9,
       4.0
     ],
+    "cube_count": 51,
     "geometry": "geometry.gtm.suv_thar",
     "variants": [
       "normal",
@@ -853,6 +655,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/suv_thar.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_thar.json",
+    "icon_path": "creative/source/icons/transport/suv_thar.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -860,33 +665,6 @@
           -0.46,
           0.66,
           0.2
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.46,
-          0.66,
-          0.2
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.46,
-          0.66,
-          -1.0
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.46,
-          0.66,
-          -1.0
         ],
         "yaw": 0
       }
@@ -905,9 +683,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/suv_thar.geo.json",
-    "sha256": "ae634c28b7b9840a38e5d90a2dc85c768a48144ce2ed87ee2a9d60de7fadd500"
+    "sha256": "48663558bd527db78e2dd3101656bc11b8574181c29aadb5b6902ed5200d2616"
   },
   {
     "id": "gtm:suv_scorpio",
@@ -920,6 +696,7 @@
       1.85,
       4.66
     ],
+    "cube_count": 44,
     "geometry": "geometry.gtm.suv_scorpio",
     "variants": [
       "normal",
@@ -927,6 +704,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/suv_scorpio.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_scorpio.json",
+    "icon_path": "creative/source/icons/transport/suv_scorpio.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -934,33 +714,6 @@
           -0.47,
           0.65,
           0.23
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.47,
-          0.65,
-          0.23
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.47,
-          0.65,
-          -1.17
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.47,
-          0.65,
-          -1.17
         ],
         "yaw": 0
       }
@@ -979,9 +732,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/suv_scorpio.geo.json",
-    "sha256": "fee3f58d1822c2314d1bf17ce53c846c5545d15514038fe7a721dd783d2ec710"
+    "sha256": "9651efc8f41d839c6cbdc296574ec253b2305236e58052779ada37e31a0eef92"
   },
   {
     "id": "gtm:suv_bolero",
@@ -994,6 +745,7 @@
       1.88,
       4.1
     ],
+    "cube_count": 44,
     "geometry": "geometry.gtm.suv_bolero",
     "variants": [
       "normal",
@@ -1001,6 +753,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/suv_bolero.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_bolero.json",
+    "icon_path": "creative/source/icons/transport/suv_bolero.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -1008,33 +763,6 @@
           -0.44,
           0.66,
           0.2
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.44,
-          0.66,
-          0.2
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.44,
-          0.66,
-          -1.02
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.44,
-          0.66,
-          -1.02
         ],
         "yaw": 0
       }
@@ -1053,9 +781,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/suv_bolero.geo.json",
-    "sha256": "d00ece715d24b2f202c6d42bc00713e94bec46c80dc356026a0b2a76b7b01b0f"
+    "sha256": "0d5e4cab5447f83c58a672fdefbcf7a90c2e5a5e26de801f2beae751aa9762df"
   },
   {
     "id": "gtm:suv_xuv700",
@@ -1068,6 +794,7 @@
       1.75,
       4.7
     ],
+    "cube_count": 44,
     "geometry": "geometry.gtm.suv_xuv700",
     "variants": [
       "normal",
@@ -1075,6 +802,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/suv_xuv700.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_xuv700.json",
+    "icon_path": "creative/source/icons/transport/suv_xuv700.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -1082,33 +812,6 @@
           -0.47,
           0.61,
           0.24
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.47,
-          0.61,
-          0.24
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.47,
-          0.61,
-          -1.18
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.47,
-          0.61,
-          -1.18
         ],
         "yaw": 0
       }
@@ -1127,9 +830,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/suv_xuv700.geo.json",
-    "sha256": "4fb9bda31493bed970e471924ab804a709a0964deff03fa94801aa0d7b7ea1e8"
+    "sha256": "d030778763ea9bdfefaa4422c04340ac7ee2a1672f39e15cc47d6ee39ee75920"
   },
   {
     "id": "gtm:suv_fortuner",
@@ -1142,6 +843,7 @@
       1.83,
       4.8
     ],
+    "cube_count": 51,
     "geometry": "geometry.gtm.suv_fortuner",
     "variants": [
       "normal",
@@ -1149,6 +851,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/suv_fortuner.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_fortuner.json",
+    "icon_path": "creative/source/icons/transport/suv_fortuner.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -1156,33 +861,6 @@
           -0.46,
           0.64,
           0.24
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.46,
-          0.64,
-          0.24
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.46,
-          0.64,
-          -1.2
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.46,
-          0.64,
-          -1.2
         ],
         "yaw": 0
       }
@@ -1201,9 +879,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/suv_fortuner.geo.json",
-    "sha256": "4d9324e3bbb0bbce5f681bed22ac32a93aba0d9a6a00cdbc220218345c9b39e1"
+    "sha256": "8ef1f16e1c7d4df7472f03879175099e03a97ac6612693a02547a77ab382fe69"
   },
   {
     "id": "gtm:suv_safari",
@@ -1216,6 +892,7 @@
       1.78,
       4.67
     ],
+    "cube_count": 51,
     "geometry": "geometry.gtm.suv_safari",
     "variants": [
       "normal",
@@ -1223,6 +900,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/suv_safari.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_safari.json",
+    "icon_path": "creative/source/icons/transport/suv_safari.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -1230,33 +910,6 @@
           -0.47,
           0.62,
           0.23
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.47,
-          0.62,
-          0.23
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.47,
-          0.62,
-          -1.17
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.47,
-          0.62,
-          -1.17
         ],
         "yaw": 0
       }
@@ -1275,9 +928,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/suv_safari.geo.json",
-    "sha256": "132ed39fe7b44ec4fe79ff9aedd559c7e08afda1eedb8668680b830aa986ecb1"
+    "sha256": "7e75c10b05e3717bea6ed22428897aeaef74a10ae5481d6bc26a768dfaed4c9e"
   },
   {
     "id": "gtm:suv_harrier",
@@ -1290,6 +941,7 @@
       1.7,
       4.6
     ],
+    "cube_count": 44,
     "geometry": "geometry.gtm.suv_harrier",
     "variants": [
       "normal",
@@ -1297,6 +949,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/suv_harrier.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_harrier.json",
+    "icon_path": "creative/source/icons/transport/suv_harrier.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -1304,33 +959,6 @@
           -0.47,
           0.59,
           0.23
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.47,
-          0.59,
-          0.23
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.47,
-          0.59,
-          -1.15
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.47,
-          0.59,
-          -1.15
         ],
         "yaw": 0
       }
@@ -1349,9 +977,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/suv_harrier.geo.json",
-    "sha256": "db7123f22bd666eed8ef953bb7162a1c6d453a6d85d91178cdb1b0f9742ff2d2"
+    "sha256": "bfcab7c953f2a4404d23ba84414a06e1df431cd687317fad61b35eeaa2394366"
   },
   {
     "id": "gtm:suv_nexon",
@@ -1364,6 +990,7 @@
       1.6,
       3.99
     ],
+    "cube_count": 44,
     "geometry": "geometry.gtm.suv_nexon",
     "variants": [
       "normal",
@@ -1371,6 +998,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/suv_nexon.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_nexon.json",
+    "icon_path": "creative/source/icons/transport/suv_nexon.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -1378,33 +1008,6 @@
           -0.45,
           0.56,
           0.2
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.45,
-          0.56,
-          0.2
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.45,
-          0.56,
-          -1.0
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.45,
-          0.56,
-          -1.0
         ],
         "yaw": 0
       }
@@ -1423,9 +1026,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/suv_nexon.geo.json",
-    "sha256": "a8ddd0589efe6727fc286f8434f815d75c67ffa7e79c1a2c00cda82966c7278c"
+    "sha256": "81854c7d905f5f4293c5ccce599a7b9ac9b983b5d03cb7363b537fda3daa956a"
   },
   {
     "id": "gtm:suv_punch",
@@ -1438,6 +1039,7 @@
       1.6,
       3.82
     ],
+    "cube_count": 44,
     "geometry": "geometry.gtm.suv_punch",
     "variants": [
       "normal",
@@ -1445,6 +1047,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/suv_punch.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_punch.json",
+    "icon_path": "creative/source/icons/transport/suv_punch.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -1452,33 +1057,6 @@
           -0.43,
           0.56,
           0.19
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.43,
-          0.56,
-          0.19
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.43,
-          0.56,
-          -0.95
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.43,
-          0.56,
-          -0.95
         ],
         "yaw": 0
       }
@@ -1497,9 +1075,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/suv_punch.geo.json",
-    "sha256": "5a35e91c3a0b6a61129367cccfca881c8cfe5ee25cda25651ad69546ea9a1e49"
+    "sha256": "fbe681dd0dca7138239c0999c2df8800dbec58b0dd229a9e1d30587e9028a24e"
   },
   {
     "id": "gtm:suv_creta",
@@ -1512,6 +1088,7 @@
       1.63,
       4.3
     ],
+    "cube_count": 44,
     "geometry": "geometry.gtm.suv_creta",
     "variants": [
       "normal",
@@ -1519,6 +1096,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/suv_creta.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_creta.json",
+    "icon_path": "creative/source/icons/transport/suv_creta.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -1526,33 +1106,6 @@
           -0.45,
           0.57,
           0.21
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.45,
-          0.57,
-          0.21
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.45,
-          0.57,
-          -1.07
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.45,
-          0.57,
-          -1.07
         ],
         "yaw": 0
       }
@@ -1571,9 +1124,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/suv_creta.geo.json",
-    "sha256": "5f473316d79e47d69a9f571226087164f8e0ab10c2e971429bc15ddf7b49ab21"
+    "sha256": "a0aacc8a4c4120dacd6e4188276ff4b84ef9278ffa46d8354aff63be48fe5a9a"
   },
   {
     "id": "gtm:suv_seltos",
@@ -1586,6 +1137,7 @@
       1.64,
       4.36
     ],
+    "cube_count": 44,
     "geometry": "geometry.gtm.suv_seltos",
     "variants": [
       "normal",
@@ -1593,6 +1145,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/suv_seltos.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_seltos.json",
+    "icon_path": "creative/source/icons/transport/suv_seltos.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -1600,33 +1155,6 @@
           -0.45,
           0.57,
           0.22
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.45,
-          0.57,
-          0.22
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.45,
-          0.57,
-          -1.09
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.45,
-          0.57,
-          -1.09
         ],
         "yaw": 0
       }
@@ -1645,9 +1173,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/suv_seltos.geo.json",
-    "sha256": "f32d264c45166ea8b49805bed17a2e753c2cdf928d3831697b6be9e4e4d22f9d"
+    "sha256": "e8ddb48e39c87c640696511119a8686516c9d3be97fcc41d9264184b99b39c7e"
   },
   {
     "id": "gtm:suv_jimny",
@@ -1660,6 +1186,7 @@
       1.72,
       3.98
     ],
+    "cube_count": 51,
     "geometry": "geometry.gtm.suv_jimny",
     "variants": [
       "normal",
@@ -1667,6 +1194,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/suv_jimny.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_jimny.json",
+    "icon_path": "creative/source/icons/transport/suv_jimny.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -1674,33 +1204,6 @@
           -0.41,
           0.6,
           0.2
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.41,
-          0.6,
-          0.2
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.41,
-          0.6,
-          -0.99
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.41,
-          0.6,
-          -0.99
         ],
         "yaw": 0
       }
@@ -1719,9 +1222,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/suv_jimny.geo.json",
-    "sha256": "20b607ce466727f9df37263f71950ad01e90f29be05e817ed6075fa35a269a9d"
+    "sha256": "f6d95514488ee837d82dcd4a97f45ef9d8f7dc95dec147633102b7b19a21338b"
   },
   {
     "id": "gtm:luxury_series3",
@@ -1734,6 +1235,7 @@
       1.44,
       4.7
     ],
+    "cube_count": 45,
     "geometry": "geometry.gtm.luxury_series3",
     "variants": [
       "normal",
@@ -1741,6 +1243,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/luxury_series3.geo.json",
+    "java_model_path": "creative/source/models/transport/java/luxury_series3.json",
+    "icon_path": "creative/source/icons/transport/luxury_series3.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -1748,33 +1253,6 @@
           -0.46,
           0.5,
           0.24
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.46,
-          0.5,
-          0.24
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.46,
-          0.5,
-          -1.18
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.46,
-          0.5,
-          -1.18
         ],
         "yaw": 0
       }
@@ -1793,9 +1271,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/luxury_series3.geo.json",
-    "sha256": "041b103fafec8789cccaf3cb886dc0cd44de257c315101d9b17b2b90a5ab0de5"
+    "sha256": "6a850cc482e143b72dcc19b4048d9f6f8038050dc1804b3e8a66fa7588d2e409"
   },
   {
     "id": "gtm:luxury_eclass",
@@ -1808,6 +1284,7 @@
       1.47,
       4.9
     ],
+    "cube_count": 45,
     "geometry": "geometry.gtm.luxury_eclass",
     "variants": [
       "normal",
@@ -1815,6 +1292,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/luxury_eclass.geo.json",
+    "java_model_path": "creative/source/models/transport/java/luxury_eclass.json",
+    "icon_path": "creative/source/icons/transport/luxury_eclass.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -1822,33 +1302,6 @@
           -0.46,
           0.51,
           0.25
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.46,
-          0.51,
-          0.25
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.46,
-          0.51,
-          -1.23
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.46,
-          0.51,
-          -1.23
         ],
         "yaw": 0
       }
@@ -1867,9 +1320,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/luxury_eclass.geo.json",
-    "sha256": "13ca07cb2eec2a02097917a8d57a3a55378f27a756e4e4c991b39e9f4321a247"
+    "sha256": "9fc1ac4c930a86b4d625b1670c3e7e654aaa752f1c895a9037746e0516600c0e"
   },
   {
     "id": "gtm:luxury_q7",
@@ -1882,6 +1333,7 @@
       1.74,
       5.06
     ],
+    "cube_count": 45,
     "geometry": "geometry.gtm.luxury_q7",
     "variants": [
       "normal",
@@ -1889,6 +1341,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/luxury_q7.geo.json",
+    "java_model_path": "creative/source/models/transport/java/luxury_q7.json",
+    "icon_path": "creative/source/icons/transport/luxury_q7.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -1896,33 +1351,6 @@
           -0.49,
           0.61,
           0.25
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.49,
-          0.61,
-          0.25
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.49,
-          0.61,
-          -1.26
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.49,
-          0.61,
-          -1.26
         ],
         "yaw": 0
       }
@@ -1941,9 +1369,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/luxury_q7.geo.json",
-    "sha256": "399d5efa2c65ee49388c717de4b7e67d262112008d35f662395dd334f8213599"
+    "sha256": "293c938365b2694ef139cab546c1a9c50d4afa72c19e83205b2c9704ef7ad1d7"
   },
   {
     "id": "gtm:luxury_x5",
@@ -1956,6 +1382,7 @@
       1.75,
       4.92
     ],
+    "cube_count": 45,
     "geometry": "geometry.gtm.luxury_x5",
     "variants": [
       "normal",
@@ -1963,6 +1390,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/luxury_x5.geo.json",
+    "java_model_path": "creative/source/models/transport/java/luxury_x5.json",
+    "icon_path": "creative/source/icons/transport/luxury_x5.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -1970,33 +1400,6 @@
           -0.5,
           0.61,
           0.25
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.5,
-          0.61,
-          0.25
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.5,
-          0.61,
-          -1.23
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.5,
-          0.61,
-          -1.23
         ],
         "yaw": 0
       }
@@ -2015,9 +1418,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/luxury_x5.geo.json",
-    "sha256": "d16385968709728f6cb168ac18bd2dc4eaf772c2de3a9638ae2708210f12221c"
+    "sha256": "8c6c4535ea87de34c555bb287e75423f52b6e4ad0ac0920c72bef642e05dace8"
   },
   {
     "id": "gtm:luxury_rangerover",
@@ -2030,6 +1431,7 @@
       1.87,
       5.05
     ],
+    "cube_count": 45,
     "geometry": "geometry.gtm.luxury_rangerover",
     "variants": [
       "normal",
@@ -2037,6 +1439,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/luxury_rangerover.geo.json",
+    "java_model_path": "creative/source/models/transport/java/luxury_rangerover.json",
+    "icon_path": "creative/source/icons/transport/luxury_rangerover.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -2044,33 +1449,6 @@
           -0.51,
           0.65,
           0.25
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.51,
-          0.65,
-          0.25
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.51,
-          0.65,
-          -1.26
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.51,
-          0.65,
-          -1.26
         ],
         "yaw": 0
       }
@@ -2089,9 +1467,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/luxury_rangerover.geo.json",
-    "sha256": "f32a6a613635daaaf4c49ce10f109ff70850f9dfceb47a3e3fb9efdf6341d79b"
+    "sha256": "ace7a291d59927faffdded8deabe90ec525fabe25d5890049d795bc97a267406"
   },
   {
     "id": "gtm:moto_splendor",
@@ -2104,26 +1480,21 @@
       1.05,
       2.0
     ],
+    "cube_count": 21,
     "geometry": "geometry.gtm.moto_splendor",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/moto_splendor.geo.json",
+    "java_model_path": "creative/source/models/transport/java/moto_splendor.json",
+    "icon_path": "creative/source/icons/transport/moto_splendor.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.19,
-          0.37,
-          0.1
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.19,
           0.37,
           0.1
         ],
@@ -2144,9 +1515,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/moto_splendor.geo.json",
-    "sha256": "d9a5a9ec2fa39df5e5a696f939844d00d2789c9d6e1f64340293ea7986a73b35"
+    "sha256": "95e72b759ecb56d3230e5fc087c345c4b0b583bfe8c83e7d53c156f224b7f142"
   },
   {
     "id": "gtm:moto_classic350",
@@ -2159,26 +1528,21 @@
       1.1,
       2.15
     ],
+    "cube_count": 21,
     "geometry": "geometry.gtm.moto_classic350",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/moto_classic350.geo.json",
+    "java_model_path": "creative/source/models/transport/java/moto_classic350.json",
+    "icon_path": "creative/source/icons/transport/moto_classic350.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.2,
-          0.39,
-          0.11
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.2,
           0.39,
           0.11
         ],
@@ -2199,9 +1563,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/moto_classic350.geo.json",
-    "sha256": "b83dd80f73f438a0cefbbc60b43d7734b090127bcbc1354394c4ed0ec0e5ca03"
+    "sha256": "89a5821060d80dbf7682a1f737c519e7da99bf30dfb9aa01c2818ffb9c9d6de7"
   },
   {
     "id": "gtm:moto_bullet350",
@@ -2214,26 +1576,21 @@
       1.12,
       2.15
     ],
+    "cube_count": 21,
     "geometry": "geometry.gtm.moto_bullet350",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/moto_bullet350.geo.json",
+    "java_model_path": "creative/source/models/transport/java/moto_bullet350.json",
+    "icon_path": "creative/source/icons/transport/moto_bullet350.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.2,
-          0.39,
-          0.11
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.2,
           0.39,
           0.11
         ],
@@ -2254,9 +1611,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/moto_bullet350.geo.json",
-    "sha256": "94b9596bb516ceb0e9f73a76c22328632bb8c2d97de48caf66dcbcfccb6742ae"
+    "sha256": "1d11f0d2fdfc7d7f24ea4b5c7b387e09f08386ab18c16e4120905947909a6912"
   },
   {
     "id": "gtm:moto_pulsar",
@@ -2269,26 +1624,21 @@
       1.15,
       2.05
     ],
+    "cube_count": 21,
     "geometry": "geometry.gtm.moto_pulsar",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/moto_pulsar.geo.json",
+    "java_model_path": "creative/source/models/transport/java/moto_pulsar.json",
+    "icon_path": "creative/source/icons/transport/moto_pulsar.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.2,
-          0.4,
-          0.1
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.2,
           0.4,
           0.1
         ],
@@ -2309,9 +1659,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/moto_pulsar.geo.json",
-    "sha256": "873d7839e2fcfd2295ed3f86491f68969da438afbd56776aea7dc17d8aa50c39"
+    "sha256": "0d0eae8a47e9eb6a85963db5ff0a790e01ce8e96b8346ac1dad9307b764a5714"
   },
   {
     "id": "gtm:moto_apache",
@@ -2324,26 +1672,21 @@
       1.1,
       2.08
     ],
+    "cube_count": 21,
     "geometry": "geometry.gtm.moto_apache",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/moto_apache.geo.json",
+    "java_model_path": "creative/source/models/transport/java/moto_apache.json",
+    "icon_path": "creative/source/icons/transport/moto_apache.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.2,
-          0.39,
-          0.1
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.2,
           0.39,
           0.1
         ],
@@ -2364,9 +1707,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/moto_apache.geo.json",
-    "sha256": "f6c7fcad3bc12e1b6d6a440248ddb0ca21d0d1ce2e080dd1d0c9cd54aa353c2f"
+    "sha256": "b88e05c3fcf0d34ff946cd78a795bd101f617430dd778f94f1dd4418dd76de9c"
   },
   {
     "id": "gtm:moto_duke",
@@ -2379,26 +1720,21 @@
       1.1,
       2.05
     ],
+    "cube_count": 22,
     "geometry": "geometry.gtm.moto_duke",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/moto_duke.geo.json",
+    "java_model_path": "creative/source/models/transport/java/moto_duke.json",
+    "icon_path": "creative/source/icons/transport/moto_duke.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.2,
-          0.39,
-          0.1
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.2,
           0.39,
           0.1
         ],
@@ -2419,9 +1755,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/moto_duke.geo.json",
-    "sha256": "ffb6fceddbb3ab5695d811b8ae0c41b67ac8d772247e03574122896226f9912d"
+    "sha256": "2876036107dc03daa982dc2abb221dea71c7f4a3d5f1ecfd7e9b7e916fb78467"
   },
   {
     "id": "gtm:moto_himalayan",
@@ -2434,26 +1768,21 @@
       1.35,
       2.2
     ],
+    "cube_count": 21,
     "geometry": "geometry.gtm.moto_himalayan",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/moto_himalayan.geo.json",
+    "java_model_path": "creative/source/models/transport/java/moto_himalayan.json",
+    "icon_path": "creative/source/icons/transport/moto_himalayan.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.21,
-          0.47,
-          0.11
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.21,
           0.47,
           0.11
         ],
@@ -2474,9 +1803,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/moto_himalayan.geo.json",
-    "sha256": "6646e6609e47fa1933d9c519f92fbd85505db5cd6857d054395b1c9e644c958d"
+    "sha256": "544317b3619711691ab1a3bc656013ecdafa1a80ac240e775c5ba1916df7cf0f"
   },
   {
     "id": "gtm:moto_r15",
@@ -2489,26 +1816,21 @@
       1.13,
       1.99
     ],
+    "cube_count": 22,
     "geometry": "geometry.gtm.moto_r15",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/moto_r15.geo.json",
+    "java_model_path": "creative/source/models/transport/java/moto_r15.json",
+    "icon_path": "creative/source/icons/transport/moto_r15.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.18,
-          0.4,
-          0.1
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.18,
           0.4,
           0.1
         ],
@@ -2529,9 +1851,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/moto_r15.geo.json",
-    "sha256": "552642c6431729c7b376b657bb19b52bb64bcda1bf4357ee1cfd92ab114b0d37"
+    "sha256": "a995224beaea56080a44a2cd3355f2bcf2c6249114e052a7bc56e2f2c68db41f"
   },
   {
     "id": "gtm:scooter_activa",
@@ -2544,26 +1864,21 @@
       1.15,
       1.83
     ],
+    "cube_count": 22,
     "geometry": "geometry.gtm.scooter_activa",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/scooter_activa.geo.json",
+    "java_model_path": "creative/source/models/transport/java/scooter_activa.json",
+    "icon_path": "creative/source/icons/transport/scooter_activa.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.17,
-          0.4,
-          0.09
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.17,
           0.4,
           0.09
         ],
@@ -2584,9 +1899,7 @@
         ]
       }
     ],
-    "delivery_livery": "zomatoo_swiffy_ready",
-    "json_path": "creative/source/models/transport/scooter_activa.geo.json",
-    "sha256": "fee29e6e5599036f19f3f55a2865449ca1374a162cdd3667cb4c515579a7221f"
+    "sha256": "1449857c2fa4b0ca66277e483c5c89d8ba97dc52a45d28b6cbb505881d373591"
   },
   {
     "id": "gtm:scooter_jupiter",
@@ -2599,26 +1912,21 @@
       1.15,
       1.83
     ],
+    "cube_count": 22,
     "geometry": "geometry.gtm.scooter_jupiter",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/scooter_jupiter.geo.json",
+    "java_model_path": "creative/source/models/transport/java/scooter_jupiter.json",
+    "icon_path": "creative/source/icons/transport/scooter_jupiter.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.17,
-          0.4,
-          0.09
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.17,
           0.4,
           0.09
         ],
@@ -2639,9 +1947,7 @@
         ]
       }
     ],
-    "delivery_livery": "zomatoo_swiffy_ready",
-    "json_path": "creative/source/models/transport/scooter_jupiter.geo.json",
-    "sha256": "d5f1b6b1f740c71946f3de518b5177b240446d90f7538ba5046021e408aa453f"
+    "sha256": "b98c9e9207df329f383f6b040dbdcd876eda44e402618941b4f0ab3ae0da9b11"
   },
   {
     "id": "gtm:scooter_access",
@@ -2654,26 +1960,21 @@
       1.16,
       1.87
     ],
+    "cube_count": 22,
     "geometry": "geometry.gtm.scooter_access",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/scooter_access.geo.json",
+    "java_model_path": "creative/source/models/transport/java/scooter_access.json",
+    "icon_path": "creative/source/icons/transport/scooter_access.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.17,
-          0.41,
-          0.09
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.17,
           0.41,
           0.09
         ],
@@ -2694,9 +1995,7 @@
         ]
       }
     ],
-    "delivery_livery": "zomatoo_swiffy_ready",
-    "json_path": "creative/source/models/transport/scooter_access.geo.json",
-    "sha256": "7993e946610a5ea715860700b9cbaa382525c461d6e40416f3f66af3acc58463"
+    "sha256": "bcebef8008badb11ab5f8cfa80b9007274ca063dc1c1c393d64516bac517b31b"
   },
   {
     "id": "gtm:scooter_ather",
@@ -2709,26 +2008,21 @@
       1.25,
       1.81
     ],
+    "cube_count": 22,
     "geometry": "geometry.gtm.scooter_ather",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/scooter_ather.geo.json",
+    "java_model_path": "creative/source/models/transport/java/scooter_ather.json",
+    "icon_path": "creative/source/icons/transport/scooter_ather.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.18,
-          0.44,
-          0.09
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.18,
           0.44,
           0.09
         ],
@@ -2749,9 +2043,7 @@
         ]
       }
     ],
-    "delivery_livery": "zomatoo_swiffy_ready",
-    "json_path": "creative/source/models/transport/scooter_ather.geo.json",
-    "sha256": "c5dfa893508aec1b7288d183dffa63be1228006493481969be75d46744126e7f"
+    "sha256": "07ef7e7cbe366bab10b38af1a6ca1903ad4dea9025f3c5ac6e9d93ad7b3b1d92"
   },
   {
     "id": "gtm:rickshaw_traditional",
@@ -2764,26 +2056,21 @@
       1.75,
       2.6
     ],
+    "cube_count": 28,
     "geometry": "geometry.gtm.rickshaw_traditional",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/rickshaw_traditional.geo.json",
+    "java_model_path": "creative/source/models/transport/java/rickshaw_traditional.json",
+    "icon_path": "creative/source/icons/transport/rickshaw_traditional.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.33,
-          0.61,
-          0.13
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.33,
           0.61,
           0.13
         ],
@@ -2804,9 +2091,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/rickshaw_traditional.geo.json",
-    "sha256": "3cea18ac207984608b0e3c7f5fca6629686e08fa293c98194726c100a16d6a08"
+    "sha256": "b0ce58937868c3afaa24d4e964613c9fffa170ff0b207cafaae4e78251b07232"
   },
   {
     "id": "gtm:rickshaw_electric",
@@ -2819,26 +2104,21 @@
       1.8,
       2.75
     ],
+    "cube_count": 28,
     "geometry": "geometry.gtm.rickshaw_electric",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/rickshaw_electric.geo.json",
+    "java_model_path": "creative/source/models/transport/java/rickshaw_electric.json",
+    "icon_path": "creative/source/icons/transport/rickshaw_electric.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.25,
-          0.63,
-          0.14
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.25,
           0.63,
           0.14
         ],
@@ -2859,9 +2139,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/rickshaw_electric.geo.json",
-    "sha256": "d440293ea1c30fab4fc6904afa21301a7d1a3c6787ee561a25cfc10ec8e16d2b"
+    "sha256": "547666b02fecbd732d86dc5797e428d01d70b9bdd1588f657d0ffe419083fecd"
   },
   {
     "id": "gtm:rickshaw_cargo",
@@ -2874,26 +2152,21 @@
       1.75,
       3.1
     ],
+    "cube_count": 28,
     "geometry": "geometry.gtm.rickshaw_cargo",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/rickshaw_cargo.geo.json",
+    "java_model_path": "creative/source/models/transport/java/rickshaw_cargo.json",
+    "icon_path": "creative/source/icons/transport/rickshaw_cargo.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.35,
-          0.61,
-          0.16
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.35,
           0.61,
           0.16
         ],
@@ -2914,9 +2187,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/rickshaw_cargo.geo.json",
-    "sha256": "d8eb4070dc3dd6220613856372dc42a5d86ae4aeb58c8ce6f10a6ace96c35425"
+    "sha256": "9b3ef5469799b76375e6fe9debc307cce8af3672fe827369bf28629e441a1283"
   },
   {
     "id": "gtm:bus_single_deck",
@@ -2929,26 +2200,21 @@
       3.2,
       11.5
     ],
+    "cube_count": 30,
     "geometry": "geometry.gtm.bus_single_deck",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/bus_single_deck.geo.json",
+    "java_model_path": "creative/source/models/transport/java/bus_single_deck.json",
+    "icon_path": "creative/source/icons/transport/bus_single_deck.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.62,
-          1.12,
-          0.58
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.62,
           1.12,
           0.58
         ],
@@ -2969,9 +2235,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/bus_single_deck.geo.json",
-    "sha256": "0737819e9c5cd43047dafcac38fb5572e85e5a22d3aa05b94f956e0fa10030d5"
+    "sha256": "8a4cca21fbce0ea47cc289eb90efd1ad7dcc10d86eab096a283ed4ac7da7659e"
   },
   {
     "id": "gtm:bus_double_deck",
@@ -2984,26 +2248,21 @@
       4.4,
       10.5
     ],
+    "cube_count": 32,
     "geometry": "geometry.gtm.bus_double_deck",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/bus_double_deck.geo.json",
+    "java_model_path": "creative/source/models/transport/java/bus_double_deck.json",
+    "icon_path": "creative/source/icons/transport/bus_double_deck.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.62,
-          1.54,
-          0.53
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.62,
           1.54,
           0.53
         ],
@@ -3024,9 +2283,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/bus_double_deck.geo.json",
-    "sha256": "44c8fb274955ea61bc9d958ac04f039215e339cf6d7f824bac00d7c99c8fe1d3"
+    "sha256": "24344924bb40bab094f1b62518d1fd6d36c36c26df4f99767caa88f87efbe14f"
   },
   {
     "id": "gtm:bus_minibus",
@@ -3039,26 +2296,21 @@
       2.8,
       6.8
     ],
+    "cube_count": 30,
     "geometry": "geometry.gtm.bus_minibus",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/bus_minibus.geo.json",
+    "java_model_path": "creative/source/models/transport/java/bus_minibus.json",
+    "icon_path": "creative/source/icons/transport/bus_minibus.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.53,
-          0.98,
-          0.34
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.53,
           0.98,
           0.34
         ],
@@ -3079,9 +2331,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/bus_minibus.geo.json",
-    "sha256": "c2c7e24cd574bdd57ea71d3f84894c4f0b9fb6eeac793a77a22f9f1896c92ed4"
+    "sha256": "7cfc17e5ec272e41b143d657711fd05ffeaaa0ebaa04f60d0c4022da96400076"
   },
   {
     "id": "gtm:bus_intercity_coach",
@@ -3094,26 +2344,21 @@
       3.6,
       13.5
     ],
+    "cube_count": 30,
     "geometry": "geometry.gtm.bus_intercity_coach",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/bus_intercity_coach.geo.json",
+    "java_model_path": "creative/source/models/transport/java/bus_intercity_coach.json",
+    "icon_path": "creative/source/icons/transport/bus_intercity_coach.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.65,
-          1.26,
-          0.68
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.65,
           1.26,
           0.68
         ],
@@ -3134,9 +2379,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/bus_intercity_coach.geo.json",
-    "sha256": "4599513f54b22450ecdeb43018611c61ab0276dbbf6ee4eb7a6b88e38861160e"
+    "sha256": "37e8756cf25bc68e0b7bd8daaddafd21ae67cd6223957c5aaf0452bf2bf2e4f6"
   },
   {
     "id": "gtm:comm_mini_cargo",
@@ -3149,26 +2392,21 @@
       1.85,
       3.8
     ],
+    "cube_count": 31,
     "geometry": "geometry.gtm.comm_mini_cargo",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/comm_mini_cargo.geo.json",
+    "java_model_path": "creative/source/models/transport/java/comm_mini_cargo.json",
+    "icon_path": "creative/source/icons/transport/comm_mini_cargo.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.38,
-          0.65,
-          0.19
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.38,
           0.65,
           0.19
         ],
@@ -3189,9 +2427,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/comm_mini_cargo.geo.json",
-    "sha256": "89627dd865748b8ea69932d7bfe477d374b7579440871bf3943ff281614f19a5"
+    "sha256": "05bdb5fa2abc598fd269ee17f749a3b46cd2a6f13d8b870ebf4825471ebb5efd"
   },
   {
     "id": "gtm:comm_pickup",
@@ -3204,26 +2440,21 @@
       1.9,
       4.9
     ],
+    "cube_count": 31,
     "geometry": "geometry.gtm.comm_pickup",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/comm_pickup.geo.json",
+    "java_model_path": "creative/source/models/transport/java/comm_pickup.json",
+    "icon_path": "creative/source/icons/transport/comm_pickup.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.42,
-          0.66,
-          0.25
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.42,
           0.66,
           0.25
         ],
@@ -3244,9 +2475,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/comm_pickup.geo.json",
-    "sha256": "fb9e7eb411ba5eeb145c0936bf3b1f80e965370a9a303fedc1bc77c62d43294c"
+    "sha256": "9d63065dde50ac996727b9be371813cbf573a03421844e12986e390df944cfa8"
   },
   {
     "id": "gtm:comm_light_truck",
@@ -3259,26 +2488,21 @@
       2.6,
       5.5
     ],
+    "cube_count": 31,
     "geometry": "geometry.gtm.comm_light_truck",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/comm_light_truck.geo.json",
+    "java_model_path": "creative/source/models/transport/java/comm_light_truck.json",
+    "icon_path": "creative/source/icons/transport/comm_light_truck.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.53,
-          0.91,
-          0.28
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.53,
           0.91,
           0.28
         ],
@@ -3299,9 +2523,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/comm_light_truck.geo.json",
-    "sha256": "1b6571f4082b85429b03351186683ecdde19b77f33d0facda07a7ee44839355a"
+    "sha256": "1a7d0127966c4af4817a1faee470442cfae032bee75a29b853da2af852d49711"
   },
   {
     "id": "gtm:comm_medium_truck",
@@ -3314,26 +2536,21 @@
       3.1,
       8.2
     ],
+    "cube_count": 31,
     "geometry": "geometry.gtm.comm_medium_truck",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/comm_medium_truck.geo.json",
+    "java_model_path": "creative/source/models/transport/java/comm_medium_truck.json",
+    "icon_path": "creative/source/icons/transport/comm_medium_truck.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.6,
-          1.08,
-          0.41
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.6,
           1.08,
           0.41
         ],
@@ -3354,9 +2571,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/comm_medium_truck.geo.json",
-    "sha256": "970da482438f0748ee9f48b867cdbf5f4a96b5cd2b30d6e6013f44fc7f26bf24"
+    "sha256": "dc9a4c53242bf5bce0ac886f98e684ca51741afdb58cafc4131830892c32c993"
   },
   {
     "id": "gtm:comm_tipper",
@@ -3369,26 +2584,21 @@
       3.5,
       7.8
     ],
+    "cube_count": 28,
     "geometry": "geometry.gtm.comm_tipper",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/comm_tipper.geo.json",
+    "java_model_path": "creative/source/models/transport/java/comm_tipper.json",
+    "icon_path": "creative/source/icons/transport/comm_tipper.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.62,
-          1.22,
-          0.39
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.62,
           1.22,
           0.39
         ],
@@ -3409,9 +2619,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/comm_tipper.geo.json",
-    "sha256": "708a63d62cfc1c881f45274fe99fca1b789d5d82183acefd1c7e7893c8a9b5d3"
+    "sha256": "266eff18b10dc69889d20c863443fdf76619a75bbf5faabddcd4031900302873"
   },
   {
     "id": "gtm:comm_container",
@@ -3424,26 +2632,21 @@
       3.9,
       14.0
     ],
+    "cube_count": 28,
     "geometry": "geometry.gtm.comm_container",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/comm_container.geo.json",
+    "java_model_path": "creative/source/models/transport/java/comm_container.json",
+    "icon_path": "creative/source/icons/transport/comm_container.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.64,
-          1.36,
-          0.7
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.64,
           1.36,
           0.7
         ],
@@ -3464,9 +2667,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/comm_container.geo.json",
-    "sha256": "af446cf71af601f2f5503df540d3593895d361652f9c6f1f2a909a5539f42435"
+    "sha256": "f66d347c0c3ddad01c899ef805cbb18426481c6b4961dc3c2922bd3e1c6f4d62"
   },
   {
     "id": "gtm:comm_delivery_van",
@@ -3479,26 +2680,21 @@
       1.95,
       3.9
     ],
+    "cube_count": 27,
     "geometry": "geometry.gtm.comm_delivery_van",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/comm_delivery_van.geo.json",
+    "java_model_path": "creative/source/models/transport/java/comm_delivery_van.json",
+    "icon_path": "creative/source/icons/transport/comm_delivery_van.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.4,
-          0.68,
-          0.2
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.4,
           0.68,
           0.2
         ],
@@ -3519,9 +2715,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/comm_delivery_van.geo.json",
-    "sha256": "21d96675232a1627da25c1cf4c6effd69946c36e35d5219966efdb085e51c50b"
+    "sha256": "302aca1f0b137c136e2e81de728f84226bcc92af85d7333c09a501805643a81e"
   },
   {
     "id": "gtm:emerg_police_suv",
@@ -3534,6 +2728,7 @@
       1.95,
       4.7
     ],
+    "cube_count": 48,
     "geometry": "geometry.gtm.emerg_police_suv",
     "variants": [
       "normal",
@@ -3541,6 +2736,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/emerg_police_suv.geo.json",
+    "java_model_path": "creative/source/models/transport/java/emerg_police_suv.json",
+    "icon_path": "creative/source/icons/transport/emerg_police_suv.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -3548,33 +2746,6 @@
           -0.47,
           0.68,
           0.24
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.47,
-          0.68,
-          0.24
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.47,
-          0.68,
-          -1.18
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.47,
-          0.68,
-          -1.18
         ],
         "yaw": 0
       }
@@ -3593,9 +2764,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/emerg_police_suv.geo.json",
-    "sha256": "514dccdfb1fb71eabd8fb6822ee8b06e567a781981a7a2ff8b94162abf047390"
+    "sha256": "9d6a470700725fb29d1e7d84b119e2cb674ef084087d3c78ed5e995044190555"
   },
   {
     "id": "gtm:emerg_patrol_sedan",
@@ -3608,6 +2777,7 @@
       1.55,
       4.0
     ],
+    "cube_count": 48,
     "geometry": "geometry.gtm.emerg_patrol_sedan",
     "variants": [
       "normal",
@@ -3615,6 +2785,9 @@
       "critical",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/emerg_patrol_sedan.geo.json",
+    "java_model_path": "creative/source/models/transport/java/emerg_patrol_sedan.json",
+    "icon_path": "creative/source/icons/transport/emerg_patrol_sedan.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -3622,33 +2795,6 @@
           -0.42,
           0.54,
           0.2
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.42,
-          0.54,
-          0.2
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.42,
-          0.54,
-          -1.0
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.42,
-          0.54,
-          -1.0
         ],
         "yaw": 0
       }
@@ -3667,9 +2813,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/emerg_patrol_sedan.geo.json",
-    "sha256": "d33c4dbc1052e3a14408e275df1ecf7ad47acc4cec2a9d42a619270ebbcec621"
+    "sha256": "c718708dcf1db29302dcd7e217ad4fca84c98cff897556af424efd5564570e4e"
   },
   {
     "id": "gtm:emerg_ambulance",
@@ -3682,12 +2826,16 @@
       2.45,
       5.2
     ],
+    "cube_count": 31,
     "geometry": "geometry.gtm.emerg_ambulance",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/emerg_ambulance.geo.json",
+    "java_model_path": "creative/source/models/transport/java/emerg_ambulance.json",
+    "icon_path": "creative/source/icons/transport/emerg_ambulance.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -3695,33 +2843,6 @@
           -0.49,
           0.86,
           0.26
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.49,
-          0.86,
-          0.26
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.49,
-          0.86,
-          -1.3
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.49,
-          0.86,
-          -1.3
         ],
         "yaw": 0
       }
@@ -3740,9 +2861,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/emerg_ambulance.geo.json",
-    "sha256": "6af4fe65ca4100c4c79e53ac74f024e1e943e6154ca3e23863de934216b604a8"
+    "sha256": "0978341e74e72c6b360b6972a9375efd43b3898e0410f273deb9e4bcb8c0d5fa"
   },
   {
     "id": "gtm:emerg_fire_engine",
@@ -3755,12 +2874,16 @@
       3.4,
       9.2
     ],
+    "cube_count": 33,
     "geometry": "geometry.gtm.emerg_fire_engine",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/emerg_fire_engine.geo.json",
+    "java_model_path": "creative/source/models/transport/java/emerg_fire_engine.json",
+    "icon_path": "creative/source/icons/transport/emerg_fire_engine.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -3768,33 +2891,6 @@
           -0.62,
           1.19,
           0.46
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.62,
-          1.19,
-          0.46
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.62,
-          1.19,
-          -2.3
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.62,
-          1.19,
-          -2.3
         ],
         "yaw": 0
       }
@@ -3813,9 +2909,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/emerg_fire_engine.geo.json",
-    "sha256": "15f268919246cfd13635f21cd8aa1bd5f16819e88bfc62ccc82a0066f2facf85"
+    "sha256": "f5404a31936de9809aed37bdd5b2306a881a74cf77f697a54bca6d2f7ac172a2"
   },
   {
     "id": "gtm:emerg_recovery_truck",
@@ -3828,12 +2922,16 @@
       3.0,
       7.5
     ],
+    "cube_count": 29,
     "geometry": "geometry.gtm.emerg_recovery_truck",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/emerg_recovery_truck.geo.json",
+    "java_model_path": "creative/source/models/transport/java/emerg_recovery_truck.json",
+    "icon_path": "creative/source/icons/transport/emerg_recovery_truck.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -3841,33 +2939,6 @@
           -0.6,
           1.05,
           0.38
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.6,
-          1.05,
-          0.38
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.6,
-          1.05,
-          -1.88
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.6,
-          1.05,
-          -1.88
         ],
         "yaw": 0
       }
@@ -3886,9 +2957,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/emerg_recovery_truck.geo.json",
-    "sha256": "be891ebbf9829a63dea63fae8d80ef285e05df37558fc77ba4af8fee9a8bd3d5"
+    "sha256": "9828b55f5e41b2c0ce82fb163044e5d0b60fd70180d2cdefcb1e0fd8f5dc067d"
   },
   {
     "id": "gtm:emerg_rescue_van",
@@ -3901,12 +2970,16 @@
       2.7,
       6.2
     ],
+    "cube_count": 29,
     "geometry": "geometry.gtm.emerg_rescue_van",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/emerg_rescue_van.geo.json",
+    "java_model_path": "creative/source/models/transport/java/emerg_rescue_van.json",
+    "icon_path": "creative/source/icons/transport/emerg_rescue_van.png",
     "anchors": [
       {
         "id": "driver_seat",
@@ -3914,33 +2987,6 @@
           -0.53,
           0.94,
           0.31
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.53,
-          0.94,
-          0.31
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_left",
-        "position": [
-          -0.53,
-          0.94,
-          -1.55
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "rear_seat_right",
-        "position": [
-          0.53,
-          0.94,
-          -1.55
         ],
         "yaw": 0
       }
@@ -3959,9 +3005,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/emerg_rescue_van.geo.json",
-    "sha256": "1ede65cd769460c17074e71f7bbd7eaa4017ad625b8a5533267973d950737ded"
+    "sha256": "cbe5d72776af592c59b07b1542b4dc4276a4e573eb83b90c125d79822ebe1212"
   },
   {
     "id": "gtm:agri_compact_tractor",
@@ -3974,26 +3018,21 @@
       2.1,
       2.8
     ],
+    "cube_count": 30,
     "geometry": "geometry.gtm.agri_compact_tractor",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/agri_compact_tractor.geo.json",
+    "java_model_path": "creative/source/models/transport/java/agri_compact_tractor.json",
+    "icon_path": "creative/source/icons/transport/agri_compact_tractor.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.35,
-          0.73,
-          0.14
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.35,
           0.73,
           0.14
         ],
@@ -4014,9 +3053,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/agri_compact_tractor.geo.json",
-    "sha256": "14434995103ed545f33ed39324c32fb6e391be6b935eb1a7353c58516f1689e4"
+    "sha256": "51ab047fc4ebd7f140d82db6637dc801fc83b8b4538c9bda2342508186f5ab1b"
   },
   {
     "id": "gtm:agri_heavy_tractor",
@@ -4029,26 +3066,21 @@
       2.5,
       3.6
     ],
+    "cube_count": 30,
     "geometry": "geometry.gtm.agri_heavy_tractor",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/agri_heavy_tractor.geo.json",
+    "java_model_path": "creative/source/models/transport/java/agri_heavy_tractor.json",
+    "icon_path": "creative/source/icons/transport/agri_heavy_tractor.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.45,
-          0.88,
-          0.18
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.45,
           0.88,
           0.18
         ],
@@ -4069,9 +3101,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/agri_heavy_tractor.geo.json",
-    "sha256": "6d12fb418bcbd05e04dad4a5dd9c327f2c54564072e521fb8d0b4d46f1e9cb59"
+    "sha256": "7b60c421ee24c62c009325a51fe71b660cf7b5bbb548f2fafd4ffac74da24b7c"
   },
   {
     "id": "gtm:agri_harvester",
@@ -4084,26 +3114,21 @@
       3.8,
       6.8
     ],
+    "cube_count": 32,
     "geometry": "geometry.gtm.agri_harvester",
     "variants": [
       "normal",
       "damaged",
       "wreck"
     ],
+    "json_path": "creative/source/models/transport/agri_harvester.geo.json",
+    "java_model_path": "creative/source/models/transport/java/agri_harvester.json",
+    "icon_path": "creative/source/icons/transport/agri_harvester.png",
     "anchors": [
       {
         "id": "driver_seat",
         "position": [
           -0.8,
-          1.33,
-          0.34
-        ],
-        "yaw": 0
-      },
-      {
-        "id": "passenger_front",
-        "position": [
-          0.8,
           1.33,
           0.34
         ],
@@ -4124,9 +3149,7 @@
         ]
       }
     ],
-    "delivery_livery": null,
-    "json_path": "creative/source/models/transport/agri_harvester.geo.json",
-    "sha256": "fda70b6eb4dbce14b7ba40959c22d022c6395d4780a72c019586bce6d82729e4"
+    "sha256": "f1db4f3c0ef281d680a3866c15441821a7651ec83ba8d77a9693d97d0b42d150"
   },
   {
     "id": "gtm:local_driving_cab",
@@ -4138,6 +3161,7 @@
       3.8,
       20.5
     ],
+    "cube_count": 68,
     "interior_description": "Transverse 3x3 wooden benches, ceiling fans, open sliding doorways, baggage lofts",
     "geometry": "geometry.gtm.local_driving_cab",
     "variants": [
@@ -4145,7 +3169,9 @@
       "maintenance"
     ],
     "json_path": "creative/source/models/transport/local_driving_cab.geo.json",
-    "sha256": "99e12a34390702549d0f854d2d04255c80111573120c5e539a9c15298b645cb3"
+    "java_model_path": "creative/source/models/transport/java/local_driving_cab.json",
+    "icon_path": "creative/source/icons/transport/local_driving_cab.png",
+    "sha256": "d0127f4bb73c205c779b1cac7f83c8bdf4b241f674a04deb309cee7af168006a"
   },
   {
     "id": "gtm:local_motor",
@@ -4157,6 +3183,7 @@
       3.8,
       20.5
     ],
+    "cube_count": 68,
     "interior_description": "High-capacity commuter layout, overhead pantograph, standing grab poles",
     "geometry": "geometry.gtm.local_motor",
     "variants": [
@@ -4164,7 +3191,9 @@
       "maintenance"
     ],
     "json_path": "creative/source/models/transport/local_motor.geo.json",
-    "sha256": "de00a9952b44464361bfc4a11294615a5a41812fa940626f98b8e29c2e78b11a"
+    "java_model_path": "creative/source/models/transport/java/local_motor.json",
+    "icon_path": "creative/source/icons/transport/local_motor.png",
+    "sha256": "759d55982ff2bea57f3b9d22cbe390448a6a2e10750a8e13d0f1c913e3c8de16"
   },
   {
     "id": "gtm:local_trailer",
@@ -4176,6 +3205,7 @@
       3.8,
       20.5
     ],
+    "cube_count": 64,
     "interior_description": "Second-class general coach with partition grills and ceiling ventilation",
     "geometry": "geometry.gtm.local_trailer",
     "variants": [
@@ -4183,7 +3213,9 @@
       "maintenance"
     ],
     "json_path": "creative/source/models/transport/local_trailer.geo.json",
-    "sha256": "040a1ea495869e83fe42509866f6d7e2421d02b4b054aff063e24db8a832e2d1"
+    "java_model_path": "creative/source/models/transport/java/local_trailer.json",
+    "icon_path": "creative/source/icons/transport/local_trailer.png",
+    "sha256": "0034a6bd53a577192171f90beebb926e56d6925bdc8fc9859b218d81b8cfdf95"
   },
   {
     "id": "gtm:metro_lead",
@@ -4195,6 +3227,7 @@
       3.6,
       21.0
     ],
+    "cube_count": 68,
     "interior_description": "Modern aerodynamically shaped cab, digital route displays, longitudinal seating",
     "geometry": "geometry.gtm.metro_lead",
     "variants": [
@@ -4202,7 +3235,9 @@
       "maintenance"
     ],
     "json_path": "creative/source/models/transport/metro_lead.geo.json",
-    "sha256": "081cad632fe0e641dd3578173c0d80977ecd6e30a72fd53bdc89c5bcd48aae5d"
+    "java_model_path": "creative/source/models/transport/java/metro_lead.json",
+    "icon_path": "creative/source/icons/transport/metro_lead.png",
+    "sha256": "90dc702b06bd0864a31fb949ebfa328ae1dafc8c54e21ac833ffb2297fb9132f"
   },
   {
     "id": "gtm:metro_middle",
@@ -4214,6 +3249,7 @@
       3.6,
       21.0
     ],
+    "cube_count": 64,
     "interior_description": "Continuous vestibule walkway, stainless steel stanchions, LED route maps",
     "geometry": "geometry.gtm.metro_middle",
     "variants": [
@@ -4221,7 +3257,9 @@
       "maintenance"
     ],
     "json_path": "creative/source/models/transport/metro_middle.geo.json",
-    "sha256": "cfb50638ba72753312174185fe9bd93c3c9d01f8d4c917346504ff632f1b573c"
+    "java_model_path": "creative/source/models/transport/java/metro_middle.json",
+    "icon_path": "creative/source/icons/transport/metro_middle.png",
+    "sha256": "d283353dfcd83442cc5ef0c710e51505af11d91771f10fc732822e803a8e0a04"
   },
   {
     "id": "gtm:metro_accessible",
@@ -4233,6 +3271,7 @@
       3.6,
       21.0
     ],
+    "cube_count": 64,
     "interior_description": "Dedicated wheelchair securement bays, priority seating, tactile boarding strip",
     "geometry": "geometry.gtm.metro_accessible",
     "variants": [
@@ -4240,7 +3279,9 @@
       "maintenance"
     ],
     "json_path": "creative/source/models/transport/metro_accessible.geo.json",
-    "sha256": "b5c83fcf6e548aff790f9dfd260614b85a0e2374728390e7a263a3fa46f566c8"
+    "java_model_path": "creative/source/models/transport/java/metro_accessible.json",
+    "icon_path": "creative/source/icons/transport/metro_accessible.png",
+    "sha256": "351eb81e27256fc579c1f4b37ed8653d0d95cdfe0df79404368393ddec84d192"
   },
   {
     "id": "gtm:skylink_cabin",
@@ -4252,6 +3293,7 @@
       2.4,
       2.8
     ],
+    "cube_count": 9,
     "interior_description": "Suspended cabin with panoramic acrylic windows, dual perimeter benches",
     "geometry": "geometry.gtm.skylink_cabin",
     "variants": [
@@ -4259,7 +3301,9 @@
       "maintenance"
     ],
     "json_path": "creative/source/models/transport/skylink_cabin.geo.json",
-    "sha256": "ffd499e18310e55852dbdbc8a4e2e010567f7547a19b373f49df62f55e7851ad"
+    "java_model_path": "creative/source/models/transport/java/skylink_cabin.json",
+    "icon_path": "creative/source/icons/transport/skylink_cabin.png",
+    "sha256": "04b5dd046f3c5b40040a33f6cc39cd3714f12fb28a2779f63263ce72954b1ab9"
   },
   {
     "id": "gtm:skylink_accessible",
@@ -4271,6 +3315,7 @@
       2.4,
       3.2
     ],
+    "cube_count": 9,
     "interior_description": "Level roll-on boarding, folding jump seats, safety anchor straps",
     "geometry": "geometry.gtm.skylink_accessible",
     "variants": [
@@ -4278,7 +3323,9 @@
       "maintenance"
     ],
     "json_path": "creative/source/models/transport/skylink_accessible.geo.json",
-    "sha256": "61eccf1c1fe0f9b3a317f09e6e239341b6b5113fc023bdc270cceb94e87a87f9"
+    "java_model_path": "creative/source/models/transport/java/skylink_accessible.json",
+    "icon_path": "creative/source/icons/transport/skylink_accessible.png",
+    "sha256": "8700e7fea2ef93ea2a7ed4e9164edb5f420b9eaf1ccc9cf8c941ae7983d138af"
   },
   {
     "id": "gtm:skylink_grip",
@@ -4290,6 +3337,7 @@
       1.2,
       0.8
     ],
+    "cube_count": 12,
     "interior_description": "Spring-loaded dual clamp grip mechanism with guide rollers",
     "geometry": "geometry.gtm.skylink_grip",
     "variants": [
@@ -4297,7 +3345,9 @@
       "maintenance"
     ],
     "json_path": "creative/source/models/transport/skylink_grip.geo.json",
-    "sha256": "0299e8009cfa74034e8fcd18aeb59a7d73fba9010807f641877d005fcda537aa"
+    "java_model_path": "creative/source/models/transport/java/skylink_grip.json",
+    "icon_path": "creative/source/icons/transport/skylink_grip.png",
+    "sha256": "9fb635031ab84d75a40156b8f4d73907d0dac5bd934c0768e4151edae016df2a"
   },
   {
     "id": "gtm:skylink_terminal_machinery",
@@ -4309,6 +3359,7 @@
       3.2,
       4.5
     ],
+    "cube_count": 4,
     "interior_description": "Tension hydraulic piston, main drive bullwheel and decelerator rails",
     "geometry": "geometry.gtm.skylink_terminal_machinery",
     "variants": [
@@ -4316,7 +3367,9 @@
       "maintenance"
     ],
     "json_path": "creative/source/models/transport/skylink_terminal_machinery.geo.json",
-    "sha256": "ed703532980893c8a0f924abd6aaf9f81c1f2fa41fba5fb257e0db1e7d077594"
+    "java_model_path": "creative/source/models/transport/java/skylink_terminal_machinery.json",
+    "icon_path": "creative/source/icons/transport/skylink_terminal_machinery.png",
+    "sha256": "810c98857c30e2b2bd1855295ceb500a374a8ddb4e4dcda8eb2fec74b8633853"
   },
   {
     "id": "gtm:heli_police",
@@ -4327,6 +3380,7 @@
       3.4,
       11.2
     ],
+    "cube_count": 20,
     "pivots": [
       "main_rotor",
       "tail_rotor",
@@ -4340,7 +3394,9 @@
       "emergency_service"
     ],
     "json_path": "creative/source/models/transport/heli_police.geo.json",
-    "sha256": "514a156de7633be1d5c12e4f08b91ae659676b6104ed273f043a9f78c53b5e32"
+    "java_model_path": "creative/source/models/transport/java/heli_police.json",
+    "icon_path": "creative/source/icons/transport/heli_police.png",
+    "sha256": "c87f14a23252c23467bc37991fa7bd9527d153c32c04e4a6fa71576aebb3123d"
   },
   {
     "id": "gtm:heli_media",
@@ -4351,6 +3407,7 @@
       3.2,
       10.5
     ],
+    "cube_count": 19,
     "pivots": [
       "main_rotor",
       "tail_rotor",
@@ -4364,7 +3421,9 @@
       "emergency_service"
     ],
     "json_path": "creative/source/models/transport/heli_media.geo.json",
-    "sha256": "9eb10beee9603423620c51ce2ec79ba619e23823bac1578cfb46962963ce8d35"
+    "java_model_path": "creative/source/models/transport/java/heli_media.json",
+    "icon_path": "creative/source/icons/transport/heli_media.png",
+    "sha256": "592f40d6fb31f23ede9a9f33f71d75bd137bc9194747da6777bc4007bcc0d689"
   },
   {
     "id": "gtm:heli_rescue",
@@ -4375,6 +3434,7 @@
       4.0,
       13.5
     ],
+    "cube_count": 19,
     "pivots": [
       "main_rotor",
       "tail_rotor",
@@ -4387,7 +3447,9 @@
       "emergency_service"
     ],
     "json_path": "creative/source/models/transport/heli_rescue.geo.json",
-    "sha256": "dd6e634a66c95b1877a55e7765db802ba54a68b53cd3f88f9b9a8633c6deaf06"
+    "java_model_path": "creative/source/models/transport/java/heli_rescue.json",
+    "icon_path": "creative/source/icons/transport/heli_rescue.png",
+    "sha256": "4bba5fd480bbce7a774a1824aad8d2a076cde9ac62299ea0866d2f6f51ba15bd"
   },
   {
     "id": "gtm:heli_civilian",
@@ -4398,6 +3460,7 @@
       3.5,
       12.0
     ],
+    "cube_count": 19,
     "pivots": [
       "main_rotor",
       "tail_rotor",
@@ -4410,7 +3473,9 @@
       "emergency_service"
     ],
     "json_path": "creative/source/models/transport/heli_civilian.geo.json",
-    "sha256": "62b25ff801906b2348f1b986dba9484afd8216f14cd73fc5343993b088c26071"
+    "java_model_path": "creative/source/models/transport/java/heli_civilian.json",
+    "icon_path": "creative/source/icons/transport/heli_civilian.png",
+    "sha256": "e841f21aa8a9dcf89b2e96066d42149cf80a91204d7a31a410c004799e9e4374"
   },
   {
     "id": "gtm:marine_ferry",
@@ -4421,6 +3486,7 @@
       4.8,
       24.0
     ],
+    "cube_count": 9,
     "pivots": [
       "rudder",
       "starboard_prop",
@@ -4433,7 +3499,9 @@
       "emergency_service"
     ],
     "json_path": "creative/source/models/transport/marine_ferry.geo.json",
-    "sha256": "22bdb3701fad30dd33a67671e062c38b1620fd639bf762cdbf3d7c98509e59d9"
+    "java_model_path": "creative/source/models/transport/java/marine_ferry.json",
+    "icon_path": "creative/source/icons/transport/marine_ferry.png",
+    "sha256": "e962fa90ff65d0f5d74f5c4b16459385c6c766c284152c8c50da4aa33359c412"
   },
   {
     "id": "gtm:marine_speedboat",
@@ -4444,6 +3512,7 @@
       1.8,
       7.5
     ],
+    "cube_count": 9,
     "pivots": [
       "outboard_motor_1",
       "outboard_motor_2",
@@ -4455,7 +3524,9 @@
       "emergency_service"
     ],
     "json_path": "creative/source/models/transport/marine_speedboat.geo.json",
-    "sha256": "ba0d16f55fd47f446407d36254f741edbe86a57c66cd95a62cdc7d74fa3fc43d"
+    "java_model_path": "creative/source/models/transport/java/marine_speedboat.json",
+    "icon_path": "creative/source/icons/transport/marine_speedboat.png",
+    "sha256": "eea06d3c32832d674915934d1adc38ebbf6d90098d7bb994db796d1efee1b335"
   },
   {
     "id": "gtm:marine_police_launch",
@@ -4466,6 +3537,7 @@
       3.2,
       14.5
     ],
+    "cube_count": 9,
     "pivots": [
       "mast_radar",
       "twin_screws",
@@ -4477,7 +3549,9 @@
       "emergency_service"
     ],
     "json_path": "creative/source/models/transport/marine_police_launch.geo.json",
-    "sha256": "2e9d1457af738e158e3eff65b8d4bb960adde66baf284fae797e27851b3a9d04"
+    "java_model_path": "creative/source/models/transport/java/marine_police_launch.json",
+    "icon_path": "creative/source/icons/transport/marine_police_launch.png",
+    "sha256": "3ee23b31f9d3dbef967c95788f49e4609615b9ca519b09ad20b4b1175aee317e"
   },
   {
     "id": "gtm:marine_rescue",
@@ -4488,6 +3562,7 @@
       2.9,
       11.8
     ],
+    "cube_count": 9,
     "pivots": [
       "survivor_scaffold",
       "radar_dome",
@@ -4499,7 +3574,9 @@
       "emergency_service"
     ],
     "json_path": "creative/source/models/transport/marine_rescue.geo.json",
-    "sha256": "cb2f45cb04609047a882fe9124587752dbd7f679568558f2e4c09c9b45007e67"
+    "java_model_path": "creative/source/models/transport/java/marine_rescue.json",
+    "icon_path": "creative/source/icons/transport/marine_rescue.png",
+    "sha256": "037cc5d0a430d361d22e0747bbbdd945ad863d1b549725f1c660716bcf052103"
   },
   {
     "id": "gtm:marine_fishing",
@@ -4510,6 +3587,7 @@
       4.5,
       16.0
     ],
+    "cube_count": 9,
     "pivots": [
       "trawl_winch",
       "fish_hold_hatch",
@@ -4521,7 +3599,9 @@
       "emergency_service"
     ],
     "json_path": "creative/source/models/transport/marine_fishing.geo.json",
-    "sha256": "1d56403996faf3acb2237dc261bf82e01533a229181cde92d2129dc4d8e2b7dc"
+    "java_model_path": "creative/source/models/transport/java/marine_fishing.json",
+    "icon_path": "creative/source/icons/transport/marine_fishing.png",
+    "sha256": "fee0c7f29ddc1a5c02d9d3f3035700aab4a485ae21ca5470b547562c87a510ac"
   },
   {
     "id": "gtm:marine_yacht",
@@ -4532,6 +3612,7 @@
       4.2,
       18.5
     ],
+    "cube_count": 9,
     "pivots": [
       "flybridge_helm",
       "sunpad_stern",
@@ -4543,7 +3624,9 @@
       "emergency_service"
     ],
     "json_path": "creative/source/models/transport/marine_yacht.geo.json",
-    "sha256": "2b1c71883b610aaa23ef56b1f030f010fa2214622d923067e76a1056364e412b"
+    "java_model_path": "creative/source/models/transport/java/marine_yacht.json",
+    "icon_path": "creative/source/icons/transport/marine_yacht.png",
+    "sha256": "76807e70308f78aac4bc77f19ee5b17cab12c10b05450fa035ff96fe1ec42188"
   },
   {
     "id": "gtm:marine_cargo",
@@ -4554,6 +3637,7 @@
       5.0,
       38.0
     ],
+    "cube_count": 11,
     "pivots": [
       "deck_crane",
       "cargo_hold_hatches",
@@ -4565,7 +3649,9 @@
       "emergency_service"
     ],
     "json_path": "creative/source/models/transport/marine_cargo.geo.json",
-    "sha256": "73a5e7f8886c8e154af2c176b771fb687f1d04e2f41693da075fd89402512696"
+    "java_model_path": "creative/source/models/transport/java/marine_cargo.json",
+    "icon_path": "creative/source/icons/transport/marine_cargo.png",
+    "sha256": "4b68297d3584f71f8bc3342c3bfd25dbface576844a61f7b981c11297131a6e1"
   },
   {
     "id": "gtm:marine_water_taxi",
@@ -4576,6 +3662,7 @@
       2.2,
       9.8
     ],
+    "cube_count": 8,
     "pivots": [
       "twin_catamaran_hulls",
       "passenger_cabin_door"
@@ -4586,6 +3673,8 @@
       "emergency_service"
     ],
     "json_path": "creative/source/models/transport/marine_water_taxi.geo.json",
-    "sha256": "51b4fa0b83c4a3ce75f463bf01058b5c6d8a843486e406c499f1ca162609e2e0"
+    "java_model_path": "creative/source/models/transport/java/marine_water_taxi.json",
+    "icon_path": "creative/source/icons/transport/marine_water_taxi.png",
+    "sha256": "1a8ce88ed9a3d1762401fd4dd7544cf8f10be29add7fd976d0f9f7ce67d4a367"
   }
 ]

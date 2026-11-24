@@ -1,0 +1,1716 @@
+{
+  "credit": "SD Craft - original Minecraft City RP prop model",
+  "ambientocclusion": false,
+  "gui_light": "front",
+  "textures": {
+    "receiver": "sdcraft:item/gun_rifle_receiver",
+    "handguard": "sdcraft:item/gun_rifle_handguard",
+    "magazine": "sdcraft:item/gun_rifle_mag",
+    "stock": "sdcraft:item/gun_rifle_stock",
+    "particle": "#receiver"
+  },
+  "elements": [
+    {
+      "name": "collapsible_stock_shell",
+      "from": [
+        0.75,
+        7.75,
+        7.24
+      ],
+      "to": [
+        3.5,
+        9.8,
+        8.76
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stock"
+        },
+        "south": {
+          "texture": "#stock"
+        },
+        "east": {
+          "texture": "#stock"
+        },
+        "west": {
+          "texture": "#stock"
+        },
+        "up": {
+          "texture": "#stock"
+        },
+        "down": {
+          "texture": "#stock"
+        }
+      }
+    },
+    {
+      "name": "stock_butt",
+      "from": [
+        0.4,
+        7.42,
+        7.1
+      ],
+      "to": [
+        1.05,
+        10.11,
+        8.9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stock"
+        },
+        "south": {
+          "texture": "#stock"
+        },
+        "east": {
+          "texture": "#stock"
+        },
+        "west": {
+          "texture": "#stock"
+        },
+        "up": {
+          "texture": "#stock"
+        },
+        "down": {
+          "texture": "#stock"
+        }
+      }
+    },
+    {
+      "name": "stock_cheek_rest",
+      "from": [
+        1.22,
+        9.78,
+        7.3
+      ],
+      "to": [
+        3.55,
+        10.1,
+        8.7
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stock"
+        },
+        "south": {
+          "texture": "#stock"
+        },
+        "east": {
+          "texture": "#stock"
+        },
+        "west": {
+          "texture": "#stock"
+        },
+        "up": {
+          "texture": "#stock"
+        },
+        "down": {
+          "texture": "#stock"
+        }
+      }
+    },
+    {
+      "name": "buffer_tube",
+      "from": [
+        3.35,
+        9.05,
+        7.61
+      ],
+      "to": [
+        6.55,
+        9.64,
+        8.39
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stock"
+        },
+        "south": {
+          "texture": "#stock"
+        },
+        "east": {
+          "texture": "#stock"
+        },
+        "west": {
+          "texture": "#stock"
+        },
+        "up": {
+          "texture": "#stock"
+        },
+        "down": {
+          "texture": "#stock"
+        }
+      }
+    },
+    {
+      "name": "lower_receiver",
+      "from": [
+        6.25,
+        7.64,
+        7.15
+      ],
+      "to": [
+        10.54,
+        9.45,
+        8.85
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "upper_receiver",
+      "from": [
+        6.0,
+        9.35,
+        7.2
+      ],
+      "to": [
+        10.62,
+        10.55,
+        8.8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "forward_assist",
+      "from": [
+        9.21,
+        8.8,
+        8.82
+      ],
+      "to": [
+        9.6,
+        9.45,
+        8.96
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "handguard",
+      "from": [
+        10.38,
+        8.54,
+        7.29
+      ],
+      "to": [
+        13.78,
+        10.16,
+        8.71
+      ],
+      "faces": {
+        "north": {
+          "texture": "#handguard"
+        },
+        "south": {
+          "texture": "#handguard"
+        },
+        "east": {
+          "texture": "#handguard"
+        },
+        "west": {
+          "texture": "#handguard"
+        },
+        "up": {
+          "texture": "#handguard"
+        },
+        "down": {
+          "texture": "#handguard"
+        }
+      }
+    },
+    {
+      "name": "barrel",
+      "from": [
+        13.75,
+        9.14,
+        7.7
+      ],
+      "to": [
+        15.61,
+        9.62,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "texture": "#handguard"
+        },
+        "south": {
+          "texture": "#handguard"
+        },
+        "east": {
+          "texture": "#handguard"
+        },
+        "west": {
+          "texture": "#handguard"
+        },
+        "up": {
+          "texture": "#handguard"
+        },
+        "down": {
+          "texture": "#handguard"
+        }
+      }
+    },
+    {
+      "name": "front_muzzle_device",
+      "from": [
+        15.5,
+        8.96,
+        7.56
+      ],
+      "to": [
+        15.93,
+        9.83,
+        8.44
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "top_rail",
+      "from": [
+        6.23,
+        10.55,
+        7.5
+      ],
+      "to": [
+        13.75,
+        10.79,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "picatinny_tooth_6.4",
+      "from": [
+        6.4,
+        10.78,
+        7.42
+      ],
+      "to": [
+        6.630000000000001,
+        10.98,
+        8.58
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "picatinny_tooth_6.85",
+      "from": [
+        6.85,
+        10.78,
+        7.42
+      ],
+      "to": [
+        7.08,
+        10.98,
+        8.58
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "picatinny_tooth_7.3",
+      "from": [
+        7.3,
+        10.78,
+        7.42
+      ],
+      "to": [
+        7.53,
+        10.98,
+        8.58
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "picatinny_tooth_7.75",
+      "from": [
+        7.75,
+        10.78,
+        7.42
+      ],
+      "to": [
+        7.98,
+        10.98,
+        8.58
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "picatinny_tooth_8.2",
+      "from": [
+        8.2,
+        10.78,
+        7.42
+      ],
+      "to": [
+        8.43,
+        10.98,
+        8.58
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "picatinny_tooth_8.65",
+      "from": [
+        8.65,
+        10.78,
+        7.42
+      ],
+      "to": [
+        8.88,
+        10.98,
+        8.58
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "picatinny_tooth_9.1",
+      "from": [
+        9.1,
+        10.78,
+        7.42
+      ],
+      "to": [
+        9.33,
+        10.98,
+        8.58
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "picatinny_tooth_9.55",
+      "from": [
+        9.55,
+        10.78,
+        7.42
+      ],
+      "to": [
+        9.780000000000001,
+        10.98,
+        8.58
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "picatinny_tooth_10.0",
+      "from": [
+        10.0,
+        10.78,
+        7.42
+      ],
+      "to": [
+        10.23,
+        10.98,
+        8.58
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "picatinny_tooth_10.45",
+      "from": [
+        10.45,
+        10.78,
+        7.42
+      ],
+      "to": [
+        10.68,
+        10.98,
+        8.58
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "picatinny_tooth_10.9",
+      "from": [
+        10.9,
+        10.78,
+        7.42
+      ],
+      "to": [
+        11.13,
+        10.98,
+        8.58
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "picatinny_tooth_11.35",
+      "from": [
+        11.35,
+        10.78,
+        7.42
+      ],
+      "to": [
+        11.58,
+        10.98,
+        8.58
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "picatinny_tooth_11.8",
+      "from": [
+        11.8,
+        10.78,
+        7.42
+      ],
+      "to": [
+        12.030000000000001,
+        10.98,
+        8.58
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "picatinny_tooth_12.25",
+      "from": [
+        12.25,
+        10.78,
+        7.42
+      ],
+      "to": [
+        12.48,
+        10.98,
+        8.58
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "picatinny_tooth_12.7",
+      "from": [
+        12.7,
+        10.78,
+        7.42
+      ],
+      "to": [
+        12.93,
+        10.98,
+        8.58
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "picatinny_tooth_13.15",
+      "from": [
+        13.15,
+        10.78,
+        7.42
+      ],
+      "to": [
+        13.38,
+        10.98,
+        8.58
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "picatinny_tooth_13.6",
+      "from": [
+        13.6,
+        10.78,
+        7.42
+      ],
+      "to": [
+        13.83,
+        10.98,
+        8.58
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "upper_handguard_rail",
+      "from": [
+        10.4,
+        10.12,
+        7.21
+      ],
+      "to": [
+        13.7,
+        10.38,
+        8.79
+      ],
+      "faces": {
+        "north": {
+          "texture": "#handguard"
+        },
+        "south": {
+          "texture": "#handguard"
+        },
+        "east": {
+          "texture": "#handguard"
+        },
+        "west": {
+          "texture": "#handguard"
+        },
+        "up": {
+          "texture": "#handguard"
+        },
+        "down": {
+          "texture": "#handguard"
+        }
+      }
+    },
+    {
+      "name": "forward_handguard_side",
+      "from": [
+        10.42,
+        9.05,
+        7.13
+      ],
+      "to": [
+        13.72,
+        9.45,
+        7.32
+      ],
+      "faces": {
+        "north": {
+          "texture": "#handguard"
+        },
+        "south": {
+          "texture": "#handguard"
+        },
+        "east": {
+          "texture": "#handguard"
+        },
+        "west": {
+          "texture": "#handguard"
+        },
+        "up": {
+          "texture": "#handguard"
+        },
+        "down": {
+          "texture": "#handguard"
+        }
+      }
+    },
+    {
+      "name": "rear_pistol_grip",
+      "from": [
+        7.09,
+        5.48,
+        7.32
+      ],
+      "to": [
+        8.42,
+        7.95,
+        8.68
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stock"
+        },
+        "south": {
+          "texture": "#stock"
+        },
+        "east": {
+          "texture": "#stock"
+        },
+        "west": {
+          "texture": "#stock"
+        },
+        "up": {
+          "texture": "#stock"
+        },
+        "down": {
+          "texture": "#stock"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.85,
+          7.78,
+          8
+        ],
+        "axis": "z",
+        "angle": -22.5,
+        "rescale": false
+      }
+    },
+    {
+      "name": "trigger_guard_bottom",
+      "from": [
+        8.05,
+        7.05,
+        7.5
+      ],
+      "to": [
+        9.49,
+        7.35,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "trigger_guard_front",
+      "from": [
+        9.22,
+        7.05,
+        7.5
+      ],
+      "to": [
+        9.51,
+        8.16,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "trigger",
+      "from": [
+        8.49,
+        7.42,
+        7.76
+      ],
+      "to": [
+        8.71,
+        8.18,
+        8.24
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "magazine_upper",
+      "from": [
+        9.22,
+        5.88,
+        7.36
+      ],
+      "to": [
+        10.38,
+        8.08,
+        8.64
+      ],
+      "faces": {
+        "north": {
+          "texture": "#magazine"
+        },
+        "south": {
+          "texture": "#magazine"
+        },
+        "east": {
+          "texture": "#magazine"
+        },
+        "west": {
+          "texture": "#magazine"
+        },
+        "up": {
+          "texture": "#magazine"
+        },
+        "down": {
+          "texture": "#magazine"
+        }
+      }
+    },
+    {
+      "name": "magazine_lower_curve",
+      "from": [
+        9.35,
+        4.86,
+        7.39
+      ],
+      "to": [
+        10.72,
+        6.1,
+        8.61
+      ],
+      "faces": {
+        "north": {
+          "texture": "#magazine"
+        },
+        "south": {
+          "texture": "#magazine"
+        },
+        "east": {
+          "texture": "#magazine"
+        },
+        "west": {
+          "texture": "#magazine"
+        },
+        "up": {
+          "texture": "#magazine"
+        },
+        "down": {
+          "texture": "#magazine"
+        }
+      },
+      "rotation": {
+        "origin": [
+          9.81,
+          6.5,
+          8.0
+        ],
+        "axis": "z",
+        "angle": -22.5,
+        "rescale": false
+      }
+    },
+    {
+      "name": "magazine_base",
+      "from": [
+        9.62,
+        4.45,
+        7.23
+      ],
+      "to": [
+        11.17,
+        4.92,
+        8.77
+      ],
+      "faces": {
+        "north": {
+          "texture": "#magazine"
+        },
+        "south": {
+          "texture": "#magazine"
+        },
+        "east": {
+          "texture": "#magazine"
+        },
+        "west": {
+          "texture": "#magazine"
+        },
+        "up": {
+          "texture": "#magazine"
+        },
+        "down": {
+          "texture": "#magazine"
+        }
+      },
+      "rotation": {
+        "origin": [
+          9.88,
+          6.45,
+          8
+        ],
+        "axis": "z",
+        "angle": -22.5,
+        "rescale": false
+      }
+    },
+    {
+      "name": "optic_riser",
+      "from": [
+        8.34,
+        10.98,
+        7.57
+      ],
+      "to": [
+        9.22,
+        11.42,
+        8.43
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "optic_housing",
+      "from": [
+        8.19,
+        11.33,
+        7.3
+      ],
+      "to": [
+        9.68,
+        12.25,
+        8.7
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "optic_lens_frame",
+      "from": [
+        9.66,
+        11.46,
+        7.47
+      ],
+      "to": [
+        9.87,
+        12.1,
+        8.53
+      ],
+      "faces": {
+        "north": {
+          "texture": "#handguard"
+        },
+        "south": {
+          "texture": "#handguard"
+        },
+        "east": {
+          "texture": "#handguard"
+        },
+        "west": {
+          "texture": "#handguard"
+        },
+        "up": {
+          "texture": "#handguard"
+        },
+        "down": {
+          "texture": "#handguard"
+        }
+      }
+    },
+    {
+      "name": "front_flip_sight",
+      "from": [
+        13.14,
+        10.98,
+        7.65
+      ],
+      "to": [
+        13.49,
+        11.48,
+        8.35
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "magazine_release",
+      "from": [
+        9.4,
+        8.43,
+        7.08
+      ],
+      "to": [
+        9.75,
+        8.85,
+        7.22
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "handguard_vent_10.78",
+      "from": [
+        10.78,
+        9.52,
+        7.15
+      ],
+      "to": [
+        11.049999999999999,
+        9.77,
+        7.31
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "handguard_vent_11.36",
+      "from": [
+        11.36,
+        9.52,
+        7.15
+      ],
+      "to": [
+        11.629999999999999,
+        9.77,
+        7.31
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "handguard_vent_11.94",
+      "from": [
+        11.94,
+        9.52,
+        7.15
+      ],
+      "to": [
+        12.209999999999999,
+        9.77,
+        7.31
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "handguard_vent_12.52",
+      "from": [
+        12.52,
+        9.52,
+        7.15
+      ],
+      "to": [
+        12.79,
+        9.77,
+        7.31
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "name": "handguard_vent_13.1",
+      "from": [
+        13.1,
+        9.52,
+        7.15
+      ],
+      "to": [
+        13.37,
+        9.77,
+        7.31
+      ],
+      "faces": {
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        },
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        }
+      }
+    }
+  ],
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [
+        -12,
+        90,
+        -20
+      ],
+      "translation": [
+        1.8,
+        1.7,
+        1
+      ],
+      "scale": [
+        1.18,
+        1.18,
+        1.18
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -12,
+        -90,
+        20
+      ],
+      "translation": [
+        -1.8,
+        1.7,
+        1
+      ],
+      "scale": [
+        1.18,
+        1.18,
+        1.18
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        90,
+        -40
+      ],
+      "translation": [
+        0.0,
+        1.4,
+        0
+      ],
+      "scale": [
+        0.87,
+        0.87,
+        0.87
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        -90,
+        40
+      ],
+      "translation": [
+        0,
+        1.4,
+        0
+      ],
+      "scale": [
+        0.87,
+        0.87,
+        0.87
+      ]
+    },
+    "gui": {
+      "rotation": [
+        20,
+        135,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.93,
+        0.93,
+        0.93
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "translation": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        0.72,
+        0.72,
+        0.72
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    }
+  }
+}
