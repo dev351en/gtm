@@ -1,0 +1,334 @@
+{
+  "credit": "SD Craft — VIP ATM Card (Minecraft Java 1.21.4)",
+  "ambientocclusion": false,
+  "gui_light": "front",
+  "textures": {
+    "card_front": "sdcraft:item/atm_card_front",
+    "card_back": "sdcraft:item/atm_card_back",
+    "edge": "sdcraft:item/atm_card_edge",
+    "chip": "sdcraft:item/atm_card_chip",
+    "chip_trace": "sdcraft:item/atm_card_chip_trace",
+    "particle": "#edge"
+  },
+  "elements": [
+    {
+      "name": "Center_Plastics_Core",
+      "from": [
+        4.3,
+        5.5,
+        7.9
+      ],
+      "to": [
+        11.7,
+        10.5,
+        8.1
+      ],
+      "faces": {
+        "north": {
+          "texture": "#card_front"
+        },
+        "south": {
+          "texture": "#card_back"
+        },
+        "east": {
+          "texture": "#edge"
+        },
+        "west": {
+          "texture": "#edge"
+        },
+        "up": {
+          "texture": "#edge"
+        },
+        "down": {
+          "texture": "#edge"
+        }
+      }
+    },
+    {
+      "name": "Left_Rounded_Side",
+      "from": [
+        4.0,
+        5.8,
+        7.9
+      ],
+      "to": [
+        4.3,
+        10.2,
+        8.1
+      ],
+      "faces": {
+        "north": {
+          "texture": "#card_front"
+        },
+        "south": {
+          "texture": "#card_back"
+        },
+        "east": {
+          "texture": "#edge"
+        },
+        "west": {
+          "texture": "#edge"
+        },
+        "up": {
+          "texture": "#edge"
+        },
+        "down": {
+          "texture": "#edge"
+        }
+      }
+    },
+    {
+      "name": "Right_Rounded_Side",
+      "from": [
+        11.7,
+        5.8,
+        7.9
+      ],
+      "to": [
+        12.0,
+        10.2,
+        8.1
+      ],
+      "faces": {
+        "north": {
+          "texture": "#card_front"
+        },
+        "south": {
+          "texture": "#card_back"
+        },
+        "east": {
+          "texture": "#edge"
+        },
+        "west": {
+          "texture": "#edge"
+        },
+        "up": {
+          "texture": "#edge"
+        },
+        "down": {
+          "texture": "#edge"
+        }
+      }
+    },
+    {
+      "name": "Raised_Gold_EMV_Chip",
+      "from": [
+        5.05,
+        7.65,
+        7.76
+      ],
+      "to": [
+        6.5,
+        8.85,
+        7.9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#chip"
+        },
+        "south": {
+          "texture": "#chip"
+        },
+        "east": {
+          "texture": "#chip"
+        },
+        "west": {
+          "texture": "#chip"
+        },
+        "up": {
+          "texture": "#chip"
+        },
+        "down": {
+          "texture": "#chip"
+        }
+      }
+    },
+    {
+      "name": "Chip_Center_Contact",
+      "from": [
+        5.72,
+        7.8,
+        7.745
+      ],
+      "to": [
+        5.84,
+        8.7,
+        7.76
+      ],
+      "faces": {
+        "north": {
+          "texture": "#chip_trace"
+        },
+        "south": {
+          "texture": "#chip_trace"
+        },
+        "east": {
+          "texture": "#chip_trace"
+        },
+        "west": {
+          "texture": "#chip_trace"
+        },
+        "up": {
+          "texture": "#chip_trace"
+        },
+        "down": {
+          "texture": "#chip_trace"
+        }
+      }
+    },
+    {
+      "name": "Chip_Middle_Contact",
+      "from": [
+        5.18,
+        8.18,
+        7.745
+      ],
+      "to": [
+        6.37,
+        8.3,
+        7.76
+      ],
+      "faces": {
+        "north": {
+          "texture": "#chip_trace"
+        },
+        "south": {
+          "texture": "#chip_trace"
+        },
+        "east": {
+          "texture": "#chip_trace"
+        },
+        "west": {
+          "texture": "#chip_trace"
+        },
+        "up": {
+          "texture": "#chip_trace"
+        },
+        "down": {
+          "texture": "#chip_trace"
+        }
+      }
+    }
+  ],
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [
+        -8,
+        -32,
+        29
+      ],
+      "translation": [
+        3.25,
+        1.25,
+        0
+      ],
+      "scale": [
+        1.65,
+        1.65,
+        1.65
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -8,
+        32,
+        -29
+      ],
+      "translation": [
+        -3.25,
+        1.25,
+        0
+      ],
+      "scale": [
+        1.65,
+        1.65,
+        1.65
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        10,
+        -65,
+        35
+      ],
+      "translation": [
+        0,
+        2.0,
+        1.5
+      ],
+      "scale": [
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        10,
+        65,
+        -35
+      ],
+      "translation": [
+        0,
+        2.0,
+        1.5
+      ],
+      "scale": [
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.35,
+        1.35,
+        1.35
+      ]
+    },
+    "ground": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.25,
+        1.25,
+        1.25
+      ]
+    }
+  }
+}

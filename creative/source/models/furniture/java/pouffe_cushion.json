@@ -1,0 +1,277 @@
+{
+  "credit": "GTM Indraprastha - Faithful 32x Studio 3D Asset",
+  "parent": "minecraft:block/block",
+  "textures": {
+    "atlas": "gtm:item/gtm_master_atlas_32x",
+    "particle": "#atlas"
+  },
+  "elements": [
+    {
+      "name": "part_0",
+      "from": [
+        3.776,
+        0.0,
+        3.776
+      ],
+      "to": [
+        12.224,
+        1.12,
+        12.224
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.02,
+            2.02,
+            0.98,
+            2.98
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.02,
+            2.02,
+            0.98,
+            2.98
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            0.02,
+            2.02,
+            0.98,
+            2.98
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            0.02,
+            2.02,
+            0.98,
+            2.98
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            0.02,
+            2.02,
+            0.98,
+            2.98
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            0.02,
+            2.02,
+            0.98,
+            2.98
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "part_1",
+      "from": [
+        4.256,
+        1.12,
+        4.256
+      ],
+      "to": [
+        11.744,
+        4.816,
+        11.744
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.02,
+            2.02,
+            8.98,
+            2.98
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.02,
+            2.02,
+            8.98,
+            2.98
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.02,
+            2.02,
+            8.98,
+            2.98
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.02,
+            2.02,
+            8.98,
+            2.98
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.02,
+            2.02,
+            8.98,
+            2.98
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            8.02,
+            2.02,
+            8.98,
+            2.98
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "part_2",
+      "from": [
+        3.68,
+        4.816,
+        3.68
+      ],
+      "to": [
+        12.32,
+        6.216,
+        12.32
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "texture": "#atlas"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        28,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0.5,
+        0
+      ],
+      "scale": [
+        0.78,
+        0.78,
+        0.78
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "scale": [
+        0.45,
+        0.45,
+        0.45
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.38,
+        0.38,
+        0.38
+      ]
+    }
+  }
+}

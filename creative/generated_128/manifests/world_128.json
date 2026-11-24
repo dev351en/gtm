@@ -1,0 +1,1476 @@
+{
+  "profile": "INDRAPRASTHA_128_V1",
+  "count": 98,
+  "textures": [
+    {
+      "id": "minecraft:gray_concrete",
+      "path": "source/textures/world/gray_concrete.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/gray_concrete.png",
+      "bedrock_texture": "textures/blocks/concrete_gray.png",
+      "style": "asphalt",
+      "native_grid": 128,
+      "sha256": "bc1ac4b9072afe6fce922c4644ea4b086f7fd601f1e14d605fb8f7e1c59dd6ea",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:black_concrete",
+      "path": "source/textures/world/black_concrete.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/black_concrete.png",
+      "bedrock_texture": "textures/blocks/concrete_black.png",
+      "style": "asphalt",
+      "native_grid": 128,
+      "sha256": "cf49189ea57495da4d26cab847500d437117229b2929ab7dc9c2359112715b8d",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:light_gray_concrete",
+      "path": "source/textures/world/light_gray_concrete.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/light_gray_concrete.png",
+      "bedrock_texture": "textures/blocks/concrete_silver.png",
+      "style": "polished",
+      "native_grid": 128,
+      "sha256": "a441fe3cddf58287a31246a1814b29a1e66ec01969a5f31238d7e5ed3a6337d3",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:white_concrete",
+      "path": "source/textures/world/white_concrete.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/white_concrete.png",
+      "bedrock_texture": "textures/blocks/concrete_white.png",
+      "style": "polished",
+      "native_grid": 128,
+      "sha256": "156c90e0602a835f48d4fd9eba61e3b9ccdb89ce4bb0c61a442cdac4f2f2ede8",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:yellow_concrete",
+      "path": "source/textures/world/yellow_concrete.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/yellow_concrete.png",
+      "bedrock_texture": "textures/blocks/concrete_yellow.png",
+      "style": "polished",
+      "native_grid": 128,
+      "sha256": "7a3c6d28647b8200d6dd93e1dee186a29ba16ff774ec520a75fb2d40807904e4",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:cyan_concrete",
+      "path": "source/textures/world/cyan_concrete.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/cyan_concrete.png",
+      "bedrock_texture": "textures/blocks/concrete_cyan.png",
+      "style": "asphalt",
+      "native_grid": 128,
+      "sha256": "b409a42fbbb28bf13dbf4f732d7161089921d2e0903db0a9363d8d9d8a0e1893",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:blue_concrete",
+      "path": "source/textures/world/blue_concrete.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/blue_concrete.png",
+      "bedrock_texture": "textures/blocks/concrete_blue.png",
+      "style": "polished",
+      "native_grid": 128,
+      "sha256": "9f1c578bf42b54d14e4a782dd25ab276c850762ec5edcbc44d365997c749dd08",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:red_concrete",
+      "path": "source/textures/world/red_concrete.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/red_concrete.png",
+      "bedrock_texture": "textures/blocks/concrete_red.png",
+      "style": "polished",
+      "native_grid": 128,
+      "sha256": "bb736d360b81ff4dce0f58720d7bd40cd63a7d944e72f62747b1c0c1a5e38437",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:green_concrete",
+      "path": "source/textures/world/green_concrete.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/green_concrete.png",
+      "bedrock_texture": "textures/blocks/concrete_green.png",
+      "style": "polished",
+      "native_grid": 128,
+      "sha256": "f24b8091ef00e66c4f9d9d6968737d8826344bb920fa3950274b467a0636064e",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:orange_concrete",
+      "path": "source/textures/world/orange_concrete.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/orange_concrete.png",
+      "bedrock_texture": "textures/blocks/concrete_orange.png",
+      "style": "polished",
+      "native_grid": 128,
+      "sha256": "f1247f7bd09382f9741a9bcdc06130cd716e5f3a1fd048cc7361e8570ac854e7",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:lime_concrete",
+      "path": "source/textures/world/lime_concrete.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/lime_concrete.png",
+      "bedrock_texture": "textures/blocks/concrete_lime.png",
+      "style": "polished",
+      "native_grid": 128,
+      "sha256": "fec7aca5c752d0ccfb2b208858bb1cc8d48c2dc366433248821bf7280625d9b4",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:purple_concrete",
+      "path": "source/textures/world/purple_concrete.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/purple_concrete.png",
+      "bedrock_texture": "textures/blocks/concrete_purple.png",
+      "style": "polished",
+      "native_grid": 128,
+      "sha256": "fa42caac5ac1e62fad71e94115cc918ce232d74f26ff7c4ac318c10626d278e9",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:magenta_concrete",
+      "path": "source/textures/world/magenta_concrete.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/magenta_concrete.png",
+      "bedrock_texture": "textures/blocks/concrete_magenta.png",
+      "style": "polished",
+      "native_grid": 128,
+      "sha256": "86d73c5726fff3f653e832981989b97ac7762b47294d53181183450affc50f62",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:pink_concrete",
+      "path": "source/textures/world/pink_concrete.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/pink_concrete.png",
+      "bedrock_texture": "textures/blocks/concrete_pink.png",
+      "style": "polished",
+      "native_grid": 128,
+      "sha256": "0ffdc7de3bab0075f0b9daabdd0158d4721fe45ad153c0e1f6c3af06173acc51",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:light_blue_concrete",
+      "path": "source/textures/world/light_blue_concrete.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/light_blue_concrete.png",
+      "bedrock_texture": "textures/blocks/concrete_light_blue.png",
+      "style": "polished",
+      "native_grid": 128,
+      "sha256": "11a80851352f15662cafb9a137a370bb3e112eb23617fcc97dcaf11a00cd0d69",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:brown_concrete",
+      "path": "source/textures/world/brown_concrete.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/brown_concrete.png",
+      "bedrock_texture": "textures/blocks/concrete_brown.png",
+      "style": "asphalt",
+      "native_grid": 128,
+      "sha256": "75bd23d7f43f4029d8685c23228d3ebd0093d51e654ca0860c7960586ab0ac7e",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:stone",
+      "path": "source/textures/world/stone.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/stone.png",
+      "bedrock_texture": "textures/blocks/stone.png",
+      "style": "stone",
+      "native_grid": 128,
+      "sha256": "b0d425f220c42a14c47133a251ff448859b09d61ea26f0a8287e4ac83c173b9a",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:smooth_stone",
+      "path": "source/textures/world/smooth_stone.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/smooth_stone.png",
+      "bedrock_texture": "textures/blocks/stone_slab_top.png",
+      "style": "polished",
+      "native_grid": 128,
+      "sha256": "55d32e996fbefd359eff0ed68e1022261cf7b6eec6ec0587acc1745aa7e9a5ed",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:smooth_stone_slab_side",
+      "path": "source/textures/world/smooth_stone_slab_side.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/smooth_stone_slab_side.png",
+      "bedrock_texture": "textures/blocks/stone_slab_side.png",
+      "style": "polished",
+      "native_grid": 128,
+      "sha256": "3b771c078905b44ee1d2eaa1010b09d46274843c7cc43c64b9d837f09bcd1968",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:cobblestone",
+      "path": "source/textures/world/cobblestone.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/cobblestone.png",
+      "bedrock_texture": "textures/blocks/cobblestone.png",
+      "style": "cobble",
+      "native_grid": 128,
+      "sha256": "37d52c6ba453b83d755f8ae349dcc55664ceb8d0e024a8daac2d1282760fa3b6",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:mossy_cobblestone",
+      "path": "source/textures/world/mossy_cobblestone.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/mossy_cobblestone.png",
+      "bedrock_texture": "textures/blocks/cobblestone_mossy.png",
+      "style": "cobble",
+      "native_grid": 128,
+      "sha256": "ab64cc4c915f1410a256b2a2a24bc4dfcd1e793b562203c69f72569b1e73309f",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:stone_bricks",
+      "path": "source/textures/world/stone_bricks.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/stone_bricks.png",
+      "bedrock_texture": "textures/blocks/stonebrick.png",
+      "style": "bricks",
+      "native_grid": 128,
+      "sha256": "1f37e6cdc466a928a4e34e17afb0cc69d575056396fbcdaae9399842296f3181",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:cracked_stone_bricks",
+      "path": "source/textures/world/cracked_stone_bricks.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/cracked_stone_bricks.png",
+      "bedrock_texture": "textures/blocks/stonebrick_cracked.png",
+      "style": "bricks",
+      "native_grid": 128,
+      "sha256": "019f713ce545a88bcea0e0b7fe1481f1ad8ace9d6258e23386af29fe8242a48d",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:mossy_stone_bricks",
+      "path": "source/textures/world/mossy_stone_bricks.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/mossy_stone_bricks.png",
+      "bedrock_texture": "textures/blocks/stonebrick_mossy.png",
+      "style": "bricks",
+      "native_grid": 128,
+      "sha256": "dab77fd01b1947dcb21f0d33b197d7e28514a61e232c7a45e0aa5fd1701b1cdf",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:andesite",
+      "path": "source/textures/world/andesite.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/andesite.png",
+      "bedrock_texture": "textures/blocks/stone_andesite.png",
+      "style": "stone",
+      "native_grid": 128,
+      "sha256": "6e6c2ca96dff7bebfc993379b465c0cc8fc6aa6151a51a6914455799383bcdcf",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:polished_andesite",
+      "path": "source/textures/world/polished_andesite.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/polished_andesite.png",
+      "bedrock_texture": "textures/blocks/stone_andesite_smooth.png",
+      "style": "polished",
+      "native_grid": 128,
+      "sha256": "119f0780d932311c3432f2d40b5178a2cd18d80a9475301639bf0dcce0d5f5b8",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:diorite",
+      "path": "source/textures/world/diorite.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/diorite.png",
+      "bedrock_texture": "textures/blocks/stone_diorite.png",
+      "style": "stone",
+      "native_grid": 128,
+      "sha256": "430734cbed76185a96e111f37d8a8ceeb2531551c80552b52c4c8ea5159260cb",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:polished_diorite",
+      "path": "source/textures/world/polished_diorite.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/polished_diorite.png",
+      "bedrock_texture": "textures/blocks/stone_diorite_smooth.png",
+      "style": "polished",
+      "native_grid": 128,
+      "sha256": "8c3bfc0efe3aea5aa60bdf3f191290eba46f32075206150c65a10030df5bc95f",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:granite",
+      "path": "source/textures/world/granite.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/granite.png",
+      "bedrock_texture": "textures/blocks/stone_granite.png",
+      "style": "stone",
+      "native_grid": 128,
+      "sha256": "97a60f3081836d4d5eb35407fdb5864d2594fbfef53c9167a9864ab37d7f2f4f",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:polished_granite",
+      "path": "source/textures/world/polished_granite.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/polished_granite.png",
+      "bedrock_texture": "textures/blocks/stone_granite_smooth.png",
+      "style": "polished",
+      "native_grid": 128,
+      "sha256": "bc5f673a933796939d2ca89d6df56d70bf936f2b4727f057f6b3ce80fd6c7b83",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:deepslate",
+      "path": "source/textures/world/deepslate.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/deepslate.png",
+      "bedrock_texture": "textures/blocks/deepslate/deepslate.png",
+      "style": "stone",
+      "native_grid": 128,
+      "sha256": "d8f42b3710bf14b01ff0acd87bec8dc631d32345793346024a0aeb031145bc75",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:polished_deepslate",
+      "path": "source/textures/world/polished_deepslate.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/polished_deepslate.png",
+      "bedrock_texture": "textures/blocks/deepslate/polished_deepslate.png",
+      "style": "polished",
+      "native_grid": 128,
+      "sha256": "9c393697c07c92f881ece42f7dde9aab9a5af92dd5ce07295e9432365fea6532",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:deepslate_bricks",
+      "path": "source/textures/world/deepslate_bricks.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/deepslate_bricks.png",
+      "bedrock_texture": "textures/blocks/deepslate/deepslate_bricks.png",
+      "style": "bricks",
+      "native_grid": 128,
+      "sha256": "843bd2a3fd5624af65e85f624743a415ad85508bb6db80363394996a7d5f26a3",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:deepslate_tiles",
+      "path": "source/textures/world/deepslate_tiles.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/deepslate_tiles.png",
+      "bedrock_texture": "textures/blocks/deepslate/deepslate_tiles.png",
+      "style": "tiles",
+      "native_grid": 128,
+      "sha256": "1cacd686a0e702b37863a98bb8978e88faefe37ee136937daf107fd88f3d155c",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:blackstone",
+      "path": "source/textures/world/blackstone.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/blackstone.png",
+      "bedrock_texture": "textures/blocks/blackstone.png",
+      "style": "stone",
+      "native_grid": 128,
+      "sha256": "411d6943f3eac084cdc8f6347538d30ab5af7399ff6fc70ea3bb95553b2d5f96",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:polished_blackstone_bricks",
+      "path": "source/textures/world/polished_blackstone_bricks.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/polished_blackstone_bricks.png",
+      "bedrock_texture": "textures/blocks/polished_blackstone_bricks.png",
+      "style": "bricks",
+      "native_grid": 128,
+      "sha256": "5a65eb475b3c5e5d83a93c31132c6c9a131b5531cfaf28d5e106b891f2e419dd",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:bricks",
+      "path": "source/textures/world/bricks.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/bricks.png",
+      "bedrock_texture": "textures/blocks/brick.png",
+      "style": "bricks",
+      "native_grid": 128,
+      "sha256": "ba09abf919a09317a6309cce15a74aa6aa0a9333e8fe0624b799078f02258b00",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:mud_bricks",
+      "path": "source/textures/world/mud_bricks.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/mud_bricks.png",
+      "bedrock_texture": "textures/blocks/mud_bricks.png",
+      "style": "bricks",
+      "native_grid": 128,
+      "sha256": "a9b014eb10c2199271892664cb44ba2afd9ace66a9717b7137a2782508ac6d52",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:terracotta",
+      "path": "source/textures/world/terracotta.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/terracotta.png",
+      "bedrock_texture": "textures/blocks/hardened_clay.png",
+      "style": "stone",
+      "native_grid": 128,
+      "sha256": "187c259277d6d4b11576bbd5d6a016890a6469143a3805a831062837a19dc70f",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:white_terracotta",
+      "path": "source/textures/world/white_terracotta.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/white_terracotta.png",
+      "bedrock_texture": "textures/blocks/hardened_clay_stained_white.png",
+      "style": "stone",
+      "native_grid": 128,
+      "sha256": "62e474ec71713e7ef7223ebee12709ee26cf62fe7462e22c729f10ed87523381",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:orange_terracotta",
+      "path": "source/textures/world/orange_terracotta.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/orange_terracotta.png",
+      "bedrock_texture": "textures/blocks/hardened_clay_stained_orange.png",
+      "style": "stone",
+      "native_grid": 128,
+      "sha256": "d5bb2a9a13cab5709db75f8fffaea38e0ff806c285b3f41765f4d0e3ac705be4",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:yellow_terracotta",
+      "path": "source/textures/world/yellow_terracotta.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/yellow_terracotta.png",
+      "bedrock_texture": "textures/blocks/hardened_clay_stained_yellow.png",
+      "style": "stone",
+      "native_grid": 128,
+      "sha256": "5689592f589dd99e3cdeeeb400d9dc1246d018b1f19321e39cfee30ab5fdd829",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:red_terracotta",
+      "path": "source/textures/world/red_terracotta.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/red_terracotta.png",
+      "bedrock_texture": "textures/blocks/hardened_clay_stained_red.png",
+      "style": "stone",
+      "native_grid": 128,
+      "sha256": "56d085cb3b76d545677726f042635dae30dbe7ebada29071edb5d3dc76ac4288",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:sandstone",
+      "path": "source/textures/world/sandstone.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/sandstone.png",
+      "bedrock_texture": "textures/blocks/sandstone_normal.png",
+      "style": "bricks",
+      "native_grid": 128,
+      "sha256": "0ba6c24ce3315e56722015825b8101b96653591173c39e82546fba887cbe07f3",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:sandstone_top",
+      "path": "source/textures/world/sandstone_top.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/sandstone_top.png",
+      "bedrock_texture": "textures/blocks/sandstone_top.png",
+      "style": "stone",
+      "native_grid": 128,
+      "sha256": "9b54a0a6c755db0ae3da4e37e055d7c5cdea4ebcf42c03ccd71a97a1b4296631",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:sandstone_bottom",
+      "path": "source/textures/world/sandstone_bottom.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/sandstone_bottom.png",
+      "bedrock_texture": "textures/blocks/sandstone_bottom.png",
+      "style": "stone",
+      "native_grid": 128,
+      "sha256": "85dd7913f3a3c2005072cec7baadb5abce8fb56a56fc3a3d292c07d0ab7c5e0b",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:smooth_sandstone",
+      "path": "source/textures/world/smooth_sandstone.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/smooth_sandstone.png",
+      "bedrock_texture": "textures/blocks/sandstone_smooth.png",
+      "style": "polished",
+      "native_grid": 128,
+      "sha256": "3242c0de95ae68c0dc0e0cbd3a37ac5f6e62a33e8ba834a56e914036ead7f143",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:quartz_block_side",
+      "path": "source/textures/world/quartz_block_side.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/quartz_block_side.png",
+      "bedrock_texture": "textures/blocks/quartz_block_side.png",
+      "style": "polished",
+      "native_grid": 128,
+      "sha256": "6daed840410aacde4d2d6035719a5b5551e7ee77fa24115e36911cbda9419145",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:quartz_block_top",
+      "path": "source/textures/world/quartz_block_top.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/quartz_block_top.png",
+      "bedrock_texture": "textures/blocks/quartz_block_top.png",
+      "style": "polished",
+      "native_grid": 128,
+      "sha256": "4dea5eb2701ac39d5fb516048bdf4c245c8bf0d72950c42025c022b9438a08e2",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:quartz_bricks",
+      "path": "source/textures/world/quartz_bricks.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/quartz_bricks.png",
+      "bedrock_texture": "textures/blocks/quartz_bricks.png",
+      "style": "bricks",
+      "native_grid": 128,
+      "sha256": "d137a621bcc689450e3fd4ccc84e31b004d8c2602a059f8b3575e12af3655493",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:quartz_pillar",
+      "path": "source/textures/world/quartz_pillar.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/quartz_pillar.png",
+      "bedrock_texture": "textures/blocks/quartz_block_lines.png",
+      "style": "planks",
+      "native_grid": 128,
+      "sha256": "3185f308724ff2a223be231f0ba74d511a8a299362a36fc814e20a49d51c0d54",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:white_wool",
+      "path": "source/textures/world/white_wool.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/white_wool.png",
+      "bedrock_texture": "textures/blocks/wool_colored_white.png",
+      "style": "wool",
+      "native_grid": 128,
+      "sha256": "5c97d02608d8bba80caffc41bb61656763315fbb244b1a4872a2e006efb24f0f",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:red_wool",
+      "path": "source/textures/world/red_wool.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/red_wool.png",
+      "bedrock_texture": "textures/blocks/wool_colored_red.png",
+      "style": "wool",
+      "native_grid": 128,
+      "sha256": "bf90a067b4662760dddb3d262b99d03ba60da5ef2b3f0193ce1cc4198eaf7b0f",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:blue_wool",
+      "path": "source/textures/world/blue_wool.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/blue_wool.png",
+      "bedrock_texture": "textures/blocks/wool_colored_blue.png",
+      "style": "wool",
+      "native_grid": 128,
+      "sha256": "7f4d272bf52b9781acb7a120380354974e228c3c727d713bdb2eb7668cb0c4f0",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:yellow_wool",
+      "path": "source/textures/world/yellow_wool.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/yellow_wool.png",
+      "bedrock_texture": "textures/blocks/wool_colored_yellow.png",
+      "style": "wool",
+      "native_grid": 128,
+      "sha256": "535dfcea2fedf2d136fd74dbbddb0a10faa11741dc926891e0dd2b11fe34661b",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:oak_planks",
+      "path": "source/textures/world/oak_planks.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/oak_planks.png",
+      "bedrock_texture": "textures/blocks/planks_oak.png",
+      "style": "planks",
+      "native_grid": 128,
+      "sha256": "7767ec22bd8adf1e541b90ebe8c497ad2e3a390842ee538d01e31a4a984e1e36",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:spruce_planks",
+      "path": "source/textures/world/spruce_planks.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/spruce_planks.png",
+      "bedrock_texture": "textures/blocks/planks_spruce.png",
+      "style": "planks",
+      "native_grid": 128,
+      "sha256": "2fd7b0ee487f5c9e6ae5914073f6b99bec523592ecb66940129b2d40bbf0bddf",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:dark_oak_planks",
+      "path": "source/textures/world/dark_oak_planks.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/dark_oak_planks.png",
+      "bedrock_texture": "textures/blocks/planks_big_oak.png",
+      "style": "planks",
+      "native_grid": 128,
+      "sha256": "5e2b357690736f02e996c4c8d0d9b7bb89f654e60e8e9d0d1c7115a9e2862706",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:birch_planks",
+      "path": "source/textures/world/birch_planks.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/birch_planks.png",
+      "bedrock_texture": "textures/blocks/planks_birch.png",
+      "style": "planks",
+      "native_grid": 128,
+      "sha256": "4579428e97619ed989d140c34cc3781e255a04ccf874e1da9d4fe69c022b1b78",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:jungle_planks",
+      "path": "source/textures/world/jungle_planks.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/jungle_planks.png",
+      "bedrock_texture": "textures/blocks/planks_jungle.png",
+      "style": "planks",
+      "native_grid": 128,
+      "sha256": "9a9d82fb5712df48e2229433d2874d46b003458eff4be8ff1f252d4021d44cd9",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:acacia_planks",
+      "path": "source/textures/world/acacia_planks.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/acacia_planks.png",
+      "bedrock_texture": "textures/blocks/planks_acacia.png",
+      "style": "planks",
+      "native_grid": 128,
+      "sha256": "e590f9cb0c3256ac8f523ab87ed45593ab47fda93b927c6fe110fccd9553bc21",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:oak_log",
+      "path": "source/textures/world/oak_log.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/oak_log.png",
+      "bedrock_texture": "textures/blocks/log_oak.png",
+      "style": "log_side",
+      "native_grid": 128,
+      "sha256": "ec23f1adba136ac03cecbd85fec4f59edcb600f3b1170430290b77b289a9bbbc",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:oak_log_top",
+      "path": "source/textures/world/oak_log_top.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/oak_log_top.png",
+      "bedrock_texture": "textures/blocks/log_oak_top.png",
+      "style": "log_top",
+      "native_grid": 128,
+      "sha256": "ed009cbc00849c66e75fc587ccd59f6e759ae7fcc455247431c08145c8fc06f8",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:spruce_log",
+      "path": "source/textures/world/spruce_log.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/spruce_log.png",
+      "bedrock_texture": "textures/blocks/log_spruce.png",
+      "style": "log_side",
+      "native_grid": 128,
+      "sha256": "a5463ee28f4e09814c149237c428d04e568651c47f3ff51d212963cbafc57abd",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:spruce_log_top",
+      "path": "source/textures/world/spruce_log_top.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/spruce_log_top.png",
+      "bedrock_texture": "textures/blocks/log_spruce_top.png",
+      "style": "log_top",
+      "native_grid": 128,
+      "sha256": "5412f0967b190e8186fb9c657617d0da0abeb7bdbc293dfc111d2eb2eed497a4",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:dark_oak_log",
+      "path": "source/textures/world/dark_oak_log.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/dark_oak_log.png",
+      "bedrock_texture": "textures/blocks/log_big_oak.png",
+      "style": "log_side",
+      "native_grid": 128,
+      "sha256": "9d76feaa7c6b9bd4ba046d7ef01f06c271965be36e0035bceab7cd5f5fb3e82f",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:birch_log",
+      "path": "source/textures/world/birch_log.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/birch_log.png",
+      "bedrock_texture": "textures/blocks/log_birch.png",
+      "style": "log_side",
+      "native_grid": 128,
+      "sha256": "c6620bf1de2f6afff71db3678ba5fe7062e922e22e55253dc12735cd4e997c0c",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:bookshelf",
+      "path": "source/textures/world/bookshelf.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/bookshelf.png",
+      "bedrock_texture": "textures/blocks/bookshelf.png",
+      "style": "bookshelf",
+      "native_grid": 128,
+      "sha256": "9a8a87df978cc3fd42354b69e050bdbdbf44dd2c407b8205adb9f6a9c96e2f9e",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:glass",
+      "path": "source/textures/world/glass.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/glass.png",
+      "bedrock_texture": "textures/blocks/glass.png",
+      "style": "glass",
+      "native_grid": 128,
+      "sha256": "6f15b2f99aae781dcdbc565ec6b8be2b1be578b8621ad1bcb6bc28397e53c4b8",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:light_blue_stained_glass",
+      "path": "source/textures/world/light_blue_stained_glass.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/light_blue_stained_glass.png",
+      "bedrock_texture": "textures/blocks/glass_light_blue.png",
+      "style": "glass",
+      "native_grid": 128,
+      "sha256": "4f6a58d69c07332d703c886d4fa3b912856b55302b6ac3b6dbc0633511d4adc5",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:gray_stained_glass",
+      "path": "source/textures/world/gray_stained_glass.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/gray_stained_glass.png",
+      "bedrock_texture": "textures/blocks/glass_gray.png",
+      "style": "glass",
+      "native_grid": 128,
+      "sha256": "b0b5f71b64a268b6bce68d9b8abbca8a203327c9e9d57963976a8a0635aa8016",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:black_stained_glass",
+      "path": "source/textures/world/black_stained_glass.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/black_stained_glass.png",
+      "bedrock_texture": "textures/blocks/glass_black.png",
+      "style": "glass",
+      "native_grid": 128,
+      "sha256": "5977f772dc631eceb717d82048be17642221b25524d37b638f3657f578b423e5",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:tinted_glass",
+      "path": "source/textures/world/tinted_glass.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/tinted_glass.png",
+      "bedrock_texture": "textures/blocks/tinted_glass.png",
+      "style": "glass",
+      "native_grid": 128,
+      "sha256": "2b3abe661b284ba26749074aeebccd4e9226c5528d0a08c6c87155759f7ba4b9",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:iron_block",
+      "path": "source/textures/world/iron_block.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/iron_block.png",
+      "bedrock_texture": "textures/blocks/iron_block.png",
+      "style": "metal",
+      "native_grid": 128,
+      "sha256": "599a963589c862debe1bcd8c19271ef46160eb42b7f2a6d6f3ee1e242eb5bd5f",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:gold_block",
+      "path": "source/textures/world/gold_block.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/gold_block.png",
+      "bedrock_texture": "textures/blocks/gold_block.png",
+      "style": "metal",
+      "native_grid": 128,
+      "sha256": "bec3234932de3123528483db988cc4413d6546daab88d3a2671a71077e671d7c",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:copper_block",
+      "path": "source/textures/world/copper_block.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/copper_block.png",
+      "bedrock_texture": "textures/blocks/copper_block.png",
+      "style": "metal",
+      "native_grid": 128,
+      "sha256": "2268876e2972419ee3ff7a40218adc6ceac783048e02e609d43395e20632e605",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:diamond_block",
+      "path": "source/textures/world/diamond_block.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/diamond_block.png",
+      "bedrock_texture": "textures/blocks/diamond_block.png",
+      "style": "gem",
+      "native_grid": 128,
+      "sha256": "101cb233f1e8b8587cf537b6db5cd1e23cac5e4f43322b9ae28861caf1e3e451",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:emerald_block",
+      "path": "source/textures/world/emerald_block.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/emerald_block.png",
+      "bedrock_texture": "textures/blocks/emerald_block.png",
+      "style": "gem",
+      "native_grid": 128,
+      "sha256": "c65697b115fc4a8d3c294e2c95366a2d54418a519eaaf8d6836fcafa18faa90c",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:lapis_block",
+      "path": "source/textures/world/lapis_block.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/lapis_block.png",
+      "bedrock_texture": "textures/blocks/lapis_block.png",
+      "style": "gem",
+      "native_grid": 128,
+      "sha256": "5b9dcee065a53a75f6a2e64b7ff94836b2fed39a43593fba55109e28cacea58b",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:obsidian",
+      "path": "source/textures/world/obsidian.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/obsidian.png",
+      "bedrock_texture": "textures/blocks/obsidian.png",
+      "style": "obsidian",
+      "native_grid": 128,
+      "sha256": "13edc462254ca5dcc027e506e3765c3a508036bf5b3f71aa9a2fb5898c9057db",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:glowstone",
+      "path": "source/textures/world/glowstone.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/glowstone.png",
+      "bedrock_texture": "textures/blocks/glowstone.png",
+      "style": "glowstone",
+      "native_grid": 128,
+      "sha256": "5c6024d1eea466f8320c29f82541fb4496ec1832ddca2905d2717558946ca571",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:sea_lantern",
+      "path": "source/textures/world/sea_lantern.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/sea_lantern.png",
+      "bedrock_texture": "textures/blocks/sea_lantern.png",
+      "style": "sea_lantern",
+      "native_grid": 128,
+      "sha256": "e488c43dc3acab74f68f3f7bc859d0bbe9296d3eccc1b874944a7e469cb7563d",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:redstone_lamp",
+      "path": "source/textures/world/redstone_lamp.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/redstone_lamp.png",
+      "bedrock_texture": "textures/blocks/redstone_lamp_off.png",
+      "style": "lamp_off",
+      "native_grid": 128,
+      "sha256": "f6aa9d7749dc85887d4bcd7b3ed775be42acc4390f24f626f81cd8ccd2d6b0ab",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:redstone_lamp_on",
+      "path": "source/textures/world/redstone_lamp_on.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/redstone_lamp_on.png",
+      "bedrock_texture": "textures/blocks/redstone_lamp_on.png",
+      "style": "lamp_on",
+      "native_grid": 128,
+      "sha256": "8964a94140123d17aa8880faf43c1a2b68aeb15225fdf8bf32bc555a9094d948",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:rail",
+      "path": "source/textures/world/rail.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/rail.png",
+      "bedrock_texture": "textures/blocks/rail_normal.png",
+      "style": "rails",
+      "native_grid": 128,
+      "sha256": "c849ebe7cad6382e2c8eccd895700427400a61532e964c18e296ae49889bca63",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:iron_bars",
+      "path": "source/textures/world/iron_bars.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/iron_bars.png",
+      "bedrock_texture": "textures/blocks/iron_bars.png",
+      "style": "bars",
+      "native_grid": 128,
+      "sha256": "ccc6e63bdeeca0049c3fa5138ac300555df84ccbd1da393133bb788bf7021da4",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:grass_block_top",
+      "path": "source/textures/world/grass_block_top.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/grass_block_top.png",
+      "bedrock_texture": "textures/blocks/grass_top.png",
+      "style": "grass_top",
+      "native_grid": 128,
+      "sha256": "b3064564639355482c488b1c4bc0f9036e0ee6a496844861e7101942abd221d4",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:grass_block_side",
+      "path": "source/textures/world/grass_block_side.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/grass_block_side.png",
+      "bedrock_texture": "textures/blocks/grass_side.png",
+      "style": "grass_side",
+      "native_grid": 128,
+      "sha256": "598031c1d7f4fbe1bb8ac388edb2f217a1a76ac70e206b280a46b62d8280c442",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:dirt",
+      "path": "source/textures/world/dirt.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/dirt.png",
+      "bedrock_texture": "textures/blocks/dirt.png",
+      "style": "dirt",
+      "native_grid": 128,
+      "sha256": "db7126abb73d5cfcd452e2add8ce6ab1236deff697eaed41b382517ed8e9fe5e",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:coarse_dirt",
+      "path": "source/textures/world/coarse_dirt.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/coarse_dirt.png",
+      "bedrock_texture": "textures/blocks/coarse_dirt.png",
+      "style": "dirt",
+      "native_grid": 128,
+      "sha256": "ff1e89a23b668c51c09df071c0710cf6b9b3bca8e0a205c8eecb435218bd6376",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:sand",
+      "path": "source/textures/world/sand.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/sand.png",
+      "bedrock_texture": "textures/blocks/sand.png",
+      "style": "sand",
+      "native_grid": 128,
+      "sha256": "79070a76f00ac88e9a9c4b82b080875c3215e8c1ef4118272610f2bbbba5aabb",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:red_sand",
+      "path": "source/textures/world/red_sand.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/red_sand.png",
+      "bedrock_texture": "textures/blocks/red_sand.png",
+      "style": "sand",
+      "native_grid": 128,
+      "sha256": "bc4ec0a9aede32fb1bef805f7023d8e2e0a6531364e65a9beb81be1b46e8d673",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:gravel",
+      "path": "source/textures/world/gravel.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/gravel.png",
+      "bedrock_texture": "textures/blocks/gravel.png",
+      "style": "gravel",
+      "native_grid": 128,
+      "sha256": "df532168efdebb46a71640ff13384c83805238b08a08cb1fa17245fecfc7e079",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:clay",
+      "path": "source/textures/world/clay.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/clay.png",
+      "bedrock_texture": "textures/blocks/clay.png",
+      "style": "stone",
+      "native_grid": 128,
+      "sha256": "4ba4dc8a118f76989afee56a238133c3cd2b19b08520ba2740f54eeb34332525",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:oak_leaves",
+      "path": "source/textures/world/oak_leaves.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/oak_leaves.png",
+      "bedrock_texture": "textures/blocks/leaves_oak.png",
+      "style": "leaves",
+      "native_grid": 128,
+      "sha256": "720fe31a7f80fb739bc98da7248538feb300340d63348a651126b02d3af33ebb",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:spruce_leaves",
+      "path": "source/textures/world/spruce_leaves.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/spruce_leaves.png",
+      "bedrock_texture": "textures/blocks/leaves_spruce.png",
+      "style": "leaves",
+      "native_grid": 128,
+      "sha256": "1778d2fdd4615bf94dab76e9c07c7c662ebb2ef500d4f537f18ff0e5cd1f9b6c",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:birch_leaves",
+      "path": "source/textures/world/birch_leaves.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/birch_leaves.png",
+      "bedrock_texture": "textures/blocks/leaves_birch.png",
+      "style": "leaves",
+      "native_grid": 128,
+      "sha256": "67906f6b52a841f5af4c38d055bca3c2025f408f0a8e0210f7bcf2f9e4ca1b0b",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    },
+    {
+      "id": "minecraft:water_still",
+      "path": "source/textures/world/water_still.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "java_texture": "assets/minecraft/textures/block/water_still.png",
+      "bedrock_texture": "textures/blocks/water_still.png",
+      "style": "water",
+      "native_grid": 128,
+      "sha256": "bfd885a3a62d0e6346142e0421af577bec8c21c06635e5288942a27a310b6019",
+      "status": "art_generated",
+      "client_verification": "not_run"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="g_quoggle" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#252F38"/>
+      <stop offset="100%" stop-color="#0D1115"/>
+    </radialGradient>
+  </defs>
+  <rect width="256" height="256" rx="40" fill="url(#g_quoggle)"/>
+  <rect x="6" y="6" width="244" height="244" rx="34" fill="none" stroke="#2680EB" stroke-width="4" stroke-opacity="0.6"/>
+  <circle cx="114" cy="114" r="56" fill="none" stroke="#E74C3C" stroke-width="16"/><circle cx="114" cy="114" r="56" fill="none" stroke="#3498DB" stroke-width="16" stroke-dasharray="176 352"/><circle cx="114" cy="114" r="36" fill="#3498DB" fill-opacity="0.35"/><line x1="156" y1="156" x2="208" y2="208" stroke="#9DAAB6" stroke-width="20" stroke-linecap="round"/>
+</svg>

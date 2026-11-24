@@ -1,0 +1,3680 @@
+[
+  {
+    "id": "gtm:hatchback_swift",
+    "title": "Maruva Swift 1.2",
+    "manufacturer": "maruva",
+    "category": "road",
+    "subcategory": "hatchback",
+    "dimensions_blocks": [
+      1.6,
+      1.45,
+      3.8
+    ],
+    "cube_count": 40,
+    "geometry": "geometry.gtm.hatchback_swift",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/hatchback_swift.geo.json",
+    "java_model_path": "creative/source/models/transport/java/hatchback_swift.json",
+    "icon_path": "creative/source/icons/transport/hatchback_swift.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.4,
+          0.51,
+          0.19
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.8,
+          0.0,
+          -1.9
+        ],
+        "max": [
+          0.8,
+          1.45,
+          1.9
+        ]
+      }
+    ],
+    "sha256": "8760f850bc2541edfe0b54c3d105de214e6153f58cfdd05ff9b79c2d0c1cf861"
+  },
+  {
+    "id": "gtm:hatchback_baleno",
+    "title": "Maruva Baleno Premium",
+    "manufacturer": "maruva",
+    "category": "road",
+    "subcategory": "hatchback",
+    "dimensions_blocks": [
+      1.7,
+      1.45,
+      3.9
+    ],
+    "cube_count": 40,
+    "geometry": "geometry.gtm.hatchback_baleno",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/hatchback_baleno.geo.json",
+    "java_model_path": "creative/source/models/transport/java/hatchback_baleno.json",
+    "icon_path": "creative/source/icons/transport/hatchback_baleno.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.42,
+          0.51,
+          0.2
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.85,
+          0.0,
+          -1.95
+        ],
+        "max": [
+          0.85,
+          1.45,
+          1.95
+        ]
+      }
+    ],
+    "sha256": "4fa7945f98338a338ce521a8d2b0e63b56281ac12ebd75bc39823589e5454a5d"
+  },
+  {
+    "id": "gtm:hatchback_wagonr",
+    "title": "Maruva Wagon Tallboy",
+    "manufacturer": "maruva",
+    "category": "road",
+    "subcategory": "hatchback",
+    "dimensions_blocks": [
+      1.5,
+      1.65,
+      3.6
+    ],
+    "cube_count": 40,
+    "geometry": "geometry.gtm.hatchback_wagonr",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/hatchback_wagonr.geo.json",
+    "java_model_path": "creative/source/models/transport/java/hatchback_wagonr.json",
+    "icon_path": "creative/source/icons/transport/hatchback_wagonr.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.38,
+          0.58,
+          0.18
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.75,
+          0.0,
+          -1.8
+        ],
+        "max": [
+          0.75,
+          1.65,
+          1.8
+        ]
+      }
+    ],
+    "sha256": "89d5ddfd33c07098a9cb5a82fadd768be7dab0d83ac0307186d13ac82e4e045e"
+  },
+  {
+    "id": "gtm:hatchback_alto",
+    "title": "Maruva Alto City",
+    "manufacturer": "maruva",
+    "category": "road",
+    "subcategory": "hatchback",
+    "dimensions_blocks": [
+      1.45,
+      1.45,
+      3.4
+    ],
+    "cube_count": 40,
+    "geometry": "geometry.gtm.hatchback_alto",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/hatchback_alto.geo.json",
+    "java_model_path": "creative/source/models/transport/java/hatchback_alto.json",
+    "icon_path": "creative/source/icons/transport/hatchback_alto.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.36,
+          0.51,
+          0.17
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.72,
+          0.0,
+          -1.7
+        ],
+        "max": [
+          0.72,
+          1.45,
+          1.7
+        ]
+      }
+    ],
+    "sha256": "8f6defb96fab15cf855707321663d4a50748e798a88f681a24fb407ba6a8c24b"
+  },
+  {
+    "id": "gtm:hatchback_i10",
+    "title": "Hondo CityGrand 1.2",
+    "manufacturer": "hondo",
+    "category": "road",
+    "subcategory": "hatchback",
+    "dimensions_blocks": [
+      1.65,
+      1.5,
+      3.8
+    ],
+    "cube_count": 40,
+    "geometry": "geometry.gtm.hatchback_i10",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/hatchback_i10.geo.json",
+    "java_model_path": "creative/source/models/transport/java/hatchback_i10.json",
+    "icon_path": "creative/source/icons/transport/hatchback_i10.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.41,
+          0.52,
+          0.19
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.82,
+          0.0,
+          -1.9
+        ],
+        "max": [
+          0.82,
+          1.5,
+          1.9
+        ]
+      }
+    ],
+    "sha256": "58dd40b8ffb6d49c26ce721b6e9cb2b8192e81535a99d17bfab906497c6d45ff"
+  },
+  {
+    "id": "gtm:hatchback_tiago",
+    "title": "Tavara Tiago Compact",
+    "manufacturer": "tavara",
+    "category": "road",
+    "subcategory": "hatchback",
+    "dimensions_blocks": [
+      1.65,
+      1.5,
+      3.75
+    ],
+    "cube_count": 40,
+    "geometry": "geometry.gtm.hatchback_tiago",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/hatchback_tiago.geo.json",
+    "java_model_path": "creative/source/models/transport/java/hatchback_tiago.json",
+    "icon_path": "creative/source/icons/transport/hatchback_tiago.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.41,
+          0.52,
+          0.19
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.82,
+          0.0,
+          -1.88
+        ],
+        "max": [
+          0.82,
+          1.5,
+          1.88
+        ]
+      }
+    ],
+    "sha256": "2b3848fb1b63f5303d79b6d7d35d4ddc13b0aba8aa525fef5844fb8ed10c5ae7"
+  },
+  {
+    "id": "gtm:hatchback_i20",
+    "title": "Hondo AeroSport 1.0T",
+    "manufacturer": "hondo",
+    "category": "road",
+    "subcategory": "hatchback",
+    "dimensions_blocks": [
+      1.75,
+      1.45,
+      4.0
+    ],
+    "cube_count": 40,
+    "geometry": "geometry.gtm.hatchback_i20",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/hatchback_i20.geo.json",
+    "java_model_path": "creative/source/models/transport/java/hatchback_i20.json",
+    "icon_path": "creative/source/icons/transport/hatchback_i20.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.44,
+          0.51,
+          0.2
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.88,
+          0.0,
+          -2.0
+        ],
+        "max": [
+          0.88,
+          1.45,
+          2.0
+        ]
+      }
+    ],
+    "sha256": "035f523f4f74f0f6131df149fcfe1c6948bdf570af8c24fc2fb171cbf0eb69cc"
+  },
+  {
+    "id": "gtm:sedan_dzire",
+    "title": "Maruva Swift Sedan",
+    "manufacturer": "maruva",
+    "category": "road",
+    "subcategory": "sedan",
+    "dimensions_blocks": [
+      1.7,
+      1.5,
+      4.0
+    ],
+    "cube_count": 41,
+    "geometry": "geometry.gtm.sedan_dzire",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/sedan_dzire.geo.json",
+    "java_model_path": "creative/source/models/transport/java/sedan_dzire.json",
+    "icon_path": "creative/source/icons/transport/sedan_dzire.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.42,
+          0.52,
+          0.2
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.85,
+          0.0,
+          -2.0
+        ],
+        "max": [
+          0.85,
+          1.5,
+          2.0
+        ]
+      }
+    ],
+    "sha256": "dc8a32526b48c33681ae9ef38dbb92df100cc7cb4d7e1cdd4d9758f8d0cfe6a3"
+  },
+  {
+    "id": "gtm:sedan_aura",
+    "title": "Hondo Compact Sedan",
+    "manufacturer": "hondo",
+    "category": "road",
+    "subcategory": "sedan",
+    "dimensions_blocks": [
+      1.68,
+      1.5,
+      3.99
+    ],
+    "cube_count": 41,
+    "geometry": "geometry.gtm.sedan_aura",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/sedan_aura.geo.json",
+    "java_model_path": "creative/source/models/transport/java/sedan_aura.json",
+    "icon_path": "creative/source/icons/transport/sedan_aura.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.42,
+          0.52,
+          0.2
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.84,
+          0.0,
+          -2.0
+        ],
+        "max": [
+          0.84,
+          1.5,
+          2.0
+        ]
+      }
+    ],
+    "sha256": "a90fa57271810acd9bc213140eea8e2964d842119803b6114fadc56165bdf528"
+  },
+  {
+    "id": "gtm:sedan_amaze",
+    "title": "Hondo Accord Classic",
+    "manufacturer": "hondo",
+    "category": "road",
+    "subcategory": "sedan",
+    "dimensions_blocks": [
+      1.7,
+      1.5,
+      4.0
+    ],
+    "cube_count": 41,
+    "geometry": "geometry.gtm.sedan_amaze",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/sedan_amaze.geo.json",
+    "java_model_path": "creative/source/models/transport/java/sedan_amaze.json",
+    "icon_path": "creative/source/icons/transport/sedan_amaze.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.42,
+          0.52,
+          0.2
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.85,
+          0.0,
+          -2.0
+        ],
+        "max": [
+          0.85,
+          1.5,
+          2.0
+        ]
+      }
+    ],
+    "sha256": "4e9c2e6a5588a6710fc51527c6f36084afbc3d93cfaae53cef983850f72283bc"
+  },
+  {
+    "id": "gtm:sedan_verna",
+    "title": "Hondo Verna Executive",
+    "manufacturer": "hondo",
+    "category": "road",
+    "subcategory": "sedan",
+    "dimensions_blocks": [
+      1.75,
+      1.48,
+      4.4
+    ],
+    "cube_count": 41,
+    "geometry": "geometry.gtm.sedan_verna",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/sedan_verna.geo.json",
+    "java_model_path": "creative/source/models/transport/java/sedan_verna.json",
+    "icon_path": "creative/source/icons/transport/sedan_verna.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.44,
+          0.52,
+          0.22
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.88,
+          0.0,
+          -2.2
+        ],
+        "max": [
+          0.88,
+          1.48,
+          2.2
+        ]
+      }
+    ],
+    "sha256": "8d1f4ec30f914ec1395faa24566896aed53fa5b500802902f7eaa5ab5f6e317d"
+  },
+  {
+    "id": "gtm:sedan_city",
+    "title": "Toyora City Cruiser",
+    "manufacturer": "toyora",
+    "category": "road",
+    "subcategory": "sedan",
+    "dimensions_blocks": [
+      1.74,
+      1.48,
+      4.5
+    ],
+    "cube_count": 41,
+    "geometry": "geometry.gtm.sedan_city",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/sedan_city.geo.json",
+    "java_model_path": "creative/source/models/transport/java/sedan_city.json",
+    "icon_path": "creative/source/icons/transport/sedan_city.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.43,
+          0.52,
+          0.23
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.87,
+          0.0,
+          -2.25
+        ],
+        "max": [
+          0.87,
+          1.48,
+          2.25
+        ]
+      }
+    ],
+    "sha256": "13c21784fbb71a3b569418c6a7127cd9ed6a9dd4f203d31014722c04a954a529"
+  },
+  {
+    "id": "gtm:sedan_slavia",
+    "title": "Toyora Regal Sedan",
+    "manufacturer": "toyora",
+    "category": "road",
+    "subcategory": "sedan",
+    "dimensions_blocks": [
+      1.75,
+      1.5,
+      4.54
+    ],
+    "cube_count": 41,
+    "geometry": "geometry.gtm.sedan_slavia",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/sedan_slavia.geo.json",
+    "java_model_path": "creative/source/models/transport/java/sedan_slavia.json",
+    "icon_path": "creative/source/icons/transport/sedan_slavia.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.44,
+          0.52,
+          0.23
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.88,
+          0.0,
+          -2.27
+        ],
+        "max": [
+          0.88,
+          1.5,
+          2.27
+        ]
+      }
+    ],
+    "sha256": "8028f676a4afe6e50bbadc03eb58b1d3c7c6f4238d6b91a3dbbcd17036493265"
+  },
+  {
+    "id": "gtm:suv_thar",
+    "title": "Wahindra Thar 4x4 Offroader",
+    "manufacturer": "wahindra",
+    "category": "road",
+    "subcategory": "suv",
+    "dimensions_blocks": [
+      1.85,
+      1.9,
+      4.0
+    ],
+    "cube_count": 46,
+    "geometry": "geometry.gtm.suv_thar",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/suv_thar.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_thar.json",
+    "icon_path": "creative/source/icons/transport/suv_thar.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.46,
+          0.66,
+          0.2
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.93,
+          0.0,
+          -2.0
+        ],
+        "max": [
+          0.93,
+          1.9,
+          2.0
+        ]
+      }
+    ],
+    "sha256": "9fbe05d33a0616c63eaeb0b4ebf5fc1f2b6328e27661123a9c2c128c8107c04b"
+  },
+  {
+    "id": "gtm:suv_scorpio",
+    "title": "Wahindra Scorpio-N Patrol",
+    "manufacturer": "wahindra",
+    "category": "road",
+    "subcategory": "suv",
+    "dimensions_blocks": [
+      1.9,
+      1.85,
+      4.66
+    ],
+    "cube_count": 40,
+    "geometry": "geometry.gtm.suv_scorpio",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/suv_scorpio.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_scorpio.json",
+    "icon_path": "creative/source/icons/transport/suv_scorpio.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.47,
+          0.65,
+          0.23
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.95,
+          0.0,
+          -2.33
+        ],
+        "max": [
+          0.95,
+          1.85,
+          2.33
+        ]
+      }
+    ],
+    "sha256": "1e3d60cce4f91f0f37467ac1e2a94a0290835674ae2ee9aae3549c27909a4415"
+  },
+  {
+    "id": "gtm:suv_bolero",
+    "title": "Wahindra Bolero Rugged",
+    "manufacturer": "wahindra",
+    "category": "road",
+    "subcategory": "suv",
+    "dimensions_blocks": [
+      1.75,
+      1.88,
+      4.1
+    ],
+    "cube_count": 40,
+    "geometry": "geometry.gtm.suv_bolero",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/suv_bolero.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_bolero.json",
+    "icon_path": "creative/source/icons/transport/suv_bolero.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.44,
+          0.66,
+          0.2
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.88,
+          0.0,
+          -2.05
+        ],
+        "max": [
+          0.88,
+          1.88,
+          2.05
+        ]
+      }
+    ],
+    "sha256": "4628d5a8e8465ec7485d05b11eaf42f1f98e40f3a709af39aeac66195cc8b625"
+  },
+  {
+    "id": "gtm:suv_xuv700",
+    "title": "Wahindra XUV Sovereign",
+    "manufacturer": "wahindra",
+    "category": "road",
+    "subcategory": "suv",
+    "dimensions_blocks": [
+      1.9,
+      1.75,
+      4.7
+    ],
+    "cube_count": 40,
+    "geometry": "geometry.gtm.suv_xuv700",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/suv_xuv700.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_xuv700.json",
+    "icon_path": "creative/source/icons/transport/suv_xuv700.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.47,
+          0.61,
+          0.24
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.95,
+          0.0,
+          -2.35
+        ],
+        "max": [
+          0.95,
+          1.75,
+          2.35
+        ]
+      }
+    ],
+    "sha256": "a600f7ce852deee96e0f02b315c79968cfc1da44f483abd16a4b5c1566608db9"
+  },
+  {
+    "id": "gtm:suv_fortuner",
+    "title": "Toyora Fortuner 4WD",
+    "manufacturer": "toyora",
+    "category": "road",
+    "subcategory": "suv",
+    "dimensions_blocks": [
+      1.85,
+      1.83,
+      4.8
+    ],
+    "cube_count": 46,
+    "geometry": "geometry.gtm.suv_fortuner",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/suv_fortuner.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_fortuner.json",
+    "icon_path": "creative/source/icons/transport/suv_fortuner.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.46,
+          0.64,
+          0.24
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.93,
+          0.0,
+          -2.4
+        ],
+        "max": [
+          0.93,
+          1.83,
+          2.4
+        ]
+      }
+    ],
+    "sha256": "ecf3368fbc04619e3ec091b19ed9b694956760e357b976d1dde4b2e5ab244794"
+  },
+  {
+    "id": "gtm:suv_safari",
+    "title": "Tavara Safari Flagship",
+    "manufacturer": "tavara",
+    "category": "road",
+    "subcategory": "suv",
+    "dimensions_blocks": [
+      1.9,
+      1.78,
+      4.67
+    ],
+    "cube_count": 46,
+    "geometry": "geometry.gtm.suv_safari",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/suv_safari.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_safari.json",
+    "icon_path": "creative/source/icons/transport/suv_safari.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.47,
+          0.62,
+          0.23
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.95,
+          0.0,
+          -2.33
+        ],
+        "max": [
+          0.95,
+          1.78,
+          2.33
+        ]
+      }
+    ],
+    "sha256": "291fd714cb36cb31c765c314c19484d39ec6c89f9a1efb3b8382c2fd02c836d3"
+  },
+  {
+    "id": "gtm:suv_harrier",
+    "title": "Tavara Harrier Monocoque",
+    "manufacturer": "tavara",
+    "category": "road",
+    "subcategory": "suv",
+    "dimensions_blocks": [
+      1.89,
+      1.7,
+      4.6
+    ],
+    "cube_count": 40,
+    "geometry": "geometry.gtm.suv_harrier",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/suv_harrier.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_harrier.json",
+    "icon_path": "creative/source/icons/transport/suv_harrier.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.47,
+          0.59,
+          0.23
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.94,
+          0.0,
+          -2.3
+        ],
+        "max": [
+          0.94,
+          1.7,
+          2.3
+        ]
+      }
+    ],
+    "sha256": "d1401a20b3e22500557a74ff0baa6da20248803200160465d5e6a3664b15bad3"
+  },
+  {
+    "id": "gtm:suv_nexon",
+    "title": "Tavara Nexon EV",
+    "manufacturer": "tavara",
+    "category": "road",
+    "subcategory": "suv",
+    "dimensions_blocks": [
+      1.8,
+      1.6,
+      3.99
+    ],
+    "cube_count": 40,
+    "geometry": "geometry.gtm.suv_nexon",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/suv_nexon.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_nexon.json",
+    "icon_path": "creative/source/icons/transport/suv_nexon.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.45,
+          0.56,
+          0.2
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.9,
+          0.0,
+          -2.0
+        ],
+        "max": [
+          0.9,
+          1.6,
+          2.0
+        ]
+      }
+    ],
+    "sha256": "b8b26b0b63e69d4320a3ba1be7e22c166e9fbe685c38344efa6c4b05a12d3453"
+  },
+  {
+    "id": "gtm:suv_punch",
+    "title": "Tavara Punch Micro-SUV",
+    "manufacturer": "tavara",
+    "category": "road",
+    "subcategory": "suv",
+    "dimensions_blocks": [
+      1.74,
+      1.6,
+      3.82
+    ],
+    "cube_count": 40,
+    "geometry": "geometry.gtm.suv_punch",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/suv_punch.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_punch.json",
+    "icon_path": "creative/source/icons/transport/suv_punch.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.43,
+          0.56,
+          0.19
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.87,
+          0.0,
+          -1.91
+        ],
+        "max": [
+          0.87,
+          1.6,
+          1.91
+        ]
+      }
+    ],
+    "sha256": "5352b4898add3a4200ff28d008ad9bd28bde839f6ac3b9cb1825ef0e13854069"
+  },
+  {
+    "id": "gtm:suv_creta",
+    "title": "Hondo Urban Cross",
+    "manufacturer": "hondo",
+    "category": "road",
+    "subcategory": "suv",
+    "dimensions_blocks": [
+      1.79,
+      1.63,
+      4.3
+    ],
+    "cube_count": 40,
+    "geometry": "geometry.gtm.suv_creta",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/suv_creta.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_creta.json",
+    "icon_path": "creative/source/icons/transport/suv_creta.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.45,
+          0.57,
+          0.21
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.9,
+          0.0,
+          -2.15
+        ],
+        "max": [
+          0.9,
+          1.63,
+          2.15
+        ]
+      }
+    ],
+    "sha256": "92e937e2ae886fcbde6a6316744af3ea28e8e74603b9fe38b16430f36fc6861c"
+  },
+  {
+    "id": "gtm:suv_seltos",
+    "title": "Hondo Trail Master",
+    "manufacturer": "hondo",
+    "category": "road",
+    "subcategory": "suv",
+    "dimensions_blocks": [
+      1.8,
+      1.64,
+      4.36
+    ],
+    "cube_count": 40,
+    "geometry": "geometry.gtm.suv_seltos",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/suv_seltos.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_seltos.json",
+    "icon_path": "creative/source/icons/transport/suv_seltos.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.45,
+          0.57,
+          0.22
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.9,
+          0.0,
+          -2.18
+        ],
+        "max": [
+          0.9,
+          1.64,
+          2.18
+        ]
+      }
+    ],
+    "sha256": "c431a30364f4e586934d32a5f1bbdb2babe937243a54827a0c69e7c6c8c84319"
+  },
+  {
+    "id": "gtm:suv_jimny",
+    "title": "Maruva Jimny 5-Door",
+    "manufacturer": "maruva",
+    "category": "road",
+    "subcategory": "suv",
+    "dimensions_blocks": [
+      1.64,
+      1.72,
+      3.98
+    ],
+    "cube_count": 46,
+    "geometry": "geometry.gtm.suv_jimny",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/suv_jimny.geo.json",
+    "java_model_path": "creative/source/models/transport/java/suv_jimny.json",
+    "icon_path": "creative/source/icons/transport/suv_jimny.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.41,
+          0.6,
+          0.2
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.82,
+          0.0,
+          -1.99
+        ],
+        "max": [
+          0.82,
+          1.72,
+          1.99
+        ]
+      }
+    ],
+    "sha256": "c8826343bca5acd80a804898deb367f2edaaf34980453bae41f573e1df55d8f9"
+  },
+  {
+    "id": "gtm:luxury_series3",
+    "title": "SD Executive 3-Series",
+    "manufacturer": "sd_motors",
+    "category": "road",
+    "subcategory": "luxury",
+    "dimensions_blocks": [
+      1.82,
+      1.44,
+      4.7
+    ],
+    "cube_count": 44,
+    "geometry": "geometry.gtm.luxury_series3",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/luxury_series3.geo.json",
+    "java_model_path": "creative/source/models/transport/java/luxury_series3.json",
+    "icon_path": "creative/source/icons/transport/luxury_series3.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.46,
+          0.5,
+          0.24
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.91,
+          0.0,
+          -2.35
+        ],
+        "max": [
+          0.91,
+          1.44,
+          2.35
+        ]
+      }
+    ],
+    "sha256": "4b4b06a5c1eb49e01d40c69da23fd7eabdb4d6e45b9574ba36c05ba7b6c01242"
+  },
+  {
+    "id": "gtm:luxury_eclass",
+    "title": "SD Prestige E-Chassis",
+    "manufacturer": "sd_motors",
+    "category": "road",
+    "subcategory": "luxury",
+    "dimensions_blocks": [
+      1.85,
+      1.47,
+      4.9
+    ],
+    "cube_count": 44,
+    "geometry": "geometry.gtm.luxury_eclass",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/luxury_eclass.geo.json",
+    "java_model_path": "creative/source/models/transport/java/luxury_eclass.json",
+    "icon_path": "creative/source/icons/transport/luxury_eclass.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.46,
+          0.51,
+          0.25
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.93,
+          0.0,
+          -2.45
+        ],
+        "max": [
+          0.93,
+          1.47,
+          2.45
+        ]
+      }
+    ],
+    "sha256": "dce8038905ddb1270370ea331a99190494149a1601004d1da1ccad652b643f6a"
+  },
+  {
+    "id": "gtm:luxury_q7",
+    "title": "SD Quattro Seven SUV",
+    "manufacturer": "sd_motors",
+    "category": "road",
+    "subcategory": "luxury",
+    "dimensions_blocks": [
+      1.97,
+      1.74,
+      5.06
+    ],
+    "cube_count": 44,
+    "geometry": "geometry.gtm.luxury_q7",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/luxury_q7.geo.json",
+    "java_model_path": "creative/source/models/transport/java/luxury_q7.json",
+    "icon_path": "creative/source/icons/transport/luxury_q7.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.49,
+          0.61,
+          0.25
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.98,
+          0.0,
+          -2.53
+        ],
+        "max": [
+          0.98,
+          1.74,
+          2.53
+        ]
+      }
+    ],
+    "sha256": "afecbb88a2a835e9e586ec37b0a1d0ae076b87af961b274e5da72ab7fc9b7066"
+  },
+  {
+    "id": "gtm:luxury_x5",
+    "title": "SD Bavaria X-Drive",
+    "manufacturer": "sd_motors",
+    "category": "road",
+    "subcategory": "luxury",
+    "dimensions_blocks": [
+      2.0,
+      1.75,
+      4.92
+    ],
+    "cube_count": 44,
+    "geometry": "geometry.gtm.luxury_x5",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/luxury_x5.geo.json",
+    "java_model_path": "creative/source/models/transport/java/luxury_x5.json",
+    "icon_path": "creative/source/icons/transport/luxury_x5.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.5,
+          0.61,
+          0.25
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -1.0,
+          0.0,
+          -2.46
+        ],
+        "max": [
+          1.0,
+          1.75,
+          2.46
+        ]
+      }
+    ],
+    "sha256": "dc6accc0247771b00b13fc653f502e90cb3fcee989b01278986a878c8e512121"
+  },
+  {
+    "id": "gtm:luxury_rangerover",
+    "title": "SD Sovereign Imperial",
+    "manufacturer": "sd_motors",
+    "category": "road",
+    "subcategory": "luxury",
+    "dimensions_blocks": [
+      2.05,
+      1.87,
+      5.05
+    ],
+    "cube_count": 44,
+    "geometry": "geometry.gtm.luxury_rangerover",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/luxury_rangerover.geo.json",
+    "java_model_path": "creative/source/models/transport/java/luxury_rangerover.json",
+    "icon_path": "creative/source/icons/transport/luxury_rangerover.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.51,
+          0.65,
+          0.25
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -1.02,
+          0.0,
+          -2.52
+        ],
+        "max": [
+          1.02,
+          1.87,
+          2.52
+        ]
+      }
+    ],
+    "sha256": "ef40c30d9857c660bd5b454303d1d6077366e64da5de54ecbbfd9e1a59015ef9"
+  },
+  {
+    "id": "gtm:moto_splendor",
+    "title": "Veero Splendor 100",
+    "manufacturer": "veero",
+    "category": "road",
+    "subcategory": "motorcycle",
+    "dimensions_blocks": [
+      0.75,
+      1.05,
+      2.0
+    ],
+    "cube_count": 19,
+    "geometry": "geometry.gtm.moto_splendor",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/moto_splendor.geo.json",
+    "java_model_path": "creative/source/models/transport/java/moto_splendor.json",
+    "icon_path": "creative/source/icons/transport/moto_splendor.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.19,
+          0.37,
+          0.1
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.38,
+          0.0,
+          -1.0
+        ],
+        "max": [
+          0.38,
+          1.05,
+          1.0
+        ]
+      }
+    ],
+    "sha256": "0b8d141d894e16ae7592050fdb4000b598f334e0775068916f0d7fff1f483510"
+  },
+  {
+    "id": "gtm:moto_classic350",
+    "title": "Royal Iron Classic 350",
+    "manufacturer": "royal_iron",
+    "category": "road",
+    "subcategory": "motorcycle",
+    "dimensions_blocks": [
+      0.8,
+      1.1,
+      2.15
+    ],
+    "cube_count": 19,
+    "geometry": "geometry.gtm.moto_classic350",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/moto_classic350.geo.json",
+    "java_model_path": "creative/source/models/transport/java/moto_classic350.json",
+    "icon_path": "creative/source/icons/transport/moto_classic350.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.2,
+          0.39,
+          0.11
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.4,
+          0.0,
+          -1.07
+        ],
+        "max": [
+          0.4,
+          1.1,
+          1.07
+        ]
+      }
+    ],
+    "sha256": "ec8c129a329e9c7785e54614c30006cae65d8b7f3995a15d2c3a9d4198414912"
+  },
+  {
+    "id": "gtm:moto_bullet350",
+    "title": "Royal Iron Bullet 350",
+    "manufacturer": "royal_iron",
+    "category": "road",
+    "subcategory": "motorcycle",
+    "dimensions_blocks": [
+      0.8,
+      1.12,
+      2.15
+    ],
+    "cube_count": 19,
+    "geometry": "geometry.gtm.moto_bullet350",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/moto_bullet350.geo.json",
+    "java_model_path": "creative/source/models/transport/java/moto_bullet350.json",
+    "icon_path": "creative/source/icons/transport/moto_bullet350.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.2,
+          0.39,
+          0.11
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.4,
+          0.0,
+          -1.07
+        ],
+        "max": [
+          0.4,
+          1.12,
+          1.07
+        ]
+      }
+    ],
+    "sha256": "13e1c4d78468c99a6d08b114ab50f6c5861c84e03180bc53b5d2ba5a5495f760"
+  },
+  {
+    "id": "gtm:moto_pulsar",
+    "title": "Wahindra Pulsar 220F",
+    "manufacturer": "wahindra",
+    "category": "road",
+    "subcategory": "motorcycle",
+    "dimensions_blocks": [
+      0.78,
+      1.15,
+      2.05
+    ],
+    "cube_count": 19,
+    "geometry": "geometry.gtm.moto_pulsar",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/moto_pulsar.geo.json",
+    "java_model_path": "creative/source/models/transport/java/moto_pulsar.json",
+    "icon_path": "creative/source/icons/transport/moto_pulsar.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.2,
+          0.4,
+          0.1
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.39,
+          0.0,
+          -1.02
+        ],
+        "max": [
+          0.39,
+          1.15,
+          1.02
+        ]
+      }
+    ],
+    "sha256": "3b21d15f77abe1aed88f9e13e17531e034df0851251e9c9fc2b3216e4e2665a7"
+  },
+  {
+    "id": "gtm:moto_apache",
+    "title": "Tavara Apache RTR",
+    "manufacturer": "tavara",
+    "category": "road",
+    "subcategory": "motorcycle",
+    "dimensions_blocks": [
+      0.79,
+      1.1,
+      2.08
+    ],
+    "cube_count": 19,
+    "geometry": "geometry.gtm.moto_apache",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/moto_apache.geo.json",
+    "java_model_path": "creative/source/models/transport/java/moto_apache.json",
+    "icon_path": "creative/source/icons/transport/moto_apache.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.2,
+          0.39,
+          0.1
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.4,
+          0.0,
+          -1.04
+        ],
+        "max": [
+          0.4,
+          1.1,
+          1.04
+        ]
+      }
+    ],
+    "sha256": "b5698218229adb7d971870a23474b8bf55fba050a9c2d2fc0058bf64cc0c58e9"
+  },
+  {
+    "id": "gtm:moto_duke",
+    "title": "SD Duke 390 Naked",
+    "manufacturer": "sd_motors",
+    "category": "road",
+    "subcategory": "motorcycle",
+    "dimensions_blocks": [
+      0.82,
+      1.1,
+      2.05
+    ],
+    "cube_count": 20,
+    "geometry": "geometry.gtm.moto_duke",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/moto_duke.geo.json",
+    "java_model_path": "creative/source/models/transport/java/moto_duke.json",
+    "icon_path": "creative/source/icons/transport/moto_duke.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.2,
+          0.39,
+          0.1
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.41,
+          0.0,
+          -1.02
+        ],
+        "max": [
+          0.41,
+          1.1,
+          1.02
+        ]
+      }
+    ],
+    "sha256": "b85928ffae33508aa3605a7368f125c8715910e1138597f1a93b39a147168382"
+  },
+  {
+    "id": "gtm:moto_himalayan",
+    "title": "Royal Iron Himalayan Explorer",
+    "manufacturer": "royal_iron",
+    "category": "road",
+    "subcategory": "motorcycle",
+    "dimensions_blocks": [
+      0.85,
+      1.35,
+      2.2
+    ],
+    "cube_count": 19,
+    "geometry": "geometry.gtm.moto_himalayan",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/moto_himalayan.geo.json",
+    "java_model_path": "creative/source/models/transport/java/moto_himalayan.json",
+    "icon_path": "creative/source/icons/transport/moto_himalayan.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.21,
+          0.47,
+          0.11
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.42,
+          0.0,
+          -1.1
+        ],
+        "max": [
+          0.42,
+          1.35,
+          1.1
+        ]
+      }
+    ],
+    "sha256": "6feb5253d019c9f325be6b87e5eb889a92ad3ffa19d29c134f7c2b88f50f7ee7"
+  },
+  {
+    "id": "gtm:moto_r15",
+    "title": "Hondo Supersport 150",
+    "manufacturer": "hondo",
+    "category": "road",
+    "subcategory": "motorcycle",
+    "dimensions_blocks": [
+      0.72,
+      1.13,
+      1.99
+    ],
+    "cube_count": 20,
+    "geometry": "geometry.gtm.moto_r15",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/moto_r15.geo.json",
+    "java_model_path": "creative/source/models/transport/java/moto_r15.json",
+    "icon_path": "creative/source/icons/transport/moto_r15.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.18,
+          0.4,
+          0.1
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.36,
+          0.0,
+          -0.99
+        ],
+        "max": [
+          0.36,
+          1.13,
+          0.99
+        ]
+      }
+    ],
+    "sha256": "4f7c97bd86cb62f69c386cbf0cd6c4ac21a807ee79bc64931823ee2cf12a3b5b"
+  },
+  {
+    "id": "gtm:scooter_activa",
+    "title": "Hondo Activa 6G Commuter",
+    "manufacturer": "hondo",
+    "category": "road",
+    "subcategory": "scooter",
+    "dimensions_blocks": [
+      0.7,
+      1.15,
+      1.83
+    ],
+    "cube_count": 20,
+    "geometry": "geometry.gtm.scooter_activa",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/scooter_activa.geo.json",
+    "java_model_path": "creative/source/models/transport/java/scooter_activa.json",
+    "icon_path": "creative/source/icons/transport/scooter_activa.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.17,
+          0.4,
+          0.09
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.35,
+          0.0,
+          -0.92
+        ],
+        "max": [
+          0.35,
+          1.15,
+          0.92
+        ]
+      }
+    ],
+    "sha256": "088a98ff2a203b4b6fec7f52f271598eb3fe80baf9573859d9c68bf3cac37cd3"
+  },
+  {
+    "id": "gtm:scooter_jupiter",
+    "title": "Tavara Jupiter Metal",
+    "manufacturer": "tavara",
+    "category": "road",
+    "subcategory": "scooter",
+    "dimensions_blocks": [
+      0.68,
+      1.15,
+      1.83
+    ],
+    "cube_count": 20,
+    "geometry": "geometry.gtm.scooter_jupiter",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/scooter_jupiter.geo.json",
+    "java_model_path": "creative/source/models/transport/java/scooter_jupiter.json",
+    "icon_path": "creative/source/icons/transport/scooter_jupiter.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.17,
+          0.4,
+          0.09
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.34,
+          0.0,
+          -0.92
+        ],
+        "max": [
+          0.34,
+          1.15,
+          0.92
+        ]
+      }
+    ],
+    "sha256": "cb8f70dcd3a8850c5dcf5b82125b2bb013dda7c70db8bc46f15171146cf2ba71"
+  },
+  {
+    "id": "gtm:scooter_access",
+    "title": "Maruva Access 125",
+    "manufacturer": "maruva",
+    "category": "road",
+    "subcategory": "scooter",
+    "dimensions_blocks": [
+      0.69,
+      1.16,
+      1.87
+    ],
+    "cube_count": 20,
+    "geometry": "geometry.gtm.scooter_access",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/scooter_access.geo.json",
+    "java_model_path": "creative/source/models/transport/java/scooter_access.json",
+    "icon_path": "creative/source/icons/transport/scooter_access.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.17,
+          0.41,
+          0.09
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.34,
+          0.0,
+          -0.94
+        ],
+        "max": [
+          0.34,
+          1.16,
+          0.94
+        ]
+      }
+    ],
+    "sha256": "7a7997d57d533d3cc5d742cfa5a102d2390b68997701ac05d83c57f9f28c5cff"
+  },
+  {
+    "id": "gtm:scooter_ather",
+    "title": "Tavara Ather 450X EV",
+    "manufacturer": "tavara",
+    "category": "road",
+    "subcategory": "scooter",
+    "dimensions_blocks": [
+      0.73,
+      1.25,
+      1.81
+    ],
+    "cube_count": 20,
+    "geometry": "geometry.gtm.scooter_ather",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/scooter_ather.geo.json",
+    "java_model_path": "creative/source/models/transport/java/scooter_ather.json",
+    "icon_path": "creative/source/icons/transport/scooter_ather.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.18,
+          0.44,
+          0.09
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.36,
+          0.0,
+          -0.91
+        ],
+        "max": [
+          0.36,
+          1.25,
+          0.91
+        ]
+      }
+    ],
+    "sha256": "963f21ae7ba7bb83d3c43b430dc3235282ca1e9803e23c2a121f58e9e8ea0ec3"
+  },
+  {
+    "id": "gtm:rickshaw_traditional",
+    "title": "Indra Auto CNG Passenger",
+    "manufacturer": "wahindra",
+    "category": "road",
+    "subcategory": "rickshaw",
+    "dimensions_blocks": [
+      1.3,
+      1.75,
+      2.6
+    ],
+    "cube_count": 25,
+    "geometry": "geometry.gtm.rickshaw_traditional",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/rickshaw_traditional.geo.json",
+    "java_model_path": "creative/source/models/transport/java/rickshaw_traditional.json",
+    "icon_path": "creative/source/icons/transport/rickshaw_traditional.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.33,
+          0.61,
+          0.13
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.65,
+          0.0,
+          -1.3
+        ],
+        "max": [
+          0.65,
+          1.75,
+          1.3
+        ]
+      }
+    ],
+    "sha256": "2b29f47f4275390207b0a384f5ada1f29b91598c2948d5292cf6b1a4cbb1f4c2"
+  },
+  {
+    "id": "gtm:rickshaw_electric",
+    "title": "Indra Mayuri E-Rickshaw",
+    "manufacturer": "tavara",
+    "category": "road",
+    "subcategory": "rickshaw",
+    "dimensions_blocks": [
+      1.0,
+      1.8,
+      2.75
+    ],
+    "cube_count": 25,
+    "geometry": "geometry.gtm.rickshaw_electric",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/rickshaw_electric.geo.json",
+    "java_model_path": "creative/source/models/transport/java/rickshaw_electric.json",
+    "icon_path": "creative/source/icons/transport/rickshaw_electric.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.25,
+          0.63,
+          0.14
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.5,
+          0.0,
+          -1.38
+        ],
+        "max": [
+          0.5,
+          1.8,
+          1.38
+        ]
+      }
+    ],
+    "sha256": "7f479a75ff0cfa3bdbb5773ecc561affe5d44c77ff5f52c1e64b286b08866de5"
+  },
+  {
+    "id": "gtm:rickshaw_cargo",
+    "title": "Indra Loader Cargo 3-Wheeler",
+    "manufacturer": "wahindra",
+    "category": "road",
+    "subcategory": "rickshaw",
+    "dimensions_blocks": [
+      1.4,
+      1.75,
+      3.1
+    ],
+    "cube_count": 25,
+    "geometry": "geometry.gtm.rickshaw_cargo",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/rickshaw_cargo.geo.json",
+    "java_model_path": "creative/source/models/transport/java/rickshaw_cargo.json",
+    "icon_path": "creative/source/icons/transport/rickshaw_cargo.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.35,
+          0.61,
+          0.16
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.7,
+          0.0,
+          -1.55
+        ],
+        "max": [
+          0.7,
+          1.75,
+          1.55
+        ]
+      }
+    ],
+    "sha256": "8dbcb8aa279e8ce2f051c82dac75b7a6fc98336f99bcc440f270d4c928b4ffba"
+  },
+  {
+    "id": "gtm:bus_single_deck",
+    "title": "Tavara Starbus City Transit",
+    "manufacturer": "tavara",
+    "category": "road",
+    "subcategory": "bus",
+    "dimensions_blocks": [
+      2.5,
+      3.2,
+      11.5
+    ],
+    "cube_count": 26,
+    "geometry": "geometry.gtm.bus_single_deck",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/bus_single_deck.geo.json",
+    "java_model_path": "creative/source/models/transport/java/bus_single_deck.json",
+    "icon_path": "creative/source/icons/transport/bus_single_deck.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.62,
+          1.12,
+          0.58
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -1.25,
+          0.0,
+          -5.75
+        ],
+        "max": [
+          1.25,
+          3.2,
+          5.75
+        ]
+      }
+    ],
+    "sha256": "592644c293d0c92f77ac6cd60e443c94cb0336bcea8572583246cfe6218dc991"
+  },
+  {
+    "id": "gtm:bus_double_deck",
+    "title": "BEST Coastal Double-Decker",
+    "manufacturer": "tavara",
+    "category": "road",
+    "subcategory": "bus",
+    "dimensions_blocks": [
+      2.5,
+      4.4,
+      10.5
+    ],
+    "cube_count": 28,
+    "geometry": "geometry.gtm.bus_double_deck",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/bus_double_deck.geo.json",
+    "java_model_path": "creative/source/models/transport/java/bus_double_deck.json",
+    "icon_path": "creative/source/icons/transport/bus_double_deck.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.62,
+          1.54,
+          0.53
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -1.25,
+          0.0,
+          -5.25
+        ],
+        "max": [
+          1.25,
+          4.4,
+          5.25
+        ]
+      }
+    ],
+    "sha256": "857ab99e2722c03b265ba2600a8ffb7309823a572decdbeee2d24adfee5aebe4"
+  },
+  {
+    "id": "gtm:bus_minibus",
+    "title": "Wahindra Metro Minibus",
+    "manufacturer": "wahindra",
+    "category": "road",
+    "subcategory": "bus",
+    "dimensions_blocks": [
+      2.1,
+      2.8,
+      6.8
+    ],
+    "cube_count": 26,
+    "geometry": "geometry.gtm.bus_minibus",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/bus_minibus.geo.json",
+    "java_model_path": "creative/source/models/transport/java/bus_minibus.json",
+    "icon_path": "creative/source/icons/transport/bus_minibus.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.53,
+          0.98,
+          0.34
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -1.05,
+          0.0,
+          -3.4
+        ],
+        "max": [
+          1.05,
+          2.8,
+          3.4
+        ]
+      }
+    ],
+    "sha256": "ddda9d23033a66a39d03170499fc545b5bf99823a784ddab0a04c6392bed7b49"
+  },
+  {
+    "id": "gtm:bus_intercity_coach",
+    "title": "Tavara Garuda Air-Suspension",
+    "manufacturer": "tavara",
+    "category": "road",
+    "subcategory": "bus",
+    "dimensions_blocks": [
+      2.6,
+      3.6,
+      13.5
+    ],
+    "cube_count": 26,
+    "geometry": "geometry.gtm.bus_intercity_coach",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/bus_intercity_coach.geo.json",
+    "java_model_path": "creative/source/models/transport/java/bus_intercity_coach.json",
+    "icon_path": "creative/source/icons/transport/bus_intercity_coach.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.65,
+          1.26,
+          0.68
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -1.3,
+          0.0,
+          -6.75
+        ],
+        "max": [
+          1.3,
+          3.6,
+          6.75
+        ]
+      }
+    ],
+    "sha256": "c0bb82504acebae35222b922414fe9b7b008c2ff4d7bc556dd5556f87935b12c"
+  },
+  {
+    "id": "gtm:comm_mini_cargo",
+    "title": "Tavara Ace Mini Truck (Chhota Hathi)",
+    "manufacturer": "tavara",
+    "category": "road",
+    "subcategory": "commercial",
+    "dimensions_blocks": [
+      1.5,
+      1.85,
+      3.8
+    ],
+    "cube_count": 27,
+    "geometry": "geometry.gtm.comm_mini_cargo",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/comm_mini_cargo.geo.json",
+    "java_model_path": "creative/source/models/transport/java/comm_mini_cargo.json",
+    "icon_path": "creative/source/icons/transport/comm_mini_cargo.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.38,
+          0.65,
+          0.19
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.75,
+          0.0,
+          -1.9
+        ],
+        "max": [
+          0.75,
+          1.85,
+          1.9
+        ]
+      }
+    ],
+    "sha256": "46ebd29154417d7b29b7c2922fa4e157188d702247f5825ea41282e9ed0fcd94"
+  },
+  {
+    "id": "gtm:comm_pickup",
+    "title": "Wahindra Bolero Maxi Truck",
+    "manufacturer": "wahindra",
+    "category": "road",
+    "subcategory": "commercial",
+    "dimensions_blocks": [
+      1.7,
+      1.9,
+      4.9
+    ],
+    "cube_count": 27,
+    "geometry": "geometry.gtm.comm_pickup",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/comm_pickup.geo.json",
+    "java_model_path": "creative/source/models/transport/java/comm_pickup.json",
+    "icon_path": "creative/source/icons/transport/comm_pickup.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.42,
+          0.66,
+          0.25
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.85,
+          0.0,
+          -2.45
+        ],
+        "max": [
+          0.85,
+          1.9,
+          2.45
+        ]
+      }
+    ],
+    "sha256": "3c1cd8d7018e9f8412658824f2cf4dead03448c207ac5f933ed86baed0154d35"
+  },
+  {
+    "id": "gtm:comm_light_truck",
+    "title": "Tavara 407 Light Hauler",
+    "manufacturer": "tavara",
+    "category": "road",
+    "subcategory": "commercial",
+    "dimensions_blocks": [
+      2.1,
+      2.6,
+      5.5
+    ],
+    "cube_count": 27,
+    "geometry": "geometry.gtm.comm_light_truck",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/comm_light_truck.geo.json",
+    "java_model_path": "creative/source/models/transport/java/comm_light_truck.json",
+    "icon_path": "creative/source/icons/transport/comm_light_truck.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.53,
+          0.91,
+          0.28
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -1.05,
+          0.0,
+          -2.75
+        ],
+        "max": [
+          1.05,
+          2.6,
+          2.75
+        ]
+      }
+    ],
+    "sha256": "6247b5517156726f28140a01422a0aa82a5fa4fdccaab5da5a901fcb7165a94f"
+  },
+  {
+    "id": "gtm:comm_medium_truck",
+    "title": "Tavara 1613 Medium Goods",
+    "manufacturer": "tavara",
+    "category": "road",
+    "subcategory": "commercial",
+    "dimensions_blocks": [
+      2.4,
+      3.1,
+      8.2
+    ],
+    "cube_count": 27,
+    "geometry": "geometry.gtm.comm_medium_truck",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/comm_medium_truck.geo.json",
+    "java_model_path": "creative/source/models/transport/java/comm_medium_truck.json",
+    "icon_path": "creative/source/icons/transport/comm_medium_truck.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.6,
+          1.08,
+          0.41
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -1.2,
+          0.0,
+          -4.1
+        ],
+        "max": [
+          1.2,
+          3.1,
+          4.1
+        ]
+      }
+    ],
+    "sha256": "0d111d78a8a5a46f1f83e04812d51c9757d4af00ea30d6d1a8474643c64846a7"
+  },
+  {
+    "id": "gtm:comm_tipper",
+    "title": "Wahindra Blazo Heavy Tipper",
+    "manufacturer": "wahindra",
+    "category": "road",
+    "subcategory": "commercial",
+    "dimensions_blocks": [
+      2.5,
+      3.5,
+      7.8
+    ],
+    "cube_count": 24,
+    "geometry": "geometry.gtm.comm_tipper",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/comm_tipper.geo.json",
+    "java_model_path": "creative/source/models/transport/java/comm_tipper.json",
+    "icon_path": "creative/source/icons/transport/comm_tipper.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.62,
+          1.22,
+          0.39
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -1.25,
+          0.0,
+          -3.9
+        ],
+        "max": [
+          1.25,
+          3.5,
+          3.9
+        ]
+      }
+    ],
+    "sha256": "83685bfa2f5767f7da564b29eba09a62ba54e346f7ff69cbcf00b4d9f1e50fba"
+  },
+  {
+    "id": "gtm:comm_container",
+    "title": "Tavara Signa 4825 Multi-Axle",
+    "manufacturer": "tavara",
+    "category": "road",
+    "subcategory": "commercial",
+    "dimensions_blocks": [
+      2.55,
+      3.9,
+      14.0
+    ],
+    "cube_count": 24,
+    "geometry": "geometry.gtm.comm_container",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/comm_container.geo.json",
+    "java_model_path": "creative/source/models/transport/java/comm_container.json",
+    "icon_path": "creative/source/icons/transport/comm_container.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.64,
+          1.36,
+          0.7
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -1.27,
+          0.0,
+          -7.0
+        ],
+        "max": [
+          1.27,
+          3.9,
+          7.0
+        ]
+      }
+    ],
+    "sha256": "25221adec0f0cb1cfab8dd9a094db54b056f435defef6f7ae1a4b3690c3e0f71"
+  },
+  {
+    "id": "gtm:comm_delivery_van",
+    "title": "Wahindra Supro Delivery Van",
+    "manufacturer": "wahindra",
+    "category": "road",
+    "subcategory": "commercial",
+    "dimensions_blocks": [
+      1.6,
+      1.95,
+      3.9
+    ],
+    "cube_count": 23,
+    "geometry": "geometry.gtm.comm_delivery_van",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/comm_delivery_van.geo.json",
+    "java_model_path": "creative/source/models/transport/java/comm_delivery_van.json",
+    "icon_path": "creative/source/icons/transport/comm_delivery_van.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.4,
+          0.68,
+          0.2
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.8,
+          0.0,
+          -1.95
+        ],
+        "max": [
+          0.8,
+          1.95,
+          1.95
+        ]
+      }
+    ],
+    "sha256": "51437cbd07b79ca1af94aff606f4c8bd59e17d886ece0257b6e088ea206d7fb4"
+  },
+  {
+    "id": "gtm:emerg_police_suv",
+    "title": "SDPD Tactical Interceptor Scorpio",
+    "manufacturer": "wahindra",
+    "category": "road",
+    "subcategory": "emergency",
+    "dimensions_blocks": [
+      1.9,
+      1.95,
+      4.7
+    ],
+    "cube_count": 44,
+    "geometry": "geometry.gtm.emerg_police_suv",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/emerg_police_suv.geo.json",
+    "java_model_path": "creative/source/models/transport/java/emerg_police_suv.json",
+    "icon_path": "creative/source/icons/transport/emerg_police_suv.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.47,
+          0.68,
+          0.24
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.95,
+          0.0,
+          -2.35
+        ],
+        "max": [
+          0.95,
+          1.95,
+          2.35
+        ]
+      }
+    ],
+    "sha256": "ee1a9cef6fea39744aa05bdd85eea66dda11b6a7ffbc6a949a4510140789334c"
+  },
+  {
+    "id": "gtm:emerg_patrol_sedan",
+    "title": "SDPD Highway Patrol Dzire",
+    "manufacturer": "maruva",
+    "category": "road",
+    "subcategory": "emergency",
+    "dimensions_blocks": [
+      1.7,
+      1.55,
+      4.0
+    ],
+    "cube_count": 44,
+    "geometry": "geometry.gtm.emerg_patrol_sedan",
+    "variants": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/emerg_patrol_sedan.geo.json",
+    "java_model_path": "creative/source/models/transport/java/emerg_patrol_sedan.json",
+    "icon_path": "creative/source/icons/transport/emerg_patrol_sedan.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.42,
+          0.54,
+          0.2
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.85,
+          0.0,
+          -2.0
+        ],
+        "max": [
+          0.85,
+          1.55,
+          2.0
+        ]
+      }
+    ],
+    "sha256": "8217e9467541018a11302094134bb685f99402def7d6426b10ad04f6dc221ab2"
+  },
+  {
+    "id": "gtm:emerg_ambulance",
+    "title": "Mount Zonah Advanced Life Support Van",
+    "manufacturer": "tavara",
+    "category": "road",
+    "subcategory": "emergency",
+    "dimensions_blocks": [
+      1.95,
+      2.45,
+      5.2
+    ],
+    "cube_count": 27,
+    "geometry": "geometry.gtm.emerg_ambulance",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/emerg_ambulance.geo.json",
+    "java_model_path": "creative/source/models/transport/java/emerg_ambulance.json",
+    "icon_path": "creative/source/icons/transport/emerg_ambulance.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.49,
+          0.86,
+          0.26
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.97,
+          0.0,
+          -2.6
+        ],
+        "max": [
+          0.97,
+          2.45,
+          2.6
+        ]
+      }
+    ],
+    "sha256": "c48f7cdc6c1e41624aedff866609457f16759512290acb6a2de4119e4db0a8fc"
+  },
+  {
+    "id": "gtm:emerg_fire_engine",
+    "title": "Indra Fire & Rescue Water Bowzer",
+    "manufacturer": "tavara",
+    "category": "road",
+    "subcategory": "emergency",
+    "dimensions_blocks": [
+      2.5,
+      3.4,
+      9.2
+    ],
+    "cube_count": 29,
+    "geometry": "geometry.gtm.emerg_fire_engine",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/emerg_fire_engine.geo.json",
+    "java_model_path": "creative/source/models/transport/java/emerg_fire_engine.json",
+    "icon_path": "creative/source/icons/transport/emerg_fire_engine.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.62,
+          1.19,
+          0.46
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -1.25,
+          0.0,
+          -4.6
+        ],
+        "max": [
+          1.25,
+          3.4,
+          4.6
+        ]
+      }
+    ],
+    "sha256": "ce9e469a141cd7c904d37961ea19477f02317ca867db3eb48ac6469407528119"
+  },
+  {
+    "id": "gtm:emerg_recovery_truck",
+    "title": "Highway Heavy Tow Crane",
+    "manufacturer": "wahindra",
+    "category": "road",
+    "subcategory": "emergency",
+    "dimensions_blocks": [
+      2.4,
+      3.0,
+      7.5
+    ],
+    "cube_count": 25,
+    "geometry": "geometry.gtm.emerg_recovery_truck",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/emerg_recovery_truck.geo.json",
+    "java_model_path": "creative/source/models/transport/java/emerg_recovery_truck.json",
+    "icon_path": "creative/source/icons/transport/emerg_recovery_truck.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.6,
+          1.05,
+          0.38
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -1.2,
+          0.0,
+          -3.75
+        ],
+        "max": [
+          1.2,
+          3.0,
+          3.75
+        ]
+      }
+    ],
+    "sha256": "4a36f759e8d475b12d123504880b55ad892b272ff3be70912974d0875ae027b5"
+  },
+  {
+    "id": "gtm:emerg_rescue_van",
+    "title": "Disaster Response Mobile Command",
+    "manufacturer": "tavara",
+    "category": "road",
+    "subcategory": "emergency",
+    "dimensions_blocks": [
+      2.1,
+      2.7,
+      6.2
+    ],
+    "cube_count": 25,
+    "geometry": "geometry.gtm.emerg_rescue_van",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/emerg_rescue_van.geo.json",
+    "java_model_path": "creative/source/models/transport/java/emerg_rescue_van.json",
+    "icon_path": "creative/source/icons/transport/emerg_rescue_van.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.53,
+          0.94,
+          0.31
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -1.05,
+          0.0,
+          -3.1
+        ],
+        "max": [
+          1.05,
+          2.7,
+          3.1
+        ]
+      }
+    ],
+    "sha256": "2ae0dbd488f0dde30ee04d0fc39f3f0f14484956dccef968e17b832f2bcf8fb9"
+  },
+  {
+    "id": "gtm:agri_compact_tractor",
+    "title": "Wahindra Oja Compact Tractor",
+    "manufacturer": "wahindra",
+    "category": "road",
+    "subcategory": "agricultural",
+    "dimensions_blocks": [
+      1.4,
+      2.1,
+      2.8
+    ],
+    "cube_count": 26,
+    "geometry": "geometry.gtm.agri_compact_tractor",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/agri_compact_tractor.geo.json",
+    "java_model_path": "creative/source/models/transport/java/agri_compact_tractor.json",
+    "icon_path": "creative/source/icons/transport/agri_compact_tractor.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.35,
+          0.73,
+          0.14
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.7,
+          0.0,
+          -1.4
+        ],
+        "max": [
+          0.7,
+          2.1,
+          1.4
+        ]
+      }
+    ],
+    "sha256": "797e9b18eac705f11511b1c25be625a8def88d711883309b3684a03236c86bf9"
+  },
+  {
+    "id": "gtm:agri_heavy_tractor",
+    "title": "Wahindra Arjun Novo Heavy Tractor",
+    "manufacturer": "wahindra",
+    "category": "road",
+    "subcategory": "agricultural",
+    "dimensions_blocks": [
+      1.8,
+      2.5,
+      3.6
+    ],
+    "cube_count": 26,
+    "geometry": "geometry.gtm.agri_heavy_tractor",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/agri_heavy_tractor.geo.json",
+    "java_model_path": "creative/source/models/transport/java/agri_heavy_tractor.json",
+    "icon_path": "creative/source/icons/transport/agri_heavy_tractor.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.45,
+          0.88,
+          0.18
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -0.9,
+          0.0,
+          -1.8
+        ],
+        "max": [
+          0.9,
+          2.5,
+          1.8
+        ]
+      }
+    ],
+    "sha256": "c35e15e94bd46313fc2e565a7bf3b4b12eab560c539c051ac59436baf4f774e0"
+  },
+  {
+    "id": "gtm:agri_harvester",
+    "title": "Wahindra Coastal Combine Harvester",
+    "manufacturer": "wahindra",
+    "category": "road",
+    "subcategory": "agricultural",
+    "dimensions_blocks": [
+      3.2,
+      3.8,
+      6.8
+    ],
+    "cube_count": 28,
+    "geometry": "geometry.gtm.agri_harvester",
+    "variants": [
+      "normal",
+      "damaged",
+      "wreck"
+    ],
+    "json_path": "creative/source/models/transport/agri_harvester.geo.json",
+    "java_model_path": "creative/source/models/transport/java/agri_harvester.json",
+    "icon_path": "creative/source/icons/transport/agri_harvester.png",
+    "anchors": [
+      {
+        "id": "driver_seat",
+        "position": [
+          -0.8,
+          1.33,
+          0.34
+        ],
+        "yaw": 0
+      }
+    ],
+    "collision_boxes": [
+      {
+        "min": [
+          -1.6,
+          0.0,
+          -3.4
+        ],
+        "max": [
+          1.6,
+          3.8,
+          3.4
+        ]
+      }
+    ],
+    "sha256": "2302a9a77bb5eba7227a1222f5a53a4c33f21eb024ac6bb827b2ff6f3289e8c2"
+  },
+  {
+    "id": "gtm:local_driving_cab",
+    "title": "Mumbai Suburban Driving Motor Coach (Cab)",
+    "operator": "indra_suburban",
+    "category": "rail",
+    "dimensions_blocks": [
+      3.2,
+      3.8,
+      20.5
+    ],
+    "cube_count": 60,
+    "interior_description": "Transverse 3x3 wooden benches, ceiling fans, open sliding doorways, baggage lofts",
+    "geometry": "geometry.gtm.local_driving_cab",
+    "variants": [
+      "normal",
+      "maintenance"
+    ],
+    "json_path": "creative/source/models/transport/local_driving_cab.geo.json",
+    "java_model_path": "creative/source/models/transport/java/local_driving_cab.json",
+    "icon_path": "creative/source/icons/transport/local_driving_cab.png",
+    "sha256": "68dffb1d85da604f633ee30e4822cb89b4b5928d9d2d1a433bfcc0fb9c4fd592"
+  },
+  {
+    "id": "gtm:local_motor",
+    "title": "Mumbai Suburban Motor Coach",
+    "operator": "indra_suburban",
+    "category": "rail",
+    "dimensions_blocks": [
+      3.2,
+      3.8,
+      20.5
+    ],
+    "cube_count": 60,
+    "interior_description": "High-capacity commuter layout, overhead pantograph, standing grab poles",
+    "geometry": "geometry.gtm.local_motor",
+    "variants": [
+      "normal",
+      "maintenance"
+    ],
+    "json_path": "creative/source/models/transport/local_motor.geo.json",
+    "java_model_path": "creative/source/models/transport/java/local_motor.json",
+    "icon_path": "creative/source/icons/transport/local_motor.png",
+    "sha256": "69a3e5169a02116feb5c7f89d3a36d82ae2fc71ec81133cef210eb7205bb7e06"
+  },
+  {
+    "id": "gtm:local_trailer",
+    "title": "Mumbai Suburban Trailer Coach",
+    "operator": "indra_suburban",
+    "category": "rail",
+    "dimensions_blocks": [
+      3.2,
+      3.8,
+      20.5
+    ],
+    "cube_count": 56,
+    "interior_description": "Second-class general coach with partition grills and ceiling ventilation",
+    "geometry": "geometry.gtm.local_trailer",
+    "variants": [
+      "normal",
+      "maintenance"
+    ],
+    "json_path": "creative/source/models/transport/local_trailer.geo.json",
+    "java_model_path": "creative/source/models/transport/java/local_trailer.json",
+    "icon_path": "creative/source/icons/transport/local_trailer.png",
+    "sha256": "8be11229aad0f173ab4c090ee27c7f5b3d7a2af4544533f4a79a4ebcab04b5a6"
+  },
+  {
+    "id": "gtm:metro_lead",
+    "title": "Indra Metro Lead Motor Car",
+    "operator": "indra_metro",
+    "category": "rail",
+    "dimensions_blocks": [
+      2.9,
+      3.6,
+      21.0
+    ],
+    "cube_count": 60,
+    "interior_description": "Modern aerodynamically shaped cab, digital route displays, longitudinal seating",
+    "geometry": "geometry.gtm.metro_lead",
+    "variants": [
+      "normal",
+      "maintenance"
+    ],
+    "json_path": "creative/source/models/transport/metro_lead.geo.json",
+    "java_model_path": "creative/source/models/transport/java/metro_lead.json",
+    "icon_path": "creative/source/icons/transport/metro_lead.png",
+    "sha256": "45890e33d34c08977302f15b9399154410efba545dd4a49e9b836cbffe3d2c0b"
+  },
+  {
+    "id": "gtm:metro_middle",
+    "title": "Indra Metro Intermediate Car",
+    "operator": "indra_metro",
+    "category": "rail",
+    "dimensions_blocks": [
+      2.9,
+      3.6,
+      21.0
+    ],
+    "cube_count": 56,
+    "interior_description": "Continuous vestibule walkway, stainless steel stanchions, LED route maps",
+    "geometry": "geometry.gtm.metro_middle",
+    "variants": [
+      "normal",
+      "maintenance"
+    ],
+    "json_path": "creative/source/models/transport/metro_middle.geo.json",
+    "java_model_path": "creative/source/models/transport/java/metro_middle.json",
+    "icon_path": "creative/source/icons/transport/metro_middle.png",
+    "sha256": "9504c502305a1a3bf6de7f78b2486ddf2e104cd4cea035ec193748eb4794cfdb"
+  },
+  {
+    "id": "gtm:metro_accessible",
+    "title": "Indra Metro Universal Access Car",
+    "operator": "indra_metro",
+    "category": "rail",
+    "dimensions_blocks": [
+      2.9,
+      3.6,
+      21.0
+    ],
+    "cube_count": 56,
+    "interior_description": "Dedicated wheelchair securement bays, priority seating, tactile boarding strip",
+    "geometry": "geometry.gtm.metro_accessible",
+    "variants": [
+      "normal",
+      "maintenance"
+    ],
+    "json_path": "creative/source/models/transport/metro_accessible.geo.json",
+    "java_model_path": "creative/source/models/transport/java/metro_accessible.json",
+    "icon_path": "creative/source/icons/transport/metro_accessible.png",
+    "sha256": "3100f41dc419ffefb1113a82d4c0ec53c09bf709004d0b6b0e7aa407c1b01982"
+  },
+  {
+    "id": "gtm:skylink_cabin",
+    "title": "SkyLink 10-Passenger Aerial Gondola",
+    "operator": "skylink",
+    "category": "ropeway",
+    "dimensions_blocks": [
+      2.2,
+      2.4,
+      2.8
+    ],
+    "cube_count": 9,
+    "interior_description": "Suspended cabin with panoramic acrylic windows, dual perimeter benches",
+    "geometry": "geometry.gtm.skylink_cabin",
+    "variants": [
+      "normal",
+      "maintenance"
+    ],
+    "json_path": "creative/source/models/transport/skylink_cabin.geo.json",
+    "java_model_path": "creative/source/models/transport/java/skylink_cabin.json",
+    "icon_path": "creative/source/icons/transport/skylink_cabin.png",
+    "sha256": "ebd73c8508859abbda3aa62b744a2bc13ba04d80fd1c720ce83779f7f1690f78"
+  },
+  {
+    "id": "gtm:skylink_accessible",
+    "title": "SkyLink Universal Barrier-Free Cabin",
+    "operator": "skylink",
+    "category": "ropeway",
+    "dimensions_blocks": [
+      2.4,
+      2.4,
+      3.2
+    ],
+    "cube_count": 9,
+    "interior_description": "Level roll-on boarding, folding jump seats, safety anchor straps",
+    "geometry": "geometry.gtm.skylink_accessible",
+    "variants": [
+      "normal",
+      "maintenance"
+    ],
+    "json_path": "creative/source/models/transport/skylink_accessible.geo.json",
+    "java_model_path": "creative/source/models/transport/java/skylink_accessible.json",
+    "icon_path": "creative/source/icons/transport/skylink_accessible.png",
+    "sha256": "31d99d88d3bff0f8964e20d21a60cf2c39ca6f65f83162a0e197c0cf53407b3e"
+  },
+  {
+    "id": "gtm:skylink_grip",
+    "title": "SkyLink Detachable Cable Grip Assembly",
+    "operator": "skylink",
+    "category": "ropeway",
+    "dimensions_blocks": [
+      0.6,
+      1.2,
+      0.8
+    ],
+    "cube_count": 10,
+    "interior_description": "Spring-loaded dual clamp grip mechanism with guide rollers",
+    "geometry": "geometry.gtm.skylink_grip",
+    "variants": [
+      "normal",
+      "maintenance"
+    ],
+    "json_path": "creative/source/models/transport/skylink_grip.geo.json",
+    "java_model_path": "creative/source/models/transport/java/skylink_grip.json",
+    "icon_path": "creative/source/icons/transport/skylink_grip.png",
+    "sha256": "1b558d972987830da63a0b30e7b0582a3d482c4e065bba7328af3b12af01b53e"
+  },
+  {
+    "id": "gtm:skylink_terminal_machinery",
+    "title": "SkyLink Terminal Drive Bullwheel & Bullgear",
+    "operator": "skylink",
+    "category": "ropeway",
+    "dimensions_blocks": [
+      4.5,
+      3.2,
+      4.5
+    ],
+    "cube_count": 4,
+    "interior_description": "Tension hydraulic piston, main drive bullwheel and decelerator rails",
+    "geometry": "geometry.gtm.skylink_terminal_machinery",
+    "variants": [
+      "normal",
+      "maintenance"
+    ],
+    "json_path": "creative/source/models/transport/skylink_terminal_machinery.geo.json",
+    "java_model_path": "creative/source/models/transport/java/skylink_terminal_machinery.json",
+    "icon_path": "creative/source/icons/transport/skylink_terminal_machinery.png",
+    "sha256": "0d6226d296623c14f781231537ab4ff4b7f17a7747619515f54b3f62a7b27a34"
+  },
+  {
+    "id": "gtm:heli_police",
+    "title": "SDPD Air Support Patrol Helicopter",
+    "category": "helicopter",
+    "dimensions_blocks": [
+      2.4,
+      3.4,
+      11.2
+    ],
+    "cube_count": 20,
+    "pivots": [
+      "main_rotor",
+      "tail_rotor",
+      "searchlight",
+      "skid_left",
+      "skid_right"
+    ],
+    "geometry": "geometry.gtm.heli_police",
+    "variants": [
+      "normal",
+      "emergency_service"
+    ],
+    "json_path": "creative/source/models/transport/heli_police.geo.json",
+    "java_model_path": "creative/source/models/transport/java/heli_police.json",
+    "icon_path": "creative/source/icons/transport/heli_police.png",
+    "sha256": "b06b5bf0ca2af2677ef23f78e0bbed6ded266140383c22fe1bbe08e74a1b5eb8"
+  },
+  {
+    "id": "gtm:heli_media",
+    "title": "Indra 24 SkyCam Broadcast Helicopter",
+    "category": "helicopter",
+    "dimensions_blocks": [
+      2.2,
+      3.2,
+      10.5
+    ],
+    "cube_count": 19,
+    "pivots": [
+      "main_rotor",
+      "tail_rotor",
+      "gimbal_camera",
+      "skid_left",
+      "skid_right"
+    ],
+    "geometry": "geometry.gtm.heli_media",
+    "variants": [
+      "normal",
+      "emergency_service"
+    ],
+    "json_path": "creative/source/models/transport/heli_media.geo.json",
+    "java_model_path": "creative/source/models/transport/java/heli_media.json",
+    "icon_path": "creative/source/icons/transport/heli_media.png",
+    "sha256": "2613ca3b205b8278c4d1d4639889264bc58141fb3d81f3b73f1f939f1f3fd6a8"
+  },
+  {
+    "id": "gtm:heli_rescue",
+    "title": "Coast Guard SAR Twin-Turbine Rescue Chopper",
+    "category": "helicopter",
+    "dimensions_blocks": [
+      2.8,
+      4.0,
+      13.5
+    ],
+    "cube_count": 19,
+    "pivots": [
+      "main_rotor",
+      "tail_rotor",
+      "winch_hoist",
+      "wheel_gear"
+    ],
+    "geometry": "geometry.gtm.heli_rescue",
+    "variants": [
+      "normal",
+      "emergency_service"
+    ],
+    "json_path": "creative/source/models/transport/heli_rescue.geo.json",
+    "java_model_path": "creative/source/models/transport/java/heli_rescue.json",
+    "icon_path": "creative/source/icons/transport/heli_rescue.png",
+    "sha256": "1976d5db66e843bbc476a66c91cb4bae7e163d5d632d8afac7c7e32f92cc59e5"
+  },
+  {
+    "id": "gtm:heli_civilian",
+    "title": "Executive VIP Luxury Corporate Helicopter",
+    "category": "helicopter",
+    "dimensions_blocks": [
+      2.5,
+      3.5,
+      12.0
+    ],
+    "cube_count": 19,
+    "pivots": [
+      "main_rotor",
+      "tail_rotor",
+      "cabin_door_left",
+      "cabin_door_right"
+    ],
+    "geometry": "geometry.gtm.heli_civilian",
+    "variants": [
+      "normal",
+      "emergency_service"
+    ],
+    "json_path": "creative/source/models/transport/heli_civilian.geo.json",
+    "java_model_path": "creative/source/models/transport/java/heli_civilian.json",
+    "icon_path": "creative/source/icons/transport/heli_civilian.png",
+    "sha256": "8f95f4770e9eb313056828b5af61cefb4a10ad5b0ec7d5685520924376ab2c9b"
+  },
+  {
+    "id": "gtm:marine_ferry",
+    "title": "Indra Gateway Double-Deck Passenger Ferry",
+    "category": "marine",
+    "dimensions_blocks": [
+      6.5,
+      4.8,
+      24.0
+    ],
+    "cube_count": 9,
+    "pivots": [
+      "rudder",
+      "starboard_prop",
+      "port_prop",
+      "loading_ramp"
+    ],
+    "geometry": "geometry.gtm.marine_ferry",
+    "variants": [
+      "normal",
+      "emergency_service"
+    ],
+    "json_path": "creative/source/models/transport/marine_ferry.geo.json",
+    "java_model_path": "creative/source/models/transport/java/marine_ferry.json",
+    "icon_path": "creative/source/icons/transport/marine_ferry.png",
+    "sha256": "45f7a392542fd6052e751fb19a8b5717d64b1431a9a44e7e6b58fc24b38104f0"
+  },
+  {
+    "id": "gtm:marine_speedboat",
+    "title": "Marine Police Interceptor Speedboat",
+    "category": "marine",
+    "dimensions_blocks": [
+      2.4,
+      1.8,
+      7.5
+    ],
+    "cube_count": 9,
+    "pivots": [
+      "outboard_motor_1",
+      "outboard_motor_2",
+      "windshield"
+    ],
+    "geometry": "geometry.gtm.marine_speedboat",
+    "variants": [
+      "normal",
+      "emergency_service"
+    ],
+    "json_path": "creative/source/models/transport/marine_speedboat.geo.json",
+    "java_model_path": "creative/source/models/transport/java/marine_speedboat.json",
+    "icon_path": "creative/source/icons/transport/marine_speedboat.png",
+    "sha256": "e4098bcc5a99edfff3e83f3d82ef23627f181ad27f2142f93f51369561e7d026"
+  },
+  {
+    "id": "gtm:marine_police_launch",
+    "title": "SDPD Harbour Patrol Steel Launch",
+    "category": "marine",
+    "dimensions_blocks": [
+      3.8,
+      3.2,
+      14.5
+    ],
+    "cube_count": 9,
+    "pivots": [
+      "mast_radar",
+      "twin_screws",
+      "deck_gun_mount"
+    ],
+    "geometry": "geometry.gtm.marine_police_launch",
+    "variants": [
+      "normal",
+      "emergency_service"
+    ],
+    "json_path": "creative/source/models/transport/marine_police_launch.geo.json",
+    "java_model_path": "creative/source/models/transport/java/marine_police_launch.json",
+    "icon_path": "creative/source/icons/transport/marine_police_launch.png",
+    "sha256": "aea163286e0b3788d73ad80998bdcc408525063c76047d9611629f5682e880b3"
+  },
+  {
+    "id": "gtm:marine_rescue",
+    "title": "Coastal Lifeboat All-Weather Rescue Craft",
+    "category": "marine",
+    "dimensions_blocks": [
+      3.6,
+      2.9,
+      11.8
+    ],
+    "cube_count": 9,
+    "pivots": [
+      "survivor_scaffold",
+      "radar_dome",
+      "jet_drives"
+    ],
+    "geometry": "geometry.gtm.marine_rescue",
+    "variants": [
+      "normal",
+      "emergency_service"
+    ],
+    "json_path": "creative/source/models/transport/marine_rescue.geo.json",
+    "java_model_path": "creative/source/models/transport/java/marine_rescue.json",
+    "icon_path": "creative/source/icons/transport/marine_rescue.png",
+    "sha256": "fc2f0c92236a653dd5fa4cb75027e5fe371ce7d392d548e441c26bea20740f24"
+  },
+  {
+    "id": "gtm:marine_fishing",
+    "title": "Sassoon Docks Wooden Fishing Trawler",
+    "category": "marine",
+    "dimensions_blocks": [
+      4.2,
+      4.5,
+      16.0
+    ],
+    "cube_count": 9,
+    "pivots": [
+      "trawl_winch",
+      "fish_hold_hatch",
+      "mast_rigging"
+    ],
+    "geometry": "geometry.gtm.marine_fishing",
+    "variants": [
+      "normal",
+      "emergency_service"
+    ],
+    "json_path": "creative/source/models/transport/marine_fishing.geo.json",
+    "java_model_path": "creative/source/models/transport/java/marine_fishing.json",
+    "icon_path": "creative/source/icons/transport/marine_fishing.png",
+    "sha256": "64e154b792a7ddbc199ee09999e3ea6c07dea55fe22c2d5a5fb7f7613fbd68c8"
+  },
+  {
+    "id": "gtm:marine_yacht",
+    "title": "Maya Harbour Luxury Motor Yacht",
+    "category": "marine",
+    "dimensions_blocks": [
+      5.0,
+      4.2,
+      18.5
+    ],
+    "cube_count": 9,
+    "pivots": [
+      "flybridge_helm",
+      "sunpad_stern",
+      "swim_platform"
+    ],
+    "geometry": "geometry.gtm.marine_yacht",
+    "variants": [
+      "normal",
+      "emergency_service"
+    ],
+    "json_path": "creative/source/models/transport/marine_yacht.geo.json",
+    "java_model_path": "creative/source/models/transport/java/marine_yacht.json",
+    "icon_path": "creative/source/icons/transport/marine_yacht.png",
+    "sha256": "89a74f3a88c78f4f65bad93a7e4e8669ab57606f8c23c22ea0b1393151755260"
+  },
+  {
+    "id": "gtm:marine_cargo",
+    "title": "Coastal Container & Bulk Freight Barge",
+    "category": "marine",
+    "dimensions_blocks": [
+      8.5,
+      5.0,
+      38.0
+    ],
+    "cube_count": 11,
+    "pivots": [
+      "deck_crane",
+      "cargo_hold_hatches",
+      "stern_wheelhouse"
+    ],
+    "geometry": "geometry.gtm.marine_cargo",
+    "variants": [
+      "normal",
+      "emergency_service"
+    ],
+    "json_path": "creative/source/models/transport/marine_cargo.geo.json",
+    "java_model_path": "creative/source/models/transport/java/marine_cargo.json",
+    "icon_path": "creative/source/icons/transport/marine_cargo.png",
+    "sha256": "d620fef5d55b3ffa3e40bf0f02b3dd6ebf7b4ec204ba7f5c5b2218cca8e1e559"
+  },
+  {
+    "id": "gtm:marine_water_taxi",
+    "title": "Express Harbour Catamaran Water Taxi",
+    "category": "marine",
+    "dimensions_blocks": [
+      3.2,
+      2.2,
+      9.8
+    ],
+    "cube_count": 8,
+    "pivots": [
+      "twin_catamaran_hulls",
+      "passenger_cabin_door"
+    ],
+    "geometry": "geometry.gtm.marine_water_taxi",
+    "variants": [
+      "normal",
+      "emergency_service"
+    ],
+    "json_path": "creative/source/models/transport/marine_water_taxi.geo.json",
+    "java_model_path": "creative/source/models/transport/java/marine_water_taxi.json",
+    "icon_path": "creative/source/icons/transport/marine_water_taxi.png",
+    "sha256": "1cd909ff324f6291260c907eb6fd32198daf253e6830d41153c7c82b719cb6b3"
+  }
+]

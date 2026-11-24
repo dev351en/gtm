@@ -1,0 +1,314 @@
+[
+  {
+    "id": "app_quoggle",
+    "title": "Quoggle",
+    "png": "creative/source/icons/app_quoggle.png",
+    "svg": "creative/source/icons/app_quoggle.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "cfcd9d9fb6d292eb95dc7102719b3e6b61f66f7e04c8cddf63770a3b6eefdba1"
+  },
+  {
+    "id": "app_amazzo",
+    "title": "Amazzo",
+    "png": "creative/source/icons/app_amazzo.png",
+    "svg": "creative/source/icons/app_amazzo.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "82d470fb1be153d24ea4093823073b59501c45592d0e1b6a59c66c73ed39d384"
+  },
+  {
+    "id": "app_flippit",
+    "title": "Flippit",
+    "png": "creative/source/icons/app_flippit.png",
+    "svg": "creative/source/icons/app_flippit.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "46a8c998a9739be05b300f24dd42794fb86f7762abdf89b3887cb5aff9c91097"
+  },
+  {
+    "id": "app_arkpay",
+    "title": "ARK Pay",
+    "png": "creative/source/icons/app_arkpay.png",
+    "svg": "creative/source/icons/app_arkpay.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "d83b32e98bf5cd9a94675f1f3ab5423f8d47c1fc3b7a3fbf21a458c56e74213a"
+  },
+  {
+    "id": "app_zomatoo",
+    "title": "Zomatoo",
+    "png": "creative/source/icons/app_zomatoo.png",
+    "svg": "creative/source/icons/app_zomatoo.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "cb5adc6d48675e13b48c2f8f4998e3d4fb95b0231a55a948de9eb8cfab4d9faa"
+  },
+  {
+    "id": "app_swiffy",
+    "title": "Swiffy",
+    "png": "creative/source/icons/app_swiffy.png",
+    "svg": "creative/source/icons/app_swiffy.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "032667bdce3ab1849d935e0d632683636cc0b6eb7fcbba5941d026afd88808a8"
+  },
+  {
+    "id": "app_fashion",
+    "title": "Vogue Indra",
+    "png": "creative/source/icons/app_fashion.png",
+    "svg": "creative/source/icons/app_fashion.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "6ec887e414e4507360251a857bd705d5927ab80618fc484e9395e94652b5673b"
+  },
+  {
+    "id": "app_property",
+    "title": "Properties",
+    "png": "creative/source/icons/app_property.png",
+    "svg": "creative/source/icons/app_property.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "88a1526a4c84cac0aa818c12e554d7bc281860c20c7672f584090c0681ecc386"
+  },
+  {
+    "id": "app_car_app",
+    "title": "Motor Mile",
+    "png": "creative/source/icons/app_car_app.png",
+    "svg": "creative/source/icons/app_car_app.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "8281c6a0bfb608dc45f10646a2f2bf6e7fb9f445a1416cea1a0cdfddbd155c25"
+  },
+  {
+    "id": "app_maps",
+    "title": "City GPS",
+    "png": "creative/source/icons/app_maps.png",
+    "svg": "creative/source/icons/app_maps.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "61611d28a05a45795dd9a64558f81af92ba76ddc4799b14004aef15d61db515c"
+  },
+  {
+    "id": "app_garage",
+    "title": "My Garage",
+    "png": "creative/source/icons/app_garage.png",
+    "svg": "creative/source/icons/app_garage.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "b863a18ec8772f0b20e458b3623d022e7a212aa716aa54396abf692e58a6bca6"
+  },
+  {
+    "id": "app_bank",
+    "title": "Indra Bank",
+    "png": "creative/source/icons/app_bank.png",
+    "svg": "creative/source/icons/app_bank.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "9932f44e8f9eb6c15fd128253fe38dd2088911dd6ef7e1df5f749c27cb816313"
+  },
+  {
+    "id": "app_loans",
+    "title": "Municipal Loans",
+    "png": "creative/source/icons/app_loans.png",
+    "svg": "creative/source/icons/app_loans.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "2aebed658581c39416dbd550d028be38ec775dc1dce833db192a382662eb157e"
+  },
+  {
+    "id": "app_taxi",
+    "title": "City Cabs",
+    "png": "creative/source/icons/app_taxi.png",
+    "svg": "creative/source/icons/app_taxi.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "a9f15203ead1b1d25dbddba1a42a3edf50ff15dacde6448335d778524c619c18"
+  },
+  {
+    "id": "app_transport",
+    "title": "Metro & Rail",
+    "png": "creative/source/icons/app_transport.png",
+    "svg": "creative/source/icons/app_transport.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "ff18144225fd3fab1719f6ac0bcac296e84f574877ee10a98b97a6f7b52e084a"
+  },
+  {
+    "id": "app_news",
+    "title": "Indra 24",
+    "png": "creative/source/icons/app_news.png",
+    "svg": "creative/source/icons/app_news.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "d630f863990131ba42e794ad0db7e1c639c9215975aca41844577a05db2a24a9"
+  },
+  {
+    "id": "app_police",
+    "title": "SDPD Law",
+    "png": "creative/source/icons/app_police.png",
+    "svg": "creative/source/icons/app_police.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "3a913dc245fbd19ef402184839c607113ecd061e6a47ff8424e63ea0978394ff"
+  },
+  {
+    "id": "app_medical",
+    "title": "Trauma Bay",
+    "png": "creative/source/icons/app_medical.png",
+    "svg": "creative/source/icons/app_medical.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "9d207543b6896f24ee3650567eab188cb9e7792f9a91790f4876150a87a3e03f"
+  },
+  {
+    "id": "app_events",
+    "title": "Festivals",
+    "png": "creative/source/icons/app_events.png",
+    "svg": "creative/source/icons/app_events.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "289db02468854c7352068941e717b3ecc3f5bf83fd5bce957bab9d21d14b369f"
+  },
+  {
+    "id": "app_missions",
+    "title": "Contracts",
+    "png": "creative/source/icons/app_missions.png",
+    "svg": "creative/source/icons/app_missions.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "d8bf04e2aa80f9aa744ca896fd90e118f2176d94580a0e1d11b2d15fdc825c76"
+  },
+  {
+    "id": "app_careers",
+    "title": "City Jobs",
+    "png": "creative/source/icons/app_careers.png",
+    "svg": "creative/source/icons/app_careers.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "ce73ea2f0a60b9cc3459de9c4c129ea6a2a17fbafc3049d08b3b1698de5e6d53"
+  },
+  {
+    "id": "app_contacts",
+    "title": "Contacts",
+    "png": "creative/source/icons/app_contacts.png",
+    "svg": "creative/source/icons/app_contacts.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "b02ca8ca2ce913f115c75e0463f1287be7bab15bfe73eab07af0ab7a94ee06cf"
+  },
+  {
+    "id": "app_keys",
+    "title": "Key Fob",
+    "png": "creative/source/icons/app_keys.png",
+    "svg": "creative/source/icons/app_keys.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "5aac6ecfef0fd764a1ca0ded0168d2f3d333267bbb8fc2a81424fcf5a842c452"
+  },
+  {
+    "id": "app_settings",
+    "title": "Settings",
+    "png": "creative/source/icons/app_settings.png",
+    "svg": "creative/source/icons/app_settings.svg",
+    "dimensions_px": [
+      128,
+      128
+    ],
+    "native_grid": "32x32",
+    "style": "faithful_32x_pixel",
+    "sha256": "14113c237684deced51678cf91f2dd934fe00330f908fb930f95ed492cd70639"
+  }
+]

@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "facility_id": "logistics_warehouse_01",
+  "name": "Amazzo Prime Metro Fulfillment Center",
+  "kind": "logistics_warehouse",
+  "status": "surveyed_and_ready",
+  "world": "world",
+  "origin": [
+    -300,
+    66,
+    -150
+  ],
+  "bounds": {
+    "min": [
+      -300,
+      66,
+      -150
+    ],
+    "max": [
+      -255,
+      80,
+      -95
+    ]
+  },
+  "entrances": [
+    {
+      "id": "logistics_warehouse_01_main_entrance",
+      "local": [
+        22,
+        0,
+        0
+      ],
+      "access": "private",
+      "width_blocks": 2,
+      "height_blocks": 3
+    },
+    {
+      "id": "logistics_warehouse_01_service_entrance",
+      "local": [
+        45,
+        0,
+        28
+      ],
+      "access": "private",
+      "width_blocks": 1,
+      "height_blocks": 2
+    }
+  ],
+  "rooms": [
+    {
+      "id": "public_reception",
+      "function": "reception",
+      "local_bounds": {
+        "min": [
+          1,
+          0,
+          1
+        ],
+        "max": [
+          18,
+          6,
+          22
+        ]
+      },
+      "access": "public"
+    },
+    {
+      "id": "operations_hall",
+      "function": "operations",
+      "local_bounds": {
+        "min": [
+          18,
+          0,
+          1
+        ],
+        "max": [
+          44,
+          7,
+          28
+        ]
+      },
+      "access": "staff"
+    },
+    {
+      "id": "executive_suite",
+      "function": "management",
+      "local_bounds": {
+        "min": [
+          1,
+          7,
+          1
+        ],
+        "max": [
+          22,
+          13,
+          28
+        ]
+      },
+      "access": "private"
+    },
+    {
+      "id": "secure_vault_storage",
+      "function": "vault_storage",
+      "local_bounds": {
+        "min": [
+          22,
+          0,
+          28
+        ],
+        "max": [
+          44,
+          6,
+          54
+        ]
+      },
+      "access": "secure"
+    }
+  ],
+  "placements": [
+    {
+      "asset_id": "gtm:reception_podium",
+      "local": [
+        9,
+        0,
+        11
+      ],
+      "yaw": 0,
+      "role": "reception"
+    },
+    {
+      "asset_id": "gtm:sectional_sofa",
+      "local": [
+        4,
+        0,
+        16
+      ],
+      "yaw": 90,
+      "role": "waiting_lounge"
+    },
+    {
+      "asset_id": "gtm:atm_lobby_enclosure",
+      "local": [
+        16,
+        0,
+        2
+      ],
+      "yaw": 180,
+      "role": "banking_service"
+    }
+  ],
+  "lighting_fixtures": [
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        9,
+        3,
+        11
+      ]
+    },
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        31,
+        3,
+        16
+      ]
+    },
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        14,
+        3,
+        38
+      ]
+    }
+  ],
+  "checks": {
+    "accessible_corridors": true,
+    "floor_headroom_valid": true,
+    "doors_functional": true,
+    "stairs_connected": true,
+    "zero_floating_props": true,
+    "no_empty_shells": true
+  }
+}

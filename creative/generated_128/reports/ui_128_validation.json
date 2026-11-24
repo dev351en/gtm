@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "counts": {
+    "phone": 24,
+    "hud": 33,
+    "brands": 32,
+    "signage": 120,
+    "identity": 4
+  },
+  "sign_tiles": 240,
+  "canonical_canvas": [
+    128,
+    128
+  ],
+  "composite_exception": {
+    "signage": [
+      256,
+      128
+    ]
+  },
+  "compatibility_exception": {
+    "server_icon": [
+      64,
+      64
+    ]
+  },
+  "errors": [],
+  "automated_checks": [
+    "Exact existing IDs",
+    "Per-family hash uniqueness",
+    "Native dimensions andRGBA",
+    "Nonempty PNG",
+    "Devanagari RAQM shaping available",
+    "240 square sign tiles"
+  ],
+  "visual_review": "Contact sheets exported; review must be recorded separately",
+  "client_verification": "not_run"
+}

@@ -1,0 +1,830 @@
+[
+  {
+    "id": "government_office_01",
+    "name": "Indraprastha City Hall & Municipal Corporation",
+    "kind": "government_office",
+    "origin": [
+      10,
+      70,
+      3
+    ],
+    "bounds_xyz": [
+      36,
+      18,
+      38
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/government_office_01.json",
+    "sha256": "7bb4f81ce79ad41adf78c693cc682fa4b43b01604561a001eb366f6d6399f137"
+  },
+  {
+    "id": "government_office_02",
+    "name": "Department of Transport & Licensing Authority",
+    "kind": "government_office",
+    "origin": [
+      25,
+      68,
+      -25
+    ],
+    "bounds_xyz": [
+      26,
+      12,
+      28
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/government_office_02.json",
+    "sha256": "fa7d0e9afc1d47b9fd6e02fb3b537db1bda05b66560d32311122d1fdc3944e93"
+  },
+  {
+    "id": "government_office_03",
+    "name": "District Magistrate & Urban Land Registry",
+    "kind": "government_office",
+    "origin": [
+      40,
+      68,
+      15
+    ],
+    "bounds_xyz": [
+      28,
+      14,
+      30
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/government_office_03.json",
+    "sha256": "5b849a7967e899a1db7d80d755e7a912c2bd6f152531839c72f673ee11efb4f3"
+  },
+  {
+    "id": "police_station_01",
+    "name": "SDPD Central Police Headquarters & Holding Cells",
+    "kind": "police_station",
+    "origin": [
+      120,
+      66,
+      -46
+    ],
+    "bounds_xyz": [
+      32,
+      16,
+      40
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/police_station_01.json",
+    "sha256": "8399850172aff8fb6adce6c8ae45df5359937b0e208bee2d2089f6883902cc44"
+  },
+  {
+    "id": "police_station_02",
+    "name": "Precinct 2 Marine Drive Substation",
+    "kind": "police_station",
+    "origin": [
+      -45,
+      68,
+      85
+    ],
+    "bounds_xyz": [
+      22,
+      10,
+      24
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/police_station_02.json",
+    "sha256": "41061bba57e9ba0d3482caf1fc9d1c85233d2c019b2ae8f2a4c412fac1299941"
+  },
+  {
+    "id": "hospital_clinic_01",
+    "name": "Mount Zonah Metropolitan Trauma Center",
+    "kind": "hospital_clinic",
+    "origin": [
+      -62,
+      65,
+      140
+    ],
+    "bounds_xyz": [
+      42,
+      22,
+      45
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/hospital_clinic_01.json",
+    "sha256": "d9aebe87759d805a290fb6106abe797306ff53f660e1b6210397470b3420d46b"
+  },
+  {
+    "id": "hospital_clinic_02",
+    "name": "Civic Center Urgent Care & First Aid Clinic",
+    "kind": "hospital_clinic",
+    "origin": [
+      5,
+      70,
+      -25
+    ],
+    "bounds_xyz": [
+      20,
+      9,
+      22
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/hospital_clinic_02.json",
+    "sha256": "ffad960e2f6fe87cece47f216ccb6192c88e332f7201b00fa8c82ca12fafb719"
+  },
+  {
+    "id": "hospital_clinic_03",
+    "name": "Harbour Docklands Occupational Health Bay",
+    "kind": "hospital_clinic",
+    "origin": [
+      -325,
+      65,
+      -80
+    ],
+    "bounds_xyz": [
+      22,
+      10,
+      24
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/hospital_clinic_03.json",
+    "sha256": "edbce713f402eee55daab1c165aa4623a2e99871fa1d39e4f39ee7bef544e080"
+  },
+  {
+    "id": "fire_station_01",
+    "name": "Fire & Rescue Headquarters Station 4",
+    "kind": "fire_station",
+    "origin": [
+      190,
+      70,
+      86
+    ],
+    "bounds_xyz": [
+      32,
+      14,
+      36
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/fire_station_01.json",
+    "sha256": "153eeca633ef8b8dfdaec113e3deef96cd05ab3531161e5ade88e234ec996e92"
+  },
+  {
+    "id": "bank_01",
+    "name": "First National Bank of Indra (Main Vault Branch)",
+    "kind": "bank",
+    "origin": [
+      56,
+      67,
+      -117
+    ],
+    "bounds_xyz": [
+      30,
+      15,
+      32
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/bank_01.json",
+    "sha256": "303b38f8a5b4b4d1eb82eecb1c38923e5781d54facbe9bbcfce9ef42ae97e3c9"
+  },
+  {
+    "id": "bank_02",
+    "name": "Maze Bank Financial District Branch",
+    "kind": "bank",
+    "origin": [
+      -12,
+      68,
+      -85
+    ],
+    "bounds_xyz": [
+      24,
+      12,
+      26
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/bank_02.json",
+    "sha256": "95bfab346eb7e40fd5414c6349d9c06f879fb36212a011955322f7cfa34c945b"
+  },
+  {
+    "id": "dealership_01",
+    "name": "Motor Mile Dealership Showroom & Test Track",
+    "kind": "dealership",
+    "origin": [
+      -151,
+      67,
+      -83
+    ],
+    "bounds_xyz": [
+      35,
+      12,
+      38
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/dealership_01.json",
+    "sha256": "98575f2d8741a5c54300158cae4b3e1574f8c824b5906234026d0b16a0f73bf9"
+  },
+  {
+    "id": "dealership_02",
+    "name": "SD Motors Luxury Hypercar Import Showroom",
+    "kind": "dealership",
+    "origin": [
+      -95,
+      68,
+      -90
+    ],
+    "bounds_xyz": [
+      30,
+      12,
+      32
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/dealership_02.json",
+    "sha256": "3afb3ed70d3066a93af3e4053bf15cd32b4096ad979b67070d4153ae57ac476c"
+  },
+  {
+    "id": "dealership_03",
+    "name": "Maruva & Tavara Fleet Dealership",
+    "kind": "dealership",
+    "origin": [
+      -180,
+      68,
+      -60
+    ],
+    "bounds_xyz": [
+      28,
+      11,
+      30
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/dealership_03.json",
+    "sha256": "9bf06b508e98b194c0205a6092ea8edccf74373c8679b929051b6607fd6a9da4"
+  },
+  {
+    "id": "repair_workshop_01",
+    "name": "Motor Mile Fleet Maintenance & Mod Garage",
+    "kind": "repair_workshop",
+    "origin": [
+      -175,
+      67,
+      -83
+    ],
+    "bounds_xyz": [
+      30,
+      10,
+      32
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/repair_workshop_01.json",
+    "sha256": "fff9d445fe54f8714013ee134623e7d67d10a56a4567a9fdf540ad93d3a9ffab"
+  },
+  {
+    "id": "repair_workshop_02",
+    "name": "Precision Bodyworks & Spray Painting",
+    "kind": "repair_workshop",
+    "origin": [
+      -220,
+      69,
+      45
+    ],
+    "bounds_xyz": [
+      26,
+      9,
+      28
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/repair_workshop_02.json",
+    "sha256": "bdcca84987e911a73f6f3226eda2bc9d4101f314c62222fe2876efd62b379943"
+  },
+  {
+    "id": "fuel_station_01",
+    "name": "Highway Coastal Gas & High-Octane CNG Station",
+    "kind": "fuel_station",
+    "origin": [
+      -205,
+      70,
+      60
+    ],
+    "bounds_xyz": [
+      28,
+      7,
+      26
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/fuel_station_01.json",
+    "sha256": "4f9a92836261705ac9ec14798e4efd55fb2ae8f55ffea4d17c23fb1261e1fd09"
+  },
+  {
+    "id": "fuel_station_02",
+    "name": "Civic Boulevard Quick-Fuel & Mart",
+    "kind": "fuel_station",
+    "origin": [
+      85,
+      68,
+      -30
+    ],
+    "bounds_xyz": [
+      24,
+      7,
+      24
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/fuel_station_02.json",
+    "sha256": "463a61a9a48aab2bb4404fa34c0692fc176f18a1ee742b3efc08643e76f71345"
+  },
+  {
+    "id": "suburban_station_01",
+    "name": "Central Suburban Terminal & Concourse",
+    "kind": "suburban_station",
+    "origin": [
+      26,
+      68,
+      63
+    ],
+    "bounds_xyz": [
+      45,
+      14,
+      60
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/suburban_station_01.json",
+    "sha256": "7b2d78e1480e1c61581fb18b2abe1ff5dec228261ef5425d52313a01b50a03f2"
+  },
+  {
+    "id": "suburban_station_02",
+    "name": "Bandra Coastal Commuter Platform",
+    "kind": "suburban_station",
+    "origin": [
+      -120,
+      68,
+      120
+    ],
+    "bounds_xyz": [
+      35,
+      10,
+      48
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/suburban_station_02.json",
+    "sha256": "7a5afed4889f473f7d33f272400142c88198217c702ff9500ac1bfa8efde9411"
+  },
+  {
+    "id": "metro_station_01",
+    "name": "Civic Center Underground Metro Station",
+    "kind": "metro_station",
+    "origin": [
+      15,
+      54,
+      10
+    ],
+    "bounds_xyz": [
+      35,
+      8,
+      55
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/metro_station_01.json",
+    "sha256": "a11d987278d493e8956b1eeacf009c0e0fe42fe112bafacd38d53764ea0ebbe4"
+  },
+  {
+    "id": "metro_station_02",
+    "name": "Financial District Subway Interchange",
+    "kind": "metro_station",
+    "origin": [
+      50,
+      52,
+      -100
+    ],
+    "bounds_xyz": [
+      38,
+      8,
+      58
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/metro_station_02.json",
+    "sha256": "fab4c05c5892640c2203e44aa678fcd99b34dba9b5ea9bea53e715c2e25b6449"
+  },
+  {
+    "id": "metro_station_03",
+    "name": "Hospital Line Rapid Underground Station",
+    "kind": "metro_station",
+    "origin": [
+      -55,
+      50,
+      135
+    ],
+    "bounds_xyz": [
+      34,
+      8,
+      50
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/metro_station_03.json",
+    "sha256": "53a08800f8fe4453213ea653404d57b844f306cd3b4ab58875fd3a59b72e62ca"
+  },
+  {
+    "id": "ropeway_terminal_01",
+    "name": "SkyLink North Terminal & Promenade Station",
+    "kind": "ropeway_terminal",
+    "origin": [
+      190,
+      70,
+      86
+    ],
+    "bounds_xyz": [
+      28,
+      15,
+      32
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/ropeway_terminal_01.json",
+    "sha256": "42ef0e351a65927cdc7808dc57c32f727a57b27d06e12be73c5c7d9603384a59"
+  },
+  {
+    "id": "ropeway_terminal_02",
+    "name": "SkyLink South Harbour Island Terminal",
+    "kind": "ropeway_terminal",
+    "origin": [
+      -360,
+      68,
+      -250
+    ],
+    "bounds_xyz": [
+      28,
+      15,
+      32
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/ropeway_terminal_02.json",
+    "sha256": "88d4578f949dca11bfc7fa58a9f3baebf913d4107f6c1a63e01ef61cd0e0790b"
+  },
+  {
+    "id": "ropeway_maintenance_01",
+    "name": "SkyLink Cableway Machinery & Tension Depot",
+    "kind": "ropeway_maintenance",
+    "origin": [
+      215,
+      70,
+      86
+    ],
+    "bounds_xyz": [
+      22,
+      10,
+      24
+    ],
+    "default_access": "private",
+    "json_path": "creative/source/structures/ropeway_maintenance_01.json",
+    "sha256": "4f1968612640b18d0ac8d529c60d22c69d340d9e64195a0836c944422af7e9bc"
+  },
+  {
+    "id": "media_headquarters_01",
+    "name": "Indra 24 Broadcast Center & Production Studios",
+    "kind": "media_headquarters",
+    "origin": [
+      -20,
+      68,
+      -120
+    ],
+    "bounds_xyz": [
+      32,
+      18,
+      35
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/media_headquarters_01.json",
+    "sha256": "74e0a6d753c5bb7502d49318c1996d1124c3c2606696b82d4aa2de4c3b1661bd"
+  },
+  {
+    "id": "media_headquarters_02",
+    "name": "Jan Awaaz Times Publishing House",
+    "kind": "media_headquarters",
+    "origin": [
+      5,
+      68,
+      -135
+    ],
+    "bounds_xyz": [
+      28,
+      15,
+      30
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/media_headquarters_02.json",
+    "sha256": "df1bb5af1221b795d48863f7de7367aecc8b94c7fbb54bd22040a4e87585c807"
+  },
+  {
+    "id": "media_headquarters_03",
+    "name": "CineVista Entertainment Offices",
+    "kind": "media_headquarters",
+    "origin": [
+      -40,
+      68,
+      -105
+    ],
+    "bounds_xyz": [
+      30,
+      16,
+      32
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/media_headquarters_03.json",
+    "sha256": "99cb6c02a0f4cb37effa2adff3db1f087f2ed8e36cf9813f84daf52c2655f4b0"
+  },
+  {
+    "id": "data_centre_01",
+    "name": "AirWave Coastal Fiber High-Security Data Bunker",
+    "kind": "data_centre",
+    "origin": [
+      150,
+      66,
+      -100
+    ],
+    "bounds_xyz": [
+      34,
+      12,
+      38
+    ],
+    "default_access": "private",
+    "json_path": "creative/source/structures/data_centre_01.json",
+    "sha256": "7d75ea55e07b45fbd0f983e3a40bf450072b193417adcc124e377f5ff797ad50"
+  },
+  {
+    "id": "telecom_headquarters_01",
+    "name": "AirWave 5G Tower & Telecommunications Hub",
+    "kind": "telecom_headquarters",
+    "origin": [
+      140,
+      68,
+      -90
+    ],
+    "bounds_xyz": [
+      30,
+      28,
+      30
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/telecom_headquarters_01.json",
+    "sha256": "bd5e4c5d7af4cd635732f91901585f4d4af08fd8487d7a8231192ea0a19319a1"
+  },
+  {
+    "id": "logistics_warehouse_01",
+    "name": "Amazzo Prime Metro Fulfillment Center",
+    "kind": "logistics_warehouse",
+    "origin": [
+      -300,
+      66,
+      -150
+    ],
+    "bounds_xyz": [
+      45,
+      14,
+      55
+    ],
+    "default_access": "private",
+    "json_path": "creative/source/structures/logistics_warehouse_01.json",
+    "sha256": "6bd12362a8cc46c6384c4e5dc87b9ec3ab90fbf7df5d6fbe92147e613d8b10eb"
+  },
+  {
+    "id": "logistics_warehouse_02",
+    "name": "Swiffy Quick-Commerce Cold Storage Hub",
+    "kind": "logistics_warehouse",
+    "origin": [
+      -80,
+      67,
+      110
+    ],
+    "bounds_xyz": [
+      30,
+      10,
+      35
+    ],
+    "default_access": "private",
+    "json_path": "creative/source/structures/logistics_warehouse_02.json",
+    "sha256": "a3ca33e22940b1e45dd669d2beed5a8756491c90ba1adaf2f24c6125e681f7fe"
+  },
+  {
+    "id": "shopping_mall_01",
+    "name": "D-Bazaar Grand Metropolitan Galleria",
+    "kind": "shopping_mall",
+    "origin": [
+      -147,
+      67,
+      -83
+    ],
+    "bounds_xyz": [
+      48,
+      20,
+      50
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/shopping_mall_01.json",
+    "sha256": "148b707c05ae2b680c767af2d5c3717a4beb20c01be975becceed4668bafa9de"
+  },
+  {
+    "id": "shopping_mall_02",
+    "name": "Indra Waterfront Luxury Fashion Pavilion",
+    "kind": "shopping_mall",
+    "origin": [
+      -70,
+      68,
+      -120
+    ],
+    "bounds_xyz": [
+      40,
+      18,
+      42
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/shopping_mall_02.json",
+    "sha256": "ebba9b37d44dd655940e63f61f0dbdffbbe95d129ca406503303f1085704702f"
+  },
+  {
+    "id": "market_01",
+    "name": "Crawford Heritage Spice & Vegetable Bazaar",
+    "kind": "market",
+    "origin": [
+      80,
+      68,
+      20
+    ],
+    "bounds_xyz": [
+      42,
+      9,
+      44
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/market_01.json",
+    "sha256": "bddbcb9006c7418d51d8b9d3ff72d88b0e965292102af37768d475cfdafafd4a"
+  },
+  {
+    "id": "market_02",
+    "name": "Bandra Flea Market & Street Textile Stalls",
+    "kind": "market",
+    "origin": [
+      -110,
+      68,
+      90
+    ],
+    "bounds_xyz": [
+      36,
+      8,
+      38
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/market_02.json",
+    "sha256": "149975afc9286998f0ba0e4218f3314e04cc9f44dcb92a4500369dd4553d9cab"
+  },
+  {
+    "id": "festival_ground_01",
+    "name": "Indra Coastal Festival Esplanade & Amphitheater",
+    "kind": "festival_ground",
+    "origin": [
+      10,
+      70,
+      80
+    ],
+    "bounds_xyz": [
+      60,
+      12,
+      60
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/festival_ground_01.json",
+    "sha256": "4bdda96f10de473129955e2df0817ec74efaaca01f8bf496b3681855fc649fd3"
+  },
+  {
+    "id": "entertainment_venue_01",
+    "name": "CineVista Grand Multiplex & IMAX Theater",
+    "kind": "entertainment_venue",
+    "origin": [
+      -100,
+      68,
+      -40
+    ],
+    "bounds_xyz": [
+      36,
+      16,
+      40
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/entertainment_venue_01.json",
+    "sha256": "d6d2c0503d7c6c211ec4acfbad41b49af9da932bb9bd3097ac7386999dc38c05"
+  },
+  {
+    "id": "entertainment_venue_02",
+    "name": "Royal Indra Opera House & Concert Hall",
+    "kind": "entertainment_venue",
+    "origin": [
+      70,
+      68,
+      -50
+    ],
+    "bounds_xyz": [
+      38,
+      18,
+      42
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/entertainment_venue_02.json",
+    "sha256": "bbd534c04772d9fa26c720e057351fb2cee4c74b65ce16f087ff01dbdcca3106"
+  },
+  {
+    "id": "nightclub_01",
+    "name": "Velvet Indra Underground Nightclub & Lounge",
+    "kind": "nightclub",
+    "origin": [
+      45,
+      68,
+      -80
+    ],
+    "bounds_xyz": [
+      28,
+      10,
+      32
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/nightclub_01.json",
+    "sha256": "d46025da8665b9494ed94d56ba0c21138536959c71f59fca90707a269edd9a54"
+  },
+  {
+    "id": "helipad_01",
+    "name": "Metropolitan Airport Helipad One",
+    "kind": "helipad",
+    "origin": [
+      -384,
+      65,
+      -307
+    ],
+    "bounds_xyz": [
+      20,
+      2,
+      20
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/helipad_01.json",
+    "sha256": "310854865531615de6ac415666fa66df3e4abb9b57695b55aaa10a169327ca53"
+  },
+  {
+    "id": "helipad_02",
+    "name": "Police Headquarters Tactical Rooftop Pad",
+    "kind": "helipad",
+    "origin": [
+      120,
+      82,
+      -46
+    ],
+    "bounds_xyz": [
+      18,
+      2,
+      18
+    ],
+    "default_access": "private",
+    "json_path": "creative/source/structures/helipad_02.json",
+    "sha256": "9bb09d419383b7c1c2a061b2e27bfd7774634d4f38912ac55e9d81160b083ca5"
+  },
+  {
+    "id": "helipad_03",
+    "name": "Mount Zonah Hospital Emergency Trauma Rooftop Pad",
+    "kind": "helipad",
+    "origin": [
+      -62,
+      87,
+      140
+    ],
+    "bounds_xyz": [
+      18,
+      2,
+      18
+    ],
+    "default_access": "private",
+    "json_path": "creative/source/structures/helipad_03.json",
+    "sha256": "ba47b0b99fb85b6beab2a018c082aaba4df78a1c0d71da26269303f55c9cc8fa"
+  },
+  {
+    "id": "marine_dock_01",
+    "name": "Gateway Passenger Ferry Terminal & Pontoon",
+    "kind": "marine_dock",
+    "origin": [
+      -280,
+      65,
+      90
+    ],
+    "bounds_xyz": [
+      35,
+      6,
+      45
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/marine_dock_01.json",
+    "sha256": "d11eb52842b73406fd6f16af21c1d9cd48ad281d4e64e14c4b915270efc092f7"
+  },
+  {
+    "id": "marine_dock_02",
+    "name": "Sassoon Docks Commercial Fishing Pier",
+    "kind": "marine_dock",
+    "origin": [
+      -350,
+      65,
+      100
+    ],
+    "bounds_xyz": [
+      40,
+      7,
+      50
+    ],
+    "default_access": "public",
+    "json_path": "creative/source/structures/marine_dock_02.json",
+    "sha256": "540f2f40ed8a032b1a22d965b6f8c47f78b8dc51f433b9cc7b0684a93c3829b5"
+  }
+]

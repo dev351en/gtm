@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="g_airwave" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#252F38"/>
+      <stop offset="100%" stop-color="#0D1115"/>
+    </radialGradient>
+  </defs>
+  <rect width="256" height="256" rx="40" fill="url(#g_airwave)"/>
+  <rect x="6" y="6" width="244" height="244" rx="34" fill="none" stroke="#2680EB" stroke-width="4" stroke-opacity="0.6"/>
+  <polygon points="128,94 92,202 164,202" fill="none" stroke="#2680EB" stroke-width="10"/><circle cx="128" cy="84" r="12" fill="#38BDF8"/><path d="M84 54 C62 80 62 116 84 142 M172 54 C194 80 194 116 172 142" fill="none" stroke="#38BDF8" stroke-width="10" stroke-linecap="round"/>
+</svg>

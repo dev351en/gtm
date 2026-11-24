@@ -1,0 +1,598 @@
+{
+  "credit": "GTM Indraprastha - Faithful 32x Street Kitchen",
+  "parent": "minecraft:block/block",
+  "textures": {
+    "atlas": "gtm:item/street_kitchen_atlas",
+    "particle": "#atlas"
+  },
+  "elements": [
+    {
+      "name": "thepla_part_0",
+      "from": [
+        2,
+        1,
+        3
+      ],
+      "to": [
+        14,
+        2,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.1,
+            0.1,
+            3.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.1,
+            0.1,
+            3.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            0.1,
+            0.1,
+            3.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            0.1,
+            0.1,
+            3.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            0.1,
+            0.1,
+            3.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            0.1,
+            0.1,
+            3.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "thepla_part_1",
+      "from": [
+        3,
+        1,
+        2
+      ],
+      "to": [
+        13,
+        2,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.1,
+            0.1,
+            3.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.1,
+            0.1,
+            3.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            0.1,
+            0.1,
+            3.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            0.1,
+            0.1,
+            3.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            0.1,
+            0.1,
+            3.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            0.1,
+            0.1,
+            3.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "thepla_part_2",
+      "from": [
+        3,
+        1,
+        13
+      ],
+      "to": [
+        13,
+        2,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.1,
+            0.1,
+            3.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.1,
+            0.1,
+            3.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            0.1,
+            0.1,
+            3.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            0.1,
+            0.1,
+            3.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            0.1,
+            0.1,
+            3.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            0.1,
+            0.1,
+            3.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "thepla_part_3",
+      "from": [
+        3,
+        2,
+        5
+      ],
+      "to": [
+        12,
+        3,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.1,
+            4.1,
+            3.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.1,
+            4.1,
+            3.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            0.1,
+            4.1,
+            3.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            0.1,
+            4.1,
+            3.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            0.1,
+            4.1,
+            3.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            0.1,
+            4.1,
+            3.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "thepla_part_4",
+      "from": [
+        4,
+        3,
+        4
+      ],
+      "to": [
+        13,
+        4,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.1,
+            4.1,
+            7.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            4.1,
+            4.1,
+            7.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.1,
+            4.1,
+            7.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.1,
+            4.1,
+            7.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            4.1,
+            4.1,
+            7.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            4.1,
+            4.1,
+            7.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "thepla_part_5",
+      "from": [
+        5,
+        4,
+        5
+      ],
+      "to": [
+        6,
+        5,
+        6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "thepla_part_6",
+      "from": [
+        7,
+        4,
+        8
+      ],
+      "to": [
+        8,
+        5,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "thepla_part_7",
+      "from": [
+        10,
+        4,
+        7
+      ],
+      "to": [
+        11,
+        5,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        28,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        40,
+        0
+      ],
+      "translation": [
+        1,
+        2,
+        0
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    }
+  }
+}

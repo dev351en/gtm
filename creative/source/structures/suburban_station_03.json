@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "facility_id": "suburban_station_03",
+  "name": "Industrial Estate Elevated Junction",
+  "kind": "suburban_station",
+  "status": "surveyed_and_ready",
+  "world": "world",
+  "origin": [
+    -280,
+    68,
+    -180
+  ],
+  "bounds": {
+    "min": [
+      -280,
+      68,
+      -180
+    ],
+    "max": [
+      -242,
+      80,
+      -128
+    ]
+  },
+  "entrances": [
+    {
+      "id": "suburban_station_03_main_entrance",
+      "local": [
+        19,
+        0,
+        0
+      ],
+      "access": "public",
+      "width_blocks": 2,
+      "height_blocks": 3
+    },
+    {
+      "id": "suburban_station_03_service_entrance",
+      "local": [
+        38,
+        0,
+        26
+      ],
+      "access": "staff",
+      "width_blocks": 1,
+      "height_blocks": 2
+    }
+  ],
+  "rooms": [
+    {
+      "id": "public_reception",
+      "function": "reception",
+      "local_bounds": {
+        "min": [
+          1,
+          0,
+          1
+        ],
+        "max": [
+          15,
+          5,
+          21
+        ]
+      },
+      "access": "public"
+    },
+    {
+      "id": "operations_hall",
+      "function": "operations",
+      "local_bounds": {
+        "min": [
+          15,
+          0,
+          1
+        ],
+        "max": [
+          37,
+          6,
+          26
+        ]
+      },
+      "access": "staff"
+    },
+    {
+      "id": "executive_suite",
+      "function": "management",
+      "local_bounds": {
+        "min": [
+          1,
+          6,
+          1
+        ],
+        "max": [
+          19,
+          11,
+          26
+        ]
+      },
+      "access": "private"
+    },
+    {
+      "id": "secure_vault_storage",
+      "function": "vault_storage",
+      "local_bounds": {
+        "min": [
+          19,
+          0,
+          26
+        ],
+        "max": [
+          37,
+          5,
+          51
+        ]
+      },
+      "access": "secure"
+    }
+  ],
+  "placements": [
+    {
+      "asset_id": "gtm:reception_podium",
+      "local": [
+        8,
+        0,
+        10
+      ],
+      "yaw": 0,
+      "role": "reception"
+    },
+    {
+      "asset_id": "gtm:sectional_sofa",
+      "local": [
+        4,
+        0,
+        16
+      ],
+      "yaw": 90,
+      "role": "waiting_lounge"
+    },
+    {
+      "asset_id": "gtm:atm_lobby_enclosure",
+      "local": [
+        13,
+        0,
+        2
+      ],
+      "yaw": 180,
+      "role": "banking_service"
+    }
+  ],
+  "lighting_fixtures": [
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        8,
+        3,
+        10
+      ]
+    },
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        27,
+        3,
+        16
+      ]
+    },
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        11,
+        3,
+        36
+      ]
+    }
+  ],
+  "checks": {
+    "accessible_corridors": true,
+    "floor_headroom_valid": true,
+    "doors_functional": true,
+    "stairs_connected": true,
+    "zero_floating_props": true,
+    "no_empty_shells": true
+  }
+}

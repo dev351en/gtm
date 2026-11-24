@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checks": {
+    "identity_records_unchanged": true,
+    "model_assignments_unchanged": true,
+    "npc128_rgba": 500,
+    "outfit128_rgba": 100,
+    "java64_rgba_derivatives": 600,
+    "all_npc_base_faces_opaque": true,
+    "outfits_only_on_body_outer_layer": true,
+    "outfit_head_and_hands_preserved": true,
+    "no_unmapped_pixel_markers": true,
+    "native128_detail_not_simple_upscale": 600,
+    "unique_npc_master_pixels": 500,
+    "unique_npc_java64_pixels": 500,
+    "unique_npc_front_back_renders": 500,
+    "unique_outfit_master_pixels": 100,
+    "unique_outfit_java64_pixels": 100,
+    "unique_outfit_front_back_renders": 100,
+    "contact_sheets": 10,
+    "outfit_category_counts_preserved": true,
+    "ids_uuids_prices_names_roles_preserved": true
+  },
+  "client_verification": "NOT_RUN",
+  "runtime_integration": "PENDING",
+  "generator": "python tools/gtm128_characters.py --output creative/generated_128"
+}

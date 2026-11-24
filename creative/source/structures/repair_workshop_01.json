@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "facility_id": "repair_workshop_01",
+  "name": "Motor Mile Fleet Maintenance & Mod Garage",
+  "kind": "repair_workshop",
+  "status": "surveyed_and_ready",
+  "world": "world",
+  "origin": [
+    -175,
+    67,
+    -83
+  ],
+  "bounds": {
+    "min": [
+      -175,
+      67,
+      -83
+    ],
+    "max": [
+      -145,
+      77,
+      -51
+    ]
+  },
+  "entrances": [
+    {
+      "id": "repair_workshop_01_main_entrance",
+      "local": [
+        15,
+        0,
+        0
+      ],
+      "access": "public",
+      "width_blocks": 2,
+      "height_blocks": 3
+    },
+    {
+      "id": "repair_workshop_01_service_entrance",
+      "local": [
+        30,
+        0,
+        16
+      ],
+      "access": "staff",
+      "width_blocks": 1,
+      "height_blocks": 2
+    }
+  ],
+  "rooms": [
+    {
+      "id": "public_reception",
+      "function": "reception",
+      "local_bounds": {
+        "min": [
+          1,
+          0,
+          1
+        ],
+        "max": [
+          12,
+          4,
+          13
+        ]
+      },
+      "access": "public"
+    },
+    {
+      "id": "operations_hall",
+      "function": "operations",
+      "local_bounds": {
+        "min": [
+          12,
+          0,
+          1
+        ],
+        "max": [
+          29,
+          5,
+          16
+        ]
+      },
+      "access": "staff"
+    },
+    {
+      "id": "executive_suite",
+      "function": "management",
+      "local_bounds": {
+        "min": [
+          1,
+          5,
+          1
+        ],
+        "max": [
+          15,
+          9,
+          16
+        ]
+      },
+      "access": "private"
+    },
+    {
+      "id": "secure_vault_storage",
+      "function": "vault_storage",
+      "local_bounds": {
+        "min": [
+          15,
+          0,
+          16
+        ],
+        "max": [
+          29,
+          4,
+          31
+        ]
+      },
+      "access": "secure"
+    }
+  ],
+  "placements": [
+    {
+      "asset_id": "gtm:reception_podium",
+      "local": [
+        6,
+        0,
+        6
+      ],
+      "yaw": 0,
+      "role": "reception"
+    },
+    {
+      "asset_id": "gtm:sectional_sofa",
+      "local": [
+        3,
+        0,
+        10
+      ],
+      "yaw": 90,
+      "role": "waiting_lounge"
+    },
+    {
+      "asset_id": "gtm:atm_lobby_enclosure",
+      "local": [
+        10,
+        0,
+        2
+      ],
+      "yaw": 180,
+      "role": "banking_service"
+    }
+  ],
+  "lighting_fixtures": [
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        6,
+        3,
+        6
+      ]
+    },
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        21,
+        3,
+        10
+      ]
+    },
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        9,
+        3,
+        22
+      ]
+    }
+  ],
+  "checks": {
+    "accessible_corridors": true,
+    "floor_headroom_valid": true,
+    "doors_functional": true,
+    "stairs_connected": true,
+    "zero_floating_props": true,
+    "no_empty_shells": true
+  }
+}

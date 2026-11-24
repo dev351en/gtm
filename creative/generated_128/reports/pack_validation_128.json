@@ -1,0 +1,166 @@
+{
+  "profile": "INDRAPRASTHA_128_V1",
+  "target_java": "26.3",
+  "java_resource_format": [
+    97,
+    1
+  ],
+  "format_source": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+  "rotation_source": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-11",
+  "base_art_models": 509,
+  "additional_base_models": 69,
+  "road_damage_variants": 195,
+  "cosmetic_variants": 300,
+  "total_model_pairs": 1073,
+  "food_runtime_aliases": [
+    {
+      "runtime_id": "gtm:chai",
+      "art_id": "gtm:food_chai"
+    },
+    {
+      "runtime_id": "gtm:vada_pav",
+      "art_id": "gtm:food_vada_pav"
+    },
+    {
+      "runtime_id": "gtm:samosa",
+      "art_id": "gtm:food_samosa"
+    },
+    {
+      "runtime_id": "gtm:dabeli",
+      "art_id": "gtm:food_dabeli"
+    },
+    {
+      "runtime_id": "gtm:pav_bhaji",
+      "art_id": "gtm:food_pav_bhaji"
+    },
+    {
+      "runtime_id": "gtm:dosa",
+      "art_id": "gtm:food_dosa"
+    },
+    {
+      "runtime_id": "gtm:idli",
+      "art_id": "gtm:food_idli"
+    },
+    {
+      "runtime_id": "gtm:thali",
+      "art_id": "gtm:food_thali"
+    },
+    {
+      "runtime_id": "gtm:biryani",
+      "art_id": "gtm:food_biryani"
+    },
+    {
+      "runtime_id": "gtm:lassi",
+      "art_id": "gtm:food_lassi"
+    },
+    {
+      "runtime_id": "gtm:dhokla",
+      "art_id": "gtm:food_dhokla"
+    },
+    {
+      "runtime_id": "gtm:khandvi",
+      "art_id": "gtm:food_khandvi"
+    },
+    {
+      "runtime_id": "gtm:poha",
+      "art_id": "gtm:food_poha"
+    },
+    {
+      "runtime_id": "gtm:misal",
+      "art_id": "gtm:food_misal"
+    },
+    {
+      "runtime_id": "gtm:upma",
+      "art_id": "gtm:food_upma"
+    },
+    {
+      "runtime_id": "gtm:puran_poli",
+      "art_id": "gtm:food_puran_poli"
+    },
+    {
+      "runtime_id": "gtm:bhakri",
+      "art_id": "gtm:food_bhakri"
+    },
+    {
+      "runtime_id": "gtm:thepla",
+      "art_id": "gtm:food_thepla"
+    },
+    {
+      "runtime_id": "gtm:modak",
+      "art_id": "gtm:food_modak"
+    },
+    {
+      "runtime_id": "gtm:jalebi",
+      "art_id": "gtm:food_jalebi"
+    },
+    {
+      "runtime_id": "gtm:kulfi",
+      "art_id": "gtm:food_kulfi"
+    },
+    {
+      "runtime_id": "gtm:falooda",
+      "art_id": "gtm:food_falooda"
+    },
+    {
+      "runtime_id": "gtm:nimbu_pani",
+      "art_id": "gtm:food_nimbu_pani"
+    },
+    {
+      "runtime_id": "gtm:filter_coffee",
+      "art_id": "gtm:food_filter_coffee"
+    },
+    {
+      "runtime_id": "gtm:kathi_roll",
+      "art_id": "gtm:food_kathi_roll"
+    },
+    {
+      "runtime_id": "gtm:pani_puri",
+      "art_id": "gtm:food_pani_puri"
+    },
+    {
+      "runtime_id": "gtm:sev_puri",
+      "art_id": "gtm:food_sev_puri"
+    },
+    {
+      "runtime_id": "gtm:ragda",
+      "art_id": "gtm:food_ragda"
+    },
+    {
+      "runtime_id": "gtm:sandesh",
+      "art_id": "gtm:food_sandesh"
+    },
+    {
+      "runtime_id": "gtm:sheera",
+      "art_id": "gtm:food_sheera"
+    }
+  ],
+  "world_textures": 98,
+  "packs": [
+    {
+      "path": "packs/GTM_Indraprastha_128_Java.zip",
+      "size_bytes": 2714932,
+      "sha256": "150d4af541c7bd9a3536d9e0d9ba4850502b3b16354bebfe8df43e7484d05616",
+      "members": 2670
+    },
+    {
+      "path": "packs/GTM_Indraprastha_128_Bedrock.mcpack",
+      "size_bytes": 7182625,
+      "sha256": "ee90c787640377659fad7524f16c909401cbfd298b638939d38250fdd0d8e0b8",
+      "members": 3745
+    }
+  ],
+  "checks": {
+    "item_definitions_resolved": 1103,
+    "model_geometries_resolved": 1073,
+    "java_texture_face_references": 171492,
+    "bedrock_multi_bone_cube_counts": "matched",
+    "texture_dimensions": "matched",
+    "icons": "all128_rgba_nonempty",
+    "zip_crc": "passed",
+    "live_client": "not_run"
+  },
+  "errors": [],
+  "client_verification": "not_run",
+  "runtime_mapping_status": "proposal_only_not_installed",
+  "legacy_mapping_policy": "Only exact30 food aliases included. Road/furniture/finish migrations remain review proposals."
+}

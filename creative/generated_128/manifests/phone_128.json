@@ -1,0 +1,463 @@
+{
+  "schema_version": 1,
+  "design_language": "INDRAPRASTHA_128_V1",
+  "count": 24,
+  "assets": [
+    {
+      "id": "app_quoggle",
+      "title": "Quoggle",
+      "png": "source/icons/phone/app_quoggle.png",
+      "svg": "source/icons/phone/app_quoggle.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "65624d45af460b85306c8c3cca0567f71e235a3bcfebf5033816c20d998c87d9",
+      "size_bytes": 1151,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_amazzo",
+      "title": "Amazzo",
+      "png": "source/icons/phone/app_amazzo.png",
+      "svg": "source/icons/phone/app_amazzo.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "f7e7d198f76086df5df70dd7f88dde4b2e4fb9701c90910d7f72fce7e48c9a14",
+      "size_bytes": 1119,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_flippit",
+      "title": "Flippit",
+      "png": "source/icons/phone/app_flippit.png",
+      "svg": "source/icons/phone/app_flippit.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "435f6e6c576af015a661ec499b97fbe8b8fb847628d4b1e2d02799a5e9f21996",
+      "size_bytes": 865,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_arkpay",
+      "title": "ARK Pay",
+      "png": "source/icons/phone/app_arkpay.png",
+      "svg": "source/icons/phone/app_arkpay.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "3f1265ce1842d2cb8da750080202c66ee7e4298f0cd1ecf95dffeea867452c7d",
+      "size_bytes": 928,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_zomatoo",
+      "title": "Zomatoo",
+      "png": "source/icons/phone/app_zomatoo.png",
+      "svg": "source/icons/phone/app_zomatoo.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "3685a044a94d17a253748ebaaa4c828e69ade24fce4354eb3a62ef0976a4cbb9",
+      "size_bytes": 980,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_swiffy",
+      "title": "Swiffy",
+      "png": "source/icons/phone/app_swiffy.png",
+      "svg": "source/icons/phone/app_swiffy.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "00a19fbc912f6355b2c4bf8a6c72f353143c222e9f4025c75fd1ab2732a4ee70",
+      "size_bytes": 1055,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_fashion",
+      "title": "Vogue Indra",
+      "png": "source/icons/phone/app_fashion.png",
+      "svg": "source/icons/phone/app_fashion.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "73f26990e65ef6d0ece198ed15f4965a1a7abc2894730c1bb51be357bc118db5",
+      "size_bytes": 963,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_property",
+      "title": "Properties",
+      "png": "source/icons/phone/app_property.png",
+      "svg": "source/icons/phone/app_property.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "439bac2a4327370121f5e8c0e618d88f389c4773d8ddbd1f13616d70fefffddb",
+      "size_bytes": 952,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_car_app",
+      "title": "Motor Mile",
+      "png": "source/icons/phone/app_car_app.png",
+      "svg": "source/icons/phone/app_car_app.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "d4f998b09bf33f5d2ba2ae744cd824eead2c2bfca9dd3620e2d356b07d94626c",
+      "size_bytes": 852,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_maps",
+      "title": "City GPS",
+      "png": "source/icons/phone/app_maps.png",
+      "svg": "source/icons/phone/app_maps.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "e638bddf82df641b3ed211e41bf7e0c2fe54b686f994e05477df55810b1d573b",
+      "size_bytes": 1206,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_garage",
+      "title": "My Garage",
+      "png": "source/icons/phone/app_garage.png",
+      "svg": "source/icons/phone/app_garage.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "7a54a207a12bd68376a692fd0fc7452c75b917cf600a74cb3ad251861d291da6",
+      "size_bytes": 814,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_bank",
+      "title": "Indra Bank",
+      "png": "source/icons/phone/app_bank.png",
+      "svg": "source/icons/phone/app_bank.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "7a4469e1dba591aeca937ddb4f080184444ef415bb09e3ca43d569a7705d811b",
+      "size_bytes": 848,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_loans",
+      "title": "Municipal Loans",
+      "png": "source/icons/phone/app_loans.png",
+      "svg": "source/icons/phone/app_loans.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "8352c43d399edef1bafa64e5bce5f6034cc0a1dd50d26b0b84c1d4d3ec29c7ba",
+      "size_bytes": 1002,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_taxi",
+      "title": "City Cabs",
+      "png": "source/icons/phone/app_taxi.png",
+      "svg": "source/icons/phone/app_taxi.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "10d8a26843a8eef0d5f1fd68b55013abb7d1c3ac41e7a5fc775e7508777553b3",
+      "size_bytes": 1106,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_transport",
+      "title": "Metro & Rail",
+      "png": "source/icons/phone/app_transport.png",
+      "svg": "source/icons/phone/app_transport.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "21809e53d2ae83ffee36adf67a223c1ca36d6567ed2dca6cd49d7e8f8c508af6",
+      "size_bytes": 923,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_news",
+      "title": "Indra 24",
+      "png": "source/icons/phone/app_news.png",
+      "svg": "source/icons/phone/app_news.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "1f41954dbdf3b24c1d706dff970c759ac509c96a7c4adbba1f35725e61958758",
+      "size_bytes": 1087,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_police",
+      "title": "SDPD Law",
+      "png": "source/icons/phone/app_police.png",
+      "svg": "source/icons/phone/app_police.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "030a5dca1c92df90de558a3fc85ce08c079b2ec497daf00c3003acf90d712558",
+      "size_bytes": 1136,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_medical",
+      "title": "Trauma Bay",
+      "png": "source/icons/phone/app_medical.png",
+      "svg": "source/icons/phone/app_medical.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "b43947951f247d9fa83ef65d9df51c88d0f29e482f63e6584fe0a0d50b24c353",
+      "size_bytes": 759,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_events",
+      "title": "Festivals",
+      "png": "source/icons/phone/app_events.png",
+      "svg": "source/icons/phone/app_events.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "d392894d57bef7ace794d1ad5b934ce595504b63eecdb1a5e2d283dbf9e92376",
+      "size_bytes": 873,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_missions",
+      "title": "Contracts",
+      "png": "source/icons/phone/app_missions.png",
+      "svg": "source/icons/phone/app_missions.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "4de8aea8a72ca5dbebb2f0699e9901e44a117545fd554c9c0cd135e2a9b99cf5",
+      "size_bytes": 1311,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_careers",
+      "title": "City Jobs",
+      "png": "source/icons/phone/app_careers.png",
+      "svg": "source/icons/phone/app_careers.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "38f64a6f3815c2536a382a7608332dad8b283330cb82fdd237c1be246e7e63a1",
+      "size_bytes": 768,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_contacts",
+      "title": "Contacts",
+      "png": "source/icons/phone/app_contacts.png",
+      "svg": "source/icons/phone/app_contacts.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "a6b36bd74d05fbaab75583b98be0b2f0b59ee2e606bd47881e0191028b3258ca",
+      "size_bytes": 913,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_keys",
+      "title": "Key Fob",
+      "png": "source/icons/phone/app_keys.png",
+      "svg": "source/icons/phone/app_keys.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "5e20cf46dcafb41d413fbd6c6a0da81134210e1d2d724c152ba8c06ac5d62164",
+      "size_bytes": 1109,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "app_settings",
+      "title": "Settings",
+      "png": "source/icons/phone/app_settings.png",
+      "svg": "source/icons/phone/app_settings.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "58b1a0634bbba7d45895a6fa034628fb88f2957be0d42c0ca3cc19ce9feb32d9",
+      "size_bytes": 1157,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="g_amora" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#252F38"/>
+      <stop offset="100%" stop-color="#0D1115"/>
+    </radialGradient>
+  </defs>
+  <rect width="256" height="256" rx="40" fill="url(#g_amora)"/>
+  <rect x="6" y="6" width="244" height="244" rx="34" fill="none" stroke="#AD5637" stroke-width="4" stroke-opacity="0.6"/>
+  <path d="M128 48 C156 88 184 128 128 196 C72 128 100 88 128 48 Z" fill="#AD5637" stroke="#D6AD59" stroke-width="6"/><circle cx="128" cy="136" r="22" fill="#D6AD59"/>
+</svg>

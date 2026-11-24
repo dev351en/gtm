@@ -1,0 +1,835 @@
+{
+  "credit": "SD Craft - original Minecraft City RP prop model",
+  "ambientocclusion": false,
+  "gui_light": "front",
+  "textures": {
+    "fob_case": "sdcraft:item/key_fob_case",
+    "buttons": "sdcraft:item/key_fob_buttons",
+    "chrome": "sdcraft:item/key_fob_chrome",
+    "keyring": "sdcraft:item/key_fob_ring",
+    "particle": "#fob_case"
+  },
+  "elements": [
+    {
+      "name": "key_fob_body",
+      "from": [
+        5.35,
+        4.1,
+        7.45
+      ],
+      "to": [
+        10.65,
+        12.12,
+        8.53
+      ],
+      "faces": {
+        "north": {
+          "texture": "#fob_case"
+        },
+        "south": {
+          "texture": "#fob_case"
+        },
+        "east": {
+          "texture": "#fob_case"
+        },
+        "west": {
+          "texture": "#fob_case"
+        },
+        "up": {
+          "texture": "#fob_case"
+        },
+        "down": {
+          "texture": "#fob_case"
+        }
+      }
+    },
+    {
+      "name": "metal_outer_rim",
+      "from": [
+        5.15,
+        4.42,
+        7.56
+      ],
+      "to": [
+        10.85,
+        11.8,
+        8.42
+      ],
+      "faces": {
+        "north": {
+          "texture": "#chrome"
+        },
+        "south": {
+          "texture": "#chrome"
+        },
+        "east": {
+          "texture": "#chrome"
+        },
+        "west": {
+          "texture": "#chrome"
+        },
+        "up": {
+          "texture": "#chrome"
+        },
+        "down": {
+          "texture": "#chrome"
+        }
+      }
+    },
+    {
+      "name": "front_panel",
+      "from": [
+        5.43,
+        4.58,
+        7.3
+      ],
+      "to": [
+        10.57,
+        11.63,
+        7.56
+      ],
+      "faces": {
+        "north": {
+          "texture": "#fob_case"
+        },
+        "south": {
+          "texture": "#fob_case"
+        },
+        "east": {
+          "texture": "#fob_case"
+        },
+        "west": {
+          "texture": "#fob_case"
+        },
+        "up": {
+          "texture": "#fob_case"
+        },
+        "down": {
+          "texture": "#fob_case"
+        }
+      }
+    },
+    {
+      "name": "top_bevel",
+      "from": [
+        5.65,
+        11.8,
+        7.52
+      ],
+      "to": [
+        10.35,
+        12.35,
+        8.48
+      ],
+      "faces": {
+        "north": {
+          "texture": "#chrome"
+        },
+        "south": {
+          "texture": "#chrome"
+        },
+        "east": {
+          "texture": "#chrome"
+        },
+        "west": {
+          "texture": "#chrome"
+        },
+        "up": {
+          "texture": "#chrome"
+        },
+        "down": {
+          "texture": "#chrome"
+        }
+      }
+    },
+    {
+      "name": "bottom_bevel",
+      "from": [
+        5.66,
+        3.87,
+        7.55
+      ],
+      "to": [
+        10.34,
+        4.39,
+        8.45
+      ],
+      "faces": {
+        "north": {
+          "texture": "#chrome"
+        },
+        "south": {
+          "texture": "#chrome"
+        },
+        "east": {
+          "texture": "#chrome"
+        },
+        "west": {
+          "texture": "#chrome"
+        },
+        "up": {
+          "texture": "#chrome"
+        },
+        "down": {
+          "texture": "#chrome"
+        }
+      }
+    },
+    {
+      "name": "upper_lock_button",
+      "from": [
+        6.55,
+        9.16,
+        7.16
+      ],
+      "to": [
+        9.45,
+        10.43,
+        7.34
+      ],
+      "faces": {
+        "north": {
+          "texture": "#buttons"
+        },
+        "south": {
+          "texture": "#buttons"
+        },
+        "east": {
+          "texture": "#buttons"
+        },
+        "west": {
+          "texture": "#buttons"
+        },
+        "up": {
+          "texture": "#buttons"
+        },
+        "down": {
+          "texture": "#buttons"
+        }
+      }
+    },
+    {
+      "name": "middle_unlock_button",
+      "from": [
+        6.55,
+        7.18,
+        7.16
+      ],
+      "to": [
+        9.45,
+        8.45,
+        7.34
+      ],
+      "faces": {
+        "north": {
+          "texture": "#buttons"
+        },
+        "south": {
+          "texture": "#buttons"
+        },
+        "east": {
+          "texture": "#buttons"
+        },
+        "west": {
+          "texture": "#buttons"
+        },
+        "up": {
+          "texture": "#buttons"
+        },
+        "down": {
+          "texture": "#buttons"
+        }
+      }
+    },
+    {
+      "name": "bottom_trunk_button",
+      "from": [
+        6.55,
+        5.2,
+        7.16
+      ],
+      "to": [
+        9.45,
+        6.47,
+        7.34
+      ],
+      "faces": {
+        "north": {
+          "texture": "#buttons"
+        },
+        "south": {
+          "texture": "#buttons"
+        },
+        "east": {
+          "texture": "#buttons"
+        },
+        "west": {
+          "texture": "#buttons"
+        },
+        "up": {
+          "texture": "#buttons"
+        },
+        "down": {
+          "texture": "#buttons"
+        }
+      }
+    },
+    {
+      "name": "button_chrome_hairline_9.79",
+      "from": [
+        7.0,
+        9.79,
+        7.11
+      ],
+      "to": [
+        9.0,
+        9.909999999999998,
+        7.17
+      ],
+      "faces": {
+        "north": {
+          "texture": "#chrome"
+        },
+        "south": {
+          "texture": "#chrome"
+        },
+        "east": {
+          "texture": "#chrome"
+        },
+        "west": {
+          "texture": "#chrome"
+        },
+        "up": {
+          "texture": "#chrome"
+        },
+        "down": {
+          "texture": "#chrome"
+        }
+      }
+    },
+    {
+      "name": "button_chrome_hairline_7.82",
+      "from": [
+        7.0,
+        7.82,
+        7.11
+      ],
+      "to": [
+        9.0,
+        7.94,
+        7.17
+      ],
+      "faces": {
+        "north": {
+          "texture": "#chrome"
+        },
+        "south": {
+          "texture": "#chrome"
+        },
+        "east": {
+          "texture": "#chrome"
+        },
+        "west": {
+          "texture": "#chrome"
+        },
+        "up": {
+          "texture": "#chrome"
+        },
+        "down": {
+          "texture": "#chrome"
+        }
+      }
+    },
+    {
+      "name": "button_chrome_hairline_5.86",
+      "from": [
+        7.0,
+        5.86,
+        7.11
+      ],
+      "to": [
+        9.0,
+        5.98,
+        7.17
+      ],
+      "faces": {
+        "north": {
+          "texture": "#chrome"
+        },
+        "south": {
+          "texture": "#chrome"
+        },
+        "east": {
+          "texture": "#chrome"
+        },
+        "west": {
+          "texture": "#chrome"
+        },
+        "up": {
+          "texture": "#chrome"
+        },
+        "down": {
+          "texture": "#chrome"
+        }
+      }
+    },
+    {
+      "name": "neck_anchor",
+      "from": [
+        7.4,
+        3.25,
+        7.63
+      ],
+      "to": [
+        8.6,
+        4.1,
+        8.37
+      ],
+      "faces": {
+        "north": {
+          "texture": "#chrome"
+        },
+        "south": {
+          "texture": "#chrome"
+        },
+        "east": {
+          "texture": "#chrome"
+        },
+        "west": {
+          "texture": "#chrome"
+        },
+        "up": {
+          "texture": "#chrome"
+        },
+        "down": {
+          "texture": "#chrome"
+        }
+      }
+    },
+    {
+      "name": "ring_top",
+      "from": [
+        7.25,
+        3.0,
+        7.71
+      ],
+      "to": [
+        8.75,
+        3.24,
+        8.29
+      ],
+      "faces": {
+        "north": {
+          "texture": "#keyring"
+        },
+        "south": {
+          "texture": "#keyring"
+        },
+        "east": {
+          "texture": "#keyring"
+        },
+        "west": {
+          "texture": "#keyring"
+        },
+        "up": {
+          "texture": "#keyring"
+        },
+        "down": {
+          "texture": "#keyring"
+        }
+      }
+    },
+    {
+      "name": "ring_bottom",
+      "from": [
+        7.25,
+        0.73,
+        7.71
+      ],
+      "to": [
+        8.75,
+        0.98,
+        8.29
+      ],
+      "faces": {
+        "north": {
+          "texture": "#keyring"
+        },
+        "south": {
+          "texture": "#keyring"
+        },
+        "east": {
+          "texture": "#keyring"
+        },
+        "west": {
+          "texture": "#keyring"
+        },
+        "up": {
+          "texture": "#keyring"
+        },
+        "down": {
+          "texture": "#keyring"
+        }
+      }
+    },
+    {
+      "name": "ring_left",
+      "from": [
+        6.55,
+        1.37,
+        7.71
+      ],
+      "to": [
+        6.82,
+        2.62,
+        8.29
+      ],
+      "faces": {
+        "north": {
+          "texture": "#keyring"
+        },
+        "south": {
+          "texture": "#keyring"
+        },
+        "east": {
+          "texture": "#keyring"
+        },
+        "west": {
+          "texture": "#keyring"
+        },
+        "up": {
+          "texture": "#keyring"
+        },
+        "down": {
+          "texture": "#keyring"
+        }
+      }
+    },
+    {
+      "name": "ring_right",
+      "from": [
+        9.18,
+        1.37,
+        7.71
+      ],
+      "to": [
+        9.45,
+        2.62,
+        8.29
+      ],
+      "faces": {
+        "north": {
+          "texture": "#keyring"
+        },
+        "south": {
+          "texture": "#keyring"
+        },
+        "east": {
+          "texture": "#keyring"
+        },
+        "west": {
+          "texture": "#keyring"
+        },
+        "up": {
+          "texture": "#keyring"
+        },
+        "down": {
+          "texture": "#keyring"
+        }
+      }
+    },
+    {
+      "name": "ring_top_left",
+      "from": [
+        6.65,
+        2.48,
+        7.7
+      ],
+      "to": [
+        7.42,
+        3.16,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "texture": "#keyring"
+        },
+        "south": {
+          "texture": "#keyring"
+        },
+        "east": {
+          "texture": "#keyring"
+        },
+        "west": {
+          "texture": "#keyring"
+        },
+        "up": {
+          "texture": "#keyring"
+        },
+        "down": {
+          "texture": "#keyring"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.035,
+          2.8200000000000003,
+          8
+        ],
+        "axis": "z",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "ring_top_right",
+      "from": [
+        8.58,
+        2.48,
+        7.7
+      ],
+      "to": [
+        9.35,
+        3.16,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "texture": "#keyring"
+        },
+        "south": {
+          "texture": "#keyring"
+        },
+        "east": {
+          "texture": "#keyring"
+        },
+        "west": {
+          "texture": "#keyring"
+        },
+        "up": {
+          "texture": "#keyring"
+        },
+        "down": {
+          "texture": "#keyring"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.965,
+          2.8200000000000003,
+          8
+        ],
+        "axis": "z",
+        "angle": -45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "ring_bottom_left",
+      "from": [
+        6.65,
+        0.86,
+        7.7
+      ],
+      "to": [
+        7.42,
+        1.54,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "texture": "#keyring"
+        },
+        "south": {
+          "texture": "#keyring"
+        },
+        "east": {
+          "texture": "#keyring"
+        },
+        "west": {
+          "texture": "#keyring"
+        },
+        "up": {
+          "texture": "#keyring"
+        },
+        "down": {
+          "texture": "#keyring"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.035,
+          1.2,
+          8
+        ],
+        "axis": "z",
+        "angle": -45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "ring_bottom_right",
+      "from": [
+        8.58,
+        0.86,
+        7.7
+      ],
+      "to": [
+        9.35,
+        1.54,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "texture": "#keyring"
+        },
+        "south": {
+          "texture": "#keyring"
+        },
+        "east": {
+          "texture": "#keyring"
+        },
+        "west": {
+          "texture": "#keyring"
+        },
+        "up": {
+          "texture": "#keyring"
+        },
+        "down": {
+          "texture": "#keyring"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.965,
+          1.2,
+          8
+        ],
+        "axis": "z",
+        "angle": 45,
+        "rescale": false
+      }
+    }
+  ],
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [
+        5,
+        25,
+        45
+      ],
+      "translation": [
+        1.8,
+        2.8,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        5,
+        -25,
+        -45
+      ],
+      "translation": [
+        -1.8,
+        2.8,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        70,
+        25,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        70,
+        -25,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    },
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.24,
+        1.24,
+        1.24
+      ]
+    },
+    "ground": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        0.82,
+        0.82,
+        0.82
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

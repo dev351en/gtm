@@ -1,0 +1,2127 @@
+{
+  "schema_version": "1.0.0",
+  "description": "100 festival installations with manual-only activation switchboard and migration to approved 8 themes.",
+  "total_models": 100,
+  "themes_baseline": {
+    "diwali": 13,
+    "holi": 13,
+    "ganesh": 13,
+    "navratri": 13,
+    "eid": 12,
+    "sankranti": 12,
+    "christmas": 12,
+    "new_year": 12
+  },
+  "themes_approved_target": {
+    "diwali": 12,
+    "holi": 12,
+    "navratri": 12,
+    "christmas": 16,
+    "new_year": 16,
+    "independence_day": 10,
+    "ganesh_chaturthi": 12,
+    "monsoon": 10
+  },
+  "festivals": [
+    {
+      "id": "gtm:diwali_gateway",
+      "theme": "diwali",
+      "title": "Diwali Gateway",
+      "model_path": "creative/source/models/festivals/diwali/diwali_gateway.geo.json",
+      "cube_count": 13,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12.8,
+        "clearance_height": 10.2,
+        "clearance_depth": 2.7,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "diwali_01",
+        "target_theme": "diwali"
+      },
+      "sha256": "553e0289c3e0631570d23e6455abbd03b80bc1d606d2f4737ef720bd49d5f89b",
+      "java_model_path": "creative/source/models/festivals/diwali/java/diwali_gateway.json",
+      "icon_path": "creative/source/icons/festivals/diwali_gateway.png"
+    },
+    {
+      "id": "gtm:diwali_street_banner",
+      "theme": "diwali",
+      "title": "Diwali Street Banner",
+      "model_path": "creative/source/models/festivals/diwali/diwali_street_banner.geo.json",
+      "cube_count": 12,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 8,
+        "clearance_height": 11,
+        "clearance_depth": 4,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "diwali_02",
+        "target_theme": "diwali"
+      },
+      "sha256": "195fea357c403ab697190206e0e8988d93505db64e0c569f4ab2e58e3be48d17",
+      "java_model_path": "creative/source/models/festivals/diwali/java/diwali_street_banner.json",
+      "icon_path": "creative/source/icons/festivals/diwali_street_banner.png"
+    },
+    {
+      "id": "gtm:diwali_window_lantern",
+      "theme": "diwali",
+      "title": "Diwali Window Lantern",
+      "model_path": "creative/source/models/festivals/diwali/diwali_window_lantern.geo.json",
+      "cube_count": 15,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 6,
+        "clearance_height": 9,
+        "clearance_depth": 6.5,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "diwali_03",
+        "target_theme": "diwali"
+      },
+      "sha256": "8e9e939c4a8747801cdfb926bbf79b7644af616d83e96778f4d0ed530edf7ab2",
+      "java_model_path": "creative/source/models/festivals/diwali/java/diwali_window_lantern.json",
+      "icon_path": "creative/source/icons/festivals/diwali_window_lantern.png"
+    },
+    {
+      "id": "gtm:diwali_counterpiece",
+      "theme": "diwali",
+      "title": "Diwali Counterpiece",
+      "model_path": "creative/source/models/festivals/diwali/diwali_counterpiece.geo.json",
+      "cube_count": 10,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10,
+        "clearance_height": 6.8,
+        "clearance_depth": 8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "diwali_04",
+        "target_theme": "diwali"
+      },
+      "sha256": "ad88cead741bd2775aef84f795a11f6fbec4083a4856e5798bb3d40d94b159c5",
+      "java_model_path": "creative/source/models/festivals/diwali/java/diwali_counterpiece.json",
+      "icon_path": "creative/source/icons/festivals/diwali_counterpiece.png"
+    },
+    {
+      "id": "gtm:diwali_procession_cart",
+      "theme": "diwali",
+      "title": "Diwali Procession Cart",
+      "model_path": "creative/source/models/festivals/diwali/diwali_procession_cart.geo.json",
+      "cube_count": 14,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12,
+        "clearance_height": 9.8,
+        "clearance_depth": 8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "diwali_05",
+        "target_theme": "diwali"
+      },
+      "sha256": "bae63fffd90716d7d1910f81f0e39904c830e15929b8f7ccb8610098264374fc",
+      "java_model_path": "creative/source/models/festivals/diwali/java/diwali_procession_cart.json",
+      "icon_path": "creative/source/icons/festivals/diwali_procession_cart.png"
+    },
+    {
+      "id": "gtm:diwali_stage_backdrop",
+      "theme": "diwali",
+      "title": "Diwali Stage Backdrop",
+      "model_path": "creative/source/models/festivals/diwali/diwali_stage_backdrop.geo.json",
+      "cube_count": 14,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 11.8,
+        "clearance_height": 12.2,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "diwali_06",
+        "target_theme": "diwali"
+      },
+      "sha256": "1f639e73a65848fa3c8020a5a86a205ddb276e16a1180b7eab33a78547f70519",
+      "java_model_path": "creative/source/models/festivals/diwali/java/diwali_stage_backdrop.json",
+      "icon_path": "creative/source/icons/festivals/diwali_stage_backdrop.png"
+    },
+    {
+      "id": "gtm:diwali_door_emblem",
+      "theme": "diwali",
+      "title": "Diwali Door Emblem",
+      "model_path": "creative/source/models/festivals/diwali/diwali_door_emblem.geo.json",
+      "cube_count": 10,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10,
+        "clearance_height": 7,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "diwali_07",
+        "target_theme": "diwali"
+      },
+      "sha256": "76ad255520a401c3e02098937b6a228b4390b7eced72f11c01ddda8496775176",
+      "java_model_path": "creative/source/models/festivals/diwali/java/diwali_door_emblem.json",
+      "icon_path": "creative/source/icons/festivals/diwali_door_emblem.png"
+    },
+    {
+      "id": "gtm:diwali_parade_standard",
+      "theme": "diwali",
+      "title": "Diwali Parade Standard",
+      "model_path": "creative/source/models/festivals/diwali/diwali_parade_standard.geo.json",
+      "cube_count": 11,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 6.3,
+        "clearance_height": 12,
+        "clearance_depth": 4,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "diwali_08",
+        "target_theme": "diwali"
+      },
+      "sha256": "359e6e9920504d715513e825cc3669f6163b22ea20ebd4d4922b84ecef4bbb0f",
+      "java_model_path": "creative/source/models/festivals/diwali/java/diwali_parade_standard.json",
+      "icon_path": "creative/source/icons/festivals/diwali_parade_standard.png"
+    },
+    {
+      "id": "gtm:diwali_street_arch",
+      "theme": "diwali",
+      "title": "Diwali Street Arch",
+      "model_path": "creative/source/models/festivals/diwali/diwali_street_arch.geo.json",
+      "cube_count": 14,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 14.8,
+        "clearance_height": 13.5,
+        "clearance_depth": 2.7,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "diwali_09",
+        "target_theme": "diwali"
+      },
+      "sha256": "17f1628e3fa1072f63dc42f60060c0f299d8c52ac7e4499da3775f1f3d33eaf1",
+      "java_model_path": "creative/source/models/festivals/diwali/java/diwali_street_arch.json",
+      "icon_path": "creative/source/icons/festivals/diwali_street_arch.png"
+    },
+    {
+      "id": "gtm:diwali_balcony_screen",
+      "theme": "diwali",
+      "title": "Diwali Balcony Screen",
+      "model_path": "creative/source/models/festivals/diwali/diwali_balcony_screen.geo.json",
+      "cube_count": 14,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10.8,
+        "clearance_height": 10.2,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "diwali_10",
+        "target_theme": "diwali"
+      },
+      "sha256": "64fd50325ac821d40c6543985a5b72de4e3a7ed2352ff8c82269cd6d5835dbc9",
+      "java_model_path": "creative/source/models/festivals/diwali/java/diwali_balcony_screen.json",
+      "icon_path": "creative/source/icons/festivals/diwali_balcony_screen.png"
+    },
+    {
+      "id": "gtm:diwali_market_booth",
+      "theme": "diwali",
+      "title": "Diwali Market Booth",
+      "model_path": "creative/source/models/festivals/diwali/diwali_market_booth.geo.json",
+      "cube_count": 15,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12.0,
+        "clearance_height": 11.7,
+        "clearance_depth": 6,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "diwali_11",
+        "target_theme": "diwali"
+      },
+      "sha256": "b7a7dc2220228acbdf8a8dc033bac780674befa831eb9d0e3fe1fea3dbe1cd21",
+      "java_model_path": "creative/source/models/festivals/diwali/java/diwali_market_booth.json",
+      "icon_path": "creative/source/icons/festivals/diwali_market_booth.png"
+    },
+    {
+      "id": "gtm:diwali_bandstand",
+      "theme": "diwali",
+      "title": "Diwali Bandstand",
+      "model_path": "creative/source/models/festivals/diwali/diwali_bandstand.geo.json",
+      "cube_count": 15,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 14.0,
+        "clearance_height": 12.7,
+        "clearance_depth": 6,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "diwali_12",
+        "target_theme": "diwali"
+      },
+      "sha256": "3f969085c3b6d68804a829f98596924c65a304ab48c4205c87e00b09a8217f81",
+      "java_model_path": "creative/source/models/festivals/diwali/java/diwali_bandstand.json",
+      "icon_path": "creative/source/icons/festivals/diwali_bandstand.png"
+    },
+    {
+      "id": "gtm:diwali_square_beacon",
+      "theme": "diwali",
+      "title": "Diwali Square Beacon",
+      "model_path": "creative/source/models/festivals/diwali/diwali_square_beacon.geo.json",
+      "cube_count": 12,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 6.3,
+        "clearance_height": 12,
+        "clearance_depth": 6.5,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "holi_01",
+        "target_theme": "holi"
+      },
+      "sha256": "05c146eecbece30ba0c3c84df15d8fb211735ae2c59ee0080aea884916a2850c",
+      "java_model_path": "creative/source/models/festivals/diwali/java/diwali_square_beacon.json",
+      "icon_path": "creative/source/icons/festivals/diwali_square_beacon.png"
+    },
+    {
+      "id": "gtm:holi_gateway",
+      "theme": "holi",
+      "title": "Holi Gateway",
+      "model_path": "creative/source/models/festivals/holi/holi_gateway.geo.json",
+      "cube_count": 23,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12.8,
+        "clearance_height": 10.2,
+        "clearance_depth": 2.7,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "holi_02",
+        "target_theme": "holi"
+      },
+      "sha256": "a59de4d2ae457a693fbef774a892332e12abe92f05f6d89c9cdecd4c27abd635",
+      "java_model_path": "creative/source/models/festivals/holi/java/holi_gateway.json",
+      "icon_path": "creative/source/icons/festivals/holi_gateway.png"
+    },
+    {
+      "id": "gtm:holi_street_banner",
+      "theme": "holi",
+      "title": "Holi Street Banner",
+      "model_path": "creative/source/models/festivals/holi/holi_street_banner.geo.json",
+      "cube_count": 22,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 8,
+        "clearance_height": 11,
+        "clearance_depth": 4,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "holi_03",
+        "target_theme": "holi"
+      },
+      "sha256": "b4edd82c849852a3166e980a5125470fde120c886b67e015690a0e2b727d67e0",
+      "java_model_path": "creative/source/models/festivals/holi/java/holi_street_banner.json",
+      "icon_path": "creative/source/icons/festivals/holi_street_banner.png"
+    },
+    {
+      "id": "gtm:holi_window_lantern",
+      "theme": "holi",
+      "title": "Holi Window Lantern",
+      "model_path": "creative/source/models/festivals/holi/holi_window_lantern.geo.json",
+      "cube_count": 25,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 6,
+        "clearance_height": 9,
+        "clearance_depth": 6.5,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "holi_04",
+        "target_theme": "holi"
+      },
+      "sha256": "636329bba7bf9f8f9fd896592d025fb679b52af6eaceec5b650cc1bc2cd374a7",
+      "java_model_path": "creative/source/models/festivals/holi/java/holi_window_lantern.json",
+      "icon_path": "creative/source/icons/festivals/holi_window_lantern.png"
+    },
+    {
+      "id": "gtm:holi_counterpiece",
+      "theme": "holi",
+      "title": "Holi Counterpiece",
+      "model_path": "creative/source/models/festivals/holi/holi_counterpiece.geo.json",
+      "cube_count": 20,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10,
+        "clearance_height": 7.6,
+        "clearance_depth": 8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "holi_05",
+        "target_theme": "holi"
+      },
+      "sha256": "2334101ec0c45e6caa93527a6c592d059f6c561215f7aaace18b4e819a6f154b",
+      "java_model_path": "creative/source/models/festivals/holi/java/holi_counterpiece.json",
+      "icon_path": "creative/source/icons/festivals/holi_counterpiece.png"
+    },
+    {
+      "id": "gtm:holi_procession_cart",
+      "theme": "holi",
+      "title": "Holi Procession Cart",
+      "model_path": "creative/source/models/festivals/holi/holi_procession_cart.geo.json",
+      "cube_count": 24,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12,
+        "clearance_height": 10.6,
+        "clearance_depth": 8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "holi_06",
+        "target_theme": "holi"
+      },
+      "sha256": "e27048270377d46c0e3568233735e923c5730edf0e79f979f1681d3ad36070f1",
+      "java_model_path": "creative/source/models/festivals/holi/java/holi_procession_cart.json",
+      "icon_path": "creative/source/icons/festivals/holi_procession_cart.png"
+    },
+    {
+      "id": "gtm:holi_stage_backdrop",
+      "theme": "holi",
+      "title": "Holi Stage Backdrop",
+      "model_path": "creative/source/models/festivals/holi/holi_stage_backdrop.geo.json",
+      "cube_count": 24,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 11.8,
+        "clearance_height": 12.2,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "holi_07",
+        "target_theme": "holi"
+      },
+      "sha256": "79617057e2c648c82d80caf0279fe54e1f15e6da5bfa947f3002a2fb16c83741",
+      "java_model_path": "creative/source/models/festivals/holi/java/holi_stage_backdrop.json",
+      "icon_path": "creative/source/icons/festivals/holi_stage_backdrop.png"
+    },
+    {
+      "id": "gtm:holi_door_emblem",
+      "theme": "holi",
+      "title": "Holi Door Emblem",
+      "model_path": "creative/source/models/festivals/holi/holi_door_emblem.geo.json",
+      "cube_count": 20,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10,
+        "clearance_height": 7,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "holi_08",
+        "target_theme": "holi"
+      },
+      "sha256": "454a14e9abc72a003bd3fbccb6b86730a6555fff0c74021f4971514329d39449",
+      "java_model_path": "creative/source/models/festivals/holi/java/holi_door_emblem.json",
+      "icon_path": "creative/source/icons/festivals/holi_door_emblem.png"
+    },
+    {
+      "id": "gtm:holi_parade_standard",
+      "theme": "holi",
+      "title": "Holi Parade Standard",
+      "model_path": "creative/source/models/festivals/holi/holi_parade_standard.geo.json",
+      "cube_count": 21,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 6.3,
+        "clearance_height": 12,
+        "clearance_depth": 4,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "holi_09",
+        "target_theme": "holi"
+      },
+      "sha256": "fb8a0299063f9f7eee563664cda795a48df9a836db29514d8153128e596d5e6a",
+      "java_model_path": "creative/source/models/festivals/holi/java/holi_parade_standard.json",
+      "icon_path": "creative/source/icons/festivals/holi_parade_standard.png"
+    },
+    {
+      "id": "gtm:holi_street_arch",
+      "theme": "holi",
+      "title": "Holi Street Arch",
+      "model_path": "creative/source/models/festivals/holi/holi_street_arch.geo.json",
+      "cube_count": 24,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 14.8,
+        "clearance_height": 13.5,
+        "clearance_depth": 2.7,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "holi_10",
+        "target_theme": "holi"
+      },
+      "sha256": "c94e500be3013fcf403f60da00706c30512e3fc02a033d5d1ef3a1b1d95a5721",
+      "java_model_path": "creative/source/models/festivals/holi/java/holi_street_arch.json",
+      "icon_path": "creative/source/icons/festivals/holi_street_arch.png"
+    },
+    {
+      "id": "gtm:holi_balcony_screen",
+      "theme": "holi",
+      "title": "Holi Balcony Screen",
+      "model_path": "creative/source/models/festivals/holi/holi_balcony_screen.geo.json",
+      "cube_count": 24,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10.8,
+        "clearance_height": 10.2,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "holi_11",
+        "target_theme": "holi"
+      },
+      "sha256": "0b730f4427c4dd052f71aa58435efcea1add70d81cfb8b6fc523856cd7a9dfad",
+      "java_model_path": "creative/source/models/festivals/holi/java/holi_balcony_screen.json",
+      "icon_path": "creative/source/icons/festivals/holi_balcony_screen.png"
+    },
+    {
+      "id": "gtm:holi_market_booth",
+      "theme": "holi",
+      "title": "Holi Market Booth",
+      "model_path": "creative/source/models/festivals/holi/holi_market_booth.geo.json",
+      "cube_count": 25,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12.0,
+        "clearance_height": 11.7,
+        "clearance_depth": 6,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "holi_12",
+        "target_theme": "holi"
+      },
+      "sha256": "f20db450142189c01c4a06abb755565a58dae6b14492f522c8ddfd70b5ff901e",
+      "java_model_path": "creative/source/models/festivals/holi/java/holi_market_booth.json",
+      "icon_path": "creative/source/icons/festivals/holi_market_booth.png"
+    },
+    {
+      "id": "gtm:holi_bandstand",
+      "theme": "holi",
+      "title": "Holi Bandstand",
+      "model_path": "creative/source/models/festivals/holi/holi_bandstand.geo.json",
+      "cube_count": 25,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 14.0,
+        "clearance_height": 12.7,
+        "clearance_depth": 6,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "navratri_01",
+        "target_theme": "navratri"
+      },
+      "sha256": "6a3dfda82fefc7f054622756f9ec1a9a569e22ffce30e443fd431fc108225471",
+      "java_model_path": "creative/source/models/festivals/holi/java/holi_bandstand.json",
+      "icon_path": "creative/source/icons/festivals/holi_bandstand.png"
+    },
+    {
+      "id": "gtm:holi_square_beacon",
+      "theme": "holi",
+      "title": "Holi Square Beacon",
+      "model_path": "creative/source/models/festivals/holi/holi_square_beacon.geo.json",
+      "cube_count": 22,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 6.3,
+        "clearance_height": 12,
+        "clearance_depth": 6.5,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "navratri_02",
+        "target_theme": "navratri"
+      },
+      "sha256": "d317c7fa1874973810aac6aa7635719dc118de52dc507c75d3f6820827dd70e4",
+      "java_model_path": "creative/source/models/festivals/holi/java/holi_square_beacon.json",
+      "icon_path": "creative/source/icons/festivals/holi_square_beacon.png"
+    },
+    {
+      "id": "gtm:ganesh_gateway",
+      "theme": "ganesh",
+      "title": "Ganesh Chaturthi Gateway",
+      "model_path": "creative/source/models/festivals/ganesh/ganesh_gateway.geo.json",
+      "cube_count": 19,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12.8,
+        "clearance_height": 10.2,
+        "clearance_depth": 2.7,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "navratri_03",
+        "target_theme": "navratri"
+      },
+      "sha256": "6295a3f82c00623fd5f2ead38c74a9e36ae865b6b9d7feef2400f47aa2ac9bf7",
+      "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_gateway.json",
+      "icon_path": "creative/source/icons/festivals/ganesh_gateway.png"
+    },
+    {
+      "id": "gtm:ganesh_street_banner",
+      "theme": "ganesh",
+      "title": "Ganesh Chaturthi Street Banner",
+      "model_path": "creative/source/models/festivals/ganesh/ganesh_street_banner.geo.json",
+      "cube_count": 18,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 8,
+        "clearance_height": 11,
+        "clearance_depth": 4,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "navratri_04",
+        "target_theme": "navratri"
+      },
+      "sha256": "3ccc892f81d893296f72003a7cd35c40a1b2993fb1c84c4651b1ec68e639b39f",
+      "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_street_banner.json",
+      "icon_path": "creative/source/icons/festivals/ganesh_street_banner.png"
+    },
+    {
+      "id": "gtm:ganesh_window_lantern",
+      "theme": "ganesh",
+      "title": "Ganesh Chaturthi Window Lantern",
+      "model_path": "creative/source/models/festivals/ganesh/ganesh_window_lantern.geo.json",
+      "cube_count": 21,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 6,
+        "clearance_height": 9,
+        "clearance_depth": 6.5,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "navratri_05",
+        "target_theme": "navratri"
+      },
+      "sha256": "55bbbb4ceffabe0b258a0cad133ed5ccb85e8a9fdcce332f1fde828068b6e031",
+      "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_window_lantern.json",
+      "icon_path": "creative/source/icons/festivals/ganesh_window_lantern.png"
+    },
+    {
+      "id": "gtm:ganesh_counterpiece",
+      "theme": "ganesh",
+      "title": "Ganesh Chaturthi Counterpiece",
+      "model_path": "creative/source/models/festivals/ganesh/ganesh_counterpiece.geo.json",
+      "cube_count": 16,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10,
+        "clearance_height": 6.8,
+        "clearance_depth": 8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "navratri_06",
+        "target_theme": "navratri"
+      },
+      "sha256": "319632847c043144fee432ab353fd58b22235dbb989a1f1fa62d27a60142a73d",
+      "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_counterpiece.json",
+      "icon_path": "creative/source/icons/festivals/ganesh_counterpiece.png"
+    },
+    {
+      "id": "gtm:ganesh_procession_cart",
+      "theme": "ganesh",
+      "title": "Ganesh Chaturthi Procession Cart",
+      "model_path": "creative/source/models/festivals/ganesh/ganesh_procession_cart.geo.json",
+      "cube_count": 20,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12,
+        "clearance_height": 9.8,
+        "clearance_depth": 8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "navratri_07",
+        "target_theme": "navratri"
+      },
+      "sha256": "db146b6ca813b69983d25e20039a46aaab7247c270d350fe1f4821b1df14fb3b",
+      "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_procession_cart.json",
+      "icon_path": "creative/source/icons/festivals/ganesh_procession_cart.png"
+    },
+    {
+      "id": "gtm:ganesh_stage_backdrop",
+      "theme": "ganesh",
+      "title": "Ganesh Chaturthi Stage Backdrop",
+      "model_path": "creative/source/models/festivals/ganesh/ganesh_stage_backdrop.geo.json",
+      "cube_count": 20,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 11.8,
+        "clearance_height": 12.2,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "navratri_08",
+        "target_theme": "navratri"
+      },
+      "sha256": "2e8760a7c6a1fb586f1dde4d4ae78b77f759515c1f5fbf989133b836ed18b80a",
+      "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_stage_backdrop.json",
+      "icon_path": "creative/source/icons/festivals/ganesh_stage_backdrop.png"
+    },
+    {
+      "id": "gtm:ganesh_door_emblem",
+      "theme": "ganesh",
+      "title": "Ganesh Chaturthi Door Emblem",
+      "model_path": "creative/source/models/festivals/ganesh/ganesh_door_emblem.geo.json",
+      "cube_count": 16,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10,
+        "clearance_height": 7,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "navratri_09",
+        "target_theme": "navratri"
+      },
+      "sha256": "b5aef08c470ff6e76900870b6506688f336b8cb9b28beed906e7875004ba961e",
+      "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_door_emblem.json",
+      "icon_path": "creative/source/icons/festivals/ganesh_door_emblem.png"
+    },
+    {
+      "id": "gtm:ganesh_parade_standard",
+      "theme": "ganesh",
+      "title": "Ganesh Chaturthi Parade Standard",
+      "model_path": "creative/source/models/festivals/ganesh/ganesh_parade_standard.geo.json",
+      "cube_count": 17,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 6.3,
+        "clearance_height": 12,
+        "clearance_depth": 4,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "navratri_10",
+        "target_theme": "navratri"
+      },
+      "sha256": "d63ab9295eac2fb421b94abd9788db2c3ee5c313ce61c95ee7bcbb5e0ba34a6b",
+      "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_parade_standard.json",
+      "icon_path": "creative/source/icons/festivals/ganesh_parade_standard.png"
+    },
+    {
+      "id": "gtm:ganesh_street_arch",
+      "theme": "ganesh",
+      "title": "Ganesh Chaturthi Street Arch",
+      "model_path": "creative/source/models/festivals/ganesh/ganesh_street_arch.geo.json",
+      "cube_count": 20,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 14.8,
+        "clearance_height": 13.5,
+        "clearance_depth": 2.7,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "navratri_11",
+        "target_theme": "navratri"
+      },
+      "sha256": "e132d38bbb888d6fbf874017418c8ecea159f80785b6e19e23a76c33f48b458a",
+      "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_street_arch.json",
+      "icon_path": "creative/source/icons/festivals/ganesh_street_arch.png"
+    },
+    {
+      "id": "gtm:ganesh_balcony_screen",
+      "theme": "ganesh",
+      "title": "Ganesh Chaturthi Balcony Screen",
+      "model_path": "creative/source/models/festivals/ganesh/ganesh_balcony_screen.geo.json",
+      "cube_count": 20,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10.8,
+        "clearance_height": 10.2,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "navratri_12",
+        "target_theme": "navratri"
+      },
+      "sha256": "435b3c06f8b610ed4ed187ef60c3906ffb6a91dc43c5e0a8908debeea8a91a9a",
+      "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_balcony_screen.json",
+      "icon_path": "creative/source/icons/festivals/ganesh_balcony_screen.png"
+    },
+    {
+      "id": "gtm:ganesh_market_booth",
+      "theme": "ganesh",
+      "title": "Ganesh Chaturthi Market Booth",
+      "model_path": "creative/source/models/festivals/ganesh/ganesh_market_booth.geo.json",
+      "cube_count": 21,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12.0,
+        "clearance_height": 11.7,
+        "clearance_depth": 6,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "christmas_01",
+        "target_theme": "christmas"
+      },
+      "sha256": "93b02bbee150e8b1ac840ddbd6bc97168ff3aca88b96e86e3cfb9d8354d15ea1",
+      "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_market_booth.json",
+      "icon_path": "creative/source/icons/festivals/ganesh_market_booth.png"
+    },
+    {
+      "id": "gtm:ganesh_bandstand",
+      "theme": "ganesh",
+      "title": "Ganesh Chaturthi Bandstand",
+      "model_path": "creative/source/models/festivals/ganesh/ganesh_bandstand.geo.json",
+      "cube_count": 21,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 14.0,
+        "clearance_height": 12.7,
+        "clearance_depth": 6,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "christmas_02",
+        "target_theme": "christmas"
+      },
+      "sha256": "0db367a5a839aa93e79cac19c8d43096da1efe9907a783370037d42299725e63",
+      "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_bandstand.json",
+      "icon_path": "creative/source/icons/festivals/ganesh_bandstand.png"
+    },
+    {
+      "id": "gtm:ganesh_square_beacon",
+      "theme": "ganesh",
+      "title": "Ganesh Chaturthi Square Beacon",
+      "model_path": "creative/source/models/festivals/ganesh/ganesh_square_beacon.geo.json",
+      "cube_count": 18,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 6.3,
+        "clearance_height": 12,
+        "clearance_depth": 6.5,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "christmas_03",
+        "target_theme": "christmas"
+      },
+      "sha256": "a38dc09b4df4a1421d692b0a0eca82292afede32fecb1c9f17fc7b9614c743aa",
+      "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_square_beacon.json",
+      "icon_path": "creative/source/icons/festivals/ganesh_square_beacon.png"
+    },
+    {
+      "id": "gtm:navratri_gateway",
+      "theme": "navratri",
+      "title": "Navratri Gateway",
+      "model_path": "creative/source/models/festivals/navratri/navratri_gateway.geo.json",
+      "cube_count": 19,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12.8,
+        "clearance_height": 10.2,
+        "clearance_depth": 2.7,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "christmas_04",
+        "target_theme": "christmas"
+      },
+      "sha256": "c5b291a39200c70b75118477c5e0837c94aa241642fe4718ee3aee8cb107c752",
+      "java_model_path": "creative/source/models/festivals/navratri/java/navratri_gateway.json",
+      "icon_path": "creative/source/icons/festivals/navratri_gateway.png"
+    },
+    {
+      "id": "gtm:navratri_street_banner",
+      "theme": "navratri",
+      "title": "Navratri Street Banner",
+      "model_path": "creative/source/models/festivals/navratri/navratri_street_banner.geo.json",
+      "cube_count": 18,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 8,
+        "clearance_height": 11,
+        "clearance_depth": 4,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "christmas_05",
+        "target_theme": "christmas"
+      },
+      "sha256": "755bfb1e3fbc2b722f92de152c67bad95b99b51196f54062eb28c7e430e5243a",
+      "java_model_path": "creative/source/models/festivals/navratri/java/navratri_street_banner.json",
+      "icon_path": "creative/source/icons/festivals/navratri_street_banner.png"
+    },
+    {
+      "id": "gtm:navratri_window_lantern",
+      "theme": "navratri",
+      "title": "Navratri Window Lantern",
+      "model_path": "creative/source/models/festivals/navratri/navratri_window_lantern.geo.json",
+      "cube_count": 21,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 6,
+        "clearance_height": 9,
+        "clearance_depth": 6.5,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "christmas_06",
+        "target_theme": "christmas"
+      },
+      "sha256": "cded8227ac229a295c07b30e3f7c37516322cb96e3d0969f0678c3b6df6eb291",
+      "java_model_path": "creative/source/models/festivals/navratri/java/navratri_window_lantern.json",
+      "icon_path": "creative/source/icons/festivals/navratri_window_lantern.png"
+    },
+    {
+      "id": "gtm:navratri_counterpiece",
+      "theme": "navratri",
+      "title": "Navratri Counterpiece",
+      "model_path": "creative/source/models/festivals/navratri/navratri_counterpiece.geo.json",
+      "cube_count": 16,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10,
+        "clearance_height": 7.6,
+        "clearance_depth": 8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "christmas_07",
+        "target_theme": "christmas"
+      },
+      "sha256": "a7fdc0ac3d400669b420f98ac4d42c49e022ccc4fee048812b762a1beef8c237",
+      "java_model_path": "creative/source/models/festivals/navratri/java/navratri_counterpiece.json",
+      "icon_path": "creative/source/icons/festivals/navratri_counterpiece.png"
+    },
+    {
+      "id": "gtm:navratri_procession_cart",
+      "theme": "navratri",
+      "title": "Navratri Procession Cart",
+      "model_path": "creative/source/models/festivals/navratri/navratri_procession_cart.geo.json",
+      "cube_count": 20,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12,
+        "clearance_height": 10.6,
+        "clearance_depth": 8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "christmas_08",
+        "target_theme": "christmas"
+      },
+      "sha256": "979d1cb81e214bd077d1810834230f8241abaa0adb4a891cc2b3e098a5729d65",
+      "java_model_path": "creative/source/models/festivals/navratri/java/navratri_procession_cart.json",
+      "icon_path": "creative/source/icons/festivals/navratri_procession_cart.png"
+    },
+    {
+      "id": "gtm:navratri_stage_backdrop",
+      "theme": "navratri",
+      "title": "Navratri Stage Backdrop",
+      "model_path": "creative/source/models/festivals/navratri/navratri_stage_backdrop.geo.json",
+      "cube_count": 20,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 11.8,
+        "clearance_height": 12.2,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "christmas_09",
+        "target_theme": "christmas"
+      },
+      "sha256": "159f61bdd2df9abb0521780a1310bf63294c7cbe1935458caac792a259c824bf",
+      "java_model_path": "creative/source/models/festivals/navratri/java/navratri_stage_backdrop.json",
+      "icon_path": "creative/source/icons/festivals/navratri_stage_backdrop.png"
+    },
+    {
+      "id": "gtm:navratri_door_emblem",
+      "theme": "navratri",
+      "title": "Navratri Door Emblem",
+      "model_path": "creative/source/models/festivals/navratri/navratri_door_emblem.geo.json",
+      "cube_count": 16,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10,
+        "clearance_height": 7,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "christmas_10",
+        "target_theme": "christmas"
+      },
+      "sha256": "cf2d9cb394e6a7d30b66252d9f10b8623fc19dea4b00ba5efe563c2603a3f65a",
+      "java_model_path": "creative/source/models/festivals/navratri/java/navratri_door_emblem.json",
+      "icon_path": "creative/source/icons/festivals/navratri_door_emblem.png"
+    },
+    {
+      "id": "gtm:navratri_parade_standard",
+      "theme": "navratri",
+      "title": "Navratri Parade Standard",
+      "model_path": "creative/source/models/festivals/navratri/navratri_parade_standard.geo.json",
+      "cube_count": 17,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 5.6,
+        "clearance_height": 12,
+        "clearance_depth": 4,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "christmas_11",
+        "target_theme": "christmas"
+      },
+      "sha256": "5393a08b486afec9c0aee6e63a0d5ce0da8b2316078b3e4e919d75a1d06e0987",
+      "java_model_path": "creative/source/models/festivals/navratri/java/navratri_parade_standard.json",
+      "icon_path": "creative/source/icons/festivals/navratri_parade_standard.png"
+    },
+    {
+      "id": "gtm:navratri_street_arch",
+      "theme": "navratri",
+      "title": "Navratri Street Arch",
+      "model_path": "creative/source/models/festivals/navratri/navratri_street_arch.geo.json",
+      "cube_count": 20,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 14.8,
+        "clearance_height": 13.5,
+        "clearance_depth": 2.7,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "christmas_12",
+        "target_theme": "christmas"
+      },
+      "sha256": "e9538769703d3a4dfc014a725d8d3a14fba04126b065eca228fbdc68d99d3f81",
+      "java_model_path": "creative/source/models/festivals/navratri/java/navratri_street_arch.json",
+      "icon_path": "creative/source/icons/festivals/navratri_street_arch.png"
+    },
+    {
+      "id": "gtm:navratri_balcony_screen",
+      "theme": "navratri",
+      "title": "Navratri Balcony Screen",
+      "model_path": "creative/source/models/festivals/navratri/navratri_balcony_screen.geo.json",
+      "cube_count": 20,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10.8,
+        "clearance_height": 10.2,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "christmas_13",
+        "target_theme": "christmas"
+      },
+      "sha256": "963154699bbab39e1041587fda55f3799116cc8911fb78843775c2da286f7f16",
+      "java_model_path": "creative/source/models/festivals/navratri/java/navratri_balcony_screen.json",
+      "icon_path": "creative/source/icons/festivals/navratri_balcony_screen.png"
+    },
+    {
+      "id": "gtm:navratri_market_booth",
+      "theme": "navratri",
+      "title": "Navratri Market Booth",
+      "model_path": "creative/source/models/festivals/navratri/navratri_market_booth.geo.json",
+      "cube_count": 21,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12.0,
+        "clearance_height": 11.7,
+        "clearance_depth": 6,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "christmas_14",
+        "target_theme": "christmas"
+      },
+      "sha256": "3126ea6a261cf99405db7d1e3e6a9fdb1fd4360a5625dd2a8afb23547cf771ca",
+      "java_model_path": "creative/source/models/festivals/navratri/java/navratri_market_booth.json",
+      "icon_path": "creative/source/icons/festivals/navratri_market_booth.png"
+    },
+    {
+      "id": "gtm:navratri_bandstand",
+      "theme": "navratri",
+      "title": "Navratri Bandstand",
+      "model_path": "creative/source/models/festivals/navratri/navratri_bandstand.geo.json",
+      "cube_count": 21,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 14.0,
+        "clearance_height": 12.7,
+        "clearance_depth": 6,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "christmas_15",
+        "target_theme": "christmas"
+      },
+      "sha256": "d4902b542683a44a5c47d05cfd1d916cbd518e1ccc223bd4c0aa285e77db27e9",
+      "java_model_path": "creative/source/models/festivals/navratri/java/navratri_bandstand.json",
+      "icon_path": "creative/source/icons/festivals/navratri_bandstand.png"
+    },
+    {
+      "id": "gtm:navratri_square_beacon",
+      "theme": "navratri",
+      "title": "Navratri Square Beacon",
+      "model_path": "creative/source/models/festivals/navratri/navratri_square_beacon.geo.json",
+      "cube_count": 18,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 6.15,
+        "clearance_height": 12,
+        "clearance_depth": 6.5,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "christmas_16",
+        "target_theme": "christmas"
+      },
+      "sha256": "54bab0341ca40be3ac19e99dae4c8e60e5a0c4fa3f2997952f3b78bdfeb767fa",
+      "java_model_path": "creative/source/models/festivals/navratri/java/navratri_square_beacon.json",
+      "icon_path": "creative/source/icons/festivals/navratri_square_beacon.png"
+    },
+    {
+      "id": "gtm:eid_gateway",
+      "theme": "eid",
+      "title": "Eid Gateway",
+      "model_path": "creative/source/models/festivals/eid/eid_gateway.geo.json",
+      "cube_count": 16,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12.8,
+        "clearance_height": 10.2,
+        "clearance_depth": 2.7,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "new_year_01",
+        "target_theme": "new_year"
+      },
+      "sha256": "f664774a8192e02847d0bfbfad09aac0e99eabd28a137438cc8c82fa5ae1f7dc",
+      "java_model_path": "creative/source/models/festivals/eid/java/eid_gateway.json",
+      "icon_path": "creative/source/icons/festivals/eid_gateway.png"
+    },
+    {
+      "id": "gtm:eid_street_banner",
+      "theme": "eid",
+      "title": "Eid Street Banner",
+      "model_path": "creative/source/models/festivals/eid/eid_street_banner.geo.json",
+      "cube_count": 15,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 8,
+        "clearance_height": 11,
+        "clearance_depth": 4,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "new_year_02",
+        "target_theme": "new_year"
+      },
+      "sha256": "55ae6ce67a05c2522e58f51d8eeb7f7645869549f2c4379ab31480ea9aa4bef4",
+      "java_model_path": "creative/source/models/festivals/eid/java/eid_street_banner.json",
+      "icon_path": "creative/source/icons/festivals/eid_street_banner.png"
+    },
+    {
+      "id": "gtm:eid_window_lantern",
+      "theme": "eid",
+      "title": "Eid Window Lantern",
+      "model_path": "creative/source/models/festivals/eid/eid_window_lantern.geo.json",
+      "cube_count": 18,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 6,
+        "clearance_height": 9,
+        "clearance_depth": 6.5,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "new_year_03",
+        "target_theme": "new_year"
+      },
+      "sha256": "334fea601b0d4b108a5deaeedb1a109c002adbdf9d3b84e0a240f60b30f7fe51",
+      "java_model_path": "creative/source/models/festivals/eid/java/eid_window_lantern.json",
+      "icon_path": "creative/source/icons/festivals/eid_window_lantern.png"
+    },
+    {
+      "id": "gtm:eid_counterpiece",
+      "theme": "eid",
+      "title": "Eid Counterpiece",
+      "model_path": "creative/source/models/festivals/eid/eid_counterpiece.geo.json",
+      "cube_count": 13,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10,
+        "clearance_height": 7.6,
+        "clearance_depth": 8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "new_year_04",
+        "target_theme": "new_year"
+      },
+      "sha256": "b86a5b094b7d097d7102e1e64e1a2473047c269e26b2c0977357362a56e49e46",
+      "java_model_path": "creative/source/models/festivals/eid/java/eid_counterpiece.json",
+      "icon_path": "creative/source/icons/festivals/eid_counterpiece.png"
+    },
+    {
+      "id": "gtm:eid_procession_cart",
+      "theme": "eid",
+      "title": "Eid Procession Cart",
+      "model_path": "creative/source/models/festivals/eid/eid_procession_cart.geo.json",
+      "cube_count": 17,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12,
+        "clearance_height": 10.6,
+        "clearance_depth": 8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "new_year_05",
+        "target_theme": "new_year"
+      },
+      "sha256": "0aaa2e75ec0090f540da69c67935c6f8da533f4d23eef0ae354b3889948c5464",
+      "java_model_path": "creative/source/models/festivals/eid/java/eid_procession_cart.json",
+      "icon_path": "creative/source/icons/festivals/eid_procession_cart.png"
+    },
+    {
+      "id": "gtm:eid_stage_backdrop",
+      "theme": "eid",
+      "title": "Eid Stage Backdrop",
+      "model_path": "creative/source/models/festivals/eid/eid_stage_backdrop.geo.json",
+      "cube_count": 17,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 11.8,
+        "clearance_height": 12.2,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "new_year_06",
+        "target_theme": "new_year"
+      },
+      "sha256": "6e85fb99f1df242100a520e97fd06c46bb1c271405e276f6c40b3facd5eb1373",
+      "java_model_path": "creative/source/models/festivals/eid/java/eid_stage_backdrop.json",
+      "icon_path": "creative/source/icons/festivals/eid_stage_backdrop.png"
+    },
+    {
+      "id": "gtm:eid_door_emblem",
+      "theme": "eid",
+      "title": "Eid Door Emblem",
+      "model_path": "creative/source/models/festivals/eid/eid_door_emblem.geo.json",
+      "cube_count": 13,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10,
+        "clearance_height": 7,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "new_year_07",
+        "target_theme": "new_year"
+      },
+      "sha256": "55523eedc42313efdbfd22f3ce835c0a18aa968e6ac5916dea9ebb9b3757bd10",
+      "java_model_path": "creative/source/models/festivals/eid/java/eid_door_emblem.json",
+      "icon_path": "creative/source/icons/festivals/eid_door_emblem.png"
+    },
+    {
+      "id": "gtm:eid_parade_standard",
+      "theme": "eid",
+      "title": "Eid Parade Standard",
+      "model_path": "creative/source/models/festivals/eid/eid_parade_standard.geo.json",
+      "cube_count": 14,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 5.6,
+        "clearance_height": 12,
+        "clearance_depth": 4,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "new_year_08",
+        "target_theme": "new_year"
+      },
+      "sha256": "f60f14d3119b96968ba2c333c4e97a1382598001e58ff9aa23f5d2f91af56cba",
+      "java_model_path": "creative/source/models/festivals/eid/java/eid_parade_standard.json",
+      "icon_path": "creative/source/icons/festivals/eid_parade_standard.png"
+    },
+    {
+      "id": "gtm:eid_street_arch",
+      "theme": "eid",
+      "title": "Eid Street Arch",
+      "model_path": "creative/source/models/festivals/eid/eid_street_arch.geo.json",
+      "cube_count": 17,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 14.8,
+        "clearance_height": 13.5,
+        "clearance_depth": 2.7,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "new_year_09",
+        "target_theme": "new_year"
+      },
+      "sha256": "7fd1da34bf32e80e372962957f50bbc7d5ca7e6849bc0a1394ac3f6f6abe1ee5",
+      "java_model_path": "creative/source/models/festivals/eid/java/eid_street_arch.json",
+      "icon_path": "creative/source/icons/festivals/eid_street_arch.png"
+    },
+    {
+      "id": "gtm:eid_balcony_screen",
+      "theme": "eid",
+      "title": "Eid Balcony Screen",
+      "model_path": "creative/source/models/festivals/eid/eid_balcony_screen.geo.json",
+      "cube_count": 17,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10.8,
+        "clearance_height": 10.2,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "new_year_10",
+        "target_theme": "new_year"
+      },
+      "sha256": "58716450bdea9fdd140b1e9dbd4ae8dc9283c617f9020d065fb8505e00011474",
+      "java_model_path": "creative/source/models/festivals/eid/java/eid_balcony_screen.json",
+      "icon_path": "creative/source/icons/festivals/eid_balcony_screen.png"
+    },
+    {
+      "id": "gtm:eid_market_booth",
+      "theme": "eid",
+      "title": "Eid Market Booth",
+      "model_path": "creative/source/models/festivals/eid/eid_market_booth.geo.json",
+      "cube_count": 18,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12.0,
+        "clearance_height": 11.7,
+        "clearance_depth": 6,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "new_year_11",
+        "target_theme": "new_year"
+      },
+      "sha256": "be59800a4acca6366de9140f439c99428fef1f2ff5db737e8907cb9212224893",
+      "java_model_path": "creative/source/models/festivals/eid/java/eid_market_booth.json",
+      "icon_path": "creative/source/icons/festivals/eid_market_booth.png"
+    },
+    {
+      "id": "gtm:eid_bandstand",
+      "theme": "eid",
+      "title": "Eid Bandstand",
+      "model_path": "creative/source/models/festivals/eid/eid_bandstand.geo.json",
+      "cube_count": 18,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 14.0,
+        "clearance_height": 12.7,
+        "clearance_depth": 6,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "new_year_12",
+        "target_theme": "new_year"
+      },
+      "sha256": "643d1059eb5cbe9c5d46ae59a59f1478a4990c7eab004e93370d498c424f2bf9",
+      "java_model_path": "creative/source/models/festivals/eid/java/eid_bandstand.json",
+      "icon_path": "creative/source/icons/festivals/eid_bandstand.png"
+    },
+    {
+      "id": "gtm:sankranti_gateway",
+      "theme": "sankranti",
+      "title": "Makar Sankranti Gateway",
+      "model_path": "creative/source/models/festivals/sankranti/sankranti_gateway.geo.json",
+      "cube_count": 22,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12.8,
+        "clearance_height": 10.2,
+        "clearance_depth": 2.7,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "new_year_13",
+        "target_theme": "new_year"
+      },
+      "sha256": "49ac392bf3b9a5fade85c62b4486421e9a4c8812a0c0b5a3899c197808a0f738",
+      "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_gateway.json",
+      "icon_path": "creative/source/icons/festivals/sankranti_gateway.png"
+    },
+    {
+      "id": "gtm:sankranti_street_banner",
+      "theme": "sankranti",
+      "title": "Makar Sankranti Street Banner",
+      "model_path": "creative/source/models/festivals/sankranti/sankranti_street_banner.geo.json",
+      "cube_count": 21,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 8,
+        "clearance_height": 11,
+        "clearance_depth": 4,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "new_year_14",
+        "target_theme": "new_year"
+      },
+      "sha256": "7cc435e7e59d04da62601830a9c501d3289b51de4aca308ecab2ff0a8e5fa21c",
+      "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_street_banner.json",
+      "icon_path": "creative/source/icons/festivals/sankranti_street_banner.png"
+    },
+    {
+      "id": "gtm:sankranti_window_lantern",
+      "theme": "sankranti",
+      "title": "Makar Sankranti Window Lantern",
+      "model_path": "creative/source/models/festivals/sankranti/sankranti_window_lantern.geo.json",
+      "cube_count": 24,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 6,
+        "clearance_height": 9,
+        "clearance_depth": 6.5,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "new_year_15",
+        "target_theme": "new_year"
+      },
+      "sha256": "ecb867502b2b8b2c1138c07838b85b9243d3410196186038f22d4f62855a5cbd",
+      "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_window_lantern.json",
+      "icon_path": "creative/source/icons/festivals/sankranti_window_lantern.png"
+    },
+    {
+      "id": "gtm:sankranti_counterpiece",
+      "theme": "sankranti",
+      "title": "Makar Sankranti Counterpiece",
+      "model_path": "creative/source/models/festivals/sankranti/sankranti_counterpiece.geo.json",
+      "cube_count": 19,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10,
+        "clearance_height": 7.6,
+        "clearance_depth": 8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "new_year_16",
+        "target_theme": "new_year"
+      },
+      "sha256": "60d0c88bd3f7a4cd4702e069b46f7abb0080e6b0afa4c503f4f2081f67da0a09",
+      "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_counterpiece.json",
+      "icon_path": "creative/source/icons/festivals/sankranti_counterpiece.png"
+    },
+    {
+      "id": "gtm:sankranti_procession_cart",
+      "theme": "sankranti",
+      "title": "Makar Sankranti Procession Cart",
+      "model_path": "creative/source/models/festivals/sankranti/sankranti_procession_cart.geo.json",
+      "cube_count": 23,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12,
+        "clearance_height": 10.6,
+        "clearance_depth": 8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "independence_day_01",
+        "target_theme": "independence_day"
+      },
+      "sha256": "3d3e3f7067558207dbe3f80ffaa8a878a7180db1fc7204b7890cb0ab1c1f74e5",
+      "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_procession_cart.json",
+      "icon_path": "creative/source/icons/festivals/sankranti_procession_cart.png"
+    },
+    {
+      "id": "gtm:sankranti_stage_backdrop",
+      "theme": "sankranti",
+      "title": "Makar Sankranti Stage Backdrop",
+      "model_path": "creative/source/models/festivals/sankranti/sankranti_stage_backdrop.geo.json",
+      "cube_count": 23,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 11.8,
+        "clearance_height": 12.2,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "independence_day_02",
+        "target_theme": "independence_day"
+      },
+      "sha256": "b5adfa8837057acb511519769823f9f3c250c23033048fbf709c818abf9a4d4e",
+      "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_stage_backdrop.json",
+      "icon_path": "creative/source/icons/festivals/sankranti_stage_backdrop.png"
+    },
+    {
+      "id": "gtm:sankranti_door_emblem",
+      "theme": "sankranti",
+      "title": "Makar Sankranti Door Emblem",
+      "model_path": "creative/source/models/festivals/sankranti/sankranti_door_emblem.geo.json",
+      "cube_count": 19,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10,
+        "clearance_height": 7,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "independence_day_03",
+        "target_theme": "independence_day"
+      },
+      "sha256": "cd60efd985a8cb366a17d44c803db30384b7ffd742c047e73b9acc1202fb2aa4",
+      "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_door_emblem.json",
+      "icon_path": "creative/source/icons/festivals/sankranti_door_emblem.png"
+    },
+    {
+      "id": "gtm:sankranti_parade_standard",
+      "theme": "sankranti",
+      "title": "Makar Sankranti Parade Standard",
+      "model_path": "creative/source/models/festivals/sankranti/sankranti_parade_standard.geo.json",
+      "cube_count": 20,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 4.9,
+        "clearance_height": 12,
+        "clearance_depth": 4,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "independence_day_04",
+        "target_theme": "independence_day"
+      },
+      "sha256": "c1c5535dc32b3d40e1328dc129e2f23d6c75844995ab471d50529976d7f0c948",
+      "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_parade_standard.json",
+      "icon_path": "creative/source/icons/festivals/sankranti_parade_standard.png"
+    },
+    {
+      "id": "gtm:sankranti_street_arch",
+      "theme": "sankranti",
+      "title": "Makar Sankranti Street Arch",
+      "model_path": "creative/source/models/festivals/sankranti/sankranti_street_arch.geo.json",
+      "cube_count": 23,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 14.8,
+        "clearance_height": 13.5,
+        "clearance_depth": 2.7,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "independence_day_05",
+        "target_theme": "independence_day"
+      },
+      "sha256": "dbf157d52aa453967fc903c49b1fe5bc4c7e5f71d3118ca11eaf6c2856a3edd9",
+      "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_street_arch.json",
+      "icon_path": "creative/source/icons/festivals/sankranti_street_arch.png"
+    },
+    {
+      "id": "gtm:sankranti_balcony_screen",
+      "theme": "sankranti",
+      "title": "Makar Sankranti Balcony Screen",
+      "model_path": "creative/source/models/festivals/sankranti/sankranti_balcony_screen.geo.json",
+      "cube_count": 23,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10.8,
+        "clearance_height": 10.2,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "independence_day_06",
+        "target_theme": "independence_day"
+      },
+      "sha256": "ff934bc6f5f9cc97fe527fc95ca188350b11d8a700cf90cf1ec5fa7619c7b46a",
+      "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_balcony_screen.json",
+      "icon_path": "creative/source/icons/festivals/sankranti_balcony_screen.png"
+    },
+    {
+      "id": "gtm:sankranti_market_booth",
+      "theme": "sankranti",
+      "title": "Makar Sankranti Market Booth",
+      "model_path": "creative/source/models/festivals/sankranti/sankranti_market_booth.geo.json",
+      "cube_count": 24,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12.0,
+        "clearance_height": 11.7,
+        "clearance_depth": 6,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "independence_day_07",
+        "target_theme": "independence_day"
+      },
+      "sha256": "faa0f262f36dbfb9cf2a15f3510b4db1d1915c107ac22e4dac3f4eb80ad98c6c",
+      "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_market_booth.json",
+      "icon_path": "creative/source/icons/festivals/sankranti_market_booth.png"
+    },
+    {
+      "id": "gtm:sankranti_bandstand",
+      "theme": "sankranti",
+      "title": "Makar Sankranti Bandstand",
+      "model_path": "creative/source/models/festivals/sankranti/sankranti_bandstand.geo.json",
+      "cube_count": 24,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 14.0,
+        "clearance_height": 12.7,
+        "clearance_depth": 6,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "independence_day_08",
+        "target_theme": "independence_day"
+      },
+      "sha256": "f1419c44f338d02ee0e2e9268696c6faa9c5c32ec9855ddb1174607b75548724",
+      "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_bandstand.json",
+      "icon_path": "creative/source/icons/festivals/sankranti_bandstand.png"
+    },
+    {
+      "id": "gtm:christmas_gateway",
+      "theme": "christmas",
+      "title": "Christmas Gateway",
+      "model_path": "creative/source/models/festivals/christmas/christmas_gateway.geo.json",
+      "cube_count": 16,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12.8,
+        "clearance_height": 10.2,
+        "clearance_depth": 2.7,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "independence_day_09",
+        "target_theme": "independence_day"
+      },
+      "sha256": "d6b838f06e52f165a100e9c6301860436645599cb954219ef47485fe0932900c",
+      "java_model_path": "creative/source/models/festivals/christmas/java/christmas_gateway.json",
+      "icon_path": "creative/source/icons/festivals/christmas_gateway.png"
+    },
+    {
+      "id": "gtm:christmas_street_banner",
+      "theme": "christmas",
+      "title": "Christmas Street Banner",
+      "model_path": "creative/source/models/festivals/christmas/christmas_street_banner.geo.json",
+      "cube_count": 15,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 8,
+        "clearance_height": 11,
+        "clearance_depth": 4,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "independence_day_10",
+        "target_theme": "independence_day"
+      },
+      "sha256": "da809d4ec10ba1adc25ec0428a77b93daf10d5edfbe9b768dc829a07a1a7a171",
+      "java_model_path": "creative/source/models/festivals/christmas/java/christmas_street_banner.json",
+      "icon_path": "creative/source/icons/festivals/christmas_street_banner.png"
+    },
+    {
+      "id": "gtm:christmas_window_lantern",
+      "theme": "christmas",
+      "title": "Christmas Window Lantern",
+      "model_path": "creative/source/models/festivals/christmas/christmas_window_lantern.geo.json",
+      "cube_count": 18,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 6,
+        "clearance_height": 9,
+        "clearance_depth": 6.5,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "ganesh_chaturthi_01",
+        "target_theme": "ganesh_chaturthi"
+      },
+      "sha256": "fa5ef6b913f063e543c092d8f356b4f1ccbe5a864e00db595c6c29a6bdc693ec",
+      "java_model_path": "creative/source/models/festivals/christmas/java/christmas_window_lantern.json",
+      "icon_path": "creative/source/icons/festivals/christmas_window_lantern.png"
+    },
+    {
+      "id": "gtm:christmas_counterpiece",
+      "theme": "christmas",
+      "title": "Christmas Counterpiece",
+      "model_path": "creative/source/models/festivals/christmas/christmas_counterpiece.geo.json",
+      "cube_count": 13,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10,
+        "clearance_height": 7.6,
+        "clearance_depth": 8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "ganesh_chaturthi_02",
+        "target_theme": "ganesh_chaturthi"
+      },
+      "sha256": "211563df0022afc963984138257ac89c90d23c801520d50bb3ac05a137f14d30",
+      "java_model_path": "creative/source/models/festivals/christmas/java/christmas_counterpiece.json",
+      "icon_path": "creative/source/icons/festivals/christmas_counterpiece.png"
+    },
+    {
+      "id": "gtm:christmas_procession_cart",
+      "theme": "christmas",
+      "title": "Christmas Procession Cart",
+      "model_path": "creative/source/models/festivals/christmas/christmas_procession_cart.geo.json",
+      "cube_count": 17,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12,
+        "clearance_height": 10.6,
+        "clearance_depth": 8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "ganesh_chaturthi_03",
+        "target_theme": "ganesh_chaturthi"
+      },
+      "sha256": "94a110273d7fde0af45ed8c0d6a72692bd85ef43b50dfd83bf455eeef45e354b",
+      "java_model_path": "creative/source/models/festivals/christmas/java/christmas_procession_cart.json",
+      "icon_path": "creative/source/icons/festivals/christmas_procession_cart.png"
+    },
+    {
+      "id": "gtm:christmas_stage_backdrop",
+      "theme": "christmas",
+      "title": "Christmas Stage Backdrop",
+      "model_path": "creative/source/models/festivals/christmas/christmas_stage_backdrop.geo.json",
+      "cube_count": 17,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 11.8,
+        "clearance_height": 12.2,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "ganesh_chaturthi_04",
+        "target_theme": "ganesh_chaturthi"
+      },
+      "sha256": "9914ddc3890ec63baebf517c018eef5278f0c2ff9f9aa096a064e1a01fa945f7",
+      "java_model_path": "creative/source/models/festivals/christmas/java/christmas_stage_backdrop.json",
+      "icon_path": "creative/source/icons/festivals/christmas_stage_backdrop.png"
+    },
+    {
+      "id": "gtm:christmas_door_emblem",
+      "theme": "christmas",
+      "title": "Christmas Door Emblem",
+      "model_path": "creative/source/models/festivals/christmas/christmas_door_emblem.geo.json",
+      "cube_count": 13,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10,
+        "clearance_height": 7,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "ganesh_chaturthi_05",
+        "target_theme": "ganesh_chaturthi"
+      },
+      "sha256": "9dc717fdb5679f97af71702e80ec6e2fc98710d469135a0522e83646c9eda5e6",
+      "java_model_path": "creative/source/models/festivals/christmas/java/christmas_door_emblem.json",
+      "icon_path": "creative/source/icons/festivals/christmas_door_emblem.png"
+    },
+    {
+      "id": "gtm:christmas_parade_standard",
+      "theme": "christmas",
+      "title": "Christmas Parade Standard",
+      "model_path": "creative/source/models/festivals/christmas/christmas_parade_standard.geo.json",
+      "cube_count": 14,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 4.9,
+        "clearance_height": 12,
+        "clearance_depth": 4,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "ganesh_chaturthi_06",
+        "target_theme": "ganesh_chaturthi"
+      },
+      "sha256": "7c049db808d03c9c7318a9e247c539b5ba01ceaf9f090a97df4699bd813178c5",
+      "java_model_path": "creative/source/models/festivals/christmas/java/christmas_parade_standard.json",
+      "icon_path": "creative/source/icons/festivals/christmas_parade_standard.png"
+    },
+    {
+      "id": "gtm:christmas_street_arch",
+      "theme": "christmas",
+      "title": "Christmas Street Arch",
+      "model_path": "creative/source/models/festivals/christmas/christmas_street_arch.geo.json",
+      "cube_count": 17,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 14.8,
+        "clearance_height": 13.5,
+        "clearance_depth": 2.7,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "ganesh_chaturthi_07",
+        "target_theme": "ganesh_chaturthi"
+      },
+      "sha256": "577168470cd6caa4d824e36e352bdfcda2f8fbca13a5d73c734e223adcd9703c",
+      "java_model_path": "creative/source/models/festivals/christmas/java/christmas_street_arch.json",
+      "icon_path": "creative/source/icons/festivals/christmas_street_arch.png"
+    },
+    {
+      "id": "gtm:christmas_balcony_screen",
+      "theme": "christmas",
+      "title": "Christmas Balcony Screen",
+      "model_path": "creative/source/models/festivals/christmas/christmas_balcony_screen.geo.json",
+      "cube_count": 17,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10.8,
+        "clearance_height": 10.2,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "ganesh_chaturthi_08",
+        "target_theme": "ganesh_chaturthi"
+      },
+      "sha256": "e89c3143958638068da1eb0b70b1e3397b1fdfac8ad2d51954cb955f20112a75",
+      "java_model_path": "creative/source/models/festivals/christmas/java/christmas_balcony_screen.json",
+      "icon_path": "creative/source/icons/festivals/christmas_balcony_screen.png"
+    },
+    {
+      "id": "gtm:christmas_market_booth",
+      "theme": "christmas",
+      "title": "Christmas Market Booth",
+      "model_path": "creative/source/models/festivals/christmas/christmas_market_booth.geo.json",
+      "cube_count": 18,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12.0,
+        "clearance_height": 11.7,
+        "clearance_depth": 6,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "ganesh_chaturthi_09",
+        "target_theme": "ganesh_chaturthi"
+      },
+      "sha256": "c82e7f25a57d8d6018b5e85c315c142bcdcde38a10c9661a7bfacf61d3114cd7",
+      "java_model_path": "creative/source/models/festivals/christmas/java/christmas_market_booth.json",
+      "icon_path": "creative/source/icons/festivals/christmas_market_booth.png"
+    },
+    {
+      "id": "gtm:christmas_bandstand",
+      "theme": "christmas",
+      "title": "Christmas Bandstand",
+      "model_path": "creative/source/models/festivals/christmas/christmas_bandstand.geo.json",
+      "cube_count": 18,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 14.0,
+        "clearance_height": 12.7,
+        "clearance_depth": 6,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "ganesh_chaturthi_10",
+        "target_theme": "ganesh_chaturthi"
+      },
+      "sha256": "b5afbb1d8f5353120341810509df93e801c2387e0620373a609baa8d794945e9",
+      "java_model_path": "creative/source/models/festivals/christmas/java/christmas_bandstand.json",
+      "icon_path": "creative/source/icons/festivals/christmas_bandstand.png"
+    },
+    {
+      "id": "gtm:new_year_gateway",
+      "theme": "new",
+      "title": "New Year Gateway",
+      "model_path": "creative/source/models/festivals/new/new_year_gateway.geo.json",
+      "cube_count": 18,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12.8,
+        "clearance_height": 10.2,
+        "clearance_depth": 2.7,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "ganesh_chaturthi_11",
+        "target_theme": "ganesh_chaturthi"
+      },
+      "sha256": "03ee9cee3e050db2bcea0439460336fa0376f0637eb77dba9031861e6e3f844f",
+      "java_model_path": "creative/source/models/festivals/new/java/new_year_gateway.json",
+      "icon_path": "creative/source/icons/festivals/new_year_gateway.png"
+    },
+    {
+      "id": "gtm:new_year_street_banner",
+      "theme": "new",
+      "title": "New Year Street Banner",
+      "model_path": "creative/source/models/festivals/new/new_year_street_banner.geo.json",
+      "cube_count": 17,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 8,
+        "clearance_height": 11,
+        "clearance_depth": 4,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "ganesh_chaturthi_12",
+        "target_theme": "ganesh_chaturthi"
+      },
+      "sha256": "6bec9d8111456e290b0bde36b2efda5098dfaa5990616d7e794830d6aa289bf9",
+      "java_model_path": "creative/source/models/festivals/new/java/new_year_street_banner.json",
+      "icon_path": "creative/source/icons/festivals/new_year_street_banner.png"
+    },
+    {
+      "id": "gtm:new_year_window_lantern",
+      "theme": "new",
+      "title": "New Year Window Lantern",
+      "model_path": "creative/source/models/festivals/new/new_year_window_lantern.geo.json",
+      "cube_count": 20,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 6,
+        "clearance_height": 9,
+        "clearance_depth": 6.5,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "monsoon_01",
+        "target_theme": "monsoon"
+      },
+      "sha256": "61dd4bc6ba10664ae12d6a7d7ea3c0830930970fac01b287599538a205e5ffea",
+      "java_model_path": "creative/source/models/festivals/new/java/new_year_window_lantern.json",
+      "icon_path": "creative/source/icons/festivals/new_year_window_lantern.png"
+    },
+    {
+      "id": "gtm:new_year_counterpiece",
+      "theme": "new",
+      "title": "New Year Counterpiece",
+      "model_path": "creative/source/models/festivals/new/new_year_counterpiece.geo.json",
+      "cube_count": 15,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10,
+        "clearance_height": 7.6,
+        "clearance_depth": 8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "monsoon_02",
+        "target_theme": "monsoon"
+      },
+      "sha256": "1d8d6ea4ff4e5e53dae0050b613f5970ec5a026e36eb197b59539ec3cfc054de",
+      "java_model_path": "creative/source/models/festivals/new/java/new_year_counterpiece.json",
+      "icon_path": "creative/source/icons/festivals/new_year_counterpiece.png"
+    },
+    {
+      "id": "gtm:new_year_procession_cart",
+      "theme": "new",
+      "title": "New Year Procession Cart",
+      "model_path": "creative/source/models/festivals/new/new_year_procession_cart.geo.json",
+      "cube_count": 19,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12,
+        "clearance_height": 10.6,
+        "clearance_depth": 8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "monsoon_03",
+        "target_theme": "monsoon"
+      },
+      "sha256": "1be7529a5c58717f3af6bc8d666c2af99b3b201a8253828f58306ae991c7a29c",
+      "java_model_path": "creative/source/models/festivals/new/java/new_year_procession_cart.json",
+      "icon_path": "creative/source/icons/festivals/new_year_procession_cart.png"
+    },
+    {
+      "id": "gtm:new_year_stage_backdrop",
+      "theme": "new",
+      "title": "New Year Stage Backdrop",
+      "model_path": "creative/source/models/festivals/new/new_year_stage_backdrop.geo.json",
+      "cube_count": 19,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 11.8,
+        "clearance_height": 12.2,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "monsoon_04",
+        "target_theme": "monsoon"
+      },
+      "sha256": "3097bf1c95c7c76dcba1b52c01e3f5a8ec30c4f6ef3aae4c605df7e85881d8b8",
+      "java_model_path": "creative/source/models/festivals/new/java/new_year_stage_backdrop.json",
+      "icon_path": "creative/source/icons/festivals/new_year_stage_backdrop.png"
+    },
+    {
+      "id": "gtm:new_year_door_emblem",
+      "theme": "new",
+      "title": "New Year Door Emblem",
+      "model_path": "creative/source/models/festivals/new/new_year_door_emblem.geo.json",
+      "cube_count": 15,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10,
+        "clearance_height": 7,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "monsoon_05",
+        "target_theme": "monsoon"
+      },
+      "sha256": "007ded6a5de53d4275ac9d9a35fd02115845f5aa93ffae3079be42ee782d7a62",
+      "java_model_path": "creative/source/models/festivals/new/java/new_year_door_emblem.json",
+      "icon_path": "creative/source/icons/festivals/new_year_door_emblem.png"
+    },
+    {
+      "id": "gtm:new_year_parade_standard",
+      "theme": "new",
+      "title": "New Year Parade Standard",
+      "model_path": "creative/source/models/festivals/new/new_year_parade_standard.geo.json",
+      "cube_count": 16,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 4.9,
+        "clearance_height": 12,
+        "clearance_depth": 4,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "monsoon_06",
+        "target_theme": "monsoon"
+      },
+      "sha256": "fcc10d047d1db0dbbf2d1470348302249c2ac5f68faa6fd4e1994e7cf75732b9",
+      "java_model_path": "creative/source/models/festivals/new/java/new_year_parade_standard.json",
+      "icon_path": "creative/source/icons/festivals/new_year_parade_standard.png"
+    },
+    {
+      "id": "gtm:new_year_street_arch",
+      "theme": "new",
+      "title": "New Year Street Arch",
+      "model_path": "creative/source/models/festivals/new/new_year_street_arch.geo.json",
+      "cube_count": 19,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 14.8,
+        "clearance_height": 13.5,
+        "clearance_depth": 2.7,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "monsoon_07",
+        "target_theme": "monsoon"
+      },
+      "sha256": "3a80550ccdfedc16e66d596dd261780859f8918e811d7eb58108395b23a51dac",
+      "java_model_path": "creative/source/models/festivals/new/java/new_year_street_arch.json",
+      "icon_path": "creative/source/icons/festivals/new_year_street_arch.png"
+    },
+    {
+      "id": "gtm:new_year_balcony_screen",
+      "theme": "new",
+      "title": "New Year Balcony Screen",
+      "model_path": "creative/source/models/festivals/new/new_year_balcony_screen.geo.json",
+      "cube_count": 19,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 10.8,
+        "clearance_height": 10.2,
+        "clearance_depth": 2.8,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "monsoon_08",
+        "target_theme": "monsoon"
+      },
+      "sha256": "e76ac511c8fd42a836d262687bf977274603f60655e13869cad04732a349b14c",
+      "java_model_path": "creative/source/models/festivals/new/java/new_year_balcony_screen.json",
+      "icon_path": "creative/source/icons/festivals/new_year_balcony_screen.png"
+    },
+    {
+      "id": "gtm:new_year_market_booth",
+      "theme": "new",
+      "title": "New Year Market Booth",
+      "model_path": "creative/source/models/festivals/new/new_year_market_booth.geo.json",
+      "cube_count": 20,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 12.0,
+        "clearance_height": 11.7,
+        "clearance_depth": 6,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "monsoon_09",
+        "target_theme": "monsoon"
+      },
+      "sha256": "6c730c652e8b1debac683493438076c14474a11638ce66a740a8708fc1e0c978",
+      "java_model_path": "creative/source/models/festivals/new/java/new_year_market_booth.json",
+      "icon_path": "creative/source/icons/festivals/new_year_market_booth.png"
+    },
+    {
+      "id": "gtm:new_year_bandstand",
+      "theme": "new",
+      "title": "New Year Bandstand",
+      "model_path": "creative/source/models/festivals/new/new_year_bandstand.geo.json",
+      "cube_count": 20,
+      "activation_mode": "manual_staff_only",
+      "placement_bounds": {
+        "clearance_width": 14.0,
+        "clearance_height": 12.7,
+        "clearance_depth": 6,
+        "headroom_required_blocks": 1
+      },
+      "approved_theme_migration": {
+        "target_slot": "monsoon_10",
+        "target_theme": "monsoon"
+      },
+      "sha256": "50a8ff6d17205b8c67b41431b35046e2a18315bf63d8888dac3e87bb574f6a81",
+      "java_model_path": "creative/source/models/festivals/new/java/new_year_bandstand.json",
+      "icon_path": "creative/source/icons/festivals/new_year_bandstand.png"
+    }
+  ]
+}

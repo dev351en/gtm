@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="g_royal_iron" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#252F38"/>
+      <stop offset="100%" stop-color="#0D1115"/>
+    </radialGradient>
+  </defs>
+  <rect width="256" height="256" rx="40" fill="url(#g_royal_iron)"/>
+  <rect x="6" y="6" width="244" height="244" rx="34" fill="none" stroke="#B28834" stroke-width="4" stroke-opacity="0.6"/>
+  <rect x="116" y="48" width="24" height="160" rx="4" transform="rotate(42 128 128)" fill="#0D1115"/><rect x="116" y="48" width="24" height="160" rx="4" transform="rotate(-42 128 128)" fill="#0D1115"/><circle cx="128" cy="128" r="46" fill="#151B20" stroke="#B28834" stroke-width="8"/><polygon points="102,138 110,108 128,124 146,108 154,138" fill="#B28834"/>
+</svg>

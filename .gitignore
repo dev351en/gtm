@@ -30,3 +30,16 @@ secrets.*
 plugins/*.jar
 !plugins/VaultUnlocked-2.20.3.jar
 !plugins/SDCraftCore-1.0.0.jar
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Native128 generated artwork is distributed as an asset bundle.
+# Keep its manifests and validation reports versioned.
+creative/generated_128/source/
+creative/generated_128/compatibility/
+creative/generated_128/previews/
+creative/generated_128/packs/
+creative/generated_128/delivery/
+

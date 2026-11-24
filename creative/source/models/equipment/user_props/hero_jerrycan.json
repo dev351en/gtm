@@ -1,0 +1,947 @@
+{
+  "credit": "SD Craft - original Minecraft City RP prop model",
+  "ambientocclusion": true,
+  "gui_light": "side",
+  "textures": {
+    "can_red": "sdcraft:item/jerrycan_red",
+    "handle": "sdcraft:item/jerrycan_handle",
+    "spout": "sdcraft:item/jerrycan_spout",
+    "details": "sdcraft:item/jerrycan_label",
+    "particle": "#can_red"
+  },
+  "elements": [
+    {
+      "name": "steel_body",
+      "from": [
+        3.5,
+        2.1,
+        5.6
+      ],
+      "to": [
+        12.5,
+        11.3,
+        10.4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#can_red"
+        },
+        "south": {
+          "texture": "#can_red"
+        },
+        "east": {
+          "texture": "#can_red"
+        },
+        "west": {
+          "texture": "#can_red"
+        },
+        "up": {
+          "texture": "#can_red"
+        },
+        "down": {
+          "texture": "#can_red"
+        }
+      }
+    },
+    {
+      "name": "rim_left",
+      "from": [
+        3.34,
+        2.2,
+        5.4
+      ],
+      "to": [
+        3.7,
+        11.08,
+        10.6
+      ],
+      "faces": {
+        "north": {
+          "texture": "#can_red"
+        },
+        "south": {
+          "texture": "#can_red"
+        },
+        "east": {
+          "texture": "#can_red"
+        },
+        "west": {
+          "texture": "#can_red"
+        },
+        "up": {
+          "texture": "#can_red"
+        },
+        "down": {
+          "texture": "#can_red"
+        }
+      }
+    },
+    {
+      "name": "rim_right",
+      "from": [
+        12.3,
+        2.2,
+        5.4
+      ],
+      "to": [
+        12.67,
+        11.08,
+        10.6
+      ],
+      "faces": {
+        "north": {
+          "texture": "#can_red"
+        },
+        "south": {
+          "texture": "#can_red"
+        },
+        "east": {
+          "texture": "#can_red"
+        },
+        "west": {
+          "texture": "#can_red"
+        },
+        "up": {
+          "texture": "#can_red"
+        },
+        "down": {
+          "texture": "#can_red"
+        }
+      }
+    },
+    {
+      "name": "rim_top",
+      "from": [
+        3.65,
+        10.96,
+        5.42
+      ],
+      "to": [
+        12.35,
+        11.4,
+        10.58
+      ],
+      "faces": {
+        "north": {
+          "texture": "#can_red"
+        },
+        "south": {
+          "texture": "#can_red"
+        },
+        "east": {
+          "texture": "#can_red"
+        },
+        "west": {
+          "texture": "#can_red"
+        },
+        "up": {
+          "texture": "#can_red"
+        },
+        "down": {
+          "texture": "#can_red"
+        }
+      }
+    },
+    {
+      "name": "rim_bottom",
+      "from": [
+        3.65,
+        2.05,
+        5.42
+      ],
+      "to": [
+        12.35,
+        2.47,
+        10.58
+      ],
+      "faces": {
+        "north": {
+          "texture": "#can_red"
+        },
+        "south": {
+          "texture": "#can_red"
+        },
+        "east": {
+          "texture": "#can_red"
+        },
+        "west": {
+          "texture": "#can_red"
+        },
+        "up": {
+          "texture": "#can_red"
+        },
+        "down": {
+          "texture": "#can_red"
+        }
+      }
+    },
+    {
+      "name": "left_stamp_vertical",
+      "from": [
+        4.25,
+        3.15,
+        5.38
+      ],
+      "to": [
+        4.58,
+        10.17,
+        5.6
+      ],
+      "faces": {
+        "north": {
+          "texture": "#can_red"
+        },
+        "south": {
+          "texture": "#can_red"
+        },
+        "east": {
+          "texture": "#can_red"
+        },
+        "west": {
+          "texture": "#can_red"
+        },
+        "up": {
+          "texture": "#can_red"
+        },
+        "down": {
+          "texture": "#can_red"
+        }
+      }
+    },
+    {
+      "name": "right_stamp_vertical",
+      "from": [
+        11.44,
+        3.15,
+        5.38
+      ],
+      "to": [
+        11.77,
+        10.17,
+        5.6
+      ],
+      "faces": {
+        "north": {
+          "texture": "#can_red"
+        },
+        "south": {
+          "texture": "#can_red"
+        },
+        "east": {
+          "texture": "#can_red"
+        },
+        "west": {
+          "texture": "#can_red"
+        },
+        "up": {
+          "texture": "#can_red"
+        },
+        "down": {
+          "texture": "#can_red"
+        }
+      }
+    },
+    {
+      "name": "stamping_center_bar",
+      "from": [
+        4.5,
+        6.24,
+        5.35
+      ],
+      "to": [
+        11.5,
+        6.72,
+        5.6
+      ],
+      "faces": {
+        "north": {
+          "texture": "#can_red"
+        },
+        "south": {
+          "texture": "#can_red"
+        },
+        "east": {
+          "texture": "#can_red"
+        },
+        "west": {
+          "texture": "#can_red"
+        },
+        "up": {
+          "texture": "#can_red"
+        },
+        "down": {
+          "texture": "#can_red"
+        }
+      }
+    },
+    {
+      "name": "stamping_diagonal_one",
+      "from": [
+        7.73,
+        3.0,
+        5.36
+      ],
+      "to": [
+        8.08,
+        10.3,
+        5.56
+      ],
+      "faces": {
+        "north": {
+          "texture": "#can_red"
+        },
+        "south": {
+          "texture": "#can_red"
+        },
+        "east": {
+          "texture": "#can_red"
+        },
+        "west": {
+          "texture": "#can_red"
+        },
+        "up": {
+          "texture": "#can_red"
+        },
+        "down": {
+          "texture": "#can_red"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          6.65,
+          5.5
+        ],
+        "axis": "z",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "stamping_diagonal_two",
+      "from": [
+        7.73,
+        3.0,
+        5.36
+      ],
+      "to": [
+        8.08,
+        10.3,
+        5.56
+      ],
+      "faces": {
+        "north": {
+          "texture": "#can_red"
+        },
+        "south": {
+          "texture": "#can_red"
+        },
+        "east": {
+          "texture": "#can_red"
+        },
+        "west": {
+          "texture": "#can_red"
+        },
+        "up": {
+          "texture": "#can_red"
+        },
+        "down": {
+          "texture": "#can_red"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          6.65,
+          5.5
+        ],
+        "axis": "z",
+        "angle": -45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "fuel_label_plate",
+      "from": [
+        6.12,
+        4.11,
+        5.24
+      ],
+      "to": [
+        9.88,
+        5.43,
+        5.42
+      ],
+      "faces": {
+        "north": {
+          "texture": "#details"
+        },
+        "south": {
+          "texture": "#details"
+        },
+        "east": {
+          "texture": "#details"
+        },
+        "west": {
+          "texture": "#details"
+        },
+        "up": {
+          "texture": "#details"
+        },
+        "down": {
+          "texture": "#details"
+        }
+      }
+    },
+    {
+      "name": "handle_left_pillar_0",
+      "from": [
+        5.12,
+        11.35,
+        6.82
+      ],
+      "to": [
+        5.5200000000000005,
+        12.85,
+        9.18
+      ],
+      "faces": {
+        "north": {
+          "texture": "#handle"
+        },
+        "south": {
+          "texture": "#handle"
+        },
+        "east": {
+          "texture": "#handle"
+        },
+        "west": {
+          "texture": "#handle"
+        },
+        "up": {
+          "texture": "#handle"
+        },
+        "down": {
+          "texture": "#handle"
+        }
+      }
+    },
+    {
+      "name": "handle_top_rod_0",
+      "from": [
+        5.12,
+        12.75,
+        6.82
+      ],
+      "to": [
+        6.37,
+        13.18,
+        9.18
+      ],
+      "faces": {
+        "north": {
+          "texture": "#handle"
+        },
+        "south": {
+          "texture": "#handle"
+        },
+        "east": {
+          "texture": "#handle"
+        },
+        "west": {
+          "texture": "#handle"
+        },
+        "up": {
+          "texture": "#handle"
+        },
+        "down": {
+          "texture": "#handle"
+        }
+      }
+    },
+    {
+      "name": "handle_left_pillar_1",
+      "from": [
+        7.1,
+        11.35,
+        6.82
+      ],
+      "to": [
+        7.5,
+        12.85,
+        9.18
+      ],
+      "faces": {
+        "north": {
+          "texture": "#handle"
+        },
+        "south": {
+          "texture": "#handle"
+        },
+        "east": {
+          "texture": "#handle"
+        },
+        "west": {
+          "texture": "#handle"
+        },
+        "up": {
+          "texture": "#handle"
+        },
+        "down": {
+          "texture": "#handle"
+        }
+      }
+    },
+    {
+      "name": "handle_top_rod_1",
+      "from": [
+        7.1,
+        12.75,
+        6.82
+      ],
+      "to": [
+        8.35,
+        13.18,
+        9.18
+      ],
+      "faces": {
+        "north": {
+          "texture": "#handle"
+        },
+        "south": {
+          "texture": "#handle"
+        },
+        "east": {
+          "texture": "#handle"
+        },
+        "west": {
+          "texture": "#handle"
+        },
+        "up": {
+          "texture": "#handle"
+        },
+        "down": {
+          "texture": "#handle"
+        }
+      }
+    },
+    {
+      "name": "handle_left_pillar_2",
+      "from": [
+        9.08,
+        11.35,
+        6.82
+      ],
+      "to": [
+        9.48,
+        12.85,
+        9.18
+      ],
+      "faces": {
+        "north": {
+          "texture": "#handle"
+        },
+        "south": {
+          "texture": "#handle"
+        },
+        "east": {
+          "texture": "#handle"
+        },
+        "west": {
+          "texture": "#handle"
+        },
+        "up": {
+          "texture": "#handle"
+        },
+        "down": {
+          "texture": "#handle"
+        }
+      }
+    },
+    {
+      "name": "handle_top_rod_2",
+      "from": [
+        9.08,
+        12.75,
+        6.82
+      ],
+      "to": [
+        10.33,
+        13.18,
+        9.18
+      ],
+      "faces": {
+        "north": {
+          "texture": "#handle"
+        },
+        "south": {
+          "texture": "#handle"
+        },
+        "east": {
+          "texture": "#handle"
+        },
+        "west": {
+          "texture": "#handle"
+        },
+        "up": {
+          "texture": "#handle"
+        },
+        "down": {
+          "texture": "#handle"
+        }
+      }
+    },
+    {
+      "name": "spout_neck",
+      "from": [
+        11.1,
+        11.25,
+        7.0
+      ],
+      "to": [
+        12.63,
+        12.5,
+        9.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#spout"
+        },
+        "south": {
+          "texture": "#spout"
+        },
+        "east": {
+          "texture": "#spout"
+        },
+        "west": {
+          "texture": "#spout"
+        },
+        "up": {
+          "texture": "#spout"
+        },
+        "down": {
+          "texture": "#spout"
+        }
+      }
+    },
+    {
+      "name": "spout_upstand",
+      "from": [
+        11.45,
+        12.25,
+        7.15
+      ],
+      "to": [
+        12.55,
+        13.45,
+        8.85
+      ],
+      "faces": {
+        "north": {
+          "texture": "#spout"
+        },
+        "south": {
+          "texture": "#spout"
+        },
+        "east": {
+          "texture": "#spout"
+        },
+        "west": {
+          "texture": "#spout"
+        },
+        "up": {
+          "texture": "#spout"
+        },
+        "down": {
+          "texture": "#spout"
+        }
+      }
+    },
+    {
+      "name": "twist_cap",
+      "from": [
+        11.2,
+        13.38,
+        6.95
+      ],
+      "to": [
+        12.8,
+        13.95,
+        9.05
+      ],
+      "faces": {
+        "north": {
+          "texture": "#handle"
+        },
+        "south": {
+          "texture": "#handle"
+        },
+        "east": {
+          "texture": "#handle"
+        },
+        "west": {
+          "texture": "#handle"
+        },
+        "up": {
+          "texture": "#handle"
+        },
+        "down": {
+          "texture": "#handle"
+        }
+      }
+    },
+    {
+      "name": "rivet_4.2_3.0",
+      "from": [
+        4.08,
+        2.88,
+        5.26
+      ],
+      "to": [
+        4.32,
+        3.12,
+        5.42
+      ],
+      "faces": {
+        "north": {
+          "texture": "#handle"
+        },
+        "south": {
+          "texture": "#handle"
+        },
+        "east": {
+          "texture": "#handle"
+        },
+        "west": {
+          "texture": "#handle"
+        },
+        "up": {
+          "texture": "#handle"
+        },
+        "down": {
+          "texture": "#handle"
+        }
+      }
+    },
+    {
+      "name": "rivet_4.2_10.4",
+      "from": [
+        4.08,
+        10.280000000000001,
+        5.26
+      ],
+      "to": [
+        4.32,
+        10.52,
+        5.42
+      ],
+      "faces": {
+        "north": {
+          "texture": "#handle"
+        },
+        "south": {
+          "texture": "#handle"
+        },
+        "east": {
+          "texture": "#handle"
+        },
+        "west": {
+          "texture": "#handle"
+        },
+        "up": {
+          "texture": "#handle"
+        },
+        "down": {
+          "texture": "#handle"
+        }
+      }
+    },
+    {
+      "name": "rivet_11.8_3.0",
+      "from": [
+        11.680000000000001,
+        2.88,
+        5.26
+      ],
+      "to": [
+        11.92,
+        3.12,
+        5.42
+      ],
+      "faces": {
+        "north": {
+          "texture": "#handle"
+        },
+        "south": {
+          "texture": "#handle"
+        },
+        "east": {
+          "texture": "#handle"
+        },
+        "west": {
+          "texture": "#handle"
+        },
+        "up": {
+          "texture": "#handle"
+        },
+        "down": {
+          "texture": "#handle"
+        }
+      }
+    },
+    {
+      "name": "rivet_11.8_10.4",
+      "from": [
+        11.680000000000001,
+        10.280000000000001,
+        5.26
+      ],
+      "to": [
+        11.92,
+        10.52,
+        5.42
+      ],
+      "faces": {
+        "north": {
+          "texture": "#handle"
+        },
+        "south": {
+          "texture": "#handle"
+        },
+        "east": {
+          "texture": "#handle"
+        },
+        "west": {
+          "texture": "#handle"
+        },
+        "up": {
+          "texture": "#handle"
+        },
+        "down": {
+          "texture": "#handle"
+        }
+      }
+    }
+  ],
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        20,
+        -8
+      ],
+      "translation": [
+        0.8,
+        1.3,
+        0.2
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        -20,
+        8
+      ],
+      "translation": [
+        -0.8,
+        1.3,
+        0.2
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        65,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        1.8,
+        0
+      ],
+      "scale": [
+        0.72,
+        0.72,
+        0.72
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        65,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        1.8,
+        0
+      ],
+      "scale": [
+        0.72,
+        0.72,
+        0.72
+      ]
+    },
+    "gui": {
+      "rotation": [
+        20,
+        -135,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.85,
+        0.85,
+        0.85
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        0.72,
+        0.72,
+        0.72
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.82,
+        0.82,
+        0.82
+      ]
+    }
+  }
+}

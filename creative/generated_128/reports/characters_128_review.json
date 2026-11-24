@@ -1,0 +1,25 @@
+{
+  "scope": "500 native128 NPC skin masters and100 native128 outfit masters, plus600 Java64 derivatives",
+  "review_method": "Inspected assembled front/back catalogue contact sheets, then re-inspected the updated character overview and first fashion sheet after lower-garment drape changes. These are orthographic UV assemblies, not in-game screenshots.",
+  "findings": [
+    "Occupation-specific police caps, badges, radios, healthcare stethoscopes, rescue reflective bands, food aprons/caps, courier shoulder straps, lanyards and media equipment are readable in the previews.",
+    "Boss and five supplied initial prisoner appearances are distinct; original identity and custody flags remain unchanged.",
+    "Traditional garments continue onto the leg UVs, with separate draped hems, borders and pleats; formal tailoring, sports sleeves/shorts and utility equipment are represented within the existing classic player silhouette.",
+    "Native128 strand clusters, eye corners, garment seams and stitch details are actual source pixels rather than a simple enlarged64 image.",
+    "Final six-face UV review corrected cropped cap undersides: the head-overlay bottom face remains transparent, so cap fabric does not appear below the chin.",
+    "The64 export initially discarded single-pixel seams with point sampling and produced duplicate outfit derivatives. UV-aligned2x2 area reduction with binary alpha fixed this; all100 outfit derivatives and500 NPC derivatives now have distinct pixel hashes."
+  ],
+  "reproducibility_check": {
+    "command_summary": "Regenerated every master in memory with the committed generator, compared all pixel bytes to saved masters, then reproduced and compared all64 compatibility derivatives.",
+    "native128_masters_reproduced": 600,
+    "java64_derivatives_reproduced": 600,
+    "result": "PASS"
+  },
+  "limitations": [
+    "Visual uniqueness means distinct visible character artwork, not600 separate character meshes.",
+    "Outfit overlay application, signed NPC texture hosting, custody outfit switching and actual Java/Bedrock rendering are not implemented or verified by this art batch.",
+    "The original records contain legacy world anchors; this generation does not validate or authorize those locations."
+  ],
+  "client_verification": "NOT_RUN",
+  "runtime_integration": "PENDING"
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="g_indra_fuel" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#252F38"/>
+      <stop offset="100%" stop-color="#0D1115"/>
+    </radialGradient>
+  </defs>
+  <rect width="256" height="256" rx="40" fill="url(#g_indra_fuel)"/>
+  <rect x="6" y="6" width="244" height="244" rx="34" fill="none" stroke="#2680EB" stroke-width="4" stroke-opacity="0.6"/>
+  <polygon points="128,36 216,128 128,220 40,128" fill="#202A34" stroke="#D6AD59" stroke-width="6"/><path d="M128 72 C156 106 164 134 152 158 C142 176 114 176 104 158 C92 134 100 106 128 72 Z" fill="#2DD4BF"/>
+</svg>

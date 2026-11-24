@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "quality_tier": "V3_FAITHFUL_32X_PIXEL_AND_MODELS",
+  "domains_validated": {
+    "domain_1_branding_ui": {
+      "server_icon": "64x64 RGB verified",
+      "brands_count": 32,
+      "phone_icons_count": 24,
+      "hud_components_count": 33
+    },
+    "domain_2_transport": {
+      "transport_models_count": 87,
+      "transport_icons_count": 87,
+      "road_mappings": 65
+    },
+    "domain_3_furniture_facilities": {
+      "furniture_models_count": 200,
+      "furniture_icons_count": 200,
+      "municipal_facilities_surveyed": 46
+    },
+    "domain_4_characters": {
+      "npc_skins_count": 500,
+      "unique_skin_textures": 500,
+      "outfits_count": 100
+    },
+    "domain_5_equipment_finishes_food": {
+      "equipment_models_count": 92,
+      "hero_props_count": 11,
+      "fictional_weapons_count": 30,
+      "finishes_textures_count": 300,
+      "food_items_count": 30
+    },
+    "domain_6_festivals_signage": {
+      "festival_installations_count": 100,
+      "bilingual_signs_count": 120
+    }
+  },
+  "packs_validated": {
+    "model_32x32_textures_count": 148,
+    "world_32x32_block_textures_count": 98,
+    "java_world_pack_bytes": 1444201,
+    "bedrock_world_pack_bytes": 183038,
+    "local_minecraft_installed": true
+  },
+  "contact_sheets": [
+    "creative/previews/brands_contact_sheet.png",
+    "creative/previews/equipment_sample_contact_sheet.png",
+    "creative/previews/festivals_sample_contact_sheet.png",
+    "creative/previews/food_contact_sheet.png",
+    "creative/previews/furniture_sample_contact_sheet.png",
+    "creative/previews/hud_contact_sheet.png",
+    "creative/previews/icons_v3_contact_sheet.png",
+    "creative/previews/outfits_sample_contact_sheet.png",
+    "creative/previews/phone_icons_contact_sheet.png",
+    "creative/previews/signage_sample_contact_sheet.png",
+    "creative/previews/skins_sample_contact_sheet.png",
+    "creative/previews/transport_contact_sheet.png",
+    "creative/previews/weapons_contact_sheet.png",
+    "creative/previews/world_32x_blocks_contact_sheet.png"
+  ]
+}

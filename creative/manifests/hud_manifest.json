@@ -1,0 +1,332 @@
+[
+  {
+    "id": "wanted_star_empty",
+    "png": "creative/source/ui/wanted_star_empty.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "cb7d78ea33bdbae42fa324c7f976cb63d2d15936493902c7548489f4ce3f4ce1"
+  },
+  {
+    "id": "wanted_star_filled",
+    "png": "creative/source/ui/wanted_star_filled.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "ef3008fa9582835334203963276a6e87bf550bddb9a0ef2b411b8d0907d0f809"
+  },
+  {
+    "id": "health",
+    "png": "creative/source/ui/health.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "2fa1e08c470b60b1404a1d8863e389d0027de611a8ab0a6f7d9b406e32b3b899"
+  },
+  {
+    "id": "armour",
+    "png": "creative/source/ui/armour.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "47ef78bf3b51b2db40afddbf279adc57411140260c409164d56e648d9fcbf373"
+  },
+  {
+    "id": "fuel",
+    "png": "creative/source/ui/fuel.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "cb1d785beb6e096724ff874d8423361af6f4c5275f99f432a7f7d573046ee2ed"
+  },
+  {
+    "id": "battery",
+    "png": "creative/source/ui/battery.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "b71245a0723ada51c4e0b9c22f71709579c3fdcfce36a10f6aec9039fb3f5207"
+  },
+  {
+    "id": "engine_condition",
+    "png": "creative/source/ui/engine_condition.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "6cee245a8bc4843320ff7c448ac40cf84131fab0b5dbe1aaa9b538028810877e"
+  },
+  {
+    "id": "speedometer_analog",
+    "png": "creative/source/ui/speedometer_analog.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "f00d7faa7d4766affc05833192c530b60a8dcb9d180dd40ef138edcbd3958e4b"
+  },
+  {
+    "id": "speedometer_digital",
+    "png": "creative/source/ui/speedometer_digital.png",
+    "dimensions_px": [
+      128,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "2f44012b485daaab76c9f8f9667e9e3b9c97d07517bc85f80ba1dc53e913fc31"
+  },
+  {
+    "id": "speedometer_compact",
+    "png": "creative/source/ui/speedometer_compact.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "f00d7faa7d4766affc05833192c530b60a8dcb9d180dd40ef138edcbd3958e4b"
+  },
+  {
+    "id": "minimap_circle",
+    "png": "creative/source/ui/minimap_circle.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "65df78d186159ac8c46d3afb03028b10bcfcd008b629b3bdd9518a75fbd8e011"
+  },
+  {
+    "id": "minimap_rectangle",
+    "png": "creative/source/ui/minimap_rectangle.png",
+    "dimensions_px": [
+      128,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "6fcde628dcbcae1cf7df03b0f5dd8a7aeebc722d836253ef8b7835ccf725e3fd"
+  },
+  {
+    "id": "player_arrow",
+    "png": "creative/source/ui/player_arrow.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "1f5e5d8cc46bd33eba4d2fd499bddc3a35ced086516b631732ccba091d64c259"
+  },
+  {
+    "id": "gps_route",
+    "png": "creative/source/ui/gps_route.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "f2f93cc50f1f769caf4c0375afb773bc6543a54afef59db17e061ff0f574a653"
+  },
+  {
+    "id": "map_police",
+    "png": "creative/source/ui/map_police.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "2061bda2adb5a57a449c9326b225a9864153495b9e11fd915b18b63f3c7982be"
+  },
+  {
+    "id": "map_hospital",
+    "png": "creative/source/ui/map_hospital.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "d0f51d1615a1a27e3447df02e6bae8af0b66babfd024ece7b40f8fcd9ae8fc73"
+  },
+  {
+    "id": "map_fuel",
+    "png": "creative/source/ui/map_fuel.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "cb1d785beb6e096724ff874d8423361af6f4c5275f99f432a7f7d573046ee2ed"
+  },
+  {
+    "id": "map_shop",
+    "png": "creative/source/ui/map_shop.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "0a6a1b4225f2d22149dda3b7aecaa03d7787ce8c75c04af9964f719ce7cfb193"
+  },
+  {
+    "id": "map_property",
+    "png": "creative/source/ui/map_property.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "78a7843c02653b10ab4a361cbe157cca546d5362a952a11cb067802395240836"
+  },
+  {
+    "id": "map_station",
+    "png": "creative/source/ui/map_station.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "f18d62b746a5c3d858e116abfad5dd65770cd084d18c089dc93ce2c2558c16e5"
+  },
+  {
+    "id": "map_mission",
+    "png": "creative/source/ui/map_mission.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "e16cb07538537a14cceb3b70abbf6665eb4885a243355d56c3dda140d8c5f9d0"
+  },
+  {
+    "id": "phone_shortcut",
+    "png": "creative/source/ui/phone_shortcut.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "603a7f1ba814d58db73566844f3d634e22a5aed571fd2e93101802eec29eb6c0"
+  },
+  {
+    "id": "hotbar_frame",
+    "png": "creative/source/ui/hotbar_frame.png",
+    "dimensions_px": [
+      128,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "723e7388e92db66ff44d5b5794e99f4e93b42c4f58d2ec245dcc0b5f63c0b97f"
+  },
+  {
+    "id": "hotbar_selected",
+    "png": "creative/source/ui/hotbar_selected.png",
+    "dimensions_px": [
+      128,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "7b4c803e2d68a88e7ec4e5eee0042fa05e8b8f088a3f27c9ae7a2cd11c5ee68b"
+  },
+  {
+    "id": "dialogue_bubble",
+    "png": "creative/source/ui/dialogue_bubble.png",
+    "dimensions_px": [
+      128,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "4f586d664e6c1020840fbfeace4468258f0fe2e1a1bb9f63191d1ce78c5726cd"
+  },
+  {
+    "id": "notification_frame",
+    "png": "creative/source/ui/notification_frame.png",
+    "dimensions_px": [
+      128,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "6ff15d9dddec8b30b62ed0890b27049e220a788bce8c402e1b4987502719255d"
+  },
+  {
+    "id": "wasted_title",
+    "png": "creative/source/ui/wasted_title.png",
+    "dimensions_px": [
+      128,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "c0bcd366587b39c70b2d1ad2a3b54d5eddabc424f8286d418f3d518e4ec36df6"
+  },
+  {
+    "id": "busted_title",
+    "png": "creative/source/ui/busted_title.png",
+    "dimensions_px": [
+      128,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "7597b51cb7634e46a6208f9fe6ef9614aaeffd4a8daf44ae2d888c10e2356d40"
+  },
+  {
+    "id": "city_enter",
+    "png": "creative/source/ui/city_enter.png",
+    "dimensions_px": [
+      128,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "3d411e73c752d9b22589599d914a6649df6ff548b5cc23c6e1ad3a6fb3771df4"
+  },
+  {
+    "id": "city_exit",
+    "png": "creative/source/ui/city_exit.png",
+    "dimensions_px": [
+      128,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "61ca2eac5fb8bc71b43c6105801079b7b16692240bb5246e57f04ed8c8f9f13b"
+  },
+  {
+    "id": "ark_symbol",
+    "png": "creative/source/ui/ark_symbol.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "1d4468dd34098beb93e4c3c31b31a5d80fa3792a2bd6dfe6097bc8b0e8a4a28d"
+  },
+  {
+    "id": "low_fuel",
+    "png": "creative/source/ui/low_fuel.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "fb74c77df93144ac748ecb0eb5ce1f81fbf8d729a4efa92667ca4c57a0e13c0a"
+  },
+  {
+    "id": "critical_damage",
+    "png": "creative/source/ui/critical_damage.png",
+    "dimensions_px": [
+      64,
+      64
+    ],
+    "style": "faithful_32x_hud_pixel",
+    "sha256": "ac7b6b3e2857f54955b54406ac74e1f8054172a90efac03c348e947ad0680d69"
+  }
+]

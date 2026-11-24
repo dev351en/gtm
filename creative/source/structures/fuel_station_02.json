@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "facility_id": "fuel_station_02",
+  "name": "Civic Boulevard Quick-Fuel & Mart",
+  "kind": "fuel_station",
+  "status": "surveyed_and_ready",
+  "world": "world",
+  "origin": [
+    85,
+    68,
+    -30
+  ],
+  "bounds": {
+    "min": [
+      85,
+      68,
+      -30
+    ],
+    "max": [
+      109,
+      75,
+      -6
+    ]
+  },
+  "entrances": [
+    {
+      "id": "fuel_station_02_main_entrance",
+      "local": [
+        12,
+        0,
+        0
+      ],
+      "access": "public",
+      "width_blocks": 2,
+      "height_blocks": 3
+    },
+    {
+      "id": "fuel_station_02_service_entrance",
+      "local": [
+        24,
+        0,
+        12
+      ],
+      "access": "staff",
+      "width_blocks": 1,
+      "height_blocks": 2
+    }
+  ],
+  "rooms": [
+    {
+      "id": "public_reception",
+      "function": "reception",
+      "local_bounds": {
+        "min": [
+          1,
+          0,
+          1
+        ],
+        "max": [
+          10,
+          3,
+          10
+        ]
+      },
+      "access": "public"
+    },
+    {
+      "id": "operations_hall",
+      "function": "operations",
+      "local_bounds": {
+        "min": [
+          10,
+          0,
+          1
+        ],
+        "max": [
+          23,
+          4,
+          12
+        ]
+      },
+      "access": "staff"
+    },
+    {
+      "id": "executive_suite",
+      "function": "management",
+      "local_bounds": {
+        "min": [
+          1,
+          4,
+          1
+        ],
+        "max": [
+          12,
+          6,
+          12
+        ]
+      },
+      "access": "private"
+    },
+    {
+      "id": "secure_vault_storage",
+      "function": "vault_storage",
+      "local_bounds": {
+        "min": [
+          12,
+          0,
+          12
+        ],
+        "max": [
+          23,
+          3,
+          23
+        ]
+      },
+      "access": "secure"
+    }
+  ],
+  "placements": [
+    {
+      "asset_id": "gtm:reception_podium",
+      "local": [
+        5,
+        0,
+        5
+      ],
+      "yaw": 0,
+      "role": "reception"
+    },
+    {
+      "asset_id": "gtm:sectional_sofa",
+      "local": [
+        2,
+        0,
+        7
+      ],
+      "yaw": 90,
+      "role": "waiting_lounge"
+    },
+    {
+      "asset_id": "gtm:atm_lobby_enclosure",
+      "local": [
+        8,
+        0,
+        2
+      ],
+      "yaw": 180,
+      "role": "banking_service"
+    }
+  ],
+  "lighting_fixtures": [
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        5,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        17,
+        3,
+        7
+      ]
+    },
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        7,
+        3,
+        17
+      ]
+    }
+  ],
+  "checks": {
+    "accessible_corridors": true,
+    "floor_headroom_valid": true,
+    "doors_functional": true,
+    "stairs_connected": true,
+    "zero_floating_props": true,
+    "no_empty_shells": true
+  }
+}

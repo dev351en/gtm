@@ -1,0 +1,529 @@
+{
+  "credit": "GTM Indraprastha - Faithful 32x Street Kitchen",
+  "parent": "minecraft:block/block",
+  "textures": {
+    "atlas": "gtm:item/street_kitchen_atlas",
+    "particle": "#atlas"
+  },
+  "elements": [
+    {
+      "name": "ragda_part_0",
+      "from": [
+        4,
+        1,
+        4
+      ],
+      "to": [
+        12,
+        2,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.1,
+            0.1,
+            11.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.1,
+            0.1,
+            11.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.1,
+            0.1,
+            11.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.1,
+            0.1,
+            11.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.1,
+            0.1,
+            11.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            8.1,
+            0.1,
+            11.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "ragda_part_1",
+      "from": [
+        3,
+        2,
+        3
+      ],
+      "to": [
+        13,
+        4,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.1,
+            0.1,
+            11.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.1,
+            0.1,
+            11.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.1,
+            0.1,
+            11.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.1,
+            0.1,
+            11.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.1,
+            0.1,
+            11.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            8.1,
+            0.1,
+            11.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "ragda_part_2",
+      "from": [
+        4,
+        4,
+        4
+      ],
+      "to": [
+        12,
+        5,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.1,
+            4.1,
+            11.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.1,
+            4.1,
+            11.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.1,
+            4.1,
+            11.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.1,
+            4.1,
+            11.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.1,
+            4.1,
+            11.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            8.1,
+            4.1,
+            11.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "ragda_part_3",
+      "from": [
+        5,
+        5,
+        6
+      ],
+      "to": [
+        8,
+        6,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.1,
+            4.1,
+            7.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            4.1,
+            4.1,
+            7.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.1,
+            4.1,
+            7.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.1,
+            4.1,
+            7.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            4.1,
+            4.1,
+            7.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            4.1,
+            4.1,
+            7.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "ragda_part_4",
+      "from": [
+        8,
+        5,
+        8
+      ],
+      "to": [
+        11,
+        6,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.1,
+            4.1,
+            7.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            4.1,
+            4.1,
+            7.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.1,
+            4.1,
+            7.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.1,
+            4.1,
+            7.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            4.1,
+            4.1,
+            7.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            4.1,
+            4.1,
+            7.9,
+            7.9
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "ragda_part_5",
+      "from": [
+        6,
+        6,
+        7
+      ],
+      "to": [
+        7,
+        7,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "ragda_part_6",
+      "from": [
+        9,
+        6,
+        9
+      ],
+      "to": [
+        10,
+        7,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            12.1,
+            0.1,
+            15.9,
+            3.9
+          ],
+          "texture": "#atlas"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        28,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        40,
+        0
+      ],
+      "translation": [
+        1,
+        2,
+        0
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    }
+  }
+}

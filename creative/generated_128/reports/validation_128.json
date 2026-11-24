@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "status": "PASS_WITH_WARNINGS",
+  "scope": "isolated generated128 source art; no production or live-world changes",
+  "counts": {
+    "primary_model_pairs": 509,
+    "bedrock_cubes": 26188,
+    "java_elements": 26188,
+    "additional_model_pairs": 69,
+    "festival_additional_models": 28,
+    "approved_festival_selection": 100,
+    "finish_model_pairs": 300,
+    "damage_variant_model_pairs": 195,
+    "distinct_skin128": 500,
+    "distinct_skin64": 500,
+    "distinct_outfit128": 100,
+    "distinct_outfit64": 100,
+    "characters_native128_verified": 600,
+    "phone_assets": 24,
+    "hud_assets": 33,
+    "brands_assets": 32,
+    "identity_assets": 4,
+    "signage_assets": 120,
+    "material_tiles": 168,
+    "material_tiles_bound_to_atlas": 132,
+    "standalone_material_tiles": 36,
+    "world_textures": 98,
+    "png_files": 3934,
+    "json_files": 2945,
+    "resolved_active_paths": 7066
+  },
+  "image_sizes": {
+    "64x64": 601,
+    "1544x1718": 1,
+    "1232x695": 1,
+    "128x128": 3172,
+    "1472x1982": 7,
+    "1472x652": 3,
+    "1028x2702": 1,
+    "862x406": 2,
+    "1692x4998": 2,
+    "1028x406": 1,
+    "1028x898": 2,
+    "1088x734": 1,
+    "1240x2210": 2,
+    "1240x4178": 1,
+    "992x1005": 1,
+    "712x235": 1,
+    "1240x3522": 1,
+    "992x695": 1,
+    "836x850": 2,
+    "836x1470": 2,
+    "836x1160": 2,
+    "1240x1882": 1,
+    "632x2210": 5,
+    "256x128": 120,
+    "2048x2048": 1
+  },
+  "image_modes": {
+    "RGBA": 3893,
+    "RGB": 41
+  },
+  "resolution_policy": {
+    "native_masters": [
+      128,
+      128
+    ],
+    "java_skin_outfit_compatibility": [
+      64,
+      64
+    ],
+    "server_icon": [
+      64,
+      64
+    ],
+    "sign_composites": [
+      256,
+      128
+    ],
+    "master_atlas": [
+      2048,
+      2048
+    ],
+    "previews": "contact-sheet layouts; native character previews128x128"
+  },
+  "geometry_audit": {
+    "primary_catalogue_ids": 509,
+    "primary_exact_geometry_definitions": 509,
+    "primary_duplicate_groups": [],
+    "additional_source_ids": 69,
+    "additional_exact_geometry_definitions": 55,
+    "additional_duplicate_groups": [
+      [
+        "gtm:kavach_9",
+        "gtm:rajput_45",
+        "gtm:deccan_compact"
+      ],
+      [
+        "gtm:sher_pump",
+        "gtm:ghadial_12g",
+        "gtm:sahyadri_enforcer",
+        "gtm:garuda_breacher",
+        "gtm:tulwar_short"
+      ],
+      [
+        "gtm:chetak_9",
+        "gtm:viper_sub",
+        "gtm:shikari_pdw"
+      ],
+      [
+        "gtm:storm_9",
+        "gtm:lotus_burst",
+        "gtm:varun_rapid"
+      ],
+      [
+        "gtm:indrayani_carbine",
+        "gtm:brahmos_precision"
+      ],
+      [
+        "gtm:trishul_ar",
+        "gtm:ashoka_tactical",
+        "gtm:arya_recon"
+      ],
+      [
+        "gtm:talwar_cleaver",
+        "gtm:khanda_blade"
+      ]
+    ],
+    "approved_festival_selection_exact_definitions": 100,
+    "finish_variants_are_not_unique_geometry": true,
+    "method": "Sorted cube origins/sizes/rotations/pivots plus nonzero bone transforms; names, UVs, materials and colors ignored. Exact difference is not proof of meaningful artistic uniqueness."
+  },
+  "rotation_approximations": [],
+  "reference_policy": "All active export paths and declared hashes resolved under this bundle. Existing_record/legacy_mapping/source_recipe references are retained provenance into the original repository, not new runtime or bundle asset bindings.",
+  "standalone_material_tiles": [
+    "bills_band",
+    "bills_side",
+    "bills_top",
+    "brand_stamp",
+    "can_red",
+    "can_spout",
+    "card_back",
+    "card_front",
+    "chip",
+    "fob_buttons",
+    "fob_case",
+    "gold",
+    "grip_tape",
+    "gun_pistol_frame",
+    "gun_pistol_grip",
+    "gun_pistol_slide",
+    "gun_rifle_handguard",
+    "gun_rifle_mag",
+    "gun_rifle_receiver",
+    "gun_rifle_stock",
+    "gun_steel",
+    "leather",
+    "medkit_dark_trim",
+    "medkit_hardware",
+    "medkit_olive_nylon",
+    "medkit_patch",
+    "medkit_red_cross",
+    "medkit_webbing",
+    "medkit_zipper",
+    "shotgun_receiver",
+    "shotgun_wood",
+    "silver",
+    "smartphone_camera",
+    "smartphone_chassis",
+    "smartphone_screen",
+    "wood_ash"
+  ],
+  "errors": [],
+  "warnings": [
+    {
+      "check": "runtime_and_client_gate",
+      "asset": "release",
+      "detail": "Static source validation only. Engine binding, actual Java/Bedrock clients, signed NPC skins, gameplay, physics, world placement and deployment remain unverified."
+    }
+  ],
+  "client_verification": "NOT_RUN",
+  "runtime_integration": "PENDING",
+  "reproduce": "python tools/gtm128_validate.py --output creative/generated_128"
+}

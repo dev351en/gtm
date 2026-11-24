@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "theme": "indraprastha_dark",
+  "colors": {
+    "graphite": "#151B20",
+    "graphite_dark": "#0D1115",
+    "graphite_light": "#252F38",
+    "ark_gold": "#D6AD59",
+    "ark_gold_light": "#E8C87E",
+    "ark_gold_dark": "#B28834",
+    "emerald": "#236653",
+    "emerald_light": "#368871",
+    "emerald_dark": "#164437",
+    "sandstone": "#D2B997",
+    "sandstone_light": "#E5D4BC",
+    "terracotta": "#AD5637",
+    "terracotta_light": "#C96E4E",
+    "white": "#FFFFFF",
+    "gray_text": "#9DAAB6",
+    "red_alert": "#DC3545",
+    "blue_accent": "#2680EB"
+  },
+  "typography": {
+    "font_family_latin": "Inter, 'Segoe UI', -apple-system, sans-serif",
+    "font_family_devanagari": "'Noto Sans Devanagari', 'Mangal', sans-serif",
+    "font_sizes": {
+      "xs": "11px",
+      "sm": "13px",
+      "base": "15px",
+      "lg": "18px",
+      "xl": "22px",
+      "2xl": "28px",
+      "title": "36px"
+    }
+  },
+  "spacing_rem": {
+    "1": "0.25rem",
+    "2": "0.5rem",
+    "3": "0.75rem",
+    "4": "1rem",
+    "6": "1.5rem",
+    "8": "2rem"
+  },
+  "panels": [
+    {
+      "id": "panel_players",
+      "title": "Active Citizens & Roster",
+      "icon": "users",
+      "category": "operations"
+    },
+    {
+      "id": "panel_console",
+      "title": "Command Terminal",
+      "icon": "terminal",
+      "category": "system"
+    },
+    {
+      "id": "panel_worlds",
+      "title": "Metropolitan Districts & Anvil Chunks",
+      "icon": "map",
+      "category": "world"
+    },
+    {
+      "id": "panel_buildings",
+      "title": "46 Municipal Facilities & Sites",
+      "icon": "home",
+      "category": "urban"
+    },
+    {
+      "id": "panel_transport",
+      "title": "Transit, Traffic & Fleet Management",
+      "icon": "truck",
+      "category": "transit"
+    },
+    {
+      "id": "panel_npcs",
+      "title": "500 Citizens & Syndicate Gang Roster",
+      "icon": "user-check",
+      "category": "society"
+    },
+    {
+      "id": "panel_finance",
+      "title": "ARK Vault Ledger & Cash Economy",
+      "icon": "dollar-sign",
+      "category": "economy"
+    },
+    {
+      "id": "panel_loans",
+      "title": "Municipal Credit & Debt Recovery",
+      "icon": "credit-card",
+      "category": "economy"
+    },
+    {
+      "id": "panel_properties",
+      "title": "Real Estate Registry & Ownership",
+      "icon": "key",
+      "category": "property"
+    },
+    {
+      "id": "panel_festivals",
+      "title": "Seasonal Switchboard & Themes",
+      "icon": "calendar",
+      "category": "culture"
+    },
+    {
+      "id": "panel_media",
+      "title": "Indra 24 Broadcast & Advertising",
+      "icon": "tv",
+      "category": "media"
+    },
+    {
+      "id": "panel_hosting",
+      "title": "Cloud VPS Runtime & Memory",
+      "icon": "server",
+      "category": "system"
+    },
+    {
+      "id": "panel_backups",
+      "title": "Atomic Snapshots & Rollback Vault",
+      "icon": "archive",
+      "category": "system"
+    },
+    {
+      "id": "panel_updates",
+      "title": "Pack Pipeline & Integrity Audits",
+      "icon": "refresh-cw",
+      "category": "system"
+    }
+  ]
+}

@@ -1,0 +1,1024 @@
+{
+  "schema_version": "3.0.0",
+  "total_equipment": 92,
+  "hero_props_count": 11,
+  "categories": {
+    "protection": 55,
+    "civic": 20,
+    "entertainment": 10,
+    "effect": 5,
+    "property": 2
+  },
+  "hero_props": [
+    {
+      "id": "gtm:hero_medkit",
+      "title": "Trauma Medkit Pouch",
+      "java_model_path": "creative/source/models/equipment/user_props/hero_medkit.json",
+      "model_path": "creative/source/models/equipment/user_props/hero_medkit.geo.json",
+      "icon_path": "creative/source/icons/equipment/user_props/hero_medkit.png",
+      "cube_count": 74
+    },
+    {
+      "id": "gtm:hero_atm_card",
+      "title": "ARK VIP Debit Card",
+      "java_model_path": "creative/source/models/equipment/user_props/hero_atm_card.json",
+      "model_path": "creative/source/models/equipment/user_props/hero_atm_card.geo.json",
+      "icon_path": "creative/source/icons/equipment/user_props/hero_atm_card.png",
+      "cube_count": 6
+    },
+    {
+      "id": "gtm:hero_police_badge",
+      "title": "SDPD Detective Badge & Wallet",
+      "java_model_path": "creative/source/models/equipment/user_props/hero_police_badge.json",
+      "model_path": "creative/source/models/equipment/user_props/hero_police_badge.geo.json",
+      "icon_path": "creative/source/icons/equipment/user_props/hero_police_badge.png",
+      "cube_count": 185
+    },
+    {
+      "id": "gtm:hero_cash_bundle",
+      "title": "Cash Currency Stack",
+      "java_model_path": "creative/source/models/equipment/user_props/hero_cash_bundle.json",
+      "model_path": "creative/source/models/equipment/user_props/hero_cash_bundle.geo.json",
+      "icon_path": "creative/source/icons/equipment/user_props/hero_cash_bundle.png",
+      "cube_count": 10
+    },
+    {
+      "id": "gtm:hero_shotgun",
+      "title": "Shotgun Prop Mesh",
+      "java_model_path": "creative/source/models/equipment/user_props/hero_shotgun.json",
+      "model_path": "creative/source/models/equipment/user_props/hero_shotgun.geo.json",
+      "icon_path": "creative/source/icons/equipment/user_props/hero_shotgun.png",
+      "cube_count": 27
+    },
+    {
+      "id": "gtm:hero_jerrycan",
+      "title": "Fuel Jerrycan",
+      "java_model_path": "creative/source/models/equipment/user_props/hero_jerrycan.json",
+      "model_path": "creative/source/models/equipment/user_props/hero_jerrycan.geo.json",
+      "icon_path": "creative/source/icons/equipment/user_props/hero_jerrycan.png",
+      "cube_count": 24
+    },
+    {
+      "id": "gtm:hero_rifle",
+      "title": "Assault Rifle Prop Mesh",
+      "java_model_path": "creative/source/models/equipment/user_props/hero_rifle.json",
+      "model_path": "creative/source/models/equipment/user_props/hero_rifle.geo.json",
+      "icon_path": "creative/source/icons/equipment/user_props/hero_rifle.png",
+      "cube_count": 47
+    },
+    {
+      "id": "gtm:hero_key_fob",
+      "title": "Vehicle Smart Key Fob",
+      "java_model_path": "creative/source/models/equipment/user_props/hero_key_fob.json",
+      "model_path": "creative/source/models/equipment/user_props/hero_key_fob.geo.json",
+      "icon_path": "creative/source/icons/equipment/user_props/hero_key_fob.png",
+      "cube_count": 20
+    },
+    {
+      "id": "gtm:hero_pistol",
+      "title": "Sidearm Pistol Prop Mesh",
+      "java_model_path": "creative/source/models/equipment/user_props/hero_pistol.json",
+      "model_path": "creative/source/models/equipment/user_props/hero_pistol.geo.json",
+      "icon_path": "creative/source/icons/equipment/user_props/hero_pistol.png",
+      "cube_count": 23
+    },
+    {
+      "id": "gtm:hero_baseball_bat",
+      "title": "Wooden Baseball Bat",
+      "java_model_path": "creative/source/models/equipment/user_props/hero_baseball_bat.json",
+      "model_path": "creative/source/models/equipment/user_props/hero_baseball_bat.geo.json",
+      "icon_path": "creative/source/icons/equipment/user_props/hero_baseball_bat.png",
+      "cube_count": 20
+    },
+    {
+      "id": "gtm:hero_smg",
+      "title": "Compact SMG Prop Mesh",
+      "java_model_path": "creative/source/models/equipment/user_props/hero_smg.json",
+      "model_path": "creative/source/models/equipment/user_props/hero_smg.geo.json",
+      "icon_path": "creative/source/icons/equipment/user_props/hero_smg.png",
+      "cube_count": 24
+    }
+  ],
+  "equipment": [
+    {
+      "id": "gtm:tag_prism_arcade",
+      "category": "protection",
+      "title": "Prism Arcade Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_prism_arcade.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_prism_arcade.json",
+      "icon_path": "creative/source/icons/equipment/tag_prism_arcade.png",
+      "cube_count": 6,
+      "sha256": "7ca1a94bbb5645a2d1480efa57c785fbfeafd900c44f61850af877494b9f6359"
+    },
+    {
+      "id": "gtm:tag_prism_parade",
+      "category": "protection",
+      "title": "Prism Parade Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_prism_parade.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_prism_parade.json",
+      "icon_path": "creative/source/icons/equipment/tag_prism_parade.png",
+      "cube_count": 7,
+      "sha256": "429918d051f47fdd219c2051728aa118d61da7bdd650adc15e98f582c8208505"
+    },
+    {
+      "id": "gtm:tag_prism_relay",
+      "category": "protection",
+      "title": "Prism Relay Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_prism_relay.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_prism_relay.json",
+      "icon_path": "creative/source/icons/equipment/tag_prism_relay.png",
+      "cube_count": 7,
+      "sha256": "8948d24217403b5b9227a6140d476163c8dd1ac648e151297bd4f2984aec2594"
+    },
+    {
+      "id": "gtm:tag_prism_arena",
+      "category": "protection",
+      "title": "Prism Arena Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_prism_arena.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_prism_arena.json",
+      "icon_path": "creative/source/icons/equipment/tag_prism_arena.png",
+      "cube_count": 7,
+      "sha256": "265e12ca5a872ec54ae1043513a1bbf91e90990348f3d29f1b3f8e47e7305203"
+    },
+    {
+      "id": "gtm:tag_prism_night",
+      "category": "protection",
+      "title": "Prism Night Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_prism_night.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_prism_night.json",
+      "icon_path": "creative/source/icons/equipment/tag_prism_night.png",
+      "cube_count": 7,
+      "sha256": "66956656a95874a57e664f7f764b00a5573b15996548a44d7ff40de38cbda92e"
+    },
+    {
+      "id": "gtm:tag_comet_arcade",
+      "category": "protection",
+      "title": "Comet Arcade Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_comet_arcade.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_comet_arcade.json",
+      "icon_path": "creative/source/icons/equipment/tag_comet_arcade.png",
+      "cube_count": 6,
+      "sha256": "54a4371a2c918de819dcfb5d0dac4024ff6ac8681f2d80feaaaa813dbf9ef42d"
+    },
+    {
+      "id": "gtm:tag_comet_parade",
+      "category": "protection",
+      "title": "Comet Parade Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_comet_parade.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_comet_parade.json",
+      "icon_path": "creative/source/icons/equipment/tag_comet_parade.png",
+      "cube_count": 7,
+      "sha256": "d2638d671c7affe1d1a0adc24c55e4e2d324f76e91e0f98ba715b042ae728cd8"
+    },
+    {
+      "id": "gtm:tag_comet_relay",
+      "category": "protection",
+      "title": "Comet Relay Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_comet_relay.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_comet_relay.json",
+      "icon_path": "creative/source/icons/equipment/tag_comet_relay.png",
+      "cube_count": 7,
+      "sha256": "0c89f9f73e05c157ded252f1f32fc5fa22bb7fd55da17350dfa5e5eae72bccd1"
+    },
+    {
+      "id": "gtm:tag_comet_arena",
+      "category": "protection",
+      "title": "Comet Arena Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_comet_arena.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_comet_arena.json",
+      "icon_path": "creative/source/icons/equipment/tag_comet_arena.png",
+      "cube_count": 7,
+      "sha256": "21431ddab4a41701567b8d2fd4dd1ed0d56e04798f0d214ebe9736e866f699f8"
+    },
+    {
+      "id": "gtm:tag_comet_night",
+      "category": "protection",
+      "title": "Comet Night Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_comet_night.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_comet_night.json",
+      "icon_path": "creative/source/icons/equipment/tag_comet_night.png",
+      "cube_count": 7,
+      "sha256": "68a8f2b47f5c1a0ab41acc131fa437132e2b395580719e0383b59fdd31feeda9"
+    },
+    {
+      "id": "gtm:tag_halo_arcade",
+      "category": "protection",
+      "title": "Halo Arcade Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_halo_arcade.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_halo_arcade.json",
+      "icon_path": "creative/source/icons/equipment/tag_halo_arcade.png",
+      "cube_count": 7,
+      "sha256": "9da31baa086b2689fc42ea6d8015f3041149dc6803cceebebce377495d999d12"
+    },
+    {
+      "id": "gtm:tag_halo_parade",
+      "category": "protection",
+      "title": "Halo Parade Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_halo_parade.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_halo_parade.json",
+      "icon_path": "creative/source/icons/equipment/tag_halo_parade.png",
+      "cube_count": 8,
+      "sha256": "6ba01e2e5eb95561022b22dcedba6ba1a530513ee5648ef6b6eddbc5d67ea6a6"
+    },
+    {
+      "id": "gtm:tag_halo_relay",
+      "category": "protection",
+      "title": "Halo Relay Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_halo_relay.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_halo_relay.json",
+      "icon_path": "creative/source/icons/equipment/tag_halo_relay.png",
+      "cube_count": 8,
+      "sha256": "15a76701a9edfd33bdd3b29c1690373cd4181e95cfc5c8a31b68e806e752fcbf"
+    },
+    {
+      "id": "gtm:tag_halo_arena",
+      "category": "protection",
+      "title": "Halo Arena Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_halo_arena.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_halo_arena.json",
+      "icon_path": "creative/source/icons/equipment/tag_halo_arena.png",
+      "cube_count": 8,
+      "sha256": "3200068a7970d0143d277c2eb2e6d5b924171eecffa0e1970eb18aed0d8dc483"
+    },
+    {
+      "id": "gtm:tag_halo_night",
+      "category": "protection",
+      "title": "Halo Night Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_halo_night.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_halo_night.json",
+      "icon_path": "creative/source/icons/equipment/tag_halo_night.png",
+      "cube_count": 8,
+      "sha256": "0440cdf0ebdc1b978036690ce736616a64ad20f39670acb81cde77005762bf16"
+    },
+    {
+      "id": "gtm:tag_lattice_arcade",
+      "category": "protection",
+      "title": "Lattice Arcade Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_lattice_arcade.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_lattice_arcade.json",
+      "icon_path": "creative/source/icons/equipment/tag_lattice_arcade.png",
+      "cube_count": 7,
+      "sha256": "29643abbfe1ea9ab9a5419992c8ebd60f8e0ec51c5101679b598c98a00185473"
+    },
+    {
+      "id": "gtm:tag_lattice_parade",
+      "category": "protection",
+      "title": "Lattice Parade Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_lattice_parade.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_lattice_parade.json",
+      "icon_path": "creative/source/icons/equipment/tag_lattice_parade.png",
+      "cube_count": 8,
+      "sha256": "da1eaec837a917ccfdf4484d9b093f9097fe128016ff50a01e8a5629f088982e"
+    },
+    {
+      "id": "gtm:tag_lattice_relay",
+      "category": "protection",
+      "title": "Lattice Relay Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_lattice_relay.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_lattice_relay.json",
+      "icon_path": "creative/source/icons/equipment/tag_lattice_relay.png",
+      "cube_count": 8,
+      "sha256": "1ffd6e13afaf09ae9a1dfa181bb154c6fc4cf601f89763117c79b42ae1dc8d1d"
+    },
+    {
+      "id": "gtm:tag_lattice_arena",
+      "category": "protection",
+      "title": "Lattice Arena Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_lattice_arena.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_lattice_arena.json",
+      "icon_path": "creative/source/icons/equipment/tag_lattice_arena.png",
+      "cube_count": 8,
+      "sha256": "abdc9a4ae1c666ce806891c6734b3a5c0913aa568c30c5b9dc5c6f84800b09cd"
+    },
+    {
+      "id": "gtm:tag_lattice_night",
+      "category": "protection",
+      "title": "Lattice Night Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_lattice_night.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_lattice_night.json",
+      "icon_path": "creative/source/icons/equipment/tag_lattice_night.png",
+      "cube_count": 8,
+      "sha256": "e139cc5de39cdef259c476a2a3887302a06fc7ca531009a6255b27b280dacb40"
+    },
+    {
+      "id": "gtm:tag_pulse_arcade",
+      "category": "protection",
+      "title": "Pulse Arcade Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_pulse_arcade.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_pulse_arcade.json",
+      "icon_path": "creative/source/icons/equipment/tag_pulse_arcade.png",
+      "cube_count": 6,
+      "sha256": "a1a200a6c9bd495f56f7562ef08daf32e3b0af80ffaa5f052cb7d103ed85215c"
+    },
+    {
+      "id": "gtm:tag_pulse_parade",
+      "category": "protection",
+      "title": "Pulse Parade Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_pulse_parade.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_pulse_parade.json",
+      "icon_path": "creative/source/icons/equipment/tag_pulse_parade.png",
+      "cube_count": 7,
+      "sha256": "c67c9ec8b1b0da43279717e720af9047105715c715c57883da4fb520f64b47ff"
+    },
+    {
+      "id": "gtm:tag_pulse_relay",
+      "category": "protection",
+      "title": "Pulse Relay Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_pulse_relay.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_pulse_relay.json",
+      "icon_path": "creative/source/icons/equipment/tag_pulse_relay.png",
+      "cube_count": 7,
+      "sha256": "913541bd0e52d9fd0f9c84ff6e0ebb47461f5932226bba6580dc9de973de9fbc"
+    },
+    {
+      "id": "gtm:tag_pulse_arena",
+      "category": "protection",
+      "title": "Pulse Arena Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_pulse_arena.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_pulse_arena.json",
+      "icon_path": "creative/source/icons/equipment/tag_pulse_arena.png",
+      "cube_count": 7,
+      "sha256": "8a9638e7348da12b58f27bede7346536d52bc9cdc8e864f11a809191cc2366fd"
+    },
+    {
+      "id": "gtm:tag_pulse_night",
+      "category": "protection",
+      "title": "Pulse Night Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_pulse_night.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_pulse_night.json",
+      "icon_path": "creative/source/icons/equipment/tag_pulse_night.png",
+      "cube_count": 7,
+      "sha256": "c1f51ba82fc2a8b099bdc8085506e6b761ce92f321db076b06f5e14d2e84921d"
+    },
+    {
+      "id": "gtm:tag_lotus_arcade",
+      "category": "protection",
+      "title": "Lotus Arcade Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_lotus_arcade.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_lotus_arcade.json",
+      "icon_path": "creative/source/icons/equipment/tag_lotus_arcade.png",
+      "cube_count": 7,
+      "sha256": "84e6444bb8bf122e36c12b946a833646104cf419f308c2c0a047eb9650f255ee"
+    },
+    {
+      "id": "gtm:tag_lotus_parade",
+      "category": "protection",
+      "title": "Lotus Parade Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_lotus_parade.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_lotus_parade.json",
+      "icon_path": "creative/source/icons/equipment/tag_lotus_parade.png",
+      "cube_count": 8,
+      "sha256": "6f415d56d98ff890b6aa8e2685e8e4dca856950d352a094017024e7a33fc2e7a"
+    },
+    {
+      "id": "gtm:tag_lotus_relay",
+      "category": "protection",
+      "title": "Lotus Relay Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_lotus_relay.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_lotus_relay.json",
+      "icon_path": "creative/source/icons/equipment/tag_lotus_relay.png",
+      "cube_count": 8,
+      "sha256": "1c783f6c78813ca717b14d2fce7d9fee500467e35b371c8dcab62f381e4b87be"
+    },
+    {
+      "id": "gtm:tag_lotus_arena",
+      "category": "protection",
+      "title": "Lotus Arena Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_lotus_arena.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_lotus_arena.json",
+      "icon_path": "creative/source/icons/equipment/tag_lotus_arena.png",
+      "cube_count": 8,
+      "sha256": "d9cdc973621765faae264076045536da426d8aa7a9ee9eaefe115ef35fe86fb0"
+    },
+    {
+      "id": "gtm:tag_lotus_night",
+      "category": "protection",
+      "title": "Lotus Night Light Tag",
+      "model_path": "creative/source/models/equipment/protection/tag_lotus_night.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/tag_lotus_night.json",
+      "icon_path": "creative/source/icons/equipment/tag_lotus_night.png",
+      "cube_count": 8,
+      "sha256": "3e05b12e468ff79f3e397749e0b3bdb037ebfbee4d898449825c6b39637ca980"
+    },
+    {
+      "id": "gtm:festival_shield_local",
+      "category": "protection",
+      "title": "Local Festival Shield",
+      "model_path": "creative/source/models/equipment/protection/festival_shield_local.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/festival_shield_local.json",
+      "icon_path": "creative/source/icons/equipment/festival_shield_local.png",
+      "cube_count": 4,
+      "sha256": "5ca89cd951cfbb6e1969fa18565b57b2ed448d180e80da4e1210ed9723fcd686"
+    },
+    {
+      "id": "gtm:festival_shield_metro",
+      "category": "protection",
+      "title": "Metro Festival Shield",
+      "model_path": "creative/source/models/equipment/protection/festival_shield_metro.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/festival_shield_metro.json",
+      "icon_path": "creative/source/icons/equipment/festival_shield_metro.png",
+      "cube_count": 5,
+      "sha256": "6d3cf547142ea194810bfc3836a3a4059c389b59fa7f927dc2d81a4307b6ab4e"
+    },
+    {
+      "id": "gtm:festival_shield_harbour",
+      "category": "protection",
+      "title": "Harbour Festival Shield",
+      "model_path": "creative/source/models/equipment/protection/festival_shield_harbour.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/festival_shield_harbour.json",
+      "icon_path": "creative/source/icons/equipment/festival_shield_harbour.png",
+      "cube_count": 5,
+      "sha256": "ce0220a8f34c9f260061b68e91338735f0dd00c0e9d810f8c3526f513bb29b6d"
+    },
+    {
+      "id": "gtm:festival_shield_hill",
+      "category": "protection",
+      "title": "Hill Festival Shield",
+      "model_path": "creative/source/models/equipment/protection/festival_shield_hill.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/festival_shield_hill.json",
+      "icon_path": "creative/source/icons/equipment/festival_shield_hill.png",
+      "cube_count": 6,
+      "sha256": "4144697d63f2c2ab202449e876c2d973a13335f48c907d5db978c3bf972990c9"
+    },
+    {
+      "id": "gtm:festival_shield_night",
+      "category": "protection",
+      "title": "Night Festival Shield",
+      "model_path": "creative/source/models/equipment/protection/festival_shield_night.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/festival_shield_night.json",
+      "icon_path": "creative/source/icons/equipment/festival_shield_night.png",
+      "cube_count": 5,
+      "sha256": "251aeb28da60e3a306b1956f2786d625e0866030514bef68fc7109aa18aa8f89"
+    },
+    {
+      "id": "gtm:rescue_helmet_local",
+      "category": "protection",
+      "title": "Local Rescue Helmet",
+      "model_path": "creative/source/models/equipment/protection/rescue_helmet_local.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/rescue_helmet_local.json",
+      "icon_path": "creative/source/icons/equipment/rescue_helmet_local.png",
+      "cube_count": 4,
+      "sha256": "dabe3e0827a5879d622181eaf4f2f9a1df02f852a57c4f6314e6f26b03816a5b"
+    },
+    {
+      "id": "gtm:rescue_helmet_metro",
+      "category": "protection",
+      "title": "Metro Rescue Helmet",
+      "model_path": "creative/source/models/equipment/protection/rescue_helmet_metro.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/rescue_helmet_metro.json",
+      "icon_path": "creative/source/icons/equipment/rescue_helmet_metro.png",
+      "cube_count": 5,
+      "sha256": "909a73b4826fac264d5d75551f7b36bffb374c85285f22233e9aeae584b65992"
+    },
+    {
+      "id": "gtm:rescue_helmet_harbour",
+      "category": "protection",
+      "title": "Harbour Rescue Helmet",
+      "model_path": "creative/source/models/equipment/protection/rescue_helmet_harbour.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/rescue_helmet_harbour.json",
+      "icon_path": "creative/source/icons/equipment/rescue_helmet_harbour.png",
+      "cube_count": 5,
+      "sha256": "ec84734f9efba82eb14eabb1a40f141166743414e7757b190da471c08a882a70"
+    },
+    {
+      "id": "gtm:rescue_helmet_hill",
+      "category": "protection",
+      "title": "Hill Rescue Helmet",
+      "model_path": "creative/source/models/equipment/protection/rescue_helmet_hill.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/rescue_helmet_hill.json",
+      "icon_path": "creative/source/icons/equipment/rescue_helmet_hill.png",
+      "cube_count": 6,
+      "sha256": "1019c5e6cef226e9b70f6dccca812b463dcbd2a68ac6683cd909ffd282b64bec"
+    },
+    {
+      "id": "gtm:rescue_helmet_night",
+      "category": "protection",
+      "title": "Night Rescue Helmet",
+      "model_path": "creative/source/models/equipment/protection/rescue_helmet_night.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/rescue_helmet_night.json",
+      "icon_path": "creative/source/icons/equipment/rescue_helmet_night.png",
+      "cube_count": 5,
+      "sha256": "ae2f8019ed11b6b1eef645f22103577bbbdd3f5eed39ce3e22d19ea59e9e3ad2"
+    },
+    {
+      "id": "gtm:marshal_vest_local",
+      "category": "protection",
+      "title": "Local Marshal Vest",
+      "model_path": "creative/source/models/equipment/protection/marshal_vest_local.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/marshal_vest_local.json",
+      "icon_path": "creative/source/icons/equipment/marshal_vest_local.png",
+      "cube_count": 5,
+      "sha256": "9f0c05cd6b76d7b68eec9401f530f222aeb06766ee9c9474dfea4372e78dd70c"
+    },
+    {
+      "id": "gtm:marshal_vest_metro",
+      "category": "protection",
+      "title": "Metro Marshal Vest",
+      "model_path": "creative/source/models/equipment/protection/marshal_vest_metro.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/marshal_vest_metro.json",
+      "icon_path": "creative/source/icons/equipment/marshal_vest_metro.png",
+      "cube_count": 6,
+      "sha256": "d2e67aa39daa4be38862e3a6a0e8a488e769798f4d3c2da31fd2c4bf7d4ee952"
+    },
+    {
+      "id": "gtm:marshal_vest_harbour",
+      "category": "protection",
+      "title": "Harbour Marshal Vest",
+      "model_path": "creative/source/models/equipment/protection/marshal_vest_harbour.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/marshal_vest_harbour.json",
+      "icon_path": "creative/source/icons/equipment/marshal_vest_harbour.png",
+      "cube_count": 6,
+      "sha256": "15fd4786cd2214d187b811dde5414d96ce1e1035f52fa27b0f1f6c22a8df350c"
+    },
+    {
+      "id": "gtm:marshal_vest_hill",
+      "category": "protection",
+      "title": "Hill Marshal Vest",
+      "model_path": "creative/source/models/equipment/protection/marshal_vest_hill.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/marshal_vest_hill.json",
+      "icon_path": "creative/source/icons/equipment/marshal_vest_hill.png",
+      "cube_count": 7,
+      "sha256": "cb0fbd8db399540f5a473eeaa1ee951b71eac9ed7318a3c1863327c6bb8af63e"
+    },
+    {
+      "id": "gtm:marshal_vest_night",
+      "category": "protection",
+      "title": "Night Marshal Vest",
+      "model_path": "creative/source/models/equipment/protection/marshal_vest_night.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/marshal_vest_night.json",
+      "icon_path": "creative/source/icons/equipment/marshal_vest_night.png",
+      "cube_count": 6,
+      "sha256": "0bf968224303541b59227250beef724566aee2357004403c61b07d6380ce49b1"
+    },
+    {
+      "id": "gtm:padded_bracer_local",
+      "category": "protection",
+      "title": "Local Padded Bracer",
+      "model_path": "creative/source/models/equipment/protection/padded_bracer_local.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/padded_bracer_local.json",
+      "icon_path": "creative/source/icons/equipment/padded_bracer_local.png",
+      "cube_count": 4,
+      "sha256": "9d75477e8dd5b449afdaba771f9d29b12a4f38b100fdd72c235316215285bd14"
+    },
+    {
+      "id": "gtm:padded_bracer_metro",
+      "category": "protection",
+      "title": "Metro Padded Bracer",
+      "model_path": "creative/source/models/equipment/protection/padded_bracer_metro.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/padded_bracer_metro.json",
+      "icon_path": "creative/source/icons/equipment/padded_bracer_metro.png",
+      "cube_count": 5,
+      "sha256": "52ef3cd8a447e323fa69f1c861c83ea16817128036647df4799578454aaf694b"
+    },
+    {
+      "id": "gtm:padded_bracer_harbour",
+      "category": "protection",
+      "title": "Harbour Padded Bracer",
+      "model_path": "creative/source/models/equipment/protection/padded_bracer_harbour.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/padded_bracer_harbour.json",
+      "icon_path": "creative/source/icons/equipment/padded_bracer_harbour.png",
+      "cube_count": 5,
+      "sha256": "b403463cce36d49f3b7baf81963498c988513519a46293e855a804ccdc856c05"
+    },
+    {
+      "id": "gtm:padded_bracer_hill",
+      "category": "protection",
+      "title": "Hill Padded Bracer",
+      "model_path": "creative/source/models/equipment/protection/padded_bracer_hill.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/padded_bracer_hill.json",
+      "icon_path": "creative/source/icons/equipment/padded_bracer_hill.png",
+      "cube_count": 6,
+      "sha256": "ecddf4538d408b15a38fc5d87a85a8322d73f9e57342f1923cbe551e8dec6a00"
+    },
+    {
+      "id": "gtm:padded_bracer_night",
+      "category": "protection",
+      "title": "Night Padded Bracer",
+      "model_path": "creative/source/models/equipment/protection/padded_bracer_night.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/padded_bracer_night.json",
+      "icon_path": "creative/source/icons/equipment/padded_bracer_night.png",
+      "cube_count": 5,
+      "sha256": "627ba569a8ab2275faed9e02a3647bb86c3f22d6eb4b8912699606c24ff87cda"
+    },
+    {
+      "id": "gtm:visor_local",
+      "category": "protection",
+      "title": "Local Visor",
+      "model_path": "creative/source/models/equipment/protection/visor_local.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/visor_local.json",
+      "icon_path": "creative/source/icons/equipment/visor_local.png",
+      "cube_count": 5,
+      "sha256": "7e08987fd49a9e1dd062cb1553bd5fbf3850139d1d586c937a5b8a8ae7743b43"
+    },
+    {
+      "id": "gtm:visor_metro",
+      "category": "protection",
+      "title": "Metro Visor",
+      "model_path": "creative/source/models/equipment/protection/visor_metro.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/visor_metro.json",
+      "icon_path": "creative/source/icons/equipment/visor_metro.png",
+      "cube_count": 6,
+      "sha256": "88f9e85b8fbedaa72ae0c946b44de454af520b19fb3dee6c2c73b0deee9339c8"
+    },
+    {
+      "id": "gtm:visor_harbour",
+      "category": "protection",
+      "title": "Harbour Visor",
+      "model_path": "creative/source/models/equipment/protection/visor_harbour.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/visor_harbour.json",
+      "icon_path": "creative/source/icons/equipment/visor_harbour.png",
+      "cube_count": 6,
+      "sha256": "789af7073e278a2b702cc2706e6a31aa50b92840cf2cd5f5256be748c59aeac7"
+    },
+    {
+      "id": "gtm:visor_hill",
+      "category": "protection",
+      "title": "Hill Visor",
+      "model_path": "creative/source/models/equipment/protection/visor_hill.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/visor_hill.json",
+      "icon_path": "creative/source/icons/equipment/visor_hill.png",
+      "cube_count": 7,
+      "sha256": "06cc2d11417d1e9452b2e930529cc3d8ae6c9bf3abb513c68f2877072a7bf65e"
+    },
+    {
+      "id": "gtm:visor_night",
+      "category": "protection",
+      "title": "Night Visor",
+      "model_path": "creative/source/models/equipment/protection/visor_night.geo.json",
+      "java_model_path": "creative/source/models/equipment/protection/java/visor_night.json",
+      "icon_path": "creative/source/icons/equipment/visor_night.png",
+      "cube_count": 6,
+      "sha256": "862a994119c231bf3bd753e7906ef04cc237cb18a28c0bba06d0d2b6a57b3a0b"
+    },
+    {
+      "id": "gtm:bus_stop_flag",
+      "category": "civic",
+      "title": "Bus Stop Flag",
+      "model_path": "creative/source/models/equipment/civic/bus_stop_flag.geo.json",
+      "java_model_path": "creative/source/models/equipment/civic/java/bus_stop_flag.json",
+      "icon_path": "creative/source/icons/equipment/bus_stop_flag.png",
+      "cube_count": 4,
+      "sha256": "e16e997ab7f33dddfa6c3160d338a519319696b07e3beb552001615f3592d718"
+    },
+    {
+      "id": "gtm:metro_roundel",
+      "category": "civic",
+      "title": "Metro Roundel",
+      "model_path": "creative/source/models/equipment/civic/metro_roundel.geo.json",
+      "java_model_path": "creative/source/models/equipment/civic/java/metro_roundel.json",
+      "icon_path": "creative/source/icons/equipment/metro_roundel.png",
+      "cube_count": 4,
+      "sha256": "5f6df1ce2f8e95c85e3c9220ee69d3b059b0131de931c6408fa6138727b208f8"
+    },
+    {
+      "id": "gtm:district_marker",
+      "category": "civic",
+      "title": "District Marker",
+      "model_path": "creative/source/models/equipment/civic/district_marker.geo.json",
+      "java_model_path": "creative/source/models/equipment/civic/java/district_marker.json",
+      "icon_path": "creative/source/icons/equipment/district_marker.png",
+      "cube_count": 4,
+      "sha256": "9aaf4d089786060fb6b8dc09cffdce8c87b913373cc324fdc0e5d6b4c182f8ef"
+    },
+    {
+      "id": "gtm:queue_post",
+      "category": "civic",
+      "title": "Queue Post",
+      "model_path": "creative/source/models/equipment/civic/queue_post.geo.json",
+      "java_model_path": "creative/source/models/equipment/civic/java/queue_post.json",
+      "icon_path": "creative/source/icons/equipment/queue_post.png",
+      "cube_count": 3,
+      "sha256": "4a4389fc5a9245392656159c2538cff069afb2795969115952bae501da99a4b8"
+    },
+    {
+      "id": "gtm:parking_meter",
+      "category": "civic",
+      "title": "Parking Meter",
+      "model_path": "creative/source/models/equipment/civic/parking_meter.geo.json",
+      "java_model_path": "creative/source/models/equipment/civic/java/parking_meter.json",
+      "icon_path": "creative/source/icons/equipment/parking_meter.png",
+      "cube_count": 4,
+      "sha256": "4725cca2b29d5f750f69f212ee8d06bf14835339151801b0b61720fb5a721c60"
+    },
+    {
+      "id": "gtm:platform_clock",
+      "category": "civic",
+      "title": "Platform Clock",
+      "model_path": "creative/source/models/equipment/civic/platform_clock.geo.json",
+      "java_model_path": "creative/source/models/equipment/civic/java/platform_clock.json",
+      "icon_path": "creative/source/icons/equipment/platform_clock.png",
+      "cube_count": 5,
+      "sha256": "5b93faa542a036323cffc7c263264e9f88d3c1c0c8bc521c364ac10c81b7ffbe"
+    },
+    {
+      "id": "gtm:postal_box",
+      "category": "civic",
+      "title": "Postal Box",
+      "model_path": "creative/source/models/equipment/civic/postal_box.geo.json",
+      "java_model_path": "creative/source/models/equipment/civic/java/postal_box.json",
+      "icon_path": "creative/source/icons/equipment/postal_box.png",
+      "cube_count": 3,
+      "sha256": "ed02326bd2496602957a1586847a796e194ddb9e7c58f64e4cb50f21255fb52d"
+    },
+    {
+      "id": "gtm:street_bin",
+      "category": "civic",
+      "title": "Street Bin",
+      "model_path": "creative/source/models/equipment/civic/street_bin.geo.json",
+      "java_model_path": "creative/source/models/equipment/civic/java/street_bin.json",
+      "icon_path": "creative/source/icons/equipment/street_bin.png",
+      "cube_count": 3,
+      "sha256": "4b494b3f42024653f45fea523a9be3ef11079d83771fcefc8ef894ac421d534e"
+    },
+    {
+      "id": "gtm:first_aid_cabinet",
+      "category": "civic",
+      "title": "First Aid Cabinet",
+      "model_path": "creative/source/models/equipment/civic/first_aid_cabinet.geo.json",
+      "java_model_path": "creative/source/models/equipment/civic/java/first_aid_cabinet.json",
+      "icon_path": "creative/source/icons/equipment/first_aid_cabinet.png",
+      "cube_count": 4,
+      "sha256": "d2ea46dcbf6d1596acf24a50b0388a64185db3b32eeee6248fdadd88ec2b83d1"
+    },
+    {
+      "id": "gtm:hydration_station",
+      "category": "civic",
+      "title": "Hydration Station",
+      "model_path": "creative/source/models/equipment/civic/hydration_station.geo.json",
+      "java_model_path": "creative/source/models/equipment/civic/java/hydration_station.json",
+      "icon_path": "creative/source/icons/equipment/hydration_station.png",
+      "cube_count": 4,
+      "sha256": "ade864cdb09c7139bb34928bb71fbf6d191f13ca66b856b8651c37847c0f07b4"
+    },
+    {
+      "id": "gtm:road_cone",
+      "category": "civic",
+      "title": "Road Cone",
+      "model_path": "creative/source/models/equipment/civic/road_cone.geo.json",
+      "java_model_path": "creative/source/models/equipment/civic/java/road_cone.json",
+      "icon_path": "creative/source/icons/equipment/road_cone.png",
+      "cube_count": 4,
+      "sha256": "6623dae6f26ce0ca6251e1f4db2525f13b248be17155f0aee3a52c7880d99bd7"
+    },
+    {
+      "id": "gtm:hazard_bollard",
+      "category": "civic",
+      "title": "Hazard Bollard",
+      "model_path": "creative/source/models/equipment/civic/hazard_bollard.geo.json",
+      "java_model_path": "creative/source/models/equipment/civic/java/hazard_bollard.json",
+      "icon_path": "creative/source/icons/equipment/hazard_bollard.png",
+      "cube_count": 3,
+      "sha256": "9249376913bd890d7da12a4a6087f54ce39dff24b10f9ea1ac3e2e9ec9ae6b6c"
+    },
+    {
+      "id": "gtm:road_barrier",
+      "category": "civic",
+      "title": "Road Barrier",
+      "model_path": "creative/source/models/equipment/civic/road_barrier.geo.json",
+      "java_model_path": "creative/source/models/equipment/civic/java/road_barrier.json",
+      "icon_path": "creative/source/icons/equipment/road_barrier.png",
+      "cube_count": 4,
+      "sha256": "5a9bda3e03d8da3b5c5d389f2368872890ff1030114e5c038f951a72aed807c1"
+    },
+    {
+      "id": "gtm:civic_bench_sign",
+      "category": "civic",
+      "title": "Civic Bench Sign",
+      "model_path": "creative/source/models/equipment/civic/civic_bench_sign.geo.json",
+      "java_model_path": "creative/source/models/equipment/civic/java/civic_bench_sign.json",
+      "icon_path": "creative/source/icons/equipment/civic_bench_sign.png",
+      "cube_count": 4,
+      "sha256": "2cdc87ab8237a36f1e8eb87ab01dfaf927998b06fa24493cccde8791678e8ba7"
+    },
+    {
+      "id": "gtm:help_intercom",
+      "category": "civic",
+      "title": "Help Intercom",
+      "model_path": "creative/source/models/equipment/civic/help_intercom.geo.json",
+      "java_model_path": "creative/source/models/equipment/civic/java/help_intercom.json",
+      "icon_path": "creative/source/icons/equipment/help_intercom.png",
+      "cube_count": 4,
+      "sha256": "a643d69dc25707f64726394e89447ae12e469c648cd8f47e4a2e48fd24c7b290"
+    },
+    {
+      "id": "gtm:taxi_call_post",
+      "category": "civic",
+      "title": "Taxi Call Post",
+      "model_path": "creative/source/models/equipment/civic/taxi_call_post.geo.json",
+      "java_model_path": "creative/source/models/equipment/civic/java/taxi_call_post.json",
+      "icon_path": "creative/source/icons/equipment/taxi_call_post.png",
+      "cube_count": 4,
+      "sha256": "e41582904fc102fd9091a82cb6d221c984f40ad5cf0cb6728b233c6289f3eb88"
+    },
+    {
+      "id": "gtm:ticket_validator",
+      "category": "civic",
+      "title": "Ticket Validator",
+      "model_path": "creative/source/models/equipment/civic/ticket_validator.geo.json",
+      "java_model_path": "creative/source/models/equipment/civic/java/ticket_validator.json",
+      "icon_path": "creative/source/icons/equipment/ticket_validator.png",
+      "cube_count": 3,
+      "sha256": "27cd4dc951186cf7b1beb9ab155fb98ca6cd694d382a00df040c4cc49d7128ab"
+    },
+    {
+      "id": "gtm:news_display",
+      "category": "civic",
+      "title": "News Display",
+      "model_path": "creative/source/models/equipment/civic/news_display.geo.json",
+      "java_model_path": "creative/source/models/equipment/civic/java/news_display.json",
+      "icon_path": "creative/source/icons/equipment/news_display.png",
+      "cube_count": 4,
+      "sha256": "0949bcc521c3bbe2b2909899dc68f8037a6646edcf72bc1c92483009310905fd"
+    },
+    {
+      "id": "gtm:service_kiosk",
+      "category": "civic",
+      "title": "Service Kiosk",
+      "model_path": "creative/source/models/equipment/civic/service_kiosk.geo.json",
+      "java_model_path": "creative/source/models/equipment/civic/java/service_kiosk.json",
+      "icon_path": "creative/source/icons/equipment/service_kiosk.png",
+      "cube_count": 4,
+      "sha256": "5349c55881603e792358c53d4b42b76d7fc082959812fd9295d14e8392405d1a"
+    },
+    {
+      "id": "gtm:council_lectern",
+      "category": "civic",
+      "title": "Council Lectern",
+      "model_path": "creative/source/models/equipment/civic/council_lectern.geo.json",
+      "java_model_path": "creative/source/models/equipment/civic/java/council_lectern.json",
+      "icon_path": "creative/source/icons/equipment/council_lectern.png",
+      "cube_count": 4,
+      "sha256": "0c4946310d3e718e26b26a3445e613cc07acab5b292fd1dd3c54972f01e8f86d"
+    },
+    {
+      "id": "gtm:tabla_pair",
+      "category": "entertainment",
+      "title": "Tabla Pair",
+      "model_path": "creative/source/models/equipment/entertainment/tabla_pair.geo.json",
+      "java_model_path": "creative/source/models/equipment/entertainment/java/tabla_pair.json",
+      "icon_path": "creative/source/icons/equipment/tabla_pair.png",
+      "cube_count": 5,
+      "sha256": "afc0a3acefaf2ad103d1dffea318ea089dbc68f59c3b8825c28e52644ee95d97"
+    },
+    {
+      "id": "gtm:dhol",
+      "category": "entertainment",
+      "title": "Dhol",
+      "model_path": "creative/source/models/equipment/entertainment/dhol.geo.json",
+      "java_model_path": "creative/source/models/equipment/entertainment/java/dhol.json",
+      "icon_path": "creative/source/icons/equipment/dhol.png",
+      "cube_count": 4,
+      "sha256": "8dc3a4e83e1a345ef36b6093f2d2e4487e3ccf5b095e67800d8eabac834dcbeb"
+    },
+    {
+      "id": "gtm:harmonium",
+      "category": "entertainment",
+      "title": "Harmonium",
+      "model_path": "creative/source/models/equipment/entertainment/harmonium.geo.json",
+      "java_model_path": "creative/source/models/equipment/entertainment/java/harmonium.json",
+      "icon_path": "creative/source/icons/equipment/harmonium.png",
+      "cube_count": 4,
+      "sha256": "80f6bf8d8f601ea77833d289cd6afd7fab082702cea956ec1b7e5504b00a14ad"
+    },
+    {
+      "id": "gtm:studio_mic",
+      "category": "entertainment",
+      "title": "Studio Mic",
+      "model_path": "creative/source/models/equipment/entertainment/studio_mic.geo.json",
+      "java_model_path": "creative/source/models/equipment/entertainment/java/studio_mic.json",
+      "icon_path": "creative/source/icons/equipment/studio_mic.png",
+      "cube_count": 4,
+      "sha256": "730ace2e1dc35901cb272843f4c0813409ce70d1974d61b7d71ee23fa827ebb9"
+    },
+    {
+      "id": "gtm:dj_deck",
+      "category": "entertainment",
+      "title": "Dj Deck",
+      "model_path": "creative/source/models/equipment/entertainment/dj_deck.geo.json",
+      "java_model_path": "creative/source/models/equipment/entertainment/java/dj_deck.json",
+      "icon_path": "creative/source/icons/equipment/dj_deck.png",
+      "cube_count": 4,
+      "sha256": "28b32a1f2b82b2640af6e75aadb5a0356d7a471da0abb2a354c57b3ac883c3de"
+    },
+    {
+      "id": "gtm:speaker_stack",
+      "category": "entertainment",
+      "title": "Speaker Stack",
+      "model_path": "creative/source/models/equipment/entertainment/speaker_stack.geo.json",
+      "java_model_path": "creative/source/models/equipment/entertainment/java/speaker_stack.json",
+      "icon_path": "creative/source/icons/equipment/speaker_stack.png",
+      "cube_count": 4,
+      "sha256": "f564fd1c1c422f7d89395ab3555999003b3287fc6e4068cf833fa210179e127d"
+    },
+    {
+      "id": "gtm:cinema_projector",
+      "category": "entertainment",
+      "title": "Cinema Projector",
+      "model_path": "creative/source/models/equipment/entertainment/cinema_projector.geo.json",
+      "java_model_path": "creative/source/models/equipment/entertainment/java/cinema_projector.json",
+      "icon_path": "creative/source/icons/equipment/cinema_projector.png",
+      "cube_count": 5,
+      "sha256": "ea61dc9fbb8b8af2132d8433e1b90e1af8e85c3dee1de0034150a4bfc5f02f31"
+    },
+    {
+      "id": "gtm:dance_tile",
+      "category": "entertainment",
+      "title": "Dance Tile",
+      "model_path": "creative/source/models/equipment/entertainment/dance_tile.geo.json",
+      "java_model_path": "creative/source/models/equipment/entertainment/java/dance_tile.json",
+      "icon_path": "creative/source/icons/equipment/dance_tile.png",
+      "cube_count": 5,
+      "sha256": "2de4e338d5c1023f8a3136c0b322838f48e2c36c1cae3c3f8305ea69e63bdeff"
+    },
+    {
+      "id": "gtm:stage_spotlight",
+      "category": "entertainment",
+      "title": "Stage Spotlight",
+      "model_path": "creative/source/models/equipment/entertainment/stage_spotlight.geo.json",
+      "java_model_path": "creative/source/models/equipment/entertainment/java/stage_spotlight.json",
+      "icon_path": "creative/source/icons/equipment/stage_spotlight.png",
+      "cube_count": 5,
+      "sha256": "8133543a3b1c9badfe559b6c2868ffca5db676aaf25c5e1b2fbb55d0dce0f11a"
+    },
+    {
+      "id": "gtm:radio_receiver",
+      "category": "entertainment",
+      "title": "Radio Receiver",
+      "model_path": "creative/source/models/equipment/entertainment/radio_receiver.geo.json",
+      "java_model_path": "creative/source/models/equipment/entertainment/java/radio_receiver.json",
+      "icon_path": "creative/source/icons/equipment/radio_receiver.png",
+      "cube_count": 4,
+      "sha256": "a47ee166bbd9d49b734a2010300018ae4f168a7aac54fdb18b9a1735a1932a91"
+    },
+    {
+      "id": "gtm:confetti_puck",
+      "category": "effect",
+      "title": "Confetti Puck",
+      "model_path": "creative/source/models/equipment/effect/confetti_puck.geo.json",
+      "java_model_path": "creative/source/models/equipment/effect/java/confetti_puck.json",
+      "icon_path": "creative/source/icons/equipment/confetti_puck.png",
+      "cube_count": 4,
+      "sha256": "a8f2c10d753fd72fb01063a4943f2770fa9214222f3e501e67d1ac13add8a7cf"
+    },
+    {
+      "id": "gtm:glow_beacon",
+      "category": "effect",
+      "title": "Glow Beacon",
+      "model_path": "creative/source/models/equipment/effect/glow_beacon.geo.json",
+      "java_model_path": "creative/source/models/equipment/effect/java/glow_beacon.json",
+      "icon_path": "creative/source/icons/equipment/glow_beacon.png",
+      "cube_count": 4,
+      "sha256": "3e6e403a1d630a9fac948fab415531fbb1fbd8aea719b7f19eff2244e14496f8"
+    },
+    {
+      "id": "gtm:colour_capsule",
+      "category": "effect",
+      "title": "Colour Capsule",
+      "model_path": "creative/source/models/equipment/effect/colour_capsule.geo.json",
+      "java_model_path": "creative/source/models/equipment/effect/java/colour_capsule.json",
+      "icon_path": "creative/source/icons/equipment/colour_capsule.png",
+      "cube_count": 4,
+      "sha256": "b36d2b92c9307a0fd8ea3882c3765e203835eedf7948701e1161a0e72aeb979a"
+    },
+    {
+      "id": "gtm:spark_orb",
+      "category": "effect",
+      "title": "Spark Orb",
+      "model_path": "creative/source/models/equipment/effect/spark_orb.geo.json",
+      "java_model_path": "creative/source/models/equipment/effect/java/spark_orb.json",
+      "icon_path": "creative/source/icons/equipment/spark_orb.png",
+      "cube_count": 4,
+      "sha256": "ee36c475cbd099d22ae49ba1d191d0f371e7afdcb04777557394e1ce2e801eb2"
+    },
+    {
+      "id": "gtm:mist_totem",
+      "category": "effect",
+      "title": "Mist Totem",
+      "model_path": "creative/source/models/equipment/effect/mist_totem.geo.json",
+      "java_model_path": "creative/source/models/equipment/effect/java/mist_totem.json",
+      "icon_path": "creative/source/icons/equipment/mist_totem.png",
+      "cube_count": 4,
+      "sha256": "deb14d44d8461392e25d4f58581893069ddfa0c11809fe0dba24c661bffc4357"
+    },
+    {
+      "id": "gtm:flat_key",
+      "category": "property",
+      "title": "Flat Key",
+      "model_path": "creative/source/models/equipment/property/flat_key.geo.json",
+      "java_model_path": "creative/source/models/equipment/property/java/flat_key.json",
+      "icon_path": "creative/source/icons/equipment/flat_key.png",
+      "cube_count": 4,
+      "sha256": "bed84ab8fbf85920dea3cb92541a5e235a959c2ee0d03b038135d3a58e77de64"
+    },
+    {
+      "id": "gtm:property_deed",
+      "category": "property",
+      "title": "Property Deed",
+      "model_path": "creative/source/models/equipment/property/property_deed.geo.json",
+      "java_model_path": "creative/source/models/equipment/property/java/property_deed.json",
+      "icon_path": "creative/source/icons/equipment/property_deed.png",
+      "cube_count": 3,
+      "sha256": "497d2a9bc18ae6f41694a89b40f6ebc0a6a4cf3c5f12a77dad9f2954366ec48c"
+    }
+  ]
+}

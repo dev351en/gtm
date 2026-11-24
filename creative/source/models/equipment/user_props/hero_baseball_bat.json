@@ -1,0 +1,794 @@
+{
+  "credit": "SD Craft - original Minecraft City RP prop model",
+  "ambientocclusion": false,
+  "gui_light": "front",
+  "textures": {
+    "wood_ash": "sdcraft:item/bat_wood",
+    "grip_tape": "sdcraft:item/bat_grip",
+    "brand_stamp": "sdcraft:item/bat_stamp",
+    "particle": "#wood_ash"
+  },
+  "elements": [
+    {
+      "name": "bottom_knob",
+      "from": [
+        6.9,
+        0.5,
+        6.9
+      ],
+      "to": [
+        9.1,
+        1.15,
+        9.1
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wood_ash"
+        },
+        "south": {
+          "texture": "#wood_ash"
+        },
+        "east": {
+          "texture": "#wood_ash"
+        },
+        "west": {
+          "texture": "#wood_ash"
+        },
+        "up": {
+          "texture": "#wood_ash"
+        },
+        "down": {
+          "texture": "#wood_ash"
+        }
+      }
+    },
+    {
+      "name": "handle_core",
+      "from": [
+        7.35,
+        1.0,
+        7.35
+      ],
+      "to": [
+        8.65,
+        5.6,
+        8.65
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wood_ash"
+        },
+        "south": {
+          "texture": "#wood_ash"
+        },
+        "east": {
+          "texture": "#wood_ash"
+        },
+        "west": {
+          "texture": "#wood_ash"
+        },
+        "up": {
+          "texture": "#wood_ash"
+        },
+        "down": {
+          "texture": "#wood_ash"
+        }
+      }
+    },
+    {
+      "name": "throat_taper_lower",
+      "from": [
+        7.08,
+        5.45,
+        7.08
+      ],
+      "to": [
+        8.92,
+        7.2,
+        8.92
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wood_ash"
+        },
+        "south": {
+          "texture": "#wood_ash"
+        },
+        "east": {
+          "texture": "#wood_ash"
+        },
+        "west": {
+          "texture": "#wood_ash"
+        },
+        "up": {
+          "texture": "#wood_ash"
+        },
+        "down": {
+          "texture": "#wood_ash"
+        }
+      }
+    },
+    {
+      "name": "throat_taper_upper",
+      "from": [
+        6.78,
+        7.05,
+        6.78
+      ],
+      "to": [
+        9.22,
+        8.7,
+        9.22
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wood_ash"
+        },
+        "south": {
+          "texture": "#wood_ash"
+        },
+        "east": {
+          "texture": "#wood_ash"
+        },
+        "west": {
+          "texture": "#wood_ash"
+        },
+        "up": {
+          "texture": "#wood_ash"
+        },
+        "down": {
+          "texture": "#wood_ash"
+        }
+      }
+    },
+    {
+      "name": "barrel_main",
+      "from": [
+        6.43,
+        8.5,
+        6.43
+      ],
+      "to": [
+        9.57,
+        14.1,
+        9.57
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wood_ash"
+        },
+        "south": {
+          "texture": "#wood_ash"
+        },
+        "east": {
+          "texture": "#wood_ash"
+        },
+        "west": {
+          "texture": "#wood_ash"
+        },
+        "up": {
+          "texture": "#wood_ash"
+        },
+        "down": {
+          "texture": "#wood_ash"
+        }
+      }
+    },
+    {
+      "name": "barrel_tip",
+      "from": [
+        6.65,
+        13.95,
+        6.65
+      ],
+      "to": [
+        9.35,
+        14.7,
+        9.35
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wood_ash"
+        },
+        "south": {
+          "texture": "#wood_ash"
+        },
+        "east": {
+          "texture": "#wood_ash"
+        },
+        "west": {
+          "texture": "#wood_ash"
+        },
+        "up": {
+          "texture": "#wood_ash"
+        },
+        "down": {
+          "texture": "#wood_ash"
+        }
+      }
+    },
+    {
+      "name": "barrel_end_grain",
+      "from": [
+        6.82,
+        14.65,
+        6.82
+      ],
+      "to": [
+        9.18,
+        14.81,
+        9.18
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brand_stamp"
+        },
+        "south": {
+          "texture": "#brand_stamp"
+        },
+        "east": {
+          "texture": "#brand_stamp"
+        },
+        "west": {
+          "texture": "#brand_stamp"
+        },
+        "up": {
+          "texture": "#brand_stamp"
+        },
+        "down": {
+          "texture": "#brand_stamp"
+        }
+      }
+    },
+    {
+      "name": "manufacturer_stamping",
+      "from": [
+        7.3,
+        10.95,
+        6.32
+      ],
+      "to": [
+        8.7,
+        12.55,
+        6.45
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brand_stamp"
+        },
+        "south": {
+          "texture": "#brand_stamp"
+        },
+        "east": {
+          "texture": "#brand_stamp"
+        },
+        "west": {
+          "texture": "#brand_stamp"
+        },
+        "up": {
+          "texture": "#brand_stamp"
+        },
+        "down": {
+          "texture": "#brand_stamp"
+        }
+      }
+    },
+    {
+      "name": "spiral_grip_band_0",
+      "from": [
+        7.28,
+        1.38,
+        7.28
+      ],
+      "to": [
+        8.72,
+        1.5599999999999998,
+        7.39
+      ],
+      "faces": {
+        "north": {
+          "texture": "#grip_tape"
+        },
+        "south": {
+          "texture": "#grip_tape"
+        },
+        "east": {
+          "texture": "#grip_tape"
+        },
+        "west": {
+          "texture": "#grip_tape"
+        },
+        "up": {
+          "texture": "#grip_tape"
+        },
+        "down": {
+          "texture": "#grip_tape"
+        }
+      }
+    },
+    {
+      "name": "spiral_grip_band_1",
+      "from": [
+        8.58,
+        1.7,
+        7.28
+      ],
+      "to": [
+        8.72,
+        1.88,
+        8.72
+      ],
+      "faces": {
+        "north": {
+          "texture": "#grip_tape"
+        },
+        "south": {
+          "texture": "#grip_tape"
+        },
+        "east": {
+          "texture": "#grip_tape"
+        },
+        "west": {
+          "texture": "#grip_tape"
+        },
+        "up": {
+          "texture": "#grip_tape"
+        },
+        "down": {
+          "texture": "#grip_tape"
+        }
+      }
+    },
+    {
+      "name": "spiral_grip_band_2",
+      "from": [
+        7.28,
+        2.02,
+        8.61
+      ],
+      "to": [
+        8.72,
+        2.2,
+        8.72
+      ],
+      "faces": {
+        "north": {
+          "texture": "#grip_tape"
+        },
+        "south": {
+          "texture": "#grip_tape"
+        },
+        "east": {
+          "texture": "#grip_tape"
+        },
+        "west": {
+          "texture": "#grip_tape"
+        },
+        "up": {
+          "texture": "#grip_tape"
+        },
+        "down": {
+          "texture": "#grip_tape"
+        }
+      }
+    },
+    {
+      "name": "spiral_grip_band_3",
+      "from": [
+        7.28,
+        2.34,
+        7.28
+      ],
+      "to": [
+        7.42,
+        2.52,
+        8.72
+      ],
+      "faces": {
+        "north": {
+          "texture": "#grip_tape"
+        },
+        "south": {
+          "texture": "#grip_tape"
+        },
+        "east": {
+          "texture": "#grip_tape"
+        },
+        "west": {
+          "texture": "#grip_tape"
+        },
+        "up": {
+          "texture": "#grip_tape"
+        },
+        "down": {
+          "texture": "#grip_tape"
+        }
+      }
+    },
+    {
+      "name": "spiral_grip_band_4",
+      "from": [
+        7.28,
+        2.66,
+        7.28
+      ],
+      "to": [
+        8.72,
+        2.8400000000000003,
+        7.39
+      ],
+      "faces": {
+        "north": {
+          "texture": "#grip_tape"
+        },
+        "south": {
+          "texture": "#grip_tape"
+        },
+        "east": {
+          "texture": "#grip_tape"
+        },
+        "west": {
+          "texture": "#grip_tape"
+        },
+        "up": {
+          "texture": "#grip_tape"
+        },
+        "down": {
+          "texture": "#grip_tape"
+        }
+      }
+    },
+    {
+      "name": "spiral_grip_band_5",
+      "from": [
+        8.58,
+        2.98,
+        7.28
+      ],
+      "to": [
+        8.72,
+        3.16,
+        8.72
+      ],
+      "faces": {
+        "north": {
+          "texture": "#grip_tape"
+        },
+        "south": {
+          "texture": "#grip_tape"
+        },
+        "east": {
+          "texture": "#grip_tape"
+        },
+        "west": {
+          "texture": "#grip_tape"
+        },
+        "up": {
+          "texture": "#grip_tape"
+        },
+        "down": {
+          "texture": "#grip_tape"
+        }
+      }
+    },
+    {
+      "name": "spiral_grip_band_6",
+      "from": [
+        7.28,
+        3.3,
+        8.61
+      ],
+      "to": [
+        8.72,
+        3.48,
+        8.72
+      ],
+      "faces": {
+        "north": {
+          "texture": "#grip_tape"
+        },
+        "south": {
+          "texture": "#grip_tape"
+        },
+        "east": {
+          "texture": "#grip_tape"
+        },
+        "west": {
+          "texture": "#grip_tape"
+        },
+        "up": {
+          "texture": "#grip_tape"
+        },
+        "down": {
+          "texture": "#grip_tape"
+        }
+      }
+    },
+    {
+      "name": "spiral_grip_band_7",
+      "from": [
+        7.28,
+        3.62,
+        7.28
+      ],
+      "to": [
+        7.42,
+        3.8000000000000003,
+        8.72
+      ],
+      "faces": {
+        "north": {
+          "texture": "#grip_tape"
+        },
+        "south": {
+          "texture": "#grip_tape"
+        },
+        "east": {
+          "texture": "#grip_tape"
+        },
+        "west": {
+          "texture": "#grip_tape"
+        },
+        "up": {
+          "texture": "#grip_tape"
+        },
+        "down": {
+          "texture": "#grip_tape"
+        }
+      }
+    },
+    {
+      "name": "spiral_grip_band_8",
+      "from": [
+        7.28,
+        3.94,
+        7.28
+      ],
+      "to": [
+        8.72,
+        4.12,
+        7.39
+      ],
+      "faces": {
+        "north": {
+          "texture": "#grip_tape"
+        },
+        "south": {
+          "texture": "#grip_tape"
+        },
+        "east": {
+          "texture": "#grip_tape"
+        },
+        "west": {
+          "texture": "#grip_tape"
+        },
+        "up": {
+          "texture": "#grip_tape"
+        },
+        "down": {
+          "texture": "#grip_tape"
+        }
+      }
+    },
+    {
+      "name": "spiral_grip_band_9",
+      "from": [
+        8.58,
+        4.26,
+        7.28
+      ],
+      "to": [
+        8.72,
+        4.4399999999999995,
+        8.72
+      ],
+      "faces": {
+        "north": {
+          "texture": "#grip_tape"
+        },
+        "south": {
+          "texture": "#grip_tape"
+        },
+        "east": {
+          "texture": "#grip_tape"
+        },
+        "west": {
+          "texture": "#grip_tape"
+        },
+        "up": {
+          "texture": "#grip_tape"
+        },
+        "down": {
+          "texture": "#grip_tape"
+        }
+      }
+    },
+    {
+      "name": "spiral_grip_band_10",
+      "from": [
+        7.28,
+        4.58,
+        8.61
+      ],
+      "to": [
+        8.72,
+        4.76,
+        8.72
+      ],
+      "faces": {
+        "north": {
+          "texture": "#grip_tape"
+        },
+        "south": {
+          "texture": "#grip_tape"
+        },
+        "east": {
+          "texture": "#grip_tape"
+        },
+        "west": {
+          "texture": "#grip_tape"
+        },
+        "up": {
+          "texture": "#grip_tape"
+        },
+        "down": {
+          "texture": "#grip_tape"
+        }
+      }
+    },
+    {
+      "name": "spiral_grip_band_11",
+      "from": [
+        7.28,
+        4.9,
+        7.28
+      ],
+      "to": [
+        7.42,
+        5.08,
+        8.72
+      ],
+      "faces": {
+        "north": {
+          "texture": "#grip_tape"
+        },
+        "south": {
+          "texture": "#grip_tape"
+        },
+        "east": {
+          "texture": "#grip_tape"
+        },
+        "west": {
+          "texture": "#grip_tape"
+        },
+        "up": {
+          "texture": "#grip_tape"
+        },
+        "down": {
+          "texture": "#grip_tape"
+        }
+      }
+    }
+  ],
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -45,
+        35
+      ],
+      "translation": [
+        1.2,
+        2.2,
+        0
+      ],
+      "scale": [
+        1.08,
+        1.08,
+        1.08
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        -35
+      ],
+      "translation": [
+        -1.2,
+        2.2,
+        0
+      ],
+      "scale": [
+        1.08,
+        1.08,
+        1.08
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        0,
+        45
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.94,
+        0.94,
+        0.94
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        0,
+        -45
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.94,
+        0.94,
+        0.94
+      ]
+    },
+    "gui": {
+      "rotation": [
+        15,
+        -35,
+        30
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.96,
+        0.96,
+        0.96
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "translation": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        0.74,
+        0.74,
+        0.74
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        30
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.95,
+        0.95,
+        0.95
+      ]
+    }
+  }
+}

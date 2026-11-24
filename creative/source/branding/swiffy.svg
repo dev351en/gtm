@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="g_swiffy" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#252F38"/>
+      <stop offset="100%" stop-color="#0D1115"/>
+    </radialGradient>
+  </defs>
+  <rect width="256" height="256" rx="40" fill="url(#g_swiffy)"/>
+  <rect x="6" y="6" width="244" height="244" rx="34" fill="none" stroke="#AD5637" stroke-width="4" stroke-opacity="0.6"/>
+  <path d="M128 42 C172 42 198 76 198 114 C198 162 128 218 128 218 C128 218 58 162 58 114 C58 76 84 42 128 42 Z" fill="#AD5637"/><polygon points="140,78 104,126 128,126 118,164 156,114 132,114" fill="#FFF3D1"/>
+</svg>
