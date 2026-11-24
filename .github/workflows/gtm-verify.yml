@@ -1,0 +1,39 @@
+name: GTM verification (no deployment)
+on:
+  push:
+    branches: [gtm/revision-4-foundation]
+    paths:
+      - 'source/**'
+      - 'tools/generate_npc_assets.py'
+      - '.github/workflows/gtm-verify.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: gtm-verify-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '9.2.1'
+      - name: Full plugin build and checks
+        working-directory: source
+        run: gradle --no-daemon clean check jar
+      - name: Upload candidate JAR (not a release)
+        uses: actions/upload-artifact@v4
+        with:
+          name: gtm-unreleased-candidate
+          path: source/build/libs/*.jar
+          if-no-files-found: error
+          retention-days: 7
