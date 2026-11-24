@@ -28,6 +28,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
     private GtmDialogue gtmDialogue;
     private GtmLoans gtmLoans;
     private GtmProperties gtmProperties;
+    private GtmFood gtmFood;
     private NpcService npcs;
     private RestorationEngine restoration;
     private GunEngine guns;
@@ -78,6 +79,12 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
         dataFile = new File(getDataFolder(), "runtime.yml");
         data = YamlConfiguration.loadConfiguration(dataFile);
         ledger = new Ledger(getDataFolder());
+        gtmFood=new GtmFood(this,ledger);
+        Bukkit.getPluginManager().registerEvents(gtmFood,this);
+        Objects.requireNonNull(getCommand("gtmfood")).setExecutor((sender,command,label,args)->{
+            if(sender instanceof Player p)gtmFood.open(p,args.length==0?"zomatoo":args[0].toLowerCase(Locale.ROOT));
+            return true;
+        });
         gtmLoans = new GtmLoans(this,ledger);
         Bukkit.getPluginManager().registerEvents(gtmLoans,this);
         gtmProperties=new GtmProperties(this,ledger);
@@ -697,6 +704,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
     GunEngine guns() { return guns; }
     GtmLoans loans() { return gtmLoans; }
     GtmProperties properties() { return gtmProperties; }
+    GtmFood food() { return gtmFood; }
     String profession(UUID id) { return data.getString("players." + id + ".profession", ""); }
 
     private boolean near(Player p, String id, int radius) {
