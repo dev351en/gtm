@@ -42,6 +42,9 @@ commands:
     description: Open the Creative Testing Arsenal for vehicles, guns, ammo, cash, and teleportation
     usage: /arsenal
     aliases: [creativemenu, testitems, testing]
+  gtmproperty:
+    description: Open experimental surveyed property catalogue
+    usage: /gtmproperty
   gtmloan:
     description: Open experimental ARK lending menu
     usage: /gtmloan
@@ -62,6 +65,12 @@ permissions:
   sdcraft.profession.firefighter:
     default: op
 
+  gtm.properties:
+    description: Use experimental property services after authentication
+    default: false
+  gtm.properties.admin:
+    description: Administrator override for experimental properties
+    default: op
   gtm.loans:
     description: Use experimental ARK loans after authentication
     default: false
