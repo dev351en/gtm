@@ -5,6 +5,19 @@
 
 ---
 
+## [1.6.0-dev.1] — 2026-11-24: GTM Revision 4.0 foundation (not a playable release)
+
+- Created isolated development branch `gtm/revision-4-foundation`; no changes to production, main, world or Daytona.
+- Added platform-neutral VehicleState rules: bounded energy consumption, odometer, idle/refill, health thresholds, repair, one-time destruction transition. Not yet wired to vehicle movement or persistence.
+- Added RoleplayText parser: explicit double slash plus whitespace, bounded Unicode text, editor command protection, language detection and varied reaction strings.
+- Added experimental GtmDialogue Paper adapter for submitted local dialogue, nearby visible NPC targeting and temporary moving text displays. Disabled by default, permission explicitly required. No live validation; current reply engine English/Hindi, not full Hinglish or AI inference.
+- Local dependency-free javac/Java 21 smoke checks: 36 passed; checked source blob hashes. Full Paper Java 25 build and client tests blocked by environment/dependencies; existing reported tests not rerun.
+- Added PROJECT_SPEC.md, AGENTS.md and docs/FOUNDATION_TEST_REPORT.md with scope, test reproduction and audit blockers.
+- Asset production, building renovation, crossplay HUD, transport integration, banking, gangs, missions, dashboard, external AI and deployment remain pending. No release ZIP claiming completed game.
+- Do not deploy this development revision. Verify authentication, build dependencies, world geometry, account quotas and backups before staging; never expose credentials.
+
+---
+
 ## [1.5.0] — 2026-11-24: Custom 3D Models, GTA iFruit Icons, Creative Arsenal Upgrade & Resource Pack 26.3 Deployment
 
 ### 🌟 Release Overview
