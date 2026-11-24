@@ -9,18 +9,25 @@ repositories {
     mavenCentral()
     maven("https://repo.papermc.io/repository/maven-public/")
     maven("https://maven.citizensnpcs.co/repo")
+    maven("https://repo.codemc.io/repository/creatorfromhell/") {
+        content { includeGroup("net.milkbowl.vault") }
+    }
 }
+
+val localVault = file("../plugins/VaultUnlocked-2.20.3.jar")
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:26.3.build.255-stable")
     compileOnly("net.citizensnpcs:citizensapi:2.0.44-SNAPSHOT")
-    compileOnly(files("../plugins/VaultUnlocked-2.20.3.jar"))
+    if (localVault.isFile) compileOnly(files(localVault))
+    else compileOnly("net.milkbowl.vault:VaultUnlockedAPI:2.20")
 
     testImplementation(platform("org.junit:junit-bom:5.11.4"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
     testImplementation("io.papermc.paper:paper-api:26.3.build.255-stable")
-    testImplementation(files("../plugins/VaultUnlocked-2.20.3.jar"))
+    if (localVault.isFile) testImplementation(files(localVault))
+    else testImplementation("net.milkbowl.vault:VaultUnlockedAPI:2.20")
 }
 
 java {
@@ -45,4 +52,19 @@ tasks.jar {
     archiveClassifier.set("")
     archiveVersion.set("1.0.0")
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+// Explicit smoke suites are executable Java mains, not JUnit test classes.
+tasks.register<JavaExec>("foundationChecks") {
+    dependsOn(tasks.testClasses)
+    classpath = sourceSets.test.get().runtimeClasspath
+    mainClass.set("com.sdcraft.core.gtm.FoundationChecks")
+}
+tasks.register<JavaExec>("civicChecks") {
+    dependsOn(tasks.testClasses)
+    classpath = sourceSets.test.get().runtimeClasspath
+    mainClass.set("com.sdcraft.core.gtm.CivicChecks")
+}
+tasks.check {
+    dependsOn("foundationChecks", "civicChecks")
 }
