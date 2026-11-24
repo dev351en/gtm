@@ -190,6 +190,7 @@ final class GtaEngine implements Listener {
             else if (action.equals("garage")) showGarage(player);
             else if (action.equals("wanted")) showWanted(player);
             else if (action.equals("account")) player.performCommand("sdc account");
+            else if (action.equals("loans") && plugin.loans()!=null) Bukkit.getScheduler().runTask(plugin,()->plugin.loans().open(player));
             else if (action.startsWith("buy:")) buyShopItem(player, action.substring(4));
             else if (action.startsWith("mission:")) startMission(player, action.substring(8));
         } catch (Exception ex) {
@@ -575,7 +576,8 @@ final class GtaEngine implements Listener {
     }
 
     private void openPhone(Player player) {
-        if (Bukkit.getPluginManager().isPluginEnabled("CommandPanels")
+        boolean lending=plugin.loans()!=null && plugin.loans().available(player);
+        if (!lending && Bukkit.getPluginManager().isPluginEnabled("CommandPanels")
                 && Bukkit.dispatchCommand(player, "cityphone")) return;
         Inventory inventory = Bukkit.createInventory(null, 27, PHONE_TITLE);
         fill(inventory);
@@ -584,6 +586,7 @@ final class GtaEngine implements Listener {
         inventory.setItem(12, menuApp(CityItems.APP_GEAR, "§c§lAmmu-Nation", "shop", "§7Browse weapons and ammunition"));
         inventory.setItem(14, menuApp(CityItems.APP_GARAGE, "§a§lMotorsport Garage", "garage", "§7Owned vehicles and dealership"));
         inventory.setItem(15, menuApp(CityItems.APP_BANK, "§2§lMaze Bank Mobile", "account", "§7Wallet, bank and career rank"));
+        if(lending) inventory.setItem(13,menu(Material.BOOK,"§6ARK Bank Loans","loans","§7Borrow and repay ARK"));
         inventory.setItem(16, menuApp(CityItems.APP_SAFETY, "§4§lLSPD Wanted & Bail", "wanted", "§7Heat, surrender and jail status"));
         player.openInventory(inventory);
     }
