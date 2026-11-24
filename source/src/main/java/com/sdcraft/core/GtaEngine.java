@@ -192,6 +192,7 @@ final class GtaEngine implements Listener {
             else if (action.equals("account")) player.performCommand("sdc account");
             else if (action.equals("loans") && plugin.loans()!=null) Bukkit.getScheduler().runTask(plugin,()->plugin.loans().open(player));
             else if (action.equals("properties") && plugin.properties()!=null) Bukkit.getScheduler().runTask(plugin,()->plugin.properties().open(player));
+            else if (action.startsWith("food:") && plugin.food()!=null) Bukkit.getScheduler().runTask(plugin,()->plugin.food().open(player,action.substring(5)));
             else if (action.startsWith("buy:")) buyShopItem(player, action.substring(4));
             else if (action.startsWith("mission:")) startMission(player, action.substring(8));
         } catch (Exception ex) {
@@ -579,7 +580,8 @@ final class GtaEngine implements Listener {
     private void openPhone(Player player) {
         boolean lending=plugin.loans()!=null && plugin.loans().available(player);
         boolean property=plugin.properties()!=null && plugin.properties().available(player);
-        if (!lending && !property && Bukkit.getPluginManager().isPluginEnabled("CommandPanels")
+        boolean food=plugin.food()!=null && plugin.food().available(player);
+        if (!lending && !property && !food && Bukkit.getPluginManager().isPluginEnabled("CommandPanels")
                 && Bukkit.dispatchCommand(player, "cityphone")) return;
         Inventory inventory = Bukkit.createInventory(null, 27, PHONE_TITLE);
         fill(inventory);
@@ -590,6 +592,10 @@ final class GtaEngine implements Listener {
         inventory.setItem(15, menuApp(CityItems.APP_BANK, "§2§lMaze Bank Mobile", "account", "§7Wallet, bank and career rank"));
         if(lending) inventory.setItem(13,menu(Material.BOOK,"§6ARK Bank Loans","loans","§7Borrow and repay ARK"));
         if(property) inventory.setItem(22,menu(Material.OAK_DOOR,"§6Indraprastha Properties","properties","§7Purchase flats and manage keys"));
+        if(food){
+            inventory.setItem(20,menu(Material.BREAD,"§cZomatoo","food:zomatoo","§7Food ordering and collection"));
+            inventory.setItem(24,menu(Material.COOKED_BEEF,"§6Swiffy","food:swiffy","§7Food ordering and collection"));
+        }
         inventory.setItem(16, menuApp(CityItems.APP_SAFETY, "§4§lLSPD Wanted & Bail", "wanted", "§7Heat, surrender and jail status"));
         player.openInventory(inventory);
     }
