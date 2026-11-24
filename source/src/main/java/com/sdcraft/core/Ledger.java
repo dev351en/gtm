@@ -5,6 +5,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import com.sdcraft.core.gtm.CivicRules.Loan;
 import com.sdcraft.core.gtm.CivicRules.Property;
+import com.sdcraft.core.gtm.FoodCatalogue;
 import org.bukkit.configuration.InvalidConfigurationException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.*;
@@ -256,6 +257,49 @@ final class Ledger {
     synchronized UUID propertyRekey(UUID actor,UUID propertyId) throws IOException {
         require(actor);Property next=property(propertyId).rekey(actor);
         writeProperty(next);save();append("PROPERTY_REKEY",actor,null,0,"property="+propertyId);return next.key();
+    }
+    synchronized Optional<FoodCatalogue.Ticket> foodOrder(UUID customer) {
+        require(customer); String p=key(customer)+".gtm-food";
+        if(!db.contains(p))return Optional.empty();
+        for(String f:List.of("id","brand","meal","price","vendor","ready","phase"))
+            if(!db.contains(p+"."+f))throw new IllegalStateException("Incomplete food order");
+        return Optional.of(new FoodCatalogue.Ticket(UUID.fromString(db.getString(p+".id","")),db.getString(p+".brand",""),
+            db.getString(p+".meal",""),db.getLong(p+".price"),db.getString(p+".vendor",""),customer,
+            db.getLong(p+".ready"),FoodCatalogue.Phase.valueOf(db.getString(p+".phase",""))));
+    }
+    private void writeFood(FoodCatalogue.Ticket t) {
+        String p=key(t.customer())+".gtm-food";
+        db.set(p+".id",t.id().toString());db.set(p+".brand",t.brand());db.set(p+".meal",t.meal());
+        db.set(p+".price",t.price());db.set(p+".vendor",t.vendor());db.set(p+".ready",t.readyAt());db.set(p+".phase",t.phase().name());
+    }
+    synchronized boolean orderFood(UUID customer,UUID id,String brand,String meal,String vendor,long now) throws IOException {
+        require(customer);if(now<0)throw new IllegalArgumentException("Invalid clock");
+        var old=foodOrder(customer);
+        if(old.isPresent()&&(old.get().open()||old.get().id().equals(id)))return false;
+        String historyPath=key(customer)+".gtm-food-issued-ids";
+        Set<String> issued=new LinkedHashSet<>(db.getStringList(historyPath));
+        old.ifPresent(t->issued.add(t.id().toString()));
+        if(issued.contains(id.toString())||issued.size()>=2048)return false;
+        long price=FoodCatalogue.get(meal).cents();
+        var ticket=new FoodCatalogue.Ticket(id,brand,meal,price,vendor,customer,Math.addExact(now,15000),FoodCatalogue.Phase.ORDERED);
+        if(bank(customer)<price)return false;
+        issued.add(id.toString());db.set(historyPath,new ArrayList<>(issued));
+        db.set(key(customer)+".bank",bank(customer)-price);writeFood(ticket);
+        save();append("FOOD_ORDER",customer,null,price,"order="+id+" meal="+meal);return true;
+    }
+    synchronized boolean refundFood(UUID customer,UUID id) throws IOException {
+        var t=foodOrder(customer).orElse(null);
+        if(t==null||!t.id().equals(id)||!t.open())return false;
+        var next=t.close(FoodCatalogue.Phase.REFUNDED,0);
+        long nextBank=Math.addExact(bank(customer),t.price());
+        db.set(key(customer)+".bank",nextBank);writeFood(next);
+        save();append("FOOD_REFUND",customer,null,t.price(),"order="+id);return true;
+    }
+    synchronized boolean collectFood(UUID customer,UUID id,long now) throws IOException {
+        var t=foodOrder(customer).orElse(null);
+        if(t==null||!t.id().equals(id)||!t.ready(now))return false;
+        writeFood(t.close(FoodCatalogue.Phase.COLLECTED,now));
+        save();append("FOOD_COLLECTION",customer,null,0,"order="+id);return true;
     }
     private void save() throws IOException {
         Path target=file.toPath().toAbsolutePath(); Path temp=null;
