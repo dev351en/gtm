@@ -6,6 +6,7 @@ import java.nio.channels.FileChannel;
 import com.sdcraft.core.gtm.CivicRules.Loan;
 import com.sdcraft.core.gtm.CivicRules.Property;
 import com.sdcraft.core.gtm.FoodCatalogue;
+import com.sdcraft.core.gtm.Finish;
 import org.bukkit.configuration.InvalidConfigurationException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.*;
@@ -301,6 +302,24 @@ final class Ledger {
         writeFood(t.close(FoodCatalogue.Phase.COLLECTED,now));
         save();append("FOOD_COLLECTION",customer,null,0,"order="+id);return true;
     }
+    synchronized boolean ownsFinish(UUID player, Finish finish) {
+        require(player);
+        String path = key(player) + ".gtm-finishes." + finish.id();
+        if (db.contains(path) && !db.isBoolean(path)) throw new IllegalStateException("Invalid finish entitlement");
+        return db.getBoolean(path);
+    }
+
+    synchronized boolean acquireFinish(UUID player, Finish finish) throws IOException {
+        if (ownsFinish(player, finish)) return true;
+        long price = finish.priceCents();
+        if (bank(player) < price) return false;
+        db.set(key(player) + ".bank", bank(player) - price);
+        db.set(key(player) + ".gtm-finishes." + finish.id(), true);
+        save();
+        append("FINISH_PURCHASE", player, null, price, finish.id());
+        return true;
+    }
+
     private void save() throws IOException {
         Path target=file.toPath().toAbsolutePath(); Path temp=null;
         try {

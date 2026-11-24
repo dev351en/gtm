@@ -125,6 +125,12 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
         ai = new AiService(this);
         restoration = new RestorationEngine(this);
         guns = new GunEngine(this);
+        var finishes = new GtmFinishes(this, ledger, guns);
+        Bukkit.getPluginManager().registerEvents(finishes, this);
+        Objects.requireNonNull(getCommand("gtmfinish")).setExecutor((sender, command, label, args) -> {
+            if (sender instanceof Player player) finishes.open(player, 0, null);
+            return true;
+        });
         gps = new GpsManager(this);
         gta = new GtaEngine(this, ledger, gps);
         arsenal = new CreativeArsenalManager(this, ledger, gps, gta, guns);

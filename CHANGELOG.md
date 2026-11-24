@@ -5,6 +5,13 @@
 
 ---
 
+## Revision 4 development — Finish Studio and verified public-world patch
+
+- Food, JEEVA, clock and festival changes compiled and passed Gradle check on Java 25 in [run 45450300043](https://github.com/dev351en/gtm/actions/runs/45450300043).
+- Added 300 finish entitlements across four existing native item families. The staging shop validates the held item and commits ownership and ARK debit together. Purchased finishes can be reapplied without further payment. Added three JUnit regression tests.
+- Built the 30 custom food models and 300 finishes for both editions. Resolved 330 item/model/texture/icon paths through Geyser v2 mappings. Reproduced the public world from LFS, surveyed all 18 configured service locations, corrected the bank and airport template destinations, and applied 16 road-marking swaps to a separate world ZIP. All unaffected ZIP members compared byte-for-byte equal.
+- Added stopped-copy backup and plugin rollback rehearsal tooling. A local fixture passed replacement, rollback and restaging. Production backups and deployment were not attempted.
+
 ## Revision 4 development — food catalogue, dialogue and manual festivals
 
 Confirmed dev.5 on Java 25 in [Actions run 45447870167](https://github.com/dev351en/gtm/actions/runs/45447870167). The log records 155 domain checks and four successful food-ledger tests. Expanded the staging food catalogue to 30 dishes and gave each a stable item-model key in ordering and collection. The local JEEVA reply path now handles Hinglish and recognizes returning players per NPC through player save data. Added an opt-in manual festival inventory and console control with eight themes, persistent selection and per-player particles. The city clock resumes from world time and divides the cycle at 12,000 ticks. Client rendering, decorations, physical delivery and deployment remain open.

@@ -82,6 +82,7 @@ service:
   offline-at-shift-start-exempt: true
 gtm:
   experimental-festivals: false
+  experimental-finishes: false
   experimental-food: false # Staging counter collection only; physical delivery pending.
   experimental-properties: false # Staging only; complete survey and access tests first.
   property-regions: [] # Each entry: id (UUID), name, world, min-x/y/z, max-x/y/z, price-cents (integers).

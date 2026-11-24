@@ -87,3 +87,4 @@ gta:
 
 gtm:
   experimental-festivals: false
+  experimental-finishes: false

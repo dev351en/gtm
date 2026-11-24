@@ -42,6 +42,10 @@ commands:
     description: Open the Creative Testing Arsenal for vehicles, guns, ammo, cash, and teleportation
     usage: /arsenal
     aliases: [creativemenu, testitems, testing]
+  gtmfinish:
+    description: Browse and purchase finishes for a held SD Craft game item
+    usage: /gtmfinish
+    permission: gtm.finishes
   gtmcontrol:
     description: GTM Control Centre and manual festival selection
     usage: /gtmcontrol [status|festival|off]
@@ -72,6 +76,9 @@ permissions:
   sdcraft.profession.firefighter:
     default: op
 
+  gtm.finishes:
+    description: Use the staging finish studio after authentication
+    default: false
   gtm.control:
     description: Operate the GTM Control Centre
     default: op
