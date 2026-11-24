@@ -83,20 +83,45 @@ public final class CreativeArsenalManager {
                 "§7MTVehicles ID: §fPLV871",
                 "§8High-performance nautical speedboat.",
                 "§a▶ Click to receive vehicle keys!"));
-        inv.setItem(7, item(Material.LAVA_BUCKET, "§6§lJerry Can (Fuel 100L)",
-                "§7MTVehicles Fuel Supply",
-                "§8Refuels any vehicle to 100% capacity.",
-                "§a▶ Click to receive fuel can!"));
-        inv.setItem(8, item(Material.SHEARS, "§e§lVehicle Mechanic Wrench",
-                "§7MTVehicles Maintenance Tool",
-                "§8Repairs vehicle chassis and engine damage.",
-                "§a▶ Click to receive repair tool!"));
+        // Slot 7: 3D Jerry Can Model (cmd 900011)
+        ItemStack fuelCan = CityItems.jerryCan();
+        ItemMeta fuelMeta = fuelCan.getItemMeta();
+        if (fuelMeta != null) {
+            fuelMeta.setDisplayName("§6§lJerry Can (Fuel 100L)");
+            fuelMeta.setLore(List.of(
+                    "§7MTVehicles Fuel Supply",
+                    "§8Refuels any vehicle to 100% capacity.",
+                    "§a▶ Click to receive fuel can!"));
+            fuelCan.setItemMeta(fuelMeta);
+        }
+        inv.setItem(7, fuelCan);
 
-        // ROW 2: QualityArmory Firearms (Slots 9 - 17)
-        inv.setItem(9, item(Material.IRON_HOE, "§f§lP30 9mm Service Pistol",
-                "§7QualityArmory ID: §fp30",
-                "§8Compact, accurate 9x19mm sidearm.",
-                "§a▶ Click to equip firearm!"));
+        // Slot 8: 3D Baseball Bat (cmd 900012)
+        ItemStack bat = CityItems.baseballBat();
+        ItemMeta batMeta = bat.getItemMeta();
+        if (batMeta != null) {
+            batMeta.setDisplayName("§e§lLouisville Ash Baseball Bat");
+            batMeta.setLore(List.of(
+                    "§7Street Defense Melee Weapon",
+                    "§8Heavy bludgeoning sports bat.",
+                    "§a▶ Click to receive baseball bat!"));
+            bat.setItemMeta(batMeta);
+        }
+        inv.setItem(8, bat);
+
+        // ROW 2: QualityArmory & 3D Firearms (Slots 9 - 17)
+        ItemStack p30 = guns.createGun(GunEngine.GunType.PISTOL);
+        ItemMeta p30Meta = p30.getItemMeta();
+        if (p30Meta != null) {
+            p30Meta.setDisplayName("§f§lP30 9mm Service Pistol");
+            p30Meta.setLore(List.of(
+                    "§7Standard 9x19mm Sidearm",
+                    "§8Compact, accurate semi-automatic.",
+                    "§a▶ Click to equip firearm!"));
+            p30.setItemMeta(p30Meta);
+        }
+        inv.setItem(9, p30);
+
         inv.setItem(10, item(Material.STONE_HOE, "§7§lGlock 17 Tactical",
                 "§7QualityArmory ID: §fglock",
                 "§8Standard police and civilian firearm.",
@@ -105,22 +130,48 @@ public final class CreativeArsenalManager {
                 "§7QualityArmory ID: §fdeagle",
                 "§8Massive stopping power handgun.",
                 "§a▶ Click to equip firearm!"));
-        inv.setItem(12, item(Material.IRON_AXE, "§b§lMP5 Tactical SMG",
-                "§7QualityArmory ID: §fmp5",
-                "§8Rapid close-quarters submachine gun.",
-                "§a▶ Click to equip firearm!"));
+
+        ItemStack smg = guns.createGun(GunEngine.GunType.SMG);
+        ItemMeta smgMeta = smg.getItemMeta();
+        if (smgMeta != null) {
+            smgMeta.setDisplayName("§b§lTactical Micro-SMG (MP5)");
+            smgMeta.setLore(List.of(
+                    "§7Rapid Close-Quarters SMG",
+                    "§8High fire-rate 9mm spray.",
+                    "§a▶ Click to equip firearm!"));
+            smg.setItemMeta(smgMeta);
+        }
+        inv.setItem(12, smg);
+
         inv.setItem(13, item(Material.WOODEN_HOE, "§6§lAK-47 Assault Rifle",
                 "§7QualityArmory ID: §fak47",
                 "§8Rugged 7.62x39mm assault rifle.",
                 "§a▶ Click to equip firearm!"));
-        inv.setItem(14, item(Material.DIAMOND_HOE, "§9§lM4A1 Military Carbine",
-                "§7QualityArmory ID: §fm4",
-                "§8Tactical 5.56 NATO burst carbine.",
-                "§a▶ Click to equip firearm!"));
-        inv.setItem(15, item(Material.CROSSBOW, "§c§lRemington 870 Shotgun",
-                "§7QualityArmory ID: §fremington",
-                "§8Pump-action 12-gauge close combat scatter.",
-                "§a▶ Click to equip firearm!"));
+
+        ItemStack m4 = guns.createGun(GunEngine.GunType.RIFLE);
+        ItemMeta m4Meta = m4.getItemMeta();
+        if (m4Meta != null) {
+            m4Meta.setDisplayName("§9§lM4 Urban Assault Rifle");
+            m4Meta.setLore(List.of(
+                    "§7Tactical 5.56 NATO Carbine",
+                    "§8High-damage military precision rifle.",
+                    "§a▶ Click to equip firearm!"));
+            m4.setItemMeta(m4Meta);
+        }
+        inv.setItem(14, m4);
+
+        ItemStack shotgun = guns.createGun(GunEngine.GunType.SHOTGUN);
+        ItemMeta shotgunMeta = shotgun.getItemMeta();
+        if (shotgunMeta != null) {
+            shotgunMeta.setDisplayName("§c§l12-Gauge Tactical Shotgun");
+            shotgunMeta.setLore(List.of(
+                    "§7Pump-Action Police Scattergun",
+                    "§8Devastating close-range pellets.",
+                    "§a▶ Click to equip firearm!"));
+            shotgun.setItemMeta(shotgunMeta);
+        }
+        inv.setItem(15, shotgun);
+
         inv.setItem(16, item(Material.BOW, "§2§lAWP Sniper Rifle",
                 "§7QualityArmory ID: §fawp",
                 "§8Long-range precision bolt-action sniper.",
@@ -161,34 +212,82 @@ public final class CreativeArsenalManager {
                 "§a▶ Click to equip armor!"));
 
         // ROW 4: Roleplay Gear, Economy & Kits (Slots 27 - 35)
-        inv.setItem(27, item(Material.EMERALD, "§a§l$10,000 Cash Injection",
-                "§7Instant wallet credit for testing.",
-                "§8Transfers $10,000 directly to cash wallet.",
-                "§a▶ Click to add cash!"));
-        inv.setItem(28, item(Material.EMERALD_BLOCK, "§2§l$1,000,000 Millionaire Wire",
-                "§7Instant protected bank account deposit.",
-                "§8Deposits 1 Million into First National Bank.",
-                "§a▶ Click to wire transfer!"));
-        inv.setItem(29, item(Material.CLOCK, "§6§lSan Andreas City Smartphone",
-                "§7City Services Phone (/phone)",
-                "§8Access banking, vehicle recovery, and police.",
-                "§a▶ Click to receive phone!"));
+        ItemStack cash = CityItems.cashIcon();
+        ItemMeta cashMeta = cash.getItemMeta();
+        if (cashMeta != null) {
+            cashMeta.setDisplayName("§a§l$10,000 Cash Injection");
+            cashMeta.setLore(List.of(
+                    "§7Instant wallet credit for testing.",
+                    "§8Transfers $10,000 directly to cash wallet.",
+                    "§a▶ Click to add cash!"));
+            cash.setItemMeta(cashMeta);
+        }
+        inv.setItem(27, cash);
+
+        ItemStack atm = CityItems.atmCard();
+        ItemMeta atmMeta = atm.getItemMeta();
+        if (atmMeta != null) {
+            atmMeta.setDisplayName("§2§l$1,000,000 Millionaire Wire (VIP Card)");
+            atmMeta.setLore(List.of(
+                    "§7Instant protected bank account deposit.",
+                    "§8Deposits 1 Million into First National Bank.",
+                    "§a▶ Click to wire transfer!"));
+            atm.setItemMeta(atmMeta);
+        }
+        inv.setItem(28, atm);
+
+        ItemStack phone = CityItems.phone();
+        ItemMeta phoneMeta = phone.getItemMeta();
+        if (phoneMeta != null) {
+            phoneMeta.setDisplayName("§6§lSan Andreas City Smartphone");
+            phoneMeta.setLore(List.of(
+                    "§7City Services Phone (/phone)",
+                    "§8Access banking, vehicle recovery, and police.",
+                    "§a▶ Click to receive phone!"));
+            phone.setItemMeta(phoneMeta);
+        }
+        inv.setItem(29, phone);
+
         inv.setItem(30, item(Material.COMPASS, "§b§lLive GPS Navigator",
                 "§7GPS Waypoint System (/gps)",
                 "§8Real-time district display and route compass.",
                 "§a▶ Click to receive GPS!"));
-        inv.setItem(31, item(Material.ENCHANTED_GOLDEN_APPLE, "§c§lParamedic Trauma & Revive Kit",
-                "§7Emergency Hospital Medical Kit",
-                "§8Restores full health and revives downed players.",
-                "§a▶ Click to receive medkit!"));
-        inv.setItem(32, item(Material.SUNFLOWER, "§e§lTrainCarts Metro Unlimited Pass",
-                "§7San Andreas Rail Pass",
-                "§8Unlimited travel across all subway lines.",
-                "§a▶ Click to receive metro ticket!"));
-        inv.setItem(33, item(Material.LEAD, "§9§lPolice Restraints & Baton",
-                "§7Law Enforcement Gear",
-                "§8Detention restraints and riot baton.",
-                "§a▶ Click to receive police gear!"));
+
+        ItemStack medkit = CityItems.medkit();
+        ItemMeta medkitMeta = medkit.getItemMeta();
+        if (medkitMeta != null) {
+            medkitMeta.setDisplayName("§c§lParamedic Trauma & Revive Kit");
+            medkitMeta.setLore(List.of(
+                    "§7Emergency Hospital Medical Kit",
+                    "§8Restores full health and revives downed players.",
+                    "§a▶ Click to receive medkit!"));
+            medkit.setItemMeta(medkitMeta);
+        }
+        inv.setItem(31, medkit);
+
+        ItemStack ticket = CityItems.metroTicket("Central Metro");
+        ItemMeta ticketMeta = ticket.getItemMeta();
+        if (ticketMeta != null) {
+            ticketMeta.setDisplayName("§e§lTrainCarts Metro Unlimited Pass");
+            ticketMeta.setLore(List.of(
+                    "§7San Andreas Rail Pass",
+                    "§8Unlimited travel across all subway lines.",
+                    "§a▶ Click to receive metro ticket!"));
+            ticket.setItemMeta(ticketMeta);
+        }
+        inv.setItem(32, ticket);
+
+        ItemStack badge = CityItems.policeBadge();
+        ItemMeta badgeMeta = badge.getItemMeta();
+        if (badgeMeta != null) {
+            badgeMeta.setDisplayName("§9§lSDPD Detective Badge & Gear");
+            badgeMeta.setLore(List.of(
+                    "§7Law Enforcement Identification & Restraints",
+                    "§8San Diego Police Department",
+                    "§a▶ Click to receive police kit!"));
+            badge.setItemMeta(badgeMeta);
+        }
+        inv.setItem(33, badge);
         inv.setItem(34, item(Material.TRIPWIRE_HOOK, "§7§lCriminal Lockpick Kit",
                 "§7Black Market Infiltration Tool",
                 "§8Used for lockpicking and heist testing.",
@@ -336,24 +435,24 @@ public final class CreativeArsenalManager {
             case 6 -> giveVehicle(player, "PLV871", "Ocean Speedboat");
             case 7 -> {
                 Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "mtv givefuel " + name + " 100");
+                giveItem(player, CityItems.jerryCan());
                 player.sendMessage("§a[Arsenal] §e100L Jerry Can fuel delivered!");
                 player.playSound(player.getLocation(), Sound.ITEM_BOTTLE_FILL, 0.8f, 1.2f);
             }
             case 8 -> {
-                ItemStack wrench = item(Material.SHEARS, "§e§lVehicle Mechanic Wrench", "§7Repairs vehicle chassis.");
-                giveItem(player, wrench);
-                player.sendMessage("§a[Arsenal] §eMechanic wrench equipped!");
-                player.playSound(player.getLocation(), Sound.BLOCK_ANVIL_USE, 0.6f, 1.4f);
+                giveItem(player, CityItems.baseballBat());
+                player.sendMessage("§a[Arsenal] §eLouisville Baseball Bat equipped!");
+                player.playSound(player.getLocation(), Sound.ENTITY_ITEM_PICKUP, 0.8f, 1.2f);
             }
 
-            // QualityArmory Firearms
+            // QualityArmory Firearms & 3D Weapons
             case 9 -> giveGun(player, "p30", GunEngine.GunType.PISTOL, "P30 9mm Pistol");
             case 10 -> giveGun(player, "glock", GunEngine.GunType.PISTOL, "Glock 17 Tactical");
             case 11 -> giveGun(player, "deagle", GunEngine.GunType.PISTOL, "Desert Eagle .50");
-            case 12 -> giveGun(player, "mp5", GunEngine.GunType.SMG, "MP5 Tactical SMG");
+            case 12 -> giveGun(player, "mp5", GunEngine.GunType.SMG, "Tactical Micro-SMG (MP5)");
             case 13 -> giveGun(player, "ak47", GunEngine.GunType.RIFLE, "AK-47 Assault Rifle");
-            case 14 -> giveGun(player, "m4", GunEngine.GunType.RIFLE, "M4A1 Military Carbine");
-            case 15 -> giveGun(player, "remington", GunEngine.GunType.SHOTGUN, "Remington 870 Shotgun");
+            case 14 -> giveGun(player, "m4", GunEngine.GunType.RIFLE, "M4 Urban Assault Rifle");
+            case 15 -> giveGun(player, "remington", GunEngine.GunType.SHOTGUN, "12-Gauge Tactical Shotgun");
             case 16 -> giveGun(player, "awp", GunEngine.GunType.RIFLE, "AWP Precision Sniper");
             case 17 -> giveGun(player, "barrett", GunEngine.GunType.RIFLE, "Barrett .50 Anti-Material");
 
@@ -388,7 +487,8 @@ public final class CreativeArsenalManager {
             case 27 -> {
                 try {
                     ledger.creditWallet(player.getUniqueId(), 1_000_000L, "arsenal test funds");
-                    player.sendMessage("§a[Arsenal] §e$10,000 added to your cash wallet! (Balance: "
+                    giveItem(player, CityItems.cashIcon());
+                    player.sendMessage("§a[Arsenal] §e$10,000 cash added to your wallet! (Balance: "
                             + PolicyEngine.money(ledger.wallet(player.getUniqueId())) + ")");
                     player.playSound(player.getLocation(), Sound.ENTITY_EXPERIENCE_ORB_PICKUP, 0.8f, 1.2f);
                 } catch (Exception ex) {
@@ -398,7 +498,8 @@ public final class CreativeArsenalManager {
             case 28 -> {
                 try {
                     ledger.reward(player.getUniqueId(), 100_000_000L, "arsenal wire transfer");
-                    player.sendMessage("§a[Arsenal] §2$1,000,000 wired to your First National Bank account!");
+                    giveItem(player, CityItems.atmCard());
+                    player.sendMessage("§a[Arsenal] §2$1,000,000 wired to your First National Bank account & VIP Card issued!");
                     player.playSound(player.getLocation(), Sound.UI_TOAST_CHALLENGE_COMPLETE, 0.8f, 1.2f);
                 } catch (Exception ex) {
                     player.sendMessage("§cError updating ledger: " + ex.getMessage());
@@ -415,9 +516,10 @@ public final class CreativeArsenalManager {
                 player.playSound(player.getLocation(), Sound.UI_BUTTON_CLICK, 0.8f, 1.4f);
             }
             case 31 -> {
-                giveItem(player, new ItemStack(Material.ENCHANTED_GOLDEN_APPLE, 4));
+                giveItem(player, CityItems.medkit());
+                giveItem(player, new ItemStack(Material.ENCHANTED_GOLDEN_APPLE, 2));
                 player.setHealth(player.getMaxHealth());
-                player.sendMessage("§a[Arsenal] §cParamedic Trauma kit equipped & health fully restored!");
+                player.sendMessage("§a[Arsenal] §cParamedic Trauma Medkit equipped & health fully restored!");
                 player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 0.7f, 1.5f);
             }
             case 32 -> {
@@ -426,9 +528,9 @@ public final class CreativeArsenalManager {
                 player.playSound(player.getLocation(), Sound.ENTITY_ITEM_PICKUP, 0.7f, 1.2f);
             }
             case 33 -> {
+                giveItem(player, CityItems.policeBadge());
                 giveItem(player, item(Material.LEAD, "§9§lPolice Restraints", "§7Detain criminal suspects."));
-                giveItem(player, item(Material.IRON_SWORD, "§9§lPolice Baton", "§7Non-lethal crowd control."));
-                player.sendMessage("§a[Arsenal] §9Police Restraints & Riot Baton equipped!");
+                player.sendMessage("§a[Arsenal] §9SDPD Badge & Police Restraints equipped!");
                 player.playSound(player.getLocation(), Sound.ITEM_ARMOR_EQUIP_IRON, 0.7f, 1.2f);
             }
             case 34 -> {
@@ -505,20 +607,23 @@ public final class CreativeArsenalManager {
     private void giveVehicle(Player player, String uuid, String vehicleName) {
         if (Bukkit.getPluginManager().isPluginEnabled("MTVehicles")) {
             Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "mtv givecar " + player.getName() + " " + uuid);
+            giveItem(player, CityItems.carKeyFob(vehicleName));
             player.sendMessage("§a[Arsenal] §eKeys to your §6" + vehicleName + " §edelivered! Right-click road to place.");
         } else {
-            player.sendMessage("§e[Arsenal] MTVehicles is loading. Voucher recorded for " + vehicleName + ".");
+            giveItem(player, CityItems.carKeyFob(vehicleName));
+            player.sendMessage("§e[Arsenal] Key Fob delivered for " + vehicleName + ".");
         }
         player.playSound(player.getLocation(), Sound.ENTITY_ITEM_PICKUP, 0.8f, 1.2f);
     }
 
     private void giveGun(Player player, String qaId, GunEngine.GunType fallbackType, String gunName) {
-        if (Bukkit.getPluginManager().isPluginEnabled("QualityArmory")) {
+        if (fallbackType != null) {
+            giveItem(player, guns.createGun(fallbackType));
+            giveItem(player, guns.createAmmo(fallbackType.ammoType, fallbackType.maxAmmo * 2));
+            player.sendMessage("§a[Arsenal] §eEquipped §6" + gunName + " §e(3D Custom Weapon).");
+        } else if (Bukkit.getPluginManager().isPluginEnabled("QualityArmory")) {
             Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "qa give " + qaId + " " + player.getName());
             player.sendMessage("§a[Arsenal] §eEquipped §6" + gunName + " §e(QualityArmory).");
-        } else {
-            giveItem(player, guns.createGun(fallbackType));
-            player.sendMessage("§a[Arsenal] §eEquipped §6" + gunName + " §e(SDCraft Core).");
         }
         player.playSound(player.getLocation(), Sound.ITEM_ARMOR_EQUIP_IRON, 0.8f, 1.2f);
     }

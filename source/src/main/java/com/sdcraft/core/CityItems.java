@@ -13,6 +13,9 @@ final class CityItems {
     static final int POLICE_BADGE = 900004;
     static final int MEDKIT = 900005;
     static final int ATM_CARD = 900009;
+    static final int CAR_KEY_FOB = 900010;
+    static final int JERRY_CAN = 900011;
+    static final int BASEBALL_BAT = 900012;
 
     // Custom GTA Online / iFruit Mobile App Icons
     static final int APP_GPS = 900020;
@@ -67,5 +70,17 @@ final class CityItems {
 
     static ItemStack atmCard() {
         return make(ATM_CARD, "§e§lMaze Bank VIP Platinum Card", "§7Linked to personal bank vault balance.");
+    }
+
+    static ItemStack carKeyFob(String vehicleName) {
+        return make(CAR_KEY_FOB, "§6§lVehicle Key Fob §7(" + vehicleName + ")", "§7Electronic smart key & remote lock/unlock.", "§eRight-click near vehicle to unlock.");
+    }
+
+    static ItemStack jerryCan() {
+        return make(JERRY_CAN, "§c§lJerry Can (Fuel 100L)", "§7High-octane emergency vehicle fuel.", "§aRight-click vehicle to refuel 100%.");
+    }
+
+    static ItemStack baseballBat() {
+        return make(BASEBALL_BAT, "§e§lLouisville Ash Baseball Bat", "§7Solid hardwood sports melee weapon.", "§cHeavy bludgeoning impact.");
     }
 }
