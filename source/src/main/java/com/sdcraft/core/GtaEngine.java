@@ -27,7 +27,7 @@ import org.bukkit.scoreboard.*;
  * the server thread and are persisted in gta-state.yml.
  */
 final class GtaEngine implements Listener {
-    static final String PHONE_TITLE = "§8[SD PHONE] City Services";
+    static final String PHONE_TITLE = "§8[ §6iFruit OS 26.3 §8] §fCity Apps";
     static final String SHOP_TITLE = "§8[SD SHOP] Ammu-Nation";
     static final String MISSIONS_TITLE = "§8[SD JOBS] Mission Board";
 
@@ -579,13 +579,26 @@ final class GtaEngine implements Listener {
                 && Bukkit.dispatchCommand(player, "cityphone")) return;
         Inventory inventory = Bukkit.createInventory(null, 27, PHONE_TITLE);
         fill(inventory);
-        inventory.setItem(10, menu(Material.COMPASS, "§bGPS Navigation", "gps", "§7Set a live city waypoint"));
-        inventory.setItem(11, menu(Material.WRITABLE_BOOK, "§6Mission Board", "missions", "§7Jobs, races and emergency calls"));
-        inventory.setItem(12, menu(Material.CROSSBOW, "§cAmmu-Nation", "shop", "§7Buy weapons and ammunition"));
-        inventory.setItem(14, menu(Material.MINECART, "§bPersonal Garage", "garage", "§7Owned vehicles and dealership"));
-        inventory.setItem(15, menu(Material.PAPER, "§eBank Account", "account", "§7Wallet, bank and career rank"));
-        inventory.setItem(16, menu(Material.IRON_BARS, "§cWanted Status", "wanted", "§7Heat, surrender and jail status"));
+        inventory.setItem(10, menuApp(CityItems.APP_GPS, "§b§lSnapmatic GPS", "gps", "§7Tap to set live city waypoint"));
+        inventory.setItem(11, menuApp(CityItems.APP_JOBS, "§6§lMission Board", "missions", "§7Jobs, races and emergency calls"));
+        inventory.setItem(12, menuApp(CityItems.APP_GEAR, "§c§lAmmu-Nation", "shop", "§7Browse weapons and ammunition"));
+        inventory.setItem(14, menuApp(CityItems.APP_GARAGE, "§a§lMotorsport Garage", "garage", "§7Owned vehicles and dealership"));
+        inventory.setItem(15, menuApp(CityItems.APP_BANK, "§2§lMaze Bank Mobile", "account", "§7Wallet, bank and career rank"));
+        inventory.setItem(16, menuApp(CityItems.APP_SAFETY, "§4§lLSPD Wanted & Bail", "wanted", "§7Heat, surrender and jail status"));
         player.openInventory(inventory);
+    }
+
+    private ItemStack menuApp(int customModel, String name, String action, String... lore) {
+        ItemStack item = new ItemStack(Material.PAPER);
+        ItemMeta meta = item.getItemMeta();
+        if (meta != null) {
+            meta.setDisplayName(name);
+            meta.setCustomModelData(customModel);
+            meta.setLore(List.of(lore));
+            meta.getPersistentDataContainer().set(actionKey, PersistentDataType.STRING, action);
+            item.setItemMeta(meta);
+        }
+        return item;
     }
 
     private void openShop(Player player) {
