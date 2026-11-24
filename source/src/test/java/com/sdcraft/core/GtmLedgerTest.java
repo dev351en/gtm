@@ -89,4 +89,43 @@ final class GtmLedgerTest {
         assertTrue(l.advanceLoanClock(user,60));
         assertTrue(new Ledger(dir.toFile()).loan(user).orElseThrow().terms().overdue());
     }
+
+    @Test void purchaseAndKeyLifecyclePersistAtomically() throws Exception {
+        UUID owner=UUID.randomUUID(),guest=UUID.randomUUID(),property=UUID.randomUUID();
+        Ledger l=new Ledger(dir.toFile());l.register(owner);l.register(guest);
+        assertFalse(l.property(property).canEnter(owner,false));
+        assertFalse(l.purchaseProperty(owner,property,100001));
+        assertNull(l.property(property).owner());
+        assertTrue(l.purchaseProperty(owner,property,75000));
+        assertFalse(l.purchaseProperty(guest,property,75000));
+        assertEquals(25000,l.bank(owner));assertEquals(100000,l.bank(guest));
+        l.propertyGuest(owner,property,guest,true);
+        UUID key=l.property(property).key();
+        assertTrue(l.property(property).canEnter(guest,false));
+        assertThrows(SecurityException.class,()->l.propertyLock(guest,property,key,true));
+        assertTrue(l.propertyLock(owner,property,key,true));
+        assertFalse(l.property(property).canEnter(guest,false));
+        assertTrue(l.property(property).canEnter(owner,false));
+        UUID replacement=l.propertyRekey(owner,property);
+        assertNotEquals(key,replacement);
+        assertThrows(SecurityException.class,()->l.propertyLock(owner,property,key,false));
+        Ledger reopened=new Ledger(dir.toFile());
+        assertEquals(owner,reopened.property(property).owner());
+        assertEquals(replacement,reopened.property(property).key());
+        assertEquals(25000,reopened.bank(owner));
+        assertTrue(reopened.propertyLock(owner,property,replacement,false));
+        assertFalse(reopened.property(property).canEnter(guest,false));
+    }
+
+    @Test void failedPurchaseDoesNotCreateOwnership() throws Exception {
+        UUID owner=UUID.randomUUID(),property=UUID.randomUUID();
+        Ledger l=new Ledger(dir.toFile());l.register(owner);
+        Path file=dir.resolve("accounts.yml"), backup=dir.resolve("accounts-backup.yml");
+        Files.move(file,backup); Files.createDirectory(file); Files.writeString(file.resolve("blocker"),"occupied");
+        assertThrows(IOException.class,()->l.purchaseProperty(owner,property,75000));
+        assertEquals(100000,l.bank(owner));assertNull(l.property(property).owner());
+        Files.delete(file.resolve("blocker"));Files.delete(file);Files.move(backup,file);
+        assertTrue(l.purchaseProperty(owner,property,75000));
+        assertEquals(owner,new Ledger(dir.toFile()).property(property).owner());
+    }
 }
