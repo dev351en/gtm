@@ -27,6 +27,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
     private AiService ai;
     private GtmDialogue gtmDialogue;
     private GtmLoans gtmLoans;
+    private GtmProperties gtmProperties;
     private NpcService npcs;
     private RestorationEngine restoration;
     private GunEngine guns;
@@ -79,6 +80,12 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
         ledger = new Ledger(getDataFolder());
         gtmLoans = new GtmLoans(this,ledger);
         Bukkit.getPluginManager().registerEvents(gtmLoans,this);
+        gtmProperties=new GtmProperties(this,ledger);
+        Bukkit.getPluginManager().registerEvents(gtmProperties,this);
+        Objects.requireNonNull(getCommand("gtmproperty")).setExecutor((sender,command,label,args)->{
+            if(sender instanceof Player p)gtmProperties.open(p);
+            return true;
+        });
         Objects.requireNonNull(getCommand("gtmloan")).setExecutor((sender, command, label, args) -> {
             if(sender instanceof Player p) gtmLoans.open(p);
             return true;
@@ -689,6 +696,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
 
     GunEngine guns() { return guns; }
     GtmLoans loans() { return gtmLoans; }
+    GtmProperties properties() { return gtmProperties; }
     String profession(UUID id) { return data.getString("players." + id + ".profession", ""); }
 
     private boolean near(Player p, String id, int radius) {
