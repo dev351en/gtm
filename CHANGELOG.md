@@ -5,6 +5,17 @@
 
 ---
 
+## [1.6.0-dev.3] — 2026-11-24: Persistence, routing and proximity reactions
+
+- Added SnapshotStore, bounded versioned binary aggregate storage with defensive copies, SHA-256 validation, file lock, atomic replacement, stale revision rejection and latest-operation replay handling. 16 MiB maximum per snapshot. No legacy ledger migration, multi-aggregate atomic transaction, power-loss durability guarantee or persistent operation-ID registry yet. Use a single store instance per file in JVM; concurrent independent instances may receive overlapping-lock errors. Not enabled against live balances.
+- Added RouteGraph, directed shortest-path routing with mode filters and closed nodes, finite costs and validated endpoints. Tested against synthetic networks; no city survey or surveyed route import performed.
+- Added NearMiss, bounded game-space approach predicate. Experimental Paper dialogue adapter now listens for VehicleMoveEvent, scans at most four times per second globally, uses ten-second per-NPC cooldowns and at most 128 pending reaction cooldowns. Explicit dialogue permission and existing account required, still disabled by default. Not an authentication implementation; custom vehicles may not emit the event. No actual Paper build or client test.
+- Re-executed all four dependency-free Java 21 suites locally: FoundationChecks 36, CivicChecks 78, InfrastructureChecks 29, NearMissChecks 12; total 155 passed. Exact new source/test blob hashes checked against local files. Added Gradle tasks and tools/check_gtm_domain.sh for reproduction.
+- Earlier Java 25 workflow run 45442292065 was cancelled; latest code build not verified. Existing production sandbox, world, player balances, and billing untouched. No new sandbox. Live Daytona access remains unavailable from this environment.
+- User has approved all Revision 4.0 work and verified incremental updates without per-feature approvals. Keep remaining scope open. Never mark source-only modules or procedural assets as deployed or playable.
+
+---
+
 ## [1.6.0-dev.2] — 2026-11-24: Civic rules and prototype character catalogue
 
 - Implemented immutable, integer-ARK-cent loan schedules with bounded flat interest, grace periods, active-day advancement, overdue checks and repayment validation.
