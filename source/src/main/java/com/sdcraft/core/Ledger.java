@@ -4,6 +4,7 @@ import java.io.*;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import com.sdcraft.core.gtm.CivicRules.Loan;
+import com.sdcraft.core.gtm.CivicRules.Property;
 import org.bukkit.configuration.InvalidConfigurationException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.*;
@@ -209,6 +210,46 @@ final class Ledger {
         if(total>=1800) { next=next.advanceActiveDay(); total-=1800; }
         writeLoan(id,new LoanAccount(a.id(),next,total)); save();
         return !a.terms().overdue()&&next.overdue();
+    }
+    synchronized Property property(UUID propertyId) {
+        Objects.requireNonNull(propertyId);
+        String p="gtm-properties."+propertyId;
+        if(!db.contains(p)) return Property.vacant(propertyId);
+        if(!db.contains(p+".owner")||!db.contains(p+".key")||!db.contains(p+".locked"))
+            throw new IllegalStateException("Incomplete property record");
+        UUID owner=UUID.fromString(db.getString(p+".owner",""));
+        UUID key=UUID.fromString(db.getString(p+".key",""));
+        Set<UUID> guests=new HashSet<>();
+        for(String guest:db.getStringList(p+".guests"))guests.add(UUID.fromString(guest));
+        return new Property(propertyId,owner,key,db.getBoolean(p+".locked"),guests);
+    }
+    private void writeProperty(Property property) {
+        String p="gtm-properties."+property.id();
+        db.set(p+".owner",property.owner().toString()); db.set(p+".key",property.key().toString());
+        db.set(p+".locked",property.locked());
+        db.set(p+".guests",property.guests().stream().map(UUID::toString).sorted().toList());
+    }
+    /** Authoritative purchase: price comes from the surveyed server registry, never from client lore. */
+    synchronized boolean purchaseProperty(UUID buyer,UUID propertyId,long price) throws IOException {
+        require(buyer);checkAmount(price);
+        Property old=property(propertyId);
+        if(old.owner()!=null||bank(buyer)<price)return false;
+        Property next=old.purchase(buyer);
+        db.set(key(buyer)+".bank",bank(buyer)-price);writeProperty(next);
+        save();append("PROPERTY_PURCHASE",buyer,null,price,"property="+propertyId);return true;
+    }
+    synchronized boolean propertyLock(UUID actor,UUID propertyId,UUID presentedKey,boolean locked) throws IOException {
+        require(actor);Property old=property(propertyId);Property next=old.lock(actor,presentedKey,locked);
+        if(old.locked()==locked)return false;
+        writeProperty(next);save();append("PROPERTY_LOCK",actor,null,0,"property="+propertyId+" locked="+locked);return true;
+    }
+    synchronized void propertyGuest(UUID actor,UUID propertyId,UUID guest,boolean allow) throws IOException {
+        require(actor);require(guest);Property next=property(propertyId).guest(actor,guest,allow);
+        writeProperty(next);save();append("PROPERTY_GUEST",actor,guest,0,"property="+propertyId+" allow="+allow);
+    }
+    synchronized UUID propertyRekey(UUID actor,UUID propertyId) throws IOException {
+        require(actor);Property next=property(propertyId).rekey(actor);
+        writeProperty(next);save();append("PROPERTY_REKEY",actor,null,0,"property="+propertyId);return next.key();
     }
     private void save() throws IOException {
         Path target=file.toPath().toAbsolutePath(); Path temp=null;
