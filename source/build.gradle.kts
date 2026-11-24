@@ -75,3 +75,10 @@ tasks.register<JavaExec>("infrastructureChecks") {
     mainClass.set("com.sdcraft.core.gtm.InfrastructureChecks")
 }
 tasks.check { dependsOn("infrastructureChecks") }
+
+tasks.register<JavaExec>("nearMissChecks") {
+    dependsOn(tasks.testClasses)
+    classpath = sourceSets.test.get().runtimeClasspath
+    mainClass.set("com.sdcraft.core.gtm.NearMissChecks")
+}
+tasks.check { dependsOn("nearMissChecks") }
