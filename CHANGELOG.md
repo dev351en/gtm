@@ -5,6 +5,18 @@
 
 ---
 
+## [1.6.0-dev.2] — 2026-11-24: Civic rules and prototype character catalogue
+
+- Implemented immutable, integer-ARK-cent loan schedules with bounded flat interest, grace periods, active-day advancement, overdue checks and repayment validation.
+- Added property owner/guest/admin access rules, key-bound lock toggles and rekeying; added food order preparation, dispatch, delivery and refund state transitions; added deterministic five-of-nineteen jail rotation excluding the gang boss.
+- Executed CivicChecks using OpenJDK 21: 78 checks passed. Committed exact source blobs match local git hashes. These are portable domain rules only; existing ledger, world protection, money transfer, NPC movement and persistence integration remain pending. Immutable old snapshots must not be replayed; transactional persistence is required before enabling real loans or orders.
+- Added tools/generate_npc_assets.py; generated and validated 500 distinct 64x64 RGBA skin prototypes, 100 distinct 64x64 outfit overlays, deterministic registries with 20 gang members (one boss, five initially jailed). Preview inspected locally. Procedural first-pass designs are not final art; in-game skin/outfit rendering and existing NPC identity migration not tested.
+- Local asset ZIP GTM_DEV2_CIVIC_ASSETS.zip contains 607 files, 445876 bytes, CRC verified. Generator committed, binary archive delivered separately, not a full server release.
+- Production is now the user's intended game host for verified incremental updates, but remains untouched: DNS resolution for app.daytona.io and github.com fails from the execution environment, no Daytona connector available, full Paper/JDK25 build and account billing/quota verification blocked. No new sandbox, no spending, no live deployment. Do not use the exposed key; rotate it and configure secure deployment credentials.
+- Remaining Revision 4.0 scope stays open; no claim of complete gameplay.
+
+---
+
 ## [1.6.0-dev.1] — 2026-11-24: GTM Revision 4.0 foundation (not a playable release)
 
 - Created isolated development branch `gtm/revision-4-foundation`; no changes to production, main, world or Daytona.
