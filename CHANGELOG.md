@@ -13,6 +13,7 @@
 - Added tools/generate_npc_assets.py; generated and validated 500 distinct 64x64 RGBA skin prototypes, 100 distinct 64x64 outfit overlays, deterministic registries with 20 gang members (one boss, five initially jailed). Preview inspected locally. Procedural first-pass designs are not final art; in-game skin/outfit rendering and existing NPC identity migration not tested.
 - Local asset ZIP GTM_DEV2_CIVIC_ASSETS.zip contains 607 files, 445876 bytes, CRC verified. Generator committed, binary archive delivered separately, not a full server release.
 - Production is now the user's intended game host for verified incremental updates, but remains untouched: DNS resolution for app.daytona.io and github.com fails from the execution environment, no Daytona connector available, full Paper/JDK25 build and account billing/quota verification blocked. No new sandbox, no spending, no live deployment. Do not use the exposed key; rotate it and configure secure deployment credentials.
+- Added CodeMC VaultUnlockedAPI 2.20 fallback when the original local VaultUnlocked 2.20.3 JAR is absent; kept original local dependency preference. Gradle check now runs both domain smoke suites. Added Java 25/Gradle 9.2.1 GitHub Actions verification, with read-only repository permission and no deployment. Full build still unverified: no workflow run returned by connector at time of recording. Dependency availability/API compatibility must be checked in the actual build.
 - Remaining Revision 4.0 scope stays open; no claim of complete gameplay.
 
 ---
