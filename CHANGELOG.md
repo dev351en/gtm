@@ -5,6 +5,13 @@
 
 ---
 
+## Revision 4 development — Antigravity creative handoff
+
+Audited current development baseline c3e681927714b4bf71a65f88895c04dca1f5e080: Java 25 verification [run 45453149868](https://github.com/dev351en/gtm/actions/runs/45453149868) succeeded. No live server or client certification.
+- Added docs/ANTIGRAVITY_HANDOFF.md, docs/creative/CREATIVE_CATALOGUE.json and docs/creative/ASSET_CONTRACT.md. The work queue derives all 509 existing model IDs and 400 extended-roster identities from current source; includes 46 facility targets, 100 outfit slots, 120 signs, 24 app icons, 33 HUD assets and 32 proposed brands.
+- Antigravity owns creative art, offline world work, exporter tooling and design manifests on a separate branch. ChatGPT/Codex owns gameplay, runtime bindings and deployment. Preserve existing IDs, entitlements and account data. Document catalogue mismatches (vehicle mix, furniture types, rail/ropeway, four-family finishes and festival themes); coordinate migrations instead of overwriting runtime IDs.
+- Documentation only; no new models, gameplay changes or live deployment in this handoff. World survey/renovation, actual Java/Bedrock clients and full gameplay integration remain open.
+
 ## Revision 4 development — city catalogue and population integration
 
 The Finish Studio build passed Java 25 Gradle check in [run 45451451547](https://github.com/dev351en/gtm/actions/runs/45451451547). Added 479 city models alongside the 30 food models. Offline validation distinguishes all 509 coordinate meshes after discarding colors and labels. The library includes procedural design families and structural variants. Full-size vehicle handling, model scale, clothing fit and festival staging require client testing.
