@@ -80,6 +80,8 @@ service:
   clock-in-late-seconds: 180
   lateness-discipline: warning-only
   offline-at-shift-start-exempt: true
+gtm:
+  experimental-dialogue: false # Enable only on authenticated staging server after full build and client tests.
 gta:
   hud: {enabled: true}
   safe-zone-radius: 18
