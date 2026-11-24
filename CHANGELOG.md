@@ -5,6 +5,84 @@
 
 ---
 
+## [1.5.0] — 2026-11-24: Custom 3D Models, GTA iFruit Icons, Creative Arsenal Upgrade & Resource Pack 26.3 Deployment
+
+### 🌟 Release Overview
+Integrated **12 custom 3D Blockbench models**, **51 procedural textures**, and **8 high-definition GTA Online / iFruit application icons** into the unified `EXPECT_SDCRAFT_ResourcePack_26.3.zip` distribution. Overhauled the 54-slot **Creative Testing Arsenal** (`/arsenal`, `/testing`, `/creativemenu`) so all items, firearms, roleplay tools, and vehicle keys render as genuine 3D models directly within inventory slots. Recompiled `SDCraftCore-1.0.0.jar` against Paper 26.3 on OpenJDK 25 LTS, deployed to Daytona Cloud VPS, verified zero-secret Git state, and pushed to GitHub [`dev351en/gtm`](https://github.com/dev351en/gtm).
+
+---
+
+### 1. 3D Model Registry & Item Predicates (Minecraft 1.21.4 Format)
+Integrated 12 Blockbench 3D model definitions with complete first-person, third-person, ground, and GUI transforms:
+
+| Item / Asset Name | Base Item | CustomModelData | Resource Identifier | In-Game Behavior & Transforms |
+| :--- | :--- | :--- | :--- | :--- |
+| **3D Smartphone** | `PAPER` | `900002` | `sdcraft:item/smartphone_3d` | Dual-camera bezel-less phone; right-click opens iFruit OS |
+| **SDPD Detective Badge** | `PAPER` | `900004` | `sdcraft:item/police_badge_3d` | Gold 7-point star in folding black leather badge wallet |
+| **Tactical Medkit** | `PAPER` | `900005` | `sdcraft:item/medkit_3d` | Cordura nylon field medic trauma pouch with cross |
+| **VIP ATM Card** | `PAPER` | `900009` | `sdcraft:item/atm_card_3d` | Maze Bank Platinum credit/debit card with EMV chip |
+| **3D Cash Bundle** | `PAPER` | `900001` | `sdcraft:item/cash_bundle_3d` | Stacked $100 currency bills bound by paper banking strap |
+| **Car Key Fob** | `PAPER` | `900010` | `sdcraft:item/car_key_fob_3d` | Keyless vehicle remote; delivered with MTVehicles |
+| **Fuel Jerry Can** | `PAPER` | `900011` | `sdcraft:item/jerry_can_3d` | 100L metal fuel jerry can; refuels vehicles to 100% |
+| **Louisville Baseball Bat**| `PAPER` | `900012` | `sdcraft:item/baseball_bat_3d`| Turned ash wood sports bat with wrapped athletic grip |
+| **9mm Service Pistol** | `IRON_HOE` | `101` | `sdcraft:item/gun_pistol_3d` | Semi-automatic 9x19mm service sidearm (`GunEngine`) |
+| **12-Gauge Shotgun** | `GOLDEN_HOE` | `102` | `sdcraft:item/gun_shotgun_3d` | Tactical pump-action police scattergun (`GunEngine`) |
+| **Tactical Micro-SMG** | `DIAMOND_HOE` | `103` | `sdcraft:item/gun_smg_3d` | High-cadence CQB 9mm submachine gun (`GunEngine`) |
+| **M4 Assault Rifle** | `NETHERITE_HOE`| `104` | `sdcraft:item/gun_rifle_3d` | 5.56 NATO tactical military assault rifle (`GunEngine`)|
+
+**Minecraft 1.21.4 Model Definitions (`assets/minecraft/items/`):**
+- `paper.json`: Range dispatch on `"property": "minecraft:custom_model_data"` mapping models `900001` through `900027`.
+- `iron_hoe.json`: Threshold `101.0` -> `sdcraft:item/gun_pistol_3d`.
+- `golden_hoe.json`: Threshold `102.0` -> `sdcraft:item/gun_shotgun_3d`.
+- `diamond_hoe.json`: Threshold `103.0` -> `sdcraft:item/gun_smg_3d`.
+- `netherite_hoe.json`: Threshold `104.0` -> `sdcraft:item/gun_rifle_3d`.
+
+---
+
+### 2. High-Resolution GTA iFruit Application Icons
+8 custom transparent 2D icons added for the `/phone` iFruit smartphone GUI:
+- `app_gps` (CMD `900020`): Live GPS district navigation
+- `app_jobs` (CMD `900021`): Career & employment registry
+- `app_gear` (CMD `900022`): Ammu-Nation weapons & tactical gear
+- `app_garage` (CMD `900023`): Motorsport vehicle retrieval
+- `app_bank` (CMD `900024`): Maze Bank atomic financial transfers
+- `app_safety` (CMD `900025`): SDPD wanted level & legal assistance
+- `app_medical` (CMD `900026`): Mount Zonah trauma services
+- `app_settings` (CMD `900027`): Roleplay profile & preferences
+
+---
+
+### 3. Upgraded Creative Testing Arsenal (`CreativeArsenalManager.java`)
+The 54-slot developer and testing GUI (`/arsenal`, `/testing`, `/creativemenu`) was completely overhauled to replace vanilla placeholder items with custom 3D models:
+- **Slot 7 (Fuel)**: `CityItems.jerryCan()` — renders 3D Jerry Can; clicking delivers 100L fuel canister and refills vehicle.
+- **Slot 8 (Melee)**: `CityItems.baseballBat()` — renders 3D Louisville Bat; clicking equips the sports melee weapon.
+- **Slot 9 (Pistol)**: `guns.createGun(GunType.PISTOL)` — renders 3D 9mm Pistol; clicking equips gun + 24 rounds.
+- **Slot 12 (SMG)**: `guns.createGun(GunType.SMG)` — renders 3D Micro-SMG; clicking equips gun + 60 rounds.
+- **Slot 14 (Rifle)**: `guns.createGun(GunType.RIFLE)` — renders 3D M4 Rifle; clicking equips gun + 50 rounds.
+- **Slot 15 (Shotgun)**: `guns.createGun(GunType.SHOTGUN)` — renders 3D Shotgun; clicking equips gun + 12 shells.
+- **Slot 27 (Cash)**: `CityItems.cashIcon()` — renders 3D Cash Bundle; clicking adds $10,000 cash to wallet.
+- **Slot 28 (Bank)**: `CityItems.atmCard()` — renders 3D VIP ATM Card; clicking wires $1,000,000 to Maze Bank.
+- **Slot 29 (Phone)**: `CityItems.phone()` — renders 3D Smartphone; clicking equips phone (right-click opens `/phone`).
+- **Slot 31 (Medkit)**: `CityItems.medkit()` — renders 3D Medical Pouch; clicking restores 100% HP.
+- **Slot 32 (Metro)**: `CityItems.metroTicket("Central Metro")` — renders TrainCarts all-access rail ticket.
+- **Slot 33 (Police)**: `CityItems.policeBadge()` — renders 3D SDPD Detective Badge; clicking equips badge + restraints.
+- **Vehicle Dispensing**: `giveVehicle()` now automatically delivers a 3D Car Key Fob (`CityItems.carKeyFob(name)`).
+
+---
+
+### 4. Master Resource Pack & Deployment Details
+- **Archive Path**: `resource-pack/EXPECT_SDCRAFT_ResourcePack_26.3.zip`
+- **File Size**: 9.75 MB (10,222,698 bytes)
+- **Verified SHA-1**: `cd6420c2d685069df42dd88f7903363a6c24632b`
+- **Deployments**:
+  - `server.properties` on Daytona VPS: `resource-pack-sha1=cd6420c2d685069df42dd88f7903363a6c24632b`
+  - GitHub Repository: Committed and pushed to `main` (`c7f5dcb`)
+  - Local Client Cache: Synchronized to `%APPDATA%\.minecraft\resourcepacks\EXPECT_SDCRAFT_ResourcePack_26.3.zip`
+- **Security Check**:
+  - Git commit diff checked: zero API keys, zero authtokens, zero credentials committed.
+
+---
+
 ## [1.4.0] — 2026-11-24: MCServerHost Direct Cloud Deployment & Vehicle Rendering Root-Cause Fix
 
 ### 🌟 Release Overview

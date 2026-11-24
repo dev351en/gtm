@@ -2,10 +2,10 @@
 
 **Date:** 2026-11-24  
 **Platform:** Paper 26.3 (Build 255-stable) on OpenJDK 25.0.5.1 LTS  
-**Target Environment:** MCServerHost Free Allocation (3.5 GB RAM, 10 GB Disk, 3–4 players)  
+**Active Version:** v1.5.0 (Custom 3D Models, GTA iFruit Icons & Upgraded Creative Arsenal)  
 **Primary Playable World:** New Blockston v1.10 (358 MB)  
-**Release Package:** `EXPECT_SDCRAFT_ARSENAL_HOLOGRAMS_2026-11-24.zip`  
-**Checksum (SHA-256):** `dd0de9deb79703fa24b8a879dd5ee60f398ac8837ef37dfc33fdfd1dbad1dfde`  
+**Release Resource Pack:** `EXPECT_SDCRAFT_ResourcePack_26.3.zip` (9.75 MB)  
+**Checksum (SHA-1):** `cd6420c2d685069df42dd88f7903363a6c24632b`  
 **Test Suite:** 76 / 76 JUnit 5 Unit Tests Passing  
 **Crossplay & Auto-Send:** Geyser-Spigot 2.12.1 + Floodgate 2.2.5 configured with `force-resource-packs: true` for Bedrock / Pocket Edition auto-send.
 
