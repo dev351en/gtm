@@ -3,3 +3,12 @@ Read PROJECT_SPEC.md, CHANGELOG.md and docs/FOUNDATION_TEST_REPORT.md first. The
 
 ## Two-agent creative/engineering split
 Read docs/ANTIGRAVITY_HANDOFF.md and docs/creative/ASSET_CONTRACT.md before creative work. Antigravity uses a separate gtm/creative-r4 branch based on the latest foundation head; art and offline world changes only. ChatGPT/Codex owns engine source, runtime registries, migration and deployment. Existing model and NPC IDs remain stable; proposed JSON interchange is not a runtime API. Keep draft PRs separate until engineering integration and live client testing. Never reset other agents' work.
+
+## Native 128×128 asset generation
+
+The user's 25 November 2026 direction is the default for future asset generation: follow [the 128×128 design language](docs/creative/DESIGN_LANGUAGE_128.md) and [its machine-readable profile](creative/design_language_128.json), `INDRAPRASTHA_128_V1`. Author new square texture, icon, skin and outfit masters natively at 128×128 with meaningful detail on that grid. Enlarged 32×32 or 64×64 bitmaps do not satisfy this rule. The earlier 32-pixel profile remains historical provenance.
+
+The shared 2048×2048 atlas contains a 16×16 grid of native 128×128 cells; do not reduce the entire atlas to 128 pixels. Retain 64×64 skin, outfit and server-icon exports only as compatibility derivatives of 128 masters. Wide signs assemble two 128×128 tiles into one 256×128 sign. Larger contact sheets are previews. Compatibility files, atlas cells, platform exports and previews are not additional unique designs.
+
+Preserve existing source IDs, NPC UUIDs, model assignments and legacy data. Keep proposed bindings separate from runtime registries. Use [the generation report](docs/creative/GENERATION_128_REPORT.md) and its linked validation records for the completed art checkpoint; generation and static pack checks do not satisfy live Java/Bedrock, engine integration, world-placement or deployment gates.
+

@@ -1,0 +1,70 @@
+{
+  "review_date": "2026-11-25",
+  "review_scope": "All 24 phone icons, 33 HUD assets, 32 brands, 4 identity masters and 120 bilingual signs reviewed on 10 native-resolution contact sheets.",
+  "observations": [
+    "Consistent graphite, sandstone and gold construction, with emerald transit and terracotta emphasis.",
+    "Distinct functional phone and HUD silhouettes; readable glyphs at 128 pixels.",
+    "English and Marathi labels retained exactly; Devanagari shaped with libraqm.",
+    "Unsupported Noto punctuation rendered with a DejaVu glyph fallback; no missing bullet boxes.",
+    "Commercial signs use their assigned original brand emblems.",
+    "Signage composites are 256x128 with two 128x128 source tiles; other canonical masters are 128x128.",
+    "64x64 RGB server-list derivative is a compatibility export."
+  ],
+  "previews": [
+    {
+      "path": "previews/brands_128.png",
+      "sha256": "2858d96553b44ce706bdd015428c3a93479af0fd262f0aa404cb9cb4fc934a5c"
+    },
+    {
+      "path": "previews/hud_128.png",
+      "sha256": "8ddcb47781028e43dc403ac1f3951a5c7a2a05d49eab2bef44c73fa4e27773c9"
+    },
+    {
+      "path": "previews/identity_128.png",
+      "sha256": "45491b01f03384c265e17ff7b728973c632fce25bd2698c3efd481c8f383772f"
+    },
+    {
+      "path": "previews/phone_128.png",
+      "sha256": "e32fef6edb63f3a370f229c87967eb3a77148d71cfde2a8f5c60f7d011f8bec0"
+    },
+    {
+      "path": "previews/signage_civic.png",
+      "sha256": "516d38e4c584dc8dcfcff2d4a7f83ec941b2b563bc7ab539ee10710c254b3b37"
+    },
+    {
+      "path": "previews/signage_commercial.png",
+      "sha256": "5c3b8610873443cd38a24793892f9841fe4a629627b88f07d04a1bc53128aa4f"
+    },
+    {
+      "path": "previews/signage_public_safety.png",
+      "sha256": "0342863ca1c9e916b927a09a268b63c384b3d931e50db2c6ffccca0e3ff7395b"
+    },
+    {
+      "path": "previews/signage_road.png",
+      "sha256": "8124f923b873823629870b5464daecab8376748a09b4151b137e058036fcbacf"
+    },
+    {
+      "path": "previews/signage_store.png",
+      "sha256": "4fca5ec96720ec5b15a00587219198cd0adea9d7bf82be3c480427f03102a6ec"
+    },
+    {
+      "path": "previews/signage_transport.png",
+      "sha256": "26b1ba18aff1a81df90b22fd4739ea6e8ed39b8f1cbc6805e97307fc5d4d2277"
+    }
+  ],
+  "verification": {
+    "files_compared": 684,
+    "repeat_hash_mismatches": [],
+    "svg_xml_parsed": 213,
+    "pngs": 464,
+    "font_sha256": {
+      "DejaVuSans.ttf": "57f73e11f51999432bf7ab22ce55b6f945d5eca1bf824404cfa9ec2e3718c84e",
+      "DejaVuSans-Bold.ttf": "a4c5bc453ca281d90ea079e596da7ae0dfeb5777497c29ec254e76d97ff6f890",
+      "NotoSansDevanagari-Regular.ttf": "79a470365ccb210fa3c7d8d8ff2e005ef9d983cfd067f735a0caf7e15070ca9f",
+      "NotoSansDevanagari-Bold.ttf": "77ad688cfe1dc55185bf4edb4db3c614202c65dd23a1463ad0e23fc52bcc9a5c"
+    },
+    "profile": "INDRAPRASTHA_128_V1"
+  },
+  "client_verification": "not_run",
+  "runtime_binding": "pending"
+}

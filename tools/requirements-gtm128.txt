@@ -1,0 +1,3 @@
+# Recorded environment for the native128 exporters (Python 3.12).
+Pillow==13.0.0
+numpy==2.3.5

@@ -1,0 +1,634 @@
+{
+  "schema_version": 1,
+  "design_language": "INDRAPRASTHA_128_V1",
+  "count": 33,
+  "assets": [
+    {
+      "id": "wanted_star_empty",
+      "title": "wanted star empty",
+      "png": "source/icons/hud/wanted_star_empty.png",
+      "svg": "source/icons/hud/wanted_star_empty.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "51cd1463198deeb319ac2d9661bec3987b2148512db3c57a83e0650515a5dce4",
+      "size_bytes": 659,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "wanted_star_filled",
+      "title": "wanted star filled",
+      "png": "source/icons/hud/wanted_star_filled.png",
+      "svg": "source/icons/hud/wanted_star_filled.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "a9f56f8acdddebe0eeccd4cfa87740a0891c04a48badb6a581f3afc6d7286aad",
+      "size_bytes": 736,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "health",
+      "title": "health",
+      "png": "source/icons/hud/health.png",
+      "svg": "source/icons/hud/health.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "88a58b4603004b813ef3a69f7ca4716d490777323f01e692dfc84fc0f000116a",
+      "size_bytes": 734,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "armour",
+      "title": "armour",
+      "png": "source/icons/hud/armour.png",
+      "svg": "source/icons/hud/armour.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "73b1270c2436d8dc35d9f0b5aebb2e79ae00de302431e1cba98c1db763582bf0",
+      "size_bytes": 738,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "fuel",
+      "title": "fuel",
+      "png": "source/icons/hud/fuel.png",
+      "svg": "source/icons/hud/fuel.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "84e885c9580f5dfeb8c4fdd2ae679d19b383db6271166db981d757139f1aec76",
+      "size_bytes": 494,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "battery",
+      "title": "battery",
+      "png": "source/icons/hud/battery.png",
+      "svg": "source/icons/hud/battery.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "09f9b5e53d7099537fc4e97b1e6fbc4e20c775498ffc96f4dad3d1a6cee87d8c",
+      "size_bytes": 439,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "engine_condition",
+      "title": "engine condition",
+      "png": "source/icons/hud/engine_condition.png",
+      "svg": "source/icons/hud/engine_condition.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "975360872448fe80612fe208c145cb5c80669f103b12b7e3fc0d09b4fbdeefec",
+      "size_bytes": 405,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "speedometer_analog",
+      "title": "speedometer analog",
+      "png": "source/icons/hud/speedometer_analog.png",
+      "svg": "source/icons/hud/speedometer_analog.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "35292057bf487ba7d551cadf5bce8a293bb39a6951ce4924724675e809cfc587",
+      "size_bytes": 1799,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "speedometer_digital",
+      "title": "speedometer digital",
+      "png": "source/icons/hud/speedometer_digital.png",
+      "svg": "source/icons/hud/speedometer_digital.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "c98c63cded9893f821dad4780e765109f392321a32906fb21f65a1bd38b6b4e2",
+      "size_bytes": 1591,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "speedometer_compact",
+      "title": "speedometer compact",
+      "png": "source/icons/hud/speedometer_compact.png",
+      "svg": "source/icons/hud/speedometer_compact.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "cb2fe5d200b50fb45de10d01b15df6a404ef53570255a54ef708d06420ae935a",
+      "size_bytes": 1343,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "minimap_circle",
+      "title": "minimap circle",
+      "png": "source/icons/hud/minimap_circle.png",
+      "svg": "source/icons/hud/minimap_circle.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "405725b52bef010c8f197071c683744b2826de4a1dcffddbe47eff116a027738",
+      "size_bytes": 1200,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "minimap_rectangle",
+      "title": "minimap rectangle",
+      "png": "source/icons/hud/minimap_rectangle.png",
+      "svg": "source/icons/hud/minimap_rectangle.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "2fe09793b2eeffbaafa2135a910b3b4fd145a29e358243c815bc177a8cbfbc1d",
+      "size_bytes": 422,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "player_arrow",
+      "title": "player arrow",
+      "png": "source/icons/hud/player_arrow.png",
+      "svg": "source/icons/hud/player_arrow.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "8fa73bb5ceefa36509e72ee6a1d5fedac385c22b7dc188058199d4dbd0dd3fa3",
+      "size_bytes": 598,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "gps_route",
+      "title": "gps route",
+      "png": "source/icons/hud/gps_route.png",
+      "svg": "source/icons/hud/gps_route.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "11eb493b5c1b416e13d071c7a6cfd0267b8ca21ee2e85e67128f582925777c71",
+      "size_bytes": 449,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "map_police",
+      "title": "map police",
+      "png": "source/icons/hud/map_police.png",
+      "svg": "source/icons/hud/map_police.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "8e97faf44a25409732a18c0625435ce455d759443504fbe18071ae06973a0a07",
+      "size_bytes": 1059,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "map_hospital",
+      "title": "map hospital",
+      "png": "source/icons/hud/map_hospital.png",
+      "svg": "source/icons/hud/map_hospital.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "9779d42fb3c40841f6aee20b061c6b77da899ed6843fa3c7d7fcb167ad1af14e",
+      "size_bytes": 883,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "map_fuel",
+      "title": "map fuel",
+      "png": "source/icons/hud/map_fuel.png",
+      "svg": "source/icons/hud/map_fuel.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "ed02006f9c2456b41e25d8dd3c1e5a834b5ccdfc7c98ad60eb0ac72dd92ce3e9",
+      "size_bytes": 937,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "map_shop",
+      "title": "map shop",
+      "png": "source/icons/hud/map_shop.png",
+      "svg": "source/icons/hud/map_shop.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "63e3dc365385860990aacd0d445aa3546007605ff42d620df348b3ed7223fff4",
+      "size_bytes": 896,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "map_property",
+      "title": "map property",
+      "png": "source/icons/hud/map_property.png",
+      "svg": "source/icons/hud/map_property.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "7eb0048de6defe1511fdcf77986a5fbb754cce6036348fa4dacbad20bdb25996",
+      "size_bytes": 950,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "map_station",
+      "title": "map station",
+      "png": "source/icons/hud/map_station.png",
+      "svg": "source/icons/hud/map_station.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "3273126b1b21cb5a1e679624a68186b78b90031a950785c01366e8e314cc1811",
+      "size_bytes": 939,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "map_mission",
+      "title": "map mission",
+      "png": "source/icons/hud/map_mission.png",
+      "svg": "source/icons/hud/map_mission.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "d9e36d3085b458d5fb1c21a38c8a5499cc37b672725980d67d8927771fa2c5da",
+      "size_bytes": 1182,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "phone_shortcut",
+      "title": "phone shortcut",
+      "png": "source/icons/hud/phone_shortcut.png",
+      "svg": "source/icons/hud/phone_shortcut.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "d040e2f7739cb0243b231f7d72652f636d5a95cb4bd6471a7448b27523511d69",
+      "size_bytes": 416,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "hotbar_frame",
+      "title": "hotbar frame",
+      "png": "source/icons/hud/hotbar_frame.png",
+      "svg": "source/icons/hud/hotbar_frame.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "39cc109c8838e070f84446caff29ba66d72ae7423bf06acaf9886fd424a48a16",
+      "size_bytes": 356,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "hotbar_selected",
+      "title": "hotbar selected",
+      "png": "source/icons/hud/hotbar_selected.png",
+      "svg": "source/icons/hud/hotbar_selected.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "b3227b96978d2f555d80cfa52f801b49326d6692b637f3883ffacff2f45f40fb",
+      "size_bytes": 451,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "dialogue_bubble",
+      "title": "dialogue bubble",
+      "png": "source/icons/hud/dialogue_bubble.png",
+      "svg": "source/icons/hud/dialogue_bubble.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "1ba0f4d0200deb0a1bd5203a4c362ca709796f950cf8945daf5802b32ac9d452",
+      "size_bytes": 458,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "notification_frame",
+      "title": "notification frame",
+      "png": "source/icons/hud/notification_frame.png",
+      "svg": "source/icons/hud/notification_frame.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "6c587344c47230ac1e7245f005c211b905c8dc3bfb201ba7287229b7dfef6fdc",
+      "size_bytes": 405,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "wasted_title",
+      "title": "wasted title",
+      "png": "source/icons/hud/wasted_title.png",
+      "svg": "source/icons/hud/wasted_title.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "0e4a9319b5132b55f6154be17397a26937a6109626bde9a76ed2dad74d491237",
+      "size_bytes": 2393,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "busted_title",
+      "title": "busted title",
+      "png": "source/icons/hud/busted_title.png",
+      "svg": "source/icons/hud/busted_title.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "e8d3a96f1e55f2812a67fc424820c26dcb9c858bc1c878071eca21761f7f365e",
+      "size_bytes": 1919,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "city_enter",
+      "title": "city enter",
+      "png": "source/icons/hud/city_enter.png",
+      "svg": "source/icons/hud/city_enter.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "cde97ef2624c06db20babeb83e7a2d5bde5b7cf0278dba25a2022de67f7c7ddd",
+      "size_bytes": 1876,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "city_exit",
+      "title": "city exit",
+      "png": "source/icons/hud/city_exit.png",
+      "svg": "source/icons/hud/city_exit.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "a636087279cfd4f71f4b391ccaafb5b8ad5902408658ea9fc76420306e6ce292",
+      "size_bytes": 1954,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "ark_symbol",
+      "title": "ark symbol",
+      "png": "source/icons/hud/ark_symbol.png",
+      "svg": "source/icons/hud/ark_symbol.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "b39315656a326f54becf5c6c59f7a3fabd8ee90f9465989ef929f4e45a42f0b9",
+      "size_bytes": 516,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "low_fuel",
+      "title": "low fuel",
+      "png": "source/icons/hud/low_fuel.png",
+      "svg": "source/icons/hud/low_fuel.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "2ed65b1e077f28327eb5243b6b5b9907f1362197e314492239efca84c0380cd6",
+      "size_bytes": 597,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "critical_damage",
+      "title": "critical damage",
+      "png": "source/icons/hud/critical_damage.png",
+      "svg": "source/icons/hud/critical_damage.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "5e6e2193e19a6e69f19a2ec318b43e671377e987d1b2c53f1b3e3163c4247d5c",
+      "size_bytes": 647,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "profile": "INDRAPRASTHA_128_V1",
+  "checks": {
+    "base_models": 163,
+    "finish_variants": 300,
+    "checked_pngs": 763,
+    "checked_model_pairs": 463,
+    "native128_icons": 463,
+    "native128_finish_atlases": 300,
+    "unique_finish_pixels": 300
+  },
+  "errors": [],
+  "passed": true,
+  "preview_files": [
+    "food_128.png",
+    "equipment_equipment_128.png",
+    "equipment_weapons_128.png",
+    "equipment_hero_props_128.png",
+    "equipment_finish_collections.png",
+    "equipment_finish_models.png"
+  ],
+  "client_verification": "not_run",
+  "runtime_entitlement_migration": "not_applied"
+}

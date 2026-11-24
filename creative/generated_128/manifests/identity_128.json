@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "design_language": "INDRAPRASTHA_128_V1",
+  "count": 4,
+  "assets": [
+    {
+      "id": "gtm_logo",
+      "title": "gtm logo",
+      "png": "source/branding/core/gtm_logo.png",
+      "svg": "source/branding/core/gtm_logo.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "ac27868246809b212b4ef690fe8967428437c3bfabff7c70e39001778f23c2cd",
+      "size_bytes": 2909,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "sd_craft_logo",
+      "title": "sd craft logo",
+      "png": "source/branding/core/sd_craft_logo.png",
+      "svg": "source/branding/core/sd_craft_logo.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "867e2fc4434f95d4969a1d18dd6cc1cb7677648e545092762ac31f4f04088793",
+      "size_bytes": 2360,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "ark_currency",
+      "title": "ark currency",
+      "png": "source/branding/core/ark_currency.png",
+      "svg": "source/branding/core/ark_currency.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "1e64cc9f57a78f4cc296df14876c4d71695905793ba9e570b9f51c1b20e7e350",
+      "size_bytes": 1490,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu."
+    },
+    {
+      "id": "server_icon",
+      "title": "server icon",
+      "png": "source/branding/core/server_icon.png",
+      "svg": "source/branding/core/server_icon.svg",
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "native_grid": "128x128",
+      "design_language": "INDRAPRASTHA_128_V1",
+      "sha256": "c2790ca60019c20e87d0873ef4c93c89a7704f4f74711e6554f3b8edf5371ba7",
+      "size_bytes": 2920,
+      "status": "art_generated",
+      "client_verification": "pending",
+      "author": "Original procedural artwork created for SD Craft",
+      "rights": "No third-party image assets; text fonts are system-provided Noto and DejaVu.",
+      "compatibility_export": {
+        "png": "source/branding/core/server-icon.png",
+        "dimensions_px": [
+          64,
+          64
+        ],
+        "mode": "RGB",
+        "reason": "Minecraft server-list icon"
+      }
+    }
+  ]
+}

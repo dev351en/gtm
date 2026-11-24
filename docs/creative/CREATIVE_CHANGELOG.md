@@ -1,6 +1,14 @@
-# EXPECT SDCRAFT — Creative Track Changelog (Revision 4 — V3 Faithful 32x Pixel & Model Overhaul)
+# EXPECT SDCRAFT — Creative Track Changelog (Revision 4)
 
-## Executive Summary
+## 2026-11-25 — Native 128×128 generation checkpoint
+
+Completed the isolated `creative/generated_128` art batch under [INDRAPRASTHA_128_V1](DESIGN_LANGUAGE_128.md): 500 NPC skin masters, 100 outfit masters, native UI/identity/signage/material/world assets, and **1,073 Java/Bedrock model pairs** across primary designs, additional sources and explicit variants. The 2048×2048 shared atlas uses native 128×128 cells; 64×64 character/server exports are compatibility derivatives.
+
+The final source report has **0 errors** and one warning for unrun client/runtime gates. The pack report has **0 errors**, **1,103 resolved item definitions**, **1,073 resolved geometries**, **171,492 Java texture-face references**, matched platform cube counts/texture dimensions and passing archive CRCs. Counts preserve the existing 509 primary source IDs; 69 additional IDs have 55 exact geometry definitions. Cosmetic finishes are not unique geometry, and the 30 weapon-source IDs include melee/special props.
+
+No live client, gameplay, signed-skin binding, world placement or deployment result is claimed. See [GENERATION_128_REPORT.md](GENERATION_128_REPORT.md) for the complete count reconciliation, approved festival selection, package hashes and linked evidence. The V3 material below is retained as historical provenance.
+
+## Executive Summary — historical V3 Faithful 32x work
 This document records all creative deliverables produced by **Antigravity** for **GTM Revision 4** on branch `gtm/creative-r4` (`Indraprastha` metropolis, Faithful-32x-inspired pixel & voxel aesthetic, core palette: Graphite `#151B20`, ARK Gold `#D6AD59`, Emerald `#236653`, Sandstone `#D2B997`, Terracotta `#AD5637`).
 
 Every texture, icon, and 3D model was regenerated taking inspiration from **Faithful 32x** Minecraft pixel art (`tools/faithful_32x_palette.py` quantized hue-shifted ramps, 1px directional bevels, pixel-clustered wood/cobble/brick/metal/crystal textures, `512x512` per-face UV atlas, razor-sharp `NEAREST` upscaled pixel sprites, and pixel-locked isometric Z-buffer renders), visually audited across 14 contact sheets, and verified by `tools/validate_creative_r4.py` with **0 errors**. No production servers, gameplay engines, or player ledgers were modified.
@@ -30,3 +38,4 @@ Every texture, icon, and 3D model was regenerated taking inspiration from **Fait
 | **Domain 6** | **Bilingual Signage** | 120 signs (`512x256` RGBA) | Rendered via DirectWrite Chromium (`msedge`) for crisp Marathi/Devanagari conjunct shaping | `creative/manifests/signage_manifest.json` |
 | **Domain 7** | **32×32 Model & World Packs** | 148 model `32x32` textures + 98 world `32x32` block textures | Packaged into `GTM_Indraprastha_World_32x_Java.zip` & `GTM_Indraprastha_World_32x_Bedrock.mcpack` + installed locally | `creative/packs/GTM_Indraprastha_World_32x_Java.zip` |
 | **QA / Reports** | **Validation & Previews** | 14 Contact Sheets + Automated QA Gate | Verified Faithful pixel-locked rendering, atlas UVs, counts, hashes & ZIP integrity | `creative/reports/ASSET_VALIDATION_REPORT.json` |
+

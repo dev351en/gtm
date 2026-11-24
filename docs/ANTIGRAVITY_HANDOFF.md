@@ -1,4 +1,15 @@
 # Antigravity creative production handoff — GTM Revision 4.0
+
+## 25 November 2026 — Native 128 generation handoff
+
+The isolated art batch in `creative/generated_128` is generated and statically validated. Follow the [native 128×128 design language](creative/DESIGN_LANGUAGE_128.md) and [machine-readable profile](../creative/design_language_128.json) for subsequent assets. A 2048×2048 shared atlas holds 128×128 cells; 64×64 skin/outfit/server exports are compatibility derivatives, not the canonical masters.
+
+The [generation report](creative/GENERATION_128_REPORT.md) records **1,073 model pairs**, **1,103 resolved item definitions** and **171,492 Java texture-face references**, with zero source/pack validation errors. It separates the 509 primary models, 69 additional source IDs, 195 road damage variants and 300 cosmetic variants, and documents shared additional geometry rather than claiming every ID is a unique shape. Existing model IDs and NPC identity records remain intact. The batch retains all 100 legacy festival IDs; the approved 100-festival selection uses 72 of them plus 28 additions.
+
+Engineering handoff remains pending: review proposed runtime mappings, bind assets through the existing engine interfaces, verify actual Java and Bedrock clients and signed skins, and complete staging/world-placement gates before deployment. The candidate packs have not been installed or deployed by this batch. The historical baseline and work boundaries below remain useful context; their older resolution descriptions are superseded by the 128 profile for future generation.
+
+## Historical baseline
+
 Baseline audited: c3e681927714b4bf71a65f88895c04dca1f5e080. Java 25 build/check passed in GitHub Actions run 45453149868. This is a build-level result, not a live release.
 
 ## Division of work
@@ -43,3 +54,4 @@ Record changes in docs/creative/CREATIVE_CHANGELOG.md; add completed/blocked cou
 
 ## Work order
 First reproduce current packs and survey baseline; then build visual identity/UI/branding, transport art, furniture and building layouts, character art, shops/food, festival assets and city renovation. Parallelize only independent art families. Return a creative handoff bundle and draft PR with all source and validation, not another plan. Work as far as available tools and usage allow, save checkpoints, report genuine blockers. No per-item approvals.
+

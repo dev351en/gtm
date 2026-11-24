@@ -1,0 +1,24 @@
+{
+  "profile": "INDRAPRASTHA_128_V1",
+  "passed": true,
+  "errors": [],
+  "new_model_pairs": 28,
+  "unique_geometry_fingerprints": 28,
+  "native128_icons": 28,
+  "approved_selection_count": 100,
+  "approved_theme_counts": {
+    "diwali": 12,
+    "holi": 12,
+    "navratri": 12,
+    "christmas": 16,
+    "new_year": 16,
+    "independence_day": 10,
+    "ganesh_chaturthi": 12,
+    "monsoon": 10
+  },
+  "legacy_ids_preserved": 100,
+  "legacy_reused_in_selection": 72,
+  "world_placement": "not_applied",
+  "runtime_registration": "not_applied",
+  "client_verification": "not_run"
+}

@@ -44,7 +44,7 @@ def pick_paint(vid: str, mfg: str, cat: str) -> str:
     if "tractor" in vid or "harvester" in vid:
         return "paint_red" if "compact" in vid or "heavy" in vid else "hazard_yellow"
     if cat == "luxury":
-        return ["paint_black", "paint_silver", "paint_gold", "paint_blue", "lotus_dark"][hash(vid) % 5]
+        return ["paint_black", "paint_silver", "paint_gold", "paint_blue", "lotus_dark"][int.from_bytes(hashlib.sha256(vid.encode()).digest()[:4], "big") % 5]
     palette = ["paint_red", "paint_white", "paint_silver", "paint_blue", "paint_emerald", "paint_saffron", "paint_gold", "paint_black"]
     return palette[sum(ord(c) for c in vid) % len(palette)]
 
@@ -546,3 +546,4 @@ def build_all():
 
 if __name__ == "__main__":
     build_all()
+

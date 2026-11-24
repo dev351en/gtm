@@ -5,6 +5,13 @@
 
 ---
 
+## 2026-11-25 — Native 128×128 asset generation and static pack validation
+
+- Recorded the persistent `INDRAPRASTHA_128_V1` rule in [AGENTS.md](AGENTS.md), the [design language](docs/creative/DESIGN_LANGUAGE_128.md) and [machine-readable profile](creative/design_language_128.json): native 128 masters, a 2048 atlas of 128-pixel cells, and explicit 64-pixel compatibility derivatives.
+- Generated isolated art sources and candidate Java/Bedrock packs with **1,073 model pairs**: 509 primary models, 69 additional source IDs, 195 road damage variants and 300 cosmetic variants. The 69 additional IDs have 55 exact geometry definitions; the 30 existing weapon-source IDs include melee/special props and are not a claim of 30 distinct firearms.
+- Final source validation reports **0 errors** and the unrun client/runtime gate. Pack checks resolve **1,103 item definitions** (including 30 exact food aliases), **1,073 geometries** and **171,492 Java texture-face references**, with matching geometry/texture checks and passing ZIP CRCs. Existing source IDs and identity records are retained.
+- Generation and static validation are complete for this art batch. Live Java/Bedrock clients, runtime binding, world placement and deployment were not performed. See [GENERATION_128_REPORT.md](docs/creative/GENERATION_128_REPORT.md) for counts, archive hashes, evidence and remaining gates. Earlier 32x entries below describe historical work.
+
 ## Revision 4 development — Antigravity Creative Track complete (V3 Faithful 32x Overhaul)
 
 Regenerated all textures, icons, and 3D models on branch `gtm/creative-r4` taking inspiration from Faithful 32x Minecraft pixel art (`tools/faithful_32x_palette.py`, `512x512` per-face UV atlas, crisp `NEAREST` upscaled pixel sprites, zero smooth trig blur or Gaussian drop-shadows):
@@ -401,3 +408,4 @@ When tasked with extending or updating EXPECT SDCRAFT, strictly observe the foll
 ### E. Git & Repository Management
 - Do NOT commit heavy 3rd-party JAR binaries (>50 MB) like `Geyser-Spigot.jar` to Git. Keep them in `.gitignore`.
 - Always update this `CHANGELOG.md` file whenever making new updates so other agents maintain context.
+

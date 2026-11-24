@@ -1,0 +1,49 @@
+{
+  "review_date": "2026-11-25",
+  "review_scope": "All 65 original road parents and their 195 generated damage variants inspected on five four-state contact sheets at native 128-pixel icon resolution.",
+  "counts": {
+    "parents": 65,
+    "damaged": 65,
+    "critical": 65,
+    "wreck": 65,
+    "unique_variant_geometry_signatures": 195
+  },
+  "observations": [
+    "Damaged states retain the original silhouette with a buckled body section, displaced cover, damaged glazing, missing trim and tilted front wheel.",
+    "Critical states expose the chassis and radiator, remove front tyre geometry where present, and fracture or remove glazing.",
+    "Wreck states compress the upper structure and add collapsed roof skin; motorcycles and scooters lean onto one side.",
+    "Original model families, color identity and manufacturer remain recognizable across each four-state row.",
+    "These are original procedural block models. Their art variants are proposed IDs, separate from the 509 primary asset count."
+  ],
+  "previews": [
+    {
+      "path": "previews/vehicle_states_01.png",
+      "sha256": "da8847c277df31c44122e487d96740af6e51168529561a9ab95f94ca31148673"
+    },
+    {
+      "path": "previews/vehicle_states_02.png",
+      "sha256": "fb6454ce05fbe7b6b700393ba972d61a75ae4bd9ad76a36f11bc727d272efcea"
+    },
+    {
+      "path": "previews/vehicle_states_03.png",
+      "sha256": "12e9f9c18ba1da3218efffa3cabf60b6fccae96533e32c322a24c7ea52f5ae37"
+    },
+    {
+      "path": "previews/vehicle_states_04.png",
+      "sha256": "7527a95137fd9e1b28f39b8bfc31220e0025695a2ae0a19b9b75b1d920060a65"
+    },
+    {
+      "path": "previews/vehicle_states_05.png",
+      "sha256": "03d984b87e092629fd2060bf6be576b302aa0b50bd746652784eb7015d390803"
+    }
+  ],
+  "verification": {
+    "normal_source_hashes_match": true,
+    "shared_atlas_unchanged_during_generation": true,
+    "variant_geometry_signatures_unique": true,
+    "variant_icon_hashes_unique": true
+  },
+  "engine_binding": "pending_review",
+  "client_verification": "not_run",
+  "physics": "Not implemented or validated by these art exports."
+}

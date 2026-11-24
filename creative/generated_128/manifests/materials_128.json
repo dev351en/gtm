@@ -1,0 +1,2432 @@
+{
+  "profile": "INDRAPRASTHA_128_V1",
+  "materials": [
+    {
+      "id": "alloy_rim",
+      "path": "source/textures/materials/alloy_rim.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "b33e517493c6c7a69b6be3445fa55b98f0a9c7496d13c8028f855e22b451adf4",
+      "atlas_cell": [
+        6,
+        0
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "aluminum",
+      "path": "source/textures/materials/aluminum.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "6c610ea21620d0b605d541b945eaf07098499f7928358e0a59aeb7ef009a3293",
+      "atlas_cell": [
+        3,
+        0
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "ambulance_white",
+      "path": "source/textures/materials/ambulance_white.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "ec2db22693b842ac89b9ea7cdad6f15c26c5f7ba4da0bb08b1dbd37f55f5e506",
+      "atlas_cell": [
+        7,
+        1
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "auto_green",
+      "path": "source/textures/materials/auto_green.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "74362871821bfeb9b420e93af1415fe84334b2d5739c88d18a987c75898e0242",
+      "atlas_cell": [
+        1,
+        1
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "bamboo",
+      "path": "source/textures/materials/bamboo.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "1464c39202865de091107dbd412830b99069ef419883286967ac3ba441bd91ed",
+      "atlas_cell": [
+        3,
+        2
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "beacon_amber",
+      "path": "source/textures/materials/beacon_amber.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "377d1640f39a0e08d6a418fcb92360885724d0315cae61e6c1afc8405a17865f",
+      "atlas_cell": [
+        13,
+        1
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "beacon_blue",
+      "path": "source/textures/materials/beacon_blue.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "5f3212da4da25898fa591e636a132d7a744dbf4f7516abdcede3b3933abcc9d9",
+      "atlas_cell": [
+        12,
+        1
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "bills_ark_top",
+      "path": "source/textures/materials/bills_ark_top.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "c18ce724ea6eb6a366a88e7097ac7233df42b6910a22a94ff80e681469bd25ef",
+      "atlas_cell": [
+        7,
+        6
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "bills_band",
+      "path": "source/textures/materials/bills_band.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "3b854a79c96fb0a985073c5b7fa21c073ea952459fefeeae6637e8999707aab9",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "bills_side",
+      "path": "source/textures/materials/bills_side.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "962051188a30b1a5b03292c03b2f7673d8b5470a7bdf69fe999f70ef4ac7fc63",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "bills_top",
+      "path": "source/textures/materials/bills_top.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "c18ce724ea6eb6a366a88e7097ac7233df42b6910a22a94ff80e681469bd25ef",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "birch_planks",
+      "path": "source/textures/materials/birch_planks.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "20a447c1f51905e85c1dd807e1e41f9da897572825a03ee83511bbcde4291402",
+      "atlas_cell": [
+        15,
+        6
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "bookshelf_front",
+      "path": "source/textures/materials/bookshelf_front.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "9a8a87df978cc3fd42354b69e050bdbdbf44dd2c407b8205adb9f6a9c96e2f9e",
+      "atlas_cell": [
+        5,
+        5
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "brand_stamp",
+      "path": "source/textures/materials/brand_stamp.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "3b854a79c96fb0a985073c5b7fa21c073ea952459fefeeae6637e8999707aab9",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "brass",
+      "path": "source/textures/materials/brass.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "4101c0d126becf8fab9d48b44434d2536e9e57029825ee13108f87710488785b",
+      "atlas_cell": [
+        0,
+        3
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "brick_clay",
+      "path": "source/textures/materials/brick_clay.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "6ad524ec8869cd61dfb76883d3a4f152bcbf94582d79affb53bcfe6151132ce5",
+      "atlas_cell": [
+        7,
+        2
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "brick_sandstone",
+      "path": "source/textures/materials/brick_sandstone.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "7a60f582ed9cec82f4c2330b39037806633e66e139faefc360f3b940d059c355",
+      "atlas_cell": [
+        11,
+        6
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "can_red",
+      "path": "source/textures/materials/can_red.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "a7ca9199d1eacf4df803b4060bcc26b68a04797f5b28cce470c03bf0775d52ca",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "can_spout",
+      "path": "source/textures/materials/can_spout.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "e3f14c75e29eb5629a2a2fed19643cc8aa846fb467fd8a691ec1975b7c2a208d",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "car_door_ambulance",
+      "path": "source/textures/materials/car_door_ambulance.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "0ff1f8aea87e2543b8b5a1b36522fec151860f0300796fd047f13ae3d9d40cbd",
+      "atlas_cell": [
+        15,
+        4
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "car_door_black",
+      "path": "source/textures/materials/car_door_black.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "163a7adf454c93c416eda8634835aa1dbb73a39ca2c9d97e82b0a331616ed572",
+      "atlas_cell": [
+        8,
+        4
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "car_door_blue",
+      "path": "source/textures/materials/car_door_blue.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "3d337c0f2f36fda886af9e8db9ac201907090cdaee7e49047b3dbb547ae21b6c",
+      "atlas_cell": [
+        10,
+        4
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "car_door_bus",
+      "path": "source/textures/materials/car_door_bus.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "7fb03699ab7d3f06f4265233b5eb439c46f4b7f66a044e481f5ca0b43c665741",
+      "atlas_cell": [
+        0,
+        5
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "car_door_emerald",
+      "path": "source/textures/materials/car_door_emerald.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "6bb80f2c28005b2c1f71b38a118ac352c63e9f026efaa6472a0a1f89d28b6827",
+      "atlas_cell": [
+        11,
+        4
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "car_door_police",
+      "path": "source/textures/materials/car_door_police.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "a6c21fb6bd1c2e3682db667a2bc93c327377c86138fbebe10ff13f6ce783c428",
+      "atlas_cell": [
+        14,
+        4
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "car_door_red",
+      "path": "source/textures/materials/car_door_red.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "2da20098da5f0d3c0824fb2a8de6a567f071342a0fe7bd40e3d4d4f78525d2b1",
+      "atlas_cell": [
+        6,
+        4
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "car_door_saffron",
+      "path": "source/textures/materials/car_door_saffron.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "968b7ae0ecc527322d3e5fddd1c254b2840399a8c25a4a12876d808e83f9b55e",
+      "atlas_cell": [
+        12,
+        4
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "car_door_silver",
+      "path": "source/textures/materials/car_door_silver.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "54eab8d99445121cb451480b30a326aaefeffe6d4e3df2c7aba2931c381bef03",
+      "atlas_cell": [
+        9,
+        4
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "car_door_taxi",
+      "path": "source/textures/materials/car_door_taxi.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "18f33dc6323bd26d9aa68e186bed467bb1f5359e5ec00a8ef6d2640f10e466cf",
+      "atlas_cell": [
+        13,
+        4
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "car_door_train",
+      "path": "source/textures/materials/car_door_train.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "b0bc798aae738590bd6d2a0bde15a71c78e91a2df17656d28b8ed67a3301feb5",
+      "atlas_cell": [
+        1,
+        5
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "car_door_white",
+      "path": "source/textures/materials/car_door_white.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "34dd864bb94a46eff380680e86ab856b8f022b5e232a6f3fce3e376bc5e94787",
+      "atlas_cell": [
+        7,
+        4
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "carbon",
+      "path": "source/textures/materials/carbon.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "873d7d84898f0efa2d79f51b0d52941a84a5f2a81f89d07fc230760869d18c1d",
+      "atlas_cell": [
+        7,
+        0
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "card_ark_vip",
+      "path": "source/textures/materials/card_ark_vip.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "9e8c2bfac366b2299d6d906fe25b30873f30c9695170a9fe0938bf2cf0c79f76",
+      "atlas_cell": [
+        8,
+        6
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "card_back",
+      "path": "source/textures/materials/card_back.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "ae1a71c8a02a268debb9d990ffa49238b3001d7cbcfc2eee5fc493f4e01da836",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "card_front",
+      "path": "source/textures/materials/card_front.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "9e8c2bfac366b2299d6d906fe25b30873f30c9695170a9fe0938bf2cf0c79f76",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "chip",
+      "path": "source/textures/materials/chip.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "3b854a79c96fb0a985073c5b7fa21c073ea952459fefeeae6637e8999707aab9",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "chrome",
+      "path": "source/textures/materials/chrome.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "2488d94d2eef0405c23a2f40bf3ddc5545d83575167dfe92ea187483949e946e",
+      "atlas_cell": [
+        2,
+        0
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "cobble_wall",
+      "path": "source/textures/materials/cobble_wall.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "040c681223738d058c2147cef3af215819c9b37e55324124ebcfc6d1d96e9e39",
+      "atlas_cell": [
+        13,
+        5
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "copper",
+      "path": "source/textures/materials/copper.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "d49a0d979b294100e2f52566015b14e4dee9631145e3ba77c0f1e400f9960a4c",
+      "atlas_cell": [
+        1,
+        3
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "crimson_silk",
+      "path": "source/textures/materials/crimson_silk.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "1bb540413c45dc06db729b0654e932ce4f19085c26a1e64f3117a2c289d9fe16",
+      "atlas_cell": [
+        3,
+        3
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "drawer_teak",
+      "path": "source/textures/materials/drawer_teak.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "656e36a853ff42490c867fd477efad2b350dd11c131c0f20b8daec4f974bb925",
+      "atlas_cell": [
+        10,
+        5
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "earth_soil",
+      "path": "source/textures/materials/earth_soil.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "b6b7a586b4ffed7dc78fdcc68b3efdb15f0b7cacef8892d01f4216a3b6be4963",
+      "atlas_cell": [
+        12,
+        3
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "fabric_beige",
+      "path": "source/textures/materials/fabric_beige.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "5346fd7e5957db79c05959744c9841fccf744a2b6f0d59ccc033b99ac3e37fda",
+      "atlas_cell": [
+        8,
+        2
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "fabric_emerald",
+      "path": "source/textures/materials/fabric_emerald.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "cc647771996d2f045c9372fb46b62fba41382bdc24a933fe3c63728a8e2a7239",
+      "atlas_cell": [
+        9,
+        2
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "fabric_maroon",
+      "path": "source/textures/materials/fabric_maroon.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "12983ab76071bd1ee2c33911f312fce4d9fd96744b1e2370ca3b3c406d86888f",
+      "atlas_cell": [
+        11,
+        2
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "fabric_navy",
+      "path": "source/textures/materials/fabric_navy.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "8e02311c0bb0c3d4258d8ca7987a42605f639bfad7cd7a35d27682bd5371bb04",
+      "atlas_cell": [
+        10,
+        2
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "festival_rangoli",
+      "path": "source/textures/materials/festival_rangoli.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "f4312243e129f8c0e5fa9c162221fae52bed5ad5981a569654bcbcc07062a419",
+      "atlas_cell": [
+        10,
+        6
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "festival_toran",
+      "path": "source/textures/materials/festival_toran.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "3983a16445125c530af5d1bbc801e89f97cb1eb4f03a6630403fe12238974674",
+      "atlas_cell": [
+        9,
+        6
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "fire_red",
+      "path": "source/textures/materials/fire_red.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "b9bffa3741e9a5ce7994e76426db9d55127be91bb61ca4ae5434a7a5b668b2cc",
+      "atlas_cell": [
+        6,
+        1
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "fob_buttons",
+      "path": "source/textures/materials/fob_buttons.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "1ada475c8bbff74b9bb8695006b2882e5e74eafb5348594507c00fc53b10369f",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "fob_case",
+      "path": "source/textures/materials/fob_case.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "a60d80fece297ab5cf9f802e182a1dd2cd101320976af5097866fce843e589c0",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "food_bean",
+      "path": "source/textures/materials/food_bean.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "a77fbf217cb86fd1bbc1bc74f268000269da1a2c5e98ef5ede7c0e6d025309dc",
+      "atlas_cell": [
+        0,
+        8
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "food_bread",
+      "path": "source/textures/materials/food_bread.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "55210577e9d7401280c987e7e3a9a240e03a7a5e2ecdef9a5679c387084a3ec3",
+      "atlas_cell": [
+        7,
+        7
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "food_chilli",
+      "path": "source/textures/materials/food_chilli.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "7f41365dd533ba231e0df6379940b0340ad830fcf0c04bff3eb59b98f26bd916",
+      "atlas_cell": [
+        11,
+        7
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "food_clay",
+      "path": "source/textures/materials/food_clay.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "2abc915a49211a76f9e0a2b13dcc9cd657535463db2a0995d6f81e4a796539bd",
+      "atlas_cell": [
+        2,
+        7
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "food_cream",
+      "path": "source/textures/materials/food_cream.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "d1be0830ef2c9d482591711746e311fc513b28ca3d17dca47583130fd477451f",
+      "atlas_cell": [
+        4,
+        7
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "food_crust",
+      "path": "source/textures/materials/food_crust.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "a976020caf64693dc6a0922ae9e9a81019bae0d24f014fd038f2826defbfc5fb",
+      "atlas_cell": [
+        6,
+        7
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "food_gold",
+      "path": "source/textures/materials/food_gold.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "3f94adf7f20a84b2b0f7163d704b078458504b522e2f6ca96a70af7037a6e672",
+      "atlas_cell": [
+        9,
+        7
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "food_gravy",
+      "path": "source/textures/materials/food_gravy.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "9b78e11175cb45bef6a1560e275293412d518a92de8edaf8fb7ca00a91231b68",
+      "atlas_cell": [
+        10,
+        7
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "food_ice",
+      "path": "source/textures/materials/food_ice.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "b34f4d713b579cde27715e7c1ca510cbab5f2bdf3671dac0542690ea29ab9016",
+      "atlas_cell": [
+        3,
+        8
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "food_leaf",
+      "path": "source/textures/materials/food_leaf.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "0666781593de5170eee13c5804eae093814b56942bff0671a2db07553678fa84",
+      "atlas_cell": [
+        12,
+        7
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "food_milk",
+      "path": "source/textures/materials/food_milk.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "35ff6fce59f159ca14a2b0f549a7b1cb73115d63477c9d70fa6ccfc9e1c8f9ea",
+      "atlas_cell": [
+        5,
+        7
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "food_mint",
+      "path": "source/textures/materials/food_mint.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "47fcae7b3c120ef65bd7b250fffd4351fdd3fb017a0a2cbf5163a699178b5d13",
+      "atlas_cell": [
+        13,
+        7
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "food_pink",
+      "path": "source/textures/materials/food_pink.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "6677d4448006bd71778136a22f7b2ef3b52ba5267387ca6a04fd7f50b0c858c6",
+      "atlas_cell": [
+        14,
+        7
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "food_rice",
+      "path": "source/textures/materials/food_rice.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "86a4c63e691ad17fd5d00b58196834e3e1c00a0124688b9cdf579075348b6e52",
+      "atlas_cell": [
+        15,
+        7
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "food_rim",
+      "path": "source/textures/materials/food_rim.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "dff23f966f41f30080c382e8f864cef9b3ea346e9aba2c2c1993dfdf1cd3cfa3",
+      "atlas_cell": [
+        1,
+        7
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "food_saffron",
+      "path": "source/textures/materials/food_saffron.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "f58125720d0538958831fd7251588c86dbdf607d471e8a68ea2a1fa824628020",
+      "atlas_cell": [
+        1,
+        8
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "food_steel",
+      "path": "source/textures/materials/food_steel.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "a2995f9964fbe15b6a6d756c2c267494e2ed8c944043b89dcea3bbbb58a1a1ff",
+      "atlas_cell": [
+        0,
+        7
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "food_terra",
+      "path": "source/textures/materials/food_terra.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "a9e3b6988fe0cd24d6bf260aefed0c1d195f0d6eeac9fc12178a2cdbbe3886cb",
+      "atlas_cell": [
+        3,
+        7
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "food_toast",
+      "path": "source/textures/materials/food_toast.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "8f52a92017495b93d06f190d068394388acc8c72696d30d7ec70c3ce99c0e49c",
+      "atlas_cell": [
+        8,
+        7
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "food_violet",
+      "path": "source/textures/materials/food_violet.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "ba8e3f4d7c8caec00bcdc83ceeb07af7180261070d6199c90aef0886b6d7bac7",
+      "atlas_cell": [
+        2,
+        8
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "glass_clear",
+      "path": "source/textures/materials/glass_clear.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "87aac1ef510e237979d3ca5dacc165da0a20844fb9f00a789107900c9e3a47ce",
+      "atlas_cell": [
+        9,
+        1
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "glass_tint",
+      "path": "source/textures/materials/glass_tint.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "0e4ccce4cb1aa7010b00e5bc6d9edf5386d4e31c2be264740cc272441825e7d3",
+      "atlas_cell": [
+        8,
+        1
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "glowstone_lamp",
+      "path": "source/textures/materials/glowstone_lamp.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "5c6024d1eea466f8320c29f82541fb4496ec1832ddca2905d2717558946ca571",
+      "atlas_cell": [
+        14,
+        5
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "gold",
+      "path": "source/textures/materials/gold.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "3b854a79c96fb0a985073c5b7fa21c073ea952459fefeeae6637e8999707aab9",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "gold_filigree",
+      "path": "source/textures/materials/gold_filigree.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "051a4b14d1829563d8c0f376a73495f40aba28043abc5c0a8e8c97ec8ead5445",
+      "atlas_cell": [
+        14,
+        3
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "granite",
+      "path": "source/textures/materials/granite.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "86d09b360951de7ef11080eacf4f7638d627171bf0a64f3d181551d4ed14cbb6",
+      "atlas_cell": [
+        6,
+        2
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "graphite",
+      "path": "source/textures/materials/graphite.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "488c16374af1d82b055a5d7dfa055a09a621d0a2f60fc987d0832276af8fa072",
+      "atlas_cell": [
+        4,
+        0
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "grille_black",
+      "path": "source/textures/materials/grille_black.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "876180106b63a2a75e94da9e80ee9d967cdafa9f000164456d4643c250c5850f",
+      "atlas_cell": [
+        3,
+        4
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "grille_chrome",
+      "path": "source/textures/materials/grille_chrome.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "81790c31bb2b2858a580b3ba0ca888912456647fdf73c72cd7331e75dbd645dd",
+      "atlas_cell": [
+        2,
+        4
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "grille_mesh",
+      "path": "source/textures/materials/grille_mesh.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "92df9a9a27ddcaf64cc54a843ceafcf826ada2abfc9b9ceb47b59a301df805c6",
+      "atlas_cell": [
+        14,
+        1
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "grip_tape",
+      "path": "source/textures/materials/grip_tape.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "c7e5287566e7dda24d420a59339649e2b78ca56842d72b1442ab62ce9294fa39",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "gun_muzzle_bore",
+      "path": "source/textures/materials/gun_muzzle_bore.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "17cdf253b6249df237b3aa2aa3e8c9786816cbad85533cd0e510d19aa0d37c57",
+      "atlas_cell": [
+        4,
+        6
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "gun_pistol_frame",
+      "path": "source/textures/materials/gun_pistol_frame.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "1a117e4e40d5633c1e6efacc4267ac1ef54ddfa79854580d0e29f68e5e3e28f3",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "gun_pistol_grip",
+      "path": "source/textures/materials/gun_pistol_grip.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "a95c1dc29301a20828a847f9b72b879d2b6d2dc56d681d380d00928d02d33030",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "gun_pistol_slide",
+      "path": "source/textures/materials/gun_pistol_slide.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "b41c7ef0652e70197c8cbc3d861c9f30cc7d24c058e9163fad4268aadc10fabd",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "gun_rifle_handguard",
+      "path": "source/textures/materials/gun_rifle_handguard.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "9b8eb87c73d2d39db1c0c07e2aab7104d157d8062cf7acc82b0f253c2eb56eeb",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "gun_rifle_mag",
+      "path": "source/textures/materials/gun_rifle_mag.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "52e12107b994ac77d8b48d3dd0d9a23249508d4213a101a1dd2bf414287818ff",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "gun_rifle_receiver",
+      "path": "source/textures/materials/gun_rifle_receiver.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "a4874a1c977e9055cd168c1f6454c21daed94087ad71b17f572487c15cc59af4",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "gun_rifle_stock",
+      "path": "source/textures/materials/gun_rifle_stock.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "d2a36976a9a2870ff1c81d5776d056727d737eae328f066ff3e032a5a4c242d0",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "gun_steel",
+      "path": "source/textures/materials/gun_steel.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "99de04fb746c38384f55a58ebbaaea2bd80a56c6c017b4dbee09b52770063585",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "hazard_yellow",
+      "path": "source/textures/materials/hazard_yellow.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "f1a56c3bc48645bccdc897dfc47f3a812976b4968024be8f3def3ab0120a5311",
+      "atlas_cell": [
+        8,
+        3
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "headlight",
+      "path": "source/textures/materials/headlight.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "5ad7c48429343bcbc37578127ffddd5a3eb1ace2d53114277013230bfa6c8027",
+      "atlas_cell": [
+        10,
+        1
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "headlight_face",
+      "path": "source/textures/materials/headlight_face.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "5ad7c48429343bcbc37578127ffddd5a3eb1ace2d53114277013230bfa6c8027",
+      "atlas_cell": [
+        0,
+        4
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "holi_pink",
+      "path": "source/textures/materials/holi_pink.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "c1b3ae266025287fa16085547039aa6ea904ae393339ad3cade0c4848d0c9b6f",
+      "atlas_cell": [
+        6,
+        3
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "jerrycan_rib_red",
+      "path": "source/textures/materials/jerrycan_rib_red.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "a7ca9199d1eacf4df803b4060bcc26b68a04797f5b28cce470c03bf0775d52ca",
+      "atlas_cell": [
+        6,
+        6
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "leaf_green",
+      "path": "source/textures/materials/leaf_green.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "7bbf794ee962481f12d4c53c1338a0333aa1909be89382eb152d43c5b5473d77",
+      "atlas_cell": [
+        7,
+        3
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "leather",
+      "path": "source/textures/materials/leather.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "7f7629b3e5aa5212fd34e25ab3199e89129c35e2758610e9dc7662968574f8f5",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "leather_black",
+      "path": "source/textures/materials/leather_black.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "a21d53c32f9fb4c6abfde637bc777b6cffff6ff1c32a20aeaf8f57b9b7cd8907",
+      "atlas_cell": [
+        13,
+        2
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "leather_tan",
+      "path": "source/textures/materials/leather_tan.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "e5d22a570377af615c7c78152db674e60bb7246f4d65f87d7a6a2dda4acb8714",
+      "atlas_cell": [
+        12,
+        2
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "license_plate",
+      "path": "source/textures/materials/license_plate.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "0da86b13aa63baf31e1d3c3537529aedd6dd5edf903256e0971c6634e04cbe03",
+      "atlas_cell": [
+        15,
+        1
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "license_plate_mh01",
+      "path": "source/textures/materials/license_plate_mh01.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "0da86b13aa63baf31e1d3c3537529aedd6dd5edf903256e0971c6634e04cbe03",
+      "atlas_cell": [
+        5,
+        4
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "linen_white",
+      "path": "source/textures/materials/linen_white.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "79dc59b99e1db68c8c032a6a84e1e75e3c0c20d492206eb470e11de4144ba665",
+      "atlas_cell": [
+        14,
+        2
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "lotus_dark",
+      "path": "source/textures/materials/lotus_dark.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "d29c0032937efd8e85779c6c0633cc935465979dfc1c98b0a9bc89ab67ecf58f",
+      "atlas_cell": [
+        15,
+        3
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "mandir_jali",
+      "path": "source/textures/materials/mandir_jali.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "02adc44b0024eb32053eadb5f8bbcd019de3e670147bb7f8d4c20c5a6b140e4c",
+      "atlas_cell": [
+        11,
+        5
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "marble",
+      "path": "source/textures/materials/marble.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "dbafcc60d85f9dc89e939da510ac52d36281e9eaa440449d7a41a2e3c361eced",
+      "atlas_cell": [
+        5,
+        2
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "marigold",
+      "path": "source/textures/materials/marigold.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "d937e6a178e29b77a4061a44576517fba9b08cc196bf1e14698ed60299ce1fbf",
+      "atlas_cell": [
+        2,
+        3
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "maroon_rail",
+      "path": "source/textures/materials/maroon_rail.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "8f2a2f87067ef17c3922b72cf8357c3e97d87f3a18a0df669017f61551c8b7fd",
+      "atlas_cell": [
+        2,
+        1
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "mattress_blue",
+      "path": "source/textures/materials/mattress_blue.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "f239aac61ef1b57fbda592ca5ba99bf802f068b713d2a6abe3b457279c5d5211",
+      "atlas_cell": [
+        15,
+        2
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "medical_red",
+      "path": "source/textures/materials/medical_red.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "31a34a57357c47ea1f69541c80a67cf124dda76a396d86505702fbb386accbdb",
+      "atlas_cell": [
+        9,
+        3
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "medical_teal",
+      "path": "source/textures/materials/medical_teal.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "09caee2a6273207c2b25f8d494b33e084d860e23d29fa99b12333316ea759050",
+      "atlas_cell": [
+        10,
+        3
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "medkit_cross_tile",
+      "path": "source/textures/materials/medkit_cross_tile.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "1ff6f1b13953927968589bf9239964ec0122d508e87384408da40e85a635173d",
+      "atlas_cell": [
+        5,
+        6
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "medkit_dark_trim",
+      "path": "source/textures/materials/medkit_dark_trim.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "ed5a62643235edb450043af3069f370abd4c97b6f7b134473e79de023ba78db9",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "medkit_hardware",
+      "path": "source/textures/materials/medkit_hardware.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "8fa233a244d9868f8845a1553bf33310ed90b2daebe686f35461daecdbf0b287",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "medkit_olive_nylon",
+      "path": "source/textures/materials/medkit_olive_nylon.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "1241ed4a539b9f03033f4074bc917c122014c3b45775554f4cda471e79323c35",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "medkit_patch",
+      "path": "source/textures/materials/medkit_patch.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "5503b0e24a2e548be39ab459f50daf3dfffac7b624aeeba6c8c4b24fe38935e7",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "medkit_red_cross",
+      "path": "source/textures/materials/medkit_red_cross.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "1ff6f1b13953927968589bf9239964ec0122d508e87384408da40e85a635173d",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "medkit_webbing",
+      "path": "source/textures/materials/medkit_webbing.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "e2e43b7c5765a4bd3a702333f984995508363bac1145ca0c1c8894779efc50c1",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "medkit_zipper",
+      "path": "source/textures/materials/medkit_zipper.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "a1129d38cb6d54cd8ca7c3d4d01259779a3a81f72ad710d421f4299ae2775fd8",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "neon_cyan",
+      "path": "source/textures/materials/neon_cyan.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "08e0de119b0e3545bb1ac1ec52691c8500188a6365f412868c46abcaccf65f3e",
+      "atlas_cell": [
+        4,
+        3
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "neon_magenta",
+      "path": "source/textures/materials/neon_magenta.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "d78c10d7efb09acb03eb8f22b1c32352f1f4e2525d64a955b336d670f920dd0c",
+      "atlas_cell": [
+        5,
+        3
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "oak_bark",
+      "path": "source/textures/materials/oak_bark.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "0341a8f74bea4298f3637de21f4c41d700ac2be611cc230c9d6c75f77e745924",
+      "atlas_cell": [
+        14,
+        6
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "paint_black",
+      "path": "source/textures/materials/paint_black.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "9b0aae7d44c2da18ae6f57af2d508729d90606d021c98a00688f0738664504d4",
+      "atlas_cell": [
+        10,
+        0
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "paint_blue",
+      "path": "source/textures/materials/paint_blue.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "49e5228ec6f04feb3cf452f27703da5bf89e08980f4cf6ef8310cc2ca0e1a641",
+      "atlas_cell": [
+        12,
+        0
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "paint_emerald",
+      "path": "source/textures/materials/paint_emerald.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "ff35b1b7d1d2026b79bd3240e8e6d107202ef5f19c1295ceb980e44de446433b",
+      "atlas_cell": [
+        13,
+        0
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "paint_gold",
+      "path": "source/textures/materials/paint_gold.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "3b854a79c96fb0a985073c5b7fa21c073ea952459fefeeae6637e8999707aab9",
+      "atlas_cell": [
+        15,
+        0
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "paint_red",
+      "path": "source/textures/materials/paint_red.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "4e3227d1838f581e0cf7af909ed558f7d63bd97a2101ee31cb0979732c636a7c",
+      "atlas_cell": [
+        8,
+        0
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "paint_saffron",
+      "path": "source/textures/materials/paint_saffron.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "cf930a726e233fc57437fa524e2ff233d7fafb3d596881803d4ffc1e648c9f2e",
+      "atlas_cell": [
+        14,
+        0
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "paint_silver",
+      "path": "source/textures/materials/paint_silver.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "0e40fccb0a4c22dea4abf3b58ce59745d5a34cfefb513219e374ca283ca08176",
+      "atlas_cell": [
+        11,
+        0
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "paint_white",
+      "path": "source/textures/materials/paint_white.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "8592f1d7993ef9328289a588739cbb9a20a894944048a232549e2704a22b676a",
+      "atlas_cell": [
+        9,
+        0
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "police_khaki",
+      "path": "source/textures/materials/police_khaki.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "31a887978577add389e77cb4e2678a87843c49b202a8bb8e12a8b08ba2b43a0c",
+      "atlas_cell": [
+        4,
+        1
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "police_navy",
+      "path": "source/textures/materials/police_navy.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "c88c77ac0f2199e8cb7b01df053a8ac23b437363130d9c0ebb0c9d9d20765d4f",
+      "atlas_cell": [
+        5,
+        1
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "rubber_tire",
+      "path": "source/textures/materials/rubber_tire.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "40d740f317526b1aef54d7042c98f10b66513f0046ba2b2367d38148edabba18",
+      "atlas_cell": [
+        5,
+        0
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "sandstone",
+      "path": "source/textures/materials/sandstone.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "8d6d973c1aadb1be226d59ee1db9405d804c751c68a860f496fb80b74c8155da",
+      "atlas_cell": [
+        4,
+        2
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "screen_atm",
+      "path": "source/textures/materials/screen_atm.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "aeacb60e4db84aa7668d4b8c66d4b4e65d33e0024f6b09c415145b22ab50fbdd",
+      "atlas_cell": [
+        7,
+        5
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "screen_ecg",
+      "path": "source/textures/materials/screen_ecg.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "ef8b8a7a3696614533ad2fb37293d01f3f91a44fcfbf722abdec6fddc5ecf069",
+      "atlas_cell": [
+        6,
+        5
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "screen_pc",
+      "path": "source/textures/materials/screen_pc.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "aeacb60e4db84aa7668d4b8c66d4b4e65d33e0024f6b09c415145b22ab50fbdd",
+      "atlas_cell": [
+        8,
+        5
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "sea_prism",
+      "path": "source/textures/materials/sea_prism.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "e488c43dc3acab74f68f3f7bc859d0bbe9296d3eccc1b874944a7e469cb7563d",
+      "atlas_cell": [
+        15,
+        5
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "shotgun_receiver",
+      "path": "source/textures/materials/shotgun_receiver.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "7cb658f045eb5153a9e4e581a9180784906e585ee2aaee83c894ef195f448bfc",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "shotgun_wood",
+      "path": "source/textures/materials/shotgun_wood.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "8b17ad2832d5a2867a5de03ce1109496ceb4b715646d9894b588abf62cac78f9",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "silver",
+      "path": "source/textures/materials/silver.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "5c6f4be106b59a901836157ab7aa9e4c5ad1d1b9a1ebc809fa1b674c0928a2b5",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "smartphone_camera",
+      "path": "source/textures/materials/smartphone_camera.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "840ab2d48657d6e01ff678ba55f5a8343974d75510bc1b637471a683ab062da6",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "smartphone_chassis",
+      "path": "source/textures/materials/smartphone_chassis.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "5d554ff1c66289a2731c551408f2aac443739da3653e0c0c1175119087a70aeb",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "smartphone_screen",
+      "path": "source/textures/materials/smartphone_screen.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "cf9495fb271114c8db54c355af0dcf1f613a63cc427becaecfb7c257e4458b6e",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "speaker_grille",
+      "path": "source/textures/materials/speaker_grille.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "03abdd3b45cf19b2be02c9a14c06ea063e3324b1a90f6eaa3e378bfaf41e05f3",
+      "atlas_cell": [
+        12,
+        5
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "stainless",
+      "path": "source/textures/materials/stainless.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "8fa233a244d9868f8845a1553bf33310ed90b2daebe686f35461daecdbf0b287",
+      "atlas_cell": [
+        11,
+        3
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "steel_dark",
+      "path": "source/textures/materials/steel_dark.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "4b552c69ff0bd8f732913c25d025329ef9a4a2465665e55c3792965bc9cacacf",
+      "atlas_cell": [
+        0,
+        0
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "steel_light",
+      "path": "source/textures/materials/steel_light.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "a29e99426385799e4e6a3155744513f16170f6b21339946dda04b4f3af1c1164",
+      "atlas_cell": [
+        1,
+        0
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "stove_front",
+      "path": "source/textures/materials/stove_front.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "9d6c9126ec3fe87b131a73a96dc908fc9ba5982eb7b6b6843565a1ddc88bca9a",
+      "atlas_cell": [
+        9,
+        5
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "taillight",
+      "path": "source/textures/materials/taillight.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "8a1411941545b82a2dbc45fab18d4522e65dab278b42f595b9f7ae492d42f9b8",
+      "atlas_cell": [
+        11,
+        1
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "taillight_face",
+      "path": "source/textures/materials/taillight_face.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "8a1411941545b82a2dbc45fab18d4522e65dab278b42f595b9f7ae492d42f9b8",
+      "atlas_cell": [
+        1,
+        4
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "taxi_yellow",
+      "path": "source/textures/materials/taxi_yellow.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "d58bd349f1b427ff9633fcdc1d1520ecab2db873d8e4685f979a1b19c6a36e78",
+      "atlas_cell": [
+        0,
+        1
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "terracotta",
+      "path": "source/textures/materials/terracotta.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "120b3eeeb2faa5f932c2038ded0627ef2253b43b89ef84e1259ec22666a46088",
+      "atlas_cell": [
+        3,
+        1
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "water_teal",
+      "path": "source/textures/materials/water_teal.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "9c1cbc88e7d17479cb04a27d3e519681727a7cb674db73a805233cf37b256df2",
+      "atlas_cell": [
+        13,
+        3
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "weapon_grip_stipple",
+      "path": "source/textures/materials/weapon_grip_stipple.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "030fbf9e91908088f296f3f0cb3dbc004e833d1f3bdaa9545b165fe3f680d023",
+      "atlas_cell": [
+        2,
+        6
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "weapon_slide_chrome",
+      "path": "source/textures/materials/weapon_slide_chrome.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "1c0d8323f466a77450c8e9149d3a329dd3ffb71b33c391c6dc266caa470901de",
+      "atlas_cell": [
+        1,
+        6
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "weapon_slide_dark",
+      "path": "source/textures/materials/weapon_slide_dark.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "d517eb9f8e031c178edcb8cd2aaf116990313d8fb22e1fdd425df56a82bec4dd",
+      "atlas_cell": [
+        0,
+        6
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "weapon_vent_guard",
+      "path": "source/textures/materials/weapon_vent_guard.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "876180106b63a2a75e94da9e80ee9d967cdafa9f000164456d4643c250c5850f",
+      "atlas_cell": [
+        3,
+        6
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "wheel_side_alloy",
+      "path": "source/textures/materials/wheel_side_alloy.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "9beb2d259658da43a7d7f8962feaa81e5199211373c707bb654b1222fc897d8b",
+      "atlas_cell": [
+        2,
+        5
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "wheel_side_gold",
+      "path": "source/textures/materials/wheel_side_gold.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "96fa88b15d1704df632d706a6b6e76646ef2d6ad96dfdaedbd9a1d8dbda60d36",
+      "atlas_cell": [
+        4,
+        5
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "wheel_side_steel",
+      "path": "source/textures/materials/wheel_side_steel.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "e7c4cbecee25eb4f922e192b92f438f49e4c70083b2972726039bdd35804fa8a",
+      "atlas_cell": [
+        3,
+        5
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "windshield_front",
+      "path": "source/textures/materials/windshield_front.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "8f3f5cb0bfda5ed992997ec4bfe4048ec3d47a95754d71025dc6aabc02d68696",
+      "atlas_cell": [
+        4,
+        4
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "wood_ash",
+      "path": "source/textures/materials/wood_ash.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "aa14fee0c6449277a9664e2a51def9c581bd407707b7e9ca16d6fa6334f8f4d9",
+      "atlas_cell": null,
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "wood_oak",
+      "path": "source/textures/materials/wood_oak.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "caeecdbff46965cd0900ac47a44509ab61d5075b1abdd5c85129bb754d896e50",
+      "atlas_cell": [
+        2,
+        2
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "wood_oak_v",
+      "path": "source/textures/materials/wood_oak_v.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "416353e4b45fb6f25d25fe7a276e13e2f811c27d446fc2523d8cad86536bcb2d",
+      "atlas_cell": [
+        12,
+        6
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "wood_sheesham",
+      "path": "source/textures/materials/wood_sheesham.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "4ba495f00a7d6cc3bff75f9249a5fb43275345ad90ae476a63ee0716c53a36b0",
+      "atlas_cell": [
+        1,
+        2
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "wood_teak",
+      "path": "source/textures/materials/wood_teak.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "4314cc945419fd3a6a038974fa0d65c59119892989ef5d2813f567e5e7b30ba9",
+      "atlas_cell": [
+        0,
+        2
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    },
+    {
+      "id": "wood_teak_v",
+      "path": "source/textures/materials/wood_teak_v.png",
+      "size_px": [
+        128,
+        128
+      ],
+      "sha256": "3fc98dafeb7486129a2e703af9bafaba47428b6e81ea73f3ae63f29a984a7dc7",
+      "atlas_cell": [
+        13,
+        6
+      ],
+      "native_grid": 128,
+      "source": "tools/gtm128_materials.py"
+    }
+  ],
+  "atlas": {
+    "path": "source/textures/gtm_master_atlas_128.png",
+    "size_px": [
+      2048,
+      2048
+    ],
+    "cell_px": [
+      128,
+      128
+    ],
+    "columns": 16,
+    "padding_texels": 0,
+    "sha256": "9391b99dbecea0d2b469cd1486a343e85b2e21409854ad0ed8f4d9c05e19b5e6"
+  },
+  "note": "The atlas is a composite of128px texture tiles; its2048px extent is not an asset-resolution exception."
+}

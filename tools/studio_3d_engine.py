@@ -25,6 +25,10 @@ ROOT = Path(__file__).resolve().parents[1]
 CREATIVE = ROOT / "creative"
 TEX_32_DIR = CREATIVE / "source" / "textures" / "32x32"
 ATLAS_PATH = CREATIVE / "source" / "textures" / "gtm_master_atlas_32x.png"
+# Legacy defaults; the isolated 128 profile configures these without changing IDs.
+TILE_SIZE = 32
+ATLAS_SIZE = 512
+ATLAS_RESOURCE = "gtm:item/gtm_master_atlas_32x"
 
 # Core 64 Materials + 46 Dedicated Per-Face Detail Tiles = 110 slots inside 16x16 (512x512) Atlas
 MATERIALS = [
@@ -246,13 +250,13 @@ def build_shared_atlas() -> np.ndarray:
     """Build 148+ individual Faithful 32x32 PNGs + pack all 112 atlas slots into 512x512 gtm_master_atlas_32x.png."""
     TEX_32_DIR.mkdir(parents=True, exist_ok=True)
     ATLAS_PATH.parent.mkdir(parents=True, exist_ok=True)
-    arr = np.zeros((512, 512, 4), dtype=np.uint8)
+    arr = np.zeros((ATLAS_SIZE, ATLAS_SIZE, 4), dtype=np.uint8)
 
     for idx, (name, hex_col, kind) in enumerate(MATERIALS):
         tile = generate_32x32_tile(name, hex_col, kind, idx)
         Image.fromarray(tile, mode="RGBA").save(TEX_32_DIR / f"{name}.png", optimize=True)
         r0, c0 = idx // 16, idx % 16
-        arr[r0 * 32:(r0 + 1) * 32, c0 * 32:(c0 + 1) * 32] = tile
+        arr[r0 * TILE_SIZE:(r0 + 1) * TILE_SIZE, c0 * TILE_SIZE:(c0 + 1) * TILE_SIZE] = tile
 
     Image.fromarray(arr, mode="RGBA").save(ATLAS_PATH, format="PNG", optimize=True)
 
@@ -351,8 +355,8 @@ class PartBuilder:
                 for f in ("north", "south", "east", "west", "up", "down"):
                     fmat = p["face_mats"].get(f, p["mat"])
                     mi = MAT_INDEX.get(fmat, 0)
-                    u0, v0 = (mi % 16) * 32, (mi // 16) * 32
-                    uv_dict[f] = {"uv": [u0 + 0.5, v0 + 0.5], "uv_size": [31, 31]}
+                    u0, v0 = (mi % 16) * TILE_SIZE, (mi // 16) * TILE_SIZE
+                    uv_dict[f] = {"uv": [u0 + 0.5, v0 + 0.5], "uv_size": [TILE_SIZE - 1, TILE_SIZE - 1]}
 
                 c = {"origin": [ox, oy, oz], "size": [sw, sh, sd], "uv": uv_dict}
                 if p["rot"]:
@@ -376,8 +380,8 @@ class PartBuilder:
             "minecraft:geometry": [{
                 "description": {
                     "identifier": geo_id,
-                    "texture_width": 512,
-                    "texture_height": 512,
+                    "texture_width": ATLAS_SIZE,
+                    "texture_height": ATLAS_SIZE,
                     "visible_bounds_width": round(max(span_x, span_z) + 1.0, 2),
                     "visible_bounds_height": round(span_y + 1.0, 2),
                     "visible_bounds_offset": [0.0, round(span_y * 0.5, 2), 0.0]
@@ -429,7 +433,7 @@ class PartBuilder:
         model = {
             "credit": "GTM Indraprastha - Faithful 32x Studio 3D Asset",
             "parent": "minecraft:block/block",
-            "textures": {"atlas": "gtm:item/gtm_master_atlas_32x", "particle": "#atlas"},
+            "textures": {"atlas": ATLAS_RESOURCE, "particle": "#atlas"},
             "elements": elements,
             "display": {
                 "gui": {"rotation": [28, 225, 0], "translation": [0, 0.5, 0], "scale": [0.78, 0.78, 0.78]},
@@ -530,8 +534,8 @@ class PartBuilder:
                 fmat = f_mats.get(fname, mat_name)
                 mi = MAT_INDEX.get(fmat, 0)
                 _, _, mkind = MATERIALS[mi]
-                tx0, ty0 = (mi % 16) * 32, (mi // 16) * 32
-                tex_patch = atlas[ty0:ty0 + 32, tx0:tx0 + 32].astype(np.float32)
+                tx0, ty0 = (mi % 16) * TILE_SIZE, (mi // 16) * TILE_SIZE
+                tex_patch = atlas[ty0:ty0 + TILE_SIZE, tx0:tx0 + TILE_SIZE].astype(np.float32)
 
                 pts3 = np.stack([v0, v1, v2, v3])
                 sx = W * 0.5 + (pts3[:, 0] - mid_x) * scale
@@ -565,8 +569,8 @@ class PartBuilder:
                 if not hit.any():
                     continue
 
-                tu = np.clip((u[hit] * 31.99).astype(np.int32), 0, 31)
-                tv = np.clip((v[hit] * 31.99).astype(np.int32), 0, 31)
+                tu = np.clip((u[hit] * (TILE_SIZE - 0.01)).astype(np.int32), 0, TILE_SIZE - 1)
+                tv = np.clip((v[hit] * (TILE_SIZE - 0.01)).astype(np.int32), 0, TILE_SIZE - 1)
                 sampled_rgba = tex_patch[tv, tu]
 
                 # Quantized Faithful directional lighting (warm top face, crisp neutral front, cool side)
@@ -691,3 +695,4 @@ class PixelSprite:
     def save(self, dest: Path, target_size: int = None):
         dest.parent.mkdir(parents=True, exist_ok=True)
         self.to_image(target_size=target_size).save(dest, format="PNG", optimize=True)
+

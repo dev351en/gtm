@@ -1,0 +1,1918 @@
+{
+  "profile": "INDRAPRASTHA_128_V1",
+  "count": 28,
+  "theme_counts": {
+    "independence_day": 10,
+    "monsoon": 10,
+    "christmas": 4,
+    "new_year": 4
+  },
+  "assets": [
+    {
+      "theme": "independence_day",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:independence_day_national_flag_mast",
+      "title": "National Flag Mast",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.independence_day_national_flag_mast",
+      "geometry_path": "source/models/festival_additions/independence_day_national_flag_mast.geo.json",
+      "java_model_path": "source/models/festival_additions/java/independence_day_national_flag_mast.json",
+      "icon_path": "source/icons/festival_additions/independence_day_national_flag_mast.png",
+      "editable_source": "source/models/festival_additions/editable/independence_day_national_flag_mast.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 132,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.375,
+          0.0,
+          -0.375
+        ],
+        "max": [
+          1.3625,
+          2.5812,
+          0.375
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "757aa3f437f760ed84f288c0e1ef5f7885628e3470153ff12b3c8abb37aded3e",
+        "java_model": "dbf0acea5cb01b8b9bdeca8c27afa5d4bb6cd45518f14016b14dc40d6909a8f3",
+        "icon": "157955ee9ff5dd624ddeb48899243d48a1daffd5ecee30770d51d451b3c61edc",
+        "editable": "5d4cd1a44eede6701b3f7179f0e1d9c5998bf8a30096663b42c53efbcd60b0a3"
+      }
+    },
+    {
+      "theme": "independence_day",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:independence_day_unity_bunting",
+      "title": "Tricolour Unity Bunting",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.independence_day_unity_bunting",
+      "geometry_path": "source/models/festival_additions/independence_day_unity_bunting.geo.json",
+      "java_model_path": "source/models/festival_additions/java/independence_day_unity_bunting.json",
+      "icon_path": "source/icons/festival_additions/independence_day_unity_bunting.png",
+      "editable_source": "source/models/festival_additions/editable/independence_day_unity_bunting.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 33,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -1.5625,
+          0.0,
+          -0.1875
+        ],
+        "max": [
+          1.5625,
+          1.6875,
+          0.1875
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "f1fd83e9487e53e1563e1554c6d1899b851c82593e7b34263fd464bd9a9a63d0",
+        "java_model": "d6f6b0fa49381a8cb4fae6e90a9b204a858cc95025063a07dd63c38b23ee170f",
+        "icon": "a1f80ccba07cfce90cdbf3ea06e8e8da3ed1f60a2f25f4888e7b86401781c38b",
+        "editable": "8fea73b2fdd218e201108ce940204bf21f8cd5b150f7a2bfc3ed0917b02026cb"
+      }
+    },
+    {
+      "theme": "independence_day",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:independence_day_lotus_civic_basin",
+      "title": "Lotus Civic Basin",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.independence_day_lotus_civic_basin",
+      "geometry_path": "source/models/festival_additions/independence_day_lotus_civic_basin.geo.json",
+      "java_model_path": "source/models/festival_additions/java/independence_day_lotus_civic_basin.json",
+      "icon_path": "source/icons/festival_additions/independence_day_lotus_civic_basin.png",
+      "editable_source": "source/models/festival_additions/editable/independence_day_lotus_civic_basin.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 56,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.5625,
+          0.0,
+          -0.5625
+        ],
+        "max": [
+          0.5625,
+          0.5938,
+          0.5625
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "182144738d2c9ea2599c9f0836fbca0008bae64b39b89706f4ef0f73e38239be",
+        "java_model": "5ee1b9cafe0bb3cdfef057582d18edf203ecee74b15126d6ce6e13c981bf2f60",
+        "icon": "74261fd34595f41d3aa3486571c970afca546ae43d21e1d5a1f3a68a27f41665",
+        "editable": "006c1a8c90b0b39e0e29229d93c81d0c49ab47e707e3f203f44e832ad2bd4b24"
+      }
+    },
+    {
+      "theme": "independence_day",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:independence_day_civic_gateway",
+      "title": "Independence Civic Gateway",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.independence_day_civic_gateway",
+      "geometry_path": "source/models/festival_additions/independence_day_civic_gateway.geo.json",
+      "java_model_path": "source/models/festival_additions/java/independence_day_civic_gateway.json",
+      "icon_path": "source/icons/festival_additions/independence_day_civic_gateway.png",
+      "editable_source": "source/models/festival_additions/editable/independence_day_civic_gateway.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 84,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -1.5,
+          0.0,
+          -0.3125
+        ],
+        "max": [
+          1.5,
+          2.25,
+          0.3125
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "e32bff6215bc2de27bfa06f21b8ac0937d72a998c1b526bf9ef9cdcbde8dd6c4",
+        "java_model": "4aeb1175850c9baec356c8d3aded02ce19d17522a345264122f492e9ac779a14",
+        "icon": "0612f599f4dd774d08906d876bf801e49e0a1cc510a447ae7a73be68b023aaba",
+        "editable": "e4fbfbbb04bc335bb43bdf9dc9379c90949161de8ab9dd80f174d854d945ca2d"
+      }
+    },
+    {
+      "theme": "independence_day",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:independence_day_commemorative_pillar",
+      "title": "Civic Commemorative Pillar",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.independence_day_commemorative_pillar",
+      "geometry_path": "source/models/festival_additions/independence_day_commemorative_pillar.geo.json",
+      "java_model_path": "source/models/festival_additions/java/independence_day_commemorative_pillar.json",
+      "icon_path": "source/icons/festival_additions/independence_day_commemorative_pillar.png",
+      "editable_source": "source/models/festival_additions/editable/independence_day_commemorative_pillar.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 11,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.5625,
+          0.0,
+          -0.5625
+        ],
+        "max": [
+          0.5625,
+          2.0375,
+          0.5625
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "019942c0b602443807843466b57ab602bb02c1c7414b9cbc77b763e108c7a4cb",
+        "java_model": "01b1bb20b38e44cdd22d25d95a7b241729b724740e67089006bb78c92f32d932",
+        "icon": "2be0e6bc49d7b2a32425b9a032a05537adbdca3fdfde6c3f84239e4ef0196517",
+        "editable": "5be0a1548da65decfb4c00dab0cfb49f0faf38ffc9e73844ae155e8ab451389a"
+      }
+    },
+    {
+      "theme": "independence_day",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:independence_day_unity_lantern",
+      "title": "Tricolour Unity Lantern",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.independence_day_unity_lantern",
+      "geometry_path": "source/models/festival_additions/independence_day_unity_lantern.geo.json",
+      "java_model_path": "source/models/festival_additions/java/independence_day_unity_lantern.json",
+      "icon_path": "source/icons/festival_additions/independence_day_unity_lantern.png",
+      "editable_source": "source/models/festival_additions/editable/independence_day_unity_lantern.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 23,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.375,
+          0.0,
+          -0.375
+        ],
+        "max": [
+          0.375,
+          1.4725,
+          0.375
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "11c02acc6cb072b3f6a3d749aabf70b9deda3c40b2cdb5f152b3827af7cfd399",
+        "java_model": "2a20500f9e723c210cfa5382eebc5ae7c44da11be20c9f06c5a57dd30edfd67a",
+        "icon": "1c00de568327090fa05599ad885d9bdb4a64a35e1d11971d5d0e6ac6a92e0de5",
+        "editable": "5d202db0162f110cddec318375a5bcc784b5fe4d7fe548c2567699fced1ebc27"
+      }
+    },
+    {
+      "theme": "independence_day",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:independence_day_parade_drum_stand",
+      "title": "Parade Drum Stand",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.independence_day_parade_drum_stand",
+      "geometry_path": "source/models/festival_additions/independence_day_parade_drum_stand.geo.json",
+      "java_model_path": "source/models/festival_additions/java/independence_day_parade_drum_stand.json",
+      "icon_path": "source/icons/festival_additions/independence_day_parade_drum_stand.png",
+      "editable_source": "source/models/festival_additions/editable/independence_day_parade_drum_stand.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 13,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.5938,
+          0.0,
+          -0.4375
+        ],
+        "max": [
+          0.5938,
+          0.85,
+          0.4375
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "f124c03c3bdd6c1da8148ffc0066c8f6c6a2bc4a296c87cccf4836b002f14116",
+        "java_model": "cd388745b13d124279427bad347431fa770b5ef4d7a40d949513b6dd3d44d481",
+        "icon": "df819f70387eb127a0df2b109c4f0d119f3183a30e5fb023041c3c9193d71173",
+        "editable": "8546f91980f209e0faaae227ce24ca518d13e2792c779eadf2b333077111e3f0"
+      }
+    },
+    {
+      "theme": "independence_day",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:independence_day_heritage_podium",
+      "title": "Heritage Ceremony Podium",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.independence_day_heritage_podium",
+      "geometry_path": "source/models/festival_additions/independence_day_heritage_podium.geo.json",
+      "java_model_path": "source/models/festival_additions/java/independence_day_heritage_podium.json",
+      "icon_path": "source/icons/festival_additions/independence_day_heritage_podium.png",
+      "editable_source": "source/models/festival_additions/editable/independence_day_heritage_podium.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 9,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.6875,
+          0.0,
+          -0.5
+        ],
+        "max": [
+          0.6875,
+          1.7,
+          0.5
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "a7c0f773d285b71b964431edc5cea02d7bba1cb384a273fa5077313afb4e616e",
+        "java_model": "3b692eaeaab7a496915041341dc36a83f65d6e351d264015f216377fe247d0ec",
+        "icon": "f9a7d1513f5ea73817bc5bf94a4d90655b883dcd7cd439d4631624c7892880e6",
+        "editable": "8f6b662d154e74768628e43ec6474be37e433a032354672e84672bc715036a5f"
+      }
+    },
+    {
+      "theme": "independence_day",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:independence_day_kite_mobile",
+      "title": "Tricolour Kite Mobile",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.independence_day_kite_mobile",
+      "geometry_path": "source/models/festival_additions/independence_day_kite_mobile.geo.json",
+      "java_model_path": "source/models/festival_additions/java/independence_day_kite_mobile.json",
+      "icon_path": "source/icons/festival_additions/independence_day_kite_mobile.png",
+      "editable_source": "source/models/festival_additions/editable/independence_day_kite_mobile.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 19,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.8902,
+          0.0,
+          -0.4688
+        ],
+        "max": [
+          0.8902,
+          1.9125,
+          0.4688
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "3992d3d3d0ea2ac9ed2ffb9bd63fd78a8fa450eef20b8e5e19dda23ef268de5e",
+        "java_model": "8465aa2b79e52c3946a9a3eb4e9496408a4b118a05127909a1a77c75580a46b7",
+        "icon": "81590cc984bdcdfda0276ffbfd5039804772c7d9f9c923426ebcd4c59b540d16",
+        "editable": "79b24703f734277693ddbee81d21c916c25cba49a0037c8add00841dd781508c"
+      }
+    },
+    {
+      "theme": "independence_day",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:independence_day_community_light_column",
+      "title": "Community Light Column",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.independence_day_community_light_column",
+      "geometry_path": "source/models/festival_additions/independence_day_community_light_column.geo.json",
+      "java_model_path": "source/models/festival_additions/java/independence_day_community_light_column.json",
+      "icon_path": "source/icons/festival_additions/independence_day_community_light_column.png",
+      "editable_source": "source/models/festival_additions/editable/independence_day_community_light_column.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 86,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.4688,
+          0.0,
+          -0.4688
+        ],
+        "max": [
+          0.4688,
+          1.8812,
+          0.4688
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "ecdce8db97eaa9c5295da791de7a9e2c732b5173688ac918f1ecd7dd45f1b4e9",
+        "java_model": "2a47947042ee4cc45ad466e7b03ffbd89fdeb56ff30f787732f1a2fc00c01bce",
+        "icon": "6b59e8ef1f6bdacfa647a8b35662a833b3c67ea75a97812a4bad14a938560451",
+        "editable": "ad898f8397f354ec2fff8779639903d803e3721956b8a22cdc7c19be3fad9d49"
+      }
+    },
+    {
+      "theme": "monsoon",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:monsoon_shelter_umbrella",
+      "title": "Monsoon Shelter Umbrella",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.monsoon_shelter_umbrella",
+      "geometry_path": "source/models/festival_additions/monsoon_shelter_umbrella.geo.json",
+      "java_model_path": "source/models/festival_additions/java/monsoon_shelter_umbrella.json",
+      "icon_path": "source/icons/festival_additions/monsoon_shelter_umbrella.png",
+      "editable_source": "source/models/festival_additions/editable/monsoon_shelter_umbrella.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 44,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.9922,
+          0.0,
+          -1.0
+        ],
+        "max": [
+          0.9921,
+          2.125,
+          1.0
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "77572089ff36da63e8671e9981dddbc868e25ef270390ce57a5be4cb0d5bbaf8",
+        "java_model": "102ca9a43e56be81e5c5656617bd6aa745a6027fca8a79fd99cc9c7d0325ac11",
+        "icon": "783011882ac164e045a42c69f397444e65fadc7c17a0e1285174d5ccc29c4ec2",
+        "editable": "d7e7c0f04c4a65dcef0dec655f6724369762cdddd32f7198ac3896766713134c"
+      }
+    },
+    {
+      "theme": "monsoon",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:monsoon_courtyard_rain_chain",
+      "title": "Courtyard Rain Chain",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.monsoon_courtyard_rain_chain",
+      "geometry_path": "source/models/festival_additions/monsoon_courtyard_rain_chain.geo.json",
+      "java_model_path": "source/models/festival_additions/java/monsoon_courtyard_rain_chain.json",
+      "icon_path": "source/icons/festival_additions/monsoon_courtyard_rain_chain.png",
+      "editable_source": "source/models/festival_additions/editable/monsoon_courtyard_rain_chain.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 146,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.4375,
+          0.0,
+          -0.4375
+        ],
+        "max": [
+          0.4375,
+          1.9625,
+          0.4375
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "1e80050dda187b7687f42f0c0bff2b1bab480eef7c416371756b77b43e2e1a0f",
+        "java_model": "f051b90e0d820d751b927ac5350f3dbe7a44a83e44621dd10273132e0f1824a2",
+        "icon": "c7a624ac39e7d6a5adccf1072946426eb6251d74f0cbe24770956365d8d9642d",
+        "editable": "01f775f9fc990f69825dc50bede58c355e0858e82f02f260100a75dd81085bf7"
+      }
+    },
+    {
+      "theme": "monsoon",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:monsoon_paper_boat_display",
+      "title": "Paper Boat Display",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.monsoon_paper_boat_display",
+      "geometry_path": "source/models/festival_additions/monsoon_paper_boat_display.geo.json",
+      "java_model_path": "source/models/festival_additions/java/monsoon_paper_boat_display.json",
+      "icon_path": "source/icons/festival_additions/monsoon_paper_boat_display.png",
+      "editable_source": "source/models/festival_additions/editable/monsoon_paper_boat_display.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 13,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.7188,
+          0.0,
+          -0.5312
+        ],
+        "max": [
+          0.7188,
+          0.4969,
+          0.5312
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "a91dc471bd465d48f095d5c5e481badda4809ee8a78e624e96ca8abd7ee8fdf8",
+        "java_model": "6926b577873bd17395d7587034f7b4c087bec6db32acc5f0e2d5736c103caa02",
+        "icon": "553cff74b2c364633704d3bdbee1e24ee9b53ae0206f37b0f07840f70d4ff751",
+        "editable": "e0538ffb1857b0d19ede8a6467b4b5feae869d45ae9346984f1d8886ba839aa4"
+      }
+    },
+    {
+      "theme": "monsoon",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:monsoon_water_lily_planter",
+      "title": "Water Lily Rain Planter",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.monsoon_water_lily_planter",
+      "geometry_path": "source/models/festival_additions/monsoon_water_lily_planter.geo.json",
+      "java_model_path": "source/models/festival_additions/java/monsoon_water_lily_planter.json",
+      "icon_path": "source/icons/festival_additions/monsoon_water_lily_planter.png",
+      "editable_source": "source/models/festival_additions/editable/monsoon_water_lily_planter.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 55,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.7188,
+          0.0,
+          -0.5938
+        ],
+        "max": [
+          0.7188,
+          0.5,
+          0.5938
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "895ff8469b56a82ecd68dafc2fc7a2b8fd7477a8244ff8ec943873b27f876f97",
+        "java_model": "2f9387d2af7e675035117680cd2a9bd668ad2ef745f0cf8bca5a27793d7db2da",
+        "icon": "61b9f33d2b86252adf09b2f5f88fb7c015a06715c83f86aaa7e87b944017b753",
+        "editable": "4e6b3240d532c6931bd0023347ce6cce742fdd70d5bd10dfb022baedca812af8"
+      }
+    },
+    {
+      "theme": "monsoon",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:monsoon_chai_rain_shelter",
+      "title": "Monsoon Chai Shelter",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.monsoon_chai_rain_shelter",
+      "geometry_path": "source/models/festival_additions/monsoon_chai_rain_shelter.geo.json",
+      "java_model_path": "source/models/festival_additions/java/monsoon_chai_rain_shelter.json",
+      "icon_path": "source/icons/festival_additions/monsoon_chai_rain_shelter.png",
+      "editable_source": "source/models/festival_additions/editable/monsoon_chai_rain_shelter.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 27,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.9688,
+          0.0,
+          -0.4688
+        ],
+        "max": [
+          0.9688,
+          1.9062,
+          0.8438
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "a27493a215420d940f6f7de9c137231b386a78d85e41b000bca4017ffd566ff9",
+        "java_model": "933cdea6907b43c4450c41d8a85f5d153f0bbec6fc89a206761a8bb393762d7f",
+        "icon": "bd5eca8ee3c11e6cb3aa21b0d1351a286793e564507803ef00367bf42eb16ab8",
+        "editable": "9dc8f0c2f6406ab77a4b2dc95c59be2e8dbb59dbde33e93e27a64f890784656d"
+      }
+    },
+    {
+      "theme": "monsoon",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:monsoon_rainwater_spout_basin",
+      "title": "Rainwater Spout and Basin",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.monsoon_rainwater_spout_basin",
+      "geometry_path": "source/models/festival_additions/monsoon_rainwater_spout_basin.geo.json",
+      "java_model_path": "source/models/festival_additions/java/monsoon_rainwater_spout_basin.json",
+      "icon_path": "source/icons/festival_additions/monsoon_rainwater_spout_basin.png",
+      "editable_source": "source/models/festival_additions/editable/monsoon_rainwater_spout_basin.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 24,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.625,
+          0.0,
+          -0.5625
+        ],
+        "max": [
+          0.625,
+          1.6875,
+          0.5625
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "1cb847cd0a96d50934a4b09d6c49dc97e57f93159c0312bcd9fbde89a857192d",
+        "java_model": "5641d83988b26a64b1a7995f48ccfc988a7d82a1c075129b7e6bf5c6fa1f0427",
+        "icon": "80b683acb3b1fa06d965d820808bc97638f849dfbc2f6caf557e6d9e2b92555c",
+        "editable": "3cdef8c62d0b9ef7f52576096ac7e521db34c7f25b2ca65877a39268a5deee94"
+      }
+    },
+    {
+      "theme": "monsoon",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:monsoon_cloud_droplet_lantern",
+      "title": "Cloud and Droplet Lantern",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.monsoon_cloud_droplet_lantern",
+      "geometry_path": "source/models/festival_additions/monsoon_cloud_droplet_lantern.geo.json",
+      "java_model_path": "source/models/festival_additions/java/monsoon_cloud_droplet_lantern.json",
+      "icon_path": "source/icons/festival_additions/monsoon_cloud_droplet_lantern.png",
+      "editable_source": "source/models/festival_additions/editable/monsoon_cloud_droplet_lantern.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 204,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.6181,
+          0.0,
+          -0.375
+        ],
+        "max": [
+          0.6181,
+          2.0375,
+          0.375
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "11086e204cd4a6f5e4496341876748ac2c0f9018460bcc70d4f8ae7b5555185a",
+        "java_model": "0f08c2bb41f8c9295030ece847c446beaaaa293a1943cc2d0236b7d33ed5bcbd",
+        "icon": "aa2698bd50f6fea7ee0f4ffbaa82410c35fb80e1882fbe03f5ec43962beaeadd",
+        "editable": "f394b471d6e99040d8781f7dffbdd626adb2bbdc9281e4982284a5d378eef998"
+      }
+    },
+    {
+      "theme": "monsoon",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:monsoon_puddle_stepping_stones",
+      "title": "Monsoon Stepping Stone Display",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.monsoon_puddle_stepping_stones",
+      "geometry_path": "source/models/festival_additions/monsoon_puddle_stepping_stones.geo.json",
+      "java_model_path": "source/models/festival_additions/java/monsoon_puddle_stepping_stones.json",
+      "icon_path": "source/icons/festival_additions/monsoon_puddle_stepping_stones.png",
+      "editable_source": "source/models/festival_additions/editable/monsoon_puddle_stepping_stones.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 58,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -1.0542,
+          0.0,
+          -0.75
+        ],
+        "max": [
+          1.0541,
+          0.5625,
+          0.75
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "d73fdbb5405d755670ab518cae662bb4d226d60a367795a1d1059e12fcb4215e",
+        "java_model": "1ea2e1992ba894b9085d4965d2b1a869bc02eb4fe081968fde3e832de2f60998",
+        "icon": "cfca5381fd3719441af6867b5a5b8358bc18b6ef3ea616e18a513cf6fc5e6c28",
+        "editable": "2afaa6992742385910554e0e6ec6ea07547ca510da0b73cbae6e58ab9cfb5636"
+      }
+    },
+    {
+      "theme": "monsoon",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:monsoon_raincoat_display",
+      "title": "Monsoon Raincoat Display",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.monsoon_raincoat_display",
+      "geometry_path": "source/models/festival_additions/monsoon_raincoat_display.geo.json",
+      "java_model_path": "source/models/festival_additions/java/monsoon_raincoat_display.json",
+      "icon_path": "source/icons/festival_additions/monsoon_raincoat_display.png",
+      "editable_source": "source/models/festival_additions/editable/monsoon_raincoat_display.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 12,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.6439,
+          0.0,
+          -0.375
+        ],
+        "max": [
+          0.6439,
+          1.8125,
+          0.375
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "06c91ea09625fa84a6325c947830613bc69564ad90e278941a9bc48416813517",
+        "java_model": "c328542dcd220019eb97cd4f0f85821e7ab7a337bb0d5ed03d20fa51e483b0f8",
+        "icon": "109dcd7b4c76a32d5dd22912c998addf61d83c5a071d03966e4fa69d32447846",
+        "editable": "1f5b17b94e94dcf6c3398c3a05bf28d75726dc0480280b593989c4fc1dbbcabd"
+      }
+    },
+    {
+      "theme": "monsoon",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:monsoon_coastal_weather_kiosk",
+      "title": "Coastal Weather Kiosk",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.monsoon_coastal_weather_kiosk",
+      "geometry_path": "source/models/festival_additions/monsoon_coastal_weather_kiosk.geo.json",
+      "java_model_path": "source/models/festival_additions/java/monsoon_coastal_weather_kiosk.json",
+      "icon_path": "source/icons/festival_additions/monsoon_coastal_weather_kiosk.png",
+      "editable_source": "source/models/festival_additions/editable/monsoon_coastal_weather_kiosk.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 11,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.5312,
+          0.0,
+          -0.4062
+        ],
+        "max": [
+          0.6094,
+          2.3125,
+          0.4062
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "f91bac35a3f8cc42683156721cb5a17c648246160c67496f0d53e192050b5539",
+        "java_model": "b3dfeb9c700bf9ac49594c6ffb18c184da23ceba81f4a0d18772c4c5303f187a",
+        "icon": "a0ac4c980302fc668ec960870d74db044156f3aa2c11982b5c95cbc6966d7238",
+        "editable": "d852de5ca34dcab4acafa991019659962e6ccfe320de35a9ad27c3e0f91df825"
+      }
+    },
+    {
+      "theme": "christmas",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:christmas_fir_tree",
+      "title": "Decorated Christmas Fir Tree",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.christmas_fir_tree",
+      "geometry_path": "source/models/festival_additions/christmas_fir_tree.geo.json",
+      "java_model_path": "source/models/festival_additions/java/christmas_fir_tree.json",
+      "icon_path": "source/icons/festival_additions/christmas_fir_tree.png",
+      "editable_source": "source/models/festival_additions/editable/christmas_fir_tree.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 237,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.7441,
+          0.0,
+          -0.75
+        ],
+        "max": [
+          0.7441,
+          2.0625,
+          0.75
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "e4c762ba1439648378ff375fbd4c635ce7e90a04708c0e59e28b4a3ed5d54287",
+        "java_model": "0e8434499b95900e1c83d2f63101df696903b763b05e8a09798b220ee408907d",
+        "icon": "33d687b91d4ecdd409b9dcc158414ca2502a7725e2b7b47eb68c6711f6f7e371",
+        "editable": "d89154d2506137abd8b6afecb4752f0db4dc326a640cf4054283541428dddf29"
+      }
+    },
+    {
+      "theme": "christmas",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:christmas_holly_wreath_stand",
+      "title": "Holly Wreath Stand",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.christmas_holly_wreath_stand",
+      "geometry_path": "source/models/festival_additions/christmas_holly_wreath_stand.geo.json",
+      "java_model_path": "source/models/festival_additions/java/christmas_holly_wreath_stand.json",
+      "icon_path": "source/icons/festival_additions/christmas_holly_wreath_stand.png",
+      "editable_source": "source/models/festival_additions/editable/christmas_holly_wreath_stand.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 142,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.6562,
+          0.0,
+          -0.375
+        ],
+        "max": [
+          0.6562,
+          1.6562,
+          0.375
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "930442575964ac13dc91edbfdd430ed0bb8407561d34d7b20986b0665a265f2c",
+        "java_model": "28d71f4a24e4c9a2f0207890b04e6aaf3736f0b659c279825b6914c880c66f46",
+        "icon": "85f4b2fdbed4b768b2563295b65229a8c5ea9a05a0e6abc759536b9abd00613c",
+        "editable": "2f1dfd6b78e99609936b90dbf5c14118c8c6fd23a18a60243c9d551721925137"
+      }
+    },
+    {
+      "theme": "christmas",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:christmas_gift_cart",
+      "title": "Christmas Gift Cart",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.christmas_gift_cart",
+      "geometry_path": "source/models/festival_additions/christmas_gift_cart.geo.json",
+      "java_model_path": "source/models/festival_additions/java/christmas_gift_cart.json",
+      "icon_path": "source/icons/festival_additions/christmas_gift_cart.png",
+      "editable_source": "source/models/festival_additions/editable/christmas_gift_cart.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 17,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.6562,
+          0.0,
+          -0.5312
+        ],
+        "max": [
+          0.6562,
+          1.1438,
+          0.65
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "731c31d56a47cfe0987da5317d864f34be336a1009f316772dbc7390838f37cd",
+        "java_model": "31cadeaffa5d562eafe8734fa5873e754887aaa3b6e6bb1e2f0f7e39b0f541c2",
+        "icon": "23a16b88f53d495f86e34c0f4f48d42a2b9baa2adf6ee4e547d7beb0f8688658",
+        "editable": "b390a4b97bb1061a1b920a3175a3a9a11cd3e2e36ac0e3fc07aee42e2af2ea70"
+      }
+    },
+    {
+      "theme": "christmas",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:christmas_candle_trio",
+      "title": "Christmas Candle Trio",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.christmas_candle_trio",
+      "geometry_path": "source/models/festival_additions/christmas_candle_trio.geo.json",
+      "java_model_path": "source/models/festival_additions/java/christmas_candle_trio.json",
+      "icon_path": "source/icons/festival_additions/christmas_candle_trio.png",
+      "editable_source": "source/models/festival_additions/editable/christmas_candle_trio.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 65,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.7188,
+          0.0,
+          -0.4062
+        ],
+        "max": [
+          0.7188,
+          1.5375,
+          0.4062
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "bb709a53c23cb08e9f4135a8d09a3b0890e169ee309950485a35bcc5d1595b6b",
+        "java_model": "0974342dddc30617297dbd8f0cc67028adb947cca72dd4fc70718269f6bc1955",
+        "icon": "03ca29924bc6c96489923341dad4e069f069ab37045e3e88f3ab60073de480dc",
+        "editable": "6ddb53a79d3a9940ddef00633013809f1ba9e93fb7a344bf442f78848b2eb1be"
+      }
+    },
+    {
+      "theme": "new_year",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:new_year_countdown_clock",
+      "title": "Midnight Countdown Clock",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.new_year_countdown_clock",
+      "geometry_path": "source/models/festival_additions/new_year_countdown_clock.geo.json",
+      "java_model_path": "source/models/festival_additions/java/new_year_countdown_clock.json",
+      "icon_path": "source/icons/festival_additions/new_year_countdown_clock.png",
+      "editable_source": "source/models/festival_additions/editable/new_year_countdown_clock.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 43,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.625,
+          0.0,
+          -0.4375
+        ],
+        "max": [
+          0.625,
+          1.875,
+          0.4375
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "114ecd68ef2718e2d345359301b680d46e21167ee55d26a39db18f13f2132d03",
+        "java_model": "a5c84d049574fffde890bad9e567c69c0e155dd37d38c0f09b13c58fc5c43d24",
+        "icon": "67d2bd0debd2badc17f03bcba530b8df580bbaf9da62ed7075b7348c0443253b",
+        "editable": "f90fa9d8f40e3f4e3a1e5f72bbe29c9e3d90946292050a503e89d68e537306e2"
+      }
+    },
+    {
+      "theme": "new_year",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:new_year_balloon_cluster",
+      "title": "New Year Balloon Cluster",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.new_year_balloon_cluster",
+      "geometry_path": "source/models/festival_additions/new_year_balloon_cluster.geo.json",
+      "java_model_path": "source/models/festival_additions/java/new_year_balloon_cluster.json",
+      "icon_path": "source/icons/festival_additions/new_year_balloon_cluster.png",
+      "editable_source": "source/models/festival_additions/editable/new_year_balloon_cluster.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 170,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.7078,
+          0.0,
+          -0.65
+        ],
+        "max": [
+          0.6453,
+          2.15,
+          0.5
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "b506da2d45a6269166a6f2a7cc4a38d0440ce71f0206cd3f8fb5904d2fdf3cd1",
+        "java_model": "307b08a9d76d3bec239a25a612a778b49a70682df23bf8d7ddc97bc4aa04b23f",
+        "icon": "986ad0e055aa051ef35c4c46ce374f8628a23529425ee76dc769ca96fd8b3392",
+        "editable": "3132c158227035d9296a2246cc0fefd26c8226ce047fec42c5735345b47fe8d4"
+      }
+    },
+    {
+      "theme": "new_year",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:new_year_midnight_light_arch",
+      "title": "Midnight Light Arch",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.new_year_midnight_light_arch",
+      "geometry_path": "source/models/festival_additions/new_year_midnight_light_arch.geo.json",
+      "java_model_path": "source/models/festival_additions/java/new_year_midnight_light_arch.json",
+      "icon_path": "source/icons/festival_additions/new_year_midnight_light_arch.png",
+      "editable_source": "source/models/festival_additions/editable/new_year_midnight_light_arch.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 136,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -1.4375,
+          0.0,
+          -0.2812
+        ],
+        "max": [
+          1.4375,
+          2.4375,
+          0.2812
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "7c1fdf53fefa09df69b8b3c19cd1228bf83d5a52c22b3d244b334f78c13743d0",
+        "java_model": "fca2e7f262161f123afc11ef4273a1df00eaf607d372005d64c9e1b5ee440ebf",
+        "icon": "44187844ef63d8eb5562988ea5a599084d7f53880957c970a3e4bd0dd8ca15cb",
+        "editable": "8ada7c5113bfe89de5413d97f846ea169b6b35d146fc79e159225241babb9fe7"
+      }
+    },
+    {
+      "theme": "new_year",
+      "proposed_id": true,
+      "source_family": "approved_festival_addition",
+      "activation_mode": "manual_staff_only",
+      "runtime_registration": "not_applied",
+      "world_placement": "not_applied",
+      "preview_yaw_deg": 142,
+      "preview_pitch_deg": 24,
+      "source_recipe": "tools/gtm128_festival_additions.py",
+      "id": "gtm:new_year_confetti_podium",
+      "title": "New Year Confetti Podium",
+      "category": "festival_additions",
+      "profile": "INDRAPRASTHA_128_V1",
+      "geometry": "geometry.gtm.new_year_confetti_podium",
+      "geometry_path": "source/models/festival_additions/new_year_confetti_podium.geo.json",
+      "java_model_path": "source/models/festival_additions/java/new_year_confetti_podium.json",
+      "icon_path": "source/icons/festival_additions/new_year_confetti_podium.png",
+      "editable_source": "source/models/festival_additions/editable/new_year_confetti_podium.parts.json",
+      "icon_size_px": [
+        128,
+        128
+      ],
+      "native_render_grid": 128,
+      "material_tile_px": [
+        128,
+        128
+      ],
+      "atlas_path": "source/textures/gtm_master_atlas_128.png",
+      "cube_count": 94,
+      "bone_count": 1,
+      "local_axes": "x right, y up, z forward;16units per block",
+      "actual_bounds_blocks": {
+        "min": [
+          -0.7188,
+          0.0,
+          -0.5938
+        ],
+        "max": [
+          0.7188,
+          2.1875,
+          0.5938
+        ]
+      },
+      "pivots": [
+        {
+          "id": "root",
+          "position_units": [
+            0,
+            0,
+            0
+          ],
+          "parent": null
+        }
+      ],
+      "java_rotation_approximations": 0,
+      "java_rotation_format": "multi_axis_1.21.11_plus",
+      "status": "art_generated",
+      "engine_binding": "pending_review",
+      "client_verification": "not_run",
+      "rights": "Original project procedural art; SD Craft project source",
+      "sha256": {
+        "geometry": "d49d89cfddc490e779fa8a1ccfac6905113b926b79c2987453e9916c66065c6f",
+        "java_model": "d26ad027f2825110fca546c03f44c9dcae1f44816bc47b85800b48c2f6af1bc9",
+        "icon": "24525479aa8d60910ea507966ec1bb0b6e8f2b3003bde3cf1a7a3f326c4b99de",
+        "editable": "1796b885d234f1728e3057a1d71524f90913315778ff29ec655fc7c88c610969"
+      }
+    }
+  ],
+  "runtime_registration": "not_applied",
+  "note": "Additive proposed artwork; all100 original festival IDs are preserved."
+}
