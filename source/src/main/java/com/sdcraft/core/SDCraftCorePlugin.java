@@ -315,7 +315,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
     public void onQuit(PlayerQuitEvent e) {
         UUID id = e.getPlayer().getUniqueId();
         clockOut(id, "disconnect");
-        if(gtmLoans!=null)gtmLoans.quit(p);
+        if(gtmLoans!=null)gtmLoans.quit(e.getPlayer());
         activeAt.remove(id);
         guiNpc.remove(id);
         pinMode.remove(id);
