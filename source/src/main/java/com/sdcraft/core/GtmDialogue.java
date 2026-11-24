@@ -1,6 +1,8 @@
 package com.sdcraft.core;
 
 import com.sdcraft.core.gtm.RoleplayText;
+import com.sdcraft.core.gtm.NearMiss;
+import org.bukkit.event.vehicle.VehicleMoveEvent;
 import java.util.*;
 import org.bukkit.*;
 import org.bukkit.entity.*;
@@ -17,6 +19,38 @@ final class GtmDialogue implements Listener {
     private final Ledger ledger;
     private final Map<UUID, UUID> bubbles = new HashMap<>();
     private final Map<UUID, Long> last = new HashMap<>();
+    private final Map<UUID, Long> reactions = new HashMap<>();
+    private long nextReactionScan = 0;
+    @EventHandler(priority = EventPriority.MONITOR)
+    public void onVehicleMove(VehicleMoveEvent event) {
+        if (!plugin.getConfig().getBoolean("gtm.experimental-dialogue", false)) return;
+        long now = System.currentTimeMillis();
+        if (now < nextReactionScan) return;
+        Player driver = null;
+        for (Entity passenger : event.getVehicle().getPassengers()) {
+            if (passenger instanceof Player p && npcs.identify(p) == null && p.hasPermission("gtm.dialogue") && ledger.exists(p.getUniqueId())) {
+                driver = p; break;
+            }
+        }
+        if (driver == null) return;
+        nextReactionScan = now + 250;
+        var velocity = event.getVehicle().getVelocity();
+        var at = event.getTo();
+        reactions.entrySet().removeIf(e -> e.getValue() < now);
+        Entity target = null;
+        double best = Double.POSITIVE_INFINITY;
+        for (Entity candidate : event.getVehicle().getNearbyEntities(6,2,6)) {
+            if (!(candidate instanceof LivingEntity) || !candidate.isValid() || bubbles.containsKey(candidate.getUniqueId()) || reactions.containsKey(candidate.getUniqueId())) continue;
+            String id = npcs.identify(candidate);
+            if (id == null) continue;
+            var d = candidate.getLocation().toVector().subtract(at.toVector());
+            if (!NearMiss.approaching(d.getX(),d.getY(),d.getZ(),velocity.getX(),velocity.getZ())) continue;
+            if (d.lengthSquared() < best) { target = candidate; best = d.lengthSquared(); }
+        }
+        if (target == null || reactions.size() >= 128) return;
+        reactions.put(target.getUniqueId(),now+10000);
+        show(target, RoleplayText.reaction(ledger.language(driver.getUniqueId()),false,(int)(now/1000)));
+    }
     GtmDialogue(JavaPlugin plugin, NpcService npcs, Ledger ledger) {
         this.plugin = plugin; this.npcs = npcs; this.ledger = ledger;
     }
@@ -30,7 +64,7 @@ final class GtmDialogue implements Listener {
             if (RoleplayText.reservedEdit(raw)) return;
         }
         event.setCancelled(true);
-        if (!player.hasPermission("gtm.dialogue")) return;
+        if (!player.hasPermission("gtm.dialogue") || !ledger.exists(player.getUniqueId())) return;
         String message = RoleplayText.message(raw);
         if (message.isBlank()) return;
         long now = System.currentTimeMillis();
@@ -99,5 +133,5 @@ final class GtmDialogue implements Listener {
         for (UUID owner : new ArrayList<>(bubbles.keySet()))
             if (unloading.contains(owner) || unloading.contains(bubbles.get(owner))) remove(owner);
     }
-    void close() { for (UUID owner : new ArrayList<>(bubbles.keySet())) remove(owner); last.clear(); }
+    void close() { for (UUID owner : new ArrayList<>(bubbles.keySet())) remove(owner); last.clear(); reactions.clear(); }
 }
