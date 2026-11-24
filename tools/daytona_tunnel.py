@@ -1,8 +1,11 @@
 import os, sys, time, subprocess
 from daytona import Daytona, DaytonaConfig
 
-API_KEY = "your_daytona_api_key_here"
-SANDBOX_ID = "b6a826ca-4dac-4716-b7b9-236b88b4718e"
+sys.path.insert(0, os.path.dirname(__file__))
+from credentials import get_daytona_api_key, get_daytona_sandbox_id
+
+API_KEY = get_daytona_api_key()
+SANDBOX_ID = get_daytona_sandbox_id()
 
 def main():
     print("=" * 65)

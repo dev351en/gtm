@@ -1,9 +1,12 @@
 import os, sys, time, subprocess, json, urllib.request
 from daytona import Daytona, DaytonaConfig
 
-API_KEY = "your_daytona_api_key_here"
-SANDBOX_ID = "b6a826ca-4dac-4716-b7b9-236b88b4718e"
-NGROK_BIN = r"d:\Games\SDCRAFT\tools\ngrok\ngrok.exe"
+sys.path.insert(0, os.path.dirname(__file__))
+from credentials import get_daytona_api_key, get_daytona_sandbox_id, get_ngrok_authtoken
+
+API_KEY = get_daytona_api_key()
+SANDBOX_ID = get_daytona_sandbox_id()
+NGROK_BIN = os.path.join(os.path.dirname(__file__), "ngrok", "ngrok.exe")
 
 print("=" * 65)
 print("      SDCRAFT - DAYTONA SERVER + NGROK MULTIPLAYER LAUNCHER")

@@ -1,12 +1,18 @@
 import os, sys, time, json
 from daytona import Daytona, DaytonaConfig
 
-API_KEY = "your_daytona_api_key_here"
-SANDBOX_ID = "b6a826ca-4dac-4716-b7b9-236b88b4718e"
+sys.path.insert(0, os.path.dirname(__file__))
+from credentials import get_daytona_api_key, get_daytona_sandbox_id, get_ngrok_authtoken
+
+API_KEY = get_daytona_api_key()
+SANDBOX_ID = get_daytona_sandbox_id()
 
 token_file = os.path.join(os.path.dirname(__file__), "ngrok_authtoken.txt")
 
 def get_token():
+    tok = get_ngrok_authtoken()
+    if tok:
+        return tok
     if os.path.exists(token_file):
         with open(token_file, "r") as f:
             t = f.read().strip()
