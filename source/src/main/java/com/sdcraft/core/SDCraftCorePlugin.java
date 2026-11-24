@@ -26,6 +26,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
     private Ledger ledger;
     private AiService ai;
     private GtmDialogue gtmDialogue;
+    private GtmLoans gtmLoans;
     private NpcService npcs;
     private RestorationEngine restoration;
     private GunEngine guns;
@@ -76,6 +77,12 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
         dataFile = new File(getDataFolder(), "runtime.yml");
         data = YamlConfiguration.loadConfiguration(dataFile);
         ledger = new Ledger(getDataFolder());
+        gtmLoans = new GtmLoans(this,ledger);
+        Bukkit.getPluginManager().registerEvents(gtmLoans,this);
+        Objects.requireNonNull(getCommand("gtmloan")).setExecutor((sender, command, label, args) -> {
+            if(sender instanceof Player p) gtmLoans.open(p);
+            return true;
+        });
         if (getConfig().getBoolean("economy.vault-provider-enabled", true)
                 && Bukkit.getPluginManager().isPluginEnabled("Vault")) {
             vaultWallet = new VaultWallet(ledger);
@@ -134,9 +141,10 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
         for (UUID id : new ArrayList<>(duties.keySet()))
             clockOut(id, "server stop");
         if (gtmDialogue != null) gtmDialogue.close();
-        npcs.close();
-        gta.close();
-        safeSave();
+        if (gtmLoans != null) gtmLoans.close();
+        if (npcs != null) npcs.close();
+        if (gta != null) gta.close();
+        if (data != null && dataFile != null) safeSave();
     }
 
     private void safeSave() {
@@ -300,6 +308,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
     public void onQuit(PlayerQuitEvent e) {
         UUID id = e.getPlayer().getUniqueId();
         clockOut(id, "disconnect");
+        if(gtmLoans!=null)gtmLoans.quit(p);
         activeAt.remove(id);
         guiNpc.remove(id);
         pinMode.remove(id);
@@ -611,6 +620,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
         }
         for (Player p : Bukkit.getOnlinePlayers()) {
             UUID id = p.getUniqueId();
+            if(gtmLoans!=null)gtmLoans.tick(p,!p.isSleeping() && now-activeAt.getOrDefault(id,0L)<120000L);
             Duty d = duties.get(id);
             if (d == null)
                 continue;
@@ -678,6 +688,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
     }
 
     GunEngine guns() { return guns; }
+    GtmLoans loans() { return gtmLoans; }
     String profession(UUID id) { return data.getString("players." + id + ".profession", ""); }
 
     private boolean near(Player p, String id, int radius) {
