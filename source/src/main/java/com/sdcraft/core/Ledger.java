@@ -189,8 +189,14 @@ final class Ledger {
         require(id); Objects.requireNonNull(loanId);
         var existing=loan(id);
         if(existing.isPresent()&&(existing.get().id().equals(loanId)||existing.get().terms().outstanding()>0)) return false;
+        String historyPath=key(id)+".gtm-loan-issued-ids";
+        Set<String> issued=new LinkedHashSet<>(db.getStringList(historyPath));
+        existing.ifPresent(a->issued.add(a.id().toString()));
+        if(issued.contains(loanId.toString())||issued.size()>=512)return false;
         var account=new LoanAccount(loanId,Loan.issue(principal,basisPoints,days,grace),0);
         long nextBank=Math.addExact(bank(id),principal);
+        issued.add(loanId.toString());
+        db.set(historyPath,new ArrayList<>(issued));
         db.set(key(id)+".bank",nextBank); writeLoan(id,account);
         save(); append("LOAN_ISSUE",id,null,principal,"loan="+loanId); return true;
     }
