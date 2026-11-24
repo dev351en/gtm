@@ -2,6 +2,7 @@ package com.sdcraft.core;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.util.*;
 import org.bukkit.*;
 import org.bukkit.command.CommandSender;
@@ -27,24 +28,26 @@ import org.bukkit.scoreboard.*;
  * the server thread and are persisted in gta-state.yml.
  */
 final class GtaEngine implements Listener {
-    static final String PHONE_TITLE = "§8[ §6iFruit OS 26.3 §8] §fCity Apps";
-    static final String SHOP_TITLE = "§8[SD SHOP] Ammu-Nation";
+    static final String PHONE_TITLE = "§8[ §6GTM Phone §8] §fIndraprastha";
+    static final String SHOP_TITLE = "§8[ARK Equipment] City Store";
     static final String MISSIONS_TITLE = "§8[SD JOBS] Mission Board";
 
     private record MissionDefinition(String id, String title, String profession,
             String difficulty, long rewardCents, int credits, List<String> route,
             boolean criminal, int cooldownSeconds) {}
 
-    private record ActiveMission(String id, int stage, long startedAt) {}
+    private record ActiveMission(String id, int stage, long startedAt, UUID run) {}
 
     private final SDCraftCorePlugin plugin;
     private final Ledger ledger;
     private final GpsManager gps;
-    private final File stateFile;
+    private final AtomicYamlStore stateStore;
     private final YamlConfiguration state;
     private final Map<String, MissionDefinition> definitions = new LinkedHashMap<>();
     private final Map<UUID, ActiveMission> activeMissions = new HashMap<>();
     private final Map<UUID, Long> lastJailWarning = new HashMap<>();
+    private final Map<UUID, Long> rewardRetryAt = new HashMap<>();
+    private final Map<UUID, Scoreboard> hudBoards = new HashMap<>();
     private final NamespacedKey actionKey;
     private long ticks;
 
@@ -52,8 +55,9 @@ final class GtaEngine implements Listener {
         this.plugin = plugin;
         this.ledger = ledger;
         this.gps = gps;
-        this.stateFile = new File(plugin.getDataFolder(), "gta-state.yml");
-        this.state = YamlConfiguration.loadConfiguration(stateFile);
+        try { this.stateStore = new AtomicYamlStore(plugin.getDataFolder().toPath().resolve("gta-state.yml")); }
+        catch (IOException ex) { throw new IllegalStateException("Cannot safely load GTA state", ex); }
+        this.state = stateStore.data();
         this.actionKey = new NamespacedKey(plugin, "gta_action");
         loadMissionDefinitions();
     }
@@ -66,8 +70,11 @@ final class GtaEngine implements Listener {
         String path = "missions.active." + player.getUniqueId();
         String id = state.getString(path + ".id", "");
         if (definitions.containsKey(id)) {
+            long startedAt = state.getLong(path + ".started-at", 0L);
+            String existing = state.getString(path + ".run", "");
+            UUID run = existing.isBlank() ? UUID.nameUUIDFromBytes((player.getUniqueId()+":"+id+":"+startedAt).getBytes(StandardCharsets.UTF_8)) : UUID.fromString(existing);
             activeMissions.put(player.getUniqueId(), new ActiveMission(id,
-                    state.getInt(path + ".stage", 0), state.getLong(path + ".started-at", System.currentTimeMillis())));
+                    Math.max(0,state.getInt(path + ".stage", 0)), startedAt, run));
         }
         long jailUntil = jailUntil(player.getUniqueId());
         if (jailUntil > System.currentTimeMillis()) {
@@ -76,6 +83,7 @@ final class GtaEngine implements Listener {
             player.sendMessage("§c[SDPD] You are still jailed for " + seconds(jailUntil - System.currentTimeMillis()) + ".");
         }
         updateHud(player);
+        plugin.deliveries().retry(player);
     }
 
     boolean tryClaimStarter(Player player) {
@@ -155,6 +163,11 @@ final class GtaEngine implements Listener {
             return true;
         }
         long price = plugin.getConfig().getLong("gta.shop.vehicle-sedan-cents", 150000L);
+        if (!plugin.getConfig().getBoolean("gta.shop.allow-external-vehicle-purchases", false)
+                || !Bukkit.getPluginManager().isPluginEnabled("MTVehicles")) {
+            player.sendMessage("§e[Garage] Vehicle sales await a verified driving and delivery adapter. No payment taken.");
+            return true;
+        }
         if (!ledger.chargeBank(player.getUniqueId(), price, "vehicle:sedan_black")) {
             player.sendMessage("§c[Garage] You need " + PolicyEngine.money(price) + " in your bank.");
             return true;
@@ -223,6 +236,7 @@ final class GtaEngine implements Listener {
         ticks++;
         long now = System.currentTimeMillis();
         for (Player player : Bukkit.getOnlinePlayers()) {
+            if (!plugin.isAuthenticated(player) || plugin.isManagedNpc(player)) continue;
             UUID id = player.getUniqueId();
             long jail = jailUntil(id);
             if (jail > 0 && jail <= now) release(player);
@@ -235,9 +249,11 @@ final class GtaEngine implements Listener {
                 save();
                 player.sendMessage("§7[SDPD] You evaded police. Wanted level reduced to " + (wanted - 1) + "★.");
             }
-            if (ticks % 5 == 0) updateHud(player);
-            checkMissionProgress(player);
+            if (ticks % 5 == 0) { updateHud(player); plugin.deliveries().retry(player); }
+            try { checkMissionProgress(player); }
+            catch (IllegalStateException ex) { plugin.getLogger().warning("Mission state could not be committed: "+ex.getClass().getSimpleName()); }
         }
+        hudBoards.keySet().removeIf(id -> Bukkit.getPlayer(id)==null);
     }
 
     @EventHandler(priority = EventPriority.HIGH, ignoreCancelled = true)
@@ -375,9 +391,9 @@ final class GtaEngine implements Listener {
             if (start != null) player.setCompassTarget(start);
             throw new IllegalStateException("Go to " + def.route.get(0) + " to start; GPS target set.");
         }
-        ActiveMission active = new ActiveMission(id, Math.min(1, def.route.size()), System.currentTimeMillis());
-        activeMissions.put(player.getUniqueId(), active);
+        ActiveMission active = new ActiveMission(id, Math.min(1, def.route.size()), System.currentTimeMillis(), UUID.randomUUID());
         persistMission(player.getUniqueId(), active);
+        activeMissions.put(player.getUniqueId(), active);
         if (def.criminal) recordCrime(player, 3, "Armed bank alarm");
         player.sendTitle("§6MISSION STARTED", "§f" + def.title, 5, 45, 10);
         player.sendMessage("§e[Mission] " + def.title + " started. Reward: " + PolicyEngine.money(def.rewardCents) + ".");
@@ -389,12 +405,21 @@ final class GtaEngine implements Listener {
         ActiveMission active = activeMissions.get(player.getUniqueId());
         if (active == null) return;
         MissionDefinition def = definitions.get(active.id);
-        if (def == null || active.stage >= def.route.size()) return;
+        if (def == null) return;
+        if (active.stage >= def.route.size()) {
+            if (System.currentTimeMillis() < rewardRetryAt.getOrDefault(player.getUniqueId(), 0L)) return;
+            try { completeMission(player, active, def); }
+            catch (Exception ex) {
+                rewardRetryAt.put(player.getUniqueId(), System.currentTimeMillis()+5000L);
+                plugin.getLogger().warning("Mission settlement pending; will retry safely: "+ex.getClass().getSimpleName());
+            }
+            return;
+        }
         Location target = plugin.site(def.route.get(active.stage));
         if (target == null || !target.getWorld().equals(player.getWorld()) || target.distanceSquared(player.getLocation()) > 144.0) return;
-        ActiveMission next = new ActiveMission(active.id, active.stage + 1, active.startedAt);
-        activeMissions.put(player.getUniqueId(), next);
+        ActiveMission next = new ActiveMission(active.id, active.stage + 1, active.startedAt, active.run);
         persistMission(player.getUniqueId(), next);
+        activeMissions.put(player.getUniqueId(), next);
         player.playSound(player.getLocation(), Sound.UI_TOAST_IN, 0.8f, 1.3f);
         if (next.stage >= def.route.size()) {
             try { completeMission(player, next, def); }
@@ -406,22 +431,30 @@ final class GtaEngine implements Listener {
     }
 
     private void completeMission(Player player, ActiveMission active, MissionDefinition def) throws Exception {
-        ledger.rewardCareer(player.getUniqueId(), def.rewardCents, def.credits, "mission:" + def.id);
-        activeMissions.remove(player.getUniqueId());
+        ledger.rewardCareerOnce(player.getUniqueId(), active.run, def.rewardCents, def.credits, "mission:" + def.id);
         state.set("missions.active." + player.getUniqueId(), null);
         state.set("missions.cooldowns." + player.getUniqueId() + "." + def.id, System.currentTimeMillis());
         save();
+        activeMissions.remove(player.getUniqueId());
+        rewardRetryAt.remove(player.getUniqueId());
         player.sendTitle("§aMISSION PASSED", "§e+" + PolicyEngine.money(def.rewardCents) + "  §b+" + def.credits + " RP", 10, 60, 15);
         player.playSound(player.getLocation(), Sound.UI_TOAST_CHALLENGE_COMPLETE, 1.0f, 1.0f);
     }
 
     private void cancelMission(Player player) {
-        if (activeMissions.remove(player.getUniqueId()) == null) {
+        ActiveMission active = activeMissions.get(player.getUniqueId());
+        if (active == null) {
             player.sendMessage("§7[Mission] No active mission.");
+            return;
+        }
+        MissionDefinition definition = definitions.get(active.id);
+        if (definition != null && active.stage >= definition.route.size()) {
+            player.sendMessage("§e[Mission] Your completed mission is waiting for its saved reward. It cannot be cancelled.");
             return;
         }
         state.set("missions.active." + player.getUniqueId(), null);
         save();
+        activeMissions.remove(player.getUniqueId());
         player.sendMessage("§c[Mission] Mission cancelled; no reward awarded.");
     }
 
@@ -446,6 +479,7 @@ final class GtaEngine implements Listener {
         state.set(path + ".id", active.id);
         state.set(path + ".stage", active.stage);
         state.set(path + ".started-at", active.startedAt);
+        state.set(path + ".run", active.run.toString());
         save();
     }
 
@@ -531,50 +565,33 @@ final class GtaEngine implements Listener {
     }
 
     private boolean buyGun(Player player, String type) throws IOException {
-        Map<String, Long> prices = Map.of("p30", 25000L, "deagle", 65000L, "uzi", 70000L,
-                "remington", 85000L, "ak47", 120000L, "m4", 135000L, "awp", 180000L, "fnp90", 110000L);
-        String normalized = switch (type) {
-            case "ak", "ak47" -> "ak47";
-            case "m4", "m4a1" -> "m4";
-            case "shotgun", "remington" -> "remington";
-            case "sniper", "awp" -> "awp";
-            case "smg", "uzi" -> "uzi";
-            case "p90", "fnp90" -> "fnp90";
-            case "deagle" -> "deagle";
-            default -> "p30";
+        GunEngine.GunType nativeType=switch(type.toLowerCase(Locale.ROOT)) {
+            case "pistol", "p30" -> GunEngine.GunType.PISTOL;
+            case "shotgun", "remington" -> GunEngine.GunType.SHOTGUN;
+            case "smg", "uzi" -> GunEngine.GunType.SMG;
+            case "rifle", "ak", "ak47", "m4", "m4a1" -> GunEngine.GunType.RIFLE;
+            default -> throw new IllegalArgumentException("Choose pistol, shotgun, smg or rifle. No payment taken for unavailable equipment.");
         };
-        long price = prices.get(normalized);
-        if (!ledger.chargeBank(player.getUniqueId(), price, "weapon:" + normalized)) {
-            player.sendMessage("§c[Ammu-Nation] You need " + PolicyEngine.money(price) + " in your bank.");
-            return true;
+        long price=switch(nativeType){case PISTOL->25000L;case SHOTGUN->85000L;case SMG->70000L;case RIFLE->120000L;};
+        if(!plugin.deliveries().purchase(player,plugin.guns().createGun(nativeType),price,true,"equipment:"+nativeType.name())) {
+            player.sendMessage("§c[ARK Equipment] You need "+PolicyEngine.money(price)+" in your bank.");return true;
         }
-        if (Bukkit.getPluginManager().isPluginEnabled("QualityArmory")) {
-            Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "qa give " + normalized + " " + player.getName());
-        } else {
-            player.getInventory().addItem(plugin.guns().createGun(GunEngine.GunType.PISTOL));
-        }
-        player.sendMessage("§a[Ammu-Nation] Purchased " + normalized.toUpperCase(Locale.ROOT) + " for " + PolicyEngine.money(price) + ". Ammunition sold separately.");
+        player.sendMessage("§a[ARK Equipment] Purchased "+nativeType.displayName+" for "+PolicyEngine.money(price)+". Paid deliveries retry automatically when inventory space is available.");
         return true;
     }
 
     private void buyShopItem(Player player, String id) throws IOException {
-        if (id.startsWith("gun:")) { buyGun(player, id.substring(4)); return; }
-        record Product(long cents, String qaId, int amount) {}
-        Map<String, Product> products = Map.of(
-                "9mm", new Product(2500L, "9mm", 32), "556", new Product(4500L, "556", 32),
-                "762", new Product(5000L, "762", 32), "shells", new Product(3500L, "12gauge", 16));
-        Product product = products.get(id);
-        if (product == null) throw new IllegalArgumentException("Unknown shop product.");
-        if (!ledger.chargeWallet(player.getUniqueId(), product.cents, "ammo:" + id)) {
-            throw new IllegalStateException("Insufficient wallet cash: " + PolicyEngine.money(product.cents) + " required.");
-        }
-        if (Bukkit.getPluginManager().isPluginEnabled("QualityArmory")) {
-            Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "qa give " + product.qaId + " " + player.getName() + " " + product.amount);
-        } else {
-            String nativeId = id.equals("shells") ? "shotgun_shells" : id.equals("556") || id.equals("762") ? "rifle_ammo" : "9mm_ammo";
-            player.getInventory().addItem(plugin.guns().createAmmo(nativeId, product.amount));
-        }
-        player.sendMessage("§a[Ammu-Nation] Purchased " + product.amount + "x " + id + " for " + PolicyEngine.money(product.cents) + ".");
+        if(id.startsWith("gun:")){buyGun(player,id.substring(4));return;}
+        record Product(long cents,String ammunition,int amount){}
+        Product product=switch(id){
+            case "9mm"->new Product(2500L,"9mm_ammo",32);
+            case "556","762"->new Product(4500L,"rifle_ammo",32);
+            case "shells"->new Product(3500L,"shotgun_shells",16);
+            default->throw new IllegalArgumentException("Unknown shop product");
+        };
+        if(!plugin.deliveries().purchase(player,plugin.guns().createAmmo(product.ammunition,product.amount),product.cents,false,"ammo:"+product.ammunition))
+            throw new IllegalStateException("Insufficient wallet cash: "+PolicyEngine.money(product.cents)+" required.");
+        player.sendMessage("§a[ARK Equipment] Purchased "+product.amount+" rounds for "+PolicyEngine.money(product.cents)+".");
     }
 
     private void openPhone(Player player) {
@@ -585,18 +602,18 @@ final class GtaEngine implements Listener {
                 && Bukkit.dispatchCommand(player, "cityphone")) return;
         Inventory inventory = Bukkit.createInventory(null, 27, PHONE_TITLE);
         fill(inventory);
-        inventory.setItem(10, menuApp(CityItems.APP_GPS, "§b§lSnapmatic GPS", "gps", "§7Tap to set live city waypoint"));
+        inventory.setItem(10, menuApp(CityItems.APP_GPS, "§b§lIndraprastha Maps", "gps", "§7Tap to set live city waypoint"));
         inventory.setItem(11, menuApp(CityItems.APP_JOBS, "§6§lMission Board", "missions", "§7Jobs, races and emergency calls"));
-        inventory.setItem(12, menuApp(CityItems.APP_GEAR, "§c§lAmmu-Nation", "shop", "§7Browse weapons and ammunition"));
-        inventory.setItem(14, menuApp(CityItems.APP_GARAGE, "§a§lMotorsport Garage", "garage", "§7Owned vehicles and dealership"));
-        inventory.setItem(15, menuApp(CityItems.APP_BANK, "§2§lMaze Bank Mobile", "account", "§7Wallet, bank and career rank"));
+        inventory.setItem(12, menuApp(CityItems.APP_GEAR, "§c§lARK Equipment", "shop", "§7Browse weapons and ammunition"));
+        inventory.setItem(14, menuApp(CityItems.APP_GARAGE, "§a§lGTM Garage", "garage", "§7Owned vehicles and dealership"));
+        inventory.setItem(15, menuApp(CityItems.APP_BANK, "§2§lARK Bank", "account", "§7Wallet, bank and career rank"));
         if(lending) inventory.setItem(13,menu(Material.BOOK,"§6ARK Bank Loans","loans","§7Borrow and repay ARK"));
         if(property) inventory.setItem(22,menu(Material.OAK_DOOR,"§6Indraprastha Properties","properties","§7Purchase flats and manage keys"));
         if(food){
             inventory.setItem(20,menu(Material.BREAD,"§cZomatoo","food:zomatoo","§7Food ordering and collection"));
             inventory.setItem(24,menu(Material.COOKED_BEEF,"§6Swiffy","food:swiffy","§7Food ordering and collection"));
         }
-        inventory.setItem(16, menuApp(CityItems.APP_SAFETY, "§4§lLSPD Wanted & Bail", "wanted", "§7Heat, surrender and jail status"));
+        inventory.setItem(16, menuApp(CityItems.APP_SAFETY, "§4§lCity Police", "wanted", "§7Heat, surrender and jail status"));
         player.openInventory(inventory);
     }
 
@@ -616,23 +633,22 @@ final class GtaEngine implements Listener {
     private void openShop(Player player) {
         Inventory inventory = Bukkit.createInventory(null, 27, SHOP_TITLE);
         fill(inventory);
-        inventory.setItem(9, menu(Material.CROSSBOW, "§fP30 Pistol §7- §e$250", "buy:gun:p30", "§7Entry-level sidearm"));
-        inventory.setItem(10, menu(Material.CROSSBOW, "§fUzi SMG §7- §e$700", "buy:gun:uzi", "§7Compact automatic weapon"));
-        inventory.setItem(11, menu(Material.CROSSBOW, "§fAK-47 §7- §e$1,200", "buy:gun:ak47", "§7High-powered rifle"));
-        inventory.setItem(12, menu(Material.CROSSBOW, "§fAWP §7- §e$1,800", "buy:gun:awp", "§7Long-range precision rifle"));
+        inventory.setItem(9, menu(Material.CROSSBOW, "§fARK Service Pistol §7- §e250 ARK", "buy:gun:p30", "§7Entry-level sidearm"));
+        inventory.setItem(10, menu(Material.CROSSBOW, "§fARK Compact SMG §7- §e700 ARK", "buy:gun:uzi", "§7Compact automatic weapon"));
+        inventory.setItem(11, menu(Material.CROSSBOW, "§fARK Urban Rifle §7- §e1,200 ARK", "buy:gun:ak47", "§7High-powered rifle"));
+        inventory.setItem(12, menu(Material.CROSSBOW, "§fARK Patrol Shotgun §7- §e850 ARK", "buy:gun:shotgun", "§7Close-range equipment"));
         inventory.setItem(14, menu(Material.IRON_NUGGET, "§f32x 9mm §7- §e$25", "buy:9mm", "§7Pistol and SMG ammunition"));
         inventory.setItem(15, menu(Material.IRON_NUGGET, "§f32x 5.56 §7- §e$45", "buy:556", "§7Rifle ammunition"));
-        inventory.setItem(16, menu(Material.IRON_NUGGET, "§f32x 7.62 §7- §e$50", "buy:762", "§7Heavy rifle ammunition"));
         inventory.setItem(17, menu(Material.FIREWORK_STAR, "§f16x Shells §7- §e$35", "buy:shells", "§7Shotgun ammunition"));
         player.openInventory(inventory);
     }
 
     private void openMissions(Player player) {
-        Inventory inventory = Bukkit.createInventory(null, 27, MISSIONS_TITLE);
+        Inventory inventory = Bukkit.createInventory(null, 54, MISSIONS_TITLE);
         fill(inventory);
-        int slot = 9;
+        int slot = 0;
         for (MissionDefinition def : definitions.values()) {
-            if (slot >= 18) break;
+            if (slot >= 54) break;
             Material icon = def.criminal ? Material.TNT : def.profession.equals("police") ? Material.IRON_BARS
                     : def.profession.equals("medic") ? Material.GLISTERING_MELON_SLICE
                     : def.id.contains("race") || def.id.contains("vehicle") ? Material.MINECART : Material.MAP;
@@ -662,17 +678,21 @@ final class GtaEngine implements Listener {
         if (!plugin.getConfig().getBoolean("gta.hud.enabled", true) || !ledger.exists(player.getUniqueId())) return;
         ScoreboardManager manager = Bukkit.getScoreboardManager();
         if (manager == null) return;
-        Scoreboard board = manager.getNewScoreboard();
-        Objective objective = board.registerNewObjective("sdgta", Criteria.DUMMY, "§6§lSD CRAFT");
-        objective.setDisplaySlot(DisplaySlot.SIDEBAR);
-        objective.getScore("§7" + gps.getDistrict(player.getLocation())).setScore(6);
-        objective.getScore("§eWallet §f" + PolicyEngine.money(ledger.wallet(player.getUniqueId()))).setScore(5);
-        objective.getScore("§6Bank §f" + PolicyEngine.money(ledger.bank(player.getUniqueId()))).setScore(4);
-        objective.getScore("§cWanted §f" + stars(wantedLevel(player.getUniqueId()))).setScore(3);
+        Scoreboard board = hudBoards.computeIfAbsent(player.getUniqueId(), id -> {
+            Scoreboard next=manager.getNewScoreboard();
+            Objective objective=next.registerNewObjective("sdgta",Criteria.DUMMY,"§6§lSD CRAFT");
+            objective.setDisplaySlot(DisplaySlot.SIDEBAR);
+            for(int i=0;i<6;i++) { String entry="§"+i; Team team=next.registerNewTeam("line"+i);team.addEntry(entry);objective.getScore(entry).setScore(6-i); }
+            return next;
+        });
+        board.getTeam("line0").setPrefix("§7" + gps.getDistrict(player.getLocation()));
+        board.getTeam("line1").setPrefix("§eWallet §f" + PolicyEngine.money(ledger.wallet(player.getUniqueId())));
+        board.getTeam("line2").setPrefix("§6Bank §f" + PolicyEngine.money(ledger.bank(player.getUniqueId())));
+        board.getTeam("line3").setPrefix("§cWanted §f" + stars(wantedLevel(player.getUniqueId())));
         ActiveMission mission = activeMissions.get(player.getUniqueId());
-        objective.getScore(mission == null ? "§7No active mission" : "§aMission §f" + definitions.get(mission.id).title).setScore(2);
-        objective.getScore(jailUntil(player.getUniqueId()) > System.currentTimeMillis() ? "§cJAILED" : "§b/phone").setScore(1);
-        player.setScoreboard(board);
+        board.getTeam("line4").setPrefix(mission == null ? "§7No active mission" : "§aMission §f" + definitions.get(mission.id).title);
+        board.getTeam("line5").setPrefix(jailUntil(player.getUniqueId()) > System.currentTimeMillis() ? "§cJAILED" : "§b/phone");
+        if(player.getScoreboard()!=board)player.setScoreboard(board);
     }
 
     private boolean isSafeZone(Location location) {
@@ -705,9 +725,9 @@ final class GtaEngine implements Listener {
 
     private void save() {
         try {
-            state.save(stateFile);
+            stateStore.commit();
         } catch (IOException ex) {
-            plugin.getLogger().severe("GTA STATE SAVE FAILED: " + ex.getMessage());
+            throw new IllegalStateException("GTA state could not be saved; the action was not applied", ex);
         }
     }
 }

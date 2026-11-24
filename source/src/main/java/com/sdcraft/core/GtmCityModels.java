@@ -1,7 +1,6 @@
 package com.sdcraft.core;
 
 import java.io.*;
-import java.nio.charset.StandardCharsets;
 import java.util.*;
 import org.bukkit.*;
 import org.bukkit.command.*;
@@ -27,15 +26,13 @@ final class GtmCityModels implements CommandExecutor, Listener {
 
     GtmCityModels(SDCraftCorePlugin plugin) throws IOException {
         this.plugin=plugin;
-        try (var in = Objects.requireNonNull(plugin.getResource("gtm-city-models.tsv"));
-             var reader = new BufferedReader(new InputStreamReader(in,StandardCharsets.UTF_8))) {
-            for (String line; (line=reader.readLine())!=null;) {
-                var f=line.split("\t",-1);
-                if (f.length!=3 || !f[0].matches("[a-z0-9_]+") || designs.putIfAbsent(f[0],new Design(f[0],f[1],f[2]))!=null)
-                    throw new IOException("Invalid city design catalogue");
-            }
+        for (var entry : GtmAssetCatalog.bundled().paperModels()) {
+            designs.put(entry.key(), new Design(entry.key(), entry.category(), entry.title()));
         }
-        if (designs.size()!=479) throw new IOException("Incomplete city design catalogue");
+        for (var fixture : FIXTURES) {
+            if (!designs.containsKey(fixture.design()))
+                throw new IOException("Missing surveyed fixture model: " + fixture.design());
+        }
     }
 
     private static final class Shelf implements InventoryHolder {
@@ -70,7 +67,7 @@ final class GtmCityModels implements CommandExecutor, Listener {
     }
 
     public boolean onCommand(CommandSender sender,Command command,String label,String[] args) {
-        if (sender instanceof Player p && p.hasPermission("gtm.models") && plugin.getConfig().getBoolean("gtm.experimental-models"))
+        if (sender instanceof Player p && plugin.isAuthenticated(p) && p.hasPermission("gtm.models") && plugin.getConfig().getBoolean("gtm.experimental-models"))
             open(p,args.length==0?"all":args[0].toLowerCase(Locale.ROOT),0);
         else sender.sendMessage("GTM model catalogue unavailable.");
         return true;
@@ -83,7 +80,7 @@ final class GtmCityModels implements CommandExecutor, Listener {
         if (!(event.getWhoClicked() instanceof Player p) || (event.getClick()!=ClickType.LEFT && event.getClick()!=ClickType.RIGHT)
                 || slot<0 || slot>=54 || shelf.inventory.getItem(slot)==null) return;
         Bukkit.getScheduler().runTask(plugin,()->{
-            if (!p.isOnline() || !p.hasPermission("gtm.models") || !plugin.getConfig().getBoolean("gtm.experimental-models")
+            if (!p.isOnline() || !plugin.isAuthenticated(p) || !p.hasPermission("gtm.models") || !plugin.getConfig().getBoolean("gtm.experimental-models")
                 || p.getOpenInventory().getTopInventory().getHolder()!=shelf) return;
             if (slot==45 || slot==53) open(p,shelf.category,shelf.page+(slot==45?-1:1));
             else if (slot<45) {
@@ -115,7 +112,8 @@ final class GtmCityModels implements CommandExecutor, Listener {
             ArmorStand stand=installed.get(f);
             if (stand!=null && stand.isValid()) continue;
             String id=f.seasonal() && theme!=null ? theme+"_counterpiece" : f.design();
-            Design design=Objects.requireNonNull(designs.get(id));
+            Design design=designs.get(id);
+            if (design==null) { remove(f); continue; }
             installed.put(f,world.spawn(at.clone().subtract(0,1.1,0),ArmorStand.class,a->{
                 a.setPersistent(false); a.setVisible(false); a.setGravity(false); a.setMarker(true); a.setInvulnerable(true);
                 a.addDisabledSlots(EquipmentSlot.HEAD, EquipmentSlot.HAND, EquipmentSlot.OFF_HAND, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET);

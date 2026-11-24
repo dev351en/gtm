@@ -1,10 +1,22 @@
 name: GTM verification (no deployment)
 on:
-  pull_request:
-    branches: [main]
+  push:
+    branches: [gtm/playable-r4, gtm/creative-r4, gtm/revision-4-foundation]
     paths:
       - 'source/**'
-      - 'tools/generate_npc_assets.py'
+      - 'tools/**'
+      - 'creative/generated_128/**'
+      - 'resource-pack/**'
+      - 'packaging/**'
+      - '.github/workflows/gtm-verify.yml'
+  pull_request:
+    branches: [main, gtm/playable-r4, gtm/creative-r4, gtm/revision-4-foundation]
+    paths:
+      - 'source/**'
+      - 'tools/**'
+      - 'creative/generated_128/**'
+      - 'resource-pack/**'
+      - 'packaging/**'
       - '.github/workflows/gtm-verify.yml'
   workflow_dispatch:
 permissions:
@@ -27,6 +39,15 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '9.2.1'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pack verification dependencies
+        run: python -m pip install -r tools/requirements-gtm128.txt
+      - name: Verify pack preservation and catalogue boundaries
+        run: python -m unittest discover -s tools -p 'test_runtime_packs.py'
+      - name: Verify laptop packaging and launcher
+        run: GTM_TEST_JAVAC="$JAVA_HOME/bin/javac" python -m unittest discover -s tools -p 'test_laptop_bundle.py'
       - name: Full plugin build and checks
         working-directory: source
         run: gradle --no-daemon clean check jar
@@ -36,4 +57,14 @@ jobs:
           name: gtm-unreleased-candidate
           path: source/build/libs/*.jar
           if-no-files-found: error
+          retention-days: 7
+      - name: Upload test evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gtm-verification-reports
+          path: |
+            source/build/reports/tests/
+            source/build/test-results/
+          if-no-files-found: ignore
           retention-days: 7

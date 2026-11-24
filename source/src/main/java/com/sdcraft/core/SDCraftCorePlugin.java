@@ -24,6 +24,9 @@ import net.milkbowl.vault.economy.Economy;
  */
 public final class SDCraftCorePlugin extends JavaPlugin implements Listener, CommandExecutor, TabCompleter {
     private Ledger ledger;
+    private GtmItemDelivery itemDelivery;
+    private MedicalRecovery medicalRecovery;
+    private GtmAuthentication authentication;
     private AiService ai;
     private GtmDialogue gtmDialogue;
     private GtmCityModels cityModels;
@@ -38,7 +41,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
     private VaultWallet vaultWallet;
     private CreativeArsenalManager arsenal;
     private YamlConfiguration dialogues, data;
-    private File dataFile;
+    private AtomicYamlStore runtimeStore;
     private final Map<UUID, Pending> pending = new HashMap<>();
     private final Map<UUID, Duty> duties = new HashMap<>();
     private final Map<UUID, Downed> downed = new HashMap<>();
@@ -70,15 +73,26 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
 
     @Override
     public void onEnable() {
+        try { initialize(); }
+        catch (RuntimeException | LinkageError failure) {
+            getLogger().severe("GTM startup failed (" + failure.getClass().getSimpleName()
+                    + "). Stopping this server to prevent gameplay without its account protection. Existing records were not replaced.");
+            Bukkit.shutdown();
+        }
+    }
+
+    private void initialize() {
         saveDefaultConfig();
         if (!new File(getDataFolder(), "npc-dialogues.yml").isFile())
             saveResource("npc-dialogues.yml", false);
         if (!new File(getDataFolder(), "missions.yml").isFile())
             saveResource("missions.yml", false);
         dialogues = YamlConfiguration.loadConfiguration(new File(getDataFolder(), "npc-dialogues.yml"));
-        dataFile = new File(getDataFolder(), "runtime.yml");
-        data = YamlConfiguration.loadConfiguration(dataFile);
+        try { runtimeStore = new AtomicYamlStore(getDataFolder().toPath().resolve("runtime.yml")); }
+        catch (IOException ex) { throw new IllegalStateException("Runtime records unavailable", ex); }
+        data = runtimeStore.data();
         ledger = new Ledger(getDataFolder());
+        itemDelivery = new GtmItemDelivery(this,ledger);
         gtmFood=new GtmFood(this,ledger);
         Bukkit.getPluginManager().registerEvents(gtmFood,this);
         Objects.requireNonNull(getCommand("gtmfood")).setExecutor((sender,command,label,args)->{
@@ -99,7 +113,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
         });
         if (getConfig().getBoolean("economy.vault-provider-enabled", true)
                 && Bukkit.getPluginManager().isPluginEnabled("Vault")) {
-            vaultWallet = new VaultWallet(ledger);
+            vaultWallet = new VaultWallet(ledger, this::isAuthenticated);
             Bukkit.getServicesManager().register(Economy.class, vaultWallet, this, ServicePriority.High);
             getLogger().info("VaultUnlocked economy provider registered: SD Craft wallet.");
             // MTVehicles reads Vault during its own startup, before this provider exists.
@@ -145,6 +159,18 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
         gta = new GtaEngine(this, ledger, gps);
         arsenal = new CreativeArsenalManager(this, ledger, gps, gta, guns);
         npcs = new NpcService(this, dialogues, ledger, gta);
+        try {
+            authentication = new GtmAuthentication(this, ledger::exists, this::onAuthenticated, this::onAuthenticationLost);
+        } catch (IOException ex) {
+            throw new IllegalStateException("Authentication storage unavailable; refusing unauthenticated gameplay", ex);
+        }
+        Bukkit.getPluginManager().registerEvents(authentication, this);
+        medicalRecovery = new MedicalRecovery(this, ledger);
+        Bukkit.getPluginManager().registerEvents(medicalRecovery, this);
+        for (String name : List.of("register", "login", "logout", "changepassword", "gtmauth")) {
+            Objects.requireNonNull(getCommand(name)).setExecutor(authentication);
+            Objects.requireNonNull(getCommand(name)).setTabCompleter(authentication);
+        }
         Objects.requireNonNull(getCommand("sdcraft")).setExecutor(this);
         Objects.requireNonNull(getCommand("sdcraft")).setTabCompleter(this);
         for (String c : List.of("map", "gps", "spawn", "car", "kit", "gun", "pack", "phone", "arsenal", "creativemenu", "testitems", "testing")) {
@@ -162,9 +188,9 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
         Bukkit.getPluginManager().registerEvents(gtmDialogue, this);
         World mainWorld = Bukkit.getWorld(getConfig().getString("world.name", "world"));
         if (mainWorld != null) {
-            mainWorld.setSpawnLocation(10, 70, 3);
+            if (getConfig().getBoolean("world.apply-city-spawn", false))
+                mainWorld.setSpawnLocation(getSurfaceSpawn(mainWorld));
             mainWorld.setGameRule(org.bukkit.GameRules.ADVANCE_TIME, false);
-            getLogger().info("SD Craft: World spawn enforced at City Hall Civic Plaza surface (10, 70, 3).");
         }
         for (World w : Bukkit.getWorlds()) {
             if (!w.getName().equals(getConfig().getString("world.name", "world")))
@@ -174,6 +200,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
         Bukkit.getScheduler().runTaskTimer(this, this::second, 20L, 20L);
         Bukkit.getScheduler().runTaskTimer(this, () -> npcs.tick(), 100L, 200L);
         Bukkit.getScheduler().runTaskTimer(this, () -> npcs.pulse(), 120L, 10L);
+        for (Player player : Bukkit.getOnlinePlayers()) authentication.begin(player);
         getLogger().info(
                 "SDCraftCore loaded: secure ledger, NPC service, transport, crime, medical and duty workflows. Check README for limitations.");
     }
@@ -183,19 +210,25 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
         Bukkit.getServicesManager().unregisterAll(this);
         for (UUID id : new ArrayList<>(duties.keySet()))
             clockOut(id, "server stop");
-        if (cityModels != null) cityModels.close();
-        if (gtmDialogue != null) gtmDialogue.close();
-        if (gtmLoans != null) gtmLoans.close();
-        if (npcs != null) npcs.close();
-        if (gta != null) gta.close();
-        if (data != null && dataFile != null) safeSave();
+        if (cityModels != null) shutdownPart("models", cityModels::close);
+        if (gtmDialogue != null) shutdownPart("dialogue", gtmDialogue::close);
+        if (gtmLoans != null) shutdownPart("loans", gtmLoans::close);
+        if (npcs != null) shutdownPart("population", npcs::close);
+        if (gta != null) shutdownPart("mission state", gta::close);
+        if (authentication != null) shutdownPart("authentication", authentication::close);
+        if (runtimeStore != null) shutdownPart("runtime state", this::safeSave);
+    }
+
+    private void shutdownPart(String name,Runnable close) {
+        try { close.run(); }
+        catch (RuntimeException ex) { getLogger().severe("Shutdown checkpoint failed for "+name+": "+ex.getClass().getSimpleName()); }
     }
 
     private void safeSave() {
         try {
-            data.save(dataFile);
+            runtimeStore.commit();
         } catch (IOException ex) {
-            getLogger().severe("RUNTIME SAVE FAILED: " + ex.getMessage());
+            throw new IllegalStateException("Runtime records could not be saved; action rolled back",ex);
         }
     }
 
@@ -210,14 +243,30 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
         if (site != null && site.getWorld() != null) {
             return site;
         }
-        return new Location(world, 10.5, 70.0, 3.5, 0.0f, 0.0f);
+        if (world == null) throw new IllegalStateException("No loaded world for safe spawn");
+        return world.getSpawnLocation();
     }
 
     boolean isManagedNpc(Entity entity) {
         return npcs != null && npcs.identify(entity) != null;
     }
 
+    public boolean isAuthenticated(Player player) {
+        return authentication != null && !isManagedNpc(player) && authentication.authenticated(player);
+    }
+
+    public UUID authenticatedSession(Player player) {
+        return isAuthenticated(player) ? authentication.session(player) : null;
+    }
+
+    boolean requireAuthenticated(Player player) {
+        if (isAuthenticated(player)) return true;
+        if (authentication != null) authentication.prompt(player);
+        return false;
+    }
+
     public void grantStarterKit(Player p, boolean force) {
+        if (!requireAuthenticated(p)) return;
         PlayerInventory inv = p.getInventory();
 
         // 1. Firearm Check & Grant
@@ -306,7 +355,11 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
 
     @EventHandler
     public void onJoin(PlayerJoinEvent e) {
-        Player p = e.getPlayer();
+        if (authentication != null) authentication.begin(e.getPlayer());
+    }
+
+    private void onAuthenticated(Player p) {
+        if (!isAuthenticated(p)) return;
         UUID id = p.getUniqueId();
         activeAt.put(id, System.currentTimeMillis());
         boolean isFirstJoin = false;
@@ -316,12 +369,14 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
                 p.sendMessage("§a[SD Craft] Welcome! $500 wallet and $1,000 protected bank opened.");
         } catch (Exception ex) {
             getLogger().severe("ACCOUNT ERROR " + id + " " + ex.getMessage());
-            p.sendMessage("§cAccount persistence error. Contact administrator.");
+            p.kickPlayer("Account persistence is unavailable. Your existing account has not been replaced.");
+            return;
         }
 
-        // Fix underground spawn issue:
+        medicalRecovery.afterAuthentication(p);
+        // Only first-time accounts are relocated; existing survival positions are preserved.
         Location cur = p.getLocation();
-        if (isFirstJoin || cur.getY() < 66.0 || (Math.abs(cur.getBlockX() - (-8)) < 24 && Math.abs(cur.getBlockZ() - (-356)) < 24)) {
+        if (isFirstJoin) {
             Location surfaceSpawn = getSurfaceSpawn(p.getWorld());
             p.teleport(surfaceSpawn);
             p.sendTitle("§6§lSD CRAFT", "§eWelcome to New Blockston City", 10, 70, 20);
@@ -331,7 +386,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
 
         // Grant GTA Starter Kit (Guns, Ammo, Car Keys, GPS, Food)
         Bukkit.getScheduler().runTaskLater(this, () -> {
-            if (p.isOnline()) {
+            if (p.isOnline() && isAuthenticated(p)) {
                 if (gta.tryClaimStarter(p)) grantStarterKit(p, false);
                 gta.onJoin(p);
                 npcs.tick(); // Evaluate and spawn nearby city staff immediately
@@ -342,6 +397,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
 
     @EventHandler
     public void onRespawn(PlayerRespawnEvent e) {
+        if (!isAuthenticated(e.getPlayer())) return;
         if (!e.isBedSpawn() && !e.isAnchorSpawn()) {
             Location surfaceSpawn = getSurfaceSpawn(e.getPlayer().getWorld());
             e.setRespawnLocation(surfaceSpawn);
@@ -350,9 +406,14 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
 
     @EventHandler
     public void onQuit(PlayerQuitEvent e) {
-        UUID id = e.getPlayer().getUniqueId();
+        onAuthenticationLost(e.getPlayer());
+        if (authentication != null) authentication.end(e.getPlayer());
+    }
+
+    private void onAuthenticationLost(Player player) {
+        UUID id = player.getUniqueId();
         clockOut(id, "disconnect");
-        if(gtmLoans!=null)gtmLoans.quit(e.getPlayer());
+        if(gtmLoans!=null)gtmLoans.quit(player);
         activeAt.remove(id);
         guiNpc.remove(id);
         pinMode.remove(id);
@@ -362,6 +423,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
 
     @EventHandler
     public void onMove(PlayerMoveEvent e) {
+        if (!isAuthenticated(e.getPlayer())) return;
         if (e.getTo() == null)
             return;
         if (e.getFrom().getBlockX() != e.getTo().getBlockX() || e.getFrom().getBlockZ() != e.getTo().getBlockZ()
@@ -371,6 +433,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
 
     @EventHandler
     public void onInteract(PlayerInteractEntityEvent e) {
+        if (!isAuthenticated(e.getPlayer())) { e.setCancelled(true); return; }
         String id = npcs.identify(e.getRightClicked());
         if (id == null)
             return;
@@ -386,6 +449,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
 
     @EventHandler
     public void onPlayerInteract(PlayerInteractEvent e) {
+        if (!isAuthenticated(e.getPlayer())) { e.setCancelled(true); return; }
         if (e.getAction() == org.bukkit.event.block.Action.RIGHT_CLICK_AIR
                 || e.getAction() == org.bukkit.event.block.Action.RIGHT_CLICK_BLOCK) {
             ItemStack item = e.getItem();
@@ -399,7 +463,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
                     && item.getItemMeta().hasDisplayName()
                     && item.getItemMeta().getDisplayName().contains("Arsenal")) {
                 e.setCancelled(true);
-                if (arsenal != null) arsenal.openArsenal(e.getPlayer());
+                if (arsenal != null && e.getPlayer().hasPermission("sdcraft.admin")) arsenal.openArsenal(e.getPlayer());
                 return;
             }
             if (item != null && item.getType() == Material.COMPASS && item.hasItemMeta()
@@ -413,6 +477,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
 
     @EventHandler
     public void onSwapHands(PlayerSwapHandItemsEvent e) {
+        if (!isAuthenticated(e.getPlayer())) { e.setCancelled(true); return; }
         ItemStack main = e.getMainHandItem();
         if (main != null && main.getType() == Material.COMPASS && main.hasItemMeta()
                 && main.getItemMeta().hasDisplayName() && main.getItemMeta().getDisplayName().contains("GPS")) {
@@ -428,6 +493,10 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
 
     @EventHandler
     public void onInventory(InventoryClickEvent e) {
+        if (e.getWhoClicked() instanceof Player player) {
+            if (!isAuthenticated(player) || (e.getView().getTitle().equals(CreativeArsenalManager.GUI_TITLE)
+                    && !player.hasPermission("sdcraft.admin"))) { e.setCancelled(true); return; }
+        }
         if (arsenal != null && arsenal.handleInventory(e)) return;
         if (gta.handleInventory(e)) return;
         if (e.getWhoClicked() instanceof Player gpPlayer && e.getView().getTitle().equals(GpsManager.GUI_TITLE)) {
@@ -501,6 +570,8 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
     public void onDamage(EntityDamageEvent e) {
         if (!(e.getEntity() instanceof Player p))
             return;
+        if (isManagedNpc(p)) return;
+        if (!isAuthenticated(p)) { e.setCancelled(true); return; }
         UUID id = p.getUniqueId();
         if (downed.containsKey(id)) {
             e.setCancelled(true);
@@ -539,6 +610,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
     }
 
     private void executePending(Player p) throws IOException {
+        if (!requireAuthenticated(p)) return;
         UUID id = p.getUniqueId();
         Pending x = pending.remove(id);
         if (x == null || x.expires < System.currentTimeMillis()) {
@@ -565,7 +637,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
                     Location dest = site(x.target);
                     if (dest != null)
                         Bukkit.getScheduler().runTaskLater(this, () -> {
-                            if (p.isOnline())
+                            if (p.isOnline() && isAuthenticated(p))
                                 p.teleport(dest);
                         }, 60L);
                 }
@@ -574,7 +646,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
                 ok = ledger.chargeWallet(id, x.cents, "medical:" + x.target);
                 if (ok)
                     Bukkit.getScheduler().runTaskLater(this, () -> {
-                        if (p.isOnline()) {
+                        if (p.isOnline() && isAuthenticated(p)) {
                             p.setHealth(Math.min(p.getMaxHealth(), p.getHealth() + 8));
                             p.sendMessage("§a[SD Craft] Medical care completed.");
                         }
@@ -663,6 +735,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
             world.setTime((tick + Math.min(boundary - tick, tick < 12000L ? 10L : 20L)) % 24000L);
         }
         for (Player p : Bukkit.getOnlinePlayers()) {
+            if (!isAuthenticated(p)) continue;
             UUID id = p.getUniqueId();
             if(gtmLoans!=null)gtmLoans.tick(p,!p.isSleeping() && now-activeAt.getOrDefault(id,0L)<120000L);
             Duty d = duties.get(id);
@@ -732,6 +805,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
     }
 
     GunEngine guns() { return guns; }
+    GtmItemDelivery deliveries() { return itemDelivery; }
     GtmLoans loans() { return gtmLoans; }
     GtmProperties properties() { return gtmProperties; }
     GtmFood food() { return gtmFood; }
@@ -748,7 +822,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
         data.set(path + ".x", loc.getX());
         data.set(path + ".y", loc.getY());
         data.set(path + ".z", loc.getZ());
-        data.save(dataFile);
+        runtimeStore.commit();
     }
 
     private void msg(CommandSender who, String text) {
@@ -775,7 +849,10 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
+        if (sender instanceof Player player && !requireAuthenticated(player)) return true;
         String cmdName = cmd.getName().toLowerCase(Locale.ROOT);
+        if (Set.of("arsenal", "creativemenu", "testitems", "testing").contains(cmdName)
+                && !sender.hasPermission("sdcraft.admin")) { err(sender, "Admin only"); return true; }
         if (cmdName.equals("phone")) {
             if (sender instanceof Player p) {
                 try { gta.handleCommand(p, "phone", args); }
@@ -905,6 +982,8 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
             return true;
         }
         String action = a[0].toLowerCase(Locale.ROOT);
+        if (Set.of("arsenal", "creativemenu", "testitems", "testing").contains(action)
+                && !sender.hasPermission("sdcraft.admin")) { err(sender, "Admin only"); return true; }
         if (action.equals("kit") || action.equals("starter")) {
             if (sender instanceof Player p) {
                 if (gta.tryClaimStarter(p)) grantStarterKit(p, false);

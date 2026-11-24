@@ -1,0 +1,1684 @@
+# gtm-asset-catalog	1	INDRAPRASTHA_128_V1
+gtm:accent_chair_velvet	furniture	Emerald Velvet Cocktail Chair	minecraft:paper	NATIVE_128	gtm:accent_chair_velvet	city
+gtm:acoustic_pod_solo	furniture	Single-Person Soundproof Phone Booth	minecraft:paper	NATIVE_128	gtm:acoustic_pod_solo	city
+gtm:agri_compact_tractor	road	Wahindra Oja Compact Tractor	minecraft:paper	NATIVE_128	gtm:agri_compact_tractor	city
+gtm:agri_compact_tractor_critical	vehicle_state	Wahindra Oja Compact Tractor / critical	minecraft:paper	NATIVE_128	gtm:agri_compact_tractor_critical	prop
+gtm:agri_compact_tractor_damaged	vehicle_state	Wahindra Oja Compact Tractor / damaged	minecraft:paper	NATIVE_128	gtm:agri_compact_tractor_damaged	prop
+gtm:agri_compact_tractor_wreck	vehicle_state	Wahindra Oja Compact Tractor / wreck	minecraft:paper	NATIVE_128	gtm:agri_compact_tractor_wreck	prop
+gtm:agri_harvester	road	Wahindra Coastal Combine Harvester	minecraft:paper	NATIVE_128	gtm:agri_harvester	city
+gtm:agri_harvester_critical	vehicle_state	Wahindra Coastal Combine Harvester / critical	minecraft:paper	NATIVE_128	gtm:agri_harvester_critical	prop
+gtm:agri_harvester_damaged	vehicle_state	Wahindra Coastal Combine Harvester / damaged	minecraft:paper	NATIVE_128	gtm:agri_harvester_damaged	prop
+gtm:agri_harvester_wreck	vehicle_state	Wahindra Coastal Combine Harvester / wreck	minecraft:paper	NATIVE_128	gtm:agri_harvester_wreck	prop
+gtm:agri_heavy_tractor	road	Wahindra Arjun Novo Heavy Tractor	minecraft:paper	NATIVE_128	gtm:agri_heavy_tractor	city
+gtm:agri_heavy_tractor_critical	vehicle_state	Wahindra Arjun Novo Heavy Tractor / critical	minecraft:paper	NATIVE_128	gtm:agri_heavy_tractor_critical	prop
+gtm:agri_heavy_tractor_damaged	vehicle_state	Wahindra Arjun Novo Heavy Tractor / damaged	minecraft:paper	NATIVE_128	gtm:agri_heavy_tractor_damaged	prop
+gtm:agri_heavy_tractor_wreck	vehicle_state	Wahindra Arjun Novo Heavy Tractor / wreck	minecraft:paper	NATIVE_128	gtm:agri_heavy_tractor_wreck	prop
+gtm:air_compressor_tank	furniture	Dual-Stage 200L High-Pressure Air Unit	minecraft:paper	NATIVE_128	gtm:air_compressor_tank	city
+gtm:alarm_dock_station	furniture	Smart Display Bedside Radio Clock	minecraft:paper	NATIVE_128	gtm:alarm_dock_station	city
+gtm:ambulance_city	road	City Ambulance	minecraft:paper	LEGACY_COMPATIBILITY	gtm:ambulance_city	city
+gtm:ambulance_courier	road	Courier Ambulance	minecraft:paper	LEGACY_COMPATIBILITY	gtm:ambulance_courier	city
+gtm:ambulance_rescue	road	Rescue Ambulance	minecraft:paper	LEGACY_COMPATIBILITY	gtm:ambulance_rescue	city
+gtm:ambulance_touring	road	Touring Ambulance	minecraft:paper	LEGACY_COMPATIBILITY	gtm:ambulance_touring	city
+gtm:ambulance_utility	road	Utility Ambulance	minecraft:paper	LEGACY_COMPATIBILITY	gtm:ambulance_utility	city
+gtm:arya_recon	weapons	Arya Tactical Patrol Rifle	minecraft:paper	NATIVE_128	gtm:arya_recon	prop
+gtm:arya_recon_bazaar_mosaic	finish_art	Arya Tactical Patrol Rifle / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:arya_recon_bazaar_mosaic	prop
+gtm:arya_recon_cyber_neon	finish_art	Arya Tactical Patrol Rifle / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:arya_recon_cyber_neon	prop
+gtm:arya_recon_deccan_chrome	finish_art	Arya Tactical Patrol Rifle / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:arya_recon_deccan_chrome	prop
+gtm:arya_recon_gold_leaf	finish_art	Arya Tactical Patrol Rifle / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:arya_recon_gold_leaf	prop
+gtm:arya_recon_graphite_stealth	finish_art	Arya Tactical Patrol Rifle / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:arya_recon_graphite_stealth	prop
+gtm:arya_recon_lotus_pearl	finish_art	Arya Tactical Patrol Rifle / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:arya_recon_lotus_pearl	prop
+gtm:arya_recon_maratha_rust	finish_art	Arya Tactical Patrol Rifle / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:arya_recon_maratha_rust	prop
+gtm:arya_recon_monsoon_camo	finish_art	Arya Tactical Patrol Rifle / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:arya_recon_monsoon_camo	prop
+gtm:arya_recon_royal_emerald	finish_art	Arya Tactical Patrol Rifle / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:arya_recon_royal_emerald	prop
+gtm:arya_recon_terracotta_dune	finish_art	Arya Tactical Patrol Rifle / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:arya_recon_terracotta_dune	prop
+gtm:ashoka_tactical	weapons	Ashoka Battle Rifle 7.62	minecraft:paper	NATIVE_128	gtm:ashoka_tactical	prop
+gtm:ashoka_tactical_bazaar_mosaic	finish_art	Ashoka Battle Rifle 7.62 / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:ashoka_tactical_bazaar_mosaic	prop
+gtm:ashoka_tactical_cyber_neon	finish_art	Ashoka Battle Rifle 7.62 / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:ashoka_tactical_cyber_neon	prop
+gtm:ashoka_tactical_deccan_chrome	finish_art	Ashoka Battle Rifle 7.62 / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:ashoka_tactical_deccan_chrome	prop
+gtm:ashoka_tactical_gold_leaf	finish_art	Ashoka Battle Rifle 7.62 / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:ashoka_tactical_gold_leaf	prop
+gtm:ashoka_tactical_graphite_stealth	finish_art	Ashoka Battle Rifle 7.62 / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:ashoka_tactical_graphite_stealth	prop
+gtm:ashoka_tactical_lotus_pearl	finish_art	Ashoka Battle Rifle 7.62 / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:ashoka_tactical_lotus_pearl	prop
+gtm:ashoka_tactical_maratha_rust	finish_art	Ashoka Battle Rifle 7.62 / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:ashoka_tactical_maratha_rust	prop
+gtm:ashoka_tactical_monsoon_camo	finish_art	Ashoka Battle Rifle 7.62 / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:ashoka_tactical_monsoon_camo	prop
+gtm:ashoka_tactical_royal_emerald	finish_art	Ashoka Battle Rifle 7.62 / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:ashoka_tactical_royal_emerald	prop
+gtm:ashoka_tactical_terracotta_dune	finish_art	Ashoka Battle Rifle 7.62 / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:ashoka_tactical_terracotta_dune	prop
+gtm:astra_holdout	weapons	Astra Micro Derringer	minecraft:paper	NATIVE_128	gtm:astra_holdout	prop
+gtm:astra_holdout_bazaar_mosaic	finish_art	Astra Micro Derringer / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:astra_holdout_bazaar_mosaic	prop
+gtm:astra_holdout_cyber_neon	finish_art	Astra Micro Derringer / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:astra_holdout_cyber_neon	prop
+gtm:astra_holdout_deccan_chrome	finish_art	Astra Micro Derringer / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:astra_holdout_deccan_chrome	prop
+gtm:astra_holdout_gold_leaf	finish_art	Astra Micro Derringer / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:astra_holdout_gold_leaf	prop
+gtm:astra_holdout_graphite_stealth	finish_art	Astra Micro Derringer / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:astra_holdout_graphite_stealth	prop
+gtm:astra_holdout_lotus_pearl	finish_art	Astra Micro Derringer / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:astra_holdout_lotus_pearl	prop
+gtm:astra_holdout_maratha_rust	finish_art	Astra Micro Derringer / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:astra_holdout_maratha_rust	prop
+gtm:astra_holdout_monsoon_camo	finish_art	Astra Micro Derringer / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:astra_holdout_monsoon_camo	prop
+gtm:astra_holdout_royal_emerald	finish_art	Astra Micro Derringer / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:astra_holdout_royal_emerald	prop
+gtm:astra_holdout_terracotta_dune	finish_art	Astra Micro Derringer / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:astra_holdout_terracotta_dune	prop
+gtm:atm_lobby_enclosure	furniture	First National Bank ATM Kiosk Fascia	minecraft:paper	NATIVE_128	gtm:atm_lobby_enclosure	city
+gtm:attar_perfume_tray	furniture	Cut-Glass Concentrated Perfume Flacon Tray	minecraft:paper	NATIVE_128	gtm:attar_perfume_tray	city
+gtm:autoclave_sterilizer	furniture	Benchtop Hospital Grade Autoclave Unit	minecraft:paper	NATIVE_128	gtm:autoclave_sterilizer	city
+gtm:baithak_low_table	furniture	Low Traditional Floor Baithak Chaurang	minecraft:paper	NATIVE_128	gtm:baithak_low_table	city
+gtm:bakery_glass_display	furniture	Heated Glass Pastry & Samosa Counter	minecraft:paper	NATIVE_128	gtm:bakery_glass_display	city
+gtm:bar_stool_art_deco	furniture	Bar Stool · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:bar_stool_art_deco	city
+gtm:bar_stool_deccan	furniture	Bar Stool · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:bar_stool_deccan	city
+gtm:bar_stool_irani	furniture	Bar Stool · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:bar_stool_irani	city
+gtm:bar_stool_konkan	furniture	Bar Stool · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:bar_stool_konkan	city
+gtm:bar_stool_metro	furniture	Bar Stool · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:bar_stool_metro	city
+gtm:bar_stool_swivel	furniture	Adjustable Leather Swivel Bar Stool	minecraft:paper	NATIVE_128	gtm:bar_stool_swivel	city
+gtm:bed_bench_tufted	furniture	Upholstered Foot-of-Bed Bench	minecraft:paper	NATIVE_128	gtm:bed_bench_tufted	city
+gtm:bedside_chest_art_deco	furniture	Bedside Chest · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:bedside_chest_art_deco	city
+gtm:bedside_chest_deccan	furniture	Bedside Chest · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:bedside_chest_deccan	city
+gtm:bedside_chest_irani	furniture	Bedside Chest · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:bedside_chest_irani	city
+gtm:bedside_chest_konkan	furniture	Bedside Chest · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:bedside_chest_konkan	city
+gtm:bedside_chest_metro	furniture	Bedside Chest · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:bedside_chest_metro	city
+gtm:bedside_sconce	furniture	Articulated Brass Reading Wall Sconce	minecraft:paper	NATIVE_128	gtm:bedside_sconce	city
+gtm:beverage_cooler_glass	furniture	Commercial 2-Door Illuminated Drink Case	minecraft:paper	NATIVE_128	gtm:beverage_cooler_glass	city
+gtm:bhakri	food	Bhakri	minecraft:bread	ALIAS_128	gtm:food_bhakri	food
+gtm:bicycle_docking_rack	furniture	6-Slot Wave Tube Public Bike Stand	minecraft:paper	NATIVE_128	gtm:bicycle_docking_rack	city
+gtm:biohazard_foot_bin	furniture	Hands-Free Step-On Biohazard Container	minecraft:paper	NATIVE_128	gtm:biohazard_foot_bin	city
+gtm:biryani	food	Biryani	minecraft:bread	ALIAS_128	gtm:food_biryani	food
+gtm:blanket_chest	furniture	Carved Teak Storage Blanket Trunk	minecraft:paper	NATIVE_128	gtm:blanket_chest	city
+gtm:boardroom_chair	furniture	Cantilever Chrome Mid-Back Guest Chair	minecraft:paper	NATIVE_128	gtm:boardroom_chair	city
+gtm:bookcase_art_deco	furniture	Bookcase · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:bookcase_art_deco	city
+gtm:bookcase_deccan	furniture	Bookcase · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:bookcase_deccan	city
+gtm:bookcase_irani	furniture	Bookcase · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:bookcase_irani	city
+gtm:bookcase_konkan	furniture	Bookcase · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:bookcase_konkan	city
+gtm:bookcase_metro	furniture	Bookcase · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:bookcase_metro	city
+gtm:booking_fingerprint_kiosk	furniture	Biometric Digital Booking Terminal	minecraft:paper	NATIVE_128	gtm:booking_fingerprint_kiosk	city
+gtm:bookshelf_open	furniture	Open Geometric Display Bookshelf	minecraft:paper	NATIVE_128	gtm:bookshelf_open	city
+gtm:brahmos_precision	weapons	Brahmos Marksman Rifle	minecraft:paper	NATIVE_128	gtm:brahmos_precision	prop
+gtm:brahmos_precision_bazaar_mosaic	finish_art	Brahmos Marksman Rifle / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:brahmos_precision_bazaar_mosaic	prop
+gtm:brahmos_precision_cyber_neon	finish_art	Brahmos Marksman Rifle / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:brahmos_precision_cyber_neon	prop
+gtm:brahmos_precision_deccan_chrome	finish_art	Brahmos Marksman Rifle / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:brahmos_precision_deccan_chrome	prop
+gtm:brahmos_precision_gold_leaf	finish_art	Brahmos Marksman Rifle / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:brahmos_precision_gold_leaf	prop
+gtm:brahmos_precision_graphite_stealth	finish_art	Brahmos Marksman Rifle / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:brahmos_precision_graphite_stealth	prop
+gtm:brahmos_precision_lotus_pearl	finish_art	Brahmos Marksman Rifle / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:brahmos_precision_lotus_pearl	prop
+gtm:brahmos_precision_maratha_rust	finish_art	Brahmos Marksman Rifle / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:brahmos_precision_maratha_rust	prop
+gtm:brahmos_precision_monsoon_camo	finish_art	Brahmos Marksman Rifle / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:brahmos_precision_monsoon_camo	prop
+gtm:brahmos_precision_royal_emerald	finish_art	Brahmos Marksman Rifle / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:brahmos_precision_royal_emerald	prop
+gtm:brahmos_precision_terracotta_dune	finish_art	Brahmos Marksman Rifle / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:brahmos_precision_terracotta_dune	prop
+gtm:brass_samai_diya	furniture	Multi-Tier Standing Temple Oil Lamp	minecraft:paper	NATIVE_128	gtm:brass_samai_diya	city
+gtm:breakfast_counter	furniture	Wall-Mounted Fold-Down Breakfast Bar	minecraft:paper	NATIVE_128	gtm:breakfast_counter	city
+gtm:breathalyzer_test_bench	furniture	Certified Sobriety Testing Counter	minecraft:paper	NATIVE_128	gtm:breathalyzer_test_bench	city
+gtm:broadcast_helicopter	helicopter	Broadcast Helicopter	minecraft:paper	LEGACY_COMPATIBILITY	gtm:broadcast_helicopter	city
+gtm:bulk_grain_dispenser	furniture	Hygienic Acrylic Dal & Rice Hopper Bank	minecraft:paper	NATIVE_128	gtm:bulk_grain_dispenser	city
+gtm:bunk_bed_twin	furniture	Compact Steel Bunk Bed Twin Stack	minecraft:paper	NATIVE_128	gtm:bunk_bed_twin	city
+gtm:bus_double_deck	road	BEST Coastal Double-Decker	minecraft:paper	NATIVE_128	gtm:bus_double_deck	city
+gtm:bus_double_deck_critical	vehicle_state	BEST Coastal Double-Decker / critical	minecraft:paper	NATIVE_128	gtm:bus_double_deck_critical	prop
+gtm:bus_double_deck_damaged	vehicle_state	BEST Coastal Double-Decker / damaged	minecraft:paper	NATIVE_128	gtm:bus_double_deck_damaged	prop
+gtm:bus_double_deck_wreck	vehicle_state	BEST Coastal Double-Decker / wreck	minecraft:paper	NATIVE_128	gtm:bus_double_deck_wreck	prop
+gtm:bus_intercity_coach	road	Tavara Garuda Air-Suspension	minecraft:paper	NATIVE_128	gtm:bus_intercity_coach	city
+gtm:bus_intercity_coach_critical	vehicle_state	Tavara Garuda Air-Suspension / critical	minecraft:paper	NATIVE_128	gtm:bus_intercity_coach_critical	prop
+gtm:bus_intercity_coach_damaged	vehicle_state	Tavara Garuda Air-Suspension / damaged	minecraft:paper	NATIVE_128	gtm:bus_intercity_coach_damaged	prop
+gtm:bus_intercity_coach_wreck	vehicle_state	Tavara Garuda Air-Suspension / wreck	minecraft:paper	NATIVE_128	gtm:bus_intercity_coach_wreck	prop
+gtm:bus_minibus	road	Wahindra Metro Minibus	minecraft:paper	NATIVE_128	gtm:bus_minibus	city
+gtm:bus_minibus_critical	vehicle_state	Wahindra Metro Minibus / critical	minecraft:paper	NATIVE_128	gtm:bus_minibus_critical	prop
+gtm:bus_minibus_damaged	vehicle_state	Wahindra Metro Minibus / damaged	minecraft:paper	NATIVE_128	gtm:bus_minibus_damaged	prop
+gtm:bus_minibus_wreck	vehicle_state	Wahindra Metro Minibus / wreck	minecraft:paper	NATIVE_128	gtm:bus_minibus_wreck	prop
+gtm:bus_shelter_glass	furniture	Modern Cantilever Glass Transit Shelter	minecraft:paper	NATIVE_128	gtm:bus_shelter_glass	city
+gtm:bus_single_deck	road	Tavara Starbus City Transit	minecraft:paper	NATIVE_128	gtm:bus_single_deck	city
+gtm:bus_single_deck_critical	vehicle_state	Tavara Starbus City Transit / critical	minecraft:paper	NATIVE_128	gtm:bus_single_deck_critical	prop
+gtm:bus_single_deck_damaged	vehicle_state	Tavara Starbus City Transit / damaged	minecraft:paper	NATIVE_128	gtm:bus_single_deck_damaged	prop
+gtm:bus_single_deck_wreck	vehicle_state	Tavara Starbus City Transit / wreck	minecraft:paper	NATIVE_128	gtm:bus_single_deck_wreck	prop
+gtm:bus_stop_flag	civic	Bus Stop Flag	minecraft:paper	NATIVE_128	gtm:bus_stop_flag	city
+gtm:cable_spine_vertical	furniture	Flexible Articulated Underdesk Wire Spine	minecraft:paper	NATIVE_128	gtm:cable_spine_vertical	city
+gtm:cafe_chair_art_deco	furniture	Cafe Chair · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:cafe_chair_art_deco	city
+gtm:cafe_chair_deccan	furniture	Cafe Chair · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:cafe_chair_deccan	city
+gtm:cafe_chair_irani	furniture	Cafe Chair · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:cafe_chair_irani	city
+gtm:cafe_chair_konkan	furniture	Cafe Chair · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:cafe_chair_konkan	city
+gtm:cafe_chair_metro	furniture	Cafe Chair · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:cafe_chair_metro	city
+gtm:canopy_bed_frame	furniture	Minimalist Steel Poster Canopy Bed	minecraft:paper	NATIVE_128	gtm:canopy_bed_frame	city
+gtm:canteen_stool_art_deco	furniture	Canteen Stool · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:canteen_stool_art_deco	city
+gtm:canteen_stool_deccan	furniture	Canteen Stool · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:canteen_stool_deccan	city
+gtm:canteen_stool_irani	furniture	Canteen Stool · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:canteen_stool_irani	city
+gtm:canteen_stool_konkan	furniture	Canteen Stool · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:canteen_stool_konkan	city
+gtm:canteen_stool_metro	furniture	Canteen Stool · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:canteen_stool_metro	city
+gtm:cargo_barge	marine	Cargo Barge	minecraft:paper	LEGACY_COMPATIBILITY	gtm:cargo_barge	city
+gtm:cargo_lorry_city	road	City Cargo Lorry	minecraft:paper	LEGACY_COMPATIBILITY	gtm:cargo_lorry_city	city
+gtm:cargo_lorry_courier	road	Courier Cargo Lorry	minecraft:paper	LEGACY_COMPATIBILITY	gtm:cargo_lorry_courier	city
+gtm:cargo_lorry_rescue	road	Rescue Cargo Lorry	minecraft:paper	LEGACY_COMPATIBILITY	gtm:cargo_lorry_rescue	city
+gtm:cargo_lorry_touring	road	Touring Cargo Lorry	minecraft:paper	LEGACY_COMPATIBILITY	gtm:cargo_lorry_touring	city
+gtm:cargo_lorry_utility	road	Utility Cargo Lorry	minecraft:paper	LEGACY_COMPATIBILITY	gtm:cargo_lorry_utility	city
+gtm:ceiling_fan_wood	furniture	Carved Wooden 5-Blade Ceiling Fan	minecraft:paper	NATIVE_128	gtm:ceiling_fan_wood	city
+gtm:cell_combi_toilet_sink	furniture	Stainless Vandal-Resistant Prison Fixture	minecraft:paper	NATIVE_128	gtm:cell_combi_toilet_sink	city
+gtm:chai	food	Chai	minecraft:bread	ALIAS_128	gtm:food_chai	food
+gtm:chai_brew_station	furniture	Commercial Brass Samovar Chai Machine	minecraft:paper	NATIVE_128	gtm:chai_brew_station	city
+gtm:chai_table_art_deco	furniture	Chai Table · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:chai_table_art_deco	city
+gtm:chai_table_deccan	furniture	Chai Table · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:chai_table_deccan	city
+gtm:chai_table_irani	furniture	Chai Table · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:chai_table_irani	city
+gtm:chai_table_konkan	furniture	Chai Table · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:chai_table_konkan	city
+gtm:chai_table_metro	furniture	Chai Table · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:chai_table_metro	city
+gtm:chaise_lounge	furniture	Contoured Velvet Chaise Lounge	minecraft:paper	NATIVE_128	gtm:chaise_lounge	city
+gtm:charpai_woven_cot	furniture	Hand-Strung Jute Rope Wooden Charpai	minecraft:paper	NATIVE_128	gtm:charpai_woven_cot	city
+gtm:checkout_belt_counter	furniture	Electric Conveyor Checkout Counter	minecraft:paper	NATIVE_128	gtm:checkout_belt_counter	city
+gtm:chemical_drum_pallet	furniture	Spill Containment Pallet with 4 Barrels	minecraft:paper	NATIVE_128	gtm:chemical_drum_pallet	city
+gtm:chetak_9	weapons	Chetak 9mm Machine Pistol	minecraft:paper	NATIVE_128	gtm:chetak_9	prop
+gtm:chetak_9_bazaar_mosaic	finish_art	Chetak 9mm Machine Pistol / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:chetak_9_bazaar_mosaic	prop
+gtm:chetak_9_cyber_neon	finish_art	Chetak 9mm Machine Pistol / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:chetak_9_cyber_neon	prop
+gtm:chetak_9_deccan_chrome	finish_art	Chetak 9mm Machine Pistol / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:chetak_9_deccan_chrome	prop
+gtm:chetak_9_gold_leaf	finish_art	Chetak 9mm Machine Pistol / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:chetak_9_gold_leaf	prop
+gtm:chetak_9_graphite_stealth	finish_art	Chetak 9mm Machine Pistol / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:chetak_9_graphite_stealth	prop
+gtm:chetak_9_lotus_pearl	finish_art	Chetak 9mm Machine Pistol / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:chetak_9_lotus_pearl	prop
+gtm:chetak_9_maratha_rust	finish_art	Chetak 9mm Machine Pistol / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:chetak_9_maratha_rust	prop
+gtm:chetak_9_monsoon_camo	finish_art	Chetak 9mm Machine Pistol / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:chetak_9_monsoon_camo	prop
+gtm:chetak_9_royal_emerald	finish_art	Chetak 9mm Machine Pistol / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:chetak_9_royal_emerald	prop
+gtm:chetak_9_terracotta_dune	finish_art	Chetak 9mm Machine Pistol / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:chetak_9_terracotta_dune	prop
+gtm:chimney_hood	furniture	Stainless Steel Ductless Kitchen Hood	minecraft:paper	NATIVE_128	gtm:chimney_hood	city
+gtm:christmas_balcony_screen	festival	Christmas Balcony Screen	minecraft:paper	NATIVE_128	gtm:christmas_balcony_screen	city
+gtm:christmas_bandstand	festival	Christmas Bandstand	minecraft:paper	NATIVE_128	gtm:christmas_bandstand	city
+gtm:christmas_candle_trio	festival	Christmas Candle Trio	minecraft:paper	NATIVE_128	gtm:christmas_candle_trio	city
+gtm:christmas_counterpiece	festival	Christmas Counterpiece	minecraft:paper	NATIVE_128	gtm:christmas_counterpiece	city
+gtm:christmas_door_emblem	festival	Christmas Door Emblem	minecraft:paper	NATIVE_128	gtm:christmas_door_emblem	city
+gtm:christmas_fir_tree	festival	Decorated Christmas Fir Tree	minecraft:paper	NATIVE_128	gtm:christmas_fir_tree	city
+gtm:christmas_gateway	festival	Christmas Gateway	minecraft:paper	NATIVE_128	gtm:christmas_gateway	city
+gtm:christmas_gift_cart	festival	Christmas Gift Cart	minecraft:paper	NATIVE_128	gtm:christmas_gift_cart	city
+gtm:christmas_holly_wreath_stand	festival	Holly Wreath Stand	minecraft:paper	NATIVE_128	gtm:christmas_holly_wreath_stand	city
+gtm:christmas_market_booth	festival	Christmas Market Booth	minecraft:paper	NATIVE_128	gtm:christmas_market_booth	city
+gtm:christmas_parade_standard	festival	Christmas Parade Standard	minecraft:paper	NATIVE_128	gtm:christmas_parade_standard	city
+gtm:christmas_procession_cart	festival	Christmas Procession Cart	minecraft:paper	NATIVE_128	gtm:christmas_procession_cart	city
+gtm:christmas_stage_backdrop	festival	Christmas Stage Backdrop	minecraft:paper	NATIVE_128	gtm:christmas_stage_backdrop	city
+gtm:christmas_street_arch	festival	Christmas Street Arch	minecraft:paper	NATIVE_128	gtm:christmas_street_arch	city
+gtm:christmas_street_banner	festival	Christmas Street Banner	minecraft:paper	NATIVE_128	gtm:christmas_street_banner	city
+gtm:christmas_window_lantern	festival	Christmas Window Lantern	minecraft:paper	NATIVE_128	gtm:christmas_window_lantern	city
+gtm:cinema_projector	entertainment	Cinema Projector	minecraft:paper	NATIVE_128	gtm:cinema_projector	city
+gtm:city_bus_city	road	City City Bus	minecraft:paper	LEGACY_COMPATIBILITY	gtm:city_bus_city	city
+gtm:city_bus_courier	road	Courier City Bus	minecraft:paper	LEGACY_COMPATIBILITY	gtm:city_bus_courier	city
+gtm:city_bus_rescue	road	Rescue City Bus	minecraft:paper	LEGACY_COMPATIBILITY	gtm:city_bus_rescue	city
+gtm:city_bus_touring	road	Touring City Bus	minecraft:paper	LEGACY_COMPATIBILITY	gtm:city_bus_touring	city
+gtm:city_bus_utility	road	Utility City Bus	minecraft:paper	LEGACY_COMPATIBILITY	gtm:city_bus_utility	city
+gtm:city_medivac	helicopter	City Medivac	minecraft:paper	LEGACY_COMPATIBILITY	gtm:city_medivac	city
+gtm:civic_bench_sign	civic	Civic Bench Sign	minecraft:paper	NATIVE_128	gtm:civic_bench_sign	city
+gtm:clinic_chair_art_deco	furniture	Clinic Chair · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:clinic_chair_art_deco	city
+gtm:clinic_chair_deccan	furniture	Clinic Chair · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:clinic_chair_deccan	city
+gtm:clinic_chair_irani	furniture	Clinic Chair · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:clinic_chair_irani	city
+gtm:clinic_chair_konkan	furniture	Clinic Chair · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:clinic_chair_konkan	city
+gtm:clinic_chair_metro	furniture	Clinic Chair · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:clinic_chair_metro	city
+gtm:clothes_valet	furniture	Executive Wooden Coat & Trouser Valet	minecraft:paper	NATIVE_128	gtm:clothes_valet	city
+gtm:clothing_gondola_double	furniture	Dual-Sided Garment Hanging Gondola	minecraft:paper	NATIVE_128	gtm:clothing_gondola_double	city
+gtm:coastal_lifebuoy_stand	furniture	Harbour Marine Ring Buoy Station	minecraft:paper	NATIVE_128	gtm:coastal_lifebuoy_stand	city
+gtm:coat_stand_tree	furniture	Heavy Base Stainless Reception Coat Rack	minecraft:paper	NATIVE_128	gtm:coat_stand_tree	city
+gtm:coffee_table_art_deco	furniture	Coffee Table · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:coffee_table_art_deco	city
+gtm:coffee_table_deccan	furniture	Coffee Table · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:coffee_table_deccan	city
+gtm:coffee_table_irani	furniture	Coffee Table · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:coffee_table_irani	city
+gtm:coffee_table_konkan	furniture	Coffee Table · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:coffee_table_konkan	city
+gtm:coffee_table_metro	furniture	Coffee Table · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:coffee_table_metro	city
+gtm:coffee_table_teak	furniture	Solid Teak Low Coffee Table	minecraft:paper	NATIVE_128	gtm:coffee_table_teak	city
+gtm:colour_capsule	effect	Colour Capsule	minecraft:paper	NATIVE_128	gtm:colour_capsule	city
+gtm:comm_container	road	Tavara Signa 4825 Multi-Axle	minecraft:paper	NATIVE_128	gtm:comm_container	city
+gtm:comm_container_critical	vehicle_state	Tavara Signa 4825 Multi-Axle / critical	minecraft:paper	NATIVE_128	gtm:comm_container_critical	prop
+gtm:comm_container_damaged	vehicle_state	Tavara Signa 4825 Multi-Axle / damaged	minecraft:paper	NATIVE_128	gtm:comm_container_damaged	prop
+gtm:comm_container_wreck	vehicle_state	Tavara Signa 4825 Multi-Axle / wreck	minecraft:paper	NATIVE_128	gtm:comm_container_wreck	prop
+gtm:comm_delivery_van	road	Wahindra Supro Delivery Van	minecraft:paper	NATIVE_128	gtm:comm_delivery_van	city
+gtm:comm_delivery_van_critical	vehicle_state	Wahindra Supro Delivery Van / critical	minecraft:paper	NATIVE_128	gtm:comm_delivery_van_critical	prop
+gtm:comm_delivery_van_damaged	vehicle_state	Wahindra Supro Delivery Van / damaged	minecraft:paper	NATIVE_128	gtm:comm_delivery_van_damaged	prop
+gtm:comm_delivery_van_wreck	vehicle_state	Wahindra Supro Delivery Van / wreck	minecraft:paper	NATIVE_128	gtm:comm_delivery_van_wreck	prop
+gtm:comm_light_truck	road	Tavara 407 Light Hauler	minecraft:paper	NATIVE_128	gtm:comm_light_truck	city
+gtm:comm_light_truck_critical	vehicle_state	Tavara 407 Light Hauler / critical	minecraft:paper	NATIVE_128	gtm:comm_light_truck_critical	prop
+gtm:comm_light_truck_damaged	vehicle_state	Tavara 407 Light Hauler / damaged	minecraft:paper	NATIVE_128	gtm:comm_light_truck_damaged	prop
+gtm:comm_light_truck_wreck	vehicle_state	Tavara 407 Light Hauler / wreck	minecraft:paper	NATIVE_128	gtm:comm_light_truck_wreck	prop
+gtm:comm_medium_truck	road	Tavara 1613 Medium Goods	minecraft:paper	NATIVE_128	gtm:comm_medium_truck	city
+gtm:comm_medium_truck_critical	vehicle_state	Tavara 1613 Medium Goods / critical	minecraft:paper	NATIVE_128	gtm:comm_medium_truck_critical	prop
+gtm:comm_medium_truck_damaged	vehicle_state	Tavara 1613 Medium Goods / damaged	minecraft:paper	NATIVE_128	gtm:comm_medium_truck_damaged	prop
+gtm:comm_medium_truck_wreck	vehicle_state	Tavara 1613 Medium Goods / wreck	minecraft:paper	NATIVE_128	gtm:comm_medium_truck_wreck	prop
+gtm:comm_mini_cargo	road	Tavara Ace Mini Truck (Chhota Hathi)	minecraft:paper	NATIVE_128	gtm:comm_mini_cargo	city
+gtm:comm_mini_cargo_critical	vehicle_state	Tavara Ace Mini Truck (Chhota Hathi) / critical	minecraft:paper	NATIVE_128	gtm:comm_mini_cargo_critical	prop
+gtm:comm_mini_cargo_damaged	vehicle_state	Tavara Ace Mini Truck (Chhota Hathi) / damaged	minecraft:paper	NATIVE_128	gtm:comm_mini_cargo_damaged	prop
+gtm:comm_mini_cargo_wreck	vehicle_state	Tavara Ace Mini Truck (Chhota Hathi) / wreck	minecraft:paper	NATIVE_128	gtm:comm_mini_cargo_wreck	prop
+gtm:comm_pickup	road	Wahindra Bolero Maxi Truck	minecraft:paper	NATIVE_128	gtm:comm_pickup	city
+gtm:comm_pickup_critical	vehicle_state	Wahindra Bolero Maxi Truck / critical	minecraft:paper	NATIVE_128	gtm:comm_pickup_critical	prop
+gtm:comm_pickup_damaged	vehicle_state	Wahindra Bolero Maxi Truck / damaged	minecraft:paper	NATIVE_128	gtm:comm_pickup_damaged	prop
+gtm:comm_pickup_wreck	vehicle_state	Wahindra Bolero Maxi Truck / wreck	minecraft:paper	NATIVE_128	gtm:comm_pickup_wreck	prop
+gtm:comm_tipper	road	Wahindra Blazo Heavy Tipper	minecraft:paper	NATIVE_128	gtm:comm_tipper	city
+gtm:comm_tipper_critical	vehicle_state	Wahindra Blazo Heavy Tipper / critical	minecraft:paper	NATIVE_128	gtm:comm_tipper_critical	prop
+gtm:comm_tipper_damaged	vehicle_state	Wahindra Blazo Heavy Tipper / damaged	minecraft:paper	NATIVE_128	gtm:comm_tipper_damaged	prop
+gtm:comm_tipper_wreck	vehicle_state	Wahindra Blazo Heavy Tipper / wreck	minecraft:paper	NATIVE_128	gtm:comm_tipper_wreck	prop
+gtm:concrete_barrier_jersey	furniture	Standard Interlocking Highway Jersey Barrier	minecraft:paper	NATIVE_128	gtm:concrete_barrier_jersey	city
+gtm:conference_table_10p	furniture	Conference Boardroom Boat Table	minecraft:paper	NATIVE_128	gtm:conference_table_10p	city
+gtm:confetti_puck	effect	Confetti Puck	minecraft:paper	NATIVE_128	gtm:confetti_puck	city
+gtm:corner_wardrobe	furniture	Space-Saving Corner Bedroom Wardrobe	minecraft:paper	NATIVE_128	gtm:corner_wardrobe	city
+gtm:cosmetics_tester_bar	furniture	Illuminated Mirror Makeup Sampler Unit	minecraft:paper	NATIVE_128	gtm:cosmetics_tester_bar	city
+gtm:council_lectern	civic	Council Lectern	minecraft:paper	NATIVE_128	gtm:council_lectern	city
+gtm:credenza_creed	furniture	Office Storage Buffet Credenza	minecraft:paper	NATIVE_128	gtm:credenza_creed	city
+gtm:credenza_sideboard	furniture	Fluted Oak Dining Sideboard	minecraft:paper	NATIVE_128	gtm:credenza_sideboard	city
+gtm:crowd_stanchion_belt	furniture	Retractable Red Nylon Queue Barrier Post	minecraft:paper	NATIVE_128	gtm:crowd_stanchion_belt	city
+gtm:cutlery_cart_mobile	furniture	Stainless Mobile Kitchen Utility Cart	minecraft:paper	NATIVE_128	gtm:cutlery_cart_mobile	city
+gtm:cyclone_tactical	weapons	Cyclone Double-Barrel	minecraft:paper	NATIVE_128	gtm:cyclone_tactical	prop
+gtm:cyclone_tactical_bazaar_mosaic	finish_art	Cyclone Double-Barrel / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:cyclone_tactical_bazaar_mosaic	prop
+gtm:cyclone_tactical_cyber_neon	finish_art	Cyclone Double-Barrel / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:cyclone_tactical_cyber_neon	prop
+gtm:cyclone_tactical_deccan_chrome	finish_art	Cyclone Double-Barrel / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:cyclone_tactical_deccan_chrome	prop
+gtm:cyclone_tactical_gold_leaf	finish_art	Cyclone Double-Barrel / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:cyclone_tactical_gold_leaf	prop
+gtm:cyclone_tactical_graphite_stealth	finish_art	Cyclone Double-Barrel / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:cyclone_tactical_graphite_stealth	prop
+gtm:cyclone_tactical_lotus_pearl	finish_art	Cyclone Double-Barrel / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:cyclone_tactical_lotus_pearl	prop
+gtm:cyclone_tactical_maratha_rust	finish_art	Cyclone Double-Barrel / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:cyclone_tactical_maratha_rust	prop
+gtm:cyclone_tactical_monsoon_camo	finish_art	Cyclone Double-Barrel / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:cyclone_tactical_monsoon_camo	prop
+gtm:cyclone_tactical_royal_emerald	finish_art	Cyclone Double-Barrel / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:cyclone_tactical_royal_emerald	prop
+gtm:cyclone_tactical_terracotta_dune	finish_art	Cyclone Double-Barrel / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:cyclone_tactical_terracotta_dune	prop
+gtm:dabeli	food	Dabeli	minecraft:bread	ALIAS_128	gtm:food_dabeli	food
+gtm:dance_tile	entertainment	Dance Tile	minecraft:paper	NATIVE_128	gtm:dance_tile	city
+gtm:daybed_art_deco	furniture	Daybed · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:daybed_art_deco	city
+gtm:daybed_deccan	furniture	Daybed · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:daybed_deccan	city
+gtm:daybed_irani	furniture	Daybed · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:daybed_irani	city
+gtm:daybed_konkan	furniture	Daybed · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:daybed_konkan	city
+gtm:daybed_metro	furniture	Daybed · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:daybed_metro	city
+gtm:deccan_compact	weapons	Deccan Concealed 9	minecraft:paper	NATIVE_128	gtm:deccan_compact	prop
+gtm:deccan_compact_bazaar_mosaic	finish_art	Deccan Concealed 9 / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:deccan_compact_bazaar_mosaic	prop
+gtm:deccan_compact_cyber_neon	finish_art	Deccan Concealed 9 / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:deccan_compact_cyber_neon	prop
+gtm:deccan_compact_deccan_chrome	finish_art	Deccan Concealed 9 / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:deccan_compact_deccan_chrome	prop
+gtm:deccan_compact_gold_leaf	finish_art	Deccan Concealed 9 / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:deccan_compact_gold_leaf	prop
+gtm:deccan_compact_graphite_stealth	finish_art	Deccan Concealed 9 / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:deccan_compact_graphite_stealth	prop
+gtm:deccan_compact_lotus_pearl	finish_art	Deccan Concealed 9 / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:deccan_compact_lotus_pearl	prop
+gtm:deccan_compact_maratha_rust	finish_art	Deccan Concealed 9 / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:deccan_compact_maratha_rust	prop
+gtm:deccan_compact_monsoon_camo	finish_art	Deccan Concealed 9 / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:deccan_compact_monsoon_camo	prop
+gtm:deccan_compact_royal_emerald	finish_art	Deccan Concealed 9 / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:deccan_compact_royal_emerald	prop
+gtm:deccan_compact_terracotta_dune	finish_art	Deccan Concealed 9 / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:deccan_compact_terracotta_dune	prop
+gtm:decorative_fountain_tier	furniture	Central Plaza 3-Tier Stone Fountain	minecraft:paper	NATIVE_128	gtm:decorative_fountain_tier	city
+gtm:defibrillator_crash_cart	furniture	Red Emergency Crash Cart with Monitor	minecraft:paper	NATIVE_128	gtm:defibrillator_crash_cart	city
+gtm:desk_lamp_led	furniture	Balanced Arm Studio Architect Lamp	minecraft:paper	NATIVE_128	gtm:desk_lamp_led	city
+gtm:detention_bench_handcuff	furniture	Floor-Bolted Steel Bench with Cuff Rail	minecraft:paper	NATIVE_128	gtm:detention_bench_handcuff	city
+gtm:dhokla	food	Dhokla	minecraft:bread	ALIAS_128	gtm:food_dhokla	food
+gtm:dhol	entertainment	Dhol	minecraft:paper	NATIVE_128	gtm:dhol	city
+gtm:dholak_musical_drum	furniture	Two-Headed Mango Wood Rhythm Drum & Stand	minecraft:paper	NATIVE_128	gtm:dholak_musical_drum	city
+gtm:diesel_generator_silent	furniture	Sound-Attenuated 65kVA Backup GenSet	minecraft:paper	NATIVE_128	gtm:diesel_generator_silent	city
+gtm:dining_chair_cushion	furniture	Ergonomic Upholstered Dining Chair	minecraft:paper	NATIVE_128	gtm:dining_chair_cushion	city
+gtm:dining_table_6seater	furniture	Extending Teak 6-Seater Dining Table	minecraft:paper	NATIVE_128	gtm:dining_table_6seater	city
+gtm:dining_table_art_deco	furniture	Dining Table · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:dining_table_art_deco	city
+gtm:dining_table_deccan	furniture	Dining Table · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:dining_table_deccan	city
+gtm:dining_table_irani	furniture	Dining Table · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:dining_table_irani	city
+gtm:dining_table_konkan	furniture	Dining Table · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:dining_table_konkan	city
+gtm:dining_table_metro	furniture	Dining Table · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:dining_table_metro	city
+gtm:dishwasher_undercounter	furniture	Integrated High-Efficiency Dishwasher	minecraft:paper	NATIVE_128	gtm:dishwasher_undercounter	city
+gtm:display_case_art_deco	furniture	Display Case · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:display_case_art_deco	city
+gtm:display_case_deccan	furniture	Display Case · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:display_case_deccan	city
+gtm:display_case_irani	furniture	Display Case · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:display_case_irani	city
+gtm:display_case_konkan	furniture	Display Case · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:display_case_konkan	city
+gtm:display_case_metro	furniture	Display Case · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:display_case_metro	city
+gtm:district_marker	civic	District Marker	minecraft:paper	NATIVE_128	gtm:district_marker	city
+gtm:diwali_balcony_screen	festival	Diwali Balcony Screen	minecraft:paper	NATIVE_128	gtm:diwali_balcony_screen	city
+gtm:diwali_bandstand	festival	Diwali Bandstand	minecraft:paper	NATIVE_128	gtm:diwali_bandstand	city
+gtm:diwali_counterpiece	festival	Diwali Counterpiece	minecraft:paper	NATIVE_128	gtm:diwali_counterpiece	city
+gtm:diwali_door_emblem	festival	Diwali Door Emblem	minecraft:paper	NATIVE_128	gtm:diwali_door_emblem	city
+gtm:diwali_gateway	festival	Diwali Gateway	minecraft:paper	NATIVE_128	gtm:diwali_gateway	city
+gtm:diwali_market_booth	festival	Diwali Market Booth	minecraft:paper	NATIVE_128	gtm:diwali_market_booth	city
+gtm:diwali_parade_standard	festival	Diwali Parade Standard	minecraft:paper	NATIVE_128	gtm:diwali_parade_standard	city
+gtm:diwali_procession_cart	festival	Diwali Procession Cart	minecraft:paper	NATIVE_128	gtm:diwali_procession_cart	city
+gtm:diwali_square_beacon	festival	Diwali Square Beacon	minecraft:paper	NATIVE_128	gtm:diwali_square_beacon	city
+gtm:diwali_stage_backdrop	festival	Diwali Stage Backdrop	minecraft:paper	NATIVE_128	gtm:diwali_stage_backdrop	city
+gtm:diwali_street_arch	festival	Diwali Street Arch	minecraft:paper	NATIVE_128	gtm:diwali_street_arch	city
+gtm:diwali_street_banner	festival	Diwali Street Banner	minecraft:paper	NATIVE_128	gtm:diwali_street_banner	city
+gtm:diwali_window_lantern	festival	Diwali Window Lantern	minecraft:paper	NATIVE_128	gtm:diwali_window_lantern	city
+gtm:diwan_daybed_bolster	furniture	Low Wooden Diwan with Cylindrical Bolsters	minecraft:paper	NATIVE_128	gtm:diwan_daybed_bolster	city
+gtm:dj_deck	entertainment	Dj Deck	minecraft:paper	NATIVE_128	gtm:dj_deck	city
+gtm:dock_leveler_plate	furniture	Hydraulic Loading Bay Bridge Plate	minecraft:paper	NATIVE_128	gtm:dock_leveler_plate	city
+gtm:doorway_toran_marigold	furniture	Festive Fabric Marigold & Mango Leaf Arch	minecraft:paper	NATIVE_128	gtm:doorway_toran_marigold	city
+gtm:dosa	food	Dosa	minecraft:bread	ALIAS_128	gtm:food_dosa	food
+gtm:drafting_table_art_deco	furniture	Drafting Table · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:drafting_table_art_deco	city
+gtm:drafting_table_deccan	furniture	Drafting Table · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:drafting_table_deccan	city
+gtm:drafting_table_irani	furniture	Drafting Table · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:drafting_table_irani	city
+gtm:drafting_table_konkan	furniture	Drafting Table · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:drafting_table_konkan	city
+gtm:drafting_table_metro	furniture	Drafting Table · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:drafting_table_metro	city
+gtm:dresser_mirror	furniture	6-Drawer Dresser with Vanity Mirror	minecraft:paper	NATIVE_128	gtm:dresser_mirror	city
+gtm:drinking_fountain_pedestal	furniture	Dual-Height Bubbler Chilled Fountain	minecraft:paper	NATIVE_128	gtm:drinking_fountain_pedestal	city
+gtm:dual_monitor_mount	furniture	Dual 27-Inch Curved Screen Rig	minecraft:paper	NATIVE_128	gtm:dual_monitor_mount	city
+gtm:eid_balcony_screen	festival	Eid Balcony Screen	minecraft:paper	NATIVE_128	gtm:eid_balcony_screen	city
+gtm:eid_bandstand	festival	Eid Bandstand	minecraft:paper	NATIVE_128	gtm:eid_bandstand	city
+gtm:eid_counterpiece	festival	Eid Counterpiece	minecraft:paper	NATIVE_128	gtm:eid_counterpiece	city
+gtm:eid_door_emblem	festival	Eid Door Emblem	minecraft:paper	NATIVE_128	gtm:eid_door_emblem	city
+gtm:eid_gateway	festival	Eid Gateway	minecraft:paper	NATIVE_128	gtm:eid_gateway	city
+gtm:eid_market_booth	festival	Eid Market Booth	minecraft:paper	NATIVE_128	gtm:eid_market_booth	city
+gtm:eid_parade_standard	festival	Eid Parade Standard	minecraft:paper	NATIVE_128	gtm:eid_parade_standard	city
+gtm:eid_procession_cart	festival	Eid Procession Cart	minecraft:paper	NATIVE_128	gtm:eid_procession_cart	city
+gtm:eid_stage_backdrop	festival	Eid Stage Backdrop	minecraft:paper	NATIVE_128	gtm:eid_stage_backdrop	city
+gtm:eid_street_arch	festival	Eid Street Arch	minecraft:paper	NATIVE_128	gtm:eid_street_arch	city
+gtm:eid_street_banner	festival	Eid Street Banner	minecraft:paper	NATIVE_128	gtm:eid_street_banner	city
+gtm:eid_window_lantern	festival	Eid Window Lantern	minecraft:paper	NATIVE_128	gtm:eid_window_lantern	city
+gtm:electronics_demo_bench	furniture	Security-Tethered Smartphone Demo Table	minecraft:paper	NATIVE_128	gtm:electronics_demo_bench	city
+gtm:emerg_ambulance	road	Mount Zonah Advanced Life Support Van	minecraft:paper	NATIVE_128	gtm:emerg_ambulance	city
+gtm:emerg_ambulance_critical	vehicle_state	Mount Zonah Advanced Life Support Van / critical	minecraft:paper	NATIVE_128	gtm:emerg_ambulance_critical	prop
+gtm:emerg_ambulance_damaged	vehicle_state	Mount Zonah Advanced Life Support Van / damaged	minecraft:paper	NATIVE_128	gtm:emerg_ambulance_damaged	prop
+gtm:emerg_ambulance_wreck	vehicle_state	Mount Zonah Advanced Life Support Van / wreck	minecraft:paper	NATIVE_128	gtm:emerg_ambulance_wreck	prop
+gtm:emerg_fire_engine	road	Indra Fire & Rescue Water Bowzer	minecraft:paper	NATIVE_128	gtm:emerg_fire_engine	city
+gtm:emerg_fire_engine_critical	vehicle_state	Indra Fire & Rescue Water Bowzer / critical	minecraft:paper	NATIVE_128	gtm:emerg_fire_engine_critical	prop
+gtm:emerg_fire_engine_damaged	vehicle_state	Indra Fire & Rescue Water Bowzer / damaged	minecraft:paper	NATIVE_128	gtm:emerg_fire_engine_damaged	prop
+gtm:emerg_fire_engine_wreck	vehicle_state	Indra Fire & Rescue Water Bowzer / wreck	minecraft:paper	NATIVE_128	gtm:emerg_fire_engine_wreck	prop
+gtm:emerg_patrol_sedan	road	SDPD Highway Patrol Dzire	minecraft:paper	NATIVE_128	gtm:emerg_patrol_sedan	city
+gtm:emerg_patrol_sedan_critical	vehicle_state	SDPD Highway Patrol Dzire / critical	minecraft:paper	NATIVE_128	gtm:emerg_patrol_sedan_critical	prop
+gtm:emerg_patrol_sedan_damaged	vehicle_state	SDPD Highway Patrol Dzire / damaged	minecraft:paper	NATIVE_128	gtm:emerg_patrol_sedan_damaged	prop
+gtm:emerg_patrol_sedan_wreck	vehicle_state	SDPD Highway Patrol Dzire / wreck	minecraft:paper	NATIVE_128	gtm:emerg_patrol_sedan_wreck	prop
+gtm:emerg_police_suv	road	SDPD Tactical Interceptor Scorpio	minecraft:paper	NATIVE_128	gtm:emerg_police_suv	city
+gtm:emerg_police_suv_critical	vehicle_state	SDPD Tactical Interceptor Scorpio / critical	minecraft:paper	NATIVE_128	gtm:emerg_police_suv_critical	prop
+gtm:emerg_police_suv_damaged	vehicle_state	SDPD Tactical Interceptor Scorpio / damaged	minecraft:paper	NATIVE_128	gtm:emerg_police_suv_damaged	prop
+gtm:emerg_police_suv_wreck	vehicle_state	SDPD Tactical Interceptor Scorpio / wreck	minecraft:paper	NATIVE_128	gtm:emerg_police_suv_wreck	prop
+gtm:emerg_recovery_truck	road	Highway Heavy Tow Crane	minecraft:paper	NATIVE_128	gtm:emerg_recovery_truck	city
+gtm:emerg_recovery_truck_critical	vehicle_state	Highway Heavy Tow Crane / critical	minecraft:paper	NATIVE_128	gtm:emerg_recovery_truck_critical	prop
+gtm:emerg_recovery_truck_damaged	vehicle_state	Highway Heavy Tow Crane / damaged	minecraft:paper	NATIVE_128	gtm:emerg_recovery_truck_damaged	prop
+gtm:emerg_recovery_truck_wreck	vehicle_state	Highway Heavy Tow Crane / wreck	minecraft:paper	NATIVE_128	gtm:emerg_recovery_truck_wreck	prop
+gtm:emerg_rescue_van	road	Disaster Response Mobile Command	minecraft:paper	NATIVE_128	gtm:emerg_rescue_van	city
+gtm:emerg_rescue_van_critical	vehicle_state	Disaster Response Mobile Command / critical	minecraft:paper	NATIVE_128	gtm:emerg_rescue_van_critical	prop
+gtm:emerg_rescue_van_damaged	vehicle_state	Disaster Response Mobile Command / damaged	minecraft:paper	NATIVE_128	gtm:emerg_rescue_van_damaged	prop
+gtm:emerg_rescue_van_wreck	vehicle_state	Disaster Response Mobile Command / wreck	minecraft:paper	NATIVE_128	gtm:emerg_rescue_van_wreck	prop
+gtm:ergonomic_task_chair	furniture	High-Back Mesh Synchronous Task Chair	minecraft:paper	NATIVE_128	gtm:ergonomic_task_chair	city
+gtm:estate_city	road	City Estate	minecraft:paper	LEGACY_COMPATIBILITY	gtm:estate_city	city
+gtm:estate_courier	road	Courier Estate	minecraft:paper	LEGACY_COMPATIBILITY	gtm:estate_courier	city
+gtm:estate_rescue	road	Rescue Estate	minecraft:paper	LEGACY_COMPATIBILITY	gtm:estate_rescue	city
+gtm:estate_touring	road	Touring Estate	minecraft:paper	LEGACY_COMPATIBILITY	gtm:estate_touring	city
+gtm:estate_utility	road	Utility Estate	minecraft:paper	LEGACY_COMPATIBILITY	gtm:estate_utility	city
+gtm:evidence_locker_grid	furniture	Numbered Heavy Mesh Evidence Lockers	minecraft:paper	NATIVE_128	gtm:evidence_locker_grid	city
+gtm:exam_couch_art_deco	furniture	Exam Couch · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:exam_couch_art_deco	city
+gtm:exam_couch_deccan	furniture	Exam Couch · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:exam_couch_deccan	city
+gtm:exam_couch_irani	furniture	Exam Couch · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:exam_couch_irani	city
+gtm:exam_couch_konkan	furniture	Exam Couch · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:exam_couch_konkan	city
+gtm:exam_couch_metro	furniture	Exam Couch · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:exam_couch_metro	city
+gtm:examination_table	furniture	Padded Clinical Examination Table	minecraft:paper	NATIVE_128	gtm:examination_table	city
+gtm:executive_desk_lshape	furniture	Executive L-Shaped Walnut Workstation	minecraft:paper	NATIVE_128	gtm:executive_desk_lshape	city
+gtm:eyewash_safety_shower	furniture	Emergency Drench Shower & Eyewash Station	minecraft:paper	NATIVE_128	gtm:eyewash_safety_shower	city
+gtm:falooda	food	Falooda	minecraft:bread	ALIAS_128	gtm:food_falooda	food
+gtm:festival_shield_harbour	protection	Harbour Festival Shield	minecraft:paper	NATIVE_128	gtm:festival_shield_harbour	city
+gtm:festival_shield_hill	protection	Hill Festival Shield	minecraft:paper	NATIVE_128	gtm:festival_shield_hill	city
+gtm:festival_shield_local	protection	Local Festival Shield	minecraft:paper	NATIVE_128	gtm:festival_shield_local	city
+gtm:festival_shield_metro	protection	Metro Festival Shield	minecraft:paper	NATIVE_128	gtm:festival_shield_metro	city
+gtm:festival_shield_night	protection	Night Festival Shield	minecraft:paper	NATIVE_128	gtm:festival_shield_night	city
+gtm:filing_cabinet_art_deco	furniture	Filing Cabinet · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:filing_cabinet_art_deco	city
+gtm:filing_cabinet_deccan	furniture	Filing Cabinet · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:filing_cabinet_deccan	city
+gtm:filing_cabinet_fireproof	furniture	4-Drawer Heavy Gauge Lockable File	minecraft:paper	NATIVE_128	gtm:filing_cabinet_fireproof	city
+gtm:filing_cabinet_irani	furniture	Filing Cabinet · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:filing_cabinet_irani	city
+gtm:filing_cabinet_konkan	furniture	Filing Cabinet · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:filing_cabinet_konkan	city
+gtm:filing_cabinet_metro	furniture	Filing Cabinet · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:filing_cabinet_metro	city
+gtm:filter_coffee	food	Filter Coffee	minecraft:bread	ALIAS_128	gtm:food_filter_coffee	food
+gtm:fire_hydrant_brass	furniture	Dual Pumper Connection High-Pressure Hydrant	minecraft:paper	NATIVE_128	gtm:fire_hydrant_brass	city
+gtm:fireplace_electric	furniture	Recessed Modern Electric Hearth	minecraft:paper	NATIVE_128	gtm:fireplace_electric	city
+gtm:first_aid_cabinet	civic	First Aid Cabinet	minecraft:paper	NATIVE_128	gtm:first_aid_cabinet	city
+gtm:fishing_trawler	marine	Fishing Trawler	minecraft:paper	LEGACY_COMPATIBILITY	gtm:fishing_trawler	city
+gtm:fitting_room_cubicle	furniture	Curtained Boutique Dressing Booth	minecraft:paper	NATIVE_128	gtm:fitting_room_cubicle	city
+gtm:flammable_safety_cabinet	furniture	Double-Walled Yellow Hazmat Locker	minecraft:paper	NATIVE_128	gtm:flammable_safety_cabinet	city
+gtm:flat_key	property	Flat Key	minecraft:paper	NATIVE_128	gtm:flat_key	city
+gtm:floor_arc_lamp	furniture	Curved Brass Arch Floor Lamp	minecraft:paper	NATIVE_128	gtm:floor_arc_lamp	city
+gtm:food_bhakri	food	Bhakri	minecraft:bread	NATIVE_128	gtm:food_bhakri	food
+gtm:food_biryani	food	Biryani	minecraft:bread	NATIVE_128	gtm:food_biryani	food
+gtm:food_chai	food	Chai	minecraft:bread	NATIVE_128	gtm:food_chai	food
+gtm:food_dabeli	food	Dabeli	minecraft:bread	NATIVE_128	gtm:food_dabeli	food
+gtm:food_dhokla	food	Dhokla	minecraft:bread	NATIVE_128	gtm:food_dhokla	food
+gtm:food_dosa	food	Dosa	minecraft:bread	NATIVE_128	gtm:food_dosa	food
+gtm:food_falooda	food	Falooda	minecraft:bread	NATIVE_128	gtm:food_falooda	food
+gtm:food_filter_coffee	food	Filter Coffee	minecraft:bread	NATIVE_128	gtm:food_filter_coffee	food
+gtm:food_idli	food	Idli	minecraft:bread	NATIVE_128	gtm:food_idli	food
+gtm:food_jalebi	food	Jalebi	minecraft:bread	NATIVE_128	gtm:food_jalebi	food
+gtm:food_kathi_roll	food	Kathi Roll	minecraft:bread	NATIVE_128	gtm:food_kathi_roll	food
+gtm:food_khandvi	food	Khandvi	minecraft:bread	NATIVE_128	gtm:food_khandvi	food
+gtm:food_kulfi	food	Kulfi	minecraft:bread	NATIVE_128	gtm:food_kulfi	food
+gtm:food_lassi	food	Lassi	minecraft:bread	NATIVE_128	gtm:food_lassi	food
+gtm:food_misal	food	Misal	minecraft:bread	NATIVE_128	gtm:food_misal	food
+gtm:food_modak	food	Modak	minecraft:bread	NATIVE_128	gtm:food_modak	food
+gtm:food_nimbu_pani	food	Nimbu Pani	minecraft:bread	NATIVE_128	gtm:food_nimbu_pani	food
+gtm:food_pani_puri	food	Pani Puri	minecraft:bread	NATIVE_128	gtm:food_pani_puri	food
+gtm:food_pav_bhaji	food	Pav Bhaji	minecraft:bread	NATIVE_128	gtm:food_pav_bhaji	food
+gtm:food_poha	food	Poha	minecraft:bread	NATIVE_128	gtm:food_poha	food
+gtm:food_puran_poli	food	Puran Poli	minecraft:bread	NATIVE_128	gtm:food_puran_poli	food
+gtm:food_ragda	food	Ragda	minecraft:bread	NATIVE_128	gtm:food_ragda	food
+gtm:food_samosa	food	Samosa	minecraft:bread	NATIVE_128	gtm:food_samosa	food
+gtm:food_sandesh	food	Sandesh	minecraft:bread	NATIVE_128	gtm:food_sandesh	food
+gtm:food_sev_puri	food	Sev Puri	minecraft:bread	NATIVE_128	gtm:food_sev_puri	food
+gtm:food_sheera	food	Sheera	minecraft:bread	NATIVE_128	gtm:food_sheera	food
+gtm:food_thali	food	Thali	minecraft:bread	NATIVE_128	gtm:food_thali	food
+gtm:food_thepla	food	Thepla	minecraft:bread	NATIVE_128	gtm:food_thepla	food
+gtm:food_upma	food	Upma	minecraft:bread	NATIVE_128	gtm:food_upma	food
+gtm:food_vada_pav	food	Vada Pav	minecraft:bread	NATIVE_128	gtm:food_vada_pav	food
+gtm:fridge_art_deco	furniture	Fridge · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:fridge_art_deco	city
+gtm:fridge_deccan	furniture	Fridge · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:fridge_deccan	city
+gtm:fridge_irani	furniture	Fridge · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:fridge_irani	city
+gtm:fridge_konkan	furniture	Fridge · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:fridge_konkan	city
+gtm:fridge_metro	furniture	Fridge · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:fridge_metro	city
+gtm:full_length_mirror	furniture	Standing Cheval Full-Length Mirror	minecraft:paper	NATIVE_128	gtm:full_length_mirror	city
+gtm:gaddi_floor_cushions	furniture	Satin-Covered Thick Floor Mattress & Pillows	minecraft:paper	NATIVE_128	gtm:gaddi_floor_cushions	city
+gtm:ganesh_balcony_screen	festival	Ganesh Chaturthi Balcony Screen	minecraft:paper	NATIVE_128	gtm:ganesh_balcony_screen	city
+gtm:ganesh_bandstand	festival	Ganesh Chaturthi Bandstand	minecraft:paper	NATIVE_128	gtm:ganesh_bandstand	city
+gtm:ganesh_counterpiece	festival	Ganesh Chaturthi Counterpiece	minecraft:paper	NATIVE_128	gtm:ganesh_counterpiece	city
+gtm:ganesh_door_emblem	festival	Ganesh Chaturthi Door Emblem	minecraft:paper	NATIVE_128	gtm:ganesh_door_emblem	city
+gtm:ganesh_gateway	festival	Ganesh Chaturthi Gateway	minecraft:paper	NATIVE_128	gtm:ganesh_gateway	city
+gtm:ganesh_market_booth	festival	Ganesh Chaturthi Market Booth	minecraft:paper	NATIVE_128	gtm:ganesh_market_booth	city
+gtm:ganesh_parade_standard	festival	Ganesh Chaturthi Parade Standard	minecraft:paper	NATIVE_128	gtm:ganesh_parade_standard	city
+gtm:ganesh_procession_cart	festival	Ganesh Chaturthi Procession Cart	minecraft:paper	NATIVE_128	gtm:ganesh_procession_cart	city
+gtm:ganesh_square_beacon	festival	Ganesh Chaturthi Square Beacon	minecraft:paper	NATIVE_128	gtm:ganesh_square_beacon	city
+gtm:ganesh_stage_backdrop	festival	Ganesh Chaturthi Stage Backdrop	minecraft:paper	NATIVE_128	gtm:ganesh_stage_backdrop	city
+gtm:ganesh_street_arch	festival	Ganesh Chaturthi Street Arch	minecraft:paper	NATIVE_128	gtm:ganesh_street_arch	city
+gtm:ganesh_street_banner	festival	Ganesh Chaturthi Street Banner	minecraft:paper	NATIVE_128	gtm:ganesh_street_banner	city
+gtm:ganesh_window_lantern	festival	Ganesh Chaturthi Window Lantern	minecraft:paper	NATIVE_128	gtm:ganesh_window_lantern	city
+gtm:garuda_breacher	weapons	Garuda Compact Breacher	minecraft:paper	NATIVE_128	gtm:garuda_breacher	prop
+gtm:garuda_breacher_bazaar_mosaic	finish_art	Garuda Compact Breacher / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:garuda_breacher_bazaar_mosaic	prop
+gtm:garuda_breacher_cyber_neon	finish_art	Garuda Compact Breacher / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:garuda_breacher_cyber_neon	prop
+gtm:garuda_breacher_deccan_chrome	finish_art	Garuda Compact Breacher / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:garuda_breacher_deccan_chrome	prop
+gtm:garuda_breacher_gold_leaf	finish_art	Garuda Compact Breacher / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:garuda_breacher_gold_leaf	prop
+gtm:garuda_breacher_graphite_stealth	finish_art	Garuda Compact Breacher / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:garuda_breacher_graphite_stealth	prop
+gtm:garuda_breacher_lotus_pearl	finish_art	Garuda Compact Breacher / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:garuda_breacher_lotus_pearl	prop
+gtm:garuda_breacher_maratha_rust	finish_art	Garuda Compact Breacher / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:garuda_breacher_maratha_rust	prop
+gtm:garuda_breacher_monsoon_camo	finish_art	Garuda Compact Breacher / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:garuda_breacher_monsoon_camo	prop
+gtm:garuda_breacher_royal_emerald	finish_art	Garuda Compact Breacher / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:garuda_breacher_royal_emerald	prop
+gtm:garuda_breacher_terracotta_dune	finish_art	Garuda Compact Breacher / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:garuda_breacher_terracotta_dune	prop
+gtm:gas_stove_4burner	furniture	Cast-Iron 4-Burner Glass Hob Counter	minecraft:paper	NATIVE_128	gtm:gas_stove_4burner	city
+gtm:ghadial_12g	weapons	Ghadial Heavy Auto-Shotgun	minecraft:paper	NATIVE_128	gtm:ghadial_12g	prop
+gtm:ghadial_12g_bazaar_mosaic	finish_art	Ghadial Heavy Auto-Shotgun / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:ghadial_12g_bazaar_mosaic	prop
+gtm:ghadial_12g_cyber_neon	finish_art	Ghadial Heavy Auto-Shotgun / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:ghadial_12g_cyber_neon	prop
+gtm:ghadial_12g_deccan_chrome	finish_art	Ghadial Heavy Auto-Shotgun / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:ghadial_12g_deccan_chrome	prop
+gtm:ghadial_12g_gold_leaf	finish_art	Ghadial Heavy Auto-Shotgun / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:ghadial_12g_gold_leaf	prop
+gtm:ghadial_12g_graphite_stealth	finish_art	Ghadial Heavy Auto-Shotgun / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:ghadial_12g_graphite_stealth	prop
+gtm:ghadial_12g_lotus_pearl	finish_art	Ghadial Heavy Auto-Shotgun / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:ghadial_12g_lotus_pearl	prop
+gtm:ghadial_12g_maratha_rust	finish_art	Ghadial Heavy Auto-Shotgun / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:ghadial_12g_maratha_rust	prop
+gtm:ghadial_12g_monsoon_camo	finish_art	Ghadial Heavy Auto-Shotgun / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:ghadial_12g_monsoon_camo	prop
+gtm:ghadial_12g_royal_emerald	finish_art	Ghadial Heavy Auto-Shotgun / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:ghadial_12g_royal_emerald	prop
+gtm:ghadial_12g_terracotta_dune	finish_art	Ghadial Heavy Auto-Shotgun / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:ghadial_12g_terracotta_dune	prop
+gtm:ghatkopar_bat	weapons	Ghatkopar Heavy Bat	minecraft:paper	NATIVE_128	gtm:ghatkopar_bat	prop
+gtm:ghatkopar_bat_bazaar_mosaic	finish_art	Ghatkopar Heavy Bat / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:ghatkopar_bat_bazaar_mosaic	prop
+gtm:ghatkopar_bat_cyber_neon	finish_art	Ghatkopar Heavy Bat / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:ghatkopar_bat_cyber_neon	prop
+gtm:ghatkopar_bat_deccan_chrome	finish_art	Ghatkopar Heavy Bat / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:ghatkopar_bat_deccan_chrome	prop
+gtm:ghatkopar_bat_gold_leaf	finish_art	Ghatkopar Heavy Bat / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:ghatkopar_bat_gold_leaf	prop
+gtm:ghatkopar_bat_graphite_stealth	finish_art	Ghatkopar Heavy Bat / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:ghatkopar_bat_graphite_stealth	prop
+gtm:ghatkopar_bat_lotus_pearl	finish_art	Ghatkopar Heavy Bat / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:ghatkopar_bat_lotus_pearl	prop
+gtm:ghatkopar_bat_maratha_rust	finish_art	Ghatkopar Heavy Bat / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:ghatkopar_bat_maratha_rust	prop
+gtm:ghatkopar_bat_monsoon_camo	finish_art	Ghatkopar Heavy Bat / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:ghatkopar_bat_monsoon_camo	prop
+gtm:ghatkopar_bat_royal_emerald	finish_art	Ghatkopar Heavy Bat / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:ghatkopar_bat_royal_emerald	prop
+gtm:ghatkopar_bat_terracotta_dune	finish_art	Ghatkopar Heavy Bat / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:ghatkopar_bat_terracotta_dune	prop
+gtm:glass_end_table	furniture	Tempered Glass Corner End Table	minecraft:paper	NATIVE_128	gtm:glass_end_table	city
+gtm:glow_beacon	effect	Glow Beacon	minecraft:paper	NATIVE_128	gtm:glow_beacon	city
+gtm:handloom_charkha	furniture	Historic Folding Wooden Cotton Spinning Wheel	minecraft:paper	NATIVE_128	gtm:handloom_charkha	city
+gtm:harbour_ferry	marine	Harbour Ferry	minecraft:paper	LEGACY_COMPATIBILITY	gtm:harbour_ferry	city
+gtm:harbour_scout	helicopter	Harbour Scout	minecraft:paper	LEGACY_COMPATIBILITY	gtm:harbour_scout	city
+gtm:harmonium	entertainment	Harmonium	minecraft:paper	NATIVE_128	gtm:harmonium	city
+gtm:hatchback_alto	road	Maruva Alto City	minecraft:paper	NATIVE_128	gtm:hatchback_alto	city
+gtm:hatchback_alto_critical	vehicle_state	Maruva Alto City / critical	minecraft:paper	NATIVE_128	gtm:hatchback_alto_critical	prop
+gtm:hatchback_alto_damaged	vehicle_state	Maruva Alto City / damaged	minecraft:paper	NATIVE_128	gtm:hatchback_alto_damaged	prop
+gtm:hatchback_alto_wreck	vehicle_state	Maruva Alto City / wreck	minecraft:paper	NATIVE_128	gtm:hatchback_alto_wreck	prop
+gtm:hatchback_baleno	road	Maruva Baleno Premium	minecraft:paper	NATIVE_128	gtm:hatchback_baleno	city
+gtm:hatchback_baleno_critical	vehicle_state	Maruva Baleno Premium / critical	minecraft:paper	NATIVE_128	gtm:hatchback_baleno_critical	prop
+gtm:hatchback_baleno_damaged	vehicle_state	Maruva Baleno Premium / damaged	minecraft:paper	NATIVE_128	gtm:hatchback_baleno_damaged	prop
+gtm:hatchback_baleno_wreck	vehicle_state	Maruva Baleno Premium / wreck	minecraft:paper	NATIVE_128	gtm:hatchback_baleno_wreck	prop
+gtm:hatchback_city	road	City Hatchback	minecraft:paper	LEGACY_COMPATIBILITY	gtm:hatchback_city	city
+gtm:hatchback_courier	road	Courier Hatchback	minecraft:paper	LEGACY_COMPATIBILITY	gtm:hatchback_courier	city
+gtm:hatchback_i10	road	Hondo CityGrand 1.2	minecraft:paper	NATIVE_128	gtm:hatchback_i10	city
+gtm:hatchback_i10_critical	vehicle_state	Hondo CityGrand 1.2 / critical	minecraft:paper	NATIVE_128	gtm:hatchback_i10_critical	prop
+gtm:hatchback_i10_damaged	vehicle_state	Hondo CityGrand 1.2 / damaged	minecraft:paper	NATIVE_128	gtm:hatchback_i10_damaged	prop
+gtm:hatchback_i10_wreck	vehicle_state	Hondo CityGrand 1.2 / wreck	minecraft:paper	NATIVE_128	gtm:hatchback_i10_wreck	prop
+gtm:hatchback_i20	road	Hondo AeroSport 1.0T	minecraft:paper	NATIVE_128	gtm:hatchback_i20	city
+gtm:hatchback_i20_critical	vehicle_state	Hondo AeroSport 1.0T / critical	minecraft:paper	NATIVE_128	gtm:hatchback_i20_critical	prop
+gtm:hatchback_i20_damaged	vehicle_state	Hondo AeroSport 1.0T / damaged	minecraft:paper	NATIVE_128	gtm:hatchback_i20_damaged	prop
+gtm:hatchback_i20_wreck	vehicle_state	Hondo AeroSport 1.0T / wreck	minecraft:paper	NATIVE_128	gtm:hatchback_i20_wreck	prop
+gtm:hatchback_rescue	road	Rescue Hatchback	minecraft:paper	LEGACY_COMPATIBILITY	gtm:hatchback_rescue	city
+gtm:hatchback_swift	road	Maruva Swift 1.2	minecraft:paper	NATIVE_128	gtm:hatchback_swift	city
+gtm:hatchback_swift_critical	vehicle_state	Maruva Swift 1.2 / critical	minecraft:paper	NATIVE_128	gtm:hatchback_swift_critical	prop
+gtm:hatchback_swift_damaged	vehicle_state	Maruva Swift 1.2 / damaged	minecraft:paper	NATIVE_128	gtm:hatchback_swift_damaged	prop
+gtm:hatchback_swift_wreck	vehicle_state	Maruva Swift 1.2 / wreck	minecraft:paper	NATIVE_128	gtm:hatchback_swift_wreck	prop
+gtm:hatchback_tiago	road	Tavara Tiago Compact	minecraft:paper	NATIVE_128	gtm:hatchback_tiago	city
+gtm:hatchback_tiago_critical	vehicle_state	Tavara Tiago Compact / critical	minecraft:paper	NATIVE_128	gtm:hatchback_tiago_critical	prop
+gtm:hatchback_tiago_damaged	vehicle_state	Tavara Tiago Compact / damaged	minecraft:paper	NATIVE_128	gtm:hatchback_tiago_damaged	prop
+gtm:hatchback_tiago_wreck	vehicle_state	Tavara Tiago Compact / wreck	minecraft:paper	NATIVE_128	gtm:hatchback_tiago_wreck	prop
+gtm:hatchback_touring	road	Touring Hatchback	minecraft:paper	LEGACY_COMPATIBILITY	gtm:hatchback_touring	city
+gtm:hatchback_utility	road	Utility Hatchback	minecraft:paper	LEGACY_COMPATIBILITY	gtm:hatchback_utility	city
+gtm:hatchback_wagonr	road	Maruva Wagon Tallboy	minecraft:paper	NATIVE_128	gtm:hatchback_wagonr	city
+gtm:hatchback_wagonr_critical	vehicle_state	Maruva Wagon Tallboy / critical	minecraft:paper	NATIVE_128	gtm:hatchback_wagonr_critical	prop
+gtm:hatchback_wagonr_damaged	vehicle_state	Maruva Wagon Tallboy / damaged	minecraft:paper	NATIVE_128	gtm:hatchback_wagonr_damaged	prop
+gtm:hatchback_wagonr_wreck	vehicle_state	Maruva Wagon Tallboy / wreck	minecraft:paper	NATIVE_128	gtm:hatchback_wagonr_wreck	prop
+gtm:hazard_bollard	civic	Hazard Bollard	minecraft:paper	NATIVE_128	gtm:hazard_bollard	city
+gtm:heavy_steel_workbench	furniture	Thick Plate Tool Die Workbench with Vise	minecraft:paper	NATIVE_128	gtm:heavy_steel_workbench	city
+gtm:heli_civilian	helicopter	Executive VIP Luxury Corporate Helicopter	minecraft:paper	NATIVE_128	gtm:heli_civilian	city
+gtm:heli_media	helicopter	Indra 24 SkyCam Broadcast Helicopter	minecraft:paper	NATIVE_128	gtm:heli_media	city
+gtm:heli_police	helicopter	SDPD Air Support Patrol Helicopter	minecraft:paper	NATIVE_128	gtm:heli_police	city
+gtm:heli_rescue	helicopter	Coast Guard SAR Twin-Turbine Rescue Chopper	minecraft:paper	NATIVE_128	gtm:heli_rescue	city
+gtm:help_intercom	civic	Help Intercom	minecraft:paper	NATIVE_128	gtm:help_intercom	city
+gtm:hero_atm_card	hero_props	ARK VIP Debit Card	minecraft:paper	NATIVE_128	gtm:hero_atm_card	prop
+gtm:hero_baseball_bat	hero_props	Wooden Baseball Bat	minecraft:paper	NATIVE_128	gtm:hero_baseball_bat	prop
+gtm:hero_cash_bundle	hero_props	Cash Currency Stack	minecraft:paper	NATIVE_128	gtm:hero_cash_bundle	prop
+gtm:hero_jerrycan	hero_props	Fuel Jerrycan	minecraft:paper	NATIVE_128	gtm:hero_jerrycan	prop
+gtm:hero_key_fob	hero_props	Vehicle Smart Key Fob	minecraft:paper	NATIVE_128	gtm:hero_key_fob	prop
+gtm:hero_medkit	hero_props	Trauma Medkit Pouch	minecraft:paper	NATIVE_128	gtm:hero_medkit	prop
+gtm:hero_pistol	hero_props	Sidearm Pistol Prop Mesh	minecraft:paper	NATIVE_128	gtm:hero_pistol	prop
+gtm:hero_police_badge	hero_props	SDPD Detective Badge & Wallet	minecraft:paper	NATIVE_128	gtm:hero_police_badge	prop
+gtm:hero_rifle	hero_props	Assault Rifle Prop Mesh	minecraft:paper	NATIVE_128	gtm:hero_rifle	prop
+gtm:hero_shotgun	hero_props	Shotgun Prop Mesh	minecraft:paper	NATIVE_128	gtm:hero_shotgun	prop
+gtm:hero_smg	hero_props	Compact SMG Prop Mesh	minecraft:paper	NATIVE_128	gtm:hero_smg	prop
+gtm:holi_balcony_screen	festival	Holi Balcony Screen	minecraft:paper	NATIVE_128	gtm:holi_balcony_screen	city
+gtm:holi_bandstand	festival	Holi Bandstand	minecraft:paper	NATIVE_128	gtm:holi_bandstand	city
+gtm:holi_counterpiece	festival	Holi Counterpiece	minecraft:paper	NATIVE_128	gtm:holi_counterpiece	city
+gtm:holi_door_emblem	festival	Holi Door Emblem	minecraft:paper	NATIVE_128	gtm:holi_door_emblem	city
+gtm:holi_gateway	festival	Holi Gateway	minecraft:paper	NATIVE_128	gtm:holi_gateway	city
+gtm:holi_market_booth	festival	Holi Market Booth	minecraft:paper	NATIVE_128	gtm:holi_market_booth	city
+gtm:holi_parade_standard	festival	Holi Parade Standard	minecraft:paper	NATIVE_128	gtm:holi_parade_standard	city
+gtm:holi_procession_cart	festival	Holi Procession Cart	minecraft:paper	NATIVE_128	gtm:holi_procession_cart	city
+gtm:holi_square_beacon	festival	Holi Square Beacon	minecraft:paper	NATIVE_128	gtm:holi_square_beacon	city
+gtm:holi_stage_backdrop	festival	Holi Stage Backdrop	minecraft:paper	NATIVE_128	gtm:holi_stage_backdrop	city
+gtm:holi_street_arch	festival	Holi Street Arch	minecraft:paper	NATIVE_128	gtm:holi_street_arch	city
+gtm:holi_street_banner	festival	Holi Street Banner	minecraft:paper	NATIVE_128	gtm:holi_street_banner	city
+gtm:holi_window_lantern	festival	Holi Window Lantern	minecraft:paper	NATIVE_128	gtm:holi_window_lantern	city
+gtm:hookah_ornate_pipe	furniture	Engraved Coastal Brass Hubbly-Bubbly Pipe	minecraft:paper	NATIVE_128	gtm:hookah_ornate_pipe	city
+gtm:hospital_bedside_locker	furniture	Molded Medical Cabinet with Towel Rail	minecraft:paper	NATIVE_128	gtm:hospital_bedside_locker	city
+gtm:hospital_icu_bed	furniture	Motorized 4-Section Electric ICU Bed	minecraft:paper	NATIVE_128	gtm:hospital_icu_bed	city
+gtm:hospital_overbed_table	furniture	Hydraulic Cantilever Overbed Tray	minecraft:paper	NATIVE_128	gtm:hospital_overbed_table	city
+gtm:hydration_station	civic	Hydration Station	minecraft:paper	NATIVE_128	gtm:hydration_station	city
+gtm:hydraulic_auto_lift	furniture	Twin-Post Electric Vehicle Inspection Hoist	minecraft:paper	NATIVE_128	gtm:hydraulic_auto_lift	city
+gtm:ice_cream_freezer	furniture	Curved Glass Chest Ice Cream Showcase	minecraft:paper	NATIVE_128	gtm:ice_cream_freezer	city
+gtm:idli	food	Idli	minecraft:bread	ALIAS_128	gtm:food_idli	food
+gtm:independence_day_civic_gateway	festival	Independence Civic Gateway	minecraft:paper	NATIVE_128	gtm:independence_day_civic_gateway	city
+gtm:independence_day_commemorative_pillar	festival	Civic Commemorative Pillar	minecraft:paper	NATIVE_128	gtm:independence_day_commemorative_pillar	city
+gtm:independence_day_community_light_column	festival	Community Light Column	minecraft:paper	NATIVE_128	gtm:independence_day_community_light_column	city
+gtm:independence_day_heritage_podium	festival	Heritage Ceremony Podium	minecraft:paper	NATIVE_128	gtm:independence_day_heritage_podium	city
+gtm:independence_day_kite_mobile	festival	Tricolour Kite Mobile	minecraft:paper	NATIVE_128	gtm:independence_day_kite_mobile	city
+gtm:independence_day_lotus_civic_basin	festival	Lotus Civic Basin	minecraft:paper	NATIVE_128	gtm:independence_day_lotus_civic_basin	city
+gtm:independence_day_national_flag_mast	festival	National Flag Mast	minecraft:paper	NATIVE_128	gtm:independence_day_national_flag_mast	city
+gtm:independence_day_parade_drum_stand	festival	Parade Drum Stand	minecraft:paper	NATIVE_128	gtm:independence_day_parade_drum_stand	city
+gtm:independence_day_unity_bunting	festival	Tricolour Unity Bunting	minecraft:paper	NATIVE_128	gtm:independence_day_unity_bunting	city
+gtm:independence_day_unity_lantern	festival	Tricolour Unity Lantern	minecraft:paper	NATIVE_128	gtm:independence_day_unity_lantern	city
+gtm:indoor_planter	furniture	Polished Terrazzo Tall Floor Planter	minecraft:paper	NATIVE_128	gtm:indoor_planter	city
+gtm:indrayani_carbine	weapons	Indrayani Service Carbine	minecraft:paper	NATIVE_128	gtm:indrayani_carbine	prop
+gtm:indrayani_carbine_bazaar_mosaic	finish_art	Indrayani Service Carbine / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:indrayani_carbine_bazaar_mosaic	prop
+gtm:indrayani_carbine_cyber_neon	finish_art	Indrayani Service Carbine / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:indrayani_carbine_cyber_neon	prop
+gtm:indrayani_carbine_deccan_chrome	finish_art	Indrayani Service Carbine / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:indrayani_carbine_deccan_chrome	prop
+gtm:indrayani_carbine_gold_leaf	finish_art	Indrayani Service Carbine / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:indrayani_carbine_gold_leaf	prop
+gtm:indrayani_carbine_graphite_stealth	finish_art	Indrayani Service Carbine / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:indrayani_carbine_graphite_stealth	prop
+gtm:indrayani_carbine_lotus_pearl	finish_art	Indrayani Service Carbine / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:indrayani_carbine_lotus_pearl	prop
+gtm:indrayani_carbine_maratha_rust	finish_art	Indrayani Service Carbine / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:indrayani_carbine_maratha_rust	prop
+gtm:indrayani_carbine_monsoon_camo	finish_art	Indrayani Service Carbine / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:indrayani_carbine_monsoon_camo	prop
+gtm:indrayani_carbine_royal_emerald	finish_art	Indrayani Service Carbine / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:indrayani_carbine_royal_emerald	prop
+gtm:indrayani_carbine_terracotta_dune	finish_art	Indrayani Service Carbine / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:indrayani_carbine_terracotta_dune	prop
+gtm:industrial_drill_press	furniture	Floor-Mount Gear-Head Column Drill	minecraft:paper	NATIVE_128	gtm:industrial_drill_press	city
+gtm:industrial_exhaust_fan	furniture	Wall-Mount 1.2m Louvered Extraction Fan	minecraft:paper	NATIVE_128	gtm:industrial_exhaust_fan	city
+gtm:inspection_railcar	rail	Inspection Railcar	minecraft:paper	LEGACY_COMPATIBILITY	gtm:inspection_railcar	city
+gtm:interrogation_table	furniture	Heavy Bolted Metal Interrogation Table	minecraft:paper	NATIVE_128	gtm:interrogation_table	city
+gtm:jail_cell_bunk_steel	furniture	Wall-Anchored Dual Steel Cell Bunks	minecraft:paper	NATIVE_128	gtm:jail_cell_bunk_steel	city
+gtm:jalebi	food	Jalebi	minecraft:bread	ALIAS_128	gtm:food_jalebi	food
+gtm:jali_partition_sheesham	furniture	Intricate Lattice Folding Room Divider	minecraft:paper	NATIVE_128	gtm:jali_partition_sheesham	city
+gtm:jewelry_glass_case	furniture	Lockable Velvet-Lined Showcase Pedestal	minecraft:paper	NATIVE_128	gtm:jewelry_glass_case	city
+gtm:jhula_swing_carved	furniture	Ceiling-Hung Carved Teak Jhula Swing	minecraft:paper	NATIVE_128	gtm:jhula_swing_carved	city
+gtm:juice_stall_art_deco	furniture	Juice Stall · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:juice_stall_art_deco	city
+gtm:juice_stall_deccan	furniture	Juice Stall · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:juice_stall_deccan	city
+gtm:juice_stall_irani	furniture	Juice Stall · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:juice_stall_irani	city
+gtm:juice_stall_konkan	furniture	Juice Stall · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:juice_stall_konkan	city
+gtm:juice_stall_metro	furniture	Juice Stall · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:juice_stall_metro	city
+gtm:kathi_roll	food	Kathi Roll	minecraft:bread	ALIAS_128	gtm:food_kathi_roll	food
+gtm:kavach_9	weapons	Kavach 9mm Compact	minecraft:paper	NATIVE_128	gtm:kavach_9	prop
+gtm:kavach_9_bazaar_mosaic	finish_art	Kavach 9mm Compact / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:kavach_9_bazaar_mosaic	prop
+gtm:kavach_9_cyber_neon	finish_art	Kavach 9mm Compact / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:kavach_9_cyber_neon	prop
+gtm:kavach_9_deccan_chrome	finish_art	Kavach 9mm Compact / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:kavach_9_deccan_chrome	prop
+gtm:kavach_9_gold_leaf	finish_art	Kavach 9mm Compact / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:kavach_9_gold_leaf	prop
+gtm:kavach_9_graphite_stealth	finish_art	Kavach 9mm Compact / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:kavach_9_graphite_stealth	prop
+gtm:kavach_9_lotus_pearl	finish_art	Kavach 9mm Compact / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:kavach_9_lotus_pearl	prop
+gtm:kavach_9_maratha_rust	finish_art	Kavach 9mm Compact / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:kavach_9_maratha_rust	prop
+gtm:kavach_9_monsoon_camo	finish_art	Kavach 9mm Compact / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:kavach_9_monsoon_camo	prop
+gtm:kavach_9_royal_emerald	finish_art	Kavach 9mm Compact / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:kavach_9_royal_emerald	prop
+gtm:kavach_9_terracotta_dune	finish_art	Kavach 9mm Compact / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:kavach_9_terracotta_dune	prop
+gtm:khanda_blade	weapons	Khanda Broadsword	minecraft:paper	NATIVE_128	gtm:khanda_blade	prop
+gtm:khanda_blade_bazaar_mosaic	finish_art	Khanda Broadsword / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:khanda_blade_bazaar_mosaic	prop
+gtm:khanda_blade_cyber_neon	finish_art	Khanda Broadsword / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:khanda_blade_cyber_neon	prop
+gtm:khanda_blade_deccan_chrome	finish_art	Khanda Broadsword / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:khanda_blade_deccan_chrome	prop
+gtm:khanda_blade_gold_leaf	finish_art	Khanda Broadsword / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:khanda_blade_gold_leaf	prop
+gtm:khanda_blade_graphite_stealth	finish_art	Khanda Broadsword / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:khanda_blade_graphite_stealth	prop
+gtm:khanda_blade_lotus_pearl	finish_art	Khanda Broadsword / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:khanda_blade_lotus_pearl	prop
+gtm:khanda_blade_maratha_rust	finish_art	Khanda Broadsword / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:khanda_blade_maratha_rust	prop
+gtm:khanda_blade_monsoon_camo	finish_art	Khanda Broadsword / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:khanda_blade_monsoon_camo	prop
+gtm:khanda_blade_royal_emerald	finish_art	Khanda Broadsword / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:khanda_blade_royal_emerald	prop
+gtm:khanda_blade_terracotta_dune	finish_art	Khanda Broadsword / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:khanda_blade_terracotta_dune	prop
+gtm:khandvi	food	Khandvi	minecraft:bread	ALIAS_128	gtm:food_khandvi	food
+gtm:king_bed_upholstered	furniture	Upholstered King Master Bed	minecraft:paper	NATIVE_128	gtm:king_bed_upholstered	city
+gtm:kitchen_island	furniture	Marble-Top Prep Island with Stool Overhang	minecraft:paper	NATIVE_128	gtm:kitchen_island	city
+gtm:kitchen_sink_double	furniture	Under-Mount Double Stainless Sink	minecraft:paper	NATIVE_128	gtm:kitchen_sink_double	city
+gtm:konkan_magnum	weapons	Konkan .357 Revolver	minecraft:paper	NATIVE_128	gtm:konkan_magnum	prop
+gtm:konkan_magnum_bazaar_mosaic	finish_art	Konkan .357 Revolver / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:konkan_magnum_bazaar_mosaic	prop
+gtm:konkan_magnum_cyber_neon	finish_art	Konkan .357 Revolver / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:konkan_magnum_cyber_neon	prop
+gtm:konkan_magnum_deccan_chrome	finish_art	Konkan .357 Revolver / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:konkan_magnum_deccan_chrome	prop
+gtm:konkan_magnum_gold_leaf	finish_art	Konkan .357 Revolver / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:konkan_magnum_gold_leaf	prop
+gtm:konkan_magnum_graphite_stealth	finish_art	Konkan .357 Revolver / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:konkan_magnum_graphite_stealth	prop
+gtm:konkan_magnum_lotus_pearl	finish_art	Konkan .357 Revolver / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:konkan_magnum_lotus_pearl	prop
+gtm:konkan_magnum_maratha_rust	finish_art	Konkan .357 Revolver / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:konkan_magnum_maratha_rust	prop
+gtm:konkan_magnum_monsoon_camo	finish_art	Konkan .357 Revolver / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:konkan_magnum_monsoon_camo	prop
+gtm:konkan_magnum_royal_emerald	finish_art	Konkan .357 Revolver / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:konkan_magnum_royal_emerald	prop
+gtm:konkan_magnum_terracotta_dune	finish_art	Konkan .357 Revolver / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:konkan_magnum_terracotta_dune	prop
+gtm:kulfi	food	Kulfi	minecraft:bread	ALIAS_128	gtm:food_kulfi	food
+gtm:kurukshetra_dmr	weapons	Kurukshetra DMR Precision	minecraft:paper	NATIVE_128	gtm:kurukshetra_dmr	prop
+gtm:kurukshetra_dmr_bazaar_mosaic	finish_art	Kurukshetra DMR Precision / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:kurukshetra_dmr_bazaar_mosaic	prop
+gtm:kurukshetra_dmr_cyber_neon	finish_art	Kurukshetra DMR Precision / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:kurukshetra_dmr_cyber_neon	prop
+gtm:kurukshetra_dmr_deccan_chrome	finish_art	Kurukshetra DMR Precision / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:kurukshetra_dmr_deccan_chrome	prop
+gtm:kurukshetra_dmr_gold_leaf	finish_art	Kurukshetra DMR Precision / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:kurukshetra_dmr_gold_leaf	prop
+gtm:kurukshetra_dmr_graphite_stealth	finish_art	Kurukshetra DMR Precision / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:kurukshetra_dmr_graphite_stealth	prop
+gtm:kurukshetra_dmr_lotus_pearl	finish_art	Kurukshetra DMR Precision / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:kurukshetra_dmr_lotus_pearl	prop
+gtm:kurukshetra_dmr_maratha_rust	finish_art	Kurukshetra DMR Precision / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:kurukshetra_dmr_maratha_rust	prop
+gtm:kurukshetra_dmr_monsoon_camo	finish_art	Kurukshetra DMR Precision / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:kurukshetra_dmr_monsoon_camo	prop
+gtm:kurukshetra_dmr_royal_emerald	finish_art	Kurukshetra DMR Precision / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:kurukshetra_dmr_royal_emerald	prop
+gtm:kurukshetra_dmr_terracotta_dune	finish_art	Kurukshetra DMR Precision / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:kurukshetra_dmr_terracotta_dune	prop
+gtm:lassi	food	Lassi	minecraft:bread	ALIAS_128	gtm:food_lassi	food
+gtm:lathi_tactical	weapons	Lathi Polycarbonate Baton	minecraft:paper	NATIVE_128	gtm:lathi_tactical	prop
+gtm:lathi_tactical_bazaar_mosaic	finish_art	Lathi Polycarbonate Baton / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:lathi_tactical_bazaar_mosaic	prop
+gtm:lathi_tactical_cyber_neon	finish_art	Lathi Polycarbonate Baton / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:lathi_tactical_cyber_neon	prop
+gtm:lathi_tactical_deccan_chrome	finish_art	Lathi Polycarbonate Baton / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:lathi_tactical_deccan_chrome	prop
+gtm:lathi_tactical_gold_leaf	finish_art	Lathi Polycarbonate Baton / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:lathi_tactical_gold_leaf	prop
+gtm:lathi_tactical_graphite_stealth	finish_art	Lathi Polycarbonate Baton / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:lathi_tactical_graphite_stealth	prop
+gtm:lathi_tactical_lotus_pearl	finish_art	Lathi Polycarbonate Baton / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:lathi_tactical_lotus_pearl	prop
+gtm:lathi_tactical_maratha_rust	finish_art	Lathi Polycarbonate Baton / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:lathi_tactical_maratha_rust	prop
+gtm:lathi_tactical_monsoon_camo	finish_art	Lathi Polycarbonate Baton / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:lathi_tactical_monsoon_camo	prop
+gtm:lathi_tactical_royal_emerald	finish_art	Lathi Polycarbonate Baton / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:lathi_tactical_royal_emerald	prop
+gtm:lathi_tactical_terracotta_dune	finish_art	Lathi Polycarbonate Baton / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:lathi_tactical_terracotta_dune	prop
+gtm:leather_armchair	furniture	Executive Club Leather Armchair	minecraft:paper	NATIVE_128	gtm:leather_armchair	city
+gtm:literature_carousel	furniture	Rotating Metal Brochure Display Tower	minecraft:paper	NATIVE_128	gtm:literature_carousel	city
+gtm:local_driving_cab	rail	Mumbai Suburban Driving Motor Coach (Cab)	minecraft:paper	NATIVE_128	gtm:local_driving_cab	city
+gtm:local_motor	rail	Local Motor	minecraft:paper	NATIVE_128	gtm:local_motor	city
+gtm:local_trailer	rail	Local Trailer	minecraft:paper	NATIVE_128	gtm:local_trailer	city
+gtm:locker_art_deco	furniture	Locker · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:locker_art_deco	city
+gtm:locker_deccan	furniture	Locker · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:locker_deccan	city
+gtm:locker_irani	furniture	Locker · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:locker_irani	city
+gtm:locker_konkan	furniture	Locker · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:locker_konkan	city
+gtm:locker_metro	furniture	Locker · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:locker_metro	city
+gtm:lotus_burst	weapons	Lotus Rapid SMG	minecraft:paper	NATIVE_128	gtm:lotus_burst	prop
+gtm:lotus_burst_bazaar_mosaic	finish_art	Lotus Rapid SMG / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:lotus_burst_bazaar_mosaic	prop
+gtm:lotus_burst_cyber_neon	finish_art	Lotus Rapid SMG / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:lotus_burst_cyber_neon	prop
+gtm:lotus_burst_deccan_chrome	finish_art	Lotus Rapid SMG / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:lotus_burst_deccan_chrome	prop
+gtm:lotus_burst_gold_leaf	finish_art	Lotus Rapid SMG / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:lotus_burst_gold_leaf	prop
+gtm:lotus_burst_graphite_stealth	finish_art	Lotus Rapid SMG / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:lotus_burst_graphite_stealth	prop
+gtm:lotus_burst_lotus_pearl	finish_art	Lotus Rapid SMG / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:lotus_burst_lotus_pearl	prop
+gtm:lotus_burst_maratha_rust	finish_art	Lotus Rapid SMG / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:lotus_burst_maratha_rust	prop
+gtm:lotus_burst_monsoon_camo	finish_art	Lotus Rapid SMG / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:lotus_burst_monsoon_camo	prop
+gtm:lotus_burst_royal_emerald	finish_art	Lotus Rapid SMG / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:lotus_burst_royal_emerald	prop
+gtm:lotus_burst_terracotta_dune	finish_art	Lotus Rapid SMG / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:lotus_burst_terracotta_dune	prop
+gtm:luggage_rack_art_deco	furniture	Luggage Rack · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:luggage_rack_art_deco	city
+gtm:luggage_rack_deccan	furniture	Luggage Rack · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:luggage_rack_deccan	city
+gtm:luggage_rack_irani	furniture	Luggage Rack · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:luggage_rack_irani	city
+gtm:luggage_rack_konkan	furniture	Luggage Rack · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:luggage_rack_konkan	city
+gtm:luggage_rack_metro	furniture	Luggage Rack · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:luggage_rack_metro	city
+gtm:luggage_scale_weigh	furniture	Airport & Courier Platform Floor Scale	minecraft:paper	NATIVE_128	gtm:luggage_scale_weigh	city
+gtm:luxury_eclass	road	SD Prestige E-Chassis	minecraft:paper	NATIVE_128	gtm:luxury_eclass	city
+gtm:luxury_eclass_critical	vehicle_state	SD Prestige E-Chassis / critical	minecraft:paper	NATIVE_128	gtm:luxury_eclass_critical	prop
+gtm:luxury_eclass_damaged	vehicle_state	SD Prestige E-Chassis / damaged	minecraft:paper	NATIVE_128	gtm:luxury_eclass_damaged	prop
+gtm:luxury_eclass_wreck	vehicle_state	SD Prestige E-Chassis / wreck	minecraft:paper	NATIVE_128	gtm:luxury_eclass_wreck	prop
+gtm:luxury_q7	road	SD Quattro Seven SUV	minecraft:paper	NATIVE_128	gtm:luxury_q7	city
+gtm:luxury_q7_critical	vehicle_state	SD Quattro Seven SUV / critical	minecraft:paper	NATIVE_128	gtm:luxury_q7_critical	prop
+gtm:luxury_q7_damaged	vehicle_state	SD Quattro Seven SUV / damaged	minecraft:paper	NATIVE_128	gtm:luxury_q7_damaged	prop
+gtm:luxury_q7_wreck	vehicle_state	SD Quattro Seven SUV / wreck	minecraft:paper	NATIVE_128	gtm:luxury_q7_wreck	prop
+gtm:luxury_rangerover	road	SD Sovereign Imperial	minecraft:paper	NATIVE_128	gtm:luxury_rangerover	city
+gtm:luxury_rangerover_critical	vehicle_state	SD Sovereign Imperial / critical	minecraft:paper	NATIVE_128	gtm:luxury_rangerover_critical	prop
+gtm:luxury_rangerover_damaged	vehicle_state	SD Sovereign Imperial / damaged	minecraft:paper	NATIVE_128	gtm:luxury_rangerover_damaged	prop
+gtm:luxury_rangerover_wreck	vehicle_state	SD Sovereign Imperial / wreck	minecraft:paper	NATIVE_128	gtm:luxury_rangerover_wreck	prop
+gtm:luxury_series3	road	SD Executive 3-Series	minecraft:paper	NATIVE_128	gtm:luxury_series3	city
+gtm:luxury_series3_critical	vehicle_state	SD Executive 3-Series / critical	minecraft:paper	NATIVE_128	gtm:luxury_series3_critical	prop
+gtm:luxury_series3_damaged	vehicle_state	SD Executive 3-Series / damaged	minecraft:paper	NATIVE_128	gtm:luxury_series3_damaged	prop
+gtm:luxury_series3_wreck	vehicle_state	SD Executive 3-Series / wreck	minecraft:paper	NATIVE_128	gtm:luxury_series3_wreck	prop
+gtm:luxury_x5	road	SD Bavaria X-Drive	minecraft:paper	NATIVE_128	gtm:luxury_x5	city
+gtm:luxury_x5_critical	vehicle_state	SD Bavaria X-Drive / critical	minecraft:paper	NATIVE_128	gtm:luxury_x5_critical	prop
+gtm:luxury_x5_damaged	vehicle_state	SD Bavaria X-Drive / damaged	minecraft:paper	NATIVE_128	gtm:luxury_x5_damaged	prop
+gtm:luxury_x5_wreck	vehicle_state	SD Bavaria X-Drive / wreck	minecraft:paper	NATIVE_128	gtm:luxury_x5_wreck	prop
+gtm:magazine_kiosk_wire	furniture	Rotating Outdoor Newspaper Wire Tree	minecraft:paper	NATIVE_128	gtm:magazine_kiosk_wire	city
+gtm:magazine_rack	furniture	Brushed Brass Floor Magazine Stand	minecraft:paper	NATIVE_128	gtm:magazine_rack	city
+gtm:magnetic_whiteboard	furniture	Mobile Rolling Dry-Erase Whiteboard	minecraft:paper	NATIVE_128	gtm:magnetic_whiteboard	city
+gtm:maintenance_wagon	rail	Maintenance Wagon	minecraft:paper	LEGACY_COMPATIBILITY	gtm:maintenance_wagon	city
+gtm:mannequin_podium	furniture	Square Lacquered Retail Display Plinth	minecraft:paper	NATIVE_128	gtm:mannequin_podium	city
+gtm:maratha_auto	weapons	Maratha Auto-Pistol	minecraft:paper	NATIVE_128	gtm:maratha_auto	prop
+gtm:maratha_auto_bazaar_mosaic	finish_art	Maratha Auto-Pistol / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:maratha_auto_bazaar_mosaic	prop
+gtm:maratha_auto_cyber_neon	finish_art	Maratha Auto-Pistol / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:maratha_auto_cyber_neon	prop
+gtm:maratha_auto_deccan_chrome	finish_art	Maratha Auto-Pistol / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:maratha_auto_deccan_chrome	prop
+gtm:maratha_auto_gold_leaf	finish_art	Maratha Auto-Pistol / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:maratha_auto_gold_leaf	prop
+gtm:maratha_auto_graphite_stealth	finish_art	Maratha Auto-Pistol / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:maratha_auto_graphite_stealth	prop
+gtm:maratha_auto_lotus_pearl	finish_art	Maratha Auto-Pistol / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:maratha_auto_lotus_pearl	prop
+gtm:maratha_auto_maratha_rust	finish_art	Maratha Auto-Pistol / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:maratha_auto_maratha_rust	prop
+gtm:maratha_auto_monsoon_camo	finish_art	Maratha Auto-Pistol / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:maratha_auto_monsoon_camo	prop
+gtm:maratha_auto_royal_emerald	finish_art	Maratha Auto-Pistol / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:maratha_auto_royal_emerald	prop
+gtm:maratha_auto_terracotta_dune	finish_art	Maratha Auto-Pistol / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:maratha_auto_terracotta_dune	prop
+gtm:marine_cargo	marine	Coastal Container & Bulk Freight Barge	minecraft:paper	NATIVE_128	gtm:marine_cargo	city
+gtm:marine_ferry	marine	Indra Gateway Double-Deck Passenger Ferry	minecraft:paper	NATIVE_128	gtm:marine_ferry	city
+gtm:marine_fishing	marine	Sassoon Docks Wooden Fishing Trawler	minecraft:paper	NATIVE_128	gtm:marine_fishing	city
+gtm:marine_police_launch	marine	SDPD Harbour Patrol Steel Launch	minecraft:paper	NATIVE_128	gtm:marine_police_launch	city
+gtm:marine_rescue	marine	Coastal Lifeboat All-Weather Rescue Craft	minecraft:paper	NATIVE_128	gtm:marine_rescue	city
+gtm:marine_speedboat	marine	Marine Police Interceptor Speedboat	minecraft:paper	NATIVE_128	gtm:marine_speedboat	city
+gtm:marine_water_taxi	marine	Express Harbour Catamaran Water Taxi	minecraft:paper	NATIVE_128	gtm:marine_water_taxi	city
+gtm:marine_yacht	marine	Maya Harbour Luxury Motor Yacht	minecraft:paper	NATIVE_128	gtm:marine_yacht	city
+gtm:market_counter_art_deco	furniture	Market Counter · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:market_counter_art_deco	city
+gtm:market_counter_deccan	furniture	Market Counter · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:market_counter_deccan	city
+gtm:market_counter_irani	furniture	Market Counter · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:market_counter_irani	city
+gtm:market_counter_konkan	furniture	Market Counter · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:market_counter_konkan	city
+gtm:market_counter_metro	furniture	Market Counter · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:market_counter_metro	city
+gtm:marshal_vest_harbour	protection	Harbour Marshal Vest	minecraft:paper	NATIVE_128	gtm:marshal_vest_harbour	city
+gtm:marshal_vest_hill	protection	Hill Marshal Vest	minecraft:paper	NATIVE_128	gtm:marshal_vest_hill	city
+gtm:marshal_vest_local	protection	Local Marshal Vest	minecraft:paper	NATIVE_128	gtm:marshal_vest_local	city
+gtm:marshal_vest_metro	protection	Metro Marshal Vest	minecraft:paper	NATIVE_128	gtm:marshal_vest_metro	city
+gtm:marshal_vest_night	protection	Night Marshal Vest	minecraft:paper	NATIVE_128	gtm:marshal_vest_night	city
+gtm:mayo_surgical_stand	furniture	Adjustable Height Surgical Instrument Tray	minecraft:paper	NATIVE_128	gtm:mayo_surgical_stand	city
+gtm:media_console	furniture	Modern Credenza TV Media Console	minecraft:paper	NATIVE_128	gtm:media_console	city
+gtm:medicine_dispense_cabinet	furniture	Dual-Lock Narcotic Medication Safe	minecraft:paper	NATIVE_128	gtm:medicine_dispense_cabinet	city
+gtm:metro_accessible	rail	Indra Metro Universal Access Car	minecraft:paper	NATIVE_128	gtm:metro_accessible	city
+gtm:metro_lead	rail	Metro Lead	minecraft:paper	NATIVE_128	gtm:metro_lead	city
+gtm:metro_middle	rail	Metro Middle	minecraft:paper	NATIVE_128	gtm:metro_middle	city
+gtm:metro_roundel	civic	Metro Roundel	minecraft:paper	NATIVE_128	gtm:metro_roundel	city
+gtm:microwave_cabinet	furniture	Built-In Convection Oven Tower	minecraft:paper	NATIVE_128	gtm:microwave_cabinet	city
+gtm:minibus_city	road	City Minibus	minecraft:paper	LEGACY_COMPATIBILITY	gtm:minibus_city	city
+gtm:minibus_courier	road	Courier Minibus	minecraft:paper	LEGACY_COMPATIBILITY	gtm:minibus_courier	city
+gtm:minibus_rescue	road	Rescue Minibus	minecraft:paper	LEGACY_COMPATIBILITY	gtm:minibus_rescue	city
+gtm:minibus_touring	road	Touring Minibus	minecraft:paper	LEGACY_COMPATIBILITY	gtm:minibus_touring	city
+gtm:minibus_utility	road	Utility Minibus	minecraft:paper	LEGACY_COMPATIBILITY	gtm:minibus_utility	city
+gtm:misal	food	Misal	minecraft:bread	ALIAS_128	gtm:food_misal	food
+gtm:mist_totem	effect	Mist Totem	minecraft:paper	NATIVE_128	gtm:mist_totem	city
+gtm:mobile_iv_pole	furniture	5-Castor Stainless Telescopic IV Pole	minecraft:paper	NATIVE_128	gtm:mobile_iv_pole	city
+gtm:modak	food	Modak	minecraft:bread	ALIAS_128	gtm:food_modak	food
+gtm:modular_counter_base	furniture	Granite-Top Modular Base Cabinet	minecraft:paper	NATIVE_128	gtm:modular_counter_base	city
+gtm:monsoon_chai_rain_shelter	festival	Monsoon Chai Shelter	minecraft:paper	NATIVE_128	gtm:monsoon_chai_rain_shelter	city
+gtm:monsoon_cloud_droplet_lantern	festival	Cloud and Droplet Lantern	minecraft:paper	NATIVE_128	gtm:monsoon_cloud_droplet_lantern	city
+gtm:monsoon_coastal_weather_kiosk	festival	Coastal Weather Kiosk	minecraft:paper	NATIVE_128	gtm:monsoon_coastal_weather_kiosk	city
+gtm:monsoon_courtyard_rain_chain	festival	Courtyard Rain Chain	minecraft:paper	NATIVE_128	gtm:monsoon_courtyard_rain_chain	city
+gtm:monsoon_paper_boat_display	festival	Paper Boat Display	minecraft:paper	NATIVE_128	gtm:monsoon_paper_boat_display	city
+gtm:monsoon_puddle_stepping_stones	festival	Monsoon Stepping Stone Display	minecraft:paper	NATIVE_128	gtm:monsoon_puddle_stepping_stones	city
+gtm:monsoon_raincoat_display	festival	Monsoon Raincoat Display	minecraft:paper	NATIVE_128	gtm:monsoon_raincoat_display	city
+gtm:monsoon_rainwater_spout_basin	festival	Rainwater Spout and Basin	minecraft:paper	NATIVE_128	gtm:monsoon_rainwater_spout_basin	city
+gtm:monsoon_rescue	helicopter	Monsoon Rescue	minecraft:paper	LEGACY_COMPATIBILITY	gtm:monsoon_rescue	city
+gtm:monsoon_shelter_umbrella	festival	Monsoon Shelter Umbrella	minecraft:paper	NATIVE_128	gtm:monsoon_shelter_umbrella	city
+gtm:monsoon_water_lily_planter	festival	Water Lily Rain Planter	minecraft:paper	NATIVE_128	gtm:monsoon_water_lily_planter	city
+gtm:monument_plinth_bronze	furniture	Commemorative Municipal Bronze Plinth	minecraft:paper	NATIVE_128	gtm:monument_plinth_bronze	city
+gtm:moto_apache	road	Tavara Apache RTR	minecraft:paper	NATIVE_128	gtm:moto_apache	city
+gtm:moto_apache_critical	vehicle_state	Tavara Apache RTR / critical	minecraft:paper	NATIVE_128	gtm:moto_apache_critical	prop
+gtm:moto_apache_damaged	vehicle_state	Tavara Apache RTR / damaged	minecraft:paper	NATIVE_128	gtm:moto_apache_damaged	prop
+gtm:moto_apache_wreck	vehicle_state	Tavara Apache RTR / wreck	minecraft:paper	NATIVE_128	gtm:moto_apache_wreck	prop
+gtm:moto_bullet350	road	Royal Iron Bullet 350	minecraft:paper	NATIVE_128	gtm:moto_bullet350	city
+gtm:moto_bullet350_critical	vehicle_state	Royal Iron Bullet 350 / critical	minecraft:paper	NATIVE_128	gtm:moto_bullet350_critical	prop
+gtm:moto_bullet350_damaged	vehicle_state	Royal Iron Bullet 350 / damaged	minecraft:paper	NATIVE_128	gtm:moto_bullet350_damaged	prop
+gtm:moto_bullet350_wreck	vehicle_state	Royal Iron Bullet 350 / wreck	minecraft:paper	NATIVE_128	gtm:moto_bullet350_wreck	prop
+gtm:moto_classic350	road	Royal Iron Classic 350	minecraft:paper	NATIVE_128	gtm:moto_classic350	city
+gtm:moto_classic350_critical	vehicle_state	Royal Iron Classic 350 / critical	minecraft:paper	NATIVE_128	gtm:moto_classic350_critical	prop
+gtm:moto_classic350_damaged	vehicle_state	Royal Iron Classic 350 / damaged	minecraft:paper	NATIVE_128	gtm:moto_classic350_damaged	prop
+gtm:moto_classic350_wreck	vehicle_state	Royal Iron Classic 350 / wreck	minecraft:paper	NATIVE_128	gtm:moto_classic350_wreck	prop
+gtm:moto_duke	road	SD Duke 390 Naked	minecraft:paper	NATIVE_128	gtm:moto_duke	city
+gtm:moto_duke_critical	vehicle_state	SD Duke 390 Naked / critical	minecraft:paper	NATIVE_128	gtm:moto_duke_critical	prop
+gtm:moto_duke_damaged	vehicle_state	SD Duke 390 Naked / damaged	minecraft:paper	NATIVE_128	gtm:moto_duke_damaged	prop
+gtm:moto_duke_wreck	vehicle_state	SD Duke 390 Naked / wreck	minecraft:paper	NATIVE_128	gtm:moto_duke_wreck	prop
+gtm:moto_himalayan	road	Royal Iron Himalayan Explorer	minecraft:paper	NATIVE_128	gtm:moto_himalayan	city
+gtm:moto_himalayan_critical	vehicle_state	Royal Iron Himalayan Explorer / critical	minecraft:paper	NATIVE_128	gtm:moto_himalayan_critical	prop
+gtm:moto_himalayan_damaged	vehicle_state	Royal Iron Himalayan Explorer / damaged	minecraft:paper	NATIVE_128	gtm:moto_himalayan_damaged	prop
+gtm:moto_himalayan_wreck	vehicle_state	Royal Iron Himalayan Explorer / wreck	minecraft:paper	NATIVE_128	gtm:moto_himalayan_wreck	prop
+gtm:moto_pulsar	road	Wahindra Pulsar 220F	minecraft:paper	NATIVE_128	gtm:moto_pulsar	city
+gtm:moto_pulsar_critical	vehicle_state	Wahindra Pulsar 220F / critical	minecraft:paper	NATIVE_128	gtm:moto_pulsar_critical	prop
+gtm:moto_pulsar_damaged	vehicle_state	Wahindra Pulsar 220F / damaged	minecraft:paper	NATIVE_128	gtm:moto_pulsar_damaged	prop
+gtm:moto_pulsar_wreck	vehicle_state	Wahindra Pulsar 220F / wreck	minecraft:paper	NATIVE_128	gtm:moto_pulsar_wreck	prop
+gtm:moto_r15	road	Hondo Supersport 150	minecraft:paper	NATIVE_128	gtm:moto_r15	city
+gtm:moto_r15_critical	vehicle_state	Hondo Supersport 150 / critical	minecraft:paper	NATIVE_128	gtm:moto_r15_critical	prop
+gtm:moto_r15_damaged	vehicle_state	Hondo Supersport 150 / damaged	minecraft:paper	NATIVE_128	gtm:moto_r15_damaged	prop
+gtm:moto_r15_wreck	vehicle_state	Hondo Supersport 150 / wreck	minecraft:paper	NATIVE_128	gtm:moto_r15_wreck	prop
+gtm:moto_splendor	road	Veero Splendor 100	minecraft:paper	NATIVE_128	gtm:moto_splendor	city
+gtm:moto_splendor_critical	vehicle_state	Veero Splendor 100 / critical	minecraft:paper	NATIVE_128	gtm:moto_splendor_critical	prop
+gtm:moto_splendor_damaged	vehicle_state	Veero Splendor 100 / damaged	minecraft:paper	NATIVE_128	gtm:moto_splendor_damaged	prop
+gtm:moto_splendor_wreck	vehicle_state	Veero Splendor 100 / wreck	minecraft:paper	NATIVE_128	gtm:moto_splendor_wreck	prop
+gtm:motor_oil_dispense_rack	furniture	Gravity 4-Drum Bulk Oil Spigot Bar	minecraft:paper	NATIVE_128	gtm:motor_oil_dispense_rack	city
+gtm:motorcycle_city	road	City Motorcycle	minecraft:paper	LEGACY_COMPATIBILITY	gtm:motorcycle_city	city
+gtm:motorcycle_courier	road	Courier Motorcycle	minecraft:paper	LEGACY_COMPATIBILITY	gtm:motorcycle_courier	city
+gtm:motorcycle_rescue	road	Rescue Motorcycle	minecraft:paper	LEGACY_COMPATIBILITY	gtm:motorcycle_rescue	city
+gtm:motorcycle_touring	road	Touring Motorcycle	minecraft:paper	LEGACY_COMPATIBILITY	gtm:motorcycle_touring	city
+gtm:motorcycle_utility	road	Utility Motorcycle	minecraft:paper	LEGACY_COMPATIBILITY	gtm:motorcycle_utility	city
+gtm:mugshot_height_backdrop	furniture	Calibrated Wall-Mount Height Measurement	minecraft:paper	NATIVE_128	gtm:mugshot_height_backdrop	city
+gtm:municipal_litter_bin	furniture	Split Dual Wet/Dry Municipal Street Bin	minecraft:paper	NATIVE_128	gtm:municipal_litter_bin	city
+gtm:navratri_balcony_screen	festival	Navratri Balcony Screen	minecraft:paper	NATIVE_128	gtm:navratri_balcony_screen	city
+gtm:navratri_bandstand	festival	Navratri Bandstand	minecraft:paper	NATIVE_128	gtm:navratri_bandstand	city
+gtm:navratri_counterpiece	festival	Navratri Counterpiece	minecraft:paper	NATIVE_128	gtm:navratri_counterpiece	city
+gtm:navratri_door_emblem	festival	Navratri Door Emblem	minecraft:paper	NATIVE_128	gtm:navratri_door_emblem	city
+gtm:navratri_gateway	festival	Navratri Gateway	minecraft:paper	NATIVE_128	gtm:navratri_gateway	city
+gtm:navratri_market_booth	festival	Navratri Market Booth	minecraft:paper	NATIVE_128	gtm:navratri_market_booth	city
+gtm:navratri_parade_standard	festival	Navratri Parade Standard	minecraft:paper	NATIVE_128	gtm:navratri_parade_standard	city
+gtm:navratri_procession_cart	festival	Navratri Procession Cart	minecraft:paper	NATIVE_128	gtm:navratri_procession_cart	city
+gtm:navratri_square_beacon	festival	Navratri Square Beacon	minecraft:paper	NATIVE_128	gtm:navratri_square_beacon	city
+gtm:navratri_stage_backdrop	festival	Navratri Stage Backdrop	minecraft:paper	NATIVE_128	gtm:navratri_stage_backdrop	city
+gtm:navratri_street_arch	festival	Navratri Street Arch	minecraft:paper	NATIVE_128	gtm:navratri_street_arch	city
+gtm:navratri_street_banner	festival	Navratri Street Banner	minecraft:paper	NATIVE_128	gtm:navratri_street_banner	city
+gtm:navratri_window_lantern	festival	Navratri Window Lantern	minecraft:paper	NATIVE_128	gtm:navratri_window_lantern	city
+gtm:nesting_tables	furniture	Trio Marble Round Nesting Tables	minecraft:paper	NATIVE_128	gtm:nesting_tables	city
+gtm:new_year_balcony_screen	festival	New Year Balcony Screen	minecraft:paper	NATIVE_128	gtm:new_year_balcony_screen	city
+gtm:new_year_balloon_cluster	festival	New Year Balloon Cluster	minecraft:paper	NATIVE_128	gtm:new_year_balloon_cluster	city
+gtm:new_year_bandstand	festival	New Year Bandstand	minecraft:paper	NATIVE_128	gtm:new_year_bandstand	city
+gtm:new_year_confetti_podium	festival	New Year Confetti Podium	minecraft:paper	NATIVE_128	gtm:new_year_confetti_podium	city
+gtm:new_year_countdown_clock	festival	Midnight Countdown Clock	minecraft:paper	NATIVE_128	gtm:new_year_countdown_clock	city
+gtm:new_year_counterpiece	festival	New Year Counterpiece	minecraft:paper	NATIVE_128	gtm:new_year_counterpiece	city
+gtm:new_year_door_emblem	festival	New Year Door Emblem	minecraft:paper	NATIVE_128	gtm:new_year_door_emblem	city
+gtm:new_year_gateway	festival	New Year Gateway	minecraft:paper	NATIVE_128	gtm:new_year_gateway	city
+gtm:new_year_market_booth	festival	New Year Market Booth	minecraft:paper	NATIVE_128	gtm:new_year_market_booth	city
+gtm:new_year_midnight_light_arch	festival	Midnight Light Arch	minecraft:paper	NATIVE_128	gtm:new_year_midnight_light_arch	city
+gtm:new_year_parade_standard	festival	New Year Parade Standard	minecraft:paper	NATIVE_128	gtm:new_year_parade_standard	city
+gtm:new_year_procession_cart	festival	New Year Procession Cart	minecraft:paper	NATIVE_128	gtm:new_year_procession_cart	city
+gtm:new_year_stage_backdrop	festival	New Year Stage Backdrop	minecraft:paper	NATIVE_128	gtm:new_year_stage_backdrop	city
+gtm:new_year_street_arch	festival	New Year Street Arch	minecraft:paper	NATIVE_128	gtm:new_year_street_arch	city
+gtm:new_year_street_banner	festival	New Year Street Banner	minecraft:paper	NATIVE_128	gtm:new_year_street_banner	city
+gtm:new_year_window_lantern	festival	New Year Window Lantern	minecraft:paper	NATIVE_128	gtm:new_year_window_lantern	city
+gtm:news_display	civic	News Display	minecraft:paper	NATIVE_128	gtm:news_display	city
+gtm:news_kiosk_art_deco	furniture	News Kiosk · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:news_kiosk_art_deco	city
+gtm:news_kiosk_deccan	furniture	News Kiosk · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:news_kiosk_deccan	city
+gtm:news_kiosk_irani	furniture	News Kiosk · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:news_kiosk_irani	city
+gtm:news_kiosk_konkan	furniture	News Kiosk · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:news_kiosk_konkan	city
+gtm:news_kiosk_metro	furniture	News Kiosk · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:news_kiosk_metro	city
+gtm:nightstand_drawers	furniture	Dual-Drawer Oak Bedside Nightstand	minecraft:paper	NATIVE_128	gtm:nightstand_drawers	city
+gtm:nimbu_pani	food	Nimbu Pani	minecraft:bread	ALIAS_128	gtm:food_nimbu_pani	food
+gtm:operating_theatre_lamp	furniture	Dual-Head Balanced Surgical Ceiling Lamp	minecraft:paper	NATIVE_128	gtm:operating_theatre_lamp	city
+gtm:ottoman_storage	furniture	Tufted Storage Ottoman Footstool	minecraft:paper	NATIVE_128	gtm:ottoman_storage	city
+gtm:oven_art_deco	furniture	Oven · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:oven_art_deco	city
+gtm:oven_deccan	furniture	Oven · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:oven_deccan	city
+gtm:oven_irani	furniture	Oven · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:oven_irani	city
+gtm:oven_konkan	furniture	Oven · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:oven_konkan	city
+gtm:oven_metro	furniture	Oven · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:oven_metro	city
+gtm:overhead_crane_gantry	furniture	Steel I-Beam Electric Chain Hoist Trolley	minecraft:paper	NATIVE_128	gtm:overhead_crane_gantry	city
+gtm:oxygen_cylinder_trolley	furniture	Dual 50L Medical Oxygen Tank Cart	minecraft:paper	NATIVE_128	gtm:oxygen_cylinder_trolley	city
+gtm:padded_bracer_harbour	protection	Harbour Padded Bracer	minecraft:paper	NATIVE_128	gtm:padded_bracer_harbour	city
+gtm:padded_bracer_hill	protection	Hill Padded Bracer	minecraft:paper	NATIVE_128	gtm:padded_bracer_hill	city
+gtm:padded_bracer_local	protection	Local Padded Bracer	minecraft:paper	NATIVE_128	gtm:padded_bracer_local	city
+gtm:padded_bracer_metro	protection	Metro Padded Bracer	minecraft:paper	NATIVE_128	gtm:padded_bracer_metro	city
+gtm:padded_bracer_night	protection	Night Padded Bracer	minecraft:paper	NATIVE_128	gtm:padded_bracer_night	city
+gtm:pallet_jack_manual	furniture	Hydraulic 2500kg Hand Pallet Truck	minecraft:paper	NATIVE_128	gtm:pallet_jack_manual	city
+gtm:pani_puri	food	Pani Puri	minecraft:bread	ALIAS_128	gtm:food_pani_puri	food
+gtm:pantry_art_deco	furniture	Pantry · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:pantry_art_deco	city
+gtm:pantry_deccan	furniture	Pantry · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:pantry_deccan	city
+gtm:pantry_irani	furniture	Pantry · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:pantry_irani	city
+gtm:pantry_konkan	furniture	Pantry · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:pantry_konkan	city
+gtm:pantry_metro	furniture	Pantry · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:pantry_metro	city
+gtm:pantry_tall_unit	furniture	Pull-Out Wire Basket Tall Larder Unit	minecraft:paper	NATIVE_128	gtm:pantry_tall_unit	city
+gtm:parcel_van	rail	Parcel Van	minecraft:paper	LEGACY_COMPATIBILITY	gtm:parcel_van	city
+gtm:park_bench_teak	furniture	Cast-Iron Teak Slat Garden Bench	minecraft:paper	NATIVE_128	gtm:park_bench_teak	city
+gtm:park_settee_art_deco	furniture	Park Settee · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:park_settee_art_deco	city
+gtm:park_settee_deccan	furniture	Park Settee · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:park_settee_deccan	city
+gtm:park_settee_irani	furniture	Park Settee · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:park_settee_irani	city
+gtm:park_settee_konkan	furniture	Park Settee · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:park_settee_konkan	city
+gtm:park_settee_metro	furniture	Park Settee · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:park_settee_metro	city
+gtm:parking_meter	civic	Parking Meter	minecraft:paper	NATIVE_128	gtm:parking_meter	city
+gtm:parts_storage_racks	furniture	Galvanized Heavy Pallet Warehouse Racking	minecraft:paper	NATIVE_128	gtm:parts_storage_racks	city
+gtm:parts_washer_degreaser	furniture	Recirculating Solvent Parts Cleaning Sink	minecraft:paper	NATIVE_128	gtm:parts_washer_degreaser	city
+gtm:patient_privacy_screen	furniture	Washable Antimicrobial 3-Fold Screen	minecraft:paper	NATIVE_128	gtm:patient_privacy_screen	city
+gtm:patrol_launch	marine	Patrol Launch	minecraft:paper	LEGACY_COMPATIBILITY	gtm:patrol_launch	city
+gtm:patrol_sergeant_desk	furniture	Bullet-Resistant Acrylic Shield Desk	minecraft:paper	NATIVE_128	gtm:patrol_sergeant_desk	city
+gtm:pav_bhaji	food	Pav Bhaji	minecraft:bread	ALIAS_128	gtm:food_pav_bhaji	food
+gtm:pavement_newspaper_stand	furniture	Folding Metal Morning News Stand	minecraft:paper	NATIVE_128	gtm:pavement_newspaper_stand	city
+gtm:pedestrian_crossing_beacon	furniture	Solar Flashing Amber Pedestrian Marker	minecraft:paper	NATIVE_128	gtm:pedestrian_crossing_beacon	city
+gtm:pharmacy_pill_bay	furniture	Gravity-Feed Medication Dispenser Wall	minecraft:paper	NATIVE_128	gtm:pharmacy_pill_bay	city
+gtm:phlebotomy_chair	furniture	Armrest Blood Collection Donor Chair	minecraft:paper	NATIVE_128	gtm:phlebotomy_chair	city
+gtm:pickup_city	road	City Pickup	minecraft:paper	LEGACY_COMPATIBILITY	gtm:pickup_city	city
+gtm:pickup_courier	road	Courier Pickup	minecraft:paper	LEGACY_COMPATIBILITY	gtm:pickup_courier	city
+gtm:pickup_rescue	road	Rescue Pickup	minecraft:paper	LEGACY_COMPATIBILITY	gtm:pickup_rescue	city
+gtm:pickup_touring	road	Touring Pickup	minecraft:paper	LEGACY_COMPATIBILITY	gtm:pickup_touring	city
+gtm:pickup_utility	road	Utility Pickup	minecraft:paper	LEGACY_COMPATIBILITY	gtm:pickup_utility	city
+gtm:pilot_boat	marine	Pilot Boat	minecraft:paper	LEGACY_COMPATIBILITY	gtm:pilot_boat	city
+gtm:pistol_01	finish	Pistol 01	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_01	finish
+gtm:pistol_02	finish	Pistol 02	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_02	finish
+gtm:pistol_03	finish	Pistol 03	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_03	finish
+gtm:pistol_04	finish	Pistol 04	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_04	finish
+gtm:pistol_05	finish	Pistol 05	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_05	finish
+gtm:pistol_06	finish	Pistol 06	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_06	finish
+gtm:pistol_07	finish	Pistol 07	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_07	finish
+gtm:pistol_08	finish	Pistol 08	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_08	finish
+gtm:pistol_09	finish	Pistol 09	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_09	finish
+gtm:pistol_10	finish	Pistol 10	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_10	finish
+gtm:pistol_11	finish	Pistol 11	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_11	finish
+gtm:pistol_12	finish	Pistol 12	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_12	finish
+gtm:pistol_13	finish	Pistol 13	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_13	finish
+gtm:pistol_14	finish	Pistol 14	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_14	finish
+gtm:pistol_15	finish	Pistol 15	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_15	finish
+gtm:pistol_16	finish	Pistol 16	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_16	finish
+gtm:pistol_17	finish	Pistol 17	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_17	finish
+gtm:pistol_18	finish	Pistol 18	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_18	finish
+gtm:pistol_19	finish	Pistol 19	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_19	finish
+gtm:pistol_20	finish	Pistol 20	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_20	finish
+gtm:pistol_21	finish	Pistol 21	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_21	finish
+gtm:pistol_22	finish	Pistol 22	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_22	finish
+gtm:pistol_23	finish	Pistol 23	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_23	finish
+gtm:pistol_24	finish	Pistol 24	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_24	finish
+gtm:pistol_25	finish	Pistol 25	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_25	finish
+gtm:pistol_26	finish	Pistol 26	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_26	finish
+gtm:pistol_27	finish	Pistol 27	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_27	finish
+gtm:pistol_28	finish	Pistol 28	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_28	finish
+gtm:pistol_29	finish	Pistol 29	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_29	finish
+gtm:pistol_30	finish	Pistol 30	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_30	finish
+gtm:pistol_31	finish	Pistol 31	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_31	finish
+gtm:pistol_32	finish	Pistol 32	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_32	finish
+gtm:pistol_33	finish	Pistol 33	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_33	finish
+gtm:pistol_34	finish	Pistol 34	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_34	finish
+gtm:pistol_35	finish	Pistol 35	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_35	finish
+gtm:pistol_36	finish	Pistol 36	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_36	finish
+gtm:pistol_37	finish	Pistol 37	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_37	finish
+gtm:pistol_38	finish	Pistol 38	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_38	finish
+gtm:pistol_39	finish	Pistol 39	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_39	finish
+gtm:pistol_40	finish	Pistol 40	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_40	finish
+gtm:pistol_41	finish	Pistol 41	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_41	finish
+gtm:pistol_42	finish	Pistol 42	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_42	finish
+gtm:pistol_43	finish	Pistol 43	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_43	finish
+gtm:pistol_44	finish	Pistol 44	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_44	finish
+gtm:pistol_45	finish	Pistol 45	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_45	finish
+gtm:pistol_46	finish	Pistol 46	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_46	finish
+gtm:pistol_47	finish	Pistol 47	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_47	finish
+gtm:pistol_48	finish	Pistol 48	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_48	finish
+gtm:pistol_49	finish	Pistol 49	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_49	finish
+gtm:pistol_50	finish	Pistol 50	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_50	finish
+gtm:pistol_51	finish	Pistol 51	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_51	finish
+gtm:pistol_52	finish	Pistol 52	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_52	finish
+gtm:pistol_53	finish	Pistol 53	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_53	finish
+gtm:pistol_54	finish	Pistol 54	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_54	finish
+gtm:pistol_55	finish	Pistol 55	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_55	finish
+gtm:pistol_56	finish	Pistol 56	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_56	finish
+gtm:pistol_57	finish	Pistol 57	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_57	finish
+gtm:pistol_58	finish	Pistol 58	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_58	finish
+gtm:pistol_59	finish	Pistol 59	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_59	finish
+gtm:pistol_60	finish	Pistol 60	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_60	finish
+gtm:pistol_61	finish	Pistol 61	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_61	finish
+gtm:pistol_62	finish	Pistol 62	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_62	finish
+gtm:pistol_63	finish	Pistol 63	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_63	finish
+gtm:pistol_64	finish	Pistol 64	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_64	finish
+gtm:pistol_65	finish	Pistol 65	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_65	finish
+gtm:pistol_66	finish	Pistol 66	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_66	finish
+gtm:pistol_67	finish	Pistol 67	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_67	finish
+gtm:pistol_68	finish	Pistol 68	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_68	finish
+gtm:pistol_69	finish	Pistol 69	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_69	finish
+gtm:pistol_70	finish	Pistol 70	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_70	finish
+gtm:pistol_71	finish	Pistol 71	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_71	finish
+gtm:pistol_72	finish	Pistol 72	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_72	finish
+gtm:pistol_73	finish	Pistol 73	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_73	finish
+gtm:pistol_74	finish	Pistol 74	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_74	finish
+gtm:pistol_75	finish	Pistol 75	minecraft:iron_hoe	LEGACY_COMPATIBILITY	gtm:pistol_75	finish
+gtm:platform_bench_art_deco	furniture	Platform Bench · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:platform_bench_art_deco	city
+gtm:platform_bench_deccan	furniture	Platform Bench · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:platform_bench_deccan	city
+gtm:platform_bench_irani	furniture	Platform Bench · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:platform_bench_irani	city
+gtm:platform_bench_konkan	furniture	Platform Bench · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:platform_bench_konkan	city
+gtm:platform_bench_metro	furniture	Platform Bench · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:platform_bench_metro	city
+gtm:platform_clock	civic	Platform Clock	minecraft:paper	NATIVE_128	gtm:platform_clock	city
+gtm:platform_shunter	rail	Platform Shunter	minecraft:paper	LEGACY_COMPATIBILITY	gtm:platform_shunter	city
+gtm:platform_trolley_art_deco	furniture	Platform Trolley · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:platform_trolley_art_deco	city
+gtm:platform_trolley_deccan	furniture	Platform Trolley · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:platform_trolley_deccan	city
+gtm:platform_trolley_irani	furniture	Platform Trolley · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:platform_trolley_irani	city
+gtm:platform_trolley_konkan	furniture	Platform Trolley · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:platform_trolley_konkan	city
+gtm:platform_trolley_metro	furniture	Platform Trolley · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:platform_trolley_metro	city
+gtm:poha	food	Poha	minecraft:bread	ALIAS_128	gtm:food_poha	food
+gtm:pooja_mandir_shrine	furniture	Wall-Mounted Teak Home Mandir with Dome	minecraft:paper	NATIVE_128	gtm:pooja_mandir_shrine	city
+gtm:porter_cart_art_deco	furniture	Porter Cart · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:porter_cart_art_deco	city
+gtm:porter_cart_deccan	furniture	Porter Cart · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:porter_cart_deccan	city
+gtm:porter_cart_irani	furniture	Porter Cart · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:porter_cart_irani	city
+gtm:porter_cart_konkan	furniture	Porter Cart · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:porter_cart_konkan	city
+gtm:porter_cart_metro	furniture	Porter Cart · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:porter_cart_metro	city
+gtm:pos_pedestal_standalone	furniture	Touchscreen Tablet Self-Service Terminal	minecraft:paper	NATIVE_128	gtm:pos_pedestal_standalone	city
+gtm:postal_box	civic	Postal Box	minecraft:paper	NATIVE_128	gtm:postal_box	city
+gtm:pot_rack_hanging	furniture	Ceiling-Hung Wrought Iron Pan Gantry	minecraft:paper	NATIVE_128	gtm:pot_rack_hanging	city
+gtm:pouffe_cushion	furniture	Embroidered Cotton Round Floor Pouffe	minecraft:paper	NATIVE_128	gtm:pouffe_cushion	city
+gtm:presentation_screen	furniture	75-Inch Smart Interactive Display Stand	minecraft:paper	NATIVE_128	gtm:presentation_screen	city
+gtm:printer_copier_station	furniture	Heavy Duty Multifunction Floor Copier	minecraft:paper	NATIVE_128	gtm:printer_copier_station	city
+gtm:property_deed	property	Property Deed	minecraft:paper	NATIVE_128	gtm:property_deed	city
+gtm:public_emergency_pillar	furniture	Direct-to-SDPD Panic Intercom Column	minecraft:paper	NATIVE_128	gtm:public_emergency_pillar	city
+gtm:puran_poli	food	Puran Poli	minecraft:bread	ALIAS_128	gtm:food_puran_poli	food
+gtm:queue_post	civic	Queue Post	minecraft:paper	NATIVE_128	gtm:queue_post	city
+gtm:radio_console_art_deco	furniture	Radio Console · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:radio_console_art_deco	city
+gtm:radio_console_deccan	furniture	Radio Console · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:radio_console_deccan	city
+gtm:radio_console_irani	furniture	Radio Console · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:radio_console_irani	city
+gtm:radio_console_konkan	furniture	Radio Console · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:radio_console_konkan	city
+gtm:radio_console_metro	furniture	Radio Console · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:radio_console_metro	city
+gtm:radio_receiver	entertainment	Radio Receiver	minecraft:paper	NATIVE_128	gtm:radio_receiver	city
+gtm:ragda	food	Ragda	minecraft:bread	ALIAS_128	gtm:food_ragda	food
+gtm:rajput_45	weapons	Rajput .45 Heavy	minecraft:paper	NATIVE_128	gtm:rajput_45	prop
+gtm:rajput_45_bazaar_mosaic	finish_art	Rajput .45 Heavy / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:rajput_45_bazaar_mosaic	prop
+gtm:rajput_45_cyber_neon	finish_art	Rajput .45 Heavy / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:rajput_45_cyber_neon	prop
+gtm:rajput_45_deccan_chrome	finish_art	Rajput .45 Heavy / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:rajput_45_deccan_chrome	prop
+gtm:rajput_45_gold_leaf	finish_art	Rajput .45 Heavy / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:rajput_45_gold_leaf	prop
+gtm:rajput_45_graphite_stealth	finish_art	Rajput .45 Heavy / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:rajput_45_graphite_stealth	prop
+gtm:rajput_45_lotus_pearl	finish_art	Rajput .45 Heavy / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:rajput_45_lotus_pearl	prop
+gtm:rajput_45_maratha_rust	finish_art	Rajput .45 Heavy / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:rajput_45_maratha_rust	prop
+gtm:rajput_45_monsoon_camo	finish_art	Rajput .45 Heavy / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:rajput_45_monsoon_camo	prop
+gtm:rajput_45_royal_emerald	finish_art	Rajput .45 Heavy / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:rajput_45_royal_emerald	prop
+gtm:rajput_45_terracotta_dune	finish_art	Rajput .45 Heavy / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:rajput_45_terracotta_dune	prop
+gtm:reading_chair_art_deco	furniture	Reading Chair · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:reading_chair_art_deco	city
+gtm:reading_chair_deccan	furniture	Reading Chair · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:reading_chair_deccan	city
+gtm:reading_chair_irani	furniture	Reading Chair · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:reading_chair_irani	city
+gtm:reading_chair_konkan	furniture	Reading Chair · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:reading_chair_konkan	city
+gtm:reading_chair_metro	furniture	Reading Chair · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:reading_chair_metro	city
+gtm:reception_desk_art_deco	furniture	Reception Desk · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:reception_desk_art_deco	city
+gtm:reception_desk_deccan	furniture	Reception Desk · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:reception_desk_deccan	city
+gtm:reception_desk_irani	furniture	Reception Desk · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:reception_desk_irani	city
+gtm:reception_desk_konkan	furniture	Reception Desk · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:reception_desk_konkan	city
+gtm:reception_desk_metro	furniture	Reception Desk · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:reception_desk_metro	city
+gtm:reception_podium	furniture	Curved Front Welcome Security Desk	minecraft:paper	NATIVE_128	gtm:reception_podium	city
+gtm:refrigerator_french	furniture	Double-Door French Refrigerator	minecraft:paper	NATIVE_128	gtm:refrigerator_french	city
+gtm:rescue_helmet_harbour	protection	Harbour Rescue Helmet	minecraft:paper	NATIVE_128	gtm:rescue_helmet_harbour	city
+gtm:rescue_helmet_hill	protection	Hill Rescue Helmet	minecraft:paper	NATIVE_128	gtm:rescue_helmet_hill	city
+gtm:rescue_helmet_local	protection	Local Rescue Helmet	minecraft:paper	NATIVE_128	gtm:rescue_helmet_local	city
+gtm:rescue_helmet_metro	protection	Metro Rescue Helmet	minecraft:paper	NATIVE_128	gtm:rescue_helmet_metro	city
+gtm:rescue_helmet_night	protection	Night Rescue Helmet	minecraft:paper	NATIVE_128	gtm:rescue_helmet_night	city
+gtm:rescue_rib	marine	Rescue Rib	minecraft:paper	LEGACY_COMPATIBILITY	gtm:rescue_rib	city
+gtm:retail_cashwrap_wrap	furniture	Modern Retail Cashier Counter Wrap	minecraft:paper	NATIVE_128	gtm:retail_cashwrap_wrap	city
+gtm:retail_security_gate	furniture	EAS Anti-Theft Sensor Pedestal Pair	minecraft:paper	NATIVE_128	gtm:retail_security_gate	city
+gtm:rickshaw_cargo	road	Indra Loader Cargo 3-Wheeler	minecraft:paper	NATIVE_128	gtm:rickshaw_cargo	city
+gtm:rickshaw_cargo_critical	vehicle_state	Indra Loader Cargo 3-Wheeler / critical	minecraft:paper	NATIVE_128	gtm:rickshaw_cargo_critical	prop
+gtm:rickshaw_cargo_damaged	vehicle_state	Indra Loader Cargo 3-Wheeler / damaged	minecraft:paper	NATIVE_128	gtm:rickshaw_cargo_damaged	prop
+gtm:rickshaw_cargo_wreck	vehicle_state	Indra Loader Cargo 3-Wheeler / wreck	minecraft:paper	NATIVE_128	gtm:rickshaw_cargo_wreck	prop
+gtm:rickshaw_city	road	City Rickshaw	minecraft:paper	LEGACY_COMPATIBILITY	gtm:rickshaw_city	city
+gtm:rickshaw_courier	road	Courier Rickshaw	minecraft:paper	LEGACY_COMPATIBILITY	gtm:rickshaw_courier	city
+gtm:rickshaw_electric	road	Indra Mayuri E-Rickshaw	minecraft:paper	NATIVE_128	gtm:rickshaw_electric	city
+gtm:rickshaw_electric_critical	vehicle_state	Indra Mayuri E-Rickshaw / critical	minecraft:paper	NATIVE_128	gtm:rickshaw_electric_critical	prop
+gtm:rickshaw_electric_damaged	vehicle_state	Indra Mayuri E-Rickshaw / damaged	minecraft:paper	NATIVE_128	gtm:rickshaw_electric_damaged	prop
+gtm:rickshaw_electric_wreck	vehicle_state	Indra Mayuri E-Rickshaw / wreck	minecraft:paper	NATIVE_128	gtm:rickshaw_electric_wreck	prop
+gtm:rickshaw_rescue	road	Rescue Rickshaw	minecraft:paper	LEGACY_COMPATIBILITY	gtm:rickshaw_rescue	city
+gtm:rickshaw_touring	road	Touring Rickshaw	minecraft:paper	LEGACY_COMPATIBILITY	gtm:rickshaw_touring	city
+gtm:rickshaw_traditional	road	Indra Auto CNG Passenger	minecraft:paper	NATIVE_128	gtm:rickshaw_traditional	city
+gtm:rickshaw_traditional_critical	vehicle_state	Indra Auto CNG Passenger / critical	minecraft:paper	NATIVE_128	gtm:rickshaw_traditional_critical	prop
+gtm:rickshaw_traditional_damaged	vehicle_state	Indra Auto CNG Passenger / damaged	minecraft:paper	NATIVE_128	gtm:rickshaw_traditional_damaged	prop
+gtm:rickshaw_traditional_wreck	vehicle_state	Indra Auto CNG Passenger / wreck	minecraft:paper	NATIVE_128	gtm:rickshaw_traditional_wreck	prop
+gtm:rickshaw_utility	road	Utility Rickshaw	minecraft:paper	LEGACY_COMPATIBILITY	gtm:rickshaw_utility	city
+gtm:rifle_01	finish	Rifle 01	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_01	finish
+gtm:rifle_02	finish	Rifle 02	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_02	finish
+gtm:rifle_03	finish	Rifle 03	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_03	finish
+gtm:rifle_04	finish	Rifle 04	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_04	finish
+gtm:rifle_05	finish	Rifle 05	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_05	finish
+gtm:rifle_06	finish	Rifle 06	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_06	finish
+gtm:rifle_07	finish	Rifle 07	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_07	finish
+gtm:rifle_08	finish	Rifle 08	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_08	finish
+gtm:rifle_09	finish	Rifle 09	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_09	finish
+gtm:rifle_10	finish	Rifle 10	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_10	finish
+gtm:rifle_11	finish	Rifle 11	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_11	finish
+gtm:rifle_12	finish	Rifle 12	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_12	finish
+gtm:rifle_13	finish	Rifle 13	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_13	finish
+gtm:rifle_14	finish	Rifle 14	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_14	finish
+gtm:rifle_15	finish	Rifle 15	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_15	finish
+gtm:rifle_16	finish	Rifle 16	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_16	finish
+gtm:rifle_17	finish	Rifle 17	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_17	finish
+gtm:rifle_18	finish	Rifle 18	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_18	finish
+gtm:rifle_19	finish	Rifle 19	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_19	finish
+gtm:rifle_20	finish	Rifle 20	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_20	finish
+gtm:rifle_21	finish	Rifle 21	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_21	finish
+gtm:rifle_22	finish	Rifle 22	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_22	finish
+gtm:rifle_23	finish	Rifle 23	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_23	finish
+gtm:rifle_24	finish	Rifle 24	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_24	finish
+gtm:rifle_25	finish	Rifle 25	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_25	finish
+gtm:rifle_26	finish	Rifle 26	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_26	finish
+gtm:rifle_27	finish	Rifle 27	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_27	finish
+gtm:rifle_28	finish	Rifle 28	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_28	finish
+gtm:rifle_29	finish	Rifle 29	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_29	finish
+gtm:rifle_30	finish	Rifle 30	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_30	finish
+gtm:rifle_31	finish	Rifle 31	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_31	finish
+gtm:rifle_32	finish	Rifle 32	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_32	finish
+gtm:rifle_33	finish	Rifle 33	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_33	finish
+gtm:rifle_34	finish	Rifle 34	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_34	finish
+gtm:rifle_35	finish	Rifle 35	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_35	finish
+gtm:rifle_36	finish	Rifle 36	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_36	finish
+gtm:rifle_37	finish	Rifle 37	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_37	finish
+gtm:rifle_38	finish	Rifle 38	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_38	finish
+gtm:rifle_39	finish	Rifle 39	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_39	finish
+gtm:rifle_40	finish	Rifle 40	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_40	finish
+gtm:rifle_41	finish	Rifle 41	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_41	finish
+gtm:rifle_42	finish	Rifle 42	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_42	finish
+gtm:rifle_43	finish	Rifle 43	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_43	finish
+gtm:rifle_44	finish	Rifle 44	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_44	finish
+gtm:rifle_45	finish	Rifle 45	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_45	finish
+gtm:rifle_46	finish	Rifle 46	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_46	finish
+gtm:rifle_47	finish	Rifle 47	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_47	finish
+gtm:rifle_48	finish	Rifle 48	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_48	finish
+gtm:rifle_49	finish	Rifle 49	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_49	finish
+gtm:rifle_50	finish	Rifle 50	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_50	finish
+gtm:rifle_51	finish	Rifle 51	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_51	finish
+gtm:rifle_52	finish	Rifle 52	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_52	finish
+gtm:rifle_53	finish	Rifle 53	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_53	finish
+gtm:rifle_54	finish	Rifle 54	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_54	finish
+gtm:rifle_55	finish	Rifle 55	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_55	finish
+gtm:rifle_56	finish	Rifle 56	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_56	finish
+gtm:rifle_57	finish	Rifle 57	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_57	finish
+gtm:rifle_58	finish	Rifle 58	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_58	finish
+gtm:rifle_59	finish	Rifle 59	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_59	finish
+gtm:rifle_60	finish	Rifle 60	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_60	finish
+gtm:rifle_61	finish	Rifle 61	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_61	finish
+gtm:rifle_62	finish	Rifle 62	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_62	finish
+gtm:rifle_63	finish	Rifle 63	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_63	finish
+gtm:rifle_64	finish	Rifle 64	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_64	finish
+gtm:rifle_65	finish	Rifle 65	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_65	finish
+gtm:rifle_66	finish	Rifle 66	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_66	finish
+gtm:rifle_67	finish	Rifle 67	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_67	finish
+gtm:rifle_68	finish	Rifle 68	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_68	finish
+gtm:rifle_69	finish	Rifle 69	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_69	finish
+gtm:rifle_70	finish	Rifle 70	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_70	finish
+gtm:rifle_71	finish	Rifle 71	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_71	finish
+gtm:rifle_72	finish	Rifle 72	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_72	finish
+gtm:rifle_73	finish	Rifle 73	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_73	finish
+gtm:rifle_74	finish	Rifle 74	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_74	finish
+gtm:rifle_75	finish	Rifle 75	minecraft:netherite_hoe	LEGACY_COMPATIBILITY	gtm:rifle_75	finish
+gtm:riot_shield_rack	furniture	Mobile Interlocking Lexan Shield Stand	minecraft:paper	NATIVE_128	gtm:riot_shield_rack	city
+gtm:ro_water_purifier	furniture	Wall-Mount Active Carbon RO Filter	minecraft:paper	NATIVE_128	gtm:ro_water_purifier	city
+gtm:road_barrier	civic	Road Barrier	minecraft:paper	NATIVE_128	gtm:road_barrier	city
+gtm:road_cone	civic	Road Cone	minecraft:paper	NATIVE_128	gtm:road_cone	city
+gtm:rolling_tool_cabinet	furniture	14-Drawer Ball-Bearing Mechanic Trolley	minecraft:paper	NATIVE_128	gtm:rolling_tool_cabinet	city
+gtm:rooftop_satellite_dish	furniture	High-Gain Parabolic Telecom Dish Array	minecraft:paper	NATIVE_128	gtm:rooftop_satellite_dish	city
+gtm:room_divider_jali	furniture	Laser-Cut Wooden Jali Privacy Screen	minecraft:paper	NATIVE_128	gtm:room_divider_jali	city
+gtm:sahyadri_enforcer	weapons	Sahyadri Enforcer Riot 12G	minecraft:paper	NATIVE_128	gtm:sahyadri_enforcer	prop
+gtm:sahyadri_enforcer_bazaar_mosaic	finish_art	Sahyadri Enforcer Riot 12G / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:sahyadri_enforcer_bazaar_mosaic	prop
+gtm:sahyadri_enforcer_cyber_neon	finish_art	Sahyadri Enforcer Riot 12G / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:sahyadri_enforcer_cyber_neon	prop
+gtm:sahyadri_enforcer_deccan_chrome	finish_art	Sahyadri Enforcer Riot 12G / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:sahyadri_enforcer_deccan_chrome	prop
+gtm:sahyadri_enforcer_gold_leaf	finish_art	Sahyadri Enforcer Riot 12G / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:sahyadri_enforcer_gold_leaf	prop
+gtm:sahyadri_enforcer_graphite_stealth	finish_art	Sahyadri Enforcer Riot 12G / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:sahyadri_enforcer_graphite_stealth	prop
+gtm:sahyadri_enforcer_lotus_pearl	finish_art	Sahyadri Enforcer Riot 12G / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:sahyadri_enforcer_lotus_pearl	prop
+gtm:sahyadri_enforcer_maratha_rust	finish_art	Sahyadri Enforcer Riot 12G / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:sahyadri_enforcer_maratha_rust	prop
+gtm:sahyadri_enforcer_monsoon_camo	finish_art	Sahyadri Enforcer Riot 12G / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:sahyadri_enforcer_monsoon_camo	prop
+gtm:sahyadri_enforcer_royal_emerald	finish_art	Sahyadri Enforcer Riot 12G / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:sahyadri_enforcer_royal_emerald	prop
+gtm:sahyadri_enforcer_terracotta_dune	finish_art	Sahyadri Enforcer Riot 12G / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:sahyadri_enforcer_terracotta_dune	prop
+gtm:sailing_dinghy	marine	Sailing Dinghy	minecraft:paper	LEGACY_COMPATIBILITY	gtm:sailing_dinghy	city
+gtm:salon_recliner_art_deco	furniture	Salon Recliner · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:salon_recliner_art_deco	city
+gtm:salon_recliner_deccan	furniture	Salon Recliner · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:salon_recliner_deccan	city
+gtm:salon_recliner_irani	furniture	Salon Recliner · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:salon_recliner_irani	city
+gtm:salon_recliner_konkan	furniture	Salon Recliner · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:salon_recliner_konkan	city
+gtm:salon_recliner_metro	furniture	Salon Recliner · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:salon_recliner_metro	city
+gtm:samosa	food	Samosa	minecraft:bread	ALIAS_128	gtm:food_samosa	food
+gtm:sandesh	food	Sandesh	minecraft:bread	ALIAS_128	gtm:food_sandesh	food
+gtm:sankranti_balcony_screen	festival	Makar Sankranti Balcony Screen	minecraft:paper	NATIVE_128	gtm:sankranti_balcony_screen	city
+gtm:sankranti_bandstand	festival	Makar Sankranti Bandstand	minecraft:paper	NATIVE_128	gtm:sankranti_bandstand	city
+gtm:sankranti_counterpiece	festival	Makar Sankranti Counterpiece	minecraft:paper	NATIVE_128	gtm:sankranti_counterpiece	city
+gtm:sankranti_door_emblem	festival	Makar Sankranti Door Emblem	minecraft:paper	NATIVE_128	gtm:sankranti_door_emblem	city
+gtm:sankranti_gateway	festival	Makar Sankranti Gateway	minecraft:paper	NATIVE_128	gtm:sankranti_gateway	city
+gtm:sankranti_market_booth	festival	Makar Sankranti Market Booth	minecraft:paper	NATIVE_128	gtm:sankranti_market_booth	city
+gtm:sankranti_parade_standard	festival	Makar Sankranti Parade Standard	minecraft:paper	NATIVE_128	gtm:sankranti_parade_standard	city
+gtm:sankranti_procession_cart	festival	Makar Sankranti Procession Cart	minecraft:paper	NATIVE_128	gtm:sankranti_procession_cart	city
+gtm:sankranti_stage_backdrop	festival	Makar Sankranti Stage Backdrop	minecraft:paper	NATIVE_128	gtm:sankranti_stage_backdrop	city
+gtm:sankranti_street_arch	festival	Makar Sankranti Street Arch	minecraft:paper	NATIVE_128	gtm:sankranti_street_arch	city
+gtm:sankranti_street_banner	festival	Makar Sankranti Street Banner	minecraft:paper	NATIVE_128	gtm:sankranti_street_banner	city
+gtm:sankranti_window_lantern	festival	Makar Sankranti Window Lantern	minecraft:paper	NATIVE_128	gtm:sankranti_window_lantern	city
+gtm:scooter_access	road	Maruva Access 125	minecraft:paper	NATIVE_128	gtm:scooter_access	city
+gtm:scooter_access_critical	vehicle_state	Maruva Access 125 / critical	minecraft:paper	NATIVE_128	gtm:scooter_access_critical	prop
+gtm:scooter_access_damaged	vehicle_state	Maruva Access 125 / damaged	minecraft:paper	NATIVE_128	gtm:scooter_access_damaged	prop
+gtm:scooter_access_wreck	vehicle_state	Maruva Access 125 / wreck	minecraft:paper	NATIVE_128	gtm:scooter_access_wreck	prop
+gtm:scooter_activa	road	Hondo Activa 6G Commuter	minecraft:paper	NATIVE_128	gtm:scooter_activa	city
+gtm:scooter_activa_critical	vehicle_state	Hondo Activa 6G Commuter / critical	minecraft:paper	NATIVE_128	gtm:scooter_activa_critical	prop
+gtm:scooter_activa_damaged	vehicle_state	Hondo Activa 6G Commuter / damaged	minecraft:paper	NATIVE_128	gtm:scooter_activa_damaged	prop
+gtm:scooter_activa_wreck	vehicle_state	Hondo Activa 6G Commuter / wreck	minecraft:paper	NATIVE_128	gtm:scooter_activa_wreck	prop
+gtm:scooter_ather	road	Tavara Ather 450X EV	minecraft:paper	NATIVE_128	gtm:scooter_ather	city
+gtm:scooter_ather_critical	vehicle_state	Tavara Ather 450X EV / critical	minecraft:paper	NATIVE_128	gtm:scooter_ather_critical	prop
+gtm:scooter_ather_damaged	vehicle_state	Tavara Ather 450X EV / damaged	minecraft:paper	NATIVE_128	gtm:scooter_ather_damaged	prop
+gtm:scooter_ather_wreck	vehicle_state	Tavara Ather 450X EV / wreck	minecraft:paper	NATIVE_128	gtm:scooter_ather_wreck	prop
+gtm:scooter_city	road	City Scooter	minecraft:paper	LEGACY_COMPATIBILITY	gtm:scooter_city	city
+gtm:scooter_courier	road	Courier Scooter	minecraft:paper	LEGACY_COMPATIBILITY	gtm:scooter_courier	city
+gtm:scooter_jupiter	road	Tavara Jupiter Metal	minecraft:paper	NATIVE_128	gtm:scooter_jupiter	city
+gtm:scooter_jupiter_critical	vehicle_state	Tavara Jupiter Metal / critical	minecraft:paper	NATIVE_128	gtm:scooter_jupiter_critical	prop
+gtm:scooter_jupiter_damaged	vehicle_state	Tavara Jupiter Metal / damaged	minecraft:paper	NATIVE_128	gtm:scooter_jupiter_damaged	prop
+gtm:scooter_jupiter_wreck	vehicle_state	Tavara Jupiter Metal / wreck	minecraft:paper	NATIVE_128	gtm:scooter_jupiter_wreck	prop
+gtm:scooter_rescue	road	Rescue Scooter	minecraft:paper	LEGACY_COMPATIBILITY	gtm:scooter_rescue	city
+gtm:scooter_touring	road	Touring Scooter	minecraft:paper	LEGACY_COMPATIBILITY	gtm:scooter_touring	city
+gtm:scooter_utility	road	Utility Scooter	minecraft:paper	LEGACY_COMPATIBILITY	gtm:scooter_utility	city
+gtm:scrub_sink_double	furniture	Knee-Operated Surgical Scrub Sink	minecraft:paper	NATIVE_128	gtm:scrub_sink_double	city
+gtm:sectional_sofa	furniture	Sectional Fabric Lounge Sofa	minecraft:paper	NATIVE_128	gtm:sectional_sofa	city
+gtm:security_checkpoint_barrier	furniture	Counterweighted Boom Gate Arm	minecraft:paper	NATIVE_128	gtm:security_checkpoint_barrier	city
+gtm:security_turnstile_rfid	furniture	Optical Glass Flap Access Barrier	minecraft:paper	NATIVE_128	gtm:security_turnstile_rfid	city
+gtm:sedan_amaze	road	Hondo Accord Classic	minecraft:paper	NATIVE_128	gtm:sedan_amaze	city
+gtm:sedan_amaze_critical	vehicle_state	Hondo Accord Classic / critical	minecraft:paper	NATIVE_128	gtm:sedan_amaze_critical	prop
+gtm:sedan_amaze_damaged	vehicle_state	Hondo Accord Classic / damaged	minecraft:paper	NATIVE_128	gtm:sedan_amaze_damaged	prop
+gtm:sedan_amaze_wreck	vehicle_state	Hondo Accord Classic / wreck	minecraft:paper	NATIVE_128	gtm:sedan_amaze_wreck	prop
+gtm:sedan_aura	road	Hondo Compact Sedan	minecraft:paper	NATIVE_128	gtm:sedan_aura	city
+gtm:sedan_aura_critical	vehicle_state	Hondo Compact Sedan / critical	minecraft:paper	NATIVE_128	gtm:sedan_aura_critical	prop
+gtm:sedan_aura_damaged	vehicle_state	Hondo Compact Sedan / damaged	minecraft:paper	NATIVE_128	gtm:sedan_aura_damaged	prop
+gtm:sedan_aura_wreck	vehicle_state	Hondo Compact Sedan / wreck	minecraft:paper	NATIVE_128	gtm:sedan_aura_wreck	prop
+gtm:sedan_city	road	City Sedan	minecraft:paper	NATIVE_128	gtm:sedan_city	city
+gtm:sedan_city_critical	vehicle_state	Toyora City Cruiser / critical	minecraft:paper	NATIVE_128	gtm:sedan_city_critical	prop
+gtm:sedan_city_damaged	vehicle_state	Toyora City Cruiser / damaged	minecraft:paper	NATIVE_128	gtm:sedan_city_damaged	prop
+gtm:sedan_city_wreck	vehicle_state	Toyora City Cruiser / wreck	minecraft:paper	NATIVE_128	gtm:sedan_city_wreck	prop
+gtm:sedan_courier	road	Courier Sedan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:sedan_courier	city
+gtm:sedan_dzire	road	Maruva Swift Sedan	minecraft:paper	NATIVE_128	gtm:sedan_dzire	city
+gtm:sedan_dzire_critical	vehicle_state	Maruva Swift Sedan / critical	minecraft:paper	NATIVE_128	gtm:sedan_dzire_critical	prop
+gtm:sedan_dzire_damaged	vehicle_state	Maruva Swift Sedan / damaged	minecraft:paper	NATIVE_128	gtm:sedan_dzire_damaged	prop
+gtm:sedan_dzire_wreck	vehicle_state	Maruva Swift Sedan / wreck	minecraft:paper	NATIVE_128	gtm:sedan_dzire_wreck	prop
+gtm:sedan_rescue	road	Rescue Sedan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:sedan_rescue	city
+gtm:sedan_slavia	road	Toyora Regal Sedan	minecraft:paper	NATIVE_128	gtm:sedan_slavia	city
+gtm:sedan_slavia_critical	vehicle_state	Toyora Regal Sedan / critical	minecraft:paper	NATIVE_128	gtm:sedan_slavia_critical	prop
+gtm:sedan_slavia_damaged	vehicle_state	Toyora Regal Sedan / damaged	minecraft:paper	NATIVE_128	gtm:sedan_slavia_damaged	prop
+gtm:sedan_slavia_wreck	vehicle_state	Toyora Regal Sedan / wreck	minecraft:paper	NATIVE_128	gtm:sedan_slavia_wreck	prop
+gtm:sedan_touring	road	Touring Sedan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:sedan_touring	city
+gtm:sedan_utility	road	Utility Sedan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:sedan_utility	city
+gtm:sedan_verna	road	Hondo Verna Executive	minecraft:paper	NATIVE_128	gtm:sedan_verna	city
+gtm:sedan_verna_critical	vehicle_state	Hondo Verna Executive / critical	minecraft:paper	NATIVE_128	gtm:sedan_verna_critical	prop
+gtm:sedan_verna_damaged	vehicle_state	Hondo Verna Executive / damaged	minecraft:paper	NATIVE_128	gtm:sedan_verna_damaged	prop
+gtm:sedan_verna_wreck	vehicle_state	Hondo Verna Executive / wreck	minecraft:paper	NATIVE_128	gtm:sedan_verna_wreck	prop
+gtm:server_rack_half	furniture	18U Sound-Dampened Network Rack	minecraft:paper	NATIVE_128	gtm:server_rack_half	city
+gtm:service_kiosk	civic	Service Kiosk	minecraft:paper	NATIVE_128	gtm:service_kiosk	city
+gtm:sev_puri	food	Sev Puri	minecraft:bread	ALIAS_128	gtm:food_sev_puri	food
+gtm:sheera	food	Sheera	minecraft:bread	ALIAS_128	gtm:food_sheera	food
+gtm:sher_pump	weapons	Sher 12G Tactical Pump	minecraft:paper	NATIVE_128	gtm:sher_pump	prop
+gtm:sher_pump_bazaar_mosaic	finish_art	Sher 12G Tactical Pump / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:sher_pump_bazaar_mosaic	prop
+gtm:sher_pump_cyber_neon	finish_art	Sher 12G Tactical Pump / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:sher_pump_cyber_neon	prop
+gtm:sher_pump_deccan_chrome	finish_art	Sher 12G Tactical Pump / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:sher_pump_deccan_chrome	prop
+gtm:sher_pump_gold_leaf	finish_art	Sher 12G Tactical Pump / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:sher_pump_gold_leaf	prop
+gtm:sher_pump_graphite_stealth	finish_art	Sher 12G Tactical Pump / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:sher_pump_graphite_stealth	prop
+gtm:sher_pump_lotus_pearl	finish_art	Sher 12G Tactical Pump / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:sher_pump_lotus_pearl	prop
+gtm:sher_pump_maratha_rust	finish_art	Sher 12G Tactical Pump / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:sher_pump_maratha_rust	prop
+gtm:sher_pump_monsoon_camo	finish_art	Sher 12G Tactical Pump / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:sher_pump_monsoon_camo	prop
+gtm:sher_pump_royal_emerald	finish_art	Sher 12G Tactical Pump / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:sher_pump_royal_emerald	prop
+gtm:sher_pump_terracotta_dune	finish_art	Sher 12G Tactical Pump / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:sher_pump_terracotta_dune	prop
+gtm:shikari_pdw	weapons	Shikari Personal Defense Weapon	minecraft:paper	NATIVE_128	gtm:shikari_pdw	prop
+gtm:shikari_pdw_bazaar_mosaic	finish_art	Shikari Personal Defense Weapon / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:shikari_pdw_bazaar_mosaic	prop
+gtm:shikari_pdw_cyber_neon	finish_art	Shikari Personal Defense Weapon / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:shikari_pdw_cyber_neon	prop
+gtm:shikari_pdw_deccan_chrome	finish_art	Shikari Personal Defense Weapon / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:shikari_pdw_deccan_chrome	prop
+gtm:shikari_pdw_gold_leaf	finish_art	Shikari Personal Defense Weapon / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:shikari_pdw_gold_leaf	prop
+gtm:shikari_pdw_graphite_stealth	finish_art	Shikari Personal Defense Weapon / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:shikari_pdw_graphite_stealth	prop
+gtm:shikari_pdw_lotus_pearl	finish_art	Shikari Personal Defense Weapon / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:shikari_pdw_lotus_pearl	prop
+gtm:shikari_pdw_maratha_rust	finish_art	Shikari Personal Defense Weapon / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:shikari_pdw_maratha_rust	prop
+gtm:shikari_pdw_monsoon_camo	finish_art	Shikari Personal Defense Weapon / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:shikari_pdw_monsoon_camo	prop
+gtm:shikari_pdw_royal_emerald	finish_art	Shikari Personal Defense Weapon / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:shikari_pdw_royal_emerald	prop
+gtm:shikari_pdw_terracotta_dune	finish_art	Shikari Personal Defense Weapon / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:shikari_pdw_terracotta_dune	prop
+gtm:shoe_display_wall	furniture	Slatwall Angled Footwear Display Unit	minecraft:paper	NATIVE_128	gtm:shoe_display_wall	city
+gtm:shoe_rack_art_deco	furniture	Shoe Rack · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:shoe_rack_art_deco	city
+gtm:shoe_rack_deccan	furniture	Shoe Rack · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:shoe_rack_deccan	city
+gtm:shoe_rack_irani	furniture	Shoe Rack · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:shoe_rack_irani	city
+gtm:shoe_rack_konkan	furniture	Shoe Rack · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:shoe_rack_konkan	city
+gtm:shoe_rack_metro	furniture	Shoe Rack · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:shoe_rack_metro	city
+gtm:shopping_cart_nest	furniture	Row of 10 Interlocked Wire Supermarket Carts	minecraft:paper	NATIVE_128	gtm:shopping_cart_nest	city
+gtm:shotgun_01	finish	Shotgun 01	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_01	finish
+gtm:shotgun_02	finish	Shotgun 02	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_02	finish
+gtm:shotgun_03	finish	Shotgun 03	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_03	finish
+gtm:shotgun_04	finish	Shotgun 04	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_04	finish
+gtm:shotgun_05	finish	Shotgun 05	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_05	finish
+gtm:shotgun_06	finish	Shotgun 06	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_06	finish
+gtm:shotgun_07	finish	Shotgun 07	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_07	finish
+gtm:shotgun_08	finish	Shotgun 08	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_08	finish
+gtm:shotgun_09	finish	Shotgun 09	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_09	finish
+gtm:shotgun_10	finish	Shotgun 10	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_10	finish
+gtm:shotgun_11	finish	Shotgun 11	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_11	finish
+gtm:shotgun_12	finish	Shotgun 12	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_12	finish
+gtm:shotgun_13	finish	Shotgun 13	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_13	finish
+gtm:shotgun_14	finish	Shotgun 14	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_14	finish
+gtm:shotgun_15	finish	Shotgun 15	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_15	finish
+gtm:shotgun_16	finish	Shotgun 16	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_16	finish
+gtm:shotgun_17	finish	Shotgun 17	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_17	finish
+gtm:shotgun_18	finish	Shotgun 18	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_18	finish
+gtm:shotgun_19	finish	Shotgun 19	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_19	finish
+gtm:shotgun_20	finish	Shotgun 20	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_20	finish
+gtm:shotgun_21	finish	Shotgun 21	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_21	finish
+gtm:shotgun_22	finish	Shotgun 22	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_22	finish
+gtm:shotgun_23	finish	Shotgun 23	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_23	finish
+gtm:shotgun_24	finish	Shotgun 24	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_24	finish
+gtm:shotgun_25	finish	Shotgun 25	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_25	finish
+gtm:shotgun_26	finish	Shotgun 26	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_26	finish
+gtm:shotgun_27	finish	Shotgun 27	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_27	finish
+gtm:shotgun_28	finish	Shotgun 28	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_28	finish
+gtm:shotgun_29	finish	Shotgun 29	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_29	finish
+gtm:shotgun_30	finish	Shotgun 30	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_30	finish
+gtm:shotgun_31	finish	Shotgun 31	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_31	finish
+gtm:shotgun_32	finish	Shotgun 32	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_32	finish
+gtm:shotgun_33	finish	Shotgun 33	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_33	finish
+gtm:shotgun_34	finish	Shotgun 34	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_34	finish
+gtm:shotgun_35	finish	Shotgun 35	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_35	finish
+gtm:shotgun_36	finish	Shotgun 36	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_36	finish
+gtm:shotgun_37	finish	Shotgun 37	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_37	finish
+gtm:shotgun_38	finish	Shotgun 38	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_38	finish
+gtm:shotgun_39	finish	Shotgun 39	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_39	finish
+gtm:shotgun_40	finish	Shotgun 40	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_40	finish
+gtm:shotgun_41	finish	Shotgun 41	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_41	finish
+gtm:shotgun_42	finish	Shotgun 42	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_42	finish
+gtm:shotgun_43	finish	Shotgun 43	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_43	finish
+gtm:shotgun_44	finish	Shotgun 44	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_44	finish
+gtm:shotgun_45	finish	Shotgun 45	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_45	finish
+gtm:shotgun_46	finish	Shotgun 46	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_46	finish
+gtm:shotgun_47	finish	Shotgun 47	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_47	finish
+gtm:shotgun_48	finish	Shotgun 48	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_48	finish
+gtm:shotgun_49	finish	Shotgun 49	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_49	finish
+gtm:shotgun_50	finish	Shotgun 50	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_50	finish
+gtm:shotgun_51	finish	Shotgun 51	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_51	finish
+gtm:shotgun_52	finish	Shotgun 52	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_52	finish
+gtm:shotgun_53	finish	Shotgun 53	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_53	finish
+gtm:shotgun_54	finish	Shotgun 54	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_54	finish
+gtm:shotgun_55	finish	Shotgun 55	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_55	finish
+gtm:shotgun_56	finish	Shotgun 56	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_56	finish
+gtm:shotgun_57	finish	Shotgun 57	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_57	finish
+gtm:shotgun_58	finish	Shotgun 58	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_58	finish
+gtm:shotgun_59	finish	Shotgun 59	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_59	finish
+gtm:shotgun_60	finish	Shotgun 60	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_60	finish
+gtm:shotgun_61	finish	Shotgun 61	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_61	finish
+gtm:shotgun_62	finish	Shotgun 62	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_62	finish
+gtm:shotgun_63	finish	Shotgun 63	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_63	finish
+gtm:shotgun_64	finish	Shotgun 64	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_64	finish
+gtm:shotgun_65	finish	Shotgun 65	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_65	finish
+gtm:shotgun_66	finish	Shotgun 66	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_66	finish
+gtm:shotgun_67	finish	Shotgun 67	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_67	finish
+gtm:shotgun_68	finish	Shotgun 68	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_68	finish
+gtm:shotgun_69	finish	Shotgun 69	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_69	finish
+gtm:shotgun_70	finish	Shotgun 70	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_70	finish
+gtm:shotgun_71	finish	Shotgun 71	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_71	finish
+gtm:shotgun_72	finish	Shotgun 72	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_72	finish
+gtm:shotgun_73	finish	Shotgun 73	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_73	finish
+gtm:shotgun_74	finish	Shotgun 74	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_74	finish
+gtm:shotgun_75	finish	Shotgun 75	minecraft:golden_hoe	LEGACY_COMPATIBILITY	gtm:shotgun_75	finish
+gtm:shredder_bin	furniture	High-Security Cross-Cut Paper Shredder	minecraft:paper	NATIVE_128	gtm:shredder_bin	city
+gtm:sindoor_box_meenakari	furniture	Enamelled Meenakari Brass Trinket Chest	minecraft:paper	NATIVE_128	gtm:sindoor_box_meenakari	city
+gtm:single_cot_wood	furniture	Solid Sheesham Single Platform Bed	minecraft:paper	NATIVE_128	gtm:single_cot_wood	city
+gtm:sitar_wooden_stand	furniture	Carved Gourd Sitar Instrument & Display	minecraft:paper	NATIVE_128	gtm:sitar_wooden_stand	city
+gtm:skylink_accessible	rail	Skylink Accessible	minecraft:paper	NATIVE_128	gtm:skylink_accessible	city
+gtm:skylink_cabin	rail	Skylink Cabin	minecraft:paper	NATIVE_128	gtm:skylink_cabin	city
+gtm:skylink_grip	rail	SkyLink Detachable Cable Grip Assembly	minecraft:paper	NATIVE_128	gtm:skylink_grip	city
+gtm:skylink_terminal_machinery	rail	SkyLink Terminal Drive Bullwheel & Bullgear	minecraft:paper	NATIVE_128	gtm:skylink_terminal_machinery	city
+gtm:smg_01	finish	Smg 01	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_01	finish
+gtm:smg_02	finish	Smg 02	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_02	finish
+gtm:smg_03	finish	Smg 03	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_03	finish
+gtm:smg_04	finish	Smg 04	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_04	finish
+gtm:smg_05	finish	Smg 05	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_05	finish
+gtm:smg_06	finish	Smg 06	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_06	finish
+gtm:smg_07	finish	Smg 07	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_07	finish
+gtm:smg_08	finish	Smg 08	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_08	finish
+gtm:smg_09	finish	Smg 09	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_09	finish
+gtm:smg_10	finish	Smg 10	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_10	finish
+gtm:smg_11	finish	Smg 11	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_11	finish
+gtm:smg_12	finish	Smg 12	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_12	finish
+gtm:smg_13	finish	Smg 13	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_13	finish
+gtm:smg_14	finish	Smg 14	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_14	finish
+gtm:smg_15	finish	Smg 15	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_15	finish
+gtm:smg_16	finish	Smg 16	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_16	finish
+gtm:smg_17	finish	Smg 17	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_17	finish
+gtm:smg_18	finish	Smg 18	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_18	finish
+gtm:smg_19	finish	Smg 19	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_19	finish
+gtm:smg_20	finish	Smg 20	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_20	finish
+gtm:smg_21	finish	Smg 21	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_21	finish
+gtm:smg_22	finish	Smg 22	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_22	finish
+gtm:smg_23	finish	Smg 23	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_23	finish
+gtm:smg_24	finish	Smg 24	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_24	finish
+gtm:smg_25	finish	Smg 25	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_25	finish
+gtm:smg_26	finish	Smg 26	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_26	finish
+gtm:smg_27	finish	Smg 27	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_27	finish
+gtm:smg_28	finish	Smg 28	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_28	finish
+gtm:smg_29	finish	Smg 29	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_29	finish
+gtm:smg_30	finish	Smg 30	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_30	finish
+gtm:smg_31	finish	Smg 31	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_31	finish
+gtm:smg_32	finish	Smg 32	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_32	finish
+gtm:smg_33	finish	Smg 33	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_33	finish
+gtm:smg_34	finish	Smg 34	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_34	finish
+gtm:smg_35	finish	Smg 35	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_35	finish
+gtm:smg_36	finish	Smg 36	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_36	finish
+gtm:smg_37	finish	Smg 37	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_37	finish
+gtm:smg_38	finish	Smg 38	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_38	finish
+gtm:smg_39	finish	Smg 39	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_39	finish
+gtm:smg_40	finish	Smg 40	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_40	finish
+gtm:smg_41	finish	Smg 41	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_41	finish
+gtm:smg_42	finish	Smg 42	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_42	finish
+gtm:smg_43	finish	Smg 43	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_43	finish
+gtm:smg_44	finish	Smg 44	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_44	finish
+gtm:smg_45	finish	Smg 45	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_45	finish
+gtm:smg_46	finish	Smg 46	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_46	finish
+gtm:smg_47	finish	Smg 47	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_47	finish
+gtm:smg_48	finish	Smg 48	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_48	finish
+gtm:smg_49	finish	Smg 49	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_49	finish
+gtm:smg_50	finish	Smg 50	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_50	finish
+gtm:smg_51	finish	Smg 51	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_51	finish
+gtm:smg_52	finish	Smg 52	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_52	finish
+gtm:smg_53	finish	Smg 53	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_53	finish
+gtm:smg_54	finish	Smg 54	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_54	finish
+gtm:smg_55	finish	Smg 55	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_55	finish
+gtm:smg_56	finish	Smg 56	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_56	finish
+gtm:smg_57	finish	Smg 57	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_57	finish
+gtm:smg_58	finish	Smg 58	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_58	finish
+gtm:smg_59	finish	Smg 59	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_59	finish
+gtm:smg_60	finish	Smg 60	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_60	finish
+gtm:smg_61	finish	Smg 61	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_61	finish
+gtm:smg_62	finish	Smg 62	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_62	finish
+gtm:smg_63	finish	Smg 63	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_63	finish
+gtm:smg_64	finish	Smg 64	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_64	finish
+gtm:smg_65	finish	Smg 65	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_65	finish
+gtm:smg_66	finish	Smg 66	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_66	finish
+gtm:smg_67	finish	Smg 67	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_67	finish
+gtm:smg_68	finish	Smg 68	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_68	finish
+gtm:smg_69	finish	Smg 69	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_69	finish
+gtm:smg_70	finish	Smg 70	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_70	finish
+gtm:smg_71	finish	Smg 71	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_71	finish
+gtm:smg_72	finish	Smg 72	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_72	finish
+gtm:smg_73	finish	Smg 73	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_73	finish
+gtm:smg_74	finish	Smg 74	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_74	finish
+gtm:smg_75	finish	Smg 75	minecraft:diamond_hoe	LEGACY_COMPATIBILITY	gtm:smg_75	finish
+gtm:snack_vending_machine	furniture	Coil-Drop Snack & Cold Drink Vendor	minecraft:paper	NATIVE_128	gtm:snack_vending_machine	city
+gtm:spark_orb	effect	Spark Orb	minecraft:paper	NATIVE_128	gtm:spark_orb	city
+gtm:speaker_stack	entertainment	Speaker Stack	minecraft:paper	NATIVE_128	gtm:speaker_stack	city
+gtm:speed_camera_gantry	furniture	Overhead Automatic Radar Flash Housing	minecraft:paper	NATIVE_128	gtm:speed_camera_gantry	city
+gtm:spice_box_masala_dabba	furniture	Circular 7-Cup Stainless Spicewell with Lid	minecraft:paper	NATIVE_128	gtm:spice_box_masala_dabba	city
+gtm:spice_rack_carousel	furniture	3-Tier Rotating Brass Masala Carousel	minecraft:paper	NATIVE_128	gtm:spice_rack_carousel	city
+gtm:stage_spotlight	entertainment	Stage Spotlight	minecraft:paper	NATIVE_128	gtm:stage_spotlight	city
+gtm:storm_9	weapons	Storm Sub-Carbine	minecraft:paper	NATIVE_128	gtm:storm_9	prop
+gtm:storm_9_bazaar_mosaic	finish_art	Storm Sub-Carbine / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:storm_9_bazaar_mosaic	prop
+gtm:storm_9_cyber_neon	finish_art	Storm Sub-Carbine / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:storm_9_cyber_neon	prop
+gtm:storm_9_deccan_chrome	finish_art	Storm Sub-Carbine / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:storm_9_deccan_chrome	prop
+gtm:storm_9_gold_leaf	finish_art	Storm Sub-Carbine / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:storm_9_gold_leaf	prop
+gtm:storm_9_graphite_stealth	finish_art	Storm Sub-Carbine / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:storm_9_graphite_stealth	prop
+gtm:storm_9_lotus_pearl	finish_art	Storm Sub-Carbine / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:storm_9_lotus_pearl	prop
+gtm:storm_9_maratha_rust	finish_art	Storm Sub-Carbine / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:storm_9_maratha_rust	prop
+gtm:storm_9_monsoon_camo	finish_art	Storm Sub-Carbine / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:storm_9_monsoon_camo	prop
+gtm:storm_9_royal_emerald	finish_art	Storm Sub-Carbine / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:storm_9_royal_emerald	prop
+gtm:storm_9_terracotta_dune	finish_art	Storm Sub-Carbine / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:storm_9_terracotta_dune	prop
+gtm:street_bin	civic	Street Bin	minecraft:paper	NATIVE_128	gtm:street_bin	city
+gtm:street_lamppost_colonial	furniture	Double-Arm Ornate Victorian Streetlamp	minecraft:paper	NATIVE_128	gtm:street_lamppost_colonial	city
+gtm:street_market_tarp	furniture	Bamboo Frame Weathered Vendor Canopy	minecraft:paper	NATIVE_128	gtm:street_market_tarp	city
+gtm:street_name_signpost	furniture	Bilingual Cast Heritage Road Sign	minecraft:paper	NATIVE_128	gtm:street_name_signpost	city
+gtm:street_paan_stall	furniture	Compact Glass-Front Betel Leaf Stall	minecraft:paper	NATIVE_128	gtm:street_paan_stall	city
+gtm:studio_mic	entertainment	Studio Mic	minecraft:paper	NATIVE_128	gtm:studio_mic	city
+gtm:study_desk_art_deco	furniture	Study Desk · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:study_desk_art_deco	city
+gtm:study_desk_deccan	furniture	Study Desk · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:study_desk_deccan	city
+gtm:study_desk_irani	furniture	Study Desk · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:study_desk_irani	city
+gtm:study_desk_konkan	furniture	Study Desk · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:study_desk_konkan	city
+gtm:study_desk_metro	furniture	Study Desk · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:study_desk_metro	city
+gtm:supermarket_produce_bin	furniture	Slanted 3-Tier Wooden Fruit Crate Rack	minecraft:paper	NATIVE_128	gtm:supermarket_produce_bin	city
+gtm:surveillance_wall_cctv	furniture	Quad-Monitor Video Observation Console	minecraft:paper	NATIVE_128	gtm:surveillance_wall_cctv	city
+gtm:suspect_restraint_chair	furniture	Reinforced Fixed Frame Interrogation Seat	minecraft:paper	NATIVE_128	gtm:suspect_restraint_chair	city
+gtm:suv_bolero	road	Wahindra Bolero Rugged	minecraft:paper	NATIVE_128	gtm:suv_bolero	city
+gtm:suv_bolero_critical	vehicle_state	Wahindra Bolero Rugged / critical	minecraft:paper	NATIVE_128	gtm:suv_bolero_critical	prop
+gtm:suv_bolero_damaged	vehicle_state	Wahindra Bolero Rugged / damaged	minecraft:paper	NATIVE_128	gtm:suv_bolero_damaged	prop
+gtm:suv_bolero_wreck	vehicle_state	Wahindra Bolero Rugged / wreck	minecraft:paper	NATIVE_128	gtm:suv_bolero_wreck	prop
+gtm:suv_city	road	City Suv	minecraft:paper	LEGACY_COMPATIBILITY	gtm:suv_city	city
+gtm:suv_courier	road	Courier Suv	minecraft:paper	LEGACY_COMPATIBILITY	gtm:suv_courier	city
+gtm:suv_creta	road	Hondo Urban Cross	minecraft:paper	NATIVE_128	gtm:suv_creta	city
+gtm:suv_creta_critical	vehicle_state	Hondo Urban Cross / critical	minecraft:paper	NATIVE_128	gtm:suv_creta_critical	prop
+gtm:suv_creta_damaged	vehicle_state	Hondo Urban Cross / damaged	minecraft:paper	NATIVE_128	gtm:suv_creta_damaged	prop
+gtm:suv_creta_wreck	vehicle_state	Hondo Urban Cross / wreck	minecraft:paper	NATIVE_128	gtm:suv_creta_wreck	prop
+gtm:suv_fortuner	road	Toyora Fortuner 4WD	minecraft:paper	NATIVE_128	gtm:suv_fortuner	city
+gtm:suv_fortuner_critical	vehicle_state	Toyora Fortuner 4WD / critical	minecraft:paper	NATIVE_128	gtm:suv_fortuner_critical	prop
+gtm:suv_fortuner_damaged	vehicle_state	Toyora Fortuner 4WD / damaged	minecraft:paper	NATIVE_128	gtm:suv_fortuner_damaged	prop
+gtm:suv_fortuner_wreck	vehicle_state	Toyora Fortuner 4WD / wreck	minecraft:paper	NATIVE_128	gtm:suv_fortuner_wreck	prop
+gtm:suv_harrier	road	Tavara Harrier Monocoque	minecraft:paper	NATIVE_128	gtm:suv_harrier	city
+gtm:suv_harrier_critical	vehicle_state	Tavara Harrier Monocoque / critical	minecraft:paper	NATIVE_128	gtm:suv_harrier_critical	prop
+gtm:suv_harrier_damaged	vehicle_state	Tavara Harrier Monocoque / damaged	minecraft:paper	NATIVE_128	gtm:suv_harrier_damaged	prop
+gtm:suv_harrier_wreck	vehicle_state	Tavara Harrier Monocoque / wreck	minecraft:paper	NATIVE_128	gtm:suv_harrier_wreck	prop
+gtm:suv_jimny	road	Maruva Jimny 5-Door	minecraft:paper	NATIVE_128	gtm:suv_jimny	city
+gtm:suv_jimny_critical	vehicle_state	Maruva Jimny 5-Door / critical	minecraft:paper	NATIVE_128	gtm:suv_jimny_critical	prop
+gtm:suv_jimny_damaged	vehicle_state	Maruva Jimny 5-Door / damaged	minecraft:paper	NATIVE_128	gtm:suv_jimny_damaged	prop
+gtm:suv_jimny_wreck	vehicle_state	Maruva Jimny 5-Door / wreck	minecraft:paper	NATIVE_128	gtm:suv_jimny_wreck	prop
+gtm:suv_nexon	road	Tavara Nexon EV	minecraft:paper	NATIVE_128	gtm:suv_nexon	city
+gtm:suv_nexon_critical	vehicle_state	Tavara Nexon EV / critical	minecraft:paper	NATIVE_128	gtm:suv_nexon_critical	prop
+gtm:suv_nexon_damaged	vehicle_state	Tavara Nexon EV / damaged	minecraft:paper	NATIVE_128	gtm:suv_nexon_damaged	prop
+gtm:suv_nexon_wreck	vehicle_state	Tavara Nexon EV / wreck	minecraft:paper	NATIVE_128	gtm:suv_nexon_wreck	prop
+gtm:suv_punch	road	Tavara Punch Micro-SUV	minecraft:paper	NATIVE_128	gtm:suv_punch	city
+gtm:suv_punch_critical	vehicle_state	Tavara Punch Micro-SUV / critical	minecraft:paper	NATIVE_128	gtm:suv_punch_critical	prop
+gtm:suv_punch_damaged	vehicle_state	Tavara Punch Micro-SUV / damaged	minecraft:paper	NATIVE_128	gtm:suv_punch_damaged	prop
+gtm:suv_punch_wreck	vehicle_state	Tavara Punch Micro-SUV / wreck	minecraft:paper	NATIVE_128	gtm:suv_punch_wreck	prop
+gtm:suv_rescue	road	Rescue Suv	minecraft:paper	LEGACY_COMPATIBILITY	gtm:suv_rescue	city
+gtm:suv_safari	road	Tavara Safari Flagship	minecraft:paper	NATIVE_128	gtm:suv_safari	city
+gtm:suv_safari_critical	vehicle_state	Tavara Safari Flagship / critical	minecraft:paper	NATIVE_128	gtm:suv_safari_critical	prop
+gtm:suv_safari_damaged	vehicle_state	Tavara Safari Flagship / damaged	minecraft:paper	NATIVE_128	gtm:suv_safari_damaged	prop
+gtm:suv_safari_wreck	vehicle_state	Tavara Safari Flagship / wreck	minecraft:paper	NATIVE_128	gtm:suv_safari_wreck	prop
+gtm:suv_scorpio	road	Wahindra Scorpio-N Patrol	minecraft:paper	NATIVE_128	gtm:suv_scorpio	city
+gtm:suv_scorpio_critical	vehicle_state	Wahindra Scorpio-N Patrol / critical	minecraft:paper	NATIVE_128	gtm:suv_scorpio_critical	prop
+gtm:suv_scorpio_damaged	vehicle_state	Wahindra Scorpio-N Patrol / damaged	minecraft:paper	NATIVE_128	gtm:suv_scorpio_damaged	prop
+gtm:suv_scorpio_wreck	vehicle_state	Wahindra Scorpio-N Patrol / wreck	minecraft:paper	NATIVE_128	gtm:suv_scorpio_wreck	prop
+gtm:suv_seltos	road	Hondo Trail Master	minecraft:paper	NATIVE_128	gtm:suv_seltos	city
+gtm:suv_seltos_critical	vehicle_state	Hondo Trail Master / critical	minecraft:paper	NATIVE_128	gtm:suv_seltos_critical	prop
+gtm:suv_seltos_damaged	vehicle_state	Hondo Trail Master / damaged	minecraft:paper	NATIVE_128	gtm:suv_seltos_damaged	prop
+gtm:suv_seltos_wreck	vehicle_state	Hondo Trail Master / wreck	minecraft:paper	NATIVE_128	gtm:suv_seltos_wreck	prop
+gtm:suv_thar	road	Wahindra Thar 4x4 Offroader	minecraft:paper	NATIVE_128	gtm:suv_thar	city
+gtm:suv_thar_critical	vehicle_state	Wahindra Thar 4x4 Offroader / critical	minecraft:paper	NATIVE_128	gtm:suv_thar_critical	prop
+gtm:suv_thar_damaged	vehicle_state	Wahindra Thar 4x4 Offroader / damaged	minecraft:paper	NATIVE_128	gtm:suv_thar_damaged	prop
+gtm:suv_thar_wreck	vehicle_state	Wahindra Thar 4x4 Offroader / wreck	minecraft:paper	NATIVE_128	gtm:suv_thar_wreck	prop
+gtm:suv_touring	road	Touring Suv	minecraft:paper	LEGACY_COMPATIBILITY	gtm:suv_touring	city
+gtm:suv_utility	road	Utility Suv	minecraft:paper	LEGACY_COMPATIBILITY	gtm:suv_utility	city
+gtm:suv_xuv700	road	Wahindra XUV Sovereign	minecraft:paper	NATIVE_128	gtm:suv_xuv700	city
+gtm:suv_xuv700_critical	vehicle_state	Wahindra XUV Sovereign / critical	minecraft:paper	NATIVE_128	gtm:suv_xuv700_critical	prop
+gtm:suv_xuv700_damaged	vehicle_state	Wahindra XUV Sovereign / damaged	minecraft:paper	NATIVE_128	gtm:suv_xuv700_damaged	prop
+gtm:suv_xuv700_wreck	vehicle_state	Wahindra XUV Sovereign / wreck	minecraft:paper	NATIVE_128	gtm:suv_xuv700_wreck	prop
+gtm:tabla_pair	entertainment	Tabla Pair	minecraft:paper	NATIVE_128	gtm:tabla_pair	city
+gtm:tag_comet_arcade	protection	Comet Arcade Light Tag	minecraft:paper	NATIVE_128	gtm:tag_comet_arcade	city
+gtm:tag_comet_arena	protection	Comet Arena Light Tag	minecraft:paper	NATIVE_128	gtm:tag_comet_arena	city
+gtm:tag_comet_night	protection	Comet Night Light Tag	minecraft:paper	NATIVE_128	gtm:tag_comet_night	city
+gtm:tag_comet_parade	protection	Comet Parade Light Tag	minecraft:paper	NATIVE_128	gtm:tag_comet_parade	city
+gtm:tag_comet_relay	protection	Comet Relay Light Tag	minecraft:paper	NATIVE_128	gtm:tag_comet_relay	city
+gtm:tag_halo_arcade	protection	Halo Arcade Light Tag	minecraft:paper	NATIVE_128	gtm:tag_halo_arcade	city
+gtm:tag_halo_arena	protection	Halo Arena Light Tag	minecraft:paper	NATIVE_128	gtm:tag_halo_arena	city
+gtm:tag_halo_night	protection	Halo Night Light Tag	minecraft:paper	NATIVE_128	gtm:tag_halo_night	city
+gtm:tag_halo_parade	protection	Halo Parade Light Tag	minecraft:paper	NATIVE_128	gtm:tag_halo_parade	city
+gtm:tag_halo_relay	protection	Halo Relay Light Tag	minecraft:paper	NATIVE_128	gtm:tag_halo_relay	city
+gtm:tag_lattice_arcade	protection	Lattice Arcade Light Tag	minecraft:paper	NATIVE_128	gtm:tag_lattice_arcade	city
+gtm:tag_lattice_arena	protection	Lattice Arena Light Tag	minecraft:paper	NATIVE_128	gtm:tag_lattice_arena	city
+gtm:tag_lattice_night	protection	Lattice Night Light Tag	minecraft:paper	NATIVE_128	gtm:tag_lattice_night	city
+gtm:tag_lattice_parade	protection	Lattice Parade Light Tag	minecraft:paper	NATIVE_128	gtm:tag_lattice_parade	city
+gtm:tag_lattice_relay	protection	Lattice Relay Light Tag	minecraft:paper	NATIVE_128	gtm:tag_lattice_relay	city
+gtm:tag_lotus_arcade	protection	Lotus Arcade Light Tag	minecraft:paper	NATIVE_128	gtm:tag_lotus_arcade	city
+gtm:tag_lotus_arena	protection	Lotus Arena Light Tag	minecraft:paper	NATIVE_128	gtm:tag_lotus_arena	city
+gtm:tag_lotus_night	protection	Lotus Night Light Tag	minecraft:paper	NATIVE_128	gtm:tag_lotus_night	city
+gtm:tag_lotus_parade	protection	Lotus Parade Light Tag	minecraft:paper	NATIVE_128	gtm:tag_lotus_parade	city
+gtm:tag_lotus_relay	protection	Lotus Relay Light Tag	minecraft:paper	NATIVE_128	gtm:tag_lotus_relay	city
+gtm:tag_prism_arcade	protection	Prism Arcade Light Tag	minecraft:paper	NATIVE_128	gtm:tag_prism_arcade	city
+gtm:tag_prism_arena	protection	Prism Arena Light Tag	minecraft:paper	NATIVE_128	gtm:tag_prism_arena	city
+gtm:tag_prism_night	protection	Prism Night Light Tag	minecraft:paper	NATIVE_128	gtm:tag_prism_night	city
+gtm:tag_prism_parade	protection	Prism Parade Light Tag	minecraft:paper	NATIVE_128	gtm:tag_prism_parade	city
+gtm:tag_prism_relay	protection	Prism Relay Light Tag	minecraft:paper	NATIVE_128	gtm:tag_prism_relay	city
+gtm:tag_pulse_arcade	protection	Pulse Arcade Light Tag	minecraft:paper	NATIVE_128	gtm:tag_pulse_arcade	city
+gtm:tag_pulse_arena	protection	Pulse Arena Light Tag	minecraft:paper	NATIVE_128	gtm:tag_pulse_arena	city
+gtm:tag_pulse_night	protection	Pulse Night Light Tag	minecraft:paper	NATIVE_128	gtm:tag_pulse_night	city
+gtm:tag_pulse_parade	protection	Pulse Parade Light Tag	minecraft:paper	NATIVE_128	gtm:tag_pulse_parade	city
+gtm:tag_pulse_relay	protection	Pulse Relay Light Tag	minecraft:paper	NATIVE_128	gtm:tag_pulse_relay	city
+gtm:talwar_cleaver	weapons	Talwar Ceremonial Cleaver	minecraft:paper	NATIVE_128	gtm:talwar_cleaver	prop
+gtm:talwar_cleaver_bazaar_mosaic	finish_art	Talwar Ceremonial Cleaver / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:talwar_cleaver_bazaar_mosaic	prop
+gtm:talwar_cleaver_cyber_neon	finish_art	Talwar Ceremonial Cleaver / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:talwar_cleaver_cyber_neon	prop
+gtm:talwar_cleaver_deccan_chrome	finish_art	Talwar Ceremonial Cleaver / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:talwar_cleaver_deccan_chrome	prop
+gtm:talwar_cleaver_gold_leaf	finish_art	Talwar Ceremonial Cleaver / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:talwar_cleaver_gold_leaf	prop
+gtm:talwar_cleaver_graphite_stealth	finish_art	Talwar Ceremonial Cleaver / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:talwar_cleaver_graphite_stealth	prop
+gtm:talwar_cleaver_lotus_pearl	finish_art	Talwar Ceremonial Cleaver / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:talwar_cleaver_lotus_pearl	prop
+gtm:talwar_cleaver_maratha_rust	finish_art	Talwar Ceremonial Cleaver / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:talwar_cleaver_maratha_rust	prop
+gtm:talwar_cleaver_monsoon_camo	finish_art	Talwar Ceremonial Cleaver / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:talwar_cleaver_monsoon_camo	prop
+gtm:talwar_cleaver_royal_emerald	finish_art	Talwar Ceremonial Cleaver / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:talwar_cleaver_royal_emerald	prop
+gtm:talwar_cleaver_terracotta_dune	finish_art	Talwar Ceremonial Cleaver / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:talwar_cleaver_terracotta_dune	prop
+gtm:tandoor_clay_oven	furniture	Insulated Commercial Clay Tandoor Drum	minecraft:paper	NATIVE_128	gtm:tandoor_clay_oven	city
+gtm:taxi_call_post	civic	Taxi Call Post	minecraft:paper	NATIVE_128	gtm:taxi_call_post	city
+gtm:taxi_city	road	City Taxi	minecraft:paper	LEGACY_COMPATIBILITY	gtm:taxi_city	city
+gtm:taxi_courier	road	Courier Taxi	minecraft:paper	LEGACY_COMPATIBILITY	gtm:taxi_courier	city
+gtm:taxi_rescue	road	Rescue Taxi	minecraft:paper	LEGACY_COMPATIBILITY	gtm:taxi_rescue	city
+gtm:taxi_touring	road	Touring Taxi	minecraft:paper	LEGACY_COMPATIBILITY	gtm:taxi_touring	city
+gtm:taxi_utility	road	Utility Taxi	minecraft:paper	LEGACY_COMPATIBILITY	gtm:taxi_utility	city
+gtm:tea_cart_art_deco	furniture	Tea Cart · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:tea_cart_art_deco	city
+gtm:tea_cart_deccan	furniture	Tea Cart · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:tea_cart_deccan	city
+gtm:tea_cart_irani	furniture	Tea Cart · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:tea_cart_irani	city
+gtm:tea_cart_konkan	furniture	Tea Cart · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:tea_cart_konkan	city
+gtm:tea_cart_metro	furniture	Tea Cart · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:tea_cart_metro	city
+gtm:terracotta_matka_pot	furniture	Clay Cooling Water Vessel on Wicker Ring	minecraft:paper	NATIVE_128	gtm:terracotta_matka_pot	city
+gtm:thali	food	Thali	minecraft:bread	ALIAS_128	gtm:food_thali	food
+gtm:thepla	food	Thepla	minecraft:bread	ALIAS_128	gtm:food_thepla	food
+gtm:ticket_machine_art_deco	furniture	Ticket Machine · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:ticket_machine_art_deco	city
+gtm:ticket_machine_deccan	furniture	Ticket Machine · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:ticket_machine_deccan	city
+gtm:ticket_machine_irani	furniture	Ticket Machine · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:ticket_machine_irani	city
+gtm:ticket_machine_konkan	furniture	Ticket Machine · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:ticket_machine_konkan	city
+gtm:ticket_machine_metro	furniture	Ticket Machine · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:ticket_machine_metro	city
+gtm:ticket_validator	civic	Ticket Validator	minecraft:paper	NATIVE_128	gtm:ticket_validator	city
+gtm:tiffin_carrier_brass	furniture	4-Tier Stacked Interlocking Lunch Box	minecraft:paper	NATIVE_128	gtm:tiffin_carrier_brass	city
+gtm:tire_changer_machine	furniture	Pneumatic Clamping Car Tire Machine	minecraft:paper	NATIVE_128	gtm:tire_changer_machine	city
+gtm:traditional_safe_tijori	furniture	Reinforced Brass Ironbound Antique Safe	minecraft:paper	NATIVE_128	gtm:traditional_safe_tijori	city
+gtm:traffic_bollard_steel	furniture	Reflective Banded Cast Steel Bollard	minecraft:paper	NATIVE_128	gtm:traffic_bollard_steel	city
+gtm:traffic_radar_calibration	furniture	Highway Patrol Speed Kit Calibration Desk	minecraft:paper	NATIVE_128	gtm:traffic_radar_calibration	city
+gtm:traffic_signal_pole	furniture	4-Way Mast Arm LED Traffic Signal Light	minecraft:paper	NATIVE_128	gtm:traffic_signal_pole	city
+gtm:transformer_station_sub	furniture	Enclosed High-Voltage Stepdown Substation	minecraft:paper	NATIVE_128	gtm:transformer_station_sub	city
+gtm:transport_stretcher	furniture	Heavy-Duty Emergency Hydraulic Gurney	minecraft:paper	NATIVE_128	gtm:transport_stretcher	city
+gtm:tree_planter_curb	furniture	Polished Granite Geometric Street Planter	minecraft:paper	NATIVE_128	gtm:tree_planter_curb	city
+gtm:triage_nursing_station	furniture	High-Front Ergonomic Triage Desk	minecraft:paper	NATIVE_128	gtm:triage_nursing_station	city
+gtm:trishul_ar	weapons	Trishul 5.56 Assault Rifle	minecraft:paper	NATIVE_128	gtm:trishul_ar	prop
+gtm:trishul_ar_bazaar_mosaic	finish_art	Trishul 5.56 Assault Rifle / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:trishul_ar_bazaar_mosaic	prop
+gtm:trishul_ar_cyber_neon	finish_art	Trishul 5.56 Assault Rifle / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:trishul_ar_cyber_neon	prop
+gtm:trishul_ar_deccan_chrome	finish_art	Trishul 5.56 Assault Rifle / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:trishul_ar_deccan_chrome	prop
+gtm:trishul_ar_gold_leaf	finish_art	Trishul 5.56 Assault Rifle / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:trishul_ar_gold_leaf	prop
+gtm:trishul_ar_graphite_stealth	finish_art	Trishul 5.56 Assault Rifle / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:trishul_ar_graphite_stealth	prop
+gtm:trishul_ar_lotus_pearl	finish_art	Trishul 5.56 Assault Rifle / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:trishul_ar_lotus_pearl	prop
+gtm:trishul_ar_maratha_rust	finish_art	Trishul 5.56 Assault Rifle / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:trishul_ar_maratha_rust	prop
+gtm:trishul_ar_monsoon_camo	finish_art	Trishul 5.56 Assault Rifle / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:trishul_ar_monsoon_camo	prop
+gtm:trishul_ar_royal_emerald	finish_art	Trishul 5.56 Assault Rifle / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:trishul_ar_royal_emerald	prop
+gtm:trishul_ar_terracotta_dune	finish_art	Trishul 5.56 Assault Rifle / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:trishul_ar_terracotta_dune	prop
+gtm:tulwar_short	weapons	Tulwar Sawed-Off Special	minecraft:paper	NATIVE_128	gtm:tulwar_short	prop
+gtm:tulwar_short_bazaar_mosaic	finish_art	Tulwar Sawed-Off Special / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:tulwar_short_bazaar_mosaic	prop
+gtm:tulwar_short_cyber_neon	finish_art	Tulwar Sawed-Off Special / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:tulwar_short_cyber_neon	prop
+gtm:tulwar_short_deccan_chrome	finish_art	Tulwar Sawed-Off Special / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:tulwar_short_deccan_chrome	prop
+gtm:tulwar_short_gold_leaf	finish_art	Tulwar Sawed-Off Special / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:tulwar_short_gold_leaf	prop
+gtm:tulwar_short_graphite_stealth	finish_art	Tulwar Sawed-Off Special / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:tulwar_short_graphite_stealth	prop
+gtm:tulwar_short_lotus_pearl	finish_art	Tulwar Sawed-Off Special / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:tulwar_short_lotus_pearl	prop
+gtm:tulwar_short_maratha_rust	finish_art	Tulwar Sawed-Off Special / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:tulwar_short_maratha_rust	prop
+gtm:tulwar_short_monsoon_camo	finish_art	Tulwar Sawed-Off Special / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:tulwar_short_monsoon_camo	prop
+gtm:tulwar_short_royal_emerald	finish_art	Tulwar Sawed-Off Special / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:tulwar_short_royal_emerald	prop
+gtm:tulwar_short_terracotta_dune	finish_art	Tulwar Sawed-Off Special / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:tulwar_short_terracotta_dune	prop
+gtm:umbrella_stand_drip	furniture	Entryway Commercial Brass Umbrella Drip Pan	minecraft:paper	NATIVE_128	gtm:umbrella_stand_drip	city
+gtm:upma	food	Upma	minecraft:bread	ALIAS_128	gtm:food_upma	food
+gtm:urli_brass_bowl	furniture	Carved Bell-Metal Water Urli Floating Petals	minecraft:paper	NATIVE_128	gtm:urli_brass_bowl	city
+gtm:utility_junction_box	furniture	Ground-Mounted Electric Cable Cabinet	minecraft:paper	NATIVE_128	gtm:utility_junction_box	city
+gtm:vada_pav	food	Vada Pav	minecraft:bread	ALIAS_128	gtm:food_vada_pav	food
+gtm:vajra_heavy	weapons	Vajra Ordnance Launcher	minecraft:paper	NATIVE_128	gtm:vajra_heavy	prop
+gtm:vajra_heavy_bazaar_mosaic	finish_art	Vajra Ordnance Launcher / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:vajra_heavy_bazaar_mosaic	prop
+gtm:vajra_heavy_cyber_neon	finish_art	Vajra Ordnance Launcher / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:vajra_heavy_cyber_neon	prop
+gtm:vajra_heavy_deccan_chrome	finish_art	Vajra Ordnance Launcher / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:vajra_heavy_deccan_chrome	prop
+gtm:vajra_heavy_gold_leaf	finish_art	Vajra Ordnance Launcher / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:vajra_heavy_gold_leaf	prop
+gtm:vajra_heavy_graphite_stealth	finish_art	Vajra Ordnance Launcher / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:vajra_heavy_graphite_stealth	prop
+gtm:vajra_heavy_lotus_pearl	finish_art	Vajra Ordnance Launcher / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:vajra_heavy_lotus_pearl	prop
+gtm:vajra_heavy_maratha_rust	finish_art	Vajra Ordnance Launcher / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:vajra_heavy_maratha_rust	prop
+gtm:vajra_heavy_monsoon_camo	finish_art	Vajra Ordnance Launcher / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:vajra_heavy_monsoon_camo	prop
+gtm:vajra_heavy_royal_emerald	finish_art	Vajra Ordnance Launcher / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:vajra_heavy_royal_emerald	prop
+gtm:vajra_heavy_terracotta_dune	finish_art	Vajra Ordnance Launcher / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:vajra_heavy_terracotta_dune	prop
+gtm:vanity_stool	furniture	Padded Round Vanity Dressing Stool	minecraft:paper	NATIVE_128	gtm:vanity_stool	city
+gtm:varun_rapid	weapons	Varun Commando SMG	minecraft:paper	NATIVE_128	gtm:varun_rapid	prop
+gtm:varun_rapid_bazaar_mosaic	finish_art	Varun Commando SMG / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:varun_rapid_bazaar_mosaic	prop
+gtm:varun_rapid_cyber_neon	finish_art	Varun Commando SMG / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:varun_rapid_cyber_neon	prop
+gtm:varun_rapid_deccan_chrome	finish_art	Varun Commando SMG / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:varun_rapid_deccan_chrome	prop
+gtm:varun_rapid_gold_leaf	finish_art	Varun Commando SMG / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:varun_rapid_gold_leaf	prop
+gtm:varun_rapid_graphite_stealth	finish_art	Varun Commando SMG / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:varun_rapid_graphite_stealth	prop
+gtm:varun_rapid_lotus_pearl	finish_art	Varun Commando SMG / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:varun_rapid_lotus_pearl	prop
+gtm:varun_rapid_maratha_rust	finish_art	Varun Commando SMG / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:varun_rapid_maratha_rust	prop
+gtm:varun_rapid_monsoon_camo	finish_art	Varun Commando SMG / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:varun_rapid_monsoon_camo	prop
+gtm:varun_rapid_royal_emerald	finish_art	Varun Commando SMG / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:varun_rapid_royal_emerald	prop
+gtm:varun_rapid_terracotta_dune	finish_art	Varun Commando SMG / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:varun_rapid_terracotta_dune	prop
+gtm:vendor_kiosk_tea	furniture	Pavement Steel Tapri Chai Kiosk	minecraft:paper	NATIVE_128	gtm:vendor_kiosk_tea	city
+gtm:vijay_service	weapons	Vijay Bullpup Rifle	minecraft:paper	NATIVE_128	gtm:vijay_service	prop
+gtm:vijay_service_bazaar_mosaic	finish_art	Vijay Bullpup Rifle / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:vijay_service_bazaar_mosaic	prop
+gtm:vijay_service_cyber_neon	finish_art	Vijay Bullpup Rifle / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:vijay_service_cyber_neon	prop
+gtm:vijay_service_deccan_chrome	finish_art	Vijay Bullpup Rifle / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:vijay_service_deccan_chrome	prop
+gtm:vijay_service_gold_leaf	finish_art	Vijay Bullpup Rifle / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:vijay_service_gold_leaf	prop
+gtm:vijay_service_graphite_stealth	finish_art	Vijay Bullpup Rifle / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:vijay_service_graphite_stealth	prop
+gtm:vijay_service_lotus_pearl	finish_art	Vijay Bullpup Rifle / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:vijay_service_lotus_pearl	prop
+gtm:vijay_service_maratha_rust	finish_art	Vijay Bullpup Rifle / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:vijay_service_maratha_rust	prop
+gtm:vijay_service_monsoon_camo	finish_art	Vijay Bullpup Rifle / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:vijay_service_monsoon_camo	prop
+gtm:vijay_service_royal_emerald	finish_art	Vijay Bullpup Rifle / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:vijay_service_royal_emerald	prop
+gtm:vijay_service_terracotta_dune	finish_art	Vijay Bullpup Rifle / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:vijay_service_terracotta_dune	prop
+gtm:viper_sub	weapons	Viper Tactical SMG	minecraft:paper	NATIVE_128	gtm:viper_sub	prop
+gtm:viper_sub_bazaar_mosaic	finish_art	Viper Tactical SMG / Bazaar Glazed Ceramic	minecraft:paper	NATIVE_128	gtm:viper_sub_bazaar_mosaic	prop
+gtm:viper_sub_cyber_neon	finish_art	Viper Tactical SMG / Indraprastha Cyber Glow	minecraft:paper	NATIVE_128	gtm:viper_sub_cyber_neon	prop
+gtm:viper_sub_deccan_chrome	finish_art	Viper Tactical SMG / Deccan Mirrored Chrome	minecraft:paper	NATIVE_128	gtm:viper_sub_deccan_chrome	prop
+gtm:viper_sub_gold_leaf	finish_art	Viper Tactical SMG / ARK Gold Leaf	minecraft:paper	NATIVE_128	gtm:viper_sub_gold_leaf	prop
+gtm:viper_sub_graphite_stealth	finish_art	Viper Tactical SMG / Graphite Urban Stealth	minecraft:paper	NATIVE_128	gtm:viper_sub_graphite_stealth	prop
+gtm:viper_sub_lotus_pearl	finish_art	Viper Tactical SMG / Black Lotus Iridescent	minecraft:paper	NATIVE_128	gtm:viper_sub_lotus_pearl	prop
+gtm:viper_sub_maratha_rust	finish_art	Viper Tactical SMG / Sahyadri Weathered Rust	minecraft:paper	NATIVE_128	gtm:viper_sub_maratha_rust	prop
+gtm:viper_sub_monsoon_camo	finish_art	Viper Tactical SMG / Monsoon Storm Camo	minecraft:paper	NATIVE_128	gtm:viper_sub_monsoon_camo	prop
+gtm:viper_sub_royal_emerald	finish_art	Viper Tactical SMG / Chhatrapati Royal Emerald	minecraft:paper	NATIVE_128	gtm:viper_sub_royal_emerald	prop
+gtm:viper_sub_terracotta_dune	finish_art	Viper Tactical SMG / Sandstone Terracotta	minecraft:paper	NATIVE_128	gtm:viper_sub_terracotta_dune	prop
+gtm:visor_harbour	protection	Harbour Visor	minecraft:paper	NATIVE_128	gtm:visor_harbour	city
+gtm:visor_hill	protection	Hill Visor	minecraft:paper	NATIVE_128	gtm:visor_hill	city
+gtm:visor_local	protection	Local Visor	minecraft:paper	NATIVE_128	gtm:visor_local	city
+gtm:visor_metro	protection	Metro Visor	minecraft:paper	NATIVE_128	gtm:visor_metro	city
+gtm:visor_night	protection	Night Visor	minecraft:paper	NATIVE_128	gtm:visor_night	city
+gtm:vital_signs_monitor	furniture	Multi-Parameter ECG & SpO2 Mobile Cart	minecraft:paper	NATIVE_128	gtm:vital_signs_monitor	city
+gtm:waiting_sofa_art_deco	furniture	Waiting Sofa · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:waiting_sofa_art_deco	city
+gtm:waiting_sofa_deccan	furniture	Waiting Sofa · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:waiting_sofa_deccan	city
+gtm:waiting_sofa_irani	furniture	Waiting Sofa · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:waiting_sofa_irani	city
+gtm:waiting_sofa_konkan	furniture	Waiting Sofa · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:waiting_sofa_konkan	city
+gtm:waiting_sofa_metro	furniture	Waiting Sofa · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:waiting_sofa_metro	city
+gtm:wall_cupboard_glass	furniture	Frosted Glass Overhead Wall Cupboard	minecraft:paper	NATIVE_128	gtm:wall_cupboard_glass	city
+gtm:wall_display_unit	furniture	Floating Backlit Wall Display Shelf	minecraft:paper	NATIVE_128	gtm:wall_display_unit	city
+gtm:wall_mirror_sunburst	furniture	Gilded Brass Sunburst Wall Mirror	minecraft:paper	NATIVE_128	gtm:wall_mirror_sunburst	city
+gtm:wanted_bulletin_corkboard	furniture	Glass-Enclosed Police Notice Board	minecraft:paper	NATIVE_128	gtm:wanted_bulletin_corkboard	city
+gtm:ward_bed_art_deco	furniture	Ward Bed · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:ward_bed_art_deco	city
+gtm:ward_bed_deccan	furniture	Ward Bed · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:ward_bed_deccan	city
+gtm:ward_bed_irani	furniture	Ward Bed · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:ward_bed_irani	city
+gtm:ward_bed_konkan	furniture	Ward Bed · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:ward_bed_konkan	city
+gtm:ward_bed_metro	furniture	Ward Bed · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:ward_bed_metro	city
+gtm:wardrobe_art_deco	furniture	Wardrobe · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:wardrobe_art_deco	city
+gtm:wardrobe_deccan	furniture	Wardrobe · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:wardrobe_deccan	city
+gtm:wardrobe_irani	furniture	Wardrobe · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:wardrobe_irani	city
+gtm:wardrobe_konkan	furniture	Wardrobe · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:wardrobe_konkan	city
+gtm:wardrobe_metro	furniture	Wardrobe · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:wardrobe_metro	city
+gtm:wardrobe_sliding	furniture	3-Door Mirrored Sliding Wardrobe	minecraft:paper	NATIVE_128	gtm:wardrobe_sliding	city
+gtm:washing_machine_art_deco	furniture	Washing Machine · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:washing_machine_art_deco	city
+gtm:washing_machine_deccan	furniture	Washing Machine · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:washing_machine_deccan	city
+gtm:washing_machine_irani	furniture	Washing Machine · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:washing_machine_irani	city
+gtm:washing_machine_konkan	furniture	Washing Machine · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:washing_machine_konkan	city
+gtm:washing_machine_metro	furniture	Washing Machine · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:washing_machine_metro	city
+gtm:water_cooler_art_deco	furniture	Water Cooler · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:water_cooler_art_deco	city
+gtm:water_cooler_deccan	furniture	Water Cooler · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:water_cooler_deccan	city
+gtm:water_cooler_irani	furniture	Water Cooler · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:water_cooler_irani	city
+gtm:water_cooler_konkan	furniture	Water Cooler · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:water_cooler_konkan	city
+gtm:water_cooler_metro	furniture	Water Cooler · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:water_cooler_metro	city
+gtm:water_dispenser	furniture	Freestanding Hot/Cold Water Cooler	minecraft:paper	NATIVE_128	gtm:water_dispenser	city
+gtm:water_taxi	marine	Water Taxi	minecraft:paper	LEGACY_COMPATIBILITY	gtm:water_taxi	city
+gtm:weapon_armory_cage	furniture	Vertical Racked Long-Gun Security Cage	minecraft:paper	NATIVE_128	gtm:weapon_armory_cage	city
+gtm:welding_rig_cart	furniture	MIG/TIG Welder Cart with Gas Cylinders	minecraft:paper	NATIVE_128	gtm:welding_rig_cart	city
+gtm:wheel_balancer_digital	furniture	Digital Spin Dynamic Wheel Balancer	minecraft:paper	NATIVE_128	gtm:wheel_balancer_digital	city
+gtm:wheelchair_standard	furniture	Foldable Chrome Hospital Wheelchair	minecraft:paper	NATIVE_128	gtm:wheelchair_standard	city
+gtm:workbench_art_deco	furniture	Workbench · Art Deco	minecraft:paper	LEGACY_COMPATIBILITY	gtm:workbench_art_deco	city
+gtm:workbench_deccan	furniture	Workbench · Deccan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:workbench_deccan	city
+gtm:workbench_irani	furniture	Workbench · Irani	minecraft:paper	LEGACY_COMPATIBILITY	gtm:workbench_irani	city
+gtm:workbench_konkan	furniture	Workbench · Konkan	minecraft:paper	LEGACY_COMPATIBILITY	gtm:workbench_konkan	city
+gtm:workbench_metro	furniture	Workbench · Metro	minecraft:paper	LEGACY_COMPATIBILITY	gtm:workbench_metro	city
+gtm:workstation_cubicle	furniture	2-Person Acoustic Screen Desk Pod	minecraft:paper	NATIVE_128	gtm:workstation_cubicle	city
+gtm:xray_viewing_lightbox	furniture	Wall-Mount Twin LED Radiograph Viewer	minecraft:paper	NATIVE_128	gtm:xray_viewing_lightbox	city

@@ -85,7 +85,8 @@ final class GtmControlCentre implements CommandExecutor, Listener {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (!sender.hasPermission("gtm.control") || !plugin.getConfig().getBoolean("gtm.experimental-festivals")) {
+        if ((sender instanceof Player p && !plugin.isAuthenticated(p))
+                || !sender.hasPermission("gtm.control") || !plugin.getConfig().getBoolean("gtm.experimental-festivals")) {
             sender.sendMessage("GTM Control Centre is unavailable.");
             return true;
         }
@@ -128,7 +129,7 @@ final class GtmControlCentre implements CommandExecutor, Listener {
         if (world == null) return;
         var dust = new Particle.DustOptions(Color.fromRGB(active.color), 1.1f);
         for (Player p : world.getPlayers()) {
-            if (p.hasMetadata("NPC")) continue;
+            if (p.hasMetadata("NPC") || !plugin.isAuthenticated(p)) continue;
             p.spawnParticle(Particle.DUST, p.getLocation().add(0, 2.5, 0), 8, 3, 1, 3, 0, dust);
         }
     }
@@ -138,12 +139,12 @@ final class GtmControlCentre implements CommandExecutor, Listener {
         if (!(event.getView().getTopInventory().getHolder() instanceof Panel panel)) return;
         event.setCancelled(true);
         int slot = event.getRawSlot();
-        if (!(event.getWhoClicked() instanceof Player p) || !p.hasPermission("gtm.control") ||
+        if (!(event.getWhoClicked() instanceof Player p) || !plugin.isAuthenticated(p) || !p.hasPermission("gtm.control") ||
             !plugin.getConfig().getBoolean("gtm.experimental-festivals") ||
             slot < 0 || slot >= Festival.values().length ||
             (event.getClick() != ClickType.LEFT && event.getClick() != ClickType.RIGHT)) return;
         Bukkit.getScheduler().runTask(plugin, () -> {
-            if (!p.isOnline() || !p.hasPermission("gtm.control") || !plugin.getConfig().getBoolean("gtm.experimental-festivals") ||
+            if (!p.isOnline() || !plugin.isAuthenticated(p) || !p.hasPermission("gtm.control") || !plugin.getConfig().getBoolean("gtm.experimental-festivals") ||
                 p.getOpenInventory().getTopInventory().getHolder() != panel) return;
             if (panel.revision == revision) select(p, Festival.values()[slot]);
             open(p);

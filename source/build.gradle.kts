@@ -3,12 +3,11 @@ plugins {
 }
 
 group = "com.sdcraft"
-version = "1.0.0"
+version = "1.0.1-r4-candidate"
 
 repositories {
     mavenCentral()
     maven("https://repo.papermc.io/repository/maven-public/")
-    maven("https://maven.citizensnpcs.co/repo")
     maven("https://repo.codemc.io/repository/creatorfromhell/") {
         content { includeGroup("net.milkbowl.vault") }
     }
@@ -18,7 +17,8 @@ val localVault = file("../plugins/VaultUnlocked-2.20.3.jar")
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:26.3.build.255-stable")
-    compileOnly("net.citizensnpcs:citizensapi:2.0.44-SNAPSHOT")
+    // Citizens is an optional runtime integration accessed reflectively by NpcService.
+    // Its API is not referenced by compiled sources and must not block this build.
     if (localVault.isFile) compileOnly(files(localVault))
     else compileOnly("net.milkbowl.vault:VaultUnlockedAPI:2.20")
 
@@ -50,7 +50,7 @@ tasks.test {
 tasks.jar {
     archiveBaseName.set("SDCraftCore")
     archiveClassifier.set("")
-    archiveVersion.set("1.0.0")
+    archiveVersion.set(project.version.toString())
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
 

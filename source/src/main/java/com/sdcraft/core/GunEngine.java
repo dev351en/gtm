@@ -28,10 +28,10 @@ import org.bukkit.util.Vector;
 public final class GunEngine implements Listener {
 
     public enum GunType {
-        PISTOL("9mm Service Pistol", Material.IRON_HOE, 12, 6.0, 35.0, 280L, 1600L, 1, "9mm_ammo", "ENTITY_GENERIC_EXPLODE", 1.8f, 101),
-        SHOTGUN("12-Gauge Police Shotgun", Material.GOLDEN_HOE, 6, 2.8, 16.0, 850L, 2400L, 6, "shotgun_shells", "ENTITY_GENERIC_EXPLODE", 0.75f, 102),
-        SMG("Tactical Micro-SMG", Material.DIAMOND_HOE, 30, 4.2, 26.0, 110L, 1900L, 1, "9mm_ammo", "ENTITY_FIREWORK_ROCKET_BLAST", 1.6f, 103),
-        RIFLE("M4 Urban Assault Rifle", Material.NETHERITE_HOE, 25, 7.5, 48.0, 180L, 2100L, 1, "rifle_ammo", "ENTITY_GENERIC_EXPLODE", 1.35f, 104);
+        PISTOL("ARK Service Pistol", Material.IRON_HOE, 12, 6.0, 35.0, 280L, 1600L, 1, "9mm_ammo", "ENTITY_GENERIC_EXPLODE", 1.8f, 101),
+        SHOTGUN("ARK Patrol Shotgun", Material.GOLDEN_HOE, 6, 2.8, 16.0, 850L, 2400L, 6, "shotgun_shells", "ENTITY_GENERIC_EXPLODE", 0.75f, 102),
+        SMG("ARK Compact SMG", Material.DIAMOND_HOE, 30, 4.2, 26.0, 110L, 1900L, 1, "9mm_ammo", "ENTITY_FIREWORK_ROCKET_BLAST", 1.6f, 103),
+        RIFLE("ARK Urban Rifle", Material.NETHERITE_HOE, 25, 7.5, 48.0, 180L, 2100L, 1, "rifle_ammo", "ENTITY_GENERIC_EXPLODE", 1.35f, 104);
 
         public final String displayName;
         public final Material material;
@@ -143,6 +143,10 @@ public final class GunEngine implements Listener {
         if (a != Action.RIGHT_CLICK_AIR && a != Action.RIGHT_CLICK_BLOCK) return;
 
         Player p = e.getPlayer();
+        if (plugin instanceof SDCraftCorePlugin core && !core.isAuthenticated(p)) {
+            e.setCancelled(true);
+            return;
+        }
         ItemStack item = p.getInventory().getItemInMainHand();
         if (item.getType() == Material.AIR) return;
 

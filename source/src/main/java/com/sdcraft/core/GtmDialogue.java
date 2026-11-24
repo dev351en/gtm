@@ -28,7 +28,7 @@ final class GtmDialogue implements Listener {
         if (now < nextReactionScan) return;
         Player driver = null;
         for (Entity passenger : event.getVehicle().getPassengers()) {
-            if (passenger instanceof Player p && npcs.identify(p) == null && p.hasPermission("gtm.dialogue") && ledger.exists(p.getUniqueId())) {
+            if (passenger instanceof Player p && plugin instanceof SDCraftCorePlugin core && core.isAuthenticated(p) && npcs.identify(p) == null && p.hasPermission("gtm.dialogue") && ledger.exists(p.getUniqueId())) {
                 driver = p; break;
             }
         }
@@ -60,6 +60,7 @@ final class GtmDialogue implements Listener {
         String raw = event.getMessage();
         if (!RoleplayText.isDialogue(raw)) return;
         Player player = event.getPlayer();
+        if (plugin instanceof SDCraftCorePlugin core && !core.isAuthenticated(player)) { event.setCancelled(true); return; }
         if (player.hasPermission("worldedit.*") || player.isOp()) {
             if (RoleplayText.reservedEdit(raw)) return;
         }

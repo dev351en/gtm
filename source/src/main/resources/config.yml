@@ -1,5 +1,16 @@
 # SD Craft approved policy values; some systems require external integration and are not fully operational.
 world: {name: world}
+authentication:
+  # Unverified offline connections always require a local password.
+  # Online-mode sessions and API-confirmed Floodgate sessions retain their existing UUIDs.
+  trust-floodgate: true
+  login-timeout-seconds: 120
+  session-timeout-seconds: 43200
+  max-concurrent-hashes: 2
+  max-pending-hashes: 16
+  # Reserve owner/staff names before their first offline registration.
+  # Existing ledger identities and operators additionally require local-console enrollment.
+  reserved-names: []
 server: {target-real-players: 4, memory-ceiling-mb: 3584, disk-ceiling-mb: 10240}
 population:
   target-total: 100
@@ -38,6 +49,7 @@ crime:
   jail-minutes: [5,10,20]
   conviction-fines-cents: [5000,15000,30000]
 medical:
+  recovery-fee-cents: 7500 # Death: wallet then bank in one recorded settlement; insufficient funds drop inventory.
   downed-enabled: false # SimpleRevive handles downed state; avoid duplicate handlers.
   downed-seconds: 90
   procedure-seconds: 30
@@ -95,4 +107,10 @@ gta:
   hud: {enabled: true}
   safe-zone-radius: 18
   wanted: {decay-seconds: 120}
-  shop: {vehicle-sedan-cents: 150000}
+  shop: {vehicle-sedan-cents: 150000, allow-external-vehicle-purchases: false}
+restoration:
+  # Only explicitly surveyed zones in restorable_zones.yml are eligible.
+  # Tile entities other than public signs are protected rather than destructively reconstructed.
+  delay-ms: 300000
+  min-y: 55
+  batch-per-second: 64

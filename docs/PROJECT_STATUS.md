@@ -1,3 +1,5 @@
+> Current engineering status (25 November 2026): work continues on `gtm/playable-r4` as `1.0.1-r4-candidate`. See [the full acceptance matrix](PLAYABLE_R4_ACCEPTANCE.md), [current build evidence](BUILD_RUNTIME_R4_REPORT.md), [laptop package guide](LAPTOP_BUNDLE.md) and [handoff](PLAYABLE_R4_HANDOFF.md). This historical status page is not a claim that the complete Revision 4 game is playable.
+
 # SD Craft — Master Project Status
 
 **Date:** 2026-11-24  

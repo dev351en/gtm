@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "purpose": "Pinned private laptop build inputs; no automatic deployment or latest-version resolution",
+  "target": {"minecraft": "26.3", "paper_build": 255, "java_major": 25},
+  "items": {
+    "minecraft-bundler": {
+      "kind": "private_minecraft_bootstrap_cache",
+      "filename": "mojang_26.3.jar",
+      "bytes": 62294556,
+      "checksums": {"sha256": "d052f14d7a173734fba553711e5b570162e2f2a313267ee31a21b975a679be64"},
+      "url": "https://piston-data.mojang.com/v1/objects/33680f5f2ac32864d6d7cf5e56a705fdb3e05f4c/server.jar",
+      "allowed_hosts": ["piston-data.mojang.com"],
+      "metadata_source": "Pinned official paper-26.3-255.jar META-INF/download-context (SHA-256); official HTTPS HEAD byte count",
+      "terms": "https://www.minecraft.net/en-us/eula",
+      "note": "Original upstream server bundler for this private owner installation. No public redistribution or implicit EULA acceptance."
+    },
+    "geyser": {
+      "kind": "plugin",
+      "filename": "Geyser-Spigot-2.12.1-b1308.jar",
+      "bytes": 52219447,
+      "checksums": {"sha256": "8682df3e77fd4a7e745ed671fbbb727aca32a77d89c97a50f5f77f20fdb191fa"},
+      "url": "https://download.geysermc.org/v2/projects/geyser/versions/2.12.1/builds/1308/downloads/spigot",
+      "allowed_hosts": ["download.geysermc.org"],
+      "metadata_source": "https://download.geysermc.org/v2/projects/geyser/versions/2.12.1/builds/1308",
+      "note": "Optional crossplay plugin. Actual Java/Bedrock clients and TCP/UDP transport require verification."
+    },
+    "floodgate": {
+      "kind": "plugin",
+      "filename": "floodgate-spigot-2.2.5-b141.jar",
+      "bytes": 11561096,
+      "checksums": {"sha256": "21570aff9ce17d6983928e8552777760e1ede5050026b04c686b0ae112e6fd7e"},
+      "url": "https://download.geysermc.org/v2/projects/floodgate/versions/2.2.5/builds/141/downloads/spigot",
+      "allowed_hosts": ["download.geysermc.org"],
+      "metadata_source": "https://download.geysermc.org/v2/projects/floodgate/versions/2.2.5/builds/141",
+      "note": "Optional crossplay identity plugin. Preserve existing Floodgate keys and UUID prefix policy on private imports."
+    },
+    "windows-java25": {
+      "kind": "windows_x64_runtime",
+      "filename": "OpenJDK25U-jre_x64_windows_hotspot_25.0.5.1_2.zip",
+      "bytes": 58599439,
+      "checksums": {"sha256": "3260a1b9899f30ac80d737daafc053042c525249f52d066101fbf81d78d73f25"},
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-jre_x64_windows_hotspot_25.0.5.1_2.zip",
+      "allowed_hosts": ["github.com", "release-assets.githubusercontent.com", "objects.githubusercontent.com"],
+      "metadata_source": "https://api.adoptium.net/v3/assets/feature_releases/25/ga?architecture=x64&heap_size=normal&image_type=jre&jvm_impl=hotspot&os=windows&page_size=2&project=jdk&vendor=eclipse",
+      "release": "jdk-25.0.5.1+2",
+      "note": "Original Temurin archive; retain its legal and license files. Windows x64 only; Linux/macOS require their own Java 25 runtime."
+    },
+    "paper": {
+      "kind": "server",
+      "filename": "paper-26.3-255.jar",
+      "bytes": 55296784,
+      "checksums": {"sha256": "a7116085a8ba88cf00771d5e61a2925007942092650811da7327dc23243f0cec"},
+      "url": "https://fill-data.papermc.io/v1/objects/a7116085a8ba88cf00771d5e61a2925007942092650811da7327dc23243f0cec/paper-26.3-255.jar",
+      "allowed_hosts": ["fill-data.papermc.io"],
+      "metadata_source": "https://fill.papermc.io/v3/projects/paper/versions/26.3/builds/255",
+      "terms": "https://www.minecraft.net/en-us/eula",
+      "note": "Paperclip may download Minecraft libraries on first boot; do not publish private assembled server archives."
+    },
+    "public-world": {
+      "kind": "sanitized_world_snapshot",
+      "filename": "EXPECT_SDCRAFT_PUBLIC_WORLD_2026-11-23.zip",
+      "bytes": 263993349,
+      "checksums": {"sha256": "214a00a08acdb5f73fea52ef79cdfdf773551086d31f5f95725f559ad0802dc2"},
+      "url": "https://media.githubusercontent.com/media/dev351en/gtm/main/downloads/EXPECT_SDCRAFT_PUBLIC_WORLD_2026-11-23.zip",
+      "allowed_hosts": ["media.githubusercontent.com", "raw.githubusercontent.com"],
+      "metadata_source": "downloads/EXPECT_SDCRAFT_PUBLIC_WORLD_2026-11-23.zip Git LFS pointer",
+      "note": "Historical sanitized public city snapshot; never describe this as the latest private Daytona world or account backup."
+    },
+    "vault": {
+      "kind": "plugin",
+      "filename": "VaultUnlocked-2.20.3.jar",
+      "bytes": 134932,
+      "checksums": {"sha256": "fbc6651aca11e13376c115df66eeffa79592e79517be398299aa6beb49c22695"},
+      "repository_path": "plugins/VaultUnlocked-2.20.3.jar",
+      "plugin_name": "Vault",
+      "plugin_version": "2.20.3",
+      "metadata_source": "Existing project dependency, inspected plugin.yml and SHA-256",
+      "note": "Preserved existing project dependency; not a new license or redistribution claim."
+    }
+  }
+}

@@ -1,11 +1,30 @@
 name: SDCraftCore
-version: 1.0.0
+version: 1.0.1-r4-candidate
 main: com.sdcraft.core.SDCraftCorePlugin
 api-version: '26.3'
 author: SDCraft
-softdepend: [Citizens, Denizen, WorldGuard, LuckPerms, Vault, Geyser-Spigot, MTVehicles, BlueMap, QualityArmory, CommandPanels]
+softdepend: [Citizens, Denizen, WorldGuard, LuckPerms, Vault, Geyser-Spigot, floodgate, MTVehicles, BlueMap, QualityArmory, CommandPanels, SimpleLogin, AuthMe, LoginSecurity]
 description: Integrated SD Craft server controller; some external systems require plugins or commissioning.
 commands:
+  register:
+    description: Register a protected offline account using a private passphrase
+    usage: /register <passphrase> <repeat>
+    aliases: [reg]
+  login:
+    description: Authenticate an existing offline account
+    usage: /login <passphrase>
+    aliases: [l]
+  logout:
+    description: End the current authenticated session
+    usage: /logout
+  changepassword:
+    description: Change the current offline account passphrase
+    usage: /changepassword <old> <new> <repeat>
+    aliases: [changepass]
+  gtmauth:
+    description: Local-console-only authentication status and enrollment
+    usage: /gtmauth status | enroll <online-player>
+    permission: sdcraft.admin
   sdcraft:
     description: SD Craft city services, banking, NPCs and admin setup
     usage: /sdcraft help
@@ -42,6 +61,7 @@ commands:
     description: Open the Creative Testing Arsenal for vehicles, guns, ammo, cash, and teleportation
     usage: /arsenal
     aliases: [creativemenu, testitems, testing]
+    permission: sdcraft.admin
   gtmassets:
     description: Browse the GTM design catalogue on staging
     usage: /gtmassets [category]

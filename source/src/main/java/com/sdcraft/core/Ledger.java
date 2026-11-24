@@ -135,6 +135,27 @@ final class Ledger {
         require(id); checkAmount(cents);if(bank(id)<cents)return false;
         db.set(key(id)+".bank",bank(id)-cents);save();append("BANK_SPEND",id,null,cents,reason);return true;
     }
+    /** The medical decision and both debits are one durable aggregate, including declined care. */
+    synchronized boolean settleMedicalOnce(UUID id, UUID death, long fee) throws IOException {
+        require(id); Objects.requireNonNull(death);
+        if(fee<0||fee>100000000000L)throw new IllegalArgumentException("Invalid medical fee");
+        String root=key(id)+".medical-receipts",p=root+"."+death;
+        if(db.contains(p)) {
+            if(db.getLong(p+".fee")!=fee)throw new IllegalStateException("Medical receipt fee differs");
+            return db.getBoolean(p+".insured");
+        }
+        var records=db.getConfigurationSection(root);
+        if(records!=null&&records.getKeys(false).size()>=16384)throw new IOException("Medical receipt capacity reached");
+        long wallet=wallet(id),bank=bank(id);
+        if(wallet<0||bank<0)throw new IllegalStateException("Invalid account balance");
+        long fromWallet=Math.min(wallet,fee),fromBank=fee-fromWallet;
+        boolean insured=bank>=fromBank;
+        if(insured){db.set(key(id)+".wallet",wallet-fromWallet);db.set(key(id)+".bank",bank-fromBank);}
+        db.set(p+".fee",fee);db.set(p+".insured",insured);
+        db.set(p+".wallet-charge",insured?fromWallet:0L);db.set(p+".bank-charge",insured?fromBank:0L);
+        save();append("MEDICAL_RECOVERY",id,null,insured?fee:0L,"death="+death+" insured="+insured);
+        return insured;
+    }
     synchronized void reward(UUID id,long cents,String reason) throws IOException {
         require(id);checkAmount(cents);db.set(key(id)+".bank",Math.addExact(bank(id),cents));
         save();append("EARN",id,null,cents,reason);
@@ -147,6 +168,27 @@ final class Ledger {
         db.set(key(id)+".bank",nextBank);
         db.set(key(id)+".credits",total);
         save();append("MISSION",id,null,cents,reason+" credits="+addCredits);
+    }
+    /** The reward and its durable receipt commit together, so a recovered mission cannot pay twice. */
+    synchronized boolean rewardCareerOnce(UUID id, UUID run, long cents, int addCredits, String reason) throws IOException {
+        require(id); Objects.requireNonNull(run); checkAmount(cents);
+        if(addCredits<0||addCredits>3||reason==null||reason.length()>160)
+            throw new IllegalArgumentException("Invalid mission settlement");
+        String root=key(id)+".mission-receipts", p=root+"."+run;
+        if(db.contains(p)) {
+            if(db.getLong(p+".cents")!=cents || db.getInt(p+".credits")!=addCredits || !reason.equals(db.getString(p+".reason")))
+                throw new IllegalStateException("Mission receipt does not match the requested settlement");
+            return false;
+        }
+        var receipts=db.getConfigurationSection(root);
+        if(receipts!=null&&receipts.getKeys(false).size()>=16384)
+            throw new IOException("Mission receipt capacity reached; archive review required");
+        long nextBank=Math.addExact(bank(id),cents);
+        int nextCredits=Math.addExact(credits(id),addCredits);
+        db.set(key(id)+".bank",nextBank); db.set(key(id)+".credits",nextCredits);
+        db.set(p+".cents",cents); db.set(p+".credits",addCredits); db.set(p+".reason",reason);
+        save(); append("MISSION",id,null,cents,reason+" run="+run+" credits="+addCredits);
+        return true;
     }
     synchronized void grantDuty(UUID id,long cents,long ms,int addCredits,String reason) throws IOException {
         require(id);
@@ -301,6 +343,50 @@ final class Ledger {
         if(t==null||!t.id().equals(id)||!t.ready(now))return false;
         writeFood(t.close(FoodCatalogue.Phase.COLLECTED,now));
         save();append("FOOD_COLLECTION",customer,null,0,"order="+id);return true;
+    }
+    record ItemDelivery(UUID id,String description,String payload) {}
+    private void addDelivery(UUID customer,UUID id,String description,String payload) {
+        Objects.requireNonNull(id);
+        if(description==null||description.isBlank()||description.length()>160||payload==null||payload.isBlank()||payload.length()>65536)
+            throw new IllegalArgumentException("Invalid item delivery");
+        String root=key(customer)+".item-deliveries",p=root+"."+id;
+        var records=db.getConfigurationSection(root);
+        if(db.contains(p))throw new IllegalStateException("Delivery already exists");
+        if(records!=null&&records.getKeys(false).size()>=4096)throw new IllegalStateException("Delivery receipt capacity reached");
+        db.set(p+".description",description);db.set(p+".payload",payload);db.set(p+".received",false);
+    }
+    synchronized List<ItemDelivery> pendingDeliveries(UUID customer) {
+        require(customer);String root=key(customer)+".item-deliveries";
+        var records=db.getConfigurationSection(root);if(records==null)return List.of();
+        List<ItemDelivery> result=new ArrayList<>();
+        for(String id:records.getKeys(false))if(!db.getBoolean(root+"."+id+".received"))
+            result.add(new ItemDelivery(UUID.fromString(id),db.getString(root+"."+id+".description",""),db.getString(root+"."+id+".payload","")));
+        return List.copyOf(result);
+    }
+    /** Debit and durable delivery queue are committed together. */
+    synchronized boolean purchaseDelivery(UUID customer,UUID id,long price,boolean fromBank,String description,String payload) throws IOException {
+        require(customer);checkAmount(price);String p=key(customer)+".item-deliveries."+id;
+        if(db.contains(p)){
+            if(db.getLong(p+".price")!=price||db.getBoolean(p+".bank")!=fromBank||!description.equals(db.getString(p+".description"))||!payload.equals(db.getString(p+".payload")))
+                throw new IllegalStateException("Purchase receipt differs");
+            return true;
+        }
+        long balance=fromBank?bank(customer):wallet(customer);if(balance<price)return false;
+        addDelivery(customer,id,description,payload);
+        db.set(p+".price",price);db.set(p+".bank",fromBank);db.set(key(customer)+(fromBank?".bank":".wallet"),balance-price);
+        save();append("ITEM_PURCHASE",customer,null,price,"delivery="+id+" "+description);return true;
+    }
+    synchronized boolean collectFoodToDelivery(UUID customer,UUID id,long now,String payload) throws IOException {
+        var t=foodOrder(customer).orElse(null);
+        if(t==null||!t.id().equals(id)||!t.ready(now))return false;
+        addDelivery(customer,id,"Food: "+t.meal(),payload);writeFood(t.close(FoodCatalogue.Phase.COLLECTED,now));
+        save();append("FOOD_COLLECTION",customer,null,0,"delivery="+id);return true;
+    }
+    synchronized void acknowledgeDelivery(UUID customer,UUID id) throws IOException {
+        require(customer);String p=key(customer)+".item-deliveries."+id;
+        if(!db.contains(p))throw new IllegalArgumentException("Unknown delivery receipt");
+        if(db.getBoolean(p+".received"))return;
+        db.set(p+".received",true);save();
     }
     synchronized boolean ownsFinish(UUID player, Finish finish) {
         require(player);

@@ -27,7 +27,7 @@ final class GtmLoans implements Listener {
     }
     GtmLoans(SDCraftCorePlugin plugin,Ledger ledger) { this.plugin=plugin; this.ledger=ledger; }
     boolean available(Player p) {
-        return plugin.getConfig().getBoolean("gtm.experimental-loans",false)
+        return plugin.isAuthenticated(p) && plugin.getConfig().getBoolean("gtm.experimental-loans",false)
                 && p.hasPermission("gtm.loans") && ledger.exists(p.getUniqueId());
     }
     private String ark(long cents) { return String.format(Locale.ROOT,"%,.2f ARK",cents/100d); }

@@ -364,7 +364,7 @@ final class NpcService implements Listener {
 
         if (roster != null) totalLimit = Math.min(totalLimit, 32);
         int admitted = 0;
-        var players = Bukkit.getOnlinePlayers().stream().filter(p -> !p.hasMetadata("NPC") && identify(p)==null)
+        var players = Bukkit.getOnlinePlayers().stream().filter(p -> !p.hasMetadata("NPC") && identify(p)==null && authenticated(p))
             .map(Player::getLocation).toList();
         var jailed = roster == null || defaultWorld == null ? Set.<UUID>of()
             : roster.prisoners(Math.floorDiv(defaultWorld.getFullTime(),24000L));
@@ -419,7 +419,7 @@ final class NpcService implements Listener {
             Retaliation fight = retaliation.get(id);
             if (fight != null && active.tough()) {
                 Player attacker = Bukkit.getPlayer(fight.attacker());
-                if (attacker == null || !attacker.isOnline() || now > fight.expiresAt()
+                if (attacker == null || !attacker.isOnline() || !authenticated(attacker) || now > fight.expiresAt()
                         || !attacker.getWorld().equals(entity.getWorld())
                         || attacker.getLocation().distanceSquared(entity.getLocation()) > 24.0 * 24.0) {
                     retaliation.remove(id);
@@ -547,10 +547,14 @@ final class NpcService implements Listener {
     }
 
     private Player attackingPlayer(Entity source) {
-        if (source instanceof Player player && identify(player) == null) return player;
+        if (source instanceof Player player && identify(player) == null && authenticated(player)) return player;
         if (source instanceof Projectile projectile && projectile.getShooter() instanceof Player player
-                && identify(player) == null) return player;
+                && identify(player) == null && authenticated(player)) return player;
         return null;
+    }
+
+    private boolean authenticated(Player player) {
+        return plugin instanceof SDCraftCorePlugin core && core.isAuthenticated(player);
     }
 
     @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = false)
@@ -597,6 +601,7 @@ final class NpcService implements Listener {
     }
 
     private void defeat(String id, Active active, LivingEntity victim, Player attacker) {
+        if (!authenticated(attacker)) return;
         if (!defeated.add(id)) return;
         victim.setInvulnerable(true);
         long min = Math.max(1L, plugin.getConfig().getLong("population.ambient-loot-min-cents", 300L));

@@ -93,6 +93,8 @@ final class AiService {
     }
 
     void speak(Player player, String npcId, String npcName, String role, String dept, String lang, String prompt, String fallbackGreeting) {
+        if (!(plugin instanceof SDCraftCorePlugin core) || !core.isAuthenticated(player)) return;
+        UUID session = core.authenticatedSession(player);
         UUID id = player.getUniqueId();
         long now = System.currentTimeMillis();
 
@@ -173,7 +175,7 @@ final class AiService {
                 String reply = (error == null && response != null && response.statusCode() == 200) ? content(response.body()) : null;
                 String remoteReply = reply;
                 Bukkit.getScheduler().runTask(plugin, () -> {
-                    if (!player.isOnline()) return;
+                    if (!player.isOnline() || !Objects.equals(session, core.authenticatedSession(player))) return;
                     String finalReply = remoteReply == null || remoteReply.isBlank()
                         ? Jeeva.reply(player, npcId, npcName, role, dept, lang, question, fallbackGreeting)
                         : remoteReply.substring(0, Math.min(650, remoteReply.length()));
