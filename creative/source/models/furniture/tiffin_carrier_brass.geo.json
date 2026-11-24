@@ -1,0 +1,56 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gtm.tiffin_carrier_brass",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 0.75,
+        "visible_bounds_height": 0.95,
+        "visible_bounds_offset": [
+          0,
+          0.225,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "base",
+          "parent": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -2.0,
+                0,
+                -2.0
+              ],
+              "size": [
+                4.0,
+                7.2,
+                4.0
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

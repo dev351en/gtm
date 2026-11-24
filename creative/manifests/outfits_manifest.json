@@ -1,0 +1,1215 @@
+{
+  "schema_version": "1.0.0",
+  "total_outfits": 100,
+  "categories": {
+    "casual": 20,
+    "traditional": 20,
+    "formal": 15,
+    "sports": 10,
+    "festival": 15,
+    "premium": 10,
+    "utility": 10
+  },
+  "outfits": [
+    {
+      "id": "outfit-001",
+      "category": "casual",
+      "texture": "creative/source/outfits/outfit-001.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "6236776601d54b024aedd69586d4112d253c479ee4b7a7583314c2e321102cea",
+      "price_ark": 185
+    },
+    {
+      "id": "outfit-002",
+      "category": "casual",
+      "texture": "creative/source/outfits/outfit-002.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "50d0c3dec17cd37e9041ddfcc5e83d4cfb6d332aa57691819d58f6b951d3dd94",
+      "price_ark": 220
+    },
+    {
+      "id": "outfit-003",
+      "category": "casual",
+      "texture": "creative/source/outfits/outfit-003.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "4a183bfd4f2a22b51fcad713d6c4eac8bca7a098ba838da8f5c100c1cf8d48d2",
+      "price_ark": 255
+    },
+    {
+      "id": "outfit-004",
+      "category": "casual",
+      "texture": "creative/source/outfits/outfit-004.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "06eb568ee1a2a21a9ba7806b6cef07384cf30dc5e42508025bec89b3521ffcbd",
+      "price_ark": 290
+    },
+    {
+      "id": "outfit-005",
+      "category": "casual",
+      "texture": "creative/source/outfits/outfit-005.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "ffd0de07fa6f85ca538030689e28bbc83c9a6fc59177371e549b6050d36be681",
+      "price_ark": 325
+    },
+    {
+      "id": "outfit-006",
+      "category": "casual",
+      "texture": "creative/source/outfits/outfit-006.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "170812cb836c3c6eede8f6dd956ac0dac20775140b1f90e7c214ff399e566159",
+      "price_ark": 360
+    },
+    {
+      "id": "outfit-007",
+      "category": "casual",
+      "texture": "creative/source/outfits/outfit-007.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "9628f35568c9b9f00b1dad6016ce30eba2b9cc3db62465ff00b9cb3f2ca2a188",
+      "price_ark": 395
+    },
+    {
+      "id": "outfit-008",
+      "category": "casual",
+      "texture": "creative/source/outfits/outfit-008.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "7e9eff64795475d92039bcb318e270b114127b3e9cba21c30d40df4926cb6fec",
+      "price_ark": 430
+    },
+    {
+      "id": "outfit-009",
+      "category": "casual",
+      "texture": "creative/source/outfits/outfit-009.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "addc51900e2e50bf63bb392067c601b8185ee76865a8d462cbdc057ea5f46dd4",
+      "price_ark": 465
+    },
+    {
+      "id": "outfit-010",
+      "category": "casual",
+      "texture": "creative/source/outfits/outfit-010.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "f37a6c9d800344201a56e54f35c1a1ad19a5fba630ffcc1b2f3830502c2274c3",
+      "price_ark": 150
+    },
+    {
+      "id": "outfit-011",
+      "category": "casual",
+      "texture": "creative/source/outfits/outfit-011.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "099324445cc4ec7318c4e8d346948236f71bf64e9d8a4a62404eb2f4bdcd7b05",
+      "price_ark": 185
+    },
+    {
+      "id": "outfit-012",
+      "category": "casual",
+      "texture": "creative/source/outfits/outfit-012.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "1c729ddf8cfb0fdceb960e3787f7d07e18550610674c35d5bec7fff9c21a24c5",
+      "price_ark": 220
+    },
+    {
+      "id": "outfit-013",
+      "category": "casual",
+      "texture": "creative/source/outfits/outfit-013.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "415f1e91f7404f08dd3255f9dc940ffa0bb98159426b9a4503437cdf251ef5cf",
+      "price_ark": 255
+    },
+    {
+      "id": "outfit-014",
+      "category": "casual",
+      "texture": "creative/source/outfits/outfit-014.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "88f48cc1a054e488db9442d8865bfa5b03a2918f4b787c91b10eeaa2443b2b7f",
+      "price_ark": 290
+    },
+    {
+      "id": "outfit-015",
+      "category": "casual",
+      "texture": "creative/source/outfits/outfit-015.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "f9f28427d7004c88eb00af81161a44e564ace0ce8f700609d9d08906311b510e",
+      "price_ark": 325
+    },
+    {
+      "id": "outfit-016",
+      "category": "casual",
+      "texture": "creative/source/outfits/outfit-016.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "62d054b014c60d49645795d44e61f4bdeb6c19c5938533a19ec815b951413273",
+      "price_ark": 360
+    },
+    {
+      "id": "outfit-017",
+      "category": "casual",
+      "texture": "creative/source/outfits/outfit-017.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "48e94109f45130be089419ecbcf9f315f33e8981190e152b4f26457ab3952e08",
+      "price_ark": 395
+    },
+    {
+      "id": "outfit-018",
+      "category": "casual",
+      "texture": "creative/source/outfits/outfit-018.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "2a7c28a382c7e61a2848cfd023c140d2179255dce80d456016cd58c248da8f35",
+      "price_ark": 430
+    },
+    {
+      "id": "outfit-019",
+      "category": "casual",
+      "texture": "creative/source/outfits/outfit-019.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "b92301215537a900a5211972c55f7ab9783ccfbdb3d40dc099511ee2de0bebff",
+      "price_ark": 465
+    },
+    {
+      "id": "outfit-020",
+      "category": "casual",
+      "texture": "creative/source/outfits/outfit-020.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "de115d706fc8143a2ed3c362752237f50ca08d8a740b8094f15a2d01cdc188ee",
+      "price_ark": 150
+    },
+    {
+      "id": "outfit-021",
+      "category": "traditional",
+      "texture": "creative/source/outfits/outfit-021.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "61746aec286fa2de7810aa7c50739960c9e9f3d26833af51ecd0e5da5442e90e",
+      "price_ark": 185
+    },
+    {
+      "id": "outfit-022",
+      "category": "traditional",
+      "texture": "creative/source/outfits/outfit-022.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "abd87fcfe78c1614011c9c8725e1b08704655becbb5b4277d0f2676244c7bdf8",
+      "price_ark": 220
+    },
+    {
+      "id": "outfit-023",
+      "category": "traditional",
+      "texture": "creative/source/outfits/outfit-023.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "fd3309e6b175eca09ee798ad840afad1f596651d15a7dd1be7a14b384579e875",
+      "price_ark": 255
+    },
+    {
+      "id": "outfit-024",
+      "category": "traditional",
+      "texture": "creative/source/outfits/outfit-024.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "a0e96abd651d25895378db4e9109e68f050c18e8ff1d731595fc5a2aee42e046",
+      "price_ark": 290
+    },
+    {
+      "id": "outfit-025",
+      "category": "traditional",
+      "texture": "creative/source/outfits/outfit-025.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "e2e729b4c0e3e6a111ff4ee673baf50d1b67f083b3c92932c9d2ef3ca6b6e8c2",
+      "price_ark": 325
+    },
+    {
+      "id": "outfit-026",
+      "category": "traditional",
+      "texture": "creative/source/outfits/outfit-026.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "7676052d6abc171dd00ceab0ce913ba11a132a38b39cd37713d28a1c1e8debc8",
+      "price_ark": 360
+    },
+    {
+      "id": "outfit-027",
+      "category": "traditional",
+      "texture": "creative/source/outfits/outfit-027.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "0710dc0b20a2d819b11e0b21cee0fc9240283e1f2b1f5b2d2b9abd19749cd38b",
+      "price_ark": 395
+    },
+    {
+      "id": "outfit-028",
+      "category": "traditional",
+      "texture": "creative/source/outfits/outfit-028.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "8398f80e2216f62931951b201c8cb75b229e21a8370d03c1c2cae2e16128da94",
+      "price_ark": 430
+    },
+    {
+      "id": "outfit-029",
+      "category": "traditional",
+      "texture": "creative/source/outfits/outfit-029.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "9a9889ace17a8297e63b396d2707f0bdf260772c2aaad53153c1abf5cde85fc4",
+      "price_ark": 465
+    },
+    {
+      "id": "outfit-030",
+      "category": "traditional",
+      "texture": "creative/source/outfits/outfit-030.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "616b3d5ce341dae9adb68d2c7d0a7a7492f7effafb42b73b0e306a48bef8581c",
+      "price_ark": 150
+    },
+    {
+      "id": "outfit-031",
+      "category": "traditional",
+      "texture": "creative/source/outfits/outfit-031.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "d17b35d95f2e34f7b605be7c404eba75b999b0770fb0979db00b3cece4b4824f",
+      "price_ark": 185
+    },
+    {
+      "id": "outfit-032",
+      "category": "traditional",
+      "texture": "creative/source/outfits/outfit-032.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "8ba1e3c7f6fbb7de2a733d6222fbca165f62c3dea147cb18e2618e2a088d8e46",
+      "price_ark": 220
+    },
+    {
+      "id": "outfit-033",
+      "category": "traditional",
+      "texture": "creative/source/outfits/outfit-033.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "539001a4e5efd4b07bc6cfdbd75103accb2a07630da29900adb7d7f901215d54",
+      "price_ark": 255
+    },
+    {
+      "id": "outfit-034",
+      "category": "traditional",
+      "texture": "creative/source/outfits/outfit-034.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "376cdedb76de3cacc54a13af1f7f433c697575c88321381531eade92f90d7368",
+      "price_ark": 290
+    },
+    {
+      "id": "outfit-035",
+      "category": "traditional",
+      "texture": "creative/source/outfits/outfit-035.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "a5bb5289d87a781a4c05337caf55caf9004527c6c16fa4285c1c97d66c132bbe",
+      "price_ark": 325
+    },
+    {
+      "id": "outfit-036",
+      "category": "traditional",
+      "texture": "creative/source/outfits/outfit-036.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "5d4f2a588539036c902da4eeb8c7ac1a69a52ecea94e5ef366c5dec964d7803d",
+      "price_ark": 360
+    },
+    {
+      "id": "outfit-037",
+      "category": "traditional",
+      "texture": "creative/source/outfits/outfit-037.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "833d78933d4d583f90f3ed33f9e731d8f18902b8723e8246b5e5cdd2b39f1434",
+      "price_ark": 395
+    },
+    {
+      "id": "outfit-038",
+      "category": "traditional",
+      "texture": "creative/source/outfits/outfit-038.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "c8073f70f86d3d733f9d412b3e6a3fafb49dd015c52575f537353ae2abf6d028",
+      "price_ark": 430
+    },
+    {
+      "id": "outfit-039",
+      "category": "traditional",
+      "texture": "creative/source/outfits/outfit-039.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "257cca31121558bf43f0ab4cb09c533522d146feb3788814164a8551c9e9bef3",
+      "price_ark": 465
+    },
+    {
+      "id": "outfit-040",
+      "category": "traditional",
+      "texture": "creative/source/outfits/outfit-040.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "30a859696f00feba8d4a2040021e7508816b90e304029ccb6897ede6bc3208ea",
+      "price_ark": 150
+    },
+    {
+      "id": "outfit-041",
+      "category": "formal",
+      "texture": "creative/source/outfits/outfit-041.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "d7e21b84a00995a6d74081904804eab915fcd0e5742ae78f4ac8f2779aa109c6",
+      "price_ark": 185
+    },
+    {
+      "id": "outfit-042",
+      "category": "formal",
+      "texture": "creative/source/outfits/outfit-042.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "64ef46ee28dacbb43ab300766f6b8b89739ef018275d07f80a5ccd301348f526",
+      "price_ark": 220
+    },
+    {
+      "id": "outfit-043",
+      "category": "formal",
+      "texture": "creative/source/outfits/outfit-043.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "07e62c371d3926fb8d81f5cc2a124f407892fa1e95a18bdc9b35acaf408bc62d",
+      "price_ark": 255
+    },
+    {
+      "id": "outfit-044",
+      "category": "formal",
+      "texture": "creative/source/outfits/outfit-044.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "3d9aabc9c6c74e7ea3d12b54fdd275065bbe74b698886c7fe9410fe3b3a0125f",
+      "price_ark": 290
+    },
+    {
+      "id": "outfit-045",
+      "category": "formal",
+      "texture": "creative/source/outfits/outfit-045.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "55eb772f2c7478bbe69e9d41e7577a4705ab79695e65f8c26996bf95700324b4",
+      "price_ark": 325
+    },
+    {
+      "id": "outfit-046",
+      "category": "formal",
+      "texture": "creative/source/outfits/outfit-046.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "f851e4d98fd4287a54bde637850cf85440dbc42a1a53dec4f817eb033c47c2c9",
+      "price_ark": 360
+    },
+    {
+      "id": "outfit-047",
+      "category": "formal",
+      "texture": "creative/source/outfits/outfit-047.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "3a18448b9dfa1054d73722cf162cdbe0ff37349a32a2a644372ef407c34ff643",
+      "price_ark": 395
+    },
+    {
+      "id": "outfit-048",
+      "category": "formal",
+      "texture": "creative/source/outfits/outfit-048.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "39e429b90387de6c69312a01e8d22ab631744610bd66d73d73a28ccd16601a50",
+      "price_ark": 430
+    },
+    {
+      "id": "outfit-049",
+      "category": "formal",
+      "texture": "creative/source/outfits/outfit-049.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "31b4c3563375f20ed7597f556a11d921d53f79a18ee7be87c5eb410e3f9ac893",
+      "price_ark": 465
+    },
+    {
+      "id": "outfit-050",
+      "category": "formal",
+      "texture": "creative/source/outfits/outfit-050.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "300b1c76055bebe66b63121ada263828e16fa2357f032b9bf172fcee271561c6",
+      "price_ark": 150
+    },
+    {
+      "id": "outfit-051",
+      "category": "formal",
+      "texture": "creative/source/outfits/outfit-051.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "e73d8c5de4d71b7abeea842baf8072779989aff23586565eb68e47e0ab4e1542",
+      "price_ark": 185
+    },
+    {
+      "id": "outfit-052",
+      "category": "formal",
+      "texture": "creative/source/outfits/outfit-052.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "8487035fd782ce863de604d6d62d7cdd8d71f6044cac102f94f282e7a7953a93",
+      "price_ark": 220
+    },
+    {
+      "id": "outfit-053",
+      "category": "formal",
+      "texture": "creative/source/outfits/outfit-053.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "1a3bfc18522134594c4f94317168e690d3c5c77ad4c1b4e25d1ede3877c44adf",
+      "price_ark": 255
+    },
+    {
+      "id": "outfit-054",
+      "category": "formal",
+      "texture": "creative/source/outfits/outfit-054.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "a8a712ae9253272e38a596166a936175c0662d0eeed1e837e2221fd64af20157",
+      "price_ark": 290
+    },
+    {
+      "id": "outfit-055",
+      "category": "formal",
+      "texture": "creative/source/outfits/outfit-055.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "39fb7057a5ebbc5f8d24f7c324719f605aa3f4ed67ba77315ccf625f3cd568db",
+      "price_ark": 325
+    },
+    {
+      "id": "outfit-056",
+      "category": "sports",
+      "texture": "creative/source/outfits/outfit-056.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "9f0d4111a786dad2dc181a84f65b18097c091975af3573ba12bcbaa058638f8a",
+      "price_ark": 360
+    },
+    {
+      "id": "outfit-057",
+      "category": "sports",
+      "texture": "creative/source/outfits/outfit-057.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "a3764d192424c5e34dee1355321804b2082a405d90f2b4a44b36ae8f536f8da3",
+      "price_ark": 395
+    },
+    {
+      "id": "outfit-058",
+      "category": "sports",
+      "texture": "creative/source/outfits/outfit-058.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "9d18d213cd83d2c23c2a0c5b19c630ae50f83f62f8a459a653103f02329bd93e",
+      "price_ark": 430
+    },
+    {
+      "id": "outfit-059",
+      "category": "sports",
+      "texture": "creative/source/outfits/outfit-059.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "c04aa9136f73907b81c18b0e0b6d730e733cc84f858e4aad97dfdeec3ed59012",
+      "price_ark": 465
+    },
+    {
+      "id": "outfit-060",
+      "category": "sports",
+      "texture": "creative/source/outfits/outfit-060.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "1c237a23bec0479ed2f919dfe959f75f49a6f83826b97375185cdc31a40ed649",
+      "price_ark": 150
+    },
+    {
+      "id": "outfit-061",
+      "category": "sports",
+      "texture": "creative/source/outfits/outfit-061.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "509995c303815bf5f2f6466f1d1593f3d1a509e6f72b156f2fc258e1d1c2efec",
+      "price_ark": 185
+    },
+    {
+      "id": "outfit-062",
+      "category": "sports",
+      "texture": "creative/source/outfits/outfit-062.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "929d3e46ba76cda84e6e88f22eaf353e9b4523180f5798056a259bf8273e608a",
+      "price_ark": 220
+    },
+    {
+      "id": "outfit-063",
+      "category": "sports",
+      "texture": "creative/source/outfits/outfit-063.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "0038fbfd729e60edaf20d65517e348b32267888df871c89930f10507fd252a3c",
+      "price_ark": 255
+    },
+    {
+      "id": "outfit-064",
+      "category": "sports",
+      "texture": "creative/source/outfits/outfit-064.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "b04cfb11583436ea72a41eb8ea6a0d7424225caa47a044a39986adea8dfc7c22",
+      "price_ark": 290
+    },
+    {
+      "id": "outfit-065",
+      "category": "sports",
+      "texture": "creative/source/outfits/outfit-065.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "b621de0d97703b89bc8c10323d7274031173dc3dc6510e47e4a8a3be7d568be1",
+      "price_ark": 325
+    },
+    {
+      "id": "outfit-066",
+      "category": "festival",
+      "texture": "creative/source/outfits/outfit-066.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "db4fa147ce74d400a45a7133a3ef63af5bb6d1acb38adea1bdf243d2efb01d81",
+      "price_ark": 360
+    },
+    {
+      "id": "outfit-067",
+      "category": "festival",
+      "texture": "creative/source/outfits/outfit-067.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "69f4f1ec81b913c9cc2bf2e30a7921ddee1db216e7eaf159cd5861d87d506bbc",
+      "price_ark": 395
+    },
+    {
+      "id": "outfit-068",
+      "category": "festival",
+      "texture": "creative/source/outfits/outfit-068.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "96585eee6954f86f7a3e47fb2a5f94e3f640714c488e0f8570b94ba398e0d3e2",
+      "price_ark": 430
+    },
+    {
+      "id": "outfit-069",
+      "category": "festival",
+      "texture": "creative/source/outfits/outfit-069.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "ba7fde51cbd0513baa2d1591e7c1fb38d9f320387005858dade45b370beb90d9",
+      "price_ark": 465
+    },
+    {
+      "id": "outfit-070",
+      "category": "festival",
+      "texture": "creative/source/outfits/outfit-070.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "06a935eba4da65d7513323f988e285e3e166bb47e70ad37eb020410cf4f34351",
+      "price_ark": 150
+    },
+    {
+      "id": "outfit-071",
+      "category": "festival",
+      "texture": "creative/source/outfits/outfit-071.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "6b03953137cab869cd56dc74ca161018fabe993e44015252855c8ba1c13e73b9",
+      "price_ark": 185
+    },
+    {
+      "id": "outfit-072",
+      "category": "festival",
+      "texture": "creative/source/outfits/outfit-072.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "885bf1e2ac8f8164ec74899cf22d8b762c99fe15abc5dcc0870fb9cee8daf8a2",
+      "price_ark": 220
+    },
+    {
+      "id": "outfit-073",
+      "category": "festival",
+      "texture": "creative/source/outfits/outfit-073.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "344a97dbf378dab546e0db0ba3d321869a0a1d1a5bca660fff40bf46d35187d3",
+      "price_ark": 255
+    },
+    {
+      "id": "outfit-074",
+      "category": "festival",
+      "texture": "creative/source/outfits/outfit-074.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "fc40aa8ceb190233606ed0936f097d52e62537493e18cc44b9e660df180e1186",
+      "price_ark": 290
+    },
+    {
+      "id": "outfit-075",
+      "category": "festival",
+      "texture": "creative/source/outfits/outfit-075.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "b0375078bbf2002ac62250280c986f4d9688fc3dbb0897aca70a76190cb045fe",
+      "price_ark": 325
+    },
+    {
+      "id": "outfit-076",
+      "category": "festival",
+      "texture": "creative/source/outfits/outfit-076.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "19f4eb274e6ff78f3216fc5706e659f87e5a27d900dc504de351683ad218e888",
+      "price_ark": 360
+    },
+    {
+      "id": "outfit-077",
+      "category": "festival",
+      "texture": "creative/source/outfits/outfit-077.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "88c0e46fd13ab833f25787e0758fb7866d79d3c197e9e1155653c03dd50cbffb",
+      "price_ark": 395
+    },
+    {
+      "id": "outfit-078",
+      "category": "festival",
+      "texture": "creative/source/outfits/outfit-078.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "93921183aac3a79a1f462b2daa6886a33b0d59f4b9408906e7a05c047beb8c4a",
+      "price_ark": 430
+    },
+    {
+      "id": "outfit-079",
+      "category": "festival",
+      "texture": "creative/source/outfits/outfit-079.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "a818a407b0b76cde50550ba2f65dad5cdd7ee067b2de4cb2cd1bd9e61c938475",
+      "price_ark": 465
+    },
+    {
+      "id": "outfit-080",
+      "category": "festival",
+      "texture": "creative/source/outfits/outfit-080.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "2f809b5802f39fc882f7b3a40499efa80917bf732e968f44575b6d21a2ee6a19",
+      "price_ark": 150
+    },
+    {
+      "id": "outfit-081",
+      "category": "premium",
+      "texture": "creative/source/outfits/outfit-081.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "de62ea581ebe23c62d2fd6136f5045da55f5ed6a89db772b61bd4672e243ab95",
+      "price_ark": 185
+    },
+    {
+      "id": "outfit-082",
+      "category": "premium",
+      "texture": "creative/source/outfits/outfit-082.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "a11a26e62c096db07b2b9d47d0a66c8022f0406ab4881d1a220000757197de6c",
+      "price_ark": 220
+    },
+    {
+      "id": "outfit-083",
+      "category": "premium",
+      "texture": "creative/source/outfits/outfit-083.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "f343e69bae9919262580334ef86104ffdb59bffc757f83f619be23e555486405",
+      "price_ark": 255
+    },
+    {
+      "id": "outfit-084",
+      "category": "premium",
+      "texture": "creative/source/outfits/outfit-084.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "619d67f2670ac8a06fd70b22823cecd2e87e0f1b9e49fe73f88f13f97e51dd3d",
+      "price_ark": 290
+    },
+    {
+      "id": "outfit-085",
+      "category": "premium",
+      "texture": "creative/source/outfits/outfit-085.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "2f8343ab6f6f2fcda204a1c649343864f0cab9c2d08eee08048f5e92612ba0e2",
+      "price_ark": 325
+    },
+    {
+      "id": "outfit-086",
+      "category": "premium",
+      "texture": "creative/source/outfits/outfit-086.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "6c805811d64724933384622ddb466ee03975745eed5ff053a2e0d20793e51690",
+      "price_ark": 360
+    },
+    {
+      "id": "outfit-087",
+      "category": "premium",
+      "texture": "creative/source/outfits/outfit-087.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "8b863cf018f43afd8ce0de98259d8168fe9b9f7da14de099302180907e87100c",
+      "price_ark": 395
+    },
+    {
+      "id": "outfit-088",
+      "category": "premium",
+      "texture": "creative/source/outfits/outfit-088.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "1e75d490dadace4bffaf599dbdf993510d9b473ad0d5b1f6e8b46a20d9592d05",
+      "price_ark": 430
+    },
+    {
+      "id": "outfit-089",
+      "category": "premium",
+      "texture": "creative/source/outfits/outfit-089.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "87a532dd3d9f7bf35f7f9d1aa0bc39869402a35de1b3c5d137d03ed023e80839",
+      "price_ark": 465
+    },
+    {
+      "id": "outfit-090",
+      "category": "premium",
+      "texture": "creative/source/outfits/outfit-090.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "320424c42f2b562c069137eba31f53d4ea21589b9839139f285301ffdce60a85",
+      "price_ark": 150
+    },
+    {
+      "id": "outfit-091",
+      "category": "utility",
+      "texture": "creative/source/outfits/outfit-091.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "795cecab2aa6c079d5b9f927bd9557cc20c80ab6a372ebfbedc7a20f0227114e",
+      "price_ark": 185
+    },
+    {
+      "id": "outfit-092",
+      "category": "utility",
+      "texture": "creative/source/outfits/outfit-092.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "172a958ab7d5ae65aed7396ec4efe89ca750dec0944a6880ef8486fe906ab9a5",
+      "price_ark": 220
+    },
+    {
+      "id": "outfit-093",
+      "category": "utility",
+      "texture": "creative/source/outfits/outfit-093.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "56100d1066dcca50e1e0f11b8f5a9e46d7cbd41836611b346c7f66c91e038f79",
+      "price_ark": 255
+    },
+    {
+      "id": "outfit-094",
+      "category": "utility",
+      "texture": "creative/source/outfits/outfit-094.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "ba0d3c5ef7a360ca56813232bb918d3239b1f70944ff06fa5b043849329cc9a9",
+      "price_ark": 290
+    },
+    {
+      "id": "outfit-095",
+      "category": "utility",
+      "texture": "creative/source/outfits/outfit-095.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "d0e8ac2d12270ee071f5b72dbc8fc917df568d6c1bbb7cfaba1499e1c0d7f17f",
+      "price_ark": 325
+    },
+    {
+      "id": "outfit-096",
+      "category": "utility",
+      "texture": "creative/source/outfits/outfit-096.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "3bf635fea9ce9ae6fb219309e067fcec8621eae9f4437b2d90dfd849c78d8ab7",
+      "price_ark": 360
+    },
+    {
+      "id": "outfit-097",
+      "category": "utility",
+      "texture": "creative/source/outfits/outfit-097.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "7d1584e7e0212a4871b1f84b0c9aeac859ccbef124645941f1926b748a0873b8",
+      "price_ark": 395
+    },
+    {
+      "id": "outfit-098",
+      "category": "utility",
+      "texture": "creative/source/outfits/outfit-098.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "f8fb588fe4b2e7b1afd1fab634f1e75e4b340248fccc949c8692921047e10c34",
+      "price_ark": 430
+    },
+    {
+      "id": "outfit-099",
+      "category": "utility",
+      "texture": "creative/source/outfits/outfit-099.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "3bcb8b5e3f7ee736033dab8290253d677cf242712934f9d7712ca1175def5225",
+      "price_ark": 465
+    },
+    {
+      "id": "outfit-100",
+      "category": "utility",
+      "texture": "creative/source/outfits/outfit-100.png",
+      "model": "classic-overlay",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "209439e8e3aaa554792b74c9da3c9d3144755477bce8fccadb5177b3672e3cb9",
+      "price_ark": 150
+    }
+  ]
+}

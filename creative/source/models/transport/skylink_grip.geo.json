@@ -1,0 +1,83 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gtm.skylink_grip",
+        "texture_width": 256,
+        "texture_height": 256,
+        "visible_bounds_width": 2.6,
+        "visible_bounds_height": 2.2,
+        "visible_bounds_offset": [
+          0,
+          0.6,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "body",
+          "parent": "root",
+          "pivot": [
+            0,
+            1.0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4.8,
+                4,
+                -6.4
+              ],
+              "size": [
+                9.6,
+                19.2,
+                12.8
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "doors_left",
+          "parent": "body",
+          "pivot": [
+            -4.8,
+            4,
+            0
+          ]
+        },
+        {
+          "name": "doors_right",
+          "parent": "body",
+          "pivot": [
+            4.8,
+            4,
+            0
+          ]
+        },
+        {
+          "name": "interior_fittings",
+          "parent": "body",
+          "pivot": [
+            0,
+            4,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

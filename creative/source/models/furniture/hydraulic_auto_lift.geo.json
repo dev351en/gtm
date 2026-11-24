@@ -1,0 +1,56 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gtm.hydraulic_auto_lift",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 3.7,
+        "visible_bounds_height": 3.4,
+        "visible_bounds_offset": [
+          0,
+          1.45,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "base",
+          "parent": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -25.6,
+                0,
+                -11.2
+              ],
+              "size": [
+                51.2,
+                46.4,
+                22.4
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

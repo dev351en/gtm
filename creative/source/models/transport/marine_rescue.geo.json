@@ -1,0 +1,65 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gtm.marine_rescue",
+        "texture_width": 256,
+        "texture_height": 256,
+        "visible_bounds_width": 5.6,
+        "visible_bounds_height": 3.9,
+        "visible_bounds_offset": [
+          0,
+          1.45,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "hull",
+          "parent": "root",
+          "pivot": [
+            0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "survivor_scaffold",
+          "parent": "hull",
+          "pivot": [
+            0,
+            1.0,
+            0
+          ]
+        },
+        {
+          "name": "radar_dome",
+          "parent": "hull",
+          "pivot": [
+            0,
+            1.0,
+            0
+          ]
+        },
+        {
+          "name": "jet_drives",
+          "parent": "hull",
+          "pivot": [
+            0,
+            1.0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

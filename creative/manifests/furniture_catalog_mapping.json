@@ -1,0 +1,2402 @@
+{
+  "gtm:bar_stool_art_deco": {
+    "functional_counterpart": "gtm:sectional_sofa",
+    "functional_category": "living",
+    "title": "Sectional Fabric Lounge Sofa",
+    "dimensions": [
+      2.4,
+      0.85,
+      1.8
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:bar_stool_deccan": {
+    "functional_counterpart": "gtm:leather_armchair",
+    "functional_category": "living",
+    "title": "Executive Club Leather Armchair",
+    "dimensions": [
+      0.9,
+      0.9,
+      0.85
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:bar_stool_irani": {
+    "functional_counterpart": "gtm:coffee_table_teak",
+    "functional_category": "living",
+    "title": "Solid Teak Low Coffee Table",
+    "dimensions": [
+      1.2,
+      0.45,
+      0.7
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:bar_stool_konkan": {
+    "functional_counterpart": "gtm:glass_end_table",
+    "functional_category": "living",
+    "title": "Tempered Glass Corner End Table",
+    "dimensions": [
+      0.6,
+      0.55,
+      0.6
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:bar_stool_metro": {
+    "functional_counterpart": "gtm:media_console",
+    "functional_category": "living",
+    "title": "Modern Credenza TV Media Console",
+    "dimensions": [
+      2.0,
+      0.55,
+      0.45
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:bedside_chest_art_deco": {
+    "functional_counterpart": "gtm:floor_arc_lamp",
+    "functional_category": "living",
+    "title": "Curved Brass Arch Floor Lamp",
+    "dimensions": [
+      0.6,
+      1.9,
+      1.1
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:bedside_chest_deccan": {
+    "functional_counterpart": "gtm:bookshelf_open",
+    "functional_category": "living",
+    "title": "Open Geometric Display Bookshelf",
+    "dimensions": [
+      1.2,
+      1.8,
+      0.35
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:bedside_chest_irani": {
+    "functional_counterpart": "gtm:accent_chair_velvet",
+    "functional_category": "living",
+    "title": "Emerald Velvet Cocktail Chair",
+    "dimensions": [
+      0.8,
+      0.85,
+      0.75
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:bedside_chest_konkan": {
+    "functional_counterpart": "gtm:magazine_rack",
+    "functional_category": "living",
+    "title": "Brushed Brass Floor Magazine Stand",
+    "dimensions": [
+      0.4,
+      0.5,
+      0.3
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:bedside_chest_metro": {
+    "functional_counterpart": "gtm:wall_display_unit",
+    "functional_category": "living",
+    "title": "Floating Backlit Wall Display Shelf",
+    "dimensions": [
+      1.8,
+      1.2,
+      0.3
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:bookcase_art_deco": {
+    "functional_counterpart": "gtm:ottoman_storage",
+    "functional_category": "living",
+    "title": "Tufted Storage Ottoman Footstool",
+    "dimensions": [
+      0.8,
+      0.45,
+      0.8
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:bookcase_deccan": {
+    "functional_counterpart": "gtm:chaise_lounge",
+    "functional_category": "living",
+    "title": "Contoured Velvet Chaise Lounge",
+    "dimensions": [
+      0.9,
+      0.85,
+      1.6
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:bookcase_irani": {
+    "functional_counterpart": "gtm:nesting_tables",
+    "functional_category": "living",
+    "title": "Trio Marble Round Nesting Tables",
+    "dimensions": [
+      0.7,
+      0.5,
+      0.7
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:bookcase_konkan": {
+    "functional_counterpart": "gtm:credenza_sideboard",
+    "functional_category": "living",
+    "title": "Fluted Oak Dining Sideboard",
+    "dimensions": [
+      1.6,
+      0.8,
+      0.45
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:bookcase_metro": {
+    "functional_counterpart": "gtm:room_divider_jali",
+    "functional_category": "living",
+    "title": "Laser-Cut Wooden Jali Privacy Screen",
+    "dimensions": [
+      1.8,
+      1.9,
+      0.15
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:cabinet_art_deco": {
+    "functional_counterpart": "gtm:indoor_planter",
+    "functional_category": "living",
+    "title": "Polished Terrazzo Tall Floor Planter",
+    "dimensions": [
+      0.5,
+      0.9,
+      0.5
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:cabinet_deccan": {
+    "functional_counterpart": "gtm:ceiling_fan_wood",
+    "functional_category": "living",
+    "title": "Carved Wooden 5-Blade Ceiling Fan",
+    "dimensions": [
+      1.4,
+      0.4,
+      1.4
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:cabinet_irani": {
+    "functional_counterpart": "gtm:fireplace_electric",
+    "functional_category": "living",
+    "title": "Recessed Modern Electric Hearth",
+    "dimensions": [
+      1.4,
+      0.9,
+      0.35
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:cabinet_konkan": {
+    "functional_counterpart": "gtm:wall_mirror_sunburst",
+    "functional_category": "living",
+    "title": "Gilded Brass Sunburst Wall Mirror",
+    "dimensions": [
+      0.9,
+      0.9,
+      0.1
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:cabinet_metro": {
+    "functional_counterpart": "gtm:pouffe_cushion",
+    "functional_category": "living",
+    "title": "Embroidered Cotton Round Floor Pouffe",
+    "dimensions": [
+      0.6,
+      0.35,
+      0.6
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:ceiling_light_art_deco": {
+    "functional_counterpart": "gtm:king_bed_upholstered",
+    "functional_category": "bedroom",
+    "title": "Upholstered King Master Bed",
+    "dimensions": [
+      2.0,
+      1.1,
+      2.1
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:ceiling_light_deccan": {
+    "functional_counterpart": "gtm:single_cot_wood",
+    "functional_category": "bedroom",
+    "title": "Solid Sheesham Single Platform Bed",
+    "dimensions": [
+      1.1,
+      0.9,
+      2.0
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:ceiling_light_irani": {
+    "functional_counterpart": "gtm:nightstand_drawers",
+    "functional_category": "bedroom",
+    "title": "Dual-Drawer Oak Bedside Nightstand",
+    "dimensions": [
+      0.55,
+      0.6,
+      0.45
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:ceiling_light_konkan": {
+    "functional_counterpart": "gtm:wardrobe_sliding",
+    "functional_category": "bedroom",
+    "title": "3-Door Mirrored Sliding Wardrobe",
+    "dimensions": [
+      2.2,
+      2.1,
+      0.65
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:ceiling_light_metro": {
+    "functional_counterpart": "gtm:dresser_mirror",
+    "functional_category": "bedroom",
+    "title": "6-Drawer Dresser with Vanity Mirror",
+    "dimensions": [
+      1.5,
+      1.7,
+      0.5
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:ceiling_vent_art_deco": {
+    "functional_counterpart": "gtm:bedside_sconce",
+    "functional_category": "bedroom",
+    "title": "Articulated Brass Reading Wall Sconce",
+    "dimensions": [
+      0.25,
+      0.4,
+      0.3
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:ceiling_vent_deccan": {
+    "functional_counterpart": "gtm:blanket_chest",
+    "functional_category": "bedroom",
+    "title": "Carved Teak Storage Blanket Trunk",
+    "dimensions": [
+      1.2,
+      0.55,
+      0.55
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:ceiling_vent_irani": {
+    "functional_counterpart": "gtm:vanity_stool",
+    "functional_category": "bedroom",
+    "title": "Padded Round Vanity Dressing Stool",
+    "dimensions": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:ceiling_vent_konkan": {
+    "functional_counterpart": "gtm:full_length_mirror",
+    "functional_category": "bedroom",
+    "title": "Standing Cheval Full-Length Mirror",
+    "dimensions": [
+      0.6,
+      1.75,
+      0.45
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:ceiling_vent_metro": {
+    "functional_counterpart": "gtm:clothes_valet",
+    "functional_category": "bedroom",
+    "title": "Executive Wooden Coat & Trouser Valet",
+    "dimensions": [
+      0.45,
+      1.15,
+      0.35
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:coffee_table_art_deco": {
+    "functional_counterpart": "gtm:bed_bench_tufted",
+    "functional_category": "bedroom",
+    "title": "Upholstered Foot-of-Bed Bench",
+    "dimensions": [
+      1.4,
+      0.45,
+      0.45
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:coffee_table_deccan": {
+    "functional_counterpart": "gtm:bunk_bed_twin",
+    "functional_category": "bedroom",
+    "title": "Compact Steel Bunk Bed Twin Stack",
+    "dimensions": [
+      1.1,
+      1.8,
+      2.05
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:coffee_table_irani": {
+    "functional_counterpart": "gtm:canopy_bed_frame",
+    "functional_category": "bedroom",
+    "title": "Minimalist Steel Poster Canopy Bed",
+    "dimensions": [
+      2.0,
+      2.1,
+      2.1
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:coffee_table_konkan": {
+    "functional_counterpart": "gtm:corner_wardrobe",
+    "functional_category": "bedroom",
+    "title": "Space-Saving Corner Bedroom Wardrobe",
+    "dimensions": [
+      1.1,
+      2.1,
+      1.1
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:coffee_table_metro": {
+    "functional_counterpart": "gtm:alarm_dock_station",
+    "functional_category": "bedroom",
+    "title": "Smart Display Bedside Radio Clock",
+    "dimensions": [
+      0.25,
+      0.15,
+      0.15
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:counter_stool_art_deco": {
+    "functional_counterpart": "gtm:modular_counter_base",
+    "functional_category": "kitchen",
+    "title": "Granite-Top Modular Base Cabinet",
+    "dimensions": [
+      1.0,
+      0.9,
+      0.65
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:counter_stool_deccan": {
+    "functional_counterpart": "gtm:kitchen_sink_double",
+    "functional_category": "kitchen",
+    "title": "Under-Mount Double Stainless Sink",
+    "dimensions": [
+      1.2,
+      0.9,
+      0.65
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:counter_stool_irani": {
+    "functional_counterpart": "gtm:gas_stove_4burner",
+    "functional_category": "kitchen",
+    "title": "Cast-Iron 4-Burner Glass Hob Counter",
+    "dimensions": [
+      0.9,
+      0.9,
+      0.65
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:counter_stool_konkan": {
+    "functional_counterpart": "gtm:chimney_hood",
+    "functional_category": "kitchen",
+    "title": "Stainless Steel Ductless Kitchen Hood",
+    "dimensions": [
+      0.9,
+      0.7,
+      0.5
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:counter_stool_metro": {
+    "functional_counterpart": "gtm:refrigerator_french",
+    "functional_category": "kitchen",
+    "title": "Double-Door French Refrigerator",
+    "dimensions": [
+      1.0,
+      1.9,
+      0.75
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:desk_art_deco": {
+    "functional_counterpart": "gtm:microwave_cabinet",
+    "functional_category": "kitchen",
+    "title": "Built-In Convection Oven Tower",
+    "dimensions": [
+      0.7,
+      1.5,
+      0.6
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:desk_deccan": {
+    "functional_counterpart": "gtm:dining_table_6seater",
+    "functional_category": "kitchen",
+    "title": "Extending Teak 6-Seater Dining Table",
+    "dimensions": [
+      1.8,
+      0.75,
+      0.9
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:desk_irani": {
+    "functional_counterpart": "gtm:dining_chair_cushion",
+    "functional_category": "kitchen",
+    "title": "Ergonomic Upholstered Dining Chair",
+    "dimensions": [
+      0.5,
+      0.88,
+      0.5
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:desk_konkan": {
+    "functional_counterpart": "gtm:kitchen_island",
+    "functional_category": "kitchen",
+    "title": "Marble-Top Prep Island with Stool Overhang",
+    "dimensions": [
+      1.8,
+      0.9,
+      0.9
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:desk_metro": {
+    "functional_counterpart": "gtm:bar_stool_swivel",
+    "functional_category": "kitchen",
+    "title": "Adjustable Leather Swivel Bar Stool",
+    "dimensions": [
+      0.45,
+      0.95,
+      0.45
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:desk_lamp_art_deco": {
+    "functional_counterpart": "gtm:spice_rack_carousel",
+    "functional_category": "kitchen",
+    "title": "3-Tier Rotating Brass Masala Carousel",
+    "dimensions": [
+      0.35,
+      0.45,
+      0.35
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:desk_lamp_deccan": {
+    "functional_counterpart": "gtm:wall_cupboard_glass",
+    "functional_category": "kitchen",
+    "title": "Frosted Glass Overhead Wall Cupboard",
+    "dimensions": [
+      1.0,
+      0.7,
+      0.35
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:desk_lamp_irani": {
+    "functional_counterpart": "gtm:chai_brew_station",
+    "functional_category": "kitchen",
+    "title": "Commercial Brass Samovar Chai Machine",
+    "dimensions": [
+      0.6,
+      0.7,
+      0.4
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:desk_lamp_konkan": {
+    "functional_counterpart": "gtm:tandoor_clay_oven",
+    "functional_category": "kitchen",
+    "title": "Insulated Commercial Clay Tandoor Drum",
+    "dimensions": [
+      0.9,
+      1.0,
+      0.9
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:desk_lamp_metro": {
+    "functional_counterpart": "gtm:ro_water_purifier",
+    "functional_category": "kitchen",
+    "title": "Wall-Mount Active Carbon RO Filter",
+    "dimensions": [
+      0.4,
+      0.55,
+      0.3
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:display_case_art_deco": {
+    "functional_counterpart": "gtm:cutlery_cart_mobile",
+    "functional_category": "kitchen",
+    "title": "Stainless Mobile Kitchen Utility Cart",
+    "dimensions": [
+      0.7,
+      0.85,
+      0.5
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:display_case_deccan": {
+    "functional_counterpart": "gtm:pantry_tall_unit",
+    "functional_category": "kitchen",
+    "title": "Pull-Out Wire Basket Tall Larder Unit",
+    "dimensions": [
+      0.6,
+      2.1,
+      0.6
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:display_case_irani": {
+    "functional_counterpart": "gtm:breakfast_counter",
+    "functional_category": "kitchen",
+    "title": "Wall-Mounted Fold-Down Breakfast Bar",
+    "dimensions": [
+      1.2,
+      0.85,
+      0.45
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:display_case_konkan": {
+    "functional_counterpart": "gtm:pot_rack_hanging",
+    "functional_category": "kitchen",
+    "title": "Ceiling-Hung Wrought Iron Pan Gantry",
+    "dimensions": [
+      1.2,
+      0.4,
+      0.6
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:display_case_metro": {
+    "functional_counterpart": "gtm:dishwasher_undercounter",
+    "functional_category": "kitchen",
+    "title": "Integrated High-Efficiency Dishwasher",
+    "dimensions": [
+      0.6,
+      0.85,
+      0.6
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:divider_art_deco": {
+    "functional_counterpart": "gtm:executive_desk_lshape",
+    "functional_category": "office",
+    "title": "Executive L-Shaped Walnut Workstation",
+    "dimensions": [
+      2.0,
+      0.75,
+      1.6
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:divider_deccan": {
+    "functional_counterpart": "gtm:ergonomic_task_chair",
+    "functional_category": "office",
+    "title": "High-Back Mesh Synchronous Task Chair",
+    "dimensions": [
+      0.65,
+      1.15,
+      0.65
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:divider_irani": {
+    "functional_counterpart": "gtm:dual_monitor_mount",
+    "functional_category": "office",
+    "title": "Dual 27-Inch Curved Screen Rig",
+    "dimensions": [
+      1.1,
+      0.5,
+      0.3
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:divider_konkan": {
+    "functional_counterpart": "gtm:filing_cabinet_fireproof",
+    "functional_category": "office",
+    "title": "4-Drawer Heavy Gauge Lockable File",
+    "dimensions": [
+      0.5,
+      1.35,
+      0.65
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:divider_metro": {
+    "functional_counterpart": "gtm:server_rack_half",
+    "functional_category": "office",
+    "title": "18U Sound-Dampened Network Rack",
+    "dimensions": [
+      0.6,
+      1.0,
+      0.8
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:door_frame_art_deco": {
+    "functional_counterpart": "gtm:conference_table_10p",
+    "functional_category": "office",
+    "title": "Conference Boardroom Boat Table",
+    "dimensions": [
+      3.2,
+      0.75,
+      1.2
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:door_frame_deccan": {
+    "functional_counterpart": "gtm:boardroom_chair",
+    "functional_category": "office",
+    "title": "Cantilever Chrome Mid-Back Guest Chair",
+    "dimensions": [
+      0.55,
+      0.9,
+      0.55
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:door_frame_irani": {
+    "functional_counterpart": "gtm:magnetic_whiteboard",
+    "functional_category": "office",
+    "title": "Mobile Rolling Dry-Erase Whiteboard",
+    "dimensions": [
+      1.6,
+      1.85,
+      0.5
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:door_frame_konkan": {
+    "functional_counterpart": "gtm:reception_podium",
+    "functional_category": "office",
+    "title": "Curved Front Welcome Security Desk",
+    "dimensions": [
+      2.2,
+      1.1,
+      0.9
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:door_frame_metro": {
+    "functional_counterpart": "gtm:credenza_creed",
+    "functional_category": "office",
+    "title": "Office Storage Buffet Credenza",
+    "dimensions": [
+      1.8,
+      0.75,
+      0.45
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:filing_cabinet_art_deco": {
+    "functional_counterpart": "gtm:water_dispenser",
+    "functional_category": "office",
+    "title": "Freestanding Hot/Cold Water Cooler",
+    "dimensions": [
+      0.35,
+      1.15,
+      0.35
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:filing_cabinet_deccan": {
+    "functional_counterpart": "gtm:printer_copier_station",
+    "functional_category": "office",
+    "title": "Heavy Duty Multifunction Floor Copier",
+    "dimensions": [
+      0.9,
+      1.1,
+      0.75
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:filing_cabinet_irani": {
+    "functional_counterpart": "gtm:workstation_cubicle",
+    "functional_category": "office",
+    "title": "2-Person Acoustic Screen Desk Pod",
+    "dimensions": [
+      2.4,
+      1.35,
+      1.4
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:filing_cabinet_konkan": {
+    "functional_counterpart": "gtm:desk_lamp_led",
+    "functional_category": "office",
+    "title": "Balanced Arm Studio Architect Lamp",
+    "dimensions": [
+      0.3,
+      0.55,
+      0.3
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:filing_cabinet_metro": {
+    "functional_counterpart": "gtm:presentation_screen",
+    "functional_category": "office",
+    "title": "75-Inch Smart Interactive Display Stand",
+    "dimensions": [
+      1.7,
+      1.85,
+      0.6
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:floor_lamp_art_deco": {
+    "functional_counterpart": "gtm:literature_carousel",
+    "functional_category": "office",
+    "title": "Rotating Metal Brochure Display Tower",
+    "dimensions": [
+      0.45,
+      1.6,
+      0.45
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:floor_lamp_deccan": {
+    "functional_counterpart": "gtm:acoustic_pod_solo",
+    "functional_category": "office",
+    "title": "Single-Person Soundproof Phone Booth",
+    "dimensions": [
+      1.1,
+      2.2,
+      1.1
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:floor_lamp_irani": {
+    "functional_counterpart": "gtm:shredder_bin",
+    "functional_category": "office",
+    "title": "High-Security Cross-Cut Paper Shredder",
+    "dimensions": [
+      0.4,
+      0.65,
+      0.4
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:floor_lamp_konkan": {
+    "functional_counterpart": "gtm:coat_stand_tree",
+    "functional_category": "office",
+    "title": "Heavy Base Stainless Reception Coat Rack",
+    "dimensions": [
+      0.45,
+      1.8,
+      0.45
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:floor_lamp_metro": {
+    "functional_counterpart": "gtm:cable_spine_vertical",
+    "functional_category": "office",
+    "title": "Flexible Articulated Underdesk Wire Spine",
+    "dimensions": [
+      0.15,
+      0.75,
+      0.15
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:floor_mat_art_deco": {
+    "functional_counterpart": "gtm:hospital_icu_bed",
+    "functional_category": "hospital",
+    "title": "Motorized 4-Section Electric ICU Bed",
+    "dimensions": [
+      1.1,
+      1.0,
+      2.15
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:floor_mat_deccan": {
+    "functional_counterpart": "gtm:mobile_iv_pole",
+    "functional_category": "hospital",
+    "title": "5-Castor Stainless Telescopic IV Pole",
+    "dimensions": [
+      0.5,
+      1.9,
+      0.5
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:floor_mat_irani": {
+    "functional_counterpart": "gtm:examination_table",
+    "functional_category": "hospital",
+    "title": "Padded Clinical Examination Table",
+    "dimensions": [
+      0.75,
+      0.8,
+      1.9
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:floor_mat_konkan": {
+    "functional_counterpart": "gtm:defibrillator_crash_cart",
+    "functional_category": "hospital",
+    "title": "Red Emergency Crash Cart with Monitor",
+    "dimensions": [
+      0.8,
+      1.3,
+      0.6
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:floor_mat_metro": {
+    "functional_counterpart": "gtm:patient_privacy_screen",
+    "functional_category": "hospital",
+    "title": "Washable Antimicrobial 3-Fold Screen",
+    "dimensions": [
+      2.1,
+      1.75,
+      0.3
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:hanging_lantern_art_deco": {
+    "functional_counterpart": "gtm:mayo_surgical_stand",
+    "functional_category": "hospital",
+    "title": "Adjustable Height Surgical Instrument Tray",
+    "dimensions": [
+      0.65,
+      1.05,
+      0.5
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:hanging_lantern_deccan": {
+    "functional_counterpart": "gtm:vital_signs_monitor",
+    "functional_category": "hospital",
+    "title": "Multi-Parameter ECG & SpO2 Mobile Cart",
+    "dimensions": [
+      0.55,
+      1.45,
+      0.55
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:hanging_lantern_irani": {
+    "functional_counterpart": "gtm:medicine_dispense_cabinet",
+    "functional_category": "hospital",
+    "title": "Dual-Lock Narcotic Medication Safe",
+    "dimensions": [
+      0.9,
+      1.8,
+      0.45
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:hanging_lantern_konkan": {
+    "functional_counterpart": "gtm:wheelchair_standard",
+    "functional_category": "hospital",
+    "title": "Foldable Chrome Hospital Wheelchair",
+    "dimensions": [
+      0.7,
+      0.95,
+      1.0
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:hanging_lantern_metro": {
+    "functional_counterpart": "gtm:transport_stretcher",
+    "functional_category": "hospital",
+    "title": "Heavy-Duty Emergency Hydraulic Gurney",
+    "dimensions": [
+      0.75,
+      0.9,
+      2.1
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:high_chair_art_deco": {
+    "functional_counterpart": "gtm:operating_theatre_lamp",
+    "functional_category": "hospital",
+    "title": "Dual-Head Balanced Surgical Ceiling Lamp",
+    "dimensions": [
+      1.6,
+      0.6,
+      1.6
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:high_chair_deccan": {
+    "functional_counterpart": "gtm:autoclave_sterilizer",
+    "functional_category": "hospital",
+    "title": "Benchtop Hospital Grade Autoclave Unit",
+    "dimensions": [
+      0.65,
+      0.55,
+      0.65
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:high_chair_irani": {
+    "functional_counterpart": "gtm:scrub_sink_double",
+    "functional_category": "hospital",
+    "title": "Knee-Operated Surgical Scrub Sink",
+    "dimensions": [
+      1.4,
+      1.15,
+      0.65
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:high_chair_konkan": {
+    "functional_counterpart": "gtm:hospital_overbed_table",
+    "functional_category": "hospital",
+    "title": "Hydraulic Cantilever Overbed Tray",
+    "dimensions": [
+      0.8,
+      0.85,
+      0.45
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:high_chair_metro": {
+    "functional_counterpart": "gtm:triage_nursing_station",
+    "functional_category": "hospital",
+    "title": "High-Front Ergonomic Triage Desk",
+    "dimensions": [
+      2.4,
+      1.15,
+      0.85
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:hospital_bed_art_deco": {
+    "functional_counterpart": "gtm:oxygen_cylinder_trolley",
+    "functional_category": "hospital",
+    "title": "Dual 50L Medical Oxygen Tank Cart",
+    "dimensions": [
+      0.55,
+      1.3,
+      0.45
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:hospital_bed_deccan": {
+    "functional_counterpart": "gtm:biohazard_foot_bin",
+    "functional_category": "hospital",
+    "title": "Hands-Free Step-On Biohazard Container",
+    "dimensions": [
+      0.45,
+      0.7,
+      0.45
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:hospital_bed_irani": {
+    "functional_counterpart": "gtm:xray_viewing_lightbox",
+    "functional_category": "hospital",
+    "title": "Wall-Mount Twin LED Radiograph Viewer",
+    "dimensions": [
+      0.9,
+      0.55,
+      0.1
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:hospital_bed_konkan": {
+    "functional_counterpart": "gtm:phlebotomy_chair",
+    "functional_category": "hospital",
+    "title": "Armrest Blood Collection Donor Chair",
+    "dimensions": [
+      0.85,
+      1.1,
+      0.85
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:hospital_bed_metro": {
+    "functional_counterpart": "gtm:hospital_bedside_locker",
+    "functional_category": "hospital",
+    "title": "Molded Medical Cabinet with Towel Rail",
+    "dimensions": [
+      0.5,
+      0.8,
+      0.45
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:hospital_curtain_art_deco": {
+    "functional_counterpart": "gtm:interrogation_table",
+    "functional_category": "police",
+    "title": "Heavy Bolted Metal Interrogation Table",
+    "dimensions": [
+      1.4,
+      0.75,
+      0.8
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:hospital_curtain_deccan": {
+    "functional_counterpart": "gtm:suspect_restraint_chair",
+    "functional_category": "police",
+    "title": "Reinforced Fixed Frame Interrogation Seat",
+    "dimensions": [
+      0.55,
+      0.85,
+      0.55
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:hospital_curtain_irani": {
+    "functional_counterpart": "gtm:evidence_locker_grid",
+    "functional_category": "police",
+    "title": "Numbered Heavy Mesh Evidence Lockers",
+    "dimensions": [
+      1.2,
+      1.95,
+      0.5
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:hospital_curtain_konkan": {
+    "functional_counterpart": "gtm:booking_fingerprint_kiosk",
+    "functional_category": "police",
+    "title": "Biometric Digital Booking Terminal",
+    "dimensions": [
+      0.75,
+      1.35,
+      0.65
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:hospital_curtain_metro": {
+    "functional_counterpart": "gtm:jail_cell_bunk_steel",
+    "functional_category": "police",
+    "title": "Wall-Anchored Dual Steel Cell Bunks",
+    "dimensions": [
+      0.85,
+      1.7,
+      2.05
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:lamp_art_deco": {
+    "functional_counterpart": "gtm:cell_combi_toilet_sink",
+    "functional_category": "police",
+    "title": "Stainless Vandal-Resistant Prison Fixture",
+    "dimensions": [
+      0.45,
+      0.95,
+      0.65
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:lamp_deccan": {
+    "functional_counterpart": "gtm:patrol_sergeant_desk",
+    "functional_category": "police",
+    "title": "Bullet-Resistant Acrylic Shield Desk",
+    "dimensions": [
+      1.8,
+      1.25,
+      0.8
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:lamp_irani": {
+    "functional_counterpart": "gtm:weapon_armory_cage",
+    "functional_category": "police",
+    "title": "Vertical Racked Long-Gun Security Cage",
+    "dimensions": [
+      1.6,
+      2.1,
+      0.55
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:lamp_konkan": {
+    "functional_counterpart": "gtm:wanted_bulletin_corkboard",
+    "functional_category": "police",
+    "title": "Glass-Enclosed Police Notice Board",
+    "dimensions": [
+      1.6,
+      1.0,
+      0.1
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:lamp_metro": {
+    "functional_counterpart": "gtm:breathalyzer_test_bench",
+    "functional_category": "police",
+    "title": "Certified Sobriety Testing Counter",
+    "dimensions": [
+      1.0,
+      1.0,
+      0.6
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:lectern_art_deco": {
+    "functional_counterpart": "gtm:detention_bench_handcuff",
+    "functional_category": "police",
+    "title": "Floor-Bolted Steel Bench with Cuff Rail",
+    "dimensions": [
+      2.0,
+      0.45,
+      0.45
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:lectern_deccan": {
+    "functional_counterpart": "gtm:mugshot_height_backdrop",
+    "functional_category": "police",
+    "title": "Calibrated Wall-Mount Height Measurement",
+    "dimensions": [
+      0.8,
+      2.0,
+      0.05
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:lectern_irani": {
+    "functional_counterpart": "gtm:surveillance_wall_cctv",
+    "functional_category": "police",
+    "title": "Quad-Monitor Video Observation Console",
+    "dimensions": [
+      2.0,
+      1.8,
+      0.7
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:lectern_konkan": {
+    "functional_counterpart": "gtm:riot_shield_rack",
+    "functional_category": "police",
+    "title": "Mobile Interlocking Lexan Shield Stand",
+    "dimensions": [
+      1.1,
+      1.4,
+      0.6
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:lectern_metro": {
+    "functional_counterpart": "gtm:traffic_radar_calibration",
+    "functional_category": "police",
+    "title": "Highway Patrol Speed Kit Calibration Desk",
+    "dimensions": [
+      1.2,
+      0.9,
+      0.6
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:low_table_art_deco": {
+    "functional_counterpart": "gtm:retail_cashwrap_wrap",
+    "functional_category": "commercial",
+    "title": "Modern Retail Cashier Counter Wrap",
+    "dimensions": [
+      2.2,
+      1.05,
+      0.85
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:low_table_deccan": {
+    "functional_counterpart": "gtm:clothing_gondola_double",
+    "functional_category": "commercial",
+    "title": "Dual-Sided Garment Hanging Gondola",
+    "dimensions": [
+      1.4,
+      1.5,
+      0.8
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:low_table_irani": {
+    "functional_counterpart": "gtm:supermarket_produce_bin",
+    "functional_category": "commercial",
+    "title": "Slanted 3-Tier Wooden Fruit Crate Rack",
+    "dimensions": [
+      1.6,
+      1.3,
+      0.9
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:low_table_konkan": {
+    "functional_counterpart": "gtm:checkout_belt_counter",
+    "functional_category": "commercial",
+    "title": "Electric Conveyor Checkout Counter",
+    "dimensions": [
+      2.8,
+      0.95,
+      1.1
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:low_table_metro": {
+    "functional_counterpart": "gtm:beverage_cooler_glass",
+    "functional_category": "commercial",
+    "title": "Commercial 2-Door Illuminated Drink Case",
+    "dimensions": [
+      1.2,
+      1.95,
+      0.75
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:luggage_rack_art_deco": {
+    "functional_counterpart": "gtm:ice_cream_freezer",
+    "functional_category": "commercial",
+    "title": "Curved Glass Chest Ice Cream Showcase",
+    "dimensions": [
+      1.3,
+      0.9,
+      0.7
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:luggage_rack_deccan": {
+    "functional_counterpart": "gtm:bakery_glass_display",
+    "functional_category": "commercial",
+    "title": "Heated Glass Pastry & Samosa Counter",
+    "dimensions": [
+      1.5,
+      1.2,
+      0.75
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:luggage_rack_irani": {
+    "functional_counterpart": "gtm:mannequin_podium",
+    "functional_category": "commercial",
+    "title": "Square Lacquered Retail Display Plinth",
+    "dimensions": [
+      0.7,
+      0.25,
+      0.7
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:luggage_rack_konkan": {
+    "functional_counterpart": "gtm:shoe_display_wall",
+    "functional_category": "commercial",
+    "title": "Slatwall Angled Footwear Display Unit",
+    "dimensions": [
+      1.8,
+      2.1,
+      0.4
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:luggage_rack_metro": {
+    "functional_counterpart": "gtm:jewelry_glass_case",
+    "functional_category": "commercial",
+    "title": "Lockable Velvet-Lined Showcase Pedestal",
+    "dimensions": [
+      0.6,
+      1.05,
+      0.6
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:office_chair_art_deco": {
+    "functional_counterpart": "gtm:pharmacy_pill_bay",
+    "functional_category": "commercial",
+    "title": "Gravity-Feed Medication Dispenser Wall",
+    "dimensions": [
+      1.6,
+      2.1,
+      0.45
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:office_chair_deccan": {
+    "functional_counterpart": "gtm:atm_lobby_enclosure",
+    "functional_category": "commercial",
+    "title": "First National Bank ATM Kiosk Fascia",
+    "dimensions": [
+      1.0,
+      2.0,
+      0.9
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:office_chair_irani": {
+    "functional_counterpart": "gtm:security_turnstile_rfid",
+    "functional_category": "commercial",
+    "title": "Optical Glass Flap Access Barrier",
+    "dimensions": [
+      1.4,
+      1.0,
+      1.0
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:office_chair_konkan": {
+    "functional_counterpart": "gtm:shopping_cart_nest",
+    "functional_category": "commercial",
+    "title": "Row of 10 Interlocked Wire Supermarket Carts",
+    "dimensions": [
+      0.8,
+      1.0,
+      3.2
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:office_chair_metro": {
+    "functional_counterpart": "gtm:fitting_room_cubicle",
+    "functional_category": "commercial",
+    "title": "Curtained Boutique Dressing Booth",
+    "dimensions": [
+      1.2,
+      2.1,
+      1.2
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:planter_art_deco": {
+    "functional_counterpart": "gtm:retail_security_gate",
+    "functional_category": "commercial",
+    "title": "EAS Anti-Theft Sensor Pedestal Pair",
+    "dimensions": [
+      1.2,
+      1.5,
+      0.15
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:planter_deccan": {
+    "functional_counterpart": "gtm:snack_vending_machine",
+    "functional_category": "commercial",
+    "title": "Coil-Drop Snack & Cold Drink Vendor",
+    "dimensions": [
+      1.0,
+      1.9,
+      0.85
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:planter_irani": {
+    "functional_counterpart": "gtm:magazine_kiosk_wire",
+    "functional_category": "commercial",
+    "title": "Rotating Outdoor Newspaper Wire Tree",
+    "dimensions": [
+      0.55,
+      1.7,
+      0.55
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:planter_konkan": {
+    "functional_counterpart": "gtm:cosmetics_tester_bar",
+    "functional_category": "commercial",
+    "title": "Illuminated Mirror Makeup Sampler Unit",
+    "dimensions": [
+      1.4,
+      1.4,
+      0.6
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:planter_metro": {
+    "functional_counterpart": "gtm:pos_pedestal_standalone",
+    "functional_category": "commercial",
+    "title": "Touchscreen Tablet Self-Service Terminal",
+    "dimensions": [
+      0.45,
+      1.2,
+      0.45
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:reception_desk_art_deco": {
+    "functional_counterpart": "gtm:bulk_grain_dispenser",
+    "functional_category": "commercial",
+    "title": "Hygienic Acrylic Dal & Rice Hopper Bank",
+    "dimensions": [
+      1.5,
+      1.6,
+      0.5
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:reception_desk_deccan": {
+    "functional_counterpart": "gtm:umbrella_stand_drip",
+    "functional_category": "commercial",
+    "title": "Entryway Commercial Brass Umbrella Drip Pan",
+    "dimensions": [
+      0.4,
+      0.65,
+      0.4
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:reception_desk_irani": {
+    "functional_counterpart": "gtm:crowd_stanchion_belt",
+    "functional_category": "commercial",
+    "title": "Retractable Red Nylon Queue Barrier Post",
+    "dimensions": [
+      0.35,
+      0.95,
+      0.35
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:reception_desk_konkan": {
+    "functional_counterpart": "gtm:electronics_demo_bench",
+    "functional_category": "commercial",
+    "title": "Security-Tethered Smartphone Demo Table",
+    "dimensions": [
+      1.8,
+      0.95,
+      0.85
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:reception_desk_metro": {
+    "functional_counterpart": "gtm:luggage_scale_weigh",
+    "functional_category": "commercial",
+    "title": "Airport & Courier Platform Floor Scale",
+    "dimensions": [
+      0.8,
+      0.85,
+      0.8
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:room_partition_art_deco": {
+    "functional_counterpart": "gtm:park_bench_teak",
+    "functional_category": "outdoor",
+    "title": "Cast-Iron Teak Slat Garden Bench",
+    "dimensions": [
+      1.8,
+      0.85,
+      0.7
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:room_partition_deccan": {
+    "functional_counterpart": "gtm:street_lamppost_colonial",
+    "functional_category": "outdoor",
+    "title": "Double-Arm Ornate Victorian Streetlamp",
+    "dimensions": [
+      0.9,
+      4.2,
+      0.9
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:room_partition_irani": {
+    "functional_counterpart": "gtm:bus_shelter_glass",
+    "functional_category": "outdoor",
+    "title": "Modern Cantilever Glass Transit Shelter",
+    "dimensions": [
+      3.2,
+      2.6,
+      1.8
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:room_partition_konkan": {
+    "functional_counterpart": "gtm:municipal_litter_bin",
+    "functional_category": "outdoor",
+    "title": "Split Dual Wet/Dry Municipal Street Bin",
+    "dimensions": [
+      0.65,
+      0.95,
+      0.4
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:room_partition_metro": {
+    "functional_counterpart": "gtm:traffic_bollard_steel",
+    "functional_category": "outdoor",
+    "title": "Reflective Banded Cast Steel Bollard",
+    "dimensions": [
+      0.25,
+      0.85,
+      0.25
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:rug_art_deco": {
+    "functional_counterpart": "gtm:tree_planter_curb",
+    "functional_category": "outdoor",
+    "title": "Polished Granite Geometric Street Planter",
+    "dimensions": [
+      1.2,
+      0.6,
+      1.2
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:rug_deccan": {
+    "functional_counterpart": "gtm:vendor_kiosk_tea",
+    "functional_category": "outdoor",
+    "title": "Pavement Steel Tapri Chai Kiosk",
+    "dimensions": [
+      2.2,
+      2.4,
+      1.8
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:rug_irani": {
+    "functional_counterpart": "gtm:street_market_tarp",
+    "functional_category": "outdoor",
+    "title": "Bamboo Frame Weathered Vendor Canopy",
+    "dimensions": [
+      2.5,
+      2.2,
+      2.5
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:rug_konkan": {
+    "functional_counterpart": "gtm:drinking_fountain_pedestal",
+    "functional_category": "outdoor",
+    "title": "Dual-Height Bubbler Chilled Fountain",
+    "dimensions": [
+      0.45,
+      0.95,
+      0.6
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:rug_metro": {
+    "functional_counterpart": "gtm:bicycle_docking_rack",
+    "functional_category": "outdoor",
+    "title": "6-Slot Wave Tube Public Bike Stand",
+    "dimensions": [
+      2.4,
+      0.85,
+      0.5
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:shelving_unit_art_deco": {
+    "functional_counterpart": "gtm:fire_hydrant_brass",
+    "functional_category": "outdoor",
+    "title": "Dual Pumper Connection High-Pressure Hydrant",
+    "dimensions": [
+      0.4,
+      0.75,
+      0.4
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:shelving_unit_deccan": {
+    "functional_counterpart": "gtm:traffic_signal_pole",
+    "functional_category": "outdoor",
+    "title": "4-Way Mast Arm LED Traffic Signal Light",
+    "dimensions": [
+      1.2,
+      5.5,
+      3.2
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:shelving_unit_irani": {
+    "functional_counterpart": "gtm:speed_camera_gantry",
+    "functional_category": "outdoor",
+    "title": "Overhead Automatic Radar Flash Housing",
+    "dimensions": [
+      0.6,
+      0.8,
+      0.6
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:shelving_unit_konkan": {
+    "functional_counterpart": "gtm:street_name_signpost",
+    "functional_category": "outdoor",
+    "title": "Bilingual Cast Heritage Road Sign",
+    "dimensions": [
+      0.5,
+      2.8,
+      0.1
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:shelving_unit_metro": {
+    "functional_counterpart": "gtm:utility_junction_box",
+    "functional_category": "outdoor",
+    "title": "Ground-Mounted Electric Cable Cabinet",
+    "dimensions": [
+      0.85,
+      1.15,
+      0.4
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:side_table_art_deco": {
+    "functional_counterpart": "gtm:public_emergency_pillar",
+    "functional_category": "outdoor",
+    "title": "Direct-to-SDPD Panic Intercom Column",
+    "dimensions": [
+      0.35,
+      2.4,
+      0.35
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:side_table_deccan": {
+    "functional_counterpart": "gtm:decorative_fountain_tier",
+    "functional_category": "outdoor",
+    "title": "Central Plaza 3-Tier Stone Fountain",
+    "dimensions": [
+      3.2,
+      2.4,
+      3.2
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:side_table_irani": {
+    "functional_counterpart": "gtm:pavement_newspaper_stand",
+    "functional_category": "outdoor",
+    "title": "Folding Metal Morning News Stand",
+    "dimensions": [
+      1.1,
+      1.0,
+      0.6
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:side_table_konkan": {
+    "functional_counterpart": "gtm:concrete_barrier_jersey",
+    "functional_category": "outdoor",
+    "title": "Standard Interlocking Highway Jersey Barrier",
+    "dimensions": [
+      2.0,
+      0.85,
+      0.6
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:side_table_metro": {
+    "functional_counterpart": "gtm:pedestrian_crossing_beacon",
+    "functional_category": "outdoor",
+    "title": "Solar Flashing Amber Pedestrian Marker",
+    "dimensions": [
+      0.35,
+      3.2,
+      0.35
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:sofa_art_deco": {
+    "functional_counterpart": "gtm:street_paan_stall",
+    "functional_category": "outdoor",
+    "title": "Compact Glass-Front Betel Leaf Stall",
+    "dimensions": [
+      1.2,
+      1.4,
+      0.8
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:sofa_deccan": {
+    "functional_counterpart": "gtm:rooftop_satellite_dish",
+    "functional_category": "outdoor",
+    "title": "High-Gain Parabolic Telecom Dish Array",
+    "dimensions": [
+      1.8,
+      2.1,
+      1.8
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:sofa_irani": {
+    "functional_counterpart": "gtm:security_checkpoint_barrier",
+    "functional_category": "outdoor",
+    "title": "Counterweighted Boom Gate Arm",
+    "dimensions": [
+      3.5,
+      1.1,
+      0.4
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:sofa_konkan": {
+    "functional_counterpart": "gtm:coastal_lifebuoy_stand",
+    "functional_category": "outdoor",
+    "title": "Harbour Marine Ring Buoy Station",
+    "dimensions": [
+      0.4,
+      1.4,
+      0.25
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:sofa_metro": {
+    "functional_counterpart": "gtm:monument_plinth_bronze",
+    "functional_category": "outdoor",
+    "title": "Commemorative Municipal Bronze Plinth",
+    "dimensions": [
+      1.4,
+      1.8,
+      1.4
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:stool_art_deco": {
+    "functional_counterpart": "gtm:charpai_woven_cot",
+    "functional_category": "traditional_indian",
+    "title": "Hand-Strung Jute Rope Wooden Charpai",
+    "dimensions": [
+      1.0,
+      0.55,
+      1.95
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:stool_deccan": {
+    "functional_counterpart": "gtm:jhula_swing_carved",
+    "functional_category": "traditional_indian",
+    "title": "Ceiling-Hung Carved Teak Jhula Swing",
+    "dimensions": [
+      1.6,
+      1.7,
+      0.85
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:stool_irani": {
+    "functional_counterpart": "gtm:diwan_daybed_bolster",
+    "functional_category": "traditional_indian",
+    "title": "Low Wooden Diwan with Cylindrical Bolsters",
+    "dimensions": [
+      1.0,
+      0.5,
+      2.0
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:stool_konkan": {
+    "functional_counterpart": "gtm:urli_brass_bowl",
+    "functional_category": "traditional_indian",
+    "title": "Carved Bell-Metal Water Urli Floating Petals",
+    "dimensions": [
+      0.65,
+      0.25,
+      0.65
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:stool_metro": {
+    "functional_counterpart": "gtm:pooja_mandir_shrine",
+    "functional_category": "traditional_indian",
+    "title": "Wall-Mounted Teak Home Mandir with Dome",
+    "dimensions": [
+      0.85,
+      1.35,
+      0.5
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:table_art_deco": {
+    "functional_counterpart": "gtm:baithak_low_table",
+    "functional_category": "traditional_indian",
+    "title": "Low Traditional Floor Baithak Chaurang",
+    "dimensions": [
+      0.8,
+      0.25,
+      0.8
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:table_deccan": {
+    "functional_counterpart": "gtm:gaddi_floor_cushions",
+    "functional_category": "traditional_indian",
+    "title": "Satin-Covered Thick Floor Mattress & Pillows",
+    "dimensions": [
+      1.2,
+      0.2,
+      1.8
+    ],
+    "interaction": "seat",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:table_irani": {
+    "functional_counterpart": "gtm:brass_samai_diya",
+    "functional_category": "traditional_indian",
+    "title": "Multi-Tier Standing Temple Oil Lamp",
+    "dimensions": [
+      0.4,
+      1.45,
+      0.4
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:table_konkan": {
+    "functional_counterpart": "gtm:jali_partition_sheesham",
+    "functional_category": "traditional_indian",
+    "title": "Intricate Lattice Folding Room Divider",
+    "dimensions": [
+      1.8,
+      1.85,
+      0.2
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:table_metro": {
+    "functional_counterpart": "gtm:sindoor_box_meenakari",
+    "functional_category": "traditional_indian",
+    "title": "Enamelled Meenakari Brass Trinket Chest",
+    "dimensions": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:trash_can_art_deco": {
+    "functional_counterpart": "gtm:hookah_ornate_pipe",
+    "functional_category": "traditional_indian",
+    "title": "Engraved Coastal Brass Hubbly-Bubbly Pipe",
+    "dimensions": [
+      0.4,
+      0.95,
+      0.4
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:trash_can_deccan": {
+    "functional_counterpart": "gtm:dholak_musical_drum",
+    "functional_category": "traditional_indian",
+    "title": "Two-Headed Mango Wood Rhythm Drum & Stand",
+    "dimensions": [
+      0.75,
+      0.45,
+      0.4
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:trash_can_irani": {
+    "functional_counterpart": "gtm:sitar_wooden_stand",
+    "functional_category": "traditional_indian",
+    "title": "Carved Gourd Sitar Instrument & Display",
+    "dimensions": [
+      0.45,
+      1.25,
+      0.45
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:trash_can_konkan": {
+    "functional_counterpart": "gtm:tiffin_carrier_brass",
+    "functional_category": "traditional_indian",
+    "title": "4-Tier Stacked Interlocking Lunch Box",
+    "dimensions": [
+      0.25,
+      0.45,
+      0.25
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:trash_can_metro": {
+    "functional_counterpart": "gtm:attar_perfume_tray",
+    "functional_category": "traditional_indian",
+    "title": "Cut-Glass Concentrated Perfume Flacon Tray",
+    "dimensions": [
+      0.4,
+      0.2,
+      0.3
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:tv_stand_art_deco": {
+    "functional_counterpart": "gtm:spice_box_masala_dabba",
+    "functional_category": "traditional_indian",
+    "title": "Circular 7-Cup Stainless Spicewell with Lid",
+    "dimensions": [
+      0.3,
+      0.15,
+      0.3
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:tv_stand_deccan": {
+    "functional_counterpart": "gtm:handloom_charkha",
+    "functional_category": "traditional_indian",
+    "title": "Historic Folding Wooden Cotton Spinning Wheel",
+    "dimensions": [
+      0.75,
+      0.5,
+      0.4
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:tv_stand_irani": {
+    "functional_counterpart": "gtm:traditional_safe_tijori",
+    "functional_category": "traditional_indian",
+    "title": "Reinforced Brass Ironbound Antique Safe",
+    "dimensions": [
+      0.75,
+      0.95,
+      0.6
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:tv_stand_konkan": {
+    "functional_counterpart": "gtm:terracotta_matka_pot",
+    "functional_category": "traditional_indian",
+    "title": "Clay Cooling Water Vessel on Wicker Ring",
+    "dimensions": [
+      0.4,
+      0.6,
+      0.4
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:tv_stand_metro": {
+    "functional_counterpart": "gtm:doorway_toran_marigold",
+    "functional_category": "traditional_indian",
+    "title": "Festive Fabric Marigold & Mango Leaf Arch",
+    "dimensions": [
+      1.6,
+      0.4,
+      0.1
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:wall_clock_art_deco": {
+    "functional_counterpart": "gtm:heavy_steel_workbench",
+    "functional_category": "industrial",
+    "title": "Thick Plate Tool Die Workbench with Vise",
+    "dimensions": [
+      2.0,
+      0.9,
+      0.9
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:wall_clock_deccan": {
+    "functional_counterpart": "gtm:parts_storage_racks",
+    "functional_category": "industrial",
+    "title": "Galvanized Heavy Pallet Warehouse Racking",
+    "dimensions": [
+      2.4,
+      3.2,
+      1.0
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:wall_clock_irani": {
+    "functional_counterpart": "gtm:hydraulic_auto_lift",
+    "functional_category": "industrial",
+    "title": "Twin-Post Electric Vehicle Inspection Hoist",
+    "dimensions": [
+      3.2,
+      2.9,
+      1.4
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:wall_clock_konkan": {
+    "functional_counterpart": "gtm:rolling_tool_cabinet",
+    "functional_category": "industrial",
+    "title": "14-Drawer Ball-Bearing Mechanic Trolley",
+    "dimensions": [
+      1.0,
+      1.1,
+      0.6
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:wall_clock_metro": {
+    "functional_counterpart": "gtm:chemical_drum_pallet",
+    "functional_category": "industrial",
+    "title": "Spill Containment Pallet with 4 Barrels",
+    "dimensions": [
+      1.3,
+      1.1,
+      1.3
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:wall_lamp_art_deco": {
+    "functional_counterpart": "gtm:diesel_generator_silent",
+    "functional_category": "industrial",
+    "title": "Sound-Attenuated 65kVA Backup GenSet",
+    "dimensions": [
+      2.2,
+      1.5,
+      1.0
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:wall_lamp_deccan": {
+    "functional_counterpart": "gtm:air_compressor_tank",
+    "functional_category": "industrial",
+    "title": "Dual-Stage 200L High-Pressure Air Unit",
+    "dimensions": [
+      1.2,
+      1.35,
+      0.6
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:wall_lamp_irani": {
+    "functional_counterpart": "gtm:welding_rig_cart",
+    "functional_category": "industrial",
+    "title": "MIG/TIG Welder Cart with Gas Cylinders",
+    "dimensions": [
+      0.8,
+      1.2,
+      0.7
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:wall_lamp_konkan": {
+    "functional_counterpart": "gtm:parts_washer_degreaser",
+    "functional_category": "industrial",
+    "title": "Recirculating Solvent Parts Cleaning Sink",
+    "dimensions": [
+      0.9,
+      1.0,
+      0.7
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:wall_lamp_metro": {
+    "functional_counterpart": "gtm:industrial_drill_press",
+    "functional_category": "industrial",
+    "title": "Floor-Mount Gear-Head Column Drill",
+    "dimensions": [
+      0.6,
+      1.85,
+      0.8
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:wardrobe_art_deco": {
+    "functional_counterpart": "gtm:tire_changer_machine",
+    "functional_category": "industrial",
+    "title": "Pneumatic Clamping Car Tire Machine",
+    "dimensions": [
+      1.1,
+      1.7,
+      1.0
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:wardrobe_deccan": {
+    "functional_counterpart": "gtm:wheel_balancer_digital",
+    "functional_category": "industrial",
+    "title": "Digital Spin Dynamic Wheel Balancer",
+    "dimensions": [
+      1.0,
+      1.4,
+      0.9
+    ],
+    "interaction": "terminal",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:wardrobe_irani": {
+    "functional_counterpart": "gtm:overhead_crane_gantry",
+    "functional_category": "industrial",
+    "title": "Steel I-Beam Electric Chain Hoist Trolley",
+    "dimensions": [
+      3.5,
+      0.8,
+      0.6
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:wardrobe_konkan": {
+    "functional_counterpart": "gtm:eyewash_safety_shower",
+    "functional_category": "industrial",
+    "title": "Emergency Drench Shower & Eyewash Station",
+    "dimensions": [
+      0.6,
+      2.3,
+      0.8
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:wardrobe_metro": {
+    "functional_counterpart": "gtm:flammable_safety_cabinet",
+    "functional_category": "industrial",
+    "title": "Double-Walled Yellow Hazmat Locker",
+    "dimensions": [
+      1.1,
+      1.65,
+      0.55
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:window_grill_art_deco": {
+    "functional_counterpart": "gtm:pallet_jack_manual",
+    "functional_category": "industrial",
+    "title": "Hydraulic 2500kg Hand Pallet Truck",
+    "dimensions": [
+      0.7,
+      1.2,
+      1.5
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:window_grill_deccan": {
+    "functional_counterpart": "gtm:dock_leveler_plate",
+    "functional_category": "industrial",
+    "title": "Hydraulic Loading Bay Bridge Plate",
+    "dimensions": [
+      2.0,
+      0.3,
+      2.2
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:window_grill_irani": {
+    "functional_counterpart": "gtm:industrial_exhaust_fan",
+    "functional_category": "industrial",
+    "title": "Wall-Mount 1.2m Louvered Extraction Fan",
+    "dimensions": [
+      1.2,
+      1.2,
+      0.45
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:window_grill_konkan": {
+    "functional_counterpart": "gtm:motor_oil_dispense_rack",
+    "functional_category": "industrial",
+    "title": "Gravity 4-Drum Bulk Oil Spigot Bar",
+    "dimensions": [
+      1.8,
+      1.6,
+      0.75
+    ],
+    "interaction": "storage",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  },
+  "gtm:window_grill_metro": {
+    "functional_counterpart": "gtm:transformer_station_sub",
+    "functional_category": "industrial",
+    "title": "Enclosed High-Voltage Stepdown Substation",
+    "dimensions": [
+      2.2,
+      2.2,
+      1.6
+    ],
+    "interaction": "surface",
+    "migration_status": "preserve_legacy_id_with_enhanced_voxel_geometry"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gtm.heli_rescue",
+        "texture_width": 256,
+        "texture_height": 256,
+        "visible_bounds_width": 4.8,
+        "visible_bounds_height": 5.0,
+        "visible_bounds_offset": [
+          0,
+          2.0,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "hull",
+          "parent": "root",
+          "pivot": [
+            0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "main_rotor",
+          "parent": "hull",
+          "pivot": [
+            0,
+            1.0,
+            0
+          ]
+        },
+        {
+          "name": "tail_rotor",
+          "parent": "hull",
+          "pivot": [
+            0,
+            1.0,
+            0
+          ]
+        },
+        {
+          "name": "winch_hoist",
+          "parent": "hull",
+          "pivot": [
+            0,
+            1.0,
+            0
+          ]
+        },
+        {
+          "name": "wheel_gear",
+          "parent": "hull",
+          "pivot": [
+            0,
+            1.0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "facility_id": "shopping_mall_01",
+  "name": "D-Bazaar Grand Metropolitan Galleria",
+  "kind": "shopping_mall",
+  "status": "surveyed_and_ready",
+  "world": "world",
+  "origin": [
+    -147,
+    67,
+    -83
+  ],
+  "bounds": {
+    "min": [
+      -147,
+      67,
+      -83
+    ],
+    "max": [
+      -99,
+      87,
+      -33
+    ]
+  },
+  "entrances": [
+    {
+      "id": "shopping_mall_01_main_entrance",
+      "local": [
+        24,
+        0,
+        0
+      ],
+      "access": "public",
+      "width_blocks": 2,
+      "height_blocks": 3
+    },
+    {
+      "id": "shopping_mall_01_service_entrance",
+      "local": [
+        48,
+        0,
+        25
+      ],
+      "access": "staff",
+      "width_blocks": 1,
+      "height_blocks": 2
+    }
+  ],
+  "rooms": [
+    {
+      "id": "public_reception",
+      "function": "reception",
+      "local_bounds": {
+        "min": [
+          1,
+          0,
+          1
+        ],
+        "max": [
+          19,
+          8,
+          20
+        ]
+      },
+      "access": "public"
+    },
+    {
+      "id": "operations_hall",
+      "function": "operations",
+      "local_bounds": {
+        "min": [
+          19,
+          0,
+          1
+        ],
+        "max": [
+          47,
+          10,
+          25
+        ]
+      },
+      "access": "staff"
+    },
+    {
+      "id": "executive_suite",
+      "function": "management",
+      "local_bounds": {
+        "min": [
+          1,
+          10,
+          1
+        ],
+        "max": [
+          24,
+          19,
+          25
+        ]
+      },
+      "access": "private"
+    },
+    {
+      "id": "secure_vault_storage",
+      "function": "vault_storage",
+      "local_bounds": {
+        "min": [
+          24,
+          0,
+          25
+        ],
+        "max": [
+          47,
+          8,
+          49
+        ]
+      },
+      "access": "secure"
+    }
+  ],
+  "placements": [
+    {
+      "asset_id": "gtm:reception_podium",
+      "local": [
+        10,
+        0,
+        10
+      ],
+      "yaw": 0,
+      "role": "reception"
+    },
+    {
+      "asset_id": "gtm:sectional_sofa",
+      "local": [
+        5,
+        0,
+        15
+      ],
+      "yaw": 90,
+      "role": "waiting_lounge"
+    },
+    {
+      "asset_id": "gtm:atm_lobby_enclosure",
+      "local": [
+        17,
+        0,
+        2
+      ],
+      "yaw": 180,
+      "role": "banking_service"
+    }
+  ],
+  "lighting_fixtures": [
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        10,
+        3,
+        10
+      ]
+    },
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        34,
+        3,
+        15
+      ]
+    },
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        14,
+        3,
+        35
+      ]
+    }
+  ],
+  "checks": {
+    "accessible_corridors": true,
+    "floor_headroom_valid": true,
+    "doors_functional": true,
+    "stairs_connected": true,
+    "zero_floating_props": true,
+    "no_empty_shells": true
+  }
+}

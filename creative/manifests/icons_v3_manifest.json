@@ -1,0 +1,634 @@
+{
+  "schema_version": 1,
+  "asset_pack": "gtm_creative_icons_v3",
+  "icon_count": 57,
+  "entries": [
+    {
+      "id": "quoggle",
+      "relative_path": "creative/source/icons_v3/quoggle.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "7c05b0b20298b476bd8e54dcc36e98295cff48a8f8e868c8ae887d9c9400ac71",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "amazzo",
+      "relative_path": "creative/source/icons_v3/amazzo.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "0e8efd9c26c0c52991d80c0895c40fd5d2a30aee51c7da77dfe363176ccd1a8d",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "flippit",
+      "relative_path": "creative/source/icons_v3/flippit.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "c4462def5d3d024b51794da356e2264d9f119ba918b26f12e6f6d97d946863c5",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "arkpay",
+      "relative_path": "creative/source/icons_v3/arkpay.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "c5d293a0f8b3a5b9ff5c9703f301863dfe919d730a2092ccf565f122d476fdd2",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "zomatoo",
+      "relative_path": "creative/source/icons_v3/zomatoo.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "5f569b9c306ceba1b5cf818425741fb57459208863bce1e4eabbf0d127b8e6ed",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "swiffy",
+      "relative_path": "creative/source/icons_v3/swiffy.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "245f8d261c7232c999cde4cd59c975624e845251883aedf8d7512abb6133f54a",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "fashion",
+      "relative_path": "creative/source/icons_v3/fashion.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "370f516b495cc235c1672e183e8d8927dfa433f1a86eed7cdc162f73783cd615",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "property",
+      "relative_path": "creative/source/icons_v3/property.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "38ee666bf760724010d193d4f64717c29f12f906b73b0f5dab763c9ac3409b4f",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "car_app",
+      "relative_path": "creative/source/icons_v3/car_app.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "ffb95623d4c353d5274f162ad9235c8679658e63182f3008ac03699854ee1034",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "maps",
+      "relative_path": "creative/source/icons_v3/maps.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "25619d6451e953f49a17ebfc8fa74de8a702c9144781fb257f5e242d9fd3dcc9",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "garage",
+      "relative_path": "creative/source/icons_v3/garage.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "2c54aa1e6063f8fd8146b6b72040fd64a87c0da04f07adf990b2783f7cdc1add",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "bank",
+      "relative_path": "creative/source/icons_v3/bank.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "e08f1bef12a010727723e917186c6204206403b485cd55539eb0acb6f120e732",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "loans",
+      "relative_path": "creative/source/icons_v3/loans.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "2557c9324cdd32f52c747ceaa46482ed462d0c2c091bf5f928a8bb1e5669c7f2",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "taxi",
+      "relative_path": "creative/source/icons_v3/taxi.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "17b7eca7268c25dfe833c098ae0c0e37b593a83db47d9bb708c47e9583f1a735",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "transport",
+      "relative_path": "creative/source/icons_v3/transport.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "534572670a1475ffdf54ea7cc39f557e039c7f8f8aad989aa550b1edaed3c949",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "news",
+      "relative_path": "creative/source/icons_v3/news.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "c67a12f93ad957bd20803ef303b43df7dc1ef86d9b15a4ea48a27572aac83ea3",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "police",
+      "relative_path": "creative/source/icons_v3/police.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "a1eea75926f3cd26f245277c192116a2bc605858711d0f46bc3e10bff73fb390",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "medical",
+      "relative_path": "creative/source/icons_v3/medical.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "13cf1af9d077869d7b2a6cd933a28c30b659c6665fe1feae11110f41ff518d34",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "events",
+      "relative_path": "creative/source/icons_v3/events.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "e666c824b4cf44c75fc8d79feb31d6cceb52f8a9f607a40b4d3f7656fcc115a4",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "missions",
+      "relative_path": "creative/source/icons_v3/missions.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "fc6d5a554ed7286c1f2c05b030b51f2fbb2ff72e35465e2549259663a0fc7910",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "careers",
+      "relative_path": "creative/source/icons_v3/careers.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "005cbd95ddbf438208b646c462a1c01bff43102a899d68d958d2b42a51ad003a",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "contacts",
+      "relative_path": "creative/source/icons_v3/contacts.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "093b85a19d974b57543018d4cbdd1e133e5b9500848f09e615bf6e3f0a67f6f7",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "keys",
+      "relative_path": "creative/source/icons_v3/keys.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "74074f8ed58b8ef689d8d0862be654aea7ee6fbe12d605d68ca03b02491f8934",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "settings",
+      "relative_path": "creative/source/icons_v3/settings.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "6a5ef42d7b9d5fb2deac38d60f74a8b345151d8558b09fd7985a9e8b050d1ec4",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "wanted_star_empty",
+      "relative_path": "creative/source/icons_v3/wanted_star_empty.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "ff971be32dec571d241ed0af78605c9556bc14fc6a37621ecad061016ee59a12",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "wanted_star_filled",
+      "relative_path": "creative/source/icons_v3/wanted_star_filled.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "2e2cc248cfe5777f5e85d5f4b73e4d7d83cf2164b3cf050507cade6ade4a3650",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "health",
+      "relative_path": "creative/source/icons_v3/health.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "3337145db00f7f62240600abdae2b5a499287df8b39b293432adf6866f1f0999",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "armour",
+      "relative_path": "creative/source/icons_v3/armour.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "99650221d81862ae8b8712725059cfefc036fd9ad253704534ce82a89893ebfa",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "fuel",
+      "relative_path": "creative/source/icons_v3/fuel.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "563268589852d0eed5db9d388781d0089aa871d00eb15e8fd09222faedd6eae5",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "battery",
+      "relative_path": "creative/source/icons_v3/battery.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "cb8f6b6143bd6b0b7ab4ef40eb3d5ee8fb63833ec5f0f5feb13099600b3f8d77",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "engine_condition",
+      "relative_path": "creative/source/icons_v3/engine_condition.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "4fd76df574bba74469b8c23a4ea3c2c8512cc4c215c521db2d6502b202093924",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "speedometer_analog",
+      "relative_path": "creative/source/icons_v3/speedometer_analog.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "d50fd956411e5e674eb5b19a8d80f4456aaef06c3adecf3473e32094abf885b5",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "speedometer_digital",
+      "relative_path": "creative/source/icons_v3/speedometer_digital.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "620205807445811c051bd4e795e1da7e765bf6c95648aa7c712710c2e8f59b34",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "speedometer_compact",
+      "relative_path": "creative/source/icons_v3/speedometer_compact.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "f2dd9711e8a4f05e1e6d3b5e218319f9cc03f2af6993a1e655900a439aa077c9",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "minimap_circle",
+      "relative_path": "creative/source/icons_v3/minimap_circle.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "65a98cda1f0f79aecdc448aa1934cf829fcea6cca979d39ba3c4cc169d89be81",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "minimap_rectangle",
+      "relative_path": "creative/source/icons_v3/minimap_rectangle.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "5463acd2b926477ba67434d85fa07a36d0c35f5ffcaf67183373ac6603a9ed4a",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "player_arrow",
+      "relative_path": "creative/source/icons_v3/player_arrow.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "55fa69b4d39f8630b74a57c90bf95117c08ed87ccd6a220e139e7a74f8b94cce",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "gps_route",
+      "relative_path": "creative/source/icons_v3/gps_route.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "9417861d1e0b0308d9f1940434de5da88cc74afa8819043b886970494adc029f",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "map_police",
+      "relative_path": "creative/source/icons_v3/map_police.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "1f71b2252832dc3c90867eab766f5a1d8849f85338b84409987e68b79b6689d8",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "map_hospital",
+      "relative_path": "creative/source/icons_v3/map_hospital.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "49e1f45a6dda5ee80949dd106ebcbf935e38b63bf5222c9b26aec922af83f034",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "map_fuel",
+      "relative_path": "creative/source/icons_v3/map_fuel.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "2822b45f76da2b5cde1cfe2a3c45952cd15eb941b13d28e9cc1f56108dbf9488",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "map_shop",
+      "relative_path": "creative/source/icons_v3/map_shop.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "7f1fcf4a7fa182a7c97ffc062c85606ede16eca2b35550bfcd5e8a89d4a98abb",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "map_property",
+      "relative_path": "creative/source/icons_v3/map_property.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "e83f28a90f32b7946b111421cbe774acf93c0c2321ebf9a625b68a072605aa63",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "map_station",
+      "relative_path": "creative/source/icons_v3/map_station.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "0d0255815411b96f464ea88d6f075b7b9fd0d17b693fd408150943ce498f7b1b",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "map_mission",
+      "relative_path": "creative/source/icons_v3/map_mission.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "aba8d20c8c6a9e252692ddd144fdf60c6f183886e499c65b7b3c41f9fb66984f",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "phone_shortcut",
+      "relative_path": "creative/source/icons_v3/phone_shortcut.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "fb397b2ba8a4710dcd9597da2596063015e6c64b8cfaca94c593acc20672cbb6",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "hotbar_frame",
+      "relative_path": "creative/source/icons_v3/hotbar_frame.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "b14c24e21e6075b8b5a1efbb86bd0a3fa9249654dcc857263227b57b4f96b9cd",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "hotbar_selected",
+      "relative_path": "creative/source/icons_v3/hotbar_selected.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "9d6f0c5994ac4cdcde6b441637104bc53a886f870bc184208dcd7d4f64c2a13a",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "dialogue_bubble",
+      "relative_path": "creative/source/icons_v3/dialogue_bubble.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "d2f5d2864c1cb5d20a0cefadb5c9a4fd9f25751945d1325a7a1d2a6130f6da87",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "notification_frame",
+      "relative_path": "creative/source/icons_v3/notification_frame.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "ca42faf089f701541bd160a0402d02409e9b19a98b926b6d245e07b0d096ae35",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "wasted_title",
+      "relative_path": "creative/source/icons_v3/wasted_title.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "5e60ce0688f37372ae5087800cc784448e7257cff1c27c87f05c19b9767feb0b",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "busted_title",
+      "relative_path": "creative/source/icons_v3/busted_title.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "296086fedfddf845638723b8bd7cdae3f1ea664ba32990f0bc918f6130ad676b",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "city_enter",
+      "relative_path": "creative/source/icons_v3/city_enter.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "5ec2ab4d91c2e91af6b8e960837bab7f84d3612dd45dfb2d6c357b9749e696b3",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "city_exit",
+      "relative_path": "creative/source/icons_v3/city_exit.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "47bea3f6f3d3a7a9adaf67b4a1a8dd90fd9bddcc7716a9ca9ac202c941d90265",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "ark_symbol",
+      "relative_path": "creative/source/icons_v3/ark_symbol.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "30f8e8b91933e9fda1fc5fb68cd53053469c84e8bf8c510a78ef214c38c9ab9a",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "low_fuel",
+      "relative_path": "creative/source/icons_v3/low_fuel.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "60f342e25916dea9b43c0eaa66e6a2ebdacdc3712781fd4e71d70f0a549068e2",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    },
+    {
+      "id": "critical_damage",
+      "relative_path": "creative/source/icons_v3/critical_damage.png",
+      "size_px": [
+        181,
+        133
+      ],
+      "sha256": "404a7db75b215e966871384135638304b9b165772c177b209c4a59940e50e7ce",
+      "status": "draft",
+      "note": "Extracted from revised contact sheet V3; dark app-tile background retained."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gtm.marine_cargo",
+        "texture_width": 256,
+        "texture_height": 256,
+        "visible_bounds_width": 10.5,
+        "visible_bounds_height": 6.0,
+        "visible_bounds_offset": [
+          0,
+          2.5,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "hull",
+          "parent": "root",
+          "pivot": [
+            0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "deck_crane",
+          "parent": "hull",
+          "pivot": [
+            0,
+            1.0,
+            0
+          ]
+        },
+        {
+          "name": "cargo_hold_hatches",
+          "parent": "hull",
+          "pivot": [
+            0,
+            1.0,
+            0
+          ]
+        },
+        {
+          "name": "stern_wheelhouse",
+          "parent": "hull",
+          "pivot": [
+            0,
+            1.0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

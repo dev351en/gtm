@@ -1,0 +1,56 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gtm.cable_spine_vertical",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 0.65,
+        "visible_bounds_height": 1.25,
+        "visible_bounds_offset": [
+          0,
+          0.375,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "base",
+          "parent": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -1.2,
+                0,
+                -1.2
+              ],
+              "size": [
+                2.4,
+                12.0,
+                2.4
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

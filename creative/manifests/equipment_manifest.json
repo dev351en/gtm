@@ -1,0 +1,841 @@
+{
+  "schema_version": "1.0.0",
+  "total_equipment": 92,
+  "categories": {
+    "protection": 55,
+    "civic": 20,
+    "property": 2,
+    "effect": 5,
+    "entertainment": 10
+  },
+  "equipment": [
+    {
+      "id": "gtm:bus_stop_flag",
+      "category": "civic",
+      "title": "Bus Stop Flag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/civic/bus_stop_flag.geo.json",
+      "cube_count": 2,
+      "sha256": "48a49687722a42ff25a989beb01c5934ccf1393f37dd4ebb5fe23f3d5721216c"
+    },
+    {
+      "id": "gtm:cinema_projector",
+      "category": "entertainment",
+      "title": "Cinema Projector",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/entertainment/cinema_projector.geo.json",
+      "cube_count": 3,
+      "sha256": "d150202f748186abd808936c7b7b44ae66c809af469a545c38675af50ec7d7be"
+    },
+    {
+      "id": "gtm:civic_bench_sign",
+      "category": "civic",
+      "title": "Civic Bench Sign",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/civic/civic_bench_sign.geo.json",
+      "cube_count": 2,
+      "sha256": "f62287c180fb11455d1960f3a19f27f77306906e0be1c0b612a4949ff0d31ad3"
+    },
+    {
+      "id": "gtm:colour_capsule",
+      "category": "effect",
+      "title": "Colour Capsule",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/effect/colour_capsule.geo.json",
+      "cube_count": 3,
+      "sha256": "d7f89dce59e61d5fdc1e6157a84f01a24798fe0797615ac3819b8f971c665e4c"
+    },
+    {
+      "id": "gtm:confetti_puck",
+      "category": "effect",
+      "title": "Confetti Puck",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/effect/confetti_puck.geo.json",
+      "cube_count": 3,
+      "sha256": "388663bc3df5327f5a4af5b45befb096bc90f958cee0bc0b4df789577065abe7"
+    },
+    {
+      "id": "gtm:council_lectern",
+      "category": "civic",
+      "title": "Council Lectern",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/civic/council_lectern.geo.json",
+      "cube_count": 2,
+      "sha256": "031eede1d8b1ad0fc30b89e87ef384840521d091bd00acc6199eac07b192741d"
+    },
+    {
+      "id": "gtm:dance_tile",
+      "category": "entertainment",
+      "title": "Dance Tile",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/entertainment/dance_tile.geo.json",
+      "cube_count": 2,
+      "sha256": "da895691ab64af85458857bc51c1e42407db61438ceb73b4f7dc7aaec18f212d"
+    },
+    {
+      "id": "gtm:dhol",
+      "category": "entertainment",
+      "title": "Dhol",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/entertainment/dhol.geo.json",
+      "cube_count": 3,
+      "sha256": "5c4025ed79904342c83020624c450cedf391a7a93c5166b8c2433e87b20c0c51"
+    },
+    {
+      "id": "gtm:district_marker",
+      "category": "civic",
+      "title": "District Marker",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/civic/district_marker.geo.json",
+      "cube_count": 2,
+      "sha256": "a59149d7afd05b73fcdbe00f7de1704d5d82a8c44176c684e2cdbedb6a3a8ee2"
+    },
+    {
+      "id": "gtm:dj_deck",
+      "category": "entertainment",
+      "title": "Dj Deck",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/entertainment/dj_deck.geo.json",
+      "cube_count": 3,
+      "sha256": "39df564ab2e75ba80ee2d9c76d6524272ca28d32f1cc88e9ca06305e8da06db7"
+    },
+    {
+      "id": "gtm:festival_shield_harbour",
+      "category": "protection",
+      "title": "Harbour Festival Shield",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/festival_shield_harbour.geo.json",
+      "cube_count": 3,
+      "sha256": "952b27a30e6763d8ad1be6ea48e7d186f9c8a8143837b2f01c4c9888a32f8885"
+    },
+    {
+      "id": "gtm:festival_shield_hill",
+      "category": "protection",
+      "title": "Hill Festival Shield",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/festival_shield_hill.geo.json",
+      "cube_count": 3,
+      "sha256": "4566895f3d9ce9d5fc16ef6db132c4112da7b7f2b0e4a673958fc2dd2fbecf48"
+    },
+    {
+      "id": "gtm:festival_shield_local",
+      "category": "protection",
+      "title": "Local Festival Shield",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/festival_shield_local.geo.json",
+      "cube_count": 3,
+      "sha256": "59feffe7647cad251522b1b741d0cc199895c142846313ced27a6b878a48bd22"
+    },
+    {
+      "id": "gtm:festival_shield_metro",
+      "category": "protection",
+      "title": "Metro Festival Shield",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/festival_shield_metro.geo.json",
+      "cube_count": 3,
+      "sha256": "d875b0835f13533a11a7d7d930de729fe7fffa8546d368143ab5390772a9cad4"
+    },
+    {
+      "id": "gtm:festival_shield_night",
+      "category": "protection",
+      "title": "Night Festival Shield",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/festival_shield_night.geo.json",
+      "cube_count": 3,
+      "sha256": "2e2ecea61ea1b31c23de9d99872c36bbf40e2eb9a104b4f175d91061b45e3949"
+    },
+    {
+      "id": "gtm:first_aid_cabinet",
+      "category": "civic",
+      "title": "First Aid Cabinet",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/civic/first_aid_cabinet.geo.json",
+      "cube_count": 2,
+      "sha256": "99185230b968528110f9ad99d13ab4c1efc57927241207f00a407ce8cea68906"
+    },
+    {
+      "id": "gtm:flat_key",
+      "category": "property",
+      "title": "Flat Key",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/property/flat_key.geo.json",
+      "cube_count": 4,
+      "sha256": "9c1cecb59b174105d45648f84fb074a4b76169f6ab0e42d33ed3bcfcf797d48a"
+    },
+    {
+      "id": "gtm:glow_beacon",
+      "category": "effect",
+      "title": "Glow Beacon",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/effect/glow_beacon.geo.json",
+      "cube_count": 3,
+      "sha256": "2e4f04baec045dc4d03b7102fc7f9e48471a03bfa237bb5deefcde718fe0baa7"
+    },
+    {
+      "id": "gtm:harmonium",
+      "category": "entertainment",
+      "title": "Harmonium",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/entertainment/harmonium.geo.json",
+      "cube_count": 2,
+      "sha256": "86d80894eb8387f2f879590cb583e6cd3651ab11d22011712763946e0ed050a4"
+    },
+    {
+      "id": "gtm:hazard_bollard",
+      "category": "civic",
+      "title": "Hazard Bollard",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/civic/hazard_bollard.geo.json",
+      "cube_count": 2,
+      "sha256": "8af65581a297122781eec169a9ba4345350e22ea38342d604b2c2121d22eb2ce"
+    },
+    {
+      "id": "gtm:help_intercom",
+      "category": "civic",
+      "title": "Help Intercom",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/civic/help_intercom.geo.json",
+      "cube_count": 2,
+      "sha256": "c037a0343e700222fa98cf915ba8ace6ca80b55f6471027a0bcfab1885f2f9a6"
+    },
+    {
+      "id": "gtm:hydration_station",
+      "category": "civic",
+      "title": "Hydration Station",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/civic/hydration_station.geo.json",
+      "cube_count": 2,
+      "sha256": "7c4a3701df1d001331f097caed8b9a60dce83c9052ad4afac46c1668b67492d1"
+    },
+    {
+      "id": "gtm:marshal_vest_harbour",
+      "category": "protection",
+      "title": "Harbour Marshal Vest",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/marshal_vest_harbour.geo.json",
+      "cube_count": 4,
+      "sha256": "9b9e2e18e09abc5c7a40f327dc82c5fa97780b872a7fade1e5248ab433e8256c"
+    },
+    {
+      "id": "gtm:marshal_vest_hill",
+      "category": "protection",
+      "title": "Hill Marshal Vest",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/marshal_vest_hill.geo.json",
+      "cube_count": 4,
+      "sha256": "24ba035864f25d92aab4e18be836a70fd630a28aed9869f29cbb1c9f327fd47f"
+    },
+    {
+      "id": "gtm:marshal_vest_local",
+      "category": "protection",
+      "title": "Local Marshal Vest",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/marshal_vest_local.geo.json",
+      "cube_count": 4,
+      "sha256": "fb7949cb9ec561cf4583b9cba62bfabff59d49c0bf93ed71e8e9e42b4f79692a"
+    },
+    {
+      "id": "gtm:marshal_vest_metro",
+      "category": "protection",
+      "title": "Metro Marshal Vest",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/marshal_vest_metro.geo.json",
+      "cube_count": 4,
+      "sha256": "e77ac471f055432c93dd1d624c1bdeadc2a86de92231ec0dbacd67f4a4dc0ccb"
+    },
+    {
+      "id": "gtm:marshal_vest_night",
+      "category": "protection",
+      "title": "Night Marshal Vest",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/marshal_vest_night.geo.json",
+      "cube_count": 4,
+      "sha256": "9f14feefa2313eec77ef46f68b7a4894e4be43cb0fa2b9ff710907aad6b0791b"
+    },
+    {
+      "id": "gtm:metro_roundel",
+      "category": "civic",
+      "title": "Metro Roundel",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/civic/metro_roundel.geo.json",
+      "cube_count": 2,
+      "sha256": "2ad40c681b01b8431d522ae20e199dfd664bfe7f395873ba1f778996007d60d2"
+    },
+    {
+      "id": "gtm:mist_totem",
+      "category": "effect",
+      "title": "Mist Totem",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/effect/mist_totem.geo.json",
+      "cube_count": 3,
+      "sha256": "04e2b94efff8d35eb88a021f68dd4318705548092709b2b8c62e8f988fd0d1fe"
+    },
+    {
+      "id": "gtm:news_display",
+      "category": "civic",
+      "title": "News Display",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/civic/news_display.geo.json",
+      "cube_count": 2,
+      "sha256": "2a89c6f64a4398b57c692605acd0947c05605be6d05246ce2ef8b82534812486"
+    },
+    {
+      "id": "gtm:padded_bracer_harbour",
+      "category": "protection",
+      "title": "Harbour Padded Bracer",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/padded_bracer_harbour.geo.json",
+      "cube_count": 2,
+      "sha256": "58ea7287dbcbf6afc8aafdcbfc0656bd79a001644ccefd0548c091ac3093021c"
+    },
+    {
+      "id": "gtm:padded_bracer_hill",
+      "category": "protection",
+      "title": "Hill Padded Bracer",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/padded_bracer_hill.geo.json",
+      "cube_count": 2,
+      "sha256": "7f52932ad9d0cd7a269a8d3e730c0bdcb4742d352afce934b79fbfece491f5aa"
+    },
+    {
+      "id": "gtm:padded_bracer_local",
+      "category": "protection",
+      "title": "Local Padded Bracer",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/padded_bracer_local.geo.json",
+      "cube_count": 2,
+      "sha256": "b2e32e8c36cd38604de1275e97fb5dec54ab1a1b3bb8d32c71ea6a5b3013eb40"
+    },
+    {
+      "id": "gtm:padded_bracer_metro",
+      "category": "protection",
+      "title": "Metro Padded Bracer",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/padded_bracer_metro.geo.json",
+      "cube_count": 2,
+      "sha256": "594febe479bb65321c6d2c6f2d015925a10bf76c87f35180b3443bc367045ef2"
+    },
+    {
+      "id": "gtm:padded_bracer_night",
+      "category": "protection",
+      "title": "Night Padded Bracer",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/padded_bracer_night.geo.json",
+      "cube_count": 2,
+      "sha256": "5beed978731ced3ebfecdae64db041b8a834f804212c3aa42a35f2250f858bed"
+    },
+    {
+      "id": "gtm:parking_meter",
+      "category": "civic",
+      "title": "Parking Meter",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/civic/parking_meter.geo.json",
+      "cube_count": 3,
+      "sha256": "4f6bf5091e872d6dd5bf6e3ff9ae1ddd908d3981791eecd0a75aa8c5f9cdfeb1"
+    },
+    {
+      "id": "gtm:platform_clock",
+      "category": "civic",
+      "title": "Platform Clock",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/civic/platform_clock.geo.json",
+      "cube_count": 2,
+      "sha256": "7f187ddd66e4e585f38169a7a44b8150d14744e03d6ddb505aa0efa616c4910b"
+    },
+    {
+      "id": "gtm:postal_box",
+      "category": "civic",
+      "title": "Postal Box",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/civic/postal_box.geo.json",
+      "cube_count": 3,
+      "sha256": "e234efa669f7cd335ea6978f9616e42b33079ad77f78039638c69a223ed37e9b"
+    },
+    {
+      "id": "gtm:property_deed",
+      "category": "property",
+      "title": "Property Deed",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/property/property_deed.geo.json",
+      "cube_count": 3,
+      "sha256": "690fbbe9b16195352f27dd43c6e99582930e591eeccfc94d756b3bdf1100d1cb"
+    },
+    {
+      "id": "gtm:queue_post",
+      "category": "civic",
+      "title": "Queue Post",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/civic/queue_post.geo.json",
+      "cube_count": 3,
+      "sha256": "5fbf91777fbecdbb8a8b9ff2db4829cebddcc54c005b97ad5b34087f53463e2c"
+    },
+    {
+      "id": "gtm:radio_receiver",
+      "category": "entertainment",
+      "title": "Radio Receiver",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/entertainment/radio_receiver.geo.json",
+      "cube_count": 3,
+      "sha256": "81b82f21e6b2f3d04ff910ab091e2866f9e378be0d10763f173f63d9f9a14c34"
+    },
+    {
+      "id": "gtm:rescue_helmet_harbour",
+      "category": "protection",
+      "title": "Harbour Rescue Helmet",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/rescue_helmet_harbour.geo.json",
+      "cube_count": 3,
+      "sha256": "702afbae8528657857ae94ff531d4899dc512c72a03d01fc8f7587a649d6000d"
+    },
+    {
+      "id": "gtm:rescue_helmet_hill",
+      "category": "protection",
+      "title": "Hill Rescue Helmet",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/rescue_helmet_hill.geo.json",
+      "cube_count": 3,
+      "sha256": "33d835cf4dc74e7b22016bbb817b3224407a9a9607f09bb2e42d2a48b28c9096"
+    },
+    {
+      "id": "gtm:rescue_helmet_local",
+      "category": "protection",
+      "title": "Local Rescue Helmet",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/rescue_helmet_local.geo.json",
+      "cube_count": 3,
+      "sha256": "596e800c11f46f4a7cdef4f3f6b342a99c798d93ebd860d2346604ab98dff6a4"
+    },
+    {
+      "id": "gtm:rescue_helmet_metro",
+      "category": "protection",
+      "title": "Metro Rescue Helmet",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/rescue_helmet_metro.geo.json",
+      "cube_count": 3,
+      "sha256": "1caadc8b90bfabbb6fe4c62641a87fae8a705e1ee9423dc3d80a53c4d0c281a1"
+    },
+    {
+      "id": "gtm:rescue_helmet_night",
+      "category": "protection",
+      "title": "Night Rescue Helmet",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/rescue_helmet_night.geo.json",
+      "cube_count": 3,
+      "sha256": "c46c8c7ef643e1b12c598b7f38bd9efb8fabd44bf2ac1f3e8dd4f9572bcd7905"
+    },
+    {
+      "id": "gtm:road_barrier",
+      "category": "civic",
+      "title": "Road Barrier",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/civic/road_barrier.geo.json",
+      "cube_count": 2,
+      "sha256": "fb53d96070ff5a7f7d6a6f25d491a2ee9487d289cfb7a54fee2de7b9212f4a66"
+    },
+    {
+      "id": "gtm:road_cone",
+      "category": "civic",
+      "title": "Road Cone",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/civic/road_cone.geo.json",
+      "cube_count": 2,
+      "sha256": "6c702c6cd8932d0fac1610f252469ee12a254f6561cc72463247ac13aaf2ce0f"
+    },
+    {
+      "id": "gtm:service_kiosk",
+      "category": "civic",
+      "title": "Service Kiosk",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/civic/service_kiosk.geo.json",
+      "cube_count": 2,
+      "sha256": "a82fb8a7f7c7fbd7f276803e7bc048ad69cdb4d447fc5eae7eb0b5ce4d497b5e"
+    },
+    {
+      "id": "gtm:spark_orb",
+      "category": "effect",
+      "title": "Spark Orb",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/effect/spark_orb.geo.json",
+      "cube_count": 3,
+      "sha256": "9cc178c337f670b6cf892fe11457a19348d951479a61183d46ecc71a4fddf058"
+    },
+    {
+      "id": "gtm:speaker_stack",
+      "category": "entertainment",
+      "title": "Speaker Stack",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/entertainment/speaker_stack.geo.json",
+      "cube_count": 2,
+      "sha256": "74e3bda4e3e973c87e8ecbd9160d452a4077c78ba1c8077a301f501aa27fdb6c"
+    },
+    {
+      "id": "gtm:stage_spotlight",
+      "category": "entertainment",
+      "title": "Stage Spotlight",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/entertainment/stage_spotlight.geo.json",
+      "cube_count": 2,
+      "sha256": "566f88988442ba02a1f67bf0dc95f652e4f6ecc56e561c35abdafaf53268d78b"
+    },
+    {
+      "id": "gtm:street_bin",
+      "category": "civic",
+      "title": "Street Bin",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/civic/street_bin.geo.json",
+      "cube_count": 2,
+      "sha256": "11bee1711014b17d87aad3fd30426c3af694905e94dc0c7cf8e2842e18d58236"
+    },
+    {
+      "id": "gtm:studio_mic",
+      "category": "entertainment",
+      "title": "Studio Mic",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/entertainment/studio_mic.geo.json",
+      "cube_count": 2,
+      "sha256": "fd2cf5f9fd9a62c9a847059a4fcbe3d8a3bebff421ce81263530d58b3b9f1255"
+    },
+    {
+      "id": "gtm:tabla_pair",
+      "category": "entertainment",
+      "title": "Tabla Pair",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/entertainment/tabla_pair.geo.json",
+      "cube_count": 3,
+      "sha256": "1e2aaa347c1b3457300bd47929b20c4d391396d7008c11dc435de348493a24c1"
+    },
+    {
+      "id": "gtm:tag_comet_arcade",
+      "category": "protection",
+      "title": "Comet Arcade Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_comet_arcade.geo.json",
+      "cube_count": 3,
+      "sha256": "7f36059c1849a1bd60cc3e9ef481be94f0d4bd8923a7b7de27da93d7d26c1472"
+    },
+    {
+      "id": "gtm:tag_comet_arena",
+      "category": "protection",
+      "title": "Comet Arena Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_comet_arena.geo.json",
+      "cube_count": 3,
+      "sha256": "eea4a2ab0dd7c43100f0c5c3f08a345b5097d2493ea32598b297137094f34b50"
+    },
+    {
+      "id": "gtm:tag_comet_night",
+      "category": "protection",
+      "title": "Comet Night Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_comet_night.geo.json",
+      "cube_count": 3,
+      "sha256": "3879485ea4f3f76ed938736c3f1ee35267879b8fe78fe8219ba7c4fdc2602c9c"
+    },
+    {
+      "id": "gtm:tag_comet_parade",
+      "category": "protection",
+      "title": "Comet Parade Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_comet_parade.geo.json",
+      "cube_count": 3,
+      "sha256": "3d8e3e8df4627dd3e2508188d46cb2786e71d9ea69ddd9fe38fd6dec9e73a8b8"
+    },
+    {
+      "id": "gtm:tag_comet_relay",
+      "category": "protection",
+      "title": "Comet Relay Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_comet_relay.geo.json",
+      "cube_count": 3,
+      "sha256": "e4359f4f821ed46884fab1296392e83ee77e2d27a4eccb9198c6f1abec4dd012"
+    },
+    {
+      "id": "gtm:tag_halo_arcade",
+      "category": "protection",
+      "title": "Halo Arcade Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_halo_arcade.geo.json",
+      "cube_count": 3,
+      "sha256": "2e9bf081775dc7b0ab6b9bba61817d9acd80e953a4b4e4d9370e48747387f57a"
+    },
+    {
+      "id": "gtm:tag_halo_arena",
+      "category": "protection",
+      "title": "Halo Arena Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_halo_arena.geo.json",
+      "cube_count": 3,
+      "sha256": "c6f7bf128d869addae569e02ed16acd461c2d2cf47cef54e722a6c4bb279d099"
+    },
+    {
+      "id": "gtm:tag_halo_night",
+      "category": "protection",
+      "title": "Halo Night Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_halo_night.geo.json",
+      "cube_count": 3,
+      "sha256": "618e7e06bffc1b34de9bbe08df6238db39c5665784170a180ab29774b99b509a"
+    },
+    {
+      "id": "gtm:tag_halo_parade",
+      "category": "protection",
+      "title": "Halo Parade Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_halo_parade.geo.json",
+      "cube_count": 3,
+      "sha256": "b39d3ded17334fc65034361e0104221f240358c87180ca8d4b2bab5040733c0b"
+    },
+    {
+      "id": "gtm:tag_halo_relay",
+      "category": "protection",
+      "title": "Halo Relay Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_halo_relay.geo.json",
+      "cube_count": 3,
+      "sha256": "dd19b48cca91350939b8f8260d468c038b56c678b7c0ae32df86c44682e60207"
+    },
+    {
+      "id": "gtm:tag_lattice_arcade",
+      "category": "protection",
+      "title": "Lattice Arcade Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_lattice_arcade.geo.json",
+      "cube_count": 3,
+      "sha256": "0921d5cdb82edb46d1201141ab05414415142b718700f7b23a200d12fa91654a"
+    },
+    {
+      "id": "gtm:tag_lattice_arena",
+      "category": "protection",
+      "title": "Lattice Arena Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_lattice_arena.geo.json",
+      "cube_count": 3,
+      "sha256": "efae3f63c7d6554e1a78326a08635c28342279c9918914264f676eb3af635e82"
+    },
+    {
+      "id": "gtm:tag_lattice_night",
+      "category": "protection",
+      "title": "Lattice Night Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_lattice_night.geo.json",
+      "cube_count": 3,
+      "sha256": "cf220cf182366a3648e079c0de34ba032a82c74863f46ad0c0c8dffadd5372a0"
+    },
+    {
+      "id": "gtm:tag_lattice_parade",
+      "category": "protection",
+      "title": "Lattice Parade Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_lattice_parade.geo.json",
+      "cube_count": 3,
+      "sha256": "b3bb26e32476bed0a9deff8aede76ae669026880c4424a8c08437d7aec0cc056"
+    },
+    {
+      "id": "gtm:tag_lattice_relay",
+      "category": "protection",
+      "title": "Lattice Relay Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_lattice_relay.geo.json",
+      "cube_count": 3,
+      "sha256": "cea3f497dc42aba171cca79d0cc89b6200c0766056febcfb242746889ae896f5"
+    },
+    {
+      "id": "gtm:tag_lotus_arcade",
+      "category": "protection",
+      "title": "Lotus Arcade Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_lotus_arcade.geo.json",
+      "cube_count": 3,
+      "sha256": "681507b2b9775bc0e09d8e8ea2b8fc6b0b5002bd64507b0c4ba81c344609ecc5"
+    },
+    {
+      "id": "gtm:tag_lotus_arena",
+      "category": "protection",
+      "title": "Lotus Arena Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_lotus_arena.geo.json",
+      "cube_count": 3,
+      "sha256": "8793e0d8b23dec0833892af93931ae2fe8cca0297747c8040e8ba51a0d382784"
+    },
+    {
+      "id": "gtm:tag_lotus_night",
+      "category": "protection",
+      "title": "Lotus Night Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_lotus_night.geo.json",
+      "cube_count": 3,
+      "sha256": "10a7fae0e5210b0a69e4b428b5d29f5fe54d50846924c89e3f6b31cbb672646f"
+    },
+    {
+      "id": "gtm:tag_lotus_parade",
+      "category": "protection",
+      "title": "Lotus Parade Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_lotus_parade.geo.json",
+      "cube_count": 3,
+      "sha256": "ce90c8f4d725dbbc7868f1ca9dd62e1d77dcf0a09e663ae6dd18269075ec87f7"
+    },
+    {
+      "id": "gtm:tag_lotus_relay",
+      "category": "protection",
+      "title": "Lotus Relay Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_lotus_relay.geo.json",
+      "cube_count": 3,
+      "sha256": "711ee6bbd3f92bc55aa30cede73b1f431481f358714352ed3db4ec1691dcf24f"
+    },
+    {
+      "id": "gtm:tag_prism_arcade",
+      "category": "protection",
+      "title": "Prism Arcade Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_prism_arcade.geo.json",
+      "cube_count": 3,
+      "sha256": "5815930ae78f2bb10be5884df093a3a5b9f888c4146d0e429391fef59b793b71"
+    },
+    {
+      "id": "gtm:tag_prism_arena",
+      "category": "protection",
+      "title": "Prism Arena Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_prism_arena.geo.json",
+      "cube_count": 3,
+      "sha256": "a5257472ee6a14c35e079b13af5c00f3245dee02b00a877d0cbed739f1cc40f3"
+    },
+    {
+      "id": "gtm:tag_prism_night",
+      "category": "protection",
+      "title": "Prism Night Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_prism_night.geo.json",
+      "cube_count": 3,
+      "sha256": "11e5dd7aa43e0be55ae20bad350e6d3126337a806695e0989b5e006c6c4c3386"
+    },
+    {
+      "id": "gtm:tag_prism_parade",
+      "category": "protection",
+      "title": "Prism Parade Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_prism_parade.geo.json",
+      "cube_count": 3,
+      "sha256": "5ab50b061f404e64d9787c491121cdc6762376268b1984154429707142cee1e6"
+    },
+    {
+      "id": "gtm:tag_prism_relay",
+      "category": "protection",
+      "title": "Prism Relay Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_prism_relay.geo.json",
+      "cube_count": 3,
+      "sha256": "5074c9f9dbf2fd67b66babc30a7a232c0ba93ca90b19810c30b6c4a5253d8258"
+    },
+    {
+      "id": "gtm:tag_pulse_arcade",
+      "category": "protection",
+      "title": "Pulse Arcade Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_pulse_arcade.geo.json",
+      "cube_count": 3,
+      "sha256": "6a3d9ad83eb14dd5961f0d75a13ce1f9690be424381874f89941e6f3168d509e"
+    },
+    {
+      "id": "gtm:tag_pulse_arena",
+      "category": "protection",
+      "title": "Pulse Arena Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_pulse_arena.geo.json",
+      "cube_count": 3,
+      "sha256": "17e092b66c02ab1458e1f9dba1826cc5bb7078a5d11c10715ad2524f6f67dda4"
+    },
+    {
+      "id": "gtm:tag_pulse_night",
+      "category": "protection",
+      "title": "Pulse Night Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_pulse_night.geo.json",
+      "cube_count": 3,
+      "sha256": "33d1ff2f01a419fdc5074df5622a55e16a53be91fce3de53b709870fa9d930ec"
+    },
+    {
+      "id": "gtm:tag_pulse_parade",
+      "category": "protection",
+      "title": "Pulse Parade Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_pulse_parade.geo.json",
+      "cube_count": 3,
+      "sha256": "cc99fcaab4a86a4f78bd463d8d88fce002988ca2cf43893dec7bce84443b27ab"
+    },
+    {
+      "id": "gtm:tag_pulse_relay",
+      "category": "protection",
+      "title": "Pulse Relay Light Tag",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/tag_pulse_relay.geo.json",
+      "cube_count": 3,
+      "sha256": "227420096a23ca1d4605e8e9c65ab24082c7de1a660a974c2a8decdcbe851c5d"
+    },
+    {
+      "id": "gtm:taxi_call_post",
+      "category": "civic",
+      "title": "Taxi Call Post",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/civic/taxi_call_post.geo.json",
+      "cube_count": 3,
+      "sha256": "9adc68761f760173da614ecf43536cd6c4a05e32f16a5b1e0a13c544259ea2bb"
+    },
+    {
+      "id": "gtm:ticket_validator",
+      "category": "civic",
+      "title": "Ticket Validator",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/civic/ticket_validator.geo.json",
+      "cube_count": 2,
+      "sha256": "4880f381e79da7b603150e88a3024eaeb42557d8cf54b165f32efd3a9438d194"
+    },
+    {
+      "id": "gtm:visor_harbour",
+      "category": "protection",
+      "title": "Harbour Visor",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/visor_harbour.geo.json",
+      "cube_count": 2,
+      "sha256": "5c10754b1c7d128b821188e0b5eae757b74de912cd1fa923d0d4e2d196bdf6aa"
+    },
+    {
+      "id": "gtm:visor_hill",
+      "category": "protection",
+      "title": "Hill Visor",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/visor_hill.geo.json",
+      "cube_count": 2,
+      "sha256": "2474a9ac27aa34435a838c36ed81ebc7df8e8f663916c38a8c1e37db8cb9bbb6"
+    },
+    {
+      "id": "gtm:visor_local",
+      "category": "protection",
+      "title": "Local Visor",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/visor_local.geo.json",
+      "cube_count": 2,
+      "sha256": "260bf8fe00d2f0cdfb8ce7c6c5f919444e0fa28a81444ff2ba49b2b7822d2811"
+    },
+    {
+      "id": "gtm:visor_metro",
+      "category": "protection",
+      "title": "Metro Visor",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/visor_metro.geo.json",
+      "cube_count": 2,
+      "sha256": "9b58e7cbdd324fae403f3d21669aa88526d93c9fac94c786997f84679dfc9053"
+    },
+    {
+      "id": "gtm:visor_night",
+      "category": "protection",
+      "title": "Night Visor",
+      "base_item": "minecraft:paper",
+      "model_path": "creative/source/models/equipment/protection/visor_night.geo.json",
+      "cube_count": 2,
+      "sha256": "75406dfc73580df1db6da4159dc12e40d29da8617f542c634bfb244d05f45dd2"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gtm.flammable_safety_cabinet",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 1.6,
+        "visible_bounds_height": 2.15,
+        "visible_bounds_offset": [
+          0,
+          0.825,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "base",
+          "parent": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -8.8,
+                0,
+                -4.4
+              ],
+              "size": [
+                17.6,
+                26.4,
+                8.8
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

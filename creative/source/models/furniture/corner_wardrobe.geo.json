@@ -1,0 +1,56 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gtm.corner_wardrobe",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 1.6,
+        "visible_bounds_height": 2.6,
+        "visible_bounds_offset": [
+          0,
+          1.05,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "base",
+          "parent": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -8.8,
+                0,
+                -8.8
+              ],
+              "size": [
+                17.6,
+                33.6,
+                17.6
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gtm.checkout_belt_counter",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 3.3,
+        "visible_bounds_height": 1.45,
+        "visible_bounds_offset": [
+          0,
+          0.475,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "base",
+          "parent": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -22.4,
+                0,
+                -8.8
+              ],
+              "size": [
+                44.8,
+                15.2,
+                17.6
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

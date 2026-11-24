@@ -1,0 +1,101 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gtm.suv_scorpio",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 2.9,
+        "visible_bounds_height": 2.65,
+        "visible_bounds_offset": [
+          0,
+          0.93,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "chassis",
+          "parent": "root",
+          "pivot": [
+            0,
+            0.4,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -15.2,
+                6,
+                -37.3
+              ],
+              "size": [
+                30.4,
+                22.2,
+                74.6
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "wheel_fl",
+          "parent": "root",
+          "pivot": [
+            -13.3,
+            6,
+            23.3
+          ]
+        },
+        {
+          "name": "wheel_fr",
+          "parent": "root",
+          "pivot": [
+            13.3,
+            6,
+            23.3
+          ]
+        },
+        {
+          "name": "wheel_rl",
+          "parent": "root",
+          "pivot": [
+            -13.3,
+            6,
+            -23.3
+          ]
+        },
+        {
+          "name": "wheel_rr",
+          "parent": "root",
+          "pivot": [
+            13.3,
+            6,
+            -23.3
+          ]
+        },
+        {
+          "name": "steering_wheel",
+          "parent": "chassis",
+          "pivot": [
+            -5.7,
+            13.0,
+            9.3
+          ]
+        }
+      ]
+    }
+  ]
+}

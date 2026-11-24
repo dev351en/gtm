@@ -1,0 +1,65 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gtm.marine_police_launch",
+        "texture_width": 256,
+        "texture_height": 256,
+        "visible_bounds_width": 5.8,
+        "visible_bounds_height": 4.2,
+        "visible_bounds_offset": [
+          0,
+          1.6,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "hull",
+          "parent": "root",
+          "pivot": [
+            0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "mast_radar",
+          "parent": "hull",
+          "pivot": [
+            0,
+            1.0,
+            0
+          ]
+        },
+        {
+          "name": "twin_screws",
+          "parent": "hull",
+          "pivot": [
+            0,
+            1.0,
+            0
+          ]
+        },
+        {
+          "name": "deck_gun_mount",
+          "parent": "hull",
+          "pivot": [
+            0,
+            1.0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

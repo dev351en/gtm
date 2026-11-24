@@ -1,0 +1,101 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gtm.comm_mini_cargo",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 2.5,
+        "visible_bounds_height": 2.65,
+        "visible_bounds_offset": [
+          0,
+          0.93,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "chassis",
+          "parent": "root",
+          "pivot": [
+            0,
+            0.4,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -12.0,
+                6,
+                -30.4
+              ],
+              "size": [
+                24.0,
+                22.2,
+                60.8
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "wheel_fl",
+          "parent": "root",
+          "pivot": [
+            -10.5,
+            6,
+            19.0
+          ]
+        },
+        {
+          "name": "wheel_fr",
+          "parent": "root",
+          "pivot": [
+            10.5,
+            6,
+            19.0
+          ]
+        },
+        {
+          "name": "wheel_rl",
+          "parent": "root",
+          "pivot": [
+            -10.5,
+            6,
+            -19.0
+          ]
+        },
+        {
+          "name": "wheel_rr",
+          "parent": "root",
+          "pivot": [
+            10.5,
+            6,
+            -19.0
+          ]
+        },
+        {
+          "name": "steering_wheel",
+          "parent": "chassis",
+          "pivot": [
+            -4.5,
+            13.0,
+            7.6
+          ]
+        }
+      ]
+    }
+  ]
+}

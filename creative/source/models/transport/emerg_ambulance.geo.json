@@ -1,0 +1,101 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gtm.emerg_ambulance",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 2.95,
+        "visible_bounds_height": 3.25,
+        "visible_bounds_offset": [
+          0,
+          1.23,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "chassis",
+          "parent": "root",
+          "pivot": [
+            0,
+            0.4,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -15.6,
+                6,
+                -41.6
+              ],
+              "size": [
+                31.2,
+                29.4,
+                83.2
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "wheel_fl",
+          "parent": "root",
+          "pivot": [
+            -13.7,
+            6,
+            26.0
+          ]
+        },
+        {
+          "name": "wheel_fr",
+          "parent": "root",
+          "pivot": [
+            13.7,
+            6,
+            26.0
+          ]
+        },
+        {
+          "name": "wheel_rl",
+          "parent": "root",
+          "pivot": [
+            -13.7,
+            6,
+            -26.0
+          ]
+        },
+        {
+          "name": "wheel_rr",
+          "parent": "root",
+          "pivot": [
+            13.7,
+            6,
+            -26.0
+          ]
+        },
+        {
+          "name": "steering_wheel",
+          "parent": "chassis",
+          "pivot": [
+            -5.8,
+            17.2,
+            10.4
+          ]
+        }
+      ]
+    }
+  ]
+}

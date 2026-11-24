@@ -1,0 +1,457 @@
+{
+  "gtm:sedan_city": {
+    "approved_id": "gtm:hatchback_swift",
+    "approved_title": "Maruva Swift 1.2",
+    "manufacturer": "maruva",
+    "category": "hatchback",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:sedan_courier": {
+    "approved_id": "gtm:hatchback_baleno",
+    "approved_title": "Maruva Baleno Premium",
+    "manufacturer": "maruva",
+    "category": "hatchback",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:sedan_rescue": {
+    "approved_id": "gtm:hatchback_wagonr",
+    "approved_title": "Maruva Wagon Tallboy",
+    "manufacturer": "maruva",
+    "category": "hatchback",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:sedan_touring": {
+    "approved_id": "gtm:hatchback_alto",
+    "approved_title": "Maruva Alto City",
+    "manufacturer": "maruva",
+    "category": "hatchback",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:sedan_utility": {
+    "approved_id": "gtm:hatchback_i10",
+    "approved_title": "Hondo CityGrand 1.2",
+    "manufacturer": "hondo",
+    "category": "hatchback",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:sportscar_city": {
+    "approved_id": "gtm:hatchback_tiago",
+    "approved_title": "Tavara Tiago Compact",
+    "manufacturer": "tavara",
+    "category": "hatchback",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:sportscar_courier": {
+    "approved_id": "gtm:hatchback_i20",
+    "approved_title": "Hondo AeroSport 1.0T",
+    "manufacturer": "hondo",
+    "category": "hatchback",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:sportscar_rescue": {
+    "approved_id": "gtm:sedan_dzire",
+    "approved_title": "Maruva Swift Sedan",
+    "manufacturer": "maruva",
+    "category": "sedan",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:sportscar_touring": {
+    "approved_id": "gtm:sedan_aura",
+    "approved_title": "Hondo Compact Sedan",
+    "manufacturer": "hondo",
+    "category": "sedan",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:sportscar_utility": {
+    "approved_id": "gtm:sedan_amaze",
+    "approved_title": "Hondo Accord Classic",
+    "manufacturer": "hondo",
+    "category": "sedan",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:suv_city": {
+    "approved_id": "gtm:sedan_verna",
+    "approved_title": "Hondo Verna Executive",
+    "manufacturer": "hondo",
+    "category": "sedan",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:suv_courier": {
+    "approved_id": "gtm:sedan_city",
+    "approved_title": "Toyora City Cruiser",
+    "manufacturer": "toyora",
+    "category": "sedan",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:suv_rescue": {
+    "approved_id": "gtm:sedan_slavia",
+    "approved_title": "Toyora Regal Sedan",
+    "manufacturer": "toyora",
+    "category": "sedan",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:suv_touring": {
+    "approved_id": "gtm:suv_thar",
+    "approved_title": "Wahindra Thar 4x4 Offroader",
+    "manufacturer": "wahindra",
+    "category": "suv",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:suv_utility": {
+    "approved_id": "gtm:suv_scorpio",
+    "approved_title": "Wahindra Scorpio-N Patrol",
+    "manufacturer": "wahindra",
+    "category": "suv",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:cruiser_city": {
+    "approved_id": "gtm:suv_bolero",
+    "approved_title": "Wahindra Bolero Rugged",
+    "manufacturer": "wahindra",
+    "category": "suv",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:cruiser_courier": {
+    "approved_id": "gtm:suv_xuv700",
+    "approved_title": "Wahindra XUV Sovereign",
+    "manufacturer": "wahindra",
+    "category": "suv",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:cruiser_rescue": {
+    "approved_id": "gtm:suv_fortuner",
+    "approved_title": "Toyora Fortuner 4WD",
+    "manufacturer": "toyora",
+    "category": "suv",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:cruiser_touring": {
+    "approved_id": "gtm:suv_safari",
+    "approved_title": "Tavara Safari Flagship",
+    "manufacturer": "tavara",
+    "category": "suv",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:cruiser_utility": {
+    "approved_id": "gtm:suv_harrier",
+    "approved_title": "Tavara Harrier Monocoque",
+    "manufacturer": "tavara",
+    "category": "suv",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:interceptor_city": {
+    "approved_id": "gtm:suv_nexon",
+    "approved_title": "Tavara Nexon EV",
+    "manufacturer": "tavara",
+    "category": "suv",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:interceptor_courier": {
+    "approved_id": "gtm:suv_punch",
+    "approved_title": "Tavara Punch Micro-SUV",
+    "manufacturer": "tavara",
+    "category": "suv",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:interceptor_rescue": {
+    "approved_id": "gtm:suv_creta",
+    "approved_title": "Hondo Urban Cross",
+    "manufacturer": "hondo",
+    "category": "suv",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:interceptor_touring": {
+    "approved_id": "gtm:suv_seltos",
+    "approved_title": "Hondo Trail Master",
+    "manufacturer": "hondo",
+    "category": "suv",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:interceptor_utility": {
+    "approved_id": "gtm:suv_jimny",
+    "approved_title": "Maruva Jimny 5-Door",
+    "manufacturer": "maruva",
+    "category": "suv",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:motorcycle_city": {
+    "approved_id": "gtm:luxury_series3",
+    "approved_title": "SD Executive 3-Series",
+    "manufacturer": "sd_motors",
+    "category": "luxury",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:motorcycle_courier": {
+    "approved_id": "gtm:luxury_eclass",
+    "approved_title": "SD Prestige E-Chassis",
+    "manufacturer": "sd_motors",
+    "category": "luxury",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:motorcycle_rescue": {
+    "approved_id": "gtm:luxury_q7",
+    "approved_title": "SD Quattro Seven SUV",
+    "manufacturer": "sd_motors",
+    "category": "luxury",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:motorcycle_touring": {
+    "approved_id": "gtm:luxury_x5",
+    "approved_title": "SD Bavaria X-Drive",
+    "manufacturer": "sd_motors",
+    "category": "luxury",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:motorcycle_utility": {
+    "approved_id": "gtm:luxury_rangerover",
+    "approved_title": "SD Sovereign Imperial",
+    "manufacturer": "sd_motors",
+    "category": "luxury",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:scooter_city": {
+    "approved_id": "gtm:moto_splendor",
+    "approved_title": "Veero Splendor 100",
+    "manufacturer": "veero",
+    "category": "motorcycle",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:scooter_courier": {
+    "approved_id": "gtm:moto_classic350",
+    "approved_title": "Royal Iron Classic 350",
+    "manufacturer": "royal_iron",
+    "category": "motorcycle",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:scooter_rescue": {
+    "approved_id": "gtm:moto_bullet350",
+    "approved_title": "Royal Iron Bullet 350",
+    "manufacturer": "royal_iron",
+    "category": "motorcycle",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:scooter_touring": {
+    "approved_id": "gtm:moto_pulsar",
+    "approved_title": "Wahindra Pulsar 220F",
+    "manufacturer": "wahindra",
+    "category": "motorcycle",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:scooter_utility": {
+    "approved_id": "gtm:moto_apache",
+    "approved_title": "Tavara Apache RTR",
+    "manufacturer": "tavara",
+    "category": "motorcycle",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:rickshaw_city": {
+    "approved_id": "gtm:moto_duke",
+    "approved_title": "SD Duke 390 Naked",
+    "manufacturer": "sd_motors",
+    "category": "motorcycle",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:rickshaw_courier": {
+    "approved_id": "gtm:moto_himalayan",
+    "approved_title": "Royal Iron Himalayan Explorer",
+    "manufacturer": "royal_iron",
+    "category": "motorcycle",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:rickshaw_rescue": {
+    "approved_id": "gtm:moto_r15",
+    "approved_title": "Hondo Supersport 150",
+    "manufacturer": "hondo",
+    "category": "motorcycle",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:rickshaw_touring": {
+    "approved_id": "gtm:scooter_activa",
+    "approved_title": "Hondo Activa 6G Commuter",
+    "manufacturer": "hondo",
+    "category": "scooter",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:rickshaw_utility": {
+    "approved_id": "gtm:scooter_jupiter",
+    "approved_title": "Tavara Jupiter Metal",
+    "manufacturer": "tavara",
+    "category": "scooter",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:bus_city": {
+    "approved_id": "gtm:scooter_access",
+    "approved_title": "Maruva Access 125",
+    "manufacturer": "maruva",
+    "category": "scooter",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:bus_courier": {
+    "approved_id": "gtm:scooter_ather",
+    "approved_title": "Tavara Ather 450X EV",
+    "manufacturer": "tavara",
+    "category": "scooter",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:bus_rescue": {
+    "approved_id": "gtm:rickshaw_traditional",
+    "approved_title": "Indra Auto CNG Passenger",
+    "manufacturer": "wahindra",
+    "category": "rickshaw",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:bus_touring": {
+    "approved_id": "gtm:rickshaw_electric",
+    "approved_title": "Indra Mayuri E-Rickshaw",
+    "manufacturer": "tavara",
+    "category": "rickshaw",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:bus_utility": {
+    "approved_id": "gtm:rickshaw_cargo",
+    "approved_title": "Indra Loader Cargo 3-Wheeler",
+    "manufacturer": "wahindra",
+    "category": "rickshaw",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:van_city": {
+    "approved_id": "gtm:bus_single_deck",
+    "approved_title": "Tavara Starbus City Transit",
+    "manufacturer": "tavara",
+    "category": "bus",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:van_courier": {
+    "approved_id": "gtm:bus_double_deck",
+    "approved_title": "BEST Coastal Double-Decker",
+    "manufacturer": "tavara",
+    "category": "bus",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:van_rescue": {
+    "approved_id": "gtm:bus_minibus",
+    "approved_title": "Wahindra Metro Minibus",
+    "manufacturer": "wahindra",
+    "category": "bus",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:van_touring": {
+    "approved_id": "gtm:bus_intercity_coach",
+    "approved_title": "Tavara Garuda Air-Suspension",
+    "manufacturer": "tavara",
+    "category": "bus",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:van_utility": {
+    "approved_id": "gtm:comm_mini_cargo",
+    "approved_title": "Tavara Ace Mini Truck (Chhota Hathi)",
+    "manufacturer": "tavara",
+    "category": "commercial",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:truck_city": {
+    "approved_id": "gtm:comm_pickup",
+    "approved_title": "Wahindra Bolero Maxi Truck",
+    "manufacturer": "wahindra",
+    "category": "commercial",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:truck_courier": {
+    "approved_id": "gtm:comm_light_truck",
+    "approved_title": "Tavara 407 Light Hauler",
+    "manufacturer": "tavara",
+    "category": "commercial",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:truck_rescue": {
+    "approved_id": "gtm:comm_medium_truck",
+    "approved_title": "Tavara 1613 Medium Goods",
+    "manufacturer": "tavara",
+    "category": "commercial",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:truck_touring": {
+    "approved_id": "gtm:comm_tipper",
+    "approved_title": "Wahindra Blazo Heavy Tipper",
+    "manufacturer": "wahindra",
+    "category": "commercial",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:truck_utility": {
+    "approved_id": "gtm:comm_container",
+    "approved_title": "Tavara Signa 4825 Multi-Axle",
+    "manufacturer": "tavara",
+    "category": "commercial",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:ambulance_city": {
+    "approved_id": "gtm:comm_delivery_van",
+    "approved_title": "Wahindra Supro Delivery Van",
+    "manufacturer": "wahindra",
+    "category": "commercial",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:ambulance_courier": {
+    "approved_id": "gtm:emerg_police_suv",
+    "approved_title": "SDPD Tactical Interceptor Scorpio",
+    "manufacturer": "wahindra",
+    "category": "emergency",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:ambulance_rescue": {
+    "approved_id": "gtm:emerg_patrol_sedan",
+    "approved_title": "SDPD Highway Patrol Dzire",
+    "manufacturer": "maruva",
+    "category": "emergency",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:ambulance_touring": {
+    "approved_id": "gtm:emerg_ambulance",
+    "approved_title": "Mount Zonah Advanced Life Support Van",
+    "manufacturer": "tavara",
+    "category": "emergency",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:ambulance_utility": {
+    "approved_id": "gtm:emerg_fire_engine",
+    "approved_title": "Indra Fire & Rescue Water Bowzer",
+    "manufacturer": "tavara",
+    "category": "emergency",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:fire_truck_city": {
+    "approved_id": "gtm:emerg_recovery_truck",
+    "approved_title": "Highway Heavy Tow Crane",
+    "manufacturer": "wahindra",
+    "category": "emergency",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:fire_truck_courier": {
+    "approved_id": "gtm:emerg_rescue_van",
+    "approved_title": "Disaster Response Mobile Command",
+    "manufacturer": "tavara",
+    "category": "emergency",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:fire_truck_rescue": {
+    "approved_id": "gtm:agri_compact_tractor",
+    "approved_title": "Wahindra Oja Compact Tractor",
+    "manufacturer": "wahindra",
+    "category": "agricultural",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:fire_truck_touring": {
+    "approved_id": "gtm:agri_heavy_tractor",
+    "approved_title": "Wahindra Arjun Novo Heavy Tractor",
+    "manufacturer": "wahindra",
+    "category": "agricultural",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  },
+  "gtm:fire_truck_utility": {
+    "approved_id": "gtm:agri_harvester",
+    "approved_title": "Wahindra Coastal Combine Harvester",
+    "manufacturer": "wahindra",
+    "category": "agricultural",
+    "migration_action": "bind_geometry_and_physics_anchor"
+  }
+}

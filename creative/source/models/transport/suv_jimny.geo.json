@@ -1,0 +1,101 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gtm.suv_jimny",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 2.64,
+        "visible_bounds_height": 2.52,
+        "visible_bounds_offset": [
+          0,
+          0.86,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "chassis",
+          "parent": "root",
+          "pivot": [
+            0,
+            0.4,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -13.1,
+                6,
+                -31.8
+              ],
+              "size": [
+                26.2,
+                20.6,
+                63.7
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "wheel_fl",
+          "parent": "root",
+          "pivot": [
+            -11.5,
+            6,
+            19.9
+          ]
+        },
+        {
+          "name": "wheel_fr",
+          "parent": "root",
+          "pivot": [
+            11.5,
+            6,
+            19.9
+          ]
+        },
+        {
+          "name": "wheel_rl",
+          "parent": "root",
+          "pivot": [
+            -11.5,
+            6,
+            -19.9
+          ]
+        },
+        {
+          "name": "wheel_rr",
+          "parent": "root",
+          "pivot": [
+            11.5,
+            6,
+            -19.9
+          ]
+        },
+        {
+          "name": "steering_wheel",
+          "parent": "chassis",
+          "pivot": [
+            -4.9,
+            12.0,
+            8.0
+          ]
+        }
+      ]
+    }
+  ]
+}

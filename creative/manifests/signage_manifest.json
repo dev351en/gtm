@@ -1,0 +1,1935 @@
+{
+  "schema_version": "1.0.0",
+  "description": "120 bilingual municipal signs (English & Marathi/Devanagari) across 6 civic and commercial categories.",
+  "total_signs": 120,
+  "categories": {
+    "transport": 20,
+    "road": 20,
+    "civic": 15,
+    "store": 25,
+    "commercial": 25,
+    "public_safety": 15
+  },
+  "signs": [
+    {
+      "id": "gtm:sign_transport_marine_drive_station",
+      "slug": "marine_drive_station",
+      "category": "transport",
+      "english_text": "Marine Drive Station",
+      "marathi_text": "\u092e\u0930\u0940\u0928 \u0921\u094d\u0930\u093e\u0908\u0935\u094d\u0939 \u0938\u094d\u091f\u0947\u0936\u0928",
+      "texture_path": "creative/source/signage/transport/marine_drive_station.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#151B20",
+      "text_color": "#D6AD59",
+      "placement_context": "Indraprastha metropolitan transport zone",
+      "sha256": "05b8f63181d3906e807d9a63fa596ab49f79987a596c2cda9d23706e79fa9d39"
+    },
+    {
+      "id": "gtm:sign_transport_churchgate_terminal",
+      "slug": "churchgate_terminal",
+      "category": "transport",
+      "english_text": "Churchgate Terminal",
+      "marathi_text": "\u091a\u0930\u094d\u091a\u0917\u0947\u091f \u091f\u0930\u094d\u092e\u093f\u0928\u0938",
+      "texture_path": "creative/source/signage/transport/churchgate_terminal.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#151B20",
+      "text_color": "#D6AD59",
+      "placement_context": "Indraprastha metropolitan transport zone",
+      "sha256": "98ed75ff518e52d7901424003cc43cab4433a2629f6e4f9b07a95c6786022be8"
+    },
+    {
+      "id": "gtm:sign_transport_metro_line_3_cuffe",
+      "slug": "metro_line_3_cuffe",
+      "category": "transport",
+      "english_text": "Metro Line 3 Cuffe Parade",
+      "marathi_text": "\u092e\u0947\u091f\u094d\u0930\u094b \u0969 \u0915\u092b \u092a\u0930\u0947\u0921",
+      "texture_path": "creative/source/signage/transport/metro_line_3_cuffe.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#236653",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan transport zone",
+      "sha256": "5121c1fbefd64c7aedeb71b8cb1d673e55d3d7c1a3111f1c82209c15a95ce756"
+    },
+    {
+      "id": "gtm:sign_transport_cst_heritage_junction",
+      "slug": "cst_heritage_junction",
+      "category": "transport",
+      "english_text": "CST Heritage Junction",
+      "marathi_text": "\u0938\u0940\u090f\u0938\u091f\u0940 \u0939\u0947\u0930\u093f\u091f\u0947\u091c \u091c\u0902\u0915\u094d\u0936\u0928",
+      "texture_path": "creative/source/signage/transport/cst_heritage_junction.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#151B20",
+      "text_color": "#D6AD59",
+      "placement_context": "Indraprastha metropolitan transport zone",
+      "sha256": "6000bfb05a82ee56e7fed752b62b24e157656fabdf3e52da0f78afe262bf27af"
+    },
+    {
+      "id": "gtm:sign_transport_bandra_west_pier",
+      "slug": "bandra_west_pier",
+      "category": "transport",
+      "english_text": "Bandra West Ferry Pier",
+      "marathi_text": "\u0935\u093e\u0902\u0926\u094d\u0930\u0947 \u092a\u0936\u094d\u091a\u093f\u092e \u091c\u0947\u091f\u094d\u091f\u0940",
+      "texture_path": "creative/source/signage/transport/bandra_west_pier.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#1B4F72",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan transport zone",
+      "sha256": "3222ef4b28ea62342db138929d7f9296a88771f51f9b221092c844426fe977fd"
+    },
+    {
+      "id": "gtm:sign_transport_skylink_gondola_term",
+      "slug": "skylink_gondola_term",
+      "category": "transport",
+      "english_text": "SkyLink Cableway Terminal",
+      "marathi_text": "\u0938\u094d\u0915\u093e\u092f\u0932\u093f\u0902\u0915 \u0915\u0947\u092c\u0932\u0935\u0947 \u091f\u0930\u094d\u092e\u093f\u0928\u0932",
+      "texture_path": "creative/source/signage/transport/skylink_gondola_term.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#AD5637",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan transport zone",
+      "sha256": "90f04276429123a9d9c6073a5fcbc5d99d90fc8265c071fdc68570e89a781ad3"
+    },
+    {
+      "id": "gtm:sign_transport_worli_sea_face_bus",
+      "slug": "worli_sea_face_bus",
+      "category": "transport",
+      "english_text": "Worli Sea Face Bus Depot",
+      "marathi_text": "\u0935\u0930\u0933\u0940 \u0938\u0940 \u092b\u0947\u0938 \u092c\u0938 \u0906\u0917\u093e\u0930",
+      "texture_path": "creative/source/signage/transport/worli_sea_face_bus.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#7D6608",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan transport zone",
+      "sha256": "0f5879e24057da755264beffe054d78d30b4a474b377ef6f9b6cb35bf5fd3146"
+    },
+    {
+      "id": "gtm:sign_transport_dadar_central_inter",
+      "slug": "dadar_central_inter",
+      "category": "transport",
+      "english_text": "Dadar Central Interchange",
+      "marathi_text": "\u0926\u093e\u0926\u0930 \u092e\u0927\u094d\u092f\u0935\u0930\u094d\u0924\u0940 \u091c\u0902\u0915\u094d\u0936\u0928",
+      "texture_path": "creative/source/signage/transport/dadar_central_inter.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#151B20",
+      "text_color": "#D6AD59",
+      "placement_context": "Indraprastha metropolitan transport zone",
+      "sha256": "e29dd9dedc98ae4c444556acd7dc86f07e17c0dc2029529408b3f9a6769af98c"
+    },
+    {
+      "id": "gtm:sign_transport_indrap_international",
+      "slug": "indrap_international",
+      "category": "transport",
+      "english_text": "Indraprastha Airport T2",
+      "marathi_text": "\u0907\u0902\u0926\u094d\u0930\u092a\u094d\u0930\u0938\u094d\u0925 \u0935\u093f\u092e\u093e\u0928\u0924\u0933 \u091f\u0940\u0968",
+      "texture_path": "creative/source/signage/transport/indrap_international.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#1A5276",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan transport zone",
+      "sha256": "ddfc7beb1df692f1af3a8a81d759fd86d4fc1e8112a05d193897d6f3b23b74e8"
+    },
+    {
+      "id": "gtm:sign_transport_apollo_bunder_ferry",
+      "slug": "apollo_bunder_ferry",
+      "category": "transport",
+      "english_text": "Apollo Bunder Ferry Dock",
+      "marathi_text": "\u0905\u092a\u094b\u0932\u094b \u092c\u0902\u0926\u0930 \u092c\u094b\u091f \u0927\u0915\u094d\u0915\u093e",
+      "texture_path": "creative/source/signage/transport/apollo_bunder_ferry.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#1B4F72",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan transport zone",
+      "sha256": "73797be5ee5f9b5842cbf53892b609045fa05f041ed767e0cbd30d0917c96d93"
+    },
+    {
+      "id": "gtm:sign_transport_nariman_point_shuttle",
+      "slug": "nariman_point_shuttle",
+      "category": "transport",
+      "english_text": "Nariman Pt Express Shuttle",
+      "marathi_text": "\u0928\u0930\u093f\u092e\u0928 \u092a\u0949\u0908\u0902\u091f \u090f\u0915\u094d\u0938\u092a\u094d\u0930\u0947\u0938 \u0936\u091f\u0932",
+      "texture_path": "creative/source/signage/transport/nariman_point_shuttle.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#236653",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan transport zone",
+      "sha256": "dfef946ea6d3cac0fd6cbd309359db30a720f7e8e721d39a10aa79dc8fbb3d66"
+    },
+    {
+      "id": "gtm:sign_transport_colaba_causeway_tram",
+      "slug": "colaba_causeway_tram",
+      "category": "transport",
+      "english_text": "Colaba Tram Stop",
+      "marathi_text": "\u0915\u0941\u0932\u093e\u092c\u093e \u091f\u094d\u0930\u093e\u092e \u0925\u093e\u0902\u092c\u093e",
+      "texture_path": "creative/source/signage/transport/colaba_causeway_tram.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#7B241C",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan transport zone",
+      "sha256": "d9cf5d0971978fcca032ea2d3136acc6272b8dd989765909f7feaa82e3774f0f"
+    },
+    {
+      "id": "gtm:sign_transport_andheri_metro_link",
+      "slug": "andheri_metro_link",
+      "category": "transport",
+      "english_text": "Andheri Metro Link Station",
+      "marathi_text": "\u0905\u0902\u0927\u0947\u0930\u0940 \u092e\u0947\u091f\u094d\u0930\u094b \u0932\u093f\u0902\u0915 \u0938\u094d\u0925\u093e\u0928\u0915",
+      "texture_path": "creative/source/signage/transport/andheri_metro_link.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#1E8449",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan transport zone",
+      "sha256": "d8ad38f9a4b86667e7b16f4f6b1be36955eb19ce2fd826bda8677e63607f8312"
+    },
+    {
+      "id": "gtm:sign_transport_kurla_freight_yard",
+      "slug": "kurla_freight_yard",
+      "category": "transport",
+      "english_text": "Kurla Logistics Freight Yard",
+      "marathi_text": "\u0915\u0941\u0930\u094d\u0932\u093e \u092e\u093e\u0932\u0927\u0915\u094d\u0915\u093e \u092f\u093e\u0930\u094d\u0921",
+      "texture_path": "creative/source/signage/transport/kurla_freight_yard.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#4A235A",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan transport zone",
+      "sha256": "bc7bd24b555e998a3e545b9abd47d64bc6528218159f6819386ec0830552daff"
+    },
+    {
+      "id": "gtm:sign_transport_vikhroli_heliport_hub",
+      "slug": "vikhroli_heliport_hub",
+      "category": "transport",
+      "english_text": "Vikhroli Heliport Hub",
+      "marathi_text": "\u0935\u093f\u0915\u094d\u0930\u094b\u0933\u0940 \u0939\u0947\u0932\u093f\u092a\u094b\u0930\u094d\u091f \u0939\u092c",
+      "texture_path": "creative/source/signage/transport/vikhroli_heliport_hub.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#151B20",
+      "text_color": "#D6AD59",
+      "placement_context": "Indraprastha metropolitan transport zone",
+      "sha256": "9437868320cceb30f6f8b4d0355e349ad0d924033622f8b83ae6b9766f711ac4"
+    },
+    {
+      "id": "gtm:sign_transport_juhu_aerodrome_gate",
+      "slug": "juhu_aerodrome_gate",
+      "category": "transport",
+      "english_text": "Juhu Aerodrome Gate 1",
+      "marathi_text": "\u091c\u0941\u0939\u0942 \u0935\u093f\u092e\u093e\u0928\u0924\u0933 \u092a\u094d\u0930\u0935\u0947\u0936\u0926\u094d\u0935\u093e\u0930 \u0967",
+      "texture_path": "creative/source/signage/transport/juhu_aerodrome_gate.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#1A5276",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan transport zone",
+      "sha256": "5b7970d8a357477f783859b30de8550b0c93e1df4b7885698e6839363bdce032"
+    },
+    {
+      "id": "gtm:sign_transport_malabar_hill_ropeway",
+      "slug": "malabar_hill_ropeway",
+      "category": "transport",
+      "english_text": "Malabar Hill Ropeway Stn",
+      "marathi_text": "\u092e\u0932\u092c\u093e\u0930 \u0939\u093f\u0932 \u0930\u094b\u092a\u0935\u0947 \u0938\u094d\u0925\u093e\u0928\u0915",
+      "texture_path": "creative/source/signage/transport/malabar_hill_ropeway.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#AD5637",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan transport zone",
+      "sha256": "d57e8662c06f976395bb71b1c4acbe6cca30e67ad7d7f11534f1c8ee87f2f3cb"
+    },
+    {
+      "id": "gtm:sign_transport_sewri_harbour_port",
+      "slug": "sewri_harbour_port",
+      "category": "transport",
+      "english_text": "Sewri Container Port Gate",
+      "marathi_text": "\u0936\u093f\u0935\u0921\u0940 \u0915\u0902\u091f\u0947\u0928\u0930 \u092a\u094b\u0930\u094d\u091f \u0917\u0947\u091f",
+      "texture_path": "creative/source/signage/transport/sewri_harbour_port.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#1B4F72",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan transport zone",
+      "sha256": "e438a5aad30da35410ffe4fe8172bb05aa697d7cbfd8f2ca056d326317b6992a"
+    },
+    {
+      "id": "gtm:sign_transport_chembur_monorail",
+      "slug": "chembur_monorail",
+      "category": "transport",
+      "english_text": "Chembur Monorail Interchange",
+      "marathi_text": "\u091a\u0947\u0902\u092c\u0930 \u092e\u094b\u0928\u094b\u0930\u0947\u0932 \u0938\u094d\u0925\u093e\u0928\u0915",
+      "texture_path": "creative/source/signage/transport/chembur_monorail.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#7D6608",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan transport zone",
+      "sha256": "58b2b55701626f38685035280e83a5d5d87079dd6fa6ee3e628dacb091454850"
+    },
+    {
+      "id": "gtm:sign_transport_santacruz_domestic_t1",
+      "slug": "santacruz_domestic_t1",
+      "category": "transport",
+      "english_text": "Domestic Terminal T1",
+      "marathi_text": "\u0926\u0947\u0936\u093e\u0902\u0924\u0930\u094d\u0917\u0924 \u091f\u0930\u094d\u092e\u093f\u0928\u0932 \u091f\u0940\u0967",
+      "texture_path": "creative/source/signage/transport/santacruz_domestic_t1.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#151B20",
+      "text_color": "#D6AD59",
+      "placement_context": "Indraprastha metropolitan transport zone",
+      "sha256": "13b3657a83004111bb02b165b0132c8ac73ae969d9c3672ed012e3b49196f76c"
+    },
+    {
+      "id": "gtm:sign_road_sea_link_toll_gate",
+      "slug": "sea_link_toll_gate",
+      "category": "road",
+      "english_text": "Sea Link Toll Plaza 500m",
+      "marathi_text": "\u0938\u0940 \u0932\u093f\u0902\u0915 \u091f\u094b\u0932 \u0928\u093e\u0915\u093e \u096b\u0966\u0966 \u092e\u0940",
+      "texture_path": "creative/source/signage/road/sea_link_toll_gate.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#151B20",
+      "text_color": "#D6AD59",
+      "placement_context": "Indraprastha metropolitan road zone",
+      "sha256": "d25e80b10cccc55012934475ad710e70c51dcb185f9dfa289f2a7a928fd05bd9"
+    },
+    {
+      "id": "gtm:sign_road_speed_limit_50",
+      "slug": "speed_limit_50",
+      "category": "road",
+      "english_text": "Speed Limit 50 km/h",
+      "marathi_text": "\u0915\u092e\u093e\u0932 \u0935\u0947\u0917 \u096b\u0966 \u0915\u093f\u092e\u0940/\u0924\u093e\u0938",
+      "texture_path": "creative/source/signage/road/speed_limit_50.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#FFFFFF",
+      "text_color": "#C0392B",
+      "placement_context": "Indraprastha metropolitan road zone",
+      "sha256": "260a108f1b7861d2f6b87be0cb0d788cb97f5143995d5d05de2481b506943ebb"
+    },
+    {
+      "id": "gtm:sign_road_no_parking_tow_away",
+      "slug": "no_parking_tow_away",
+      "category": "road",
+      "english_text": "No Parking \u2022 Tow-Away Zone",
+      "marathi_text": "\u0928\u094b \u092a\u093e\u0930\u094d\u0915\u093f\u0902\u0917 \u2022 \u091f\u094b\u0907\u0902\u0917 \u0915\u094d\u0937\u0947\u0924\u094d\u0930",
+      "texture_path": "creative/source/signage/road/no_parking_tow_away.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#C0392B",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan road zone",
+      "sha256": "284ae55cad1c8739c23f35aecd67b7750efa3896b6b9b8c667201a17818cd99a"
+    },
+    {
+      "id": "gtm:sign_road_one_way_traffic_ahead",
+      "slug": "one_way_traffic_ahead",
+      "category": "road",
+      "english_text": "One Way Street Ahead",
+      "marathi_text": "\u090f\u0915\u092e\u0941\u0916\u0940 \u0930\u0938\u094d\u0924\u093e \u092a\u0941\u0922\u0947",
+      "texture_path": "creative/source/signage/road/one_way_traffic_ahead.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#2E86C1",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan road zone",
+      "sha256": "67d629defa590a36c0d327e05028e33bee2fde8b769ab05fdbd8682c6a92b089"
+    },
+    {
+      "id": "gtm:sign_road_pedestrian_crossing",
+      "slug": "pedestrian_crossing",
+      "category": "road",
+      "english_text": "Pedestrian Crossing",
+      "marathi_text": "\u092a\u093e\u0926\u091a\u093e\u0930\u0940 \u0915\u094d\u0930\u0949\u0938\u093f\u0902\u0917",
+      "texture_path": "creative/source/signage/road/pedestrian_crossing.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#2E86C1",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan road zone",
+      "sha256": "20ec9f7ed47ed562b29a60c7eb491f560c18be00fd57e08d512c6175c2c107cb"
+    },
+    {
+      "id": "gtm:sign_road_heavy_vehicles_prohibit",
+      "slug": "heavy_vehicles_prohibit",
+      "category": "road",
+      "english_text": "No Heavy Vehicles Allowed",
+      "marathi_text": "\u091c\u0921 \u0935\u093e\u0939\u0928\u093e\u0902\u0928\u093e \u092c\u0902\u0926\u0940",
+      "texture_path": "creative/source/signage/road/heavy_vehicles_prohibit.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#C0392B",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan road zone",
+      "sha256": "df63d54c469a9f8df494c333058c80d927e52b1964363d84493292d97cdfb5e8"
+    },
+    {
+      "id": "gtm:sign_road_expressway_north_fast",
+      "slug": "expressway_north_fast",
+      "category": "road",
+      "english_text": "North Expressway Fast Lane",
+      "marathi_text": "\u0909\u0924\u094d\u0924\u0930 \u0926\u094d\u0930\u0941\u0924\u0917\u0924\u0940 \u092e\u093e\u0930\u094d\u0917 \u0932\u0947\u0928",
+      "texture_path": "creative/source/signage/road/expressway_north_fast.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#1E8449",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan road zone",
+      "sha256": "36eefae5de905ff8eadcb3e2b54505148cdcab2ed8eef3a4d53184d77020325c"
+    },
+    {
+      "id": "gtm:sign_road_u_turn_prohibited",
+      "slug": "u_turn_prohibited",
+      "category": "road",
+      "english_text": "U-Turn Prohibited",
+      "marathi_text": "\u092f\u0941-\u091f\u0930\u094d\u0928 \u092e\u0928\u093e\u0908",
+      "texture_path": "creative/source/signage/road/u_turn_prohibited.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#C0392B",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan road zone",
+      "sha256": "de0d291436f53e92b31f4ec3eebc28f06ba498ee434fa35015910deb287465f2"
+    },
+    {
+      "id": "gtm:sign_road_hospital_quiet_zone",
+      "slug": "hospital_quiet_zone",
+      "category": "road",
+      "english_text": "Hospital Area \u2022 Silence Zone",
+      "marathi_text": "\u0930\u0941\u0917\u094d\u0923\u093e\u0932\u092f \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u2022 \u0936\u093e\u0902\u0924\u0924\u093e \u091d\u094b\u0928",
+      "texture_path": "creative/source/signage/road/hospital_quiet_zone.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#2E86C1",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan road zone",
+      "sha256": "69e30dd719898abf4b50ce30be50c6d9e2e64952a67c0e51f4877691ae09bcf4"
+    },
+    {
+      "id": "gtm:sign_road_school_zone_slow_down",
+      "slug": "school_zone_slow_down",
+      "category": "road",
+      "english_text": "School Zone \u2022 Drive Slow",
+      "marathi_text": "\u0936\u093e\u0933\u093e \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u2022 \u0935\u093e\u0939\u0928\u0947 \u0939\u0933\u0942 \u091a\u093e\u0932\u0935\u093e",
+      "texture_path": "creative/source/signage/road/school_zone_slow_down.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#F39C12",
+      "text_color": "#151B20",
+      "placement_context": "Indraprastha metropolitan road zone",
+      "sha256": "ddc15ac01d729fb5b665e69561d03909b4ce5cec72b8227e5d37cdd71d604196"
+    },
+    {
+      "id": "gtm:sign_road_coastal_road_exit_4",
+      "slug": "coastal_road_exit_4",
+      "category": "road",
+      "english_text": "Coastal Road Exit 4 \u2022 Worli",
+      "marathi_text": "\u0915\u093f\u0928\u093e\u0930\u0940 \u0930\u0938\u094d\u0924\u093e \u0928\u093f\u0915\u093e\u0938 \u096a \u0935\u0930\u0933\u0940",
+      "texture_path": "creative/source/signage/road/coastal_road_exit_4.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#1E8449",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan road zone",
+      "sha256": "0045f025e0296a8fc7a4533ce0cf136d4acec7dbd2f5bd4c3e34c7b5e6acacd6"
+    },
+    {
+      "id": "gtm:sign_road_steep_descent_low_gear",
+      "slug": "steep_descent_low_gear",
+      "category": "road",
+      "english_text": "Steep Gradient \u2022 Use Low Gear",
+      "marathi_text": "\u0924\u0940\u0935\u094d\u0930 \u0909\u0924\u093e\u0930 \u2022 \u0915\u092e\u0940 \u0917\u093f\u0905\u0930 \u0935\u093e\u092a\u0930\u093e",
+      "texture_path": "creative/source/signage/road/steep_descent_low_gear.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#F39C12",
+      "text_color": "#151B20",
+      "placement_context": "Indraprastha metropolitan road zone",
+      "sha256": "d9bb2b899c6ab7e44137d9e1f9cc9f58f1fda71c4427bf41eaaa2153e7df5928"
+    },
+    {
+      "id": "gtm:sign_road_road_work_in_progress",
+      "slug": "road_work_in_progress",
+      "category": "road",
+      "english_text": "Road Work in Progress",
+      "marathi_text": "\u0930\u0938\u094d\u0924\u094d\u092f\u093e\u091a\u0947 \u0915\u093e\u092e \u0938\u0941\u0930\u0942 \u0906\u0939\u0947",
+      "texture_path": "creative/source/signage/road/road_work_in_progress.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#F39C12",
+      "text_color": "#151B20",
+      "placement_context": "Indraprastha metropolitan road zone",
+      "sha256": "384d46a0b060b7f1208c99021615cbe1f3313e59ed3e2144395b4ff254ea53b3"
+    },
+    {
+      "id": "gtm:sign_road_accident_blackspot_slow",
+      "slug": "accident_blackspot_slow",
+      "category": "road",
+      "english_text": "Accident Prone Area \u2022 Slow",
+      "marathi_text": "\u0905\u092a\u0918\u093e\u0924 \u092a\u094d\u0930\u0935\u0923 \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u2022 \u0938\u093e\u0935\u0927",
+      "texture_path": "creative/source/signage/road/accident_blackspot_slow.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#C0392B",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan road zone",
+      "sha256": "a89d194257b471156c9cde6c01e9a556ab9ec0fa13184237ac3abb32d9ec2f92"
+    },
+    {
+      "id": "gtm:sign_road_bus_lane_enforced",
+      "slug": "bus_lane_enforced",
+      "category": "road",
+      "english_text": "Dedicated Bus Lane Only",
+      "marathi_text": "\u092b\u0915\u094d\u0924 \u092c\u0938 \u092e\u093e\u0930\u094d\u0917\u093f\u0915\u093e",
+      "texture_path": "creative/source/signage/road/bus_lane_enforced.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#8E44AD",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan road zone",
+      "sha256": "b5841f40f2513011bb84f5c34544eda6e6f73efbda90ad811727be63ad929bcf"
+    },
+    {
+      "id": "gtm:sign_road_parking_ark_pay_card",
+      "slug": "parking_ark_pay_card",
+      "category": "road",
+      "english_text": "Municipal Paid Parking",
+      "marathi_text": "\u092e\u0939\u093e\u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e \u0938\u0936\u0941\u0932\u094d\u0915 \u0935\u093e\u0939\u0928\u0924\u0933",
+      "texture_path": "creative/source/signage/road/parking_ark_pay_card.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#2E86C1",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan road zone",
+      "sha256": "736d63454f23cc89e40ab0d5bde280e20a11ab04d97dd2c21203efb7daede537"
+    },
+    {
+      "id": "gtm:sign_road_roundabout_give_way",
+      "slug": "roundabout_give_way",
+      "category": "road",
+      "english_text": "Roundabout \u2022 Give Way",
+      "marathi_text": "\u0917\u094b\u0932\u091a\u0915\u094d\u0915\u0930 \u2022 \u0935\u093e\u091f \u0926\u094d\u092f\u093e",
+      "texture_path": "creative/source/signage/road/roundabout_give_way.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#2E86C1",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan road zone",
+      "sha256": "fc9fbc514b9bdc529b68cc1507bc9003e4dda5b1352c1c025a6c2236fd654b5c"
+    },
+    {
+      "id": "gtm:sign_road_bridge_clearance_4_5m",
+      "slug": "bridge_clearance_4_5m",
+      "category": "road",
+      "english_text": "Max Clearance Height 4.5m",
+      "marathi_text": "\u0915\u092e\u093e\u0932 \u0909\u0902\u091a\u0940 \u092e\u0930\u094d\u092f\u093e\u0926\u093e \u096a.\u096b \u092e\u0940",
+      "texture_path": "creative/source/signage/road/bridge_clearance_4_5m.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#F39C12",
+      "text_color": "#151B20",
+      "placement_context": "Indraprastha metropolitan road zone",
+      "sha256": "fb22b197d28c4bacb6528aff18648f9215b86acb9dcc0fbd9291562d3e406259"
+    },
+    {
+      "id": "gtm:sign_road_stop_security_check",
+      "slug": "stop_security_check",
+      "category": "road",
+      "english_text": "Stop \u2022 Police Check Post",
+      "marathi_text": "\u0925\u093e\u0902\u092c\u093e \u2022 \u092a\u094b\u0932\u0940\u0938 \u0924\u092a\u093e\u0938\u0923\u0940 \u0928\u093e\u0915\u093e",
+      "texture_path": "creative/source/signage/road/stop_security_check.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#C0392B",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan road zone",
+      "sha256": "a2e2fa6526895459dbc10285c0700eec887f78c95b1111e3d9ae203131f42ee0"
+    },
+    {
+      "id": "gtm:sign_road_free_left_turn_only",
+      "slug": "free_left_turn_only",
+      "category": "road",
+      "english_text": "Free Left Turn Only",
+      "marathi_text": "\u092b\u0915\u094d\u0924 \u0921\u093e\u0935\u0947 \u0935\u0933\u0923 \u0935\u093f\u0928\u093e\u092e\u0942\u0932\u094d\u092f",
+      "texture_path": "creative/source/signage/road/free_left_turn_only.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#1E8449",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan road zone",
+      "sha256": "274a701625aac18011956dc8186cbf1eaf80519f192cee2d9dcda74e87ee71da"
+    },
+    {
+      "id": "gtm:sign_civic_city_hall_indrap",
+      "slug": "city_hall_indrap",
+      "category": "civic",
+      "english_text": "Indraprastha City Hall",
+      "marathi_text": "\u0907\u0902\u0926\u094d\u0930\u092a\u094d\u0930\u0938\u094d\u0925 \u092e\u0939\u093e\u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e",
+      "texture_path": "creative/source/signage/civic/city_hall_indrap.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#151B20",
+      "text_color": "#D6AD59",
+      "placement_context": "Indraprastha metropolitan civic zone",
+      "sha256": "d2cecabc94bce6a46fe47b0618667411c3bf985ed262609e0f06744f4a45452e"
+    },
+    {
+      "id": "gtm:sign_civic_central_police_hq",
+      "slug": "central_police_hq",
+      "category": "civic",
+      "english_text": "Central Police Commissionerate",
+      "marathi_text": "\u092e\u0927\u094d\u092f\u0935\u0930\u094d\u0924\u0940 \u092a\u094b\u0932\u0940\u0938 \u092e\u0941\u0916\u094d\u092f\u093e\u0932\u092f",
+      "texture_path": "creative/source/signage/civic/central_police_hq.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#1A252F",
+      "text_color": "#F1C40F",
+      "placement_context": "Indraprastha metropolitan civic zone",
+      "sha256": "134f30304b2278977ff7d82d195658752953290fa3de665b6869b104b749fec4"
+    },
+    {
+      "id": "gtm:sign_civic_district_court_complex",
+      "slug": "district_court_complex",
+      "category": "civic",
+      "english_text": "District & Sessions Court",
+      "marathi_text": "\u091c\u093f\u0932\u094d\u0939\u093e \u0935 \u0938\u0924\u094d\u0930 \u0928\u094d\u092f\u093e\u092f\u093e\u0932\u092f",
+      "texture_path": "creative/source/signage/civic/district_court_complex.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#2C3E50",
+      "text_color": "#ECF0F1",
+      "placement_context": "Indraprastha metropolitan civic zone",
+      "sha256": "441857e8de391315bd4f9460b3e220ea0de6666716888f77bd30bfc9d958a384"
+    },
+    {
+      "id": "gtm:sign_civic_general_civil_hospital",
+      "slug": "general_civil_hospital",
+      "category": "civic",
+      "english_text": "Indraprastha General Hospital",
+      "marathi_text": "\u0907\u0902\u0926\u094d\u0930\u092a\u094d\u0930\u0938\u094d\u0925 \u0936\u093e\u0938\u0915\u0940\u092f \u0930\u0941\u0917\u094d\u0923\u093e\u0932\u092f",
+      "texture_path": "creative/source/signage/civic/general_civil_hospital.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#C0392B",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan civic zone",
+      "sha256": "c06d068448b607706f11439bab812f20926d9d9dfd5fe13ee3ad1dd9689aba3c"
+    },
+    {
+      "id": "gtm:sign_civic_central_fire_station",
+      "slug": "central_fire_station",
+      "category": "civic",
+      "english_text": "Fire & Rescue Headquarters",
+      "marathi_text": "\u0905\u0917\u094d\u0928\u093f\u0936\u093e\u092e\u0915 \u0935 \u092c\u091a\u093e\u0935 \u092e\u0941\u0916\u094d\u092f\u093e\u0932\u092f",
+      "texture_path": "creative/source/signage/civic/central_fire_station.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#C0392B",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan civic zone",
+      "sha256": "28702bc736cc5af1eb82c7641d7560a111ae40a52390258a5a55ede95071e557"
+    },
+    {
+      "id": "gtm:sign_civic_central_library_reading",
+      "slug": "central_library_reading",
+      "category": "civic",
+      "english_text": "State Central Library",
+      "marathi_text": "\u0930\u093e\u091c\u094d\u092f \u092e\u0927\u094d\u092f\u0935\u0930\u094d\u0924\u0940 \u0917\u094d\u0930\u0902\u0925\u093e\u0932\u092f",
+      "texture_path": "creative/source/signage/civic/central_library_reading.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#1E8449",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan civic zone",
+      "sha256": "299b18649ef320c9301dfbb4d76fd55df4d43c90b74dd88213cc134eb983147c"
+    },
+    {
+      "id": "gtm:sign_civic_public_works_division",
+      "slug": "public_works_division",
+      "category": "civic",
+      "english_text": "Public Works Department",
+      "marathi_text": "\u0938\u093e\u0930\u094d\u0935\u091c\u0928\u093f\u0915 \u092c\u093e\u0902\u0927\u0915\u093e\u092e \u0935\u093f\u092d\u093e\u0917",
+      "texture_path": "creative/source/signage/civic/public_works_division.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#D35400",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan civic zone",
+      "sha256": "08e1de648dd73bdaee8adc8110776e05d429ab4427098e9df240113908dff5b5"
+    },
+    {
+      "id": "gtm:sign_civic_heritage_preservation",
+      "slug": "heritage_preservation",
+      "category": "civic",
+      "english_text": "Heritage Conservation Cell",
+      "marathi_text": "\u0935\u093e\u0930\u0938\u093e \u0938\u0902\u0935\u0930\u094d\u0927\u0928 \u0935\u093f\u092d\u093e\u0917",
+      "texture_path": "creative/source/signage/civic/heritage_preservation.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#7D6608",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan civic zone",
+      "sha256": "e62f8969986b5c05066971017575f9864ae96b6fdeea5030daff61b3371d58dd"
+    },
+    {
+      "id": "gtm:sign_civic_civil_defense_bunker",
+      "slug": "civil_defense_bunker",
+      "category": "civic",
+      "english_text": "Civic Emergency Operations",
+      "marathi_text": "\u0928\u093e\u0917\u0930\u0940 \u0906\u092a\u0924\u094d\u0915\u093e\u0932\u0940\u0928 \u0915\u0947\u0902\u0926\u094d\u0930",
+      "texture_path": "creative/source/signage/civic/civil_defense_bunker.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#922B21",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan civic zone",
+      "sha256": "e1f9566db149ece760d68d0a9a1f744c29a9cfdeceba2a5db44a9e568db1487d"
+    },
+    {
+      "id": "gtm:sign_civic_tax_revenue_office",
+      "slug": "tax_revenue_office",
+      "category": "civic",
+      "english_text": "Municipal Revenue & Tax Dept",
+      "marathi_text": "\u092e\u0939\u093e\u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e \u0915\u0930 \u0935\u093f\u092d\u093e\u0917",
+      "texture_path": "creative/source/signage/civic/tax_revenue_office.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#2E4053",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan civic zone",
+      "sha256": "c12dff7f7ecda2b0d12e3344ce36e55a5301f048e1842d78c318787b65fd3e20"
+    },
+    {
+      "id": "gtm:sign_civic_water_sanitation_hq",
+      "slug": "water_sanitation_hq",
+      "category": "civic",
+      "english_text": "Hydraulic & Water Works",
+      "marathi_text": "\u092a\u093e\u0923\u0940 \u092a\u0941\u0930\u0935\u0920\u093e \u0935 \u092e\u0932\u0928\u093f\u0938\u094d\u0938\u093e\u0930\u0923",
+      "texture_path": "creative/source/signage/civic/water_sanitation_hq.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#2980B9",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan civic zone",
+      "sha256": "7abbaf077344a1f5644508bb48526740805cf02e83f05d3d638c94bcb8d8ca5d"
+    },
+    {
+      "id": "gtm:sign_civic_sub_registrar_deeds",
+      "slug": "sub_registrar_deeds",
+      "category": "civic",
+      "english_text": "Property Registration Office",
+      "marathi_text": "\u0928\u094b\u0902\u0926\u0923\u0940 \u0935 \u092e\u0941\u0926\u094d\u0930\u093e\u0902\u0915 \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "texture_path": "creative/source/signage/civic/sub_registrar_deeds.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#2C3E50",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan civic zone",
+      "sha256": "a12e907567b00c4b9352e583082b58a6e6a0d6d589ee2f6d6ebaa337e0eed07f"
+    },
+    {
+      "id": "gtm:sign_civic_postal_sorting_centre",
+      "slug": "postal_sorting_centre",
+      "category": "civic",
+      "english_text": "General Post Office (GPO)",
+      "marathi_text": "\u092e\u0941\u0916\u094d\u092f \u091f\u092a\u093e\u0932 \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "texture_path": "creative/source/signage/civic/postal_sorting_centre.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#C0392B",
+      "text_color": "#F1C40F",
+      "placement_context": "Indraprastha metropolitan civic zone",
+      "sha256": "f21cb4f0784744f5a03ad7171471d32332625d363fb16cee767241e4ba17318a"
+    },
+    {
+      "id": "gtm:sign_civic_citizens_service_center",
+      "slug": "citizens_service_center",
+      "category": "civic",
+      "english_text": "Citizen Suvidha Kendra",
+      "marathi_text": "\u0928\u093e\u0917\u0930\u093f\u0915 \u0938\u0941\u0935\u093f\u0927\u093e \u0915\u0947\u0902\u0926\u094d\u0930",
+      "texture_path": "creative/source/signage/civic/citizens_service_center.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#27AE60",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan civic zone",
+      "sha256": "e75fdfeb45e39fcb3c751605d2fd2c6aba72edae0c99da3499139282a535dab1"
+    },
+    {
+      "id": "gtm:sign_civic_metro_authority_office",
+      "slug": "metro_authority_office",
+      "category": "civic",
+      "english_text": "Urban Transport Authority",
+      "marathi_text": "\u0928\u093e\u0917\u0930\u0940 \u0935\u093e\u0939\u0924\u0942\u0915 \u092e\u0939\u093e\u092e\u0902\u0921\u0933",
+      "texture_path": "creative/source/signage/civic/metro_authority_office.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#151B20",
+      "text_color": "#D6AD59",
+      "placement_context": "Indraprastha metropolitan civic zone",
+      "sha256": "ae768fd767eae1bab32d3683cf5dce158e40d0478523b43cb3de0a9e378dd311"
+    },
+    {
+      "id": "gtm:sign_store_irani_cafe_1947",
+      "slug": "irani_cafe_1947",
+      "category": "store",
+      "english_text": "Cafe Irani & Bakery \u2022 Est 1947",
+      "marathi_text": "\u0915\u0945\u092b\u0947 \u0907\u0930\u093e\u0923\u0940 \u0906\u0923\u093f \u092c\u0947\u0915\u0930\u0940",
+      "texture_path": "creative/source/signage/store/irani_cafe_1947.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#5E3225",
+      "text_color": "#F4E7BF",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "267f3b207c8b9d17aace0aaf1d65f6c33bb85039585e0a72509b059a81a123de"
+    },
+    {
+      "id": "gtm:sign_store_bombay_kirana_mart",
+      "slug": "bombay_kirana_mart",
+      "category": "store",
+      "english_text": "Indraprastha Kirana Stores",
+      "marathi_text": "\u0907\u0902\u0926\u094d\u0930\u092a\u094d\u0930\u0938\u094d\u0925 \u0915\u093f\u0930\u093e\u0923\u093e \u0938\u094d\u091f\u094b\u0905\u0930\u094d\u0938",
+      "texture_path": "creative/source/signage/store/bombay_kirana_mart.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#1E8449",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "d74639b30a821967cf2590888fe5f30d808ee3ebff117ce8bd85576b64a1bf85"
+    },
+    {
+      "id": "gtm:sign_store_sahyadri_sweets",
+      "slug": "sahyadri_sweets",
+      "category": "store",
+      "english_text": "Sahyadri Mithai & Farsan",
+      "marathi_text": "\u0938\u0939\u094d\u092f\u093e\u0926\u094d\u0930\u0940 \u092e\u093f\u0920\u093e\u0908 \u0935 \u092b\u0930\u0938\u093e\u0923",
+      "texture_path": "creative/source/signage/store/sahyadri_sweets.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#C0392B",
+      "text_color": "#F1C40F",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "e3bef1bb86dec85cd33207487e847021d3729d6b6a6c0e18e143d7c3c9740319"
+    },
+    {
+      "id": "gtm:sign_store_marine_jewellers",
+      "slug": "marine_jewellers",
+      "category": "store",
+      "english_text": "Marine Gold & Diamonds",
+      "marathi_text": "\u092e\u0930\u0940\u0928 \u091c\u094d\u0935\u0947\u0932\u0930\u094d\u0938 \u2022 \u0936\u0941\u0926\u094d\u0927 \u0938\u094b\u0928\u0947",
+      "texture_path": "creative/source/signage/store/marine_jewellers.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#151B20",
+      "text_color": "#D6AD59",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "4eb35edf19728bf1a22ba0ce982199c89afe4caefc5b306583517fe597031ea1"
+    },
+    {
+      "id": "gtm:sign_store_royal_tailors_gents",
+      "slug": "royal_tailors_gents",
+      "category": "store",
+      "english_text": "Royal Master Tailors",
+      "marathi_text": "\u0930\u0949\u092f\u0932 \u091f\u0947\u0932\u0930\u094d\u0938 \u2022 \u091c\u0947\u0902\u091f\u094d\u0938 \u0938\u094d\u092a\u0947\u0936\u093e\u0932\u093f\u0938\u094d\u091f",
+      "texture_path": "creative/source/signage/store/royal_tailors_gents.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#2C3E50",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "6b7fdafe01d6d95ad6f770bbb631ae2cd201fa1d5439d529decc496b43948fe2"
+    },
+    {
+      "id": "gtm:sign_store_deccan_pharmacy_247",
+      "slug": "deccan_pharmacy_247",
+      "category": "store",
+      "english_text": "Deccan Chemist \u2022 24x7 Open",
+      "marathi_text": "\u0921\u0947\u0915\u094d\u0915\u0928 \u092e\u0947\u0921\u093f\u0915\u0932 \u0935 \u0915\u0947\u092e\u093f\u0938\u094d\u091f",
+      "texture_path": "creative/source/signage/store/deccan_pharmacy_247.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#27AE60",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "d56fa1e8ebb1996d38e90393847298f66a6e3d0c41bf10721989b113f7800036"
+    },
+    {
+      "id": "gtm:sign_store_apollo_hardware_tools",
+      "slug": "apollo_hardware_tools",
+      "category": "store",
+      "english_text": "Apollo Tools & Hardware",
+      "marathi_text": "\u0905\u092a\u094b\u0932\u094b \u0939\u093e\u0930\u094d\u0921\u0935\u0947\u0905\u0930 \u0906\u0923\u093f \u091f\u0942\u0932\u094d\u0938",
+      "texture_path": "creative/source/signage/store/apollo_hardware_tools.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#D35400",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "5f7c49cbd3c28f04d29b3cc0f10f7ce301b1a066de60c5aeb7cc381aa62f6986"
+    },
+    {
+      "id": "gtm:sign_store_chetak_auto_spares",
+      "slug": "chetak_auto_spares",
+      "category": "store",
+      "english_text": "Chetak Genuine Auto Spares",
+      "marathi_text": "\u091a\u0947\u0924\u0915 \u0911\u091f\u094b \u092a\u093e\u0930\u094d\u091f\u0938\u094d",
+      "texture_path": "creative/source/signage/store/chetak_auto_spares.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#151B20",
+      "text_color": "#E74C3C",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "af6f39f899ba9abe7024b9bf360ad19ed377480f540648f5951a23f0de264db4"
+    },
+    {
+      "id": "gtm:sign_store_konkan_fresh_fish",
+      "slug": "konkan_fresh_fish",
+      "category": "store",
+      "english_text": "Konkan Fresh Seafood Market",
+      "marathi_text": "\u0915\u094b\u0915\u0923 \u0924\u093e\u091c\u0947 \u092e\u0924\u094d\u0938\u094d\u092f \u0915\u0947\u0902\u0926\u094d\u0930",
+      "texture_path": "creative/source/signage/store/konkan_fresh_fish.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#2980B9",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "ed06e195896dc73218a4693a51dc83fa7a59e45623d245fbaa8fc76e88c31274"
+    },
+    {
+      "id": "gtm:sign_store_varun_electronics_tv",
+      "slug": "varun_electronics_tv",
+      "category": "store",
+      "english_text": "Varun Digital Appliances",
+      "marathi_text": "\u0935\u0930\u0941\u0923 \u0907\u0932\u0947\u0915\u094d\u091f\u094d\u0930\u0949\u0928\u093f\u0915\u094d\u0938",
+      "texture_path": "creative/source/signage/store/varun_electronics_tv.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#1F618D",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "49ff5b7cff9784eb0e76108290963e4a6a2408c7ae3c800f7ff786073c631883"
+    },
+    {
+      "id": "gtm:sign_store_national_book_house",
+      "slug": "national_book_house",
+      "category": "store",
+      "english_text": "National Bookstore & Stationers",
+      "marathi_text": "\u0928\u0945\u0936\u0928\u0932 \u092c\u0941\u0915 \u0921\u0947\u092a\u094b",
+      "texture_path": "creative/source/signage/store/national_book_house.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#7D6608",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "d587c5f4c7ba7a249e96210b61bb9bc4fc81b2571273188688e3c21795c9e4ed"
+    },
+    {
+      "id": "gtm:sign_store_laxmi_textiles_silk",
+      "slug": "laxmi_textiles_silk",
+      "category": "store",
+      "english_text": "Laxmi Silk Saree Emporium",
+      "marathi_text": "\u0932\u0915\u094d\u0937\u094d\u092e\u0940 \u0938\u093f\u0932\u094d\u0915 \u0938\u093e\u0921\u0940 \u090f\u092e\u094d\u092a\u094b\u0930\u093f\u092f\u092e",
+      "texture_path": "creative/source/signage/store/laxmi_textiles_silk.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#922B21",
+      "text_color": "#F1C40F",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "3e23988ae5fd55a4775a6f4d78719978fde430bdd81b7d42a0f57ca4013ef301"
+    },
+    {
+      "id": "gtm:sign_store_sharma_chaat_bhandar",
+      "slug": "sharma_chaat_bhandar",
+      "category": "store",
+      "english_text": "Sharma Famous Chaat Corner",
+      "marathi_text": "\u0936\u0930\u094d\u092e\u093e \u092a\u094d\u0930\u0938\u093f\u0926\u094d\u0927 \u091a\u093e\u091f \u092d\u0902\u0921\u093e\u0930",
+      "texture_path": "creative/source/signage/store/sharma_chaat_bhandar.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#D35400",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "63da00da7a1d0043f5508af7d29f242ea912345bc8703f067028a4ac3b736724"
+    },
+    {
+      "id": "gtm:sign_store_metro_footwear_shoes",
+      "slug": "metro_footwear_shoes",
+      "category": "store",
+      "english_text": "Metro Leather Works & Shoes",
+      "marathi_text": "\u092e\u0947\u091f\u094d\u0930\u094b \u092b\u0941\u091f\u0935\u0947\u0905\u0930",
+      "texture_path": "creative/source/signage/store/metro_footwear_shoes.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#151B20",
+      "text_color": "#D6AD59",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "728052d1d4cdd9c2bae4374fe77e90987436900202d7f5b9f2ea54002f65935e"
+    },
+    {
+      "id": "gtm:sign_store_bazaar_vegetables",
+      "slug": "bazaar_vegetables",
+      "category": "store",
+      "english_text": "Fresh Green Vegetable Market",
+      "marathi_text": "\u0924\u093e\u091c\u0940 \u092d\u093e\u091c\u0940\u092a\u093e\u0932\u093e \u092c\u093e\u091c\u093e\u0930",
+      "texture_path": "creative/source/signage/store/bazaar_vegetables.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#229954",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "7a9de94a2b5ccf3a504e12ee54cff3b13b954661bc3d75bb5c7ed1f1061169c2"
+    },
+    {
+      "id": "gtm:sign_store_gold_gym_fitness",
+      "slug": "gold_gym_fitness",
+      "category": "store",
+      "english_text": "Indraprastha Fitness Club",
+      "marathi_text": "\u0907\u0902\u0926\u094d\u0930\u092a\u094d\u0930\u0938\u094d\u0925 \u0935\u094d\u092f\u093e\u092f\u093e\u092e\u0936\u093e\u0933\u093e",
+      "texture_path": "creative/source/signage/store/gold_gym_fitness.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#17202A",
+      "text_color": "#F39C12",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "cd7440c9feaa7cb9fffc25b74413ceadc83ec5f2625d5f5f5135db1461ed8480"
+    },
+    {
+      "id": "gtm:sign_store_deccan_dry_fruits",
+      "slug": "deccan_dry_fruits",
+      "category": "store",
+      "english_text": "Deccan Royal Dry Fruits",
+      "marathi_text": "\u0921\u0947\u0915\u094d\u0915\u0928 \u0938\u0941\u0915\u093e\u092e\u0947\u0935\u093e \u0915\u0947\u0902\u0926\u094d\u0930",
+      "texture_path": "creative/source/signage/store/deccan_dry_fruits.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#784212",
+      "text_color": "#F9E79F",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "a72b4ec1f0158d9efbde38d3bf1f2f20cd20b6a8fdb522d3c63b7f59837db17d"
+    },
+    {
+      "id": "gtm:sign_store_hind_cycles_repairs",
+      "slug": "hind_cycles_repairs",
+      "category": "store",
+      "english_text": "Hind Cycle Depot & Repairs",
+      "marathi_text": "\u0939\u093f\u0902\u0926 \u0938\u093e\u092f\u0915\u0932 \u0921\u0947\u092a\u094b",
+      "texture_path": "creative/source/signage/store/hind_cycles_repairs.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#2471A3",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "f44469246dfa1d5a52bb9efd3552286ac6b4c17a7a4f84a13887cb8dbc23f737"
+    },
+    {
+      "id": "gtm:sign_store_krishna_dairy_milk",
+      "slug": "krishna_dairy_milk",
+      "category": "store",
+      "english_text": "Krishna Pure Milk & Ghee",
+      "marathi_text": "\u0915\u0943\u0937\u094d\u0923 \u0921\u0947\u0905\u0930\u0940 \u2022 \u0924\u093e\u091c\u0947 \u0926\u0942\u0927",
+      "texture_path": "creative/source/signage/store/krishna_dairy_milk.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#2E86C1",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "85592a0f5f22f85e6d1b2a8d711f33f088054f863552d68ccc769bfe948db88a"
+    },
+    {
+      "id": "gtm:sign_store_shikari_sports_gear",
+      "slug": "shikari_sports_gear",
+      "category": "store",
+      "english_text": "Shikari Sports & Armor Goods",
+      "marathi_text": "\u0936\u093f\u0915\u093e\u0930\u0940 \u0938\u094d\u092a\u094b\u0930\u094d\u091f\u094d\u0938 \u0905\u0901\u0921 \u0917\u093f\u092f\u0930",
+      "texture_path": "creative/source/signage/store/shikari_sports_gear.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#151B20",
+      "text_color": "#27AE60",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "d166558b8caf4b9b38dcd242d42f0276a428e922e68a27033fe2fb9439efa2b8"
+    },
+    {
+      "id": "gtm:sign_store_star_photo_studio",
+      "slug": "star_photo_studio",
+      "category": "store",
+      "english_text": "Star Color Portrait Studio",
+      "marathi_text": "\u0938\u094d\u091f\u093e\u0930 \u092b\u094b\u091f\u094b \u0938\u094d\u091f\u0941\u0921\u093f\u0913",
+      "texture_path": "creative/source/signage/store/star_photo_studio.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#8E44AD",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "241769ecb5462c6ad3a51fa749881282659a55dd05a36e11a1e0d8137438ec7f"
+    },
+    {
+      "id": "gtm:sign_store_lotus_flower_stall",
+      "slug": "lotus_flower_stall",
+      "category": "store",
+      "english_text": "Lotus Puja Flowers & Garlands",
+      "marathi_text": "\u0915\u092e\u0933 \u092b\u0941\u0932\u0947 \u0935 \u0939\u093e\u0930 \u0915\u0947\u0902\u0926\u094d\u0930",
+      "texture_path": "creative/source/signage/store/lotus_flower_stall.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#D98880",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "0686727416c923d124e2f000504afb21dedd434f554f52eacf90e2a7951fd68d"
+    },
+    {
+      "id": "gtm:sign_store_suruchi_spice_house",
+      "slug": "suruchi_spice_house",
+      "category": "store",
+      "english_text": "Suruchi Pure Ground Spices",
+      "marathi_text": "\u0938\u0941\u0930\u0941\u091a\u0940 \u092e\u0938\u093e\u0932\u0947 \u092d\u093e\u0902\u0921\u093e\u0930",
+      "texture_path": "creative/source/signage/store/suruchi_spice_house.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#BA4A00",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "23886699923920961040e81b05f91629ea7c794e52b48e255b8fe5f424a23945"
+    },
+    {
+      "id": "gtm:sign_store_shree_watch_co",
+      "slug": "shree_watch_co",
+      "category": "store",
+      "english_text": "Shree Time Company & Watches",
+      "marathi_text": "\u0936\u094d\u0930\u0940 \u0918\u0921\u094d\u092f\u093e\u0933 \u0915\u0902\u092a\u0928\u0940",
+      "texture_path": "creative/source/signage/store/shree_watch_co.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#151B20",
+      "text_color": "#D6AD59",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "756075ba4eefdb1484ea62bdbec5c52aa8f0e97250ef81c2a622b7598cef5d69"
+    },
+    {
+      "id": "gtm:sign_store_chai_point_tapri",
+      "slug": "chai_point_tapri",
+      "category": "store",
+      "english_text": "Amrutulya Masala Chai",
+      "marathi_text": "\u0905\u092e\u0943\u0924\u0924\u0941\u0932\u094d\u092f \u0915\u0921\u0915 \u091a\u0939\u093e",
+      "texture_path": "creative/source/signage/store/chai_point_tapri.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#6E2C00",
+      "text_color": "#FAD7A0",
+      "placement_context": "Indraprastha metropolitan store zone",
+      "sha256": "beb92a8a13344156b925dac2a930d8c2a71f3a0a520b85ec986b8d337d50240f"
+    },
+    {
+      "id": "gtm:sign_commercial_ark_bank_fixed_deposit",
+      "slug": "ark_bank_fixed_deposit",
+      "category": "commercial",
+      "english_text": "ARK Bank \u2022 8.5% Fixed Deposits",
+      "marathi_text": "\u090f\u0906\u0930\u0915\u0947 \u092c\u0901\u0915 \u2022 \u0935\u093f\u0936\u094d\u0935\u093e\u0938\u093e\u0930\u094d\u0939 \u092c\u091a\u0924",
+      "texture_path": "creative/source/signage/commercial/ark_bank_fixed_deposit.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#151B20",
+      "text_color": "#D6AD59",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "7489b6294dd6034855f5f51083a098a98e1c2e406095def04e41d7cc331827cb"
+    },
+    {
+      "id": "gtm:sign_commercial_vayu_5g_sim_unlimited",
+      "slug": "vayu_5g_sim_unlimited",
+      "category": "commercial",
+      "english_text": "Vayu Telecom \u2022 True 5G Fast",
+      "marathi_text": "\u0935\u093e\u092f\u0942 \u096b\u091c\u0940 \u2022 \u0905\u0916\u0902\u0921 \u0915\u0928\u0947\u0915\u094d\u091f\u093f\u0935\u094d\u0939\u093f\u091f\u0940",
+      "texture_path": "creative/source/signage/commercial/vayu_5g_sim_unlimited.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#0E6251",
+      "text_color": "#76D7C4",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "7ba799fccd325f48fbc8c2a40caf1897a262de5af84d84ae1b547faa101ff56a"
+    },
+    {
+      "id": "gtm:sign_commercial_chetak_cyclone_suv",
+      "slug": "chetak_cyclone_suv",
+      "category": "commercial",
+      "english_text": "New Chetak Cyclone SUV \u2022 Book Now",
+      "marathi_text": "\u0928\u0935\u0940\u0928 \u091a\u0947\u0924\u0915 \u0938\u093e\u092f\u0915\u094d\u0932\u0949\u0928 \u090f\u0938\u092f\u0942\u0935\u094d\u0939\u0940",
+      "texture_path": "creative/source/signage/commercial/chetak_cyclone_suv.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#78281F",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "1ef4c7fa55dc78c6273684f5f8a1e9f0c966d19411981aeca9860ea3a70857d3"
+    },
+    {
+      "id": "gtm:sign_commercial_deccan_towers_luxury",
+      "slug": "deccan_towers_luxury",
+      "category": "commercial",
+      "english_text": "Deccan Towers \u2022 Sea-Facing Flats",
+      "marathi_text": "\u0921\u0947\u0915\u094d\u0915\u0928 \u091f\u0949\u0935\u0930\u094d\u0938 \u2022 \u0932\u0915\u094d\u091d\u0930\u0940 \u0918\u0930\u0947",
+      "texture_path": "creative/source/signage/commercial/deccan_towers_luxury.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#151B20",
+      "text_color": "#D6AD59",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "aee59927fae4bc0f3e30a462bc358b32f01ebb3f22d26e4a52e71089fb28e2c4"
+    },
+    {
+      "id": "gtm:sign_commercial_star_cola_chilled",
+      "slug": "star_cola_chilled",
+      "category": "commercial",
+      "english_text": "Drink Ice-Cold Star Cola",
+      "marathi_text": "\u0925\u0902\u0921\u0917\u093e\u0930 \u0938\u094d\u091f\u093e\u0930 \u0915\u094b\u0932\u093e \u092a\u094d\u092f\u093e",
+      "texture_path": "creative/source/signage/commercial/star_cola_chilled.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#C0392B",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "94b9537a5adc2117191551e66a665bf347faa91d5d50c8f2c75533049a7dac06"
+    },
+    {
+      "id": "gtm:sign_commercial_maratha_cement_durable",
+      "slug": "maratha_cement_durable",
+      "category": "commercial",
+      "english_text": "Maratha Ultra Strong Cement",
+      "marathi_text": "\u092e\u0930\u093e\u0920\u093e \u0905\u0932\u094d\u091f\u094d\u0930\u093e \u0938\u094d\u091f\u094d\u0930\u0949\u0902\u0917 \u0938\u093f\u092e\u0947\u0902\u091f",
+      "texture_path": "creative/source/signage/commercial/maratha_cement_durable.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#2C3E50",
+      "text_color": "#F39C12",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "c2a7e74559016927257ac332c8c299fa5512574bb20407d986fc91a243bad178"
+    },
+    {
+      "id": "gtm:sign_commercial_indrayani_tea_aroma",
+      "slug": "indrayani_tea_aroma",
+      "category": "commercial",
+      "english_text": "Indrayani Gold Tea \u2022 Rich Taste",
+      "marathi_text": "\u0907\u0902\u0926\u094d\u0930\u093e\u092f\u0923\u0940 \u0917\u094b\u0932\u094d\u0921 \u091a\u0939\u093e",
+      "texture_path": "creative/source/signage/commercial/indrayani_tea_aroma.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#7E5109",
+      "text_color": "#FAD7A0",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "4799fb5faec4ae7bee2721554a52f273d605baf1d2634cddaa8ef5422755b04c"
+    },
+    {
+      "id": "gtm:sign_commercial_lotus_fashion_sale",
+      "slug": "lotus_fashion_sale",
+      "category": "commercial",
+      "english_text": "Black Lotus Fashion Week 50% Off",
+      "marathi_text": "\u092c\u094d\u0932\u0945\u0915 \u0932\u094b\u091f\u0938 \u092b\u0945\u0936\u0928 \u0938\u0947\u0932",
+      "texture_path": "creative/source/signage/commercial/lotus_fashion_sale.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#151B20",
+      "text_color": "#BB8FCE",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "3438ed5cd7909b771750073bd1e5aed62edcaf899396ba3c6b24339c53c6f244"
+    },
+    {
+      "id": "gtm:sign_commercial_varun_pumps_agri",
+      "slug": "varun_pumps_agri",
+      "category": "commercial",
+      "english_text": "Varun Industrial Water Pumps",
+      "marathi_text": "\u0935\u0930\u0941\u0923 \u092a\u093e\u0923\u092c\u0941\u0921\u0940 \u092a\u0902\u092a",
+      "texture_path": "creative/source/signage/commercial/varun_pumps_agri.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#1B4F72",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "ccc5f6aa30e37c82d9fdaffe71ff10a07ef2bb23a712fa1314d377a9aaa62e44"
+    },
+    {
+      "id": "gtm:sign_commercial_sahyadri_insurance",
+      "slug": "sahyadri_insurance",
+      "category": "commercial",
+      "english_text": "Sahyadri Life & Health Cover",
+      "marathi_text": "\u0938\u0939\u094d\u092f\u093e\u0926\u094d\u0930\u0940 \u091c\u0940\u0935\u0928 \u0935\u093f\u092e\u093e",
+      "texture_path": "creative/source/signage/commercial/sahyadri_insurance.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#196F3D",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "da180eabafc490929e5585760231c75b0e4a356d14649637aa86483bd5ad07e3"
+    },
+    {
+      "id": "gtm:sign_commercial_taj_catering_events",
+      "slug": "taj_catering_events",
+      "category": "commercial",
+      "english_text": "Royal Feast Catering Services",
+      "marathi_text": "\u0936\u093e\u0939\u0940 \u092e\u0947\u091c\u0935\u093e\u0928\u0940 \u0915\u0947\u091f\u0930\u093f\u0902\u0917",
+      "texture_path": "creative/source/signage/commercial/taj_catering_events.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#641E16",
+      "text_color": "#FAD7A0",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "ef2e5d057862e0a4dd8e34b272baf1642708e8902f346797514b4a97cfdfd7f3"
+    },
+    {
+      "id": "gtm:sign_commercial_maharaja_snack_pack",
+      "slug": "maharaja_snack_pack",
+      "category": "commercial",
+      "english_text": "Maharaja Crunchy Bhujia Sev",
+      "marathi_text": "\u092e\u0939\u093e\u0930\u093e\u091c\u093e \u092d\u0941\u091c\u093f\u092f\u093e \u0936\u0947\u0935",
+      "texture_path": "creative/source/signage/commercial/maharaja_snack_pack.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#D35400",
+      "text_color": "#F9E79F",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "3bf0be708c36d4045b49920a4e38e8a20c16644ddbab4e44c9d967809c7f9988"
+    },
+    {
+      "id": "gtm:sign_commercial_shikari_tyres_grip",
+      "slug": "shikari_tyres_grip",
+      "category": "commercial",
+      "english_text": "Shikari Heavy Radial Tyres",
+      "marathi_text": "\u0936\u093f\u0915\u093e\u0930\u0940 \u0930\u0947\u0921\u093f\u092f\u0932 \u091f\u093e\u092f\u0930\u094d\u0938",
+      "texture_path": "creative/source/signage/commercial/shikari_tyres_grip.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#17202A",
+      "text_color": "#F1C40F",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "b312592507658572096dc3e85f76159848ceeab94aa9cb4c670cfb90578375f2"
+    },
+    {
+      "id": "gtm:sign_commercial_oceanic_cruises_goa",
+      "slug": "oceanic_cruises_goa",
+      "category": "commercial",
+      "english_text": "Oceanic Ferry Mumbai to Goa",
+      "marathi_text": "\u0913\u0936\u0928\u093f\u0915 \u0915\u094d\u0930\u0942\u091d \u2022 \u092e\u0941\u0902\u092c\u0908 \u0924\u0947 \u0917\u094b\u0935\u093e",
+      "texture_path": "creative/source/signage/commercial/oceanic_cruises_goa.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#1A5276",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "159ecabeb44807c8510f72e2160fc9e101d2bc10473523cf31a4c9345e05e850"
+    },
+    {
+      "id": "gtm:sign_commercial_hind_paints_weather",
+      "slug": "hind_paints_weather",
+      "category": "commercial",
+      "english_text": "Hind Weatherproof Wall Paints",
+      "marathi_text": "\u0939\u093f\u0902\u0926 \u0935\u0947\u0926\u0930\u092a\u094d\u0930\u0942\u092b \u092a\u0947\u0902\u091f\u094d\u0938",
+      "texture_path": "creative/source/signage/commercial/hind_paints_weather.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#884EA0",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "3e13aedf8a5a9373d069c72ab0c4c0befae4695ba82b1cf5b3ae8f1d2307072f"
+    },
+    {
+      "id": "gtm:sign_commercial_mumbai_city_fc_match",
+      "slug": "mumbai_city_fc_match",
+      "category": "commercial",
+      "english_text": "Indraprastha FC \u2022 Match This Sun",
+      "marathi_text": "\u0907\u0902\u0926\u094d\u0930\u092a\u094d\u0930\u0938\u094d\u0925 \u092b\u0941\u091f\u092c\u0949\u0932 \u0915\u094d\u0932\u092c \u0938\u093e\u092e\u0928\u093e",
+      "texture_path": "creative/source/signage/commercial/mumbai_city_fc_match.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#2E86C1",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "a1f98255076f8821e8a383ae77bda60c6c6348bd6417f53f2fe7f3bad8ec1af7"
+    },
+    {
+      "id": "gtm:sign_commercial_deccan_watches_chron",
+      "slug": "deccan_watches_chron",
+      "category": "commercial",
+      "english_text": "Deccan Sapphire Chronograph",
+      "marathi_text": "\u0921\u0947\u0915\u094d\u0915\u0928 \u0932\u0915\u094d\u091d\u0930\u0940 \u0918\u0921\u094d\u092f\u093e\u0933\u0947",
+      "texture_path": "creative/source/signage/commercial/deccan_watches_chron.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#151B20",
+      "text_color": "#D6AD59",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "ee442dd30e944db4022dbfe7d6530f0f04c6fba3cf7fa44ce665567deff03f01"
+    },
+    {
+      "id": "gtm:sign_commercial_speed_petroleum_turbo",
+      "slug": "speed_petroleum_turbo",
+      "category": "commercial",
+      "english_text": "Speed Fuel \u2022 Max Power & Mileage",
+      "marathi_text": "\u0938\u094d\u092a\u0940\u0921 \u092a\u0947\u091f\u094d\u0930\u094b\u0932 \u2022 \u0905\u0924\u093f\u0930\u093f\u0915\u094d\u0924 \u092e\u093e\u092f\u0932\u0947\u091c",
+      "texture_path": "creative/source/signage/commercial/speed_petroleum_turbo.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#B03A2E",
+      "text_color": "#F4D03F",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "d0286a04c64b9c6702e95a9464d956f1094475a1e0c8087e1e39d41175e1ff18"
+    },
+    {
+      "id": "gtm:sign_commercial_garuda_airline_fly",
+      "slug": "garuda_airline_fly",
+      "category": "commercial",
+      "english_text": "Garuda Express \u2022 Daily Flights",
+      "marathi_text": "\u0917\u0930\u0941\u0921 \u090f\u0915\u094d\u0938\u092a\u094d\u0930\u0947\u0938 \u2022 \u0925\u0947\u091f \u0909\u0921\u094d\u0921\u093e\u0923\u0947",
+      "texture_path": "creative/source/signage/commercial/garuda_airline_fly.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#117864",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "9ce92e8eb9d18c3650079b02f8fe3a8d166ac5e775bef62d44f056e65ec8af79"
+    },
+    {
+      "id": "gtm:sign_commercial_arya_security_cctv",
+      "slug": "arya_security_cctv",
+      "category": "commercial",
+      "english_text": "Arya Cyber & Physical Security",
+      "marathi_text": "\u0906\u0930\u094d\u092f \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u092f\u0902\u0924\u094d\u0930\u0923\u093e",
+      "texture_path": "creative/source/signage/commercial/arya_security_cctv.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#212F3D",
+      "text_color": "#5DADE2",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "ba651dc87aeef64529d013740ecf0e3d332ded1ea1956d4d8914d7a391daf09e"
+    },
+    {
+      "id": "gtm:sign_commercial_rajput_jewels_wedding",
+      "slug": "rajput_jewels_wedding",
+      "category": "commercial",
+      "english_text": "Rajput Bridal Polki Collection",
+      "marathi_text": "\u0930\u093e\u091c\u092a\u0942\u0924 \u092c\u094d\u0930\u093e\u092f\u0921\u0932 \u0926\u093e\u0917\u093f\u0928\u0947",
+      "texture_path": "creative/source/signage/commercial/rajput_jewels_wedding.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#4A235A",
+      "text_color": "#F1C40F",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "caf15b33eb399ac555a1d484b3de7440a098b4e55998ae0a7fb37ffd1ecc9933"
+    },
+    {
+      "id": "gtm:sign_commercial_kurukshetra_movie_rel",
+      "slug": "kurukshetra_movie_rel",
+      "category": "commercial",
+      "english_text": "Kurukshetra Action Film In Cinema",
+      "marathi_text": "\u0915\u0941\u0930\u0941\u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u091a\u093f\u0924\u094d\u0930\u092a\u091f\u0917\u0943\u0939\u093e\u0924",
+      "texture_path": "creative/source/signage/commercial/kurukshetra_movie_rel.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#78281F",
+      "text_color": "#F7DC6F",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "fd3905e35ff001f3144236a41cfbd585cd599028fe42b8c2a2507611ad9af9b5"
+    },
+    {
+      "id": "gtm:sign_commercial_sun_solar_roof_ark",
+      "slug": "sun_solar_roof_ark",
+      "category": "commercial",
+      "english_text": "Sun Solar Rooftop Power Systems",
+      "marathi_text": "\u0938\u0928 \u0938\u094b\u0932\u0930 \u0938\u094c\u0930 \u090a\u0930\u094d\u091c\u093e \u092a\u094d\u0930\u0915\u0932\u094d\u092a",
+      "texture_path": "creative/source/signage/commercial/sun_solar_roof_ark.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#D4AC0D",
+      "text_color": "#151B20",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "a25021db66b6a7cf6c176a6c2cc1741f9222064d2869c846cbefca264b37c7f4"
+    },
+    {
+      "id": "gtm:sign_commercial_deccan_tmt_steel_bars",
+      "slug": "deccan_tmt_steel_bars",
+      "category": "commercial",
+      "english_text": "Deccan Fe550D TMT Rebars",
+      "marathi_text": "\u0921\u0947\u0915\u094d\u0915\u0928 \u091f\u0940\u090f\u092e\u091f\u0940 \u0938\u094d\u091f\u0940\u0932",
+      "texture_path": "creative/source/signage/commercial/deccan_tmt_steel_bars.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#2C3E50",
+      "text_color": "#E67E22",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "359a510e165cae4c56e92a4cc9800d456399d1bef63efb4cfe1adc3cbe83ac50"
+    },
+    {
+      "id": "gtm:sign_commercial_zomatoo_food_express",
+      "slug": "zomatoo_food_express",
+      "category": "commercial",
+      "english_text": "Zomatoo \u2022 Food Delivered Fast",
+      "marathi_text": "\u091d\u094b\u092e\u0945\u091f\u0942 \u2022 \u0918\u0930\u092a\u094b\u091a \u0917\u0930\u092e\u093e\u0917\u0930\u092e \u091c\u0947\u0935\u0923",
+      "texture_path": "creative/source/signage/commercial/zomatoo_food_express.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#E74C3C",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan commercial zone",
+      "sha256": "4d25b434739d189fa8d8af7795bd352e4e7f2df3348bd1cb65dbacf92a8fc04b"
+    },
+    {
+      "id": "gtm:sign_public_safety_cctv_24h_surveillance",
+      "slug": "cctv_24h_surveillance",
+      "category": "public_safety",
+      "english_text": "24/7 CCTV Video Surveillance",
+      "marathi_text": "\u0968\u096a \u0924\u093e\u0938 \u0938\u0940\u0938\u0940\u091f\u0940\u0935\u094d\u0939\u0940 \u0928\u091c\u0930",
+      "texture_path": "creative/source/signage/public_safety/cctv_24h_surveillance.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#C0392B",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan public_safety zone",
+      "sha256": "77f52c6dbd052ece2e18b5e89a70b308c69b70aac32e42e9c4147e7ca48fb1fc"
+    },
+    {
+      "id": "gtm:sign_public_safety_emergency_assembly_pt",
+      "slug": "emergency_assembly_pt",
+      "category": "public_safety",
+      "english_text": "Emergency Evacuation Assembly Point",
+      "marathi_text": "\u0906\u092a\u0924\u094d\u0915\u093e\u0932\u0940\u0928 \u0938\u0902\u092e\u0947\u0932\u0928 \u091c\u093e\u0917\u093e",
+      "texture_path": "creative/source/signage/public_safety/emergency_assembly_pt.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#1E8449",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan public_safety zone",
+      "sha256": "f84a772fc147e7fbafc8310d36362066e29aafca1f45b9ebfdacaab2f4518e91"
+    },
+    {
+      "id": "gtm:sign_public_safety_high_voltage_danger",
+      "slug": "high_voltage_danger",
+      "category": "public_safety",
+      "english_text": "Danger \u2022 High Voltage 11000V",
+      "marathi_text": "\u0927\u094b\u0915\u093e \u2022 \u0909\u091a\u094d\u091a \u0935\u093f\u0926\u094d\u092f\u0941\u0924 \u0926\u093e\u092c",
+      "texture_path": "creative/source/signage/public_safety/high_voltage_danger.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#F39C12",
+      "text_color": "#151B20",
+      "placement_context": "Indraprastha metropolitan public_safety zone",
+      "sha256": "284c6b28085d48b2fd0606116d0df83202feeb619071f7731482585c16914712"
+    },
+    {
+      "id": "gtm:sign_public_safety_keep_city_clean_green",
+      "slug": "keep_city_clean_green",
+      "category": "public_safety",
+      "english_text": "Keep Your City Clean & Green",
+      "marathi_text": "\u0906\u092a\u0932\u0947 \u0936\u0939\u0930 \u0938\u094d\u0935\u091a\u094d\u091b \u0920\u0947\u0935\u093e",
+      "texture_path": "creative/source/signage/public_safety/keep_city_clean_green.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#27AE60",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan public_safety zone",
+      "sha256": "1d938f4171f8b4c03a786f475fc11525a79ee1072070b2b7f84c6292ba3e9cc7"
+    },
+    {
+      "id": "gtm:sign_public_safety_no_trespassing_author",
+      "slug": "no_trespassing_author",
+      "category": "public_safety",
+      "english_text": "Restricted Area \u2022 No Trespassing",
+      "marathi_text": "\u092a\u094d\u0930\u0924\u093f\u092c\u0902\u0927\u093f\u0924 \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u2022 \u092a\u094d\u0930\u0935\u0947\u0936 \u092e\u0928\u093e\u0908",
+      "texture_path": "creative/source/signage/public_safety/no_trespassing_author.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#C0392B",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan public_safety zone",
+      "sha256": "dc11ffac39725178c4c3fe34b80cd683b309d2452f04416e9ea2f92bb9166502"
+    },
+    {
+      "id": "gtm:sign_public_safety_fire_extinguisher_here",
+      "slug": "fire_extinguisher_here",
+      "category": "public_safety",
+      "english_text": "Fire Extinguisher Station",
+      "marathi_text": "\u0905\u0917\u094d\u0928\u093f\u0936\u093e\u092e\u0915 \u092f\u0902\u0924\u094d\u0930 \u092f\u0947\u0925\u0947 \u0906\u0939\u0947",
+      "texture_path": "creative/source/signage/public_safety/fire_extinguisher_here.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#C0392B",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan public_safety zone",
+      "sha256": "3d83dc18e5f31429dcc252fd3171b56680e596c924dd87496361fa38f1f79ecd"
+    },
+    {
+      "id": "gtm:sign_public_safety_emergency_exit_keep_clr",
+      "slug": "emergency_exit_keep_clr",
+      "category": "public_safety",
+      "english_text": "Emergency Exit \u2022 Keep Clear",
+      "marathi_text": "\u0906\u092a\u0924\u094d\u0915\u093e\u0932\u0940\u0928 \u0928\u093f\u0915\u093e\u0938 \u092e\u093e\u0930\u094d\u0917",
+      "texture_path": "creative/source/signage/public_safety/emergency_exit_keep_clr.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#1E8449",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan public_safety zone",
+      "sha256": "af07e1720e8f95cf0e69dbb4c6fb41487b8599642ac428e9dda4918794df905d"
+    },
+    {
+      "id": "gtm:sign_public_safety_no_smoking_fine_500",
+      "slug": "no_smoking_fine_500",
+      "category": "public_safety",
+      "english_text": "No Smoking \u2022 Fine ARK 500",
+      "marathi_text": "\u0927\u0942\u092e\u094d\u0930\u092a\u093e\u0928 \u092e\u0928\u093e\u0908 \u2022 \u0926\u0902\u0921 \u096b\u0966\u0966",
+      "texture_path": "creative/source/signage/public_safety/no_smoking_fine_500.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#C0392B",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan public_safety zone",
+      "sha256": "8bb81481831ce2a5e67f68a6d9aeb3ef35675b393b2dd51e50c0bc5b2a9a1e01"
+    },
+    {
+      "id": "gtm:sign_public_safety_first_aid_station_aid",
+      "slug": "first_aid_station_aid",
+      "category": "public_safety",
+      "english_text": "First Aid Emergency Post",
+      "marathi_text": "\u092a\u094d\u0930\u0925\u092e\u094b\u092a\u091a\u093e\u0930 \u0915\u0947\u0902\u0926\u094d\u0930",
+      "texture_path": "creative/source/signage/public_safety/first_aid_station_aid.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#2E86C1",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan public_safety zone",
+      "sha256": "b8b9802259387e0e49146a7162f241f49a45eb7c4b4ada43ebddc42eba79b08b"
+    },
+    {
+      "id": "gtm:sign_public_safety_wear_safety_helmet",
+      "slug": "wear_safety_helmet",
+      "category": "public_safety",
+      "english_text": "Safety Helmet Mandatory Area",
+      "marathi_text": "\u0938\u0941\u0930\u0915\u094d\u0937\u093e \u0939\u0947\u0932\u094d\u092e\u0947\u091f \u0938\u0915\u094d\u0924\u0940\u091a\u0947 \u0906\u0939\u0947",
+      "texture_path": "creative/source/signage/public_safety/wear_safety_helmet.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#2471A3",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan public_safety zone",
+      "sha256": "0bebb7f39cd1852c9f4479be586a4771e14d21be02ec7c48c3bf0c5aa551993c"
+    },
+    {
+      "id": "gtm:sign_public_safety_do_not_lean_over_rail",
+      "slug": "do_not_lean_over_rail",
+      "category": "public_safety",
+      "english_text": "Do Not Lean Over The Railing",
+      "marathi_text": "\u0930\u0947\u0932\u093f\u0902\u0917\u0935\u0930 \u091f\u0947\u0915\u0942 \u0928\u0915\u093e",
+      "texture_path": "creative/source/signage/public_safety/do_not_lean_over_rail.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#E67E22",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan public_safety zone",
+      "sha256": "e8c278da8131d707b351465fcfc1361af6f129dc7bd568c1777a6ac3cc0565ad"
+    },
+    {
+      "id": "gtm:sign_public_safety_beware_of_pickpockets",
+      "slug": "beware_of_pickpockets",
+      "category": "public_safety",
+      "english_text": "Beware of Pickpockets in Crowd",
+      "marathi_text": "\u0916\u093f\u0936\u093e\u0915\u093e\u092a\u0942\u0902\u092a\u093e\u0938\u0942\u0928 \u0938\u093e\u0935\u0927 \u0930\u0939\u093e",
+      "texture_path": "creative/source/signage/public_safety/beware_of_pickpockets.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#F39C12",
+      "text_color": "#151B20",
+      "placement_context": "Indraprastha metropolitan public_safety zone",
+      "sha256": "65024aca1135ae0b733a6cc64892dc4f293f8254af4183c121de9da4fefc9649"
+    },
+    {
+      "id": "gtm:sign_public_safety_safe_drinking_water",
+      "slug": "safe_drinking_water",
+      "category": "public_safety",
+      "english_text": "Tested Safe Drinking Water",
+      "marathi_text": "\u092a\u093f\u0923\u094d\u092f\u093e\u091a\u0947 \u0936\u0941\u0926\u094d\u0927 \u092a\u093e\u0923\u0940",
+      "texture_path": "creative/source/signage/public_safety/safe_drinking_water.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#2980B9",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan public_safety zone",
+      "sha256": "fe49ff8ab4f855086593d992677159a453267248ad140f251fec8593b3c5148b"
+    },
+    {
+      "id": "gtm:sign_public_safety_wheelchair_accessible",
+      "slug": "wheelchair_accessible",
+      "category": "public_safety",
+      "english_text": "Wheelchair Accessible Facility",
+      "marathi_text": "\u0905\u092a\u0902\u0917 \u0935 \u091c\u094d\u092f\u0947\u0937\u094d\u0920 \u0928\u093e\u0917\u0930\u093f\u0915\u093e\u0902\u0938\u093e\u0920\u0940",
+      "texture_path": "creative/source/signage/public_safety/wheelchair_accessible.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#1A5276",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan public_safety zone",
+      "sha256": "3dece9c6725d1de12b1e3defd743e08081bc5209865d555762a2341f94f68658"
+    },
+    {
+      "id": "gtm:sign_public_safety_sound_horn_prohibited",
+      "slug": "sound_horn_prohibited",
+      "category": "public_safety",
+      "english_text": "No Honking \u2022 Silence Zone",
+      "marathi_text": "\u0939\u0949\u0930\u094d\u0928 \u0935\u093e\u091c\u0935\u0923\u094d\u092f\u093e\u0938 \u092e\u0928\u093e\u0908",
+      "texture_path": "creative/source/signage/public_safety/sound_horn_prohibited.png",
+      "resolution": [
+        256,
+        128
+      ],
+      "background_color": "#C0392B",
+      "text_color": "#FFFFFF",
+      "placement_context": "Indraprastha metropolitan public_safety zone",
+      "sha256": "98dca126f7cf38d302d2c778abb98065a08c35be252963b59c9babff80f1d143"
+    }
+  ]
+}

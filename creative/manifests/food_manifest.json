@@ -1,0 +1,426 @@
+{
+  "schema_version": "1.0.0",
+  "total_food_items": 30,
+  "items": [
+    {
+      "id": "gtm:food_chai",
+      "meal_slug": "chai",
+      "title": "Chai",
+      "model_path": "creative/source/models/food/chai.geo.json",
+      "icon_path": "creative/source/icons/food/chai.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 6,
+      "sha256_model": "1d945952c32853e63d61d3e3a3fb3c1c19e5486acf8572e71c8991e83531728c",
+      "sha256_icon": "a0210f11c15d4998f29de21abf794c993bcad1a8ff5181b74599c7f248e274d3"
+    },
+    {
+      "id": "gtm:food_vada_pav",
+      "meal_slug": "vada_pav",
+      "title": "Vada Pav",
+      "model_path": "creative/source/models/food/vada_pav.geo.json",
+      "icon_path": "creative/source/icons/food/vada_pav.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 8,
+      "sha256_model": "ece3a065bb398c70d02d9a2480e511f75e10caf93b599edba4ad9fd0687bb6f1",
+      "sha256_icon": "36b61784e74e461625d3ea01773e4bacf3f0914cebb635c15af1e5887430e249"
+    },
+    {
+      "id": "gtm:food_samosa",
+      "meal_slug": "samosa",
+      "title": "Samosa",
+      "model_path": "creative/source/models/food/samosa.geo.json",
+      "icon_path": "creative/source/icons/food/samosa.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 7,
+      "sha256_model": "92e1d9c983b00eea97dddd9ca5ab305689652a2498d14b6588326f32012443df",
+      "sha256_icon": "f7f951c3507bab4852679ca4f809f361a8889f9c59e1f32ac6011ea3d4d5c742"
+    },
+    {
+      "id": "gtm:food_dabeli",
+      "meal_slug": "dabeli",
+      "title": "Dabeli",
+      "model_path": "creative/source/models/food/dabeli.geo.json",
+      "icon_path": "creative/source/icons/food/dabeli.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 10,
+      "sha256_model": "baf07c6e7852141437c73106d467d59310beafd9e63d38d01664acccc44c8a9c",
+      "sha256_icon": "f6c33fb4538f25758777a79139ba41905508fd7fb2cf3314a81853c5484f37d3"
+    },
+    {
+      "id": "gtm:food_pav_bhaji",
+      "meal_slug": "pav_bhaji",
+      "title": "Pav Bhaji",
+      "model_path": "creative/source/models/food/pav_bhaji.geo.json",
+      "icon_path": "creative/source/icons/food/pav_bhaji.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 10,
+      "sha256_model": "84449e2465175772f3b127608fad29a5b6321e7c3e3c53dd8180e108e4cd8799",
+      "sha256_icon": "e1e943add4f224808aaa77d167d4a1edf901049d48065f090590dac364942eb7"
+    },
+    {
+      "id": "gtm:food_dosa",
+      "meal_slug": "dosa",
+      "title": "Dosa",
+      "model_path": "creative/source/models/food/dosa.geo.json",
+      "icon_path": "creative/source/icons/food/dosa.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 7,
+      "sha256_model": "23f8055ad10500c35d3e12a3947bd66be815088b546bef27cc94516ee838af32",
+      "sha256_icon": "572bc67fbeb4b57afe776c0af7aee9f84fc17de4fe6c5f13e69e9d4608eaa023"
+    },
+    {
+      "id": "gtm:food_idli",
+      "meal_slug": "idli",
+      "title": "Idli",
+      "model_path": "creative/source/models/food/idli.geo.json",
+      "icon_path": "creative/source/icons/food/idli.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 8,
+      "sha256_model": "3b2e7cfcbc67351598d5bdcbd50ffe204b6d2ac60ac1b81e2b5c37ec3f1a1ade",
+      "sha256_icon": "31a48e94154a2c3fc6a4584f6248ab1fc2449fd7b99758f9d9e197335c5a7a9b"
+    },
+    {
+      "id": "gtm:food_thali",
+      "meal_slug": "thali",
+      "title": "Thali",
+      "model_path": "creative/source/models/food/thali.geo.json",
+      "icon_path": "creative/source/icons/food/thali.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 8,
+      "sha256_model": "c4a761d872c4c904a66c1a434c1072a3cbbef830282d094d518e52a4d5a0497a",
+      "sha256_icon": "5dc68ca23b3b99b4dc0b525a6f7ae09fa543c8d78c594de49906a7166bda17f3"
+    },
+    {
+      "id": "gtm:food_biryani",
+      "meal_slug": "biryani",
+      "title": "Biryani",
+      "model_path": "creative/source/models/food/biryani.geo.json",
+      "icon_path": "creative/source/icons/food/biryani.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 8,
+      "sha256_model": "0d1ff120000663927bb0f6a296b6baf7d681387ada55aca68f9368eeca34df98",
+      "sha256_icon": "dcb1206e02de95b6f0ca6cebeeeacac459a21ef97391fcae601600c167106d6b"
+    },
+    {
+      "id": "gtm:food_lassi",
+      "meal_slug": "lassi",
+      "title": "Lassi",
+      "model_path": "creative/source/models/food/lassi.geo.json",
+      "icon_path": "creative/source/icons/food/lassi.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 4,
+      "sha256_model": "a19340ee297ff7a408a7a3cb8fd2f422da16eb537c12f10a4cbebc0cd32b40eb",
+      "sha256_icon": "0105404102d3e1f025491beee00cd4b11e3b9133d5c4df8c9154da725f984c58"
+    },
+    {
+      "id": "gtm:food_dhokla",
+      "meal_slug": "dhokla",
+      "title": "Dhokla",
+      "model_path": "creative/source/models/food/dhokla.geo.json",
+      "icon_path": "creative/source/icons/food/dhokla.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 7,
+      "sha256_model": "19771bec3269b9227bb635517d25b3fd1677b3c50a668f7e2f6dbd268142a3a9",
+      "sha256_icon": "e2e363a86342eee61f5e79547464decb9b3b1b5cda78d1622b6018d038d31b82"
+    },
+    {
+      "id": "gtm:food_khandvi",
+      "meal_slug": "khandvi",
+      "title": "Khandvi",
+      "model_path": "creative/source/models/food/khandvi.geo.json",
+      "icon_path": "creative/source/icons/food/khandvi.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 9,
+      "sha256_model": "2388d01c7b6c9730184937c825c7a9fc9df5b098e654b7431e673ba1d8554aae",
+      "sha256_icon": "3b4c89e16fa8b15eca30b1c7f053f4cd642cfb7304b6a0091c31fdac55a714f1"
+    },
+    {
+      "id": "gtm:food_poha",
+      "meal_slug": "poha",
+      "title": "Poha",
+      "model_path": "creative/source/models/food/poha.geo.json",
+      "icon_path": "creative/source/icons/food/poha.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 7,
+      "sha256_model": "c8daf3c3f986c9eb26b30641bd30e6b87df72f2dcfc5d3e2f518766ee8bba1e7",
+      "sha256_icon": "9553b22c78a3cfc103e444aa568cde263c31211e72f7833b0c8972dea29696ef"
+    },
+    {
+      "id": "gtm:food_misal",
+      "meal_slug": "misal",
+      "title": "Misal",
+      "model_path": "creative/source/models/food/misal.geo.json",
+      "icon_path": "creative/source/icons/food/misal.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 8,
+      "sha256_model": "100fd49e7a67d37a32b56eb16f0c19fa2753f9173098616284986cac538f51bb",
+      "sha256_icon": "3c3e8b07305f71caba713918c0945d706e754daf2283bdb5a693497d2ea65fd1"
+    },
+    {
+      "id": "gtm:food_upma",
+      "meal_slug": "upma",
+      "title": "Upma",
+      "model_path": "creative/source/models/food/upma.geo.json",
+      "icon_path": "creative/source/icons/food/upma.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 7,
+      "sha256_model": "b967133e5aa8a6ca092811c3188e7479b50d08a1f3e86f324eb47a01e1daac92",
+      "sha256_icon": "f8b5ae0d1ea6a4de88cc43687e84c84a867a06492daf6eab226dd9943574709e"
+    },
+    {
+      "id": "gtm:food_puran_poli",
+      "meal_slug": "puran_poli",
+      "title": "Puran Poli",
+      "model_path": "creative/source/models/food/puran_poli.geo.json",
+      "icon_path": "creative/source/icons/food/puran_poli.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 6,
+      "sha256_model": "c5673a254c61f4f753c68b60360c7c32ab3af5318d1c6465aabe78e7f705921e",
+      "sha256_icon": "c8a64715ffa8f83e24501cb7371ac590059c6d0c14dd6e29f72eac407b7bd556"
+    },
+    {
+      "id": "gtm:food_bhakri",
+      "meal_slug": "bhakri",
+      "title": "Bhakri",
+      "model_path": "creative/source/models/food/bhakri.geo.json",
+      "icon_path": "creative/source/icons/food/bhakri.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 7,
+      "sha256_model": "bf174a46a06f447245d9b571e8e82148cd6bd41ba2b3c8f0541bc7a9f34fad0c",
+      "sha256_icon": "cb29df05c5d9b9da5caf71659be80069ea45264ee4fcae89c63e51b612ebf114"
+    },
+    {
+      "id": "gtm:food_thepla",
+      "meal_slug": "thepla",
+      "title": "Thepla",
+      "model_path": "creative/source/models/food/thepla.geo.json",
+      "icon_path": "creative/source/icons/food/thepla.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 8,
+      "sha256_model": "ee39296a6aa686b8dc9f13689cf44a987789ff84d6c74c7e242e08fa558128fd",
+      "sha256_icon": "9428950194344d2277a5eec4ddbc00ad64fab7a7451598a056a83693e0ff6592"
+    },
+    {
+      "id": "gtm:food_modak",
+      "meal_slug": "modak",
+      "title": "Modak",
+      "model_path": "creative/source/models/food/modak.geo.json",
+      "icon_path": "creative/source/icons/food/modak.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 7,
+      "sha256_model": "9aa0ad4a5b72592b56eb10f6f3cf60e2c41fa2a086865112a5dea877eebf8b18",
+      "sha256_icon": "273328c61f2aa5d2e0476fbf6f7b6f08b30dbc839f6d807bf42b8d8d15d2cbc8"
+    },
+    {
+      "id": "gtm:food_jalebi",
+      "meal_slug": "jalebi",
+      "title": "Jalebi",
+      "model_path": "creative/source/models/food/jalebi.geo.json",
+      "icon_path": "creative/source/icons/food/jalebi.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 8,
+      "sha256_model": "bcba4f492fbea7195b1c7c94151cfcdd97995541f460ed650b94d8ea20a82d3f",
+      "sha256_icon": "95390794219fb0f1f6354fa6b1f4b9335abac7c9a0ea16598456af34c93070c0"
+    },
+    {
+      "id": "gtm:food_kulfi",
+      "meal_slug": "kulfi",
+      "title": "Kulfi",
+      "model_path": "creative/source/models/food/kulfi.geo.json",
+      "icon_path": "creative/source/icons/food/kulfi.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 4,
+      "sha256_model": "2522849b156a77bff5da0040421261092063c508a3e185986ce372623a2c0572",
+      "sha256_icon": "6948af777fd5b3d3c5681cfab0f32657477976e30bbfeccbf752e531bb3f6e72"
+    },
+    {
+      "id": "gtm:food_falooda",
+      "meal_slug": "falooda",
+      "title": "Falooda",
+      "model_path": "creative/source/models/food/falooda.geo.json",
+      "icon_path": "creative/source/icons/food/falooda.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 6,
+      "sha256_model": "928234f574a31c3f756e17e232b7b1f2b7190bf1ffa6eb9e21c2ef6584fd0df9",
+      "sha256_icon": "0907c9d61c45988c5ebbeb24c01b592c1bf641fb84cd849a659d37f31ef2a6b6"
+    },
+    {
+      "id": "gtm:food_nimbu_pani",
+      "meal_slug": "nimbu_pani",
+      "title": "Nimbu Pani",
+      "model_path": "creative/source/models/food/nimbu_pani.geo.json",
+      "icon_path": "creative/source/icons/food/nimbu_pani.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 5,
+      "sha256_model": "1e854fdb80772b75c16040d85392dc45d808fb8630ce7fb5ab52f27cbaa012e2",
+      "sha256_icon": "9513258b53f086d054c38dacbb189a25af8fa8a1eab66b4834c2ff5f86908f54"
+    },
+    {
+      "id": "gtm:food_filter_coffee",
+      "meal_slug": "filter_coffee",
+      "title": "Filter Coffee",
+      "model_path": "creative/source/models/food/filter_coffee.geo.json",
+      "icon_path": "creative/source/icons/food/filter_coffee.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 4,
+      "sha256_model": "5aece3eaf5f550b63f3078b4999c10bd254683601bf07f9f122fa7806cf817c3",
+      "sha256_icon": "af8a19a23430c2389d0516d828688161283f2baae6433f9c9d38d7789c8e0ea9"
+    },
+    {
+      "id": "gtm:food_kathi_roll",
+      "meal_slug": "kathi_roll",
+      "title": "Kathi Roll",
+      "model_path": "creative/source/models/food/kathi_roll.geo.json",
+      "icon_path": "creative/source/icons/food/kathi_roll.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 7,
+      "sha256_model": "c6d709cc4b78df05892501804525e9ac3a0913890e340143ef4460f5c7efbb47",
+      "sha256_icon": "f51dfe74c014b012010cfcae47efdcceb0e6942924ac03c7c0a9ac683bdad507"
+    },
+    {
+      "id": "gtm:food_pani_puri",
+      "meal_slug": "pani_puri",
+      "title": "Pani Puri",
+      "model_path": "creative/source/models/food/pani_puri.geo.json",
+      "icon_path": "creative/source/icons/food/pani_puri.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 12,
+      "sha256_model": "223ecb215e6cc3755d84336d5ed0cfb36342cf4a8908bb79dbeb8b95babdb617",
+      "sha256_icon": "73a9b47f415b3fd05ec5fece9b99d576fb438a213eaa11f98e8af4f54f145396"
+    },
+    {
+      "id": "gtm:food_sev_puri",
+      "meal_slug": "sev_puri",
+      "title": "Sev Puri",
+      "model_path": "creative/source/models/food/sev_puri.geo.json",
+      "icon_path": "creative/source/icons/food/sev_puri.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 9,
+      "sha256_model": "ffc93a0a2c4eacb03ac39be1942f23efeaf433b12eeff9bdcb10009ef12cdabf",
+      "sha256_icon": "459f3b429cca880faf0427bc3440c918b503dd321b3be4b06a40d6e568446658"
+    },
+    {
+      "id": "gtm:food_ragda",
+      "meal_slug": "ragda",
+      "title": "Ragda",
+      "model_path": "creative/source/models/food/ragda.geo.json",
+      "icon_path": "creative/source/icons/food/ragda.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 7,
+      "sha256_model": "254421e3efa18404732161136d77425df954cbda02764846ac1e25b86f82dc40",
+      "sha256_icon": "67054e8df10d1333c32fc2345f3f7634a3b4b0485571dd043e94f225a094ff56"
+    },
+    {
+      "id": "gtm:food_sandesh",
+      "meal_slug": "sandesh",
+      "title": "Sandesh",
+      "model_path": "creative/source/models/food/sandesh.geo.json",
+      "icon_path": "creative/source/icons/food/sandesh.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 7,
+      "sha256_model": "72c207d5722ec93d6af62eeb3b21281b133ee5ccaff94085b05b329b683e60c0",
+      "sha256_icon": "cb82e672bacd185fb8f191cbc77b38bc61ff4df088c5476086e188f1a65b6a2c"
+    },
+    {
+      "id": "gtm:food_sheera",
+      "meal_slug": "sheera",
+      "title": "Sheera",
+      "model_path": "creative/source/models/food/sheera.geo.json",
+      "icon_path": "creative/source/icons/food/sheera.png",
+      "icon_dimensions": [
+        48,
+        48
+      ],
+      "cube_count": 6,
+      "sha256_model": "018f42c981d1184c3d14a835545005b520e07e2d958b12a463556d56a02d8fde",
+      "sha256_icon": "005f5d11eee886fa024c96e2d367071ffd1cb5e41ecd204f3a10d3b2b757e181"
+    }
+  ]
+}

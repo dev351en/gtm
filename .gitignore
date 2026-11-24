@@ -30,3 +30,7 @@ secrets.*
 plugins/*.jar
 !plugins/VaultUnlocked-2.20.3.jar
 !plugins/SDCraftCore-1.0.0.jar
+
+# Python bytecode
+__pycache__/
+*.pyc

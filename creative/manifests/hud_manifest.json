@@ -1,0 +1,629 @@
+[
+  {
+    "id": "wanted_star_empty",
+    "dimensions": [
+      32,
+      32
+    ],
+    "anchor": "top_right",
+    "safe_area_java": {
+      "x_ratio": 0.95,
+      "y_ratio": 0.05
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.92,
+      "y_ratio": 0.08
+    },
+    "png": "creative/source/ui/wanted_star_empty.png",
+    "sha256": "3f2a97be1970f20c74d6b70c6823d8dec3aebd66faabf3d0e8d4672079e4e5f2",
+    "v3_source": "creative/source/icons_v3/wanted_star_empty.png"
+  },
+  {
+    "id": "wanted_star_filled",
+    "dimensions": [
+      32,
+      32
+    ],
+    "anchor": "top_right",
+    "safe_area_java": {
+      "x_ratio": 0.95,
+      "y_ratio": 0.05
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.92,
+      "y_ratio": 0.08
+    },
+    "png": "creative/source/ui/wanted_star_filled.png",
+    "sha256": "13bff3a26ff333a97f63d46ebf83f32f9be42908ba5505c187f80a9e46aad979",
+    "v3_source": "creative/source/icons_v3/wanted_star_filled.png"
+  },
+  {
+    "id": "health",
+    "dimensions": [
+      32,
+      32
+    ],
+    "anchor": "bottom_left",
+    "safe_area_java": {
+      "x_ratio": 0.05,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.08,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/health.png",
+    "sha256": "d45f4de94f0d65e6c92cdec43b4507f409c335414b42f750380c2a0aa217b331",
+    "v3_source": "creative/source/icons_v3/health.png"
+  },
+  {
+    "id": "armour",
+    "dimensions": [
+      32,
+      32
+    ],
+    "anchor": "bottom_left",
+    "safe_area_java": {
+      "x_ratio": 0.05,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.08,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/armour.png",
+    "sha256": "9c2e670ffe1faa17b2bd511df83dc1f80487830526467a3fa7f82ed7cf589f2f",
+    "v3_source": "creative/source/icons_v3/armour.png"
+  },
+  {
+    "id": "fuel",
+    "dimensions": [
+      32,
+      32
+    ],
+    "anchor": "bottom_right",
+    "safe_area_java": {
+      "x_ratio": 0.95,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.92,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/fuel.png",
+    "sha256": "33b9245b34b5d6709a5d104f08131f039451ce490fc713d9b258e6dfce7f5659",
+    "v3_source": "creative/source/icons_v3/fuel.png"
+  },
+  {
+    "id": "battery",
+    "dimensions": [
+      32,
+      32
+    ],
+    "anchor": "bottom_right",
+    "safe_area_java": {
+      "x_ratio": 0.95,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.92,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/battery.png",
+    "sha256": "fa51418cd5efad5fe99faae39ba80d792e4ff78d0f2e02f3ae54069167d009e6",
+    "v3_source": "creative/source/icons_v3/battery.png"
+  },
+  {
+    "id": "engine_condition",
+    "dimensions": [
+      32,
+      32
+    ],
+    "anchor": "bottom_right",
+    "safe_area_java": {
+      "x_ratio": 0.95,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.92,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/engine_condition.png",
+    "sha256": "d8110d36a4e043f8dc334184885b557db9efebab5fc61713dfc2a38622debee3",
+    "v3_source": "creative/source/icons_v3/engine_condition.png"
+  },
+  {
+    "id": "speedometer_analog",
+    "dimensions": [
+      96,
+      96
+    ],
+    "anchor": "bottom_right",
+    "safe_area_java": {
+      "x_ratio": 0.95,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.92,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/speedometer_analog.png",
+    "sha256": "4f0a26d72bf02ada5b69caf691ff5857e729dc62848d3cb85084227f60dce6c5",
+    "v3_source": "creative/source/icons_v3/speedometer_analog.png"
+  },
+  {
+    "id": "speedometer_digital",
+    "dimensions": [
+      96,
+      48
+    ],
+    "anchor": "bottom_right",
+    "safe_area_java": {
+      "x_ratio": 0.95,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.92,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/speedometer_digital.png",
+    "sha256": "941a9fbee930bf426a413648869f8278477b5f3bba6176f3dbcb9267daba43ba",
+    "v3_source": "creative/source/icons_v3/speedometer_digital.png"
+  },
+  {
+    "id": "speedometer_compact",
+    "dimensions": [
+      64,
+      32
+    ],
+    "anchor": "bottom_right",
+    "safe_area_java": {
+      "x_ratio": 0.95,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.92,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/speedometer_compact.png",
+    "sha256": "2171d65144dfbf0a3fd45506ce14210797f569bc005d3f2af39a4aecd89f1e93",
+    "v3_source": "creative/source/icons_v3/speedometer_compact.png"
+  },
+  {
+    "id": "minimap_circle",
+    "dimensions": [
+      128,
+      128
+    ],
+    "anchor": "bottom_left",
+    "safe_area_java": {
+      "x_ratio": 0.05,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.08,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/minimap_circle.png",
+    "sha256": "0f86e5f80f2bb1c85f564879628361e123125357cd549f8ffa9cd83c9db298cd",
+    "v3_source": "creative/source/icons_v3/minimap_circle.png"
+  },
+  {
+    "id": "minimap_rectangle",
+    "dimensions": [
+      128,
+      96
+    ],
+    "anchor": "bottom_left",
+    "safe_area_java": {
+      "x_ratio": 0.05,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.08,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/minimap_rectangle.png",
+    "sha256": "7ab06523312458b04195a3241be9a94ce4da0ff07f8fab25907668a8afcf0ada",
+    "v3_source": "creative/source/icons_v3/minimap_rectangle.png"
+  },
+  {
+    "id": "player_arrow",
+    "dimensions": [
+      32,
+      32
+    ],
+    "anchor": "bottom_left",
+    "safe_area_java": {
+      "x_ratio": 0.05,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.08,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/player_arrow.png",
+    "sha256": "4511e20f00839f2df78ff4b76a04062c67f7f367178f725c21cb1a2a68b29ad6",
+    "v3_source": "creative/source/icons_v3/player_arrow.png"
+  },
+  {
+    "id": "gps_route",
+    "dimensions": [
+      32,
+      32
+    ],
+    "anchor": "bottom_left",
+    "safe_area_java": {
+      "x_ratio": 0.05,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.08,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/gps_route.png",
+    "sha256": "60c1aa680a8ac3d228de9c4c885c162778699f78746dbe282ae455a6e7ad59bb",
+    "v3_source": "creative/source/icons_v3/gps_route.png"
+  },
+  {
+    "id": "map_police",
+    "dimensions": [
+      24,
+      24
+    ],
+    "anchor": "bottom_left",
+    "safe_area_java": {
+      "x_ratio": 0.05,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.08,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/map_police.png",
+    "sha256": "6f48b8da894c5c01819424bd4db089c9f319f5aa8f19cf2dc8c500c61a42be7e",
+    "v3_source": "creative/source/icons_v3/map_police.png"
+  },
+  {
+    "id": "map_hospital",
+    "dimensions": [
+      24,
+      24
+    ],
+    "anchor": "bottom_left",
+    "safe_area_java": {
+      "x_ratio": 0.05,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.08,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/map_hospital.png",
+    "sha256": "a4d816140eba0a6e6382aab9b61a8cc97faf90e4ef035adca86fb867833cfe0c",
+    "v3_source": "creative/source/icons_v3/map_hospital.png"
+  },
+  {
+    "id": "map_fuel",
+    "dimensions": [
+      24,
+      24
+    ],
+    "anchor": "bottom_left",
+    "safe_area_java": {
+      "x_ratio": 0.05,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.08,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/map_fuel.png",
+    "sha256": "4e403a8736958046e1944043dc829c7a88abd775a1ecb7350f384058d94e6165",
+    "v3_source": "creative/source/icons_v3/map_fuel.png"
+  },
+  {
+    "id": "map_shop",
+    "dimensions": [
+      24,
+      24
+    ],
+    "anchor": "bottom_left",
+    "safe_area_java": {
+      "x_ratio": 0.05,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.08,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/map_shop.png",
+    "sha256": "614ba5a9491ead80425590c78d87849fa8c259b6232eb5b657589c728b7d4edb",
+    "v3_source": "creative/source/icons_v3/map_shop.png"
+  },
+  {
+    "id": "map_property",
+    "dimensions": [
+      24,
+      24
+    ],
+    "anchor": "bottom_left",
+    "safe_area_java": {
+      "x_ratio": 0.05,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.08,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/map_property.png",
+    "sha256": "4c0271b3a37c9f072f43615db205a0fbaa6198b181a08550cd220b65c3a830ae",
+    "v3_source": "creative/source/icons_v3/map_property.png"
+  },
+  {
+    "id": "map_station",
+    "dimensions": [
+      24,
+      24
+    ],
+    "anchor": "bottom_left",
+    "safe_area_java": {
+      "x_ratio": 0.05,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.08,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/map_station.png",
+    "sha256": "a9c5cdda69fbec5fffc13387a4a259663ec0e0908ed026bae501b17ee3332b98",
+    "v3_source": "creative/source/icons_v3/map_station.png"
+  },
+  {
+    "id": "map_mission",
+    "dimensions": [
+      24,
+      24
+    ],
+    "anchor": "bottom_left",
+    "safe_area_java": {
+      "x_ratio": 0.05,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.08,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/map_mission.png",
+    "sha256": "7972c3e5891ce228c28843170f29ac74a8c26526741f0c767a33ac1c7f43984c",
+    "v3_source": "creative/source/icons_v3/map_mission.png"
+  },
+  {
+    "id": "phone_shortcut",
+    "dimensions": [
+      48,
+      48
+    ],
+    "anchor": "bottom_right",
+    "safe_area_java": {
+      "x_ratio": 0.95,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.92,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/phone_shortcut.png",
+    "sha256": "00afcf8cf9cb0c48f75dc2daa4b14c404a0e37a2925b83410bc2de87450696b0",
+    "v3_source": "creative/source/icons_v3/phone_shortcut.png"
+  },
+  {
+    "id": "hotbar_frame",
+    "dimensions": [
+      182,
+      22
+    ],
+    "anchor": "top_left",
+    "safe_area_java": {
+      "x_ratio": 0.05,
+      "y_ratio": 0.05
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.08,
+      "y_ratio": 0.08
+    },
+    "png": "creative/source/ui/hotbar_frame.png",
+    "sha256": "1843a09520ebafb009df8973f167586bf61e24401dd5310c86cd3e6100abea52",
+    "v3_source": "creative/source/icons_v3/hotbar_frame.png"
+  },
+  {
+    "id": "hotbar_selected",
+    "dimensions": [
+      24,
+      24
+    ],
+    "anchor": "top_left",
+    "safe_area_java": {
+      "x_ratio": 0.05,
+      "y_ratio": 0.05
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.08,
+      "y_ratio": 0.08
+    },
+    "png": "creative/source/ui/hotbar_selected.png",
+    "sha256": "aeca845cfd7107cfc861b74e6d8881308b89bceefa6c7b670459482a201dc703",
+    "v3_source": "creative/source/icons_v3/hotbar_selected.png"
+  },
+  {
+    "id": "dialogue_bubble",
+    "dimensions": [
+      256,
+      64
+    ],
+    "anchor": "center",
+    "safe_area_java": {
+      "x_ratio": 0.95,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.92,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/dialogue_bubble.png",
+    "sha256": "c742f35e6d91576e595cb2eb9b7a2268c9ff8463996f567433271221295f5d4c",
+    "v3_source": "creative/source/icons_v3/dialogue_bubble.png"
+  },
+  {
+    "id": "notification_frame",
+    "dimensions": [
+      220,
+      48
+    ],
+    "anchor": "top_center",
+    "safe_area_java": {
+      "x_ratio": 0.95,
+      "y_ratio": 0.05
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.92,
+      "y_ratio": 0.08
+    },
+    "png": "creative/source/ui/notification_frame.png",
+    "sha256": "59c5066f19b7186dd651b8a46768ac34229c4d6f07444ee932180ceda60ee79f",
+    "v3_source": "creative/source/icons_v3/notification_frame.png"
+  },
+  {
+    "id": "wasted_title",
+    "dimensions": [
+      256,
+      64
+    ],
+    "anchor": "center",
+    "safe_area_java": {
+      "x_ratio": 0.95,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.92,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/wasted_title.png",
+    "sha256": "f448ab6b5d0bc684b82aea748d0e2ebc788b4d73bbebe44df15fbcaf098097ee",
+    "v3_source": "creative/source/icons_v3/wasted_title.png"
+  },
+  {
+    "id": "busted_title",
+    "dimensions": [
+      256,
+      64
+    ],
+    "anchor": "center",
+    "safe_area_java": {
+      "x_ratio": 0.95,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.92,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/busted_title.png",
+    "sha256": "6f3e15b91a55634117f7f8e19254c6694603d30d5bb6bd4c7ddb51e24ece662b",
+    "v3_source": "creative/source/icons_v3/busted_title.png"
+  },
+  {
+    "id": "city_enter",
+    "dimensions": [
+      192,
+      48
+    ],
+    "anchor": "top_center",
+    "safe_area_java": {
+      "x_ratio": 0.95,
+      "y_ratio": 0.05
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.92,
+      "y_ratio": 0.08
+    },
+    "png": "creative/source/ui/city_enter.png",
+    "sha256": "65eedfe2ece78da4015c7b2a15d4944c44dd46a389a7fcdd2cb8424c48a92cd3",
+    "v3_source": "creative/source/icons_v3/city_enter.png"
+  },
+  {
+    "id": "city_exit",
+    "dimensions": [
+      192,
+      48
+    ],
+    "anchor": "top_center",
+    "safe_area_java": {
+      "x_ratio": 0.95,
+      "y_ratio": 0.05
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.92,
+      "y_ratio": 0.08
+    },
+    "png": "creative/source/ui/city_exit.png",
+    "sha256": "636dad63955a3c1db1205864b9c50d1ff0e89df4877ef473426de2629d8813e1",
+    "v3_source": "creative/source/icons_v3/city_exit.png"
+  },
+  {
+    "id": "ark_symbol",
+    "dimensions": [
+      32,
+      32
+    ],
+    "anchor": "top_right",
+    "safe_area_java": {
+      "x_ratio": 0.95,
+      "y_ratio": 0.05
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.92,
+      "y_ratio": 0.08
+    },
+    "png": "creative/source/ui/ark_symbol.png",
+    "sha256": "3ea4bd42d235b378f95dcf79a206bab499f9a1695d60b3eb6e213e4179eed853",
+    "v3_source": "creative/source/icons_v3/ark_symbol.png"
+  },
+  {
+    "id": "low_fuel",
+    "dimensions": [
+      32,
+      32
+    ],
+    "anchor": "bottom_right",
+    "safe_area_java": {
+      "x_ratio": 0.95,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.92,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/low_fuel.png",
+    "sha256": "ccec1961c236012ffe336bc30f6e8a95bee3a4389c6fe163e7b14d65c8c12906",
+    "v3_source": "creative/source/icons_v3/low_fuel.png"
+  },
+  {
+    "id": "critical_damage",
+    "dimensions": [
+      32,
+      32
+    ],
+    "anchor": "bottom_right",
+    "safe_area_java": {
+      "x_ratio": 0.95,
+      "y_ratio": 0.95
+    },
+    "safe_area_bedrock": {
+      "x_ratio": 0.92,
+      "y_ratio": 0.92
+    },
+    "png": "creative/source/ui/critical_damage.png",
+    "sha256": "36a39ce7befa9cfd3a9469939bbbe41107206c6ed819e8c0ae486d2bb30e6c9c",
+    "v3_source": "creative/source/icons_v3/critical_damage.png"
+  }
+]

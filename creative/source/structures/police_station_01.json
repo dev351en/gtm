@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "facility_id": "police_station_01",
+  "name": "SDPD Central Police Headquarters & Holding Cells",
+  "kind": "police_station",
+  "status": "surveyed_and_ready",
+  "world": "world",
+  "origin": [
+    120,
+    66,
+    -46
+  ],
+  "bounds": {
+    "min": [
+      120,
+      66,
+      -46
+    ],
+    "max": [
+      152,
+      82,
+      -6
+    ]
+  },
+  "entrances": [
+    {
+      "id": "police_station_01_main_entrance",
+      "local": [
+        16,
+        0,
+        0
+      ],
+      "access": "public",
+      "width_blocks": 2,
+      "height_blocks": 3
+    },
+    {
+      "id": "police_station_01_service_entrance",
+      "local": [
+        32,
+        0,
+        20
+      ],
+      "access": "staff",
+      "width_blocks": 1,
+      "height_blocks": 2
+    }
+  ],
+  "rooms": [
+    {
+      "id": "public_reception",
+      "function": "reception",
+      "local_bounds": {
+        "min": [
+          1,
+          0,
+          1
+        ],
+        "max": [
+          13,
+          6,
+          16
+        ]
+      },
+      "access": "public"
+    },
+    {
+      "id": "operations_hall",
+      "function": "operations",
+      "local_bounds": {
+        "min": [
+          13,
+          0,
+          1
+        ],
+        "max": [
+          31,
+          8,
+          20
+        ]
+      },
+      "access": "staff"
+    },
+    {
+      "id": "executive_suite",
+      "function": "management",
+      "local_bounds": {
+        "min": [
+          1,
+          8,
+          1
+        ],
+        "max": [
+          16,
+          15,
+          20
+        ]
+      },
+      "access": "private"
+    },
+    {
+      "id": "secure_vault_storage",
+      "function": "vault_storage",
+      "local_bounds": {
+        "min": [
+          16,
+          0,
+          20
+        ],
+        "max": [
+          31,
+          6,
+          39
+        ]
+      },
+      "access": "secure"
+    }
+  ],
+  "placements": [
+    {
+      "asset_id": "gtm:reception_podium",
+      "local": [
+        6,
+        0,
+        8
+      ],
+      "yaw": 0,
+      "role": "reception"
+    },
+    {
+      "asset_id": "gtm:sectional_sofa",
+      "local": [
+        3,
+        0,
+        12
+      ],
+      "yaw": 90,
+      "role": "waiting_lounge"
+    },
+    {
+      "asset_id": "gtm:atm_lobby_enclosure",
+      "local": [
+        11,
+        0,
+        2
+      ],
+      "yaw": 180,
+      "role": "banking_service"
+    }
+  ],
+  "lighting_fixtures": [
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        6,
+        3,
+        8
+      ]
+    },
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        22,
+        3,
+        12
+      ]
+    },
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        10,
+        3,
+        28
+      ]
+    }
+  ],
+  "checks": {
+    "accessible_corridors": true,
+    "floor_headroom_valid": true,
+    "doors_functional": true,
+    "stairs_connected": true,
+    "zero_floating_props": true,
+    "no_empty_shells": true
+  }
+}

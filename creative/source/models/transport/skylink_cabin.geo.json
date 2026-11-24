@@ -1,0 +1,83 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gtm.skylink_cabin",
+        "texture_width": 256,
+        "texture_height": 256,
+        "visible_bounds_width": 4.2,
+        "visible_bounds_height": 3.4,
+        "visible_bounds_offset": [
+          0,
+          1.2,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "body",
+          "parent": "root",
+          "pivot": [
+            0,
+            1.0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -17.6,
+                4,
+                -22.4
+              ],
+              "size": [
+                35.2,
+                38.4,
+                44.8
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "doors_left",
+          "parent": "body",
+          "pivot": [
+            -17.6,
+            4,
+            0
+          ]
+        },
+        {
+          "name": "doors_right",
+          "parent": "body",
+          "pivot": [
+            17.6,
+            4,
+            0
+          ]
+        },
+        {
+          "name": "interior_fittings",
+          "parent": "body",
+          "pivot": [
+            0,
+            4,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

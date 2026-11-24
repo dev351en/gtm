@@ -1,0 +1,7602 @@
+[
+  {
+    "id": "gtm:sectional_sofa",
+    "title": "Sectional Fabric Lounge Sofa",
+    "category": "living",
+    "dimensions_blocks": [
+      2.4,
+      0.85,
+      1.8
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.2,
+        0.0,
+        -0.9
+      ],
+      "max": [
+        1.2,
+        0.85,
+        0.9
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.42,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/sectional_sofa.geo.json",
+    "sha256": "fbfce41f89dbb7c8ae64ef37ead284b7d39cafdb3cacbcc022ef2d0d8f29d25a"
+  },
+  {
+    "id": "gtm:leather_armchair",
+    "title": "Executive Club Leather Armchair",
+    "category": "living",
+    "dimensions_blocks": [
+      0.9,
+      0.9,
+      0.85
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.45,
+        0.0,
+        -0.42
+      ],
+      "max": [
+        0.45,
+        0.9,
+        0.42
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.45,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/leather_armchair.geo.json",
+    "sha256": "3ce1f0613abda041c2e25380243ae1b7d5ed38efef87227afdab77dc61556b52"
+  },
+  {
+    "id": "gtm:coffee_table_teak",
+    "title": "Solid Teak Low Coffee Table",
+    "category": "living",
+    "dimensions_blocks": [
+      1.2,
+      0.45,
+      0.7
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.6,
+        0.0,
+        -0.35
+      ],
+      "max": [
+        0.6,
+        0.45,
+        0.35
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.23,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/coffee_table_teak.geo.json",
+    "sha256": "91ad218a7fd058c60d52190caee1844fc2c929a220b6a1268475c616dc07fb63"
+  },
+  {
+    "id": "gtm:glass_end_table",
+    "title": "Tempered Glass Corner End Table",
+    "category": "living",
+    "dimensions_blocks": [
+      0.6,
+      0.55,
+      0.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.3,
+        0.0,
+        -0.3
+      ],
+      "max": [
+        0.3,
+        0.55,
+        0.3
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.28,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/glass_end_table.geo.json",
+    "sha256": "c5ecd396f0293b94829b252af5390d66ab94cd41c1086eaad935c7c035e351ea"
+  },
+  {
+    "id": "gtm:media_console",
+    "title": "Modern Credenza TV Media Console",
+    "category": "living",
+    "dimensions_blocks": [
+      2.0,
+      0.55,
+      0.45
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.0,
+        0.0,
+        -0.23
+      ],
+      "max": [
+        1.0,
+        0.55,
+        0.23
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.28,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/media_console.geo.json",
+    "sha256": "4a774f6f63397c0bc06ba8ffd7d7ada256b320c3e07766976d8e54258ab92698"
+  },
+  {
+    "id": "gtm:floor_arc_lamp",
+    "title": "Curved Brass Arch Floor Lamp",
+    "category": "living",
+    "dimensions_blocks": [
+      0.6,
+      1.9,
+      1.1
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.3,
+        0.0,
+        -0.55
+      ],
+      "max": [
+        0.3,
+        1.9,
+        0.55
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.95,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/floor_arc_lamp.geo.json",
+    "sha256": "3c1808821c1857e15b1dfe0b4bc0637a51f49309b0b03970ef77075d5f0f4d5d"
+  },
+  {
+    "id": "gtm:bookshelf_open",
+    "title": "Open Geometric Display Bookshelf",
+    "category": "living",
+    "dimensions_blocks": [
+      1.2,
+      1.8,
+      0.35
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.6,
+        0.0,
+        -0.17
+      ],
+      "max": [
+        0.6,
+        1.8,
+        0.17
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.9,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/bookshelf_open.geo.json",
+    "sha256": "eba215551ba389d08af486ccfcd5b02ee530fd6e9b3511733f2462f1b268a135"
+  },
+  {
+    "id": "gtm:accent_chair_velvet",
+    "title": "Emerald Velvet Cocktail Chair",
+    "category": "living",
+    "dimensions_blocks": [
+      0.8,
+      0.85,
+      0.75
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.4,
+        0.0,
+        -0.38
+      ],
+      "max": [
+        0.4,
+        0.85,
+        0.38
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.42,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/accent_chair_velvet.geo.json",
+    "sha256": "0c18a4b8a535f12c5b568faab37980a738bf18e4e25a7203b976d5511a9776a8"
+  },
+  {
+    "id": "gtm:magazine_rack",
+    "title": "Brushed Brass Floor Magazine Stand",
+    "category": "living",
+    "dimensions_blocks": [
+      0.4,
+      0.5,
+      0.3
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.2,
+        0.0,
+        -0.15
+      ],
+      "max": [
+        0.2,
+        0.5,
+        0.15
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.25,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/magazine_rack.geo.json",
+    "sha256": "b361d5580339117bdceb22662fd4689dada8a5429691938679ffbb109afd7e01"
+  },
+  {
+    "id": "gtm:wall_display_unit",
+    "title": "Floating Backlit Wall Display Shelf",
+    "category": "living",
+    "dimensions_blocks": [
+      1.8,
+      1.2,
+      0.3
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.9,
+        0.0,
+        -0.15
+      ],
+      "max": [
+        0.9,
+        1.2,
+        0.15
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.6,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/wall_display_unit.geo.json",
+    "sha256": "9261f29782ad955a2149642ab4920040470bf3f21b15abeea74bd13f106d0d3e"
+  },
+  {
+    "id": "gtm:ottoman_storage",
+    "title": "Tufted Storage Ottoman Footstool",
+    "category": "living",
+    "dimensions_blocks": [
+      0.8,
+      0.45,
+      0.8
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.4,
+        0.0,
+        -0.4
+      ],
+      "max": [
+        0.4,
+        0.45,
+        0.4
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.23,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/ottoman_storage.geo.json",
+    "sha256": "63f08c292a6dd9024532a0e0be9fe82d52d6036afd36688865afaf65363ca7c9"
+  },
+  {
+    "id": "gtm:chaise_lounge",
+    "title": "Contoured Velvet Chaise Lounge",
+    "category": "living",
+    "dimensions_blocks": [
+      0.9,
+      0.85,
+      1.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.45,
+        0.0,
+        -0.8
+      ],
+      "max": [
+        0.45,
+        0.85,
+        0.8
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.42,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/chaise_lounge.geo.json",
+    "sha256": "710a2cf0c547983b209a38726e1a2110f4d82ba7a1bdaf8e1543b6d6849286ac"
+  },
+  {
+    "id": "gtm:nesting_tables",
+    "title": "Trio Marble Round Nesting Tables",
+    "category": "living",
+    "dimensions_blocks": [
+      0.7,
+      0.5,
+      0.7
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.35,
+        0.0,
+        -0.35
+      ],
+      "max": [
+        0.35,
+        0.5,
+        0.35
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.25,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/nesting_tables.geo.json",
+    "sha256": "d17e58c77e651b0eb97d96424c09c11a114e677013d8c333180d08a1f02f42ca"
+  },
+  {
+    "id": "gtm:credenza_sideboard",
+    "title": "Fluted Oak Dining Sideboard",
+    "category": "living",
+    "dimensions_blocks": [
+      1.6,
+      0.8,
+      0.45
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.8,
+        0.0,
+        -0.23
+      ],
+      "max": [
+        0.8,
+        0.8,
+        0.23
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.4,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/credenza_sideboard.geo.json",
+    "sha256": "aad83cd4afc1cea7e059da0a55074ca9db54d1c0969209a0972ee87cb7c0c2ed"
+  },
+  {
+    "id": "gtm:room_divider_jali",
+    "title": "Laser-Cut Wooden Jali Privacy Screen",
+    "category": "living",
+    "dimensions_blocks": [
+      1.8,
+      1.9,
+      0.15
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.9,
+        0.0,
+        -0.07
+      ],
+      "max": [
+        0.9,
+        1.9,
+        0.07
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.95,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/room_divider_jali.geo.json",
+    "sha256": "4b320d0585fc0a6468aee09dc770b04c75f3f5b2b1000045c01ba0674afc90e7"
+  },
+  {
+    "id": "gtm:indoor_planter",
+    "title": "Polished Terrazzo Tall Floor Planter",
+    "category": "living",
+    "dimensions_blocks": [
+      0.5,
+      0.9,
+      0.5
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.25,
+        0.0,
+        -0.25
+      ],
+      "max": [
+        0.25,
+        0.9,
+        0.25
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.45,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/indoor_planter.geo.json",
+    "sha256": "1a34f0672bd01a8f2f11c374130d0452122dad22e0c7b71e821dfe9ad0e14bb7"
+  },
+  {
+    "id": "gtm:ceiling_fan_wood",
+    "title": "Carved Wooden 5-Blade Ceiling Fan",
+    "category": "living",
+    "dimensions_blocks": [
+      1.4,
+      0.4,
+      1.4
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.7,
+        0.0,
+        -0.7
+      ],
+      "max": [
+        0.7,
+        0.4,
+        0.7
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.2,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/ceiling_fan_wood.geo.json",
+    "sha256": "05d31deee319ce5a3161f84fb3497803b32f2c74276a058e1493404046543ca2"
+  },
+  {
+    "id": "gtm:fireplace_electric",
+    "title": "Recessed Modern Electric Hearth",
+    "category": "living",
+    "dimensions_blocks": [
+      1.4,
+      0.9,
+      0.35
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.7,
+        0.0,
+        -0.17
+      ],
+      "max": [
+        0.7,
+        0.9,
+        0.17
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.45,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/fireplace_electric.geo.json",
+    "sha256": "b32ecec0d553feeaf84a347ddff37a6c16f4825a58965865b39e883dbf69c54b"
+  },
+  {
+    "id": "gtm:wall_mirror_sunburst",
+    "title": "Gilded Brass Sunburst Wall Mirror",
+    "category": "living",
+    "dimensions_blocks": [
+      0.9,
+      0.9,
+      0.1
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.45,
+        0.0,
+        -0.05
+      ],
+      "max": [
+        0.45,
+        0.9,
+        0.05
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.45,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/wall_mirror_sunburst.geo.json",
+    "sha256": "e4d9989b6f30d078f61dd77553107b7a8aee532ae552edd5c300395ce179917b"
+  },
+  {
+    "id": "gtm:pouffe_cushion",
+    "title": "Embroidered Cotton Round Floor Pouffe",
+    "category": "living",
+    "dimensions_blocks": [
+      0.6,
+      0.35,
+      0.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.3,
+        0.0,
+        -0.3
+      ],
+      "max": [
+        0.3,
+        0.35,
+        0.3
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.17,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/pouffe_cushion.geo.json",
+    "sha256": "dda0084ce92e08266080eccaa88174937a8d7cd8748d2e16fa4608865e39b13a"
+  },
+  {
+    "id": "gtm:king_bed_upholstered",
+    "title": "Upholstered King Master Bed",
+    "category": "bedroom",
+    "dimensions_blocks": [
+      2.0,
+      1.1,
+      2.1
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.0,
+        0.0,
+        -1.05
+      ],
+      "max": [
+        1.0,
+        1.1,
+        1.05
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.55,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/king_bed_upholstered.geo.json",
+    "sha256": "833068465a01164831f72dd426530a60f6bd2aa830822c2065ba462727c25676"
+  },
+  {
+    "id": "gtm:single_cot_wood",
+    "title": "Solid Sheesham Single Platform Bed",
+    "category": "bedroom",
+    "dimensions_blocks": [
+      1.1,
+      0.9,
+      2.0
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.55,
+        0.0,
+        -1.0
+      ],
+      "max": [
+        0.55,
+        0.9,
+        1.0
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.45,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/single_cot_wood.geo.json",
+    "sha256": "b21e228866ca29cb1a2e40ed7f0a35b5c6c4d2fde876b79e0f90bc348636472c"
+  },
+  {
+    "id": "gtm:nightstand_drawers",
+    "title": "Dual-Drawer Oak Bedside Nightstand",
+    "category": "bedroom",
+    "dimensions_blocks": [
+      0.55,
+      0.6,
+      0.45
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.28,
+        0.0,
+        -0.23
+      ],
+      "max": [
+        0.28,
+        0.6,
+        0.23
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.3,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/nightstand_drawers.geo.json",
+    "sha256": "12486b2a8a7307be7c5dbe5dcaba5a7e93437079f73a294f78d097842bd320dc"
+  },
+  {
+    "id": "gtm:wardrobe_sliding",
+    "title": "3-Door Mirrored Sliding Wardrobe",
+    "category": "bedroom",
+    "dimensions_blocks": [
+      2.2,
+      2.1,
+      0.65
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.1,
+        0.0,
+        -0.33
+      ],
+      "max": [
+        1.1,
+        2.1,
+        0.33
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        1.05,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/wardrobe_sliding.geo.json",
+    "sha256": "c2a4c27392b668ba6dc236b026398062555f57fce24bb95646260288e8dce670"
+  },
+  {
+    "id": "gtm:dresser_mirror",
+    "title": "6-Drawer Dresser with Vanity Mirror",
+    "category": "bedroom",
+    "dimensions_blocks": [
+      1.5,
+      1.7,
+      0.5
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.75,
+        0.0,
+        -0.25
+      ],
+      "max": [
+        0.75,
+        1.7,
+        0.25
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.85,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/dresser_mirror.geo.json",
+    "sha256": "1c91583428fbfdfb3c6be11c0ffca0e3c0cf91e7c89f8d7ab9f8c313a660ff46"
+  },
+  {
+    "id": "gtm:bedside_sconce",
+    "title": "Articulated Brass Reading Wall Sconce",
+    "category": "bedroom",
+    "dimensions_blocks": [
+      0.25,
+      0.4,
+      0.3
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.12,
+        0.0,
+        -0.15
+      ],
+      "max": [
+        0.12,
+        0.4,
+        0.15
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.2,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/bedside_sconce.geo.json",
+    "sha256": "0990d30f8c97d6e02cff60f7379f7411f81c456f8bbfef9d35b751e7a5aa0d23"
+  },
+  {
+    "id": "gtm:blanket_chest",
+    "title": "Carved Teak Storage Blanket Trunk",
+    "category": "bedroom",
+    "dimensions_blocks": [
+      1.2,
+      0.55,
+      0.55
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.6,
+        0.0,
+        -0.28
+      ],
+      "max": [
+        0.6,
+        0.55,
+        0.28
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.28,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/blanket_chest.geo.json",
+    "sha256": "238086c6abbafc6d4e54e1dc79283d930480afab7571eb0fe9acb192b71d5e60"
+  },
+  {
+    "id": "gtm:vanity_stool",
+    "title": "Padded Round Vanity Dressing Stool",
+    "category": "bedroom",
+    "dimensions_blocks": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.23,
+        0.0,
+        -0.23
+      ],
+      "max": [
+        0.23,
+        0.45,
+        0.23
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.23,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/vanity_stool.geo.json",
+    "sha256": "bff95517d1480161f7d8bd098d2da98f637a73b6ddc2f609787c24dc964ff6fa"
+  },
+  {
+    "id": "gtm:full_length_mirror",
+    "title": "Standing Cheval Full-Length Mirror",
+    "category": "bedroom",
+    "dimensions_blocks": [
+      0.6,
+      1.75,
+      0.45
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.3,
+        0.0,
+        -0.23
+      ],
+      "max": [
+        0.3,
+        1.75,
+        0.23
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.88,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/full_length_mirror.geo.json",
+    "sha256": "b643d48e2ea85e9aae18b7be4cd87c29e5ad2e0910a14fa7a428ffe7b0ab0861"
+  },
+  {
+    "id": "gtm:clothes_valet",
+    "title": "Executive Wooden Coat & Trouser Valet",
+    "category": "bedroom",
+    "dimensions_blocks": [
+      0.45,
+      1.15,
+      0.35
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.23,
+        0.0,
+        -0.17
+      ],
+      "max": [
+        0.23,
+        1.15,
+        0.17
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.57,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/clothes_valet.geo.json",
+    "sha256": "836d6bb248029a9fcbd099e94a89b0efa0874de58ec67128c26549cfa9fa8bb9"
+  },
+  {
+    "id": "gtm:bed_bench_tufted",
+    "title": "Upholstered Foot-of-Bed Bench",
+    "category": "bedroom",
+    "dimensions_blocks": [
+      1.4,
+      0.45,
+      0.45
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.7,
+        0.0,
+        -0.23
+      ],
+      "max": [
+        0.7,
+        0.45,
+        0.23
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.23,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/bed_bench_tufted.geo.json",
+    "sha256": "7f18554e41b5be7dbd517e249f0051d84ab5a2ff9c1bd3f989c385a5b677521d"
+  },
+  {
+    "id": "gtm:bunk_bed_twin",
+    "title": "Compact Steel Bunk Bed Twin Stack",
+    "category": "bedroom",
+    "dimensions_blocks": [
+      1.1,
+      1.8,
+      2.05
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.55,
+        0.0,
+        -1.02
+      ],
+      "max": [
+        0.55,
+        1.8,
+        1.02
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.9,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/bunk_bed_twin.geo.json",
+    "sha256": "a874d4da9d4a9d6ba6c81dd850f78fbde41752d717566cd99c29e1c53140e5b3"
+  },
+  {
+    "id": "gtm:canopy_bed_frame",
+    "title": "Minimalist Steel Poster Canopy Bed",
+    "category": "bedroom",
+    "dimensions_blocks": [
+      2.0,
+      2.1,
+      2.1
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.0,
+        0.0,
+        -1.05
+      ],
+      "max": [
+        1.0,
+        2.1,
+        1.05
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        1.05,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/canopy_bed_frame.geo.json",
+    "sha256": "03a73516fb010ad92114987134c96d85da6663887f3b632d5dd074fbeec4b934"
+  },
+  {
+    "id": "gtm:corner_wardrobe",
+    "title": "Space-Saving Corner Bedroom Wardrobe",
+    "category": "bedroom",
+    "dimensions_blocks": [
+      1.1,
+      2.1,
+      1.1
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.55,
+        0.0,
+        -0.55
+      ],
+      "max": [
+        0.55,
+        2.1,
+        0.55
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        1.05,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/corner_wardrobe.geo.json",
+    "sha256": "941e350154081aa7f3e6929754f8f6091af17882b95cbe2d2bc238fb4bc6f355"
+  },
+  {
+    "id": "gtm:alarm_dock_station",
+    "title": "Smart Display Bedside Radio Clock",
+    "category": "bedroom",
+    "dimensions_blocks": [
+      0.25,
+      0.15,
+      0.15
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.12,
+        0.0,
+        -0.07
+      ],
+      "max": [
+        0.12,
+        0.15,
+        0.07
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.07,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/alarm_dock_station.geo.json",
+    "sha256": "c4598c60208fafed0780d8144d0aea11ada0fac69ade2373d0664e09aa99ad6b"
+  },
+  {
+    "id": "gtm:modular_counter_base",
+    "title": "Granite-Top Modular Base Cabinet",
+    "category": "kitchen",
+    "dimensions_blocks": [
+      1.0,
+      0.9,
+      0.65
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.5,
+        0.0,
+        -0.33
+      ],
+      "max": [
+        0.5,
+        0.9,
+        0.33
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.45,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/modular_counter_base.geo.json",
+    "sha256": "aaa78fb4a968ee3772c30e313d023ff1a554ae06f13b7f7026fd0d55049e225f"
+  },
+  {
+    "id": "gtm:kitchen_sink_double",
+    "title": "Under-Mount Double Stainless Sink",
+    "category": "kitchen",
+    "dimensions_blocks": [
+      1.2,
+      0.9,
+      0.65
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.6,
+        0.0,
+        -0.33
+      ],
+      "max": [
+        0.6,
+        0.9,
+        0.33
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.45,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/kitchen_sink_double.geo.json",
+    "sha256": "9f9892835b0acc0ad58ed2fe0f6a49464af1e48434344593de102ba1495511cd"
+  },
+  {
+    "id": "gtm:gas_stove_4burner",
+    "title": "Cast-Iron 4-Burner Glass Hob Counter",
+    "category": "kitchen",
+    "dimensions_blocks": [
+      0.9,
+      0.9,
+      0.65
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.45,
+        0.0,
+        -0.33
+      ],
+      "max": [
+        0.45,
+        0.9,
+        0.33
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.45,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/gas_stove_4burner.geo.json",
+    "sha256": "c502849512aec07c5c8bc7dd737bffb9bf22b1c32b38342d5c817dc501303147"
+  },
+  {
+    "id": "gtm:chimney_hood",
+    "title": "Stainless Steel Ductless Kitchen Hood",
+    "category": "kitchen",
+    "dimensions_blocks": [
+      0.9,
+      0.7,
+      0.5
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.45,
+        0.0,
+        -0.25
+      ],
+      "max": [
+        0.45,
+        0.7,
+        0.25
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.35,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/chimney_hood.geo.json",
+    "sha256": "f8da5873e6d9b921a95afa0e04bdd9873768e422e903a2cf4aaccc16be4490e9"
+  },
+  {
+    "id": "gtm:refrigerator_french",
+    "title": "Double-Door French Refrigerator",
+    "category": "kitchen",
+    "dimensions_blocks": [
+      1.0,
+      1.9,
+      0.75
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.5,
+        0.0,
+        -0.38
+      ],
+      "max": [
+        0.5,
+        1.9,
+        0.38
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.95,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/refrigerator_french.geo.json",
+    "sha256": "0e56a86a62ba9324d0a2667a7b1862ef1b2a0cfa06418bca19a5f1d98f5396d9"
+  },
+  {
+    "id": "gtm:microwave_cabinet",
+    "title": "Built-In Convection Oven Tower",
+    "category": "kitchen",
+    "dimensions_blocks": [
+      0.7,
+      1.5,
+      0.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.35,
+        0.0,
+        -0.3
+      ],
+      "max": [
+        0.35,
+        1.5,
+        0.3
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.75,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/microwave_cabinet.geo.json",
+    "sha256": "4c13176c76aa7eccf5164f6ab12bad254b83035e2363b0365696940dc9daf29f"
+  },
+  {
+    "id": "gtm:dining_table_6seater",
+    "title": "Extending Teak 6-Seater Dining Table",
+    "category": "kitchen",
+    "dimensions_blocks": [
+      1.8,
+      0.75,
+      0.9
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.9,
+        0.0,
+        -0.45
+      ],
+      "max": [
+        0.9,
+        0.75,
+        0.45
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.38,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/dining_table_6seater.geo.json",
+    "sha256": "39fbcb99ba4bd7bbde3099113fc70cf429806585cb17a9899dfc06be584477b5"
+  },
+  {
+    "id": "gtm:dining_chair_cushion",
+    "title": "Ergonomic Upholstered Dining Chair",
+    "category": "kitchen",
+    "dimensions_blocks": [
+      0.5,
+      0.88,
+      0.5
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.25,
+        0.0,
+        -0.25
+      ],
+      "max": [
+        0.25,
+        0.88,
+        0.25
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.44,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/dining_chair_cushion.geo.json",
+    "sha256": "2bafe3c0b1b70d24c528b3d06eb83be59ced2728c9d12549ea3e9d973b15e5d9"
+  },
+  {
+    "id": "gtm:kitchen_island",
+    "title": "Marble-Top Prep Island with Stool Overhang",
+    "category": "kitchen",
+    "dimensions_blocks": [
+      1.8,
+      0.9,
+      0.9
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.9,
+        0.0,
+        -0.45
+      ],
+      "max": [
+        0.9,
+        0.9,
+        0.45
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.45,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/kitchen_island.geo.json",
+    "sha256": "92a1ede158db05c84dda7a1a85b5508bb9b903bce80a2d08da3bf0464f2cba8e"
+  },
+  {
+    "id": "gtm:bar_stool_swivel",
+    "title": "Adjustable Leather Swivel Bar Stool",
+    "category": "kitchen",
+    "dimensions_blocks": [
+      0.45,
+      0.95,
+      0.45
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.23,
+        0.0,
+        -0.23
+      ],
+      "max": [
+        0.23,
+        0.95,
+        0.23
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.47,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/bar_stool_swivel.geo.json",
+    "sha256": "2abc77360a368ad4aca6abc92d29896713d0f1487ef44e887028a67185c8df77"
+  },
+  {
+    "id": "gtm:spice_rack_carousel",
+    "title": "3-Tier Rotating Brass Masala Carousel",
+    "category": "kitchen",
+    "dimensions_blocks": [
+      0.35,
+      0.45,
+      0.35
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.17,
+        0.0,
+        -0.17
+      ],
+      "max": [
+        0.17,
+        0.45,
+        0.17
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.23,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/spice_rack_carousel.geo.json",
+    "sha256": "f6e1eb715c92c3e1743981aa17b6de3dee68a9a13ca569a97be7624417d80fa1"
+  },
+  {
+    "id": "gtm:wall_cupboard_glass",
+    "title": "Frosted Glass Overhead Wall Cupboard",
+    "category": "kitchen",
+    "dimensions_blocks": [
+      1.0,
+      0.7,
+      0.35
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.5,
+        0.0,
+        -0.17
+      ],
+      "max": [
+        0.5,
+        0.7,
+        0.17
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.35,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/wall_cupboard_glass.geo.json",
+    "sha256": "d0a5f316a8fa8c582814ade6e99ce02ec696e497bcfb63c13483b96df8042e00"
+  },
+  {
+    "id": "gtm:chai_brew_station",
+    "title": "Commercial Brass Samovar Chai Machine",
+    "category": "kitchen",
+    "dimensions_blocks": [
+      0.6,
+      0.7,
+      0.4
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.3,
+        0.0,
+        -0.2
+      ],
+      "max": [
+        0.3,
+        0.7,
+        0.2
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.35,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/chai_brew_station.geo.json",
+    "sha256": "cdb4b651c9d549917c9f5a3fd5b44a681f138ae510dee95f1c4ee9fa4de3a310"
+  },
+  {
+    "id": "gtm:tandoor_clay_oven",
+    "title": "Insulated Commercial Clay Tandoor Drum",
+    "category": "kitchen",
+    "dimensions_blocks": [
+      0.9,
+      1.0,
+      0.9
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.45,
+        0.0,
+        -0.45
+      ],
+      "max": [
+        0.45,
+        1.0,
+        0.45
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/tandoor_clay_oven.geo.json",
+    "sha256": "2113905da9ba3ad910ac57c305da1e4ed45f0c85bda0baa74278d97390bbdcc1"
+  },
+  {
+    "id": "gtm:ro_water_purifier",
+    "title": "Wall-Mount Active Carbon RO Filter",
+    "category": "kitchen",
+    "dimensions_blocks": [
+      0.4,
+      0.55,
+      0.3
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.2,
+        0.0,
+        -0.15
+      ],
+      "max": [
+        0.2,
+        0.55,
+        0.15
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.28,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/ro_water_purifier.geo.json",
+    "sha256": "0cb3b7d3a7f80f1b246dc355fd108b730d9ee422032205e7aa091eaee327a448"
+  },
+  {
+    "id": "gtm:cutlery_cart_mobile",
+    "title": "Stainless Mobile Kitchen Utility Cart",
+    "category": "kitchen",
+    "dimensions_blocks": [
+      0.7,
+      0.85,
+      0.5
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.35,
+        0.0,
+        -0.25
+      ],
+      "max": [
+        0.35,
+        0.85,
+        0.25
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.42,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/cutlery_cart_mobile.geo.json",
+    "sha256": "54be864cf2182f222dbea4be889cd7897142ece9aa907f5739b3b97b054e1743"
+  },
+  {
+    "id": "gtm:pantry_tall_unit",
+    "title": "Pull-Out Wire Basket Tall Larder Unit",
+    "category": "kitchen",
+    "dimensions_blocks": [
+      0.6,
+      2.1,
+      0.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.3,
+        0.0,
+        -0.3
+      ],
+      "max": [
+        0.3,
+        2.1,
+        0.3
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        1.05,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/pantry_tall_unit.geo.json",
+    "sha256": "1a4001421076b96869603178fa505447033ff8c636ff9ffbaa5af5360d9d8b12"
+  },
+  {
+    "id": "gtm:breakfast_counter",
+    "title": "Wall-Mounted Fold-Down Breakfast Bar",
+    "category": "kitchen",
+    "dimensions_blocks": [
+      1.2,
+      0.85,
+      0.45
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.6,
+        0.0,
+        -0.23
+      ],
+      "max": [
+        0.6,
+        0.85,
+        0.23
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.42,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/breakfast_counter.geo.json",
+    "sha256": "7ebe314080e8fc74c1f71b97c0675cd4c7efe8fee57ca404b91324f226632d1c"
+  },
+  {
+    "id": "gtm:pot_rack_hanging",
+    "title": "Ceiling-Hung Wrought Iron Pan Gantry",
+    "category": "kitchen",
+    "dimensions_blocks": [
+      1.2,
+      0.4,
+      0.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.6,
+        0.0,
+        -0.3
+      ],
+      "max": [
+        0.6,
+        0.4,
+        0.3
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.2,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/pot_rack_hanging.geo.json",
+    "sha256": "b890f67cf33f2fff394b4edf4b88de0e3389ac7051801c839c464123643fd8c7"
+  },
+  {
+    "id": "gtm:dishwasher_undercounter",
+    "title": "Integrated High-Efficiency Dishwasher",
+    "category": "kitchen",
+    "dimensions_blocks": [
+      0.6,
+      0.85,
+      0.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.3,
+        0.0,
+        -0.3
+      ],
+      "max": [
+        0.3,
+        0.85,
+        0.3
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.42,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/dishwasher_undercounter.geo.json",
+    "sha256": "fb9e0565fa7e64547b67c64ce80bab2fa5885a9bca4b36c2af44ef1c0c024b3a"
+  },
+  {
+    "id": "gtm:executive_desk_lshape",
+    "title": "Executive L-Shaped Walnut Workstation",
+    "category": "office",
+    "dimensions_blocks": [
+      2.0,
+      0.75,
+      1.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.0,
+        0.0,
+        -0.8
+      ],
+      "max": [
+        1.0,
+        0.75,
+        0.8
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.38,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/executive_desk_lshape.geo.json",
+    "sha256": "edfa1d0a805f7da18a75fdb9f08d4ce47fce446e5aa5e9560ffada7188c1e299"
+  },
+  {
+    "id": "gtm:ergonomic_task_chair",
+    "title": "High-Back Mesh Synchronous Task Chair",
+    "category": "office",
+    "dimensions_blocks": [
+      0.65,
+      1.15,
+      0.65
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.33,
+        0.0,
+        -0.33
+      ],
+      "max": [
+        0.33,
+        1.15,
+        0.33
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.57,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/ergonomic_task_chair.geo.json",
+    "sha256": "730ddd39a0576c5bbd11f0f7aa49920a6bdfd34110f6cf1f70d088e03c33f0db"
+  },
+  {
+    "id": "gtm:dual_monitor_mount",
+    "title": "Dual 27-Inch Curved Screen Rig",
+    "category": "office",
+    "dimensions_blocks": [
+      1.1,
+      0.5,
+      0.3
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.55,
+        0.0,
+        -0.15
+      ],
+      "max": [
+        0.55,
+        0.5,
+        0.15
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.25,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/dual_monitor_mount.geo.json",
+    "sha256": "c490f0715a83db9f41b3d8fdfa9f2d24dda1e1ae36e9a24434cc6d967f5d1210"
+  },
+  {
+    "id": "gtm:filing_cabinet_fireproof",
+    "title": "4-Drawer Heavy Gauge Lockable File",
+    "category": "office",
+    "dimensions_blocks": [
+      0.5,
+      1.35,
+      0.65
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.25,
+        0.0,
+        -0.33
+      ],
+      "max": [
+        0.25,
+        1.35,
+        0.33
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.68,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/filing_cabinet_fireproof.geo.json",
+    "sha256": "27a640a35e9e7f0e5ec9c8a189395e60aa35c3801f64661e5fd7ab8737827eff"
+  },
+  {
+    "id": "gtm:server_rack_half",
+    "title": "18U Sound-Dampened Network Rack",
+    "category": "office",
+    "dimensions_blocks": [
+      0.6,
+      1.0,
+      0.8
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.3,
+        0.0,
+        -0.4
+      ],
+      "max": [
+        0.3,
+        1.0,
+        0.4
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/server_rack_half.geo.json",
+    "sha256": "c414019a880cee044009ccad2de5402cb99afe02f25ac4696a22d1781fc325a6"
+  },
+  {
+    "id": "gtm:conference_table_10p",
+    "title": "Conference Boardroom Boat Table",
+    "category": "office",
+    "dimensions_blocks": [
+      3.2,
+      0.75,
+      1.2
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.6,
+        0.0,
+        -0.6
+      ],
+      "max": [
+        1.6,
+        0.75,
+        0.6
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.38,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/conference_table_10p.geo.json",
+    "sha256": "a088c5a0694a3ee0893bd883564898f948ae03760de2a644374119ca9d178785"
+  },
+  {
+    "id": "gtm:boardroom_chair",
+    "title": "Cantilever Chrome Mid-Back Guest Chair",
+    "category": "office",
+    "dimensions_blocks": [
+      0.55,
+      0.9,
+      0.55
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.28,
+        0.0,
+        -0.28
+      ],
+      "max": [
+        0.28,
+        0.9,
+        0.28
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.45,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/boardroom_chair.geo.json",
+    "sha256": "0cc2c561be63905e4be39784909074f5eecd48fddb351a7df54b20ec589848e4"
+  },
+  {
+    "id": "gtm:magnetic_whiteboard",
+    "title": "Mobile Rolling Dry-Erase Whiteboard",
+    "category": "office",
+    "dimensions_blocks": [
+      1.6,
+      1.85,
+      0.5
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.8,
+        0.0,
+        -0.25
+      ],
+      "max": [
+        0.8,
+        1.85,
+        0.25
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.93,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/magnetic_whiteboard.geo.json",
+    "sha256": "e7fbd7aa2d75a73216e17968c862da0899170d0beab256bb712c4e3c26afd3a2"
+  },
+  {
+    "id": "gtm:reception_podium",
+    "title": "Curved Front Welcome Security Desk",
+    "category": "office",
+    "dimensions_blocks": [
+      2.2,
+      1.1,
+      0.9
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.1,
+        0.0,
+        -0.45
+      ],
+      "max": [
+        1.1,
+        1.1,
+        0.45
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.55,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/reception_podium.geo.json",
+    "sha256": "ce9db787619d336ff7dd37a382ca5bbbb949979fe34a2aa50831f32ce1ec3b76"
+  },
+  {
+    "id": "gtm:credenza_creed",
+    "title": "Office Storage Buffet Credenza",
+    "category": "office",
+    "dimensions_blocks": [
+      1.8,
+      0.75,
+      0.45
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.9,
+        0.0,
+        -0.23
+      ],
+      "max": [
+        0.9,
+        0.75,
+        0.23
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.38,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/credenza_creed.geo.json",
+    "sha256": "51f73d65da1a728fced35aafc4c83c6e9058a4a9f15666a3e7a968ae99b70809"
+  },
+  {
+    "id": "gtm:water_dispenser",
+    "title": "Freestanding Hot/Cold Water Cooler",
+    "category": "office",
+    "dimensions_blocks": [
+      0.35,
+      1.15,
+      0.35
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.17,
+        0.0,
+        -0.17
+      ],
+      "max": [
+        0.17,
+        1.15,
+        0.17
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.57,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/water_dispenser.geo.json",
+    "sha256": "6ef8f264d6c94c1cd319d449663e10e75c2fdad64e7fdeb34f3ae955c50e8a0c"
+  },
+  {
+    "id": "gtm:printer_copier_station",
+    "title": "Heavy Duty Multifunction Floor Copier",
+    "category": "office",
+    "dimensions_blocks": [
+      0.9,
+      1.1,
+      0.75
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.45,
+        0.0,
+        -0.38
+      ],
+      "max": [
+        0.45,
+        1.1,
+        0.38
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.55,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/printer_copier_station.geo.json",
+    "sha256": "3d69d69cb78fc9676d286a3cf45f2849887310cf578ebc358a7f5d7b94e38106"
+  },
+  {
+    "id": "gtm:workstation_cubicle",
+    "title": "2-Person Acoustic Screen Desk Pod",
+    "category": "office",
+    "dimensions_blocks": [
+      2.4,
+      1.35,
+      1.4
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.2,
+        0.0,
+        -0.7
+      ],
+      "max": [
+        1.2,
+        1.35,
+        0.7
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.68,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/workstation_cubicle.geo.json",
+    "sha256": "2092ff752c14d6f92b7ed56f447efaae194dec00cb64a8b3dacc2b56a91f93b9"
+  },
+  {
+    "id": "gtm:desk_lamp_led",
+    "title": "Balanced Arm Studio Architect Lamp",
+    "category": "office",
+    "dimensions_blocks": [
+      0.3,
+      0.55,
+      0.3
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.15,
+        0.0,
+        -0.15
+      ],
+      "max": [
+        0.15,
+        0.55,
+        0.15
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.28,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/desk_lamp_led.geo.json",
+    "sha256": "820ceecac4bd267f04ff296022591d448f2734de1d40c84e9c363d28fc06c8dc"
+  },
+  {
+    "id": "gtm:presentation_screen",
+    "title": "75-Inch Smart Interactive Display Stand",
+    "category": "office",
+    "dimensions_blocks": [
+      1.7,
+      1.85,
+      0.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.85,
+        0.0,
+        -0.3
+      ],
+      "max": [
+        0.85,
+        1.85,
+        0.3
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.93,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/presentation_screen.geo.json",
+    "sha256": "38c4682469ff99dde5198123538b543165a6bcad8a5f1aa8d5c33b076a59d0ee"
+  },
+  {
+    "id": "gtm:literature_carousel",
+    "title": "Rotating Metal Brochure Display Tower",
+    "category": "office",
+    "dimensions_blocks": [
+      0.45,
+      1.6,
+      0.45
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.23,
+        0.0,
+        -0.23
+      ],
+      "max": [
+        0.23,
+        1.6,
+        0.23
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.8,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/literature_carousel.geo.json",
+    "sha256": "153101be9b64d0c46b59a4a10eab2a81ab83855aebe2eafb00e2cee6ad3eaddf"
+  },
+  {
+    "id": "gtm:acoustic_pod_solo",
+    "title": "Single-Person Soundproof Phone Booth",
+    "category": "office",
+    "dimensions_blocks": [
+      1.1,
+      2.2,
+      1.1
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.55,
+        0.0,
+        -0.55
+      ],
+      "max": [
+        0.55,
+        2.2,
+        0.55
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        1.1,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/acoustic_pod_solo.geo.json",
+    "sha256": "57aa6f6886515f5416a2d246800d527df49a10943eadfbe1dd76c4bb1b27bc69"
+  },
+  {
+    "id": "gtm:shredder_bin",
+    "title": "High-Security Cross-Cut Paper Shredder",
+    "category": "office",
+    "dimensions_blocks": [
+      0.4,
+      0.65,
+      0.4
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.2,
+        0.0,
+        -0.2
+      ],
+      "max": [
+        0.2,
+        0.65,
+        0.2
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.33,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/shredder_bin.geo.json",
+    "sha256": "161bcae5f25edf6db5d6e3fe6435c778262862f7002a202cc4b8bcd063103d87"
+  },
+  {
+    "id": "gtm:coat_stand_tree",
+    "title": "Heavy Base Stainless Reception Coat Rack",
+    "category": "office",
+    "dimensions_blocks": [
+      0.45,
+      1.8,
+      0.45
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.23,
+        0.0,
+        -0.23
+      ],
+      "max": [
+        0.23,
+        1.8,
+        0.23
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.9,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/coat_stand_tree.geo.json",
+    "sha256": "a0e5f9995eacbc730ff178cc52b4131dcf741eee666750d7c1bdd6af6ebbcbe5"
+  },
+  {
+    "id": "gtm:cable_spine_vertical",
+    "title": "Flexible Articulated Underdesk Wire Spine",
+    "category": "office",
+    "dimensions_blocks": [
+      0.15,
+      0.75,
+      0.15
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.07,
+        0.0,
+        -0.07
+      ],
+      "max": [
+        0.07,
+        0.75,
+        0.07
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.38,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/cable_spine_vertical.geo.json",
+    "sha256": "c5541ab857bf92bd7611f950374e8ad467c86ac18a60640c2fbd730aceaf56eb"
+  },
+  {
+    "id": "gtm:hospital_icu_bed",
+    "title": "Motorized 4-Section Electric ICU Bed",
+    "category": "hospital",
+    "dimensions_blocks": [
+      1.1,
+      1.0,
+      2.15
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.55,
+        0.0,
+        -1.07
+      ],
+      "max": [
+        0.55,
+        1.0,
+        1.07
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/hospital_icu_bed.geo.json",
+    "sha256": "5f31e7cb4b3cc67bdf8de1f76d034087228d4e3a327da9c103f1121392ca5661"
+  },
+  {
+    "id": "gtm:mobile_iv_pole",
+    "title": "5-Castor Stainless Telescopic IV Pole",
+    "category": "hospital",
+    "dimensions_blocks": [
+      0.5,
+      1.9,
+      0.5
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.25,
+        0.0,
+        -0.25
+      ],
+      "max": [
+        0.25,
+        1.9,
+        0.25
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.95,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/mobile_iv_pole.geo.json",
+    "sha256": "f6b99697013dd7ed15f8696ab9a76d16c78def9b5d1a36eb08002ae81344f041"
+  },
+  {
+    "id": "gtm:examination_table",
+    "title": "Padded Clinical Examination Table",
+    "category": "hospital",
+    "dimensions_blocks": [
+      0.75,
+      0.8,
+      1.9
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.38,
+        0.0,
+        -0.95
+      ],
+      "max": [
+        0.38,
+        0.8,
+        0.95
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.4,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/examination_table.geo.json",
+    "sha256": "3968d4c72923954579e1ed659740d08bd8990a54f9465651ceb6b1c10e6b2de5"
+  },
+  {
+    "id": "gtm:defibrillator_crash_cart",
+    "title": "Red Emergency Crash Cart with Monitor",
+    "category": "hospital",
+    "dimensions_blocks": [
+      0.8,
+      1.3,
+      0.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.4,
+        0.0,
+        -0.3
+      ],
+      "max": [
+        0.4,
+        1.3,
+        0.3
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.65,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/defibrillator_crash_cart.geo.json",
+    "sha256": "bfb81ff82a4ed97494a4077e3d94f8efcba5b67a320e441fa211a976ebe6b386"
+  },
+  {
+    "id": "gtm:patient_privacy_screen",
+    "title": "Washable Antimicrobial 3-Fold Screen",
+    "category": "hospital",
+    "dimensions_blocks": [
+      2.1,
+      1.75,
+      0.3
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.05,
+        0.0,
+        -0.15
+      ],
+      "max": [
+        1.05,
+        1.75,
+        0.15
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.88,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/patient_privacy_screen.geo.json",
+    "sha256": "3777e70c446b63c8e7f1e1e23fe1886f810e092ec7631cadc448300c43adfdcf"
+  },
+  {
+    "id": "gtm:mayo_surgical_stand",
+    "title": "Adjustable Height Surgical Instrument Tray",
+    "category": "hospital",
+    "dimensions_blocks": [
+      0.65,
+      1.05,
+      0.5
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.33,
+        0.0,
+        -0.25
+      ],
+      "max": [
+        0.33,
+        1.05,
+        0.25
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.53,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/mayo_surgical_stand.geo.json",
+    "sha256": "e067672d22a51c23898990f5f45513efdd2239523498cb16929fcd4644a3d7a6"
+  },
+  {
+    "id": "gtm:vital_signs_monitor",
+    "title": "Multi-Parameter ECG & SpO2 Mobile Cart",
+    "category": "hospital",
+    "dimensions_blocks": [
+      0.55,
+      1.45,
+      0.55
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.28,
+        0.0,
+        -0.28
+      ],
+      "max": [
+        0.28,
+        1.45,
+        0.28
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.72,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/vital_signs_monitor.geo.json",
+    "sha256": "89b6633f4f133400c34bd109cc09a7ffab937982dbccc0da491cad2babc577c9"
+  },
+  {
+    "id": "gtm:medicine_dispense_cabinet",
+    "title": "Dual-Lock Narcotic Medication Safe",
+    "category": "hospital",
+    "dimensions_blocks": [
+      0.9,
+      1.8,
+      0.45
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.45,
+        0.0,
+        -0.23
+      ],
+      "max": [
+        0.45,
+        1.8,
+        0.23
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.9,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/medicine_dispense_cabinet.geo.json",
+    "sha256": "4cb28b0cca301fd7b3f16e365778d4daf457b06db20b545ed8d750a19c32c2e8"
+  },
+  {
+    "id": "gtm:wheelchair_standard",
+    "title": "Foldable Chrome Hospital Wheelchair",
+    "category": "hospital",
+    "dimensions_blocks": [
+      0.7,
+      0.95,
+      1.0
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.35,
+        0.0,
+        -0.5
+      ],
+      "max": [
+        0.35,
+        0.95,
+        0.5
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.47,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/wheelchair_standard.geo.json",
+    "sha256": "06e4fe4e9dc176c17841d29286301c6929098ae04c23890a073791e9253a9b99"
+  },
+  {
+    "id": "gtm:transport_stretcher",
+    "title": "Heavy-Duty Emergency Hydraulic Gurney",
+    "category": "hospital",
+    "dimensions_blocks": [
+      0.75,
+      0.9,
+      2.1
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.38,
+        0.0,
+        -1.05
+      ],
+      "max": [
+        0.38,
+        0.9,
+        1.05
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.45,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/transport_stretcher.geo.json",
+    "sha256": "120376cb83fe58ecb6dc1d38bee3bc56e2cab1e022cbe1e6aa23ad663c111f10"
+  },
+  {
+    "id": "gtm:operating_theatre_lamp",
+    "title": "Dual-Head Balanced Surgical Ceiling Lamp",
+    "category": "hospital",
+    "dimensions_blocks": [
+      1.6,
+      0.6,
+      1.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.8,
+        0.0,
+        -0.8
+      ],
+      "max": [
+        0.8,
+        0.6,
+        0.8
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.3,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/operating_theatre_lamp.geo.json",
+    "sha256": "ea1c47e2b645768e6feace20a4e38aa463c702d2c7c184b1010f6378462c179b"
+  },
+  {
+    "id": "gtm:autoclave_sterilizer",
+    "title": "Benchtop Hospital Grade Autoclave Unit",
+    "category": "hospital",
+    "dimensions_blocks": [
+      0.65,
+      0.55,
+      0.65
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.33,
+        0.0,
+        -0.33
+      ],
+      "max": [
+        0.33,
+        0.55,
+        0.33
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.28,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/autoclave_sterilizer.geo.json",
+    "sha256": "f36d7503ea27d1e3f91cf934c2d6726e9512ab650807f12c9fe0813bee34fc83"
+  },
+  {
+    "id": "gtm:scrub_sink_double",
+    "title": "Knee-Operated Surgical Scrub Sink",
+    "category": "hospital",
+    "dimensions_blocks": [
+      1.4,
+      1.15,
+      0.65
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.7,
+        0.0,
+        -0.33
+      ],
+      "max": [
+        0.7,
+        1.15,
+        0.33
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.57,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/scrub_sink_double.geo.json",
+    "sha256": "e775bfe415c2285fa949855bd2ea264df205a5f8118351a29c56fab3fdda967b"
+  },
+  {
+    "id": "gtm:hospital_overbed_table",
+    "title": "Hydraulic Cantilever Overbed Tray",
+    "category": "hospital",
+    "dimensions_blocks": [
+      0.8,
+      0.85,
+      0.45
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.4,
+        0.0,
+        -0.23
+      ],
+      "max": [
+        0.4,
+        0.85,
+        0.23
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.42,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/hospital_overbed_table.geo.json",
+    "sha256": "db121e9768048ba9ae8d29d09437fef252bafc7cb98d338ca333e0e4a395242a"
+  },
+  {
+    "id": "gtm:triage_nursing_station",
+    "title": "High-Front Ergonomic Triage Desk",
+    "category": "hospital",
+    "dimensions_blocks": [
+      2.4,
+      1.15,
+      0.85
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.2,
+        0.0,
+        -0.42
+      ],
+      "max": [
+        1.2,
+        1.15,
+        0.42
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.57,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/triage_nursing_station.geo.json",
+    "sha256": "393a8e14513c0eeb1a8769db64a3020fbb9c9f7d66e580f386e97b2fd4de85a0"
+  },
+  {
+    "id": "gtm:oxygen_cylinder_trolley",
+    "title": "Dual 50L Medical Oxygen Tank Cart",
+    "category": "hospital",
+    "dimensions_blocks": [
+      0.55,
+      1.3,
+      0.45
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.28,
+        0.0,
+        -0.23
+      ],
+      "max": [
+        0.28,
+        1.3,
+        0.23
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.65,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/oxygen_cylinder_trolley.geo.json",
+    "sha256": "b3b49fdd01a26b5eeb5ee36db1c124f96d2f6a87a6cab1e2e26cb0221a606872"
+  },
+  {
+    "id": "gtm:biohazard_foot_bin",
+    "title": "Hands-Free Step-On Biohazard Container",
+    "category": "hospital",
+    "dimensions_blocks": [
+      0.45,
+      0.7,
+      0.45
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.23,
+        0.0,
+        -0.23
+      ],
+      "max": [
+        0.23,
+        0.7,
+        0.23
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.35,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/biohazard_foot_bin.geo.json",
+    "sha256": "90c61f8d4fa0dee1105af18ac6a18706bf4a898f0f7cb85853bdd044351f7763"
+  },
+  {
+    "id": "gtm:xray_viewing_lightbox",
+    "title": "Wall-Mount Twin LED Radiograph Viewer",
+    "category": "hospital",
+    "dimensions_blocks": [
+      0.9,
+      0.55,
+      0.1
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.45,
+        0.0,
+        -0.05
+      ],
+      "max": [
+        0.45,
+        0.55,
+        0.05
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.28,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/xray_viewing_lightbox.geo.json",
+    "sha256": "aebcfcc326ed84ea8928f839a8dccacd0cce0b5f4011038102a119a8607af91e"
+  },
+  {
+    "id": "gtm:phlebotomy_chair",
+    "title": "Armrest Blood Collection Donor Chair",
+    "category": "hospital",
+    "dimensions_blocks": [
+      0.85,
+      1.1,
+      0.85
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.42,
+        0.0,
+        -0.42
+      ],
+      "max": [
+        0.42,
+        1.1,
+        0.42
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.55,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/phlebotomy_chair.geo.json",
+    "sha256": "aa561ca42328cdfdc86d81350f7800d062b6505e26895c90599478665d3afdc6"
+  },
+  {
+    "id": "gtm:hospital_bedside_locker",
+    "title": "Molded Medical Cabinet with Towel Rail",
+    "category": "hospital",
+    "dimensions_blocks": [
+      0.5,
+      0.8,
+      0.45
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.25,
+        0.0,
+        -0.23
+      ],
+      "max": [
+        0.25,
+        0.8,
+        0.23
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.4,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/hospital_bedside_locker.geo.json",
+    "sha256": "d0930a555551c5c333976a7d349dad32d1f8c6e04154df94aa876ca70e1d83cd"
+  },
+  {
+    "id": "gtm:interrogation_table",
+    "title": "Heavy Bolted Metal Interrogation Table",
+    "category": "police",
+    "dimensions_blocks": [
+      1.4,
+      0.75,
+      0.8
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.7,
+        0.0,
+        -0.4
+      ],
+      "max": [
+        0.7,
+        0.75,
+        0.4
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.38,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/interrogation_table.geo.json",
+    "sha256": "2f67ad6d8e9c2afa86e31efad631d7956b31f0049f12156e7dbea5825d17104f"
+  },
+  {
+    "id": "gtm:suspect_restraint_chair",
+    "title": "Reinforced Fixed Frame Interrogation Seat",
+    "category": "police",
+    "dimensions_blocks": [
+      0.55,
+      0.85,
+      0.55
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.28,
+        0.0,
+        -0.28
+      ],
+      "max": [
+        0.28,
+        0.85,
+        0.28
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.42,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/suspect_restraint_chair.geo.json",
+    "sha256": "7f2305c5967e823c7ef681cb960ffde8debfe33ed8fc2a9f63bf3537adebe81c"
+  },
+  {
+    "id": "gtm:evidence_locker_grid",
+    "title": "Numbered Heavy Mesh Evidence Lockers",
+    "category": "police",
+    "dimensions_blocks": [
+      1.2,
+      1.95,
+      0.5
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.6,
+        0.0,
+        -0.25
+      ],
+      "max": [
+        0.6,
+        1.95,
+        0.25
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.97,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/evidence_locker_grid.geo.json",
+    "sha256": "a2a484326894b2c56955456fbb0ddc444ac148b185fd81b14fc6553b5ec46c54"
+  },
+  {
+    "id": "gtm:booking_fingerprint_kiosk",
+    "title": "Biometric Digital Booking Terminal",
+    "category": "police",
+    "dimensions_blocks": [
+      0.75,
+      1.35,
+      0.65
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.38,
+        0.0,
+        -0.33
+      ],
+      "max": [
+        0.38,
+        1.35,
+        0.33
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.68,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/booking_fingerprint_kiosk.geo.json",
+    "sha256": "3e9c776b8f8de03f4d183b37089043f4a8a448c474f6091d6837aa918b069240"
+  },
+  {
+    "id": "gtm:jail_cell_bunk_steel",
+    "title": "Wall-Anchored Dual Steel Cell Bunks",
+    "category": "police",
+    "dimensions_blocks": [
+      0.85,
+      1.7,
+      2.05
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.42,
+        0.0,
+        -1.02
+      ],
+      "max": [
+        0.42,
+        1.7,
+        1.02
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.85,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/jail_cell_bunk_steel.geo.json",
+    "sha256": "d206ee28a2e0b425d65501718c8e039dee70b431c165b692987904d2bd9f91fe"
+  },
+  {
+    "id": "gtm:cell_combi_toilet_sink",
+    "title": "Stainless Vandal-Resistant Prison Fixture",
+    "category": "police",
+    "dimensions_blocks": [
+      0.45,
+      0.95,
+      0.65
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.23,
+        0.0,
+        -0.33
+      ],
+      "max": [
+        0.23,
+        0.95,
+        0.33
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.47,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/cell_combi_toilet_sink.geo.json",
+    "sha256": "f4182e97e19d7375ec9e8d5a62ad17f7fb41ddaae66b6339d6101fe0d0c929a3"
+  },
+  {
+    "id": "gtm:patrol_sergeant_desk",
+    "title": "Bullet-Resistant Acrylic Shield Desk",
+    "category": "police",
+    "dimensions_blocks": [
+      1.8,
+      1.25,
+      0.8
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.9,
+        0.0,
+        -0.4
+      ],
+      "max": [
+        0.9,
+        1.25,
+        0.4
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.62,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/patrol_sergeant_desk.geo.json",
+    "sha256": "f650304c103c718905f69caac8543b9ee67b404a399f5761fbcebe2d7ad4d1d2"
+  },
+  {
+    "id": "gtm:weapon_armory_cage",
+    "title": "Vertical Racked Long-Gun Security Cage",
+    "category": "police",
+    "dimensions_blocks": [
+      1.6,
+      2.1,
+      0.55
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.8,
+        0.0,
+        -0.28
+      ],
+      "max": [
+        0.8,
+        2.1,
+        0.28
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        1.05,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/weapon_armory_cage.geo.json",
+    "sha256": "f3c37602a21a491b2c8cf41b7d968810105724d0223be77adc3901e638d81f68"
+  },
+  {
+    "id": "gtm:wanted_bulletin_corkboard",
+    "title": "Glass-Enclosed Police Notice Board",
+    "category": "police",
+    "dimensions_blocks": [
+      1.6,
+      1.0,
+      0.1
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.8,
+        0.0,
+        -0.05
+      ],
+      "max": [
+        0.8,
+        1.0,
+        0.05
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/wanted_bulletin_corkboard.geo.json",
+    "sha256": "abd199fb491caf0d3d453279ff476354cc79c8ed06a721cfc0de1d71722cf414"
+  },
+  {
+    "id": "gtm:breathalyzer_test_bench",
+    "title": "Certified Sobriety Testing Counter",
+    "category": "police",
+    "dimensions_blocks": [
+      1.0,
+      1.0,
+      0.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.5,
+        0.0,
+        -0.3
+      ],
+      "max": [
+        0.5,
+        1.0,
+        0.3
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/breathalyzer_test_bench.geo.json",
+    "sha256": "8c24da23c29ef86ae68234293012eb9cfbc8c13d362794067d2b1003ebef4954"
+  },
+  {
+    "id": "gtm:detention_bench_handcuff",
+    "title": "Floor-Bolted Steel Bench with Cuff Rail",
+    "category": "police",
+    "dimensions_blocks": [
+      2.0,
+      0.45,
+      0.45
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.0,
+        0.0,
+        -0.23
+      ],
+      "max": [
+        1.0,
+        0.45,
+        0.23
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.23,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/detention_bench_handcuff.geo.json",
+    "sha256": "28965984d6a0aaca82577c795bbd94f0fac2df8a9f1215f31b13bcc26054f753"
+  },
+  {
+    "id": "gtm:mugshot_height_backdrop",
+    "title": "Calibrated Wall-Mount Height Measurement",
+    "category": "police",
+    "dimensions_blocks": [
+      0.8,
+      2.0,
+      0.05
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.4,
+        0.0,
+        -0.03
+      ],
+      "max": [
+        0.4,
+        2.0,
+        0.03
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/mugshot_height_backdrop.geo.json",
+    "sha256": "70c0d04b6523664655e3d3350ff4f981ecb5bb029be053cfe3719c83e04adcd5"
+  },
+  {
+    "id": "gtm:surveillance_wall_cctv",
+    "title": "Quad-Monitor Video Observation Console",
+    "category": "police",
+    "dimensions_blocks": [
+      2.0,
+      1.8,
+      0.7
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.0,
+        0.0,
+        -0.35
+      ],
+      "max": [
+        1.0,
+        1.8,
+        0.35
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.9,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/surveillance_wall_cctv.geo.json",
+    "sha256": "8ec8b773d5742a5fc8c28e7a5367264739aa932cf12a8f7ed1c9853b11d237cb"
+  },
+  {
+    "id": "gtm:riot_shield_rack",
+    "title": "Mobile Interlocking Lexan Shield Stand",
+    "category": "police",
+    "dimensions_blocks": [
+      1.1,
+      1.4,
+      0.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.55,
+        0.0,
+        -0.3
+      ],
+      "max": [
+        0.55,
+        1.4,
+        0.3
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.7,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/riot_shield_rack.geo.json",
+    "sha256": "ffade3216fd2070a487365de7ef38b66ae19221dd07f4e602291a6d8eb48c665"
+  },
+  {
+    "id": "gtm:traffic_radar_calibration",
+    "title": "Highway Patrol Speed Kit Calibration Desk",
+    "category": "police",
+    "dimensions_blocks": [
+      1.2,
+      0.9,
+      0.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.6,
+        0.0,
+        -0.3
+      ],
+      "max": [
+        0.6,
+        0.9,
+        0.3
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.45,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/traffic_radar_calibration.geo.json",
+    "sha256": "e2273b0434d55e960af5a8eff94bec84e15e82a2f640bfe6ee382d5824cab029"
+  },
+  {
+    "id": "gtm:retail_cashwrap_wrap",
+    "title": "Modern Retail Cashier Counter Wrap",
+    "category": "commercial",
+    "dimensions_blocks": [
+      2.2,
+      1.05,
+      0.85
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.1,
+        0.0,
+        -0.42
+      ],
+      "max": [
+        1.1,
+        1.05,
+        0.42
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.53,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/retail_cashwrap_wrap.geo.json",
+    "sha256": "27b309946d94c6604c31da4b0990f552083f8a8f9df3178e0f0664bc3b21b44d"
+  },
+  {
+    "id": "gtm:clothing_gondola_double",
+    "title": "Dual-Sided Garment Hanging Gondola",
+    "category": "commercial",
+    "dimensions_blocks": [
+      1.4,
+      1.5,
+      0.8
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.7,
+        0.0,
+        -0.4
+      ],
+      "max": [
+        0.7,
+        1.5,
+        0.4
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.75,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/clothing_gondola_double.geo.json",
+    "sha256": "86e75406079bad58b090f0d10aa5b8ca21786021b8ee6465897dfc79661eef96"
+  },
+  {
+    "id": "gtm:supermarket_produce_bin",
+    "title": "Slanted 3-Tier Wooden Fruit Crate Rack",
+    "category": "commercial",
+    "dimensions_blocks": [
+      1.6,
+      1.3,
+      0.9
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.8,
+        0.0,
+        -0.45
+      ],
+      "max": [
+        0.8,
+        1.3,
+        0.45
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.65,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/supermarket_produce_bin.geo.json",
+    "sha256": "252e4c6168c92d0487b53fec1308bf5e29a2013254208627e523e24980957bda"
+  },
+  {
+    "id": "gtm:checkout_belt_counter",
+    "title": "Electric Conveyor Checkout Counter",
+    "category": "commercial",
+    "dimensions_blocks": [
+      2.8,
+      0.95,
+      1.1
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.4,
+        0.0,
+        -0.55
+      ],
+      "max": [
+        1.4,
+        0.95,
+        0.55
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.47,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/checkout_belt_counter.geo.json",
+    "sha256": "c6e2f6505312fe6364c1f0967f7d42c8e24a339a2e0d3045c46418270363fe44"
+  },
+  {
+    "id": "gtm:beverage_cooler_glass",
+    "title": "Commercial 2-Door Illuminated Drink Case",
+    "category": "commercial",
+    "dimensions_blocks": [
+      1.2,
+      1.95,
+      0.75
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.6,
+        0.0,
+        -0.38
+      ],
+      "max": [
+        0.6,
+        1.95,
+        0.38
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.97,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/beverage_cooler_glass.geo.json",
+    "sha256": "84769428fc9a531a0732918395c9f3efabd4b492b71e3f601b8873d6e6d5924f"
+  },
+  {
+    "id": "gtm:ice_cream_freezer",
+    "title": "Curved Glass Chest Ice Cream Showcase",
+    "category": "commercial",
+    "dimensions_blocks": [
+      1.3,
+      0.9,
+      0.7
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.65,
+        0.0,
+        -0.35
+      ],
+      "max": [
+        0.65,
+        0.9,
+        0.35
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.45,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/ice_cream_freezer.geo.json",
+    "sha256": "bee2cdb38abac8c55b3aa3df039c75e542a928f98bfe3f640ab7a96b9280c0d0"
+  },
+  {
+    "id": "gtm:bakery_glass_display",
+    "title": "Heated Glass Pastry & Samosa Counter",
+    "category": "commercial",
+    "dimensions_blocks": [
+      1.5,
+      1.2,
+      0.75
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.75,
+        0.0,
+        -0.38
+      ],
+      "max": [
+        0.75,
+        1.2,
+        0.38
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.6,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/bakery_glass_display.geo.json",
+    "sha256": "d4af8d40469cb62097479af8daedb85d23a17b0488b07d836d8aff1ca4340232"
+  },
+  {
+    "id": "gtm:mannequin_podium",
+    "title": "Square Lacquered Retail Display Plinth",
+    "category": "commercial",
+    "dimensions_blocks": [
+      0.7,
+      0.25,
+      0.7
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.35,
+        0.0,
+        -0.35
+      ],
+      "max": [
+        0.35,
+        0.25,
+        0.35
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.12,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/mannequin_podium.geo.json",
+    "sha256": "25eba873bf1022da8b9c3eeaa49d389eaf4fad581722b924d1920320c0702a01"
+  },
+  {
+    "id": "gtm:shoe_display_wall",
+    "title": "Slatwall Angled Footwear Display Unit",
+    "category": "commercial",
+    "dimensions_blocks": [
+      1.8,
+      2.1,
+      0.4
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.9,
+        0.0,
+        -0.2
+      ],
+      "max": [
+        0.9,
+        2.1,
+        0.2
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        1.05,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/shoe_display_wall.geo.json",
+    "sha256": "472dcb1df887d0a0b73b4d58f8671868ac8d09fd6ec18902f55e8f55547ee96b"
+  },
+  {
+    "id": "gtm:jewelry_glass_case",
+    "title": "Lockable Velvet-Lined Showcase Pedestal",
+    "category": "commercial",
+    "dimensions_blocks": [
+      0.6,
+      1.05,
+      0.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.3,
+        0.0,
+        -0.3
+      ],
+      "max": [
+        0.3,
+        1.05,
+        0.3
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.53,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/jewelry_glass_case.geo.json",
+    "sha256": "d901ca2b64dff30a75008b95e6669add1bd8f8b6851128b452f1f629877fac13"
+  },
+  {
+    "id": "gtm:pharmacy_pill_bay",
+    "title": "Gravity-Feed Medication Dispenser Wall",
+    "category": "commercial",
+    "dimensions_blocks": [
+      1.6,
+      2.1,
+      0.45
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.8,
+        0.0,
+        -0.23
+      ],
+      "max": [
+        0.8,
+        2.1,
+        0.23
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        1.05,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/pharmacy_pill_bay.geo.json",
+    "sha256": "1fb24f29c2eaf507e705ba81d76be8a986330c2040c98887c33ee6355985e24d"
+  },
+  {
+    "id": "gtm:atm_lobby_enclosure",
+    "title": "First National Bank ATM Kiosk Fascia",
+    "category": "commercial",
+    "dimensions_blocks": [
+      1.0,
+      2.0,
+      0.9
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.5,
+        0.0,
+        -0.45
+      ],
+      "max": [
+        0.5,
+        2.0,
+        0.45
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/atm_lobby_enclosure.geo.json",
+    "sha256": "0c3ed4f9d33a4bf1f58a5093a0139189e61a95cafa9fea005856254243452bff"
+  },
+  {
+    "id": "gtm:security_turnstile_rfid",
+    "title": "Optical Glass Flap Access Barrier",
+    "category": "commercial",
+    "dimensions_blocks": [
+      1.4,
+      1.0,
+      1.0
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.7,
+        0.0,
+        -0.5
+      ],
+      "max": [
+        0.7,
+        1.0,
+        0.5
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/security_turnstile_rfid.geo.json",
+    "sha256": "02800cb331b47809b545ba9d7ac46f6ab031cb80ed5ef188e14009ae6f6576fa"
+  },
+  {
+    "id": "gtm:shopping_cart_nest",
+    "title": "Row of 10 Interlocked Wire Supermarket Carts",
+    "category": "commercial",
+    "dimensions_blocks": [
+      0.8,
+      1.0,
+      3.2
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.4,
+        0.0,
+        -1.6
+      ],
+      "max": [
+        0.4,
+        1.0,
+        1.6
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/shopping_cart_nest.geo.json",
+    "sha256": "9714427b23d54280a3fe4df43a2edcd1ed98069565049cb6d3725a4dd0beebf6"
+  },
+  {
+    "id": "gtm:fitting_room_cubicle",
+    "title": "Curtained Boutique Dressing Booth",
+    "category": "commercial",
+    "dimensions_blocks": [
+      1.2,
+      2.1,
+      1.2
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.6,
+        0.0,
+        -0.6
+      ],
+      "max": [
+        0.6,
+        2.1,
+        0.6
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        1.05,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/fitting_room_cubicle.geo.json",
+    "sha256": "7c2bdb6e17f5b30f868c6ec981abfa87a786377408211972f928f9ffbf0a4ef1"
+  },
+  {
+    "id": "gtm:retail_security_gate",
+    "title": "EAS Anti-Theft Sensor Pedestal Pair",
+    "category": "commercial",
+    "dimensions_blocks": [
+      1.2,
+      1.5,
+      0.15
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.6,
+        0.0,
+        -0.07
+      ],
+      "max": [
+        0.6,
+        1.5,
+        0.07
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.75,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/retail_security_gate.geo.json",
+    "sha256": "dc9c3c98ae1917bb33064b05ccb5097f19fe7f04c618a1164c94da7dbb6bfb48"
+  },
+  {
+    "id": "gtm:snack_vending_machine",
+    "title": "Coil-Drop Snack & Cold Drink Vendor",
+    "category": "commercial",
+    "dimensions_blocks": [
+      1.0,
+      1.9,
+      0.85
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.5,
+        0.0,
+        -0.42
+      ],
+      "max": [
+        0.5,
+        1.9,
+        0.42
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.95,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/snack_vending_machine.geo.json",
+    "sha256": "d1bcb6152c5d302c1a96152c38bbf702222463beb936498b68e79e32a7589637"
+  },
+  {
+    "id": "gtm:magazine_kiosk_wire",
+    "title": "Rotating Outdoor Newspaper Wire Tree",
+    "category": "commercial",
+    "dimensions_blocks": [
+      0.55,
+      1.7,
+      0.55
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.28,
+        0.0,
+        -0.28
+      ],
+      "max": [
+        0.28,
+        1.7,
+        0.28
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.85,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/magazine_kiosk_wire.geo.json",
+    "sha256": "0d02e4016c43d595497c1249d5e96def1d907409826558e374e0e321854c0585"
+  },
+  {
+    "id": "gtm:cosmetics_tester_bar",
+    "title": "Illuminated Mirror Makeup Sampler Unit",
+    "category": "commercial",
+    "dimensions_blocks": [
+      1.4,
+      1.4,
+      0.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.7,
+        0.0,
+        -0.3
+      ],
+      "max": [
+        0.7,
+        1.4,
+        0.3
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.7,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/cosmetics_tester_bar.geo.json",
+    "sha256": "081f2349c5d828e8ef283401dedabdaba832bf340f63831ca3a3540b7ae7c9c6"
+  },
+  {
+    "id": "gtm:pos_pedestal_standalone",
+    "title": "Touchscreen Tablet Self-Service Terminal",
+    "category": "commercial",
+    "dimensions_blocks": [
+      0.45,
+      1.2,
+      0.45
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.23,
+        0.0,
+        -0.23
+      ],
+      "max": [
+        0.23,
+        1.2,
+        0.23
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.6,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/pos_pedestal_standalone.geo.json",
+    "sha256": "3f17c6de45da662052f22749f385ed437253096acb17b83189eff42f3fccd7e5"
+  },
+  {
+    "id": "gtm:bulk_grain_dispenser",
+    "title": "Hygienic Acrylic Dal & Rice Hopper Bank",
+    "category": "commercial",
+    "dimensions_blocks": [
+      1.5,
+      1.6,
+      0.5
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.75,
+        0.0,
+        -0.25
+      ],
+      "max": [
+        0.75,
+        1.6,
+        0.25
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.8,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/bulk_grain_dispenser.geo.json",
+    "sha256": "6dbcb2aa4a952307c938313e7aa727d77d696450f28c083370333fe5a8f9b4be"
+  },
+  {
+    "id": "gtm:umbrella_stand_drip",
+    "title": "Entryway Commercial Brass Umbrella Drip Pan",
+    "category": "commercial",
+    "dimensions_blocks": [
+      0.4,
+      0.65,
+      0.4
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.2,
+        0.0,
+        -0.2
+      ],
+      "max": [
+        0.2,
+        0.65,
+        0.2
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.33,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/umbrella_stand_drip.geo.json",
+    "sha256": "3978c5b2126f8110cdccfbf7e6a820f4c965986339c76179eada5cdacdc21f4a"
+  },
+  {
+    "id": "gtm:crowd_stanchion_belt",
+    "title": "Retractable Red Nylon Queue Barrier Post",
+    "category": "commercial",
+    "dimensions_blocks": [
+      0.35,
+      0.95,
+      0.35
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.17,
+        0.0,
+        -0.17
+      ],
+      "max": [
+        0.17,
+        0.95,
+        0.17
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.47,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/crowd_stanchion_belt.geo.json",
+    "sha256": "c725b4194da347ac5d08d6efe32270dddc495f49a67b4d9d10da28a404f5ead7"
+  },
+  {
+    "id": "gtm:electronics_demo_bench",
+    "title": "Security-Tethered Smartphone Demo Table",
+    "category": "commercial",
+    "dimensions_blocks": [
+      1.8,
+      0.95,
+      0.85
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.9,
+        0.0,
+        -0.42
+      ],
+      "max": [
+        0.9,
+        0.95,
+        0.42
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.47,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/electronics_demo_bench.geo.json",
+    "sha256": "c6720986d9895e89561a8dd48e6457dd1b374a14ff0549584dcac8ff749a97ae"
+  },
+  {
+    "id": "gtm:luggage_scale_weigh",
+    "title": "Airport & Courier Platform Floor Scale",
+    "category": "commercial",
+    "dimensions_blocks": [
+      0.8,
+      0.85,
+      0.8
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.4,
+        0.0,
+        -0.4
+      ],
+      "max": [
+        0.4,
+        0.85,
+        0.4
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.42,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/luggage_scale_weigh.geo.json",
+    "sha256": "251240b50fe919e1fca9d2bf349a809171098c65a8c15854f854fa930bc5544c"
+  },
+  {
+    "id": "gtm:park_bench_teak",
+    "title": "Cast-Iron Teak Slat Garden Bench",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      1.8,
+      0.85,
+      0.7
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.9,
+        0.0,
+        -0.35
+      ],
+      "max": [
+        0.9,
+        0.85,
+        0.35
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.42,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/park_bench_teak.geo.json",
+    "sha256": "c6444ac7012ea60d13b953d343482bc93d4a99b3f63fc077bfbb92817b29fe89"
+  },
+  {
+    "id": "gtm:street_lamppost_colonial",
+    "title": "Double-Arm Ornate Victorian Streetlamp",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      0.9,
+      4.2,
+      0.9
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.45,
+        0.0,
+        -0.45
+      ],
+      "max": [
+        0.45,
+        4.2,
+        0.45
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        2.1,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/street_lamppost_colonial.geo.json",
+    "sha256": "01e5be37e29422db9a574850a6d226d938bb21f35b4cb5c5b3a60423537b4463"
+  },
+  {
+    "id": "gtm:bus_shelter_glass",
+    "title": "Modern Cantilever Glass Transit Shelter",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      3.2,
+      2.6,
+      1.8
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.6,
+        0.0,
+        -0.9
+      ],
+      "max": [
+        1.6,
+        2.6,
+        0.9
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        1.3,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/bus_shelter_glass.geo.json",
+    "sha256": "5e446142a681de53a01c52f59cdb6fce92f6b2c20a5e02dae994d85bc02de9a6"
+  },
+  {
+    "id": "gtm:municipal_litter_bin",
+    "title": "Split Dual Wet/Dry Municipal Street Bin",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      0.65,
+      0.95,
+      0.4
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.33,
+        0.0,
+        -0.2
+      ],
+      "max": [
+        0.33,
+        0.95,
+        0.2
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.47,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/municipal_litter_bin.geo.json",
+    "sha256": "70628c956378e09981a239af0bcfad98b8ff1878cae726e81487aa59d272f2a8"
+  },
+  {
+    "id": "gtm:traffic_bollard_steel",
+    "title": "Reflective Banded Cast Steel Bollard",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      0.25,
+      0.85,
+      0.25
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.12,
+        0.0,
+        -0.12
+      ],
+      "max": [
+        0.12,
+        0.85,
+        0.12
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.42,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/traffic_bollard_steel.geo.json",
+    "sha256": "9020c7837bc69535150bd9c24438ce1c029f2e365c10d23b3c34e1c161839c29"
+  },
+  {
+    "id": "gtm:tree_planter_curb",
+    "title": "Polished Granite Geometric Street Planter",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      1.2,
+      0.6,
+      1.2
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.6,
+        0.0,
+        -0.6
+      ],
+      "max": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.3,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/tree_planter_curb.geo.json",
+    "sha256": "66b5493222e6ac6b52500bd17206dee06f105b6000ae38b1ad697c50a4af1867"
+  },
+  {
+    "id": "gtm:vendor_kiosk_tea",
+    "title": "Pavement Steel Tapri Chai Kiosk",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      2.2,
+      2.4,
+      1.8
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.1,
+        0.0,
+        -0.9
+      ],
+      "max": [
+        1.1,
+        2.4,
+        0.9
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        1.2,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/vendor_kiosk_tea.geo.json",
+    "sha256": "cd7a03e453ec60d12d9bc1a7ac40a6e3193275765034374913d38c7202fcaf47"
+  },
+  {
+    "id": "gtm:street_market_tarp",
+    "title": "Bamboo Frame Weathered Vendor Canopy",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      2.5,
+      2.2,
+      2.5
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.25,
+        0.0,
+        -1.25
+      ],
+      "max": [
+        1.25,
+        2.2,
+        1.25
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        1.1,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/street_market_tarp.geo.json",
+    "sha256": "e650c9a2dbbba94e6e304aec965f7cefea5b433c3203ad45e13337c55ea3108b"
+  },
+  {
+    "id": "gtm:drinking_fountain_pedestal",
+    "title": "Dual-Height Bubbler Chilled Fountain",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      0.45,
+      0.95,
+      0.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.23,
+        0.0,
+        -0.3
+      ],
+      "max": [
+        0.23,
+        0.95,
+        0.3
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.47,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/drinking_fountain_pedestal.geo.json",
+    "sha256": "d9f8f4af3ea50bf91f15d64a1cf6bdf71ac2714a79bf0b3a5b54c98a237c8581"
+  },
+  {
+    "id": "gtm:bicycle_docking_rack",
+    "title": "6-Slot Wave Tube Public Bike Stand",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      2.4,
+      0.85,
+      0.5
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.2,
+        0.0,
+        -0.25
+      ],
+      "max": [
+        1.2,
+        0.85,
+        0.25
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.42,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/bicycle_docking_rack.geo.json",
+    "sha256": "ab9cc42479123c09e6b6d1190c099122a8b7caad1c0e80b30e5287783f2a25cd"
+  },
+  {
+    "id": "gtm:fire_hydrant_brass",
+    "title": "Dual Pumper Connection High-Pressure Hydrant",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      0.4,
+      0.75,
+      0.4
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.2,
+        0.0,
+        -0.2
+      ],
+      "max": [
+        0.2,
+        0.75,
+        0.2
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.38,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/fire_hydrant_brass.geo.json",
+    "sha256": "7b3b5059d06f4fc464115c15f28524965462297b869084081ec5ac591576a613"
+  },
+  {
+    "id": "gtm:traffic_signal_pole",
+    "title": "4-Way Mast Arm LED Traffic Signal Light",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      1.2,
+      5.5,
+      3.2
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.6,
+        0.0,
+        -1.6
+      ],
+      "max": [
+        0.6,
+        5.5,
+        1.6
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        2.75,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/traffic_signal_pole.geo.json",
+    "sha256": "29557302754bc3bf39029d29a28764159153df29603699ddbaf84b8180a6f5cf"
+  },
+  {
+    "id": "gtm:speed_camera_gantry",
+    "title": "Overhead Automatic Radar Flash Housing",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      0.6,
+      0.8,
+      0.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.3,
+        0.0,
+        -0.3
+      ],
+      "max": [
+        0.3,
+        0.8,
+        0.3
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.4,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/speed_camera_gantry.geo.json",
+    "sha256": "5ccd574148d66fc9fc0719ee4765adb6c0a94b9b637bb0b82782eac4c5a496ee"
+  },
+  {
+    "id": "gtm:street_name_signpost",
+    "title": "Bilingual Cast Heritage Road Sign",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      0.5,
+      2.8,
+      0.1
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.25,
+        0.0,
+        -0.05
+      ],
+      "max": [
+        0.25,
+        2.8,
+        0.05
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        1.4,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/street_name_signpost.geo.json",
+    "sha256": "70c402f46ca2116e74e9536422d74c3390f76f6b5621f27230f8a645f826831f"
+  },
+  {
+    "id": "gtm:utility_junction_box",
+    "title": "Ground-Mounted Electric Cable Cabinet",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      0.85,
+      1.15,
+      0.4
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.42,
+        0.0,
+        -0.2
+      ],
+      "max": [
+        0.42,
+        1.15,
+        0.2
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.57,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/utility_junction_box.geo.json",
+    "sha256": "62a79bd3b15b475759eb9f053c8c9172b27485cf959df2281df72c7efeae2c16"
+  },
+  {
+    "id": "gtm:public_emergency_pillar",
+    "title": "Direct-to-SDPD Panic Intercom Column",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      0.35,
+      2.4,
+      0.35
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.17,
+        0.0,
+        -0.17
+      ],
+      "max": [
+        0.17,
+        2.4,
+        0.17
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        1.2,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/public_emergency_pillar.geo.json",
+    "sha256": "9401c57fa2ed45f7c7491daf6e57ea4d3bbceeb23e0951c54057a9e2ac6fde40"
+  },
+  {
+    "id": "gtm:decorative_fountain_tier",
+    "title": "Central Plaza 3-Tier Stone Fountain",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      3.2,
+      2.4,
+      3.2
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.6,
+        0.0,
+        -1.6
+      ],
+      "max": [
+        1.6,
+        2.4,
+        1.6
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        1.2,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/decorative_fountain_tier.geo.json",
+    "sha256": "50d3ed0e45716f079e5af40c43f90cc11e546454b1774024532d3a64560db3fa"
+  },
+  {
+    "id": "gtm:pavement_newspaper_stand",
+    "title": "Folding Metal Morning News Stand",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      1.1,
+      1.0,
+      0.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.55,
+        0.0,
+        -0.3
+      ],
+      "max": [
+        0.55,
+        1.0,
+        0.3
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/pavement_newspaper_stand.geo.json",
+    "sha256": "2403fb6b0a71e2d6b7eadbf9fec29bcaa2bd66a5282d13c2942b7f9217d39225"
+  },
+  {
+    "id": "gtm:concrete_barrier_jersey",
+    "title": "Standard Interlocking Highway Jersey Barrier",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      2.0,
+      0.85,
+      0.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.0,
+        0.0,
+        -0.3
+      ],
+      "max": [
+        1.0,
+        0.85,
+        0.3
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.42,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/concrete_barrier_jersey.geo.json",
+    "sha256": "7cca2f13ef19008667dfc37087074b3303bf1a198627884af7d42c80ba7ac920"
+  },
+  {
+    "id": "gtm:pedestrian_crossing_beacon",
+    "title": "Solar Flashing Amber Pedestrian Marker",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      0.35,
+      3.2,
+      0.35
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.17,
+        0.0,
+        -0.17
+      ],
+      "max": [
+        0.17,
+        3.2,
+        0.17
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        1.6,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/pedestrian_crossing_beacon.geo.json",
+    "sha256": "abf899e804a8340935eb5e8d08467608241d8df3897de924a00a34f650cbd159"
+  },
+  {
+    "id": "gtm:street_paan_stall",
+    "title": "Compact Glass-Front Betel Leaf Stall",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      1.2,
+      1.4,
+      0.8
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.6,
+        0.0,
+        -0.4
+      ],
+      "max": [
+        0.6,
+        1.4,
+        0.4
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.7,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/street_paan_stall.geo.json",
+    "sha256": "8e5f93aa4f0992462c2fcd4e207bd99b064a99f98b05f5ae07bd0a779b03ce87"
+  },
+  {
+    "id": "gtm:rooftop_satellite_dish",
+    "title": "High-Gain Parabolic Telecom Dish Array",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      1.8,
+      2.1,
+      1.8
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.9,
+        0.0,
+        -0.9
+      ],
+      "max": [
+        0.9,
+        2.1,
+        0.9
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        1.05,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/rooftop_satellite_dish.geo.json",
+    "sha256": "9a4bf5163fbe80f8a9a21e00aac3c40a3d986620e369385c02ee0920ec5eb1ef"
+  },
+  {
+    "id": "gtm:security_checkpoint_barrier",
+    "title": "Counterweighted Boom Gate Arm",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      3.5,
+      1.1,
+      0.4
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.75,
+        0.0,
+        -0.2
+      ],
+      "max": [
+        1.75,
+        1.1,
+        0.2
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.55,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/security_checkpoint_barrier.geo.json",
+    "sha256": "1db8f5061de4a8723fd46cbe2dc367320ab5fc84699fc7f8f3798045302b4303"
+  },
+  {
+    "id": "gtm:coastal_lifebuoy_stand",
+    "title": "Harbour Marine Ring Buoy Station",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      0.4,
+      1.4,
+      0.25
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.2,
+        0.0,
+        -0.12
+      ],
+      "max": [
+        0.2,
+        1.4,
+        0.12
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.7,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/coastal_lifebuoy_stand.geo.json",
+    "sha256": "5b5425d3e62549180859f81123272a25053124d08b471da3ffc9e279e652ce41"
+  },
+  {
+    "id": "gtm:monument_plinth_bronze",
+    "title": "Commemorative Municipal Bronze Plinth",
+    "category": "outdoor",
+    "dimensions_blocks": [
+      1.4,
+      1.8,
+      1.4
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.7,
+        0.0,
+        -0.7
+      ],
+      "max": [
+        0.7,
+        1.8,
+        0.7
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.9,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/monument_plinth_bronze.geo.json",
+    "sha256": "f61e31d255b96b6198a24c4c69d75c483c7cf6dfe20d2875179cf990618cc8a9"
+  },
+  {
+    "id": "gtm:charpai_woven_cot",
+    "title": "Hand-Strung Jute Rope Wooden Charpai",
+    "category": "traditional_indian",
+    "dimensions_blocks": [
+      1.0,
+      0.55,
+      1.95
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.5,
+        0.0,
+        -0.97
+      ],
+      "max": [
+        0.5,
+        0.55,
+        0.97
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.28,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/charpai_woven_cot.geo.json",
+    "sha256": "c1a032f7c4785858976f721e0c4f943fafc3842e568adae61710fb88bbcd785e"
+  },
+  {
+    "id": "gtm:jhula_swing_carved",
+    "title": "Ceiling-Hung Carved Teak Jhula Swing",
+    "category": "traditional_indian",
+    "dimensions_blocks": [
+      1.6,
+      1.7,
+      0.85
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.8,
+        0.0,
+        -0.42
+      ],
+      "max": [
+        0.8,
+        1.7,
+        0.42
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.85,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/jhula_swing_carved.geo.json",
+    "sha256": "258cc4d75bb4408a64d1e9ead694fbb176ea6ec17e4ec4b172e3287007a6bbc9"
+  },
+  {
+    "id": "gtm:diwan_daybed_bolster",
+    "title": "Low Wooden Diwan with Cylindrical Bolsters",
+    "category": "traditional_indian",
+    "dimensions_blocks": [
+      1.0,
+      0.5,
+      2.0
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.5,
+        0.0,
+        -1.0
+      ],
+      "max": [
+        0.5,
+        0.5,
+        1.0
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.25,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/diwan_daybed_bolster.geo.json",
+    "sha256": "efe8171ef1eaf4681d9310fcd1dc20949962e00ef670bad705e3cc3adee7c354"
+  },
+  {
+    "id": "gtm:urli_brass_bowl",
+    "title": "Carved Bell-Metal Water Urli Floating Petals",
+    "category": "traditional_indian",
+    "dimensions_blocks": [
+      0.65,
+      0.25,
+      0.65
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.33,
+        0.0,
+        -0.33
+      ],
+      "max": [
+        0.33,
+        0.25,
+        0.33
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.12,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/urli_brass_bowl.geo.json",
+    "sha256": "7ea464140a4f433f69d15120548721cbf175406a764927baadcdf1614c29a8b0"
+  },
+  {
+    "id": "gtm:pooja_mandir_shrine",
+    "title": "Wall-Mounted Teak Home Mandir with Dome",
+    "category": "traditional_indian",
+    "dimensions_blocks": [
+      0.85,
+      1.35,
+      0.5
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.42,
+        0.0,
+        -0.25
+      ],
+      "max": [
+        0.42,
+        1.35,
+        0.25
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.68,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/pooja_mandir_shrine.geo.json",
+    "sha256": "aa52dd87cdb631285edef67a1b838d14fc28308ae0398c0a3b479d8844f8982d"
+  },
+  {
+    "id": "gtm:baithak_low_table",
+    "title": "Low Traditional Floor Baithak Chaurang",
+    "category": "traditional_indian",
+    "dimensions_blocks": [
+      0.8,
+      0.25,
+      0.8
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.4,
+        0.0,
+        -0.4
+      ],
+      "max": [
+        0.4,
+        0.25,
+        0.4
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.12,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/baithak_low_table.geo.json",
+    "sha256": "0dcd3c69f47f0b8fe3ea34f972dbedf50e9008b192fd9461a59a7fa33f519005"
+  },
+  {
+    "id": "gtm:gaddi_floor_cushions",
+    "title": "Satin-Covered Thick Floor Mattress & Pillows",
+    "category": "traditional_indian",
+    "dimensions_blocks": [
+      1.2,
+      0.2,
+      1.8
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.6,
+        0.0,
+        -0.9
+      ],
+      "max": [
+        0.6,
+        0.2,
+        0.9
+      ]
+    },
+    "interaction_marker": {
+      "type": "seat",
+      "position": [
+        0.0,
+        0.1,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/gaddi_floor_cushions.geo.json",
+    "sha256": "f6997dc4c0d4a5b8450d12724d63d79ba037592f3055a08e43812a678c958619"
+  },
+  {
+    "id": "gtm:brass_samai_diya",
+    "title": "Multi-Tier Standing Temple Oil Lamp",
+    "category": "traditional_indian",
+    "dimensions_blocks": [
+      0.4,
+      1.45,
+      0.4
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.2,
+        0.0,
+        -0.2
+      ],
+      "max": [
+        0.2,
+        1.45,
+        0.2
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.72,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/brass_samai_diya.geo.json",
+    "sha256": "f44d623d4fcdcf79cf81c5e5ab679ea4e068a3950e3422eea3b9d501c578d7a3"
+  },
+  {
+    "id": "gtm:jali_partition_sheesham",
+    "title": "Intricate Lattice Folding Room Divider",
+    "category": "traditional_indian",
+    "dimensions_blocks": [
+      1.8,
+      1.85,
+      0.2
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.9,
+        0.0,
+        -0.1
+      ],
+      "max": [
+        0.9,
+        1.85,
+        0.1
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.93,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/jali_partition_sheesham.geo.json",
+    "sha256": "b2e402cb1c2572933b6137d7abd42db2d6bceb18d9871ec83d95d8fc45ad70a5"
+  },
+  {
+    "id": "gtm:sindoor_box_meenakari",
+    "title": "Enamelled Meenakari Brass Trinket Chest",
+    "category": "traditional_indian",
+    "dimensions_blocks": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.17,
+        0.0,
+        -0.17
+      ],
+      "max": [
+        0.17,
+        0.35,
+        0.17
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.17,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/sindoor_box_meenakari.geo.json",
+    "sha256": "86ab9e4c86ae550baea84cf96227cc9111d5929d8da385e2b2898afce2f1391b"
+  },
+  {
+    "id": "gtm:hookah_ornate_pipe",
+    "title": "Engraved Coastal Brass Hubbly-Bubbly Pipe",
+    "category": "traditional_indian",
+    "dimensions_blocks": [
+      0.4,
+      0.95,
+      0.4
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.2,
+        0.0,
+        -0.2
+      ],
+      "max": [
+        0.2,
+        0.95,
+        0.2
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.47,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/hookah_ornate_pipe.geo.json",
+    "sha256": "20b23586710f40dd9aa67af3bf5a93ab7d815470e85e7c3ef9ef1453c63a5d99"
+  },
+  {
+    "id": "gtm:dholak_musical_drum",
+    "title": "Two-Headed Mango Wood Rhythm Drum & Stand",
+    "category": "traditional_indian",
+    "dimensions_blocks": [
+      0.75,
+      0.45,
+      0.4
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.38,
+        0.0,
+        -0.2
+      ],
+      "max": [
+        0.38,
+        0.45,
+        0.2
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.23,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/dholak_musical_drum.geo.json",
+    "sha256": "a491f4a49b31df467fe6d0b263e168f95da58ffcb0392290231f16adcc512b21"
+  },
+  {
+    "id": "gtm:sitar_wooden_stand",
+    "title": "Carved Gourd Sitar Instrument & Display",
+    "category": "traditional_indian",
+    "dimensions_blocks": [
+      0.45,
+      1.25,
+      0.45
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.23,
+        0.0,
+        -0.23
+      ],
+      "max": [
+        0.23,
+        1.25,
+        0.23
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.62,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/sitar_wooden_stand.geo.json",
+    "sha256": "5317464ae4f21795ad6dec87c65feb72c6f307e2edccabf1c533e65bd334b9f6"
+  },
+  {
+    "id": "gtm:tiffin_carrier_brass",
+    "title": "4-Tier Stacked Interlocking Lunch Box",
+    "category": "traditional_indian",
+    "dimensions_blocks": [
+      0.25,
+      0.45,
+      0.25
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.12,
+        0.0,
+        -0.12
+      ],
+      "max": [
+        0.12,
+        0.45,
+        0.12
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.23,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/tiffin_carrier_brass.geo.json",
+    "sha256": "27e8ac48ba48105f6aa95c9ef5d13e12cac9485064a50f0c4992858727e62a32"
+  },
+  {
+    "id": "gtm:attar_perfume_tray",
+    "title": "Cut-Glass Concentrated Perfume Flacon Tray",
+    "category": "traditional_indian",
+    "dimensions_blocks": [
+      0.4,
+      0.2,
+      0.3
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.2,
+        0.0,
+        -0.15
+      ],
+      "max": [
+        0.2,
+        0.2,
+        0.15
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.1,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/attar_perfume_tray.geo.json",
+    "sha256": "f1b7dc7fdc0483d4d6fa887f30835da0b4f0e7b47fe0a59d21eab53a48cc51d8"
+  },
+  {
+    "id": "gtm:spice_box_masala_dabba",
+    "title": "Circular 7-Cup Stainless Spicewell with Lid",
+    "category": "traditional_indian",
+    "dimensions_blocks": [
+      0.3,
+      0.15,
+      0.3
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.15,
+        0.0,
+        -0.15
+      ],
+      "max": [
+        0.15,
+        0.15,
+        0.15
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.07,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/spice_box_masala_dabba.geo.json",
+    "sha256": "52e308582e3de502439daa6dbb3c9200c4743a3cd9434696d30d508f1d369550"
+  },
+  {
+    "id": "gtm:handloom_charkha",
+    "title": "Historic Folding Wooden Cotton Spinning Wheel",
+    "category": "traditional_indian",
+    "dimensions_blocks": [
+      0.75,
+      0.5,
+      0.4
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.38,
+        0.0,
+        -0.2
+      ],
+      "max": [
+        0.38,
+        0.5,
+        0.2
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.25,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/handloom_charkha.geo.json",
+    "sha256": "f5d7bcb40420e99dc56d2e204a197d0b4f2cf51e26680fc062443d33b1877c88"
+  },
+  {
+    "id": "gtm:traditional_safe_tijori",
+    "title": "Reinforced Brass Ironbound Antique Safe",
+    "category": "traditional_indian",
+    "dimensions_blocks": [
+      0.75,
+      0.95,
+      0.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.38,
+        0.0,
+        -0.3
+      ],
+      "max": [
+        0.38,
+        0.95,
+        0.3
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.47,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/traditional_safe_tijori.geo.json",
+    "sha256": "3dcad2442d440c03630e3f0f40078c9e503f64b55a30b6d74db479506002e39b"
+  },
+  {
+    "id": "gtm:terracotta_matka_pot",
+    "title": "Clay Cooling Water Vessel on Wicker Ring",
+    "category": "traditional_indian",
+    "dimensions_blocks": [
+      0.4,
+      0.6,
+      0.4
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.2,
+        0.0,
+        -0.2
+      ],
+      "max": [
+        0.2,
+        0.6,
+        0.2
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.3,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/terracotta_matka_pot.geo.json",
+    "sha256": "f856abc67ca017992d3c2830ddc9e23f657f72a40f4ec25c1360c92a3e42783d"
+  },
+  {
+    "id": "gtm:doorway_toran_marigold",
+    "title": "Festive Fabric Marigold & Mango Leaf Arch",
+    "category": "traditional_indian",
+    "dimensions_blocks": [
+      1.6,
+      0.4,
+      0.1
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.8,
+        0.0,
+        -0.05
+      ],
+      "max": [
+        0.8,
+        0.4,
+        0.05
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.2,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/doorway_toran_marigold.geo.json",
+    "sha256": "bc92e3bbd94b74c288b5b95bdad7a61e262305cf25da312e6c4a4a8434c33d97"
+  },
+  {
+    "id": "gtm:heavy_steel_workbench",
+    "title": "Thick Plate Tool Die Workbench with Vise",
+    "category": "industrial",
+    "dimensions_blocks": [
+      2.0,
+      0.9,
+      0.9
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.0,
+        0.0,
+        -0.45
+      ],
+      "max": [
+        1.0,
+        0.9,
+        0.45
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.45,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/heavy_steel_workbench.geo.json",
+    "sha256": "da7f3250841f82de0a0cf19cdebd4e9b64e104d74e41bb7cdf92d54a44f6daa1"
+  },
+  {
+    "id": "gtm:parts_storage_racks",
+    "title": "Galvanized Heavy Pallet Warehouse Racking",
+    "category": "industrial",
+    "dimensions_blocks": [
+      2.4,
+      3.2,
+      1.0
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.2,
+        0.0,
+        -0.5
+      ],
+      "max": [
+        1.2,
+        3.2,
+        0.5
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        1.6,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/parts_storage_racks.geo.json",
+    "sha256": "7759e66aabf39902c4a5574b54078a98505aef56aeb8228edf2e10c9b7486871"
+  },
+  {
+    "id": "gtm:hydraulic_auto_lift",
+    "title": "Twin-Post Electric Vehicle Inspection Hoist",
+    "category": "industrial",
+    "dimensions_blocks": [
+      3.2,
+      2.9,
+      1.4
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.6,
+        0.0,
+        -0.7
+      ],
+      "max": [
+        1.6,
+        2.9,
+        0.7
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        1.45,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/hydraulic_auto_lift.geo.json",
+    "sha256": "62e8c7715837cc7fb59a5290bb69a1da5dd7492f3ef532cd6f9b0ca8e0abfe04"
+  },
+  {
+    "id": "gtm:rolling_tool_cabinet",
+    "title": "14-Drawer Ball-Bearing Mechanic Trolley",
+    "category": "industrial",
+    "dimensions_blocks": [
+      1.0,
+      1.1,
+      0.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.5,
+        0.0,
+        -0.3
+      ],
+      "max": [
+        0.5,
+        1.1,
+        0.3
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.55,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/rolling_tool_cabinet.geo.json",
+    "sha256": "0f640d7c10797e8a1a41b5a80561536811721a44024625b4a63582938613eab7"
+  },
+  {
+    "id": "gtm:chemical_drum_pallet",
+    "title": "Spill Containment Pallet with 4 Barrels",
+    "category": "industrial",
+    "dimensions_blocks": [
+      1.3,
+      1.1,
+      1.3
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.65,
+        0.0,
+        -0.65
+      ],
+      "max": [
+        0.65,
+        1.1,
+        0.65
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.55,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/chemical_drum_pallet.geo.json",
+    "sha256": "c22686a908d020e84fb13c8d16590aa82794cc9ebe21c56afe8a72de943f12b3"
+  },
+  {
+    "id": "gtm:diesel_generator_silent",
+    "title": "Sound-Attenuated 65kVA Backup GenSet",
+    "category": "industrial",
+    "dimensions_blocks": [
+      2.2,
+      1.5,
+      1.0
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.1,
+        0.0,
+        -0.5
+      ],
+      "max": [
+        1.1,
+        1.5,
+        0.5
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.75,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/diesel_generator_silent.geo.json",
+    "sha256": "4cc531eeba864c1fe12368aa7ff44ed34a6bf6693e58a5e6955df64ebb7bee4f"
+  },
+  {
+    "id": "gtm:air_compressor_tank",
+    "title": "Dual-Stage 200L High-Pressure Air Unit",
+    "category": "industrial",
+    "dimensions_blocks": [
+      1.2,
+      1.35,
+      0.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.6,
+        0.0,
+        -0.3
+      ],
+      "max": [
+        0.6,
+        1.35,
+        0.3
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.68,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/air_compressor_tank.geo.json",
+    "sha256": "757bd6a40382073bc65ccc1305890b9b272021a659cdbbfafe0cae35944b112f"
+  },
+  {
+    "id": "gtm:welding_rig_cart",
+    "title": "MIG/TIG Welder Cart with Gas Cylinders",
+    "category": "industrial",
+    "dimensions_blocks": [
+      0.8,
+      1.2,
+      0.7
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.4,
+        0.0,
+        -0.35
+      ],
+      "max": [
+        0.4,
+        1.2,
+        0.35
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.6,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/welding_rig_cart.geo.json",
+    "sha256": "8d8eefa568d3096f23112d24ae691f8c234ac31adba5a0d072a3deb0ed979e30"
+  },
+  {
+    "id": "gtm:parts_washer_degreaser",
+    "title": "Recirculating Solvent Parts Cleaning Sink",
+    "category": "industrial",
+    "dimensions_blocks": [
+      0.9,
+      1.0,
+      0.7
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.45,
+        0.0,
+        -0.35
+      ],
+      "max": [
+        0.45,
+        1.0,
+        0.35
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/parts_washer_degreaser.geo.json",
+    "sha256": "8046144da44b43f3cc1507617dd3bdddb44995dfce6144a664c8c2bd8fbe9ff8"
+  },
+  {
+    "id": "gtm:industrial_drill_press",
+    "title": "Floor-Mount Gear-Head Column Drill",
+    "category": "industrial",
+    "dimensions_blocks": [
+      0.6,
+      1.85,
+      0.8
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.3,
+        0.0,
+        -0.4
+      ],
+      "max": [
+        0.3,
+        1.85,
+        0.4
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.93,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/industrial_drill_press.geo.json",
+    "sha256": "7797a914b6ea77542092c3b681a0e5ec58924408ed1cbfd023295fff4cc0332e"
+  },
+  {
+    "id": "gtm:tire_changer_machine",
+    "title": "Pneumatic Clamping Car Tire Machine",
+    "category": "industrial",
+    "dimensions_blocks": [
+      1.1,
+      1.7,
+      1.0
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.55,
+        0.0,
+        -0.5
+      ],
+      "max": [
+        0.55,
+        1.7,
+        0.5
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.85,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/tire_changer_machine.geo.json",
+    "sha256": "402489f37198f55d88804b9df0f90b2866391d6f701d5d424983e5d2dfce7457"
+  },
+  {
+    "id": "gtm:wheel_balancer_digital",
+    "title": "Digital Spin Dynamic Wheel Balancer",
+    "category": "industrial",
+    "dimensions_blocks": [
+      1.0,
+      1.4,
+      0.9
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.5,
+        0.0,
+        -0.45
+      ],
+      "max": [
+        0.5,
+        1.4,
+        0.45
+      ]
+    },
+    "interaction_marker": {
+      "type": "terminal",
+      "position": [
+        0.0,
+        0.7,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/wheel_balancer_digital.geo.json",
+    "sha256": "0931d233e40c25e88f0a12e680d649c27b816ff7f574198029e57c6dd5c528b8"
+  },
+  {
+    "id": "gtm:overhead_crane_gantry",
+    "title": "Steel I-Beam Electric Chain Hoist Trolley",
+    "category": "industrial",
+    "dimensions_blocks": [
+      3.5,
+      0.8,
+      0.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.75,
+        0.0,
+        -0.3
+      ],
+      "max": [
+        1.75,
+        0.8,
+        0.3
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.4,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/overhead_crane_gantry.geo.json",
+    "sha256": "bf5a64f7f32306c6db60667b939afa84da83db9d74afd3ff68639926ad30ebdc"
+  },
+  {
+    "id": "gtm:eyewash_safety_shower",
+    "title": "Emergency Drench Shower & Eyewash Station",
+    "category": "industrial",
+    "dimensions_blocks": [
+      0.6,
+      2.3,
+      0.8
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.3,
+        0.0,
+        -0.4
+      ],
+      "max": [
+        0.3,
+        2.3,
+        0.4
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        1.15,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/eyewash_safety_shower.geo.json",
+    "sha256": "9af2d69aeaddb764efc9dfdab99c50d2befe4bd8eb9c44a767cbd2755351fd55"
+  },
+  {
+    "id": "gtm:flammable_safety_cabinet",
+    "title": "Double-Walled Yellow Hazmat Locker",
+    "category": "industrial",
+    "dimensions_blocks": [
+      1.1,
+      1.65,
+      0.55
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.55,
+        0.0,
+        -0.28
+      ],
+      "max": [
+        0.55,
+        1.65,
+        0.28
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.82,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/flammable_safety_cabinet.geo.json",
+    "sha256": "6f5072f2cbfdffb5a468f82ae4f0890d2cefd95f1bf8eeb8bd51a62528c2ea2d"
+  },
+  {
+    "id": "gtm:pallet_jack_manual",
+    "title": "Hydraulic 2500kg Hand Pallet Truck",
+    "category": "industrial",
+    "dimensions_blocks": [
+      0.7,
+      1.2,
+      1.5
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.35,
+        0.0,
+        -0.75
+      ],
+      "max": [
+        0.35,
+        1.2,
+        0.75
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.6,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/pallet_jack_manual.geo.json",
+    "sha256": "a72078de2eb9667168a13b7ce410485f38f44c065d095299c8f4d29e0c2abd47"
+  },
+  {
+    "id": "gtm:dock_leveler_plate",
+    "title": "Hydraulic Loading Bay Bridge Plate",
+    "category": "industrial",
+    "dimensions_blocks": [
+      2.0,
+      0.3,
+      2.2
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.0,
+        0.0,
+        -1.1
+      ],
+      "max": [
+        1.0,
+        0.3,
+        1.1
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.15,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/dock_leveler_plate.geo.json",
+    "sha256": "d34d1e8a4e8a647364413a4c1b299173031d8fe39358e3b0f9746cc5e5c6d966"
+  },
+  {
+    "id": "gtm:industrial_exhaust_fan",
+    "title": "Wall-Mount 1.2m Louvered Extraction Fan",
+    "category": "industrial",
+    "dimensions_blocks": [
+      1.2,
+      1.2,
+      0.45
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.6,
+        0.0,
+        -0.23
+      ],
+      "max": [
+        0.6,
+        1.2,
+        0.23
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        0.6,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/industrial_exhaust_fan.geo.json",
+    "sha256": "ac87fc5e1f4921dd9ae2fc75704f85f362fbf756d735a2d0232ed645d697c841"
+  },
+  {
+    "id": "gtm:motor_oil_dispense_rack",
+    "title": "Gravity 4-Drum Bulk Oil Spigot Bar",
+    "category": "industrial",
+    "dimensions_blocks": [
+      1.8,
+      1.6,
+      0.75
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -0.9,
+        0.0,
+        -0.38
+      ],
+      "max": [
+        0.9,
+        1.6,
+        0.38
+      ]
+    },
+    "interaction_marker": {
+      "type": "storage",
+      "position": [
+        0.0,
+        0.8,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/motor_oil_dispense_rack.geo.json",
+    "sha256": "e2cb4ea639eea1ba5d2f5852dc0108b6c17f21f295c960d84a5853c2211ebe6e"
+  },
+  {
+    "id": "gtm:transformer_station_sub",
+    "title": "Enclosed High-Voltage Stepdown Substation",
+    "category": "industrial",
+    "dimensions_blocks": [
+      2.2,
+      2.2,
+      1.6
+    ],
+    "floor_anchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collision_proxy": {
+      "min": [
+        -1.1,
+        0.0,
+        -0.8
+      ],
+      "max": [
+        1.1,
+        2.2,
+        0.8
+      ]
+    },
+    "interaction_marker": {
+      "type": "surface",
+      "position": [
+        0.0,
+        1.1,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "json_path": "creative/source/models/furniture/transformer_station_sub.geo.json",
+    "sha256": "b4943ff19475172384c4254cf51c47229e27b7f299a01a5f7fc5e99ef30ed0a3"
+  }
+]

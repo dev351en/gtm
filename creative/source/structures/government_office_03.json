@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "facility_id": "government_office_03",
+  "name": "District Magistrate & Urban Land Registry",
+  "kind": "government_office",
+  "status": "surveyed_and_ready",
+  "world": "world",
+  "origin": [
+    40,
+    68,
+    15
+  ],
+  "bounds": {
+    "min": [
+      40,
+      68,
+      15
+    ],
+    "max": [
+      68,
+      82,
+      45
+    ]
+  },
+  "entrances": [
+    {
+      "id": "government_office_03_main_entrance",
+      "local": [
+        14,
+        0,
+        0
+      ],
+      "access": "public",
+      "width_blocks": 2,
+      "height_blocks": 3
+    },
+    {
+      "id": "government_office_03_service_entrance",
+      "local": [
+        28,
+        0,
+        15
+      ],
+      "access": "staff",
+      "width_blocks": 1,
+      "height_blocks": 2
+    }
+  ],
+  "rooms": [
+    {
+      "id": "public_reception",
+      "function": "reception",
+      "local_bounds": {
+        "min": [
+          1,
+          0,
+          1
+        ],
+        "max": [
+          11,
+          6,
+          12
+        ]
+      },
+      "access": "public"
+    },
+    {
+      "id": "operations_hall",
+      "function": "operations",
+      "local_bounds": {
+        "min": [
+          11,
+          0,
+          1
+        ],
+        "max": [
+          27,
+          7,
+          15
+        ]
+      },
+      "access": "staff"
+    },
+    {
+      "id": "executive_suite",
+      "function": "management",
+      "local_bounds": {
+        "min": [
+          1,
+          7,
+          1
+        ],
+        "max": [
+          14,
+          13,
+          15
+        ]
+      },
+      "access": "private"
+    },
+    {
+      "id": "secure_vault_storage",
+      "function": "vault_storage",
+      "local_bounds": {
+        "min": [
+          14,
+          0,
+          15
+        ],
+        "max": [
+          27,
+          6,
+          29
+        ]
+      },
+      "access": "secure"
+    }
+  ],
+  "placements": [
+    {
+      "asset_id": "gtm:reception_podium",
+      "local": [
+        6,
+        0,
+        6
+      ],
+      "yaw": 0,
+      "role": "reception"
+    },
+    {
+      "asset_id": "gtm:sectional_sofa",
+      "local": [
+        3,
+        0,
+        9
+      ],
+      "yaw": 90,
+      "role": "waiting_lounge"
+    },
+    {
+      "asset_id": "gtm:atm_lobby_enclosure",
+      "local": [
+        10,
+        0,
+        2
+      ],
+      "yaw": 180,
+      "role": "banking_service"
+    }
+  ],
+  "lighting_fixtures": [
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        6,
+        3,
+        6
+      ]
+    },
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        20,
+        3,
+        9
+      ]
+    },
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        8,
+        3,
+        21
+      ]
+    }
+  ],
+  "checks": {
+    "accessible_corridors": true,
+    "floor_headroom_valid": true,
+    "doors_functional": true,
+    "stairs_connected": true,
+    "zero_floating_props": true,
+    "no_empty_shells": true
+  }
+}

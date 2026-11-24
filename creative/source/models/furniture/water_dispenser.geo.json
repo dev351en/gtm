@@ -1,0 +1,56 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gtm.water_dispenser",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 0.85,
+        "visible_bounds_height": 1.65,
+        "visible_bounds_offset": [
+          0,
+          0.575,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "base",
+          "parent": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -2.8,
+                0,
+                -2.8
+              ],
+              "size": [
+                5.6,
+                18.4,
+                5.6
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

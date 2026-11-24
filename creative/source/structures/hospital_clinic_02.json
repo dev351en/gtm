@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "facility_id": "hospital_clinic_02",
+  "name": "Civic Center Urgent Care & First Aid Clinic",
+  "kind": "hospital_clinic",
+  "status": "surveyed_and_ready",
+  "world": "world",
+  "origin": [
+    5,
+    70,
+    -25
+  ],
+  "bounds": {
+    "min": [
+      5,
+      70,
+      -25
+    ],
+    "max": [
+      25,
+      79,
+      -3
+    ]
+  },
+  "entrances": [
+    {
+      "id": "hospital_clinic_02_main_entrance",
+      "local": [
+        10,
+        0,
+        0
+      ],
+      "access": "public",
+      "width_blocks": 2,
+      "height_blocks": 3
+    },
+    {
+      "id": "hospital_clinic_02_service_entrance",
+      "local": [
+        20,
+        0,
+        11
+      ],
+      "access": "staff",
+      "width_blocks": 1,
+      "height_blocks": 2
+    }
+  ],
+  "rooms": [
+    {
+      "id": "public_reception",
+      "function": "reception",
+      "local_bounds": {
+        "min": [
+          1,
+          0,
+          1
+        ],
+        "max": [
+          8,
+          4,
+          9
+        ]
+      },
+      "access": "public"
+    },
+    {
+      "id": "operations_hall",
+      "function": "operations",
+      "local_bounds": {
+        "min": [
+          8,
+          0,
+          1
+        ],
+        "max": [
+          19,
+          4,
+          11
+        ]
+      },
+      "access": "staff"
+    },
+    {
+      "id": "executive_suite",
+      "function": "management",
+      "local_bounds": {
+        "min": [
+          1,
+          4,
+          1
+        ],
+        "max": [
+          10,
+          8,
+          11
+        ]
+      },
+      "access": "private"
+    },
+    {
+      "id": "secure_vault_storage",
+      "function": "vault_storage",
+      "local_bounds": {
+        "min": [
+          10,
+          0,
+          11
+        ],
+        "max": [
+          19,
+          4,
+          21
+        ]
+      },
+      "access": "secure"
+    }
+  ],
+  "placements": [
+    {
+      "asset_id": "gtm:reception_podium",
+      "local": [
+        4,
+        0,
+        4
+      ],
+      "yaw": 0,
+      "role": "reception"
+    },
+    {
+      "asset_id": "gtm:sectional_sofa",
+      "local": [
+        2,
+        0,
+        7
+      ],
+      "yaw": 90,
+      "role": "waiting_lounge"
+    },
+    {
+      "asset_id": "gtm:atm_lobby_enclosure",
+      "local": [
+        7,
+        0,
+        2
+      ],
+      "yaw": 180,
+      "role": "banking_service"
+    }
+  ],
+  "lighting_fixtures": [
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        4,
+        3,
+        4
+      ]
+    },
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        14,
+        3,
+        7
+      ]
+    },
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        6,
+        3,
+        15
+      ]
+    }
+  ],
+  "checks": {
+    "accessible_corridors": true,
+    "floor_headroom_valid": true,
+    "doors_functional": true,
+    "stairs_connected": true,
+    "zero_floating_props": true,
+    "no_empty_shells": true
+  }
+}

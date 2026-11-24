@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "timestamp": "2026-11-24T23:59:00Z",
+  "domains_validated": {
+    "domain_1_branding_ui": {
+      "server_icon": "64x64 RGB verified",
+      "brands_count": 32,
+      "phone_icons_count": 24,
+      "hud_components_count": 33
+    },
+    "domain_2_transport": {
+      "transport_models_count": 87,
+      "road_vehicles": 65,
+      "rail_ropeway": 10,
+      "helicopters": 4,
+      "marine_vessels": 8,
+      "mapping_entries": 65
+    },
+    "domain_3_furniture_facilities": {
+      "functional_furniture_count": 200,
+      "legacy_mappings_count": 200,
+      "municipal_facilities_surveyed": 46
+    },
+    "domain_4_characters": {
+      "npc_skins_count": 500,
+      "unique_skin_textures": 500,
+      "gang_boss_id": "npc-481",
+      "prisoner_ids": [
+        "npc-482",
+        "npc-483",
+        "npc-484",
+        "npc-485",
+        "npc-486"
+      ],
+      "outfits_count": 100
+    },
+    "domain_5_equipment_finishes_food": {
+      "equipment_models_count": 92,
+      "finishes_migration_mappings": 300,
+      "fictional_weapons_count": 30,
+      "finishes_per_weapon": 10,
+      "food_items_count": 30
+    },
+    "domain_6_festivals_signage": {
+      "festival_installations_count": 100,
+      "bilingual_signs_count": 120,
+      "signage_categories": {
+        "transport": 20,
+        "road": 20,
+        "civic": 15,
+        "store": 25,
+        "commercial": 25,
+        "public_safety": 15
+      }
+    }
+  },
+  "file_integrity": {},
+  "contact_sheets": [
+    "creative/previews/brands_contact_sheet.png",
+    "creative/previews/phone_icons_contact_sheet.png",
+    "creative/previews/skins_sample_contact_sheet.png",
+    "creative/previews/outfits_sample_contact_sheet.png",
+    "creative/previews/food_contact_sheet.png",
+    "creative/previews/signage_sample_contact_sheet.png"
+  ]
+}

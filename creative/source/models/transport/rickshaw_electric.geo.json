@@ -1,0 +1,101 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gtm.rickshaw_electric",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 2.0,
+        "visible_bounds_height": 2.6,
+        "visible_bounds_offset": [
+          0,
+          0.9,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "chassis",
+          "parent": "root",
+          "pivot": [
+            0,
+            0.4,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -8.0,
+                6,
+                -22.0
+              ],
+              "size": [
+                16.0,
+                21.6,
+                44.0
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "wheel_fl",
+          "parent": "root",
+          "pivot": [
+            -7.0,
+            6,
+            13.8
+          ]
+        },
+        {
+          "name": "wheel_fr",
+          "parent": "root",
+          "pivot": [
+            7.0,
+            6,
+            13.8
+          ]
+        },
+        {
+          "name": "wheel_rl",
+          "parent": "root",
+          "pivot": [
+            -7.0,
+            6,
+            -13.8
+          ]
+        },
+        {
+          "name": "wheel_rr",
+          "parent": "root",
+          "pivot": [
+            7.0,
+            6,
+            -13.8
+          ]
+        },
+        {
+          "name": "steering_wheel",
+          "parent": "chassis",
+          "pivot": [
+            -3.0,
+            12.6,
+            5.5
+          ]
+        }
+      ]
+    }
+  ]
+}

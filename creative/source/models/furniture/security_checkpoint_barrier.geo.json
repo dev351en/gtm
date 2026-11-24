@@ -1,0 +1,56 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gtm.security_checkpoint_barrier",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 4.0,
+        "visible_bounds_height": 1.6,
+        "visible_bounds_offset": [
+          0,
+          0.55,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "base",
+          "parent": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -28.0,
+                0,
+                -3.2
+              ],
+              "size": [
+                56.0,
+                17.6,
+                6.4
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

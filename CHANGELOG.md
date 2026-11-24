@@ -5,6 +5,17 @@
 
 ---
 
+## Revision 4 development — Antigravity Creative Track complete
+
+Completed Antigravity creative track deliverables on branch `gtm/creative-r4`. All assets isolated within `creative/` with zero modifications to gameplay engines, ledgers, or live world.
+- **Visual Identity & UI**: 64x64 server icon, 32 fictional brands (SVG+PNG), 24 phone app icons (V3 updated 64x64 PNG), 33 HUD components (V3 updated with Java/Bedrock safe areas), and 14 web dashboard tokens.
+- **Transport**: 87 Blockbench models (65 road vehicles, 10 rail/ropeway, 4 helicopters, 8 marine vessels) and non-destructive legacy-to-approved mapping in `creative/manifests/transport_catalog_mapping.json`.
+- **Furniture & Facilities**: 200 functional furniture models across 10 categories, 200 legacy-to-functional mappings, and 46 municipal facility architectural surveys in `creative/manifests/facilities_manifest.json`.
+- **Characters & Outfits**: 500 unique 64x64 skins (including Black Lotus boss `npc-481` and 5 initial prisoners `npc-482..486`), 100 outfits across 7 categories, and surveyed walkable positions for all 400 extended NPCs.
+- **Equipment, Finishes & Food**: 92 equipment props (55 protection, 20 civic, 2 property, 5 effect, 10 entertainment), 300 finishes 1-to-1 entitlement migration table (4 families -> 30 fictional weapons x 10 finishes), and 30 food items with 3D models and 48x48 icons.
+- **Festivals & Signage**: 100 festival installations with placement bounds and approved 8-theme mapping, and 120 bilingual signs (English + Devanagari/Marathi) across 6 categories.
+- **QA & Verification**: Full automated validation suite passing with 0 errors (`creative/reports/ASSET_VALIDATION_REPORT.json`), 6 contact sheet visual previews in `creative/previews/`, and comprehensive handoff guide in `docs/creative/CREATIVE_CHANGELOG.md`.
+
 ## Revision 4 development — Antigravity creative handoff
 
 Audited current development baseline c3e681927714b4bf71a65f88895c04dca1f5e080: Java 25 verification [run 45453149868](https://github.com/dev351en/gtm/actions/runs/45453149868) succeeded. No live server or client certification.

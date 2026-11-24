@@ -1,0 +1,101 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gtm.hatchback_alto",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 2.45,
+        "visible_bounds_height": 2.25,
+        "visible_bounds_offset": [
+          0,
+          0.72,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "chassis",
+          "parent": "root",
+          "pivot": [
+            0,
+            0.4,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -11.6,
+                6,
+                -27.2
+              ],
+              "size": [
+                23.2,
+                17.4,
+                54.4
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "wheel_fl",
+          "parent": "root",
+          "pivot": [
+            -10.2,
+            6,
+            17.0
+          ]
+        },
+        {
+          "name": "wheel_fr",
+          "parent": "root",
+          "pivot": [
+            10.2,
+            6,
+            17.0
+          ]
+        },
+        {
+          "name": "wheel_rl",
+          "parent": "root",
+          "pivot": [
+            -10.2,
+            6,
+            -17.0
+          ]
+        },
+        {
+          "name": "wheel_rr",
+          "parent": "root",
+          "pivot": [
+            10.2,
+            6,
+            -17.0
+          ]
+        },
+        {
+          "name": "steering_wheel",
+          "parent": "chassis",
+          "pivot": [
+            -4.3,
+            10.2,
+            6.8
+          ]
+        }
+      ]
+    }
+  ]
+}

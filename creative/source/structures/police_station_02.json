@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "facility_id": "police_station_02",
+  "name": "Precinct 2 Marine Drive Substation",
+  "kind": "police_station",
+  "status": "surveyed_and_ready",
+  "world": "world",
+  "origin": [
+    -45,
+    68,
+    85
+  ],
+  "bounds": {
+    "min": [
+      -45,
+      68,
+      85
+    ],
+    "max": [
+      -23,
+      78,
+      109
+    ]
+  },
+  "entrances": [
+    {
+      "id": "police_station_02_main_entrance",
+      "local": [
+        11,
+        0,
+        0
+      ],
+      "access": "public",
+      "width_blocks": 2,
+      "height_blocks": 3
+    },
+    {
+      "id": "police_station_02_service_entrance",
+      "local": [
+        22,
+        0,
+        12
+      ],
+      "access": "staff",
+      "width_blocks": 1,
+      "height_blocks": 2
+    }
+  ],
+  "rooms": [
+    {
+      "id": "public_reception",
+      "function": "reception",
+      "local_bounds": {
+        "min": [
+          1,
+          0,
+          1
+        ],
+        "max": [
+          9,
+          4,
+          10
+        ]
+      },
+      "access": "public"
+    },
+    {
+      "id": "operations_hall",
+      "function": "operations",
+      "local_bounds": {
+        "min": [
+          9,
+          0,
+          1
+        ],
+        "max": [
+          21,
+          5,
+          12
+        ]
+      },
+      "access": "staff"
+    },
+    {
+      "id": "executive_suite",
+      "function": "management",
+      "local_bounds": {
+        "min": [
+          1,
+          5,
+          1
+        ],
+        "max": [
+          11,
+          9,
+          12
+        ]
+      },
+      "access": "private"
+    },
+    {
+      "id": "secure_vault_storage",
+      "function": "vault_storage",
+      "local_bounds": {
+        "min": [
+          11,
+          0,
+          12
+        ],
+        "max": [
+          21,
+          4,
+          23
+        ]
+      },
+      "access": "secure"
+    }
+  ],
+  "placements": [
+    {
+      "asset_id": "gtm:reception_podium",
+      "local": [
+        4,
+        0,
+        5
+      ],
+      "yaw": 0,
+      "role": "reception"
+    },
+    {
+      "asset_id": "gtm:sectional_sofa",
+      "local": [
+        2,
+        0,
+        7
+      ],
+      "yaw": 90,
+      "role": "waiting_lounge"
+    },
+    {
+      "asset_id": "gtm:atm_lobby_enclosure",
+      "local": [
+        8,
+        0,
+        2
+      ],
+      "yaw": 180,
+      "role": "banking_service"
+    }
+  ],
+  "lighting_fixtures": [
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        4,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        15,
+        3,
+        7
+      ]
+    },
+    {
+      "type": "minecraft:lantern",
+      "local": [
+        7,
+        3,
+        17
+      ]
+    }
+  ],
+  "checks": {
+    "accessible_corridors": true,
+    "floor_headroom_valid": true,
+    "doors_functional": true,
+    "stairs_connected": true,
+    "zero_floating_props": true,
+    "no_empty_shells": true
+  }
+}
