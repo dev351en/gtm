@@ -26,6 +26,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
     private Ledger ledger;
     private AiService ai;
     private GtmDialogue gtmDialogue;
+    private GtmCityModels cityModels;
     private GtmLoans gtmLoans;
     private GtmProperties gtmProperties;
     private GtmFood gtmFood;
@@ -108,13 +109,22 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
                     Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "mtv vault setup");
             });
         }
+        try {
+            cityModels = new GtmCityModels(this);
+            Objects.requireNonNull(getCommand("gtmassets")).setExecutor(cityModels);
+            Bukkit.getPluginManager().registerEvents(cityModels,this);
+            if (getConfig().getBoolean("gtm.experimental-furnishings"))
+                Bukkit.getScheduler().runTaskTimer(this,cityModels::refresh,40L,60L);
+        } catch (IOException ex) {
+            getLogger().severe("City model catalogue unavailable: " + ex.getClass().getSimpleName());
+        }
         Objects.requireNonNull(getCommand("gtmcontrol")).setExecutor((sender, command, label, args) -> {
             sender.sendMessage("GTM Control Centre is unavailable.");
             return true;
         });
         if (getConfig().getBoolean("gtm.experimental-festivals", false)) {
             try {
-                var centre = new GtmControlCentre(this);
+                var centre = new GtmControlCentre(this,cityModels);
                 Objects.requireNonNull(getCommand("gtmcontrol")).setExecutor(centre);
                 Bukkit.getPluginManager().registerEvents(centre, this);
                 Bukkit.getScheduler().runTaskTimer(this, centre::pulse, 40L, 40L);
@@ -173,6 +183,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
         Bukkit.getServicesManager().unregisterAll(this);
         for (UUID id : new ArrayList<>(duties.keySet()))
             clockOut(id, "server stop");
+        if (cityModels != null) cityModels.close();
         if (gtmDialogue != null) gtmDialogue.close();
         if (gtmLoans != null) gtmLoans.close();
         if (npcs != null) npcs.close();

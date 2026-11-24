@@ -80,15 +80,24 @@ def build(dest):
     catalogue = dict(re.findall(r'new Meal\("([a-z_]+)",\s*"([^"]+)"', source))
     if set(catalogue) != set(art) or len(art) != 30:
         raise ValueError("Java catalogue and art IDs disagree")
+    write_models(dest, art, catalogue, "Street_Kitchen", "minecraft:bread",
+                 "a4877730-d813-41fa-a83e-f8a61a79021c", "4cb62365-8eea-4137-b475-e1ff5656ab4f",
+                 "gtm_kitchen_mappings.json")
+
+
+def write_models(dest, art, catalogue, title, base_item, header_id, module_id, mappings_name):
+    dest.mkdir(parents=True, exist_ok=True)
     texture = atlas()
-    java = {"pack.mcmeta": encoded({"pack":{"description":"SD Craft • Indraprastha street kitchen",
+    atlas_name = title.lower()
+    description = "GTM " + title.replace("_", " ") + " • SD Craft"
+    java = {"pack.mcmeta": encoded({"pack":{"description":description,
                                               "min_format":84,"max_format":999,"pack_format":84}}),
-            "assets/gtm/textures/item/kitchen.png":texture}
-    bed = {"manifest.json":encoded({"format_version":2,"header":{"name":"GTM Street Kitchen",
-               "description":"Indraprastha street food by SD Craft","uuid":"a4877730-d813-41fa-a83e-f8a61a79021c",
+            f"assets/gtm/textures/item/{atlas_name}.png":texture}
+    bed = {"manifest.json":encoded({"format_version":2,"header":{"name":description,
+               "description":description,"uuid":header_id,
                "version":[1,0,0],"min_engine_version":[1,21,80]},"modules":[{"type":"resources",
-               "uuid":"4cb62365-8eea-4137-b475-e1ff5656ab4f","version":[1,0,0]}]}),
-           "textures/gtm/kitchen.png":texture}
+               "uuid":module_id,"version":[1,0,0]}]}),
+           f"textures/gtm/{atlas_name}.png":texture}
     mappings, icons, geometry = [], {}, []
     for meal, parts in art.items():
         identifier = "gtm:"+meal
@@ -104,7 +113,7 @@ def build(dest):
                 face:{"uv":[u,v],"uv_size":[4,4]} for face in FACES}})
         java[f"assets/gtm/items/{meal}.json"] = encoded({"model":{"type":"minecraft:model","model":"gtm:item/"+meal}})
         java[f"assets/gtm/models/item/{meal}.json"] = encoded({"parent":"minecraft:block/block",
-            "textures":{"kitchen":"gtm:item/kitchen","particle":"gtm:item/kitchen"},"elements":elements,
+            "textures":{"kitchen":f"gtm:item/{atlas_name}","particle":f"gtm:item/{atlas_name}"},"elements":elements,
             "display":{"gui":{"rotation":[28,225,0],"translation":[0,1,0],"scale":[.88,.88,.88]},
                        "firstperson_righthand":{"rotation":[0,40,0],"translation":[1,2,0],"scale":[.55,.55,.55]}}})
         icon = "gtm_"+meal
@@ -117,15 +126,15 @@ def build(dest):
                                    "pivot":[0,0,0],"cubes":cubes}]})
         bed[f"attachables/{meal}.json"] = encoded({"format_version":"1.10.0","minecraft:attachable":{
             "description":{"identifier":identifier,"materials":{"default":"entity_alphatest"},
-                           "textures":{"default":"textures/gtm/kitchen"},"geometry":{"default":gid},
+                           "textures":{"default":f"textures/gtm/{atlas_name}"},"geometry":{"default":gid},
                            "render_controllers":["controller.render.default"]}}})
         mappings.append({"type":"definition","model":identifier,"bedrock_identifier":identifier,
                          "display_name":catalogue[meal],"bedrock_options":{"icon":icon}})
-    bed["models/entity/kitchen.geo.json"] = encoded({"format_version":"1.16.0","minecraft:geometry":geometry})
-    bed["textures/item_texture.json"] = encoded({"resource_pack_name":"gtm_kitchen","texture_name":"atlas.items","texture_data":icons})
-    archive(dest/"GTM_Street_Kitchen_Java.zip",java)
-    archive(dest/"GTM_Street_Kitchen_Bedrock.mcpack",bed)
-    (dest/"gtm_kitchen_mappings.json").write_bytes(encoded({"format_version":2,"items":{"minecraft:bread":mappings}}))
+    bed[f"models/entity/{atlas_name}.geo.json"] = encoded({"format_version":"1.16.0","minecraft:geometry":geometry})
+    bed["textures/item_texture.json"] = encoded({"resource_pack_name":"gtm_"+atlas_name,"texture_name":"atlas.items","texture_data":icons})
+    archive(dest/f"GTM_{title}_Java.zip",java)
+    archive(dest/f"GTM_{title}_Bedrock.mcpack",bed)
+    (dest/mappings_name).write_bytes(encoded({"format_version":2,"items":{base_item:mappings}}))
 
 
 if __name__ == "__main__":

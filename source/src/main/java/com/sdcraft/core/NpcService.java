@@ -1,5 +1,6 @@
 package com.sdcraft.core;
 
+import com.sdcraft.core.gtm.CityRoster;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
@@ -76,6 +77,8 @@ final class NpcService implements Listener {
     private final File anchorsFile;
     private final YamlConfiguration anchors;
     private final Map<String, AmbientProfile> ambient;
+    private final CityRoster roster;
+    private final Map<UUID,String> liveIds = new HashMap<>();
     private final Map<String, Active> live = new LinkedHashMap<>();
     private final Map<String, Retaliation> retaliation = new HashMap<>();
     private final Map<String, Long> lastMeleeAt = new HashMap<>();
@@ -96,7 +99,30 @@ final class NpcService implements Listener {
         int target = plugin.getConfig().getInt("population.target-total", 100);
         int named = namedIds().size();
         int toughPercent = plugin.getConfig().getInt("population.ambient-tough-percent", 30);
-        ambient = createAmbientProfiles(generatedAmbientCount(target, named), toughPercent);
+        boolean expanded = plugin.getConfig().getBoolean("gtm.experimental-roster");
+        ambient = createAmbientProfiles(expanded ? 80 : generatedAmbientCount(target, named), toughPercent);
+        if (expanded) {
+            if (named != 20 || target != 100) throw new IllegalStateException("Extended roster expects the original 100 identities");
+            try {
+                roster = new CityRoster(plugin.getResource("gtm-population.tsv"));
+            } catch (IOException ex) {
+                throw new IllegalStateException("Cannot load surveyed GTM roster", ex);
+            }
+            for (var citizen : roster.citizens().values()) {
+                if (known(citizen.id())) throw new IllegalStateException("NPC identity conflict: " + citizen.id());
+                String role = citizen.role();
+                boolean merchant = Set.of("shopkeeper","food_seller","fashion_seller").contains(role);
+                String department = merchant ? "retail" : switch (role) {
+                    case "healthcare" -> "medical";
+                    case "fire_rescue" -> "fire";
+                    case "police" -> "police";
+                    case "rail_ropeway", "road_transport" -> "transport";
+                    default -> "civilian";
+                };
+                ambient.put(citizen.id(), new AmbientProfile(citizen.name(),role.replace('_',' '),department,
+                    role.equals("black_lotus") || role.equals("police"),merchant));
+            }
+        } else roster = null;
         ensureDefaultAnchors(null);
     }
 
@@ -172,10 +198,12 @@ final class NpcService implements Listener {
     }
 
     String skin(String id) {
+        if (roster != null && roster.citizens().containsKey(id)) return "npc-skins/" + id + ".png";
         return isAmbient(id) ? "ambient-generated" : identities.getString("npcs." + id + ".skin", "skin_" + id + ".png");
     }
 
     String model(String id) {
+        if (roster != null && roster.citizens().containsKey(id)) return "classic";
         return isAmbient(id) ? (Math.floorMod(id.hashCode(), 2) == 0 ? "classic" : "slim")
                 : identities.getString("npcs." + id + ".model", "classic");
     }
@@ -251,6 +279,7 @@ final class NpcService implements Listener {
         boolean modified = false;
         int i = 0;
         for (String id : ambient.keySet()) {
+            if (roster != null && roster.citizens().containsKey(id)) continue;
             String path = "anchors." + id;
             if (anchors.contains(path + ".x")) { i++; continue; }
             double[] base = bases.get(i % bases.size());
@@ -279,6 +308,13 @@ final class NpcService implements Listener {
 
     private Location location(String id) {
         String path = "anchors." + id;
+        if (!anchors.contains(path + ".x") && roster != null) {
+            var citizen = roster.citizens().get(id);
+            if (citizen != null) {
+                World city = Bukkit.getWorld(plugin.getConfig().getString("world.name","world"));
+                return city == null ? null : new Location(city,citizen.x()+.5,citizen.y(),citizen.z()+.5);
+            }
+        }
         World world = Bukkit.getWorld(anchors.getString(path + ".world", ""));
         if (world == null || !anchors.contains(path + ".x")) return null;
         return new Location(world, anchors.getDouble(path + ".x"), anchors.getDouble(path + ".y"),
@@ -326,15 +362,26 @@ final class NpcService implements Listener {
         double deactivation = plugin.getConfig().getDouble("population.deactivation-blocks", 80.0);
         long now = System.currentTimeMillis();
 
+        if (roster != null) totalLimit = Math.min(totalLimit, 32);
+        int admitted = 0;
+        var players = Bukkit.getOnlinePlayers().stream().filter(p -> !p.hasMetadata("NPC") && identify(p)==null)
+            .map(Player::getLocation).toList();
+        var jailed = roster == null || defaultWorld == null ? Set.<UUID>of()
+            : roster.prisoners(Math.floorDiv(defaultWorld.getFullTime(),24000L));
         for (String id : ids()) {
+            var citizen = roster == null ? null : roster.citizens().get(id);
+            if (citizen != null && jailed.contains(citizen.uuid())) {
+                if (live.containsKey(id)) remove(id,live.get(id));
+                continue;
+            }
             Location anchor = location(id);
             if (anchor == null) continue;
             Active active = live.get(id);
             boolean police = dept(id).equalsIgnoreCase("police");
             double nearest = Double.POSITIVE_INFINITY;
-            for (Player player : Bukkit.getOnlinePlayers()) {
-                if (identify(player) != null || !player.getWorld().equals(anchor.getWorld())) continue;
-                nearest = Math.min(nearest, player.getLocation().distance(anchor));
+            for (Location player : players) {
+                if (!player.getWorld().equals(anchor.getWorld())) continue;
+                nearest = Math.min(nearest, player.distance(anchor));
             }
             boolean should = PolicyEngine.shouldBeActive(active != null, nearest, activation, deactivation);
             if (!should && active != null) {
@@ -344,6 +391,12 @@ final class NpcService implements Listener {
             if (should && active == null) {
                 if (respawnAfter.getOrDefault(id, 0L) > now || live.size() >= totalLimit) continue;
                 if (police ? activePolice() >= policeLimit : activeOther() >= otherLimit) continue;
+                if (roster != null) {
+                    if (admitted >= 4 || !anchor.getWorld().isChunkLoaded(anchor.getBlockX()>>4,anchor.getBlockZ()>>4)) continue;
+                    if (citizen != null && (!anchor.getBlock().isEmpty() || !anchor.clone().add(0,1,0).getBlock().isEmpty()
+                            || !anchor.clone().subtract(0,1,0).getBlock().getType().isSolid())) continue;
+                    admitted++;
+                }
                 spawn(id, anchor, police);
             }
         }
@@ -456,7 +509,7 @@ final class NpcService implements Listener {
                 if (result instanceof Entity spawned) entity = spawned;
             } catch (Exception ex) {
                 plugin.getLogger().warning("Citizens NPC spawn failed for " + id + "; using villager fallback: " + ex.getMessage());
-                citizensNpc = null;
+                // Retain the registry handle so the fallback below can destroy it.
             }
         }
         if (entity == null) {
@@ -483,15 +536,14 @@ final class NpcService implements Listener {
         }
         entity.setCustomName(text);
         entity.setCustomNameVisible(true);
+        liveIds.put(entity.getUniqueId(), id);
         live.put(id, new Active(entity.getUniqueId(), citizensNpc, police, ambientNpc, isTough(id),
                 isMerchant(id), where.clone()));
         nextWanderAt.put(id, System.currentTimeMillis() + 1500L + rng.nextInt(4500));
     }
 
     String identify(Entity entity) {
-        for (Map.Entry<String, Active> entry : live.entrySet())
-            if (entry.getValue().uuid().equals(entity.getUniqueId())) return entry.getKey();
-        return null;
+        return liveIds.get(entity.getUniqueId());
     }
 
     private Player attackingPlayer(Entity source) {
@@ -576,6 +628,7 @@ final class NpcService implements Listener {
 
     private void remove(String id, Active active) {
         if (!live.remove(id, active)) return;
+        liveIds.remove(active.uuid(),id);
         retaliation.remove(id);
         lastMeleeAt.remove(id);
         nextWanderAt.remove(id);

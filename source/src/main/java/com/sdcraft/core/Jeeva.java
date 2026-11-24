@@ -15,7 +15,7 @@ final class Jeeva {
         String lang = RoleplayText.language(prompt, preference);
         String answer = DialogueEngine.respond(id, name, role, dept, lang, prompt, greeting);
         // Only NPC registry IDs are accepted. Store one small record per encountered identity.
-        if (id == null || !id.matches("[a-z0-9_]{1,48}")) return answer;
+        if (id == null || !id.matches("[a-z0-9_-]{1,48}")) return answer;
         NamespacedKey key = new NamespacedKey("gtm", "jeeva/" + id.toLowerCase(Locale.ROOT));
         var memory = player.getPersistentDataContainer();
         long[] previous = memory.get(key, PersistentDataType.LONG_ARRAY);

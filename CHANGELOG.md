@@ -5,6 +5,12 @@
 
 ---
 
+## Revision 4 development — city catalogue and population integration
+
+The Finish Studio build passed Java 25 Gradle check in [run 45451451547](https://github.com/dev351en/gtm/actions/runs/45451451547). Added 479 city models alongside the 30 food models. Offline validation distinguishes all 509 coordinate meshes after discarding colors and labels. The library includes procedural design families and structural variants. Full-size vehicle handling, model scale, clothing fit and festival staging require client testing.
+
+Added a staff model browser, three surveyed optional furniture fixtures and manual festival art at one fixture. Added an opt-in 500-identity city population on the original 100-identity baseline. The extra 400 NPCs have floor, headroom and adjacent standing-space checks in the published world. The roster uses a 32-entity physical ceiling and admits at most four entities per reconciliation. Five of 19 ordinary gang members rotate out of street circulation. Jail interiors, signed skin bindings, storyline and live performance remain pending.
+
 ## Revision 4 development — Finish Studio and verified public-world patch
 
 - Food, JEEVA, clock and festival changes compiled and passed Gradle check on Java 25 in [run 45450300043](https://github.com/dev351en/gtm/actions/runs/45450300043).

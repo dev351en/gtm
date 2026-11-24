@@ -37,15 +37,29 @@ final class GtmControlCentre implements CommandExecutor, Listener {
 
     private final SDCraftCorePlugin plugin;
     private final SnapshotStore store;
+    private final GtmCityModels models;
     private long revision;
     private Festival active;
 
-    GtmControlCentre(SDCraftCorePlugin plugin) throws IOException {
+    GtmControlCentre(SDCraftCorePlugin plugin, GtmCityModels models) throws IOException {
+        this.models = models;
         this.plugin = plugin;
         store = new SnapshotStore(plugin.getDataFolder().toPath().resolve("festival.snapshot"), 64);
         var saved = store.read();
         revision = saved.version();
         active = revision == 0 ? Festival.OFF : Festival.valueOf(new String(saved.payload(), StandardCharsets.UTF_8));
+        refreshTheme();
+    }
+
+    private void refreshTheme() {
+        if (models == null) return;
+        String theme = switch (active) {
+            case OFF -> null;
+            case GANESH_CHATURTHI -> "ganesh";
+            case MAKAR_SANKRANTI -> "sankranti";
+            default -> active.name().toLowerCase(Locale.ROOT);
+        };
+        models.theme(theme);
     }
 
     private static final class Panel implements InventoryHolder {
@@ -98,6 +112,7 @@ final class GtmControlCentre implements CommandExecutor, Listener {
             return;
         }
         active = event;
+        refreshTheme();
         plugin.getLogger().info(sender.getName() + " selected festival " + event.name());
         sender.sendMessage("Active festival: " + event.name());
         World world = city();

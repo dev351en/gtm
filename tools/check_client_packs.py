@@ -63,3 +63,4 @@ if __name__=="__main__":
     args=parser.parse_args()
     verify(args.packs,"Street_Kitchen","gtm_kitchen_mappings.json",30)
     verify(args.packs,"Finish_Studio","gtm_finish_mappings.json",300)
+    verify(args.packs,"City_Collection","gtm_city_mappings.json",479)

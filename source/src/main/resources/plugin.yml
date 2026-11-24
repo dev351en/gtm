@@ -42,6 +42,10 @@ commands:
     description: Open the Creative Testing Arsenal for vehicles, guns, ammo, cash, and teleportation
     usage: /arsenal
     aliases: [creativemenu, testitems, testing]
+  gtmassets:
+    description: Browse the GTM design catalogue on staging
+    usage: /gtmassets [category]
+    permission: gtm.models
   gtmfinish:
     description: Browse and purchase finishes for a held SD Craft game item
     usage: /gtmfinish
@@ -76,6 +80,9 @@ permissions:
   sdcraft.profession.firefighter:
     default: op
 
+  gtm.models:
+    description: Issue city art items on staging
+    default: op
   gtm.finishes:
     description: Use the staging finish studio after authentication
     default: false

@@ -1,0 +1,479 @@
+ambulance_city	road	City Ambulance
+ambulance_courier	road	Courier Ambulance
+ambulance_rescue	road	Rescue Ambulance
+ambulance_touring	road	Touring Ambulance
+ambulance_utility	road	Utility Ambulance
+bar_stool_art_deco	furniture	Bar Stool · Art Deco
+bar_stool_deccan	furniture	Bar Stool · Deccan
+bar_stool_irani	furniture	Bar Stool · Irani
+bar_stool_konkan	furniture	Bar Stool · Konkan
+bar_stool_metro	furniture	Bar Stool · Metro
+bedside_chest_art_deco	furniture	Bedside Chest · Art Deco
+bedside_chest_deccan	furniture	Bedside Chest · Deccan
+bedside_chest_irani	furniture	Bedside Chest · Irani
+bedside_chest_konkan	furniture	Bedside Chest · Konkan
+bedside_chest_metro	furniture	Bedside Chest · Metro
+bookcase_art_deco	furniture	Bookcase · Art Deco
+bookcase_deccan	furniture	Bookcase · Deccan
+bookcase_irani	furniture	Bookcase · Irani
+bookcase_konkan	furniture	Bookcase · Konkan
+bookcase_metro	furniture	Bookcase · Metro
+broadcast_helicopter	helicopter	Broadcast Helicopter
+bus_stop_flag	civic	Bus Stop Flag
+cafe_chair_art_deco	furniture	Cafe Chair · Art Deco
+cafe_chair_deccan	furniture	Cafe Chair · Deccan
+cafe_chair_irani	furniture	Cafe Chair · Irani
+cafe_chair_konkan	furniture	Cafe Chair · Konkan
+cafe_chair_metro	furniture	Cafe Chair · Metro
+canteen_stool_art_deco	furniture	Canteen Stool · Art Deco
+canteen_stool_deccan	furniture	Canteen Stool · Deccan
+canteen_stool_irani	furniture	Canteen Stool · Irani
+canteen_stool_konkan	furniture	Canteen Stool · Konkan
+canteen_stool_metro	furniture	Canteen Stool · Metro
+cargo_barge	marine	Cargo Barge
+cargo_lorry_city	road	City Cargo Lorry
+cargo_lorry_courier	road	Courier Cargo Lorry
+cargo_lorry_rescue	road	Rescue Cargo Lorry
+cargo_lorry_touring	road	Touring Cargo Lorry
+cargo_lorry_utility	road	Utility Cargo Lorry
+chai_table_art_deco	furniture	Chai Table · Art Deco
+chai_table_deccan	furniture	Chai Table · Deccan
+chai_table_irani	furniture	Chai Table · Irani
+chai_table_konkan	furniture	Chai Table · Konkan
+chai_table_metro	furniture	Chai Table · Metro
+christmas_balcony_screen	festival	Christmas Balcony Screen
+christmas_bandstand	festival	Christmas Bandstand
+christmas_counterpiece	festival	Christmas Counterpiece
+christmas_door_emblem	festival	Christmas Door Emblem
+christmas_gateway	festival	Christmas Gateway
+christmas_market_booth	festival	Christmas Market Booth
+christmas_parade_standard	festival	Christmas Parade Standard
+christmas_procession_cart	festival	Christmas Procession Cart
+christmas_stage_backdrop	festival	Christmas Stage Backdrop
+christmas_street_arch	festival	Christmas Street Arch
+christmas_street_banner	festival	Christmas Street Banner
+christmas_window_lantern	festival	Christmas Window Lantern
+cinema_projector	entertainment	Cinema Projector
+city_bus_city	road	City City Bus
+city_bus_courier	road	Courier City Bus
+city_bus_rescue	road	Rescue City Bus
+city_bus_touring	road	Touring City Bus
+city_bus_utility	road	Utility City Bus
+city_medivac	helicopter	City Medivac
+civic_bench_sign	civic	Civic Bench Sign
+clinic_chair_art_deco	furniture	Clinic Chair · Art Deco
+clinic_chair_deccan	furniture	Clinic Chair · Deccan
+clinic_chair_irani	furniture	Clinic Chair · Irani
+clinic_chair_konkan	furniture	Clinic Chair · Konkan
+clinic_chair_metro	furniture	Clinic Chair · Metro
+coffee_table_art_deco	furniture	Coffee Table · Art Deco
+coffee_table_deccan	furniture	Coffee Table · Deccan
+coffee_table_irani	furniture	Coffee Table · Irani
+coffee_table_konkan	furniture	Coffee Table · Konkan
+coffee_table_metro	furniture	Coffee Table · Metro
+colour_capsule	effect	Colour Capsule
+confetti_puck	effect	Confetti Puck
+council_lectern	civic	Council Lectern
+dance_tile	entertainment	Dance Tile
+daybed_art_deco	furniture	Daybed · Art Deco
+daybed_deccan	furniture	Daybed · Deccan
+daybed_irani	furniture	Daybed · Irani
+daybed_konkan	furniture	Daybed · Konkan
+daybed_metro	furniture	Daybed · Metro
+dhol	entertainment	Dhol
+dining_table_art_deco	furniture	Dining Table · Art Deco
+dining_table_deccan	furniture	Dining Table · Deccan
+dining_table_irani	furniture	Dining Table · Irani
+dining_table_konkan	furniture	Dining Table · Konkan
+dining_table_metro	furniture	Dining Table · Metro
+display_case_art_deco	furniture	Display Case · Art Deco
+display_case_deccan	furniture	Display Case · Deccan
+display_case_irani	furniture	Display Case · Irani
+display_case_konkan	furniture	Display Case · Konkan
+display_case_metro	furniture	Display Case · Metro
+district_marker	civic	District Marker
+diwali_balcony_screen	festival	Diwali Balcony Screen
+diwali_bandstand	festival	Diwali Bandstand
+diwali_counterpiece	festival	Diwali Counterpiece
+diwali_door_emblem	festival	Diwali Door Emblem
+diwali_gateway	festival	Diwali Gateway
+diwali_market_booth	festival	Diwali Market Booth
+diwali_parade_standard	festival	Diwali Parade Standard
+diwali_procession_cart	festival	Diwali Procession Cart
+diwali_square_beacon	festival	Diwali Square Beacon
+diwali_stage_backdrop	festival	Diwali Stage Backdrop
+diwali_street_arch	festival	Diwali Street Arch
+diwali_street_banner	festival	Diwali Street Banner
+diwali_window_lantern	festival	Diwali Window Lantern
+dj_deck	entertainment	Dj Deck
+drafting_table_art_deco	furniture	Drafting Table · Art Deco
+drafting_table_deccan	furniture	Drafting Table · Deccan
+drafting_table_irani	furniture	Drafting Table · Irani
+drafting_table_konkan	furniture	Drafting Table · Konkan
+drafting_table_metro	furniture	Drafting Table · Metro
+eid_balcony_screen	festival	Eid Balcony Screen
+eid_bandstand	festival	Eid Bandstand
+eid_counterpiece	festival	Eid Counterpiece
+eid_door_emblem	festival	Eid Door Emblem
+eid_gateway	festival	Eid Gateway
+eid_market_booth	festival	Eid Market Booth
+eid_parade_standard	festival	Eid Parade Standard
+eid_procession_cart	festival	Eid Procession Cart
+eid_stage_backdrop	festival	Eid Stage Backdrop
+eid_street_arch	festival	Eid Street Arch
+eid_street_banner	festival	Eid Street Banner
+eid_window_lantern	festival	Eid Window Lantern
+estate_city	road	City Estate
+estate_courier	road	Courier Estate
+estate_rescue	road	Rescue Estate
+estate_touring	road	Touring Estate
+estate_utility	road	Utility Estate
+exam_couch_art_deco	furniture	Exam Couch · Art Deco
+exam_couch_deccan	furniture	Exam Couch · Deccan
+exam_couch_irani	furniture	Exam Couch · Irani
+exam_couch_konkan	furniture	Exam Couch · Konkan
+exam_couch_metro	furniture	Exam Couch · Metro
+festival_shield_harbour	protection	Harbour Festival Shield
+festival_shield_hill	protection	Hill Festival Shield
+festival_shield_local	protection	Local Festival Shield
+festival_shield_metro	protection	Metro Festival Shield
+festival_shield_night	protection	Night Festival Shield
+filing_cabinet_art_deco	furniture	Filing Cabinet · Art Deco
+filing_cabinet_deccan	furniture	Filing Cabinet · Deccan
+filing_cabinet_irani	furniture	Filing Cabinet · Irani
+filing_cabinet_konkan	furniture	Filing Cabinet · Konkan
+filing_cabinet_metro	furniture	Filing Cabinet · Metro
+first_aid_cabinet	civic	First Aid Cabinet
+fishing_trawler	marine	Fishing Trawler
+flat_key	property	Flat Key
+fridge_art_deco	furniture	Fridge · Art Deco
+fridge_deccan	furniture	Fridge · Deccan
+fridge_irani	furniture	Fridge · Irani
+fridge_konkan	furniture	Fridge · Konkan
+fridge_metro	furniture	Fridge · Metro
+ganesh_balcony_screen	festival	Ganesh Chaturthi Balcony Screen
+ganesh_bandstand	festival	Ganesh Chaturthi Bandstand
+ganesh_counterpiece	festival	Ganesh Chaturthi Counterpiece
+ganesh_door_emblem	festival	Ganesh Chaturthi Door Emblem
+ganesh_gateway	festival	Ganesh Chaturthi Gateway
+ganesh_market_booth	festival	Ganesh Chaturthi Market Booth
+ganesh_parade_standard	festival	Ganesh Chaturthi Parade Standard
+ganesh_procession_cart	festival	Ganesh Chaturthi Procession Cart
+ganesh_square_beacon	festival	Ganesh Chaturthi Square Beacon
+ganesh_stage_backdrop	festival	Ganesh Chaturthi Stage Backdrop
+ganesh_street_arch	festival	Ganesh Chaturthi Street Arch
+ganesh_street_banner	festival	Ganesh Chaturthi Street Banner
+ganesh_window_lantern	festival	Ganesh Chaturthi Window Lantern
+glow_beacon	effect	Glow Beacon
+harbour_ferry	marine	Harbour Ferry
+harbour_scout	helicopter	Harbour Scout
+harmonium	entertainment	Harmonium
+hatchback_city	road	City Hatchback
+hatchback_courier	road	Courier Hatchback
+hatchback_rescue	road	Rescue Hatchback
+hatchback_touring	road	Touring Hatchback
+hatchback_utility	road	Utility Hatchback
+hazard_bollard	civic	Hazard Bollard
+help_intercom	civic	Help Intercom
+holi_balcony_screen	festival	Holi Balcony Screen
+holi_bandstand	festival	Holi Bandstand
+holi_counterpiece	festival	Holi Counterpiece
+holi_door_emblem	festival	Holi Door Emblem
+holi_gateway	festival	Holi Gateway
+holi_market_booth	festival	Holi Market Booth
+holi_parade_standard	festival	Holi Parade Standard
+holi_procession_cart	festival	Holi Procession Cart
+holi_square_beacon	festival	Holi Square Beacon
+holi_stage_backdrop	festival	Holi Stage Backdrop
+holi_street_arch	festival	Holi Street Arch
+holi_street_banner	festival	Holi Street Banner
+holi_window_lantern	festival	Holi Window Lantern
+hydration_station	civic	Hydration Station
+inspection_railcar	rail	Inspection Railcar
+juice_stall_art_deco	furniture	Juice Stall · Art Deco
+juice_stall_deccan	furniture	Juice Stall · Deccan
+juice_stall_irani	furniture	Juice Stall · Irani
+juice_stall_konkan	furniture	Juice Stall · Konkan
+juice_stall_metro	furniture	Juice Stall · Metro
+local_motor	rail	Local Motor
+local_trailer	rail	Local Trailer
+locker_art_deco	furniture	Locker · Art Deco
+locker_deccan	furniture	Locker · Deccan
+locker_irani	furniture	Locker · Irani
+locker_konkan	furniture	Locker · Konkan
+locker_metro	furniture	Locker · Metro
+luggage_rack_art_deco	furniture	Luggage Rack · Art Deco
+luggage_rack_deccan	furniture	Luggage Rack · Deccan
+luggage_rack_irani	furniture	Luggage Rack · Irani
+luggage_rack_konkan	furniture	Luggage Rack · Konkan
+luggage_rack_metro	furniture	Luggage Rack · Metro
+maintenance_wagon	rail	Maintenance Wagon
+market_counter_art_deco	furniture	Market Counter · Art Deco
+market_counter_deccan	furniture	Market Counter · Deccan
+market_counter_irani	furniture	Market Counter · Irani
+market_counter_konkan	furniture	Market Counter · Konkan
+market_counter_metro	furniture	Market Counter · Metro
+marshal_vest_harbour	protection	Harbour Marshal Vest
+marshal_vest_hill	protection	Hill Marshal Vest
+marshal_vest_local	protection	Local Marshal Vest
+marshal_vest_metro	protection	Metro Marshal Vest
+marshal_vest_night	protection	Night Marshal Vest
+metro_lead	rail	Metro Lead
+metro_middle	rail	Metro Middle
+metro_roundel	civic	Metro Roundel
+minibus_city	road	City Minibus
+minibus_courier	road	Courier Minibus
+minibus_rescue	road	Rescue Minibus
+minibus_touring	road	Touring Minibus
+minibus_utility	road	Utility Minibus
+mist_totem	effect	Mist Totem
+monsoon_rescue	helicopter	Monsoon Rescue
+motorcycle_city	road	City Motorcycle
+motorcycle_courier	road	Courier Motorcycle
+motorcycle_rescue	road	Rescue Motorcycle
+motorcycle_touring	road	Touring Motorcycle
+motorcycle_utility	road	Utility Motorcycle
+navratri_balcony_screen	festival	Navratri Balcony Screen
+navratri_bandstand	festival	Navratri Bandstand
+navratri_counterpiece	festival	Navratri Counterpiece
+navratri_door_emblem	festival	Navratri Door Emblem
+navratri_gateway	festival	Navratri Gateway
+navratri_market_booth	festival	Navratri Market Booth
+navratri_parade_standard	festival	Navratri Parade Standard
+navratri_procession_cart	festival	Navratri Procession Cart
+navratri_square_beacon	festival	Navratri Square Beacon
+navratri_stage_backdrop	festival	Navratri Stage Backdrop
+navratri_street_arch	festival	Navratri Street Arch
+navratri_street_banner	festival	Navratri Street Banner
+navratri_window_lantern	festival	Navratri Window Lantern
+new_year_balcony_screen	festival	New Year Balcony Screen
+new_year_bandstand	festival	New Year Bandstand
+new_year_counterpiece	festival	New Year Counterpiece
+new_year_door_emblem	festival	New Year Door Emblem
+new_year_gateway	festival	New Year Gateway
+new_year_market_booth	festival	New Year Market Booth
+new_year_parade_standard	festival	New Year Parade Standard
+new_year_procession_cart	festival	New Year Procession Cart
+new_year_stage_backdrop	festival	New Year Stage Backdrop
+new_year_street_arch	festival	New Year Street Arch
+new_year_street_banner	festival	New Year Street Banner
+new_year_window_lantern	festival	New Year Window Lantern
+news_display	civic	News Display
+news_kiosk_art_deco	furniture	News Kiosk · Art Deco
+news_kiosk_deccan	furniture	News Kiosk · Deccan
+news_kiosk_irani	furniture	News Kiosk · Irani
+news_kiosk_konkan	furniture	News Kiosk · Konkan
+news_kiosk_metro	furniture	News Kiosk · Metro
+oven_art_deco	furniture	Oven · Art Deco
+oven_deccan	furniture	Oven · Deccan
+oven_irani	furniture	Oven · Irani
+oven_konkan	furniture	Oven · Konkan
+oven_metro	furniture	Oven · Metro
+padded_bracer_harbour	protection	Harbour Padded Bracer
+padded_bracer_hill	protection	Hill Padded Bracer
+padded_bracer_local	protection	Local Padded Bracer
+padded_bracer_metro	protection	Metro Padded Bracer
+padded_bracer_night	protection	Night Padded Bracer
+pantry_art_deco	furniture	Pantry · Art Deco
+pantry_deccan	furniture	Pantry · Deccan
+pantry_irani	furniture	Pantry · Irani
+pantry_konkan	furniture	Pantry · Konkan
+pantry_metro	furniture	Pantry · Metro
+parcel_van	rail	Parcel Van
+park_settee_art_deco	furniture	Park Settee · Art Deco
+park_settee_deccan	furniture	Park Settee · Deccan
+park_settee_irani	furniture	Park Settee · Irani
+park_settee_konkan	furniture	Park Settee · Konkan
+park_settee_metro	furniture	Park Settee · Metro
+parking_meter	civic	Parking Meter
+patrol_launch	marine	Patrol Launch
+pickup_city	road	City Pickup
+pickup_courier	road	Courier Pickup
+pickup_rescue	road	Rescue Pickup
+pickup_touring	road	Touring Pickup
+pickup_utility	road	Utility Pickup
+pilot_boat	marine	Pilot Boat
+platform_bench_art_deco	furniture	Platform Bench · Art Deco
+platform_bench_deccan	furniture	Platform Bench · Deccan
+platform_bench_irani	furniture	Platform Bench · Irani
+platform_bench_konkan	furniture	Platform Bench · Konkan
+platform_bench_metro	furniture	Platform Bench · Metro
+platform_clock	civic	Platform Clock
+platform_shunter	rail	Platform Shunter
+platform_trolley_art_deco	furniture	Platform Trolley · Art Deco
+platform_trolley_deccan	furniture	Platform Trolley · Deccan
+platform_trolley_irani	furniture	Platform Trolley · Irani
+platform_trolley_konkan	furniture	Platform Trolley · Konkan
+platform_trolley_metro	furniture	Platform Trolley · Metro
+porter_cart_art_deco	furniture	Porter Cart · Art Deco
+porter_cart_deccan	furniture	Porter Cart · Deccan
+porter_cart_irani	furniture	Porter Cart · Irani
+porter_cart_konkan	furniture	Porter Cart · Konkan
+porter_cart_metro	furniture	Porter Cart · Metro
+postal_box	civic	Postal Box
+property_deed	property	Property Deed
+queue_post	civic	Queue Post
+radio_console_art_deco	furniture	Radio Console · Art Deco
+radio_console_deccan	furniture	Radio Console · Deccan
+radio_console_irani	furniture	Radio Console · Irani
+radio_console_konkan	furniture	Radio Console · Konkan
+radio_console_metro	furniture	Radio Console · Metro
+radio_receiver	entertainment	Radio Receiver
+reading_chair_art_deco	furniture	Reading Chair · Art Deco
+reading_chair_deccan	furniture	Reading Chair · Deccan
+reading_chair_irani	furniture	Reading Chair · Irani
+reading_chair_konkan	furniture	Reading Chair · Konkan
+reading_chair_metro	furniture	Reading Chair · Metro
+reception_desk_art_deco	furniture	Reception Desk · Art Deco
+reception_desk_deccan	furniture	Reception Desk · Deccan
+reception_desk_irani	furniture	Reception Desk · Irani
+reception_desk_konkan	furniture	Reception Desk · Konkan
+reception_desk_metro	furniture	Reception Desk · Metro
+rescue_helmet_harbour	protection	Harbour Rescue Helmet
+rescue_helmet_hill	protection	Hill Rescue Helmet
+rescue_helmet_local	protection	Local Rescue Helmet
+rescue_helmet_metro	protection	Metro Rescue Helmet
+rescue_helmet_night	protection	Night Rescue Helmet
+rescue_rib	marine	Rescue Rib
+rickshaw_city	road	City Rickshaw
+rickshaw_courier	road	Courier Rickshaw
+rickshaw_rescue	road	Rescue Rickshaw
+rickshaw_touring	road	Touring Rickshaw
+rickshaw_utility	road	Utility Rickshaw
+road_barrier	civic	Road Barrier
+road_cone	civic	Road Cone
+sailing_dinghy	marine	Sailing Dinghy
+salon_recliner_art_deco	furniture	Salon Recliner · Art Deco
+salon_recliner_deccan	furniture	Salon Recliner · Deccan
+salon_recliner_irani	furniture	Salon Recliner · Irani
+salon_recliner_konkan	furniture	Salon Recliner · Konkan
+salon_recliner_metro	furniture	Salon Recliner · Metro
+sankranti_balcony_screen	festival	Makar Sankranti Balcony Screen
+sankranti_bandstand	festival	Makar Sankranti Bandstand
+sankranti_counterpiece	festival	Makar Sankranti Counterpiece
+sankranti_door_emblem	festival	Makar Sankranti Door Emblem
+sankranti_gateway	festival	Makar Sankranti Gateway
+sankranti_market_booth	festival	Makar Sankranti Market Booth
+sankranti_parade_standard	festival	Makar Sankranti Parade Standard
+sankranti_procession_cart	festival	Makar Sankranti Procession Cart
+sankranti_stage_backdrop	festival	Makar Sankranti Stage Backdrop
+sankranti_street_arch	festival	Makar Sankranti Street Arch
+sankranti_street_banner	festival	Makar Sankranti Street Banner
+sankranti_window_lantern	festival	Makar Sankranti Window Lantern
+scooter_city	road	City Scooter
+scooter_courier	road	Courier Scooter
+scooter_rescue	road	Rescue Scooter
+scooter_touring	road	Touring Scooter
+scooter_utility	road	Utility Scooter
+sedan_city	road	City Sedan
+sedan_courier	road	Courier Sedan
+sedan_rescue	road	Rescue Sedan
+sedan_touring	road	Touring Sedan
+sedan_utility	road	Utility Sedan
+service_kiosk	civic	Service Kiosk
+shoe_rack_art_deco	furniture	Shoe Rack · Art Deco
+shoe_rack_deccan	furniture	Shoe Rack · Deccan
+shoe_rack_irani	furniture	Shoe Rack · Irani
+shoe_rack_konkan	furniture	Shoe Rack · Konkan
+shoe_rack_metro	furniture	Shoe Rack · Metro
+skylink_accessible	rail	Skylink Accessible
+skylink_cabin	rail	Skylink Cabin
+spark_orb	effect	Spark Orb
+speaker_stack	entertainment	Speaker Stack
+stage_spotlight	entertainment	Stage Spotlight
+street_bin	civic	Street Bin
+studio_mic	entertainment	Studio Mic
+study_desk_art_deco	furniture	Study Desk · Art Deco
+study_desk_deccan	furniture	Study Desk · Deccan
+study_desk_irani	furniture	Study Desk · Irani
+study_desk_konkan	furniture	Study Desk · Konkan
+study_desk_metro	furniture	Study Desk · Metro
+suv_city	road	City Suv
+suv_courier	road	Courier Suv
+suv_rescue	road	Rescue Suv
+suv_touring	road	Touring Suv
+suv_utility	road	Utility Suv
+tabla_pair	entertainment	Tabla Pair
+tag_comet_arcade	protection	Comet Arcade Light Tag
+tag_comet_arena	protection	Comet Arena Light Tag
+tag_comet_night	protection	Comet Night Light Tag
+tag_comet_parade	protection	Comet Parade Light Tag
+tag_comet_relay	protection	Comet Relay Light Tag
+tag_halo_arcade	protection	Halo Arcade Light Tag
+tag_halo_arena	protection	Halo Arena Light Tag
+tag_halo_night	protection	Halo Night Light Tag
+tag_halo_parade	protection	Halo Parade Light Tag
+tag_halo_relay	protection	Halo Relay Light Tag
+tag_lattice_arcade	protection	Lattice Arcade Light Tag
+tag_lattice_arena	protection	Lattice Arena Light Tag
+tag_lattice_night	protection	Lattice Night Light Tag
+tag_lattice_parade	protection	Lattice Parade Light Tag
+tag_lattice_relay	protection	Lattice Relay Light Tag
+tag_lotus_arcade	protection	Lotus Arcade Light Tag
+tag_lotus_arena	protection	Lotus Arena Light Tag
+tag_lotus_night	protection	Lotus Night Light Tag
+tag_lotus_parade	protection	Lotus Parade Light Tag
+tag_lotus_relay	protection	Lotus Relay Light Tag
+tag_prism_arcade	protection	Prism Arcade Light Tag
+tag_prism_arena	protection	Prism Arena Light Tag
+tag_prism_night	protection	Prism Night Light Tag
+tag_prism_parade	protection	Prism Parade Light Tag
+tag_prism_relay	protection	Prism Relay Light Tag
+tag_pulse_arcade	protection	Pulse Arcade Light Tag
+tag_pulse_arena	protection	Pulse Arena Light Tag
+tag_pulse_night	protection	Pulse Night Light Tag
+tag_pulse_parade	protection	Pulse Parade Light Tag
+tag_pulse_relay	protection	Pulse Relay Light Tag
+taxi_call_post	civic	Taxi Call Post
+taxi_city	road	City Taxi
+taxi_courier	road	Courier Taxi
+taxi_rescue	road	Rescue Taxi
+taxi_touring	road	Touring Taxi
+taxi_utility	road	Utility Taxi
+tea_cart_art_deco	furniture	Tea Cart · Art Deco
+tea_cart_deccan	furniture	Tea Cart · Deccan
+tea_cart_irani	furniture	Tea Cart · Irani
+tea_cart_konkan	furniture	Tea Cart · Konkan
+tea_cart_metro	furniture	Tea Cart · Metro
+ticket_machine_art_deco	furniture	Ticket Machine · Art Deco
+ticket_machine_deccan	furniture	Ticket Machine · Deccan
+ticket_machine_irani	furniture	Ticket Machine · Irani
+ticket_machine_konkan	furniture	Ticket Machine · Konkan
+ticket_machine_metro	furniture	Ticket Machine · Metro
+ticket_validator	civic	Ticket Validator
+visor_harbour	protection	Harbour Visor
+visor_hill	protection	Hill Visor
+visor_local	protection	Local Visor
+visor_metro	protection	Metro Visor
+visor_night	protection	Night Visor
+waiting_sofa_art_deco	furniture	Waiting Sofa · Art Deco
+waiting_sofa_deccan	furniture	Waiting Sofa · Deccan
+waiting_sofa_irani	furniture	Waiting Sofa · Irani
+waiting_sofa_konkan	furniture	Waiting Sofa · Konkan
+waiting_sofa_metro	furniture	Waiting Sofa · Metro
+ward_bed_art_deco	furniture	Ward Bed · Art Deco
+ward_bed_deccan	furniture	Ward Bed · Deccan
+ward_bed_irani	furniture	Ward Bed · Irani
+ward_bed_konkan	furniture	Ward Bed · Konkan
+ward_bed_metro	furniture	Ward Bed · Metro
+wardrobe_art_deco	furniture	Wardrobe · Art Deco
+wardrobe_deccan	furniture	Wardrobe · Deccan
+wardrobe_irani	furniture	Wardrobe · Irani
+wardrobe_konkan	furniture	Wardrobe · Konkan
+wardrobe_metro	furniture	Wardrobe · Metro
+washing_machine_art_deco	furniture	Washing Machine · Art Deco
+washing_machine_deccan	furniture	Washing Machine · Deccan
+washing_machine_irani	furniture	Washing Machine · Irani
+washing_machine_konkan	furniture	Washing Machine · Konkan
+washing_machine_metro	furniture	Washing Machine · Metro
+water_cooler_art_deco	furniture	Water Cooler · Art Deco
+water_cooler_deccan	furniture	Water Cooler · Deccan
+water_cooler_irani	furniture	Water Cooler · Irani
+water_cooler_konkan	furniture	Water Cooler · Konkan
+water_cooler_metro	furniture	Water Cooler · Metro
+water_taxi	marine	Water Taxi
+workbench_art_deco	furniture	Workbench · Art Deco
+workbench_deccan	furniture	Workbench · Deccan
+workbench_irani	furniture	Workbench · Irani
+workbench_konkan	furniture	Workbench · Konkan
+workbench_metro	furniture	Workbench · Metro

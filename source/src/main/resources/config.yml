@@ -81,6 +81,9 @@ service:
   lateness-discipline: warning-only
   offline-at-shift-start-exempt: true
 gtm:
+  experimental-models: false
+  experimental-furnishings: false
+  experimental-roster: false
   experimental-festivals: false
   experimental-finishes: false
   experimental-food: false # Staging counter collection only; physical delivery pending.
