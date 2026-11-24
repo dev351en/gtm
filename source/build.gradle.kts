@@ -68,3 +68,10 @@ tasks.register<JavaExec>("civicChecks") {
 tasks.check {
     dependsOn("foundationChecks", "civicChecks")
 }
+
+tasks.register<JavaExec>("infrastructureChecks") {
+    dependsOn(tasks.testClasses)
+    classpath = sourceSets.test.get().runtimeClasspath
+    mainClass.set("com.sdcraft.core.gtm.InfrastructureChecks")
+}
+tasks.check { dependsOn("infrastructureChecks") }
