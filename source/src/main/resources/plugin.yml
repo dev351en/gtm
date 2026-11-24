@@ -58,3 +58,7 @@ permissions:
     default: op
   sdcraft.profession.firefighter:
     default: op
+
+  gtm.dialogue:
+    description: Use experimental local dialogue after authentication
+    default: false
