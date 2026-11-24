@@ -25,6 +25,7 @@ import net.milkbowl.vault.economy.Economy;
 public final class SDCraftCorePlugin extends JavaPlugin implements Listener, CommandExecutor, TabCompleter {
     private Ledger ledger;
     private AiService ai;
+    private GtmDialogue gtmDialogue;
     private NpcService npcs;
     private RestorationEngine restoration;
     private GunEngine guns;
@@ -107,6 +108,8 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
         Bukkit.getPluginManager().registerEvents(guns, this);
         Bukkit.getPluginManager().registerEvents(gta, this);
         Bukkit.getPluginManager().registerEvents(npcs, this);
+        gtmDialogue = new GtmDialogue(this, npcs, ledger);
+        Bukkit.getPluginManager().registerEvents(gtmDialogue, this);
         World mainWorld = Bukkit.getWorld(getConfig().getString("world.name", "world"));
         if (mainWorld != null) {
             mainWorld.setSpawnLocation(10, 70, 3);
@@ -130,6 +133,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
         Bukkit.getServicesManager().unregisterAll(this);
         for (UUID id : new ArrayList<>(duties.keySet()))
             clockOut(id, "server stop");
+        if (gtmDialogue != null) gtmDialogue.close();
         npcs.close();
         gta.close();
         safeSave();
