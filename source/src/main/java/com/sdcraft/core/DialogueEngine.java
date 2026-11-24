@@ -175,6 +175,21 @@ public final class DialogueEngine {
         Intent intent = classify(prompt);
         String department = dept == null ? "civilian" : dept.toLowerCase(Locale.ROOT);
 
+        if ("hinglish".equals(lang)) {
+            return switch (intent) {
+                case GREETING -> "Namaste! Main " + npcName + ", yahan " + role + " hoon. Batao, kya madad chahiye?";
+                case YES_NO -> "Aapke phone mein pending request dikhegi. Faisla /sdc confirm ya /sdc cancel se karein.";
+                case SERVICE_ENQUIRY -> "Main " + role + " hoon. Menu kholne ke liye mujh par tap karo, ya /sdc help dekho.";
+                case ROLE_DUTY -> "Naukri ke liye /sdc work join <role> use karo. Station par /sdc duty in se shift shuru hogi.";
+                case PRICE_QUOTE -> "Phone ke service menu mein rate dekho. Payment confirm karne se pehle amount check kar lena.";
+                case BANKING -> "Paise jama karne hain? Bank counter par /sdc bank deposit <amount> use karo.";
+                case MEDICAL -> "City hospital chalo. Emergency mein /sdc medical stabilize free hai.";
+                case POLICE_CRIME -> "Police ko khabar deni hai? /sdc report <1|2|3> <details> se report bhejo.";
+                case TRANSPORT -> "Metro ya bus chahiye? /sdc ride <bus|metro> <stop> se apna stop chuno.";
+                case FAREWELL -> "Phir milenge! Safar achha rahe.";
+                case UNKNOWN -> "Thoda aur batao, kis service ki zaroorat hai? /sdc help mein options milenge.";
+            };
+        }
         switch (intent) {
             case GREETING:
                 if (hi) {

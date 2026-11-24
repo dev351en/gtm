@@ -47,7 +47,6 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
     private final Map<UUID, String> guiNpc = new HashMap<>();
     private final Map<UUID, String> pinMode = new HashMap<>();
     private final Map<UUID, StringBuilder> pinDigits = new HashMap<>();
-    private long timeSeconds = 0;
 
     private record Pending(String kind, String target, long cents, long expires, String details) {
     }
@@ -108,6 +107,20 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
                 if (Bukkit.getPluginManager().isPluginEnabled("MTVehicles"))
                     Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "mtv vault setup");
             });
+        }
+        Objects.requireNonNull(getCommand("gtmcontrol")).setExecutor((sender, command, label, args) -> {
+            sender.sendMessage("GTM Control Centre is unavailable.");
+            return true;
+        });
+        if (getConfig().getBoolean("gtm.experimental-festivals", false)) {
+            try {
+                var centre = new GtmControlCentre(this);
+                Objects.requireNonNull(getCommand("gtmcontrol")).setExecutor(centre);
+                Bukkit.getPluginManager().registerEvents(centre, this);
+                Bukkit.getScheduler().runTaskTimer(this, centre::pulse, 40L, 40L);
+            } catch (IOException | IllegalArgumentException ex) {
+                getLogger().severe("Festival state unavailable. Control Centre disabled: " + ex.getClass().getSimpleName());
+            }
         }
         ai = new AiService(this);
         restoration = new RestorationEngine(this);
@@ -625,12 +638,12 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
 
     private void second() {
         long now = System.currentTimeMillis();
-        timeSeconds++;
         World world = Bukkit.getWorld(getConfig().getString("world.name", "world"));
         if (world != null) {
-            long cycle = timeSeconds % 1800L;
-            long tick = cycle < 1200L ? 6000L + cycle * 10L : 18000L + (cycle - 1200L) * 20L;
-            world.setTime(tick % 24000L);
+            // Keep the world's saved clock across restarts and advance from the current phase.
+            long tick = world.getTime();
+            long boundary = tick < 12000L ? 12000L : 24000L;
+            world.setTime((tick + Math.min(boundary - tick, tick < 12000L ? 10L : 20L)) % 24000L);
         }
         for (Player p : Bukkit.getOnlinePlayers()) {
             UUID id = p.getUniqueId();
@@ -672,7 +685,7 @@ public final class SDCraftCorePlugin extends JavaPlugin implements Listener, Com
     }
 
     private int shiftOf(World w) {
-        return w != null && w.getTime() >= 18000 ? 1 : 0;
+        return w != null && w.getTime() >= 12000 ? 1 : 0;
     }
 
     private void clockOut(UUID id, String why) {

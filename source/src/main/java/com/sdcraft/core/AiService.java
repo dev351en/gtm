@@ -98,14 +98,14 @@ final class AiService {
 
         // 1. If external AI is not enabled or credentials are not present, use the deterministic offline engine
         if (!plugin.getConfig().getBoolean("ai.external-enabled", false)) {
-            String offlineReply = DialogueEngine.respond(npcId, npcName, role, dept, lang, prompt, fallbackGreeting);
+            String offlineReply = Jeeva.reply(player, npcId, npcName, role, dept, lang, prompt, fallbackGreeting);
             player.sendMessage("§6" + npcName + ": §f" + offlineReply);
             return;
         }
 
         String apiKey = secrets.getProperty("OPENAI_API_KEY", "");
         if (apiKey.isBlank()) {
-            String offlineReply = DialogueEngine.respond(npcId, npcName, role, dept, lang, prompt, fallbackGreeting);
+            String offlineReply = Jeeva.reply(player, npcId, npcName, role, dept, lang, prompt, fallbackGreeting);
             player.sendMessage("§6" + npcName + ": §f" + offlineReply);
             return;
         }
@@ -118,7 +118,7 @@ final class AiService {
 
         int maxDaily = plugin.getConfig().getInt("ai.daily-request-limit", 200);
         if (today >= maxDaily) {
-            String offlineReply = DialogueEngine.respond(npcId, npcName, role, dept, lang, prompt, fallbackGreeting);
+            String offlineReply = Jeeva.reply(player, npcId, npcName, role, dept, lang, prompt, fallbackGreeting);
             player.sendMessage("§6" + npcName + ": §f" + offlineReply);
             player.sendMessage("§7[SD Craft] Daily AI quota reached. Switched to offline dialogue.");
             return;
@@ -127,7 +127,7 @@ final class AiService {
         Deque<Long> q = rate.computeIfAbsent(id, x -> new ArrayDeque<>());
         while (!q.isEmpty() && q.peekFirst() < now - 300000) q.removeFirst();
         if (q.size() >= 10) {
-            String offlineReply = DialogueEngine.respond(npcId, npcName, role, dept, lang, prompt, fallbackGreeting);
+            String offlineReply = Jeeva.reply(player, npcId, npcName, role, dept, lang, prompt, fallbackGreeting);
             player.sendMessage("§6" + npcName + ": §f" + offlineReply);
             player.sendMessage("§7[SD Craft] Rate limit: 10 requests per 5 minutes. Switched to offline response.");
             return;
@@ -156,7 +156,7 @@ final class AiService {
 
         if (!endpoint.equals("https://api.openai.com/v1/chat/completions")) {
             player.sendMessage("§c[SD Craft] Non-whitelisted AI endpoint; using deterministic offline engine.");
-            String offlineReply = DialogueEngine.respond(npcId, npcName, role, dept, lang, prompt, fallbackGreeting);
+            String offlineReply = Jeeva.reply(player, npcId, npcName, role, dept, lang, prompt, fallbackGreeting);
             player.sendMessage("§6" + npcName + ": §f" + offlineReply);
             return;
         }
@@ -171,12 +171,12 @@ final class AiService {
         http.sendAsync(req, HttpResponse.BodyHandlers.ofString()).orTimeout(10, TimeUnit.SECONDS)
             .whenComplete((response, error) -> {
                 String reply = (error == null && response != null && response.statusCode() == 200) ? content(response.body()) : null;
-                if (reply == null || reply.isBlank()) {
-                    reply = DialogueEngine.respond(npcId, npcName, role, dept, lang, question, fallbackGreeting);
-                }
-                String finalReply = reply.length() > 650 ? reply.substring(0, 650) : reply;
+                String remoteReply = reply;
                 Bukkit.getScheduler().runTask(plugin, () -> {
                     if (!player.isOnline()) return;
+                    String finalReply = remoteReply == null || remoteReply.isBlank()
+                        ? Jeeva.reply(player, npcId, npcName, role, dept, lang, question, fallbackGreeting)
+                        : remoteReply.substring(0, Math.min(650, remoteReply.length()));
                     player.sendMessage("§6" + npcName + ": §f" + finalReply);
                     Deque<Message> hist = memory.computeIfAbsent(id, x -> new ArrayDeque<>());
                     hist.addLast(new Message(System.currentTimeMillis(), "user", question));

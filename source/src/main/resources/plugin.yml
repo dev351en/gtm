@@ -42,6 +42,10 @@ commands:
     description: Open the Creative Testing Arsenal for vehicles, guns, ammo, cash, and teleportation
     usage: /arsenal
     aliases: [creativemenu, testitems, testing]
+  gtmcontrol:
+    description: GTM Control Centre and manual festival selection
+    usage: /gtmcontrol [status|festival|off]
+    permission: gtm.control
   gtmfood:
     description: Open experimental food ordering
     usage: /gtmfood [zomatoo|swiffy]
@@ -68,6 +72,9 @@ permissions:
   sdcraft.profession.firefighter:
     default: op
 
+  gtm.control:
+    description: Operate the GTM Control Centre
+    default: op
   gtm.food:
     description: Use experimental food ordering after authentication
     default: false

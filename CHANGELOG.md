@@ -5,6 +5,10 @@
 
 ---
 
+## Revision 4 development — food catalogue, dialogue and manual festivals
+
+Confirmed dev.5 on Java 25 in [Actions run 45447870167](https://github.com/dev351en/gtm/actions/runs/45447870167). The log records 155 domain checks and four successful food-ledger tests. Expanded the staging food catalogue to 30 dishes and gave each a stable item-model key in ordering and collection. The local JEEVA reply path now handles Hinglish and recognizes returning players per NPC through player save data. Added an opt-in manual festival inventory and console control with eight themes, persistent selection and per-player particles. The city clock resumes from world time and divides the cycle at 12,000 ticks. Client rendering, decorations, physical delivery and deployment remain open.
+
 ## [1.6.0-dev.5] — 2026-11-24: Food commerce collection pilot
 
 - Confirmed the corrected dev.4 Java 25 build, Gradle check and candidate JAR upload in [run 45446936256](https://github.com/dev351en/gtm/actions/runs/45446936256). Logs show all 155 domain assertions and all ten new banking/property JUnit methods passing. The previous compile failure is resolved at dev.4.
@@ -152,7 +156,7 @@ Integrated and configured the user's dedicated **MCServerHost** cloud server (`5
 ### 1. Dedicated Public Hosting (MCServerHost)
 - **Direct Server IP for Players/Friends**: `51.79.229.238:23040`
 - **Host Provider**: MCServerHost (Pterodactyl container architecture)
-- **SFTP Management**: `51.79.229.238:2022` (User: `3512dev.stuff@gmail.com.38f3f401`)
+- SFTP access details are managed outside this repository.
 - **Key Advantage**: Dedicated public IP and port (`23040`). Friends can connect directly from the Minecraft multiplayer menu with **zero** local batch scripts, SSH tunnels, or Ngrok proxies.
 - **Server Properties Synchronized**:
   - `server-ip=0.0.0.0`

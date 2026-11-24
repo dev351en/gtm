@@ -87,8 +87,8 @@ final class GtmDialogue implements Listener {
         }
         if (target == null) return;
         String lang = RoleplayText.language(message, ledger.language(player.getUniqueId()));
-        String reply = DialogueEngine.respond(id, npcs.name(id), npcs.role(id), npcs.dept(id),
-                "hi".equals(lang) ? "hi" : "en", message, npcs.greeting(id, "en"));
+        String reply = Jeeva.reply(player, id, npcs.name(id), npcs.role(id), npcs.dept(id),
+                lang, message, npcs.greeting(id, lang));
         show(target, reply);
     }
     private void show(Entity speaker, String raw) {

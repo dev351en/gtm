@@ -35,11 +35,16 @@ final class GtmFood implements Listener {
         ItemStack i=new ItemStack(material);ItemMeta m=i.getItemMeta();
         if(m!=null){m.setDisplayName(title);m.setLore(List.of(lore));i.setItemMeta(m);}return i;
     }
+    private ItemStack mealItem(FoodCatalogue.Meal meal, String title, String... lore) {
+        ItemStack stack = item(Material.BREAD, title, lore);
+        stack.editMeta(meta -> meta.setItemModel(new NamespacedKey("gtm", meal.id())));
+        return stack;
+    }
     void open(Player p,String brand){
         if(!available(p)||!FoodCatalogue.validBrand(brand)){p.sendMessage("§cFood service unavailable.");return;}
         try {
             var t=ledger.foodOrder(p.getUniqueId()).filter(FoodCatalogue.Ticket::open).orElse(null);
-            Menu m=new Menu(p.getUniqueId(),brand,t,null);Inventory inv=Bukkit.createInventory(m,27,"§8"+name(brand)+" | Food orders");m.inv=inv;
+            Menu m=new Menu(p.getUniqueId(),brand,t,null);Inventory inv=Bukkit.createInventory(m,t==null?45:27,"§8"+name(brand)+" | Food orders");m.inv=inv;
             if(t!=null){
                 Location v=plugin.site(t.vendor());
                 inv.setItem(4,item(Material.PAPER,"§e"+name(t.brand())+" order: "+FoodCatalogue.get(t.meal()).name(),ark(t.price()),
@@ -50,17 +55,17 @@ final class GtmFood implements Listener {
             }else if(vendor(brand)!=null){
                 for(int i=0;i<FoodCatalogue.ITEMS.size();i++){
                     var food=FoodCatalogue.ITEMS.get(i);
-                    inv.setItem(i,item(Material.BREAD,"§e"+food.name(),ark(food.cents()),"Counter collection — click to review"));
+                    inv.setItem(i,mealItem(food,"§e"+food.name(),ark(food.cents()),"Counter collection — click to review"));
                 }
             }else inv.setItem(13,item(Material.BARRIER,"§cCounter not commissioned","No orders or payments accepted"));
-            inv.setItem(22,item(Material.CLOCK,"§7Collection pilot","Scooter delivery is not enabled yet."));
+            inv.setItem(inv.getSize()-5,item(Material.CLOCK,"§7Collection pilot","Scooter delivery is not enabled yet."));
             p.openInventory(inv);
         }catch(RuntimeException e){p.sendMessage("§cFood order record unavailable.");}
     }
     private void confirm(Player p,String brand,String meal){
         var food=FoodCatalogue.get(meal);
         Menu m=new Menu(p.getUniqueId(),brand,null,meal);Inventory inv=Bukkit.createInventory(m,27,"§8Confirm "+name(brand)+" order");m.inv=inv;
-        inv.setItem(4,item(Material.BREAD,"§e"+food.name(),ark(food.cents()),"Preparation: 15 seconds","Collect from surveyed counter; cancel for refund"));
+        inv.setItem(4,mealItem(food,"§e"+food.name(),ark(food.cents()),"Preparation: 15 seconds","Collect from surveyed counter; cancel for refund"));
         inv.setItem(13,item(Material.EMERALD,"§aConfirm bank payment",ark(food.cents())));
         inv.setItem(22,item(Material.ARROW,"Back"));p.openInventory(inv);
     }
@@ -70,7 +75,7 @@ final class GtmFood implements Listener {
         if(v==null||!v.getWorld().equals(p.getWorld())||v.distanceSquared(p.getLocation())>25){p.sendMessage("§eVisit the order counter to collect your food.");return;}
         if(p.getInventory().firstEmpty()<0){p.sendMessage("§eFree an inventory slot first.");return;}
         var meal=FoodCatalogue.get(t.meal());
-        ItemStack food=item(Material.BREAD,"§6"+meal.name(),"Order receipt: "+t.id());food.setAmount(meal.portions());
+        ItemStack food=mealItem(meal,"§6"+meal.name(),"Order receipt: "+t.id());food.setAmount(meal.portions());
         // Commit collection before item grant: no replay duplication. A crash between these steps
         // may require an administrator to reconcile the receipt; this pilot remains opt-in.
         if(!ledger.collectFood(p.getUniqueId(),t.id(),System.currentTimeMillis()))return;
@@ -86,7 +91,7 @@ final class GtmFood implements Listener {
         e.setCancelled(true);
         if(!(e.getWhoClicked() instanceof Player p)||!p.getUniqueId().equals(m.viewer)||!available(p)||m.consumed)return;
         if(e.getClick()!=ClickType.LEFT&&e.getClick()!=ClickType.RIGHT)return;
-        int slot=e.getRawSlot();if(slot<0||slot>=27||m.inv.getItem(slot)==null)return;
+        int slot=e.getRawSlot();if(slot<0||slot>=m.inv.getSize()||m.inv.getItem(slot)==null)return;
         m.consumed=true;
         Bukkit.getScheduler().runTask(plugin,()->{
             if(!p.isOnline()||!available(p)||p.getOpenInventory().getTopInventory().getHolder()!=m)return;

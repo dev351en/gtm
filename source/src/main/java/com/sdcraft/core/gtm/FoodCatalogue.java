@@ -16,7 +16,27 @@ public final class FoodCatalogue {
         new Meal("samosa","Samosa",2000,1),new Meal("dabeli","Dabeli",2500,1),
         new Meal("pav_bhaji","Pav bhaji",6000,2),new Meal("dosa","Dosa",5500,2),
         new Meal("idli","Idli",3500,2),new Meal("thali","Gujarati thali",8500,3),
-        new Meal("biryani","Biryani",9000,3),new Meal("lassi","Lassi",3000,1));
+        new Meal("biryani","Biryani",9000,3),new Meal("lassi","Lassi",3000,1),
+        new Meal("dhokla", "Khaman dhokla", 3000, 1),
+        new Meal("khandvi", "Khandvi", 3500, 1),
+        new Meal("poha", "Kanda poha", 3000, 1),
+        new Meal("misal", "Misal", 6500, 1),
+        new Meal("upma", "Upma", 3500, 1),
+        new Meal("puran_poli", "Puran poli", 4500, 1),
+        new Meal("bhakri", "Bhakri", 2500, 1),
+        new Meal("thepla", "Methi thepla", 3000, 1),
+        new Meal("modak", "Ukadiche modak", 2500, 1),
+        new Meal("jalebi", "Jalebi", 3000, 1),
+        new Meal("kulfi", "Pista kulfi", 3500, 1),
+        new Meal("falooda", "Rose falooda", 6500, 1),
+        new Meal("nimbu_pani", "Nimbu pani", 2000, 1),
+        new Meal("filter_coffee", "Filter coffee", 2500, 1),
+        new Meal("kathi_roll", "Kathi roll", 5500, 1),
+        new Meal("pani_puri", "Pani puri", 3000, 1),
+        new Meal("sev_puri", "Sev puri", 3500, 1),
+        new Meal("ragda", "Ragda pattice", 5000, 1),
+        new Meal("sandesh", "Sandesh", 3000, 1),
+        new Meal("sheera", "Rava sheera", 3500, 1));
     public static Meal get(String id){return ITEMS.stream().filter(m->m.id().equals(id)).findFirst().orElseThrow(()->new IllegalArgumentException("Unknown meal"));}
     public static boolean validBrand(String s){return "zomatoo".equals(s)||"swiffy".equals(s);}
     public record Ticket(UUID id,String brand,String meal,long price,String vendor,UUID customer,long readyAt,Phase phase) {

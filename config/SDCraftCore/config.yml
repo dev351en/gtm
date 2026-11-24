@@ -84,3 +84,6 @@ gta:
   safe-zone-radius: 18
   wanted: {decay-seconds: 120}
   shop: {vehicle-sedan-cents: 150000}
+
+gtm:
+  experimental-festivals: false
