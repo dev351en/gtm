@@ -5,6 +5,18 @@
 
 ---
 
+## [1.6.0-dev.4] — 2026-11-24: Persistent banking and surveyed property integration
+
+- Confirmed Java 25 full plugin compilation, automated checks and candidate JAR upload for dev.3 in [GitHub Actions run 45444233893](https://github.com/dev351en/gtm/actions/runs/45444233893). This is build verification, not live gameplay.
+- Hardened legacy Ledger without replacing the account schema: strict YAML load, forced temporary write plus atomic replacement, restore in-memory snapshot on failed write, precompute arithmetic before debits. CSV audit failure is logged after a committed transaction and no longer turns a committed payment into a failure response. CSV is diagnostic, not a guaranteed transaction journal.
+- Loan principal and bank credit, repayments and debt state now share the same committed account file. Current loan and expected-paid checks, up to 512 persisted issued IDs per account (fail closed at cap), active-play clock, due and overdue status. Initial offers 1,000/3,000 ARK, 8% total flat interest over 14 active game days, two days grace; provisional prices. New ARK loan menu in existing phone and /gtmloan fallback. Permission and feature flag default off.
+- Property purchases, locks, replacement keys and guest records now use the same authoritative account file; property price and cuboid come from surveyed configuration. Added paged property catalogue, purchase confirmation, owner-bound physical key item, key replacement, direct movement/teleport and interaction guards. Feature disabled by default, empty surveyed registry, no world changes. Guest-management UI, vehicle/portal/respawn/indirect-edit bypasses, WorldGuard/restoration coordination, actual furnished flats and custom key model remain pending.
+- Added eight JUnit ledger tests and two region geometry tests covering persistence, duplicate repayment and issue, failure rollback, malformed accounts, overflow, audit write failure, loan grace, property payment/ownership and key lifecycle. Dev.4 CI run 45446234182 failed compilation on undefined logout variable; corrected in 033ac3854d3ec603608f2c1a8563292d0d428a16. Corrected full build outcome not yet confirmed at this entry; do not deploy candidate until verified.
+- Added docs/STAGING_CIVIC.md and tools/daytona_preflight.py (read-only GET metadata, credential-safe output, no provisioning). Python mock checks passed locally, exact source hash matched. No authenticated Daytona API request; DNS still unavailable, real quota/billing and world disk not verified.
+- No change to main or existing sandbox, no additional hosting resources created. Full Revision 4.0 scope remains incomplete; no per-feature approvals required.
+
+---
+
 ## [1.6.0-dev.3] — 2026-11-24: Persistence, routing and proximity reactions
 
 - Added SnapshotStore, bounded versioned binary aggregate storage with defensive copies, SHA-256 validation, file lock, atomic replacement, stale revision rejection and latest-operation replay handling. 16 MiB maximum per snapshot. No legacy ledger migration, multi-aggregate atomic transaction, power-loss durability guarantee or persistent operation-ID registry yet. Use a single store instance per file in JVM; concurrent independent instances may receive overlapping-lock errors. Not enabled against live balances.
