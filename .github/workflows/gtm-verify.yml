@@ -1,7 +1,7 @@
 name: GTM verification (no deployment)
 on:
-  push:
-    branches: [gtm/revision-4-foundation]
+  pull_request:
+    branches: [main]
     paths:
       - 'source/**'
       - 'tools/generate_npc_assets.py'
