@@ -5,6 +5,16 @@
 
 ---
 
+## [1.6.0-dev.5] — 2026-11-24: Food commerce collection pilot
+
+- Confirmed the corrected dev.4 Java 25 build, Gradle check and candidate JAR upload in [run 45446936256](https://github.com/dev351en/gtm/actions/runs/45446936256). Logs show all 155 domain assertions and all ten new banking/property JUnit methods passing. The previous compile failure is resolved at dev.4.
+- Added FoodCatalogue with ten original Indian meal entries, provisional ARK prices, two fictional brands and immutable order/collection/refund state. Added four JUnit ledger methods covering atomic charges, refunds, duplicate order identifiers, persistence, insufficient funds, timing, and failed-write rollback.
+- Added GtmFood phone apps (Zomatoo and Swiffy), confirmation, preparation timer, order status, cancellation/refund and proximity-checked collection at a surveyed counter. Existing bank ledger stores price and order together, with one open order per player and bounded 2,048-order ID history (fails closed at cap). Permission gtm.food and config gtm.experimental-food default off. No counter positions invented; unavailable counters reject payment.
+- Collection currently grants named vanilla bread portions as placeholder consumables, not custom food models. Order collection is committed before inventory insertion; a crash or inventory failure between those operations may require administrative reconciliation. No automatic recovery or scooter delivery implemented; this is a counter collection pilot, not the approved final physical delivery system.
+- Latest dev.5 build and new tests require CI confirmation; no live client testing. Existing sandbox, player funds and world untouched. No new AI sandbox or hosting expenditure. Full Revision 4.0 scope remains incomplete.
+
+---
+
 ## [1.6.0-dev.4] — 2026-11-24: Persistent banking and surveyed property integration
 
 - Confirmed Java 25 full plugin compilation, automated checks and candidate JAR upload for dev.3 in [GitHub Actions run 45444233893](https://github.com/dev351en/gtm/actions/runs/45444233893). This is build verification, not live gameplay.
