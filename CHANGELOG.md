@@ -5,6 +5,56 @@
 
 ---
 
+## [1.4.0] — 2026-11-24: MCServerHost Direct Cloud Deployment & Vehicle Rendering Root-Cause Fix
+
+### 🌟 Release Overview
+Integrated and configured the user's dedicated **MCServerHost** cloud server (`51.79.229.238:23040`) for zero-proxy, direct public multiplayer. Solved the critical 3-part bug chain causing vehicles to render as vanilla diamond hoes and the server resource pack to be rejected. Deployed the verified monotonic resource pack across GitHub, Daytona VPS, and MCServerHost, installed the universal **Complementary Reimagined r5.10** shaderpack, and configured the user's Minecraft client for automatic server-side pack downloads.
+
+---
+
+### 1. Dedicated Public Hosting (MCServerHost)
+- **Direct Server IP for Players/Friends**: `51.79.229.238:23040`
+- **Host Provider**: MCServerHost (Pterodactyl container architecture)
+- **SFTP Management**: `51.79.229.238:2022` (User: `3512dev.stuff@gmail.com.38f3f401`)
+- **Key Advantage**: Dedicated public IP and port (`23040`). Friends can connect directly from the Minecraft multiplayer menu with **zero** local batch scripts, SSH tunnels, or Ngrok proxies.
+- **Server Properties Synchronized**:
+  - `server-ip=0.0.0.0`
+  - `server-port=23040`
+  - `resource-pack=https\://raw.githubusercontent.com/dev351en/gtm/main/resource-pack/EXPECT_SDCRAFT_ResourcePack_26.3.zip`
+  - `resource-pack-sha1=fcb712e1d90d378ff7a154ff39d32e3db92e6eaa`
+  - `resource-pack-id=e92b5f0b-4866-4dca-a73b-7712db625bb6`
+  - `resource-pack-prompt=` (cleared to avoid Gson control-character parser errors)
+  - `require-resource-pack=true`
+
+---
+
+### 2. Vehicle Rendering & Resource Pack Root-Cause Fix
+Extensive decompilation and JSON schema validation identified the exact 3 bugs causing MTVehicles models to fail:
+1. **Gson MalformedJsonException in `server.properties`**:
+   - `resource-pack-prompt` contained literal unescaped `\n` and `§` formatting characters.
+   - Paper's internal Gson parser threw `MalformedJsonException: Unescaped control characters (\u0000-\u001F) in server.properties`.
+   - Result: Paper set `serverPackInfo = Optional.empty()`, completely suppressing server-side pack prompts on join.
+   - **Fix**: Cleared `resource-pack-prompt=` to use Minecraft's clean native prompt.
+2. **Damaged Property Short-Circuit in `diamond_hoe.json`**:
+   - In `assets/minecraft/items/diamond_hoe.json`, all 230 MTVehicles custom models were nested inside `on_false` of `"property": "damaged"`, while `on_true` was hardcoded to `minecraft:item/diamond_hoe`.
+   - Since MTVehicles spawns vehicles with custom item damage (e.g., 1009, 1029), Minecraft evaluated `damaged == true` and rendered the vanilla diamond hoe.
+   - **Fix**: Rebuilt the root definition using `minecraft:range_dispatch` directly on `"property": "damage"`.
+3. **Non-Monotonic Threshold Ordering**:
+   - Entry 230 had `threshold: 0` placed after `0.8169`, violating Minecraft 1.21.4's strict rule that thresholds must be strictly increasing.
+   - Result: Client log logged `JsonParseException: Thresholds must be strictly increasing` and discarded all overrides.
+   - **Fix**: Re-sorted and deduplicated all 229 damage entries with strictly increasing monotonic thresholds and `fallback: minecraft:item/diamond_hoe`.
+
+---
+
+### 3. Client Automation & Universal Shaders
+- **Multiplayer Server List (`servers.dat`)**:
+  - `§6§lSD CRAFT SMP §a(Direct Cloud Server)`: `51.79.229.238:23040` (`acceptTextures: 1` — automatic download).
+  - `§6§lSD CRAFT SMP §7(Daytona VPS)`: `localhost:25565` (`acceptTextures: 1`).
+- **Local Pack Cache**: Fixed pack copied directly to `%APPDATA%\.minecraft\resourcepacks\EXPECT_SDCRAFT_ResourcePack_26.3.zip` and activated in `options.txt`.
+- **Universal Shaders**: Installed **Complementary Reimagined r5.10** (`ComplementaryReimagined_r5.10.zip`) into `%APPDATA%\.minecraft\shaderpacks\`.
+
+---
+
 ## [1.3.0] — 2026-11-24: Daytona Cloud 24/7 VPS Hosting & Public 3D BlueMap Deployment
 
 ### 🌟 Release Overview
