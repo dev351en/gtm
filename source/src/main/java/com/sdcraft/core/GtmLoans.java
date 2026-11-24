@@ -40,7 +40,7 @@ final class GtmLoans implements Listener {
             inv.setItem(4,item(Material.GOLD_INGOT,"§6Bank balance",ark(ledger.bank(p.getUniqueId()))));
             if(loan==null||loan.terms().outstanding()==0) {
                 inv.setItem(11,item(Material.PAPER,"§aBorrow 1,000 ARK","Total repayment: 1,080 ARK","14 active days; 2-day grace period","Click to accept these terms"));
-                inv.setItem(15,item(Material.BOOK,"§aBorrow 5,000 ARK","Total repayment: 5,400 ARK","14 active days; 2-day grace period","Click to accept these terms"));
+                inv.setItem(15,item(Material.BOOK,"§aBorrow 3,000 ARK","Total repayment: 3,240 ARK","14 active days; 2-day grace period","Click to accept these terms"));
             } else {
                 var t=loan.terms();
                 inv.setItem(10,item(Material.BOOK,"§eLoan details","Outstanding: "+ark(t.outstanding()),"Due now: "+ark(t.due()),"Active days: "+t.elapsed()+"/"+t.days(),t.overdue()?"§cOVERDUE":"§aCurrent"));
@@ -76,7 +76,7 @@ final class GtmLoans implements Listener {
             try {
                 UUID id=p.getUniqueId(); boolean ok;
                 if(issuing) {
-                    long principal=slot==11?100000L:500000L;
+                    long principal=slot==11?100000L:300000L;
                     ok=ledger.issueLoan(id,m.issueId,principal,RATE,DAYS,GRACE);
                     if(ok)clocks.remove(id);
                 } else {
