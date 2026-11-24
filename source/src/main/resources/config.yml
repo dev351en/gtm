@@ -81,6 +81,8 @@ service:
   lateness-discipline: warning-only
   offline-at-shift-start-exempt: true
 gtm:
+  experimental-properties: false # Staging only; complete survey and access tests first.
+  property-regions: [] # Each entry: id (UUID), name, world, min-x/y/z, max-x/y/z, price-cents (integers).
   experimental-loans: false # Staging only, grant gtm.loans after verified account authentication.
   experimental-dialogue: false # Enable only on authenticated staging server after full build and client tests.
 gta:
