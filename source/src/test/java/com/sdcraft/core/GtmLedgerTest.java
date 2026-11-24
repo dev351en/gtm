@@ -33,6 +33,12 @@ final class GtmLedgerTest {
         assertTrue(reopened.repayLoan(user,id,due,108000-due));
         assertEquals(92000,reopened.bank(user));
         assertFalse(reopened.issueLoan(user,id,100000,800,14,2));
+        UUID second=UUID.randomUUID();
+        assertTrue(reopened.issueLoan(user,second,100000,800,14,2));
+        assertTrue(reopened.repayLoan(user,second,0,108000));
+        Ledger afterSecond=new Ledger(dir.toFile());
+        assertFalse(afterSecond.issueLoan(user,id,100000,800,14,2));
+        assertEquals(84000,afterSecond.bank(user));
     }
 
     @Test void failedAtomicWriteRestoresInMemoryState() throws Exception {
