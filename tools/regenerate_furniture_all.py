@@ -315,24 +315,27 @@ def build_furniture_piece(fid: str, cat: str, dims: list, itype: str) -> s3d.Par
                 pb.cbox(sx, 0, 0, 2.2, H * 0.72, D * 0.84, mat="steel_dark" if cat in ("office", "industrial", "police") else wood, bone="base")
             pb.cbox(0, H * 0.72, 0, W * 0.96, 2.2, D * 0.94, mat="granite" if "kitchen" in fid or "island" in fid else ("brass" if "tea" in fid else wood), bone="base")
             if "desk" in fid or "surveillance" in fid or "terminal" in fid or "cashwrap" in fid or "reception" in fid or "monitor" in fid:
-                pb.cbox(W * 0.28, 0, 0, W * 0.32, H * 0.72, D * 0.82, mat="steel_light", bone="base")
+                pb.cbox(W * 0.28, 0, 0, W * 0.32, H * 0.72, D * 0.82, mat="steel_light", bone="base", face_mats={"south": "drawer_teak"})
                 pb.cbox(0, H * 0.74 + 2.0, -D * 0.2, W * 0.42, 6.2, 1.2, mat="graphite", bone="base")
-                pb.cbox(0, H * 0.74 + 2.4, -D * 0.16, W * 0.38, 5.2, 0.8, mat="neon_cyan", bone="base")
+                mon_tile = "screen_ecg" if cat == "hospital" or "vital" in fid or "monitor" in fid else ("screen_atm" if "terminal" in fid or "cashwrap" in fid else "screen_pc")
+                pb.cbox(0, H * 0.74 + 2.4, -D * 0.16, W * 0.38, 5.2, 0.8, mat=mon_tile, bone="base")
 
     elif any(k in fid for k in ("wardrobe", "locker", "cabinet", "shelf", "fridge", "cooler", "freezer", "armory", "rack", "pantry", "bin", "dispenser", "vending", "kiosk", "atm", "unit", "dresser", "bay", "chest", "room", "toilet", "dishwasher", "carousel", "dock_leveler", "plinth")):
         body_mat = "stainless" if "fridge" in fid or "cooler" in fid or "toilet" in fid or "dish" in fid else ("hazard_yellow" if "flammable" in fid else ("police_navy" if "atm" in fid else (wood if cat in ("living", "bedroom", "traditional_indian") else "steel_light")))
         pb.cbox(0, 0, 0, W * 0.92, H * 0.92, D * 0.90, mat=body_mat, bone="base")
         pb.cbox(0, H * 0.92, 0, W * 0.96, H * 0.08, D * 0.94, mat=metal, bone="base")
         if "cooler" in fid or "display" in fid or "atm" in fid or "vending" in fid or "bay" in fid:
-            pb.cbox(0, H * 0.38, D * 0.42, W * 0.78, H * 0.48, 1.4, mat="glass_clear" if "cooler" in fid or "display" in fid else "neon_cyan", bone="base")
+            scr = "screen_atm" if "atm" in fid or "vending" in fid else "glass_clear"
+            pb.cbox(0, H * 0.38, D * 0.42, W * 0.78, H * 0.48, 1.4, mat=scr, bone="base")
         elif "bookshelf" in fid or "racks" in fid or "carousel" in fid or "valet" in fid:
-            pb.cbox(0, H * 0.1, 0.5, W * 0.82, H * 0.82, D * 0.82, mat="steel_dark", bone="base")
+            pb.cbox(0, H * 0.1, 0.5, W * 0.82, H * 0.82, D * 0.82, mat="bookshelf_front", bone="base")
             for lv in range(1, 4):
                 pb.cbox(0, H * (lv / 4.0), 0, W * 0.86, 1.2, D * 0.86, mat=wood, bone="base")
-                pb.cbox(-W * 0.2, H * (lv / 4.0) + 1.2, 0, 3.0, 4.0, D * 0.6, mat="terracotta" if lv % 2 else "paint_emerald", bone="base")
+                pb.cbox(-W * 0.2, H * (lv / 4.0) + 1.2, 0, 3.0, 4.0, D * 0.6, mat="bookshelf_front", bone="base")
         else:
-            pb.cbox(-W * 0.22, H * 0.12, D * 0.45, W * 0.38, H * 0.76, 1.0, mat="chrome" if "wardrobe" in fid else body_mat, bone="base")
-            pb.cbox(W * 0.22, H * 0.12, D * 0.45, W * 0.38, H * 0.76, 1.0, mat=body_mat, bone="base")
+            door_f = "drawer_teak" if cat in ("living", "bedroom", "traditional_indian", "office") else body_mat
+            pb.cbox(-W * 0.22, H * 0.12, D * 0.45, W * 0.38, H * 0.76, 1.0, mat="chrome" if "wardrobe" in fid else door_f, bone="base", face_mats={"south": door_f})
+            pb.cbox(W * 0.22, H * 0.12, D * 0.45, W * 0.38, H * 0.76, 1.0, mat=door_f, bone="base", face_mats={"south": door_f})
             pb.cbox(-W * 0.06, H * 0.48, D * 0.48, 0.8, 3.5, 1.2, mat="brass", bone="base")
             pb.cbox(W * 0.06, H * 0.48, D * 0.48, 0.8, 3.5, 1.2, mat="brass", bone="base")
 
@@ -353,9 +356,9 @@ def build_furniture_piece(fid: str, cat: str, dims: list, itype: str) -> s3d.Par
             for sx in (-W * 0.40, W * 0.40):
                 pb.cbox(sx, 2.5, -D * 0.40, 1.8, H * 0.75, 1.8, mat="brass", bone="base")
                 pb.cbox(sx, 2.5, D * 0.40, 1.8, H * 0.75, 1.8, mat="brass", bone="base")
-            pb.cbox(0, H * 0.75, 0, W * 0.94, 3.0, D * 0.94, mat=wood, bone="base")
+            pb.cbox(0, H * 0.75, 0, W * 0.94, 3.0, D * 0.94, mat="mandir_jali", bone="base")
             pb.cbox(0, H * 0.78 + 3.0, 0, W * 0.55, H * 0.20, D * 0.55, mat="brass", bone="base")
-            pb.cbox(0, 5.0, 0, W * 0.50, 3.5, D * 0.50, mat="marigold", bone="base")
+            pb.cbox(0, 5.0, 0, W * 0.50, 3.5, D * 0.50, mat="glowstone_lamp", bone="base")
         elif "fountain" in fid or "dish" in fid:
             pb.cbox(0, 0, 0, W * 0.94, 5.0, D * 0.94, mat="sandstone" if "fountain" in fid else "steel_light", bone="base")
             pb.cbox(0, 5.0, 0, W * 0.76, 3.5, D * 0.76, mat="water_teal" if "fountain" in fid else "paint_white", bone="base")
@@ -364,11 +367,11 @@ def build_furniture_piece(fid: str, cat: str, dims: list, itype: str) -> s3d.Par
             pb.cbox(0, 0, 0, 5.0, 2.5, 5.0, mat="brass", bone="base")
             pb.cbox(0, 2.5, 0, 1.4, H * 0.75, 1.4, mat="brass", bone="base")
             pb.cbox(0, H * 0.78, 0, 5.5, 1.6, 5.5, mat="brass", bone="base")
-            pb.cbox(0, H * 0.85, 0, 2.0, 3.0, 2.0, mat="marigold", bone="base")
+            pb.cbox(0, H * 0.85, 0, 2.0, 3.0, 2.0, mat="glowstone_lamp", bone="base")
         else:
             pb.cbox(0, 0, 0, W * 0.72, 2.2, D * 0.72, mat=metal, bone="base")
             pb.cbox(0, 2.2, 0, W * 0.42, H * 0.78, D * 0.42, mat=wood, bone="base")
-            pb.cbox(0, H * 0.80, 0, W * 0.65, H * 0.18, D * 0.65, mat="headlight", bone="base")
+            pb.cbox(0, H * 0.80, 0, W * 0.65, H * 0.18, D * 0.65, mat="glowstone_lamp", bone="base")
 
     elif cat == "industrial" and ("lift" in fid or "drum" in fid or "crane" in fid):
         if "lift" in fid or "crane" in fid:
@@ -391,16 +394,16 @@ def build_furniture_piece(fid: str, cat: str, dims: list, itype: str) -> s3d.Par
             pb.cbox(0, H * 0.92, 0, W * 0.98, 2.5, D * 0.96, mat="aluminum", bone="base")
             pb.cbox(0, 5.0, -D * 0.22, W * 0.68, 2.0, 5.5, mat="paint_emerald", bone="base")
         elif "tandoor" in fid or "stove" in fid or "hob" in fid or "sink" in fid or "hood" in fid or "purifier" in fid or "oven" in fid:
-            pb.cbox(0, 0, 0, W * 0.90, H * 0.85, D * 0.88, mat="terracotta" if "tandoor" in fid else "stainless", bone="base")
-            pb.cbox(0, H * 0.85, 0, W * 0.94, 1.8, D * 0.92, mat="granite", bone="base")
+            pb.cbox(0, 0, 0, W * 0.90, H * 0.85, D * 0.88, mat="terracotta" if "tandoor" in fid else "stainless", bone="base", face_mats={"south": "drawer_teak"})
+            pb.cbox(0, H * 0.85, 0, W * 0.94, 1.8, D * 0.92, mat="stove_front" if "stove" in fid or "hob" in fid else "granite", bone="base", face_mats={"up": "stove_front"} if ("stove" in fid or "hob" in fid) else None)
             pb.cbox(-W * 0.22, H * 0.87, 0, 4.0, 1.0, 4.0, mat="steel_dark", bone="base")
             pb.cbox(W * 0.22, H * 0.87, 0, 4.0, 1.0, 4.0, mat="steel_dark", bone="base")
         elif "fireplace" in fid:
-            pb.cbox(0, 0, 0, W * 0.92, H * 0.90, D * 0.85, mat="steel_dark", bone="base")
+            pb.cbox(0, 0, 0, W * 0.92, H * 0.90, D * 0.85, mat="brick_clay", bone="base")
             pb.cbox(0, H * 0.86, 0.3, W * 0.98, 2.0, D * 0.94, mat="wood_oak", bone="base")
             pb.cbox(0, 1.2, D * 0.38, W * 0.74, H * 0.56, 1.4, mat="graphite", bone="base")
-            pb.cbox(0, 1.8, D * 0.44, W * 0.62, H * 0.22, 0.9, mat="taillight", bone="base")
-            pb.cbox(0, 3.0, D * 0.44, W * 0.46, H * 0.22, 0.9, mat="marigold", bone="base")
+            pb.cbox(0, 1.8, D * 0.44, W * 0.62, H * 0.22, 0.9, mat="glowstone_lamp", bone="base")
+            pb.cbox(0, 3.0, D * 0.44, W * 0.46, H * 0.22, 0.9, mat="taillight", bone="base")
         elif "turnstile" in fid:
             pb.cbox(-W * 0.36, 0, 0, 3.2, H * 0.92, D * 0.90, mat="steel_light", bone="base")
             pb.cbox(W * 0.36, 0, 0, 3.2, H * 0.92, D * 0.90, mat="steel_light", bone="base")
@@ -428,7 +431,7 @@ def build_furniture_piece(fid: str, cat: str, dims: list, itype: str) -> s3d.Par
 
 
 def build_all():
-    s3d.get_atlas()
+    s3d.build_shared_atlas()
     MODELS_DIR.mkdir(parents=True, exist_ok=True)
     JAVA_DIR.mkdir(parents=True, exist_ok=True)
     ICONS_DIR.mkdir(parents=True, exist_ok=True)

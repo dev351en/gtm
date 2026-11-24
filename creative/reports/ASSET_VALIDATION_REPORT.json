@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "quality_tier": "V2_ZBUFFER_32X32_VECTOR",
+  "quality_tier": "V3_FAITHFUL_32X_PIXEL_AND_MODELS",
   "domains_validated": {
     "domain_1_branding_ui": {
       "server_icon": "64x64 RGB verified",
@@ -36,10 +36,10 @@
     }
   },
   "packs_validated": {
-    "model_32x32_textures_count": 100,
-    "world_32x32_block_textures_count": 86,
-    "java_world_pack_bytes": 455742,
-    "bedrock_world_pack_bytes": 264273,
+    "model_32x32_textures_count": 148,
+    "world_32x32_block_textures_count": 98,
+    "java_world_pack_bytes": 1444201,
+    "bedrock_world_pack_bytes": 183038,
     "local_minecraft_installed": true
   },
   "contact_sheets": [

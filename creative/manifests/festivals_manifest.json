@@ -40,7 +40,7 @@
         "target_slot": "diwali_01",
         "target_theme": "diwali"
       },
-      "sha256": "c2f56a78a1b014b7fc9762e039919acac5c64b32ea8ea202352a3bbcbde1d805",
+      "sha256": "553e0289c3e0631570d23e6455abbd03b80bc1d606d2f4737ef720bd49d5f89b",
       "java_model_path": "creative/source/models/festivals/diwali/java/diwali_gateway.json",
       "icon_path": "creative/source/icons/festivals/diwali_gateway.png"
     },
@@ -61,7 +61,7 @@
         "target_slot": "diwali_02",
         "target_theme": "diwali"
       },
-      "sha256": "3faacfcc78690531071c25f7e57f6e035e5a6c35f7de66867584187bc9ce5435",
+      "sha256": "195fea357c403ab697190206e0e8988d93505db64e0c569f4ab2e58e3be48d17",
       "java_model_path": "creative/source/models/festivals/diwali/java/diwali_street_banner.json",
       "icon_path": "creative/source/icons/festivals/diwali_street_banner.png"
     },
@@ -82,7 +82,7 @@
         "target_slot": "diwali_03",
         "target_theme": "diwali"
       },
-      "sha256": "33f32bfa661fdb7fab201b07c186a2cdac5dece7f6ebbf6534a453c8934ef897",
+      "sha256": "8e9e939c4a8747801cdfb926bbf79b7644af616d83e96778f4d0ed530edf7ab2",
       "java_model_path": "creative/source/models/festivals/diwali/java/diwali_window_lantern.json",
       "icon_path": "creative/source/icons/festivals/diwali_window_lantern.png"
     },
@@ -103,7 +103,7 @@
         "target_slot": "diwali_04",
         "target_theme": "diwali"
       },
-      "sha256": "f7bf729d09a2a2fd6d1ef12cb13c7eff45090efdca8f55f79d8062973a9bc856",
+      "sha256": "ad88cead741bd2775aef84f795a11f6fbec4083a4856e5798bb3d40d94b159c5",
       "java_model_path": "creative/source/models/festivals/diwali/java/diwali_counterpiece.json",
       "icon_path": "creative/source/icons/festivals/diwali_counterpiece.png"
     },
@@ -124,7 +124,7 @@
         "target_slot": "diwali_05",
         "target_theme": "diwali"
       },
-      "sha256": "1d9fbcd5c2c1014b0484497f65f5f95adfc82c98ab3bcf0c06ffd662efef99f9",
+      "sha256": "bae63fffd90716d7d1910f81f0e39904c830e15929b8f7ccb8610098264374fc",
       "java_model_path": "creative/source/models/festivals/diwali/java/diwali_procession_cart.json",
       "icon_path": "creative/source/icons/festivals/diwali_procession_cart.png"
     },
@@ -145,7 +145,7 @@
         "target_slot": "diwali_06",
         "target_theme": "diwali"
       },
-      "sha256": "cea00221fcfdea37954473c4441c751a3cc8cc5b0b43493cffdfcc031c4f80e7",
+      "sha256": "1f639e73a65848fa3c8020a5a86a205ddb276e16a1180b7eab33a78547f70519",
       "java_model_path": "creative/source/models/festivals/diwali/java/diwali_stage_backdrop.json",
       "icon_path": "creative/source/icons/festivals/diwali_stage_backdrop.png"
     },
@@ -166,7 +166,7 @@
         "target_slot": "diwali_07",
         "target_theme": "diwali"
       },
-      "sha256": "04bfb712ac2bdc5296092a2b5c6ac8af6a62669f22eb4b8238cdd0b37b45f406",
+      "sha256": "76ad255520a401c3e02098937b6a228b4390b7eced72f11c01ddda8496775176",
       "java_model_path": "creative/source/models/festivals/diwali/java/diwali_door_emblem.json",
       "icon_path": "creative/source/icons/festivals/diwali_door_emblem.png"
     },
@@ -187,7 +187,7 @@
         "target_slot": "diwali_08",
         "target_theme": "diwali"
       },
-      "sha256": "06462422c0e4f9e9dc70803745b908448348119051e3d64889d14cb3a19c7512",
+      "sha256": "359e6e9920504d715513e825cc3669f6163b22ea20ebd4d4922b84ecef4bbb0f",
       "java_model_path": "creative/source/models/festivals/diwali/java/diwali_parade_standard.json",
       "icon_path": "creative/source/icons/festivals/diwali_parade_standard.png"
     },
@@ -208,7 +208,7 @@
         "target_slot": "diwali_09",
         "target_theme": "diwali"
       },
-      "sha256": "596b9a19104031bd82bddb622937ef229e2b796097b347bab513474998a50605",
+      "sha256": "17f1628e3fa1072f63dc42f60060c0f299d8c52ac7e4499da3775f1f3d33eaf1",
       "java_model_path": "creative/source/models/festivals/diwali/java/diwali_street_arch.json",
       "icon_path": "creative/source/icons/festivals/diwali_street_arch.png"
     },
@@ -229,7 +229,7 @@
         "target_slot": "diwali_10",
         "target_theme": "diwali"
       },
-      "sha256": "240385de94127a78c3e384f4444913b703c4f61ee8485ab6a0bbd0993c9b88e7",
+      "sha256": "64fd50325ac821d40c6543985a5b72de4e3a7ed2352ff8c82269cd6d5835dbc9",
       "java_model_path": "creative/source/models/festivals/diwali/java/diwali_balcony_screen.json",
       "icon_path": "creative/source/icons/festivals/diwali_balcony_screen.png"
     },
@@ -250,7 +250,7 @@
         "target_slot": "diwali_11",
         "target_theme": "diwali"
       },
-      "sha256": "907e6c5e06a0c3fa95c67fb152f46784b5f0f1fa00ed9ceb237180bd1dd6d673",
+      "sha256": "b7a7dc2220228acbdf8a8dc033bac780674befa831eb9d0e3fe1fea3dbe1cd21",
       "java_model_path": "creative/source/models/festivals/diwali/java/diwali_market_booth.json",
       "icon_path": "creative/source/icons/festivals/diwali_market_booth.png"
     },
@@ -271,7 +271,7 @@
         "target_slot": "diwali_12",
         "target_theme": "diwali"
       },
-      "sha256": "299443821b05e1fe5507ef76cc4afc7cefe5b13181bc0ac32170b6dc020e7b78",
+      "sha256": "3f969085c3b6d68804a829f98596924c65a304ab48c4205c87e00b09a8217f81",
       "java_model_path": "creative/source/models/festivals/diwali/java/diwali_bandstand.json",
       "icon_path": "creative/source/icons/festivals/diwali_bandstand.png"
     },
@@ -292,7 +292,7 @@
         "target_slot": "holi_01",
         "target_theme": "holi"
       },
-      "sha256": "2ca8a932985bbe71efb2ab6ec6334cba5b80e275e4e077a5c5777e38adc961cf",
+      "sha256": "05c146eecbece30ba0c3c84df15d8fb211735ae2c59ee0080aea884916a2850c",
       "java_model_path": "creative/source/models/festivals/diwali/java/diwali_square_beacon.json",
       "icon_path": "creative/source/icons/festivals/diwali_square_beacon.png"
     },
@@ -313,7 +313,7 @@
         "target_slot": "holi_02",
         "target_theme": "holi"
       },
-      "sha256": "3269a309aef3b28dedf7189081586a6e17ede1f4bc24ac2f4c18046295d950f8",
+      "sha256": "a59de4d2ae457a693fbef774a892332e12abe92f05f6d89c9cdecd4c27abd635",
       "java_model_path": "creative/source/models/festivals/holi/java/holi_gateway.json",
       "icon_path": "creative/source/icons/festivals/holi_gateway.png"
     },
@@ -334,7 +334,7 @@
         "target_slot": "holi_03",
         "target_theme": "holi"
       },
-      "sha256": "62818b6ec853d4089c5a42d8630568f28dd68aed7d6b88673b4e71aa458e2dfa",
+      "sha256": "b4edd82c849852a3166e980a5125470fde120c886b67e015690a0e2b727d67e0",
       "java_model_path": "creative/source/models/festivals/holi/java/holi_street_banner.json",
       "icon_path": "creative/source/icons/festivals/holi_street_banner.png"
     },
@@ -355,7 +355,7 @@
         "target_slot": "holi_04",
         "target_theme": "holi"
       },
-      "sha256": "2510078f403e10a76ffc8534b1a4d0a8c99ea2cb602312b5adcec445b781a407",
+      "sha256": "636329bba7bf9f8f9fd896592d025fb679b52af6eaceec5b650cc1bc2cd374a7",
       "java_model_path": "creative/source/models/festivals/holi/java/holi_window_lantern.json",
       "icon_path": "creative/source/icons/festivals/holi_window_lantern.png"
     },
@@ -376,7 +376,7 @@
         "target_slot": "holi_05",
         "target_theme": "holi"
       },
-      "sha256": "e628cd0937e67c4c628a6dccd5d682afc8c4aa8b21b0fba92eda3566d73375be",
+      "sha256": "2334101ec0c45e6caa93527a6c592d059f6c561215f7aaace18b4e819a6f154b",
       "java_model_path": "creative/source/models/festivals/holi/java/holi_counterpiece.json",
       "icon_path": "creative/source/icons/festivals/holi_counterpiece.png"
     },
@@ -397,7 +397,7 @@
         "target_slot": "holi_06",
         "target_theme": "holi"
       },
-      "sha256": "1b21fa98e5fcf0a65d948083e1fa9918cd156d7d1cdb0ccb22a50de39694ab32",
+      "sha256": "e27048270377d46c0e3568233735e923c5730edf0e79f979f1681d3ad36070f1",
       "java_model_path": "creative/source/models/festivals/holi/java/holi_procession_cart.json",
       "icon_path": "creative/source/icons/festivals/holi_procession_cart.png"
     },
@@ -418,7 +418,7 @@
         "target_slot": "holi_07",
         "target_theme": "holi"
       },
-      "sha256": "96c65959232e3581cd488f8b25c686f8f2f75109306134504516aeaf7bb1b4cc",
+      "sha256": "79617057e2c648c82d80caf0279fe54e1f15e6da5bfa947f3002a2fb16c83741",
       "java_model_path": "creative/source/models/festivals/holi/java/holi_stage_backdrop.json",
       "icon_path": "creative/source/icons/festivals/holi_stage_backdrop.png"
     },
@@ -439,7 +439,7 @@
         "target_slot": "holi_08",
         "target_theme": "holi"
       },
-      "sha256": "03da277d7ba385289fd6fe6a0be35463db9708be786f7e846c176506d824645f",
+      "sha256": "454a14e9abc72a003bd3fbccb6b86730a6555fff0c74021f4971514329d39449",
       "java_model_path": "creative/source/models/festivals/holi/java/holi_door_emblem.json",
       "icon_path": "creative/source/icons/festivals/holi_door_emblem.png"
     },
@@ -460,7 +460,7 @@
         "target_slot": "holi_09",
         "target_theme": "holi"
       },
-      "sha256": "9a172483fbd6c851dae7bef7ec289abc13550c36cb5500921e5e2507e8f87c53",
+      "sha256": "fb8a0299063f9f7eee563664cda795a48df9a836db29514d8153128e596d5e6a",
       "java_model_path": "creative/source/models/festivals/holi/java/holi_parade_standard.json",
       "icon_path": "creative/source/icons/festivals/holi_parade_standard.png"
     },
@@ -481,7 +481,7 @@
         "target_slot": "holi_10",
         "target_theme": "holi"
       },
-      "sha256": "fb5e589269ecc77563676cf46f67e8ad28f8e04c0323cd37c192e31d360e28e7",
+      "sha256": "c94e500be3013fcf403f60da00706c30512e3fc02a033d5d1ef3a1b1d95a5721",
       "java_model_path": "creative/source/models/festivals/holi/java/holi_street_arch.json",
       "icon_path": "creative/source/icons/festivals/holi_street_arch.png"
     },
@@ -502,7 +502,7 @@
         "target_slot": "holi_11",
         "target_theme": "holi"
       },
-      "sha256": "2fe4b0a82d8a67afacce860e2a390b09d7a2b04f2c0baf345919a5c2ab938283",
+      "sha256": "0b730f4427c4dd052f71aa58435efcea1add70d81cfb8b6fc523856cd7a9dfad",
       "java_model_path": "creative/source/models/festivals/holi/java/holi_balcony_screen.json",
       "icon_path": "creative/source/icons/festivals/holi_balcony_screen.png"
     },
@@ -523,7 +523,7 @@
         "target_slot": "holi_12",
         "target_theme": "holi"
       },
-      "sha256": "3bae27529e8ac3b21aa3efb7c66e53dd92fd94d1a66c00c3f4c6d3b341c6796e",
+      "sha256": "f20db450142189c01c4a06abb755565a58dae6b14492f522c8ddfd70b5ff901e",
       "java_model_path": "creative/source/models/festivals/holi/java/holi_market_booth.json",
       "icon_path": "creative/source/icons/festivals/holi_market_booth.png"
     },
@@ -544,7 +544,7 @@
         "target_slot": "navratri_01",
         "target_theme": "navratri"
       },
-      "sha256": "8a3016151e867555c4c87772eb4079a565a7b9ca98f07d7e924e54a161b5c827",
+      "sha256": "6a3dfda82fefc7f054622756f9ec1a9a569e22ffce30e443fd431fc108225471",
       "java_model_path": "creative/source/models/festivals/holi/java/holi_bandstand.json",
       "icon_path": "creative/source/icons/festivals/holi_bandstand.png"
     },
@@ -565,7 +565,7 @@
         "target_slot": "navratri_02",
         "target_theme": "navratri"
       },
-      "sha256": "5512dd27c58995e5439caf80ef1f2eca5b3467a57c53260eab79b0eb9d75bf4c",
+      "sha256": "d317c7fa1874973810aac6aa7635719dc118de52dc507c75d3f6820827dd70e4",
       "java_model_path": "creative/source/models/festivals/holi/java/holi_square_beacon.json",
       "icon_path": "creative/source/icons/festivals/holi_square_beacon.png"
     },
@@ -586,7 +586,7 @@
         "target_slot": "navratri_03",
         "target_theme": "navratri"
       },
-      "sha256": "bf2f4ca4fb8ed0f936da61f2a81830d3c206fb84ffe466ac526baaa3e435dc9b",
+      "sha256": "6295a3f82c00623fd5f2ead38c74a9e36ae865b6b9d7feef2400f47aa2ac9bf7",
       "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_gateway.json",
       "icon_path": "creative/source/icons/festivals/ganesh_gateway.png"
     },
@@ -607,7 +607,7 @@
         "target_slot": "navratri_04",
         "target_theme": "navratri"
       },
-      "sha256": "846f221c55cb36518f04670e1ba2db9ea0f2deea04d69023244f7497c2aa0d22",
+      "sha256": "3ccc892f81d893296f72003a7cd35c40a1b2993fb1c84c4651b1ec68e639b39f",
       "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_street_banner.json",
       "icon_path": "creative/source/icons/festivals/ganesh_street_banner.png"
     },
@@ -628,7 +628,7 @@
         "target_slot": "navratri_05",
         "target_theme": "navratri"
       },
-      "sha256": "2cf535ae11b1df53137ba0a91c79c6ade0e7911b63f39c5e2410cb79687e39a5",
+      "sha256": "55bbbb4ceffabe0b258a0cad133ed5ccb85e8a9fdcce332f1fde828068b6e031",
       "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_window_lantern.json",
       "icon_path": "creative/source/icons/festivals/ganesh_window_lantern.png"
     },
@@ -649,7 +649,7 @@
         "target_slot": "navratri_06",
         "target_theme": "navratri"
       },
-      "sha256": "47de76ff2d5e3f3abd5922f80760d2926ee91595204666dd4290dbfeae548355",
+      "sha256": "319632847c043144fee432ab353fd58b22235dbb989a1f1fa62d27a60142a73d",
       "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_counterpiece.json",
       "icon_path": "creative/source/icons/festivals/ganesh_counterpiece.png"
     },
@@ -670,7 +670,7 @@
         "target_slot": "navratri_07",
         "target_theme": "navratri"
       },
-      "sha256": "b58d71b76c77ad414922068b6e919896d4086e0bfe03f9b294d234ed5c22017f",
+      "sha256": "db146b6ca813b69983d25e20039a46aaab7247c270d350fe1f4821b1df14fb3b",
       "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_procession_cart.json",
       "icon_path": "creative/source/icons/festivals/ganesh_procession_cart.png"
     },
@@ -691,7 +691,7 @@
         "target_slot": "navratri_08",
         "target_theme": "navratri"
       },
-      "sha256": "1a2868b4387c3df3d4f037efc7c399f7ece6dc31fca737e27b67dae0e520adbe",
+      "sha256": "2e8760a7c6a1fb586f1dde4d4ae78b77f759515c1f5fbf989133b836ed18b80a",
       "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_stage_backdrop.json",
       "icon_path": "creative/source/icons/festivals/ganesh_stage_backdrop.png"
     },
@@ -712,7 +712,7 @@
         "target_slot": "navratri_09",
         "target_theme": "navratri"
       },
-      "sha256": "cac69779a10553ab21faa9c52c275853b4bc380f430f45f2c4c9a86fa112a6d1",
+      "sha256": "b5aef08c470ff6e76900870b6506688f336b8cb9b28beed906e7875004ba961e",
       "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_door_emblem.json",
       "icon_path": "creative/source/icons/festivals/ganesh_door_emblem.png"
     },
@@ -733,7 +733,7 @@
         "target_slot": "navratri_10",
         "target_theme": "navratri"
       },
-      "sha256": "fb62cfa78954bc932a194a9e028a2798f7a03e309a4d6a6a488726e526483bb3",
+      "sha256": "d63ab9295eac2fb421b94abd9788db2c3ee5c313ce61c95ee7bcbb5e0ba34a6b",
       "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_parade_standard.json",
       "icon_path": "creative/source/icons/festivals/ganesh_parade_standard.png"
     },
@@ -754,7 +754,7 @@
         "target_slot": "navratri_11",
         "target_theme": "navratri"
       },
-      "sha256": "c3b1f5e8315648d6a3a86017cdc3af5fee5d10c0362e2356a4c004ed853466e9",
+      "sha256": "e132d38bbb888d6fbf874017418c8ecea159f80785b6e19e23a76c33f48b458a",
       "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_street_arch.json",
       "icon_path": "creative/source/icons/festivals/ganesh_street_arch.png"
     },
@@ -775,7 +775,7 @@
         "target_slot": "navratri_12",
         "target_theme": "navratri"
       },
-      "sha256": "b224997a5c89ab17ebf27e912c2a3a2e789660364f67bcdb2a608334be48f4b0",
+      "sha256": "435b3c06f8b610ed4ed187ef60c3906ffb6a91dc43c5e0a8908debeea8a91a9a",
       "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_balcony_screen.json",
       "icon_path": "creative/source/icons/festivals/ganesh_balcony_screen.png"
     },
@@ -796,7 +796,7 @@
         "target_slot": "christmas_01",
         "target_theme": "christmas"
       },
-      "sha256": "a5785cf10186a745c6ea8d895fb647c2917797d52b0d9a7a374688caff078fe1",
+      "sha256": "93b02bbee150e8b1ac840ddbd6bc97168ff3aca88b96e86e3cfb9d8354d15ea1",
       "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_market_booth.json",
       "icon_path": "creative/source/icons/festivals/ganesh_market_booth.png"
     },
@@ -817,7 +817,7 @@
         "target_slot": "christmas_02",
         "target_theme": "christmas"
       },
-      "sha256": "3d7612c1b5c34582bdffe909b1bcf636d683d5f31a9d004445705862a21c7ee0",
+      "sha256": "0db367a5a839aa93e79cac19c8d43096da1efe9907a783370037d42299725e63",
       "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_bandstand.json",
       "icon_path": "creative/source/icons/festivals/ganesh_bandstand.png"
     },
@@ -838,7 +838,7 @@
         "target_slot": "christmas_03",
         "target_theme": "christmas"
       },
-      "sha256": "717ff17d94f60097a8c3cda4aefbb15259dfe66f500407707dddf353de0d7fe1",
+      "sha256": "a38dc09b4df4a1421d692b0a0eca82292afede32fecb1c9f17fc7b9614c743aa",
       "java_model_path": "creative/source/models/festivals/ganesh/java/ganesh_square_beacon.json",
       "icon_path": "creative/source/icons/festivals/ganesh_square_beacon.png"
     },
@@ -859,7 +859,7 @@
         "target_slot": "christmas_04",
         "target_theme": "christmas"
       },
-      "sha256": "94d415e29e22067adf2c251e623816e69a0780a6d0caa2bcc44a2fbc52a0ca4c",
+      "sha256": "c5b291a39200c70b75118477c5e0837c94aa241642fe4718ee3aee8cb107c752",
       "java_model_path": "creative/source/models/festivals/navratri/java/navratri_gateway.json",
       "icon_path": "creative/source/icons/festivals/navratri_gateway.png"
     },
@@ -880,7 +880,7 @@
         "target_slot": "christmas_05",
         "target_theme": "christmas"
       },
-      "sha256": "038913f007e69a2f4dc001ca3398f1e2dfb0defd5e069041bffe1a8c95c0004a",
+      "sha256": "755bfb1e3fbc2b722f92de152c67bad95b99b51196f54062eb28c7e430e5243a",
       "java_model_path": "creative/source/models/festivals/navratri/java/navratri_street_banner.json",
       "icon_path": "creative/source/icons/festivals/navratri_street_banner.png"
     },
@@ -901,7 +901,7 @@
         "target_slot": "christmas_06",
         "target_theme": "christmas"
       },
-      "sha256": "7936d9638e9a7975c5319e5a4b8e18eb7169c4dfc1eba02b1098470761f8ea95",
+      "sha256": "cded8227ac229a295c07b30e3f7c37516322cb96e3d0969f0678c3b6df6eb291",
       "java_model_path": "creative/source/models/festivals/navratri/java/navratri_window_lantern.json",
       "icon_path": "creative/source/icons/festivals/navratri_window_lantern.png"
     },
@@ -922,7 +922,7 @@
         "target_slot": "christmas_07",
         "target_theme": "christmas"
       },
-      "sha256": "24b283566bb3ae917a042393ec2e22c347c90c11d2e41a71738753db107f1128",
+      "sha256": "a7fdc0ac3d400669b420f98ac4d42c49e022ccc4fee048812b762a1beef8c237",
       "java_model_path": "creative/source/models/festivals/navratri/java/navratri_counterpiece.json",
       "icon_path": "creative/source/icons/festivals/navratri_counterpiece.png"
     },
@@ -943,7 +943,7 @@
         "target_slot": "christmas_08",
         "target_theme": "christmas"
       },
-      "sha256": "4903da845773937d4c5aa253ff1c741aa631de1eb8ccbcc3262cd736bc4d25d8",
+      "sha256": "979d1cb81e214bd077d1810834230f8241abaa0adb4a891cc2b3e098a5729d65",
       "java_model_path": "creative/source/models/festivals/navratri/java/navratri_procession_cart.json",
       "icon_path": "creative/source/icons/festivals/navratri_procession_cart.png"
     },
@@ -964,7 +964,7 @@
         "target_slot": "christmas_09",
         "target_theme": "christmas"
       },
-      "sha256": "1d033db3afdf6b638b6a4e0f3c4d29241d3883e8b6423513546155f76a27df40",
+      "sha256": "159f61bdd2df9abb0521780a1310bf63294c7cbe1935458caac792a259c824bf",
       "java_model_path": "creative/source/models/festivals/navratri/java/navratri_stage_backdrop.json",
       "icon_path": "creative/source/icons/festivals/navratri_stage_backdrop.png"
     },
@@ -985,7 +985,7 @@
         "target_slot": "christmas_10",
         "target_theme": "christmas"
       },
-      "sha256": "f2fc66c1e6ef31dc1283ba2c710d27e71d35b41d3bd37551d03028ce70780a50",
+      "sha256": "cf2d9cb394e6a7d30b66252d9f10b8623fc19dea4b00ba5efe563c2603a3f65a",
       "java_model_path": "creative/source/models/festivals/navratri/java/navratri_door_emblem.json",
       "icon_path": "creative/source/icons/festivals/navratri_door_emblem.png"
     },
@@ -1006,7 +1006,7 @@
         "target_slot": "christmas_11",
         "target_theme": "christmas"
       },
-      "sha256": "c899b5c3d5344177ee61e7b7b23c5b2439a849732cc5ebbb96286b1149166a06",
+      "sha256": "5393a08b486afec9c0aee6e63a0d5ce0da8b2316078b3e4e919d75a1d06e0987",
       "java_model_path": "creative/source/models/festivals/navratri/java/navratri_parade_standard.json",
       "icon_path": "creative/source/icons/festivals/navratri_parade_standard.png"
     },
@@ -1027,7 +1027,7 @@
         "target_slot": "christmas_12",
         "target_theme": "christmas"
       },
-      "sha256": "cc35d57f0f8bbedc461d7a3df1600b3ea46c9d32d57eaf7cbee6468b0ed40296",
+      "sha256": "e9538769703d3a4dfc014a725d8d3a14fba04126b065eca228fbdc68d99d3f81",
       "java_model_path": "creative/source/models/festivals/navratri/java/navratri_street_arch.json",
       "icon_path": "creative/source/icons/festivals/navratri_street_arch.png"
     },
@@ -1048,7 +1048,7 @@
         "target_slot": "christmas_13",
         "target_theme": "christmas"
       },
-      "sha256": "ba461add02dc59ebb80841ae9561fc2e74c10acbcbfa85b961d9a90c04f4795e",
+      "sha256": "963154699bbab39e1041587fda55f3799116cc8911fb78843775c2da286f7f16",
       "java_model_path": "creative/source/models/festivals/navratri/java/navratri_balcony_screen.json",
       "icon_path": "creative/source/icons/festivals/navratri_balcony_screen.png"
     },
@@ -1069,7 +1069,7 @@
         "target_slot": "christmas_14",
         "target_theme": "christmas"
       },
-      "sha256": "05323c3d3be14d690981f9936e9c6786a107c6942f64d5896367e9d5512ec842",
+      "sha256": "3126ea6a261cf99405db7d1e3e6a9fdb1fd4360a5625dd2a8afb23547cf771ca",
       "java_model_path": "creative/source/models/festivals/navratri/java/navratri_market_booth.json",
       "icon_path": "creative/source/icons/festivals/navratri_market_booth.png"
     },
@@ -1090,7 +1090,7 @@
         "target_slot": "christmas_15",
         "target_theme": "christmas"
       },
-      "sha256": "d093ce6efe120f441a56881842b46a6439d6d31f9cad5a4c250e263b71f2b35d",
+      "sha256": "d4902b542683a44a5c47d05cfd1d916cbd518e1ccc223bd4c0aa285e77db27e9",
       "java_model_path": "creative/source/models/festivals/navratri/java/navratri_bandstand.json",
       "icon_path": "creative/source/icons/festivals/navratri_bandstand.png"
     },
@@ -1111,7 +1111,7 @@
         "target_slot": "christmas_16",
         "target_theme": "christmas"
       },
-      "sha256": "eb76e27b49a923bed8a304c51ed9d16eaca4ef35cdceccad417334d5e27fc890",
+      "sha256": "54bab0341ca40be3ac19e99dae4c8e60e5a0c4fa3f2997952f3b78bdfeb767fa",
       "java_model_path": "creative/source/models/festivals/navratri/java/navratri_square_beacon.json",
       "icon_path": "creative/source/icons/festivals/navratri_square_beacon.png"
     },
@@ -1132,7 +1132,7 @@
         "target_slot": "new_year_01",
         "target_theme": "new_year"
       },
-      "sha256": "0eaaf4d5144bcf67ad20fe0cb51506824da07657d738bc0681503f12ce2b82dd",
+      "sha256": "f664774a8192e02847d0bfbfad09aac0e99eabd28a137438cc8c82fa5ae1f7dc",
       "java_model_path": "creative/source/models/festivals/eid/java/eid_gateway.json",
       "icon_path": "creative/source/icons/festivals/eid_gateway.png"
     },
@@ -1153,7 +1153,7 @@
         "target_slot": "new_year_02",
         "target_theme": "new_year"
       },
-      "sha256": "b0fe7b4658df34649ded9a84721a4afa4963f27f6af6e905851d59b5ac2d31e6",
+      "sha256": "55ae6ce67a05c2522e58f51d8eeb7f7645869549f2c4379ab31480ea9aa4bef4",
       "java_model_path": "creative/source/models/festivals/eid/java/eid_street_banner.json",
       "icon_path": "creative/source/icons/festivals/eid_street_banner.png"
     },
@@ -1174,7 +1174,7 @@
         "target_slot": "new_year_03",
         "target_theme": "new_year"
       },
-      "sha256": "ecc50ae2532741a93617131cc9115611036a9b26a23cdde6210985daae1ab04f",
+      "sha256": "334fea601b0d4b108a5deaeedb1a109c002adbdf9d3b84e0a240f60b30f7fe51",
       "java_model_path": "creative/source/models/festivals/eid/java/eid_window_lantern.json",
       "icon_path": "creative/source/icons/festivals/eid_window_lantern.png"
     },
@@ -1195,7 +1195,7 @@
         "target_slot": "new_year_04",
         "target_theme": "new_year"
       },
-      "sha256": "d1e799040c03f6ab91f3f24b355e38650be4cc3021fd960d51a1f3cc27ac9561",
+      "sha256": "b86a5b094b7d097d7102e1e64e1a2473047c269e26b2c0977357362a56e49e46",
       "java_model_path": "creative/source/models/festivals/eid/java/eid_counterpiece.json",
       "icon_path": "creative/source/icons/festivals/eid_counterpiece.png"
     },
@@ -1216,7 +1216,7 @@
         "target_slot": "new_year_05",
         "target_theme": "new_year"
       },
-      "sha256": "b52d3d7b6262e433dec6dd428c39fbaf9aeba676e7fe541a81448daf7d28910b",
+      "sha256": "0aaa2e75ec0090f540da69c67935c6f8da533f4d23eef0ae354b3889948c5464",
       "java_model_path": "creative/source/models/festivals/eid/java/eid_procession_cart.json",
       "icon_path": "creative/source/icons/festivals/eid_procession_cart.png"
     },
@@ -1237,7 +1237,7 @@
         "target_slot": "new_year_06",
         "target_theme": "new_year"
       },
-      "sha256": "f8050a75f13784a4c9d871bbf10c84a5a20a4741ff5c6ab0bde5dcdf0926e7fc",
+      "sha256": "6e85fb99f1df242100a520e97fd06c46bb1c271405e276f6c40b3facd5eb1373",
       "java_model_path": "creative/source/models/festivals/eid/java/eid_stage_backdrop.json",
       "icon_path": "creative/source/icons/festivals/eid_stage_backdrop.png"
     },
@@ -1258,7 +1258,7 @@
         "target_slot": "new_year_07",
         "target_theme": "new_year"
       },
-      "sha256": "4574988b2065393df66e3e618525397d269b31289920e6cee10be99278213efe",
+      "sha256": "55523eedc42313efdbfd22f3ce835c0a18aa968e6ac5916dea9ebb9b3757bd10",
       "java_model_path": "creative/source/models/festivals/eid/java/eid_door_emblem.json",
       "icon_path": "creative/source/icons/festivals/eid_door_emblem.png"
     },
@@ -1279,7 +1279,7 @@
         "target_slot": "new_year_08",
         "target_theme": "new_year"
       },
-      "sha256": "7a2d5de0ac7adbad267b4d234ec031a67074fdf4e309adb1db0289e6749e0d6e",
+      "sha256": "f60f14d3119b96968ba2c333c4e97a1382598001e58ff9aa23f5d2f91af56cba",
       "java_model_path": "creative/source/models/festivals/eid/java/eid_parade_standard.json",
       "icon_path": "creative/source/icons/festivals/eid_parade_standard.png"
     },
@@ -1300,7 +1300,7 @@
         "target_slot": "new_year_09",
         "target_theme": "new_year"
       },
-      "sha256": "6397d8a7b0950e727e2e466e9aa1cf02cc5998dbe5adca2b8d061783cb7a8fd8",
+      "sha256": "7fd1da34bf32e80e372962957f50bbc7d5ca7e6849bc0a1394ac3f6f6abe1ee5",
       "java_model_path": "creative/source/models/festivals/eid/java/eid_street_arch.json",
       "icon_path": "creative/source/icons/festivals/eid_street_arch.png"
     },
@@ -1321,7 +1321,7 @@
         "target_slot": "new_year_10",
         "target_theme": "new_year"
       },
-      "sha256": "437c2853938bf195d8d1912a6a331bd58014b0f837584efa2c18f75f1cb54888",
+      "sha256": "58716450bdea9fdd140b1e9dbd4ae8dc9283c617f9020d065fb8505e00011474",
       "java_model_path": "creative/source/models/festivals/eid/java/eid_balcony_screen.json",
       "icon_path": "creative/source/icons/festivals/eid_balcony_screen.png"
     },
@@ -1342,7 +1342,7 @@
         "target_slot": "new_year_11",
         "target_theme": "new_year"
       },
-      "sha256": "bdc7900932397d52aa03634c8191bc3fe7a560005e1603c40c670aeb38c4440d",
+      "sha256": "be59800a4acca6366de9140f439c99428fef1f2ff5db737e8907cb9212224893",
       "java_model_path": "creative/source/models/festivals/eid/java/eid_market_booth.json",
       "icon_path": "creative/source/icons/festivals/eid_market_booth.png"
     },
@@ -1363,7 +1363,7 @@
         "target_slot": "new_year_12",
         "target_theme": "new_year"
       },
-      "sha256": "d6f1c6068eb068f361c9474096f13bb8b69bf394562884d2044887425fe35a69",
+      "sha256": "643d1059eb5cbe9c5d46ae59a59f1478a4990c7eab004e93370d498c424f2bf9",
       "java_model_path": "creative/source/models/festivals/eid/java/eid_bandstand.json",
       "icon_path": "creative/source/icons/festivals/eid_bandstand.png"
     },
@@ -1384,7 +1384,7 @@
         "target_slot": "new_year_13",
         "target_theme": "new_year"
       },
-      "sha256": "3259eedd793bb514e97ac4368e253f370d850d8e56a69b0d7d346a8fe70cec1d",
+      "sha256": "49ac392bf3b9a5fade85c62b4486421e9a4c8812a0c0b5a3899c197808a0f738",
       "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_gateway.json",
       "icon_path": "creative/source/icons/festivals/sankranti_gateway.png"
     },
@@ -1405,7 +1405,7 @@
         "target_slot": "new_year_14",
         "target_theme": "new_year"
       },
-      "sha256": "d98032e6c23b64d6bd51b5d16f2172677b7c9ac322557da0748cf04d07a28309",
+      "sha256": "7cc435e7e59d04da62601830a9c501d3289b51de4aca308ecab2ff0a8e5fa21c",
       "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_street_banner.json",
       "icon_path": "creative/source/icons/festivals/sankranti_street_banner.png"
     },
@@ -1426,7 +1426,7 @@
         "target_slot": "new_year_15",
         "target_theme": "new_year"
       },
-      "sha256": "cf5bc2fada81361e9ee72b99d32e3f73afc463225120fbcf8e77366371a2d654",
+      "sha256": "ecb867502b2b8b2c1138c07838b85b9243d3410196186038f22d4f62855a5cbd",
       "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_window_lantern.json",
       "icon_path": "creative/source/icons/festivals/sankranti_window_lantern.png"
     },
@@ -1447,7 +1447,7 @@
         "target_slot": "new_year_16",
         "target_theme": "new_year"
       },
-      "sha256": "104eb2082410c4ad7f9e863145b7e2988a30c8326dfb58d3ef120564200fbef2",
+      "sha256": "60d0c88bd3f7a4cd4702e069b46f7abb0080e6b0afa4c503f4f2081f67da0a09",
       "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_counterpiece.json",
       "icon_path": "creative/source/icons/festivals/sankranti_counterpiece.png"
     },
@@ -1468,7 +1468,7 @@
         "target_slot": "independence_day_01",
         "target_theme": "independence_day"
       },
-      "sha256": "4b4d01d1aaa19cdc3bf3e35b7d5d92dd8245d0d2ea26f8aa1228d333e24e76a0",
+      "sha256": "3d3e3f7067558207dbe3f80ffaa8a878a7180db1fc7204b7890cb0ab1c1f74e5",
       "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_procession_cart.json",
       "icon_path": "creative/source/icons/festivals/sankranti_procession_cart.png"
     },
@@ -1489,7 +1489,7 @@
         "target_slot": "independence_day_02",
         "target_theme": "independence_day"
       },
-      "sha256": "ea68faf060154e4833683c414b1368fe3ed312eaa55296245d653ea7ed162fd0",
+      "sha256": "b5adfa8837057acb511519769823f9f3c250c23033048fbf709c818abf9a4d4e",
       "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_stage_backdrop.json",
       "icon_path": "creative/source/icons/festivals/sankranti_stage_backdrop.png"
     },
@@ -1510,7 +1510,7 @@
         "target_slot": "independence_day_03",
         "target_theme": "independence_day"
       },
-      "sha256": "4a4527559bf90fdf834b44e8f0b0dabfde868c75a9b9543f501861098f96cae5",
+      "sha256": "cd60efd985a8cb366a17d44c803db30384b7ffd742c047e73b9acc1202fb2aa4",
       "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_door_emblem.json",
       "icon_path": "creative/source/icons/festivals/sankranti_door_emblem.png"
     },
@@ -1531,7 +1531,7 @@
         "target_slot": "independence_day_04",
         "target_theme": "independence_day"
       },
-      "sha256": "751af466c66986d436861de4d6319d4b06428de9878be421804a0cd008d9f23d",
+      "sha256": "c1c5535dc32b3d40e1328dc129e2f23d6c75844995ab471d50529976d7f0c948",
       "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_parade_standard.json",
       "icon_path": "creative/source/icons/festivals/sankranti_parade_standard.png"
     },
@@ -1552,7 +1552,7 @@
         "target_slot": "independence_day_05",
         "target_theme": "independence_day"
       },
-      "sha256": "e2506a2102680a27c2087450282c00034eb749b8d7a2a574ae27aaf367f0a0af",
+      "sha256": "dbf157d52aa453967fc903c49b1fe5bc4c7e5f71d3118ca11eaf6c2856a3edd9",
       "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_street_arch.json",
       "icon_path": "creative/source/icons/festivals/sankranti_street_arch.png"
     },
@@ -1573,7 +1573,7 @@
         "target_slot": "independence_day_06",
         "target_theme": "independence_day"
       },
-      "sha256": "e64e4ede5607264dcb3dedee094e58a414e556380dd20e3d242f21c2a0d17cb1",
+      "sha256": "ff934bc6f5f9cc97fe527fc95ca188350b11d8a700cf90cf1ec5fa7619c7b46a",
       "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_balcony_screen.json",
       "icon_path": "creative/source/icons/festivals/sankranti_balcony_screen.png"
     },
@@ -1594,7 +1594,7 @@
         "target_slot": "independence_day_07",
         "target_theme": "independence_day"
       },
-      "sha256": "d5d28ebf796915a6bda5648a5de166bb039f8f2c8293f03e8c9f8468f1fbf216",
+      "sha256": "faa0f262f36dbfb9cf2a15f3510b4db1d1915c107ac22e4dac3f4eb80ad98c6c",
       "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_market_booth.json",
       "icon_path": "creative/source/icons/festivals/sankranti_market_booth.png"
     },
@@ -1615,7 +1615,7 @@
         "target_slot": "independence_day_08",
         "target_theme": "independence_day"
       },
-      "sha256": "a804d3ec074dfb9bde8b7f204dd8bbc32ce3038573ddd43ccc67ddafb96c6e59",
+      "sha256": "f1419c44f338d02ee0e2e9268696c6faa9c5c32ec9855ddb1174607b75548724",
       "java_model_path": "creative/source/models/festivals/sankranti/java/sankranti_bandstand.json",
       "icon_path": "creative/source/icons/festivals/sankranti_bandstand.png"
     },
@@ -1636,7 +1636,7 @@
         "target_slot": "independence_day_09",
         "target_theme": "independence_day"
       },
-      "sha256": "18fcfa65eafa37222ad90ddb19bf1736ce12b7e1764a327e8ee49cf1f8b394ff",
+      "sha256": "d6b838f06e52f165a100e9c6301860436645599cb954219ef47485fe0932900c",
       "java_model_path": "creative/source/models/festivals/christmas/java/christmas_gateway.json",
       "icon_path": "creative/source/icons/festivals/christmas_gateway.png"
     },
@@ -1657,7 +1657,7 @@
         "target_slot": "independence_day_10",
         "target_theme": "independence_day"
       },
-      "sha256": "724d632032d2e0f2e1571ed35b26f8138f9543422cf18ae0df9ceb69acbfb232",
+      "sha256": "da809d4ec10ba1adc25ec0428a77b93daf10d5edfbe9b768dc829a07a1a7a171",
       "java_model_path": "creative/source/models/festivals/christmas/java/christmas_street_banner.json",
       "icon_path": "creative/source/icons/festivals/christmas_street_banner.png"
     },
@@ -1678,7 +1678,7 @@
         "target_slot": "ganesh_chaturthi_01",
         "target_theme": "ganesh_chaturthi"
       },
-      "sha256": "2a8b90bbc5bc6a9e512890ac2260181f850e6acedccc8bc34d01f0f044ca07f5",
+      "sha256": "fa5ef6b913f063e543c092d8f356b4f1ccbe5a864e00db595c6c29a6bdc693ec",
       "java_model_path": "creative/source/models/festivals/christmas/java/christmas_window_lantern.json",
       "icon_path": "creative/source/icons/festivals/christmas_window_lantern.png"
     },
@@ -1699,7 +1699,7 @@
         "target_slot": "ganesh_chaturthi_02",
         "target_theme": "ganesh_chaturthi"
       },
-      "sha256": "873ca92966d1919b0ff74c9ea08a9be3bd378b7f30ad48c60d40dabc4b6d0ff3",
+      "sha256": "211563df0022afc963984138257ac89c90d23c801520d50bb3ac05a137f14d30",
       "java_model_path": "creative/source/models/festivals/christmas/java/christmas_counterpiece.json",
       "icon_path": "creative/source/icons/festivals/christmas_counterpiece.png"
     },
@@ -1720,7 +1720,7 @@
         "target_slot": "ganesh_chaturthi_03",
         "target_theme": "ganesh_chaturthi"
       },
-      "sha256": "a8bdf695c8764eae7d1cb5887f95de7c283034c2cdac9dcfa3d95809b01bb53b",
+      "sha256": "94a110273d7fde0af45ed8c0d6a72692bd85ef43b50dfd83bf455eeef45e354b",
       "java_model_path": "creative/source/models/festivals/christmas/java/christmas_procession_cart.json",
       "icon_path": "creative/source/icons/festivals/christmas_procession_cart.png"
     },
@@ -1741,7 +1741,7 @@
         "target_slot": "ganesh_chaturthi_04",
         "target_theme": "ganesh_chaturthi"
       },
-      "sha256": "006bd82b938e8719251e47996dedfe0e046407dfd724bbf05e5573aab87984f8",
+      "sha256": "9914ddc3890ec63baebf517c018eef5278f0c2ff9f9aa096a064e1a01fa945f7",
       "java_model_path": "creative/source/models/festivals/christmas/java/christmas_stage_backdrop.json",
       "icon_path": "creative/source/icons/festivals/christmas_stage_backdrop.png"
     },
@@ -1762,7 +1762,7 @@
         "target_slot": "ganesh_chaturthi_05",
         "target_theme": "ganesh_chaturthi"
       },
-      "sha256": "c303ade373c5c5c91aee79b7ff4470ae270e8a4235e7e2d5f736bd84d1042638",
+      "sha256": "9dc717fdb5679f97af71702e80ec6e2fc98710d469135a0522e83646c9eda5e6",
       "java_model_path": "creative/source/models/festivals/christmas/java/christmas_door_emblem.json",
       "icon_path": "creative/source/icons/festivals/christmas_door_emblem.png"
     },
@@ -1783,7 +1783,7 @@
         "target_slot": "ganesh_chaturthi_06",
         "target_theme": "ganesh_chaturthi"
       },
-      "sha256": "f44e4f8607369843bf4d1d77594dd3088b83a92f93c5d0f56b6fb73e879c1e6f",
+      "sha256": "7c049db808d03c9c7318a9e247c539b5ba01ceaf9f090a97df4699bd813178c5",
       "java_model_path": "creative/source/models/festivals/christmas/java/christmas_parade_standard.json",
       "icon_path": "creative/source/icons/festivals/christmas_parade_standard.png"
     },
@@ -1804,7 +1804,7 @@
         "target_slot": "ganesh_chaturthi_07",
         "target_theme": "ganesh_chaturthi"
       },
-      "sha256": "55beb349cf92de865d6a3faded0b13e7cf90c5387523d8a9721425927a6486cc",
+      "sha256": "577168470cd6caa4d824e36e352bdfcda2f8fbca13a5d73c734e223adcd9703c",
       "java_model_path": "creative/source/models/festivals/christmas/java/christmas_street_arch.json",
       "icon_path": "creative/source/icons/festivals/christmas_street_arch.png"
     },
@@ -1825,7 +1825,7 @@
         "target_slot": "ganesh_chaturthi_08",
         "target_theme": "ganesh_chaturthi"
       },
-      "sha256": "cf33b76696ef6dc0366afd3490845bca68e48c894b5d021252b4a481556a3b4f",
+      "sha256": "e89c3143958638068da1eb0b70b1e3397b1fdfac8ad2d51954cb955f20112a75",
       "java_model_path": "creative/source/models/festivals/christmas/java/christmas_balcony_screen.json",
       "icon_path": "creative/source/icons/festivals/christmas_balcony_screen.png"
     },
@@ -1846,7 +1846,7 @@
         "target_slot": "ganesh_chaturthi_09",
         "target_theme": "ganesh_chaturthi"
       },
-      "sha256": "7b0c007b8e1a749a1efcbed308e47f36a9eaad17669e273de21906fa285c1bdb",
+      "sha256": "c82e7f25a57d8d6018b5e85c315c142bcdcde38a10c9661a7bfacf61d3114cd7",
       "java_model_path": "creative/source/models/festivals/christmas/java/christmas_market_booth.json",
       "icon_path": "creative/source/icons/festivals/christmas_market_booth.png"
     },
@@ -1867,7 +1867,7 @@
         "target_slot": "ganesh_chaturthi_10",
         "target_theme": "ganesh_chaturthi"
       },
-      "sha256": "09f6fb57b4e9af78371e701e7a7e24cb5ee514ac53fcea307252586a641996e3",
+      "sha256": "b5afbb1d8f5353120341810509df93e801c2387e0620373a609baa8d794945e9",
       "java_model_path": "creative/source/models/festivals/christmas/java/christmas_bandstand.json",
       "icon_path": "creative/source/icons/festivals/christmas_bandstand.png"
     },
@@ -1888,7 +1888,7 @@
         "target_slot": "ganesh_chaturthi_11",
         "target_theme": "ganesh_chaturthi"
       },
-      "sha256": "fcbf215d03e1d38632de03c9088d776b92308d50762687cde305ec8d850af9fc",
+      "sha256": "03ee9cee3e050db2bcea0439460336fa0376f0637eb77dba9031861e6e3f844f",
       "java_model_path": "creative/source/models/festivals/new/java/new_year_gateway.json",
       "icon_path": "creative/source/icons/festivals/new_year_gateway.png"
     },
@@ -1909,7 +1909,7 @@
         "target_slot": "ganesh_chaturthi_12",
         "target_theme": "ganesh_chaturthi"
       },
-      "sha256": "2855b5da9263754ed7eb7f87d0559247ee044059afaaa63f4ae6eb8437b63bd5",
+      "sha256": "6bec9d8111456e290b0bde36b2efda5098dfaa5990616d7e794830d6aa289bf9",
       "java_model_path": "creative/source/models/festivals/new/java/new_year_street_banner.json",
       "icon_path": "creative/source/icons/festivals/new_year_street_banner.png"
     },
@@ -1930,7 +1930,7 @@
         "target_slot": "monsoon_01",
         "target_theme": "monsoon"
       },
-      "sha256": "dfca381868a6f4202618cbb3b4951788119e1b5141106059ce776654f699812a",
+      "sha256": "61dd4bc6ba10664ae12d6a7d7ea3c0830930970fac01b287599538a205e5ffea",
       "java_model_path": "creative/source/models/festivals/new/java/new_year_window_lantern.json",
       "icon_path": "creative/source/icons/festivals/new_year_window_lantern.png"
     },
@@ -1951,7 +1951,7 @@
         "target_slot": "monsoon_02",
         "target_theme": "monsoon"
       },
-      "sha256": "3905e55930abbbf57177d33eff9884fc1d83e388922090247100dd29e1d2cc81",
+      "sha256": "1d8d6ea4ff4e5e53dae0050b613f5970ec5a026e36eb197b59539ec3cfc054de",
       "java_model_path": "creative/source/models/festivals/new/java/new_year_counterpiece.json",
       "icon_path": "creative/source/icons/festivals/new_year_counterpiece.png"
     },
@@ -1972,7 +1972,7 @@
         "target_slot": "monsoon_03",
         "target_theme": "monsoon"
       },
-      "sha256": "47ac3d338c49eedebe61871441362ee524e358c70d88737331a763f6790b83a4",
+      "sha256": "1be7529a5c58717f3af6bc8d666c2af99b3b201a8253828f58306ae991c7a29c",
       "java_model_path": "creative/source/models/festivals/new/java/new_year_procession_cart.json",
       "icon_path": "creative/source/icons/festivals/new_year_procession_cart.png"
     },
@@ -1993,7 +1993,7 @@
         "target_slot": "monsoon_04",
         "target_theme": "monsoon"
       },
-      "sha256": "7545f1497d7b0f8659004a2da06f1db4c284030c357843fc30e9ce315316df29",
+      "sha256": "3097bf1c95c7c76dcba1b52c01e3f5a8ec30c4f6ef3aae4c605df7e85881d8b8",
       "java_model_path": "creative/source/models/festivals/new/java/new_year_stage_backdrop.json",
       "icon_path": "creative/source/icons/festivals/new_year_stage_backdrop.png"
     },
@@ -2014,7 +2014,7 @@
         "target_slot": "monsoon_05",
         "target_theme": "monsoon"
       },
-      "sha256": "a676915dd7b83360c2e7bb2de53ab3d0538cdf22a1677dfcf428ede6e9dc1eda",
+      "sha256": "007ded6a5de53d4275ac9d9a35fd02115845f5aa93ffae3079be42ee782d7a62",
       "java_model_path": "creative/source/models/festivals/new/java/new_year_door_emblem.json",
       "icon_path": "creative/source/icons/festivals/new_year_door_emblem.png"
     },
@@ -2035,7 +2035,7 @@
         "target_slot": "monsoon_06",
         "target_theme": "monsoon"
       },
-      "sha256": "59ca86921403cd9d55e132b7975dd25e6a9ab047ead551010184d13dfac29c93",
+      "sha256": "fcc10d047d1db0dbbf2d1470348302249c2ac5f68faa6fd4e1994e7cf75732b9",
       "java_model_path": "creative/source/models/festivals/new/java/new_year_parade_standard.json",
       "icon_path": "creative/source/icons/festivals/new_year_parade_standard.png"
     },
@@ -2056,7 +2056,7 @@
         "target_slot": "monsoon_07",
         "target_theme": "monsoon"
       },
-      "sha256": "8a1064b68e3145e66b957c03d25896a225f4f95818da8967da7a3a5777bf37e7",
+      "sha256": "3a80550ccdfedc16e66d596dd261780859f8918e811d7eb58108395b23a51dac",
       "java_model_path": "creative/source/models/festivals/new/java/new_year_street_arch.json",
       "icon_path": "creative/source/icons/festivals/new_year_street_arch.png"
     },
@@ -2077,7 +2077,7 @@
         "target_slot": "monsoon_08",
         "target_theme": "monsoon"
       },
-      "sha256": "6ab17e68a572f70e6348ecf3580be2e7e2735ebbcfa7b5fbfc4ecc6ef8bbd3e7",
+      "sha256": "e76ac511c8fd42a836d262687bf977274603f60655e13869cad04732a349b14c",
       "java_model_path": "creative/source/models/festivals/new/java/new_year_balcony_screen.json",
       "icon_path": "creative/source/icons/festivals/new_year_balcony_screen.png"
     },
@@ -2098,7 +2098,7 @@
         "target_slot": "monsoon_09",
         "target_theme": "monsoon"
       },
-      "sha256": "d08c1ea7244bc0241384acaeb63de83bdafb9576c2b81be9ca21661cb0132332",
+      "sha256": "6c730c652e8b1debac683493438076c14474a11638ce66a740a8708fc1e0c978",
       "java_model_path": "creative/source/models/festivals/new/java/new_year_market_booth.json",
       "icon_path": "creative/source/icons/festivals/new_year_market_booth.png"
     },
@@ -2119,7 +2119,7 @@
         "target_slot": "monsoon_10",
         "target_theme": "monsoon"
       },
-      "sha256": "60cdaf122e6c92ea23327c6596f7a41bfdd81be022bb301ed19accad14cc61f3",
+      "sha256": "50a8ff6d17205b8c67b41431b35046e2a18315bf63d8888dac3e87bb574f6a81",
       "java_model_path": "creative/source/models/festivals/new/java/new_year_bandstand.json",
       "icon_path": "creative/source/icons/festivals/new_year_bandstand.png"
     }

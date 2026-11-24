@@ -10,7 +10,7 @@
       1.45,
       3.8
     ],
-    "cube_count": 44,
+    "cube_count": 40,
     "geometry": "geometry.gtm.hatchback_swift",
     "variants": [
       "normal",
@@ -46,7 +46,7 @@
         ]
       }
     ],
-    "sha256": "0d73bd76e7c3620cd9c43eedb86ff37263e41694ac3144b0f699dfd21cff638a"
+    "sha256": "8760f850bc2541edfe0b54c3d105de214e6153f58cfdd05ff9b79c2d0c1cf861"
   },
   {
     "id": "gtm:hatchback_baleno",
@@ -59,7 +59,7 @@
       1.45,
       3.9
     ],
-    "cube_count": 44,
+    "cube_count": 40,
     "geometry": "geometry.gtm.hatchback_baleno",
     "variants": [
       "normal",
@@ -95,7 +95,7 @@
         ]
       }
     ],
-    "sha256": "bceaf6ac989e413349c43280b687a4b3bfc15cb6ebde01ef6f007b1bc7024229"
+    "sha256": "4fa7945f98338a338ce521a8d2b0e63b56281ac12ebd75bc39823589e5454a5d"
   },
   {
     "id": "gtm:hatchback_wagonr",
@@ -108,7 +108,7 @@
       1.65,
       3.6
     ],
-    "cube_count": 44,
+    "cube_count": 40,
     "geometry": "geometry.gtm.hatchback_wagonr",
     "variants": [
       "normal",
@@ -144,7 +144,7 @@
         ]
       }
     ],
-    "sha256": "f297c439f4957d4d3334b5d45efdaac9645eb3a1dc2f45a0d8b631e5d069d2a7"
+    "sha256": "89d5ddfd33c07098a9cb5a82fadd768be7dab0d83ac0307186d13ac82e4e045e"
   },
   {
     "id": "gtm:hatchback_alto",
@@ -157,7 +157,7 @@
       1.45,
       3.4
     ],
-    "cube_count": 44,
+    "cube_count": 40,
     "geometry": "geometry.gtm.hatchback_alto",
     "variants": [
       "normal",
@@ -193,7 +193,7 @@
         ]
       }
     ],
-    "sha256": "a223b1560f3cd065174ce558033f94cec8bda93ad84c00bea9c0fd00ae0aebd3"
+    "sha256": "8f6defb96fab15cf855707321663d4a50748e798a88f681a24fb407ba6a8c24b"
   },
   {
     "id": "gtm:hatchback_i10",
@@ -206,7 +206,7 @@
       1.5,
       3.8
     ],
-    "cube_count": 44,
+    "cube_count": 40,
     "geometry": "geometry.gtm.hatchback_i10",
     "variants": [
       "normal",
@@ -242,7 +242,7 @@
         ]
       }
     ],
-    "sha256": "8ae04e74c5953b89927f7527b0249aa596043e631307a33d6e4e5d023bf91e34"
+    "sha256": "58dd40b8ffb6d49c26ce721b6e9cb2b8192e81535a99d17bfab906497c6d45ff"
   },
   {
     "id": "gtm:hatchback_tiago",
@@ -255,7 +255,7 @@
       1.5,
       3.75
     ],
-    "cube_count": 44,
+    "cube_count": 40,
     "geometry": "geometry.gtm.hatchback_tiago",
     "variants": [
       "normal",
@@ -291,7 +291,7 @@
         ]
       }
     ],
-    "sha256": "47f8a069202c727bcc9da28770f26d050e509426a5ced94f29dd25c37f6680b1"
+    "sha256": "2b3848fb1b63f5303d79b6d7d35d4ddc13b0aba8aa525fef5844fb8ed10c5ae7"
   },
   {
     "id": "gtm:hatchback_i20",
@@ -304,7 +304,7 @@
       1.45,
       4.0
     ],
-    "cube_count": 44,
+    "cube_count": 40,
     "geometry": "geometry.gtm.hatchback_i20",
     "variants": [
       "normal",
@@ -340,7 +340,7 @@
         ]
       }
     ],
-    "sha256": "da5a6379896f46a1f532974b740af7316d57f0aec67248b73dbcfbbcfb5e495b"
+    "sha256": "035f523f4f74f0f6131df149fcfe1c6948bdf570af8c24fc2fb171cbf0eb69cc"
   },
   {
     "id": "gtm:sedan_dzire",
@@ -353,7 +353,7 @@
       1.5,
       4.0
     ],
-    "cube_count": 45,
+    "cube_count": 41,
     "geometry": "geometry.gtm.sedan_dzire",
     "variants": [
       "normal",
@@ -389,7 +389,7 @@
         ]
       }
     ],
-    "sha256": "ce8ec7fccf17edc1281e70acf8da80ab104b1ee1099b97333867e54f78f3f53c"
+    "sha256": "dc8a32526b48c33681ae9ef38dbb92df100cc7cb4d7e1cdd4d9758f8d0cfe6a3"
   },
   {
     "id": "gtm:sedan_aura",
@@ -402,7 +402,7 @@
       1.5,
       3.99
     ],
-    "cube_count": 45,
+    "cube_count": 41,
     "geometry": "geometry.gtm.sedan_aura",
     "variants": [
       "normal",
@@ -438,7 +438,7 @@
         ]
       }
     ],
-    "sha256": "98e9b6273805987fd9e2ef64f6df893b8bbcecb178c8a5685068432b2bca7fe1"
+    "sha256": "a90fa57271810acd9bc213140eea8e2964d842119803b6114fadc56165bdf528"
   },
   {
     "id": "gtm:sedan_amaze",
@@ -451,7 +451,7 @@
       1.5,
       4.0
     ],
-    "cube_count": 45,
+    "cube_count": 41,
     "geometry": "geometry.gtm.sedan_amaze",
     "variants": [
       "normal",
@@ -487,7 +487,7 @@
         ]
       }
     ],
-    "sha256": "1c2661ee09d19acc187518dbd0ee6f0c23780a56b8a0e0e2b50ac78b4900b2b3"
+    "sha256": "4e9c2e6a5588a6710fc51527c6f36084afbc3d93cfaae53cef983850f72283bc"
   },
   {
     "id": "gtm:sedan_verna",
@@ -500,7 +500,7 @@
       1.48,
       4.4
     ],
-    "cube_count": 45,
+    "cube_count": 41,
     "geometry": "geometry.gtm.sedan_verna",
     "variants": [
       "normal",
@@ -536,7 +536,7 @@
         ]
       }
     ],
-    "sha256": "b4681affe51287c0d966061a3761f53ed30a3b434707d0c2f3e0f21d170d6d01"
+    "sha256": "8d1f4ec30f914ec1395faa24566896aed53fa5b500802902f7eaa5ab5f6e317d"
   },
   {
     "id": "gtm:sedan_city",
@@ -549,7 +549,7 @@
       1.48,
       4.5
     ],
-    "cube_count": 45,
+    "cube_count": 41,
     "geometry": "geometry.gtm.sedan_city",
     "variants": [
       "normal",
@@ -585,7 +585,7 @@
         ]
       }
     ],
-    "sha256": "0c2f30c28884e4284b96a81cb610d0e8d99beb604be46413a3f0fac1f8928773"
+    "sha256": "13c21784fbb71a3b569418c6a7127cd9ed6a9dd4f203d31014722c04a954a529"
   },
   {
     "id": "gtm:sedan_slavia",
@@ -598,7 +598,7 @@
       1.5,
       4.54
     ],
-    "cube_count": 45,
+    "cube_count": 41,
     "geometry": "geometry.gtm.sedan_slavia",
     "variants": [
       "normal",
@@ -634,7 +634,7 @@
         ]
       }
     ],
-    "sha256": "53eda398326a0bd4745a9be82184debbd9ec2bc304a03cf48a1cf178b2bc2a74"
+    "sha256": "8028f676a4afe6e50bbadc03eb58b1d3c7c6f4238d6b91a3dbbcd17036493265"
   },
   {
     "id": "gtm:suv_thar",
@@ -647,7 +647,7 @@
       1.9,
       4.0
     ],
-    "cube_count": 51,
+    "cube_count": 46,
     "geometry": "geometry.gtm.suv_thar",
     "variants": [
       "normal",
@@ -683,7 +683,7 @@
         ]
       }
     ],
-    "sha256": "48663558bd527db78e2dd3101656bc11b8574181c29aadb5b6902ed5200d2616"
+    "sha256": "9fbe05d33a0616c63eaeb0b4ebf5fc1f2b6328e27661123a9c2c128c8107c04b"
   },
   {
     "id": "gtm:suv_scorpio",
@@ -696,7 +696,7 @@
       1.85,
       4.66
     ],
-    "cube_count": 44,
+    "cube_count": 40,
     "geometry": "geometry.gtm.suv_scorpio",
     "variants": [
       "normal",
@@ -732,7 +732,7 @@
         ]
       }
     ],
-    "sha256": "9651efc8f41d839c6cbdc296574ec253b2305236e58052779ada37e31a0eef92"
+    "sha256": "1e3d60cce4f91f0f37467ac1e2a94a0290835674ae2ee9aae3549c27909a4415"
   },
   {
     "id": "gtm:suv_bolero",
@@ -745,7 +745,7 @@
       1.88,
       4.1
     ],
-    "cube_count": 44,
+    "cube_count": 40,
     "geometry": "geometry.gtm.suv_bolero",
     "variants": [
       "normal",
@@ -781,7 +781,7 @@
         ]
       }
     ],
-    "sha256": "0d5e4cab5447f83c58a672fdefbcf7a90c2e5a5e26de801f2beae751aa9762df"
+    "sha256": "4628d5a8e8465ec7485d05b11eaf42f1f98e40f3a709af39aeac66195cc8b625"
   },
   {
     "id": "gtm:suv_xuv700",
@@ -794,7 +794,7 @@
       1.75,
       4.7
     ],
-    "cube_count": 44,
+    "cube_count": 40,
     "geometry": "geometry.gtm.suv_xuv700",
     "variants": [
       "normal",
@@ -830,7 +830,7 @@
         ]
       }
     ],
-    "sha256": "d030778763ea9bdfefaa4422c04340ac7ee2a1672f39e15cc47d6ee39ee75920"
+    "sha256": "a600f7ce852deee96e0f02b315c79968cfc1da44f483abd16a4b5c1566608db9"
   },
   {
     "id": "gtm:suv_fortuner",
@@ -843,7 +843,7 @@
       1.83,
       4.8
     ],
-    "cube_count": 51,
+    "cube_count": 46,
     "geometry": "geometry.gtm.suv_fortuner",
     "variants": [
       "normal",
@@ -879,7 +879,7 @@
         ]
       }
     ],
-    "sha256": "8ef1f16e1c7d4df7472f03879175099e03a97ac6612693a02547a77ab382fe69"
+    "sha256": "ecf3368fbc04619e3ec091b19ed9b694956760e357b976d1dde4b2e5ab244794"
   },
   {
     "id": "gtm:suv_safari",
@@ -892,7 +892,7 @@
       1.78,
       4.67
     ],
-    "cube_count": 51,
+    "cube_count": 46,
     "geometry": "geometry.gtm.suv_safari",
     "variants": [
       "normal",
@@ -928,7 +928,7 @@
         ]
       }
     ],
-    "sha256": "7e75c10b05e3717bea6ed22428897aeaef74a10ae5481d6bc26a768dfaed4c9e"
+    "sha256": "291fd714cb36cb31c765c314c19484d39ec6c89f9a1efb3b8382c2fd02c836d3"
   },
   {
     "id": "gtm:suv_harrier",
@@ -941,7 +941,7 @@
       1.7,
       4.6
     ],
-    "cube_count": 44,
+    "cube_count": 40,
     "geometry": "geometry.gtm.suv_harrier",
     "variants": [
       "normal",
@@ -977,7 +977,7 @@
         ]
       }
     ],
-    "sha256": "bfcab7c953f2a4404d23ba84414a06e1df431cd687317fad61b35eeaa2394366"
+    "sha256": "d1401a20b3e22500557a74ff0baa6da20248803200160465d5e6a3664b15bad3"
   },
   {
     "id": "gtm:suv_nexon",
@@ -990,7 +990,7 @@
       1.6,
       3.99
     ],
-    "cube_count": 44,
+    "cube_count": 40,
     "geometry": "geometry.gtm.suv_nexon",
     "variants": [
       "normal",
@@ -1026,7 +1026,7 @@
         ]
       }
     ],
-    "sha256": "81854c7d905f5f4293c5ccce599a7b9ac9b983b5d03cb7363b537fda3daa956a"
+    "sha256": "b8b26b0b63e69d4320a3ba1be7e22c166e9fbe685c38344efa6c4b05a12d3453"
   },
   {
     "id": "gtm:suv_punch",
@@ -1039,7 +1039,7 @@
       1.6,
       3.82
     ],
-    "cube_count": 44,
+    "cube_count": 40,
     "geometry": "geometry.gtm.suv_punch",
     "variants": [
       "normal",
@@ -1075,7 +1075,7 @@
         ]
       }
     ],
-    "sha256": "fbe681dd0dca7138239c0999c2df8800dbec58b0dd229a9e1d30587e9028a24e"
+    "sha256": "5352b4898add3a4200ff28d008ad9bd28bde839f6ac3b9cb1825ef0e13854069"
   },
   {
     "id": "gtm:suv_creta",
@@ -1088,7 +1088,7 @@
       1.63,
       4.3
     ],
-    "cube_count": 44,
+    "cube_count": 40,
     "geometry": "geometry.gtm.suv_creta",
     "variants": [
       "normal",
@@ -1124,7 +1124,7 @@
         ]
       }
     ],
-    "sha256": "a0aacc8a4c4120dacd6e4188276ff4b84ef9278ffa46d8354aff63be48fe5a9a"
+    "sha256": "92e937e2ae886fcbde6a6316744af3ea28e8e74603b9fe38b16430f36fc6861c"
   },
   {
     "id": "gtm:suv_seltos",
@@ -1137,7 +1137,7 @@
       1.64,
       4.36
     ],
-    "cube_count": 44,
+    "cube_count": 40,
     "geometry": "geometry.gtm.suv_seltos",
     "variants": [
       "normal",
@@ -1173,7 +1173,7 @@
         ]
       }
     ],
-    "sha256": "e8ddb48e39c87c640696511119a8686516c9d3be97fcc41d9264184b99b39c7e"
+    "sha256": "c431a30364f4e586934d32a5f1bbdb2babe937243a54827a0c69e7c6c8c84319"
   },
   {
     "id": "gtm:suv_jimny",
@@ -1186,7 +1186,7 @@
       1.72,
       3.98
     ],
-    "cube_count": 51,
+    "cube_count": 46,
     "geometry": "geometry.gtm.suv_jimny",
     "variants": [
       "normal",
@@ -1222,7 +1222,7 @@
         ]
       }
     ],
-    "sha256": "f6d95514488ee837d82dcd4a97f45ef9d8f7dc95dec147633102b7b19a21338b"
+    "sha256": "c8826343bca5acd80a804898deb367f2edaaf34980453bae41f573e1df55d8f9"
   },
   {
     "id": "gtm:luxury_series3",
@@ -1235,7 +1235,7 @@
       1.44,
       4.7
     ],
-    "cube_count": 45,
+    "cube_count": 44,
     "geometry": "geometry.gtm.luxury_series3",
     "variants": [
       "normal",
@@ -1271,7 +1271,7 @@
         ]
       }
     ],
-    "sha256": "6a850cc482e143b72dcc19b4048d9f6f8038050dc1804b3e8a66fa7588d2e409"
+    "sha256": "4b4b06a5c1eb49e01d40c69da23fd7eabdb4d6e45b9574ba36c05ba7b6c01242"
   },
   {
     "id": "gtm:luxury_eclass",
@@ -1284,7 +1284,7 @@
       1.47,
       4.9
     ],
-    "cube_count": 45,
+    "cube_count": 44,
     "geometry": "geometry.gtm.luxury_eclass",
     "variants": [
       "normal",
@@ -1320,7 +1320,7 @@
         ]
       }
     ],
-    "sha256": "9fc1ac4c930a86b4d625b1670c3e7e654aaa752f1c895a9037746e0516600c0e"
+    "sha256": "dce8038905ddb1270370ea331a99190494149a1601004d1da1ccad652b643f6a"
   },
   {
     "id": "gtm:luxury_q7",
@@ -1333,7 +1333,7 @@
       1.74,
       5.06
     ],
-    "cube_count": 45,
+    "cube_count": 44,
     "geometry": "geometry.gtm.luxury_q7",
     "variants": [
       "normal",
@@ -1369,7 +1369,7 @@
         ]
       }
     ],
-    "sha256": "293c938365b2694ef139cab546c1a9c50d4afa72c19e83205b2c9704ef7ad1d7"
+    "sha256": "afecbb88a2a835e9e586ec37b0a1d0ae076b87af961b274e5da72ab7fc9b7066"
   },
   {
     "id": "gtm:luxury_x5",
@@ -1382,7 +1382,7 @@
       1.75,
       4.92
     ],
-    "cube_count": 45,
+    "cube_count": 44,
     "geometry": "geometry.gtm.luxury_x5",
     "variants": [
       "normal",
@@ -1418,7 +1418,7 @@
         ]
       }
     ],
-    "sha256": "8c6c4535ea87de34c555bb287e75423f52b6e4ad0ac0920c72bef642e05dace8"
+    "sha256": "dc6accc0247771b00b13fc653f502e90cb3fcee989b01278986a878c8e512121"
   },
   {
     "id": "gtm:luxury_rangerover",
@@ -1431,7 +1431,7 @@
       1.87,
       5.05
     ],
-    "cube_count": 45,
+    "cube_count": 44,
     "geometry": "geometry.gtm.luxury_rangerover",
     "variants": [
       "normal",
@@ -1467,7 +1467,7 @@
         ]
       }
     ],
-    "sha256": "ace7a291d59927faffdded8deabe90ec525fabe25d5890049d795bc97a267406"
+    "sha256": "ef40c30d9857c660bd5b454303d1d6077366e64da5de54ecbbfd9e1a59015ef9"
   },
   {
     "id": "gtm:moto_splendor",
@@ -1480,7 +1480,7 @@
       1.05,
       2.0
     ],
-    "cube_count": 21,
+    "cube_count": 19,
     "geometry": "geometry.gtm.moto_splendor",
     "variants": [
       "normal",
@@ -1515,7 +1515,7 @@
         ]
       }
     ],
-    "sha256": "95e72b759ecb56d3230e5fc087c345c4b0b583bfe8c83e7d53c156f224b7f142"
+    "sha256": "0b8d141d894e16ae7592050fdb4000b598f334e0775068916f0d7fff1f483510"
   },
   {
     "id": "gtm:moto_classic350",
@@ -1528,7 +1528,7 @@
       1.1,
       2.15
     ],
-    "cube_count": 21,
+    "cube_count": 19,
     "geometry": "geometry.gtm.moto_classic350",
     "variants": [
       "normal",
@@ -1563,7 +1563,7 @@
         ]
       }
     ],
-    "sha256": "89a5821060d80dbf7682a1f737c519e7da99bf30dfb9aa01c2818ffb9c9d6de7"
+    "sha256": "ec8c129a329e9c7785e54614c30006cae65d8b7f3995a15d2c3a9d4198414912"
   },
   {
     "id": "gtm:moto_bullet350",
@@ -1576,7 +1576,7 @@
       1.12,
       2.15
     ],
-    "cube_count": 21,
+    "cube_count": 19,
     "geometry": "geometry.gtm.moto_bullet350",
     "variants": [
       "normal",
@@ -1611,7 +1611,7 @@
         ]
       }
     ],
-    "sha256": "1d11f0d2fdfc7d7f24ea4b5c7b387e09f08386ab18c16e4120905947909a6912"
+    "sha256": "13e1c4d78468c99a6d08b114ab50f6c5861c84e03180bc53b5d2ba5a5495f760"
   },
   {
     "id": "gtm:moto_pulsar",
@@ -1624,7 +1624,7 @@
       1.15,
       2.05
     ],
-    "cube_count": 21,
+    "cube_count": 19,
     "geometry": "geometry.gtm.moto_pulsar",
     "variants": [
       "normal",
@@ -1659,7 +1659,7 @@
         ]
       }
     ],
-    "sha256": "0d0eae8a47e9eb6a85963db5ff0a790e01ce8e96b8346ac1dad9307b764a5714"
+    "sha256": "3b21d15f77abe1aed88f9e13e17531e034df0851251e9c9fc2b3216e4e2665a7"
   },
   {
     "id": "gtm:moto_apache",
@@ -1672,7 +1672,7 @@
       1.1,
       2.08
     ],
-    "cube_count": 21,
+    "cube_count": 19,
     "geometry": "geometry.gtm.moto_apache",
     "variants": [
       "normal",
@@ -1707,7 +1707,7 @@
         ]
       }
     ],
-    "sha256": "b88e05c3fcf0d34ff946cd78a795bd101f617430dd778f94f1dd4418dd76de9c"
+    "sha256": "b5698218229adb7d971870a23474b8bf55fba050a9c2d2fc0058bf64cc0c58e9"
   },
   {
     "id": "gtm:moto_duke",
@@ -1720,7 +1720,7 @@
       1.1,
       2.05
     ],
-    "cube_count": 22,
+    "cube_count": 20,
     "geometry": "geometry.gtm.moto_duke",
     "variants": [
       "normal",
@@ -1755,7 +1755,7 @@
         ]
       }
     ],
-    "sha256": "2876036107dc03daa982dc2abb221dea71c7f4a3d5f1ecfd7e9b7e916fb78467"
+    "sha256": "b85928ffae33508aa3605a7368f125c8715910e1138597f1a93b39a147168382"
   },
   {
     "id": "gtm:moto_himalayan",
@@ -1768,7 +1768,7 @@
       1.35,
       2.2
     ],
-    "cube_count": 21,
+    "cube_count": 19,
     "geometry": "geometry.gtm.moto_himalayan",
     "variants": [
       "normal",
@@ -1803,7 +1803,7 @@
         ]
       }
     ],
-    "sha256": "544317b3619711691ab1a3bc656013ecdafa1a80ac240e775c5ba1916df7cf0f"
+    "sha256": "6feb5253d019c9f325be6b87e5eb889a92ad3ffa19d29c134f7c2b88f50f7ee7"
   },
   {
     "id": "gtm:moto_r15",
@@ -1816,7 +1816,7 @@
       1.13,
       1.99
     ],
-    "cube_count": 22,
+    "cube_count": 20,
     "geometry": "geometry.gtm.moto_r15",
     "variants": [
       "normal",
@@ -1851,7 +1851,7 @@
         ]
       }
     ],
-    "sha256": "a995224beaea56080a44a2cd3355f2bcf2c6249114e052a7bc56e2f2c68db41f"
+    "sha256": "4f7c97bd86cb62f69c386cbf0cd6c4ac21a807ee79bc64931823ee2cf12a3b5b"
   },
   {
     "id": "gtm:scooter_activa",
@@ -1864,7 +1864,7 @@
       1.15,
       1.83
     ],
-    "cube_count": 22,
+    "cube_count": 20,
     "geometry": "geometry.gtm.scooter_activa",
     "variants": [
       "normal",
@@ -1899,7 +1899,7 @@
         ]
       }
     ],
-    "sha256": "1449857c2fa4b0ca66277e483c5c89d8ba97dc52a45d28b6cbb505881d373591"
+    "sha256": "088a98ff2a203b4b6fec7f52f271598eb3fe80baf9573859d9c68bf3cac37cd3"
   },
   {
     "id": "gtm:scooter_jupiter",
@@ -1912,7 +1912,7 @@
       1.15,
       1.83
     ],
-    "cube_count": 22,
+    "cube_count": 20,
     "geometry": "geometry.gtm.scooter_jupiter",
     "variants": [
       "normal",
@@ -1947,7 +1947,7 @@
         ]
       }
     ],
-    "sha256": "b98c9e9207df329f383f6b040dbdcd876eda44e402618941b4f0ab3ae0da9b11"
+    "sha256": "cb8f70dcd3a8850c5dcf5b82125b2bb013dda7c70db8bc46f15171146cf2ba71"
   },
   {
     "id": "gtm:scooter_access",
@@ -1960,7 +1960,7 @@
       1.16,
       1.87
     ],
-    "cube_count": 22,
+    "cube_count": 20,
     "geometry": "geometry.gtm.scooter_access",
     "variants": [
       "normal",
@@ -1995,7 +1995,7 @@
         ]
       }
     ],
-    "sha256": "bcebef8008badb11ab5f8cfa80b9007274ca063dc1c1c393d64516bac517b31b"
+    "sha256": "7a7997d57d533d3cc5d742cfa5a102d2390b68997701ac05d83c57f9f28c5cff"
   },
   {
     "id": "gtm:scooter_ather",
@@ -2008,7 +2008,7 @@
       1.25,
       1.81
     ],
-    "cube_count": 22,
+    "cube_count": 20,
     "geometry": "geometry.gtm.scooter_ather",
     "variants": [
       "normal",
@@ -2043,7 +2043,7 @@
         ]
       }
     ],
-    "sha256": "07ef7e7cbe366bab10b38af1a6ca1903ad4dea9025f3c5ac6e9d93ad7b3b1d92"
+    "sha256": "963f21ae7ba7bb83d3c43b430dc3235282ca1e9803e23c2a121f58e9e8ea0ec3"
   },
   {
     "id": "gtm:rickshaw_traditional",
@@ -2056,7 +2056,7 @@
       1.75,
       2.6
     ],
-    "cube_count": 28,
+    "cube_count": 25,
     "geometry": "geometry.gtm.rickshaw_traditional",
     "variants": [
       "normal",
@@ -2091,7 +2091,7 @@
         ]
       }
     ],
-    "sha256": "b0ce58937868c3afaa24d4e964613c9fffa170ff0b207cafaae4e78251b07232"
+    "sha256": "2b29f47f4275390207b0a384f5ada1f29b91598c2948d5292cf6b1a4cbb1f4c2"
   },
   {
     "id": "gtm:rickshaw_electric",
@@ -2104,7 +2104,7 @@
       1.8,
       2.75
     ],
-    "cube_count": 28,
+    "cube_count": 25,
     "geometry": "geometry.gtm.rickshaw_electric",
     "variants": [
       "normal",
@@ -2139,7 +2139,7 @@
         ]
       }
     ],
-    "sha256": "547666b02fecbd732d86dc5797e428d01d70b9bdd1588f657d0ffe419083fecd"
+    "sha256": "7f479a75ff0cfa3bdbb5773ecc561affe5d44c77ff5f52c1e64b286b08866de5"
   },
   {
     "id": "gtm:rickshaw_cargo",
@@ -2152,7 +2152,7 @@
       1.75,
       3.1
     ],
-    "cube_count": 28,
+    "cube_count": 25,
     "geometry": "geometry.gtm.rickshaw_cargo",
     "variants": [
       "normal",
@@ -2187,7 +2187,7 @@
         ]
       }
     ],
-    "sha256": "9b3ef5469799b76375e6fe9debc307cce8af3672fe827369bf28629e441a1283"
+    "sha256": "8dbcb8aa279e8ce2f051c82dac75b7a6fc98336f99bcc440f270d4c928b4ffba"
   },
   {
     "id": "gtm:bus_single_deck",
@@ -2200,7 +2200,7 @@
       3.2,
       11.5
     ],
-    "cube_count": 30,
+    "cube_count": 26,
     "geometry": "geometry.gtm.bus_single_deck",
     "variants": [
       "normal",
@@ -2235,7 +2235,7 @@
         ]
       }
     ],
-    "sha256": "8a4cca21fbce0ea47cc289eb90efd1ad7dcc10d86eab096a283ed4ac7da7659e"
+    "sha256": "592644c293d0c92f77ac6cd60e443c94cb0336bcea8572583246cfe6218dc991"
   },
   {
     "id": "gtm:bus_double_deck",
@@ -2248,7 +2248,7 @@
       4.4,
       10.5
     ],
-    "cube_count": 32,
+    "cube_count": 28,
     "geometry": "geometry.gtm.bus_double_deck",
     "variants": [
       "normal",
@@ -2283,7 +2283,7 @@
         ]
       }
     ],
-    "sha256": "24344924bb40bab094f1b62518d1fd6d36c36c26df4f99767caa88f87efbe14f"
+    "sha256": "857ab99e2722c03b265ba2600a8ffb7309823a572decdbeee2d24adfee5aebe4"
   },
   {
     "id": "gtm:bus_minibus",
@@ -2296,7 +2296,7 @@
       2.8,
       6.8
     ],
-    "cube_count": 30,
+    "cube_count": 26,
     "geometry": "geometry.gtm.bus_minibus",
     "variants": [
       "normal",
@@ -2331,7 +2331,7 @@
         ]
       }
     ],
-    "sha256": "7cfc17e5ec272e41b143d657711fd05ffeaaa0ebaa04f60d0c4022da96400076"
+    "sha256": "ddda9d23033a66a39d03170499fc545b5bf99823a784ddab0a04c6392bed7b49"
   },
   {
     "id": "gtm:bus_intercity_coach",
@@ -2344,7 +2344,7 @@
       3.6,
       13.5
     ],
-    "cube_count": 30,
+    "cube_count": 26,
     "geometry": "geometry.gtm.bus_intercity_coach",
     "variants": [
       "normal",
@@ -2379,7 +2379,7 @@
         ]
       }
     ],
-    "sha256": "37e8756cf25bc68e0b7bd8daaddafd21ae67cd6223957c5aaf0452bf2bf2e4f6"
+    "sha256": "c0bb82504acebae35222b922414fe9b7b008c2ff4d7bc556dd5556f87935b12c"
   },
   {
     "id": "gtm:comm_mini_cargo",
@@ -2392,7 +2392,7 @@
       1.85,
       3.8
     ],
-    "cube_count": 31,
+    "cube_count": 27,
     "geometry": "geometry.gtm.comm_mini_cargo",
     "variants": [
       "normal",
@@ -2427,7 +2427,7 @@
         ]
       }
     ],
-    "sha256": "05bdb5fa2abc598fd269ee17f749a3b46cd2a6f13d8b870ebf4825471ebb5efd"
+    "sha256": "46ebd29154417d7b29b7c2922fa4e157188d702247f5825ea41282e9ed0fcd94"
   },
   {
     "id": "gtm:comm_pickup",
@@ -2440,7 +2440,7 @@
       1.9,
       4.9
     ],
-    "cube_count": 31,
+    "cube_count": 27,
     "geometry": "geometry.gtm.comm_pickup",
     "variants": [
       "normal",
@@ -2475,7 +2475,7 @@
         ]
       }
     ],
-    "sha256": "9d63065dde50ac996727b9be371813cbf573a03421844e12986e390df944cfa8"
+    "sha256": "3c1cd8d7018e9f8412658824f2cf4dead03448c207ac5f933ed86baed0154d35"
   },
   {
     "id": "gtm:comm_light_truck",
@@ -2488,7 +2488,7 @@
       2.6,
       5.5
     ],
-    "cube_count": 31,
+    "cube_count": 27,
     "geometry": "geometry.gtm.comm_light_truck",
     "variants": [
       "normal",
@@ -2523,7 +2523,7 @@
         ]
       }
     ],
-    "sha256": "1a7d0127966c4af4817a1faee470442cfae032bee75a29b853da2af852d49711"
+    "sha256": "6247b5517156726f28140a01422a0aa82a5fa4fdccaab5da5a901fcb7165a94f"
   },
   {
     "id": "gtm:comm_medium_truck",
@@ -2536,7 +2536,7 @@
       3.1,
       8.2
     ],
-    "cube_count": 31,
+    "cube_count": 27,
     "geometry": "geometry.gtm.comm_medium_truck",
     "variants": [
       "normal",
@@ -2571,7 +2571,7 @@
         ]
       }
     ],
-    "sha256": "dc9a4c53242bf5bce0ac886f98e684ca51741afdb58cafc4131830892c32c993"
+    "sha256": "0d111d78a8a5a46f1f83e04812d51c9757d4af00ea30d6d1a8474643c64846a7"
   },
   {
     "id": "gtm:comm_tipper",
@@ -2584,7 +2584,7 @@
       3.5,
       7.8
     ],
-    "cube_count": 28,
+    "cube_count": 24,
     "geometry": "geometry.gtm.comm_tipper",
     "variants": [
       "normal",
@@ -2619,7 +2619,7 @@
         ]
       }
     ],
-    "sha256": "266eff18b10dc69889d20c863443fdf76619a75bbf5faabddcd4031900302873"
+    "sha256": "83685bfa2f5767f7da564b29eba09a62ba54e346f7ff69cbcf00b4d9f1e50fba"
   },
   {
     "id": "gtm:comm_container",
@@ -2632,7 +2632,7 @@
       3.9,
       14.0
     ],
-    "cube_count": 28,
+    "cube_count": 24,
     "geometry": "geometry.gtm.comm_container",
     "variants": [
       "normal",
@@ -2667,7 +2667,7 @@
         ]
       }
     ],
-    "sha256": "f66d347c0c3ddad01c899ef805cbb18426481c6b4961dc3c2922bd3e1c6f4d62"
+    "sha256": "25221adec0f0cb1cfab8dd9a094db54b056f435defef6f7ae1a4b3690c3e0f71"
   },
   {
     "id": "gtm:comm_delivery_van",
@@ -2680,7 +2680,7 @@
       1.95,
       3.9
     ],
-    "cube_count": 27,
+    "cube_count": 23,
     "geometry": "geometry.gtm.comm_delivery_van",
     "variants": [
       "normal",
@@ -2715,7 +2715,7 @@
         ]
       }
     ],
-    "sha256": "302aca1f0b137c136e2e81de728f84226bcc92af85d7333c09a501805643a81e"
+    "sha256": "51437cbd07b79ca1af94aff606f4c8bd59e17d886ece0257b6e088ea206d7fb4"
   },
   {
     "id": "gtm:emerg_police_suv",
@@ -2728,7 +2728,7 @@
       1.95,
       4.7
     ],
-    "cube_count": 48,
+    "cube_count": 44,
     "geometry": "geometry.gtm.emerg_police_suv",
     "variants": [
       "normal",
@@ -2764,7 +2764,7 @@
         ]
       }
     ],
-    "sha256": "9d6a470700725fb29d1e7d84b119e2cb674ef084087d3c78ed5e995044190555"
+    "sha256": "ee1a9cef6fea39744aa05bdd85eea66dda11b6a7ffbc6a949a4510140789334c"
   },
   {
     "id": "gtm:emerg_patrol_sedan",
@@ -2777,7 +2777,7 @@
       1.55,
       4.0
     ],
-    "cube_count": 48,
+    "cube_count": 44,
     "geometry": "geometry.gtm.emerg_patrol_sedan",
     "variants": [
       "normal",
@@ -2813,7 +2813,7 @@
         ]
       }
     ],
-    "sha256": "c718708dcf1db29302dcd7e217ad4fca84c98cff897556af424efd5564570e4e"
+    "sha256": "8217e9467541018a11302094134bb685f99402def7d6426b10ad04f6dc221ab2"
   },
   {
     "id": "gtm:emerg_ambulance",
@@ -2826,7 +2826,7 @@
       2.45,
       5.2
     ],
-    "cube_count": 31,
+    "cube_count": 27,
     "geometry": "geometry.gtm.emerg_ambulance",
     "variants": [
       "normal",
@@ -2861,7 +2861,7 @@
         ]
       }
     ],
-    "sha256": "0978341e74e72c6b360b6972a9375efd43b3898e0410f273deb9e4bcb8c0d5fa"
+    "sha256": "c48f7cdc6c1e41624aedff866609457f16759512290acb6a2de4119e4db0a8fc"
   },
   {
     "id": "gtm:emerg_fire_engine",
@@ -2874,7 +2874,7 @@
       3.4,
       9.2
     ],
-    "cube_count": 33,
+    "cube_count": 29,
     "geometry": "geometry.gtm.emerg_fire_engine",
     "variants": [
       "normal",
@@ -2909,7 +2909,7 @@
         ]
       }
     ],
-    "sha256": "f5404a31936de9809aed37bdd5b2306a881a74cf77f697a54bca6d2f7ac172a2"
+    "sha256": "ce9e469a141cd7c904d37961ea19477f02317ca867db3eb48ac6469407528119"
   },
   {
     "id": "gtm:emerg_recovery_truck",
@@ -2922,7 +2922,7 @@
       3.0,
       7.5
     ],
-    "cube_count": 29,
+    "cube_count": 25,
     "geometry": "geometry.gtm.emerg_recovery_truck",
     "variants": [
       "normal",
@@ -2957,7 +2957,7 @@
         ]
       }
     ],
-    "sha256": "9828b55f5e41b2c0ce82fb163044e5d0b60fd70180d2cdefcb1e0fd8f5dc067d"
+    "sha256": "4a36f759e8d475b12d123504880b55ad892b272ff3be70912974d0875ae027b5"
   },
   {
     "id": "gtm:emerg_rescue_van",
@@ -2970,7 +2970,7 @@
       2.7,
       6.2
     ],
-    "cube_count": 29,
+    "cube_count": 25,
     "geometry": "geometry.gtm.emerg_rescue_van",
     "variants": [
       "normal",
@@ -3005,7 +3005,7 @@
         ]
       }
     ],
-    "sha256": "cbe5d72776af592c59b07b1542b4dc4276a4e573eb83b90c125d79822ebe1212"
+    "sha256": "2ae0dbd488f0dde30ee04d0fc39f3f0f14484956dccef968e17b832f2bcf8fb9"
   },
   {
     "id": "gtm:agri_compact_tractor",
@@ -3018,7 +3018,7 @@
       2.1,
       2.8
     ],
-    "cube_count": 30,
+    "cube_count": 26,
     "geometry": "geometry.gtm.agri_compact_tractor",
     "variants": [
       "normal",
@@ -3053,7 +3053,7 @@
         ]
       }
     ],
-    "sha256": "51ab047fc4ebd7f140d82db6637dc801fc83b8b4538c9bda2342508186f5ab1b"
+    "sha256": "797e9b18eac705f11511b1c25be625a8def88d711883309b3684a03236c86bf9"
   },
   {
     "id": "gtm:agri_heavy_tractor",
@@ -3066,7 +3066,7 @@
       2.5,
       3.6
     ],
-    "cube_count": 30,
+    "cube_count": 26,
     "geometry": "geometry.gtm.agri_heavy_tractor",
     "variants": [
       "normal",
@@ -3101,7 +3101,7 @@
         ]
       }
     ],
-    "sha256": "7b60c421ee24c62c009325a51fe71b660cf7b5bbb548f2fafd4ffac74da24b7c"
+    "sha256": "c35e15e94bd46313fc2e565a7bf3b4b12eab560c539c051ac59436baf4f774e0"
   },
   {
     "id": "gtm:agri_harvester",
@@ -3114,7 +3114,7 @@
       3.8,
       6.8
     ],
-    "cube_count": 32,
+    "cube_count": 28,
     "geometry": "geometry.gtm.agri_harvester",
     "variants": [
       "normal",
@@ -3149,7 +3149,7 @@
         ]
       }
     ],
-    "sha256": "f1db4f3c0ef281d680a3866c15441821a7651ec83ba8d77a9693d97d0b42d150"
+    "sha256": "2302a9a77bb5eba7227a1222f5a53a4c33f21eb024ac6bb827b2ff6f3289e8c2"
   },
   {
     "id": "gtm:local_driving_cab",
@@ -3161,7 +3161,7 @@
       3.8,
       20.5
     ],
-    "cube_count": 68,
+    "cube_count": 60,
     "interior_description": "Transverse 3x3 wooden benches, ceiling fans, open sliding doorways, baggage lofts",
     "geometry": "geometry.gtm.local_driving_cab",
     "variants": [
@@ -3171,7 +3171,7 @@
     "json_path": "creative/source/models/transport/local_driving_cab.geo.json",
     "java_model_path": "creative/source/models/transport/java/local_driving_cab.json",
     "icon_path": "creative/source/icons/transport/local_driving_cab.png",
-    "sha256": "d0127f4bb73c205c779b1cac7f83c8bdf4b241f674a04deb309cee7af168006a"
+    "sha256": "68dffb1d85da604f633ee30e4822cb89b4b5928d9d2d1a433bfcc0fb9c4fd592"
   },
   {
     "id": "gtm:local_motor",
@@ -3183,7 +3183,7 @@
       3.8,
       20.5
     ],
-    "cube_count": 68,
+    "cube_count": 60,
     "interior_description": "High-capacity commuter layout, overhead pantograph, standing grab poles",
     "geometry": "geometry.gtm.local_motor",
     "variants": [
@@ -3193,7 +3193,7 @@
     "json_path": "creative/source/models/transport/local_motor.geo.json",
     "java_model_path": "creative/source/models/transport/java/local_motor.json",
     "icon_path": "creative/source/icons/transport/local_motor.png",
-    "sha256": "759d55982ff2bea57f3b9d22cbe390448a6a2e10750a8e13d0f1c913e3c8de16"
+    "sha256": "69a3e5169a02116feb5c7f89d3a36d82ae2fc71ec81133cef210eb7205bb7e06"
   },
   {
     "id": "gtm:local_trailer",
@@ -3205,7 +3205,7 @@
       3.8,
       20.5
     ],
-    "cube_count": 64,
+    "cube_count": 56,
     "interior_description": "Second-class general coach with partition grills and ceiling ventilation",
     "geometry": "geometry.gtm.local_trailer",
     "variants": [
@@ -3215,7 +3215,7 @@
     "json_path": "creative/source/models/transport/local_trailer.geo.json",
     "java_model_path": "creative/source/models/transport/java/local_trailer.json",
     "icon_path": "creative/source/icons/transport/local_trailer.png",
-    "sha256": "0034a6bd53a577192171f90beebb926e56d6925bdc8fc9859b218d81b8cfdf95"
+    "sha256": "8be11229aad0f173ab4c090ee27c7f5b3d7a2af4544533f4a79a4ebcab04b5a6"
   },
   {
     "id": "gtm:metro_lead",
@@ -3227,7 +3227,7 @@
       3.6,
       21.0
     ],
-    "cube_count": 68,
+    "cube_count": 60,
     "interior_description": "Modern aerodynamically shaped cab, digital route displays, longitudinal seating",
     "geometry": "geometry.gtm.metro_lead",
     "variants": [
@@ -3237,7 +3237,7 @@
     "json_path": "creative/source/models/transport/metro_lead.geo.json",
     "java_model_path": "creative/source/models/transport/java/metro_lead.json",
     "icon_path": "creative/source/icons/transport/metro_lead.png",
-    "sha256": "90dc702b06bd0864a31fb949ebfa328ae1dafc8c54e21ac833ffb2297fb9132f"
+    "sha256": "45890e33d34c08977302f15b9399154410efba545dd4a49e9b836cbffe3d2c0b"
   },
   {
     "id": "gtm:metro_middle",
@@ -3249,7 +3249,7 @@
       3.6,
       21.0
     ],
-    "cube_count": 64,
+    "cube_count": 56,
     "interior_description": "Continuous vestibule walkway, stainless steel stanchions, LED route maps",
     "geometry": "geometry.gtm.metro_middle",
     "variants": [
@@ -3259,7 +3259,7 @@
     "json_path": "creative/source/models/transport/metro_middle.geo.json",
     "java_model_path": "creative/source/models/transport/java/metro_middle.json",
     "icon_path": "creative/source/icons/transport/metro_middle.png",
-    "sha256": "d283353dfcd83442cc5ef0c710e51505af11d91771f10fc732822e803a8e0a04"
+    "sha256": "9504c502305a1a3bf6de7f78b2486ddf2e104cd4cea035ec193748eb4794cfdb"
   },
   {
     "id": "gtm:metro_accessible",
@@ -3271,7 +3271,7 @@
       3.6,
       21.0
     ],
-    "cube_count": 64,
+    "cube_count": 56,
     "interior_description": "Dedicated wheelchair securement bays, priority seating, tactile boarding strip",
     "geometry": "geometry.gtm.metro_accessible",
     "variants": [
@@ -3281,7 +3281,7 @@
     "json_path": "creative/source/models/transport/metro_accessible.geo.json",
     "java_model_path": "creative/source/models/transport/java/metro_accessible.json",
     "icon_path": "creative/source/icons/transport/metro_accessible.png",
-    "sha256": "351eb81e27256fc579c1f4b37ed8653d0d95cdfe0df79404368393ddec84d192"
+    "sha256": "3100f41dc419ffefb1113a82d4c0ec53c09bf709004d0b6b0e7aa407c1b01982"
   },
   {
     "id": "gtm:skylink_cabin",
@@ -3303,7 +3303,7 @@
     "json_path": "creative/source/models/transport/skylink_cabin.geo.json",
     "java_model_path": "creative/source/models/transport/java/skylink_cabin.json",
     "icon_path": "creative/source/icons/transport/skylink_cabin.png",
-    "sha256": "04b5dd046f3c5b40040a33f6cc39cd3714f12fb28a2779f63263ce72954b1ab9"
+    "sha256": "ebd73c8508859abbda3aa62b744a2bc13ba04d80fd1c720ce83779f7f1690f78"
   },
   {
     "id": "gtm:skylink_accessible",
@@ -3325,7 +3325,7 @@
     "json_path": "creative/source/models/transport/skylink_accessible.geo.json",
     "java_model_path": "creative/source/models/transport/java/skylink_accessible.json",
     "icon_path": "creative/source/icons/transport/skylink_accessible.png",
-    "sha256": "8700e7fea2ef93ea2a7ed4e9164edb5f420b9eaf1ccc9cf8c941ae7983d138af"
+    "sha256": "31d99d88d3bff0f8964e20d21a60cf2c39ca6f65f83162a0e197c0cf53407b3e"
   },
   {
     "id": "gtm:skylink_grip",
@@ -3337,7 +3337,7 @@
       1.2,
       0.8
     ],
-    "cube_count": 12,
+    "cube_count": 10,
     "interior_description": "Spring-loaded dual clamp grip mechanism with guide rollers",
     "geometry": "geometry.gtm.skylink_grip",
     "variants": [
@@ -3347,7 +3347,7 @@
     "json_path": "creative/source/models/transport/skylink_grip.geo.json",
     "java_model_path": "creative/source/models/transport/java/skylink_grip.json",
     "icon_path": "creative/source/icons/transport/skylink_grip.png",
-    "sha256": "9fb635031ab84d75a40156b8f4d73907d0dac5bd934c0768e4151edae016df2a"
+    "sha256": "1b558d972987830da63a0b30e7b0582a3d482c4e065bba7328af3b12af01b53e"
   },
   {
     "id": "gtm:skylink_terminal_machinery",
@@ -3369,7 +3369,7 @@
     "json_path": "creative/source/models/transport/skylink_terminal_machinery.geo.json",
     "java_model_path": "creative/source/models/transport/java/skylink_terminal_machinery.json",
     "icon_path": "creative/source/icons/transport/skylink_terminal_machinery.png",
-    "sha256": "810c98857c30e2b2bd1855295ceb500a374a8ddb4e4dcda8eb2fec74b8633853"
+    "sha256": "0d6226d296623c14f781231537ab4ff4b7f17a7747619515f54b3f62a7b27a34"
   },
   {
     "id": "gtm:heli_police",
@@ -3396,7 +3396,7 @@
     "json_path": "creative/source/models/transport/heli_police.geo.json",
     "java_model_path": "creative/source/models/transport/java/heli_police.json",
     "icon_path": "creative/source/icons/transport/heli_police.png",
-    "sha256": "c87f14a23252c23467bc37991fa7bd9527d153c32c04e4a6fa71576aebb3123d"
+    "sha256": "b06b5bf0ca2af2677ef23f78e0bbed6ded266140383c22fe1bbe08e74a1b5eb8"
   },
   {
     "id": "gtm:heli_media",
@@ -3423,7 +3423,7 @@
     "json_path": "creative/source/models/transport/heli_media.geo.json",
     "java_model_path": "creative/source/models/transport/java/heli_media.json",
     "icon_path": "creative/source/icons/transport/heli_media.png",
-    "sha256": "592f40d6fb31f23ede9a9f33f71d75bd137bc9194747da6777bc4007bcc0d689"
+    "sha256": "2613ca3b205b8278c4d1d4639889264bc58141fb3d81f3b73f1f939f1f3fd6a8"
   },
   {
     "id": "gtm:heli_rescue",
@@ -3449,7 +3449,7 @@
     "json_path": "creative/source/models/transport/heli_rescue.geo.json",
     "java_model_path": "creative/source/models/transport/java/heli_rescue.json",
     "icon_path": "creative/source/icons/transport/heli_rescue.png",
-    "sha256": "4bba5fd480bbce7a774a1824aad8d2a076cde9ac62299ea0866d2f6f51ba15bd"
+    "sha256": "1976d5db66e843bbc476a66c91cb4bae7e163d5d632d8afac7c7e32f92cc59e5"
   },
   {
     "id": "gtm:heli_civilian",
@@ -3475,7 +3475,7 @@
     "json_path": "creative/source/models/transport/heli_civilian.geo.json",
     "java_model_path": "creative/source/models/transport/java/heli_civilian.json",
     "icon_path": "creative/source/icons/transport/heli_civilian.png",
-    "sha256": "e841f21aa8a9dcf89b2e96066d42149cf80a91204d7a31a410c004799e9e4374"
+    "sha256": "8f95f4770e9eb313056828b5af61cefb4a10ad5b0ec7d5685520924376ab2c9b"
   },
   {
     "id": "gtm:marine_ferry",
@@ -3501,7 +3501,7 @@
     "json_path": "creative/source/models/transport/marine_ferry.geo.json",
     "java_model_path": "creative/source/models/transport/java/marine_ferry.json",
     "icon_path": "creative/source/icons/transport/marine_ferry.png",
-    "sha256": "e962fa90ff65d0f5d74f5c4b16459385c6c766c284152c8c50da4aa33359c412"
+    "sha256": "45f7a392542fd6052e751fb19a8b5717d64b1431a9a44e7e6b58fc24b38104f0"
   },
   {
     "id": "gtm:marine_speedboat",
@@ -3526,7 +3526,7 @@
     "json_path": "creative/source/models/transport/marine_speedboat.geo.json",
     "java_model_path": "creative/source/models/transport/java/marine_speedboat.json",
     "icon_path": "creative/source/icons/transport/marine_speedboat.png",
-    "sha256": "eea06d3c32832d674915934d1adc38ebbf6d90098d7bb994db796d1efee1b335"
+    "sha256": "e4098bcc5a99edfff3e83f3d82ef23627f181ad27f2142f93f51369561e7d026"
   },
   {
     "id": "gtm:marine_police_launch",
@@ -3551,7 +3551,7 @@
     "json_path": "creative/source/models/transport/marine_police_launch.geo.json",
     "java_model_path": "creative/source/models/transport/java/marine_police_launch.json",
     "icon_path": "creative/source/icons/transport/marine_police_launch.png",
-    "sha256": "3ee23b31f9d3dbef967c95788f49e4609615b9ca519b09ad20b4b1175aee317e"
+    "sha256": "aea163286e0b3788d73ad80998bdcc408525063c76047d9611629f5682e880b3"
   },
   {
     "id": "gtm:marine_rescue",
@@ -3576,7 +3576,7 @@
     "json_path": "creative/source/models/transport/marine_rescue.geo.json",
     "java_model_path": "creative/source/models/transport/java/marine_rescue.json",
     "icon_path": "creative/source/icons/transport/marine_rescue.png",
-    "sha256": "037cc5d0a430d361d22e0747bbbdd945ad863d1b549725f1c660716bcf052103"
+    "sha256": "fc2f0c92236a653dd5fa4cb75027e5fe371ce7d392d548e441c26bea20740f24"
   },
   {
     "id": "gtm:marine_fishing",
@@ -3601,7 +3601,7 @@
     "json_path": "creative/source/models/transport/marine_fishing.geo.json",
     "java_model_path": "creative/source/models/transport/java/marine_fishing.json",
     "icon_path": "creative/source/icons/transport/marine_fishing.png",
-    "sha256": "fee0c7f29ddc1a5c02d9d3f3035700aab4a485ae21ca5470b547562c87a510ac"
+    "sha256": "64e154b792a7ddbc199ee09999e3ea6c07dea55fe22c2d5a5fb7f7613fbd68c8"
   },
   {
     "id": "gtm:marine_yacht",
@@ -3626,7 +3626,7 @@
     "json_path": "creative/source/models/transport/marine_yacht.geo.json",
     "java_model_path": "creative/source/models/transport/java/marine_yacht.json",
     "icon_path": "creative/source/icons/transport/marine_yacht.png",
-    "sha256": "76807e70308f78aac4bc77f19ee5b17cab12c10b05450fa035ff96fe1ec42188"
+    "sha256": "89a74f3a88c78f4f65bad93a7e4e8669ab57606f8c23c22ea0b1393151755260"
   },
   {
     "id": "gtm:marine_cargo",
@@ -3651,7 +3651,7 @@
     "json_path": "creative/source/models/transport/marine_cargo.geo.json",
     "java_model_path": "creative/source/models/transport/java/marine_cargo.json",
     "icon_path": "creative/source/icons/transport/marine_cargo.png",
-    "sha256": "4b68297d3584f71f8bc3342c3bfd25dbface576844a61f7b981c11297131a6e1"
+    "sha256": "d620fef5d55b3ffa3e40bf0f02b3dd6ebf7b4ec204ba7f5c5b2218cca8e1e559"
   },
   {
     "id": "gtm:marine_water_taxi",
@@ -3675,6 +3675,6 @@
     "json_path": "creative/source/models/transport/marine_water_taxi.geo.json",
     "java_model_path": "creative/source/models/transport/java/marine_water_taxi.json",
     "icon_path": "creative/source/icons/transport/marine_water_taxi.png",
-    "sha256": "1a8ce88ed9a3d1762401fd4dd7544cf8f10be29add7fd976d0f9f7ce67d4a367"
+    "sha256": "1cd909ff324f6291260c907eb6fd32198daf253e6830d41153c7c82b719cb6b3"
   }
 ]

@@ -45,7 +45,7 @@ def pick_paint(vid: str, mfg: str, cat: str) -> str:
         return "paint_red" if "compact" in vid or "heavy" in vid else "hazard_yellow"
     if cat == "luxury":
         return ["paint_black", "paint_silver", "paint_gold", "paint_blue", "lotus_dark"][hash(vid) % 5]
-    palette = ["paint_red", "paint_white", "paint_silver", "paint_blue", "paint_emerald", "paint_saffron", "paint_gold", "terracotta"]
+    palette = ["paint_red", "paint_white", "paint_silver", "paint_blue", "paint_emerald", "paint_saffron", "paint_gold", "paint_black"]
     return palette[sum(ord(c) for c in vid) % len(palette)]
 
 
@@ -164,22 +164,23 @@ def build_road_vehicle(vid: str, name: str, mfg: str, cat: str, dims: list) -> s
 
     if cat == "bus":
         # Full-length transit body with multiple glass bays, destination LED & double decker tiers
-        pb.cbox(0, ground_clear, 0, W * 0.94, H * 0.88, L * 0.94, mat=paint, bone="chassis")
+        pb.cbox(0, ground_clear, 0, W * 0.94, H * 0.88, L * 0.94, mat=paint, bone="chassis",
+                face_mats={"east": "car_door_bus", "west": "car_door_bus", "south": "grille_chrome", "north": "taillight_face"})
         pb.cbox(0, ground_clear - 1.2, L * 0.48, W * 0.96, 3.2, 2.2, mat="steel_dark", bone="chassis")
         pb.cbox(0, ground_clear - 1.2, -L * 0.48, W * 0.96, 3.2, 2.2, mat="steel_dark", bone="chassis")
         # Panoramic lower windshield & side window band
-        pb.cbox(0, ground_clear + 9.0, L * 0.475, W * 0.86, 12.0, 1.2, mat="glass_clear", bone="chassis")
-        pb.cbox(0, ground_clear + 10.0, 0, W * 0.96, 11.0, L * 0.80, mat="glass_tint", bone="chassis")
+        pb.cbox(0, ground_clear + 9.0, L * 0.475, W * 0.86, 12.0, 1.2, mat="windshield_front", bone="chassis")
+        pb.cbox(0, ground_clear + 10.0, 0, W * 0.96, 11.0, L * 0.80, mat="car_door_bus", bone="chassis")
         # Roof AC pods
         pb.cbox(0, ground_clear + H * 0.88, L * 0.15, W * 0.56, 3.0, 16.0, mat="aluminum", bone="chassis")
         pb.cbox(0, ground_clear + H * 0.88, -L * 0.22, W * 0.56, 3.0, 16.0, mat="aluminum", bone="chassis")
         # Double decker upper level windows
         if "double_deck" in vid:
-            pb.cbox(0, ground_clear + H * 0.58, L * 0.475, W * 0.86, 11.0, 1.2, mat="glass_clear", bone="chassis")
-            pb.cbox(0, ground_clear + H * 0.60, 0, W * 0.96, 10.5, L * 0.82, mat="glass_tint", bone="chassis")
+            pb.cbox(0, ground_clear + H * 0.58, L * 0.475, W * 0.86, 11.0, 1.2, mat="windshield_front", bone="chassis")
+            pb.cbox(0, ground_clear + H * 0.60, 0, W * 0.96, 10.5, L * 0.82, mat="car_door_bus", bone="chassis")
         # Headlights & LED board
-        pb.cbox(-W * 0.34, ground_clear + 3.5, L * 0.48, 4.5, 2.5, 1.0, mat="headlight", bone="chassis")
-        pb.cbox(W * 0.34, ground_clear + 3.5, L * 0.48, 4.5, 2.5, 1.0, mat="headlight", bone="chassis")
+        pb.cbox(-W * 0.34, ground_clear + 3.5, L * 0.48, 4.5, 2.5, 1.0, mat="headlight_face", bone="chassis", face_mats={"south": "headlight_face"})
+        pb.cbox(W * 0.34, ground_clear + 3.5, L * 0.48, 4.5, 2.5, 1.0, mat="headlight_face", bone="chassis", face_mats={"south": "headlight_face"})
         pb.cbox(0, ground_clear + 22.0, L * 0.475, W * 0.55, 2.8, 1.2, mat="beacon_amber", bone="chassis")
         return pb
 
@@ -192,12 +193,14 @@ def build_road_vehicle(vid: str, name: str, mfg: str, cat: str, dims: list) -> s
         cab_z = 0 if is_van else L * 0.28
         cab_h = H * 0.82 if is_van else H * 0.78
 
-        pb.cbox(0, ground_clear + 2.0, cab_z, W * 0.92, cab_h * 0.48, cab_len, mat=paint, bone="chassis")
+        cab_door = "car_door_ambulance" if "ambulance" in vid else paint
+        pb.cbox(0, ground_clear + 2.0, cab_z, W * 0.92, cab_h * 0.48, cab_len, mat=paint, bone="chassis",
+                face_mats={"east": cab_door, "west": cab_door, "south": "grille_chrome"})
         pb.cbox(0, ground_clear + 2.0 + cab_h * 0.46, cab_z - (0 if is_van else L * 0.03), W * 0.88, cab_h * 0.48, cab_len * (0.94 if is_van else 0.82), mat=paint, bone="chassis")
-        pb.cbox(0, ground_clear + cab_h * 0.52, cab_z + cab_len * (0.47 if is_van else 0.39), W * 0.80, cab_h * 0.36, 1.4, mat="glass_clear", bone="chassis", rot=[-10, 0, 0])
-        pb.cbox(0, ground_clear + 4.0, cab_z + cab_len * 0.505, W * 0.52, 4.5, 1.0, mat="grille_mesh", bone="chassis")
-        pb.cbox(-W * 0.34, ground_clear + 4.5, cab_z + cab_len * 0.505, 3.6, 2.6, 1.0, mat="headlight", bone="chassis")
-        pb.cbox(W * 0.34, ground_clear + 4.5, cab_z + cab_len * 0.505, 3.6, 2.6, 1.0, mat="headlight", bone="chassis")
+        pb.cbox(0, ground_clear + cab_h * 0.52, cab_z + cab_len * (0.47 if is_van else 0.39), W * 0.80, cab_h * 0.36, 1.4, mat="windshield_front", bone="chassis", rot=[-10, 0, 0])
+        pb.cbox(0, ground_clear + 4.0, cab_z + cab_len * 0.505, W * 0.52, 4.5, 1.0, mat="grille_chrome", bone="chassis")
+        pb.cbox(-W * 0.34, ground_clear + 4.5, cab_z + cab_len * 0.505, 3.6, 2.6, 1.0, mat="headlight_face", bone="chassis")
+        pb.cbox(W * 0.34, ground_clear + 4.5, cab_z + cab_len * 0.505, 3.6, 2.6, 1.0, mat="headlight_face", bone="chassis")
 
         if not is_van:
             # Rear cargo bay / fire body / tipper / crane / container
@@ -232,36 +235,50 @@ def build_road_vehicle(vid: str, name: str, mfg: str, cat: str, dims: list) -> s
         return pb
 
     # 4. Passenger Cars (Hatchback, Sedan, SUV, Luxury, Police SUV/Sedan)
-    # Lower sculpted chassis, wheel well arches, stepped front bumper & rear diffuser
-    pb.cbox(0, ground_clear, 0, W * 0.92, body_h, L * 0.94, mat=paint, bone="chassis")
+    door_map = {
+        "paint_red": "car_door_red", "paint_white": "car_door_white", "paint_black": "car_door_black",
+        "paint_silver": "car_door_silver", "paint_blue": "car_door_blue", "paint_emerald": "car_door_emerald",
+        "paint_saffron": "car_door_saffron", "police_navy": "car_door_police"
+    }
+    door_tile = "car_door_taxi" if "taxi" in vid or "padmini" in vid or "kaali" in vid else door_map.get(paint, paint)
+    pb.cbox(0, ground_clear, 0, W * 0.92, body_h, L * 0.94, mat=paint, bone="chassis",
+            face_mats={"east": door_tile, "west": door_tile, "south": "grille_chrome", "north": "license_plate_mh01"})
     pb.cbox(0, ground_clear - 1.0, L * 0.47, W * 0.94, 3.2, 2.2, mat="graphite", bone="chassis")
     pb.cbox(0, ground_clear - 1.0, -L * 0.47, W * 0.94, 3.2, 2.2, mat="graphite", bone="chassis")
-    pb.cbox(0, ground_clear + 0.5, L * 0.48, W * 0.44, 4.2, 1.2, mat="grille_mesh", bone="chassis")
-    pb.cbox(0, ground_clear + 1.5, -L * 0.48, 6.0, 2.2, 0.8, mat="license_plate", bone="chassis")
+    pb.cbox(0, ground_clear + 0.5, L * 0.48, W * 0.44, 4.2, 1.2, mat="grille_chrome", bone="chassis")
+    pb.cbox(0, ground_clear + 1.5, -L * 0.48, 6.0, 2.2, 0.8, mat="license_plate_mh01", bone="chassis")
     # Headlights & taillights
     for sx in (-W * 0.34, W * 0.34):
-        pb.cbox(sx, ground_clear + body_h * 0.55, L * 0.475, 4.2, 2.2, 1.0, mat="headlight", bone="chassis")
-        pb.cbox(sx, ground_clear + body_h * 0.55, -L * 0.475, 4.2, 2.2, 1.0, mat="taillight", bone="chassis")
+        pb.cbox(sx, ground_clear + body_h * 0.55, L * 0.475, 4.2, 2.2, 1.0, mat="headlight_face", bone="chassis")
+        pb.cbox(sx, ground_clear + body_h * 0.55, -L * 0.475, 4.2, 2.2, 1.0, mat="taillight_face", bone="chassis")
         # Side view mirrors
         pb.cbox(sx * 1.48, belt_y + 1.2, L * 0.14, 2.6, 1.8, 1.8, mat=paint, bone="chassis")
 
-    # Hood sculpting
+    # Hood sculpting & twin racing/bumper splitter on sports coupes
     hood_l = L * (0.28 if cat != "suv" else 0.30)
-    pb.cbox(0, belt_y - 0.5, L * 0.30, W * 0.82, 1.4, hood_l, mat=paint, bone="chassis")
+    pb.cbox(0, belt_y - 0.5, L * 0.30, W * 0.82, 1.4, hood_l, mat="taxi_yellow" if "taxi" in vid else paint, bone="chassis")
+    if cat == "luxury":
+        pb.cbox(0, ground_clear - 1.4, L * 0.48, W * 0.96, 1.2, 3.0, mat="carbon", bone="chassis")
+        pb.cbox(-W * 0.30, ground_clear - 0.5, -L * 0.49, 2.2, 1.8, 2.0, mat="chrome", bone="chassis")
+        pb.cbox(W * 0.30, ground_clear - 0.5, -L * 0.49, 2.2, 1.8, 2.0, mat="chrome", bone="chassis")
 
     # Cabin greenhouse (windshield + roof + pillars + glass)
     cab_l = L * (0.52 if cat in ("suv", "hatchback") else 0.44)
     cab_z = -L * (0.08 if cat in ("suv", "hatchback") else 0.04)
     cab_h = H - belt_y - 1.0
-    # Glass greenhouse inset inside pillars
-    pb.cbox(0, belt_y, cab_z, W * 0.80, cab_h * 0.88, cab_l * 0.88, mat="glass_tint", bone="chassis")
-    pb.cbox(0, belt_y, cab_z + cab_l * 0.44, W * 0.78, cab_h * 0.84, 1.5, mat="glass_clear", bone="chassis", rot=[-22, 0, 0])
-    # Sculpted A/B/C Pillars + roof panel
+    pb.cbox(0, belt_y, cab_z, W * 0.80, cab_h * 0.88, cab_l * 0.88, mat="glass_tint", bone="chassis",
+            face_mats={"east": door_tile, "west": door_tile, "south": "windshield_front", "north": "glass_tint"})
+    pb.cbox(0, belt_y, cab_z + cab_l * 0.44, W * 0.78, cab_h * 0.84, 1.5, mat="windshield_front", bone="chassis", rot=[-22, 0, 0])
+    # Sculpted A/B/C Pillars + roof panel (Kaali-Peeli gets signature yellow roof + carrier)
+    roof_mat = "taxi_yellow" if "taxi" in vid or "kaali" in vid or "padmini" in vid else paint
     for sx in (-W * 0.38, W * 0.38):
-        pb.cbox(sx, belt_y, cab_z + cab_l * 0.42, 1.4, cab_h * 0.9, 1.6, mat=paint, bone="chassis")
-        pb.cbox(sx, belt_y, cab_z, 1.4, cab_h * 0.9, 1.6, mat=paint, bone="chassis")
-        pb.cbox(sx, belt_y, cab_z - cab_l * 0.42, 1.8, cab_h * 0.9, 2.4, mat=paint, bone="chassis")
-    pb.cbox(0, belt_y + cab_h * 0.86, cab_z, W * 0.82, 1.8, cab_l * 0.90, mat=paint, bone="chassis")
+        pb.cbox(sx, belt_y, cab_z + cab_l * 0.42, 1.4, cab_h * 0.9, 1.6, mat=roof_mat, bone="chassis")
+        pb.cbox(sx, belt_y, cab_z, 1.4, cab_h * 0.9, 1.6, mat=roof_mat, bone="chassis")
+        pb.cbox(sx, belt_y, cab_z - cab_l * 0.42, 1.8, cab_h * 0.9, 2.4, mat=roof_mat, bone="chassis")
+    pb.cbox(0, belt_y + cab_h * 0.86, cab_z, W * 0.82, 1.8, cab_l * 0.90, mat=roof_mat, bone="chassis")
+    if "taxi" in vid or "kaali" in vid or "padmini" in vid:
+        pb.cbox(0, belt_y + cab_h * 0.86 + 1.8, cab_z + 3.0, 5.5, 2.2, 2.6, mat="beacon_amber", bone="chassis")
+        pb.cbox(0, belt_y + cab_h * 0.86 + 1.8, cab_z - 5.0, W * 0.72, 1.2, cab_l * 0.44, mat="chrome", bone="chassis")
 
     # Trunk deck or rear hatch spare tire
     if cat in ("sedan", "luxury"):
@@ -327,9 +344,11 @@ def build_rail_or_ropeway(rid: str, cat: str, dims: list) -> s3d.PartBuilder:
         pb.wheel(W * 0.42, 4.2, tz + 6.0, radius=4.2, width=2.2, rim_mat="steel_light", bone="root")
 
     # Lower shell, stripe, windows, pillars & curved roof
-    pb.cbox(0, 11, 0, W * 0.96, 16.0, use_L, mat=body_mat, bone="body")
+    pb.cbox(0, 11, 0, W * 0.96, 16.0, use_L, mat=body_mat, bone="body",
+            face_mats={"east": "car_door_train", "west": "car_door_train"})
     pb.cbox(0, 22, 0, W * 0.98, 4.0, use_L, mat=stripe_mat, bone="body")
-    pb.cbox(0, 26, 0, W * 0.94, 16.0, use_L * 0.94, mat="glass_tint", bone="body")
+    pb.cbox(0, 26, 0, W * 0.94, 16.0, use_L * 0.94, mat="glass_tint", bone="body",
+            face_mats={"east": "car_door_train", "west": "car_door_train"})
     # Window ribs along coach length
     for step in range(-int(use_L * 0.45), int(use_L * 0.48), 18):
         pb.cbox(-W * 0.47, 26, step, 1.8, 16.0, 4.5, mat=body_mat, bone="body")
@@ -337,10 +356,10 @@ def build_rail_or_ropeway(rid: str, cat: str, dims: list) -> s3d.PartBuilder:
     pb.cbox(0, 42, 0, W * 0.96, 5.0, use_L, mat="aluminum", bone="body")
     pb.cbox(0, 47, 0, W * 0.72, 2.5, use_L * 0.92, mat="steel_light", bone="body")
     if "cab" in rid or "lead" in rid or "motor" in rid:
-        pb.cbox(0, 26, use_L * 0.505, W * 0.80, 13.0, 2.0, mat="glass_clear", bone="body")
+        pb.cbox(0, 26, use_L * 0.505, W * 0.80, 13.0, 2.0, mat="windshield_front", bone="body")
         pb.cbox(0, 49.5, 0, 14.0, 6.0, 14.0, mat="brass", bone="body") # pantograph / HVAC
-        pb.cbox(-W * 0.30, 15.0, use_L * 0.51, 4.5, 3.0, 1.2, mat="headlight", bone="body")
-        pb.cbox(W * 0.30, 15.0, use_L * 0.51, 4.5, 3.0, 1.2, mat="headlight", bone="body")
+        pb.cbox(-W * 0.30, 15.0, use_L * 0.51, 4.5, 3.0, 1.2, mat="headlight_face", bone="body")
+        pb.cbox(W * 0.30, 15.0, use_L * 0.51, 4.5, 3.0, 1.2, mat="headlight_face", bone="body")
     return pb
 
 

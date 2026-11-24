@@ -5,15 +5,15 @@
 
 ---
 
-## Revision 4 development — Antigravity Creative Track complete (V2 Studio Quality Overhaul)
+## Revision 4 development — Antigravity Creative Track complete (V3 Faithful 32x Overhaul)
 
-Completed and visually audited full creative asset regeneration on branch `gtm/creative-r4`. Fixed 3D cube normal winding / Z-buffering, replaced placeholder graphics, upgraded all model textures to `32x32`, and built/installed a matching `32x32` World Resource Pack:
-- **Visual Identity & UI**: 32 distinct AI-generated glossy V3 brand emblems (256x256 RGBA + unique SVGs), 24 V3 Phone App icons & 33 HUD elements cleanly sliced above card text labels with flood-fill transparency, plus upgraded 64x64 GTM shield server-icon.
-- **Bilingual Signage**: 120 signs (512x256 RGBA) rendered via headless Chromium DirectWrite for 100% crisp Marathi/Devanagari typography, SVG transit/road pictograms, and embedded 3D brand emblems.
-- **Transport, Furniture, Equipment, Weapons, Food & Festivals**: All 509+ models regenerated with real-world anatomical archetypes, populated rotor/wheel/door bones, 11 User Hero 3D models imported, 30 sleek sculpted fictional weapons + 300 painted finish skins, and all 128x128 icons rendered via a True Per-Pixel Z-Buffered & 32x32 UV-Textured Studio Renderer.
-- **Characters & Outfits**: 500 dual-layer `64x64` skins (distinguishing Gang Boss `npc-481` blazer/shades and 5 orange detention prisoners `npc-482..486`) + 100 outfits with Front+Back 3D preview sheets.
-- **32x32 World & Model Texture Packs**: 100 individual `32x32` model textures (`creative/source/textures/32x32/`) + 86 cohesive `32x32` Indraprastha city/world block textures packaged into `GTM_Indraprastha_World_32x_Java.zip` and `GTM_Indraprastha_World_32x_Bedrock.mcpack`, and installed locally in `%APPDATA%\.minecraft\resourcepacks\`.
-- **QA**: Verified with 0 errors across 14 visual contact sheets and `creative/reports/ASSET_VALIDATION_REPORT.json`.
+Regenerated all textures, icons, and 3D models on branch `gtm/creative-r4` taking inspiration from Faithful 32x Minecraft pixel art (`tools/faithful_32x_palette.py`, `512x512` per-face UV atlas, crisp `NEAREST` upscaled pixel sprites, zero smooth trig blur or Gaussian drop-shadows):
+- **Visual Identity & UI**: Faithful 32x hand-pixelled `64x64` GTM Sea-Link `server-icon.png`, `32` pixel-art brand crests (`256x256` RGBA from `64x64` pixel grids), `24` Phone App icons (`128x128` RGBA from `32x32` beveled tiles), and `33` HUD elements (`64x64` / `128x64` RGBA).
+- **Food & Weapons**: `30` hand-pixelled `32x32` Indian food sprites + Faithful `64x64` food atlas + `30` 3D food models; `30` distinct sculpted 3D weapon silhouettes (revolvers, derringers, coach shotguns, rear-mag bullpup rifles, talwars, khandas, tonfa lathis) + `30` crisp `48x48` Faithful pixel-art weapon icons + `300` pixel-art `64x64` finish skins.
+- **Transport, Furniture, Equipment & Festivals**: Per-face Faithful 32x UV mapping (headlights, chrome grilles, windshields w/ wipers, alloy wheels, SDPD/taxi/ambulance/train liveries, bookcases, ECG/ATM/PC displays, stoves, mandir lattices) across `87` transport, `200` furniture, `92` equipment + `11` User Hero props, and `100` festival models, rendered cleanly via pixel-locked `64x64 -> 128x128` (`NEAREST`) isometric sprites with `1px` dark Faithful outlines.
+- **32x32 Model & World Packs**: `148` individual `32x32` model textures (`creative/source/textures/32x32/`) + `98` cohesive Faithful 32x world block textures packaged into `GTM_Indraprastha_World_32x_Java.zip` & `GTM_Indraprastha_World_32x_Bedrock.mcpack` (bundling blocks, model textures, and sprites) and installed locally in `%APPDATA%\.minecraft\resourcepacks\`.
+- **Characters & Signage**: `500` unique dual-layer `64x64` skins + `100` outfits; `120` Chromium DirectWrite bilingual English/Marathi signs (`512x256` RGBA).
+- **QA**: Verified with 0 errors across 14 visual contact sheets and `creative/reports/ASSET_VALIDATION_REPORT.json` (`V3_FAITHFUL_32X_PIXEL_AND_MODELS`).
 
 ## Revision 4 development — Antigravity creative handoff
 

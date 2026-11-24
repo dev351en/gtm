@@ -4,351 +4,511 @@
     "name": "Wahindra Motors",
     "sector": "Automotive",
     "tagline": "Rugged All-Terrain & Utility",
-    "primary_color": "#AD5637",
-    "bg_color": "#151B20",
+    "primary_hex": "#AD5637",
+    "accent_hex": "#151B20",
     "svg": "creative/source/branding/wahindra.svg",
     "png": "creative/source/branding/wahindra.png",
-    "sha256": "1c8f3e414397e10bc2e6b7322b58ec0a280240544b2f6884325d82af5dd2bb7a"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "5bcb895b1c2c78d95c0e6016f7d78b40188d1f9f5c594c53fd4950c9294e37dc"
   },
   {
     "id": "tavara",
     "name": "Tavara Heavy Industries",
     "sector": "Automotive",
     "tagline": "Electric Transit & Heavy Vehicles",
-    "primary_color": "#2680EB",
-    "bg_color": "#151B20",
+    "primary_hex": "#2680EB",
+    "accent_hex": "#151B20",
     "svg": "creative/source/branding/tavara.svg",
     "png": "creative/source/branding/tavara.png",
-    "sha256": "3816b72b22408a52416d9bf15b77a01ffa1e79572990eba58f2d593ef0977fde"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "649757e6e4aef895e397df44077361eeb1226dda905f599b1ea8b37bdbfd78d8"
   },
   {
     "id": "maruva",
     "name": "Maruva City Car",
     "sector": "Automotive",
     "tagline": "High-Efficiency Compact Cars",
-    "primary_color": "#236653",
-    "bg_color": "#151B20",
+    "primary_hex": "#236653",
+    "accent_hex": "#151B20",
     "svg": "creative/source/branding/maruva.svg",
     "png": "creative/source/branding/maruva.png",
-    "sha256": "9f4d8e6f6f8e9dabe16079fec30a370429b8e429055c22cd9b0d21d0c3f1d253"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "0d43cfebee590621dbdfc9cf032eb6188253cfb3a18dae72ad7ef60e80ed4b49"
   },
   {
     "id": "toyora",
     "name": "Toyora Motors",
     "sector": "Automotive",
     "tagline": "Durable Executive & Fleet Utility",
-    "primary_color": "#D6AD59",
-    "bg_color": "#151B20",
+    "primary_hex": "#D6AD59",
+    "accent_hex": "#151B20",
     "svg": "creative/source/branding/toyora.svg",
     "png": "creative/source/branding/toyora.png",
-    "sha256": "4fdff6b85718a087b57e333c387a36f190b627dda155a8a4d7f66a2e379f9509"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "a42cc1fa20198ceef7725abccf14eb3dd489bf8b5a22f184cdc442c23bee34a4"
   },
   {
     "id": "royal_iron",
     "name": "Royal Iron Motorcycles",
     "sector": "Motorcycles",
     "tagline": "Authentic Heavy Thump Cruisers",
-    "primary_color": "#B28834",
-    "bg_color": "#151B20",
+    "primary_hex": "#B28834",
+    "accent_hex": "#0D1115",
     "svg": "creative/source/branding/royal_iron.svg",
     "png": "creative/source/branding/royal_iron.png",
-    "sha256": "7f41f2300254ed226cb1c8798c6d9a09de5e0b7f47d578d973e302e52748604f"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "ffd6c48d7210e78799ffaf21e0307a95a0d5855693344c76903ea5073757aaba"
   },
   {
     "id": "veero",
     "name": "Veero Roadsters",
     "sector": "Motorcycles",
     "tagline": "Everyday Urban Commuter Bikes",
-    "primary_color": "#DC3545",
-    "bg_color": "#151B20",
+    "primary_hex": "#DC3545",
+    "accent_hex": "#151B20",
     "svg": "creative/source/branding/veero.svg",
     "png": "creative/source/branding/veero.png",
-    "sha256": "c77927f9764f9abffe688c28e8bf384671028c470dd93dc201911e27cc515db1"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "ce1f1146e08da2dfc1cacc98d9e5ce1c15e1948cd257ac586f3ddf3cf21c8606"
   },
   {
     "id": "hondo",
     "name": "Hondo Scooters",
     "sector": "Motorcycles",
     "tagline": "Agile Fuel-Efficient City Scooters",
-    "primary_color": "#2680EB",
-    "bg_color": "#151B20",
+    "primary_hex": "#2680EB",
+    "accent_hex": "#151B20",
     "svg": "creative/source/branding/hondo.svg",
     "png": "creative/source/branding/hondo.png",
-    "sha256": "aa5adcf6501a18f8944752ff587f8d9ef4c9e3991bbb3ca18834ac0c53f07fb1"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "e37956cf3053fe444ca4cd38cea99991837233fb4b231e317c5d9e6b72688d7a"
   },
   {
     "id": "quoggle",
     "name": "Quoggle Systems",
     "sector": "Technology",
     "tagline": "Search, Cloud & Intelligent Navigation",
-    "primary_color": "#2680EB",
-    "bg_color": "#151B20",
+    "primary_hex": "#2680EB",
+    "accent_hex": "#FFFFFF",
     "svg": "creative/source/branding/quoggle.svg",
     "png": "creative/source/branding/quoggle.png",
-    "sha256": "9a794fdae23aaf92c99f659ea7c94fe0d5fcbf8f5ab5daec8aad982593fa6c70"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "a9a403903c617701765812fe1135d0bb07d0990a89eba4db1826b0e7902f7eb6"
   },
   {
     "id": "amazzo",
     "name": "Amazzo Prime Hub",
     "sector": "Logistics",
     "tagline": "Same-Day Commerce & Warehousing",
-    "primary_color": "#D6AD59",
-    "bg_color": "#151B20",
+    "primary_hex": "#D6AD59",
+    "accent_hex": "#151B20",
     "svg": "creative/source/branding/amazzo.svg",
     "png": "creative/source/branding/amazzo.png",
-    "sha256": "29c682254d534cd31ecbabab0a1d226e8f0ae7b25042f3de59a10e3657c55461"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "08243445e9f9b0fdc7a29e261cb7ed18b7963630f42ac99bcb226f7d8cef56d7"
   },
   {
     "id": "flippit",
     "name": "Flippit Express",
     "sector": "E-Commerce",
     "tagline": "Electronics & Flash Shopping",
-    "primary_color": "#2680EB",
-    "bg_color": "#151B20",
+    "primary_hex": "#2680EB",
+    "accent_hex": "#D6AD59",
     "svg": "creative/source/branding/flippit.svg",
     "png": "creative/source/branding/flippit.png",
-    "sha256": "9ec5f1a3dceb03bed0d8a8e04f87e92d88b06f4b69985cb2b85f7cc061ec0788"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "e84b6dca88297d8b3544f9de4a6684cae8a162c6d76799ce8e732ad7432ef088"
   },
   {
     "id": "arkpay",
     "name": "ARK Pay UPI",
     "sector": "Financial",
     "tagline": "Instant Contactless Municipal Banking",
-    "primary_color": "#236653",
-    "bg_color": "#151B20",
+    "primary_hex": "#236653",
+    "accent_hex": "#D6AD59",
     "svg": "creative/source/branding/arkpay.svg",
     "png": "creative/source/branding/arkpay.png",
-    "sha256": "5b72a122df821fe3806440713a1db5cc4b89422084c7eb05df3c20c5b6845970"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "889436d294907f49f47308e2ea0709ef6ad67e7bdf18c8458c82aa6e74552513"
   },
   {
     "id": "zomatoo",
     "name": "Zomatoo Food Express",
     "sector": "Delivery",
     "tagline": "24/7 Restaurant Courier Delivery",
-    "primary_color": "#DC3545",
-    "bg_color": "#151B20",
+    "primary_hex": "#DC3545",
+    "accent_hex": "#FFFFFF",
     "svg": "creative/source/branding/zomatoo.svg",
     "png": "creative/source/branding/zomatoo.png",
-    "sha256": "a2099d92c3d20a8cb2503833917e3da719ab40c90f8eb23ccdcbbafa1396bac5"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "64904ce4df3ae62418f9de7cdc96b3630a611dd13f5dafe7e4506eb5a64d6823"
   },
   {
     "id": "swiffy",
     "name": "Swiffy Instant Groceries",
     "sector": "Delivery",
     "tagline": "Hyper-Local 10-Minute Grocery Delivery",
-    "primary_color": "#AD5637",
-    "bg_color": "#151B20",
+    "primary_hex": "#AD5637",
+    "accent_hex": "#FFFFFF",
     "svg": "creative/source/branding/swiffy.svg",
     "png": "creative/source/branding/swiffy.png",
-    "sha256": "aacd561b8486b626899fb8b1487e5f2b6bfa4a70b04e08a955b1af782d40e434"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "ab89254dbf8df871b1187f6c3c93a316a59e37c87dc8da0764e889cad22b99f3"
   },
   {
     "id": "indra_fuel",
     "name": "Indraprastha Petroleum",
     "sector": "Energy",
     "tagline": "State Refineries & High-Octane Fuel",
-    "primary_color": "#2680EB",
-    "bg_color": "#151B20",
+    "primary_hex": "#2680EB",
+    "accent_hex": "#D6AD59",
     "svg": "creative/source/branding/indra_fuel.svg",
     "png": "creative/source/branding/indra_fuel.png",
-    "sha256": "11c7ae7e9b81de7c53bb89bd73833263a207c0c7ad30ee01035f173bbce3adfb"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "9e1e9c8342f60e2175ef148924112544badc91fe038fe789d802ecb9e44a7890"
   },
   {
     "id": "indra_bank",
     "name": "First National Bank of Indra",
     "sector": "Banking",
     "tagline": "Authoritative Vault Accounts & Escrow",
-    "primary_color": "#D6AD59",
-    "bg_color": "#151B20",
+    "primary_hex": "#D6AD59",
+    "accent_hex": "#0D1115",
     "svg": "creative/source/branding/indra_bank.svg",
     "png": "creative/source/branding/indra_bank.png",
-    "sha256": "ece1be2fea4efb8987d68a8101ec72b427f8712aacddb30948d2cb16f5810fa5"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "fbf059134111c8658dca7130bc87bf4c0141a22fc48245fce186e132dd4ead67"
   },
   {
     "id": "vayu_bharat",
     "name": "Vayu Bharat Airlines",
     "sector": "Aviation",
     "tagline": "Coastal & International Air Carrier",
-    "primary_color": "#2680EB",
-    "bg_color": "#151B20",
+    "primary_hex": "#2680EB",
+    "accent_hex": "#FFFFFF",
     "svg": "creative/source/branding/vayu_bharat.svg",
     "png": "creative/source/branding/vayu_bharat.png",
-    "sha256": "37720795da5b954a5d39cd4aa9d9c00e7db88afddb0ea0be1372bde7614bea73"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "395909a50e30cdb49ffabcf64979cf3196479d790d78ca318abd747d8066bb5b"
   },
   {
     "id": "skyindra",
     "name": "SkyIndra Ropeways",
     "sector": "Transit",
     "tagline": "Harbour Aerial Cableway Transit",
-    "primary_color": "#236653",
-    "bg_color": "#151B20",
+    "primary_hex": "#236653",
+    "accent_hex": "#D2B997",
     "svg": "creative/source/branding/skyindra.svg",
     "png": "creative/source/branding/skyindra.png",
-    "sha256": "fd6b539b9f9c2d04fe712c5a7cbf482cddebfcc368d6d7ba43516f9af67c93b9"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "4408658111b58af435329ec3e3882781ae798dde0706d1088df916290051df4a"
   },
   {
     "id": "cinevista",
     "name": "CineVista Studios",
     "sector": "Entertainment",
     "tagline": "Bollywood Cinema & Film Production",
-    "primary_color": "#D6AD59",
-    "bg_color": "#151B20",
+    "primary_hex": "#D6AD59",
+    "accent_hex": "#DC3545",
     "svg": "creative/source/branding/cinevista.svg",
     "png": "creative/source/branding/cinevista.png",
-    "sha256": "0eaae3e72881b2a14007a89c3d476811bfff7a0d706f692b5994686f48062cc6"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "130e3e1aa7d83c8c8034b09d96c9cbef08e46fd6f0db8e1ca37212829d57343f"
   },
   {
     "id": "d_bazaar",
     "name": "D-Bazaar Megastores",
     "sector": "Retail",
     "tagline": "Multi-Floor Wholesale Supermarkets",
-    "primary_color": "#236653",
-    "bg_color": "#151B20",
+    "primary_hex": "#236653",
+    "accent_hex": "#FFFFFF",
     "svg": "creative/source/branding/d_bazaar.svg",
     "png": "creative/source/branding/d_bazaar.png",
-    "sha256": "afc78704b4c9dc5d7d4486bd72632aa1ac20d316cdfb8846750d0ef1874e7fa8"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "9470f7840cb9d55d276887ec45d01322442dc1b4aa641a607a16f0caa4c6241e"
   },
   {
     "id": "amora",
     "name": "Amora Indian Weaves",
     "sector": "Fashion",
     "tagline": "Heritage Handloom & Modern Silk Wear",
-    "primary_color": "#AD5637",
-    "bg_color": "#151B20",
+    "primary_hex": "#AD5637",
+    "accent_hex": "#D6AD59",
     "svg": "creative/source/branding/amora.svg",
     "png": "creative/source/branding/amora.png",
-    "sha256": "370269ba8d29cd32ebddad8b2960704c5cf2257e4a665e52916645682f08b609"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "e30dc6f672a76cf08208f5a449ac25806915096bfc6fa1796af3000e108ced55"
   },
   {
     "id": "rang_bharat",
     "name": "Rang Bharat Textiles",
     "sector": "Fashion",
     "tagline": "Festival Costumes & Ceremonial Silks",
-    "primary_color": "#D6AD59",
-    "bg_color": "#151B20",
+    "primary_hex": "#D6AD59",
+    "accent_hex": "#236653",
     "svg": "creative/source/branding/rang_bharat.svg",
     "png": "creative/source/branding/rang_bharat.png",
-    "sha256": "4841ddd593a5e804634994bc4bea767aa14aafee210fccf1327d329a94322be2"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "5caae075a216275f15f12d2a339bf662f9a845e136f6a7da69eb5cbfe5ce3ca6"
   },
   {
     "id": "jyon",
     "name": "Jyon Urban Streetwear",
     "sector": "Fashion",
     "tagline": "Youth Streetwear & Athletic Apparel",
-    "primary_color": "#252F38",
-    "bg_color": "#151B20",
+    "primary_hex": "#252F38",
+    "accent_hex": "#E8C87E",
     "svg": "creative/source/branding/jyon.svg",
     "png": "creative/source/branding/jyon.png",
-    "sha256": "b9d1485dfdd098f05ff30881c9ec0362351b1e0309b4e0cdeb00f416791f0f6c"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "9f67e0ff3d3002717a5f7fd16656dbce51f38a714cb7295e2f92967bce7303da"
   },
   {
     "id": "airwave",
     "name": "AirWave 5G Cellular",
     "sector": "Telecom",
     "tagline": "High-Bandwidth City Telecom Network",
-    "primary_color": "#2680EB",
-    "bg_color": "#151B20",
+    "primary_hex": "#2680EB",
+    "accent_hex": "#FFFFFF",
     "svg": "creative/source/branding/airwave.svg",
     "png": "creative/source/branding/airwave.png",
-    "sha256": "fda7b2fe711012f011dd7c3a6503feb5bf8e49646854ab8abf2dbb0f038cd158"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "1a7355240a1ec62f023ff2560fd3a0a56246f6a85afbc1c4de80a6df04859c93"
   },
   {
     "id": "indra24",
     "name": "Indra 24 News",
     "sector": "Media",
     "tagline": "24-Hour Metropolitan Breaking News",
-    "primary_color": "#DC3545",
-    "bg_color": "#151B20",
+    "primary_hex": "#DC3545",
+    "accent_hex": "#FFFFFF",
     "svg": "creative/source/branding/indra24.svg",
     "png": "creative/source/branding/indra24.png",
-    "sha256": "80dadce6149d5bbed2ae47fa9ebbfbce647ed6c03b1df0951310f6627e745325"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "2dc4f92262c17797e2daff5dad162fdba67c75c5c41ae76cb6418323114b1d92"
   },
   {
     "id": "jan_awaaz",
     "name": "Jan Awaaz Times",
     "sector": "Media",
     "tagline": "Civic Journalism & Citizen Radio",
-    "primary_color": "#151B20",
-    "bg_color": "#151B20",
+    "primary_hex": "#151B20",
+    "accent_hex": "#D2B997",
     "svg": "creative/source/branding/jan_awaaz.svg",
     "png": "creative/source/branding/jan_awaaz.png",
-    "sha256": "c2d80ae65cd25c5fcf704be012508b6da45abb90b187573439b644887390d0a1"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "94568c1c16c3b1c11f8f4c275a58c2b8ccd4eb8adbef240a51e9ad9d4198cf4c"
   },
   {
     "id": "indra_metro",
     "name": "Indra Metro Rail",
     "sector": "Transit",
     "tagline": "Rapid Underground & Elevated Commuter",
-    "primary_color": "#2680EB",
-    "bg_color": "#151B20",
+    "primary_hex": "#2680EB",
+    "accent_hex": "#236653",
     "svg": "creative/source/branding/indra_metro.svg",
     "png": "creative/source/branding/indra_metro.png",
-    "sha256": "fb99388fe511509d25a7721f48d613cca774094b6adf7630f185f38c333d8d79"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "b96b9ad7748b3a9b68f71197a2d948e5be76fd11b9419240d5b30c241046f63e"
   },
   {
     "id": "indra_suburban",
     "name": "Indra Suburban Railway",
     "sector": "Transit",
     "tagline": "Lifeline Coastal Local Train Network",
-    "primary_color": "#AD5637",
-    "bg_color": "#151B20",
+    "primary_hex": "#AD5637",
+    "accent_hex": "#D6AD59",
     "svg": "creative/source/branding/indra_suburban.svg",
     "png": "creative/source/branding/indra_suburban.png",
-    "sha256": "daff8e0f109cb154cc88ecaef5cd78bc9ea7114ae5552eaa8263af25ace33159"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "4fb0ffd78c9c8a1060e1fb605de76416c29c73aa984263a222fd191bc67a187d"
   },
   {
     "id": "skylink",
     "name": "SkyLink Cable Car",
     "sector": "Transit",
     "tagline": "Suspended Harbour Gondola Network",
-    "primary_color": "#236653",
-    "bg_color": "#151B20",
+    "primary_hex": "#236653",
+    "accent_hex": "#FFFFFF",
     "svg": "creative/source/branding/skylink.svg",
     "png": "creative/source/branding/skylink.png",
-    "sha256": "1beec0baf358ab7b03d88304442c2c5fd36162758d017268f409224d13f37d1a"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "b3644e5fab7e8bf0dd3f9d17e1f8278c5e791ec46ab46caefbd065ec6d3af468"
   },
   {
     "id": "maya_residences",
     "name": "Maya Luxury Residences",
     "sector": "Real Estate",
     "tagline": "Prime Waterfront High-Rise Condos",
-    "primary_color": "#D2B997",
-    "bg_color": "#151B20",
+    "primary_hex": "#D2B997",
+    "accent_hex": "#151B20",
     "svg": "creative/source/branding/maya_residences.svg",
     "png": "creative/source/branding/maya_residences.png",
-    "sha256": "2928428c40fc104243ea0185326557ded8f093a29d4e8ad3a408930d58e99af7"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "140806bdc3cd839febee51384bee8d4b72bc1bced7a7cec640aa3d655b890152"
   },
   {
     "id": "sd_motors",
     "name": "SD Craft Motorsport",
     "sector": "Dealership",
     "tagline": "Exclusive Luxury Supercar Showroom",
-    "primary_color": "#D6AD59",
-    "bg_color": "#151B20",
+    "primary_hex": "#D6AD59",
+    "accent_hex": "#0D1115",
     "svg": "creative/source/branding/sd_motors.svg",
     "png": "creative/source/branding/sd_motors.png",
-    "sha256": "354468702c145cf190807db15608cb113d48687ec70bbea9f2b91fd1716e5d37"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "544091ec76cb2ceac86bb2e95a8cf419908019fa4e158e8613af29e36f052d44"
   },
   {
     "id": "black_lotus",
     "name": "Black Lotus Syndicate",
     "sector": "Underground",
     "tagline": "Shadow Port Cartel & Contraband",
-    "primary_color": "#0D1115",
-    "bg_color": "#151B20",
+    "primary_hex": "#0D1115",
+    "accent_hex": "#DC3545",
     "svg": "creative/source/branding/black_lotus.svg",
     "png": "creative/source/branding/black_lotus.png",
-    "sha256": "295585c4c0671bf1d5e54c278bb7f03b10b039aa3eb2d3af8d49fc7738eeb13d"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "e4711d34418b534bc4e88115d055a8abd92a53f9cb8afc0952825a05b930f455"
   },
   {
     "id": "gtm",
     "name": "Grand Theft Mumbai",
     "sector": "Master Brand",
     "tagline": "Metropolitan Roleplay Universe",
-    "primary_color": "#D6AD59",
-    "bg_color": "#151B20",
+    "primary_hex": "#D6AD59",
+    "accent_hex": "#236653",
     "svg": "creative/source/branding/gtm.svg",
     "png": "creative/source/branding/gtm.png",
-    "sha256": "f02dee3dc3e3c069437e141655f43ed3c9947e710999774fe407ebf849496f36"
+    "dimensions_px": [
+      256,
+      256
+    ],
+    "style": "faithful_32x_pixel_crest",
+    "sha256": "d7f5d429ba0c039371cfbcaa46a247d5734fbc946a1f75739fc69c7fedb8d561"
   }
 ]

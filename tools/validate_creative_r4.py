@@ -36,7 +36,7 @@ def create_grid(images, titles, cols=8, cell_w=128, cell_h=148, pad=10, bg="#151
         max_h = cell_h - 36
         ratio = min(max_w / img_w, max_h / img_h)
         new_size = (max(1, int(img_w * ratio)), max(1, int(img_h * ratio)))
-        resized = img.resize(new_size, Image.Resampling.NEAREST if img_w <= 64 else Image.Resampling.BILINEAR)
+        resized = img.resize(new_size, Image.Resampling.NEAREST)
 
         paste_x = x + (cell_w - new_size[0]) // 2
         paste_y = y + 8 + (max_h - new_size[1]) // 2
@@ -54,7 +54,7 @@ def validate_all():
 
     report = {
         "status": "PASS",
-        "quality_tier": "V2_ZBUFFER_32X32_VECTOR",
+        "quality_tier": "V3_FAITHFUL_32X_PIXEL_AND_MODELS",
         "domains_validated": {},
         "packs_validated": {},
         "contact_sheets": [str(p.relative_to(ROOT)).replace("\\", "/") for p in sorted(PREVIEWS_DIR.glob("*.png"))]

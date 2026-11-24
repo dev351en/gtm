@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0.0",
+  "schema_version": "3.0.0",
   "total_food_items": 30,
   "items": [
     {
@@ -14,9 +14,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 6,
-      "sha256_model": "27135104bd2852c5778a138806b9e5a9ff4423d52c9c9fd4cf4e0758287a3920",
-      "sha256_icon": "60580830916d78f1ba5e6e860917d9e9d2b1dbd8cd86c4c1dcb1968d11319303"
+      "sha256_model": "a21f6774766161590807ed4efcdd9a840fd4327330e8e85e62a8315bf0ed05ed",
+      "sha256_icon": "e03911ac259989a17844338069b1d7fa2ce126b66b266f18c5a5ecb1c6de1fea"
     },
     {
       "id": "gtm:food_vada_pav",
@@ -30,9 +31,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 8,
-      "sha256_model": "223aa9d1e92848bbc931439eb1bc053989f162508ad843a42363fad22ded9682",
-      "sha256_icon": "2226114aabc0af5d25f624f58b6db8973204b8060a32625e242db7d933fb536a"
+      "sha256_model": "5ff1bad390d50b3a8d1d46f389db828f0417a8797f8e3474e94da2221cf13878",
+      "sha256_icon": "bd031d793599c99da10db6b357379964b0654093409110d93d2216a1a87d244d"
     },
     {
       "id": "gtm:food_samosa",
@@ -46,9 +48,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 7,
-      "sha256_model": "c730a5bd1edb1aa22f023493ad3761c403859e3b102c226d081ad7de05fdd6fa",
-      "sha256_icon": "fcf42572caff40969f77c83800229a617f858f98136cfebc2c7d3c708d99c1aa"
+      "sha256_model": "e2f73ebd3b8aee522088d4144cc384af802d9c17d0b978b9a134957f8d93e75a",
+      "sha256_icon": "22375b7f25b2faa68ded8060c51c6494f31968e892579d9392a2ff55b23172ff"
     },
     {
       "id": "gtm:food_dabeli",
@@ -62,9 +65,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 10,
-      "sha256_model": "d578df7f958a73dd521786a5bd685d75a348ee0c9fd8c89d8b1471a92cfed259",
-      "sha256_icon": "27aa250cbb4a8b0ce3be1525de7136d2971ae83be28b7aef34927e22fcc399e8"
+      "sha256_model": "e9e747006ae615a40f80e8d1f3cf15371ac9800b1a528c0806805c65f4105b63",
+      "sha256_icon": "1547966aa97d94ff10dfa517f6a5094ef536321816cf4afd5506a56c6f2f3fce"
     },
     {
       "id": "gtm:food_pav_bhaji",
@@ -78,9 +82,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 10,
-      "sha256_model": "56bf21a212f4a3470afce2bd18b544b83743c670347ec46367967cde21fbd634",
-      "sha256_icon": "7767ccad3743364b1ca0b62adefa554d6942aa696be540d3c5e5e6736f20bb34"
+      "sha256_model": "ba180ffae7cc58b6003a038ede86990a2e6e7f021db58780df3a806f6ab01b10",
+      "sha256_icon": "38f88851b29f959f41d73b9386470f192e47a7a4feeb27702b4ea6aa0a497bbc"
     },
     {
       "id": "gtm:food_dosa",
@@ -94,9 +99,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 7,
-      "sha256_model": "b0851a68b94763733da969d2b60ee62485eb9c2db55942462fb4e788a2c5bbb2",
-      "sha256_icon": "214f80d502c47ba82bf6a60ce581c79ec9f57b8694c92ac56d3e33f9209e94b2"
+      "sha256_model": "54973f3566845ebfbbca929928e40165d19aa9ea137e3cd253fb01f9298e88ab",
+      "sha256_icon": "2d0cbd50fba5e78216b29770f1c771ced3186859f269e0ff0ca89505b25ed3c8"
     },
     {
       "id": "gtm:food_idli",
@@ -110,9 +116,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 8,
-      "sha256_model": "39873aee23cafafa6e96635dd4c04307ddd2da2b3ca75ebe74a0ce5072c8c622",
-      "sha256_icon": "6ab75d713fd4f8b34819cd71672c52d84a08c25b859c80ffa8a06d3342230fb3"
+      "sha256_model": "606239769bce9d48a4a054bc8c6f7133e1cb7bce7d67f05728a501bab90be699",
+      "sha256_icon": "b568a424e1a3e1a7ab1379e684e30fec2123ef2c06e07387ae60b94ed741f114"
     },
     {
       "id": "gtm:food_thali",
@@ -126,9 +133,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 8,
-      "sha256_model": "152d6c496616cb50c333399c03afc2f0522d140b10752c1c979aa0d071aa2eae",
-      "sha256_icon": "1b9a1c266db914928f4470f3147a0ab7b42337ff915fe4ec70d3601613b8a64b"
+      "sha256_model": "efa18cb15056ac52e72c63a37dd9e091c736bf04a3c0a367e2c60a99e1f4157b",
+      "sha256_icon": "d6a07543fa1ccf715639c328a484e3091326d52422728a7339d64f14b5b28fe3"
     },
     {
       "id": "gtm:food_biryani",
@@ -142,9 +150,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 8,
-      "sha256_model": "d604d99406aef802561ddd97bec4d5610b4ad03f35f7fde202500ae0172a87ca",
-      "sha256_icon": "a389fc70918468b67ff405c498f6649b585b53fd80aef0e39a27bb0c44072aaa"
+      "sha256_model": "0081ad370a33cd53be7693a2879df9671ca515700f65812f99a499c5de211f98",
+      "sha256_icon": "572d7df2fb8c124160972d815b77ce7e5e88b86a7bb62d6ffbf25b2b096e71b6"
     },
     {
       "id": "gtm:food_lassi",
@@ -158,9 +167,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 4,
-      "sha256_model": "5340ca44d4f8376173407da979dca99543e53bc0843178f8a88913997ae3af8b",
-      "sha256_icon": "f5873b4b60c8790ee2a5d0698bbaf0d5645f1bd60d2ef8c322c7e71f43ca9d3a"
+      "sha256_model": "88b284b698bed5304161bb7b8f7233e2d130293f7706041fb8255531ffcb6f46",
+      "sha256_icon": "7063707514e3e534258c9d84870b081ec3b36232890a0d472af1be4d2821c0d8"
     },
     {
       "id": "gtm:food_dhokla",
@@ -174,9 +184,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 7,
-      "sha256_model": "4aabaaad076fc30c7181e231abdd9e4061ae8db84ae7e0eb03913831321007c1",
-      "sha256_icon": "fa09eb78c2afc0db75994bb212db1b874b99923c99530fc9bb418dcf59e25fda"
+      "sha256_model": "20579ad0b01bc4e2597e2953a210cb97ccfbac9dea7c246725c2fdfec06a6e99",
+      "sha256_icon": "a6319da952b1bba97a44531c4bc8c5e621c4dbc70d4f473399f08503177a3208"
     },
     {
       "id": "gtm:food_khandvi",
@@ -190,9 +201,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 9,
-      "sha256_model": "82eb541fd6b1f48b2b81a27f68a22fec69930fdf8f8e14775bb058b2e24a659a",
-      "sha256_icon": "9547c9968227e98b18ff0a77fe88129dc6334eed5e4905550cb07ab4782c3b6c"
+      "sha256_model": "61db4e35198116734fbd489ba87cc8540cf3a3753c7739f24e7e72207b4b0f3f",
+      "sha256_icon": "354da0c5d48d54ae733e96bd83fbe68f0910baddd1553c65bf929469cf7b25d5"
     },
     {
       "id": "gtm:food_poha",
@@ -206,9 +218,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 7,
-      "sha256_model": "9ea31f2473031798b667c567c255946aa0e6d6e5fd5090753499bc3f3d197a21",
-      "sha256_icon": "829339dcb97ab9e3f2475f322ff42f65ae22c528c39e366df10913b195a9f45a"
+      "sha256_model": "3e66e73e28a9f73d82fa848a60a6b640e33ce3bb7a053866fb150af079be5497",
+      "sha256_icon": "69a209ae6362acd6d2a8b33ac25fca5ee46613ed868342529904f19c1cb68e88"
     },
     {
       "id": "gtm:food_misal",
@@ -222,9 +235,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 8,
-      "sha256_model": "8cd6bd0eff4fc7254137c093f87a048f6b6518391ecd3485b72b1c0651c04398",
-      "sha256_icon": "5ea79940a99adb7d74da4dece6d111a229e5016001c00ba9d9fa482f59574b69"
+      "sha256_model": "c6e647fd2c6196b931d71caf19784050920ce56209d76d8f9ad1ab49343d8c7c",
+      "sha256_icon": "32da08e7ce27cf6d43b6fb604418377d3f680f4c5ca476070aef121d2668673b"
     },
     {
       "id": "gtm:food_upma",
@@ -238,9 +252,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 7,
-      "sha256_model": "ed4024516ab8653eed33c2b1363744c1a748ba0d8139dc432fc1bba845b0fa67",
-      "sha256_icon": "a3ac2dad7b1035bbf59f583f6c4b63fcac620849c7027f1bac0704857b74c8f5"
+      "sha256_model": "7c1b12eb1b65744d5da9e12fac74879fd75ad73aeac7112af1553a5d612687b2",
+      "sha256_icon": "047d6416dd0dd2fe0b48b59c53b61b57394fb28712d1ef2d83e5038e882022a3"
     },
     {
       "id": "gtm:food_puran_poli",
@@ -254,9 +269,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 6,
-      "sha256_model": "2231bc7588d94df4e3ab1930e1830f4b948fe2225f2a00e9cc9679643870b5ce",
-      "sha256_icon": "ecdb5c43238fc423f57ebf354db9f1adb6ccd637e353b69483e4fc16cdc22dcb"
+      "sha256_model": "704df4d832d211f0ebcf056f0a6d60af7595ccf6124b8c0228a06eb10ebf76fc",
+      "sha256_icon": "8447d8b8cffef20a427b68c9e1e7db7e791d07728fdd1750a4a32597938802da"
     },
     {
       "id": "gtm:food_bhakri",
@@ -270,9 +286,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 7,
-      "sha256_model": "40e4105316f156a6a839d732b1999d04c8f2f0c6041b885a24724cd6381dac8c",
-      "sha256_icon": "ae79f0e46b174c735eedea03420a7565ba5f7a0afcdf6e31f896d47f31c59810"
+      "sha256_model": "be6c3497a57405f599a810d5b6af4ecf3ac610a159702ad72756cb4526921589",
+      "sha256_icon": "200e8ceed3ae9700359b85d9a6592e3267f96b5688d9ca49a66e3f167fc23643"
     },
     {
       "id": "gtm:food_thepla",
@@ -286,9 +303,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 8,
-      "sha256_model": "bed431862c0793384b8316c36ba78d089c9b2b9e6a8e1f7839a75d95ee020971",
-      "sha256_icon": "4fe66f88e9da44e8409acfff8cec077d16584eea610b6f268ce98b9ae2b83440"
+      "sha256_model": "cca16eb91657fe54046601128d0b0ab3faa3c893a1899c7a355a447f2c08525e",
+      "sha256_icon": "13e98319b317002297d2913c914112f3599b788287275a150a3d106f24f51cd7"
     },
     {
       "id": "gtm:food_modak",
@@ -302,9 +320,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 7,
-      "sha256_model": "b648f7b44ac389cd06d7f1f2695ab4699fea17da0bc9b18e2dd31e57cbf35fc3",
-      "sha256_icon": "d8748c577f8c3643f63b390b7fc40b4e87fa731cc64d9af31bafea0b9a4acc72"
+      "sha256_model": "065d11f6204c5943b5e6b8f753a01f2084c9cc8c012140c8781b387008299820",
+      "sha256_icon": "9abe6e5695baf50c5bc3a918424b0db94d59a5e1714bf8f868494d636fbe8958"
     },
     {
       "id": "gtm:food_jalebi",
@@ -318,9 +337,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 8,
-      "sha256_model": "85c60bcbf766ebbabd078c00526a1572249173019622feef53efc83acd9d3d43",
-      "sha256_icon": "628eb14383a8464e4f5f7a99608622c659f70ddc0b2d718d46364dbacab8abac"
+      "sha256_model": "02bd90fce71dcc7c20bfb3c270d68a9581c30b8896ed28935af10063b1a0ae8c",
+      "sha256_icon": "2166a07dba7a0fb35c44efe88fb56fdac3bf31a0e05cafb31ebfbba52732a35b"
     },
     {
       "id": "gtm:food_kulfi",
@@ -334,9 +354,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 4,
-      "sha256_model": "9e2df9df118000e110362b8a42e9b327b9584b9322338cadd8a844828aba306d",
-      "sha256_icon": "1a8a257c217f628769d5f14deda57e58257f6f4f5820ca0b9580d647cf392f64"
+      "sha256_model": "e2e8118e67a8dbb82dc0bb1339ff149a692e70133408121e5006dbbd6385047b",
+      "sha256_icon": "573e7eac4aa4df2522b78dccacaa1fbd1e469af1e7a91cb406ef13b248698760"
     },
     {
       "id": "gtm:food_falooda",
@@ -350,9 +371,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 6,
-      "sha256_model": "9e59d4e8578e05d037bdf542322c09b07da5cbd226109ae56b91b2dfb4ae09da",
-      "sha256_icon": "59491a67ed2f67df5f9f0011cf1285a37acf84fb2c0049e81ed791e89d1885a5"
+      "sha256_model": "df577de94ec934e8dd31a90d858bb39cbdcb0197ea07a6ac3bb30af52a994e91",
+      "sha256_icon": "fcf8437d67c352fcad769c2be457b7341fbec821f5d30a2afdeb2065bf0f1bed"
     },
     {
       "id": "gtm:food_nimbu_pani",
@@ -366,9 +388,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 5,
-      "sha256_model": "acf1d81c9595fc32e8a0393ea8e9ed92fe6df29fc5a1ea835c307776f28cb34c",
-      "sha256_icon": "3a95ad92f537b6b3f2d9473e11b109e0db7eb3a9e1f4535bc8610333cd0568af"
+      "sha256_model": "3150827704f4a4d9cb3e175b248ddb4028c2742c9936dbb20c9b4a7f8e35ec70",
+      "sha256_icon": "17cc76709895863164665859e7c7b998f3a6f9ec526175d3bfd7735657ebb9c5"
     },
     {
       "id": "gtm:food_filter_coffee",
@@ -382,9 +405,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 4,
-      "sha256_model": "dba7a352ff874478911e229273c4044f624e5122740c17f93f6aaef00937507b",
-      "sha256_icon": "15e1d4a2109ebbe97a0b868f6d8219d74f261e434367f80ac663577d1f8a0b92"
+      "sha256_model": "34f98a17a50c66c7b9dcecd441515ae4f726f73acd1f89eb8bd381676ee236fc",
+      "sha256_icon": "a18a7c723c9ee501a76ecf24850df43b6f16ac24b3ac6c5a6ad54f911d67081b"
     },
     {
       "id": "gtm:food_kathi_roll",
@@ -398,9 +422,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 7,
-      "sha256_model": "775da070261818c174e5860b5aee840e57a69f1479b864ec947cbaf930e71dc2",
-      "sha256_icon": "897d354a6108baf4ae2ae70cc830d4ec96282b3657cde8c8d1a9c474ddabcbb0"
+      "sha256_model": "dbce6b41fcf30c01a305388947277d4d18ee657585d946b544e96eee1100ca57",
+      "sha256_icon": "7720ecc25ff151e7b1605a1552dd0e31a832d38012e9eba99822dcc9fd0a4991"
     },
     {
       "id": "gtm:food_pani_puri",
@@ -414,9 +439,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 12,
-      "sha256_model": "c3544a694eb4bf59666198b76179bfbe39a67f3d0443205000657ed0c53090fb",
-      "sha256_icon": "3032c82b77aca70451d7bf9c05908165e29ea78e28abcdf0193272464bb7e958"
+      "sha256_model": "c6120382b0814811ce3124ff5f041b7bd6368c4376fbd8f55ea019763804f335",
+      "sha256_icon": "954ab56d709bfa401cbdb486fd0bb0196f13fbcae20dc2b798c8d75ec3301c62"
     },
     {
       "id": "gtm:food_sev_puri",
@@ -430,9 +456,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 9,
-      "sha256_model": "63ef6b8c4c231b46a0dec141c7cf3bfb7e0607a4eea9408c7354d4bb54014736",
-      "sha256_icon": "d4b200e4696deb6fa34a3380655d63aa11e9f39f94194398378512a35fc68a04"
+      "sha256_model": "d76094e66605fdb5f8e5b95ebe88e2e2c9af887e03f1d154796568f299334b3e",
+      "sha256_icon": "62400eef37bd5f7ef2b736f0ed80a56efff8f90d5f5cde4baec76c565c34367d"
     },
     {
       "id": "gtm:food_ragda",
@@ -446,9 +473,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 7,
-      "sha256_model": "7a133ba06ca5d213c11520f68a6d73e831385e86af9bcd77595f84c2b99b5cb9",
-      "sha256_icon": "11af2c246d8363a9466c0b0d6e4f0cec1cb9a2ff3a17f4b35112dd5cf9ed0e03"
+      "sha256_model": "de2d9e7d5fbd3d7a72f432cda2e6cad59ffaa2a0aa84112c1fbb9791cbddc3cf",
+      "sha256_icon": "23821de4a2b44c9464d5f03f7974cfe656965e77c78b7d255e82fb62e3a9fee4"
     },
     {
       "id": "gtm:food_sandesh",
@@ -462,9 +490,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 7,
-      "sha256_model": "75bd13832e01bf60a7ef88db44ae40aacf68e49c5f11e6300db4e53185d6df84",
-      "sha256_icon": "0d3d9b3765c3ac315e54a70ae0eb1a625e2a993e99762d93bccc57d058521c6b"
+      "sha256_model": "4d77ea354997259e177b5fd5fa6e623b15c8511d6fcefd4b4b44eb9a1e7e404b",
+      "sha256_icon": "c50bd782859043c7cba76ac9c8de3390f41a826da7d35ca0af43289e6cc740df"
     },
     {
       "id": "gtm:food_sheera",
@@ -478,9 +507,10 @@
         128,
         128
       ],
+      "native_grid": "32x32",
       "cube_count": 6,
-      "sha256_model": "80e77bf438b2e7516be20360f3beba35c3313979ba38e92384f0ff4661c25076",
-      "sha256_icon": "06d450ce04c879b83de351bc02167b51c25253401e3239156178424d52c45d02"
+      "sha256_model": "ec9a4aa0028c3061d2e3b1977449a64c2dac947361a7c5805709d3ff4a142b48",
+      "sha256_icon": "1246fe632d559331a705fda84eb5cf65cd600ea28abbafee82bf4e34920dd34c"
     }
   ]
 }
