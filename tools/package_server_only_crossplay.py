@@ -36,6 +36,7 @@ def package(payload: Path, output: Path) -> dict:
         "pack-repair-report.json", "install_runtime_repair.py",
         "Update-GTM.bat", "Update-GTM.sh", "README.md",
         "RELEASE_NOTES.md", "SERVER_ONLY_CROSSPLAY.md", "crossplay-model-audit.json",
+        "tools/check_geyser_setup.py",
     })
     forbidden = ("client/", ".minecraft/", "world/", "playerdata/", "secrets")
     entries: dict[str, Path] = {}
