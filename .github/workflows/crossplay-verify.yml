@@ -2,12 +2,13 @@ name: GTM no-client-mod crossplay candidate
 
 on:
   push:
-    branches: [fix/server-only-crossplay-20261126]
+    branches: [fix/server-only-crossplay-20261126, fix/crossplay-models-20261126]
   pull_request:
-    branches: [main]
+    branches: [main, fix/server-only-crossplay-20261126]
     paths:
       - 'hotfix/**'
       - 'tools/build_repair_release.py'
+      - 'tools/check_crossplay_models.py'
       - 'tools/install_runtime_repair.py'
       - 'tools/package_server_only_crossplay.py'
       - 'docs/SERVER_ONLY_CROSSPLAY_2026-11-26.md'
@@ -49,10 +50,11 @@ jobs:
           python -m unittest discover -s tools -p test_repaired_packs.py -v
           python -m unittest discover -s tools -p test_rickshaw_canopy.py -v
           python -m unittest discover -s tools -p test_install_runtime_repair.py -v
-      - name: Build server-only 1.0.6 without Fabric
+      - name: Build server-only 1.0.7 without Fabric
         run: |
           python tools/build_repaired_packs.py
           python tools/build_repair_release.py --server-only --overlay hotfix/build/libs/GTM-Repair-Classes-1.0.5-r4-spec-candidate-overlay.jar --vehicle-class hotfix/build/vehicle-patch/com/sdcraft/core/GtmVehicles.class --output build/crossplay-release
+          python tools/check_crossplay_models.py
           python tools/package_server_only_crossplay.py
       - name: Verify no client mods or world data in download
         run: |
@@ -60,7 +62,7 @@ jobs:
           import json
           from pathlib import Path
           import zipfile
-          p = Path("dist/crossplay/GTM_Server_Only_Crossplay_1.0.6.zip")
+          p = Path("dist/crossplay/GTM_Server_Only_Crossplay_1.0.7.zip")
           with zipfile.ZipFile(p) as z:
               names = z.namelist()
               assert all("/client/" not in n for n in names)
@@ -74,7 +76,7 @@ jobs:
       - name: Upload no-mod server candidate
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
-          name: GTM-server-only-crossplay-1.0.6-candidate
+          name: GTM-server-only-crossplay-1.0.7-candidate
           path: dist/crossplay/*
           compression-level: 0
           if-no-files-found: error
