@@ -21,10 +21,11 @@ final class CrossplayPhonePolicy {
      * The crossplay release never asks players to install client code.
      */
     static boolean useCustomFontTitle(
-            boolean crossplaySafe,
-            boolean customGuiEnabled,
-            boolean hasCompatibleGtmPack) {
-        return !crossplaySafe && customGuiEnabled && hasCompatibleGtmPack;
+            boolean customGuiEnabled, boolean hasCompatibleJavaPack) {
+        // This signal is produced only after a successful Java pack load;
+        // the calling service explicitly excludes Geyser/Floodgate players.
+        // A server resource pack is NOT a client-side mod.
+        return customGuiEnabled && hasCompatibleJavaPack;
     }
 
     /**
