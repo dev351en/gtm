@@ -20,6 +20,8 @@ class RepairedPackTests(unittest.TestCase):
         java, bedrock, mappings = dict(self.java), dict(self.bedrock), deepcopy(self.mappings)
         repair.add_screens(java)
         repair.add_aliases(java, bedrock, mappings)
+        repair.repair_atlases(java)
+        repair.repair_weapon_poses(java)
         return java, bedrock, mappings
 
     def test_old_pack_without_runtime_app_definitions_is_rejected(self):
@@ -61,9 +63,37 @@ class RepairedPackTests(unittest.TestCase):
     def test_skin_and_alias_overlay_preserves_all_original_art_bytes(self):
         java, bedrock, _ = self.patched()
         for name, data in self.java.items():
-            self.assertEqual(data, java[name], name)
+            if "/models/" in name and java[name] != data:
+                before, after = json.loads(data), json.loads(java[name])
+                for hand in ("firstperson_righthand", "firstperson_lefthand"):
+                    before.get("display", {}).pop(hand, None)
+                    after.get("display", {}).pop(hand, None)
+                self.assertEqual(before, after, name)
+            elif name != repair.ATLAS_BLOCKS:
+                self.assertEqual(data, java[name], name)
         for name, data in self.bedrock.items():
             self.assertEqual(data, bedrock[name], name)
+
+    def test_existing_png_without_atlas_registration_is_rejected(self):
+        java, _, _ = self.patched()
+        sources = json.loads(java[repair.ATLAS_ITEMS])
+        sources["sources"] = [row for row in sources["sources"] if row["source"] != "ui"]
+        java[repair.ATLAS_ITEMS] = repair.encoded(sources)
+        with self.assertRaisesRegex(ValueError, "absent from render atlases"):
+            repair.validate_java(java)
+
+    def test_legacy_blocks_atlas_cannot_duplicate_item_sprites(self):
+        java, _, _ = self.patched()
+        java[repair.ATLAS_BLOCKS] = self.java[repair.ATLAS_BLOCKS]
+        with self.assertRaisesRegex(ValueError, "both item and block atlases"):
+            repair.validate_java(java)
+
+    def test_native_and_finished_guns_have_matching_visible_hand_pose(self):
+        java, _, _ = self.patched()
+        for identifier in ("kavach_9", "kavach_9_gold_leaf", "sher_pump", "viper_sub", "indrayani_carbine"):
+            model = json.loads(java[f"assets/gtm/models/item/{identifier}.json"])
+            self.assertEqual([0, 6, 0], model["display"]["firstperson_righthand"]["translation"])
+            self.assertEqual([0, 6, 0], model["display"]["firstperson_lefthand"]["translation"])
 
     def test_skin_bounds_match_native_inventory_and_font_advance(self):
         java, _, _ = self.patched()

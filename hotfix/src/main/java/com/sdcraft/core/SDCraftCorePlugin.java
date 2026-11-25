@@ -1224,6 +1224,14 @@ TabCompleter {
 
     @EventHandler
     public void onJoin(PlayerJoinEvent e) {
+        // Paper sends server.properties packs in the configuration phase,
+        // before PlayerResourcePackStatusEvent can exist. Its final status is
+        // transferred to Player on join (Paper #12866); seed the UI state here.
+        // Subsequent play-phase events still check the configured pack UUID.
+        org.bukkit.packs.ResourcePack configured = getServer().getServerResourcePack();
+        if (configured != null && !configured.getUrl().isBlank() && e.getPlayer().hasResourcePack()) {
+            loadedPacks.add(e.getPlayer().getUniqueId());
+        }
         if (this.authentication != null) {
             this.authentication.begin(e.getPlayer());
         }
@@ -2121,11 +2129,7 @@ TabCompleter {
             return true;
         }
         if (action.equals("gun") && a.length < 2) {
-            if (sender instanceof Player) {
-                Player p = (Player)sender;
-                this.gta.handleStandaloneGun(p, new String[0]);
-            }
-            return true;
+            return onCommand(sender, Objects.requireNonNull(getCommand("gun")), "gun", new String[0]);
         }
         if (action.equals("gun") && !a[1].equalsIgnoreCase("give")) {
             if (sender instanceof Player) {
@@ -2284,18 +2288,7 @@ TabCompleter {
             return true;
         }
         if (action.equals("pack") || action.equals("resourcepack")) {
-            if (sender instanceof Player) {
-                Player p = (Player)sender;
-                p.sendMessage("\u00a7e================ \u00a76[ SD CRAFT 3D RESOURCE PACK ] \u00a7e================");
-                p.sendMessage("\u00a7fFor vehicles, guns, phone, cash and metro tickets:");
-                p.sendMessage("\u00a7aInstall \u00a7bresourcepacks/SDCraft_Unified_26.3_CityPack.zip \u00a7afrom the server files.");
-                p.sendMessage("\u00a77Drop the ZIP into your \u00a7f.minecraft/resourcepacks \u00a77folder and enable it.");
-                p.sendMessage("\u00a7e============================================================");
-                p.playSound(p.getLocation(), Sound.UI_BUTTON_CLICK, 0.8f, 1.2f);
-            } else {
-                this.msg(sender, "Resource pack: resourcepacks/SDCraft_Unified_26.3_CityPack.zip");
-            }
-            return true;
+            return onCommand(sender, Objects.requireNonNull(getCommand("pack")), "pack", new String[0]);
         }
         if (action.equals("npcs")) {
             this.msg(sender, "Named NPCs: " + String.join((CharSequence)", ", this.npcs.ids()));

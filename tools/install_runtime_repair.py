@@ -512,6 +512,20 @@ def apply(payload: Path, server: Path, bedrock: bool = False) -> dict:
     payload, server = root_path(payload), root_path(server)
     manifest, files = verify_payload(payload)
     with stopped_server(server):
+        parent = server / BACKUPS
+        if linked(parent) or (parent.exists() and not parent.is_dir()):
+            raise RepairError("Unsafe repair backup directory")
+        if parent.exists():
+            # A killed process can leave a durable prepared receipt. Do not layer
+            # another update over it and make the original rollback ambiguous.
+            for path in sorted(parent.glob("*/" + RECEIPT)):
+                local(server, path.relative_to(server).as_posix(), True)
+                if path.stat().st_size > 1024 * 1024:
+                    raise RepairError("Oversized backup receipt")
+                previous = json.loads(path.read_text(encoding="utf-8"))
+                if (isinstance(previous, dict) and previous.get("schema") == "GTM_REPAIR_RECEIPT_V1"
+                        and previous.get("status") == "prepared"):
+                    raise RepairError("Unfinished repair " + path.parent.name + "; run rollback with this backup ID before applying again")
         changes = plan(server, manifest, files, bedrock)
         if not changes:
             return {"status": "already_installed", "version": manifest["version"], "files_changed": 0}
@@ -519,9 +533,6 @@ def apply(payload: Path, server: Path, bedrock: bool = False) -> dict:
         required += sum(local(server, name).stat().st_size for name in changes if local(server, name).exists())
         if shutil.disk_usage(server).free < required + 16 * 1024 * 1024:
             raise RepairError("Insufficient disk space for staging and a complete repair backup")
-        parent = server / BACKUPS
-        if linked(parent) or (parent.exists() and not parent.is_dir()):
-            raise RepairError("Unsafe repair backup directory")
         parent.mkdir(exist_ok=True)
         identifier = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ") + "-" + uuid.uuid4().hex[:10]
         backup = parent / identifier

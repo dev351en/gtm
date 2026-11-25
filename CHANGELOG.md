@@ -5,6 +5,18 @@
 
 ---
 
+## 2026-11-25 — Runtime repair 1.0.4 and actual client verification
+
+Repairs are maintained on `fix/playable-ui-vehicles-20261125`, based on main `d0198937866d02732d235f8fe5706bff6e6a485f`. The preserved 1.0.3 input remains unchanged. See [the repair record](docs/RUNTIME_REPAIR_2026-11-25.md) for current acceptance status and evidence.
+
+- Reconnected the actual 24-app phone to its matching native128 pack, added a clickable dark/gold inventory skin and local JEEVA guide, and replaced the long overlapping on-foot actionbar with a compact sidebar. The live Java 26.3 test exposed missing atlas participation despite existing PNGs and a configuration-phase pack status missed by the old event-only code; both are corrected in this repair. The Java inventory skin does not claim arbitrary client HUD relocation or a native Bedrock custom screen.
+- Put the native gun catalogue first in `/gun`, preserved all 133 catalogue entries, added usable legacy item-model aliases, and made the native Kavach starter upgrade once-only with a player-data receipt. Actual registration delivered one Kavach and 32 matching rounds. Native first-person hand poses are raised to keep firearms in view; the updated pack is subject to the recorded client recheck.
+- Corrected ItemDisplay's built-in facing compensation at exactly two verified vehicle transform call sites. Replaced road acceleration/braking/steering integration with bounded, frame-rate-stable physics while retaining original vehicle IDs, seats, ownership and guided transport paths.
+- Added an actual loopback Control Centre with live server status, players, assets, bounded logs, a local guide and authenticated Paper console commands. The real staging server passed 23 HTTP checks, including `list` with matched START/RESULT audit entries. Tokens are private, commands execute on the main thread through a bounded queue, and lifecycle commands require confirmation.
+- Built the maintained source overlay with Java 25. All 52 JUnit repair tests passed, plus 826 original-catalogue compatibility assertions and 5 exact bytecode-patcher checks. Pack regressions now include atlas reachability rather than file-existence checks alone. Exact final test counts are recorded with the candidate.
+- Added an explicit-target updater with payload verification, stopped-server/session-lock checks, staged receipts, rollback and interrupted-update recovery. All 22 updater regressions passed. Installation into a separate full laptop-bundle copy passed the existing Java-only launcher preflight; rollback restored all 1,013 original files byte-for-byte.
+- Added reproducible candidate packaging and a dedicated verification workflow. Candidate release publication requires an explicit publication commit, passing checks and downloaded-asset hash verification; existing release tags/assets are not silently replaced. No production merge, live Daytona change, private-world upload or native Bedrock certification is implied.
+
 ## 2026-11-25 — Recovered functional binaries and existing-Daytona laptop connector
 
 This checkpoint preserves recovered `1.0.3-r4-functional-candidate` runtime artifacts and native128 artwork on the existing development branch. It does **not** recover or publish the missing source commit `628c01bcd7ed5d95b21c9ea049990346135a0604`, rebuild that commit, merge production, or deploy to the live Daytona sandbox. See [the recovery record](docs/FUNCTIONAL_BUILD_RECOVERY.md).

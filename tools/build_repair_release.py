@@ -116,6 +116,12 @@ def build(overlay: Path, vehicle: Path, packs: Path, output: Path, pack_url: str
                          (ROOT / "packaging/repair/Update-GTM.sh", "Update-GTM.sh"),
                          (ROOT / "packaging/repair/Open-Control-Centre.bat", "Open-Control-Centre.bat")]:
         if source.is_file(): shutil.copyfile(source, output / name)
+    guide = ROOT / "packaging/repair/README.md"
+    if guide.is_file(): shutil.copyfile(guide, output / "README.md")
+    notes = ROOT / "packaging/repair/RELEASE_NOTES.md"
+    if notes.is_file(): shutil.copyfile(notes, output / "RELEASE_NOTES.md")
+    record = ROOT / "docs/RUNTIME_REPAIR_2026-11-25.md"
+    if record.is_file(): shutil.copyfile(record, output / "RUNTIME_REPAIR_2026-11-25.md")
     return manifest
 
 
@@ -125,6 +131,6 @@ if __name__ == "__main__":
     p.add_argument("--vehicle-class", type=Path, required=True)
     p.add_argument("--packs", type=Path, default=ROOT / "build/repaired-packs")
     p.add_argument("--output", type=Path, default=ROOT / "build/repaired-release")
-    p.add_argument("--pack-url", default="https://raw.githubusercontent.com/dev351en/gtm/fix/playable-ui-vehicles-20261125/resource-pack/EXPECT_SDCRAFT_ResourcePack_26.3.zip")
+    p.add_argument("--pack-url", default="https://github.com/dev351en/gtm/releases/download/gtm-repair-1.0.4-20261125/GTM_Repair_128_Java.zip")
     args = p.parse_args()
     print(json.dumps(build(args.overlay, args.vehicle_class, args.packs, args.output, args.pack_url), indent=2))

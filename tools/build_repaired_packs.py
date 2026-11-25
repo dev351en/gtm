@@ -33,6 +33,9 @@ ALIASES = {
 }
 SCREENS = {"home": (6, "\uf100"), "menu3": (3, "\uf101"),
            "menu4": (4, "\uf102"), "menu6": (6, "\uf103")}
+ATLAS_BLOCKS = "assets/minecraft/atlases/blocks.json"
+ATLAS_ITEMS = "assets/minecraft/atlases/items.json"
+ITEM_DIRECTORIES = ("items", "custom", "ui", "finish", "outfits")
 
 
 def preserved_bytes(path: str) -> bytes:
@@ -144,6 +147,76 @@ def add_aliases(java: dict[str, bytes], bedrock: dict[str, bytes], mappings: dic
         mappings["items"].setdefault(base, []).append(row)
 
 
+def repair_atlases(java: dict[str, bytes]):
+    # 26.3 stitches item/ and block/ into separate vanilla atlases. A PNG's
+    # existence does not make arbitrary ui/, finish/ or outfits/ paths visible.
+    # The inherited blocks override also copied item sprites into both atlases.
+    # Atlas source lists merge with vanilla: leave its block list alone and add
+    # only the extra item directories, without copying vanilla item/ again.
+    java[ATLAS_BLOCKS] = encoded({"sources": []})
+    java[ATLAS_ITEMS] = encoded({"sources": [
+        {"type": "minecraft:directory", "source": path, "prefix": path + "/"}
+        for path in ITEM_DIRECTORIES
+    ]})
+
+
+def atlas_sprites(java: dict[str, bytes], atlas: str) -> set[str]:
+    """Evaluate the relevant 26.3 directory/single atlas providers.
+
+    Vanilla item/ and block/ sources are supplied by the client. Custom PNGs
+    outside those paths require an explicit provider in the effective atlas.
+    """
+    base = "item" if atlas == "items" else "block"
+    sources = [{"type": "directory", "source": base, "prefix": base + "/"}]
+    data = java.get(f"assets/minecraft/atlases/{atlas}.json")
+    if data:
+        sources += json.loads(data)["sources"]
+    sprites = set()
+    for source in sources:
+        kind = source["type"].removeprefix("minecraft:")
+        if kind == "directory":
+            prefix = "/textures/" + source["source"].rstrip("/") + "/"
+            for name in java:
+                if name.startswith("assets/") and prefix in name and name.endswith(".png"):
+                    namespace = name.split("/", 2)[1]
+                    tail = name.split(prefix, 1)[1].removesuffix(".png")
+                    sprites.add(namespace + ":" + source.get("prefix", "") + tail)
+        elif kind == "single":
+            resource = source["resource"]
+            if java_path(resource, "textures", ".png") in java:
+                sprite = source.get("sprite", resource)
+                sprites.add(sprite if ":" in sprite else "minecraft:" + sprite)
+        else:
+            raise ValueError("Unsupported custom item/block atlas provider: " + kind)
+    return sprites
+
+
+def repair_weapon_poses(java: dict[str, bytes], core: Path = CORE) -> list[str]:
+    # The original models put their meshes near y=0..8, yet inherited the block
+    # hand pose with no vertical translation. The real client showed only a tiny
+    # piece below the screen. Preserve geometry, texture and GUI views; change
+    # only first-person placement for functional guns and their own finishes.
+    with ZipFile(core) as jar:
+        rows = [row.split("\t") for row in jar.read("equipment/catalog.tsv").decode().splitlines()
+                if row and not row.startswith("#")]
+        native = {row[0] for row in rows if row[2] in {"RANGED", "SCATTER", "PRECISION", "PULSE"}}
+        finished = {row.split("\t")[0] for row in jar.read("equipment/finishes.tsv").decode().splitlines()
+                    if row and not row.startswith("#") and row.split("\t")[1] in native}
+    changed = []
+    for identifier in sorted(native | finished):
+        definition = json.loads(java[java_path(identifier, "items", ".json")])
+        for reference in model_nodes(definition):
+            path = java_path(reference, "models", ".json")
+            data = json.loads(java[path])
+            display = data.setdefault("display", {})
+            for hand, yaw in (("righthand", 45), ("lefthand", -45)):
+                display["firstperson_" + hand] = {"rotation": [0, yaw, 0],
+                                                "translation": [0, 6, 0], "scale": [.65, .65, .65]}
+            java[path] = encoded(data)
+            changed.append(path)
+    return sorted(set(changed))
+
+
 def model_nodes(node):
     if isinstance(node, dict):
         if node.get("type", "").removeprefix("minecraft:") == "model" and isinstance(node.get("model"), str):
@@ -174,6 +247,10 @@ def validate_java(java: dict[str, bytes], core: Path = CORE, require_skin: bool 
                 raise ValueError("Missing usable core weapon alias: " + alias)
         if "assets/gtm/font/phone_screen.json" not in java:
             raise ValueError("Missing phone screen font")
+    item_sprites, block_sprites = atlas_sprites(java, "items"), atlas_sprites(java, "blocks")
+    duplicates = item_sprites & block_sprites
+    if duplicates:
+        raise ValueError("Sprites copied into both item and block atlases: " + sorted(duplicates)[0])
     refs, textures, font_files, custom_items = set(), set(), set(), 0
     for path, content in java.items():
         if path.startswith("assets/") and "/items/" in path and path.endswith(".json"):
@@ -202,6 +279,9 @@ def validate_java(java: dict[str, bytes], core: Path = CORE, require_skin: bool 
             file = java_path(resolved, "textures", ".png")
             if file not in java and not file.startswith("assets/minecraft/"):
                 raise ValueError("Missing model texture: " + resolved)
+            canonical = resolved if ":" in resolved else "minecraft:" + resolved
+            if not canonical.startswith("minecraft:") and canonical not in item_sprites | block_sprites:
+                raise ValueError("Model texture exists but is absent from render atlases: " + canonical)
             textures.add(resolved)
     for name, (rows, _) in SCREENS.items():
         path = f"assets/gtm/textures/gui/phone_{name}.png"
@@ -212,6 +292,8 @@ def validate_java(java: dict[str, bytes], core: Path = CORE, require_skin: bool 
     return {"runtime_ui_items": len(required), "phone_apps": sum(r["family"] == "phone" for r in required),
             "custom_item_definitions": custom_items, "resolved_item_model_roots": len(refs),
             "model_texture_references": len(textures), "font_bitmaps": len(font_files),
+            "custom_atlas_sprites": sum(not value.startswith("minecraft:") for value in item_sprites | block_sprites),
+            "duplicate_item_block_sprites": len(duplicates),
             "phone_skins": len(SCREENS) if require_skin else 0, "native_client_render_test": "not_performed"}
 
 
@@ -257,6 +339,8 @@ def build(output: Path) -> dict:
     mappings = json.loads(mapping_data)
     add_screens(java)
     add_aliases(java, bedrock, mappings)
+    repair_atlases(java)
+    pose_models = repair_weapon_poses(java)
     metadata = json.loads(java["pack.mcmeta"])
     metadata["pack"]["description"] = "GTM Indraprastha · 1.0.4 · Phone UI, native128 models and compatibility"
     java["pack.mcmeta"] = encoded(metadata)
@@ -273,6 +357,7 @@ def build(output: Path) -> dict:
     report = {"version": "1.0.4-r4-repair", "input_java_sha256": hashlib.sha256(java_input).hexdigest(),
               "input_bedrock_sha256": hashlib.sha256(bed_input).hexdigest(),
               "checks": validate_java(java), "bedrock_checks": validate_bedrock(bedrock, mappings),
+              "first_person_pose_models": len(pose_models),
               "preserved_original_payload": True, "deployment": "not_performed"}
     report["packs"] = [archive(output / "GTM_Repair_128_Java.zip", java),
                        archive(output / "GTM_Repair_128_Bedrock.mcpack", bedrock)]

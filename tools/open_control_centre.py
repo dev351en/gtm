@@ -50,8 +50,9 @@ def open_local(root: Path, port: int, check: bool) -> None:
     status = verify(token, port)
     print("Connected to GTM Control Centre " + status["version"] + ".")
     if not check:
-        webbrowser.open(f"http://127.0.0.1:{port}/#token={token}", new=2)
-        print("The private dashboard has opened in your browser.")
+        if not webbrowser.open(f"http://127.0.0.1:{port}/#token={token}", new=2):
+            raise RuntimeError("The dashboard is running, but the default browser could not be launched. Configure your default browser and run this opener again.")
+        print("Requested the private dashboard in your default browser.")
 
 
 def open_daytona(root: Path, remote_root: str, port: int, check: bool) -> None:
@@ -94,7 +95,9 @@ def open_daytona(root: Path, remote_root: str, port: int, check: bool) -> None:
                     time.sleep(.3)
         print("Verified the existing Daytona Control Centre through localhost.")
         if not check:
-            webbrowser.open(f"http://127.0.0.1:{port}/#token={token}", new=2)
+            if not webbrowser.open(f"http://127.0.0.1:{port}/#token={token}", new=2):
+                raise RuntimeError("The console tunnel worked, but the default browser could not be launched. Configure your default browser and run this opener again.")
+            print("Requested the private dashboard in your default browser.")
             if process is not None:
                 print("Keep this window open for the dashboard. Ctrl+C closes only this console tunnel.")
                 while process.poll() is None: time.sleep(.5)

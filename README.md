@@ -1,5 +1,13 @@
 # GTM / EXPECT SDCRAFT
 
+## Runtime repair 1.0.4 — phone, guns, driving and Control Centre
+
+The `fix/playable-ui-vehicles-20261125` branch contains the maintained repair overlay, matching pack builder, rollback-capable updater and a real local web console. See [the repair and verification record](docs/RUNTIME_REPAIR_2026-11-25.md) and [installation instructions](packaging/repair/README.md). The [repair workflow](.github/workflows/repair-verify.yml) builds an installable candidate ZIP and records its checks. Production deployment and the remaining native-client acceptance gates are tracked explicitly in that record.
+
+Use the **matching core and resource pack from the repair updater together**. The historical `resource-pack/EXPECT_SDCRAFT_ResourcePack_26.3.zip` download below does not contain the functional 1.0.3 phone's complete app bindings and is not the repaired pack. A repository Code ZIP is still not a complete playable server installation.
+
+The 1.0.4 build uses `hotfix/`, the preserved 1.0.3 core, and a hash-checked two-call-site vehicle patch. It does not mislabel the older `source/` tree as the missing original 1.0.3 source. Existing world, player, ownership and authentication data are preserved by the updater.
+
 ## Current checkpoint — 25 November 2026
 
 This branch preserves the **SDCraftCore `1.0.3-r4-functional-candidate` compiled runtime**, native **128×128** asset packs, and its verification records. It also adds a laptop connector for the **existing Daytona server**. The corresponding latest core/launcher source was not recovered; the existing `source/` tree is retained as its earlier published checkpoint. Building that tree does **not** reproduce the recovered `1.0.3` binary.
