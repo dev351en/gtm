@@ -1,0 +1,55 @@
+name: Java-only GTM Rickshaw Pilot
+on:
+  push:
+    branches:
+      - feat/java-rickshaw-vehicle-pilot-20261126
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compile-vehicle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@b6effb05e454b25005698d916606bdc6ffcbf961
+        with:
+          distribution: temurin
+          java-version: '25'
+      - uses: gradle/actions/setup-gradle@ed408507eac070d1f99cc633dbcf757c94c7933a
+        with:
+          gradle-version: '9.2.1'
+      - name: Verify and expand isolated vehicle source
+        run: |
+          echo "204324d4b185a5d5aa4fdbf84e8f0f85f8bfbd395185455763facf97d5721ad5  vehicle-pilot/ci-source.tar.xz" | sha256sum -c -
+          mkdir -p vehicle-pilot/build-source
+          tar -xJf vehicle-pilot/ci-source.tar.xz -C vehicle-pilot/build-source
+          test -f vehicle-pilot/build-source/src/main/resources/plugin.yml
+          test -f vehicle-pilot/build-source/src/main/java/com/sdcraft/gtm/rickshaw/GtmRickshawPlugin.java
+      - name: Compile and execute Rickshaw motion tests
+        working-directory: vehicle-pilot/build-source
+        run: gradle --no-daemon clean check jar --stacktrace
+      - name: Check plugin JAR identity and content
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import zipfile
+          path=next(Path('vehicle-pilot/build-source/build/libs').glob('*.jar'))
+          with zipfile.ZipFile(path) as z:
+              assert z.testzip() is None
+              assert 'plugin.yml' in z.namelist()
+              assert 'com/sdcraft/gtm/rickshaw/GtmRickshawPlugin.class' in z.namelist()
+              assert 'com/sdcraft/gtm/rickshaw/RickshawPhysics.class' in z.namelist()
+          print('COMPILED PAPER 26.3 JAR:', path)
+          PY
+      - name: Upload server plugin and unit test report
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: GTM-Rickshaw-Java-26.3-Paper-Pilot
+          path: |
+            vehicle-pilot/build-source/build/libs/*.jar
+            vehicle-pilot/build-source/build/reports/tests/test/**
+          if-no-files-found: error
+          retention-days: 30
