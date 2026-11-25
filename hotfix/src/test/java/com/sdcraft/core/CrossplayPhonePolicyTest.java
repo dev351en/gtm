@@ -5,16 +5,17 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CrossplayPhonePolicyTest {
-    @Test void safeDefaultRejectsCustomFontEvenWithOldSettings() {
-        assertFalse(CrossplayPhonePolicy.useCustomFontTitle(true, true, true));
-        assertFalse(CrossplayPhonePolicy.useCustomFontTitle(true, true, false));
-        assertFalse(CrossplayPhonePolicy.useCustomFontTitle(true, false, true));
+    @Test void javaPackMakesCustomFontAvailableWithoutFabric() {
+        assertTrue(CrossplayPhonePolicy.useCustomFontTitle(true, true));
+        assertFalse(CrossplayPhonePolicy.useCustomFontTitle(true, false));
+        assertFalse(CrossplayPhonePolicy.useCustomFontTitle(false, true));
+        assertFalse(CrossplayPhonePolicy.useCustomFontTitle(false, false));
     }
 
-    @Test void legacyFontRequiresDeliberateOptOutAndLoadedPack() {
-        assertTrue(CrossplayPhonePolicy.useCustomFontTitle(false, true, true));
-        assertFalse(CrossplayPhonePolicy.useCustomFontTitle(false, false, true));
-        assertFalse(CrossplayPhonePolicy.useCustomFontTitle(false, true, false));
+    @Test void modelIdsRemainBoundToPaperForGeyserMappings() {
+        // Server-only icon rendering uses PAPER + namespaced item_model.
+        // Geyser definition mappings use the same pair on Bedrock.
+        assertEquals("PAPER", CrossplayPhonePolicy.iconMaterialName("unused"));
     }
 
     @Test void allPhoneAppsHaveVanillaIconsAndUnknownValuesAreHarmless() {
