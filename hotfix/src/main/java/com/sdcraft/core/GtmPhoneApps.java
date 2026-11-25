@@ -217,7 +217,6 @@ AutoCloseable {
     private Menu menu(Player p, String title, int size) {
         return new Menu(p, this.plugin.authenticatedSession(p), title, size,
                 CrossplayPhonePolicy.useCustomFontTitle(
-                        this.plugin.getConfig().getBoolean("phone.crossplay-safe", true),
                         this.plugin.getConfig().getBoolean("phone.custom-gui", true),
                         this.services.glyphsAvailable(p)));
     }
