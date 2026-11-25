@@ -1,0 +1,914 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "Existing non-operator account logs in after actual packaged-launcher startup",
+      "result": "PASS",
+      "detail": "Normal /login through the unchanged released launcher; no registration or injected Paper main class"
+    },
+    {
+      "name": "Launcher serves the hash-verified Java resource pack",
+      "result": "PASS",
+      "detail": {
+        "time": "2026-11-25T01:34:56.584Z",
+        "type": "pack_download_verified",
+        "bytes": 16688363,
+        "sha1": "81dd7cf87a833252d4b7e35f4f267c5491e517df"
+      }
+    },
+    {
+      "name": "Normal account command retains the exact paid bank balance",
+      "result": "PASS",
+      "detail": {
+        "expected_bank_cents": 50428
+      }
+    },
+    {
+      "name": "Paid storage furniture and wheelchair survive restart",
+      "result": "PASS",
+      "detail": [
+        {
+          "slot": 0,
+          "name": "paper",
+          "count": 1,
+          "customName": {
+            "type": "compound",
+            "value": {
+              "extra": {
+                "type": "list",
+                "value": {
+                  "type": "compound",
+                  "value": [
+                    {
+                      "italic": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "underlined": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "bold": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "color": {
+                        "type": "string",
+                        "value": "white"
+                      },
+                      "obfuscated": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "strikethrough": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "text": {
+                        "type": "string",
+                        "value": "Brushed Brass Floor Magazine Stand"
+                      }
+                    }
+                  ]
+                }
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            }
+          }
+        },
+        {
+          "slot": 1,
+          "name": "paper",
+          "count": 1,
+          "customName": {
+            "type": "compound",
+            "value": {
+              "extra": {
+                "type": "list",
+                "value": {
+                  "type": "compound",
+                  "value": [
+                    {
+                      "italic": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "underlined": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "bold": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "color": {
+                        "type": "string",
+                        "value": "white"
+                      },
+                      "obfuscated": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "strikethrough": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "text": {
+                        "type": "string",
+                        "value": "Foldable Chrome Hospital Wheelchair"
+                      }
+                    }
+                  ]
+                }
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            }
+          }
+        },
+        {
+          "slot": 48,
+          "name": "emerald",
+          "count": 1,
+          "customName": {
+            "type": "compound",
+            "value": {
+              "extra": {
+                "type": "list",
+                "value": {
+                  "type": "compound",
+                  "value": [
+                    {
+                      "italic": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "underlined": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "bold": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "color": {
+                        "type": "string",
+                        "value": "green"
+                      },
+                      "obfuscated": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "strikethrough": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "text": {
+                        "type": "string",
+                        "value": "Furniture shop"
+                      }
+                    }
+                  ]
+                }
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            }
+          }
+        },
+        {
+          "slot": 49,
+          "name": "sunflower",
+          "count": 1,
+          "customName": {
+            "type": "compound",
+            "value": {
+              "extra": {
+                "type": "list",
+                "value": {
+                  "type": "compound",
+                  "value": [
+                    {
+                      "italic": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "underlined": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "bold": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "color": {
+                        "type": "string",
+                        "value": "yellow"
+                      },
+                      "obfuscated": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "strikethrough": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "text": {
+                        "type": "string",
+                        "value": "Refresh collection"
+                      }
+                    }
+                  ]
+                }
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            }
+          }
+        },
+        {
+          "slot": 50,
+          "name": "barrier",
+          "count": 1,
+          "customName": {
+            "type": "compound",
+            "value": {
+              "extra": {
+                "type": "list",
+                "value": {
+                  "type": "compound",
+                  "value": [
+                    {
+                      "italic": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "underlined": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "bold": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "color": {
+                        "type": "string",
+                        "value": "red"
+                      },
+                      "obfuscated": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "strikethrough": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "text": {
+                        "type": "string",
+                        "value": "Close"
+                      }
+                    }
+                  ]
+                }
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Owned sign survives restart",
+      "result": "PASS",
+      "detail": [
+        {
+          "slot": 0,
+          "name": "paper",
+          "count": 1,
+          "customName": {
+            "type": "compound",
+            "value": {
+              "extra": {
+                "type": "list",
+                "value": {
+                  "type": "compound",
+                  "value": [
+                    {
+                      "italic": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "underlined": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "bold": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "color": {
+                        "type": "string",
+                        "value": "white"
+                      },
+                      "obfuscated": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "strikethrough": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "text": {
+                        "type": "string",
+                        "value": "Marine Drive Station"
+                      }
+                    }
+                  ]
+                }
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            }
+          }
+        },
+        {
+          "slot": 48,
+          "name": "painting",
+          "count": 1,
+          "customName": {
+            "type": "compound",
+            "value": {
+              "extra": {
+                "type": "list",
+                "value": {
+                  "type": "compound",
+                  "value": [
+                    {
+                      "italic": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "underlined": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "bold": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "color": {
+                        "type": "string",
+                        "value": "green"
+                      },
+                      "obfuscated": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "strikethrough": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "text": {
+                        "type": "string",
+                        "value": "Choose a design"
+                      }
+                    }
+                  ]
+                }
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            }
+          }
+        },
+        {
+          "slot": 49,
+          "name": "barrier",
+          "count": 1,
+          "customName": {
+            "type": "compound",
+            "value": {
+              "extra": {
+                "type": "list",
+                "value": {
+                  "type": "compound",
+                  "value": [
+                    {
+                      "italic": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "underlined": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "bold": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "color": {
+                        "type": "string",
+                        "value": "red"
+                      },
+                      "obfuscated": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "strikethrough": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "text": {
+                        "type": "string",
+                        "value": "Close"
+                      }
+                    }
+                  ]
+                }
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Starter auto survives restart",
+      "result": "PASS",
+      "detail": [
+        {
+          "slot": 0,
+          "name": "paper",
+          "count": 1,
+          "customName": {
+            "type": "compound",
+            "value": {
+              "extra": {
+                "type": "list",
+                "value": {
+                  "type": "string",
+                  "value": [
+                    "Executive VIP Luxury Corporate Helicopter"
+                  ]
+                }
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            }
+          }
+        },
+        {
+          "slot": 1,
+          "name": "paper",
+          "count": 1,
+          "customName": {
+            "type": "compound",
+            "value": {
+              "extra": {
+                "type": "list",
+                "value": {
+                  "type": "string",
+                  "value": [
+                    "Indra Auto CNG Passenger"
+                  ]
+                }
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            }
+          }
+        },
+        {
+          "slot": 2,
+          "name": "paper",
+          "count": 1,
+          "customName": {
+            "type": "compound",
+            "value": {
+              "extra": {
+                "type": "list",
+                "value": {
+                  "type": "string",
+                  "value": [
+                    "Mumbai Suburban Trailer Coach"
+                  ]
+                }
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            }
+          }
+        },
+        {
+          "slot": 3,
+          "name": "paper",
+          "count": 1,
+          "customName": {
+            "type": "compound",
+            "value": {
+              "extra": {
+                "type": "list",
+                "value": {
+                  "type": "string",
+                  "value": [
+                    "Indra Gateway Double-Deck Passenger Ferry"
+                  ]
+                }
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            }
+          }
+        },
+        {
+          "slot": 4,
+          "name": "paper",
+          "count": 1,
+          "customName": {
+            "type": "compound",
+            "value": {
+              "extra": {
+                "type": "list",
+                "value": {
+                  "type": "string",
+                  "value": [
+                    "Mumbai Suburban Motor Coach"
+                  ]
+                }
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            }
+          }
+        },
+        {
+          "slot": 5,
+          "name": "paper",
+          "count": 1,
+          "customName": {
+            "type": "compound",
+            "value": {
+              "extra": {
+                "type": "list",
+                "value": {
+                  "type": "string",
+                  "value": [
+                    "Hondo Activa 6G Commuter"
+                  ]
+                }
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            }
+          }
+        },
+        {
+          "slot": 6,
+          "name": "paper",
+          "count": 1,
+          "customName": {
+            "type": "compound",
+            "value": {
+              "extra": {
+                "type": "list",
+                "value": {
+                  "type": "string",
+                  "value": [
+                    "Mumbai Suburban Driving Motor Coach (Cab)"
+                  ]
+                }
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            }
+          }
+        },
+        {
+          "slot": 7,
+          "name": "paper",
+          "count": 1,
+          "customName": {
+            "type": "compound",
+            "value": {
+              "extra": {
+                "type": "list",
+                "value": {
+                  "type": "string",
+                  "value": [
+                    "SkyLink Terminal Drive Bullwheel & Bullgear"
+                  ]
+                }
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            }
+          }
+        },
+        {
+          "slot": 8,
+          "name": "paper",
+          "count": 1,
+          "customName": {
+            "type": "compound",
+            "value": {
+              "extra": {
+                "type": "list",
+                "value": {
+                  "type": "string",
+                  "value": [
+                    "SkyLink Terminal Drive Bullwheel & Bullgear"
+                  ]
+                }
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            }
+          }
+        },
+        {
+          "slot": 9,
+          "name": "paper",
+          "count": 1,
+          "customName": {
+            "type": "compound",
+            "value": {
+              "extra": {
+                "type": "list",
+                "value": {
+                  "type": "string",
+                  "value": [
+                    "Indra Mayuri E-Rickshaw"
+                  ]
+                }
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            }
+          }
+        },
+        {
+          "slot": 10,
+          "name": "paper",
+          "count": 1,
+          "customName": {
+            "type": "compound",
+            "value": {
+              "extra": {
+                "type": "list",
+                "value": {
+                  "type": "string",
+                  "value": [
+                    "SkyLink 10-Passenger Aerial Gondola"
+                  ]
+                }
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            }
+          }
+        },
+        {
+          "slot": 45,
+          "name": "emerald",
+          "count": 1,
+          "customName": {
+            "type": "compound",
+            "value": {
+              "extra": {
+                "type": "list",
+                "value": {
+                  "type": "compound",
+                  "value": [
+                    {
+                      "italic": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "underlined": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "bold": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "color": {
+                        "type": "string",
+                        "value": "green"
+                      },
+                      "obfuscated": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "strikethrough": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "text": {
+                        "type": "string",
+                        "value": "Buy a native vehicle"
+                      }
+                    }
+                  ]
+                }
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            }
+          }
+        },
+        {
+          "slot": 49,
+          "name": "anvil",
+          "count": 1,
+          "customName": {
+            "type": "compound",
+            "value": {
+              "extra": {
+                "type": "list",
+                "value": {
+                  "type": "compound",
+                  "value": [
+                    {
+                      "italic": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "underlined": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "bold": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "color": {
+                        "type": "string",
+                        "value": "aqua"
+                      },
+                      "obfuscated": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "strikethrough": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "text": {
+                        "type": "string",
+                        "value": "Fuel and repair services"
+                      }
+                    }
+                  ]
+                }
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            }
+          }
+        },
+        {
+          "slot": 53,
+          "name": "oak_door",
+          "count": 1,
+          "customName": {
+            "type": "compound",
+            "value": {
+              "extra": {
+                "type": "list",
+                "value": {
+                  "type": "compound",
+                  "value": [
+                    {
+                      "italic": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "underlined": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "bold": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "color": {
+                        "type": "string",
+                        "value": "yellow"
+                      },
+                      "obfuscated": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "strikethrough": {
+                        "type": "byte",
+                        "value": 0
+                      },
+                      "text": {
+                        "type": "string",
+                        "value": "Exit current seat"
+                      }
+                    }
+                  ]
+                }
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "/map opens the native registered-destination map interface",
+      "result": "PASS",
+      "detail": "Observed inventory and real map action at slot42"
+    },
+    {
+      "name": "/gps opens the native registered-destination map interface",
+      "result": "PASS",
+      "detail": "Observed inventory and real map action at slot42"
+    },
+    {
+      "name": "Native map action sends actual 128-pixel map data and a reusable map item",
+      "result": "PASS",
+      "detail": {
+        "packets": [
+          {
+            "time": "2026-11-25T01:35:00.807Z",
+            "type": "map_pixels_received",
+            "id": 208,
+            "columns": 128,
+            "rows": 128,
+            "bytes": 16384,
+            "native_rendering": false
+          }
+        ],
+        "native_rendering": false
+      }
+    },
+    {
+      "name": "Unmodified manifest and corrected world pass actual launcher restart",
+      "result": "PASS",
+      "detail": {
+        "manifest_sha256": "c432f3be05df587bd6023127a7ade719c7b75aa6e21632eb22f6f673b78b8b5e"
+      }
+    }
+  ],
+  "error": null,
+  "cohort_exit": 0,
+  "expected_bank_cents": 50428,
+  "manifest_sha256": "c432f3be05df587bd6023127a7ade719c7b75aa6e21632eb22f6f673b78b8b5e",
+  "test_only_plugins_installed": false,
+  "launcher_modified": false,
+  "eula_acceptance_added": false,
+  "geyser_started": false,
+  "classification": "Actual unmodified packaged Java launcher, restart and ordinary translated protocol UI. No native Java/Bedrock visual certification."
+}

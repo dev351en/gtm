@@ -1,0 +1,696 @@
+{
+  "status": "FAIL",
+  "scenario": "ORDINARY_PAID_DEPOT",
+  "started_epoch_ms": 1795569984909,
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "account": "GtmLaptopQA",
+  "actor_is_op": false,
+  "expected_checks": 83,
+  "checks": [
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:24.958678926Z",
+      "name": "Actual2,283-cell depot and original water match the packaged profile",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:25.153164161Z",
+      "name": "Unpurchased depot denies local route and fleet authority without changing records",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:25.389521916Z",
+      "name": "Ordinary property list selects Waterfront Depot by its exact identity",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:25.554306873Z",
+      "name": "The normal property review pays 10000 cents for Waterfront Depot",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:25.739623325Z",
+      "name": "The ledger records exact paid ownership for Waterfront Depot",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:25.945207132Z",
+      "name": "Ordinary property list selects Waterfront Landing by its exact identity",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:26.139962621Z",
+      "name": "The normal property review pays 2500 cents for Waterfront Landing",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:26.339167346Z",
+      "name": "The ledger records exact paid ownership for Waterfront Landing",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:26.642147351Z",
+      "name": "Paid owner authority stays bounded to the actual claimed depot volume",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:26.779796166Z",
+      "name": "Ordinary vehicle shop opens beside the real cab delivery area",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:27.049493054Z",
+      "name": "Paged normal catalogue selects the original gtm:local_driving_cab",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:27.240038556Z",
+      "name": "Normal purchase review confirms gtm:local_driving_cab at1 ARK",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:27.441281309Z",
+      "name": "Paid outbox delivers one original cab without a direct grant",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:27.648565368Z",
+      "name": "Ordinary vehicle shop opens beside the real motor delivery area",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:27.940457206Z",
+      "name": "Paged normal catalogue selects the original gtm:local_motor",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:28.139477047Z",
+      "name": "Normal purchase review confirms gtm:local_motor at1 ARK",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:28.339612020Z",
+      "name": "Paid outbox delivers one original motor without a direct grant",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:28.551111212Z",
+      "name": "Normal owner couples the paid motor behind the actual driving cab",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:28.748096402Z",
+      "name": "Ordinary vehicle shop opens beside the real trailer delivery area",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:29.041453410Z",
+      "name": "Paged normal catalogue selects the original gtm:local_trailer",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:29.239448780Z",
+      "name": "Normal purchase review confirms gtm:local_trailer at1 ARK",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:29.439683094Z",
+      "name": "Paid outbox delivers one original trailer without a direct grant",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:29.651371931Z",
+      "name": "Normal owner couples the paid trailer without allocating another vehicle",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:29.844311517Z",
+      "name": "Actual cab passenger attachment is safe before received rail input",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:31.750111691Z",
+      "name": "Received protocol throttle moves the paid three-car consist and consumes energy",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:31.939538987Z",
+      "name": "Normal rail parking detaches safely and retains all three paid vehicle records",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:32.147064298Z",
+      "name": "Ordinary vehicle shop opens beside the real ferry delivery area",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:32.439673814Z",
+      "name": "Paged normal catalogue selects the original gtm:marine_ferry",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:32.639194234Z",
+      "name": "Normal purchase review confirms gtm:marine_ferry at1 ARK",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:32.839347790Z",
+      "name": "Paid outbox delivers one original ferry without a direct grant",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:33.043949927Z",
+      "name": "Paid ferry is afloat on the original source water with a local shore exit",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:33.239888845Z",
+      "name": "Real consenting ferry helm accepts received ordinary throttle",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:35.050738229Z",
+      "name": "Actual ferry and passenger travel incrementally on water without teleporting",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:35.243359817Z",
+      "name": "Ferry docks and safely leaves its real passenger on unchanged dry shore",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:35.445410124Z",
+      "name": "Ordinary vehicle shop opens beside the real heli delivery area",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:35.739565119Z",
+      "name": "Paged normal catalogue selects the original gtm:heli_civilian",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:35.939282520Z",
+      "name": "Normal purchase review confirms gtm:heli_civilian at1 ARK",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:36.139523803Z",
+      "name": "Paid outbox delivers one original heli without a direct grant",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:36.341194024Z",
+      "name": "Ordinary paid helicopter admits its pilot beside the actual pad",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:36.540789060Z",
+      "name": "Actual helicopter pilot receives climb input",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:38.439913421Z",
+      "name": "The owned helicopter and actual pilot rise through the reviewed air volume",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:40.752204601Z",
+      "name": "Ordinary descend input lands the same aircraft on its original real pad",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:40.941782090Z",
+      "name": "Landed aircraft parks and releases its real pilot locally",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:41.150947535Z",
+      "name": "Ordinary vehicle shop opens beside the real terminal_west delivery area",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:41.439561874Z",
+      "name": "Paged normal catalogue selects the original gtm:skylink_terminal_machinery",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:41.639578902Z",
+      "name": "Normal purchase review confirms gtm:skylink_terminal_machinery at1 ARK",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:41.839635735Z",
+      "name": "Paid outbox delivers one original terminal_west without a direct grant",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:42.045376781Z",
+      "name": "Ordinary vehicle shop opens beside the real terminal_east delivery area",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:42.340940160Z",
+      "name": "Paged normal catalogue selects the original gtm:skylink_terminal_machinery",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:42.540156117Z",
+      "name": "Normal purchase review confirms gtm:skylink_terminal_machinery at1 ARK",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:42.739716219Z",
+      "name": "Paid outbox delivers one original terminal_east without a direct grant",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:42.944912900Z",
+      "name": "Ordinary owner commissions the cable between two real paid terminal anchors",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:43.144417553Z",
+      "name": "Ordinary vehicle shop opens beside the real cabin delivery area",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:43.439735189Z",
+      "name": "Paged normal catalogue selects the original gtm:skylink_cabin",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:43.640007986Z",
+      "name": "Normal purchase review confirms gtm:skylink_cabin at1 ARK",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:43.839400364Z",
+      "name": "Paid outbox delivers one original cabin without a direct grant",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:44.041390438Z",
+      "name": "Paid cabin boards from the real lower strip through ordinary passenger controls",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:44.242068240Z",
+      "name": "A nearby ordinary owner starts the actual machinery with the paid passenger aboard",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:44.648124185Z",
+      "name": "Terminal machinery moves the actual suspended cabin and passenger",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:44.839018206Z",
+      "name": "Stopped cable cabin exits onto its current lower boarding strip",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:45.045499328Z",
+      "name": "Ordinary vehicle shop opens beside the real taxi_auto delivery area",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:45.239828596Z",
+      "name": "Paged normal catalogue selects the original gtm:rickshaw_electric",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:45.439444242Z",
+      "name": "Normal purchase review confirms gtm:rickshaw_electric at1 ARK",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:45.639506465Z",
+      "name": "Paid outbox delivers one original taxi_auto without a direct grant",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T01:26:45.850830539Z",
+      "name": "The ordinary owner explicitly offers the actual paid auto for taxi service",
+      "detail": "Ordinary authenticated non-OP rules; disclosed GUI/position scaffolding and separately received protocol movement."
+    },
+    {
+      "result": "FAIL",
+      "at": "2026-11-25T01:26:55.040095540Z",
+      "name": "Real protocol walking supplies the first bounded taxi segment",
+      "detail": "IllegalStateException: Timed out waiting for the actual ordinary outcome"
+    }
+  ],
+  "unexecuted_steps": [
+    "Real protocol walking completes the owned taxi route without teleportation",
+    "Ordinary taxi review presents a real route, available worker and exact fare",
+    "Paid taxi reservation debits the reviewed fare and exposes actual boarding",
+    "Paid ordinary taxi carries its real passenger with a real managed driver",
+    "Managed taxi arrives at the recorded destination and releases normally",
+    "Ordinary vehicle shop opens beside the real scooter delivery area",
+    "Paged normal catalogue selects the original gtm:scooter_activa",
+    "Normal purchase review confirms gtm:scooter_activa at1 ARK",
+    "Paid outbox delivers one original scooter without a direct grant",
+    "Ordinary scooter consent and grounded client approach prepare the real counter route",
+    "Grounded actual client movement starts continuous owner courier sampling",
+    "The continuously walked route validates the opted-in scooter and real deck",
+    "Courier checkout uses its actual route quote and ordinary paid food interface",
+    "Paid courier receipt retains the full food price and explicit delivery fee",
+    "After real preparation the physical NPC scooter reaches its paid stop",
+    "Actual rider handoff delivers one original paid consumable through the outbox",
+    "All paid entitlements, claims, route owners and exact cumulative debit remain durable"
+  ],
+  "ordinary_inherited_permissions": {
+    "gtm.properties": true,
+    "gtm.vehicles.use": true,
+    "gtm.vehicles.owner-commission": true,
+    "gtm.food": true,
+    "gtm.food.delivery": true,
+    "gtm.furniture": true
+  },
+  "permissions_granted_by_probe": [],
+  "fixture_blocks_written_by_probe": 0,
+  "accounts_balances_or_ownership_edited_by_probe": false,
+  "routes_injected_by_probe": false,
+  "injected_player_input_events": 0,
+  "received_player_input_events": 8,
+  "initial_bank_cents": 68000,
+  "observed_final_bank_cents": 54600,
+  "expected_total_debit_cents": 13400,
+  "paid_purchases": [
+    {
+      "price_cents": 10000,
+      "kind": "property",
+      "id": "593db6b0-73f2-509b-99a8-d55d4edc1d24",
+      "bank_after": 58000
+    },
+    {
+      "price_cents": 2500,
+      "kind": "property",
+      "id": "0998e6dd-c784-5124-8811-6e892ef06418",
+      "bank_after": 55500
+    },
+    {
+      "actual_pose": {
+        "z": -135.5,
+        "y": 64.125,
+        "x": -101.5
+      },
+      "bank_after": 55400,
+      "price_cents": 100,
+      "id": "fc013189-121d-4eae-8d5b-2c9fab736c46",
+      "kind": "vehicle",
+      "model": "gtm:local_driving_cab",
+      "key": "cab"
+    },
+    {
+      "actual_pose": {
+        "z": -135.5,
+        "y": 64.125,
+        "x": -114.50125
+      },
+      "bank_after": 55300,
+      "price_cents": 100,
+      "id": "eb099ac9-f967-40fe-99a8-a1b97d0d99e8",
+      "kind": "vehicle",
+      "model": "gtm:local_motor",
+      "key": "motor"
+    },
+    {
+      "actual_pose": {
+        "z": -135.5,
+        "y": 64.125,
+        "x": -125.07
+      },
+      "bank_after": 55200,
+      "price_cents": 100,
+      "id": "d352670a-7473-4ddc-b760-d15cc92303c9",
+      "kind": "vehicle",
+      "model": "gtm:local_trailer",
+      "key": "trailer"
+    },
+    {
+      "actual_pose": {
+        "z": -163.2,
+        "y": 62.55,
+        "x": -164.8
+      },
+      "bank_after": 55100,
+      "price_cents": 100,
+      "id": "da35c098-9e12-48cf-a076-a57c80c5f587",
+      "kind": "vehicle",
+      "model": "gtm:marine_ferry",
+      "key": "ferry"
+    },
+    {
+      "actual_pose": {
+        "z": -124.5,
+        "y": 64.015,
+        "x": -104.5
+      },
+      "bank_after": 55000,
+      "price_cents": 100,
+      "id": "88a6a5e1-e46b-4b3f-9af3-80065d974271",
+      "kind": "vehicle",
+      "model": "gtm:heli_civilian",
+      "key": "heli"
+    },
+    {
+      "actual_pose": {
+        "z": -105.5,
+        "y": 69.015,
+        "x": -117.5
+      },
+      "bank_after": 54900,
+      "price_cents": 100,
+      "id": "103d8c4c-f1f0-4910-abd6-bbde75892b23",
+      "kind": "vehicle",
+      "model": "gtm:skylink_terminal_machinery",
+      "key": "terminal_west"
+    },
+    {
+      "actual_pose": {
+        "z": -105.5,
+        "y": 69.015,
+        "x": -61.5
+      },
+      "bank_after": 54800,
+      "price_cents": 100,
+      "id": "14ee3994-8a48-4edf-9905-7ee13efe6ff8",
+      "kind": "vehicle",
+      "model": "gtm:skylink_terminal_machinery",
+      "key": "terminal_east"
+    },
+    {
+      "actual_pose": {
+        "z": -105.5,
+        "y": 67.7258,
+        "x": -111.5
+      },
+      "bank_after": 54700,
+      "price_cents": 100,
+      "id": "7591d710-4c56-4fdb-b932-af96a4a3cc38",
+      "kind": "vehicle",
+      "model": "gtm:skylink_cabin",
+      "key": "cabin"
+    },
+    {
+      "actual_pose": {
+        "z": -132.5,
+        "y": 64.015,
+        "x": -86.5
+      },
+      "bank_after": 54600,
+      "price_cents": 100,
+      "id": "73dc68f1-34d6-4089-a2fb-b6c309a248b1",
+      "kind": "vehicle",
+      "model": "gtm:rickshaw_electric",
+      "key": "taxi_auto"
+    }
+  ],
+  "actual_motion": [
+    {
+      "phase": "rail_cab",
+      "to": {
+        "z": -135.5,
+        "y": 64.125,
+        "x": -100.49949999999995
+      },
+      "actual_player_health": 20.0,
+      "max_step_blocks": 0.07500000000001705,
+      "energy_after": 239.987994,
+      "energy_before": 240.0,
+      "vehicle": "fc013189-121d-4eae-8d5b-2c9fab736c46",
+      "moving_samples": 26,
+      "from": {
+        "z": -135.5,
+        "y": 64.125,
+        "x": -101.5
+      }
+    },
+    {
+      "phase": "water_ferry",
+      "to": {
+        "z": -161.39032500000002,
+        "y": 62.55,
+        "x": -164.8
+      },
+      "actual_player_health": 20.0,
+      "max_step_blocks": 0.07499999999998863,
+      "energy_after": 119.96542584999997,
+      "energy_before": 119.9998,
+      "vehicle": "da35c098-9e12-48cf-a076-a57c80c5f587",
+      "moving_samples": 36,
+      "from": {
+        "z": -163.2,
+        "y": 62.55,
+        "x": -164.8
+      }
+    },
+    {
+      "phase": "air_climb",
+      "to": {
+        "z": -124.5,
+        "y": 65.265,
+        "x": -104.5
+      },
+      "actual_player_health": 20.0,
+      "max_step_blocks": 0.125,
+      "energy_after": 159.93105000000025,
+      "energy_before": 159.99760000000003,
+      "vehicle": "88a6a5e1-e46b-4b3f-9af3-80065d974271",
+      "moving_samples": 10,
+      "from": {
+        "z": -124.5,
+        "y": 64.015,
+        "x": -104.5
+      }
+    },
+    {
+      "phase": "air_land",
+      "to": {
+        "z": -124.5,
+        "y": 64.015,
+        "x": -104.5
+      },
+      "actual_player_health": 20.0,
+      "max_step_blocks": 0.125,
+      "energy_after": 159.85970000000054,
+      "energy_before": 159.93105000000025,
+      "vehicle": "88a6a5e1-e46b-4b3f-9af3-80065d974271",
+      "moving_samples": 10,
+      "from": {
+        "z": -124.5,
+        "y": 65.265,
+        "x": -104.5
+      }
+    },
+    {
+      "phase": "ropeway_cabin",
+      "to": {
+        "z": -105.5,
+        "y": 67.7258,
+        "x": -111.23
+      },
+      "actual_player_health": 20.0,
+      "max_step_blocks": 0.060000000000002274,
+      "energy_after": 239.99676,
+      "energy_before": 240.0,
+      "vehicle": "7591d710-4c56-4fdb-b932-af96a4a3cc38",
+      "moving_samples": 8,
+      "from": {
+        "z": -105.5,
+        "y": 67.7258,
+        "x": -111.5
+      }
+    }
+  ],
+  "protocol_walks": [],
+  "owned_vehicle_ids": {
+    "cab": "fc013189-121d-4eae-8d5b-2c9fab736c46",
+    "motor": "eb099ac9-f967-40fe-99a8-a1b97d0d99e8",
+    "trailer": "d352670a-7473-4ddc-b760-d15cc92303c9",
+    "ferry": "da35c098-9e12-48cf-a076-a57c80c5f587",
+    "heli": "88a6a5e1-e46b-4b3f-9af3-80065d974271",
+    "terminal_west": "103d8c4c-f1f0-4910-abd6-bbde75892b23",
+    "terminal_east": "14ee3994-8a48-4edf-9905-7ee13efe6ff8",
+    "cabin": "7591d710-4c56-4fdb-b932-af96a4a3cc38",
+    "taxi_auto": "73dc68f1-34d6-4089-a2fb-b6c309a248b1"
+  },
+  "taxi_trip": null,
+  "courier_order": null,
+  "scaffolding": [
+    "Explicit view/position teleports only outside active vehicle movement and route walking",
+    "InventoryClickEvent through registered ordinary menu listeners",
+    "Read-only reflection for exact identity, receipt, current pose and geometry assertions",
+    "Bounded loading/tickets for existing source chunks; no generation or block writes",
+    "Separate translated protocol client supplies player_input and continuously bounded grounded position packets"
+  ],
+  "retained_state": "All ordinary purchases, claims, routes, receipts and current vehicle poses remain in this disposable copy. Failures do not reset or replace paid progress; any ongoing normal receipt remains reviewable.",
+  "native_java_client_verified": false,
+  "native_bedrock_client_verified": false,
+  "classification": "Actual Paper ordinary-account server/profile acceptance. Native artwork fit, human client controls and Windows execution are separate gates."
+}

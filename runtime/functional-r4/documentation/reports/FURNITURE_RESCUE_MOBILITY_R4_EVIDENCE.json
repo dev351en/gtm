@@ -1,0 +1,183 @@
+{
+  "schema": "GTM_FURNITURE_RESCUE_MOBILITY_EVIDENCE_V1",
+  "status": "FOCUSED_SOURCE_AND_ACTUAL_PAPER_RESCUE_PASS32",
+  "date_utc": "2026-11-25",
+  "original_asset_ids": [
+    "gtm:transport_stretcher",
+    "gtm:coastal_lifebuoy_stand",
+    "gtm:pallet_jack_manual"
+  ],
+  "new_canonical_entitlements": 0,
+  "furniture_schema": "FUR2 unchanged",
+  "target": "Paper 26.3 build 255 / Java 25.0.5.1",
+  "focused_tests": [
+    {
+      "name": "com.sdcraft.core.furniture.WheelchairMotionTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "0.014"
+    },
+    {
+      "name": "com.sdcraft.core.furniture.FurnitureMobilityStoreTest",
+      "tests": "9",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "0.027"
+    },
+    {
+      "name": "com.sdcraft.core.furniture.SpecialistFurnitureMotionTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "0.018"
+    },
+    {
+      "name": "com.sdcraft.core.furniture.SurfaceRescueRouteTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "0.01"
+    }
+  ],
+  "focused_total": 31,
+  "focused_run_log": "/workspace/scratch/d7d343b39c16/integration-probe-r4/specialist-next/mobility/rescue-motion-gradle-final.log",
+  "focused_run_log_sha256": "7edc044c4aaa957fb1450a82f05c99c51863b4367ad122e6fd57228cca261068",
+  "exact_dismount_bytecode": "/workspace/scratch/d7d343b39c16/integration-probe-r4/specialist-next/mobility/entity-dismount-javap.txt",
+  "exact_dismount_bytecode_sha256": "807f23478eaddcc86012c3c4f5535a58adf7fd5a8217f4a6b2d6f2599d9e1ea8",
+  "source_sha256": {
+    "source/src/main/java/com/sdcraft/core/GtmFurnitureRescueMobility.java": "0d72d6476ddca24e755c19a24d10a8e2552c708938fe10e2c4f78432981accd7",
+    "source/src/main/java/com/sdcraft/core/FurnitureMobilityWorld.java": "96304f6fa45bccf05e3a55a6268b87db9fdb86d7b40f47d42d23e422566ee7ff",
+    "source/src/main/java/com/sdcraft/core/furniture/FurnitureMotion.java": "4ceffeaeaa5fa6de4212ccd9497e4b768fe88f2353c5a3d3aa569b49be4b9189",
+    "source/src/main/java/com/sdcraft/core/furniture/SurfaceRescueRoute.java": "a09412b8d6748d5adbbc7a27489a405538234b3aaf630ff5f941ef957f892172",
+    "source/src/main/java/com/sdcraft/core/furniture/FurnitureStore.java": "0188d3076877c47a5ea6e3f22d221235201a8358ca41281b2da28d12feb39871",
+    "source/src/test/java/com/sdcraft/core/furniture/SpecialistFurnitureMotionTest.java": "d0c53c1f5c93e76899c6629b7a1b1b91036c486bacf13d00d3d8abce6d594464",
+    "source/src/test/java/com/sdcraft/core/furniture/SurfaceRescueRouteTest.java": "c5a5adca8f3dd7a876526884fef85caab27c431ed0a16e21f0237246ca49ec38",
+    "tools/gtm_furniture_runtime_assets.py": "4205d634f630162dda281aa2908e431920b0d92046e967b74bd20998c338af6e",
+    "tools/test_furniture_runtime_assets.py": "4f2b194bb79082dd8af90df799a4a28636b460c1ae7c43565f63fb5aff02c2f1"
+  },
+  "render_overlay": {
+    "selector": "gtm:fm_rescue_ring",
+    "kind": "technical derivative of original native128 buoy-face geometry and UVs",
+    "painted_texture_added": false,
+    "canonical_entitlement_added": false,
+    "regression_cases_passed": 2,
+    "binding_manifest": "docs/reports/FURNITURE_RESCUE_RENDER_BINDINGS.json"
+  },
+  "actual_companion": {
+    "status": "ACTUAL_PAPER_PASS32",
+    "target": "Paper26.3 build255",
+    "javac": "javac 25.0.5.1",
+    "paper_api_sha256": "16d784a1b2a6a0be74479c761d9b5cbd7271ee1d8d5ff45f8060d0fa352f1d0b",
+    "source_sha256": "e571c39c5ccafb7c0050ae8656bc97cfda3f2ba81d6dd795fa8eae8a5fab2a04",
+    "inputs": {
+      "src/main/java/qa/gtm/GtmFurnitureRescueProbe.java": "b27ff73defd2bf14743b543ad5d2ebfb93f44a9758a6d78df258447b61851fcc",
+      "src/main/resources/config.yml": "b5f13dbc06c5a177cdeaf896982eb146d93c956b1ab7027c7df8342e4b203229",
+      "src/main/resources/plugin.yml": "914d24052802811901eaae4de63ed63bd9c19770edc19515f72ad79456f3454a"
+    },
+    "runtime_or_client_tested": true,
+    "jar": "GTMFurnitureRescueProbe-0.1-isolated.jar",
+    "jar_sha256": "18fc33d3000ea60e7a54348289aef8e5e7f12af3ca3dc002b20a9d6d4b2d8c2b",
+    "bytes": 27057,
+    "native_client_tested": false
+  },
+  "actual_companion_expected_checks": 32,
+  "actual_rescue_scenario_executed": true,
+  "ordinary_purchase_qualified_by_this_companion": false,
+  "native_java_client_verified": false,
+  "native_bedrock_client_verified": false,
+  "limits": [
+    "Stretcher: one consenting patient, on-foot owner within 3.5 blocks, same flat owned supported level, 0.04 block/tick, cardinal turns, optional stationary real bed",
+    "Lifebuoy: self only, source-water surface, same-level checked shore, route <=12 blocks, 0.04 block/tick, four combined sessions, no health/air/item grants",
+    "Pallet: typed 0.03 block/tick movement only; supplied cargo custody and commissioned chunk envelope owned by separate cargo subsystem",
+    "No server start, production deployment, native client qualification or full master-specification completion is inferred from these checks"
+  ],
+  "last_source_correction": "Validated dismount allows exact Paper event to complete; actual detachment is inspected before cleanup. External cancellation keeps movement frozen and retains the carrier.",
+  "actual_acceptance": {
+    "run": "20261125T005909705988Z",
+    "report": "docs/reports/PAPER_FURNITURE_RESCUE_R4.json",
+    "report_sha256": "897ebd2319f8613769337106b8f459d77a5ebfc801af856b6a32e1724b34a15c",
+    "status": "PASS",
+    "checks": 32,
+    "failures": 0,
+    "unexecuted": 0,
+    "fixture_remains": false,
+    "input_events_injected": 13,
+    "actual_moving_ticks_sampled": 173,
+    "maximum_mounted_step": 0.040000000000873115,
+    "water_stop_observations": [
+      {
+        "source_below": "minecraft:water[level=0]",
+        "mounted": false,
+        "in_water": false,
+        "active_tows": 0,
+        "position": [
+          5812.1,
+          220.02,
+          5803.5
+        ],
+        "phase": "first_detached_tick",
+        "source_block_light": 14
+      },
+      {
+        "source_below": "minecraft:water[level=0]",
+        "mounted": false,
+        "in_water": false,
+        "active_tows": 0,
+        "position": [
+          5812.1,
+          220.02,
+          5803.5
+        ],
+        "phase": "late_release",
+        "source_block_light": 14
+      },
+      {
+        "source_below": "minecraft:water[level=0]",
+        "mounted": false,
+        "in_water": false,
+        "active_tows": 0,
+        "position": [
+          5812.1,
+          219.5,
+          5803.5
+        ],
+        "phase": "stopped_only_vertical_fixture_reentry",
+        "source_block_light": 14
+      }
+    ],
+    "classification": "Actual server movement, consent, local release, fresh consent, shore arrival, FUR2 and bed use. Native controls/rendering and ordinary purchase are separate gates."
+  },
+  "prior_attempts": [
+    {
+      "run": "20261125T005317061817Z",
+      "report_sha256": "ac063e295fa0ed16d63c5a39afa3f22d8ac45f2feb8da5157a5abdeadf1811ee",
+      "status": "FAIL_RESTORE",
+      "passed_before_failure": 25,
+      "failure": "Step26 expected translated actor to be inside water after local float-height release; native gravity was not simulated. Exact cleanup also refused three pool cells that actually froze to ice.",
+      "preserved_copy": "integration-probe-r4/server-after-rescue-water-stop",
+      "actual_ice_cells": [
+        [
+          5817,
+          219,
+          5804
+        ],
+        [
+          5817,
+          219,
+          5805
+        ],
+        [
+          5817,
+          219,
+          5806
+        ]
+      ],
+      "correction": "Only companion fixture changed: luminous base, actual block-light/source checks, recorded detached pose and explicit same-column stopped-only vertical reentry before fresh consent. Strict cleanup and production guards unchanged."
+    }
+  ]
+}

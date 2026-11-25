@@ -1,0 +1,928 @@
+{
+  "schema": "GTM_READ_ONLY_STARTER_PROPERTY_SURVEY_V1",
+  "snapshot": {
+    "filename": "EXPECT_SDCRAFT_PUBLIC_WORLD_2026-11-23.zip",
+    "size_bytes": 263993349,
+    "sha256_before": "214a00a08acdb5f73fea52ef79cdfdf773551086d31f5f95725f559ad0802dc2",
+    "sha256_after": "214a00a08acdb5f73fea52ef79cdfdf773551086d31f5f95725f559ad0802dc2"
+  },
+  "world": "world",
+  "world_and_configuration_writes": 0,
+  "status": "STATIC_GEOMETRY_CANDIDATE_ONLY",
+  "reader": "tools/survey_world.py Survey/Nbt, modern Anvil block palettes",
+  "reader_sha256": "877580e4d1f03649d2bc68863da561062dd39dd269dc480410a007d26bf0c176",
+  "parcel": {
+    "inclusive_block_bounds": [
+      -179,
+      67,
+      -75,
+      -172,
+      75,
+      -68
+    ],
+    "continuous_bounds": [
+      -179,
+      67,
+      -75,
+      -171,
+      76,
+      -67
+    ],
+    "floor_y": 67,
+    "feet_y": 68,
+    "floor_cells_checked": 64,
+    "air_cells_checked": 512,
+    "layers": {
+      "67": {
+        "minecraft:bricks": 64
+      },
+      "68": {
+        "minecraft:air": 64
+      },
+      "69": {
+        "minecraft:air": 64
+      },
+      "70": {
+        "minecraft:air": 64
+      },
+      "71": {
+        "minecraft:air": 64
+      },
+      "72": {
+        "minecraft:air": 64
+      },
+      "73": {
+        "minecraft:air": 64
+      },
+      "74": {
+        "minecraft:air": 64
+      },
+      "75": {
+        "minecraft:air": 64
+      }
+    },
+    "state_digest_order": "y, then z, then x; one compact sorted JSON [x,y,z,state] plus LF per cell",
+    "states_sha256": "a1718154c7771293175e25b083365329bf3713862f1ef8b11b010c6fb07bfb75",
+    "exceptions": [],
+    "pass": true
+  },
+  "food_counter_space": {
+    "inclusive_block_bounds": [
+      -186,
+      67,
+      -74,
+      -183,
+      74,
+      -71
+    ],
+    "continuous_bounds": [
+      -186,
+      67,
+      -74,
+      -182,
+      75,
+      -70
+    ],
+    "floor_y": 67,
+    "feet_y": 68,
+    "floor_cells_checked": 16,
+    "air_cells_checked": 112,
+    "layers": {
+      "67": {
+        "minecraft:bricks": 16
+      },
+      "68": {
+        "minecraft:air": 16
+      },
+      "69": {
+        "minecraft:air": 16
+      },
+      "70": {
+        "minecraft:air": 16
+      },
+      "71": {
+        "minecraft:air": 16
+      },
+      "72": {
+        "minecraft:air": 16
+      },
+      "73": {
+        "minecraft:air": 16
+      },
+      "74": {
+        "minecraft:air": 16
+      }
+    },
+    "state_digest_order": "y, then z, then x; one compact sorted JSON [x,y,z,state] plus LF per cell",
+    "states_sha256": "283c2dfb2ad776df53a6091b500208fc5e7fcab2161bbd66902fa68d01fccfa1",
+    "exceptions": [],
+    "pass": true
+  },
+  "food_counter_proposed_service_point": [
+    -184.0,
+    68.0,
+    -72.0
+  ],
+  "food_counter_optional_model": {
+    "id": "gtm:vendor_kiosk_tea",
+    "yaw_degrees": 0,
+    "observed_runtime_local_bounds": [
+      -1.078,
+      0,
+      -0.866,
+      1.078,
+      2.3815,
+      0.866
+    ],
+    "resulting_world_bounds": [
+      -185.078,
+      68,
+      -72.866,
+      -182.922,
+      70.3815,
+      -71.134
+    ],
+    "fits_checked_space": true,
+    "placed": false,
+    "ownership_note": "This counter patch is outside the proposed private parcel; a legitimate staff/service placement entitlement is still required"
+  },
+  "public_west_access_corridor": {
+    "inclusive_block_bounds": [
+      -182,
+      67,
+      -75,
+      -180,
+      71,
+      -68
+    ],
+    "continuous_bounds": [
+      -182,
+      67,
+      -75,
+      -179,
+      72,
+      -67
+    ],
+    "floor_y": 67,
+    "feet_y": 68,
+    "floor_cells_checked": 24,
+    "air_cells_checked": 96,
+    "layers": {
+      "67": {
+        "minecraft:bricks": 16,
+        "minecraft:stone_bricks": 8
+      },
+      "68": {
+        "minecraft:air": 24
+      },
+      "69": {
+        "minecraft:air": 24
+      },
+      "70": {
+        "minecraft:air": 24
+      },
+      "71": {
+        "minecraft:air": 24
+      }
+    },
+    "state_digest_order": "y, then z, then x; one compact sorted JSON [x,y,z,state] plus LF per cell",
+    "states_sha256": "bcbf02cc8729cff004f79d652570d2f44f6d7951247c30a86c719f2666766fd8",
+    "exceptions": [],
+    "pass": true
+  },
+  "parcel_one_block_border_at_feet": {
+    "minecraft:air": 88,
+    "minecraft:oak_stairs": 12
+  },
+  "border_warning": "Twelve existing oak-stair cells occur on the one-block outer border. Keep the proposed parcel bounds exact; do not expand them without resurvey.",
+  "approach_from_dealership": {
+    "method": "Cardinal block-centre path; full cube support and three complete air cells at every step; at most one block rise/fall per edge",
+    "search_feet_bounds_inclusive": [
+      -205,
+      66,
+      -110,
+      -141,
+      69,
+      -61
+    ],
+    "start_source": "Published dealership seed, floor-checked rather than accepted by assumption",
+    "block_cells": [
+      [
+        -151,
+        67,
+        -83
+      ],
+      [
+        -152,
+        67,
+        -83
+      ],
+      [
+        -153,
+        67,
+        -83
+      ],
+      [
+        -154,
+        67,
+        -83
+      ],
+      [
+        -155,
+        67,
+        -83
+      ],
+      [
+        -156,
+        67,
+        -83
+      ],
+      [
+        -156,
+        67,
+        -84
+      ],
+      [
+        -157,
+        67,
+        -84
+      ],
+      [
+        -158,
+        67,
+        -84
+      ],
+      [
+        -158,
+        67,
+        -85
+      ],
+      [
+        -159,
+        68,
+        -85
+      ],
+      [
+        -160,
+        68,
+        -85
+      ],
+      [
+        -161,
+        68,
+        -85
+      ],
+      [
+        -162,
+        68,
+        -85
+      ],
+      [
+        -163,
+        68,
+        -85
+      ],
+      [
+        -164,
+        68,
+        -85
+      ],
+      [
+        -165,
+        68,
+        -85
+      ],
+      [
+        -165,
+        68,
+        -86
+      ],
+      [
+        -166,
+        68,
+        -86
+      ],
+      [
+        -166,
+        68,
+        -87
+      ],
+      [
+        -167,
+        68,
+        -87
+      ],
+      [
+        -167,
+        68,
+        -88
+      ],
+      [
+        -168,
+        68,
+        -88
+      ],
+      [
+        -168,
+        68,
+        -89
+      ],
+      [
+        -168,
+        68,
+        -90
+      ],
+      [
+        -168,
+        68,
+        -91
+      ],
+      [
+        -168,
+        68,
+        -92
+      ],
+      [
+        -168,
+        68,
+        -93
+      ],
+      [
+        -168,
+        68,
+        -94
+      ],
+      [
+        -168,
+        68,
+        -95
+      ],
+      [
+        -168,
+        68,
+        -96
+      ],
+      [
+        -169,
+        68,
+        -96
+      ],
+      [
+        -169,
+        68,
+        -97
+      ],
+      [
+        -170,
+        68,
+        -97
+      ],
+      [
+        -170,
+        68,
+        -98
+      ],
+      [
+        -171,
+        68,
+        -98
+      ],
+      [
+        -172,
+        68,
+        -98
+      ],
+      [
+        -173,
+        68,
+        -98
+      ],
+      [
+        -174,
+        68,
+        -98
+      ],
+      [
+        -175,
+        68,
+        -98
+      ],
+      [
+        -176,
+        68,
+        -98
+      ],
+      [
+        -177,
+        68,
+        -98
+      ],
+      [
+        -178,
+        68,
+        -98
+      ],
+      [
+        -179,
+        68,
+        -98
+      ],
+      [
+        -180,
+        68,
+        -98
+      ],
+      [
+        -181,
+        68,
+        -98
+      ],
+      [
+        -182,
+        68,
+        -98
+      ],
+      [
+        -183,
+        68,
+        -98
+      ],
+      [
+        -184,
+        68,
+        -98
+      ],
+      [
+        -185,
+        68,
+        -98
+      ],
+      [
+        -186,
+        68,
+        -98
+      ],
+      [
+        -187,
+        68,
+        -98
+      ],
+      [
+        -188,
+        68,
+        -98
+      ],
+      [
+        -189,
+        68,
+        -98
+      ],
+      [
+        -190,
+        68,
+        -98
+      ],
+      [
+        -191,
+        68,
+        -98
+      ],
+      [
+        -192,
+        68,
+        -98
+      ],
+      [
+        -193,
+        68,
+        -98
+      ],
+      [
+        -194,
+        68,
+        -98
+      ],
+      [
+        -195,
+        68,
+        -98
+      ],
+      [
+        -196,
+        68,
+        -98
+      ],
+      [
+        -197,
+        68,
+        -98
+      ],
+      [
+        -197,
+        68,
+        -97
+      ],
+      [
+        -197,
+        68,
+        -96
+      ],
+      [
+        -197,
+        68,
+        -95
+      ],
+      [
+        -197,
+        68,
+        -94
+      ],
+      [
+        -197,
+        68,
+        -93
+      ],
+      [
+        -197,
+        68,
+        -92
+      ],
+      [
+        -197,
+        68,
+        -91
+      ],
+      [
+        -197,
+        68,
+        -90
+      ],
+      [
+        -197,
+        68,
+        -89
+      ],
+      [
+        -197,
+        68,
+        -88
+      ],
+      [
+        -197,
+        68,
+        -87
+      ],
+      [
+        -197,
+        68,
+        -86
+      ],
+      [
+        -197,
+        68,
+        -85
+      ],
+      [
+        -197,
+        68,
+        -84
+      ],
+      [
+        -197,
+        68,
+        -83
+      ],
+      [
+        -197,
+        68,
+        -82
+      ],
+      [
+        -197,
+        68,
+        -81
+      ],
+      [
+        -197,
+        68,
+        -80
+      ],
+      [
+        -197,
+        68,
+        -79
+      ],
+      [
+        -197,
+        68,
+        -78
+      ],
+      [
+        -197,
+        68,
+        -77
+      ],
+      [
+        -196,
+        68,
+        -77
+      ],
+      [
+        -195,
+        68,
+        -77
+      ],
+      [
+        -194,
+        68,
+        -77
+      ],
+      [
+        -194,
+        68,
+        -76
+      ],
+      [
+        -193,
+        68,
+        -76
+      ],
+      [
+        -193,
+        68,
+        -75
+      ],
+      [
+        -192,
+        68,
+        -75
+      ],
+      [
+        -191,
+        68,
+        -75
+      ],
+      [
+        -190,
+        68,
+        -75
+      ],
+      [
+        -189,
+        68,
+        -75
+      ],
+      [
+        -188,
+        68,
+        -75
+      ],
+      [
+        -187,
+        68,
+        -75
+      ],
+      [
+        -186,
+        68,
+        -75
+      ],
+      [
+        -185,
+        68,
+        -75
+      ],
+      [
+        -184,
+        68,
+        -75
+      ],
+      [
+        -183,
+        68,
+        -75
+      ],
+      [
+        -182,
+        68,
+        -75
+      ],
+      [
+        -181,
+        68,
+        -75
+      ],
+      [
+        -180,
+        68,
+        -75
+      ],
+      [
+        -179,
+        68,
+        -75
+      ]
+    ],
+    "waypoints_block_centres": [
+      [
+        -150.5,
+        67,
+        -82.5
+      ],
+      [
+        -155.5,
+        67,
+        -82.5
+      ],
+      [
+        -155.5,
+        67,
+        -83.5
+      ],
+      [
+        -157.5,
+        67,
+        -83.5
+      ],
+      [
+        -157.5,
+        67,
+        -84.5
+      ],
+      [
+        -158.5,
+        68,
+        -84.5
+      ],
+      [
+        -164.5,
+        68,
+        -84.5
+      ],
+      [
+        -164.5,
+        68,
+        -85.5
+      ],
+      [
+        -165.5,
+        68,
+        -85.5
+      ],
+      [
+        -165.5,
+        68,
+        -86.5
+      ],
+      [
+        -166.5,
+        68,
+        -86.5
+      ],
+      [
+        -166.5,
+        68,
+        -87.5
+      ],
+      [
+        -167.5,
+        68,
+        -87.5
+      ],
+      [
+        -167.5,
+        68,
+        -95.5
+      ],
+      [
+        -168.5,
+        68,
+        -95.5
+      ],
+      [
+        -168.5,
+        68,
+        -96.5
+      ],
+      [
+        -169.5,
+        68,
+        -96.5
+      ],
+      [
+        -169.5,
+        68,
+        -97.5
+      ],
+      [
+        -196.5,
+        68,
+        -97.5
+      ],
+      [
+        -196.5,
+        68,
+        -76.5
+      ],
+      [
+        -193.5,
+        68,
+        -76.5
+      ],
+      [
+        -193.5,
+        68,
+        -75.5
+      ],
+      [
+        -192.5,
+        68,
+        -75.5
+      ],
+      [
+        -192.5,
+        68,
+        -74.5
+      ],
+      [
+        -178.5,
+        68,
+        -74.5
+      ]
+    ],
+    "horizontal_length_blocks": 102,
+    "floor_cells_checked": 103,
+    "air_cells_checked": 309,
+    "floor_types": {
+      "minecraft:bricks": 22,
+      "minecraft:gray_concrete": 75,
+      "minecraft:smooth_stone": 4,
+      "minecraft:stone_bricks": 1,
+      "minecraft:white_concrete": 1
+    },
+    "height_changes": [
+      {
+        "from_cell": [
+          -158,
+          67,
+          -85
+        ],
+        "to_cell": [
+          -159,
+          68,
+          -85
+        ],
+        "rise": 1
+      }
+    ],
+    "requires_player_jump": true,
+    "states_sha256": "f3567bb8a3d4cb8676989728fd866f525e27c989e75135ba0f83c071885b4ffa",
+    "doors_opened": 0,
+    "blocks_changed": 0,
+    "native_player_walk_verified": false,
+    "vehicle_or_courier_route_qualified": false
+  },
+  "saved_entities": {
+    "archive_member": "world/dimensions/minecraft/overworld/entities/r.-1.-1.mca",
+    "member_sha256": "6ab26b8fe22705420b3113ce0da7274868791bc8d3fed747267b99627b992cec",
+    "nonempty_chunk_records_scanned": 233,
+    "entity_records_scanned_in_region": 813,
+    "checked_entity_position_bounds_inclusive": [
+      -205,
+      60,
+      -110,
+      -140,
+      82,
+      -60
+    ],
+    "matching_saved_entities": [],
+    "pass": true,
+    "scope": "Saved entity positions, including nested passengers; future spawns, players and runtime projections require a fresh server check"
+  },
+  "property_registration": {
+    "not_applied": true,
+    "proposed_integer_bounds": {
+      "min-x": -179,
+      "min-y": 67,
+      "min-z": -75,
+      "max-x": -172,
+      "max-y": 75,
+      "max-z": -68
+    },
+    "id_owner_price": "Not invented or assigned by this survey; use the normal reviewed property purchase workflow",
+    "requires": [
+      "Optional isolated laptop configuration only",
+      "Authenticated account and explicit gtm.properties and gtm.furniture permissions",
+      "Enabled reviewed property and furniture modules",
+      "One registered property with a real owner receipt before ordinary furniture placement",
+      "Fresh loaded-world entity, block and access checks"
+    ]
+  },
+  "limitations": [
+    "Static saved-block evidence is not a real-client movement, furniture, resource-pack or crossplay pass.",
+    "The 102-block pedestrian approach contains a one-block jump; it is not wheelchair access or a scooter/courier route.",
+    "The clear courtyard contains no preinstalled bed, container, processor, lever, cauldron or LIGHT backing block. Backing-required furniture remains conditional until legitimately installed and bound.",
+    "The neighbouring counter space is a placement/commissioning candidate, not an existing registered restaurant or stock grant.",
+    "No base config, world, property registry, ownership receipt, service location or feature flag was changed."
+  ]
+}

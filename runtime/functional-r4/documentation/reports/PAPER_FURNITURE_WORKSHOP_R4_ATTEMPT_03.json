@@ -1,0 +1,192 @@
+{
+  "status": "FAIL",
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "checks": [
+    {
+      "detail": "Actual Paper items, native vehicle condition/pose and server ticks; explicit fixture controls and receipt readers are test scaffolding",
+      "name": "Inspect and journal the empty bounded workshop before edits",
+      "at": "2026-11-25T02:14:08.899314526Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper items, native vehicle condition/pose and server ticks; explicit fixture controls and receipt readers are test scaffolding",
+      "name": "Place six actual owned workshop models with their ordinary APIs",
+      "at": "2026-11-25T02:14:09.332909601Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper items, native vehicle condition/pose and server ticks; explicit fixture controls and receipt readers are test scaffolding",
+      "name": "Actual split frame and lowered support arms leave the authored center bay clear",
+      "at": "2026-11-25T02:14:09.667282040Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper items, native vehicle condition/pose and server ticks; explicit fixture controls and receipt readers are test scaffolding",
+      "name": "Fresh maintenance gauges refuse unnecessary supplies",
+      "at": "2026-11-25T02:14:09.927191023Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper items, native vehicle condition/pose and server ticks; explicit fixture controls and receipt readers are test scaffolding",
+      "name": "Real accepted native road movement consumes energy and creates actual maintenance wear",
+      "at": "2026-11-25T02:14:10.236367791Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper items, native vehicle condition/pose and server ticks; explicit fixture controls and receipt readers are test scaffolding",
+      "name": "A queued maintenance purchase loses authority when furniture permission is revoked",
+      "at": "2026-11-25T02:14:10.452682008Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper items, native vehicle condition/pose and server ticks; explicit fixture controls and receipt readers are test scaffolding",
+      "name": "Deferred revocation leaves inventory and actual pressure unchanged",
+      "at": "2026-11-25T02:14:10.650995793Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper items, native vehicle condition/pose and server ticks; explicit fixture controls and receipt readers are test scaffolding",
+      "name": "Actual oil service consumes lubricant ingredients and restores efficiency without refueling",
+      "at": "2026-11-25T02:14:11.679745167Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper items, native vehicle condition/pose and server ticks; explicit fixture controls and receipt readers are test scaffolding",
+      "name": "Tyre changer consumes a finite set and changes actual braking and speed factors",
+      "at": "2026-11-25T02:14:11.916692364Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper items, native vehicle condition/pose and server ticks; explicit fixture controls and receipt readers are test scaffolding",
+      "name": "Compressor consumes real power and restores pressure-dependent motion factors",
+      "at": "2026-11-25T02:14:12.188968281Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper items, native vehicle condition/pose and server ticks; explicit fixture controls and receipt readers are test scaffolding",
+      "name": "Powered wheel balancing consumes its weight and restores actual steering",
+      "at": "2026-11-25T02:14:12.415130072Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper items, native vehicle condition/pose and server ticks; explicit fixture controls and receipt readers are test scaffolding",
+      "name": "Replaying a saved completed supply proof cannot repeat a debit or effect",
+      "at": "2026-11-25T02:14:12.661665759Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper items, native vehicle condition/pose and server ticks; explicit fixture controls and receipt readers are test scaffolding",
+      "name": "Welder consumes iron and fuel to repair actual native chassis damage once",
+      "at": "2026-11-25T02:14:12.930351386Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper items, native vehicle condition/pose and server ticks; explicit fixture controls and receipt readers are test scaffolding",
+      "name": "Malformed native supply proof fails closed before inventory or health changes",
+      "at": "2026-11-25T02:14:13.155397829Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper items, native vehicle condition/pose and server ticks; explicit fixture controls and receipt readers are test scaffolding",
+      "name": "Remote lift controls cannot consume real cycle fuel",
+      "at": "2026-11-25T02:14:13.404097756Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper items, native vehicle condition/pose and server ticks; explicit fixture controls and receipt readers are test scaffolding",
+      "name": "One actual coal prepays one bounded hoist cycle",
+      "at": "2026-11-25T02:14:13.672210791Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper items, native vehicle condition/pose and server ticks; explicit fixture controls and receipt readers are test scaffolding",
+      "name": "The actual rising chassis stops below a real obstructing ceiling",
+      "at": "2026-11-25T02:14:13.904514562Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper items, native vehicle condition/pose and server ticks; explicit fixture controls and receipt readers are test scaffolding",
+      "name": "Held vehicle refuses boarding parking cargo fleet and furniture movement",
+      "at": "2026-11-25T02:14:14.153596823Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper items, native vehicle condition/pose and server ticks; explicit fixture controls and receipt readers are test scaffolding",
+      "name": "Clearance restoration resumes the same already-paid cycle",
+      "at": "2026-11-25T02:14:14.409761635Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper items, native vehicle condition/pose and server ticks; explicit fixture controls and receipt readers are test scaffolding",
+      "name": "Current permission loss stops actual vertical motion without releasing its load",
+      "at": "2026-11-25T02:14:14.652056782Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper items, native vehicle condition/pose and server ticks; explicit fixture controls and receipt readers are test scaffolding",
+      "name": "Stopped load preserves height and rejects revoked lowering",
+      "at": "2026-11-25T02:14:14.907763956Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "IllegalStateException: Timed out waiting for actual workshop state or ordinary login; {f93c3e33-4471-48d6-a272-255cce413f53=true, 20e4366b-38ac-4276-9157-fa322cb05c17=true, 18c10f2e-a999-40a2-8249-96a4e6a2ac84=true, e4c63c1b-ff2b-4028-beb0-da20da1d86f6=true, 352240ab-f005-417f-b86e-3146522b5630=true, 616170ce-0127-4910-99e4-95ac78e24e75=true, lift_split_live=true, native_vehicle_live=false, furniture_permission=true}",
+      "name": "Ordinary reauthentication preserves the exact held pose without restarting motion",
+      "at": "2026-11-25T02:15:15.151009709Z",
+      "result": "FAIL"
+    },
+    {
+      "detail": "Unplaced QA furniture, parked QA vehicle and completed supplies remain only in the disposable clone; no held obligation remains",
+      "name": "Restore unchanged fixture and QA inventory while preserving native ownership receipts",
+      "at": "2026-11-25T02:15:15.270689374Z",
+      "result": "PASS"
+    }
+  ],
+  "failed_steps": [
+    "Ordinary reauthentication preserves the exact held pose without restarting motion"
+  ],
+  "unexecuted_steps": [
+    "A menu from the old session cannot restart the actual lift",
+    "An invalid held projection is removed without losing its durable load",
+    "Normal native reconciliation reconstructs the same held vehicle",
+    "Actual bounded lowering reaches supported ground and releases the native vehicle",
+    "Fresh boarding works after successful supported hoist release"
+  ],
+  "cleanup_complete": true,
+  "projection_state": {
+    "f93c3e33-4471-48d6-a272-255cce413f53": false,
+    "20e4366b-38ac-4276-9157-fa322cb05c17": false,
+    "18c10f2e-a999-40a2-8249-96a4e6a2ac84": false,
+    "e4c63c1b-ff2b-4028-beb0-da20da1d86f6": false,
+    "352240ab-f005-417f-b86e-3146522b5630": false,
+    "616170ce-0127-4910-99e4-95ac78e24e75": false,
+    "lift_split_live": false,
+    "native_vehicle_live": false,
+    "furniture_permission": true
+  },
+  "fixture_inspection": {
+    "allowed": true,
+    "occupied": [],
+    "entities": 0,
+    "inspected_blocks": 10045,
+    "bounds": [
+      6296,
+      219,
+      6296,
+      6337,
+      226,
+      6331
+    ]
+  },
+  "fixture_remains": false,
+  "normal_reauthentications": 1,
+  "qa_furniture": [
+    "f93c3e33-4471-48d6-a272-255cce413f53",
+    "20e4366b-38ac-4276-9157-fa322cb05c17",
+    "18c10f2e-a999-40a2-8249-96a4e6a2ac84",
+    "e4c63c1b-ff2b-4028-beb0-da20da1d86f6",
+    "352240ab-f005-417f-b86e-3146522b5630",
+    "616170ce-0127-4910-99e4-95ac78e24e75"
+  ],
+  "qa_vehicle": "dbbe0894-1af6-4afa-bba3-d34817828395",
+  "classification": "Actual exact-target Paper supplies, wear/effects, safe hoist, normal reauthentication and fresh snapshot-reader observations. Direct road-step inputs, test supplies/grants, positioning teleports and injected proof/menu events are explicit scaffolding; not native-client rendering/input or JVM power-loss certification."
+}

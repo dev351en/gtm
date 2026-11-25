@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "scenario": "ottoman",
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "java": "25.0.5.1",
+  "started_epoch_ms": 1795565793547,
+  "checks": [
+    {
+      "result": "PASS",
+      "at": "2026-11-25T00:16:33.554921435Z",
+      "name": "Inspect and journal the empty ottoman fixture before writing its floor",
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T00:16:33.711495128Z",
+      "name": "An existing unbound ottoman entitlement still places and mounts normally",
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T00:16:34.002380542Z",
+      "name": "Unbound ottoman retains one actual safe player seat without phantom storage",
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T00:16:34.215947799Z",
+      "name": "Optional real container binding preserves supplied contents and exposes both controls",
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T00:16:34.411266977Z",
+      "name": "Explicit Open storage callback opens the exact actual vanilla inventory",
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T00:16:34.608129531Z",
+      "name": "Removing and replacing the seat preserves storage and remote use is refused",
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T00:16:34.804018309Z",
+      "name": "Deferred Open storage rechecks permission before opening its actual container",
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T00:16:35.001579815Z",
+      "name": "A storage-bound ottoman still supplies its ordinary single seat",
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T00:16:35.207259541Z",
+      "name": "Disconnecting the optional binding leaves the real inventory and same entitlement",
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification."
+    },
+    {
+      "result": "PASS",
+      "at": "2026-11-25T00:16:35.419351456Z",
+      "name": "Restore all inspected blocks, supplied test cargo and original player state",
+      "detail": "1 unplaced stable QA entitlements remain only in this disposable copy. No currency is granted. Hard-kill rollback remains a stopped-copy/manual journal operation."
+    }
+  ],
+  "unexecuted_steps": [],
+  "fixture_inspection": {
+    "allowed": true,
+    "occupied_samples": [],
+    "inspected_blocks": 5887,
+    "entities": 0,
+    "explicitly_loaded_chunks": [],
+    "bounds": [
+      5496,
+      219,
+      5496,
+      5525,
+      226,
+      5525
+    ]
+  },
+  "fixture_remains": false,
+  "qa_grants": {
+    "ottoman_storage": "756b3fe5-2c36-3843-9195-c70176db80ac"
+  },
+  "classification": "Actual Paper effects with a normally authenticated protocol actor and explicitly injected QA setup/use. No native Java/Bedrock rendering, human-input or full-world qualification."
+}

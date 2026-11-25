@@ -1,0 +1,200 @@
+{
+  "status": "PASS",
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "java": "25.0.5.1",
+  "started_epoch_ms": 1795575042459,
+  "checks": [
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:42.966546067Z",
+      "name": "Inspect one empty chunk and journal its floor before any world writes"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:43.105135791Z",
+      "name": "Place five stable owned entitlements, real endpoints and the raised crane work strip"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:43.192292812Z",
+      "name": "Crane commissioning checks actual source, destination and under-beam clearance"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:43.309497774Z",
+      "name": "Remote pickup refuses before creating locks or changing supplied metadata"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:43.560843745Z",
+      "name": "Actual crane pickup empties one source and locks both real inventories"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:44.515100255Z",
+      "name": "Crane payload moves through real server ticks without immediate output"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:49.010202102Z",
+      "name": "Hoist arrival places the exact supplied metadata once in its real destination"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:49.230155906Z",
+      "name": "Completed receipt cannot automatically output again"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:49.863032680Z",
+      "name": "Changed hoist geometry stops movement and retains durable locked custody"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:50.309961789Z",
+      "name": "Removing the obstruction does not automatically resume a load"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:55.058920023Z",
+      "name": "Explicit current-owner continuation completes the original supplied load"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:55.262803229Z",
+      "name": "Unbound jack commissions separate existing owned storage contents"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:55.465312291Z",
+      "name": "Jack pickup refuses an occupied destination without debiting source"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:55.683441516Z",
+      "name": "Jack receives one supplied load and prevents container and entitlement bypasses"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:58.660748490Z",
+      "name": "On-foot input advances the original jack and its supplied payload incrementally"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:05.908876051Z",
+      "name": "Full jack and payload sweep stops before an actual wall"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:06.218634989Z",
+      "name": "Permission revocation stops pushing while both real endpoints remain locked"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:07.459406289Z",
+      "name": "Restoring access requires explicit fresh continuation"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:17.963577700Z",
+      "name": "Pushed jack arrives beside its commissioned destination without automatic output"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:18.163769946Z",
+      "name": "Unexpected destination contents refuse the output and keep custody locked"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:18.370980638Z",
+      "name": "Explicit physical unloading transfers exact item metadata once"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:18.573583588Z",
+      "name": "Released destination is the actual accessible vanilla inventory"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:18.775007849Z",
+      "name": "Original jack identity can still use its legacy fixed real-storage mode"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:18.958792726Z",
+      "name": "Bound jack exposes its unchanged vanilla inventory and refuses transport"
+    },
+    {
+      "detail": "Actual Paper world, custody, inventory metadata and server-tick effects. Stopped-only owner repositioning between explicit production pause/resume calls and PlayerInputEvent injections are declared QA setup, not native human input or rendered-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:19.159272378Z",
+      "name": "Persisted completed receipts retain no replayable payload or active lock"
+    },
+    {
+      "detail": "Five unplaced stable QA entitlements and bounded completed receipt metadata remain only in this disposable copy. No currency grant. No hard-kill or cross-file atomicity claim.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:19.196734375Z",
+      "name": "Restore inspected world and actor after all supplied cargo receipts resolve"
+    }
+  ],
+  "unexecuted_steps": [],
+  "fixture_inspection": {
+    "allowed": true,
+    "occupied_samples": [],
+    "chunk_previously_loaded": false,
+    "inspected_blocks": 1792,
+    "entities": 0,
+    "bounds": [
+      5680,
+      219,
+      5680,
+      5696,
+      226,
+      5696
+    ]
+  },
+  "fixture_remains": false,
+  "qa_grants": {
+    "crane": "3d2315d7-820b-3c0a-95b0-540c935acda2",
+    "crane-destination": "e5b3ecbe-ace3-3c95-b3b7-f3904a2fc067",
+    "jack-source": "39375738-f8d0-3aca-91c1-09915c50e00e",
+    "jack-destination": "51244447-775a-34a1-972c-d765667eb682",
+    "jack": "fa330ff6-2fc6-3bb2-8980-6b96dcfb51d5"
+  },
+  "motion": {
+    "jack_max_step": 0.030000000000654836,
+    "crane_max_step": 0.03499999999999659,
+    "stopped_owner_repositions": 6,
+    "crane_travel": 2.684999999999974,
+    "injected_input_events": 430,
+    "crane_moving_samples": 78,
+    "jack_travel": 9.99000000021806,
+    "jack_moving_samples": 333,
+    "jack_samples": 421
+  },
+  "classification": "Actual Paper supplied-item transfer and bounded motion, with a normally authenticated protocol actor and disclosed event injection and stopped-only owner repositioning. Snapshot reopen is a read-only persistence check, not a process-crash guarantee. No native Java/Bedrock rendering qualification."
+}

@@ -1,0 +1,49 @@
+{
+  "schema": "GTM_LOCAL_PLAYTEST_PROFILE_EVIDENCE_V1",
+  "profile": "public_local_workshop_v1",
+  "status": "STATIC_AND_PINNED_WORLD_FIXTURES_PASSED",
+  "test_count": 11,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "source_public_zip_sha256": "214a00a08acdb5f73fea52ef79cdfdf773551086d31f5f95725f559ad0802dc2",
+  "blocks_installed": 19,
+  "modified_chunks": [
+    [
+      -12,
+      -5
+    ],
+    [
+      -11,
+      -5
+    ]
+  ],
+  "paid_property_price_cents": 10000,
+  "price_scope": "Explicit local playtest pricing",
+  "road_profiles_enabled": 65,
+  "nonroad_taxi_courier_enabled": false,
+  "native_medical_enabled": true,
+  "known_external_revive_plugin_refused": true,
+  "admin_permissions_granted": [],
+  "native_java_client_verified": false,
+  "native_bedrock_client_verified": false,
+  "actual_profile_paper_startup": "Earlier ordinary-profile run passed23 flow checks but exposed two rejected obsolete bed records. Helper now emits no bed block entities; corrected fresh actual-Paper24-check rerun remains a separate root integration gate.",
+  "source_sha256": {
+    "tools/local_playtest_profile.py": "f1ad4f14814f1bdf16bcef4cfc89f364b2d10b7fe91c42deef6d99dcd2fe329b",
+    "tools/test_local_playtest_profile.py": "0592793327f7a0984e190651192227a55ba7481f93609d361246c81e0303b7c5",
+    "packaging/laptop/LOCAL_PLAYTEST_README.txt": "77fcaca6c12cb9dbfd228bc49199b8329dbe37dbfce04d2aa39c6b636060fbb4",
+    "docs/LOCAL_PLAYTEST_PROFILE.md": "b5a2ebf5e7aac63ec766954180e76fd3a4eb0810e41a721d32a1f53069182401",
+    "docs/reports/LOCAL_PLAYTEST_PROFILE_FIXTURES.log": "2bfe9994380e278215ec539a5ce40d55e07700ba3a9c360e53b1857067168a51"
+  },
+  "paper255_chunk_loader_inspection": {
+    "class": "net.minecraft.world.level.chunk.storage.SerializableChunkData",
+    "inspection_sha256": "526537afb68739691c74cf99cb3697dccf7483f6004b8fb6757b9cd69c2bab82",
+    "heightmaps": "read calls Heightmap.primeHeightmaps for missing status-required maps",
+    "lighting": "parse tests isLightOn tag presence plus starlight.light_version; patch removes validity markers and cached lighting"
+  },
+  "paper255_bed_registry_inspection": {
+    "server_jar_sha256": "f5cfa195ce74686a119cfde524ab80d930458b3a8ad24ef4f0c0a156b2a35855",
+    "inspection_sha256": "e5dfb63d728368cf81fddcc3e58824ec61d26d3c4cd488579b06b032406cf6eb",
+    "result": "BlockEntityTypeIds has no bed; BedBlock/AbstractBedBlock inherit HorizontalDirectionalBlock and define no block-entity factory. Preserve both red-bed block states; emit only the four actual container block entities."
+  }
+}

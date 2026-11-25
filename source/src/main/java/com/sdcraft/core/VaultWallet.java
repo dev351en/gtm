@@ -13,8 +13,11 @@ import org.bukkit.OfflinePlayer;
 /** Exposes the SD Craft cash wallet to Vault. The city bank stays private to SD Craft. */
 final class VaultWallet extends AbstractEconomy {
     private final Ledger ledger;
+    private final java.util.function.Predicate<org.bukkit.entity.Player> authenticated;
 
-    VaultWallet(Ledger ledger) { this.ledger = ledger; }
+    VaultWallet(Ledger ledger, java.util.function.Predicate<org.bukkit.entity.Player> authenticated) {
+        this.ledger = ledger; this.authenticated = authenticated;
+    }
 
     @Override public boolean isEnabled() { return true; }
     @Override public String getName() { return "SDCraft Wallet"; }
@@ -43,6 +46,8 @@ final class VaultWallet extends AbstractEconomy {
     private EconomyResponse transact(OfflinePlayer player, double amount, boolean credit) {
         UUID id = player.getUniqueId();
         if (!ledger.exists(id)) return failure(id, "Player has no SD Craft account");
+        if (player.isOnline() && (player.getPlayer() == null || !authenticated.test(player.getPlayer())))
+            return failure(id, "Player must authenticate before wallet transactions");
         try {
             long value = cents(amount);
             if (value == 0) return response(0, balance(id), ResponseType.SUCCESS, "");
@@ -90,8 +95,9 @@ final class VaultWallet extends AbstractEconomy {
     @Override public boolean createPlayerAccount(String name) { return createPlayerAccount(player(name)); }
     @Override public boolean createPlayerAccount(String name, String world) { return createPlayerAccount(name); }
     @Override public boolean createPlayerAccount(OfflinePlayer player) {
-        try { return ledger.register(player.getUniqueId()); }
-        catch (IOException | IllegalStateException e) { return false; }
+        // Identity validation and welcome balances belong to the authenticated
+        // join lifecycle. A third-party plugin must not reserve an offline name.
+        return ledger.exists(player.getUniqueId());
     }
     @Override public boolean createPlayerAccount(OfflinePlayer player, String world) {
         return createPlayerAccount(player);

@@ -1,0 +1,168 @@
+{
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "status": "PASS",
+  "fixture_remains": false,
+  "unexecuted_steps": [],
+  "checks": [
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:19.217663141Z",
+      "name": "Inspect empty equipment fixture before edits"
+    },
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:19.263169130Z",
+      "name": "Create isolated platform and preserve QA inventory"
+    },
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:19.365082750Z",
+      "name": "Native armor cannot remove survival Binding Curse"
+    },
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:19.465555519Z",
+      "name": "Creative armor swap preserves the replaced item"
+    },
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:20.715123560Z",
+      "name": "Native vest reduces a raw lethal hit before the DOWNED decision"
+    },
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:20.808009753Z",
+      "name": "An already-cancelled lethal event cannot create DOWNED state"
+    },
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:20.937142012Z",
+      "name": "Five native shotgun pellets produce one summed real damage event"
+    },
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:21.013820222Z",
+      "name": "Reload commits ammunition once to the exact held item"
+    },
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:23.508274760Z",
+      "name": "Reload completion never rewrites a newly held weapon"
+    },
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:23.620788676Z",
+      "name": "Legacy shotgun also delivers one complete pellet damage event"
+    },
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:23.746126848Z",
+      "name": "An owned wardrobe outfit uses all three real equipment slots"
+    },
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:23.818317920Z",
+      "name": "Revoked wardrobe removal keeps other armor and paid ownership"
+    },
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:23.908116792Z",
+      "name": "Clicking locked clothing opens recovery while the module is disabled"
+    },
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:24.020486177Z",
+      "name": "Disabled wardrobe recovery cannot retain or duplicate physical pieces"
+    },
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:24.107776044Z",
+      "name": "Deferred wardrobe purchase callback rechecks current permission"
+    },
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:24.212061994Z",
+      "name": "Queue medical supply checkout before revoking permission"
+    },
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:24.307957301Z",
+      "name": "Deferred medical supply checkout rejects revoked permission without payment or delivery"
+    },
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:24.408570119Z",
+      "name": "Queue medical supply checkout before revoking module configuration"
+    },
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:24.508668878Z",
+      "name": "Deferred medical supply checkout rejects revoked module configuration without payment or delivery"
+    },
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:24.609707863Z",
+      "name": "Queue roadside supply checkout before revoking permission"
+    },
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:24.708091209Z",
+      "name": "Deferred roadside supply checkout rejects revoked permission without payment or delivery"
+    },
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:24.808435462Z",
+      "name": "Queue roadside supply checkout before revoking module configuration"
+    },
+    {
+      "detail": "Actual Paper API and explicitly injected events; no native-client rendering claim",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:24.907820245Z",
+      "name": "Deferred roadside supply checkout rejects revoked module configuration without payment or delivery"
+    },
+    {
+      "detail": "One paid QA cosmetic entitlement may remain only in the disposable clone",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:25.019796360Z",
+      "name": "Restore fixture, inventory, permission and config"
+    }
+  ],
+  "fixture": {
+    "allowed": true,
+    "bounds": [
+      5040,
+      219,
+      5040,
+      5049,
+      225,
+      5049
+    ],
+    "entities": 0,
+    "occupied": [],
+    "blocks": 486
+  },
+  "classification": "Actual Paper server API and injected-event regression checks; normally authenticated synthetic player; no native-client rendering or production qualification",
+  "java": "25.0.5.1"
+}

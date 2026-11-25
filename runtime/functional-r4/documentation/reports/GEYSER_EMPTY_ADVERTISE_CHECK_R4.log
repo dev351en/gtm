@@ -1,0 +1,5 @@
+Pinned Geyser SHA-256: 8682df3e77fd4a7e745ed671fbbb727aca32a77d89c97a50f5f77f20fdb191fa
+Java 25 direct invocation of the private static addresses(Stream) method using the existing Paper dependency cache.
+PASS pinned Geyser 1308 addresses(empty property split) returns []
+PASS blank entries removed and identical real address deduplicated
+No NetherNetServer instance, listener, signaling connection or Minecraft client was created.

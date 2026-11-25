@@ -1,3 +1,46 @@
+# GTM / EXPECT SDCRAFT
+
+## Current checkpoint — 25 November 2026
+
+This branch preserves the **SDCraftCore `1.0.3-r4-functional-candidate` compiled runtime**, native **128×128** asset packs, and its verification records. It also adds a laptop connector for the **existing Daytona server**. The corresponding latest core/launcher source was not recovered; the existing `source/` tree is retained as its earlier published checkpoint. Building that tree does **not** reproduce the recovered `1.0.3` binary.
+
+### Choose the server you want to play
+
+| Your intended server | Entry point | What it does |
+| --- | --- | --- |
+| The same existing Daytona server and its saved progress | [Start-Daytona.bat](Start-Daytona.bat), also available as [connect_daytona_server.bat](connect_daytona_server.bat) | Opens an SSH connection to the existing running server; reports READY after a real Minecraft status response and matching ping. |
+| The separately saved portable laptop world | `Start-GTM-Java-Only.bat` inside `GTM_128_Laptop_Playable_26.3.zip` | Starts the bundled local Paper server and the dated public-world/workshop copy. It does not connect to Daytona. |
+
+For Daytona, read [the laptop connection guide](docs/DAYTONA_LAPTOP_CONNECTION.md). The connector requires Python 3.10+, Windows OpenSSH Client, and the owner's existing local Daytona API credential. Keep credentials private. Once READY appears, open your matching Minecraft Java Edition client and join **`127.0.0.1:25565`**. The script does not open/sign in to the Minecraft client, deploy the recovered update, start a stopped sandbox, or restart Paper.
+
+**The existing Daytona server must already be running the intended update. Pushing files to GitHub does not install them there.** Live Daytona deployment and a native Windows connection have not been verified. Do not run the local portable server and the Daytona connector simultaneously on port 25565.
+
+### What this repository contains now
+
+- [Recovered runtime payload](runtime/functional-r4/README.md): exact compiled core, Java/Bedrock art packs, mapping files, optional display bridge with its corresponding source/license, and laptop launcher artifacts.
+- [Payload manifest](runtime/functional-r4/manifest.json): exact file sizes, SHA-256 values, provenance, and limits.
+- [Editable native128 artwork payload](creative/delivery/), separate from the engine source.
+- [Recovery/publication record](docs/FUNCTIONAL_BUILD_RECOVERY.md) and preserved [functional runtime report](runtime/functional-r4/documentation/FUNCTIONAL_RUNTIME_R4_REPORT.md).
+- Earlier repository source, tests, tooling, and history, retained without claiming they rebuild the recovered binary.
+
+**GitHub “Download ZIP” is a repository download, not an assembled playable server.** It contains the preserved runtime payload but does not include the complete laptop world, Paper installation, Windows Java runtime, or a configured private Daytona export. Large payloads may be stored as verified chunks. Assemble them with `python tools/assemble_functional_runtime.py --output dist/functional-r4`; see [the runtime guide](runtime/functional-r4/README.md#assemble-downloadable-artifacts). The release workflow can create tag `gtm-functional-r4-1.0.3` only after its checks pass; this README does not claim that release already exists. The complete owner package is named `GTM_128_Laptop_Playable_26.3.zip`; it is a separate previously saved deliverable, not a GitHub Release download.
+
+### Verification and remaining work
+
+The preserved evidence records **644 JUnit tests in 79 suites plus 155 domain assertions** for the lost source checkout, and an actual Linux Paper startup/authentication/resource-pack/clean-stop run. Those historical results are tied to the recorded artifact hashes; this publication did not rebuild the missing source.
+
+The new Daytona connector passed **39 offline tests** using synthetic responses/processes. They cover credential handling, permitted request scope, status parsing, readiness failures, and cleanup of its own SSH process. They do not establish native Windows execution or a live connection to Daytona.
+
+The runtime includes traditional, electric, and cargo auto-rickshaws. Functional asset behavior depends on the enabled profile and appropriate in-game property, backing blocks, supplies, or commissioned routes. Native Java/Bedrock rendering, every model in every client, the complete furnished city/campaign, and current private-server compatibility remain open. See the [functional inventory](runtime/functional-r4/documentation/FUNCTIONALITY_INVENTORY_R4.md).
+
+**Do not copy the fresh workshop configuration over an existing server.** It changes prices, property parcels, service locations, feature flags, and limits. Preserve the target's world, accounts, permissions, authentication, keys, and progress, and inspect the [runtime installation boundaries](runtime/functional-r4/README.md#existing-server-installation-boundary) before any update.
+
+---
+
+## Historical README — preserved earlier checkpoint
+
+The content below is retained for project history. Its old download hashes, test counts, and deployment statements describe that earlier checkpoint; use the current section and recovered payload manifest for this publication.
+
 # EXPECT SDCRAFT
 
 EXPECT SDCRAFT is a GTA-inspired Minecraft city-roleplay server for Paper 26.3.

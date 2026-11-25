@@ -1,0 +1,193 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Task :compileJava
+/workspace/scratch/d7d343b39c16/gtm/source/src/main/java/com/sdcraft/core/GtmFurnitureMobility.java:243: warning: [removal] EntityState in TeleportFlag has been deprecated and marked for removal
+            boolean seat=projection.seat().teleport(seat(owned,next),TeleportFlag.EntityState.RETAIN_PASSENGERS);
+                                                                                 ^
+/workspace/scratch/d7d343b39c16/gtm/source/src/main/java/com/sdcraft/core/GtmFurnitureMobility.java:243: warning: [removal] RETAIN_PASSENGERS in EntityState has been deprecated and marked for removal
+            boolean seat=projection.seat().teleport(seat(owned,next),TeleportFlag.EntityState.RETAIN_PASSENGERS);
+                                                                                             ^
+/workspace/scratch/d7d343b39c16/gtm/source/src/main/java/com/sdcraft/core/GtmFurnitureRescueMobility.java:285: warning: [removal] EntityState in TeleportFlag has been deprecated and marked for removal
+            boolean seat=session.patient==null||projection.seat().teleport(marker(owned,next),TeleportFlag.EntityState.RETAIN_PASSENGERS);
+                                                                                                          ^
+/workspace/scratch/d7d343b39c16/gtm/source/src/main/java/com/sdcraft/core/GtmFurnitureRescueMobility.java:285: warning: [removal] RETAIN_PASSENGERS in EntityState has been deprecated and marked for removal
+            boolean seat=session.patient==null||projection.seat().teleport(marker(owned,next),TeleportFlag.EntityState.RETAIN_PASSENGERS);
+                                                                                                                      ^
+/workspace/scratch/d7d343b39c16/gtm/source/src/main/java/com/sdcraft/core/GtmFurnitureRescueMobility.java:368: warning: [removal] EntityState in TeleportFlag has been deprecated and marked for removal
+    private boolean projectTow(Tow tow,Point point){internalMove=true;try{return tow.carrier.teleport(towMarker(tow.carrier.getWorld(),point),TeleportFlag.EntityState.RETAIN_PASSENGERS)&&tow.ring.teleport(towRing(tow.ring.getWorld(),point));}catch(RuntimeException failure){return false;}finally{internalMove=false;}}
+                                                                                                                                                          ^
+/workspace/scratch/d7d343b39c16/gtm/source/src/main/java/com/sdcraft/core/GtmFurnitureRescueMobility.java:368: warning: [removal] RETAIN_PASSENGERS in EntityState has been deprecated and marked for removal
+    private boolean projectTow(Tow tow,Point point){internalMove=true;try{return tow.carrier.teleport(towMarker(tow.carrier.getWorld(),point),TeleportFlag.EntityState.RETAIN_PASSENGERS)&&tow.ring.teleport(towRing(tow.ring.getWorld(),point));}catch(RuntimeException failure){return false;}finally{internalMove=false;}}
+                                                                                                                                                                      ^
+/workspace/scratch/d7d343b39c16/gtm/source/src/main/java/com/sdcraft/core/GtmFurnitureCameras.java:137: warning: [removal] matchColor(@org.jetbrains.annotations.NotNull Color) in MapPalette has been deprecated and marked for removal
+    private byte colour(int rgb){if(palette.size()>2048)palette.clear();return palette.computeIfAbsent(rgb,color->MapPalette.matchColor(new java.awt.Color(color)));}
+                                                                                                                            ^
+/workspace/scratch/d7d343b39c16/gtm/source/src/main/java/com/sdcraft/core/GunEngine.java:216: warning: [removal] valueOf(@org.jetbrains.annotations.NotNull String) in Sound has been deprecated and marked for removal
+            p.getWorld().playSound(eye, Sound.valueOf(type.soundName), 1.0f, type.pitch);
+                                             ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+8 warnings
+
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources UP-TO-DATE
+> Task :testClasses
+
+> Task :test
+
+WorkshopSupplyProofTest > malformedVersionSequenceRecipeAndNonfiniteOdometerFailClosed() PASSED
+
+WorkshopSupplyProofTest > exactNativeProofBindsOwnerMachineVehicleOperationAndOdometer() PASSED
+
+FleetRuntimeTest > routeFingerprintPinsWorldGeometryAndOrdering() PASSED
+
+FleetRuntimeTest > routeRejectsDiscontinuousVerticalAndNonFiniteSegments() PASSED
+
+FleetRuntimeTest > restartRetainsFleetConsentReservationAndCanonicalRoute() PASSED
+
+FleetRuntimeTest > sameTripReplayIsIdempotentButChangedActorOrRouteIsRejected() PASSED
+
+FleetRuntimeTest > corruptedFleetSnapshotIsPreservedAndFailsClosed() PASSED
+
+FleetRuntimeTest > checkpointNeverPublishesBackwardsOrOutOfRouteProgress() PASSED
+
+FleetRuntimeTest > releasedTripCannotReplayMovementOrClaimAnotherVehicle() PASSED
+
+FleetRuntimeTest > curvedManagedJourneySteersInsteadOfSnappingToWaypoints() PASSED
+
+FleetRuntimeTest > routeDeviationAndWrongTransportModeCannotInvokeRoadAutopilot() PASSED
+
+FleetRuntimeTest > blockedMovementDoesNotMakeDeliveryProgressOrConsumeDistance() PASSED
+
+FleetRuntimeTest > failedSnapshotDoesNotPublishConsentOrReservation() PASSED
+
+FleetRuntimeTest > cancelledTripRequiresReleaseAndCannotResume() PASSED
+
+FleetRuntimeTest > straightManagedJourneyConsumesEnergyAndArrivesThroughAcceptedSteps() PASSED
+
+FleetRuntimeTest > oneVehicleCannotBeReservedByConcurrentTrips() PASSED
+
+FleetRuntimeTest > fleetRequiresRealOwnerConsentAndExplicitService() PASSED
+
+FleetRuntimeTest > boundedProjectionCannotJumpToFartherRouteCrossing() PASSED
+
+FleetRuntimeTest > pauseAndArrivalKeepReservationUntilExplicitSettlementRelease() PASSED
+
+FleetRuntimeTest > staleWriterCannotStealAReservedVehicle() PASSED
+
+TransportRuntimeTest > exhaustedAircraftCanOnlyDescendWithoutPoweredYawOrHorizontalMotion() PASSED
+
+TransportRuntimeTest > boatMotionNeverUsesJumpAsVerticalThrust() PASSED
+
+TransportRuntimeTest > CabCoachAndCableInfrastructureRolesCannotBeConfused() PASSED
+
+TransportRuntimeTest > allEightySevenModelsHaveExplicitModesAndRetainNativeDimensions() PASSED
+
+TransportRuntimeTest > helicopterClimbsDescendsAndYawsWhileHovering() PASSED
+
+TransportRuntimeTest > allVanillaRailShapesHaveConnectedFiniteEndpointsAndNoPoweredDependency() PASSED
+
+TransportRuntimeTest > rejectedFlightDistanceAndWrongModeFailBeforeStateChange() PASSED
+
+TransportRuntimeTest > failedCargoJournalDoesNotPublishAContainerBinding() PASSED
+
+TransportRuntimeTest > damagedTransportHasReducedPerformance() PASSED
+
+TransportRuntimeTest > blockedWaterMotionPaysOnlyIdleAndActualAcceptedTravel() PASSED
+
+TransportRuntimeTest > guideProgressFollowsSurveyedPolylineAndSuspensionOffset() PASSED
+
+TransportRuntimeTest > existingVehicleSchemaCanPersistEveryModeWithoutChangingIdentity() PASSED
+
+TransportRuntimeTest > corruptedTransportStateIsPreservedAndRejected() PASSED
+
+TransportRuntimeTest > routeAndConsistOwnershipAreNotInferredFromModelOrNames() PASSED
+
+TransportRuntimeTest > incompleteAndDiscontinuousRouteSurveysAreRejected() PASSED
+
+TransportRuntimeTest > cabinGripContactIsLimitedToItsExplicitSameOwnerCableRoute() PASSED
+
+TransportRuntimeTest > articulatedPartsAreBoundedAndUseRealIndependentAxes() PASSED
+
+TransportRuntimeTest > registryRoundTripRetainsSurveyBindingsAndActualContainerAddress() PASSED
+
+TransportRuntimeTest > oneVanillaContainerCannotBackTwoVehicles() PASSED
+
+TransportRuntimeTest > waterSteeringNeedsTravelAndReversesWithDirection() PASSED
+
+TransportRuntimeTest > finalFlightFuelCannotPayForAnUnfundedClimb() PASSED
+
+TransportRuntimeTest > hoverConsumesEnergyWithoutInventingTravel() PASSED
+
+TransportRuntimeTest > staleRegistryWriterCannotReplaceNewerRoutes() PASSED
+
+TransportRuntimeTest > cyclicAndBranchingConsistsAreRejectedWithoutChangingExistingLinks() PASSED
+
+VehicleAdmissionCursorTest > twoPermanentlyBlockedOldRecordsCannotStarveALaterHeldVehicle() PASSED
+
+VehicleAdmissionCursorTest > activeOrRemoteRecordsDoNotConsumeTheTwoAttemptAllowance() PASSED
+
+VehicleAdmissionCursorTest > ChangedSnapshotAndEmptyStoreCannotLeaveAnInvalidOrPermanentCursor() PASSED
+
+VehicleAdmissionCursorTest > AdmissionResultsAreImmutableAndBudgetsRejectUnboundedWork() PASSED
+
+VehicleAdmissionCursorTest > everyRecordInTheMaximumStoreGetsOneBoundedAttemptBeforeRepetition() PASSED
+
+VehicleHoistGeometryTest > actualPostsLeaveCenterBayAndCrossbarStillBlocks() PASSED
+
+VehicleHoistGeometryTest > actualArmProjectionTopTracksHeldVehicleBase() PASSED
+
+VehicleHoistGeometryTest > boundedMotionCannotChangeHorizontalPoseOrPassRetainedHeight() PASSED
+
+VehicleHoistGeometryTest > nativeChassisOverlappingActualPostOrHeaderStillRefusesReconstruction() PASSED
+
+VehicleHoistGeometryTest > completeRotatedVehicleMustFitTheAuthoredBay() PASSED
+
+VehicleHoistGeometryTest > supportArmMayTouchTheChassisButCannotBeReconstructedThroughIt() PASSED
+
+VehicleHoistGeometryTest > emptyUnheldNativeChassisCanReconstructInsideAllFourAuthoredBayOrientations() PASSED
+
+VehicleMaintenancePhysicsTest > wearAndEveryEffectAreBoundedAndFullyServiceable() PASSED
+
+VehicleMaintenancePhysicsTest > increasedRollingCostCannotCreateOneFreeFinalTick() PASSED
+
+VehicleMaintenancePhysicsTest > oilServiceChangesEngineEfficiencyWithoutRefillingVehicleEnergy() PASSED
+
+VehicleMaintenancePhysicsTest > actualWornProposalAndAcceptanceUseTheSameFiniteEnergyRate() PASSED
+
+VehicleMaintenancePhysicsTest > freshVehiclesExactlyPreserveTheExistingHandlingAndEnergyRules() PASSED
+
+VehicleMaintenancePhysicsTest > balancingChangesRealSteeredHeadingAndRestoresSpeedLimit() PASSED
+
+VehicleMaintenancePhysicsTest > realAcceptedTravelAloneChangesTheOdometerAndWear() PASSED
+
+VehicleMaintenancePhysicsTest > inflationRestoresAccelerationBrakingAndEnergyEfficiency() PASSED
+
+VehicleMaintenancePhysicsTest > tyreReplacementRestoresActualBrakeDistanceAndSpeedLimit() PASSED
+
+VehicleWorkshopStoreTest > creditAndRestartDoNotRepeatSuppliesOrMaintenance() PASSED
+
+VehicleWorkshopStoreTest > oneFuelItemFundsOneRetainedLiftCycleAcrossRestart() PASSED
+
+VehicleWorkshopStoreTest > skippedWeldProofIsRefusedBeforeNativeHealthMutation() PASSED
+
+VehicleWorkshopStoreTest > exhaustedAndFullLiftSupplyAreFinite() PASSED
+
+VehicleWorkshopStoreTest > distinctVehicleCannotBorrowOccupiedLiftOrOwnerSupply() PASSED
+
+VehicleWorkshopStoreTest > supplyProofCannotChangeRecipeOrLiftTarget() PASSED
+
+VehicleWorkshopStoreTest > contradictoryAndSkippedSequencesFailClosed() PASSED
+
+VehicleWorkshopStoreTest > liftReleaseMustMatchOriginalWorldPoseAndIdentity() PASSED
+
+VehicleWorkshopStoreTest > baselineNeverMovesPastRealOdometerOrIntoAnotherOwner() PASSED
+
+[Incubating] Problems report is available at: file:///workspace/scratch/d7d343b39c16/gtm/source/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 15s
+5 actionable tasks: 4 executed, 1 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.2.1/userguide/configuration_cache_enabling.html

@@ -1,0 +1,39 @@
+{
+  "scope": "Actual completed paidfestival129-check Paper26.3 build255 cohort; Geyser initialization observed, no native rendered client connected",
+  "run": "20261125T023919338159Z",
+  "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+  "java_pack_sha256": "5b5e132a2c670b07e8c0c389e086bd2dee1002ed7de72a6bdcd93acc6d6cba9a",
+  "bedrock_pack_sha256": "d02cc8f41f6f97799dedab824b6fd23049c01556475e0031a50824543b507aab",
+  "display_mapping_sha256": "c9e7b290e689b4cc77862d68bce7fe3c0c02e0b4aaa748eaaed60d8f0965cc09",
+  "world_display_mappings": 1934,
+  "pack_global_bedrock_identifiers": 3575,
+  "runtime_registered_custom_items": 3576,
+  "log_sha256": "4ff5c44b77cc70cec9f9d92b72c4c81cd720ab0d4256ec2d5f836e6f48750b52",
+  "initialization_lines": [
+    "[02:39:46] [Server thread/INFO]: [Geyser-Spigot] [geyserdisplayentity] Loaded EntityTypes: geyser:item_display",
+    "[02:39:46] [Server thread/INFO]: [Geyser-Spigot] [geyserdisplayentity] Loaded EntityTypes: geyser:block_display",
+    "[02:39:49] [Server thread/INFO]: [SDCraftCore] SDCraftCore loaded: secure ledger, NPC service, transport, crime, medical and duty workflows. Check README for limitations.",
+    "[02:39:51] [Server thread/INFO]: [Geyser-Spigot] Registered 199 custom block overrides.",
+    "[02:39:51] [Server thread/INFO]: [Geyser-Spigot] Registered 2 custom block item overrides.",
+    "[02:39:51] [Server thread/INFO]: [Geyser-Spigot] Registered 7 custom blocks.",
+    "[02:39:53] [Server thread/INFO]: [Geyser-Spigot] Registered 3576 custom items",
+    "[02:39:54] [Server thread/INFO]: [Geyser-Spigot] Registered 1 custom entities",
+    "[02:39:54] [Server thread/INFO]: [Geyser-Spigot] Done (4.247s)! Run /geyser help for help!",
+    "[02:39:54] [Server thread/INFO]: Done (20.438s)! For help, type \"help\""
+  ],
+  "optional_metrics_disabled": {
+    "global_bstats": true,
+    "floodgate_independent_bstats": true,
+    "faststats": true
+  },
+  "via_proxy_own_update_disabled": true,
+  "embedded_via_version_update_disabled_by_actual_public_lifecycle_setter": true,
+  "command_logging_setting": "commands.log=false",
+  "authentication_arguments_observed_in_this_log": false,
+  "bedrock_long_path_warnings": 0,
+  "observed_network_limit": "Geyser skin API DNS resolution warnings occurred; native Bedrock authentication/rendering was not tested",
+  "skin_api_warning_count": 8,
+  "harness_bootstrap_scope": "This completed cohort used the existing ordinary TLS discovery bootstrap without metadata substitution/authentication changes. A separate fresh cohort was later blocked at discovery before Paper and contributes no gameplay result; remaining Java-only gameplay excludes crossplay startup and warmup. Harness bootstrap is excluded from the delivered package.",
+  "native_java_client_verified": false,
+  "native_bedrock_client_verified": false
+}

@@ -1,0 +1,205 @@
+{
+  "status": "PASS",
+  "map_id": 210,
+  "fixture_inspection": {
+    "allowed": true,
+    "occupied": [],
+    "entities": 0,
+    "inspected_blocks": 16200,
+    "bounds": [
+      5896,
+      219,
+      5896,
+      5941,
+      227,
+      5941
+    ]
+  },
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "classification": "Actual Paper two-client camera sampling and consented case effects; protocol clients have no native renderer. Recording MapCanvas, temporary surveyed privacy record, time shift and fresh store reader are explicit scaffolding, not native screen or hard-power-loss evidence.",
+  "unexecuted_steps": [],
+  "checks": [
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "Inspect and journal the bounded civic fixture before any edits",
+      "at": "2026-11-25T01:03:54.577989610Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "Place two real owned civic models and journal actual map book and ink supplies",
+      "at": "2026-11-25T01:03:54.694861226Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "Commission a camera from the real owner eye position through the furniture command",
+      "at": "2026-11-25T01:03:55.022626120Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "Actual loaded red blocks appear in the native128 progressive feed within its work budget",
+      "at": "2026-11-25T01:03:56.649393091Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "Changing real world blocks changes the subsequent camera frame",
+      "at": "2026-11-25T01:04:00.145732478Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "The current authenticated second player appears at its real projected body position",
+      "at": "2026-11-25T01:04:03.644349118Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "Moving the real second player clears its previous camera silhouette",
+      "at": "2026-11-25T01:04:07.156071645Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "Current permission loss clears the feed and foreign accounts receive only paused pixels",
+      "at": "2026-11-25T01:04:07.402068543Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "Moving away from the real wall clears previously visible pixels",
+      "at": "2026-11-25T01:04:07.665380905Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "Actual camera control opens and queues a bounded direction change",
+      "at": "2026-11-25T01:04:07.893124739Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "The camera menu turns the persisted viewpoint and preserves its original map identity",
+      "at": "2026-11-25T01:04:08.164073727Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "A newly private native property inside the view clears the real monitor",
+      "at": "2026-11-25T01:04:08.406856507Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "Ordinary owner reauthentication cannot resume the old surveillance session",
+      "at": "2026-11-25T01:04:09.144147282Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "A fresh store reader retains exact commissioned point and map identities",
+      "at": "2026-11-25T01:04:09.409934912Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "The kiosk records ordinary self identity without granting third-party authority",
+      "at": "2026-11-25T01:04:09.644932757Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "A requested booking creates no case before actual target consent",
+      "at": "2026-11-25T01:04:09.896962048Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "Current police permission loss rejects an already requested consent",
+      "at": "2026-11-25T01:04:10.144593031Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "A real intervening wall rejects current consent line of sight",
+      "at": "2026-11-25T01:04:10.400689884Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "Moving the consenting account away rejects the queued booking",
+      "at": "2026-11-25T01:04:10.645813483Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "A newly private native corridor rejects queued third-party booking",
+      "at": "2026-11-25T01:04:10.903302678Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "The finite consent deadline is checked at actual acceptance time",
+      "at": "2026-11-25T01:04:11.150818627Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "Normal target logout cancels pending consent without creating an account record",
+      "at": "2026-11-25T01:04:11.393677516Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "A normally reauthenticated target cannot accept consent from its former session",
+      "at": "2026-11-25T01:04:11.643088757Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "An actual nearby non-OP account explicitly accepts and creates exact game case facts",
+      "at": "2026-11-25T01:04:11.902303029Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "A queued export and an open case menu lose access when police permission is revoked",
+      "at": "2026-11-25T01:04:12.145129825Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "The authorized case export consumes one real book and ink and delivers actual written facts",
+      "at": "2026-11-25T01:04:12.392880308Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "Repeated export and replay of the existing receipt create no duplicate report or debit",
+      "at": "2026-11-25T01:04:12.653437961Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "Malformed export proof fails closed and is retained without another supply debit",
+      "at": "2026-11-25T01:04:12.899348123Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Actual Paper commands, supplied items, menus, current players/world sampling and native state; property/clock/recording-canvas fixtures are disclosed scaffolding",
+      "name": "A fresh store reader retains exact accepted cases and their single export receipts",
+      "at": "2026-11-25T01:04:13.143300100Z"
+    },
+    {
+      "result": "PASS",
+      "detail": "Only unplaced QA entitlements, their map identity and fictional case receipts remain in the disposable copy; no fixture or unresolved supply proof remains",
+      "name": "Restore inspected blocks temporary native property permissions and both QA inventories",
+      "at": "2026-11-25T01:04:13.450341269Z"
+    }
+  ],
+  "fixture_remains": false,
+  "normal_reauthentications": 2
+}

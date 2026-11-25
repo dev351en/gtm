@@ -47,7 +47,7 @@ final class GtmFinishes implements Listener {
     }
 
     private boolean allowed(Player p) {
-        return plugin.getConfig().getBoolean("gtm.experimental-finishes") && p.hasPermission("gtm.finishes")
+        return plugin.isAuthenticated(p) && plugin.getConfig().getBoolean("gtm.experimental-finishes") && p.hasPermission("gtm.finishes")
             && ledger.exists(p.getUniqueId());
     }
 

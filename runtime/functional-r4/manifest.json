@@ -1,0 +1,1366 @@
+{
+  "schema": "GTM_RECOVERED_FUNCTIONAL_RUNTIME_V1",
+  "version": "1.0.3-r4-functional-candidate",
+  "minecraft_version": "26.3",
+  "paper_build": 255,
+  "java_version": 25,
+  "design_language": "INDRAPRASTHA_128_V1",
+  "scope": "Recovered immutable binary, render asset, launcher, license and evidence payload; not an assembled server or a private-world updater.",
+  "path_rules": {
+    "files_path": "Output path relative to runtime payload root; default source is runtime/functional-r4/{path}.",
+    "source_repo_path": "Optional repository-root-relative source for an unsplit file.",
+    "parts_path": "Repository-root-relative chunk input; reconstruct in listed order and verify every chunk plus full reconstructed bytes.",
+    "artwork": "Optional separate artwork output record with path,bytes,sha256 and source_repo_path or parts. It is not engine/launcher source."
+  },
+  "files": [
+    {
+      "path": "plugins/SDCraftCore-1.0.3-r4-functional-candidate.jar",
+      "bytes": 2693692,
+      "sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+      "role": "java_runtime",
+      "required_for_java_payload": true
+    },
+    {
+      "path": "resourcepacks/GTM_Local_Java.zip",
+      "bytes": 16722227,
+      "sha256": "5b5e132a2c670b07e8c0c389e086bd2dee1002ed7de72a6bdcd93acc6d6cba9a",
+      "role": "java_runtime",
+      "required_for_java_payload": true,
+      "sha1": "717ac30ea44352a14d6e53d5d93ea53d01d0befc",
+      "parts": [
+        {
+          "path": "runtime/functional-r4/parts/GTM_Local_Java.zip.001",
+          "bytes": 7500000,
+          "sha256": "5563c06a9b1125552947a9ef0d57bb7552ffdfab0169336e97a48586118eced5",
+          "git_sha": "a95006eec687335cd5dac42a80c5250040e9c8d3"
+        },
+        {
+          "path": "runtime/functional-r4/parts/GTM_Local_Java.zip.002",
+          "bytes": 7500000,
+          "sha256": "8e3c09e8b4991b368e90d70487834995972840edc595948f3e720b72fa47ad81",
+          "git_sha": "c470779611877a9baa50de8f4017ff00bda7353f"
+        },
+        {
+          "path": "runtime/functional-r4/parts/GTM_Local_Java.zip.003",
+          "bytes": 1722227,
+          "sha256": "dfdeb5f0b8850d1733b423aac548679dedadc270dcbbf97192f2387a8ae5cf29",
+          "git_sha": "6efb63deaa9f26060faa3393232e4ee588e294c0"
+        }
+      ],
+      "git_sha": "27552c3baa289750141e4fb48f51f405fbfd1de8"
+    },
+    {
+      "path": "plugins/Geyser-Spigot/packs/GTM_Local_Bedrock.mcpack",
+      "bytes": 17044733,
+      "sha256": "d02cc8f41f6f97799dedab824b6fd23049c01556475e0031a50824543b507aab",
+      "role": "optional_bedrock",
+      "required_for_java_payload": false,
+      "parts": [
+        {
+          "path": "runtime/functional-r4/parts/GTM_Local_Bedrock.mcpack.001",
+          "bytes": 7500000,
+          "sha256": "3016d41141561ef075e9613b1bfb49531fbf6a542d439077b3bb818d9797dbb6",
+          "git_sha": "4357babb93859875467d32571f7df2ca580ba721"
+        },
+        {
+          "path": "runtime/functional-r4/parts/GTM_Local_Bedrock.mcpack.002",
+          "bytes": 7500000,
+          "sha256": "9fb1050ca150a403331252b2995bf88d8b88354c6e65ccf8bc4cd2d985af45f8",
+          "git_sha": "1d39d1aca203584cbc5c3a22df37ce9fd9c9d720"
+        },
+        {
+          "path": "runtime/functional-r4/parts/GTM_Local_Bedrock.mcpack.003",
+          "bytes": 2044733,
+          "sha256": "f00bca449449d194e3521481d265368e8fe3c4904a1e74e7a9fa5e172cad9020",
+          "git_sha": "07a2ea964da4806dea114efcabe541d819748039"
+        }
+      ],
+      "git_sha": "c39beca06678a13aa99cdbeaa6f779ad2f34ff90"
+    },
+    {
+      "path": "plugins/Geyser-Spigot/custom_mappings/gtm_native128.json",
+      "bytes": 846812,
+      "sha256": "7ee03be5ee70bf21512cad88f3085cd3ad7dc46470623227ae23cbe46567d540",
+      "role": "optional_bedrock",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "plugins/Geyser-Spigot/extensions/GeyserDisplayEntity-1.0.14-gtm-b1308-r1.jar",
+      "bytes": 46311,
+      "sha256": "5c277cb83ebb36141a7dfcff979fa128a93af4c9c173aae6942b1c7237255047",
+      "role": "optional_bedrock",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "plugins/Geyser-Spigot/extensions/geyserdisplayentity/Mappings/gtm.yml",
+      "bytes": 417617,
+      "sha256": "c9e7b290e689b4cc77862d68bce7fe3c0c02e0b4aaa748eaaed60d8f0965cc09",
+      "role": "optional_bedrock",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "licenses/GeyserDisplayEntity-corresponding-source.zip",
+      "bytes": 37088,
+      "sha256": "0898e89a89ca322e40901115d1b5b66af698f48fd9d36739f4bc638233aa782a",
+      "role": "optional_bedrock",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "licenses/GeyserDisplayEntity-LICENSE.txt",
+      "bytes": 34523,
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+      "role": "optional_bedrock",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "launcher/gtm-launcher.jar",
+      "bytes": 33502,
+      "sha256": "904de2c6394bfd20b00152a28936a520e9e1dba8e8dec05633ee09b6f47851b1",
+      "role": "partial_local_launcher",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "Start-GTM.bat",
+      "bytes": 741,
+      "sha256": "9a903ca91b51af901d2a3ac57fbd94d6847c8a515624f0d5850fe6101bdf076f",
+      "role": "partial_local_launcher",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "Start-GTM-Java-Only.bat",
+      "bytes": 72,
+      "sha256": "172c8b74742ef9517a2edaf507017a5c7b547136c0f2278c67096365e581dec1",
+      "role": "partial_local_launcher",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "Start-GTM.sh",
+      "bytes": 369,
+      "sha256": "5bc0dca19dcb05f40ed8976606fbee6aefb5668ad485cb15b6915b0e4184fb62",
+      "role": "partial_local_launcher",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "Start-GTM-Java-Only.sh",
+      "bytes": 144,
+      "sha256": "5b118ba4f149047d08ee64ddd89f488747c939df01658caf6e074acb03468437",
+      "role": "partial_local_launcher",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/AUTHENTICATION.md",
+      "bytes": 7050,
+      "sha256": "98770dc2de3fefe8676637a86348d398e6e6e9960d54091f9e887c40a8e3a626",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/BUILD_RUNTIME_R4_EVIDENCE.json",
+      "bytes": 7330,
+      "sha256": "5e8bef77d8d9056891c40fd9996f1f22797ec9a3d257b5f74c34d7b10d2a5adf",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/BUILD_RUNTIME_R4_REPORT.md",
+      "bytes": 11904,
+      "sha256": "e522f154bb4dedb4d5a30e4314507672cda9b3c3a75bbb055619503dcd973fbd",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/DEPENDENCY_TELEMETRY_R4.md",
+      "bytes": 15136,
+      "sha256": "0befe47b5473a94f08833dcfa8c89a0ef75b50993796de4a64a1866fd98239a0",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/FESTIVAL_CARTS_R4.md",
+      "bytes": 12489,
+      "sha256": "d5f53fc7f41b3023f51f263c7bc8ebf6f7c9d1ed420f5a8fe0c1dde8301d1f9f",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/FESTIVAL_FUNCTIONS_R4.md",
+      "bytes": 10464,
+      "sha256": "5a7265a4e3f94c17b142e59b026c792d8a45da87d0a24ca6338134cbc0b86ee0",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/FOOD_COURIER_R4.md",
+      "bytes": 13565,
+      "sha256": "0b3906d6e69131ff5956f19cc646f8eca91d4187980f920a6cd1717d5f5cee74",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/FOUNDATION_TEST_REPORT.md",
+      "bytes": 7766,
+      "sha256": "18df892e610aaf34c294a56d41490dbe808692d32f7d97581790e2757952bb9e",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/FUNCTIONALITY_INVENTORY_R4.md",
+      "bytes": 9615,
+      "sha256": "1f874978b827a60d86853bcc33dbfda771bc58781e2ee5e74e7b9f975a29de3c",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/FUNCTIONAL_RUNTIME_R4_EVIDENCE.json",
+      "bytes": 119803,
+      "sha256": "c5b834836cd0b3b6c92bc3ef047bbe92db03c0c9f1afb1b61ffd23da1efea78f",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/FUNCTIONAL_RUNTIME_R4_REPORT.md",
+      "bytes": 15970,
+      "sha256": "045341b290af0cc5d5a1eec5ab04aa2da52874f7eff30c298da549e1120f09db",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/FURNITURE_ACCESS_SERVICES_R4.md",
+      "bytes": 9741,
+      "sha256": "c49c67c092d9dae7520ac0e14d530778f9cf02649f531e149e705b8a45ba09f4",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/FURNITURE_CARGO_R4.md",
+      "bytes": 24003,
+      "sha256": "083e9a2b7ccf4d9e62922495b2937d3d60041ed66ba02591d9ffea4454374cbe",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/FURNITURE_CIVIC_R4.md",
+      "bytes": 8125,
+      "sha256": "4cb73178c3d750abf03180a44741dc628d5d8fba1f43ec033fad3e469bd96c56",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/FURNITURE_MENU_PROBE_R4.json",
+      "bytes": 4918,
+      "sha256": "440f689f300035732ad71669e600b0173becdf25b26db684d26e93e06c5edcb1",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/FURNITURE_POWER_R4.md",
+      "bytes": 7692,
+      "sha256": "504a2a661af9441c7bc20fc1be91c4183343782e80347dbc76a8f38df85f0e21",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/FURNITURE_RESCUE_MOBILITY_R4.md",
+      "bytes": 15649,
+      "sha256": "00fc0a93c4ee76f8210ebf206e48de40fb0e4c2bbee5db7fbd88835c550b6fd6",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/FURNITURE_RUNTIME_R4.md",
+      "bytes": 75576,
+      "sha256": "9a289d0a6d9c58d188583dfa7129b0c091add2c606663e0c6e4cd1ebcd8826ba",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/FURNITURE_SHOPPING_CART_R4.md",
+      "bytes": 15296,
+      "sha256": "235e02226127cacb8de5ecf93a59293e00103b6ca24cab29d524363a6c7c2b49",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/FURNITURE_STRUCTURES_R4.md",
+      "bytes": 13342,
+      "sha256": "a08240f2c66487942d313476b541275fed1a0ca1454b1ab75abab21e8be9f72a",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/FURNITURE_UTILITIES_R4.md",
+      "bytes": 9671,
+      "sha256": "745337b5ac7729a78f49c0a98bacdaffcf90f4ab98e160e65eb70a207be4626b",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/FURNITURE_WORKSHOP_R4.md",
+      "bytes": 15707,
+      "sha256": "2a95ff682d87588d0af8d492a06c8f57c85d1908201b94c3eec7a4fe3f191801",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/INTERACTION_RUNTIME_R4_EVIDENCE.json",
+      "bytes": 7942,
+      "sha256": "88a6a388bbf02dc7442a68619663b7cc350e1b2d4d59ac23391220c85a4ab7c9",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/INTERACTION_RUNTIME_R4_REPORT.md",
+      "bytes": 10512,
+      "sha256": "7721acd20660613540d60673a26100441498cc791de6c228acca5a9b04ccf717",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/LAPTOP_BEDROCK_NETWORK_R4.md",
+      "bytes": 10254,
+      "sha256": "1e8ef27facfb4f19ce6f2064e83cd251d416a8ff95c6f81771535f2b29ffb7ed",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/LAPTOP_BUNDLE.md",
+      "bytes": 14923,
+      "sha256": "114ee99239a2687275d6179a5924373beadf10b5b74eca9dc27e0fd581ae4167",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/LAPTOP_BUNDLE_VALIDATION.json",
+      "bytes": 6370,
+      "sha256": "e87c82d629891d19e6ac8685b2718ce5de69ab5de9d3ff8bdd499fbf31629509",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/LAPTOP_DEPOT_ACCEPTANCE_R4.md",
+      "bytes": 5602,
+      "sha256": "e65cf50e992ed034f661657a3d9359d25baf8db38adbb0af416cc7e7968c3ea7",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/LAPTOP_FUNCTIONAL_VALIDATION.json",
+      "bytes": 2110,
+      "sha256": "a5d9255509ef98ad9addf3b345d7e6aa02e9a405546515742f7a8f9c93c48792",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/LAPTOP_INTERACTIONS_VALIDATION.json",
+      "bytes": 6911,
+      "sha256": "13ec63187c8e582eb64f515284d3474e7ee27cadcf214f4170dc60123df0ec05",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/LAUNCHER_JAVA_ONLY_R4.md",
+      "bytes": 5623,
+      "sha256": "8faa55f3bcf1e27b2ab61ea6f6a4495afc84ac06fa70dd167b6c1432762a212f",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/LOCAL_OWNER_TRANSPORT_R4.md",
+      "bytes": 8476,
+      "sha256": "ccaa2f3573e84bb1d332e5167ca49acd9c05ff1f25c6deeff91cf0bc6e89bd51",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/LOCAL_PLAYTEST_PROFILE.md",
+      "bytes": 25255,
+      "sha256": "d85fd0dfd45319a2b83c86496baeb9368f7ff5fe1ce14331d69ccac3755a6c3a",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/NATIVE_VEHICLE_CLIENT_ACCEPTANCE.md",
+      "bytes": 7418,
+      "sha256": "ae0f6792ebca0a28a4411c113fdb0748c79111eb51039aab81d6f0a293aab408",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/PHONE_CONTROLS_R4.md",
+      "bytes": 4993,
+      "sha256": "917efaa1b91e23a1718d547d0eb99456b87ea107eef0219f7bdffbc4bb7c4b6c",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/PHONE_SIGNS_RUNTIME_R4_REPORT.md",
+      "bytes": 15746,
+      "sha256": "48d6d2febf54c9741d3b5709193e17639c56da7b4c215340e3d06e86390ffde0",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/PLAYABLE_R4_ACCEPTANCE.md",
+      "bytes": 25714,
+      "sha256": "f40f0b30f867bd18fafc0876ffb44e751548fff6f9070803c3f7dad3cc6fe152",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/PLAYABLE_R4_HANDOFF.md",
+      "bytes": 9274,
+      "sha256": "17341851e5077c790964b406abd110a6e6f6d3c548ebe555a8907e7e4c321e18",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/PUBLIC_WORLD_SITES.json",
+      "bytes": 3352,
+      "sha256": "260a5b77f0b52d0f6588eebf9071b3b607b9f8e61b8f2f3f72e9fdc2e4703328",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/README.txt",
+      "bytes": 1662,
+      "sha256": "f6848a4679a6e8f01893d6aa70152f6863831825d39f7653090ce032633d30ce",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/SHA256SUMS",
+      "bytes": 16563,
+      "sha256": "73b51eb74dd2b95c715e4f9ea6593d36b8922be3a997d6dac1f28b40e17253f4",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/STARTER_PROPERTY_SURVEY_R4.md",
+      "bytes": 7798,
+      "sha256": "388bad0eec897f95dc47ede660dff47a1647b1bd09ba7d3c0684c2865ffc3706",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/STATE_RECOVERY_R4.md",
+      "bytes": 10103,
+      "sha256": "3ecd6d38769bccc8025f822eea23c7cf169a45bc738d4c2286762a45f6fc005d",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/TRAFFIC_AND_FICTIONAL_DRINKS_R4.md",
+      "bytes": 8810,
+      "sha256": "4391b20bb6ef168cb94a9f75816db6a823aed015908082edad2bdd267f984cf4",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/VEHICLE_RUNTIME_R4.md",
+      "bytes": 27598,
+      "sha256": "b966e8072cf13a7031fedb555fcb163386643afb2859d3314c94747bfc1687f5",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/WHEELCHAIR_MOBILITY_R4.md",
+      "bytes": 11678,
+      "sha256": "717a620914634f41655aaf4e0a500d53878a5a0a26bc36b0b87a41c1b2160f2a",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/creative/DESIGN_LANGUAGE_128.md",
+      "bytes": 13748,
+      "sha256": "db513bbffad402669eb994fcf9cfb7a72c688a76be027cd733357fe5c39cc512",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/creative/GENERATION_128_REPORT.md",
+      "bytes": 14414,
+      "sha256": "bc72d7aeb6631609c7e4834891e603b391569799a805833ff30920746082a5b4",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/laptop-build-report.json",
+      "bytes": 497160,
+      "sha256": "2fbecc394cce02dbcf3110a56f094b8cc8fb1e1b9cb459332a0c7b299d4e74bb",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/BEDROCK_PATH_COMPATIBILITY_R4.json",
+      "bytes": 613,
+      "sha256": "3181cb1326b7a9be14cb825d51853c522506d5d03f338ec26bb6ffd45bacf587",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/DEPENDENCY_TELEMETRY_R4.json",
+      "bytes": 19390,
+      "sha256": "2d0f3bd326fcbf542ce43665374f38caf5ba265e4fa1bec68d124c03780c64dd",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/FESTIVAL_CARTS_R4_EVIDENCE.json",
+      "bytes": 22441,
+      "sha256": "e83b17931a6327696bb4c17584c8386786a67ca64b176ad0cdfebd85aedd1d2e",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/FESTIVAL_FUNCTIONS_R4_EVIDENCE.json",
+      "bytes": 15241,
+      "sha256": "088abd5475f3cbb62664e8a225ba69f57a1b010d44e60f7f7c1d34a9cb31b2a2",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/FINAL_SHARED_RUNTIME_REGRESSIONS_R4.json",
+      "bytes": 19984,
+      "sha256": "e62e13ed0b9dcbb270b462e0e795d4017c7fc85918f6c4cbc3d5f6022539198e",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/FUNCTIONAL_FINAL_BUILD.log",
+      "bytes": 66581,
+      "sha256": "fe7915b46851c046dd6246af30a6ea01db6a0d0e08da47023ad3bfb0aa211535",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/FUNCTIONAL_SOURCE_DIGEST.json",
+      "bytes": 62696,
+      "sha256": "6ee9de69c6bf307dd53264f6a8f339323d6d2862af72b7a92d6c1caa9fbbb9d1",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/FURNITURE_ACCESS_R4_EVIDENCE.json",
+      "bytes": 2030,
+      "sha256": "3f7a9f1467b7e428d4c26ceaa8ecbedf3691da158a7f83d31d9fc4863445fc1f",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/FURNITURE_RESCUE_MOBILITY_R4_EVIDENCE.json",
+      "bytes": 7897,
+      "sha256": "812c47b0e5d0b61aa3f2e9cc6eb65e32578e0e814106b225baaa879ee91e1ddc",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/FURNITURE_RESCUE_RENDER_BINDINGS.json",
+      "bytes": 1155,
+      "sha256": "599c5a47f90be073a1b4b753da592a42c0e157dafec5617d935be6e1b5db6def",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/FURNITURE_STRUCTURES_R4_EVIDENCE.json",
+      "bytes": 110656,
+      "sha256": "bff1c6bd25c7df4379514d6f548cb0799727032b4ef94766bc83b23df8ba5b64",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/FURNITURE_WORKSHOP_R4_EVIDENCE.json",
+      "bytes": 22622,
+      "sha256": "e77466c2370634202ea32650fa41962683a1c4a491887bff4cc87d85a71939a5",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/GEYSER_EMPTY_ADVERTISE_CHECK_R4.log",
+      "bytes": 431,
+      "sha256": "9857cbcb12f9ad3e937db29b4c0d6fd9bcee1a954be59a85e0146356591b6a42",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/GEYSER_INITIALIZATION_R4.json",
+      "bytes": 2861,
+      "sha256": "cd5b014d673cbeeea8b8200d3e2bc5750c7fabfe01be55f79f296f9ad38f7d96",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/GEYSER_NETHERNET_PINNED_BYTECODE_R4.txt",
+      "bytes": 58804,
+      "sha256": "1893fab7f8fc36ed493251e1cc7d51854c71cc6c17f832dee4edea06c01ddb0d",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/INTERACTION_FINAL_BUILD.log",
+      "bytes": 20116,
+      "sha256": "c009a865497693429d99edda97928054cbd7d8df076bd6a5d925b20895e39e07",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/INTERACTION_SOURCE_DIGEST.json",
+      "bytes": 20048,
+      "sha256": "330418680db955ca00284a36f8d5a962710d869d5f706dac230812572e946dd7",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/LAPTOP_DEPOT_R4_EVIDENCE.json",
+      "bytes": 6758,
+      "sha256": "dd9191b24c39eed3d41bcd6d19b4479d2b7d50abe4d2fa0bfb1fbf4ecb4d3969",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/LAPTOP_FUNCTIONAL_FIXTURES.log",
+      "bytes": 6245,
+      "sha256": "4ee5cec094295d7cef792cb80d35e9ded400d95a4ced1ecff1542e8e991a9651",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/LAPTOP_INTERACTIONS_FIXTURES.log",
+      "bytes": 2370,
+      "sha256": "1b141c15f830e6153e04b4fa8c8bac33e3a33eb170fdb81a15b4b9130bb87bbc",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/LAPTOP_NETHERNET_FIXTURES_R4.log",
+      "bytes": 5664,
+      "sha256": "45650ca6ff95572d26a7210ce289f355d693262dfcfb520ff5a5c37cc5bffeac",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/LAPTOP_NETHERNET_VALIDATION_R4.json",
+      "bytes": 4029,
+      "sha256": "40fd378e95580a1d6d0dff66bce0aa10656d0ba844ff243dd7c87f0be109cbf7",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/LAUNCHER_JAVA_ONLY_FIXTURES_R4.log",
+      "bytes": 2894,
+      "sha256": "4afdaf197d951c1d63e0e0ac79efb44231a1e7a11293e55d1bad406edc6b5f51",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/LAUNCHER_JAVA_ONLY_R4.json",
+      "bytes": 5617,
+      "sha256": "bfc1fb3ee7131e144089160552c995a48507ecf82bc424e065e245e560e1f08b",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/LOCAL_PLAYTEST_PROFILE_EVIDENCE.json",
+      "bytes": 2555,
+      "sha256": "354a78edfaf85cb4f45deb195005ca6faca0be5a50ed8e631d026304d5114d3e",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/LOCAL_PLAYTEST_PROFILE_FIXTURES.log",
+      "bytes": 2159,
+      "sha256": "1502b29fe271fa0f9a78478344bf420ca8c3bcd0e9199aeff23515ea945f9887",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/OWNER_TRANSPORT_FOCUSED_R4.log",
+      "bytes": 6084,
+      "sha256": "219a12b30a299300c8aa0cda6a31f5c0d7d94940fbb89bdc122c1de210f68017",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/OWNER_TRANSPORT_SOURCE_DIGEST_R4.json",
+      "bytes": 1877,
+      "sha256": "06e70235ee06559556f1fc0db609be136615fc63d5cfeaa14cb008e3c9b32523",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PACKAGED_LAUNCHER_RESTART_R4_EVIDENCE.json",
+      "bytes": 956,
+      "sha256": "b2724766af125bb8124b0e1975bf0f6f224431460f18408987fd96a8f895a81f",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_EQUIPMENT_BASELINE_PRE_FINAL_R4.json",
+      "bytes": 6875,
+      "sha256": "68ed483cace7c18c541ab22cbe63d7ed7d25c00891e55195b6d70adfe4edee63",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_EQUIPMENT_R4.json",
+      "bytes": 6875,
+      "sha256": "eb514f646000ebf94d7fa0844e08b5fd75c7160a9eb0b6e81faedd41137a4858",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_FESTIVAL_CARTS_R4.json",
+      "bytes": 43648,
+      "sha256": "33146529aab4df9abb9447aeb2ba6687940973afc3f1c30fad418434feebf885",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_FESTIVAL_FUNCTIONS_INTERRUPTED_80_R4.json",
+      "bytes": 37250,
+      "sha256": "48971eb8b27ef5339ac4a06a6b792c0649afb054b0913c00c7f3a1ecd450f57d",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_FESTIVAL_FUNCTIONS_R4.json",
+      "bytes": 38814,
+      "sha256": "f58659ad78538e9c8a68acabf40b2294be9031b3e4c35cb4d34c56c00a6a871a",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_FICTIONAL_ALCOHOL_R4.json",
+      "bytes": 6822,
+      "sha256": "b42f73712272723f93561b9765e73e8b115b3e69e84bef73509ef873de3e41f4",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_FOOD_COURIER_BASELINE_428_R4.json",
+      "bytes": 92306,
+      "sha256": "beac2cef980538bd9292ac00ac70e9e21213274fa94234298407572b5336c920",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_FOOD_COURIER_R4.json",
+      "bytes": 92972,
+      "sha256": "23f4280ba5f99345213dac9df9b11ca7ec437c4f421952bb8bc5ff6e81e94fd1",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_FURNITURE_ACCESS_R4.json",
+      "bytes": 14304,
+      "sha256": "d2a98409756d0c11ebbd752c62f459e5cef80bc0f317c62cf44f956bae0daa1e",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_FURNITURE_CARGO_BASELINE_504_R4.json",
+      "bytes": 13142,
+      "sha256": "9c8023c7f4424cb1828ab193f10213ed1f17e24a3cb0ed5fe8498382f2ee13c7",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_FURNITURE_CARGO_BASELINE_B19_R4.json",
+      "bytes": 13142,
+      "sha256": "5b0ee2f66aa4fe8e51ee4d453b6d07ed6837625cc1b345971a77368d96b31b8e",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_FURNITURE_CARGO_R4.json",
+      "bytes": 13142,
+      "sha256": "f66420aad6945eb5cf74a3f7625e83ee8842fc351890304f9e02a7f9ecd3585b",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_FURNITURE_CIVIC_R4.json",
+      "bytes": 11371,
+      "sha256": "77dbe19a781cc281bc52fb0dc63b34ee2a97a2835d330ac6e30138c7238dcd9d",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_FURNITURE_POWER_BASELINE_PRE_FINAL_R4.json",
+      "bytes": 5988,
+      "sha256": "beba2c286a8f63f1c048b9ecce32e4beee860b70f796cfa058238d8f9831ab10",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_FURNITURE_POWER_R4.json",
+      "bytes": 5988,
+      "sha256": "aa7e61efdbeb7cbced0db963b155a1aae4a32e3d89b96decdabed956d4eb898f",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_FURNITURE_RESCUE_R4.json",
+      "bytes": 6555,
+      "sha256": "897ebd2319f8613769337106b8f459d77a5ebfc801af856b6a32e1724b34a15c",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_FURNITURE_STRUCTURES_R4.json",
+      "bytes": 18136,
+      "sha256": "e2930e5849aa312edc94bcfa0132f6c614d9f1bce4201dd99713a34cb98767c0",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_FURNITURE_UTILITIES_BASELINE_PRE_FINAL_R4.json",
+      "bytes": 11281,
+      "sha256": "84b1502ecbfc3766efc36dc00aa0d0fad0141371a1d782fa9c4efd6850a7a909",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_FURNITURE_UTILITIES_R4.json",
+      "bytes": 11281,
+      "sha256": "18b5c52255157893840275bd63619c09cf34c211df823ddedfcfdb16e0347fd6",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_FURNITURE_WORKSHOP_R4.json",
+      "bytes": 12128,
+      "sha256": "03029d5c313a32673fb203fe104f485d0e7e5182570a4c2369cf95fd9197086b",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_FURNITURE_WORKSHOP_R4_ATTEMPT_01.json",
+      "bytes": 5495,
+      "sha256": "a32ecb82b6f3a322d0a0f51f505718133419ec0a3575a52e633a1f4c281519c2",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_FURNITURE_WORKSHOP_R4_ATTEMPT_02.json",
+      "bytes": 8008,
+      "sha256": "b8670a3feb20c3dff712d6a1e90ac112ae924080965ada4df2ab8aa1ffb08822",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_FURNITURE_WORKSHOP_R4_ATTEMPT_03.json",
+      "bytes": 9759,
+      "sha256": "6444d8a9ab96dd973a7179ec433fcdbcfb59dbfee74c65b1e738243b4eae6035",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_LAPTOP_DEPOT_FLEET_CONTINUATION_R4.json",
+      "bytes": 9202,
+      "sha256": "63c18046b72042c1bf7ce9f08b53112db550bb067ee138a76ae416bf3f344eec",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_LAPTOP_DEPOT_INITIAL_R4.json",
+      "bytes": 28814,
+      "sha256": "c224ad6432855389e72b9e8029c2b405007c52afc15e07524e5d9581cc4a4817",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_LAPTOP_PROFILE_BASELINE_428_R4.json",
+      "bytes": 11287,
+      "sha256": "fb4ee989bd3ca28fd7eba3766ef8825a7bc5cd2f63b74c5cd0329ebc149733cd",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_LAPTOP_PROFILE_R4.json",
+      "bytes": 11287,
+      "sha256": "39bd817ff83ab0818b143295f29eae5be6882f8812509916dcff1434eba3e0d9",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_MEDICAL_R4.json",
+      "bytes": 7889,
+      "sha256": "32a2c40d77a8ca37694865ff9068ffd6a83a7791373054c147aa22165030502a",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_OTTOMAN_STORAGE_BASELINE_PRE_FINAL_R4.json",
+      "bytes": 4490,
+      "sha256": "08152f7cf30ffdad8211b7c1969100ee0a36bb6c4132f7fa95b0067e27259667",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_OTTOMAN_STORAGE_FINAL_ATTEMPT_R4.json",
+      "bytes": 3802,
+      "sha256": "4b13cc22b7090c1f4fc3a68c8eb40df75b1bdfd390848fa2318020f3f3ae3fac",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_OTTOMAN_STORAGE_FINAL_SHUTDOWN_R4.json",
+      "bytes": 3161,
+      "sha256": "6344dcc022f445e7e89373251e4b4790a4d59713ea4dae1d728115c966c06c36",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_OTTOMAN_STORAGE_R4.json",
+      "bytes": 4617,
+      "sha256": "6bf41b78c14200aeea22acdb4454a905058fd84ec58b5ac381580e71c1926f8b",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_PACKAGED_LAUNCHER_RESTART_R4.json",
+      "bytes": 25631,
+      "sha256": "9b3fa2aa2a2f3cf03f99ed25373c3c65e1c6d5a648169597980e6e2704ba3ac9",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_PHONE_CONTROLS_R4.json",
+      "bytes": 15660,
+      "sha256": "9c866614668981a74c012fa152e6e0a88920fc526efcefd72099b2d8c6930877",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_SHOPPING_CART_CUSTODY_DIAGNOSIS_R4.json",
+      "bytes": 4207,
+      "sha256": "17e9f337311424adaf191569dc41422ff046ae9c2a1ff46babb8a873b44cb887",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_SHOPPING_CART_DESTINATION_ATTEMPT_R4.json",
+      "bytes": 3162,
+      "sha256": "e4a48bfb2033489ce83a9e4cbda53f8d97583e72965ceebba164d14196dd03fa",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_SHOPPING_CART_DESTINATION_R4.json",
+      "bytes": 3631,
+      "sha256": "709e0643799822af0da2a7874a62ae7aa2f728e001b1db0b166cb635c65e9d72",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_SHOPPING_CART_INITIAL_R4.json",
+      "bytes": 14072,
+      "sha256": "97f7595211901877db55dc3ad4391b2f79be4547d130c1685a2f71a09f7098f5",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_SHOPPING_CART_MOTION_ATTEMPT_R4.json",
+      "bytes": 4738,
+      "sha256": "01761e31e2d2f2454cf521d88ed49a8c6066013a193cda749b10bc2a8fd53562",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_SHOPPING_CART_MOTION_R4.json",
+      "bytes": 5496,
+      "sha256": "dba6898d43be5e84a2c7c12ce8ce465d13eea65863b563c31ac079a80f86c6bd",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_SHOPPING_CART_R4.json",
+      "bytes": 3501,
+      "sha256": "7a659b212a972b1e1c37c57cf16b01e968fdab4fc6c775eaa34785865ee5a16a",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_SHOPPING_CART_UNLOAD_ATTEMPT_R4.json",
+      "bytes": 3643,
+      "sha256": "4d0ffcf0cecfe97d3c4fb51570edf2bb4434f19a05f3746321f0c8936f1e00e1",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_SHOPPING_CART_UNLOAD_R4.json",
+      "bytes": 4194,
+      "sha256": "52b9906d03e72aca3f27cf3e086c35a448cce641a80cf114c2d8dc2b80e32d8c",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_SHOPPING_CART_VERIFY_RETURN_ATTEMPT_R4.json",
+      "bytes": 3678,
+      "sha256": "7ed7553ffd7d79b80e14016adc4fadb82ba7f347ce2c4bf8a24e77e62e6b678b",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_TRAFFIC_SIGNALS_R4.json",
+      "bytes": 4621,
+      "sha256": "a02a2e93e78f003ac8dd068ba7e32352a01e8874212d8a349d2e4313d5241577",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_TRANSPORT_BASELINE_428_R4.json",
+      "bytes": 11245,
+      "sha256": "3ae143da83fd1dada8584b5dbe832b74bda00102ea0c0ca54855728ad459d347",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_TRANSPORT_R4.json",
+      "bytes": 11500,
+      "sha256": "d5de7874b27a02153e5963ef45f8eea73cbd4bbc142fa54c848116c58a3fa18b",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_UI_FURNITURE_BASELINE_428_R4.json",
+      "bytes": 7985,
+      "sha256": "f63db08322eb8c5e410dfcfc37a7fabd395ae32eb130c680354ca95aae65dc32",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_UI_FURNITURE_BASELINE_B19_R4.json",
+      "bytes": 7985,
+      "sha256": "229e9ce878cd86e1d3b70c520754fc634e0fa0b914dbf0a25511f97aa54e0e2e",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_UI_FURNITURE_R4.json",
+      "bytes": 7985,
+      "sha256": "3108cc9db98c2464ebdb102fe19c4770bfaf1b17fa3a6f12a29014a10bac4700",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_WHEELCHAIR_MOBILITY_BASELINE_428_R4.json",
+      "bytes": 106802,
+      "sha256": "a74fc7f9fc7af13bb77ac4283f023a93a4e9f6a0dae962ed2474608659590fcd",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PAPER_WHEELCHAIR_MOBILITY_R4.json",
+      "bytes": 111282,
+      "sha256": "dd6f61d78281e6344a2638636c422fbf2f984b50fd275802638423ff10a6f5ce",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PHONE_CONTROLS_R4_EVIDENCE.json",
+      "bytes": 4828,
+      "sha256": "20b96f6759d0d7fd8880322805d8467cd9a4131c40d75ffb0c76df44bdc3c4a2",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PINNED_DEPENDENCY_TELEMETRY_BYTECODE_R4.txt",
+      "bytes": 64941,
+      "sha256": "cbd4178f5f9759f0737826cd17c05c80ae8ec009de659d55aaf3a62e6e15be9a",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PRIMARY_MODEL_FUNCTIONALITY_R4.csv",
+      "bytes": 1702403,
+      "sha256": "00b068c1690c65328dc8c29317c9dd4de168195d15dd9fdbbea90e713ab7fa64",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PRIMARY_MODEL_FUNCTIONALITY_R4.json",
+      "bytes": 37458,
+      "sha256": "c2a707eaac00e77665e05a7e7970895dfa5246d08880f5fe0541a1289e57ba02",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PUBLIC_WORLD_2026-11-23_SITE_SURVEY.json",
+      "bytes": 3352,
+      "sha256": "260a5b77f0b52d0f6588eebf9071b3b607b9f8e61b8f2f3f72e9fdc2e4703328",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PUBLIC_WORLD_DEPOT_LAYOUT_R4.png",
+      "bytes": 253444,
+      "sha256": "e6055a776ee7413999fb2b1add85289a28e84d5a10c2fa2a6933db3248a48ecc",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PUBLIC_WORLD_DEPOT_SURVEY_R4.json",
+      "bytes": 363543,
+      "sha256": "e49c942fef9404ed809656e62aeb32e71f91f2b2c2cf91ede475b99964a732b9",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/PUBLIC_WORLD_STARTER_PROPERTY_SURVEY_R4.json",
+      "bytes": 14834,
+      "sha256": "0d733c0809f6e5eee6f5f13f6c038c42cf5e1f9ef2ebb03ef1e0299b3f4ff3d4",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/RUNTIME_PACK_FINAL_FIXTURES_R4.log",
+      "bytes": 2741,
+      "sha256": "056c2b42932a0388de93325c2e2a89a1429555865e57717e84aae93be3621a55",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/SHARED_RUNTIME_REGRESSIONS_R4.json",
+      "bytes": 5896,
+      "sha256": "760e0c12b07b0c8a755a0058d7a679e6d255d3bceba39f88f21d15023d4831d9",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/SHOPPING_CART_CUSTODY_NBT_DIAGNOSIS_R4.json",
+      "bytes": 2157,
+      "sha256": "4846db132f7bed1dd1c2fbd11401348f2a435e6b882e336ade2fabfc7c87be61",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/SHOPPING_CART_R4_EVIDENCE.json",
+      "bytes": 23344,
+      "sha256": "78b5c78f0c52942d0b4a98e0084d0b68c1a8192030dc838f33d9fb07d19f9d4c",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/STRUCTURE_DISPLAY_BINDINGS_R4.json",
+      "bytes": 2211,
+      "sha256": "4866215397097ecc8b2a92ccf6cff1d90489471802b01d9c408a59637d203c0b",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/STRUCTURE_DISPLAY_BINDINGS_R4.log",
+      "bytes": 2113,
+      "sha256": "f71f7b58fb6cafb7fe7fed0eeb6d365891295b56c76e9e33282ef8dec8201da7",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/VEHICLE_ADMISSION_RECOVERY_R4.log",
+      "bytes": 11388,
+      "sha256": "b334129c3ee4e6c6e3bc6232cf64d355a4ad4a0b4b24af876a1c326cdd82d768",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/WHEELCHAIR_MOBILITY_R4_EVIDENCE.json",
+      "bytes": 8506,
+      "sha256": "1d0c2e7b0ac494df2dd3d6d5e9c8bc317ce0b1dc467d44a5035a3b6b4ec35d73",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/WORKSHOP_ADMISSION_RECOVERY_R4.json",
+      "bytes": 3309,
+      "sha256": "a16a14f239094207a0307775a00511288182ee550738a74bf45dab74e19a598e",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/WORKSHOP_CART_FOCUSED_R4.log",
+      "bytes": 11153,
+      "sha256": "d2ac1334e60a9bf7ac64772eaf5a0ab6d098613fadafc286870f32406f31c84c",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/phone-controls-128/dashboard-after-park-no-active.png",
+      "bytes": 1152,
+      "sha256": "de8183f65aeb230a0cd96a68fcabc2907517ba77a39c01843d6ac693850c26ba",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/phone-controls-128/dashboard-analog-moving.png",
+      "bytes": 1836,
+      "sha256": "2153b31a8ea14e9d62d9e192ed819c3104c7b5990c19c862a385395b03e1d3c7",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/phone-controls-128/dashboard-analog-restored.png",
+      "bytes": 1837,
+      "sha256": "ed2d7f255cd376d86eadd32174f51f8c508e199a259668cb1cd3afe1d145169f",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/phone-controls-128/dashboard-analog-stationary.png",
+      "bytes": 1837,
+      "sha256": "ed2d7f255cd376d86eadd32174f51f8c508e199a259668cb1cd3afe1d145169f",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/phone-controls-128/dashboard-compact.png",
+      "bytes": 1332,
+      "sha256": "bfab283bcfeda51233193e58f8c451159b605bb0caccc3d8bf009a337039b317",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/phone-controls-128/dashboard-digital.png",
+      "bytes": 1368,
+      "sha256": "7fa6e0a5b30021f0488ed94eb64932eae4287e2f63d2133145cdbb4327dc45d3",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/phone-controls-128/dashboard-no-active-vehicle.png",
+      "bytes": 828,
+      "sha256": "953b56c780c1435c5a64c60829d985c6c979813e092ba520cb13abd77409fea4",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/phone-controls-128/terrain-circle.png",
+      "bytes": 1991,
+      "sha256": "50b01f42200020061a7fda25310343492209f229a87e06c3a0dff6d543313d82",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/reports/phone-controls-128/terrain-rectangle.png",
+      "bytes": 1423,
+      "sha256": "79963b98392eb4096fa4bdc05bfb037d88bb35bb714fe6d5e39c668108284556",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    },
+    {
+      "path": "documentation/runtime-pack-validation.json",
+      "bytes": 1134842,
+      "sha256": "d12ed71cf5b527fb25adbeae8089a09b89e3c1b8a7ba7effab9a4be40af21e69",
+      "role": "historical_documentation",
+      "required_for_java_payload": false
+    }
+  ],
+  "provenance": {
+    "recovered_owner_archive": "GTM_128_Laptop_Playable_26.3.zip",
+    "recovered_owner_archive_sha256": "9b866f5f8a9978faa71e92216206e7590c79515d5d456d62eb735d45e378869e",
+    "previously_recorded_unpublished_commit": "628c01bcd7ed5d95b21c9ea049990346135a0604",
+    "current_core_and_launcher_source_recovered": false,
+    "binary_rebuilt_in_this_publication": false,
+    "preserved_repository_source_base": "560dcef9df1c3883f49b68597d43f188337a111b",
+    "source_notice": "The preserved older source tree does not reproduce the recovered 1.0.3 binary. Recorded source digests do not supply missing source bytes. The optional bridge has corresponding source under licenses/.",
+    "private_owner_world_profile": "sanitized public world 2026-11-23 with local workshop; current private Daytona world not included",
+    "previously_recorded_source_set_sha256": "8df6f572928534b3e857dde033acb0a5b0afe3680817950505d23e34b9fc3e06"
+  },
+  "verification": {
+    "payload_hashes": "Read directly from recovered original files; full-file hashes must remain identical after chunk reconstruction.",
+    "historical_source_checkout": {
+      "junit_tests": 644,
+      "junit_suites": 79,
+      "domain_assertions": 155,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "reexecuted_here": false,
+      "evidence": "documentation/FUNCTIONAL_RUNTIME_R4_REPORT.md"
+    },
+    "historical_runtime": "Actual Linux Paper startup, ordinary authentication, pack delivery and clean stop recorded in the preserved owner-package verification; this payload was not newly booted as an assembled server.",
+    "daytona_connector": {
+      "offline_tests": 39,
+      "scope": "Synthetic API/Minecraft responses and processes; credential handling, request restrictions, readiness failures, SSH establishment race and owned-process cleanup. No live credentials/network."
+    },
+    "native_windows_execution": "unverified",
+    "native_java_bedrock_clients": "unverified",
+    "live_daytona_connection": "unverified",
+    "live_daytona_deployment": "not_performed"
+  },
+  "assembly": {
+    "command": "python tools/assemble_functional_runtime.py --output dist/functional-r4",
+    "workflow": ".github/workflows/publish-functional-runtime.yml",
+    "planned_release_tag": "gtm-functional-r4-1.0.3",
+    "release_status": "Conditional on a successful workflow; this manifest does not claim a GitHub Release already exists.",
+    "outputs": [
+      "GTM_Functional_Runtime_1.0.3.zip",
+      "GTM_Runtime_128_Java.zip",
+      "GTM_Runtime_128_Bedrock.mcpack",
+      "GTM_Indraprastha_128_Assets.zip",
+      "SHA256SUMS",
+      "assembly-report.json"
+    ],
+    "server_is_assembled": false
+  },
+  "launch_modes": {
+    "same_existing_daytona": "Repository-root Start-Daytona.bat creates an SSH forward to an existing running server; it does not deploy, start, restart or overwrite Daytona.",
+    "separate_local_world": "Start-GTM-Java-Only.bat is operational only inside the complete separately saved portable owner package; it starts that public-snapshot local copy.",
+    "minecraft_client_included": false
+  },
+  "not_in_this_payload": [
+    "world/**",
+    "cache/mojang_26.3.jar",
+    "eula.txt",
+    "private credentials/accounts/player data/keys",
+    "complete Paper or Windows Java installation",
+    "fresh-workshop active configuration",
+    "latest core/launcher source"
+  ],
+  "installation_limits": [
+    "Never blindly overlay local workshop configuration, properties, prices, permissions, sites or world data onto an existing server.",
+    "Inspect a stopped coherent target copy and preserve complete original state before replacing the core or allowing first-boot migrations.",
+    "Preserve online-mode, UUIDs, credentials, permissions, Floodgate/proxy identity and keys; SimpleLogin/AuthMe/LoginSecurity require deliberate migration because the built-in provider refuses coexistence.",
+    "Optional Bedrock bridge targets pinned Geyser 2.12.1 build1308; inspect target version compatibility.",
+    "Resource-pack URL/bind and integrity manifest must match actual reviewed target configuration.",
+    "Rollback must use coherent stopped state and must not overwrite later player progress.",
+    "Functional models may need property, compatible backing blocks, supplies or commissioned routes; full city/campaign not complete."
+  ],
+  "artwork": {
+    "path": "GTM_Indraprastha_128_Assets.zip",
+    "bytes": 33208260,
+    "sha256": "877b8b095f5d479681ed1bf7b8475e9984b7b0adca4777fac8bcdb4b2b703d8a",
+    "git_sha": "cd70b4bcbac7a66d67315e3ee9f2adaecd173660",
+    "parts": [
+      {
+        "path": "creative/delivery/GTM_Indraprastha_128_Assets.zip.parts/part.001",
+        "bytes": 7500000,
+        "sha256": "8ce27697ed686e1a93d6f81a9226fa673159699a79271c9ed7826781cd25eb37",
+        "git_sha": "1ca44682fb2ff12248ad1f685d3c57d98aea8809"
+      },
+      {
+        "path": "creative/delivery/GTM_Indraprastha_128_Assets.zip.parts/part.002",
+        "bytes": 7500000,
+        "sha256": "5158d8f7f817e571ea7207e07454a4dfd6c26dabde887119bedbaef75d113328",
+        "git_sha": "aefb5bf4d2063e9823743ecda101fd4b46516fc1"
+      },
+      {
+        "path": "creative/delivery/GTM_Indraprastha_128_Assets.zip.parts/part.003",
+        "bytes": 7500000,
+        "sha256": "eea6cabaa6ebd73003749601d9ef9a5b68f5f6d5f3c5f27495948322a244fede",
+        "git_sha": "3ceff0a8ebefaa5cb0de8d8f4d463501a10fc8c8"
+      },
+      {
+        "path": "creative/delivery/GTM_Indraprastha_128_Assets.zip.parts/part.004",
+        "bytes": 7500000,
+        "sha256": "553face9d7ce3effc7683d9d317d174a3cea3ff02bb0d15aa523ff9ff12a25eb",
+        "git_sha": "1378ccbd459a90c3f2f1e0b797b8c315e5d6e816"
+      },
+      {
+        "path": "creative/delivery/GTM_Indraprastha_128_Assets.zip.parts/part.005",
+        "bytes": 3208260,
+        "sha256": "1b2fe059522072bd04a856468652a994de1cc2786cc3163909ed11dcf907c86f",
+        "git_sha": "9a4da6c0247348830c6457cca880bec2afc4f08b"
+      }
+    ]
+  }
+}

@@ -1,0 +1,536 @@
+{
+  "status": "ACTUAL_PAID_FESTIVAL_CARTS_PASS",
+  "focused_gate": {
+    "tests": 133,
+    "suites": 13,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "results": [
+      {
+        "name": "com.sdcraft.core.WorkshopSupplyProofTest",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "sha256": "1b7a51cb50403f547c5caef95a6ce07b7825dc48d037700445d3f6a3104b8e4e"
+      },
+      {
+        "name": "com.sdcraft.core.furniture.FestivalCartMotionTest",
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "sha256": "063e9be7a1b2309b62785b40cce9d2c00af60bb58c7821243782fd866cb1dc30"
+      },
+      {
+        "name": "com.sdcraft.core.furniture.FurnitureCargoStoreTest",
+        "tests": 22,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "sha256": "14b268bc31912661e3b8638fb0ccde042e7021859f2a59eb658f85cc0eef68b9"
+      },
+      {
+        "name": "com.sdcraft.core.furniture.FurnitureCartStoreTest",
+        "tests": 10,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "sha256": "3d6f32f2edf9c3d538516bdf88a51f04c7e459a98f1632a068802eae279247cf"
+      },
+      {
+        "name": "com.sdcraft.core.furniture.FurnitureExpansionTest",
+        "tests": 20,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "sha256": "e6f310b47ac477c5c63637547dd59f7da79fe1289437894a0472a2d0ea86c6cb"
+      },
+      {
+        "name": "com.sdcraft.core.furniture.FurnitureOptionalStorageTest",
+        "tests": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "sha256": "bb9d9f93b05243522a3f965ffdb773b88ba93f8c0077fc572ec339f9b6cdf742"
+      },
+      {
+        "name": "com.sdcraft.core.furniture.FurnitureRuntimeTest",
+        "tests": 16,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "sha256": "58dcf340636ae2706503582191800ac774a692266bc3907d16c8342102921023"
+      },
+      {
+        "name": "com.sdcraft.core.furniture.FurnitureSeasonalRulesTest",
+        "tests": 12,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "sha256": "91c4d5a27644c8436129d48b61f6fad3fed922167643f674e4a7fcc3252bdba1"
+      },
+      {
+        "name": "com.sdcraft.core.furniture.ShoppingCartMotionTest",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "sha256": "bbe6be64b4c56eb8d438d3a3ed2bb8aeb0e78b18ca4700082c80ec7c21379e89"
+      },
+      {
+        "name": "com.sdcraft.core.furniture.SpecialistFurnitureMotionTest",
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "sha256": "0988bef368bb3a25d7f4423af43108ece6c0732f1bb952361a4d82efcfde8b19"
+      },
+      {
+        "name": "com.sdcraft.core.vehicle.VehicleHoistGeometryTest",
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "sha256": "e35c55526cadf9ffb4620c3ffb529854c92e8f287fa70125c29a303ba3615761"
+      },
+      {
+        "name": "com.sdcraft.core.vehicle.VehicleMaintenancePhysicsTest",
+        "tests": 9,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "sha256": "1dc7cb874fa423300d25e3692c0aabb7437a323d4919fb0d836f65ae3a831565"
+      },
+      {
+        "name": "com.sdcraft.core.vehicle.VehicleWorkshopStoreTest",
+        "tests": 9,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "sha256": "902ff50e498245b86638cebf54b01adf6524d0c3f23c5713badcf8ddd10636af"
+      }
+    ],
+    "scope": "Historical initial focused source gate; final runtime core is pinned separately below."
+  },
+  "companion": {
+    "status": "ACTUAL_PAPER_PASS_129",
+    "target": "Paper26.3 build255",
+    "javac": "javac 25.0.5.1",
+    "paper_api_sha256": "16d784a1b2a6a0be74479c761d9b5cbd7271ee1d8d5ff45f8060d0fa352f1d0b",
+    "source_sha256": "bc1cd48d30fe5da3b350f98e2a41d4ddde2e97e5e5f8cceb60d379bdd82e734e",
+    "inputs": {
+      "src/main/java/qa/gtm/GtmLaptopFestivalCartProbe.java": "c38ad47cfd9e859d42f010ccbdbead8ef12434820301893954a5161ae120c8f6",
+      "src/main/java/qa/gtm/PaidCartCompletion.java": "077fba18c8b09f837b08680fd7825ad8986d6256f6d92b0ce734be4bf13ddf1e",
+      "src/main/resources/config.yml": "11d50a9f0da6080f6bd222415071976b078455ded22f313f50e1be241535db6d",
+      "src/main/resources/plugin.yml": "28d6e909d9e1239f2c193a8771d3c47c6bb9b7b7c16598767edb1b4bca0bd188",
+      "src/test/java/qa/gtm/PaidCartCompletionTest.java": "0ad3964d880e11e4982f8c7e372a40a56601b830bbd0279c3edd8b2f8ad44fbe"
+    },
+    "runtime_or_client_tested": true,
+    "jar": "GTMLaptopFestivalCartProbe-0.1-isolated.jar",
+    "jar_sha256": "8a25bf4fc59010f9d48de5274eaed3357396c14417bd3f39e0e4d2eba2e6ddcf",
+    "bytes": 34302,
+    "runtime_or_client_tested_scope": "Actual Paper server API/tick lifecycle with normally authenticated translated protocol player; native rendered client not tested."
+  },
+  "actual_acceptance": {
+    "status": "PASS",
+    "expected_records": 129,
+    "account": "GtmLaptopQA",
+    "non_op": true,
+    "initial_observed_bank_cents": 49128,
+    "ordinary_nine_purchase_debit_cents": 900,
+    "expected_bank_cents": 48228,
+    "world_fixture_writes": 0,
+    "item_money_permission_grants": false,
+    "prior_purchased_food_reused": true,
+    "item_identity_assertion": "Independent complete Bukkit ItemStack.equals, exact stack count and occupied slot count; production comparator is not called. Native serialization may reorder compound keys.",
+    "passed_records": 129,
+    "failed_records": 0,
+    "unexecuted_steps": [],
+    "run": "20261125T023919338159Z",
+    "server": "26.3-255-c22378f (MC: 26.3)",
+    "raw_report": "docs/reports/PAPER_FESTIVAL_CARTS_R4.json",
+    "raw_report_sha256": "33146529aab4df9abb9447aeb2ba6687940973afc3f1c30fad418434feebf885",
+    "raw_report_source": "integration-probe-r4/laptop-profile-validation/plugins/GTMLaptopFestivalCartProbe/report.json",
+    "scenario_report": "integration-probe-r4/scenario-runs/20261125T023919338159Z/festival_carts.json",
+    "scenario_report_sha256": "33146529aab4df9abb9447aeb2ba6687940973afc3f1c30fad418434feebf885",
+    "input_hashes_path": "integration-probe-r4/scenario-runs/20261125T023919338159Z/input-hashes.json",
+    "input_hashes_sha256": "97b14ae669aaa69163156fc4e8c08e7b316499084c5eb75f2adea3b2125bec4e",
+    "events_path": "integration-probe-r4/scenario-runs/20261125T023919338159Z/events.jsonl",
+    "events_sha256": "b1eb128cfaf36e669b946da764bdf4aaf874792788fd7c6e77333210fa98cf02",
+    "summary_path": "integration-probe-r4/scenario-runs/20261125T023919338159Z/summary.json",
+    "summary_sha256": "fad4a5aad8390691552bce1c969b741e018af659ac85a0f5a1ff9c9d33d1828a",
+    "final_observed_bank_cents": 48228,
+    "actual_furniture_purchases": [
+      {
+        "id": "328770b7-2334-4ffd-a36a-181eb87ff442",
+        "price_cents": 100,
+        "model": "gtm:diwali_procession_cart"
+      },
+      {
+        "id": "9e017f64-e08f-43e4-9ad6-38ede7de4437",
+        "price_cents": 100,
+        "model": "gtm:holi_procession_cart"
+      },
+      {
+        "id": "9d47cb82-b958-4865-a2ab-4f004cab7bd1",
+        "price_cents": 100,
+        "model": "gtm:ganesh_procession_cart"
+      },
+      {
+        "id": "1ad46697-b494-4da2-bf6f-d60255a600bf",
+        "price_cents": 100,
+        "model": "gtm:navratri_procession_cart"
+      },
+      {
+        "id": "3c8b224b-2dad-4ada-9020-24e8822b053d",
+        "price_cents": 100,
+        "model": "gtm:eid_procession_cart"
+      },
+      {
+        "id": "500603eb-c1e9-4501-9219-2013c99afb97",
+        "price_cents": 100,
+        "model": "gtm:sankranti_procession_cart"
+      },
+      {
+        "id": "6ed65030-f45f-4974-b741-948a85b19eb2",
+        "price_cents": 100,
+        "model": "gtm:christmas_procession_cart"
+      },
+      {
+        "id": "5332ba34-6dd6-4c83-be4f-d2c1126a80e6",
+        "price_cents": 100,
+        "model": "gtm:new_year_procession_cart"
+      },
+      {
+        "id": "b504d4b5-5188-4b9d-b603-c8d6ff17ccb9",
+        "price_cents": 100,
+        "model": "gtm:christmas_gift_cart"
+      }
+    ],
+    "moving_samples": 714,
+    "travel_blocks": 17.85000000000406,
+    "maximum_tick_step": 0.025000000000005684,
+    "trip_count": 22,
+    "actual_trips": [
+      {
+        "to_z": -120.09999999999991,
+        "from_x": -136.5,
+        "cart": "328770b7-2334-4ffd-a36a-181eb87ff442",
+        "from_z": -120.5,
+        "to_x": -136.5
+      },
+      {
+        "to_z": -120.09999999999991,
+        "from_x": -136.5,
+        "cart": "328770b7-2334-4ffd-a36a-181eb87ff442",
+        "from_z": -120.09999999999991,
+        "to_x": -136.75000000000006
+      },
+      {
+        "to_z": -120.09999999999991,
+        "from_x": -136.5,
+        "cart": "9e017f64-e08f-43e4-9ad6-38ede7de4437",
+        "from_z": -120.5,
+        "to_x": -136.5
+      },
+      {
+        "to_z": -120.09999999999991,
+        "from_x": -136.5,
+        "cart": "9e017f64-e08f-43e4-9ad6-38ede7de4437",
+        "from_z": -120.09999999999991,
+        "to_x": -136.75000000000006
+      },
+      {
+        "to_z": -120.09999999999991,
+        "from_x": -136.5,
+        "cart": "9d47cb82-b958-4865-a2ab-4f004cab7bd1",
+        "from_z": -120.5,
+        "to_x": -136.5
+      },
+      {
+        "to_z": -120.09999999999991,
+        "from_x": -136.5,
+        "cart": "9d47cb82-b958-4865-a2ab-4f004cab7bd1",
+        "from_z": -120.09999999999991,
+        "to_x": -136.75000000000006
+      },
+      {
+        "to_z": -120.09999999999991,
+        "from_x": -136.5,
+        "cart": "1ad46697-b494-4da2-bf6f-d60255a600bf",
+        "from_z": -120.5,
+        "to_x": -136.5
+      },
+      {
+        "to_z": -120.09999999999991,
+        "from_x": -136.5,
+        "cart": "1ad46697-b494-4da2-bf6f-d60255a600bf",
+        "from_z": -120.09999999999991,
+        "to_x": -136.75000000000006
+      },
+      {
+        "to_z": -120.09999999999991,
+        "from_x": -136.5,
+        "cart": "3c8b224b-2dad-4ada-9020-24e8822b053d",
+        "from_z": -120.5,
+        "to_x": -136.5
+      },
+      {
+        "to_z": -120.09999999999991,
+        "from_x": -136.5,
+        "cart": "3c8b224b-2dad-4ada-9020-24e8822b053d",
+        "from_z": -120.09999999999991,
+        "to_x": -136.75000000000006
+      },
+      {
+        "to_z": -120.09999999999991,
+        "from_x": -136.5,
+        "cart": "500603eb-c1e9-4501-9219-2013c99afb97",
+        "from_z": -120.5,
+        "to_x": -136.5
+      },
+      {
+        "to_z": -120.09999999999991,
+        "from_x": -136.5,
+        "cart": "500603eb-c1e9-4501-9219-2013c99afb97",
+        "from_z": -120.09999999999991,
+        "to_x": -136.75000000000006
+      },
+      {
+        "to_z": -120.09999999999991,
+        "from_x": -136.5,
+        "cart": "6ed65030-f45f-4974-b741-948a85b19eb2",
+        "from_z": -120.5,
+        "to_x": -136.5
+      },
+      {
+        "to_z": -120.09999999999991,
+        "from_x": -136.5,
+        "cart": "6ed65030-f45f-4974-b741-948a85b19eb2",
+        "from_z": -120.09999999999991,
+        "to_x": -136.75000000000006
+      },
+      {
+        "to_z": -120.09999999999991,
+        "from_x": -136.5,
+        "cart": "5332ba34-6dd6-4c83-be4f-d2c1126a80e6",
+        "from_z": -120.5,
+        "to_x": -136.5
+      },
+      {
+        "to_z": -120.09999999999991,
+        "from_x": -136.5,
+        "cart": "5332ba34-6dd6-4c83-be4f-d2c1126a80e6",
+        "from_z": -120.09999999999991,
+        "to_x": -136.75000000000006
+      },
+      {
+        "to_z": -120.09999999999991,
+        "from_x": -136.5,
+        "cart": "b504d4b5-5188-4b9d-b603-c8d6ff17ccb9",
+        "from_z": -120.5,
+        "to_x": -136.5
+      },
+      {
+        "to_z": -120.09999999999991,
+        "from_x": -136.5,
+        "cart": "b504d4b5-5188-4b9d-b603-c8d6ff17ccb9",
+        "from_z": -120.09999999999991,
+        "to_x": -136.75000000000006
+      },
+      {
+        "to_z": -115.5,
+        "from_x": -139.5,
+        "cart": "b504d4b5-5188-4b9d-b603-c8d6ff17ccb9",
+        "from_z": -115.5,
+        "to_x": -139.80000000000007
+      },
+      {
+        "to_z": -115.5,
+        "from_x": -139.80000000000007,
+        "cart": "b504d4b5-5188-4b9d-b603-c8d6ff17ccb9",
+        "from_z": -115.5,
+        "to_x": -138.1999999999997
+      },
+      {
+        "to_z": -123.50000000000182,
+        "from_x": -138.1999999999997,
+        "cart": "b504d4b5-5188-4b9d-b603-c8d6ff17ccb9",
+        "from_z": -115.5,
+        "to_x": -138.1999999999997
+      },
+      {
+        "to_z": -123.50000000000182,
+        "from_x": -138.1999999999997,
+        "cart": "b504d4b5-5188-4b9d-b603-c8d6ff17ccb9",
+        "from_z": -123.50000000000182,
+        "to_x": -140.30000000000018
+      }
+    ],
+    "injected_input_events": 766,
+    "stopped_owner_repositions": 28,
+    "scenario_elapsed_ms": 71303,
+    "cargo_receipt": "1eb81979-873f-40d5-b234-23db5e6b61b6",
+    "prior_collected_food_order": "ce135db3-f62b-4add-8581-6f0c5df82362",
+    "prior_closed_loan": "f09e7029-68a9-4290-9f35-9785f530633f",
+    "prior_released_receipt": "5c37ff2d-08e1-4eb8-8bda-8a6f682fd597",
+    "prior_paid_cart_report_sha256": "7a659b212a972b1e1c37c57cf16b01e968fdab4fc6c775eaa34785865ee5a16a",
+    "prior_original_food_sha256": "25246e1f00de9fc6e968115a2225aa63983df3bedc2dd5299e688a0788ae2955",
+    "scaffolding": [
+      "Ordinary menu InventoryClickEvent and real PlayerInputEvent injection",
+      "Stopped-only owner view/position setup after actual geometry and LOS checks",
+      "Read-only reopening of the original FUR2 snapshot",
+      "No generated food or inventory transfer: earlier normally purchased chai travels between its two actual existing paid barrels"
+    ],
+    "shutdown": [
+      {
+        "type": "process_exit",
+        "process": "client",
+        "code": 0
+      },
+      {
+        "type": "process_exit",
+        "process": "proxy",
+        "code": 130
+      },
+      {
+        "type": "process_exit",
+        "process": "server",
+        "code": 0
+      },
+      {
+        "type": "cohort_stopped"
+      }
+    ],
+    "server_exit_code": 0,
+    "proxy_exit_130_scope": "Explicit supervised SIGINT shutdown after the completed report; client and Paper exited 0.",
+    "furniture_snapshot_wording": "The raw report retains its historical FUR2 label. The current core reads compatible prior formats and writes FUR3 on normal saved mutations; the companion reopens the actual store and compares the original IDs and poses."
+  },
+  "native_java_bedrock_visual_qualified": false,
+  "windows_qualified": false,
+  "new_canonical_models": 0,
+  "geometry_scale": 1,
+  "preflight_admission": {
+    "status": "PASS",
+    "offline_admission_cases": 13,
+    "actual_report_sha256": "7a659b212a972b1e1c37c57cf16b01e968fdab4fc6c775eaa34785865ee5a16a",
+    "server_started": false,
+    "paid_state_writes": 0,
+    "output": "PASS 13 offline exact-completion admission cases; no server started",
+    "scenario": "PAID_CART_PHYSICAL_RETURN_COMPLETION",
+    "expected_prior_checks": 4,
+    "prior_report": "docs/reports/PAPER_SHOPPING_CART_R4.json",
+    "prior_report_copy": "plugins/GTMLaptopFestivalCartProbe/paid-shopping-cart-completed.json",
+    "original_item_fixture_copy": "plugins/GTMLaptopFestivalCartProbe/paid-shopping-cart-chai-slot0.bin",
+    "original_item_fixture_sha256": "25246e1f00de9fc6e968115a2225aa63983df3bedc2dd5299e688a0788ae2955",
+    "required_bank_cents": 49128,
+    "required_loan_phase": "RETURNED",
+    "required_receipt_phase": "COMMITTED",
+    "required_receipt_released": true,
+    "required_receipt_payload": null,
+    "all_129_gameplay_steps_unchanged": true
+  },
+  "schema_version": 2,
+  "source_files_at_initial_focused_gate": {
+    "source/src/main/java/com/sdcraft/core/furniture/FestivalCartMotion.java": "2b41d32c63c19b5a2ebda262d1a18eaf541e2167298c7fb97f2b19f1eaa068b6",
+    "source/src/main/java/com/sdcraft/core/furniture/FurnitureMotion.java": "7b65a00b0c6326a5fa3be7c25b8b47db9ab8652d28003c0a4b5212ca5c66caac",
+    "source/src/main/java/com/sdcraft/core/furniture/FurnitureStore.java": "5a9093a1845fab4e6d79241022966a0d027a79b3705792874cea506333b13ae9",
+    "source/src/main/java/com/sdcraft/core/GtmFurnitureRescueMobility.java": "d64362d802dcd023a1fdda118e6472a040d39abeb7acb7d36e11b7c3bc878e7f",
+    "source/src/main/java/com/sdcraft/core/GtmFurnitureCargo.java": "80e359383cf3e5ff693b228b069b50b1fb9f238fbba1f45d1bfab812841f9a41",
+    "source/src/main/java/com/sdcraft/core/furniture/FurnitureCargoStore.java": "8381d9afe9d3ef4a3d702eb94cfe09115b2e85af2147d3a2543c37665dbf3d92",
+    "source/src/main/resources/furniture/extensions.tsv": "ce68d72dfe095beb72b7406cf5d2070897885886883bff8aea4999e73225536a",
+    "source/src/test/java/com/sdcraft/core/furniture/FestivalCartMotionTest.java": "23e496c3174d1008aa3aa12c40665abc74971e0447feab8dbd81e5009aaa3cda"
+  },
+  "runtime_inputs": {
+    "server_root": "/workspace/scratch/d7d343b39c16/integration-probe-r4/laptop-profile-validation",
+    "inputs": {
+      "plugins/GTMLaptopCartProbe-0.1-isolated.jar": "8426bb5d032b24341c825327dab258d5ccd430c486b344c88b21fea3599de6cd",
+      "plugins/GTMLaptopFestivalCartProbe-0.1-isolated.jar": "8a25bf4fc59010f9d48de5274eaed3357396c14417bd3f39e0e4d2eba2e6ddcf",
+      "plugins/SDCraftCore-1.0.3-r4-functional-candidate.jar": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+      "resourcepacks/GTM_Local_Java.zip": "5b5e132a2c670b07e8c0c389e086bd2dee1002ed7de72a6bdcd93acc6d6cba9a",
+      "plugins/Geyser-Spigot/packs/GTM_Local_Bedrock.mcpack": "d02cc8f41f6f97799dedab824b6fd23049c01556475e0031a50824543b507aab",
+      "server.properties": "cea8312ef610c64c67d26574b6a49723b430c697dce75966e5235cb3be552196",
+      "permissions.yml": "8c6884546b84fa30ca671da849d2f7ae169b2ae292441da88b83c791fc925bae",
+      "plugins/SDCraftCore/config.yml": "0d17e5fcad21b67a998da51215132288e4a139f4ef2d1a24f33ec28c2c5f78b6",
+      "plugins/bStats/config.yml": "6d2349601031d2ab8a25bda9d48ed27c208232018aad0ee43eaf31740099bb94",
+      "plugins/faststats/config.properties": "d64ccbf064b459fe40e097d106ef9cda8ff5af544b1fd9bd4374c6f34e08e153",
+      "plugins/floodgate/config.yml": "101bbb4a09cd292717855ba499e6926ac493c9b95ce16a046e03ff4edd995cb6",
+      "plugins/Geyser-Spigot/config.yml": "91bf471ba08dc1a818933bcac1190418968c2ff1d4fb34a6b2a4f994148cbe95",
+      "plugins/Vault/config.yml": "9648981b41b71acc33b0ce877e9f661215d6bf42819d82b0f7ed6ba34ef0d367",
+      "plugins/Geyser-Spigot/extensions/geyserdisplayentity/Mappings/gtm.yml": "c9e7b290e689b4cc77862d68bce7fe3c0c02e0b4aaa748eaaed60d8f0965cc09",
+      "plugins/GTMLaptopCartProbe/config.yml": "03368a9c8231f01ad8d56dfe561e003b245851614bdb78b49feb4a1b45ab1a28",
+      "plugins/GTMLaptopProfileProbe/config.yml": "9640a99b1a9e87839d27b21b17f88a18de758cdac961c4774357364a240d371b",
+      "plugins/GTMLaptopDepotProbe/config.yml": "1e22431c9e6cb452bbaba2123991af14d4ccf56baa55bdeca5fecef3c7d50466",
+      "plugins/GTMLaptopFestivalCartProbe/config.yml": "c34efe296a760dfab74374868cc2cbcb4134ecc3d0cbe11e14c08d0ff431aa2e",
+      "plugins/Geyser-Spigot/custom_mappings/gtm_native128.json": "7ee03be5ee70bf21512cad88f3085cd3ad7dc46470623227ae23cbe46567d540"
+    },
+    "harness_inputs": {
+      "run-scenarios.py": "7039400d68c1705070556ae1e160322be034a2d63fc0cecc36d1d19a7b534791",
+      "run-cohort.py": "7d8fc10665852248779a2d85a3ae6e6c0515143139b269f1a1712b9127109836",
+      "run-isolated-server.py": "2ec449d741a8ee2d7f85606dcce04f5d448225fa9afd25479a3005f14980b2b7",
+      "run-isolated-proxy.py": "65899d7d8f3c60aaeaf45bcb48cdbc8677f27d6f2dcc5da89fac9d143543cb44",
+      "proxy_optout_guard.py": "d847c6b0aba82fb8ed1943ef5dea510fa7eca1b4d3d2172684f62029e85b5e2c",
+      "retained_workshop_guard.py": "045ad9173f9ca13087daed32d7dee82ad0613638e168409773fd56e0270d946f",
+      "release_verify_guard.py": "41bb9e6e2056f4f49dcee85b1cc746260f024e0ba4d963d85c30e9264840c2d8",
+      "dependencies/ViaProxy-3.4.14.jar": "2894bbfb2f4342f8fde887af6c689313efd5b0e46a8006775eea0e21e2948ab5",
+      "dependencies/GTMIsolatedViaProxyOptOut.jar": "d19624dafaf2c3ee4720a65c996df31d434417287db42ac54513b0379172f3cc",
+      "dependencies/GTMIsolatedViaProxyOptOut.json": "ed53bd9171d6fdeec2591282e8ab5b224d7940db2977f249802ce294e4e6d4ea",
+      "proxy-profile/viaproxy.yml": "da53c9433f91d35ca54c23d158c4fb843137cb73c7282b058579e98d21801eff",
+      "proxy-profile/viaversion.yml": "f76640950b3c81619aa8a066e185807ff95422129f484e4df8ed92edc99dd357"
+    },
+    "primary_synthetic_actor": "GtmLaptopQA",
+    "native_client": false,
+    "retained_workshop_scope": null
+  },
+  "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+  "final_source_snapshot_sha256": "8df6f572928534b3e857dde033acb0a5b0afe3680817950505d23e34b9fc3e06",
+  "final_core_gate": {
+    "tests": 644,
+    "suites": 79,
+    "domain_checks": 155,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "scope": "Root-owned immutable full source build for the actual b7c core."
+  },
+  "custody_conservation": {
+    "account_uuid": "cde0f222-1da3-30b6-8852-78990d7a31f7",
+    "world_uuid": "33e148a5-e023-4d8b-8a87-9f045fa731c4",
+    "source_furniture": "14e1c402-8dd7-4f53-8d36-e713fa98e254",
+    "source_barrel": [
+      -142,
+      64,
+      -115
+    ],
+    "destination_furniture": "c7cd86af-9ad4-4690-aa68-93024295dd6e",
+    "destination_barrel": [
+      -142,
+      64,
+      -125
+    ],
+    "source_empty_after": true,
+    "destination_exact_original_native_item_after": true,
+    "destination_occupied_slots_after": 1,
+    "unload_invocations": 1,
+    "receipt_committed_released_payload_absent": true,
+    "replay_refused": true,
+    "nine_original_entitlements_retained_unplaced": true,
+    "inventory_setup_or_factory": false,
+    "world_fixture_writes": 0,
+    "permissions_or_item_or_money_grants": false
+  },
+  "crossplay_startup_observation": {
+    "evidence": "docs/reports/GEYSER_INITIALIZATION_R4.json",
+    "custom_items_registered": 3576,
+    "pack_item_identifiers": 3575,
+    "display_bindings": 1934,
+    "display_extension_loaded": true,
+    "built_in_signaling_observed": "http://127.0.0.1:19132",
+    "nethernet_loopback_warning": true,
+    "skin_api_resolution_errors": true,
+    "scope": "These are startup/registration observations in this paid run. The loopback signaling warning and failed skin API DNS prevent treating them as a successful native Bedrock connection or visual check. The extra runtime custom item is internal to Geyser."
+  },
+  "hard_power_loss_qualified": false
+}

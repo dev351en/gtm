@@ -1,0 +1,477 @@
+{
+  "algorithm": "SHA-256 of sorted relative path + NUL + file SHA-256 + LF records",
+  "scope": [
+    "source/src/**",
+    "source/gradle/**",
+    "source/build.gradle",
+    "source/settings.gradle",
+    "source/gradle.properties if present",
+    "source/gradlew",
+    "source/gradlew.bat",
+    "source/*.kts"
+  ],
+  "file_count": 115,
+  "source_sha256": "d3880782715a64f9f54024a61f7e5f79f09c899ad24b50253a02e392a61e6ef9",
+  "files": [
+    {
+      "path": "source/build.gradle.kts",
+      "sha256": "359aec1a4200cd95be346e41f81f99a0a70c1d1a352abc39d8c9541c1510cb2f"
+    },
+    {
+      "path": "source/settings.gradle.kts",
+      "sha256": "2239d2a4ff9ff91a1189de7bc1bf9ae2223efaa7ada5470e4077442b324f30f7"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/AccountStore.java",
+      "sha256": "8cd31601bfc58343f17982f320df1ce4ec44b5417ef962eb9d3696e561ad6a5c"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/AiService.java",
+      "sha256": "c289b844e51591648e3893dc99553d24129b112dc221ae04461b0c075930aa98"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/AtomicYamlStore.java",
+      "sha256": "e9027a19253cd8a1fc217cbc951477894608aa0011e904e4c7195d97129f3382"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/CityItems.java",
+      "sha256": "213c4d2602fe813c24fd40d13098fab6c2710c7ae81bcce2a8e5494da5cd6ae5"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/CreativeArsenalManager.java",
+      "sha256": "d53f517501f62364dd7fa32e23dc6fafc19583c6566de392f737a3fd7cfe5b08"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/DialogueEngine.java",
+      "sha256": "90495d6ac87eb5e4c5e3f595efd4b4773ec6823ffe024a9af6a59e4e61450416"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/FurnitureTargeting.java",
+      "sha256": "d613c173c582dd8728a7876f7c24fab7a76e8b32c499edb7ef791d1b52e6f25a"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GpsManager.java",
+      "sha256": "0966d3949bf5cc920ddac99426bc207ac32158738939b08caddb7727268bb5a6"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtaEngine.java",
+      "sha256": "964b1b62b385ef5bf33477e78387de0bf40824cee6998dbf3fb58a6258ad6c59"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtmAssetCatalog.java",
+      "sha256": "0a16d6f9ba042d0fc54272c5827e1688ee5cfe658f07777eb49afe457fd620d3"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtmAssetShop.java",
+      "sha256": "0f74ba3094f93caeacffae6603ae652c3b0d2768c2643055b6a0ebc693cbb277"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtmAuthentication.java",
+      "sha256": "d08cdd2d68d3f7f352a76044798f0bdef3b4d73ed89cce969eaac638f056391e"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtmCityModels.java",
+      "sha256": "79e0f4a749a138b40650f4105a735437a429d8daa294869523035ed62fa2b814"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtmCivicTerminals.java",
+      "sha256": "ca55c214232023f858a88d08474fd1c115b77fcc900e71398f78cd882fe4415d"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtmControlCentre.java",
+      "sha256": "ce0f03adae9e45ed8d559cd20c91847e43d1c0e2f8e499ba8c8601082cab9a34"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtmDialogue.java",
+      "sha256": "7bc7664f64891982a0816f9eb63ae660ac488c4a58f89f617c09ba65cf0c33a2"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtmFinishes.java",
+      "sha256": "13b796bd7cef3bae512de8d24f90c02bd95f9f61ab54f6aa960b98ca62dee88e"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtmFood.java",
+      "sha256": "12d61f69fad3f9ba453dcd184957fbc8b0d408153db78e69ab5bdfdbf4bd208d"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtmFurniture.java",
+      "sha256": "b706af92f15d72ac3a108120d414e658cfe7e708dd53b136e07e68f493967cf0"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtmFurnitureMenu.java",
+      "sha256": "f0ee4261269bcf72880a7a3065b138294e376fdc9619c4c3eede4bf82fb4ce2b"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtmItemDelivery.java",
+      "sha256": "57e64ce63e61876c96fdbb86d7da5fdefe50e3475af9e931bf9dae83d67f9a49"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtmLoans.java",
+      "sha256": "81d79a74a44d9f4db9106ec5dd177c915edec227707b759c6657a270e89bc1f8"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtmProperties.java",
+      "sha256": "85dc58ccc2356396a9e79911abd7caee9d600f25712a96fb9d06450faf211912"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtmVehicleServices.java",
+      "sha256": "a59cc63ceb97552734d848664251fd9c684d20f0504c92bf968636644517edf2"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtmVehicles.java",
+      "sha256": "8c780cc35d5a0edddbf9f82bca8870c314175fd856ad99deb9c389f6c83903d5"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GunEngine.java",
+      "sha256": "810a294c744f0de101dc9d636c779abf433ce099c09abd904baae44c6f878f15"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/Jeeva.java",
+      "sha256": "232ea20ed74b496ece80965ef6ce3034bbece87d4918ff31de0726de66fbc159"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/Ledger.java",
+      "sha256": "87d496c6f5fc2b062d08cf8e8114a6c959442d8d08d1c9b83df22599d2115472"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/MedicalRecovery.java",
+      "sha256": "6eff21582e1b1e00ce12879b5722e18c4dedec0ffe0a606c46c0bc99277598c7"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/NpcService.java",
+      "sha256": "36d9e9bc2199fa6e7d80d5556ebe1b862a971fa1bb769aa8c693fe83f52060b3"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/PolicyEngine.java",
+      "sha256": "0acb80d86791c8f5c9e1576df0ac4d80102a31207a56dd66d698b5decaf4b609"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/RestorationEngine.java",
+      "sha256": "3c180b86f5e8f9aafeb0ae01fbc34f04335c2d57c000fd3a46bd05684cff7c06"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/SDCraftCorePlugin.java",
+      "sha256": "167ccc3f2bc3d8ec9b9fcf90f7100aa2d74d7fd54ca54e6b758728545473d9b7"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/VaultWallet.java",
+      "sha256": "bb898f0b8735aae88a2d6a303328f2d8461c7df9a6cebe059be82d0faefef369"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/furniture/FurnitureBounds.java",
+      "sha256": "ade7e01235301ee41afe71e151b15aa6e10becda9b25d5769ca6410cfa06f09e"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/furniture/FurnitureCatalog.java",
+      "sha256": "6e2a5a72d12b5495d3e99d2a3ec05670cf4d91c06087df0554a2d4df68e26fff"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/furniture/FurnitureStore.java",
+      "sha256": "44846f6151914645088d2580d72292268b2c4400745a3a1d28d479be71fdb23e"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/gtm/AuthenticationState.java",
+      "sha256": "457917b7f22c6cadf017407c5c7ae7e285e2090d4cbf7f9b5dfd9a349243a86c"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/gtm/AuthenticationStore.java",
+      "sha256": "5572e533563aa8d05a1d973060a3583c443d5f23bf2fcbaadbfee89b48d57383"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/gtm/CityRoster.java",
+      "sha256": "4d7ec42b52ad6679956bc611522b6ac09f9f0b9c298e21ccc4a332a6a1e36dff"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/gtm/CivicRules.java",
+      "sha256": "0dee55871db2eae4068095041340f4764421ceae19062c4339ce8bb86f875f2b"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/gtm/Finish.java",
+      "sha256": "156f3a3f62b1a58a01b61327492ea51db1bd5fa8a8696063e978d6eb0452c5e9"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/gtm/FoodCatalogue.java",
+      "sha256": "a1a0a90b8dccba4f5950fc39cdb5bc2044f33e6bbfdd6cfc1bc8820d422f574f"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/gtm/NearMiss.java",
+      "sha256": "7ee73c27c92be7a9b7ab1fa2640b9d2ca8fe572a63db439a7a9ede1eacb3c904"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/gtm/RegionBounds.java",
+      "sha256": "9662af5ede89c8f16db664bb25af3156035f4d15346bc50125a79af4e04f8092"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/gtm/RoleplayText.java",
+      "sha256": "5b8de816f5cf6301bafc6361747be6f3ee94c97b9ea3b375e958cc1cd332b4fb"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/gtm/RouteGraph.java",
+      "sha256": "d7f4160db3876a8e9bae9d24c2a78f2bc6b9802545b0b362aa85bc2eb960c499"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/gtm/SnapshotStore.java",
+      "sha256": "09148e2faf6f788744cd4b2e713055818d72bb0e2883a815e4620f797ce8ed6b"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/gtm/VehicleState.java",
+      "sha256": "015970d74e5abb043059f84d9bfd97aaf37bffa86665fb33e993d6392a3b36a2"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/vehicle/OwnedRoadVehicle.java",
+      "sha256": "13a1460e15e237d7f395ea61b4ee021a210e9aa3bddb36194e47d3f9f2537d2c"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/vehicle/PaperRoadCollision.java",
+      "sha256": "4c20de5429d2157603968a4c0ac6892cd0f3e9b7e36f48c7aed997acdfa02d06"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/vehicle/RoadPhysics.java",
+      "sha256": "70ba8231641dc18a11cd13bacadc8bcb9bbab865bb5beabf04c7143254ee5612"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/vehicle/RoadVehicleCatalog.java",
+      "sha256": "d5662369622610fec10ca21ac7fe23009e64644415d98ba7e77c6d659b703ace"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/vehicle/RoadVehicleProfile.java",
+      "sha256": "cfe1d8129c9f9cd5f1ae59f7cc88abbba26f56190c2e2c1e52eb910e31f8740d"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/vehicle/RoadVehicleStore.java",
+      "sha256": "3724ffdb72192a6b4d34c2fed9cf8ef2de4b3d919cc30a1ecf07a27bb7be92c9"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/vehicle/VehicleGeometry.java",
+      "sha256": "62aee11cd0d4ef3a2bb6b1241608426c7a821c4d16f4c40b4ce912e4c99c9795"
+    },
+    {
+      "path": "source/src/main/resources/config.yml",
+      "sha256": "d6cbe619b5639eb534783044e0f320854eefcecfac675cb605df67a20c7b172b"
+    },
+    {
+      "path": "source/src/main/resources/furniture/capabilities.tsv",
+      "sha256": "f8a255ba5081d27dca0d70ca260dda4d3311acbbbbd32d1163069b119791a1cc"
+    },
+    {
+      "path": "source/src/main/resources/gtm-assets.tsv",
+      "sha256": "3a3a62a08da805f0e4b3fbabe02b61b8b159aacc252548eb6449246bf2d004c0"
+    },
+    {
+      "path": "source/src/main/resources/gtm-city-models.tsv",
+      "sha256": "ba0712eeb4696e7520110e6219417673435522d1205016ca0a9531930c10eca6"
+    },
+    {
+      "path": "source/src/main/resources/gtm-population.tsv",
+      "sha256": "fe02994a7e428d1c6b174a8e455b77232078fd39b84cdf99f38269465188cd37"
+    },
+    {
+      "path": "source/src/main/resources/missions.yml",
+      "sha256": "04bc37de395dde4e129add92dce5bd0c7b48c7f89288c92ed67f99c93b133c11"
+    },
+    {
+      "path": "source/src/main/resources/npc-dialogues.yml",
+      "sha256": "c683c8308839ea6c696c4013576062cc8b0fa710d5086f4f4ada1173f61eb208"
+    },
+    {
+      "path": "source/src/main/resources/plugin.yml",
+      "sha256": "b623d851760b5f2569b800d6cad08105c2968832e9812e58b3f03c962013a774"
+    },
+    {
+      "path": "source/src/main/resources/skins/skin_aditya_verma.png",
+      "sha256": "3252976459bfc016b14a0f66370f6c08aa979f626285e65c78b6fe4c71b20d1d"
+    },
+    {
+      "path": "source/src/main/resources/skins/skin_anjali_rao.png",
+      "sha256": "5b7b02e93620e5d8d25763b124fd624de153234a1cbde6f1ecb230be3c785833"
+    },
+    {
+      "path": "source/src/main/resources/skins/skin_arjun_shah.png",
+      "sha256": "b72ca1e995e6b88db3046f4bf82fa6d08fa60dfc65390abe0b56d0b5fc93738f"
+    },
+    {
+      "path": "source/src/main/resources/skins/skin_asha_mehta.png",
+      "sha256": "d01c6a52b4cab947279932a7113cccf1d921f8e0fa6611c301caa4c2a2578223"
+    },
+    {
+      "path": "source/src/main/resources/skins/skin_dev_malhotra.png",
+      "sha256": "eed13fb0b6b501b0c0fe05c22d6764067897dc06c23ce1d41c440ec8d01c76f7"
+    },
+    {
+      "path": "source/src/main/resources/skins/skin_imran_sheikh.png",
+      "sha256": "905780bc36be0f0cd97b042200904ca4f0fae3e9150730d9dbbc99bffc440f18"
+    },
+    {
+      "path": "source/src/main/resources/skins/skin_kabir_sethi.png",
+      "sha256": "6cdbada7e3218b150b48c25e215a3b504f64448e875f252dc436a88fd531dd97"
+    },
+    {
+      "path": "source/src/main/resources/skins/skin_karan_joshi.png",
+      "sha256": "1e0873bb9c1f681e614c664c29dd7b991f8f98018c9437aa38a79b07010d00fe"
+    },
+    {
+      "path": "source/src/main/resources/skins/skin_kavya_nair.png",
+      "sha256": "64b216829f41d8e4863fd5f1f4fd3aa3ff9d89cf2db99332af050b5183860736"
+    },
+    {
+      "path": "source/src/main/resources/skins/skin_meera_kulkarni.png",
+      "sha256": "32fa3079ca9a1cc9d6856d1c6474844023734d15c63d010ae1e1b8810c8114c3"
+    },
+    {
+      "path": "source/src/main/resources/skins/skin_mira_rao.png",
+      "sha256": "1d95d234ccc6ca87440a48e312bf48553af2f71ff4c3ea82c32e02aa0a5760fd"
+    },
+    {
+      "path": "source/src/main/resources/skins/skin_neha_patel.png",
+      "sha256": "1593756d6da7dfb3fb569e5456647f4ca11c4583edbf360c9200e743d3d952a0"
+    },
+    {
+      "path": "source/src/main/resources/skins/skin_nisha_bhat.png",
+      "sha256": "dec0cd5efe1078a7f1559773bdca2537906c81cfaa4207765c35b28c6da0fe59"
+    },
+    {
+      "path": "source/src/main/resources/skins/skin_priya_desai.png",
+      "sha256": "698e2daeeafbf969260c13b130137a9913957ed35b0c76f8591b51de43e7730a"
+    },
+    {
+      "path": "source/src/main/resources/skins/skin_rehan_khan.png",
+      "sha256": "c1053f5e5c152a6df4ef094a6d0ebd7c15cce903fb75997c00dc83c421a9335c"
+    },
+    {
+      "path": "source/src/main/resources/skins/skin_riya_kapoor.png",
+      "sha256": "bce5c5e8f781decf84548fcabe784f0b0a50745d97c811a75caab84971e853af"
+    },
+    {
+      "path": "source/src/main/resources/skins/skin_rohan_iyer.png",
+      "sha256": "68a7835b7c2f0d82aa4e8466d9829cbd61d47d4b923bae86abe67eb31f792367"
+    },
+    {
+      "path": "source/src/main/resources/skins/skin_sameer_qureshi.png",
+      "sha256": "c262d275fae7bbda1d1f2442d26800536a93f2a559ee0a96ce822437c5be20ce"
+    },
+    {
+      "path": "source/src/main/resources/skins/skin_sana_ali.png",
+      "sha256": "d5c6820cc42e038468111cb7ece8217cac4e33775a70b1ea3fde68d840a922f4"
+    },
+    {
+      "path": "source/src/main/resources/skins/skin_vikram_singh.png",
+      "sha256": "119edcfd069cfd42c86b71098a60a1ffaca85422dd5da9651ceea2bfad0e67ad"
+    },
+    {
+      "path": "source/src/main/resources/vehicle/road-profiles.tsv",
+      "sha256": "e4e6693f489decdc3e2721be064e2b40a83f2ef6ece11ef4f21d1794e1ca53d4"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/AssetPurchaseTest.java",
+      "sha256": "227af31ddc99e4f6e71171387f508a5fac00ea9bcb03184e2301189ad869acfc"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/AtomicYamlStoreTest.java",
+      "sha256": "f5c7560bb2a950b716dacb2e832537d819e319e45069aeed850839cfe125da04"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/CityRosterTest.java",
+      "sha256": "b1d32003246e12d9e2ac9af6408ecf053927d9c5d96707d629c4698db4855bbe"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/CreativeArsenalAndHologramTest.java",
+      "sha256": "409c51b966378afd73867fd18ef8aeda662264569123d0125ad98fe9b0ef0660"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/DialogueEngineTest.java",
+      "sha256": "640c973bc32d16c3afa83a198bc74b4acf79d427e65f15f9fefa8e4024f8e97c"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/FinishLedgerTest.java",
+      "sha256": "36c373aa5db6d231e09ffc87f4a5b6e6fa9316047295c1f4d7102ee7485e0b07"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/GtmAssetCatalogTest.java",
+      "sha256": "05a7de6da6ee8092c83bdc985c74db8d2cce2e16dde30d15e70a9964bc4fae1b"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/GtmFoodLedgerTest.java",
+      "sha256": "ee2bf2a5957921a1c038d2ecc3a5128e60e39b39d1767b4f6f5018ed617c13fa"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/GtmLedgerTest.java",
+      "sha256": "33a55c2b1c55a68b336d15fe38feb096d66bf1a342f851e462f245eed478dd90"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/ItemDeliveryTest.java",
+      "sha256": "868bce02570a4018c4c828a14481b83bfada26a9332092e13544d02a4dd7141c"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/LedgerTest.java",
+      "sha256": "4e59a8212dd4caf09838f6332d770fff1d25ac1e7c32db0f447d5da62ee9e63a"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/MapAndGpsTest.java",
+      "sha256": "5d30b7b0df472c2d19e69fb9f3166aeecff5afeaa4cf8cdabf82eb99bde008db"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/MedicalSettlementTest.java",
+      "sha256": "803b921e332226ded5817c790afc314c1e144837f5ebc43fcb2f165eda4eb6c9"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/MissionSettlementTest.java",
+      "sha256": "9a4c354241a6e84db2a53ae13dee2c6ab6fd44e420fae7b575dc260a1619647d"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/NpcPopulationTest.java",
+      "sha256": "c8e53623da062acf10aeb48490e91a14dd544a2d250179c05d020be6d496d80e"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/PolicyEngineTest.java",
+      "sha256": "5c0abf89c21b73805235c4fbb2c7f404b7b7b064f8a17167c9fb49c1e2d7712f"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/RestorationAndGunsTest.java",
+      "sha256": "85e8ef00a9915ecc4f6d545e60b4ce223b2273c4d0241b7fe97a7d0fb696867a"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/SurfaceSpawnAndKitTest.java",
+      "sha256": "aacf481a8202acfbf576f664fdaa75cdf5600e854fbc2f521621f17ebd4356c1"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/VaultWalletTest.java",
+      "sha256": "2254f0bdfe1aac9fa6bab35985e9c56416e4be8258d9082cde8d24e1cf1aa135"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/furniture/FurnitureRuntimeTest.java",
+      "sha256": "9db38d9a388da1146264fb9e724345dbc3922662a990a869770932aa14099f22"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/gtm/AuthenticationStateTest.java",
+      "sha256": "6529fc2b9c38a4ed871a07508886694e7cd8c59284a8ad3a329b72105640eca9"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/gtm/AuthenticationStoreTest.java",
+      "sha256": "2de8977f014a5455678fd24abdb70b2f8dfd7522809a175b2a7573ce96489622"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/gtm/CivicChecks.java",
+      "sha256": "c4948f3870b2ec6ade3cb0052f324fa72314cec72d4c68cc05d8c684b1a892f0"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/gtm/FoundationChecks.java",
+      "sha256": "38d8e3e05d0c8729acfbb0229538411cdc917bd097da7bc93614da8a5a792b4e"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/gtm/InfrastructureChecks.java",
+      "sha256": "c2baf30e42f81a809bb97ff3062e3389d50c4b94b32ef2f77ea9b82005f0b4bb"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/gtm/NearMissChecks.java",
+      "sha256": "7e0ddb771abc11d889cf576b7c31e9573db6884e3a226a08982337e0508991ee"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/gtm/RegionBoundsTest.java",
+      "sha256": "61878d3dafefdfe831cf9d75e83ecdbb88121f4f7aef6905038991e04add5795"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/vehicle/RoadVehicleRuntimeTest.java",
+      "sha256": "51f6c0811fdac401a05f7fdbfe6003b6b17410ef2fc20b4e3077b337df845b62"
+    }
+  ]
+}

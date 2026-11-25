@@ -1,0 +1,537 @@
+{
+  "recorded_utc": "2026-11-25T02:36:31.818478+00:00",
+  "classification": "All six supplied workshop mechanisms passed the complete actual Paper scenario on the reviewed core. Cleanup covers the workshop fixture only; the unrelated interrupted festival evidence remains unchanged. Native rendering/input and hard-power-loss behavior are not certified.",
+  "parent_coherent_source_snapshot_sha256": "8df6f572928534b3e857dde033acb0a5b0afe3680817950505d23e34b9fc3e06",
+  "focused_gate": {
+    "status": "PASS",
+    "tests": 69,
+    "suites": [
+      {
+        "name": "com.sdcraft.core.FurnitureCargoMarkerTest",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "com.sdcraft.core.WorkshopSupplyProofTest",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "com.sdcraft.core.furniture.FurnitureCargoGeometryTest",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "com.sdcraft.core.furniture.FurnitureCargoStoreTest",
+        "tests": 21,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "com.sdcraft.core.furniture.FurnitureCartStoreTest",
+        "tests": 10,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "com.sdcraft.core.furniture.ShoppingCartMotionTest",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "com.sdcraft.core.vehicle.VehicleHoistGeometryTest",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "com.sdcraft.core.vehicle.VehicleMaintenancePhysicsTest",
+        "tests": 9,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "com.sdcraft.core.vehicle.VehicleWorkshopStoreTest",
+        "tests": 9,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "log": "docs/reports/WORKSHOP_CART_FOCUSED_R4.log",
+    "note": "24 workshop,15 cart and30 cargo cases; final pack catalogue and two narrow old furniture test expectations are covered by the parent full gate"
+  },
+  "actual_paper": {
+    "status": "PASS",
+    "expected_records": 28,
+    "scenario_records": 27,
+    "report": "docs/reports/PAPER_FURNITURE_WORKSHOP_R4.json",
+    "plugin_report": "plugins/GTMFurnitureWorkshopProbe/report.json",
+    "command": "gtmworkshopprobe run",
+    "normal_reauthentications": 1,
+    "required": {
+      "status": "PASS",
+      "unexecuted_steps": [],
+      "fixture_remains": false,
+      "cleanup_complete": true,
+      "failed_steps": []
+    },
+    "retained_attempts": [
+      {
+        "report": "docs/reports/PAPER_FURNITURE_WORKSHOP_R4_ATTEMPT_01.json",
+        "sha256": "a32ecb82b6f3a322d0a0f51f505718133419ec0a3575a52e633a1f4c281519c2",
+        "status": "FAIL",
+        "pass_records": 8,
+        "fail_records": 1,
+        "fixture_remains": false,
+        "core_sha256": "b19aeb13a2fde033da787e6e204b2106808105ad4cdf4d035d89113b36d9ad3f",
+        "companion_sha256": "41a93eb292a9a05c5f56deda95535a86ae7416c02344aa9c3024bba1ca35866f",
+        "finding": "Immediate oil action ran before normal post-permission projection reconciliation. Original report preserved; its queue included the attempted failed step and its terminal status was published during cleanup. Companion-only retry awaits valid projections and freezes terminal provenance."
+      },
+      {
+        "report": "docs/reports/PAPER_FURNITURE_WORKSHOP_R4_ATTEMPT_02.json",
+        "sha256": "b8670a3feb20c3dff712d6a1e90ac112ae924080965ada4df2ab8aa1ffb08822",
+        "status": "FAIL",
+        "pass_records": 15,
+        "fail_records": 1,
+        "unexecuted_steps": 12,
+        "cleanup_complete": true,
+        "fixture_remains": false,
+        "core_sha256": "b19aeb13a2fde033da787e6e204b2106808105ad4cdf4d035d89113b36d9ad3f",
+        "companion_sha256": "ac021d676eaad247d99662955b5bd3394ac1c658f73a3aa9e540cb34cc0a1c1f",
+        "finding": "All supplied maintenance and saved-proof checks passed; explicit projection wait proved actual lift-only reconstruction refused a correctly parked unheld native chassis inside the authored open bay. Exact physical-solid admission fix and three new source regressions are queued for the next coherent core."
+      },
+      {
+        "report": "docs/reports/PAPER_FURNITURE_WORKSHOP_R4_ATTEMPT_03.json",
+        "sha256": "6444d8a9ab96dd973a7179ec433fcdbcfb59dbfee74c65b1e738243b4eae6035",
+        "status": "FAIL",
+        "pass_records": 22,
+        "fail_records": 1,
+        "unexecuted_steps": 5,
+        "cleanup_complete": true,
+        "fixture_remains": false,
+        "normal_reauthentications": 1,
+        "core_sha256": "fd4ec8b7ffd59e381693c255fdad3fd37f9010256d5d13b5814dc28af193a15b",
+        "companion_sha256": "ac021d676eaad247d99662955b5bd3394ac1c658f73a3aa9e540cb34cc0a1c1f",
+        "finding": "Actual maintenance, welding, fuel, lift clearance/raising and permission-stop passed. After normal login all six furniture projections existed but periodic native admission starved the later held vehicle behind two earlier blocked bay records. Direct normal cleanup activation/lowering succeeded. The bounded rotating admission correction awaits the next coherent core and controlled run."
+      }
+    ],
+    "checks": 28,
+    "pass_records": 28,
+    "failed_steps": [],
+    "unexecuted_steps": [],
+    "cleanup_complete": true,
+    "fixture_remains": false,
+    "run": "20261125T023032130680Z",
+    "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+    "companion_sha256": "ece57f5103026bcce8b8efac3633d6bbf4c95f9b22cd686b870589dde9acb6e2",
+    "report_sha256": "03029d5c313a32673fb203fe104f485d0e7e5182570a4c2369cf95fd9197086b",
+    "input_hashes_sha256": "cfba31363bd92e2fee6bab03425404cb07ae33d633edcdd5beab54ccdca98ce9",
+    "summary_sha256": "63f480c986e5369cad326110a608e503c77961c6ac90bb28e709363009dcfac4",
+    "environment_mode": "RETAINED_WORKSHOP_RECOVERY_ONLY",
+    "cleanup_scope": "WORKSHOP_6296_FIXTURE_ONLY",
+    "retained_scope": {
+      "mode": "RETAINED_WORKSHOP_RECOVERY_ONLY",
+      "server_root": "/workspace/scratch/d7d343b39c16/integration-probe-r4/server-workshop-recovery-test",
+      "complete_state_clone": true,
+      "snapshot_grafting_or_inferred_before_state": false,
+      "cleanup_claims_apply_only_to": {
+        "fixture": "workshop",
+        "x": [
+          6296,
+          6336
+        ],
+        "y": [
+          219,
+          225
+        ],
+        "z": [
+          6296,
+          6330
+        ]
+      },
+      "unrelated_retained_fixture": {
+        "fixture": "festival_functions",
+        "x": [
+          7072,
+          7135
+        ],
+        "y": [
+          219,
+          225
+        ],
+        "z": [
+          7072,
+          7095
+        ],
+        "policy": "Retain unchanged; no festival cleanup or recovery is attempted",
+        "evidence_sha256_before": {
+          "plugins/GTMFestivalFunctionsProbe/fixture-pending.lock": "0489b8c13a544617402e22225e6dd2f78cd557ffeca763d8ff6184b21964edf7",
+          "plugins/GTMFestivalFunctionsProbe/fixture-journal.json": "bb257a69924cccbe3888c68b9d48be871f0fdd6e13d55b9acce146ee7a785873",
+          "plugins/GTMFestivalFunctionsProbe/original-state.json": "dcdf868b3aeb1c5bfbf44dc4f856ef1d39c135e3b517b974a99f2960d09127ca",
+          "plugins/GTMFestivalFunctionsProbe/report.json": "48971eb8b27ef5339ac4a06a6b792c0649afb054b0913c00c7f3a1ecd450f57d"
+        },
+        "fixture_cleanup_claim": false,
+        "original_actor_invulnerability_and_sneaking_known": false,
+        "evidence_sha256_after": {
+          "plugins/GTMFestivalFunctionsProbe/fixture-pending.lock": "0489b8c13a544617402e22225e6dd2f78cd557ffeca763d8ff6184b21964edf7",
+          "plugins/GTMFestivalFunctionsProbe/fixture-journal.json": "bb257a69924cccbe3888c68b9d48be871f0fdd6e13d55b9acce146ee7a785873",
+          "plugins/GTMFestivalFunctionsProbe/original-state.json": "dcdf868b3aeb1c5bfbf44dc4f856ef1d39c135e3b517b974a99f2960d09127ca",
+          "plugins/GTMFestivalFunctionsProbe/report.json": "48971eb8b27ef5339ac4a06a6b792c0649afb054b0913c00c7f3a1ecd450f57d"
+        },
+        "evidence_unchanged_after_shutdown": true
+      },
+      "whole_world_or_prior_actor_restoration_claim": false,
+      "unchanged_scope": "The retained festival journal, report, pending marker and original-state bytes; ordinary server ticks are not a whole-world byte freeze"
+    },
+    "whole_world_or_prior_actor_restoration_claim": false,
+    "source_run": "/workspace/scratch/d7d343b39c16/integration-probe-r4/scenario-runs/20261125T023032130680Z",
+    "reviewed_input_sha256": {
+      "plugins/GTMFurnitureWorkshopProbe-0.1-isolated.jar": "ece57f5103026bcce8b8efac3633d6bbf4c95f9b22cd686b870589dde9acb6e2",
+      "plugins/SDCraftCore-1.0.3-r4-functional-candidate.jar": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+      "resourcepacks/gtm-pack.zip": "5b5e132a2c670b07e8c0c389e086bd2dee1002ed7de72a6bdcd93acc6d6cba9a",
+      "plugins/Geyser-Spigot/packs/GTM_Runtime_128_Bedrock.mcpack": "c10b185151751c94c6e670a3beab8e0d36e28a1c9b9478fcd745d5c6965641cf",
+      "server.properties": "eca294f56886847422995209b46db73b8676689671dceac83cf7eba78172ef8c",
+      "permissions.yml": "8c6884546b84fa30ca671da849d2f7ae169b2ae292441da88b83c791fc925bae",
+      "plugins/SDCraftCore/config.yml": "eba53a8e8b915da865d681e2f5d6f26720111539c70263dc5d78a72722b2a7c3",
+      "plugins/GTMFurnitureWorkshopProbe/config.yml": "958a113eb49b955f2453abc130ce91c798c9b14bcd43ae0c740ad726637cab33"
+    }
+  },
+  "models": [
+    "gtm:hydraulic_auto_lift",
+    "gtm:air_compressor_tank",
+    "gtm:wheel_balancer_digital",
+    "gtm:tire_changer_machine",
+    "gtm:motor_oil_dispense_rack",
+    "gtm:welding_rig_cart"
+  ],
+  "technical_selectors": [
+    "gtm:fm_hoist_frame",
+    "gtm:fm_hoist_arms"
+  ],
+  "canonical_entitlements_added": 0,
+  "painted_pixels_changed": 0,
+  "not_claimed": [
+    "Native Java or Bedrock client rendering/input qualification",
+    "Actual JVM hard-power-loss durability or cross-file item/registry atomicity",
+    "Native laptop operating-system launch or user-account deployment"
+  ],
+  "source_files": [
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtmFurnitureWorkshop.java",
+      "bytes": 28616,
+      "sha256": "3186c4aa19bfb3c7ea62f364ace28160745668cbc77c174c02879a005f27edce"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtmVehicles.java",
+      "bytes": 149076,
+      "sha256": "89d3c29a94937d77689e320fec77ede7ef77c7d1f632651292526bccfffd0183"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtmFurniture.java",
+      "bytes": 113527,
+      "sha256": "78b340939d27fce43faef6b281e30cdd236c74bda3dc154420970a8fea5cb8b8"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/SDCraftCorePlugin.java",
+      "bytes": 107584,
+      "sha256": "5f038c5c6acc994d9c62dbe81981691cb6f091258794cef24ada816f43a90353"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/vehicle/VehicleWorkshopStore.java",
+      "bytes": 11163,
+      "sha256": "fa27d44113738aee6b37327c67d5ab221dc667d5b1e08b7883bf857ab6dd4adf"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/vehicle/VehicleMaintenanceState.java",
+      "bytes": 3464,
+      "sha256": "d5e910392b9cc05a973f0feb2dbe09c6c2c82309cdb4c1c747ac043cb0c3cbab"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/vehicle/VehicleHoistGeometry.java",
+      "bytes": 3930,
+      "sha256": "3ccfdb4ea1a10527d89aa026db8212d3bcbc4c29791ab79276897d7d413d56c5"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/vehicle/RoadPhysics.java",
+      "bytes": 4450,
+      "sha256": "0256a3bf800fe6e4f47655e1115d0f0efecfa85111d696d5d019f2d7e68ef8f3"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/vehicle/PaperRoadCollision.java",
+      "bytes": 12883,
+      "sha256": "d3cac406e5905fb7b87f7ae69a4e86438d4c849ca71c83b8f9b31f9165beda58"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/vehicle/RoadVehicleStore.java",
+      "bytes": 6932,
+      "sha256": "ae58ca9612527249cee56c64b6417724e42215ec2fd712c970e60214d3123fd6"
+    },
+    {
+      "path": "source/src/main/resources/furniture/capabilities.tsv",
+      "bytes": 50391,
+      "sha256": "d64d339e68712462749625f41347ddc2ff7f4213918bf41fdf2a17dc1fee90a5"
+    },
+    {
+      "path": "source/src/main/resources/gtm-assets.tsv",
+      "bytes": 466795,
+      "sha256": "b4ef5e795ecbca49ae9af57331cebc17e0753baaa38f9756b145277c9fd109ae"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/WorkshopSupplyProofTest.java",
+      "bytes": 1316,
+      "sha256": "b0c1144dd2c2b649e335c7834177f7df7420a7e550cbb9da1e338b8678215a7e"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/vehicle/VehicleWorkshopStoreTest.java",
+      "bytes": 5438,
+      "sha256": "e1c491a86f22841a21af04cd2783ed51ad799c4fb33104b6434f87ab2e885beb"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/vehicle/VehicleHoistGeometryTest.java",
+      "bytes": 3981,
+      "sha256": "6f53e3b858aec1dce49edaa5c1d4fa9ca9a37b2f88d181ea0eb88248f6197d10"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/vehicle/VehicleMaintenancePhysicsTest.java",
+      "bytes": 6026,
+      "sha256": "2a8e50f4abc0b3adc3ab3ea90048a38359631e5dab826f86fc79f7a72c845868"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/furniture/FurnitureRuntimeTest.java",
+      "bytes": 10437,
+      "sha256": "bc3419daff0a3f732967a2fe6c5c5ec45f006e4231b92f2b7f93be67678b24bb"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/furniture/FurnitureExpansionTest.java",
+      "bytes": 17139,
+      "sha256": "44b8358cad8520df81d310a1ec434adb157802291b986bb19a2c1a67f1127934"
+    },
+    {
+      "path": "tools/gtm_furniture_runtime_assets.py",
+      "bytes": 17935,
+      "sha256": "d1c3f79c7bbf063f05a926bf4e5ba907ccfcd01555ee9966f6d29b7eaba3f6d0"
+    },
+    {
+      "path": "tools/test_furniture_runtime_assets.py",
+      "bytes": 6025,
+      "sha256": "6b1f84bcee233e81d3e6875f81a6aff82b53482bfd22a0a88f345281e5407643"
+    },
+    {
+      "path": "tools/probes/furniture_workshop/src/main/java/qa/gtm/GtmFurnitureWorkshopProbe.java",
+      "bytes": 37299,
+      "sha256": "a36fffa2c7dc6198c91e5d1864b9bdbbef3e348bf14221c385b557a0101d0cc9"
+    },
+    {
+      "path": "tools/probes/furniture_workshop/build/libs/GTMFurnitureWorkshopProbe-0.1-isolated.jar",
+      "bytes": 31156,
+      "sha256": "ece57f5103026bcce8b8efac3633d6bbf4c95f9b22cd686b870589dde9acb6e2"
+    },
+    {
+      "path": "tools/probes/furniture_workshop/src/main/java/qa/gtm/ProbeCompletion.java",
+      "bytes": 1649,
+      "sha256": "b7c219842225ca4ae00a7ef4e0f06150fc267728815e6087a6fc61eb6965c764"
+    },
+    {
+      "path": "tools/probes/furniture_workshop/src/test/java/qa/gtm/ProbeCompletionTest.java",
+      "bytes": 2764,
+      "sha256": "3c0c8105438bb16ea2a13ca10ed77132e67bd9a0a8e55c9517a8aea35acfcb26"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/vehicle/VehicleAdmissionCursor.java",
+      "bytes": 1355,
+      "sha256": "a4c50d7a9064c8da34e6877db5cf9d2e82321ccaf08f62253d504eb291f0aafa"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/vehicle/VehicleAdmissionCursorTest.java",
+      "bytes": 3207,
+      "sha256": "f0ce5b10de7220eedb51c66aae2fd5efe591b63a52e323d043ab1663e295b14e"
+    },
+    {
+      "path": "tools/probes/furniture_workshop/src/main/java/qa/gtm/WorkshopEnvironment.java",
+      "bytes": 2516,
+      "sha256": "819bc19b8b3d52e111b64383dec8e8d46506cb39c6ccc7d2c21d91d0ddf1bcef"
+    }
+  ],
+  "coherent_build": {
+    "status": "FULL_BUILD_PASS_AND_NAMED_WORKSHOP_PAPER_PASS",
+    "tests": {
+      "tests": 644,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "suites": 79,
+    "domain_assertions": 155,
+    "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+    "core_bytes": 2693692,
+    "source_sha256": "8df6f572928534b3e857dde033acb0a5b0afe3680817950505d23e34b9fc3e06"
+  },
+  "companion_reporting_regression": {
+    "assertions": 10,
+    "status": "PASS",
+    "scope": "Immutable pending work, failed-step retention, nonterminal CLEANING until cleanup completes, successful and failed cleanup, later cleanup retry and interruption; standalone Java, not game mechanics"
+  },
+  "admission_recovery_correction": {
+    "evidence": "docs/reports/WORKSHOP_ADMISSION_RECOVERY_R4.json",
+    "sha256": "a16a14f239094207a0307775a00511288182ee550738a74bf45dab74e19a598e",
+    "status": "SOURCE_AND_ACTUAL_PAPER_PASS",
+    "tests": 74,
+    "suites": 7,
+    "actual_core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+    "actual_report": "docs/reports/PAPER_FURNITURE_WORKSHOP_R4.json",
+    "actual_checks": 28
+  },
+  "initial_component_source_files": [
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtmFurnitureWorkshop.java",
+      "bytes": 27897,
+      "sha256": "23021cd44359c1239da74af350444495cbeb921ae4486ea59307be50143e3e80"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtmVehicles.java",
+      "bytes": 148255,
+      "sha256": "e429f87271c9c0188b7ec45bc98aa1f0b6b67ac88b82bda643cd087ceb05b58d"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/GtmFurniture.java",
+      "bytes": 109057,
+      "sha256": "5eff26c853d5b6e6e925910cebadeb650aa7e8a7276f39012f28f05c1cc71b00"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/SDCraftCorePlugin.java",
+      "bytes": 107584,
+      "sha256": "5f038c5c6acc994d9c62dbe81981691cb6f091258794cef24ada816f43a90353"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/vehicle/VehicleWorkshopStore.java",
+      "bytes": 11163,
+      "sha256": "fa27d44113738aee6b37327c67d5ab221dc667d5b1e08b7883bf857ab6dd4adf"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/vehicle/VehicleMaintenanceState.java",
+      "bytes": 3464,
+      "sha256": "d5e910392b9cc05a973f0feb2dbe09c6c2c82309cdb4c1c747ac043cb0c3cbab"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/vehicle/VehicleHoistGeometry.java",
+      "bytes": 3543,
+      "sha256": "f7cd4a052ec328e3f9f8d20e39ca4bfef843b4196d9cdeb0572c8aa779fefc1c"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/vehicle/RoadPhysics.java",
+      "bytes": 4450,
+      "sha256": "0256a3bf800fe6e4f47655e1115d0f0efecfa85111d696d5d019f2d7e68ef8f3"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/vehicle/PaperRoadCollision.java",
+      "bytes": 12883,
+      "sha256": "d3cac406e5905fb7b87f7ae69a4e86438d4c849ca71c83b8f9b31f9165beda58"
+    },
+    {
+      "path": "source/src/main/java/com/sdcraft/core/vehicle/RoadVehicleStore.java",
+      "bytes": 6932,
+      "sha256": "ae58ca9612527249cee56c64b6417724e42215ec2fd712c970e60214d3123fd6"
+    },
+    {
+      "path": "source/src/main/resources/furniture/capabilities.tsv",
+      "bytes": 50216,
+      "sha256": "bd0cdbe933f10271b68afe47e1693ca8277bf4f016e045b9e14effeb0aa0965e"
+    },
+    {
+      "path": "source/src/main/resources/gtm-assets.tsv",
+      "bytes": 462779,
+      "sha256": "7ccc0363178cb5c7754585ba85c7b0f1493dba917051e1c24b2c0061d2b15108"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/WorkshopSupplyProofTest.java",
+      "bytes": 1316,
+      "sha256": "b0c1144dd2c2b649e335c7834177f7df7420a7e550cbb9da1e338b8678215a7e"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/vehicle/VehicleWorkshopStoreTest.java",
+      "bytes": 5438,
+      "sha256": "e1c491a86f22841a21af04cd2783ed51ad799c4fb33104b6434f87ab2e885beb"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/vehicle/VehicleHoistGeometryTest.java",
+      "bytes": 2351,
+      "sha256": "de7c0e39aa4dc08e357655c0a5ab0db77cd9c3a7defcaf1d9e92fd8d11408b45"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/vehicle/VehicleMaintenancePhysicsTest.java",
+      "bytes": 6026,
+      "sha256": "2a8e50f4abc0b3adc3ab3ea90048a38359631e5dab826f86fc79f7a72c845868"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/furniture/FurnitureRuntimeTest.java",
+      "bytes": 10437,
+      "sha256": "bc3419daff0a3f732967a2fe6c5c5ec45f006e4231b92f2b7f93be67678b24bb"
+    },
+    {
+      "path": "source/src/test/java/com/sdcraft/core/furniture/FurnitureExpansionTest.java",
+      "bytes": 17046,
+      "sha256": "9f43c0dab075b6d377847538065f1ebe296ade9120ca0282423a3b5e4b7673c3"
+    },
+    {
+      "path": "tools/gtm_furniture_runtime_assets.py",
+      "bytes": 17935,
+      "sha256": "d1c3f79c7bbf063f05a926bf4e5ba907ccfcd01555ee9966f6d29b7eaba3f6d0"
+    },
+    {
+      "path": "tools/test_furniture_runtime_assets.py",
+      "bytes": 6025,
+      "sha256": "6b1f84bcee233e81d3e6875f81a6aff82b53482bfd22a0a88f345281e5407643"
+    },
+    {
+      "path": "tools/probes/furniture_workshop/src/main/java/qa/gtm/GtmFurnitureWorkshopProbe.java",
+      "bytes": 35801,
+      "sha256": "87d4013792691d8cac423774e634875cb5343bd8a254b4a5243e076da4b2b99f"
+    },
+    {
+      "path": "tools/probes/furniture_workshop/build/libs/GTMFurnitureWorkshopProbe-0.1-isolated.jar",
+      "bytes": 27074,
+      "sha256": "ac021d676eaad247d99662955b5bd3394ac1c658f73a3aa9e540cb34cc0a1c1f"
+    },
+    {
+      "path": "tools/probes/furniture_workshop/src/main/java/qa/gtm/ProbeCompletion.java",
+      "bytes": 1649,
+      "sha256": "b7c219842225ca4ae00a7ef4e0f06150fc267728815e6087a6fc61eb6965c764"
+    },
+    {
+      "path": "tools/probes/furniture_workshop/src/test/java/qa/gtm/ProbeCompletionTest.java",
+      "bytes": 2764,
+      "sha256": "3c0c8105438bb16ea2a13ca10ed77132e67bd9a0a8e55c9517a8aea35acfcb26"
+    }
+  ],
+  "historical_initial_source_snapshot_sha256": "1a2d6e991d1939227826445dcbbd3813f6e3a8a329fa7043022104c5038c46d7",
+  "historical_coherent_builds": [
+    {
+      "status": "FULL_BUILD_PASS_RUNTIME_SCENARIOS_SEPARATE",
+      "tests": {
+        "tests": 591,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "suites": 73,
+      "domain_assertions": 155,
+      "core_sha256": "b19aeb13a2fde033da787e6e204b2106808105ad4cdf4d035d89113b36d9ad3f",
+      "core_bytes": 2648869,
+      "source_sha256": "1a2d6e991d1939227826445dcbbd3813f6e3a8a329fa7043022104c5038c46d7",
+      "evidence_file": "integration-probe-r4/functional-final-core/build-evidence.json"
+    }
+  ]
+}

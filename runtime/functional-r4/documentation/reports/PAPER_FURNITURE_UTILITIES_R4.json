@@ -1,0 +1,207 @@
+{
+  "status": "PASS",
+  "scenario": "utilities",
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "java": "25.0.5.1",
+  "started_epoch_ms": 1795575095666,
+  "checks": [
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:35.997817275Z",
+      "name": "Inspect empty utility fixture and save its rollback journal before writes"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:36.098022744Z",
+      "name": "Place eight real owned machines with a water cauldron and vanilla storage"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:36.153863307Z",
+      "name": "Hydrant consumes one water bucket and extinguishes actual fire and its owner"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:37.410578114Z",
+      "name": "Active hose cannot extinguish fire through an actual solid wall"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:37.621668863Z",
+      "name": "Eyewash spends real cauldron water and rinses supported effects only"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:37.809316831Z",
+      "name": "Unneeded rinse refuses without spending another cauldron level"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:38.014699944Z",
+      "name": "Oxygen trolley consumes a breathing potion and changes actual air ticks"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:38.208523687Z",
+      "name": "Leaving oxygen range cancels supplied treatment with no refund or resume"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:38.907478095Z",
+      "name": "Returning near oxygen does not restart a consumed session"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:39.112135314Z",
+      "name": "IV consumes honey and paper before bounded gradual treatment starts"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:41.708276875Z",
+      "name": "Actual timed IV pulses restore some health and saturation gradually"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:42.407935734Z",
+      "name": "Canceled IV leaves health unchanged and does not refund or continue"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:42.637649491Z",
+      "name": "Native DOWNED state refuses IV supplies and preserves its recovery obligation"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:42.822375853Z",
+      "name": "Parts washer spends water and metal to repair the same enchanted tool"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:43.008990051Z",
+      "name": "Undamaged or custom tools cannot consume washer supply"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:43.211770721Z",
+      "name": "Autoclave consumes an explicit complete dressing recipe before processing"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:52.411909738Z",
+      "name": "Completed autoclave output is one native kit with a real health effect"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:52.612058277Z",
+      "name": "Interrupted autoclave keeps consumed inputs and cancels pending output"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:52:01.807549792Z",
+      "name": "Canceled processing cannot replay an output after its original delay"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:52:02.008636089Z",
+      "name": "Remote hydrant start refuses before consuming a bucket"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:52:02.214097372Z",
+      "name": "An obstructed machine cannot start a supplied utility"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:52:02.441581130Z",
+      "name": "Revoked furniture permission refuses supply and current access"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:52:02.617452377Z",
+      "name": "Scale reads actual owned storage and sets a session tare without copying it"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:52:02.809330357Z",
+      "name": "Changed real cargo yields a changed scale load while preserving its tare"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:52:03.011571818Z",
+      "name": "Authentication-loss hook stops a paid session and clears ephemeral tare"
+    },
+    {
+      "detail": "Actual Paper APIs, inventory/world state and server ticks. Setup teleports, use-event injection and the disclosed auth-loss hook are QA scaffolding; no native-client certification.",
+      "result": "PASS",
+      "at": "2026-11-25T02:52:04.214133728Z",
+      "name": "Canceled lifecycle session does not restart and removal cancels another paid run"
+    },
+    {
+      "detail": "8 unplaced stable QA entitlements remain only in this disposable copy. No currency is granted. Hard-kill rollback remains a stopped-copy/manual journal operation.",
+      "result": "PASS",
+      "at": "2026-11-25T02:52:04.456560760Z",
+      "name": "Restore all inspected blocks, supplied test cargo and original player state"
+    }
+  ],
+  "unexecuted_steps": [],
+  "fixture_inspection": {
+    "allowed": true,
+    "occupied_samples": [],
+    "inspected_blocks": 5887,
+    "entities": 0,
+    "explicitly_loaded_chunks": [
+      "343,344",
+      "343,345",
+      "344,344",
+      "344,345",
+      "345,343",
+      "345,344",
+      "345,345"
+    ],
+    "bounds": [
+      5496,
+      219,
+      5496,
+      5525,
+      226,
+      5525
+    ]
+  },
+  "fixture_remains": false,
+  "qa_grants": {
+    "fire_hydrant_brass": "6eaef1e9-fb98-32fe-9abc-45f0176ecc98",
+    "eyewash_safety_shower": "fc2c1982-2b4d-3398-9b47-333c04eba84b",
+    "luggage_scale_weigh": "a54c4c5e-ac18-3cdb-a6b9-84f1d1e6b04f",
+    "magazine_rack": "7f6e506b-f8e2-3239-95e9-5d38812b1324",
+    "autoclave_sterilizer": "a28e2f8e-3227-330b-821e-5465724788f5",
+    "parts_washer_degreaser": "f786d232-385d-341e-9eb8-b75800c49e8e",
+    "oxygen_cylinder_trolley": "b8d7172e-6a67-3df7-bc42-9743f961782d",
+    "mobile_iv_pole": "c136f0fe-f9ef-35d2-be37-e11027d7d8e8"
+  },
+  "classification": "Actual Paper effects with a normally authenticated protocol actor and explicitly injected QA setup/use. No native Java/Bedrock rendering, human-input or full-world qualification."
+}

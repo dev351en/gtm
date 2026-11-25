@@ -1,0 +1,23 @@
+test_01_fresh_bundle_does_not_accept_eula (test_laptop_bundle.CompleteLauncherFixtures.test_01_fresh_bundle_does_not_accept_eula) ... ok
+test_02_preflight_and_integrity_failures (test_laptop_bundle.CompleteLauncherFixtures.test_02_preflight_and_integrity_failures) ... ok
+test_03_authentication_mode_change_refused (test_laptop_bundle.CompleteLauncherFixtures.test_03_authentication_mode_change_refused) ... ok
+test_04_port_conflict_refused (test_laptop_bundle.CompleteLauncherFixtures.test_04_port_conflict_refused) ... ok
+test_05_http_pack_and_clean_stop_lifecycle (test_laptop_bundle.CompleteLauncherFixtures.test_05_http_pack_and_clean_stop_lifecycle) ... ok
+test_06_private_import_preserves_accounts_and_source (test_laptop_bundle.CompleteLauncherFixtures.test_06_private_import_preserves_accounts_and_source) ... ok
+test_07_launcher_rejects_manually_running_world (test_laptop_bundle.CompleteLauncherFixtures.test_07_launcher_rejects_manually_running_world) ... ok
+test_08_missing_world_cannot_generate_a_replacement (test_laptop_bundle.CompleteLauncherFixtures.test_08_missing_world_cannot_generate_a_replacement) ... ok
+test_09_archive_cannot_contain_itself (test_laptop_bundle.CompleteLauncherFixtures.test_09_archive_cannot_contain_itself) ... ok
+test_checksum_mismatch_fails_closed (test_laptop_bundle.InputSafety.test_checksum_mismatch_fails_closed) ... ok
+test_download_requires_pinned_https_host (test_laptop_bundle.InputSafety.test_download_requires_pinned_https_host) ... ok
+test_hard_plugin_dependencies_parsed (test_laptop_bundle.InputSafety.test_hard_plugin_dependencies_parsed) ... ok
+test_lfs_pointer_is_not_a_download (test_laptop_bundle.InputSafety.test_lfs_pointer_is_not_a_download) ... ok
+test_old_core_cannot_be_packaged (test_laptop_bundle.InputSafety.test_old_core_cannot_be_packaged) ... ok
+test_property_updates_preserve_identity_mode (test_laptop_bundle.InputSafety.test_property_updates_preserve_identity_mode) ... ok
+test_running_world_lock_refused (test_laptop_bundle.InputSafety.test_running_world_lock_refused) ... ok
+test_windows_zip_paths_are_checked (test_laptop_bundle.InputSafety.test_windows_zip_paths_are_checked) ... ok
+test_zip_case_collision_rejected (test_laptop_bundle.InputSafety.test_zip_case_collision_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 5.171s
+
+OK

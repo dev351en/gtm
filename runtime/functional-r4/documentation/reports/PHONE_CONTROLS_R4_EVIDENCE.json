@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "checks": 24,
+  "core_sha256": "0b49d8e47935b4693f409ad51168a4a292f54b4536dc58ce717ab0bc45209d5c",
+  "companion_sha256": "7521169da475ce26e16a795ea58159f2b331e95c3dd9b8e7f8a2635529d0a51d",
+  "report_sha256": "9c866614668981a74c012fa152e6e0a88920fc526efcefd72099b2d8c6930877",
+  "actor": "GtmMedicalQA",
+  "actor_is_op": false,
+  "motion": {
+    "observed_travel": 1.9115000000065265,
+    "moving_samples": 19,
+    "maximum_observed_speed": 1.25,
+    "maximum_two_tick_distance": 0.1937500000003638
+  },
+  "idle": {
+    "title": "Indra Auto CNG Passenger",
+    "mode": "ROAD",
+    "blocks_per_second": 0.0,
+    "energy_kind": "CNG",
+    "energy_percent": 100.0,
+    "condition": 100.0
+  },
+  "moving": {
+    "title": "Indra Auto CNG Passenger",
+    "mode": "ROAD",
+    "blocks_per_second": 1.25,
+    "energy_kind": "CNG",
+    "energy_percent": 99.98890624999991,
+    "condition": 100.0
+  },
+  "native_client": false,
+  "run": "/workspace/scratch/d7d343b39c16/integration-probe-r4/scenario-runs/20261125T011648390367Z",
+  "source_config_hashes": {
+    "server_root": "/workspace/scratch/d7d343b39c16/integration-probe-r4/server-functional-test",
+    "inputs": {
+      "plugins/GTMEquipmentProbe-0.1-isolated.jar": "fb1a9290cb5d3512888c982e6a5567f76d8eb22f4d7c2df5c414e798e045b5c6",
+      "plugins/GTMFoodCourierProbe-0.1-isolated.jar": "0cec1885197061d8f05fc5adea0afe5e9320ad90b920880306aab448e785283c",
+      "plugins/GTMFurnitureCargoProbe-0.1-isolated.jar": "2e3986208dcfab3c5f6437c7b9b5300fcc8ecb4b2c0d4022e87e1ad3d5dd0b83",
+      "plugins/GTMFurnitureCivicProbe-0.1-isolated.jar": "7e7a563a5bbe32b57a9709142103b7f32874eede37ef8810ba9bb4a02cab44af",
+      "plugins/GTMFurniturePowerProbe-0.1-isolated.jar": "72ebd45ef079fc4ad22ff69366749329f8aedea447ca43a9ab92b6b4dd8d2a5e",
+      "plugins/GTMFurnitureRescueProbe-0.1-isolated.jar": "18fc33d3000ea60e7a54348289aef8e5e7f12af3ca3dc002b20a9d6d4b2d8c2b",
+      "plugins/GTMFurnitureUtilityProbe-0.1-isolated.jar": "270089b7b4b2f1cb85ebeccfdcd97331684b9de96810391a7200fbb88f38f35e",
+      "plugins/GTMMedicalProbe-0.1-isolated.jar": "123df062a8cfa5898692a093a07255885607e1995223375578e9df17a00f19b8",
+      "plugins/GTMPhoneControlsProbe-0.1-isolated.jar": "7521169da475ce26e16a795ea58159f2b331e95c3dd9b8e7f8a2635529d0a51d",
+      "plugins/GTMServerProbe-0.1-isolated.jar": "d29557fb0607bf6795fdf41d4d624a21696badc0332f74f8cde288d55cde6fc5",
+      "plugins/GTMStreetSystemsProbe-0.1-isolated.jar": "6098644a41994c7dc769b374f8d962285e375a2e691f6ea65a812e453bc0609d",
+      "plugins/GTMTransportProbe-0.1-isolated.jar": "c0f7d5c49ca613769bffacaf67e7b902e2abbcca2bb624f0975380671ab4c438",
+      "plugins/SDCraftCore-1.0.3-r4-functional-candidate.jar": "0b49d8e47935b4693f409ad51168a4a292f54b4536dc58ce717ab0bc45209d5c",
+      "resourcepacks/gtm-pack.zip": "a128ec755a1a0d55fdfe9684337ec6f5b895a60e8e81792799a352edf5dbbfab",
+      "resourcepacks/GTM_Local_Java.zip": "6dd9b5cb653918956ed2b099f768b8bb91033c7d8ad0475606d77f6ba45d9334",
+      "plugins/Geyser-Spigot/packs/GTM_Runtime_128_Bedrock.mcpack": "e7c40f04f0a35c3d20d0d3d553eff5599b2e3ba9253fdb8f0aa2b30a404bba06",
+      "server.properties": "b1ecc821af26a7252afef8209bd1a621be11b65ee1a6f4f863fa59d9037e032a",
+      "plugins/SDCraftCore/config.yml": "c2dcb5c0a178134250e43b8e5b51aff7efc2662fc615c14708bb295a30c43f98",
+      "plugins/GTMFurnitureCivicProbe/config.yml": "d2050ee9193d9fa4fa1972a4f894433a73e449eec853be3778fa14b3e55d88af",
+      "plugins/GTMTransportProbe/config.yml": "2d3e726fd0ee3ef57829884fba30af25cb88e9e650c36c81b8d2065ee405b95d",
+      "plugins/GTMFurnitureRescueProbe/config.yml": "18474821e0329251dbc872cfd85fcf2f37deb5d7c91ef9b2e2751f9e1f119dc7",
+      "plugins/GTMFurnitureCargoProbe/config.yml": "43ea15de37dedb5bf0ebede1af011bb6492393f45431ddfccde52042846e120b",
+      "plugins/GTMFurnitureUtilityProbe/config.yml": "43ea15de37dedb5bf0ebede1af011bb6492393f45431ddfccde52042846e120b",
+      "plugins/GTMMedicalProbe/config.yml": "720242805b3e49f8b69428c3d6358a504de8e4ec6784e9a1bf006043e1b76ef2",
+      "plugins/GTMPhoneControlsProbe/config.yml": "d306a5c67da2d840afc9051ae59b87959563da1aa7b3e3d3cf28f675f23681f3",
+      "plugins/GTMFoodCourierProbe/config.yml": "958a113eb49b955f2453abc130ce91c798c9b14bcd43ae0c740ad726637cab33",
+      "plugins/GTMEquipmentProbe/config.yml": "958a113eb49b955f2453abc130ce91c798c9b14bcd43ae0c740ad726637cab33",
+      "plugins/GTMFurniturePowerProbe/config.yml": "43ea15de37dedb5bf0ebede1af011bb6492393f45431ddfccde52042846e120b",
+      "plugins/GTMServerProbe/config.yml": "958a113eb49b955f2453abc130ce91c798c9b14bcd43ae0c740ad726637cab33",
+      "plugins/GTMStreetSystemsProbe/config.yml": "d1e3c2c145eeb0bd896733638cd4d1f7d4b0b645dbd78ef400ea33bbb2d65e95"
+    },
+    "primary_synthetic_actor": "GtmMedicalQA",
+    "native_client": false
+  }
+}

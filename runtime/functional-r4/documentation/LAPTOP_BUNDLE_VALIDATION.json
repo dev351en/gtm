@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "recorded_at_utc": "2026-11-24T21:30:20.725221+00:00",
+  "status": "reviewed_candidate_assembled_and_preflight_passed; owner_eula_and_live_client_acceptance_outstanding",
+  "fixture_suite": {
+    "command": "GTM_TEST_JAVAC=<Java25>/bin/javac python -m unittest discover -s tools -p test_laptop_bundle.py -v",
+    "tests_passed": 18,
+    "failures": 0,
+    "duration_seconds": 4.921,
+    "scope": "Offline packaging safety and real Java launcher lifecycle with an explicitly fake server process, not Minecraft gameplay"
+  },
+  "paper_bootstrap_probe": {
+    "paper_version": "26.3",
+    "paper_build": 255,
+    "command": "java -Xms128M -Xmx512M -jar paper-26.3-255.jar --help",
+    "initial_result": "JVM DNS could not resolve piston-data.mojang.com",
+    "resolution": "Downloaded the exact official dependency through the normal HTTPS downloader; SHA-256 matched Paper META-INF/download-context",
+    "final_exit_code": 0,
+    "library_jars_extracted": 104,
+    "patched_server_sha256": "f5cfa195ce74686a119cfde524ab80d930458b3a8ad24ef4f0c0a156b2a35855",
+    "eula_created": false,
+    "eula_accepted": false,
+    "world_created": false,
+    "server_properties_created": false,
+    "server_boot_claim": false
+  },
+  "public_world": {
+    "filename": "EXPECT_SDCRAFT_PUBLIC_WORLD_2026-11-23.zip",
+    "zip_bytes": 263993349,
+    "sha256": "214a00a08acdb5f73fea52ef79cdfdf773551086d31f5f95725f559ad0802dc2",
+    "entries": 498,
+    "uncompressed_bytes": 375710361,
+    "root": "world/",
+    "terrain": "world/dimensions/minecraft/overworld/region/",
+    "eula_present": false,
+    "server_properties_present": false,
+    "plugins_present": false,
+    "playerdata_present": false,
+    "latest_daytona_world": false
+  },
+  "verified_downloads": [
+    {
+      "id": "minecraft-bundler",
+      "filename": "mojang_26.3.jar",
+      "bytes": 62294556,
+      "checksums": {
+        "sha256": "d052f14d7a173734fba553711e5b570162e2f2a313267ee31a21b975a679be64"
+      },
+      "metadata_source": "Pinned official paper-26.3-255.jar META-INF/download-context (SHA-256); official HTTPS HEAD byte count"
+    },
+    {
+      "id": "geyser",
+      "filename": "Geyser-Spigot-2.12.1-b1308.jar",
+      "bytes": 52219447,
+      "checksums": {
+        "sha256": "8682df3e77fd4a7e745ed671fbbb727aca32a77d89c97a50f5f77f20fdb191fa"
+      },
+      "metadata_source": "https://download.geysermc.org/v2/projects/geyser/versions/2.12.1/builds/1308"
+    },
+    {
+      "id": "floodgate",
+      "filename": "floodgate-spigot-2.2.5-b141.jar",
+      "bytes": 11561096,
+      "checksums": {
+        "sha256": "21570aff9ce17d6983928e8552777760e1ede5050026b04c686b0ae112e6fd7e"
+      },
+      "metadata_source": "https://download.geysermc.org/v2/projects/floodgate/versions/2.2.5/builds/141"
+    },
+    {
+      "id": "windows-java25",
+      "filename": "OpenJDK25U-jre_x64_windows_hotspot_25.0.5.1_2.zip",
+      "bytes": 58599439,
+      "checksums": {
+        "sha256": "3260a1b9899f30ac80d737daafc053042c525249f52d066101fbf81d78d73f25"
+      },
+      "metadata_source": "https://api.adoptium.net/v3/assets/feature_releases/25/ga?architecture=x64&heap_size=normal&image_type=jre&jvm_impl=hotspot&os=windows&page_size=2&project=jdk&vendor=eclipse"
+    },
+    {
+      "id": "paper",
+      "filename": "paper-26.3-255.jar",
+      "bytes": 55296784,
+      "checksums": {
+        "sha256": "a7116085a8ba88cf00771d5e61a2925007942092650811da7327dc23243f0cec"
+      },
+      "metadata_source": "https://fill.papermc.io/v3/projects/paper/versions/26.3/builds/255"
+    },
+    {
+      "id": "public-world",
+      "filename": "EXPECT_SDCRAFT_PUBLIC_WORLD_2026-11-23.zip",
+      "bytes": 263993349,
+      "checksums": {
+        "sha256": "214a00a08acdb5f73fea52ef79cdfdf773551086d31f5f95725f559ad0802dc2"
+      },
+      "metadata_source": "downloads/EXPECT_SDCRAFT_PUBLIC_WORLD_2026-11-23.zip Git LFS pointer"
+    },
+    {
+      "id": "vault",
+      "filename": "VaultUnlocked-2.20.3.jar",
+      "bytes": 134932,
+      "checksums": {
+        "sha256": "fbc6651aca11e13376c115df66eeffa79592e79517be398299aa6beb49c22695"
+      },
+      "metadata_source": "Existing project dependency, inspected plugin.yml and SHA-256"
+    }
+  ],
+  "crossplay_inspection": {
+    "geyser_version": "2.12.1-SNAPSHOT, official build 1308",
+    "floodgate_version": "2.2.5-SNAPSHOT, official build 141",
+    "geyser_config_schema": 12,
+    "java_target": "26.3",
+    "bedrock_codec_version_strings": [
+      "1.26.44",
+      "1.26.45",
+      "1.26.50",
+      "1.26.60"
+    ],
+    "source": "Pinned official JAR descriptors and bytecode metadata; no real-client connection"
+  },
+  "not_executed": [
+    "No private Daytona access or write",
+    "No owner EULA acceptance",
+    "No Minecraft server boot after the EULA gate",
+    "No Windows execution",
+    "No Java or Bedrock client gameplay certification",
+    "No full Revision 4 acceptance"
+  ],
+  "documentation": "docs/LAPTOP_BUNDLE.md",
+  "reviewed_candidate": {
+    "folder": "GTM_Laptop_Candidate_26.3_Reviewed",
+    "archive": "GTM_Laptop_Candidate_26.3_Reviewed.zip",
+    "archive_sha256": "Recorded in the external delivery receipt; not embedded recursively in this archive",
+    "profile": "public_world_2026_11_23_fresh_accounts",
+    "core_bytes": 413463,
+    "core_sha256": "857b71cb9eee7d4be58fbfc5995cdd6a8cca02c37aee12a7bc541fd542486892",
+    "java_pack_sha256": "6dd9b5cb653918956ed2b099f768b8bb91033c7d8ad0475606d77f6ba45d9334",
+    "bedrock_pack_sha256": "cee842bdbcacb03d3f45e7808febf1120cfd64ee50ca71725e92f10913ea0363",
+    "plugins": [
+      "SDCraftCore 1.0.1-r4-candidate",
+      "Vault 2.20.3",
+      "Geyser 2.12.1 build 1308",
+      "Floodgate 2.2.5 build 141"
+    ],
+    "windows_java_bundled": true,
+    "official_minecraft_bootstrap_cached": true,
+    "release_documentation_included": true,
+    "eula_file": "false; owner first-start decision required",
+    "final_preflight": {
+      "command": "java --add-modules jdk.httpserver -jar launcher/gtm-launcher.jar --check",
+      "java_version": 25,
+      "exit_code": 2,
+      "checks_passed": [
+        "Java 25",
+        "all pinned file hashes",
+        "actual city world",
+        "authentication policy",
+        "free disk capacity",
+        "loopback port availability"
+      ],
+      "exit_reason": "EULA acceptance outstanding",
+      "paper_started": false
+    }
+  }
+}

@@ -26,7 +26,7 @@ final class GtmFood implements Listener {
     }
     GtmFood(SDCraftCorePlugin plugin,Ledger ledger){this.plugin=plugin;this.ledger=ledger;}
     boolean available(Player p){
-        return plugin.getConfig().getBoolean("gtm.experimental-food",false)&&p.hasPermission("gtm.food")&&ledger.exists(p.getUniqueId());
+        return plugin.isAuthenticated(p)&&plugin.getConfig().getBoolean("gtm.experimental-food",false)&&p.hasPermission("gtm.food")&&ledger.exists(p.getUniqueId());
     }
     private Location vendor(String brand){return plugin.site("food_"+brand);}
     private String name(String brand){return brand.equals("zomatoo")?"Zomatoo":"Swiffy";}
@@ -76,14 +76,8 @@ final class GtmFood implements Listener {
         if(p.getInventory().firstEmpty()<0){p.sendMessage("§eFree an inventory slot first.");return;}
         var meal=FoodCatalogue.get(t.meal());
         ItemStack food=mealItem(meal,"§6"+meal.name(),"Order receipt: "+t.id());food.setAmount(meal.portions());
-        // Commit collection before item grant: no replay duplication. A crash between these steps
-        // may require an administrator to reconcile the receipt; this pilot remains opt-in.
-        if(!ledger.collectFood(p.getUniqueId(),t.id(),System.currentTimeMillis()))return;
-        var leftovers=p.getInventory().addItem(food);
-        if(!leftovers.isEmpty()){
-            plugin.getLogger().severe("Food collection needs reconciliation: "+p.getUniqueId()+" "+t.id());
-            p.sendMessage("§cCollection recorded but inventory delivery failed. Contact an administrator.");
-        }else p.sendMessage("§aOrder collected. Enjoy your meal!");
+        if(!ledger.collectFoodToDelivery(p.getUniqueId(),t.id(),System.currentTimeMillis(),GtmItemDelivery.encode(food)))return;
+        plugin.deliveries().retry(p);
     }
     @EventHandler(priority=EventPriority.HIGHEST)
     public void click(InventoryClickEvent e){

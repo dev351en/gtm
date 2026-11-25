@@ -1,0 +1,152 @@
+{
+  "unexecuted_steps": [],
+  "fixture_remains": false,
+  "checks": [
+    {
+      "detail": "Actual Paper players, fatal damage, care menu events, marker state and teleport results; epoch/marker replay and memory-loss setup are explicit scaffolding",
+      "name": "Inspect and journal bounded medical fixture and previous hospital site",
+      "at": "2026-11-25T01:01:37.109791663Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper players, fatal damage, care menu events, marker state and teleport results; epoch/marker replay and memory-loss setup are explicit scaffolding",
+      "name": "Place an actual owned defibrillator and prepare two ordinary authenticated actors",
+      "at": "2026-11-25T01:01:37.217301367Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper players, fatal damage, care menu events, marker state and teleport results; epoch/marker replay and memory-loss setup are explicit scaffolding",
+      "name": "Actual fatal damage creates a bounded native downed episode and saved marker",
+      "at": "2026-11-25T01:01:37.472347718Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper players, fatal damage, care menu events, marker state and teleport results; epoch/marker replay and memory-loss setup are explicit scaffolding",
+      "name": "Deferred revival rejects current medic permission loss",
+      "at": "2026-11-25T01:01:37.703054328Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper players, fatal damage, care menu events, marker state and teleport results; epoch/marker replay and memory-loss setup are explicit scaffolding",
+      "name": "A wall inserted after selection blocks the real care callback",
+      "at": "2026-11-25T01:01:37.955099602Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper players, fatal damage, care menu events, marker state and teleport results; epoch/marker replay and memory-loss setup are explicit scaffolding",
+      "name": "A selected patient who moves out of range is not revived",
+      "at": "2026-11-25T01:01:38.199379730Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper players, fatal damage, care menu events, marker state and teleport results; epoch/marker replay and memory-loss setup are explicit scaffolding",
+      "name": "Normal reauthentication creates a new connection without renewing the downed episode",
+      "at": "2026-11-25T01:01:38.445508096Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper players, fatal damage, care menu events, marker state and teleport results; epoch/marker replay and memory-loss setup are explicit scaffolding",
+      "name": "A menu bound to the old patient session cannot revive the reauthenticated patient",
+      "at": "2026-11-25T01:01:38.696605517Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper players, fatal damage, care menu events, marker state and teleport results; epoch/marker replay and memory-loss setup are explicit scaffolding",
+      "name": "The actual defibrillator menu revives a currently authorized nearby patient",
+      "at": "2026-11-25T01:01:38.947300459Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper players, fatal damage, care menu events, marker state and teleport results; epoch/marker replay and memory-loss setup are explicit scaffolding",
+      "name": "A marker survives lost runtime memory and repeated authenticated hydration",
+      "at": "2026-11-25T01:01:39.210787024Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper players, fatal damage, care menu events, marker state and teleport results; epoch/marker replay and memory-loss setup are explicit scaffolding",
+      "name": "Malformed and future-unbounded markers fail closed without recovery",
+      "at": "2026-11-25T01:01:39.476926102Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper players, fatal damage, care menu events, marker state and teleport results; epoch/marker replay and memory-loss setup are explicit scaffolding",
+      "name": "A menu from an earlier injury cannot revive a new injury in the same connection",
+      "at": "2026-11-25T01:01:39.697386583Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper players, fatal damage, care menu events, marker state and teleport results; epoch/marker replay and memory-loss setup are explicit scaffolding",
+      "name": "Completed repeat care clears only the matching native episode",
+      "at": "2026-11-25T01:01:39.954124100Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper players, fatal damage, care menu events, marker state and teleport results; epoch/marker replay and memory-loss setup are explicit scaffolding",
+      "name": "Revival preserves invulnerability that existed before the native episode",
+      "at": "2026-11-25T01:01:40.203511238Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper players, fatal damage, care menu events, marker state and teleport results; epoch/marker replay and memory-loss setup are explicit scaffolding",
+      "name": "Expired selected care cannot grant revival and cancelled fallback remains pending",
+      "at": "2026-11-25T01:01:40.450397728Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper players, fatal damage, care menu events, marker state and teleport results; epoch/marker replay and memory-loss setup are explicit scaffolding",
+      "name": "Blocked hazardous and unsupported recovery destinations grant no teleport or health",
+      "at": "2026-11-25T01:01:40.707432507Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper players, fatal damage, care menu events, marker state and teleport results; epoch/marker replay and memory-loss setup are explicit scaffolding",
+      "name": "The actual cart body blocks recovery beyond its smaller Interaction proxy",
+      "at": "2026-11-25T01:01:40.944809574Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper players, fatal damage, care menu events, marker state and teleport results; epoch/marker replay and memory-loss setup are explicit scaffolding",
+      "name": "A redirected successful teleport retains the episode and locked expiry stays pending",
+      "at": "2026-11-25T01:01:41.195338074Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper players, fatal damage, care menu events, marker state and teleport results; epoch/marker replay and memory-loss setup are explicit scaffolding",
+      "name": "Expired recovery waits for normal login and retains its exact deadline",
+      "at": "2026-11-25T01:01:41.453457141Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper players, fatal damage, care menu events, marker state and teleport results; epoch/marker replay and memory-loss setup are explicit scaffolding",
+      "name": "Successful native fallback moves the real authenticated patient and clears its marker",
+      "at": "2026-11-25T01:01:41.692425071Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "The unplaced QA cart entitlement remains only in the disposable copy; no medical marker remains",
+      "name": "Restore inspected blocks hospital site and both QA actors after native medical cleanup",
+      "at": "2026-11-25T01:01:41.991417919Z",
+      "result": "PASS"
+    }
+  ],
+  "fixture_inspection": {
+    "allowed": true,
+    "occupied": [],
+    "entities": 0,
+    "inspected_blocks": 5046,
+    "bounds": [
+      5696,
+      219,
+      5696,
+      5725,
+      225,
+      5725
+    ]
+  },
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "status": "PASS",
+  "classification": "Actual Paper two-client medical effects; protocol clients have no native renderer; explicit marker/clock/memory fixtures do not prove a JVM power-loss campaign",
+  "normal_reauthentications": 2,
+  "blocked_teleports": 4,
+  "redirected_teleports": 1
+}

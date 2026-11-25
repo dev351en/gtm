@@ -1,0 +1,190 @@
+{
+  "schema": "GTM_WHEELCHAIR_MOBILITY_EVIDENCE_V1",
+  "status": "FRESH_PAID_MOTION_22_AND_REAL_PROTOCOL_6_PASS",
+  "test_suites": [
+    {
+      "name": "com.sdcraft.core.furniture.WheelchairMotionTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "0.037"
+    },
+    {
+      "name": "com.sdcraft.core.furniture.FurnitureMobilityStoreTest",
+      "tests": "9",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "0.308"
+    }
+  ],
+  "actual_paper_server": {
+    "target": "Paper 26.3 build 255",
+    "account": "GtmLaptopQA",
+    "actor_is_op": false,
+    "permissions_granted": [],
+    "purchase_price_cents": 7500,
+    "bank_after_purchase_cents": 68000,
+    "runs": [
+      {
+        "run": "20261125T002043711871Z",
+        "result": "MOBILITY_COMPANION_EARLY_MENU_ASSERTION_FAILED",
+        "wheelchair_purchased": false,
+        "bank_cents": 75500,
+        "cause": "Nested performCommand was queued inside outer console command; first assertion preceded shop execution. Companion corrected to start next tick."
+      },
+      {
+        "run": "20261125T002732408524Z",
+        "result": "21_REPORTED_PASS_THEN_FINAL_ACTUAL_DETACHMENT_FAILED",
+        "passed_steps": 21,
+        "failed_steps": 1,
+        "position": [
+          -171.4999999999999,
+          68,
+          -72.01999999999998,
+          3
+        ],
+        "verified": [
+          "Normal paid shop/outbox ownership",
+          "Real normal-scale rider feet floor +0.02 and marker minus playerY 0.6",
+          "Actual reverse/forward/cardinal/brake movement",
+          "Real display/interaction/current-store pose agreement",
+          "Owned boundary full-body stop",
+          "Health retained"
+        ],
+        "not_verified": [
+          "Actual completed dismount and reopened park assertion",
+          "Protocol-only continuation"
+        ],
+        "clarification": "leaveVehicle true confirms initial mounting, not completed dismount. The following actual passenger assertion failed."
+      },
+      {
+        "run": "20261125T003213905852Z",
+        "result": "READ_ONLY_RESTART_DIAGNOSIS",
+        "mounted": false,
+        "west_exit": [
+          -172.4938,
+          68,
+          -72.02
+        ],
+        "loaded": true,
+        "border": true,
+        "air": true,
+        "supported": true,
+        "may_enter": true,
+        "obstructed": false,
+        "bank_cents": 68000
+      },
+      {
+        "run": "20261125T003621906464Z",
+        "result": "PARK_COMPANION_RECONSTRUCTION_TIMING_FAILED",
+        "passed_steps": 1,
+        "failed_steps": 1,
+        "bank_cents": 68000,
+        "cause": "Actor login position overlapped saved chair; command ran immediately after stepping aside, before ordinary 10-tick reconstruction. Companion now waits 12 ticks and preserves paid state."
+      },
+      {
+        "run": "20261125T003905455521Z",
+        "result": "PARK_4_PASS_PROTOCOL_6_PASS",
+        "parking_checks_passed": 4,
+        "protocol_checks_passed": 6,
+        "failed_checks": 0,
+        "bank_cents": 68000,
+        "same_paid_furniture_uuid": "6125a2d1-dd9d-4110-869f-a8f69a4c2b4f",
+        "protocol_input_transitions_received": 2,
+        "protocol_input_events_injected_by_companion": 0,
+        "protocol_actual_distance_blocks": 0.6,
+        "health": 20,
+        "carrier_y": 68.62,
+        "rider_feet_y": 68.02000000000001,
+        "final_saved_pose": [
+          -172.0999999999999,
+          68,
+          -72.01999999999998,
+          3
+        ],
+        "final_current_exit": [
+          -173.0937999999999,
+          68,
+          -72.01999999999998
+        ],
+        "event_dismount_cancelled": false,
+        "snapshot_reopened": true,
+        "native_rendering_verified": false
+      },
+      {
+        "run": "20261125T012027919838Z",
+        "result": "FRESH_PAID_MOTION_22_PASS_PROTOCOL_6_PASS",
+        "core_sha256": "0b49d8e47935b4693f409ad51168a4a292f54b4536dc58ce717ab0bc45209d5c",
+        "full_motion_checks": 22,
+        "protocol_checks": 6,
+        "failed_checks": 0,
+        "actor_is_op": false,
+        "permissions_granted": [],
+        "fixture_blocks_written": 0,
+        "purchase_price_cents": 7500,
+        "bank_before_purchase_cents": 75500,
+        "bank_after_purchase_cents": 68000,
+        "same_paid_furniture_uuid": "c7c4654e-46f4-4338-a48f-7eac15279a1d",
+        "protocol_input_transitions_received": 2,
+        "protocol_input_events_injected_by_companion": 0,
+        "protocol_distance_blocks": 0.6,
+        "actual_dismount_completed": true,
+        "snapshot_reopened": true,
+        "native_rendering_verified": false
+      }
+    ],
+    "historical_furniture_uuid": "6125a2d1-dd9d-4110-869f-a8f69a4c2b4f",
+    "current_furniture_uuid": "c7c4654e-46f4-4338-a48f-7eac15279a1d"
+  },
+  "native_java_client_verified": false,
+  "native_bedrock_client_verified": false,
+  "targeted_run_log_sha256": "977962cf782a98c659b4b922900756d7ed7bd22c53eb0d35d06f4b03635be9ff",
+  "note": "Fresh expanded local profile on core522 passed the entire22-step paid wheelchair scenario, then6 real translated-protocol continuation checks on the same newly purchased ordinary-account chair. The earlier428 failed run and its separate4/6 continuations are preserved as historical evidence. No speculative cause is assigned to the old failure. No native client rendering claim.",
+  "historical_targeted_source_sha256": {
+    "source/src/main/java/com/sdcraft/core/furniture/WheelchairMotion.java": "f2569010cb61bd15769e9e37ca9b1a9bbf80607922b0c5a031e92d7c1d6e0957",
+    "source/src/main/java/com/sdcraft/core/furniture/FurnitureStore.java": "a93b66890dde0e02345fb87382db4fdb1e2ee75e8dab5a9b498250ff92673091",
+    "source/src/main/java/com/sdcraft/core/GtmFurnitureMobility.java": "0dd6bfa0197e8411ec324c75841952e6a83c47997df88c91afec8226c7bdce78",
+    "source/src/test/java/com/sdcraft/core/furniture/WheelchairMotionTest.java": "0b8af5992b35eb7043f92c14a8dbe13f5e10aba8995b83d0a7b1b82fb6440f82",
+    "source/src/test/java/com/sdcraft/core/furniture/FurnitureMobilityStoreTest.java": "d76152d6481336f8d636c1a429397e3e1f4d3987e29ed48b34bf6db114aa9d9f",
+    "tools/probes/laptop_profile/src/main/java/qa/gtm/GtmLaptopProfileProbe.java": "a2f86dbaabb042923bde32e16bf11220c9b11e973db474a4aec75a7f026df90d",
+    "docs/WHEELCHAIR_MOBILITY_R4.md": "4338130586d3b7d193cf1da6c4c5eca09ac5ec1ec52ba2ee3b5e7fc1eda5d200"
+  },
+  "coherent_motion_test_evidence": "docs/reports/FURNITURE_RESCUE_MOBILITY_R4_EVIDENCE.json",
+  "coherent_motion_tests_passed": 31,
+  "current_companion": {
+    "status": "ACTUAL_PAPER_PASS",
+    "target": "Paper26.3 build255",
+    "javac": "javac 25.0.5.1",
+    "paper_api_sha256": "16d784a1b2a6a0be74479c761d9b5cbd7271ee1d8d5ff45f8060d0fa352f1d0b",
+    "source_sha256": "86fcbd27411b1a411e00a967709f4f338a2f041f8ca73515f8b8d30db22903f0",
+    "inputs": {
+      "src/main/java/qa/gtm/GtmLaptopProfileProbe.java": "6d83e56e83c405b6652184c527bdd6a4b62e0a23b890a12e8e01f9991bc123a8",
+      "src/main/resources/config.yml": "750b4b52e3aabd543d0c9f369e1c181aa75e90933168d964db3b790a331f9b03",
+      "src/main/resources/plugin.yml": "2ad6f985f3e093ccbc41205803804bf724276edb788dc95299a9c64de455c607"
+    },
+    "runtime_or_client_tested": false,
+    "jar": "GTMLaptopProfileProbe-0.1-isolated.jar",
+    "jar_sha256": "57294538a7a2964744560cb218b2bd5dbf7136cd35943d8cfc7527579e41c565",
+    "bytes": 36132,
+    "actual_server_scenarios": {
+      "mobility": 22,
+      "mobility_protocol": 6
+    },
+    "native_client_verified": false
+  },
+  "current_companion_expected_protocol_checks": 6,
+  "current_source_sha256": {
+    "source/src/main/java/com/sdcraft/core/GtmFurnitureMobility.java": "0dd6bfa0197e8411ec324c75841952e6a83c47997df88c91afec8226c7bdce78",
+    "source/src/main/java/com/sdcraft/core/furniture/WheelchairMotion.java": "f2569010cb61bd15769e9e37ca9b1a9bbf80607922b0c5a031e92d7c1d6e0957",
+    "tools/probes/laptop_profile/src/main/java/qa/gtm/GtmLaptopProfileProbe.java": "0aa5ab0218c3b2f850cb809009e46092a3f33c04fa9818b863466c1ca6400032"
+  },
+  "actual_report_bundle": {
+    "path": "docs/reports/PAPER_WHEELCHAIR_MOBILITY_R4.json",
+    "sha256": "dd6f61d78281e6344a2638636c422fbf2f984b50fd275802638423ff10a6f5ce",
+    "historical_bundle": "docs/reports/PAPER_WHEELCHAIR_MOBILITY_BASELINE_428_R4.json"
+  },
+  "current_companion_expected_motion_checks": 22,
+  "current_source_frozen_build": "integration-probe-r4/functional-owner-ui-522/build-evidence.json"
+}

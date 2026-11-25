@@ -1,0 +1,24 @@
+# Fresh local profile for the pinned Geyser 2.12.1 b1308 schema (CONFIG_VERSION=12).
+# Do not apply this over a private imported identity/key configuration.
+bedrock:
+  address: 127.0.0.1
+  port: 19132
+  transport: nethernet
+  signaling:
+    mode: builtin
+    advertise-addresses: ["127.0.0.1:19132"]
+    stun-discovery: false
+java:
+  auth-type: floodgate
+gameplay:
+  server-name: GTM Local
+  force-resource-packs: true
+  enable-custom-content: true
+  enable-integrated-pack: true
+log-player-ip-addresses: false
+saved-user-logins: []
+debug-mode: false
+advanced:
+  bedrock:
+    validate-bedrock-login: true
+config-version: 12

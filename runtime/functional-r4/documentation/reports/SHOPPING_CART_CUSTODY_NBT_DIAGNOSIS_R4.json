@@ -1,0 +1,52 @@
+{
+  "status": "READ_ONLY_EXACT_TYPED_NBT_EQUAL",
+  "source_snapshot": "/workspace/scratch/d7d343b39c16/integration-probe-r4/laptop-profile-validation/plugins/SDCraftCore/furniture-cargo.snapshot",
+  "source_snapshot_sha256": "fd49bd8e5c4447d9d8de1ccf5a97fea3da9ef55643bfb2fa63cdb5510ad59514",
+  "world_region": "/workspace/scratch/d7d343b39c16/integration-probe-r4/laptop-profile-validation/world/dimensions/minecraft/overworld/region/r.-1.-1.mca",
+  "world_region_sha256": "cecf48048734c35577731d6751aef4cc6c646f97cc971a6a9ccdf61b24c26d6c",
+  "receipt": "5c37ff2d-08e1-4eb8-8bda-8a6f682fd597",
+  "phase": "PLACING",
+  "expected_inventory_fingerprint": "8a38303b956e7a5156dce4984910de6eb85bcf95c5afc7d4889e50b2235cc45a",
+  "expected_slot_bytes": 411,
+  "expected_slot_sha256": "25246e1f00de9fc6e968115a2225aa63983df3bedc2dd5299e688a0788ae2955",
+  "expected_serialization_dataversion": 5023,
+  "actual_world_slot": 0,
+  "excluded_container_wrapper_fields": [
+    "expected DataVersion5023",
+    "actual Slot0"
+  ],
+  "all_item_tag_types_values_lists_counts_components_equal": true,
+  "expected_component_order": [
+    "minecraft:item_model",
+    "minecraft:food",
+    "minecraft:lore",
+    "minecraft:consumable",
+    "minecraft:custom_name",
+    "minecraft:custom_data"
+  ],
+  "actual_saved_component_order": [
+    "minecraft:food",
+    "minecraft:item_model",
+    "minecraft:lore",
+    "minecraft:consumable",
+    "minecraft:custom_name",
+    "minecraft:custom_data"
+  ],
+  "source_actual_occupied": 0,
+  "destination_actual_occupied": 1,
+  "destination_count": 1,
+  "retained_world_locks": {
+    "-115": {
+      "sdcraftcore:furniture_cargo_lock": "5c37ff2d-08e1-4eb8-8bda-8a6f682fd597",
+      "sdcraftcore:furniture_cargo_role": "destination",
+      "sdcraftcore:furniture_container": "14e1c402-8dd7-4f53-8d36-e713fa98e254"
+    },
+    "-125": {
+      "sdcraftcore:furniture_cargo_lock": "5c37ff2d-08e1-4eb8-8bda-8a6f682fd597",
+      "sdcraftcore:furniture_cargo_role": "source",
+      "sdcraftcore:furniture_container": "c7cd86af-9ad4-4690-aa68-93024295dd6e"
+    }
+  },
+  "world_or_item_or_receipt_writes": 0,
+  "actual_bukkit_roundtrip_pending": true
+}

@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "run": "20261125T014429850990Z",
+  "core_sha256": "b19aeb13a2fde033da787e6e204b2106808105ad4cdf4d035d89113b36d9ad3f",
+  "source_sha256": "1a2d6e991d1939227826445dcbbd3813f6e3a8a329fa7043022104c5038c46d7",
+  "reports": [
+    {
+      "scenario": "ui",
+      "report": "PAPER_UI_FURNITURE_BASELINE_B19_R4.json",
+      "report_sha256": "229e9ce878cd86e1d3b70c520754fc634e0fa0b914dbf0a25511f97aa54e0e2e",
+      "checks": 26,
+      "previous_report": "PAPER_UI_FURNITURE_BASELINE_428_R4.json",
+      "previous_sha256": "f63db08322eb8c5e410dfcfc37a7fabd395ae32eb130c680354ca95aae65dc32"
+    },
+    {
+      "scenario": "transport",
+      "report": "PAPER_TRANSPORT_R4.json",
+      "report_sha256": "d5de7874b27a02153e5963ef45f8eea73cbd4bbc142fa54c848116c58a3fa18b",
+      "checks": 31,
+      "previous_report": "PAPER_TRANSPORT_BASELINE_428_R4.json",
+      "previous_sha256": "3ae143da83fd1dada8584b5dbe832b74bda00102ea0c0ca54855728ad459d347"
+    },
+    {
+      "scenario": "cargo",
+      "report": "PAPER_FURNITURE_CARGO_BASELINE_B19_R4.json",
+      "report_sha256": "5b0ee2f66aa4fe8e51ee4d453b6d07ed6837625cc1b345971a77368d96b31b8e",
+      "checks": 26,
+      "previous_report": "PAPER_FURNITURE_CARGO_BASELINE_504_R4.json",
+      "previous_sha256": "9c8023c7f4424cb1828ab193f10213ed1f17e24a3cb0ed5fe8498382f2ee13c7"
+    },
+    {
+      "scenario": "food",
+      "report": "PAPER_FOOD_COURIER_R4.json",
+      "report_sha256": "23f4280ba5f99345213dac9df9b11ca7ec437c4f421952bb8bc5ff6e81e94fd1",
+      "checks": 28,
+      "previous_report": "PAPER_FOOD_COURIER_BASELINE_428_R4.json",
+      "previous_sha256": "beac2cef980538bd9292ac00ac70e9e21213274fa94234298407572b5336c920"
+    }
+  ],
+  "inputs": {
+    "plugins/GTMEquipmentProbe-0.1-isolated.jar": "fb1a9290cb5d3512888c982e6a5567f76d8eb22f4d7c2df5c414e798e045b5c6",
+    "plugins/GTMFoodCourierProbe-0.1-isolated.jar": "0cec1885197061d8f05fc5adea0afe5e9320ad90b920880306aab448e785283c",
+    "plugins/GTMFurnitureAccessProbe-0.1-isolated.jar": "09ea709f36bb256489a7f9cdd1f1a19f574e99ea29dffaa936268b4eca64578f",
+    "plugins/GTMFurnitureCargoProbe-0.1-isolated.jar": "2e3986208dcfab3c5f6437c7b9b5300fcc8ecb4b2c0d4022e87e1ad3d5dd0b83",
+    "plugins/GTMFurnitureCivicProbe-0.1-isolated.jar": "7e7a563a5bbe32b57a9709142103b7f32874eede37ef8810ba9bb4a02cab44af",
+    "plugins/GTMFurniturePowerProbe-0.1-isolated.jar": "72ebd45ef079fc4ad22ff69366749329f8aedea447ca43a9ab92b6b4dd8d2a5e",
+    "plugins/GTMFurnitureRescueProbe-0.1-isolated.jar": "18fc33d3000ea60e7a54348289aef8e5e7f12af3ca3dc002b20a9d6d4b2d8c2b",
+    "plugins/GTMFurnitureUtilityProbe-0.1-isolated.jar": "270089b7b4b2f1cb85ebeccfdcd97331684b9de96810391a7200fbb88f38f35e",
+    "plugins/GTMFurnitureWorkshopProbe-0.1-isolated.jar": "41a93eb292a9a05c5f56deda95535a86ae7416c02344aa9c3024bba1ca35866f",
+    "plugins/GTMMedicalProbe-0.1-isolated.jar": "123df062a8cfa5898692a093a07255885607e1995223375578e9df17a00f19b8",
+    "plugins/GTMPhoneControlsProbe-0.1-isolated.jar": "7521169da475ce26e16a795ea58159f2b331e95c3dd9b8e7f8a2635529d0a51d",
+    "plugins/GTMServerProbe-0.1-isolated.jar": "d29557fb0607bf6795fdf41d4d624a21696badc0332f74f8cde288d55cde6fc5",
+    "plugins/GTMStreetSystemsProbe-0.1-isolated.jar": "6098644a41994c7dc769b374f8d962285e375a2e691f6ea65a812e453bc0609d",
+    "plugins/GTMTransportProbe-0.1-isolated.jar": "c0f7d5c49ca613769bffacaf67e7b902e2abbcca2bb624f0975380671ab4c438",
+    "plugins/SDCraftCore-1.0.3-r4-functional-candidate.jar": "b19aeb13a2fde033da787e6e204b2106808105ad4cdf4d035d89113b36d9ad3f",
+    "resourcepacks/gtm-pack.zip": "22d245de70c7481844c9126dbd9c1aced987df83be0cbfe63ebe7f3fcf029958",
+    "resourcepacks/GTM_Local_Java.zip": "22d245de70c7481844c9126dbd9c1aced987df83be0cbfe63ebe7f3fcf029958",
+    "plugins/Geyser-Spigot/packs/GTM_Runtime_128_Bedrock.mcpack": "7e7696d2f0c0b8bc9672e4611444702b06331459e3bbbbbf30421fa16b06f4dd",
+    "server.properties": "8ddf2ab07c5af1ed3b07decc19edae326ccb6a104e479bbbab6d78016bfb9f37",
+    "plugins/SDCraftCore/config.yml": "d30f3c27ab42634e7b9acb0ffcfe1732d4108772a9224db7fb3fce0de37e248f",
+    "plugins/GTMFurnitureCivicProbe/config.yml": "d2050ee9193d9fa4fa1972a4f894433a73e449eec853be3778fa14b3e55d88af",
+    "plugins/GTMFurnitureAccessProbe/config.yml": "36c5f12f45c897ae64e179bb9ede1fe7e57278c7d299241c5c6043a2ca0bbc47",
+    "plugins/GTMTransportProbe/config.yml": "2d3e726fd0ee3ef57829884fba30af25cb88e9e650c36c81b8d2065ee405b95d",
+    "plugins/GTMFurnitureRescueProbe/config.yml": "18474821e0329251dbc872cfd85fcf2f37deb5d7c91ef9b2e2751f9e1f119dc7",
+    "plugins/GTMFurnitureCargoProbe/config.yml": "43ea15de37dedb5bf0ebede1af011bb6492393f45431ddfccde52042846e120b",
+    "plugins/GTMFurnitureUtilityProbe/config.yml": "43ea15de37dedb5bf0ebede1af011bb6492393f45431ddfccde52042846e120b",
+    "plugins/GTMMedicalProbe/config.yml": "720242805b3e49f8b69428c3d6358a504de8e4ec6784e9a1bf006043e1b76ef2",
+    "plugins/GTMFurnitureWorkshopProbe/config.yml": "958a113eb49b955f2453abc130ce91c798c9b14bcd43ae0c740ad726637cab33",
+    "plugins/GTMPhoneControlsProbe/config.yml": "d306a5c67da2d840afc9051ae59b87959563da1aa7b3e3d3cf28f675f23681f3",
+    "plugins/GTMFoodCourierProbe/config.yml": "958a113eb49b955f2453abc130ce91c798c9b14bcd43ae0c740ad726637cab33",
+    "plugins/GTMEquipmentProbe/config.yml": "958a113eb49b955f2453abc130ce91c798c9b14bcd43ae0c740ad726637cab33",
+    "plugins/GTMFurniturePowerProbe/config.yml": "43ea15de37dedb5bf0ebede1af011bb6492393f45431ddfccde52042846e120b",
+    "plugins/GTMServerProbe/config.yml": "958a113eb49b955f2453abc130ce91c798c9b14bcd43ae0c740ad726637cab33",
+    "plugins/GTMStreetSystemsProbe/config.yml": "d1e3c2c145eeb0bd896733638cd4d1f7d4b0b645dbd78ef400ea33bbb2d65e95"
+  },
+  "classification": "Targeted actual Paper/protocol regression after shared cart/workshop integration. Each scenario has its own fixture and assertions; native rendering is not verified."
+}

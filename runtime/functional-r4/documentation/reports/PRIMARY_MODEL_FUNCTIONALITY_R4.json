@@ -1,0 +1,659 @@
+{
+  "additional_canonical_assets": 646,
+  "authored_structure_assignments": 27,
+  "canonical_model_assets": 578,
+  "coverage_classes": {
+    "IMPLEMENTED_CONDITIONAL": 571,
+    "IMPLEMENTED_UI_CONTROL": 26,
+    "LIVE_MAP_CONTROL": 2,
+    "LIVE_STATUS_PRESENTATION": 26,
+    "LIVE_VEHICLE_DASHBOARD": 3,
+    "ORNAMENTAL_PLACEMENT": 52,
+    "OWNED_COSMETIC": 400,
+    "SERVICE_CONDITIONAL": 75
+  },
+  "csv_sha256": "00b068c1690c65328dc8c29317c9dd4de168195d15dd9fdbbea90e713ab7fa64",
+  "default_enabled_basis": "Base source/src/main/resources/config.yml only; shipped laptop enablement is recorded separately and is not inferred from these conservative defaults.",
+  "defaults_enabled": 0,
+  "definition_rows_excluded_as_aliases_states_parts_or_compatibility": 2399,
+  "disjoint_categories": {
+    "equipment": 103,
+    "finish": 300,
+    "food": 30,
+    "furniture": 358,
+    "outfit": 100,
+    "sign": 120,
+    "transport": 87,
+    "ui": 57
+  },
+  "exclusion_policy": "No additional rows for damage states, legacy aliases, held/world variants, articulated partitions, outfit equipment pieces, icon thumbnails, atlas cells or pack exports.",
+  "finish_cosmetics_reusing_weapon_geometry": 300,
+  "held_equipment_memberships": 113,
+  "interpretation": "Implemented assignments and named server effects are distinct from native-client acceptance. Base defaults and explicit laptop flags are separate. Actual ownership, supplies, permissions, world commissioning, remaining screen-position limits and native-client QA remain visible per row.",
+  "laptop_profile_config": {
+    "basis": "Exact reviewed built SDCraftCore configuration booleans and furniture service categories; no world/account commissioning or native-client acceptance is inferred.",
+    "evaluated": true,
+    "furniture_services": [
+      "bank",
+      "contacts",
+      "entertainment",
+      "food",
+      "hydration",
+      "maps",
+      "medical_status",
+      "medical_treatment",
+      "news",
+      "parking",
+      "phone",
+      "police",
+      "police_speed",
+      "refuel",
+      "repair",
+      "retail",
+      "taxi",
+      "transport",
+      "vehicle_inspection",
+      "wardrobe"
+    ],
+    "path": "/workspace/scratch/d7d343b39c16/integration-probe-r4/laptop-profile-validation/plugins/SDCraftCore/config.yml",
+    "sha256": "0d17e5fcad21b67a998da51215132288e4a139f4ef2d1a24f33ec28c2c5f78b6"
+  },
+  "laptop_profile_disabled": 0,
+  "laptop_profile_enabled": 1155,
+  "laptop_profile_not_evaluated": 0,
+  "native_client_verified": 0,
+  "original_primary_assets": 509,
+  "ornamental_placements": 52,
+  "outfit_designs": 100,
+  "overlap_count": 30,
+  "overlaps": {
+    "gtm:bus_stop_flag": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:cinema_projector": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:civic_bench_sign": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:council_lectern": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:dance_tile": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:dhol": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:district_marker": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:dj_deck": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:first_aid_cabinet": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:harmonium": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:hazard_bollard": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:help_intercom": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:hydration_station": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:metro_roundel": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:news_display": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:parking_meter": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:platform_clock": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:postal_box": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:queue_post": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:radio_receiver": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:road_barrier": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:road_cone": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:service_kiosk": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:speaker_stack": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:stage_spotlight": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:street_bin": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:studio_mic": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:tabla_pair": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:taxi_call_post": [
+      "extensions",
+      "equipment"
+    ],
+    "gtm:ticket_validator": [
+      "extensions",
+      "equipment"
+    ]
+  },
+  "profile": "INDRAPRASTHA_128_V1",
+  "registry_memberships": {
+    "equipment": 133,
+    "extensions": 158,
+    "finishes": 300,
+    "food": 30,
+    "furniture": 200,
+    "outfits": 100,
+    "signs": 120,
+    "transport": 87,
+    "ui": 57
+  },
+  "schema_version": 2,
+  "scope": "One row per canonical runtime asset; historical CSV filename retained; original primary 509 flagged explicitly.",
+  "server_effect_evidence": {
+    "access": {
+      "checks": 29,
+      "classification": "Actual Paper server API/effect checks; no native Java/Bedrock client certification",
+      "core_sha256": "f66438dce5698f926e644cb10ed5f08cd83182b704f2d34c665a3c6b8325dd9f",
+      "path": "docs/reports/PAPER_FURNITURE_ACCESS_R4.json",
+      "sha256": "d2a98409756d0c11ebbd752c62f459e5cef80bc0f317c62cf44f956bae0daa1e"
+    },
+    "alcohol": {
+      "checks": 18,
+      "classification": "Actual Paper server API/effect checks; no native Java/Bedrock client certification",
+      "core_sha256": "30b161ad40bd20d490748d29149f617369de95d1c819d729510a7e659fe7905f",
+      "path": "docs/reports/PAPER_FICTIONAL_ALCOHOL_R4.json",
+      "sha256": "b42f73712272723f93561b9765e73e8b115b3e69e84bef73509ef873de3e41f4"
+    },
+    "cargo": {
+      "checks": 26,
+      "classification": "Actual Paper server API/effect checks; no native Java/Bedrock client certification",
+      "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+      "path": "docs/reports/PAPER_FURNITURE_CARGO_R4.json",
+      "sha256": "f66420aad6945eb5cf74a3f7625e83ee8842fc351890304f9e02a7f9ecd3585b"
+    },
+    "civic": {
+      "checks": 30,
+      "classification": "Actual Paper server API/effect checks; no native Java/Bedrock client certification",
+      "core_sha256": "04a899018a732096efeb4ed17b58f33fe061c4382579cb57299a2fbc33a98631",
+      "path": "docs/reports/PAPER_FURNITURE_CIVIC_R4.json",
+      "sha256": "77dbe19a781cc281bc52fb0dc63b34ee2a97a2835d330ac6e30138c7238dcd9d"
+    },
+    "festival_carts": {
+      "actual_loaded_payload_controller": "gtm:christmas_gift_cart",
+      "all_nine_originals_moved": true,
+      "checks": 129,
+      "classification": "Actual Paper server API/effect checks; no native Java/Bedrock client certification",
+      "component_evidence": "docs/reports/FESTIVAL_CARTS_R4_EVIDENCE.json",
+      "component_evidence_sha256": "e83b17931a6327696bb4c17584c8386786a67ca64b176ad0cdfebd85aedd1d2e",
+      "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+      "kind": "ordinary_paid_festival_carts",
+      "ordinary_account_no_grants_or_fixture_writes": true,
+      "path": "docs/reports/PAPER_FESTIVAL_CARTS_R4.json",
+      "sha256": "33146529aab4df9abb9447aeb2ba6687940973afc3f1c30fad418434feebf885"
+    },
+    "festival_functions": {
+      "actual_models": [
+        "gtm:christmas_candle_trio",
+        "gtm:christmas_market_booth",
+        "gtm:diwali_market_booth",
+        "gtm:diwali_square_beacon",
+        "gtm:eid_market_booth",
+        "gtm:ganesh_market_booth",
+        "gtm:ganesh_square_beacon",
+        "gtm:holi_market_booth",
+        "gtm:holi_square_beacon",
+        "gtm:monsoon_coastal_weather_kiosk",
+        "gtm:navratri_market_booth",
+        "gtm:navratri_square_beacon",
+        "gtm:new_year_countdown_clock",
+        "gtm:new_year_market_booth",
+        "gtm:sankranti_market_booth",
+        "gtm:street_market_tarp"
+      ],
+      "checks": 85,
+      "classification": "Actual Paper server API/effect checks; no native Java/Bedrock client certification",
+      "component_evidence": "docs/reports/FESTIVAL_FUNCTIONS_R4_EVIDENCE.json",
+      "component_evidence_sha256": "088abd5475f3cbb62664e8a225ba69f57a1b010d44e60f7f7c1d34a9cb31b2a2",
+      "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+      "historical_interruption": {
+        "completed_pass": false,
+        "core_sha256": "fd4ec8b7ffd59e381693c255fdad3fd37f9010256d5d13b5814dc28af193a15b",
+        "passing_observations": 80,
+        "reason": "Automatic review interrupted optional dependency telemetry before the last collection/consumption/conservation/cleanup checks.",
+        "recovery": "Original complete copy and pending state retained unchanged; this full run used a separate verified clean baseline.",
+        "report": "docs/reports/PAPER_FESTIVAL_FUNCTIONS_INTERRUPTED_80_R4.json",
+        "sha256": "48971eb8b27ef5339ac4a06a6b792c0649afb054b0913c00c7f3a1ecd450f57d",
+        "status": "RUNNING"
+      },
+      "java_only_gameplay_scope": true,
+      "kind": "seasonal_functions",
+      "path": "docs/reports/PAPER_FESTIVAL_FUNCTIONS_R4.json",
+      "sha256": "f58659ad78538e9c8a68acabf40b2294be9031b3e4c35cb4d34c56c00a6a871a"
+    },
+    "medical": {
+      "checks": 21,
+      "classification": "Actual Paper server API/effect checks; no native Java/Bedrock client certification",
+      "core_sha256": "30b161ad40bd20d490748d29149f617369de95d1c819d729510a7e659fe7905f",
+      "path": "docs/reports/PAPER_MEDICAL_R4.json",
+      "sha256": "32a2c40d77a8ca37694865ff9068ffd6a83a7791373054c147aa22165030502a"
+    },
+    "ottoman": {
+      "authorization_recovery": {
+        "actual_live_projection_recovered": true,
+        "permission_restored_tick": 121,
+        "private_tick_or_reconcile_called": false,
+        "recovered_tick": 133,
+        "same_owned_id": "756b3fe5-2c36-3843-9195-c70176db80ac",
+        "withdrawn_while_permission_denied": true
+      },
+      "checks": 11,
+      "classification": "Actual Paper server API/effect checks; no native Java/Bedrock client certification",
+      "component_evidence": "docs/reports/FINAL_SHARED_RUNTIME_REGRESSIONS_R4.json",
+      "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+      "historical_failed_attempts": 1,
+      "kind": "ottoman_recovery",
+      "path": "docs/reports/PAPER_OTTOMAN_STORAGE_R4.json",
+      "sha256": "6bf41b78c14200aeea22acdb4454a905058fd84ec58b5ac381580e71c1926f8b"
+    },
+    "phone_controls": {
+      "checks": 24,
+      "classification": "Actual Paper server API/effect checks; no native Java/Bedrock client certification",
+      "core_sha256": "0b49d8e47935b4693f409ad51168a4a292f54b4536dc58ce717ab0bc45209d5c",
+      "path": "docs/reports/PAPER_PHONE_CONTROLS_R4.json",
+      "sha256": "9c866614668981a74c012fa152e6e0a88920fc526efcefd72099b2d8c6930877"
+    },
+    "power": {
+      "checks": 16,
+      "classification": "Actual Paper server API/effect checks; no native Java/Bedrock client certification",
+      "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+      "path": "docs/reports/PAPER_FURNITURE_POWER_R4.json",
+      "sha256": "aa7e61efdbeb7cbced0db963b155a1aae4a32e3d89b96decdabed956d4eb898f"
+    },
+    "rescue": {
+      "checks": 32,
+      "classification": "Actual Paper server API/effect checks; no native Java/Bedrock client certification",
+      "core_sha256": "30b161ad40bd20d490748d29149f617369de95d1c819d729510a7e659fe7905f",
+      "path": "docs/reports/PAPER_FURNITURE_RESCUE_R4.json",
+      "sha256": "897ebd2319f8613769337106b8f459d77a5ebfc801af856b6a32e1724b34a15c"
+    },
+    "shopping_cart": {
+      "chain_evidence": "docs/reports/SHOPPING_CART_R4_EVIDENCE.json",
+      "chain_evidence_sha256": "78b5c78f0c52942d0b4a98e0084d0b68c1a8192030dc838f33d9fb07d19f9d4c",
+      "checks": 4,
+      "classification": "Completed ordinary paid sequence on the same identities, with five preserved earlier failed stages and a final four-check ordinary Return completion. No grants, fixture writes or native rendered-client certification.",
+      "completed_chain": true,
+      "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+      "fresh_uninterrupted_50_check_pass_claimed": false,
+      "historical_failed_stages": 5,
+      "kind": "paid_cart_chain",
+      "path": "docs/reports/PAPER_SHOPPING_CART_R4.json",
+      "sha256": "7a659b212a972b1e1c37c57cf16b01e968fdab4fc6c775eaa34785865ee5a16a",
+      "stages": [
+        {
+          "companion_sha256": "23be180aad9343102abf134810dd7359b60a91db45745d7fadcb0928b29e9fb2",
+          "core_sha256": "b19aeb13a2fde033da787e6e204b2106808105ad4cdf4d035d89113b36d9ad3f",
+          "failed": 1,
+          "passed": 37,
+          "report": "docs/reports/PAPER_SHOPPING_CART_INITIAL_R4.json",
+          "sha256": "97f7595211901877db55dc3ad4391b2f79be4547d130c1685a2f71a09f7098f5",
+          "stage": "initial",
+          "status": "FAIL"
+        },
+        {
+          "companion_sha256": "efa1dd4109b267087d29f256ee8bc2804efa4fe98bde952471d62924ec96e574",
+          "core_sha256": "b19aeb13a2fde033da787e6e204b2106808105ad4cdf4d035d89113b36d9ad3f",
+          "failed": 1,
+          "passed": 8,
+          "report": "docs/reports/PAPER_SHOPPING_CART_MOTION_ATTEMPT_R4.json",
+          "sha256": "01761e31e2d2f2454cf521d88ed49a8c6066013a193cda749b10bc2a8fd53562",
+          "stage": "motion",
+          "status": "FAIL"
+        },
+        {
+          "companion_sha256": "650930e2976e6ea0682423c234f8fc9b5a5fd91aff1f9fc08708af151d70f636",
+          "core_sha256": "b19aeb13a2fde033da787e6e204b2106808105ad4cdf4d035d89113b36d9ad3f",
+          "failed": 1,
+          "passed": 2,
+          "report": "docs/reports/PAPER_SHOPPING_CART_DESTINATION_ATTEMPT_R4.json",
+          "sha256": "e4a48bfb2033489ce83a9e4cbda53f8d97583e72965ceebba164d14196dd03fa",
+          "stage": "destination",
+          "status": "FAIL"
+        },
+        {
+          "companion_sha256": "b95414b1477955ff7bed77e996391bcd9942a38f1d68dbebbc6712b1026bfba9",
+          "core_sha256": "b19aeb13a2fde033da787e6e204b2106808105ad4cdf4d035d89113b36d9ad3f",
+          "failed": 1,
+          "passed": 4,
+          "report": "docs/reports/PAPER_SHOPPING_CART_UNLOAD_ATTEMPT_R4.json",
+          "sha256": "4d0ffcf0cecfe97d3c4fb51570edf2bb4434f19a05f3746321f0c8936f1e00e1",
+          "stage": "unload",
+          "status": "FAIL"
+        },
+        {
+          "companion_sha256": "dc8e122c22854842876c2b0069f5533729618f3e76b8af503579a99cd6280608",
+          "core_sha256": "fd4ec8b7ffd59e381693c255fdad3fd37f9010256d5d13b5814dc28af193a15b",
+          "failed": 1,
+          "passed": 4,
+          "report": "docs/reports/PAPER_SHOPPING_CART_VERIFY_RETURN_ATTEMPT_R4.json",
+          "sha256": "7ed7553ffd7d79b80e14016adc4fadb82ba7f347ce2c4bf8a24e77e62e6b678b",
+          "stage": "verify_and_return_motion",
+          "status": "FAIL"
+        },
+        {
+          "companion_sha256": "8426bb5d032b24341c825327dab258d5ccd430c486b344c88b21fea3599de6cd",
+          "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+          "failed": 0,
+          "passed": 4,
+          "report": "docs/reports/PAPER_SHOPPING_CART_R4.json",
+          "sha256": "7a659b212a972b1e1c37c57cf16b01e968fdab4fc6c775eaa34785865ee5a16a",
+          "stage": "physical_return_completion",
+          "status": "PASS"
+        }
+      ]
+    },
+    "structures": {
+      "actual_representative_models": [
+        "gtm:diwali_bandstand",
+        "gtm:diwali_gateway",
+        "gtm:diwali_street_arch",
+        "gtm:independence_day_civic_gateway",
+        "gtm:new_year_midnight_light_arch",
+        "gtm:street_market_tarp"
+      ],
+      "all_27_models_individually_walked": false,
+      "checks": 38,
+      "classification": "Actual Paper server API/effect checks; no native Java/Bedrock client certification",
+      "component_evidence": "docs/reports/FURNITURE_STRUCTURES_R4_EVIDENCE.json",
+      "component_evidence_sha256": "bff1c6bd25c7df4379514d6f548cb0799727032b4ef94766bc83b23df8ba5b64",
+      "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+      "java_only_gameplay_scope": true,
+      "kind": "authored_structures",
+      "path": "docs/reports/PAPER_FURNITURE_STRUCTURES_R4.json",
+      "received_walks": 7,
+      "reviewed_blueprint_count": 27,
+      "sha256": "e2930e5849aa312edc94bcfa0132f6c614d9f1bce4201dd99713a34cb98767c0"
+    },
+    "traffic": {
+      "checks": 12,
+      "classification": "Actual Paper server API/effect checks; no native Java/Bedrock client certification",
+      "core_sha256": "30b161ad40bd20d490748d29149f617369de95d1c819d729510a7e659fe7905f",
+      "path": "docs/reports/PAPER_TRAFFIC_SIGNALS_R4.json",
+      "sha256": "a02a2e93e78f003ac8dd068ba7e32352a01e8874212d8a349d2e4313d5241577"
+    },
+    "utilities": {
+      "checks": 27,
+      "classification": "Actual Paper server API/effect checks; no native Java/Bedrock client certification",
+      "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+      "path": "docs/reports/PAPER_FURNITURE_UTILITIES_R4.json",
+      "sha256": "18b5c52255157893840275bd63619c09cf34c211df823ddedfcfdb16e0347fd6"
+    },
+    "wheelchair": {
+      "checks": 28,
+      "classification": "Complete ordinary paid non-OP mobility scenario and real translated-protocol continuation on the same chair; the older failure remains separate historical evidence. No native renderer qualification.",
+      "completed_cohorts": {
+        "mobility": 22,
+        "mobility_protocol": 6
+      },
+      "core_sha256": "0b49d8e47935b4693f409ad51168a4a292f54b4536dc58ce717ab0bc45209d5c",
+      "historical_evidence": "docs/reports/PAPER_WHEELCHAIR_MOBILITY_BASELINE_428_R4.json",
+      "kind": "wheelchair",
+      "path": "docs/reports/PAPER_WHEELCHAIR_MOBILITY_R4.json",
+      "sha256": "dd6f61d78281e6344a2638636c422fbf2f984b50fd275802638423ff10a6f5ce"
+    },
+    "workshop": {
+      "checks": 28,
+      "classification": "Actual Paper server API/effect checks; no native Java/Bedrock client certification",
+      "cleanup_scope": "WORKSHOP_6296_FIXTURE_ONLY",
+      "component_evidence": "docs/reports/FURNITURE_WORKSHOP_R4_EVIDENCE.json",
+      "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+      "kind": "scoped_workshop",
+      "path": "docs/reports/PAPER_FURNITURE_WORKSHOP_R4.json",
+      "sha256": "03029d5c313a32673fb203fe104f485d0e7e5182570a4c2369cf95fd9197086b",
+      "unrelated_retained_evidence_sha256": {
+        "fixture-journal.json": "bb257a69924cccbe3888c68b9d48be871f0fdd6e13d55b9acce146ee7a785873",
+        "fixture-pending.lock": "0489b8c13a544617402e22225e6dd2f78cd557ffeca763d8ff6184b21964edf7",
+        "original-state.json": "dcdf868b3aeb1c5bfbf44dc4f856ef1d39c135e3b517b974a99f2960d09127ca",
+        "report.json": "48971eb8b27ef5339ac4a06a6b792c0649afb054b0913c00c7f3a1ecd450f57d"
+      },
+      "whole_world_or_prior_actor_restoration_claim": false
+    }
+  },
+  "shared_runtime_regression_evidence": {
+    "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+    "native_client_verified": false,
+    "ottoman_historical_failed_attempts": 1,
+    "path": "docs/reports/FINAL_SHARED_RUNTIME_REGRESSIONS_R4.json",
+    "reports": [
+      {
+        "checks": 26,
+        "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+        "report": "PAPER_UI_FURNITURE_R4.json",
+        "report_sha256": "3108cc9db98c2464ebdb102fe19c4770bfaf1b17fa3a6f12a29014a10bac4700",
+        "run": "20261125T024626783921Z",
+        "scenario": "ui",
+        "status": "PASS"
+      },
+      {
+        "checks": 26,
+        "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+        "report": "PAPER_FURNITURE_CARGO_R4.json",
+        "report_sha256": "f66420aad6945eb5cf74a3f7625e83ee8842fc351890304f9e02a7f9ecd3585b",
+        "run": "20261125T024626783921Z",
+        "scenario": "cargo",
+        "status": "PASS"
+      },
+      {
+        "checks": 24,
+        "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+        "report": "PAPER_EQUIPMENT_R4.json",
+        "report_sha256": "eb514f646000ebf94d7fa0844e08b5fd75c7160a9eb0b6e81faedd41137a4858",
+        "run": "20261125T024626783921Z",
+        "scenario": "equipment",
+        "status": "PASS"
+      },
+      {
+        "checks": 16,
+        "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+        "report": "PAPER_FURNITURE_POWER_R4.json",
+        "report_sha256": "aa7e61efdbeb7cbced0db963b155a1aae4a32e3d89b96decdabed956d4eb898f",
+        "run": "20261125T024626783921Z",
+        "scenario": "power",
+        "status": "PASS"
+      },
+      {
+        "checks": 27,
+        "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+        "report": "PAPER_FURNITURE_UTILITIES_R4.json",
+        "report_sha256": "18b5c52255157893840275bd63619c09cf34c211df823ddedfcfdb16e0347fd6",
+        "run": "20261125T024626783921Z",
+        "scenario": "utilities",
+        "status": "PASS"
+      },
+      {
+        "checks": 11,
+        "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+        "report": "PAPER_OTTOMAN_STORAGE_R4.json",
+        "report_sha256": "6bf41b78c14200aeea22acdb4454a905058fd84ec58b5ac381580e71c1926f8b",
+        "run": "20261125T025705962065Z",
+        "scenario": "ottoman",
+        "status": "PASS"
+      }
+    ],
+    "scope": "Five complete final-core scenario passes and the separate complete11-check ottoman run; the earlier7-pass/1-fail companion timing result and shutdown-report rewrite remain preserved as one failed attempt. Production core remained unchanged.",
+    "sha256": "e62e13ed0b9dcbb270b462e0e795d4017c7fc85918f6c4cbc3d5f6022539198e",
+    "status": "PASS_SIX_SHARED_SCENARIOS_WITH_PRESERVED_OTTOMAN_TEST_RECOVERY"
+  },
+  "sign_designs": 120,
+  "source_sha256": {
+    "creative/generated_128/manifests/equipment_food_128.json": "502084ae3881df0bfe5c6807fe39d4dab24e8109822f56fb24d2fb2cc49db4e5",
+    "creative/generated_128/manifests/festivals_128.json": "967c69db63b58bccbcf0949f4f7c7df34bf48562e918789c07b316cf38573784",
+    "creative/generated_128/manifests/furniture_128.json": "8a9fcf74740aeb6e6a72459270b2023735d707d24cf675b580d932bb710291b8",
+    "creative/generated_128/manifests/transport_128.json": "c294645a6fd9ad41e3a7ba2cbd2d07d3da8afb41b1f0212ebfef0581ffeccaf3",
+    "docs/reports/FESTIVAL_CARTS_R4_EVIDENCE.json": "e83b17931a6327696bb4c17584c8386786a67ca64b176ad0cdfebd85aedd1d2e",
+    "docs/reports/FESTIVAL_FUNCTIONS_R4_EVIDENCE.json": "088abd5475f3cbb62664e8a225ba69f57a1b010d44e60f7f7c1d34a9cb31b2a2",
+    "docs/reports/FINAL_SHARED_RUNTIME_REGRESSIONS_R4.json": "e62e13ed0b9dcbb270b462e0e795d4017c7fc85918f6c4cbc3d5f6022539198e",
+    "docs/reports/FURNITURE_STRUCTURES_R4_EVIDENCE.json": "bff1c6bd25c7df4379514d6f548cb0799727032b4ef94766bc83b23df8ba5b64",
+    "docs/reports/FURNITURE_WORKSHOP_R4_EVIDENCE.json": "e77466c2370634202ea32650fa41962683a1c4a491887bff4cc87d85a71939a5",
+    "docs/reports/PAPER_EQUIPMENT_R4.json": "eb514f646000ebf94d7fa0844e08b5fd75c7160a9eb0b6e81faedd41137a4858",
+    "docs/reports/PAPER_FESTIVAL_CARTS_R4.json": "33146529aab4df9abb9447aeb2ba6687940973afc3f1c30fad418434feebf885",
+    "docs/reports/PAPER_FESTIVAL_FUNCTIONS_R4.json": "f58659ad78538e9c8a68acabf40b2294be9031b3e4c35cb4d34c56c00a6a871a",
+    "docs/reports/PAPER_FICTIONAL_ALCOHOL_R4.json": "b42f73712272723f93561b9765e73e8b115b3e69e84bef73509ef873de3e41f4",
+    "docs/reports/PAPER_FURNITURE_ACCESS_R4.json": "d2a98409756d0c11ebbd752c62f459e5cef80bc0f317c62cf44f956bae0daa1e",
+    "docs/reports/PAPER_FURNITURE_CARGO_R4.json": "f66420aad6945eb5cf74a3f7625e83ee8842fc351890304f9e02a7f9ecd3585b",
+    "docs/reports/PAPER_FURNITURE_CIVIC_R4.json": "77dbe19a781cc281bc52fb0dc63b34ee2a97a2835d330ac6e30138c7238dcd9d",
+    "docs/reports/PAPER_FURNITURE_POWER_R4.json": "aa7e61efdbeb7cbced0db963b155a1aae4a32e3d89b96decdabed956d4eb898f",
+    "docs/reports/PAPER_FURNITURE_RESCUE_R4.json": "897ebd2319f8613769337106b8f459d77a5ebfc801af856b6a32e1724b34a15c",
+    "docs/reports/PAPER_FURNITURE_STRUCTURES_R4.json": "e2930e5849aa312edc94bcfa0132f6c614d9f1bce4201dd99713a34cb98767c0",
+    "docs/reports/PAPER_FURNITURE_UTILITIES_R4.json": "18b5c52255157893840275bd63619c09cf34c211df823ddedfcfdb16e0347fd6",
+    "docs/reports/PAPER_FURNITURE_WORKSHOP_R4.json": "03029d5c313a32673fb203fe104f485d0e7e5182570a4c2369cf95fd9197086b",
+    "docs/reports/PAPER_MEDICAL_R4.json": "32a2c40d77a8ca37694865ff9068ffd6a83a7791373054c147aa22165030502a",
+    "docs/reports/PAPER_OTTOMAN_STORAGE_FINAL_ATTEMPT_R4.json": "4b13cc22b7090c1f4fc3a68c8eb40df75b1bdfd390848fa2318020f3f3ae3fac",
+    "docs/reports/PAPER_OTTOMAN_STORAGE_FINAL_SHUTDOWN_R4.json": "6344dcc022f445e7e89373251e4b4790a4d59713ea4dae1d728115c966c06c36",
+    "docs/reports/PAPER_OTTOMAN_STORAGE_R4.json": "6bf41b78c14200aeea22acdb4454a905058fd84ec58b5ac381580e71c1926f8b",
+    "docs/reports/PAPER_PHONE_CONTROLS_R4.json": "9c866614668981a74c012fa152e6e0a88920fc526efcefd72099b2d8c6930877",
+    "docs/reports/PAPER_SHOPPING_CART_DESTINATION_ATTEMPT_R4.json": "e4a48bfb2033489ce83a9e4cbda53f8d97583e72965ceebba164d14196dd03fa",
+    "docs/reports/PAPER_SHOPPING_CART_INITIAL_R4.json": "97f7595211901877db55dc3ad4391b2f79be4547d130c1685a2f71a09f7098f5",
+    "docs/reports/PAPER_SHOPPING_CART_MOTION_ATTEMPT_R4.json": "01761e31e2d2f2454cf521d88ed49a8c6066013a193cda749b10bc2a8fd53562",
+    "docs/reports/PAPER_SHOPPING_CART_R4.json": "7a659b212a972b1e1c37c57cf16b01e968fdab4fc6c775eaa34785865ee5a16a",
+    "docs/reports/PAPER_SHOPPING_CART_UNLOAD_ATTEMPT_R4.json": "4d0ffcf0cecfe97d3c4fb51570edf2bb4434f19a05f3746321f0c8936f1e00e1",
+    "docs/reports/PAPER_SHOPPING_CART_VERIFY_RETURN_ATTEMPT_R4.json": "7ed7553ffd7d79b80e14016adc4fadb82ba7f347ce2c4bf8a24e77e62e6b678b",
+    "docs/reports/PAPER_TRAFFIC_SIGNALS_R4.json": "a02a2e93e78f003ac8dd068ba7e32352a01e8874212d8a349d2e4313d5241577",
+    "docs/reports/PAPER_UI_FURNITURE_R4.json": "3108cc9db98c2464ebdb102fe19c4770bfaf1b17fa3a6f12a29014a10bac4700",
+    "docs/reports/PAPER_WHEELCHAIR_MOBILITY_R4.json": "dd6f61d78281e6344a2638636c422fbf2f984b50fd275802638423ff10a6f5ce",
+    "docs/reports/SHOPPING_CART_R4_EVIDENCE.json": "78b5c78f0c52942d0b4a98e0084d0b68c1a8192030dc838f33d9fb07d19f9d4c",
+    "source/src/main/java/com/sdcraft/core/GtmAlcohol.java": "dacded242e0d9db7f242e4d1af6dca58d5b4cd460189816b422d5e2bc772b716",
+    "source/src/main/java/com/sdcraft/core/GtmCityServices.java": "f0ff34bbffd7db2170e2038e8cad306a1b8eafde0765e38d54bfd198fc52c7b0",
+    "source/src/main/java/com/sdcraft/core/GtmEquipment.java": "1ec2284ac2914edf99b42594b07287fb3032e077c64e4e23f0cf8eea16768c65",
+    "source/src/main/java/com/sdcraft/core/GtmFood.java": "ec144895162c0082ac325608bc971c944a8cdafc9f18c7f09e528f9f6d9bc04e",
+    "source/src/main/java/com/sdcraft/core/GtmFoodCourier.java": "93ed7f4d35fdc49e7fe62b15a7a5dc577d8d74b694609d93a9f21ae6ed07b199",
+    "source/src/main/java/com/sdcraft/core/GtmFurniture.java": "78b340939d27fce43faef6b281e30cdd236c74bda3dc154420970a8fea5cb8b8",
+    "source/src/main/java/com/sdcraft/core/GtmFurnitureAccessServices.java": "e363e915bb6ff31580c7dd87771553e076202e4dee4fedcd30ee8da11c0ce696",
+    "source/src/main/java/com/sdcraft/core/GtmFurnitureBooking.java": "d7a835ee7555e4869d08a692132e89d1bfab7cf7c69b5e7e0fc665b2349bcbfe",
+    "source/src/main/java/com/sdcraft/core/GtmFurnitureCameras.java": "a7f720e99ca8661e7d60c5469e6090bbc82491fa960d922fa5c2f975a4cf1efa",
+    "source/src/main/java/com/sdcraft/core/GtmFurnitureCargo.java": "8eefe4e173842cf8de499b670d25107502eb0ad52e0c7ebf0f77a1837402b0bd",
+    "source/src/main/java/com/sdcraft/core/GtmFurnitureCivic.java": "7fd2612186adb23975db3a1295366aad439269cd57f26e6626dae23ef19030f2",
+    "source/src/main/java/com/sdcraft/core/GtmFurnitureMenu.java": "dffa4ebd6ddeae0076d941618076eb4f901562a22da1ae6d8088c586e27ef5da",
+    "source/src/main/java/com/sdcraft/core/GtmFurnitureMobility.java": "0dd6bfa0197e8411ec324c75841952e6a83c47997df88c91afec8226c7bdce78",
+    "source/src/main/java/com/sdcraft/core/GtmFurniturePower.java": "8f6aaba0448929755cbde30c394fa4c575331d9176ec38c8b46268c038f6fc1a",
+    "source/src/main/java/com/sdcraft/core/GtmFurnitureRescueMobility.java": "d64362d802dcd023a1fdda118e6472a040d39abeb7acb7d36e11b7c3bc878e7f",
+    "source/src/main/java/com/sdcraft/core/GtmFurnitureShoppingCart.java": "5183a08140e5fe4de24e04495d77864319b1fbd51bd17419dc4b87b33dc8334c",
+    "source/src/main/java/com/sdcraft/core/GtmFurnitureStructures.java": "3c4dd5114a56cfbea943e8567256075ebfce8371a410b04e9a24c0188673345c",
+    "source/src/main/java/com/sdcraft/core/GtmFurnitureUtilities.java": "35e0adfbd9d7d576c7575107d68c29cfa12041ee78b523dad818dd8bcc3a00c4",
+    "source/src/main/java/com/sdcraft/core/GtmFurnitureWorkshop.java": "3186c4aa19bfb3c7ea62f364ace28160745668cbc77c174c02879a005f27edce",
+    "source/src/main/java/com/sdcraft/core/GtmItemDelivery.java": "9793a6100df1402c944e9594a7062dfd2b2cb7c0709be33a9ef78466acb3c019",
+    "source/src/main/java/com/sdcraft/core/GtmNativeFinishes.java": "7834d7a9a38cb266e4e3cff95e6f10832071324bff00cfa4a1844809097bb386",
+    "source/src/main/java/com/sdcraft/core/GtmPhoneApps.java": "9e546dc449d3481378916b50c37c0acce631b766a7007f6d24a241ecfcc137a5",
+    "source/src/main/java/com/sdcraft/core/GtmPhoneHud.java": "5397c3058a428ae38bcafc731653bb35a29603dfd0d88c8c3074a916e40103b4",
+    "source/src/main/java/com/sdcraft/core/GtmSigns.java": "c57f439de87bc87002cc565c18428d7d422f3b80340385cf5accb7ec41cfb881",
+    "source/src/main/java/com/sdcraft/core/GtmTrafficSignals.java": "a8ca06eed7f75b7aa0e898681aa77d0b9be5ca966c150e1e1d99aef1f74c6484",
+    "source/src/main/java/com/sdcraft/core/GtmVehicles.java": "89d3c29a94937d77689e320fec77ede7ef77c7d1f632651292526bccfffd0183",
+    "source/src/main/java/com/sdcraft/core/GtmWardrobe.java": "e3278d0bd4298c5827b1420d1e2e0b1a365532ff2e11dd6b0590b42bd4355b5c",
+    "source/src/main/java/com/sdcraft/core/Ledger.java": "d8e41759c0b320978d74330402926687fba0d24f105bfa2b1c84ea83c31bd7fd",
+    "source/src/main/java/com/sdcraft/core/SDCraftCorePlugin.java": "5f038c5c6acc994d9c62dbe81981691cb6f091258794cef24ada816f43a90353",
+    "source/src/main/java/com/sdcraft/core/equipment/EquipmentCatalog.java": "e95bdbdde1fa7cd4ca4798eb02fc3f036c5b6843bc59ec21cbbc7bc05df0a545",
+    "source/src/main/java/com/sdcraft/core/equipment/NativeFinishCatalog.java": "037deeaf79462e63e250d451df604058677390a1993bb9fc34dd3c1062b5d3d4",
+    "source/src/main/java/com/sdcraft/core/equipment/OutfitCatalog.java": "a15ca1def066db59085d26a4e015550c554b1720202d8a84ce89ce83e4de3ffa",
+    "source/src/main/java/com/sdcraft/core/furniture/CargoItemIdentity.java": "bca0c8a94eecebdd22a9260665674c027ae62122bd33824a3dbfe93d1e90369e",
+    "source/src/main/java/com/sdcraft/core/furniture/FestivalCartMotion.java": "2b41d32c63c19b5a2ebda262d1a18eaf541e2167298c7fb97f2b19f1eaa068b6",
+    "source/src/main/java/com/sdcraft/core/furniture/FurnitureAccessStore.java": "f1859d66640c0268b2a037b83998719b6eb7e8cece105bd5a5111b29098a3deb",
+    "source/src/main/java/com/sdcraft/core/furniture/FurnitureCargoStore.java": "8381d9afe9d3ef4a3d702eb94cfe09115b2e85af2147d3a2543c37665dbf3d92",
+    "source/src/main/java/com/sdcraft/core/furniture/FurnitureCartStore.java": "d00c10f1b97fa9f91cf7e943e27c8592c6730064084704d080ce3e4fd2922c5e",
+    "source/src/main/java/com/sdcraft/core/furniture/FurnitureCatalog.java": "25b14a55aefa10458ac9e29667657c4b9600c708d73415265c1393eaf4857fee",
+    "source/src/main/java/com/sdcraft/core/furniture/FurnitureCivicStore.java": "08115ec7ac021b4ecf6583b3adfaeb254a8b09679cb1793b833673bd9f42512e",
+    "source/src/main/java/com/sdcraft/core/furniture/FurnitureMotion.java": "7b65a00b0c6326a5fa3be7c25b8b47db9ab8652d28003c0a4b5212ca5c66caac",
+    "source/src/main/java/com/sdcraft/core/furniture/FurniturePowerStore.java": "0660d4c09200bc5b8112c51c78088aa15bd5db51a8123d4ff70db768ee4fab8f",
+    "source/src/main/java/com/sdcraft/core/furniture/FurnitureRetailStore.java": "0f2d329ee713d67b57545465fffea083704f2453a96e349b0b83bacbb2280a2e",
+    "source/src/main/java/com/sdcraft/core/furniture/FurnitureSeasonalRules.java": "ee142ab9d2e23ba34651886ceaebd56c5daf1cc661b68b4e4b72a002f86f94c5",
+    "source/src/main/java/com/sdcraft/core/furniture/FurnitureStore.java": "1fd2797e3de8f133b9245abc4437155e82f57b4ecbcdd60464e4eb6e3c36dd1a",
+    "source/src/main/java/com/sdcraft/core/furniture/FurnitureStructures.java": "ee4417b37d526d9eecbb447e5470ed92edd7b7057f28855103543cafdc9ab0d8",
+    "source/src/main/java/com/sdcraft/core/furniture/FurnitureUtilityRules.java": "f79dd8e0eae3677e9f799b38d8594c2a34cbe05cc5ffb1ae9229c055fafdfa4a",
+    "source/src/main/java/com/sdcraft/core/furniture/ShoppingCartMotion.java": "161ba57fa5ab04c4bcd988fc9e50d952a5e5f9e1dc56c11f8d3f25c8e2df856a",
+    "source/src/main/java/com/sdcraft/core/furniture/SurfaceRescueRoute.java": "a09412b8d6748d5adbbc7a27489a405538234b3aaf630ff5f941ef957f892172",
+    "source/src/main/java/com/sdcraft/core/furniture/WheelchairMotion.java": "f2569010cb61bd15769e9e37ca9b1a9bbf80607922b0c5a031e92d7c1d6e0957",
+    "source/src/main/java/com/sdcraft/core/medical/NativeDownedState.java": "902914deaae44444c6e8273a4c36ed1049ad46c3d00455ab6593b63f04f45e61",
+    "source/src/main/java/com/sdcraft/core/phone/VehicleDashboard.java": "f6be520e7a0c4d0fc13de0f53852e18f2275fb5dd29c01dfdf60e60b3babef03",
+    "source/src/main/java/com/sdcraft/core/signs/SignStore.java": "b9fd1972d0a24f090e2888d7817760a05bd1b0c9ed123f9f45f5a84189bd4ab2",
+    "source/src/main/java/com/sdcraft/core/traffic/TrafficSignalRules.java": "41c7c2188aeb0e2c102870ac9a4a1b19b2c0efb8e935338c5d4e321560e3199e",
+    "source/src/main/java/com/sdcraft/core/vehicle/PaperRoadCollision.java": "d3cac406e5905fb7b87f7ae69a4e86438d4c849ca71c83b8f9b31f9165beda58",
+    "source/src/main/java/com/sdcraft/core/vehicle/RoadPhysics.java": "0256a3bf800fe6e4f47655e1115d0f0efecfa85111d696d5d019f2d7e68ef8f3",
+    "source/src/main/java/com/sdcraft/core/vehicle/RoadVehicleProfile.java": "fe47d7e302e47efcd37fe378d93742d661c7381aaa0e2b665a60df690fc5c2bb",
+    "source/src/main/java/com/sdcraft/core/vehicle/VehicleAdmissionCursor.java": "a4c50d7a9064c8da34e6877db5cf9d2e82321ccaf08f62253d504eb291f0aafa",
+    "source/src/main/java/com/sdcraft/core/vehicle/VehicleHoistGeometry.java": "3ccfdb4ea1a10527d89aa026db8212d3bcbc4c29791ab79276897d7d413d56c5",
+    "source/src/main/java/com/sdcraft/core/vehicle/VehicleMaintenanceState.java": "d5e910392b9cc05a973f0feb2dbe09c6c2c82309cdb4c1c747ac043cb0c3cbab",
+    "source/src/main/java/com/sdcraft/core/vehicle/VehicleWorkshopStore.java": "fa27d44113738aee6b37327c67d5ab221dc667d5b1e08b7883bf857ab6dd4adf",
+    "source/src/main/resources/config.yml": "2563e1ec9330f4ba6fa1cbe5eba9e86d39bc1fa5f6903a501de7009eded06093",
+    "source/src/main/resources/equipment/catalog.tsv": "afbdeccd00d80fa68ac963a69a6368d000b5cb5401d645bfff46525b4aa3b459",
+    "source/src/main/resources/equipment/finishes.tsv": "2f01dfcfd2e17d6fe457dc044fe6d0fa8c3eb0e275c1b66c964ce48e4eb9a847",
+    "source/src/main/resources/food/nutrition.tsv": "deabcb777c578ba7cfa0cf1347dcd8440c8e3614862b6a00310b3894e5f3969e",
+    "source/src/main/resources/furniture/capabilities.tsv": "d64d339e68712462749625f41347ddc2ff7f4213918bf41fdf2a17dc1fee90a5",
+    "source/src/main/resources/furniture/extensions.tsv": "812a7d20e1a5d35f4966a87f6d8ba5c2703bff408c41034460338a72435800eb",
+    "source/src/main/resources/furniture/structures.tsv": "6ae2613bb4d08a2c33d5c4fda8d417db9dd083aa68d93333f5ba187d9e20b481",
+    "source/src/main/resources/gtm-assets.tsv": "b4ef5e795ecbca49ae9af57331cebc17e0753baaa38f9756b145277c9fd109ae",
+    "source/src/main/resources/outfits/catalog.tsv": "b288ea764970524ab16cefb5dab9685e7d34b8b4177b4bc61d0bf5e2edf46999",
+    "source/src/main/resources/signs/catalog.tsv": "a978fc6ac92438afd3de1b82bd6430ffa49d1fcd20bcd05fa16ac07cee48548c",
+    "source/src/main/resources/ui/catalog.tsv": "8d5d7fef3a531ebee2bf8882e0125de200b5c72a9a59c5eba96edac549f3e915",
+    "source/src/main/resources/vehicle/road-profiles.tsv": "afa52bcf660a03ee1fb0506b21a186f797a8cad6ed881c1cb0529b092bc0ce31",
+    "tools/build_functionality_inventory.py": "85dfae334b2c021180a94402b993e980d3e59f8172c089b864030cfffcd88603",
+    "tools/build_furniture_runtime_profiles.py": "967ca38c49b3bc3f9b31a5cf1576252cd8acddc9e2f5c1200633758bd02bb665",
+    "tools/build_placeable_extensions.py": "a11549863abbad2ca80c1fee8409ccbd069a0a7c37c0be3a86651b28fc5c15df",
+    "tools/build_runtime_packs.py": "761c820c0554d855421aad01e3816fca50789cc720ec2ffe7edaf2dcc5c1099d",
+    "tools/gtm_display_compatibility.py": "b8a3281751f5e92f4f44e6e1a2605d5c952885ce0a94d5db2209ff3af4350365",
+    "tools/gtm_structure_geometry.py": "8a609e0d59cd151ec813ec969561b620ab1c1faf298b7195fd1090048b5e7469",
+    "tools/gtm_structure_runtime_assets.py": "f2016f42cac81dd8de2db67197bd4bcb48a23fd021ace7192ce06764c0b7be02"
+  },
+  "ui_assets": 57,
+  "unique_canonical_assets": 1155
+}

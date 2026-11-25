@@ -1,0 +1,218 @@
+{
+  "spawn": {
+    "position": [
+      10,
+      70,
+      3
+    ],
+    "floor_feet_head": [
+      "minecraft:gray_concrete",
+      "minecraft:air",
+      "minecraft:air"
+    ]
+  },
+  "city_hall": {
+    "position": [
+      10,
+      70,
+      3
+    ],
+    "floor_feet_head": [
+      "minecraft:gray_concrete",
+      "minecraft:air",
+      "minecraft:air"
+    ]
+  },
+  "police": {
+    "position": [
+      120,
+      66,
+      -46
+    ],
+    "floor_feet_head": [
+      "minecraft:oak_planks",
+      "minecraft:air",
+      "minecraft:air"
+    ]
+  },
+  "hospital": {
+    "position": [
+      -62,
+      65,
+      140
+    ],
+    "floor_feet_head": [
+      "minecraft:light_gray_concrete",
+      "minecraft:air",
+      "minecraft:air"
+    ]
+  },
+  "bank": {
+    "position": [
+      56,
+      67,
+      -117
+    ],
+    "floor_feet_head": [
+      "minecraft:smooth_quartz_slab",
+      "minecraft:air",
+      "minecraft:air"
+    ]
+  },
+  "fire": {
+    "position": [
+      190,
+      70,
+      86
+    ],
+    "floor_feet_head": [
+      "minecraft:stone_brick_stairs",
+      "minecraft:air",
+      "minecraft:air"
+    ]
+  },
+  "dealership": {
+    "position": [
+      -151,
+      67,
+      -83
+    ],
+    "floor_feet_head": [
+      "minecraft:gray_concrete",
+      "minecraft:air",
+      "minecraft:air"
+    ]
+  },
+  "gas_station": {
+    "position": [
+      -205,
+      70,
+      60
+    ],
+    "floor_feet_head": [
+      "minecraft:white_concrete",
+      "minecraft:air",
+      "minecraft:air"
+    ]
+  },
+  "airport": {
+    "position": [
+      -384,
+      65,
+      -307
+    ],
+    "floor_feet_head": [
+      "minecraft:stone_brick_stairs",
+      "minecraft:air",
+      "minecraft:air"
+    ]
+  },
+  "jail": {
+    "position": [
+      122,
+      66,
+      -49
+    ],
+    "floor_feet_head": [
+      "minecraft:oak_planks",
+      "minecraft:air",
+      "minecraft:air"
+    ]
+  },
+  "taxi": {
+    "position": [
+      16,
+      71,
+      4
+    ],
+    "floor_feet_head": [
+      "minecraft:stone_brick_wall",
+      "minecraft:air",
+      "minecraft:air"
+    ]
+  },
+  "metro": {
+    "position": [
+      26,
+      68,
+      63
+    ],
+    "floor_feet_head": [
+      "minecraft:stone_brick_wall",
+      "minecraft:air",
+      "minecraft:air"
+    ]
+  },
+  "retail": {
+    "position": [
+      -147,
+      67,
+      -83
+    ],
+    "floor_feet_head": [
+      "minecraft:gray_concrete",
+      "minecraft:air",
+      "minecraft:air"
+    ]
+  },
+  "delivery": {
+    "position": [
+      -151,
+      67,
+      -83
+    ],
+    "floor_feet_head": [
+      "minecraft:gray_concrete",
+      "minecraft:air",
+      "minecraft:air"
+    ]
+  },
+  "chef": {
+    "position": [
+      10,
+      70,
+      3
+    ],
+    "floor_feet_head": [
+      "minecraft:gray_concrete",
+      "minecraft:air",
+      "minecraft:air"
+    ]
+  },
+  "medic": {
+    "position": [
+      -62,
+      65,
+      140
+    ],
+    "floor_feet_head": [
+      "minecraft:light_gray_concrete",
+      "minecraft:air",
+      "minecraft:air"
+    ]
+  },
+  "firefighter": {
+    "position": [
+      190,
+      70,
+      86
+    ],
+    "floor_feet_head": [
+      "minecraft:stone_brick_stairs",
+      "minecraft:air",
+      "minecraft:air"
+    ]
+  },
+  "maintenance": {
+    "position": [
+      -205,
+      70,
+      60
+    ],
+    "floor_feet_head": [
+      "minecraft:white_concrete",
+      "minecraft:air",
+      "minecraft:air"
+    ]
+  }
+}

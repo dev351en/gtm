@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "recorded_at_utc": "2026-11-24T22:00:51.035854+00:00",
+  "version": "1.0.2-r4-interactions-candidate",
+  "status": "current_interaction_candidate_assembled_and_preflight_passed; owner_eula_and_live_client_acceptance_outstanding",
+  "historical_checkpoint_report": "LAPTOP_BUNDLE_VALIDATION.json describes the 1.0.1 Reviewed checkpoint only; it is not evidence for the current archive.",
+  "fixture_suite": {
+    "command": "GTM_TEST_JAVAC=<Java25>/bin/javac python -m unittest discover -s tools -p test_laptop_bundle.py -v",
+    "tests_passed": 18,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_seconds": 5.171,
+    "log": "reports/LAPTOP_INTERACTIONS_FIXTURES.log",
+    "log_sha256": "1b141c15f830e6153e04b4fa8c8bac33e3a33eb170fdb81a15b4b9130bb87bbc",
+    "scope": "Offline input safety, stopped-copy preservation and actual Java launcher lifecycle with an explicitly fake server process; not Minecraft gameplay."
+  },
+  "target": {
+    "paper": "26.3",
+    "paper_build": 255,
+    "java": 25
+  },
+  "core_candidate": {
+    "filename": "SDCraftCore-1.0.2-r4-interactions-candidate.jar",
+    "bytes": 627146,
+    "sha256": "14231bdedace63be6f37a282c78d45afa39bd22e3beefbbd5810adfbc99afe78"
+  },
+  "staged_launcher_preflight": {
+    "status": "passed_owner_eula_pending",
+    "recorded_at_utc": "2026-11-24T22:00:16.152447+00:00",
+    "command": "java --add-modules jdk.httpserver -jar launcher/gtm-launcher.jar --check",
+    "duration_seconds": 1.323,
+    "exit_code": 2,
+    "stdout": "Preflight passed: Java 25, pinned files, city world, authentication policy, disk and ports.\nProfile: public_world_2026_11_23_fresh_accounts. External AI remains optional/off.\nMinecraft EULA: https://www.minecraft.net/en-us/eula\nFirst-start owner EULA acceptance is still required.\n",
+    "stderr": "",
+    "eula_after": "false",
+    "runtime_flags": {
+      "vehicles.enabled": false,
+      "vehicles.all-road-models": false,
+      "furniture.enabled": false
+    }
+  },
+  "archive_verification": "The completed ZIP CRC, file count, expanded size and archive SHA-256 are recorded in GTM_Laptop_Interactions_Candidate_26.3_RECEIPT.json, which is external to the archive to avoid a self-referential hash.",
+  "owner_eula_accepted_by_agent": false,
+  "paper_world_started": false,
+  "live_client_verified": false,
+  "native_runtime_defaults": {
+    "vehicles.enabled": false,
+    "vehicles.all-road-models": false,
+    "furniture.enabled": false
+  },
+  "world_provenance": "Pinned sanitized public city snapshot dated 2026-11-23; fresh accounts; not the current private Daytona save.",
+  "limits": [
+    "Native adapters remain gated pending their real server/client acceptance checks.",
+    "The master gameplay scope is incomplete.",
+    "Windows launcher execution and real Java/Bedrock sessions were not run."
+  ],
+  "assembly": {
+    "folder": "GTM_Laptop_Interactions_Candidate_26.3",
+    "archive_name": "GTM_Laptop_Interactions_Candidate_26.3.zip",
+    "profile": "public_world_2026_11_23_fresh_accounts",
+    "world": {
+      "folder": "world",
+      "source": "public_sanitized_snapshot_2026_11_23",
+      "latest_daytona_claim": false,
+      "source_zip_sha256": "214a00a08acdb5f73fea52ef79cdfdf773551086d31f5f95725f559ad0802dc2"
+    },
+    "authentication": {
+      "online_mode_preserved": "false",
+      "uuid_migration_performed": false,
+      "provider": "SDCraftCore built-in authentication"
+    },
+    "plugins": [
+      {
+        "filename": "Geyser-Spigot-2.12.1-b1308.jar",
+        "name": "Geyser-Spigot",
+        "version": "2.12.1-SNAPSHOT",
+        "depends": [],
+        "sha256": "8682df3e77fd4a7e745ed671fbbb727aca32a77d89c97a50f5f77f20fdb191fa",
+        "bytes": 52219447
+      },
+      {
+        "filename": "SDCraftCore-1.0.2-r4-interactions-candidate.jar",
+        "name": "SDCraftCore",
+        "version": "1.0.2-r4-interactions-candidate",
+        "depends": [],
+        "sha256": "14231bdedace63be6f37a282c78d45afa39bd22e3beefbbd5810adfbc99afe78",
+        "bytes": 627146
+      },
+      {
+        "filename": "VaultUnlocked-2.20.3.jar",
+        "name": "Vault",
+        "version": "2.20.3",
+        "depends": [],
+        "sha256": "fbc6651aca11e13376c115df66eeffa79592e79517be398299aa6beb49c22695",
+        "bytes": 134932
+      },
+      {
+        "filename": "floodgate-spigot-2.2.5-b141.jar",
+        "name": "floodgate",
+        "version": "2.2.5-SNAPSHOT (b141-81b65cc)",
+        "depends": [],
+        "sha256": "21570aff9ce17d6983928e8552777760e1ede5050026b04c686b0ae112e6fd7e",
+        "bytes": 11561096
+      }
+    ],
+    "resource_pack": {
+      "sha256": "6dd9b5cb653918956ed2b099f768b8bb91033c7d8ad0475606d77f6ba45d9334",
+      "sha1": "dfc13328983246e81d8f42afa835cbe989b3faf5",
+      "metadata": {
+        "pack": {
+          "description": "GTM Indraprastha128 | SD Craft | native128 city + preserved active pack",
+          "min_format": [
+            97,
+            1
+          ],
+          "max_format": [
+            97,
+            1
+          ]
+        },
+        "overlays": {
+          "entries": [
+            {
+              "directory": "20-3",
+              "formats": {
+                "min_inclusive": 22,
+                "max_inclusive": 999
+              },
+              "min_format": 22,
+              "max_format": 999
+            },
+            {
+              "directory": "21-2",
+              "formats": {
+                "min_inclusive": 42,
+                "max_inclusive": 999
+              },
+              "min_format": 42,
+              "max_format": 999
+            },
+            {
+              "directory": "21-5",
+              "formats": {
+                "min_inclusive": 55,
+                "max_inclusive": 999
+              },
+              "min_format": 55,
+              "max_format": 999
+            },
+            {
+              "directory": "21-6",
+              "formats": {
+                "min_inclusive": 63,
+                "max_inclusive": 999
+              },
+              "min_format": 63,
+              "max_format": 999
+            },
+            {
+              "directory": "26-1",
+              "formats": {
+                "min_inclusive": 84,
+                "max_inclusive": 999
+              },
+              "min_format": 84,
+              "max_format": 999
+            }
+          ]
+        }
+      }
+    },
+    "windows_java_bundled": true,
+    "official_minecraft_bootstrap_cached": true,
+    "crossplay": {
+      "geyser_included": true,
+      "bedrock_pack_included": true,
+      "mappings_included": true,
+      "client_verification": "not_run"
+    },
+    "build_report_sha256": "8f0c473ee1d04a579348621fdc95ffb4acd1a802f389eb9fc48d05e49ed187df",
+    "immutable_manifest_sha256": "44433b6939cfbfe146c630f1b3516e496098ea5515ef7450be62aabd322be5ab",
+    "staged_core_config_sha256": "d6cbe619b5639eb534783044e0f320854eefcecfac675cb605df67a20c7b172b"
+  }
+}

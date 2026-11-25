@@ -1,0 +1,99 @@
+{
+  "status": "FAIL",
+  "scenario": "PAID_CART_UNLOAD_CONTINUATION",
+  "continuation_prior_report_sha256": "97f7595211901877db55dc3ad4391b2f79be4547d130c1685a2f71a09f7098f5",
+  "continuation_initial_bank_cents": 49128,
+  "destination_prior_report_sha256": "01761e31e2d2f2454cf521d88ed49a8c6066013a193cda749b10bc2a8fd53562",
+  "prior_verified_moving_samples": 310,
+  "arrival_prior_report_sha256": "e4a48bfb2033489ce83a9e4cbda53f8d97583e72965ceebba164d14196dd03fa",
+  "prior_verified_stopped_repositions": 5,
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "started_epoch_ms": 1795571925201,
+  "expected_checks": 9,
+  "checks": [
+    {
+      "at": "2026-11-25T01:58:45.332868314Z",
+      "name": "Original paid loan, load, endpoint locks and exact balance reopen unchanged",
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS"
+    },
+    {
+      "at": "2026-11-25T01:58:45.952747821Z",
+      "name": "Actual retained cart arrival remains parked within ordinary unloading reach",
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS"
+    },
+    {
+      "at": "2026-11-25T01:58:46.081170910Z",
+      "name": "The physical cart reaches its real destination before any output",
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS"
+    },
+    {
+      "at": "2026-11-25T01:58:46.258889160Z",
+      "name": "Explicit physical unloading transfers the same purchased metadata once",
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS"
+    },
+    {
+      "at": "2026-11-25T01:58:46.482909401Z",
+      "name": "Released real destination holds exactly the original purchased stack",
+      "detail": "IllegalStateException: Completed cargo remains locked or source duplicated",
+      "result": "FAIL"
+    }
+  ],
+  "account": "GtmLaptopQA",
+  "initial_bank_cents": 50428,
+  "observed_bank_cents": 49128,
+  "expected_debit_cents": 1300,
+  "paid_furniture": [
+    {
+      "id": "c7cd86af-9ad4-4690-aa68-93024295dd6e",
+      "kind": "furniture",
+      "price_cents": 100,
+      "model": "gtm:clothes_valet",
+      "key": "source"
+    },
+    {
+      "id": "14e1c402-8dd7-4f53-8d36-e713fa98e254",
+      "kind": "furniture",
+      "price_cents": 100,
+      "model": "gtm:clothes_valet",
+      "key": "destination"
+    },
+    {
+      "id": "d149570d-dedf-4d2c-b612-9c0fe8228c1b",
+      "kind": "furniture",
+      "price_cents": 100,
+      "model": "gtm:shopping_cart_nest",
+      "key": "nest"
+    }
+  ],
+  "food_order": "ce135db3-f62b-4add-8581-6f0c5df82362",
+  "loan": "f09e7029-68a9-4290-9f35-9785f530633f",
+  "cargo_receipt": "5c37ff2d-08e1-4eb8-8bda-8a6f682fd597",
+  "motion": [],
+  "moving_samples": 0,
+  "travel_blocks": 0.0,
+  "max_step_blocks": 0.0,
+  "injected_input_events": 0,
+  "stopped_owner_repositions": 0,
+  "permissions_or_item_or_money_grants": false,
+  "world_fixture_writes": 0,
+  "paid_progress_retained": true,
+  "unexecuted_steps": [
+    "An unloaded cart still cannot return from far away",
+    "The same empty loan component is physically pushed back beside its nest",
+    "Physical unloaded return closes the original loan without a new entitlement",
+    "Returned loan and completed receipt remain closed across snapshot reopen"
+  ],
+  "scaffolding": [
+    "Normal menu and block-targeting event injection",
+    "PlayerInputEvent injection with actual server-tick cart/payload motion",
+    "Explicit production park before each bounded owner reposition",
+    "One actually paid food portion removed from player inventory before insertion into its actual opened owned barrel; no item factory or fabricated payload",
+    "Normal logout/login via the external protocol runner; no authentication reflection mutation",
+    "Read-only snapshot reopen; not a hard-power-loss proof"
+  ],
+  "native_java_bedrock_visual_qualified": false
+}

@@ -59,7 +59,7 @@ final class GtmProperties implements Listener {
         return ((Number)v).longValue();
     }
     private static int coord(Map<?,?> entry,String key){return Math.toIntExact(number(entry.get(key)));}
-    boolean available(Player p){return enabled&&p.hasPermission("gtm.properties")&&ledger.exists(p.getUniqueId());}
+    boolean available(Player p){return plugin.isAuthenticated(p)&&enabled&&p.hasPermission("gtm.properties")&&ledger.exists(p.getUniqueId());}
     private Definition at(Location l){
         if(!enabled||l==null||l.getWorld()==null)return null;
         for(Definition d:definitions)if(d.region().contains(l.getWorld().getName(),l.getX(),l.getY(),l.getZ()))return d;

@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "checks": 29,
+  "run": "/workspace/scratch/d7d343b39c16/integration-probe-r4/scenario-runs/20261125T013040288770Z",
+  "core_sha256": "f66438dce5698f926e644cb10ed5f08cd83182b704f2d34c665a3c6b8325dd9f",
+  "companion_sha256": "09ea709f36bb256489a7f9cdd1f1a19f574e99ea29dffaa936268b4eca64578f",
+  "report_sha256": "d2a98409756d0c11ebbd752c62f459e5cef80bc0f317c62cf44f956bae0daa1e",
+  "source_config_hashes": {
+    "plugins/GTMFurnitureAccessProbe-0.1-isolated.jar": "09ea709f36bb256489a7f9cdd1f1a19f574e99ea29dffaa936268b4eca64578f",
+    "plugins/SDCraftCore-1.0.3-r4-functional-candidate.jar": "f66438dce5698f926e644cb10ed5f08cd83182b704f2d34c665a3c6b8325dd9f",
+    "plugins/SDCraftCore/config.yml": "d30f3c27ab42634e7b9acb0ffcfe1732d4108772a9224db7fb3fce0de37e248f",
+    "plugins/GTMFurnitureAccessProbe/config.yml": "36c5f12f45c897ae64e179bb9ede1fe7e57278c7d299241c5c6043a2ca0bbc47"
+  },
+  "owner": "GtmQAR4",
+  "customer": "GtmMedicalQA",
+  "customer_is_op": false,
+  "bank_before": 100000,
+  "fare_cents": 100,
+  "parking_cents": 100,
+  "fixed_lease_ms": 180000,
+  "observed_after_lease_ms": 182448,
+  "restored_vehicle_poses": [
+    "57cb3c8a-4f6b-3d7f-b9ba-2d8674fa7af8",
+    "d36c9246-3201-331b-9229-86001d33c107"
+  ],
+  "vehicle_grants": 0,
+  "currency_grants": 0,
+  "permission_grants": [],
+  "fixture_remains": false,
+  "native_client": false,
+  "limitations": [
+    "Explicit staging owner with four supplied QA furniture entitlements; this test does not prove a shop purchase.",
+    "Normally authenticated non-OP paying customer; no customer permission, currency or vehicle grants.",
+    "Existing autos relocated only for inspected test setup, with exact original poses restored and current conditions retained.",
+    "Injected Paper menu and movement events; native sound/text/collision and actual inventory observed.",
+    "Actual real-clock expiry; no timestamp rewrite or private receipt reset.",
+    "Separate snapshots and player saves do not prove cross-file hard-crash atomicity."
+  ]
+}

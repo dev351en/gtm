@@ -1,0 +1,127 @@
+{
+  "java": "25.0.5.1",
+  "checks": [
+    {
+      "detail": "Actual Paper items, registered menu events and backing-block state; direct module controls/setup teleports are explicit test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:25.644501596Z",
+      "name": "Inspect and journal empty bounded power fixture before edits"
+    },
+    {
+      "detail": "Actual Paper items, registered menu events and backing-block state; direct module controls/setup teleports are explicit test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:25.728047053Z",
+      "name": "Place actual owned generator transformer light and two relay outputs"
+    },
+    {
+      "detail": "Actual Paper items, registered menu events and backing-block state; direct module controls/setup teleports are explicit test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:25.866581883Z",
+      "name": "Deferred fuel control rejects permission loss without consuming coal"
+    },
+    {
+      "detail": "Actual Paper items, registered menu events and backing-block state; direct module controls/setup teleports are explicit test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:26.184180127Z",
+      "name": "Remote and obstructed controls cannot consume real fuel"
+    },
+    {
+      "detail": "Actual Paper items, registered menu events and backing-block state; direct module controls/setup teleports are explicit test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:26.375524784Z",
+      "name": "One real coal is consumed and exactly forty energy units are credited"
+    },
+    {
+      "detail": "Actual Paper items, registered menu events and backing-block state; direct module controls/setup teleports are explicit test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:26.629735201Z",
+      "name": "Link owned outputs and start the actual generator transformer network"
+    },
+    {
+      "detail": "Actual Paper items, registered menu events and backing-block state; direct module controls/setup teleports are explicit test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:28.107592204Z",
+      "name": "Actual server ticks debit finite fuel while the linked outputs remain powered"
+    },
+    {
+      "detail": "Actual Paper items, registered menu events and backing-block state; direct module controls/setup teleports are explicit test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:28.368432064Z",
+      "name": "A real five-unit load trips the four-unit transformer and shuts its outputs"
+    },
+    {
+      "detail": "Actual Paper items, registered menu events and backing-block state; direct module controls/setup teleports are explicit test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:28.616332444Z",
+      "name": "Reducing the load and explicitly resetting restores actual distribution"
+    },
+    {
+      "detail": "Actual Paper items, registered menu events and backing-block state; direct module controls/setup teleports are explicit test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:34.107696842Z",
+      "name": "Insufficient remaining fuel stops the generator and every linked output"
+    },
+    {
+      "detail": "Actual Paper items, registered menu events and backing-block state; direct module controls/setup teleports are explicit test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:34.362096259Z",
+      "name": "A manual light switch cannot bypass its exhausted connected source"
+    },
+    {
+      "detail": "Actual Paper items, registered menu events and backing-block state; direct module controls/setup teleports are explicit test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:34.618797348Z",
+      "name": "New finite fuel restarts output and auth-loss cleanup stops it immediately"
+    },
+    {
+      "detail": "Actual Paper items, registered menu events and backing-block state; direct module controls/setup teleports are explicit test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:34.875443745Z",
+      "name": "Runtime permission revocation cuts output and refuses further fuel debit"
+    },
+    {
+      "detail": "Actual Paper items, registered menu events and backing-block state; direct module controls/setup teleports are explicit test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:35.123275317Z",
+      "name": "Removing a running owned generator immediately cuts its linked outputs"
+    },
+    {
+      "detail": "Actual Paper items, registered menu events and backing-block state; direct module controls/setup teleports are explicit test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:35.361218279Z",
+      "name": "Disconnecting an output restores manual control without a stale power override"
+    },
+    {
+      "detail": "Unplaced QA entitlements, links, finite remaining fuel and explicit supply receipts remain only in this disposable clone",
+      "result": "PASS",
+      "at": "2026-11-25T02:51:35.645626381Z",
+      "name": "Restore inspected blocks and QA inventory without erasing ownership or fuel receipts"
+    }
+  ],
+  "unexecuted_steps": [],
+  "classification": "Actual Paper finite-supply and output/cutoff probe; no native-client rendering, real power-loss atomicity or production qualification claimed",
+  "qa_furniture": [
+    "c0c77a64-b42e-42a9-a8da-b0bc3798da5b",
+    "bc4dd1d8-b39b-415c-978c-ab809060919f",
+    "a18f9186-c502-482e-b2a7-8d3830b5cfdc",
+    "973bf0b2-62e5-41c3-8a13-5ce92bbcbb77",
+    "ba51f59b-1f36-40ce-865c-5ac9d7463fc3"
+  ],
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "fixture_inspection": {
+    "allowed": true,
+    "bounds": [
+      5396,
+      219,
+      5396,
+      5425,
+      226,
+      5425
+    ],
+    "inspected_blocks": 5887,
+    "entities": 0,
+    "occupied": []
+  },
+  "status": "PASS",
+  "fixture_remains": false
+}

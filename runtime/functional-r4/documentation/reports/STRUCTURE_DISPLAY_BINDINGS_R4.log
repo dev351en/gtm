@@ -1,0 +1,15 @@
+test_hoist_parts_preserve_source_geometry_and_have_matching_physical_bounds (test_furniture_runtime_assets.RescueProjectionTests.test_hoist_parts_preserve_source_geometry_and_have_matching_physical_bounds) ... ok
+test_java_and_bedrock_world_projection_have_the_same_centered_extents (test_furniture_runtime_assets.RescueProjectionTests.test_java_and_bedrock_world_projection_have_the_same_centered_extents) ... ok
+test_only_existing_buoy_face_is_derived_and_all_texture_bytes_are_preserved (test_furniture_runtime_assets.RescueProjectionTests.test_only_existing_buoy_face_is_derived_and_all_texture_bytes_are_preserved) ... ok
+test_short_cart_retains_all_pixels_and_exact_reviewed_wheel_frame_transform (test_furniture_runtime_assets.RescueProjectionTests.test_short_cart_retains_all_pixels_and_exact_reviewed_wheel_frame_transform) ... ok
+test_both_platform_meshes_reconstruct_the_exact_same_physical_source_primitives (test_structure_runtime_assets.StructureRuntimeAssetsTest.test_both_platform_meshes_reconstruct_the_exact_same_physical_source_primitives) ... ok
+test_every_existing_uv_and_painted_pixel_is_preserved (test_structure_runtime_assets.StructureRuntimeAssetsTest.test_every_existing_uv_and_painted_pixel_is_preserved) ... ok
+test_every_structural_projection_has_a_real_bedrock_display_bridge (test_structure_runtime_assets.StructureRuntimeAssetsTest.test_every_structural_projection_has_a_real_bedrock_display_bridge) ... ok
+test_exact_allowlist_and_original_manifest_dimensions (test_structure_runtime_assets.StructureRuntimeAssetsTest.test_exact_allowlist_and_original_manifest_dimensions) ... ok
+test_rigid_parts_leave_hanging_decorations_rendered_but_nonblocking (test_structure_runtime_assets.StructureRuntimeAssetsTest.test_rigid_parts_leave_hanging_decorations_rendered_but_nonblocking) ... ok
+test_technical_parts_add_no_paid_entitlement_and_resource_matches (test_structure_runtime_assets.StructureRuntimeAssetsTest.test_technical_parts_add_no_paid_entitlement_and_resource_matches) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.798s
+
+OK

@@ -1,0 +1,251 @@
+{
+  "recorded_at_utc": "2026-11-24T21:28:02.973417+00:00",
+  "passed": true,
+  "base_commit": "80d13c22a27f7cca8bb5665ea0dda66819db980a",
+  "source_state": "working tree before final commit",
+  "source_tree_sha256": "31369fc1ce11467e62a622ed27f24cc1d767cfbf4cbddb52dca20ad1981104e9",
+  "toolchains": {
+    "jdk_release": "jdk-25.0.5.1+2",
+    "jdk_url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-jdk_x64_linux_hotspot_25.0.5.1_2.tar.gz",
+    "jdk_sha256": "760f91b22c3efc9bd1b64ff950598231be82928cc807e30691a0e7a2995a62c0",
+    "gradle_version": "9.2.1",
+    "gradle_url": "https://services.gradle.org/distributions/gradle-9.2.1-bin.zip",
+    "gradle_sha256": "72f44c9f8ebcb1af43838f45ee5c4aa9c5444898b3468ab3f4af7b6076c5bc3f",
+    "gradle_checksum_source": "https://gradle.org/release-checksums/"
+  },
+  "paper_api": {
+    "coordinate": "io.papermc.paper:paper-api:26.3.build.255-stable",
+    "sha256": "16d784a1b2a6a0be74479c761d9b5cbd7271ee1d8d5ff45f8060d0fa352f1d0b"
+  },
+  "paper_server": {
+    "filename": "paper-26.3-255.jar",
+    "sha256": "a7116085a8ba88cf00771d5e61a2925007942092650811da7327dc23243f0cec"
+  },
+  "vault": {
+    "filename": "VaultUnlocked-2.20.3.jar",
+    "sha256": "fbc6651aca11e13376c115df66eeffa79592e79517be398299aa6beb49c22695"
+  },
+  "junit": {
+    "tests": 136,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "suite_count": 21,
+  "suites": {
+    "Bilingual Dialogue & Intent Engine Unit Tests": {
+      "tests": 39,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "Restoration Engine & Firearms Unit Tests": {
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "com.sdcraft.core.MedicalSettlementTest": {
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "com.sdcraft.core.gtm.AuthenticationStoreTest": {
+      "tests": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "com.sdcraft.core.ItemDeliveryTest": {
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "com.sdcraft.core.GtmLedgerTest": {
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "com.sdcraft.core.CreativeArsenalAndHologramTest": {
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "Surface Spawn & GTA Starter Kit Policy Tests": {
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "com.sdcraft.core.NpcPopulationTest": {
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "com.sdcraft.core.GtmFoodLedgerTest": {
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "com.sdcraft.core.VaultWalletTest": {
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "com.sdcraft.core.FinishLedgerTest": {
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "Ledger Financial & Security Unit Tests": {
+      "tests": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "com.sdcraft.core.GtmAssetCatalogTest": {
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "com.sdcraft.core.MissionSettlementTest": {
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "com.sdcraft.core.gtm.RegionBoundsTest": {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "Policy Engine Deterministic Policy Tests": {
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "com.sdcraft.core.gtm.AuthenticationStateTest": {
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "com.sdcraft.core.AtomicYamlStoreTest": {
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "com.sdcraft.core.CityRosterTest": {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "com.sdcraft.core.MapAndGpsTest": {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "smoke_checks": {
+    "FoundationChecks": 36,
+    "CivicChecks": 78,
+    "InfrastructureChecks": 29,
+    "NearMissChecks": 12
+  },
+  "python_checks": {
+    "runtime_pack_tests": {
+      "tests": 10,
+      "failures": 0,
+      "skipped": 0
+    },
+    "laptop_bundle_tests": {
+      "tests": 18,
+      "failures": 0,
+      "skipped": 0
+    }
+  },
+  "candidate": {
+    "path": "source/build/libs/SDCraftCore-1.0.1-r4-candidate.jar",
+    "bytes": 413463,
+    "sha256": "857b71cb9eee7d4be58fbfc5995cdd6a8cca02c37aee12a7bc541fd542486892",
+    "classfile_major_versions": [
+      69
+    ],
+    "plugin_version": "1.0.1-r4-candidate",
+    "api_version": "26.3",
+    "zip_crc": "passed",
+    "embedded_catalogue": "matches_generated_resource"
+  },
+  "runtime_pack_report": {
+    "path": "build/runtime-packs/runtime-pack-validation.json",
+    "sha256": "1840ec83c5c58a3d5d8bd12b8e7fc6b3cc0ceb25a482ed0aad935bb0f6f884d8"
+  },
+  "runtime_pack_checks": {
+    "legacy_city_ids_resolved": 479,
+    "legacy_food_ids_resolved": 30,
+    "legacy_one_based_finish_ids_resolved": 300,
+    "native128_models_resolved": 1073,
+    "item_definitions_resolved": 1683,
+    "global_bedrock_identifiers": 1704,
+    "existing_custom_model_data_items_resolved": 21,
+    "native128_icons": 1103,
+    "legacy_compatibility_icons": 601,
+    "protected_active_java_files_unchanged": 1759,
+    "java_texture_face_references": 207383,
+    "bedrock_uv_rectangles": "finite_and_within_bound_atlas",
+    "multi_bone_and_inherited_mesh_counts": "matched",
+    "live_java_bedrock_clients": "not_run"
+  },
+  "packs": [
+    {
+      "file": "GTM_Runtime_128_Java.zip",
+      "sha256": "6dd9b5cb653918956ed2b099f768b8bb91033c7d8ad0475606d77f6ba45d9334",
+      "sha1": "dfc13328983246e81d8f42afa835cbe989b3faf5",
+      "size_bytes": 13449648,
+      "entries": 5934
+    },
+    {
+      "file": "GTM_Runtime_128_Bedrock.mcpack",
+      "sha256": "cee842bdbcacb03d3f45e7808febf1120cfd64ee50ca71725e92f10913ea0363",
+      "sha1": "bd35ae08ec20f1185ded7c7fdf3b0247b0fd6299",
+      "size_bytes": 8412504,
+      "entries": 5324
+    }
+  ],
+  "catalogue_entries": 1683,
+  "catalogue_provenance": {
+    "ALIAS_128": 30,
+    "LEGACY_COMPATIBILITY": 580,
+    "NATIVE_128": 1073
+  },
+  "catalogue_sha256": "3a3a62a08da805f0e4b3fbabe02b61b8b159aacc252548eb6449246bf2d004c0",
+  "mapping_sha256": "36d0893d4a86f3a61c2385d44b729a848cdaae9d28b83df69accee53e1a6f702",
+  "staff_decoration_count": 787,
+  "world_texture_count": 98,
+  "cancelled_death_event_api": "javap confirmed EntityDeathEvent implements Cancellable; PlayerDeathEvent inherits it; MedicalRecovery listener ignoreCancelled=true",
+  "commands": [
+    "gradle --no-daemon clean check jar",
+    "python tools/build_runtime_packs.py --output build/runtime-packs --check-resource",
+    "python -m unittest discover -s tools -p 'test_runtime_packs.py'",
+    "GTM_TEST_JAVAC=<verified-Java25-javac> python -m unittest discover -s tools -p test_laptop_bundle.py"
+  ],
+  "warnings": [
+    "GunEngine Sound.valueOf(String) deprecated for removal; build succeeds"
+  ],
+  "runtime_clients": "not_run",
+  "deployment": "not_performed"
+}

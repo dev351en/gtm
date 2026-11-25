@@ -1,0 +1,31 @@
+{
+  "profile": "INDRAPRASTHA_128_V1",
+  "status": "STATIC_DERIVATIVE_VERIFIED_NOT_NATIVE_CLIENT_QUALIFIED",
+  "bindings": [
+    {
+      "id": "gtm:fm_rescue_ring",
+      "parent_id": "gtm:coastal_lifebuoy_stand",
+      "source_parts": [
+        2,
+        3
+      ],
+      "cube_count": 2,
+      "geometry_identifier": "geometry.gtm.fm_rescue_ring",
+      "source_java_sha256": "3c3a6b985c67fb054acdc736e230229c8d287eda725575c82fc9b9c3755d14b1",
+      "source_geometry_sha256": "1dd3a26a036230df424297f5a58a5211f5b2b3c673c90951849d2a6325f81ec9",
+      "atlas_sha256": "9391b99dbecea0d2b469cd1486a343e85b2e21409854ad0ed8f4d9c05e19b5e6",
+      "icon_sha256": "4b1e71695e7af420d9cdd9b99a2207babc784df2c72f1dffba1ed4587732b75e",
+      "derivative": "Buoy face only, centered and laid flat; no post or base; unchanged native128 pixels",
+      "item_display_transform": "NONE",
+      "item_display_scale": [
+        1,
+        1,
+        1
+      ],
+      "item_display_y": "passenger feet +0.04",
+      "requires_display_compatibility_target": "gtm:fm_rescue_ring",
+      "canonical_entitlement_added": false,
+      "native_client_qualified": false
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "status": "PASS",
+  "actor": "GtmMedicalQA",
+  "actor_is_op": false,
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "java": "25.0.5.1",
+  "started_epoch_ms": 1795569445070,
+  "checks": [
+    {
+      "name": "Visible phone home control opens the actual hotbar menu",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:25.243924596Z"
+    },
+    {
+      "name": "All nine previews retain actual item data and select an existing slot",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:25.390095105Z"
+    },
+    {
+      "name": "Selecting changes the real held index without any serialized inventory delta",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:25.415509033Z"
+    },
+    {
+      "name": "A consumed hotbar menu cannot be replayed",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:25.481061848Z"
+    },
+    {
+      "name": "Actual PlayerItemHeldEvent cancellation prevents selection and item changes",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:25.550029807Z"
+    },
+    {
+      "name": "Current authorization is rechecked after the actual held event",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:25.661822688Z"
+    },
+    {
+      "name": "Queued selection refuses permission loss before its deferred callback",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:25.894108674Z"
+    },
+    {
+      "name": "Selected-slot artwork advances the real slot while original item bytes stay intact",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:25.993544247Z"
+    },
+    {
+      "name": "Motor Mile exposes the real reusable dashboard control",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:26.040990772Z"
+    },
+    {
+      "name": "Dashboard delivery creates a real contextual persistent MapView",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:26.370106351Z"
+    },
+    {
+      "name": "Dashboard refresh reuses the same map identity and preserves unrelated items",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:26.427615396Z"
+    },
+    {
+      "name": "Terrain and dashboard items share the actual contextual map without losing their distinct modes",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:26.556652700Z"
+    },
+    {
+      "name": "Saved circle and rectangle preferences change the actual 128-pixel terrain frame",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:26.744544599Z"
+    },
+    {
+      "name": "Restored map preference persists and an existing auto fixture is inspected before writes",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:26.982860256Z"
+    },
+    {
+      "name": "The original owned auto admits its authenticated real driver on supported ground",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:27.053481135Z"
+    },
+    {
+      "name": "Stationary dashboard reads the occupied auto before requesting client input",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:27.288950140Z"
+    },
+    {
+      "name": "Real client input and accepted motion change live telemetry, speed text and analog needle",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:27.787138410Z"
+    },
+    {
+      "name": "Released real input brakes the same auto while preserving its accepted movement",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:29.183497578Z"
+    },
+    {
+      "name": "Actual settings cycle renders DIGITAL from the same live vehicle source",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:29.534138159Z"
+    },
+    {
+      "name": "Actual settings cycle renders COMPACT from the same live vehicle source",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:29.883534766Z"
+    },
+    {
+      "name": "Actual settings cycle returns to ANALOG with three distinct 128-pixel layouts",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:30.241943495Z"
+    },
+    {
+      "name": "Leaving the auto removes current vehicle telemetry and the dashboard's active reading",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:30.585147846Z"
+    },
+    {
+      "name": "Existing ownership is unchanged and produced reusable maps remain real inventory items",
+      "result": "PASS",
+      "detail": "Actual Paper menus, inventory bytes, current session/permission gates, delivered maps, contextual server raster and accepted vehicle telemetry. Menu clicks are injected; vehicle input comes from the connected protocol actor, with no fabricated DriveData.",
+      "at": "2026-11-25T01:17:30.681211369Z"
+    },
+    {
+      "name": "Restore journal, preferences and original QA pose while preserving produced maps and consumed fuel",
+      "result": "PASS",
+      "detail": "No vehicle or item entitlement grant. The selected QA pose was explicitly restored after parking; real fuel consumption and distance remain. Reusable map outputs stay in the actor inventory. Temporary negative permission, held slot, preference, actor location and exact journaled floor are restored.",
+      "at": "2026-11-25T01:17:30.724275114Z"
+    }
+  ],
+  "unexecuted_steps": [],
+  "fixture_remains": false,
+  "inspection": {
+    "world": "33e148a5-e023-4d8b-8a87-9f045fa731c4",
+    "min_x": 5793,
+    "max_x": 5805,
+    "min_z": 5797,
+    "max_z": 5809,
+    "floor_y": 219,
+    "inspected_blocks": 845,
+    "air_floor_cells": 169,
+    "existing_vehicle": "57cb3c8a-4f6b-3d7f-b9ba-2d8674fa7af8",
+    "original_pose": {
+      "x": 5799.5,
+      "y": 220.015,
+      "z": 5803.939999999999,
+      "yaw": 90.0,
+      "energy": 20.0,
+      "distance": 0.0,
+      "condition": 100.0
+    }
+  },
+  "vehicle": "57cb3c8a-4f6b-3d7f-b9ba-2d8674fa7af8",
+  "vehicle_grants": 0,
+  "currency_grants": 0,
+  "permissions_granted_by_probe": [],
+  "temporary_denial": "gtm.phone=false only; restored after checks",
+  "injected_menu_clicks": 16,
+  "injected_player_input_events": 0,
+  "real_forward_input_observed": true,
+  "actual_held_events": 10,
+  "cancelled_held_events": 1,
+  "authorization_revocations_during_held_event": 1,
+  "idle_drive_data": {
+    "title": "Indra Auto CNG Passenger",
+    "mode": "ROAD",
+    "blocks_per_second": 0.0,
+    "energy_kind": "CNG",
+    "energy_percent": 100.0,
+    "condition": 100.0
+  },
+  "moving_drive_data": {
+    "title": "Indra Auto CNG Passenger",
+    "mode": "ROAD",
+    "blocks_per_second": 1.25,
+    "energy_kind": "CNG",
+    "energy_percent": 99.98890624999991,
+    "condition": 100.0
+  },
+  "motion": {
+    "observed_travel": 1.9115000000065265,
+    "moving_samples": 19,
+    "maximum_observed_speed": 1.25,
+    "maximum_two_tick_distance": 0.1937500000003638
+  },
+  "restored_existing_qa_vehicle_pose": true,
+  "kept_real_fuel_consumption_and_distance": true,
+  "rasters": {
+    "dashboard-no-active-vehicle": {
+      "path": "dashboard-no-active-vehicle.png",
+      "width": 128,
+      "height": 128,
+      "pixel_sha256": "a5924f34108309fe78ec6f931f4c64550a7b64a3e4d5c7f67a4d4e30329d1ec5",
+      "kind": "actual contextual server map raster; not a native client screenshot"
+    },
+    "terrain-circle": {
+      "path": "terrain-circle.png",
+      "width": 128,
+      "height": 128,
+      "pixel_sha256": "77df5d2ec64551041f3419c1a5f9f16f0bf71b2f3789757ee7ec73377a268d55",
+      "kind": "actual contextual server map raster; not a native client screenshot"
+    },
+    "terrain-rectangle": {
+      "path": "terrain-rectangle.png",
+      "width": 128,
+      "height": 128,
+      "pixel_sha256": "bd2a62b9d0638e5660710532ce132eefe7b3ecdb8752419564faea1a45c5783d",
+      "kind": "actual contextual server map raster; not a native client screenshot"
+    },
+    "dashboard-analog-stationary": {
+      "path": "dashboard-analog-stationary.png",
+      "width": 128,
+      "height": 128,
+      "pixel_sha256": "5204ebd10353b10e5a3929c25eb3407e2efaadb71bcc6e7f3b2414061df16b29",
+      "kind": "actual contextual server map raster; not a native client screenshot"
+    },
+    "dashboard-analog-moving": {
+      "path": "dashboard-analog-moving.png",
+      "width": 128,
+      "height": 128,
+      "pixel_sha256": "389efe140cc5ae9ceabe273a3be3f89e246771530420ed579ffeae709f269be8",
+      "kind": "actual contextual server map raster; not a native client screenshot"
+    },
+    "dashboard-digital": {
+      "path": "dashboard-digital.png",
+      "width": 128,
+      "height": 128,
+      "pixel_sha256": "8f6bde97ab7594bd15813721fe7a05cb26856310cc046bc64a44a33ae1ba6e9e",
+      "kind": "actual contextual server map raster; not a native client screenshot"
+    },
+    "dashboard-compact": {
+      "path": "dashboard-compact.png",
+      "width": 128,
+      "height": 128,
+      "pixel_sha256": "d3a9273854139ffefddfbe7c342609c100c8827609ec8c6ea42b81c7766ea466",
+      "kind": "actual contextual server map raster; not a native client screenshot"
+    },
+    "dashboard-analog-restored": {
+      "path": "dashboard-analog-restored.png",
+      "width": 128,
+      "height": 128,
+      "pixel_sha256": "5204ebd10353b10e5a3929c25eb3407e2efaadb71bcc6e7f3b2414061df16b29",
+      "kind": "actual contextual server map raster; not a native client screenshot"
+    },
+    "dashboard-after-park-no-active": {
+      "path": "dashboard-after-park-no-active.png",
+      "width": 128,
+      "height": 128,
+      "pixel_sha256": "0dce5a6df4a42e2270238441f61a84e55d50dd33bcbddd495343238d192050ba",
+      "kind": "actual contextual server map raster; not a native client screenshot"
+    }
+  },
+  "classification": "Actual server UI and contextual128 raster evidence; injected menu events, normally authenticated protocol actor and true current driving input. Existing QA vehicle and reversible inspected floor only. No native Java/Bedrock screenshot, fixed-screen anchor, Windows or crash qualification."
+}

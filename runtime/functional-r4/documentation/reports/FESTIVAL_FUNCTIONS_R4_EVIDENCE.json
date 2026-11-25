@@ -1,0 +1,331 @@
+{
+  "schema_version": 2,
+  "status": "ACTUAL_PAPER_PASS",
+  "expected_checks": 85,
+  "passed_checks": 85,
+  "failed_checks": 0,
+  "unexecuted_steps": [],
+  "run": "20261125T024626783921Z",
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "java": "25.0.5.1",
+  "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+  "final_source_snapshot_sha256": "8df6f572928534b3e857dde033acb0a5b0afe3680817950505d23e34b9fc3e06",
+  "final_core_gate": {
+    "junit_tests": 644,
+    "suites": 79,
+    "domain_assertions": 155,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "focused_gate": {
+    "tests": 167,
+    "suites": 18,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "scope": "Seasonal, cargo, cart, structural and backward-reader integration"
+  },
+  "report": "docs/reports/PAPER_FESTIVAL_FUNCTIONS_R4.json",
+  "report_sha256": "f58659ad78538e9c8a68acabf40b2294be9031b3e4c35cb4d34c56c00a6a871a",
+  "report_source": "integration-probe-r4/server-functional-test/plugins/GTMFestivalFunctionsProbe/report.json",
+  "input_hashes": "integration-probe-r4/scenario-runs/20261125T024626783921Z/input-hashes.json",
+  "input_hashes_sha256": "0e36b76fde60301607764fef5e007cabbcd55250a8f450654ef2602697196722",
+  "runtime_inputs": {
+    "plugins/GTMFestivalFunctionsProbe-0.1-isolated.jar": "0cb161da65697b6722caf0dbabb1bccb2a3087de67dbec1d64b55ea8eae232d4",
+    "plugins/SDCraftCore-1.0.3-r4-functional-candidate.jar": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+    "resourcepacks/GTM_Local_Java.zip": "5b5e132a2c670b07e8c0c389e086bd2dee1002ed7de72a6bdcd93acc6d6cba9a",
+    "plugins/Geyser-Spigot/packs/GTM_Runtime_128_Bedrock.mcpack": "d02cc8f41f6f97799dedab824b6fd23049c01556475e0031a50824543b507aab",
+    "server.properties": "eca294f56886847422995209b46db73b8676689671dceac83cf7eba78172ef8c",
+    "permissions.yml": "8c6884546b84fa30ca671da849d2f7ae169b2ae292441da88b83c791fc925bae",
+    "plugins/SDCraftCore/config.yml": "eba53a8e8b915da865d681e2f5d6f26720111539c70263dc5d78a72722b2a7c3",
+    "qa-java-only-preserved/exclusion.json": "2cd9e9a0fdf97f3699463282a83f1dacf22af708784830f567f4e5179ec2759c",
+    "plugins/GTMFestivalFunctionsProbe/config.yml": "1064e44b5e1b8fd94506c351d3a757ec4bdef095c85d3b5f08c9094a0811e270"
+  },
+  "java_only_gameplay_scope": {
+    "mode": "JAVA_ONLY_GAMEPLAY",
+    "server_root": "/workspace/scratch/d7d343b39c16/integration-probe-r4/server-functional-test",
+    "optional_plugins_admitted": [],
+    "preserved_original_plugin_sha256": {
+      "Geyser-Spigot-2.12.1-b1308.jar": "8682df3e77fd4a7e745ed671fbbb727aca32a77d89c97a50f5f77f20fdb191fa",
+      "floodgate-spigot-2.2.5-b141.jar": "21570aff9ce17d6983928e8552777760e1ede5050026b04c686b0ae112e6fd7e"
+    },
+    "exclusion_journal_sha256": "2cd9e9a0fdf97f3699463282a83f1dacf22af708784830f567f4e5179ec2759c",
+    "preservation_verified_at_preparation": true,
+    "warm_paper_main_used": false,
+    "discovery_warmup_used": false,
+    "via_bedrock_enabled": false,
+    "cached_dependency_files_verified": 105,
+    "normal_java_authentication_and_identity_rules_unchanged": true,
+    "crossplay_or_native_renderer_qualification": false
+  },
+  "companion": {
+    "source": "tools/probes/festival_functions",
+    "command": "gtmfestivalfunctionsprobe run",
+    "jar_sha256": "0cb161da65697b6722caf0dbabb1bccb2a3087de67dbec1d64b55ea8eae232d4",
+    "source_sha256": "53e71dac1eb707e0eaedcd622a8977411dc0b7dbb8035c46f9d6eff82a53d94d",
+    "automatic_run_on_enable": false,
+    "actor": "GtmQAR4",
+    "actor_is_op": true,
+    "qa_furniture_grants": {
+      "diwali_market_booth": "675fc05e-d400-3273-8d1f-56bbbf87162e",
+      "holi_market_booth": "df194f14-d25c-3b47-97d9-81f8cf4e6435",
+      "ganesh_market_booth": "7672083e-fc02-33b4-9ba7-b54adcbd2178",
+      "navratri_market_booth": "d614415b-ecfa-338a-9624-04411c4f529e",
+      "eid_market_booth": "b4ede69d-07c4-310d-a014-71fce853d2be",
+      "sankranti_market_booth": "91efd59d-8290-3412-8b45-11ced2fcff19",
+      "christmas_market_booth": "8c4292e7-c8ae-3628-b991-57f9fb71123d",
+      "new_year_market_booth": "14978c84-0690-3625-a45b-fb89503fa15e",
+      "street_market_tarp": "842d17e8-7909-365a-aeed-30baafc88bd1",
+      "christmas_candle_trio": "a88a0e77-6312-3c03-8e7b-42ff62e2d837",
+      "diwali_square_beacon": "9c45ae66-b76c-3789-b263-870461156134",
+      "holi_square_beacon": "ceedbb91-0fa5-398a-a0db-7111d664b819",
+      "ganesh_square_beacon": "8e6b252f-8f7d-3c45-8f5b-da2593393167",
+      "navratri_square_beacon": "a0ff9f0b-b8e2-3a08-b8b4-3e8822582386",
+      "new_year_countdown_clock": "6d771851-0525-3e78-9bbd-bef86c6acc1e",
+      "monsoon_coastal_weather_kiosk": "04138a09-5489-3016-8494-20a168c7e6e5"
+    },
+    "currency_grants": 0,
+    "food_stock_grants": 0,
+    "vehicle_grants": 0,
+    "permission_grants": [],
+    "temporary_negative_permissions": [
+      "gtm.furniture=false",
+      "gtm.food=false"
+    ],
+    "injected_menu_events": 29,
+    "reversible_fixture_blocks": true,
+    "bounded_actor_repositioning": true
+  },
+  "actual_models": [
+    "gtm:christmas_candle_trio",
+    "gtm:christmas_market_booth",
+    "gtm:diwali_market_booth",
+    "gtm:diwali_square_beacon",
+    "gtm:eid_market_booth",
+    "gtm:ganesh_market_booth",
+    "gtm:ganesh_square_beacon",
+    "gtm:holi_market_booth",
+    "gtm:holi_square_beacon",
+    "gtm:monsoon_coastal_weather_kiosk",
+    "gtm:navratri_market_booth",
+    "gtm:navratri_square_beacon",
+    "gtm:new_year_countdown_clock",
+    "gtm:new_year_market_booth",
+    "gtm:sankranti_market_booth",
+    "gtm:street_market_tarp"
+  ],
+  "paid_counter_effects": [
+    {
+      "asset": "gtm:diwali_market_booth",
+      "instance": "675fc05e-d400-3273-8d1f-56bbbf87162e",
+      "order": "fe28822f-f4d2-4229-8b1a-1a602baced13",
+      "price_cents": 1000,
+      "ready_at": 1795574856611,
+      "collected_at": 1795574857408,
+      "observed_elapsed_ms": 15800
+    },
+    {
+      "asset": "gtm:holi_market_booth",
+      "instance": "df194f14-d25c-3b47-97d9-81f8cf4e6435",
+      "order": "67e2ef73-ee28-4b95-8a4b-c6d5e0d6a880",
+      "price_cents": 1000,
+      "ready_at": 1795574875809,
+      "collected_at": 1795574876208,
+      "observed_elapsed_ms": 15401
+    },
+    {
+      "asset": "gtm:ganesh_market_booth",
+      "instance": "7672083e-fc02-33b4-9ba7-b54adcbd2178",
+      "order": "2e4f8b71-cdea-4cb0-b7c0-9daf7075b0f2",
+      "price_cents": 1000,
+      "ready_at": 1795574894609,
+      "collected_at": 1795574895008,
+      "observed_elapsed_ms": 15401
+    },
+    {
+      "asset": "gtm:navratri_market_booth",
+      "instance": "d614415b-ecfa-338a-9624-04411c4f529e",
+      "order": "8734ad34-33f3-4cfd-8ceb-8936959dc9e4",
+      "price_cents": 1000,
+      "ready_at": 1795574913409,
+      "collected_at": 1795574913808,
+      "observed_elapsed_ms": 15401
+    },
+    {
+      "asset": "gtm:eid_market_booth",
+      "instance": "b4ede69d-07c4-310d-a014-71fce853d2be",
+      "order": "c7300b9c-ae25-401a-a192-bfb79d016235",
+      "price_cents": 1000,
+      "ready_at": 1795574932209,
+      "collected_at": 1795574932608,
+      "observed_elapsed_ms": 15401
+    },
+    {
+      "asset": "gtm:sankranti_market_booth",
+      "instance": "91efd59d-8290-3412-8b45-11ced2fcff19",
+      "order": "64a1bb3c-4a16-45e8-99f0-0e0ce35eee01",
+      "price_cents": 1000,
+      "ready_at": 1795574951009,
+      "collected_at": 1795574951407,
+      "observed_elapsed_ms": 15400
+    },
+    {
+      "asset": "gtm:christmas_market_booth",
+      "instance": "8c4292e7-c8ae-3628-b991-57f9fb71123d",
+      "order": "1cb7568e-c1b7-4be2-a71b-6040cf8eeb66",
+      "price_cents": 1000,
+      "ready_at": 1795574969809,
+      "collected_at": 1795574970208,
+      "observed_elapsed_ms": 15401
+    },
+    {
+      "asset": "gtm:new_year_market_booth",
+      "instance": "14978c84-0690-3625-a45b-fb89503fa15e",
+      "order": "dff47585-eab1-4184-9c4d-f0373beab93d",
+      "price_cents": 1000,
+      "ready_at": 1795574988621,
+      "collected_at": 1795574989008,
+      "observed_elapsed_ms": 15399
+    },
+    {
+      "asset": "gtm:street_market_tarp",
+      "instance": "842d17e8-7909-365a-aeed-30baafc88bd1",
+      "order": "e57a19fe-0d2f-4b7b-9df1-844360dc1024",
+      "price_cents": 1000,
+      "ready_at": 1795575007410,
+      "collected_at": 1795575007808,
+      "observed_elapsed_ms": 15401
+    }
+  ],
+  "actual_light_effects": [
+    {
+      "asset": "gtm:christmas_candle_trio",
+      "instance": "a88a0e77-6312-3c03-8e7b-42ff62e2d837",
+      "original_level": 12,
+      "observed_on": 12,
+      "dimmed": 4,
+      "adjacent_dimmed": 3,
+      "off": 0
+    },
+    {
+      "asset": "gtm:diwali_square_beacon",
+      "instance": "9c45ae66-b76c-3789-b263-870461156134",
+      "original_level": 12,
+      "observed_on": 12,
+      "dimmed": 4,
+      "adjacent_dimmed": 3,
+      "off": 0
+    },
+    {
+      "asset": "gtm:holi_square_beacon",
+      "instance": "ceedbb91-0fa5-398a-a0db-7111d664b819",
+      "original_level": 12,
+      "observed_on": 12,
+      "dimmed": 4,
+      "adjacent_dimmed": 3,
+      "off": 0
+    },
+    {
+      "asset": "gtm:ganesh_square_beacon",
+      "instance": "8e6b252f-8f7d-3c45-8f5b-da2593393167",
+      "original_level": 12,
+      "observed_on": 12,
+      "dimmed": 4,
+      "adjacent_dimmed": 3,
+      "off": 0
+    },
+    {
+      "asset": "gtm:navratri_square_beacon",
+      "instance": "a0ff9f0b-b8e2-3a08-b8b4-3e8822582386",
+      "original_level": 12,
+      "observed_on": 12,
+      "dimmed": 4,
+      "adjacent_dimmed": 3,
+      "off": 0
+    }
+  ],
+  "actual_world_readouts": [
+    {
+      "kind": "countdown_initial",
+      "full_time": 17000,
+      "text": "Next game midnight in 01:00\nGame hours:minutes · world 23:00\nUses game time, not the real calendar"
+    },
+    {
+      "kind": "countdown_progress",
+      "full_time": 17040,
+      "text": "Next game midnight in 00:59\nGame hours:minutes · world 23:01\nUses game time, not the real calendar"
+    },
+    {
+      "kind": "game_midnight",
+      "full_time": 18000,
+      "text": "Game midnight now\nGame hours:minutes · world 00:00\nUses game time, not the real calendar"
+    },
+    {
+      "kind": "weather_clear",
+      "text": "Current world weather · 00:00\nRain: clear · thunder: off\nState timers: 1234 / 2345 game ticks\nWeather cycle: paused\nCurrent state only; not a forecast"
+    },
+    {
+      "kind": "weather_storm",
+      "text": "Current world weather · 00:00\nRain: active · thunder: active\nState timers: 3456 / 4567 game ticks\nWeather cycle: paused\nCurrent state only; not a forecast"
+    }
+  ],
+  "final_conservation_assertion": {
+    "check_name": "All eight booths and the authored tarp counter retain nine paid finite-stock receipts",
+    "result": "PASS",
+    "completed_meals": 9,
+    "bank_before_cents": 92000,
+    "actual_completed_charge_cents": 9000,
+    "asserted_final_bank_cents": 83000,
+    "finite_stock_before": 48,
+    "asserted_final_finite_stock": 39,
+    "pending_item_deliveries": 0,
+    "unconsumed_food_count": 0,
+    "basis": "The named passed production-state assertion checks the exact values; the raw report stores the initial amounts and successful charge total."
+  },
+  "cleanup": {
+    "fixture_remains": false,
+    "unexecuted_steps": [],
+    "scope": "Declared seasonal fixture, backing levels, current scenario actor inventory/flags and world weather/time only; successful paid charges and consumed stock retained.",
+    "original_state_sha256": "3b199bd0bc6ad1d8f3b36d9a2beef641e1103b6d6987aff1b194aeb8aefd1ab3",
+    "invulnerable_and_sneaking_recorded_before_mutation": true,
+    "qa_entitlements_remaining": "Sixteen supplied reusable unplaced identities only in this disposable test copy.",
+    "unrelated_interrupted_copy_changed": false
+  },
+  "historical_interruption": {
+    "report": "docs/reports/PAPER_FESTIVAL_FUNCTIONS_INTERRUPTED_80_R4.json",
+    "sha256": "48971eb8b27ef5339ac4a06a6b792c0649afb054b0913c00c7f3a1ecd450f57d",
+    "status": "RUNNING",
+    "passing_observations": 80,
+    "completed_pass": false,
+    "core_sha256": "fd4ec8b7ffd59e381693c255fdad3fd37f9010256d5d13b5814dc28af193a15b",
+    "reason": "Automatic review interrupted optional dependency telemetry before the last collection/consumption/conservation/cleanup checks.",
+    "recovery": "Original complete copy and pending state retained unchanged; this full run used a separate verified clean baseline."
+  },
+  "source_sha256": {
+    "source/src/main/java/com/sdcraft/core/GtmFurniture.java": "78b340939d27fce43faef6b281e30cdd236c74bda3dc154420970a8fea5cb8b8",
+    "source/src/main/java/com/sdcraft/core/GtmFood.java": "ec144895162c0082ac325608bc971c944a8cdafc9f18c7f09e528f9f6d9bc04e",
+    "source/src/main/java/com/sdcraft/core/GtmFurnitureStructures.java": "3c4dd5114a56cfbea943e8567256075ebfce8371a410b04e9a24c0188673345c",
+    "source/src/main/java/com/sdcraft/core/furniture/FurnitureSeasonalRules.java": "ee142ab9d2e23ba34651886ceaebd56c5daf1cc661b68b4e4b72a002f86f94c5",
+    "source/src/main/java/com/sdcraft/core/furniture/FurnitureCatalog.java": "25b14a55aefa10458ac9e29667657c4b9600c708d73415265c1393eaf4857fee",
+    "source/src/main/java/com/sdcraft/core/furniture/FurnitureStore.java": "1fd2797e3de8f133b9245abc4437155e82f57b4ecbcdd60464e4eb6e3c36dd1a",
+    "source/src/main/resources/furniture/capabilities.tsv": "d64d339e68712462749625f41347ddc2ff7f4213918bf41fdf2a17dc1fee90a5",
+    "source/src/main/resources/furniture/extensions.tsv": "812a7d20e1a5d35f4966a87f6d8ba5c2703bff408c41034460338a72435800eb",
+    "tools/build_furniture_runtime_profiles.py": "967ca38c49b3bc3f9b31a5cf1576252cd8acddc9e2f5c1200633758bd02bb665",
+    "tools/build_placeable_extensions.py": "a11549863abbad2ca80c1fee8409ccbd069a0a7c37c0be3a86651b28fc5c15df",
+    "tools/probes/festival_functions/src/main/java/qa/gtm/GtmFestivalFunctionsProbe.java": "53e71dac1eb707e0eaedcd622a8977411dc0b7dbb8035c46f9d6eff82a53d94d",
+    "tools/probes/festival_functions/src/main/resources/config.yml": "adb7ea1e17fbf44d2660a35a084d167859bfece4359b1a3dee6767c56079c33e",
+    "tools/probes/festival_functions/src/main/resources/plugin.yml": "96f3af01c32b4b4762148ea97a680fac92e6f3fd86128a4124a6d3ee6542a10f"
+  },
+  "native_java_bedrock_rendering_qualified": false,
+  "crossplay_qualified_by_this_run": false,
+  "windows_qualified": false,
+  "hard_power_loss_qualified": false,
+  "limitations": [
+    "The normally authenticated actor is an existing staging operator; sixteen QA furniture entitlements and reversible air-only support/light blocks were supplied explicitly.",
+    "Food was paid from existing funds and finite stock, waited actual preparation time, and consumed through actual Paper item-use ticks. No food, money, stock, vehicle or positive permissions were supplied.",
+    "Normal event injection and actor repositioning are declared scaffolding; these are actual Java server effects, not native client screenshots or mouse-control qualification.",
+    "The Bedrock pack digest records installed input only. Optional Geyser/Floodgate JARs were preserved outside plugin discovery; this run does not qualify Bedrock connectivity.",
+    "Calendar holidays, real-world forecasts, public-market commissioning, precipitation shielding and cross-file hard-crash atomicity are not claimed."
+  ]
+}

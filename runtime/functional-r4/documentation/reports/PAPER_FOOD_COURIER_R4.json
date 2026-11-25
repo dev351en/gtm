@@ -1,0 +1,4376 @@
+{
+  "status": "PASS",
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "java": "25.0.5.1",
+  "started_epoch_ms": 1795571190528,
+  "test_account": "GtmQAR4",
+  "checks": [
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Inspect empty fixture and persist its block rollback journal",
+      "at": "2026-11-25T01:46:30.547738651Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Create isolated road platform and actual commissioned counter location",
+      "at": "2026-11-25T01:46:30.575602010Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "All30 food masters produce real native model and edible components",
+      "at": "2026-11-25T01:46:30.737554862Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Counter checkout uses the real deferred inventory callback",
+      "at": "2026-11-25T01:46:30.781795587Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Paid counter receipt debits once and refuses premature collection",
+      "at": "2026-11-25T01:46:30.863471419Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Ready counter handoff enters the existing durable item outbox",
+      "at": "2026-11-25T01:46:46.865701184Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Counter delivery produces one native solid meal then starts actual item use",
+      "at": "2026-11-25T01:46:46.964097454Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Actual Paper item-use ticks consume the solid meal and restore hunger",
+      "at": "2026-11-25T01:46:49.963068681Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Owned food machine commissions a usable service without either fixed counter",
+      "at": "2026-11-25T01:46:50.086975442Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Machine checkout pays through the same reviewed food callback",
+      "at": "2026-11-25T01:46:50.162207509Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Machine order debits once and keeps its actual preparation time",
+      "at": "2026-11-25T01:46:50.262460487Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Remote machine collection is refused after preparation",
+      "at": "2026-11-25T01:47:06.262945665Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "A real intervening wall blocks machine handoff",
+      "at": "2026-11-25T01:47:06.367340480Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Removing the obstruction allows collection beside the same owned machine",
+      "at": "2026-11-25T01:47:06.469209262Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Machine delivers one real paid drink with no remaining item receipt",
+      "at": "2026-11-25T01:47:06.564067826Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Actual machine drink consumption restores hunger and the counter fixture is restored",
+      "at": "2026-11-25T01:47:09.571791520Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Explicit QA scooter grant parks on measured support and opts into courier fleet",
+      "at": "2026-11-25T01:47:09.685099717Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Courier review exposes the measured stop and explicit delivery fee",
+      "at": "2026-11-25T01:47:09.769128354Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "First courier checkout commits its paid route and reservation",
+      "at": "2026-11-25T01:47:09.864275547Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Disabling courier dispatch still permits review and a full refund",
+      "at": "2026-11-25T01:47:09.964859111Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Courier refund restores money once and releases the actual scooter",
+      "at": "2026-11-25T01:47:10.069787755Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Second courier order pays through the normal reviewed menu",
+      "at": "2026-11-25T01:47:10.162336172Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Observe real preparation and bounded NPC scooter movement",
+      "at": "2026-11-25T01:47:10.262606579Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Arrived NPC has traversed the road while food remains uncollected",
+      "at": "2026-11-25T01:47:36.269268962Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Actual arrived NPC interaction performs owner-only physical handoff",
+      "at": "2026-11-25T01:47:36.407521437Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Handoff has one delivery receipt, no refund, and a released fleet lease",
+      "at": "2026-11-25T01:47:36.464628493Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API and tick behavior; inventory/entity actions are injected server events, not native-client interaction certification.",
+      "name": "Actual Paper drink use consumes courier food with its own nutrition",
+      "at": "2026-11-25T01:47:39.463128472Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Explicit QA scooter ownership, one unplaced QA machine entitlement, immutable fixture route and paid/refund audit receipts remain only in the disposable clone. No currency is granted by cleanup.",
+      "name": "Restore inspected blocks, counter sites, QA inventory and hunger",
+      "at": "2026-11-25T01:47:39.598687585Z",
+      "result": "PASS"
+    }
+  ],
+  "unexecuted_steps": [],
+  "fixture_inspection": {
+    "entities": 0,
+    "inspected_blocks": 3003,
+    "occupied_samples": [],
+    "allowed": true,
+    "bounds": [
+      5196,
+      219,
+      5196,
+      5209,
+      226,
+      5229
+    ],
+    "explicitly_loaded_chunks": [
+      "324,324",
+      "324,325",
+      "324,326",
+      "325,324",
+      "325,325",
+      "325,326"
+    ]
+  },
+  "fixture_remains": false,
+  "qa_scooter": "305987c1-3a38-414c-ae5d-845d4737ae9b",
+  "qa_food_machine": "d02b1c87-8280-34a4-b336-c0162cfc21dc",
+  "qa_route": "qa_food_742ef15fa1d8449ebd83f30021b0bbc2",
+  "food_orders": [
+    "08c2d2e2-67c7-4eca-b939-563656430b56",
+    "db5170a2-2d8f-482d-81ed-05f19720884d",
+    "3d1a9d40-b6b4-484d-ac0a-30ad1604f892",
+    "0abe3def-38fb-4d1d-924a-d9afea2b26c0"
+  ],
+  "motion": [
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RESERVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5,
+      "energy": 100.0,
+      "progress": 0.0,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.5075,
+      "energy": 99.9997625,
+      "progress": 0.007499999999708962,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.522499996601,
+      "energy": 99.99941249978302,
+      "progress": 0.02249999660125468,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.544999983007,
+      "energy": 99.99894999892462,
+      "progress": 0.04499998300707375,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.574999949023,
+      "energy": 99.99837499679299,
+      "progress": 0.07499994902264007,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.612499881054,
+      "energy": 99.99768749254885,
+      "progress": 0.11249988105373632,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.657499762108,
+      "energy": 99.99688748514556,
+      "progress": 0.157499762108273,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.709999571796,
+      "energy": 99.99597497332904,
+      "progress": 0.20999957179628836,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.769999286328,
+      "energy": 99.99494995563776,
+      "progress": 0.26999928632812953,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.837498878516,
+      "energy": 99.99381243040284,
+      "progress": 0.33749887851627136,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.912498317775,
+      "energy": 99.99256239574798,
+      "progress": 0.41249831777531654,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5200.994997570121,
+      "energy": 99.99119984958949,
+      "progress": 0.49499757012108603,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5201.084996598171,
+      "energy": 99.98972478963624,
+      "progress": 0.5849965981706191,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5201.182495361144,
+      "energy": 99.98813721338978,
+      "progress": 0.6824953611439923,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5201.287493814862,
+      "energy": 99.98643711814424,
+      "progress": 0.7874938148615911,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5201.399991911746,
+      "energy": 99.98462450098641,
+      "progress": 0.8999919117459285,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5201.519989600822,
+      "energy": 99.98269935879567,
+      "progress": 1.0199896008216456,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5201.647486827715,
+      "energy": 99.98066168824407,
+      "progress": 1.1474868277146015,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5201.782483534653,
+      "energy": 99.97851148579633,
+      "progress": 1.2824835346527834,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5201.924979660465,
+      "energy": 99.9762487477098,
+      "progress": 1.4249796604653966,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5202.074975140584,
+      "energy": 99.97387347003455,
+      "progress": 1.5749751405837742,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5202.232469907042,
+      "energy": 99.97138564861325,
+      "progress": 1.7324699070422866,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5202.397463888475,
+      "energy": 99.96878527908135,
+      "progress": 1.8974638884747037,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5202.569957010119,
+      "energy": 99.96607235686696,
+      "progress": 2.069957010118742,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5202.749949193813,
+      "energy": 99.9632468771909,
+      "progress": 2.249949193813336,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5202.9374403580005,
+      "energy": 99.96030883506674,
+      "progress": 2.437440358000458,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5203.132430417722,
+      "energy": 99.95725822530082,
+      "progress": 2.6324304177223894,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5203.322920477444,
+      "energy": 99.95427507296597,
+      "progress": 2.8229204774443133,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5203.52090925803,
+      "energy": 99.95117934940984,
+      "progress": 3.02090925802986,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5203.714398038615,
+      "energy": 99.94815108411892,
+      "progress": 3.2143980386154,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5203.903386819201,
+      "energy": 99.94519028118141,
+      "progress": 3.4033868192009322,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5204.099874057627,
+      "energy": 99.9421169051957,
+      "progress": 3.5998740576269483,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5204.291861296053,
+      "energy": 99.93911099239078,
+      "progress": 3.791861296052957,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5204.491346816292,
+      "energy": 99.93599250293116,
+      "progress": 3.9913468162922072,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5204.686332336531,
+      "energy": 99.9329414774936,
+      "progress": 4.18633233653145,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5204.876817856771,
+      "energy": 99.92995792019725,
+      "progress": 4.3768178567706855,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5205.074801393764,
+      "energy": 99.92686178440621,
+      "progress": 4.574801393763664,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5205.268284930757,
+      "energy": 99.92383311759092,
+      "progress": 4.768284930756636,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5205.4572684677505,
+      "energy": 99.92087192383946,
+      "progress": 4.9572684677505094,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5205.653749758481,
+      "energy": 99.91779814976809,
+      "progress": 5.153749758481354,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5205.845731049212,
+      "energy": 99.91479184958834,
+      "progress": 5.3457310492121906,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5206.045209917659,
+      "energy": 99.91167296548355,
+      "progress": 5.545209917659122,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5206.240188786106,
+      "energy": 99.90862155611205,
+      "progress": 5.740188786106046,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5206.430667654553,
+      "energy": 99.90563762559287,
+      "progress": 5.930667654552963,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5206.628643835666,
+      "energy": 99.9025411093104,
+      "progress": 6.128643835665571,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5206.822120016778,
+      "energy": 99.8995120727152,
+      "progress": 6.322120016778172,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5207.011096197891,
+      "energy": 99.89655051989516,
+      "progress": 6.511096197890765,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5207.207569428663,
+      "energy": 99.89347637948836,
+      "progress": 6.7075694286631915,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5207.399542659436,
+      "energy": 99.89046972368492,
+      "progress": 6.89954265943561,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5207.599012763852,
+      "energy": 99.887350476691,
+      "progress": 7.099012763852443,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5207.793982868269,
+      "energy": 99.8842987151425,
+      "progress": 7.293982868269268,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5207.984452972686,
+      "energy": 99.8813144431583,
+      "progress": 7.484452972686086,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5208.182419685711,
+      "energy": 99.87821757814709,
+      "progress": 7.682419685710556,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5208.375886398735,
+      "energy": 99.87518820353549,
+      "progress": 7.87588639873502,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5208.5648531117595,
+      "energy": 99.87222632341121,
+      "progress": 8.064853111759476,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5208.761316170398,
+      "energy": 99.86915184843825,
+      "progress": 8.26131617039755,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5208.953279229036,
+      "energy": 99.86614486878122,
+      "progress": 8.453279229035616,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5209.152738457281,
+      "energy": 99.86302529067318,
+      "progress": 8.652738457280975,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5209.347697685526,
+      "energy": 99.85997320872352,
+      "progress": 8.847697685526327,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5209.538156913772,
+      "energy": 99.85698862705085,
+      "progress": 9.038156913771672,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5209.736112046603,
+      "energy": 99.85389144509249,
+      "progress": 9.236112046603012,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5209.929567179434,
+      "energy": 99.85086176424677,
+      "progress": 9.429567179434343,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5210.118522312266,
+      "energy": 99.84789958860127,
+      "progress": 9.618522312265668,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5210.3149730867035,
+      "energy": 99.84482481085017,
+      "progress": 9.814973086703503,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5210.506923861141,
+      "energy": 99.8418175391282,
+      "progress": 10.006923861141331,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5210.706370101192,
+      "energy": 99.83869766169981,
+      "progress": 10.206370101192078,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5210.901316341243,
+      "energy": 99.83564529114336,
+      "progress": 10.401316341242818,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5211.091762581294,
+      "energy": 99.83266043157725,
+      "progress": 10.591762581293551,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5211.289704021951,
+      "energy": 99.8295629644718,
+      "progress": 10.789704021951366,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5211.483145462609,
+      "energy": 99.82653300919274,
+      "progress": 10.983145462609173,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5211.672086903267,
+      "energy": 99.82357056982727,
+      "progress": 11.172086903266973,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5211.868523281573,
+      "energy": 99.82049552110436,
+      "progress": 11.368523281573289,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5212.06045965988,
+      "energy": 99.81748798912436,
+      "progress": 11.560459659879598,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5212.259890799853,
+      "energy": 99.81436784418764,
+      "progress": 11.759890799852656,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5212.454821939826,
+      "energy": 99.81131521683704,
+      "progress": 11.954821939825706,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5212.645253079799,
+      "energy": 99.80833011119057,
+      "progress": 12.14525307979875,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5212.843178716454,
+      "energy": 99.8052323907563,
+      "progress": 12.343178716453622,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5213.0366043531085,
+      "energy": 99.8022021928626,
+      "progress": 12.536604353108487,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5213.225529989763,
+      "energy": 99.79923952159636,
+      "progress": 12.725529989763345,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5213.421949860162,
+      "energy": 99.79616423372603,
+      "progress": 12.921949860162385,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5213.613869730561,
+      "energy": 99.79315647331283,
+      "progress": 13.113869730561419,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5213.813283658738,
+      "energy": 99.7900360926978,
+      "progress": 13.313283658738328,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5214.008197586915,
+      "energy": 99.78698324038346,
+      "progress": 13.50819758691523,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5214.198611515092,
+      "energy": 99.78399792048748,
+      "progress": 13.698611515092125,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5214.396519236086,
+      "energy": 99.78089997856046,
+      "progress": 13.896519236085624,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5214.589926957079,
+      "energy": 99.77786956988857,
+      "progress": 14.089926957079115,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5214.778834678073,
+      "energy": 99.77490669855834,
+      "progress": 14.278834678072599,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5214.97523592897,
+      "energy": 99.77183120338262,
+      "progress": 14.475235928969596,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5215.167137179867,
+      "energy": 99.76882324637856,
+      "progress": 14.667137179866586,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5215.366531784717,
+      "energy": 99.76570266193285,
+      "progress": 14.866531784717154,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5215.561426389568,
+      "energy": 99.76264961650273,
+      "progress": 15.061426389567714,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5215.751820994418,
+      "energy": 99.75966411420545,
+      "progress": 15.251820994418267,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5215.9497086882875,
+      "energy": 99.75656598263917,
+      "progress": 15.449708688287501,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5216.143096382157,
+      "energy": 99.75353539504287,
+      "progress": 15.643096382156727,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5216.331984076026,
+      "energy": 99.75057235550268,
+      "progress": 15.831984076025947,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5216.528364596027,
+      "energy": 99.74749668488091,
+      "progress": 16.02836459602713,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5216.720245116028,
+      "energy": 99.74448856314554,
+      "progress": 16.22024511602831,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5216.919618286231,
+      "energy": 99.74136780673408,
+      "progress": 16.419618286230616,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5217.114491456433,
+      "energy": 99.7383146000533,
+      "progress": 16.614491456432916,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5217.304864626635,
+      "energy": 99.73532894722001,
+      "progress": 16.804864626635208,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5217.502730182134,
+      "energy": 99.73223065788514,
+      "progress": 17.002730182133746,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5217.696095737632,
+      "energy": 99.72919992323526,
+      "progress": 17.196095737632277,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5217.884961293131,
+      "energy": 99.72623674735598,
+      "progress": 17.3849612931308,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5218.081318971069,
+      "energy": 99.7231609331644,
+      "progress": 17.581318971068868,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5218.273176649007,
+      "energy": 99.72015267857411,
+      "progress": 17.773176649006928,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5218.472526273474,
+      "energy": 99.71703178207869,
+      "progress": 17.972526273473704,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5218.6673758979405,
+      "energy": 99.71397844602915,
+      "progress": 18.167375897940474,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5218.857725522407,
+      "energy": 99.7109926745418,
+      "progress": 18.357725522407236,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5219.05556682853,
+      "energy": 99.70789425932576,
+      "progress": 18.555566828529663,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5219.248908134652,
+      "energy": 99.7048634095097,
+      "progress": 18.748908134652083,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5219.4377494407745,
+      "energy": 99.70190012917877,
+      "progress": 18.937749440774496,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5219.6340821657295,
+      "energy": 99.69882420331031,
+      "progress": 19.134082165729524,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5219.8259148906845,
+      "energy": 99.69581584775796,
+      "progress": 19.325914890684544,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5220.025238858584,
+      "energy": 99.69269484307699,
+      "progress": 19.52523885858409,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5220.220062826484,
+      "energy": 99.68964140955704,
+      "progress": 19.720062826483627,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5220.410386794383,
+      "energy": 99.68665555131389,
+      "progress": 19.910386794383157,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5220.608201740389,
+      "energy": 99.68355704212047,
+      "progress": 20.108201740388722,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5220.801516686394,
+      "energy": 99.68052610904196,
+      "progress": 20.30151668639428,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5220.9903316324,
+      "energy": 99.677562756163,
+      "progress": 20.49033163239983,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5221.186637293724,
+      "energy": 99.67448675052681,
+      "progress": 20.686637293723834,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5221.378442955048,
+      "energy": 99.67147832592144,
+      "progress": 20.87844295504783,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5221.577739155828,
+      "energy": 99.6683572449695,
+      "progress": 21.077739155827658,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5221.754564601971,
+      "energy": 99.66557388722438,
+      "progress": 21.254564601970742,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5221.908919538822,
+      "energy": 99.66312826831071,
+      "progress": 21.408919538822374,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.0408041805495,
+      "energy": 99.66102040200194,
+      "progress": 21.540804180549458,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.150218710142,
+      "energy": 99.65925030022055,
+      "progress": 21.650218710142326,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.237163279414,
+      "energy": 99.65781797303823,
+      "progress": 21.737163279413835,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.301638008999,
+      "energy": 99.6567234286758,
+      "progress": 21.80163800899936,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.343642988358,
+      "energy": 99.65596667350336,
+      "progress": 21.843642988357715,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "RUNNING"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    },
+    {
+      "x": 5202.5,
+      "y": 220.015,
+      "z": 5222.36317827577,
+      "energy": 99.65554771204037,
+      "progress": 21.863178275770224,
+      "status": "ARRIVED"
+    }
+  ],
+  "travelled_blocks": 21.863178275770224,
+  "moving_samples": 129,
+  "maximum_observed_tick_step": 0.19948552023925004,
+  "classification": "Actual Paper server API and tick simulation with a normally authenticated protocol player. No native Java/Bedrock visual or full-world qualification is implied."
+}
