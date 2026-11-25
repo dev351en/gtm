@@ -12,7 +12,21 @@ This branch replaces the Fabric-required four-corner phone/HUD path with the exi
 
 ## Installation contract
 
-Update the **server** after a stopped-server, backed-up staging rehearsal. Java players join with their standard Minecraft installation; Bedrock/mobile players use the compatible Geyser/Floodgate bridge. Bedrock pack delivery and Java pack delivery must be validated separately. No player installs a Fabric, Forge or NeoForge mod.
+Update the **server** after a stopped-server, backed-up staging rehearsal. This is a separate server-only **1.0.6 candidate**; do not install the older 1.0.5 ZIP in its place. Java players join with their standard Minecraft installation; Bedrock/mobile players use the compatible Geyser/Floodgate bridge.
+
+1. Extract `GTM_Server_Only_Crossplay_1.0.6.zip` into a new folder. Keep the extracted files and subfolders together.
+2. Stop Paper and the launcher completely. Preserve your latest world and player-data backup.
+3. From inside the extracted folder, point the updater to the *existing server root*, which already contains `server.properties` and `world`:
+
+   **Windows:** `Update-GTM.bat "C:\\path\\to\\your\\GTM-server"`
+
+   **Linux/macOS:** `sh Update-GTM.sh /path/to/your/GTM-server`
+
+4. On an **existing Geyser/Floodgate server**, append `--bedrock` to update the Bedrock asset pack and custom mappings. This does not install Geyser or Floodgate where they are absent.
+5. Start Paper and join as an ordinary player. Test the vanilla inventory phone using `/phone`; you do not need Fabric, any client JAR or a modded launcher.
+6. Save the updater's backup ID. To roll back after stopping Paper, run the same updater with `--rollback BACKUP_ID`.
+
+**Daytona and the production world are not changed by a GitHub PR, release asset or download.** Do not deploy this candidate there until crossplay staging passes. Bedrock pack delivery and Java pack delivery must be validated separately. No player installs a Fabric, Forge or NeoForge mod.
 
 Use `/phone` to open the menu. Select an app using the normal inventory controls. To get a terrain map, choose Maps in the phone; for the auto, use normal use/boarding controls and the existing `/car` menu. Server HUD data uses supported scoreboard/actionbar elements.
 
