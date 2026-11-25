@@ -53,14 +53,6 @@ def check(java_path: Path, bedrock_path: Path, mapping_path: Path) -> dict:
                 for tex in record.get("textures", {}).values():
                     if tex + ".png" not in bedrock_files:
                         errors.append("Missing attachable PNG: " + ident + " -> " + tex)
-                for geo in record.get("geometry", {}).values():
-                    if geo not in geometry and not any(
-                        geo in json.loads(bedrock.read(f)).get("geometry", {})
-                        for f in []
-                    ):
-                        # Geometry table is built in the same unordered set iteration.
-                        # Resolve this reference after all geometry files were indexed.
-                        pass
 
         for ident, record in attachables.items():
             for geo in record.get("geometry", {}).values():
