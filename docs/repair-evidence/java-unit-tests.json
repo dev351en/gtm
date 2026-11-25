@@ -1,0 +1,30 @@
+{
+  "scope": "Maintained overlay with final traditional-auto profile:53JUnit tests, original catalogue compatibility and exact two-call-site bytecode patch. Not a rebuild of missing original1.0.3 source.",
+  "java": "25.0.5.1",
+  "test_suites": [
+    {
+      "name": "JUnit Jupiter",
+      "tests": "53",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "JUnit Platform Suite",
+      "tests": "0",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "JUnit Vintage",
+      "tests": "0",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    }
+  ],
+  "equipment_compatibility_assertions": 826,
+  "vehicle_patcher_checks": 5,
+  "canopy_geometry_tests": 7
+}
