@@ -48,18 +48,60 @@ class PublicationError(RuntimeError):
     pass
 
 
-def gh(args, allow_missing=False, runner=subprocess.run):
-    result = runner(["gh", *args], text=True, capture_output=True, timeout=300)
+def gh(args, allow_missing=False, runner=subprocess.run, stage="GitHub CLI operation"):
+    try:
+        result = runner(["gh", *args], text=True, capture_output=True, timeout=300)
+    except subprocess.TimeoutExpired:
+        raise PublicationError(stage + " timed out; its result is unconfirmed and no write was retried.") from None
+    except OSError:
+        raise PublicationError(stage + " could not start the GitHub CLI.") from None
     if result.returncode:
-        if allow_missing and "HTTP 404" in result.stderr:
+        match = re.search(r"\bHTTP(?:/[0-9.]+)?\s+([1-5][0-9]{2})\b", result.stderr or "")
+        status = int(match.group(1)) if match else None
+        if allow_missing and status == 404:
             return None
-        raise PublicationError("GitHub CLI operation failed. No write was automatically retried; inspect the workflow before rerunning.")
+        detail = f"HTTP {status}" if status is not None else f"CLI exit {result.returncode}"
+        raise PublicationError(stage + " failed (" + detail + "). No write was automatically retried.")
     return result.stdout
 
 
-def api(path, allow_missing=False):
-    data = gh(["api", path], allow_missing=allow_missing)
-    return None if data is None else json.loads(data)
+def api(path, allow_missing=False, stage="Read GitHub metadata"):
+    data = gh(["api", path], allow_missing=allow_missing, stage=stage)
+    if data is None:
+        return None
+    try:
+        return json.loads(data)
+    except ValueError:
+        raise PublicationError(stage + " returned invalid JSON.") from None
+
+
+def read_release(repo: str, release_id: int, stage="Read release by ID") -> dict:
+    if type(release_id) is not int or release_id <= 0:
+        raise PublicationError("GitHub returned an invalid release ID")
+    release = api(f"repos/{repo}/releases/{release_id}", stage=stage)
+    if (not isinstance(release, dict) or release.get("id") != release_id
+            or release.get("tag_name") != TAG):
+        raise PublicationError(stage + " returned a different release identity")
+    return release
+
+
+def find_release(repo: str):
+    """A pending draft tag can 404 at /releases/tags; list, then read by ID.
+
+    Authenticated release collections include drafts. Scan every page so an
+    ambiguous duplicate pending tag cannot cause a second draft or wrong upload.
+    """
+    matches = []
+    for page in range(1, 101):
+        rows = api(f"repos/{repo}/releases?per_page=100&page={page}", stage="List releases including drafts")
+        if not isinstance(rows, list) or len(rows) > 100 or any(not isinstance(row, dict) for row in rows):
+            raise PublicationError("Release collection returned an unexpected response")
+        matches.extend(row for row in rows if row.get("tag_name") == TAG)
+        if len(matches) > 1:
+            raise PublicationError("Multiple releases use this pending tag; all were left unchanged")
+        if len(rows) < 100:
+            return read_release(repo, matches[0].get("id")) if matches else None
+    raise PublicationError("Release lookup exceeded its page limit; no release was created")
 
 
 def verify_local(directory: Path) -> dict:
@@ -101,7 +143,10 @@ def verify_remote(repo: str, release: dict, local: dict):
     if not names:
         return
     with tempfile.TemporaryDirectory(prefix="gtm-release-verify-") as folder:
-        gh(["release", "download", TAG, "--repo", repo, "--dir", folder, "--pattern", "*"])
+        # gh's shared FetchRelease supports pending draft tags via GraphQL and
+        # ID-scoped REST. Unlike raw /releases/tags, these commands handle drafts.
+        gh(["release", "download", TAG, "--repo", repo, "--dir", folder, "--pattern", "*"],
+           stage="Download assets for hash verification")
         actual = {p.name for p in Path(folder).iterdir() if p.is_file()}
         if actual != names:
             raise PublicationError("Downloaded asset set differs from the inspected release")
@@ -112,14 +157,14 @@ def verify_remote(repo: str, release: dict, local: dict):
 
 
 def require_tag_target(repo: str, commit: str):
-    reference = api(f"repos/{repo}/git/ref/tags/{TAG}", allow_missing=True)
+    reference = api(f"repos/{repo}/git/ref/tags/{TAG}", allow_missing=True, stage="Check immutable release tag")
     if reference is None:
         return
     obj = reference.get("object", {})
     for _ in range(4):
         if obj.get("type") != "tag":
             break
-        obj = api(f"repos/{repo}/git/tags/{obj['sha']}").get("object", {})
+        obj = api(f"repos/{repo}/git/tags/{obj['sha']}", stage="Resolve annotated release tag").get("object", {})
     if obj.get("type") != "commit" or obj.get("sha") != commit:
         raise PublicationError("The existing release tag points to another commit. It was not moved.")
 
@@ -128,8 +173,7 @@ def publish(directory: Path, repo: str, commit: str):
     if not re.fullmatch(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+", repo) or not re.fullmatch(r"[0-9a-f]{40}", commit):
         raise PublicationError("An explicit repository and full commit SHA are required")
     local = verify_local(directory)
-    endpoint = f"repos/{repo}/releases/tags/{TAG}"
-    release = api(endpoint, allow_missing=True)
+    release = find_release(repo)
     if release is not None and not release.get("draft"):
         if release.get("prerelease") is not True:
             raise PublicationError("The existing public release is not marked as a candidate; it was left unchanged")
@@ -146,22 +190,28 @@ def publish(directory: Path, repo: str, commit: str):
             gh(["release", "create", TAG, "--repo", repo, "--target", commit,
                 "--draft", "--prerelease", "--latest=false",
                 "--title", "GTM functional runtime 1.0.3 candidate",
-                "--notes-file", str(notes)])
-        release = api(endpoint)
+                "--notes-file", str(notes)], stage="Create candidate draft")
+        release = find_release(repo)
+        if release is None:
+            raise PublicationError("Created draft could not be found in the authenticated release collection; no write was retried")
     elif release.get("target_commitish") != commit:
         raise PublicationError("The existing draft targets another commit; it was left unchanged")
+    if release.get("draft") is not True or release.get("target_commitish") != commit:
+        raise PublicationError("The selected draft does not match the immutable target commit")
+    release_id = release["id"]
     # A resumed draft can be completed only after all of its existing bytes match.
     verify_remote(repo, release, local)
     missing = ASSET_NAMES - asset_names(release)
     if missing:
         gh(["release", "upload", TAG, "--repo", repo,
-            *(str(local[name]["path"]) for name in sorted(missing))])
-    release = api(endpoint)
+            *(str(local[name]["path"]) for name in sorted(missing))], stage="Upload missing draft assets")
+    release = read_release(repo, release_id, stage="Read draft after asset upload")
     if asset_names(release) != ASSET_NAMES:
         raise PublicationError("Draft upload is incomplete; publication was not attempted")
     verify_remote(repo, release, local)
-    gh(["release", "edit", TAG, "--repo", repo, "--draft=false", "--prerelease", "--latest=false"])
-    confirmed = api(endpoint)
+    gh(["release", "edit", TAG, "--repo", repo, "--draft=false", "--prerelease", "--latest=false"],
+       stage="Publish verified candidate draft")
+    confirmed = read_release(repo, release_id, stage="Confirm published release by ID")
     if confirmed.get("draft") or not confirmed.get("prerelease") or asset_names(confirmed) != ASSET_NAMES:
         raise PublicationError("The final release state could not be confirmed; no write was retried")
     print("Published the verified functional candidate: " + str(confirmed.get("html_url", TAG)))

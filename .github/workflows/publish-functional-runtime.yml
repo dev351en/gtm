@@ -38,6 +38,15 @@ jobs:
         with:
           persist-credentials: false
           lfs: false
+          fetch-depth: 0
+      - name: Preserve the original candidate commit and exact asset inputs
+        env:
+          GTM_RELEASE_COMMIT: 810207585e50d5812786033a097364ab132bdfe6
+        run: |
+          git diff --exit-code "$GTM_RELEASE_COMMIT" HEAD -- \
+            runtime/functional-r4 creative/delivery tools/assemble_functional_runtime.py \
+            Start-Daytona.bat connect_daytona_server.bat tools/daytona_tunnel.py \
+            docs/DAYTONA_LAPTOP_CONNECTION.md
       - name: Verify the offline assembler and connector
         run: |
           python3 -m unittest discover -s tools -p test_assemble_functional_runtime.py -v
@@ -49,5 +58,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           GTM_REPOSITORY: ${{ github.repository }}
-          GTM_COMMIT: ${{ github.sha }}
+          # Resume the existing draft without moving its tag or changing its
+          # original target. The preceding diff gate checks all asset inputs.
+          GTM_COMMIT: 810207585e50d5812786033a097364ab132bdfe6
         run: python3 tools/publish_functional_runtime.py --directory dist/functional-r4 --repo "$GTM_REPOSITORY" --commit "$GTM_COMMIT"
