@@ -44,6 +44,11 @@ jobs:
               assert 'com/sdcraft/gtm/rickshaw/RickshawPhysics.class' in z.namelist()
           print('COMPILED PAPER 26.3 JAR:', path)
           PY
+      - name: Start real temporary Paper 26.3 server with plugin
+        run: |
+          mkdir -p vehicle-pilot/build-source/tools
+          cp vehicle-pilot/smoke_paper_server.py vehicle-pilot/build-source/tools/smoke_paper_server.py
+          python3 vehicle-pilot/build-source/tools/smoke_paper_server.py
       - name: Upload server plugin and unit test report
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
