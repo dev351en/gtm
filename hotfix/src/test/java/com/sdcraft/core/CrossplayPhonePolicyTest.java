@@ -1,6 +1,5 @@
 package com.sdcraft.core;
 
-import org.bukkit.Material;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -27,12 +26,12 @@ class CrossplayPhonePolicyTest {
             "app_keys", "app_settings", "phone_shortcut", "hotbar_frame",
             "notification_frame"};
         for (String id : ids) {
-            Material m = CrossplayPhonePolicy.iconMaterial(id);
-            assertNotNull(m);
-            assertTrue(m.isItem(), id);
-            assertNotEquals(Material.AIR, m, id);
+            String material = CrossplayPhonePolicy.iconMaterialName(id);
+            assertNotNull(material);
+            assertTrue(material.matches("[A-Z_]+"), id);
+            assertNotEquals("AIR", material, id);
         }
-        assertEquals(Material.PAPER, CrossplayPhonePolicy.iconMaterial("unknown"));
+        assertEquals("PAPER", CrossplayPhonePolicy.iconMaterialName("unknown"));
     }
 
     @Test void modeClearlyDisclosesPlatformLimits() {
