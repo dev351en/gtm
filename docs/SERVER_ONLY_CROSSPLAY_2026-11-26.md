@@ -1,56 +1,49 @@
-# GTM server-only crossplay implementation (candidate)
+# GTM 1.0.7: original models on unmodified Java + Bedrock clients
 
-This branch replaces the Fabric-required four-corner phone/HUD path with the existing **server-controlled interface**. No client mod is required for Java or Bedrock users to access phone services.
+**Status: source/build candidate. Not certified on real Bedrock hardware yet.**
 
-## What changed in maintained server code
+The goal is a Paper server that owns gameplay, while both Minecraft editions download their matching **server-delivered resource pack**. A resource pack is *not* a client-side Java mod. The server cannot display custom PNGs or 3D geometry if a client has not loaded the textures/models; it must distribute the packs and validate the mappings.
 
-- The plugin no longer starts `GtmClientHud` or registers its Fabric-only messaging handshake. A client HUD mod is not an installation requirement and does not control any server action.
-- `/phone` and the existing phone item always call the same authenticated `GtmPhoneApps` inventory flow. Clicking a service still goes through the server's original access checks, session ownership, balances and purchases.
-- `phone.crossplay-safe` defaults to **true even when absent from an upgraded existing config**. It disables Java-specific inventory-font backgrounds, custom item-model icon requirements and HUD font glyphs. Phone apps get distinct vanilla icons and readable titles/lore.
-- The vanilla scoreboard sidebar retains wanted stars, wallet and bank. The server map item remains the map interface; the standard hotbar stays in its native position. These controls work without a Java client renderer.
-- Existing vehicle physics, passenger boarding, guns, NPC navigation/combat, authentication, persistent records and AI fallback remain server-side. This branch **does not** rewrite or certify those mechanics.
+## What 1.0.7 fixes
 
-## Installation contract
+- `/phone` and the existing phone item still open authenticated, server-owned inventory menus and invoke the actual service handlers. No Fabric handshake is needed.
+- **All original phone logos are restored:** each clickable icon is an actual `minecraft:paper` stack with its namespaced `minecraft:item_model` component. Java reads `assets/gtm/items/*.json` from the delivered Java pack; Geyser maps the *same base item + model ID* to a custom Bedrock item in `gtm_native128.json`. Bedrock's pack supplies its texture and attachable. Do **not** turn these into generic chests/compasses/minecarts: doing so breaks the mappings.
+- On Java, custom font-based phone backgrounds and wanted glyphs activate **only after that player's Java resource pack loads**. Bedrock uses a compatible inventory title and plain HUD text; the custom item artwork remains mapped.
+- The existing server-owned phone, guns, cars, NPC behavior, property rights, purchases and money stay in the Paper plugin. This patch does not make untested gameplay suddenly proven.
+- The build checks **all Geyser v2 definitions** for valid Java model references, Bedrock icon PNGs and attachable geometry, including the 24 phone apps and HUD assets. Missing models now fail CI instead of silently shipping replacements.
 
-Update the **server** after a stopped-server, backed-up staging rehearsal. This is a separate server-only **1.0.6 candidate**; do not install the older 1.0.5 ZIP in its place. Java players join with their standard Minecraft installation; Bedrock/mobile players use the compatible Geyser/Floodgate bridge.
+## Install on a stopped staging server
 
-1. Extract `GTM_Server_Only_Crossplay_1.0.6.zip` into a new folder. Keep the extracted files and subfolders together.
-2. Stop Paper and the launcher completely. Preserve your latest world and player-data backup.
-3. From inside the extracted folder, point the updater to the *existing server root*, which already contains `server.properties` and `world`:
+1. Extract `GTM_Server_Only_Crossplay_1.0.7.zip`. Keep everything together.
+2. Stop Paper/Daytona and back up the complete server, including worlds, inventories and plugins.
+3. Run `Update-GTM.bat "C:\path\to\your\GTM-server" --bedrock` from inside the extracted folder (Windows) or `sh Update-GTM.sh /path/to/server --bedrock` (Linux). Omit `--bedrock` only on a Java-only server. This update requires an existing Geyser installation and copies the Bedrock pack and mappings into its directories.
+4. Configure Geyser: under `plugins/Geyser-Spigot/config.yml`, set `enable-custom-content: true` in the relevant Geyser configuration section. Restart Paper/Geyser so mappings are registered. Allow the client to download the server resource packs on connection.
+5. Run the included read-only check: `python tools/check_geyser_setup.py "C:\path\to\your\GTM-server"`. Fix any blockers before testing. The check will also explain whether a Bedrock display-entity renderer is missing.
+6. Join as a normal Java and Bedrock player **without any client mod**, open `/phone`, and check actual original logos, models and app clicks on both platforms.
+7. Retain the updater's backup ID. To reverse a stopped-server update, run the updater with `--rollback BACKUP_ID` and restore the server backup if needed.
 
-   **Windows:** `Update-GTM.bat "C:\\path\\to\\your\\GTM-server"`
+The server's Java `resource-pack` URL/SHA are set by the updater; the `--bedrock` path installs the Geyser `.mcpack` plus custom mappings. Geyser does not convert Java packs automatically. The installed Geyser version must support its v2 item-model mappings. Test resource-pack acceptance with real clients; **a passing file audit is not a network/client test**.
 
-   **Linux/macOS:** `sh Update-GTM.sh /path/to/your/GTM-server`
+## Vehicle, furniture and weapon models
 
-4. On an **existing Geyser/Floodgate server**, append `--bedrock` to update the Bedrock asset pack and custom mappings. This does not install Geyser or Floodgate where they are absent.
-5. Start Paper and join as an ordinary player. Test the vanilla inventory phone using `/phone`; you do not need Fabric, any client JAR or a modded launcher.
-6. Save the updater's backup ID. To roll back after stopping Paper, run the same updater with `--rollback BACKUP_ID`.
+Items held or shown in inventory have a defined Java/Bedrock mapping. **Moving 3D ItemDisplay entities are a different issue:** vanilla Bedrock has no Java ItemDisplay entity, and Geyser's base item mappings alone do not guarantee display-entity rendering. GTM uses ItemDisplay for vehicle/body visuals, so a compatible **server-side Geyser display renderer/extension** and real Bedrock gameplay tests are required before saying its vehicles appear correctly for Bedrock players. This is still no client-side mod.
 
-**Daytona and the production world are not changed by a GitHub PR, release asset or download.** Do not deploy this candidate there until crossplay staging passes. Bedrock pack delivery and Java pack delivery must be validated separately. No player installs a Fabric, Forge or NeoForge mod.
+One potential server extension is [GeyserDisplayEntity](https://github.com/GeyserExtensionists/GeyserDisplayEntity). It reports support for Geyser 26.2, but its latest release has **not been validated with GTM's Geyser 26.3 setup**. Do not install an unverified extension into production as a purported fix; test a pinned compatible build in staging and check model scale, yaw, canopy, wheel animations and passenger synchronization. Java-side ItemDisplay visuals continue to work using the Java pack.
 
-Use `/phone` to open the menu. Select an app using the normal inventory controls. To get a terrain map, choose Maps in the phone; for the auto, use normal use/boarding controls and the existing `/car` menu. Server HUD data uses supported scoreboard/actionbar elements.
+For native tracks/railways, Paper plugins can operate rail blocks/track state and modelled train entities on the server, with edition-specific assets. That is the same architecture: logic stays server-side; textures and 3D geometry are rendered from packs the clients accept.
 
-The Java/BEDROCK menus will **not have identical pixels**. With no client code, neither server plugins nor resource packs can arbitrarily move all nine vanilla hotbar slots to the top-left, keep a mouse-clickable phone pinned to the bottom-right of every screen, or guarantee a live corner minimap on every vanilla client. This branch prioritizes shared interactions and honesty over an impossible matching screenshot.
+## What is still not possible without a client mod
 
-### Configuration
+Neither edition allows a Paper plugin to freely move the nine-slot vanilla hotbar to the upper left, pin a fully mouse-clickable phone to arbitrary screen coordinates, or guarantee a live corner minimap. GTM instead uses the normal hotbar, inventory-based phone, sidebar/actionbar and map items. Java gets a custom inventory skin when its pack is accepted. Bedrock's standard inventory remains usable with the original mapped app icons.
 
-```yaml
-phone:
-  crossplay-safe: true
-```
+## Acceptance gates
 
-The missing key is treated as `true` to protect existing installations. Keep the legacy client-only HUD jar out of the recommended client setup. `phone.crossplay-safe: false` only enables legacy Java-oriented font/item-model customization; it is not advised for crossplay servers.
+Static model reference integrity and Java 25 tests are checked in CI. Release certification remains blocked until two normal non-op players, one on vanilla Java and one on Bedrock, demonstrate:
 
-## Verification and gates
+1. Actual original phone logo textures and functioning clicks, including Bank, Garage, Maps, equipment and permissions on both clients.
+2. Actual visible and animated three-dimensional vehicle and furniture models (not paper or invisible displays) on Bedrock, with compatible server-side display support.
+3. A traditional auto driven with one driver and three passengers; fifth player rejected; safe exit and reconnect from both editions.
+4. Equipped gun models, correct server damage/reload, NPC conversation and retaliation/fleeing as designed.
+5. Java and Bedrock pack delivery, acceptance, reconnect, operator restart and rollback on the user's actual server.
 
-`CrossplayPhonePolicyTest` exercises default safety, legacy opt-out and distinct vanilla menu icons. Java server tests and release packaging must run independently on GitHub Actions, which uses a Java 25 toolchain. The repository is **not** considered crossplay accepted until real vanilla Java and real Bedrock clients pass the same smoke test in one staged world:
-
-1. A normal non-op player on each edition authenticates and opens `/phone` or the server phone item, without client mods.
-2. Both can open Maps, Bank, Garage and one authorized purchase/service route without losing balances or session rights.
-3. Both see wanted/money sidebar text and use map/dashboard items with native controls.
-4. One Java and one Bedrock account can board the same unlocked auto and drive, exit and reconnect while seats and ownership remain correct.
-5. Each edition can equip/fire/reload a legitimate weapon and talk to an NPC. Protected civilians/staff and safe zones retain their existing rules.
-6. Test with a missing/declined resource pack: gameplay still works and menus remain readable using vanilla icon fallbacks.
-7. Shutdown preserves all records and an updater rollback restores the pre-upgrade snapshot.
-
-**Not claimed:** this commit has not yet been deployed to Daytona, tested on an actual Bedrock client, validated on the user's Windows launcher, or converted the Bedrock UI into native forms. This is a server-side source candidate for verification, not a certified full GTA release.
+This branch changes no world, ownership database, account, remote Daytona instance or production server. It is a repair candidate, not a certification that all remaining GTM content works.
