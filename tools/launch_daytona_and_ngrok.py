@@ -275,7 +275,7 @@ def write_active_address(public_addr: str):
 def monitor_tunnels(ssh: OwnedSshProcess, ngrok: OwnedNgrokProcess):
     """Keep monitoring both tunnels until interrupted or one drops."""
     failures = 0
-    next_check = time.monotonic() + 10
+    next_check = time.monotonic() + 30
     while True:
         if ssh.poll() is not None:
             raise ssh.failure()
@@ -284,13 +284,13 @@ def monitor_tunnels(ssh: OwnedSshProcess, ngrok: OwnedNgrokProcess):
             raise ConnectionFailure("Ngrok tunnel closed unexpectedly." + (("\n" + tail) if tail else ""))
         if time.monotonic() >= next_check:
             try:
-                minecraft_status(timeout=2.0)
+                minecraft_status(timeout=8.0)
                 failures = 0
             except (OSError, ValueError, UnicodeError):
                 failures += 1
-                if failures >= 3:
+                if failures >= 6:
                     raise ConnectionFailure("Minecraft stopped responding through the Daytona SSH tunnel.")
-            next_check = time.monotonic() + 10
+            next_check = time.monotonic() + 30
         time.sleep(0.5)
 
 

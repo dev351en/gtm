@@ -350,19 +350,19 @@ def wait_for_game(ssh, timeout=45.0, probe=minecraft_status,
 
 def monitor_game(ssh, probe=minecraft_status, clock=time.monotonic, sleep=time.sleep):
     failures = 0
-    next_check = clock() + 10
+    next_check = clock() + 30
     while True:
         if ssh.poll() is not None:
             raise ssh.failure()
         if clock() >= next_check:
             try:
-                probe(timeout=2.0)
+                probe(timeout=8.0)
                 failures = 0
             except (OSError, ValueError, UnicodeError):
                 failures += 1
                 if failures >= 3:
                     raise ConnectionFailure("Minecraft stopped responding through the tunnel. The local connection is closing; the Daytona server was not changed.")
-            next_check = clock() + 10
+            next_check = clock() + 30
         sleep(0.5)
 
 
