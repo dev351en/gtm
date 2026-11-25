@@ -817,9 +817,11 @@ TabCompleter {
             Objects.requireNonNull(this.getCommand("taxiroute")).setExecutor((CommandExecutor)this.taxi);
             Objects.requireNonNull(this.getCommand("foodroute")).setExecutor((CommandExecutor)this.foodCourier);
             this.phoneApps.start();
-            if (getConfig().getBoolean("phone.client-hud-enabled", true)) {
-                this.clientHud = new GtmClientHud(this, this.phoneApps);
-            }
+            // Crossplay contract: no optional client mod is needed for the phone.
+            // Keep the Java-client bridge dormant. Existing server services,
+            // vehicle control, HUD sidebar and live map remain active.
+            getLogger().info("GTM crossplay UI: " + CrossplayPhonePolicy.mode(
+                    getConfig().getBoolean("phone.crossplay-safe", true)));
             this.signs.start();
             this.taxi.start();
             this.foodCourier.start();
