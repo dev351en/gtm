@@ -743,8 +743,15 @@ AutoCloseable {
     }
 
     private ItemStack icon(String id, String title, String ... lore) {
-        ItemStack i = GtmPhoneApps.item(Material.PAPER, title, lore);
-        i.editMeta(meta -> meta.setItemModel(Objects.requireNonNull(NamespacedKey.fromString((String)this.art.require(id).model()))));
+        // Both editions understand native items; custom item-model mappings
+        // are used only when an owner explicitly disables crossplay-safe UI.
+        boolean safe = this.plugin.getConfig().getBoolean("phone.crossplay-safe", true);
+        ItemStack i = GtmPhoneApps.item(safe ? CrossplayPhonePolicy.iconMaterial(id) : Material.PAPER,
+                title, lore);
+        if (!safe) {
+            i.editMeta(meta -> meta.setItemModel(Objects.requireNonNull(
+                    NamespacedKey.fromString(this.art.require(id).model()))));
+        }
         return i;
     }
 
