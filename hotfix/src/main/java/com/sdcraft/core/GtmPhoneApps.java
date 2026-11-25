@@ -196,7 +196,8 @@ AutoCloseable {
             return;
         }
         this.searches.remove(p.getUniqueId());
-        if (this.plugin.openClientPhone(p)) return;
+        // The authoritative phone is always a standard server inventory.
+        // No client handshake or Fabric installation is required.
         this.home(p);
     }
 
@@ -215,7 +216,10 @@ AutoCloseable {
 
     private Menu menu(Player p, String title, int size) {
         return new Menu(p, this.plugin.authenticatedSession(p), title, size,
-                this.services.glyphsAvailable(p) && this.plugin.getConfig().getBoolean("phone.custom-gui", true));
+                CrossplayPhonePolicy.useCustomFontTitle(
+                        this.plugin.getConfig().getBoolean("phone.crossplay-safe", true),
+                        this.plugin.getConfig().getBoolean("phone.custom-gui", true),
+                        this.services.glyphsAvailable(p)));
     }
 
     private void show(Player p, Menu m) {
@@ -739,8 +743,15 @@ AutoCloseable {
     }
 
     private ItemStack icon(String id, String title, String ... lore) {
-        ItemStack i = GtmPhoneApps.item(Material.PAPER, title, lore);
-        i.editMeta(meta -> meta.setItemModel(Objects.requireNonNull(NamespacedKey.fromString((String)this.art.require(id).model()))));
+        // Both editions understand native items; custom item-model mappings
+        // are used only when an owner explicitly disables crossplay-safe UI.
+        boolean safe = this.plugin.getConfig().getBoolean("phone.crossplay-safe", true);
+        ItemStack i = GtmPhoneApps.item(safe ? Material.valueOf(CrossplayPhonePolicy.iconMaterialName(id)) : Material.PAPER,
+                title, lore);
+        if (!safe) {
+            i.editMeta(meta -> meta.setItemModel(Objects.requireNonNull(
+                    NamespacedKey.fromString(this.art.require(id).model()))));
+        }
         return i;
     }
 

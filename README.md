@@ -1,5 +1,6 @@
 # GTM / EXPECT SDCRAFT
 
+> **Server-only crossplay candidate (1.0.6):** The new [no-client-mod implementation](docs/SERVER_ONLY_CROSSPLAY_2026-11-26.md) is on branch `fix/server-only-crossplay-20261126`. It replaces the Fabric-required HUD path with a vanilla-inventory phone, scoreboard and server map. Java/Bedrock real-client acceptance is still pending. The 1.0.5 Fabric installation instructions below are **historical** and are not the installation path for this branch. Do not deploy this candidate to the protected Daytona server before staging.\n\n
 ## HUD, NPC and passenger repair 1.0.5
 
 The `fix/spec-hud-npc-passengers-20261125` branch implements the approved four-corner **optional Java HUD**, restores the original colourful phone logos, repairs nearby NPC conversation/population/combat paths and gives the traditional auto **one driver plus three passengers**. See [the current implementation and acceptance record](docs/SPEC_REPAIR_2026-11-25.md), [server update instructions](packaging/repair/README.md) and [optional client instructions](client-hud/README.md).

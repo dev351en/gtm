@@ -817,9 +817,11 @@ TabCompleter {
             Objects.requireNonNull(this.getCommand("taxiroute")).setExecutor((CommandExecutor)this.taxi);
             Objects.requireNonNull(this.getCommand("foodroute")).setExecutor((CommandExecutor)this.foodCourier);
             this.phoneApps.start();
-            if (getConfig().getBoolean("phone.client-hud-enabled", true)) {
-                this.clientHud = new GtmClientHud(this, this.phoneApps);
-            }
+            // Crossplay contract: no optional client mod is needed for the phone.
+            // Keep the Java-client bridge dormant. Existing server services,
+            // vehicle control, HUD sidebar and live map remain active.
+            getLogger().info("GTM crossplay UI: " + CrossplayPhonePolicy.mode(
+                    getConfig().getBoolean("phone.crossplay-safe", true)));
             this.signs.start();
             this.taxi.start();
             this.foodCourier.start();
@@ -982,12 +984,12 @@ TabCompleter {
 
     private void showRepairWelcome(Player player) {
         if (clientHud != null && clientHud.capable(player)) return;
-        if (!isAuthenticated(player) || !hasLoadedGtmPack(player) || phoneApps == null || !phoneApps.available(player) || isDowned(player)) return;
+        if (!isAuthenticated(player) || (!getConfig().getBoolean("phone.crossplay-safe", true) && !hasLoadedGtmPack(player)) || phoneApps == null || !phoneApps.available(player) || isDowned(player)) return;
         NamespacedKey seen = new NamespacedKey(this, "repair_ui_seen_v1");
         if (player.getPersistentDataContainer().has(seen, PersistentDataType.BYTE)) return;
         Bukkit.getScheduler().runTaskLater(this, () -> {
             if (clientHud != null && clientHud.capable(player)) return;
-            if (!isAuthenticated(player) || !hasLoadedGtmPack(player) || !phoneApps.available(player) || isDowned(player)) return;
+            if (!isAuthenticated(player) || (!getConfig().getBoolean("phone.crossplay-safe", true) && !hasLoadedGtmPack(player)) || !phoneApps.available(player) || isDowned(player)) return;
             if (player.getPersistentDataContainer().has(seen, PersistentDataType.BYTE)) return;
             // Do not interrupt another transaction menu, a vehicle ride or a login flow.
             if (player.isInsideVehicle() || player.getOpenInventory().getTopInventory().getType() != org.bukkit.event.inventory.InventoryType.CRAFTING) return;
