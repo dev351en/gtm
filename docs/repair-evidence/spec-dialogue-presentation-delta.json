@@ -1,0 +1,24 @@
+{
+  "schema": "GTM_DIALOGUE_PRESENTATION_DELTA_V1",
+  "native_behaviour_core_sha256": "23c0020eb0e54093feeccba4f7e72681f0cc2a7e2e7965ef7aa8a683ccfe97cc",
+  "final_core_sha256": "17d9a549c83d16fa5cc15af66aa29dccbe45cef7793e49a47476d552c3bd447a",
+  "changed_entries": [
+    "com/sdcraft/core/GtmDialogue$Bubble.class",
+    "com/sdcraft/core/GtmDialogue$Greeting.class",
+    "com/sdcraft/core/GtmDialogue$Selection.class",
+    "com/sdcraft/core/GtmDialogue.class"
+  ],
+  "change": "Bubble origin rises0.75 rather than0.35 blocks above entityheight atspawn/follow. Nested record bytes also change because debug source line numbers moved. No NPC/combat/vehicle/HUD transport behavior changes.",
+  "identical_component_classes_sha256": {
+    "NpcService": "e1ffa0447fde9957592a0e201072a503942b1f29da860f0d70b769526b6142f3",
+    "GtmVehicles": "0677ac5af1e338e47bcf0c9db7395bd00ff4d3a61d6836587d881186638986f8",
+    "GtmEquipment": "bafc49db8c280b33dc93342dc7253725b0e44b21876dd4bb87e55517febccb71",
+    "GunEngine": "d1d4b7768dfe486b7635eb9d8986d282ffbfe56fe00eaa3271c324001a0078fb",
+    "GtmClientHud": "d43769bd99768bb8b5576f4ac45ef8960cd9bdc09e7cb3f583a4ca4ff0a9a952",
+    "GtmPhoneApps": "02a6cbfbabdc7b98503235df4997e308c3adb279af1fe9e9d822955e48bc7840",
+    "GtmWebConsole": "f0b80db3d47fd301f7a72ab8b6760a9e083e2a3a53dd717290fc10e61a8a9ab5",
+    "SDCraftCorePlugin": "6a345b4ce2f0475b8610dc63f1cfed0eaced38bc45bc414082f959d3961f8bb9"
+  },
+  "reviewed_source_diff": "diff --git a/hotfix/src/main/java/com/sdcraft/core/GtmDialogue.java b/hotfix/src/main/java/com/sdcraft/core/GtmDialogue.java\nindex 609517b..97d890c 100644\n--- a/hotfix/src/main/java/com/sdcraft/core/GtmDialogue.java\n+++ b/hotfix/src/main/java/com/sdcraft/core/GtmDialogue.java\n@@ -32,6 +32,7 @@ import org.joml.Vector3f;\n \n /** Reachable, session-bound NPC conversations; one bounded bubble maintenance task. */\n final class GtmDialogue implements Listener, AutoCloseable {\n+    private static final double BUBBLE_RISE = .75;\n     private record Selection(UUID session, String npc, UUID entity, long until) {}\n     private record Bubble(UUID speaker, TextDisplay display, long until, boolean ambient) {}\n     private record Greeting(UUID player, String npc) {}\n@@ -161,7 +162,7 @@ final class GtmDialogue implements Listener, AutoCloseable {\n             if (!enabled() || bubble.until() <= now || speaker == null || !speaker.isValid() || !bubble.display().isValid()) {\n                 remove(bubble.speaker()); continue;\n             }\n-            bubble.display().teleport(speaker.getLocation().add(0, speaker.getHeight() + .35, 0));\n+            bubble.display().teleport(speaker.getLocation().add(0, speaker.getHeight() + BUBBLE_RISE, 0));\n         }\n         selections.entrySet().removeIf(entry -> {\n             Player player = Bukkit.getPlayer(entry.getKey());\n@@ -226,7 +227,7 @@ final class GtmDialogue implements Listener, AutoCloseable {\n             if (existing.ambient()) remove(existing.speaker());\n         }\n         while (bubbles.size() >= 64) remove(bubbles.keySet().iterator().next());\n-        TextDisplay display = speaker.getWorld().spawn(speaker.getLocation().add(0, speaker.getHeight() + .35, 0), TextDisplay.class, value -> {\n+        TextDisplay display = speaker.getWorld().spawn(speaker.getLocation().add(0, speaker.getHeight() + BUBBLE_RISE, 0), TextDisplay.class, value -> {\n             value.text(Component.text(text)); value.setBillboard(Display.Billboard.CENTER); value.setLineWidth(190);\n             value.setSeeThrough(false); value.setShadowed(true); value.setPersistent(false); value.setViewRange(.4f);\n             value.setBackgroundColor(Color.fromARGB(190, 12, 16, 20));\n",
+  "final_visual_acceptance": "Pending one native restart/capture; do not infer appearance from byte comparison."
+}

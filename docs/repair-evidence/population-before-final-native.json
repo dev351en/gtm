@@ -1,0 +1,30 @@
+{
+  "schema": "GTM_POPULATION_LIVE_V1",
+  "phase": "before_final_npc_combat_and_passenger_probe",
+  "core_sha256": "23c0020eb0e54093feeccba4f7e72681f0cc2a7e2e7965ef7aa8a683ccfe97cc",
+  "physical_owned_count": 10,
+  "unique_identity_count": 10,
+  "duplicate_identities": [],
+  "identities": [
+    "ambient_017",
+    "ambient_018",
+    "ambient_037",
+    "ambient_038",
+    "ambient_057",
+    "ambient_058",
+    "ambient_077",
+    "ambient_078",
+    "imran_sheikh",
+    "neha_patel"
+  ],
+  "target_uuids": {
+    "Sahil Sharma": "657784e0-3294-46e4-9400-a8c9b03d510e",
+    "Tara Yadav": "598c0079-b159-4366-bac6-29a0e0beeac0"
+  },
+  "server_status": [
+    "[16:04:27 INFO]: [SD Craft] Paper core enabled; configured=100, active=10/32, police=0/6, other=10/32, ambient=8, admission cap=4, legacy anchors awaiting review=0, anchors=100. Citizens=false",
+    "[16:04:27 INFO]: [SD Craft] NPC dialogue: configured=offline, last-result=not-contacted. Autonomous traffic driving is not implemented."
+  ],
+  "within_physical_cap": true,
+  "claim": "Observed loaded owned entities, not all persistent roster identities or a forced maximum-load benchmark."
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "GTM_SPEC_STAGING_SHUTDOWN_V1",
+  "environment": "Isolated local Paper26.3 staging; no production changes",
+  "core_sha256": "17d9a549c83d16fa5cc15af66aa29dccbe45cef7793e49a47476d552c3bd447a",
+  "client": "Minecraft Java26.3/Fabric optional HUD; GTMHudQA disconnected using in-game Disconnect, returned to main menu, and Quit Game. Native Xephyr client surface closed normally.",
+  "players_before_stop": 0,
+  "stop_method": "Existing staging harness stop.request sent ordinary stop command to Paper stdin; no process kill.",
+  "paper_exit_code": 0,
+  "paper_stopped_utc": "2026-11-25T16:41:54.067752+00:00",
+  "observed_log_lines": [
+    "[16:41:26] [Server thread/INFO]: GTMHudQA lost connection: Disconnected",
+    "[16:41:53] [Server thread/INFO]: Stopping server"
+  ],
+  "acceptance": "Native and network tests completed before shutdown. Raw captures and phased reports are frozen; no additional tests requested."
+}

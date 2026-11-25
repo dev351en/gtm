@@ -1,0 +1,169 @@
+{
+  "schema": "GTM_NATIVE_HUD_ACCEPTANCE_V1",
+  "date_utc": "2026-11-25",
+  "status": "PASS for observed Java HUD paths",
+  "environment": {
+    "minecraft": "26.3",
+    "fabric_loader": "0.20.1",
+    "fabric_api": "0.167.0+26.3",
+    "java": "25",
+    "os": "Linux",
+    "client_resolution": [
+      960,
+      600
+    ],
+    "gui_scale": 2,
+    "rendering": "software Mesa in isolated Xephyr",
+    "server": "isolated Paper26.3 / SDCraftCore1.0.5",
+    "test_identity": "GTMHudQA",
+    "operator": false,
+    "production_deployment": false
+  },
+  "artifacts": {
+    "client": {
+      "sha256": "b1bf80057b30e94c7d04b1d49ad06d442972f0cf0b441f710b5c513cfe92ab84",
+      "sha1": "c6c16efd69028debc4ce975d1a03f4c1053af6a3",
+      "bytes": 135379
+    },
+    "core": {
+      "sha256": "23c0020eb0e54093feeccba4f7e72681f0cc2a7e2e7965ef7aa8a683ccfe97cc",
+      "sha1": "da624d3968bcb31d8a0237e56ce87d601a94b830",
+      "bytes": 2807347
+    },
+    "java_pack": {
+      "sha256": "77782c8cade9ca7ac07d408e2f1425b8d73eb8d78408cca0a5454c14b28f8188",
+      "sha1": "01e6a6693265203168a3f2abf5027f931f926415",
+      "bytes": 16730499
+    }
+  },
+  "client_cached_pack_sha1_verified": true,
+  "observations": [
+    {
+      "check": "Pre-authentication fallback",
+      "result": "Normal Minecraft HUD and P Social Interactions remained available before /login."
+    },
+    {
+      "check": "Normal authentication",
+      "result": "Existing ordinary account /login succeeded; custom HUD activated without /pack, operator grant or test-only activation."
+    },
+    {
+      "check": "Four-corner layout",
+      "result": "Nine real slots top left; actual surface terrain bottom left; wanted/wallet/bank top right; persistent phone shortcut bottom right."
+    },
+    {
+      "check": "P conflict regression",
+      "result": "P opened popup; Escape closed it; P reopened it; P closed it again without opening Social Interactions."
+    },
+    {
+      "check": "Minimap frame regression",
+      "result": "Circle and rectangle switched with M; actual terrain remained inside the measured frame apertures with no exterior bleed."
+    },
+    {
+      "check": "Pointer and inventory",
+      "result": "Alt released cursor; clicking hotbar slot4 selected the actual held phone; subsequent right-click was accepted by the server and opened the client popup."
+    },
+    {
+      "check": "Persistent phone button",
+      "result": "Alt followed by a mouse click on bottom-right shortcut opened the popup."
+    },
+    {
+      "check": "Server phone route",
+      "result": "/phone opened the same popup, with no ordinary phone chest substituted."
+    },
+    {
+      "check": "Original logos",
+      "result": "All24 phone app targets rendered; original colourful Quoggle/Amazzo/Flippit/ARKPay/Zomatoo/Swiffy and other mapped brand artwork was visible."
+    },
+    {
+      "check": "Bank service",
+      "result": "Detail showed wallet500.00 and bank1000.00, matching HUD; Open Service opened the existing authorized ARK Bank/ATM inventory menu. No money transaction was performed."
+    },
+    {
+      "check": "Local JEEVA input",
+      "result": "Typed private question about bank balance; reply used current wallet500.00 and bank1000.00. Offline Local City Guide label remained visible."
+    },
+    {
+      "check": "Inventory preservation",
+      "result": "After restart/login, visible hotbar retained one native Kavach and32 matching ammunition; no duplicated repair gift was observed."
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "spec-hud-native-java.png",
+      "native_F2_source": "2026-11-25_16.04.18.png",
+      "sha256": "ea1467056ac94a4aefab2a79bb30ea06b91869ea2422fdf6279aa2c87190af17",
+      "bytes": 588420,
+      "dimensions": [
+        960,
+        600
+      ],
+      "modified": false
+    },
+    {
+      "path": "spec-phone-native-java.png",
+      "native_F2_source": "2026-11-25_16.02.27.png",
+      "sha256": "2377bedf8e201d3731a993aff8677682156771901dfcc28419f5f0c333618360",
+      "bytes": 501854,
+      "dimensions": [
+        960,
+        600
+      ],
+      "modified": false
+    },
+    {
+      "path": "spec-hud-bank-native-java.png",
+      "native_F2_source": "2026-11-25_16.02.56.png",
+      "sha256": "d8122052a32a303a1ebf3a13bdeab2b2cef753d8c94611fb3ee36e48768cd4d2",
+      "bytes": 505078,
+      "dimensions": [
+        960,
+        600
+      ],
+      "modified": false
+    },
+    {
+      "path": "spec-hud-guide-native-java.png",
+      "native_F2_source": "2026-11-25_16.03.24.png",
+      "sha256": "51f655d07c7dfdcd013ca3c3ecaaa55ca82d10b661324fd0a62555f5ab78b666",
+      "bytes": 484593,
+      "dimensions": [
+        960,
+        600
+      ],
+      "modified": false
+    }
+  ],
+  "client_log_counts_at_hud_handoff": {
+    "invalid_hud_snapshots": 0,
+    "missing_model_textures": 0,
+    "duplicate_sprites": 0,
+    "model_load_errors": 0
+  },
+  "known_environment_warnings": [
+    "No OpenAL audio device",
+    "External Minecraft account/Realms services unavailable in isolated test profile",
+    "Inherited legacy sound alias warnings and ignored example filenames in server resource pack"
+  ],
+  "automated_tests": {
+    "junit_passed": 18,
+    "not_a_native_render_claim": true
+  },
+  "limits": [
+    "No Bedrock HUD/touch implementation or native Bedrock acceptance",
+    "No native Windows or macOS acceptance",
+    "No audio acceptance",
+    "No external language-model claim for local guide",
+    "Existing service transactions still use server inventory menus",
+    "Vehicle instrument/suppression native acceptance handled separately; not asserted by this HUD smoke",
+    "No production or live Daytona deployment"
+  ],
+  "historical_phase1": {
+    "client_sha256": "85b832bba3d008bfad32773a8c63b1b7772e567edb8148b81dbc331e83475691",
+    "core_sha256": "8a1e9807009255430e1d41d6e0df0728c9fae3355e2bde445f8a0ee04525a2ca",
+    "found": [
+      "P conflicted with vanilla Social Interactions",
+      "Minimap terrain leaked outside frame aperture"
+    ],
+    "resolution": "Fixed and verified on final artifact hashes above."
+  }
+}

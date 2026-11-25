@@ -1,0 +1,19 @@
+{
+  "workflow": "Verify and package GTM runtime repair",
+  "run_id": 45638152091,
+  "url": "https://github.com/dev351en/gtm/actions/runs/45638152091",
+  "head_sha": "8b0b3d643ae11bfa22f3761332abb890beef38d7",
+  "result": "success",
+  "java": "Temurin25 via pinned setup-java-v5 action",
+  "gradle": "9.2.1",
+  "commands": [
+    "gradle --no-daemon clean check jar patchVehicle",
+    "python -m unittest discover -s tools -p test_repaired_packs.py -v",
+    "python -m unittest discover -s tools -p test_install_runtime_repair.py -v",
+    "python -m unittest discover -s tools -p test_repair_publication.py -v",
+    "python tools/build_repaired_packs.py",
+    "python tools/build_repair_release.py --overlay hotfix/build/libs/GTM-Repair-Classes-1.0.4-r4-repair-overlay.jar --vehicle-class hotfix/build/vehicle-patch/com/sdcraft/core/GtmVehicles.class",
+    "python tools/package_repair_candidate.py"
+  ],
+  "scope": "Full independent CI build and candidate artifact upload. Release publishing skipped because no publication marker was requested."
+}

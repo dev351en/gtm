@@ -1,5 +1,15 @@
 # GTM / EXPECT SDCRAFT
 
+## HUD, NPC and passenger repair 1.0.5
+
+The `fix/spec-hud-npc-passengers-20261125` branch implements the approved four-corner **optional Java HUD**, restores the original colourful phone logos, repairs nearby NPC conversation/population/combat paths and gives the traditional auto **one driver plus three passengers**. See [the current implementation and acceptance record](docs/SPEC_REPAIR_2026-11-25.md), [server update instructions](packaging/repair/README.md) and [optional client instructions](client-hud/README.md).
+
+The exact Java layout requires the optional client component. Ordinary clients can still join and use existing server menus. This candidate does not certify a Bedrock HUD, a connected generative model, full car/bus interiors or the complete Revision 4 game. Those gaps are recorded explicitly. The [1.0.4 report](docs/RUNTIME_REPAIR_2026-11-25.md) remains historical; its inventory skin was not the approved four-corner interface.
+
+Use the **matching server core and resource pack together**, plus the optional HUD JAR for the requested layout. The historical resource pack linked below does not contain this repair. A repository Code ZIP is not a complete playable server installation. The [verification workflow](.github/workflows/repair-verify.yml) produces the installable update and separate client JAR after its checks.
+
+The server build uses maintained `hotfix/` source and exact checked patches over the preserved 1.0.3 binary. It does not mislabel the older `source/` tree as recovered original source. The updater supports the fingerprinted 1.0.3 and released 1.0.4 cores and preserves world, player, ownership and authentication data. Production deployment is separate.
+
 ## Current checkpoint — 25 November 2026
 
 This branch preserves the **SDCraftCore `1.0.3-r4-functional-candidate` compiled runtime**, native **128×128** asset packs, and its verification records. It also adds a laptop connector for the **existing Daytona server**. The corresponding latest core/launcher source was not recovered; the existing `source/` tree is retained as its earlier published checkpoint. Building that tree does **not** reproduce the recovered `1.0.3` binary.

@@ -1,0 +1,153 @@
+{
+  "schema": "GTM_REPAIR_CONSOLE_HTTP_PROBE_V1",
+  "at": "2026-11-25T15:02:57.771463+00:00",
+  "scope": "Actual loopback HTTP server and read-only Paper console command; no native client or Daytona deployment claim.",
+  "observed": {
+    "version": "1.0.4-r4-repair",
+    "minecraft": "26.3",
+    "tps": 19.591060652185014,
+    "mspt": 11.837806435643564,
+    "player_count": 1
+  },
+  "passed": true,
+  "checks": [
+    {
+      "name": "Static dashboard served with local security headers",
+      "expected_status": 200,
+      "actual_status": 200,
+      "passed": true
+    },
+    {
+      "name": "Dashboard JavaScript served",
+      "expected_status": 200,
+      "actual_status": 200,
+      "passed": true
+    },
+    {
+      "name": "Dashboard CSS served",
+      "expected_status": 200,
+      "actual_status": 200,
+      "passed": true
+    },
+    {
+      "name": "Missing API bearer rejected",
+      "expected_status": 401,
+      "actual_status": 401,
+      "passed": true
+    },
+    {
+      "name": "Incorrect API bearer rejected",
+      "expected_status": 401,
+      "actual_status": 401,
+      "passed": true
+    },
+    {
+      "name": "Foreign Host rejected",
+      "expected_status": 403,
+      "actual_status": 403,
+      "passed": true
+    },
+    {
+      "name": "Foreign Origin rejected",
+      "expected_status": 403,
+      "actual_status": 403,
+      "passed": true
+    },
+    {
+      "name": "Sandboxed null Origin rejected",
+      "expected_status": 403,
+      "actual_status": 403,
+      "passed": true
+    },
+    {
+      "name": "Authenticated live Paper snapshot",
+      "expected_status": 200,
+      "actual_status": 200,
+      "passed": true
+    },
+    {
+      "name": "Authenticated bounded server log",
+      "expected_status": 200,
+      "actual_status": 200,
+      "passed": true
+    },
+    {
+      "name": "Multiline command rejected",
+      "expected_status": 400,
+      "actual_status": 400,
+      "passed": true
+    },
+    {
+      "name": "Lifecycle command requires explicit confirmation",
+      "expected_status": 409,
+      "actual_status": 409,
+      "passed": true
+    },
+    {
+      "name": "Wrapped lifecycle command requires confirmation",
+      "expected_status": 409,
+      "actual_status": 409,
+      "passed": true
+    },
+    {
+      "name": "Credential command rejected",
+      "expected_status": 400,
+      "actual_status": 400,
+      "passed": true
+    },
+    {
+      "name": "Null command is a client error",
+      "expected_status": 400,
+      "actual_status": 400,
+      "passed": true
+    },
+    {
+      "name": "Array command is a client error",
+      "expected_status": 400,
+      "actual_status": 400,
+      "passed": true
+    },
+    {
+      "name": "Non-boolean confirmation rejected",
+      "expected_status": 400,
+      "actual_status": 400,
+      "passed": true
+    },
+    {
+      "name": "Malformed JSON is a client error",
+      "expected_status": 400,
+      "actual_status": 400,
+      "passed": true
+    },
+    {
+      "name": "Incorrect media type rejected",
+      "expected_status": 400,
+      "actual_status": 400,
+      "passed": true
+    },
+    {
+      "name": "Oversized request rejected",
+      "expected_status": 400,
+      "actual_status": 400,
+      "passed": true
+    },
+    {
+      "name": "Local guide answers without inventing a persistent weapon queue",
+      "expected_status": 200,
+      "actual_status": 200,
+      "passed": true
+    },
+    {
+      "name": "Real Paper console executes read-only list",
+      "expected_status": 200,
+      "actual_status": 200,
+      "passed": true
+    },
+    {
+      "name": "Command has matching START and RESULT audit entries",
+      "passed": true
+    }
+  ],
+  "passed_count": 23,
+  "total_count": 23
+}
