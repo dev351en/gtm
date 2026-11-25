@@ -90,7 +90,7 @@ def build_core(overlay: Path, patched_vehicle: Path, dest: Path, patched_npc: Pa
             "source_status": "Maintained source overlay and verified vehicle/target-gate patches over preserved 1.0.3; not a full original-source rebuild"}
 
 
-def build(overlay: Path, vehicle: Path, packs: Path, output: Path, pack_url: str) -> dict:
+def build(overlay: Path, vehicle: Path, packs: Path, output: Path, pack_url: str, server_only: bool = False) -> dict:
     output.mkdir(parents=True, exist_ok=True)
     core_path = "plugins/SDCraftCore-" + VERSION + ".jar"
     report = build_core(overlay, vehicle, output / core_path)
@@ -126,7 +126,8 @@ def build(overlay: Path, vehicle: Path, packs: Path, output: Path, pack_url: str
                 "java_pack": {"path": "resourcepacks/GTM_Repair_128_Java.zip",
                               "sha1": hashlib.sha1(java_pack.read_bytes()).hexdigest(),
                               "id": pack_report["java_pack_id"], "url": pack_url},
-                "scope": "Update for the reviewed 1.0.3 and 1.0.4 runtimes; existing worlds, accounts, ownership, routes and configuration are retained. The optional Java HUD is installed separately on the client."}
+                "scope": ("Server-only no-client-mod Java/Bedrock candidate; existing worlds, accounts, ownership, routes and configuration are retained. Bedrock acceptance remains pending." if server_only else
+                          "Update for the reviewed 1.0.3 and 1.0.4 runtimes; existing worlds, accounts, ownership, routes and configuration are retained. The optional Java HUD is installed separately on the client.")}
     (output / "repair-manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
     (output / "build-report.json").write_text(json.dumps(report, indent=2) + "\n")
     shutil.copyfile(packs / "pack-repair-report.json", output / "pack-repair-report.json")
@@ -139,6 +140,10 @@ def build(overlay: Path, vehicle: Path, packs: Path, output: Path, pack_url: str
     if guide.is_file(): shutil.copyfile(guide, output / "README.md")
     notes = ROOT / "packaging/repair/RELEASE_NOTES.md"
     if notes.is_file(): shutil.copyfile(notes, output / "RELEASE_NOTES.md")
+    if server_only:
+        server_guide = ROOT / "docs/SERVER_ONLY_CROSSPLAY_2026-11-26.md"
+        shutil.copyfile(server_guide, output / "SERVER_ONLY_CROSSPLAY.md")
+        return manifest
     client = ROOT / "client-hud"
     client_report = json.loads((client / "build/build-report.json").read_text())
     client_jar = client / "build/libs/GTM-Client-HUD-1.0.0.jar"
@@ -180,5 +185,8 @@ if __name__ == "__main__":
     p.add_argument("--packs", type=Path, default=ROOT / "build/repaired-packs")
     p.add_argument("--output", type=Path, default=ROOT / "build/repaired-release")
     p.add_argument("--pack-url", default="https://github.com/dev351en/gtm/releases/download/gtm-spec-repair-1.0.5-20261125/GTM_Repair_128_Java.zip")
+    p.add_argument("--server-only", action="store_true", help="Produce a separate no-client-JAR release payload")
     args = p.parse_args()
-    print(json.dumps(build(args.overlay, args.vehicle_class, args.packs, args.output, args.pack_url), indent=2))
+    if args.server_only:
+        VERSION = "1.0.6-r4-crossplay"
+    print(json.dumps(build(args.overlay, args.vehicle_class, args.packs, args.output, args.pack_url, args.server_only), indent=2))
