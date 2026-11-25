@@ -5,15 +5,26 @@ title GTM - Connect to Existing Daytona Server
 set "GTM_PY_ARGS="
 set "GTM_PY=%~dp0.venv\Scripts\python.exe"
 if exist "%GTM_PY%" goto run
-where py.exe >nul 2>nul
-if errorlevel 1 goto python_on_path
-set "GTM_PY=py.exe"
-set "GTM_PY_ARGS=-3"
-goto run
-:python_on_path
+set "GTM_PY=%~dp0..\.venv\Scripts\python.exe"
+if exist "%GTM_PY%" goto run
 where python.exe >nul 2>nul
-if errorlevel 1 goto missing_python
-set "GTM_PY=python.exe"
+if not errorlevel 1 (
+  python.exe -c "import sys" >nul 2>nul
+  if not errorlevel 1 (
+    set "GTM_PY=python.exe"
+    goto run
+  )
+)
+where py.exe >nul 2>nul
+if not errorlevel 1 (
+  py.exe -3 -c "import sys" >nul 2>nul
+  if not errorlevel 1 (
+    set "GTM_PY=py.exe"
+    set "GTM_PY_ARGS=-3"
+    goto run
+  )
+)
+goto missing_python
 :run
 "%GTM_PY%" %GTM_PY_ARGS% "%~dp0tools\daytona_tunnel.py" %*
 set "GTM_EXIT=%ERRORLEVEL%"

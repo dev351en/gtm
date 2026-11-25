@@ -11,6 +11,8 @@ echo.
 
 if exist ".venv\Scripts\python.exe" (
     ".venv\Scripts\python.exe" "tools\run_playit_windows.py"
+) else if exist "..\.venv\Scripts\python.exe" (
+    "..\.venv\Scripts\python.exe" "tools\run_playit_windows.py"
 ) else (
     python "tools\run_playit_windows.py"
 )

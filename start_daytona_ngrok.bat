@@ -10,6 +10,8 @@ echo.
 
 if exist ".venv\Scripts\python.exe" (
     ".venv\Scripts\python.exe" "tools\start_daytona_ngrok.py"
+) else if exist "..\.venv\Scripts\python.exe" (
+    "..\.venv\Scripts\python.exe" "tools\start_daytona_ngrok.py"
 ) else (
     python "tools\start_daytona_ngrok.py"
 )
