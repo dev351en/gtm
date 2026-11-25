@@ -30,6 +30,7 @@ REVIEWED_CORE_HASHES = frozenset({
     BASE_CORE,
     "cd7db28cf7959e5c0801507c647479ebffca67616a8c543333ce24c8051ad5ac",  # released 1.0.4
     "17d9a549c83d16fa5cc15af66aa29dccbe45cef7793e49a47476d552c3bd447a",  # released 1.0.5
+    "d050630fcbf1183a4a94dee076b8ca5292e28f2de1e1abe4cf6355abee0038b5",  # built server-only 1.0.6
 })
 BASE_BEDROCK = "d02cc8f41f6f97799dedab824b6fd23049c01556475e0031a50824543b507aab"
 JAVA_PACK = "resourcepacks/GTM_Repair_128_Java.zip"

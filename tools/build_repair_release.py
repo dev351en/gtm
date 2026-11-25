@@ -145,6 +145,9 @@ def build(overlay: Path, vehicle: Path, packs: Path, output: Path, pack_url: str
         shutil.copyfile(server_guide, output / "SERVER_ONLY_CROSSPLAY.md")
         shutil.copyfile(server_guide, output / "README.md")
         shutil.copyfile(server_guide, output / "RELEASE_NOTES.md")
+        checker = output / "tools/check_geyser_setup.py"
+        checker.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(ROOT / "tools/check_geyser_setup.py", checker)
         return manifest
     client = ROOT / "client-hud"
     client_report = json.loads((client / "build/build-report.json").read_text())
@@ -190,5 +193,5 @@ if __name__ == "__main__":
     p.add_argument("--server-only", action="store_true", help="Produce a separate no-client-JAR release payload")
     args = p.parse_args()
     if args.server_only:
-        VERSION = "1.0.6-r4-crossplay"
+        VERSION = "1.0.7-r4-crossplay-models"
     print(json.dumps(build(args.overlay, args.vehicle_class, args.packs, args.output, args.pack_url, args.server_only), indent=2))

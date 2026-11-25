@@ -217,7 +217,6 @@ AutoCloseable {
     private Menu menu(Player p, String title, int size) {
         return new Menu(p, this.plugin.authenticatedSession(p), title, size,
                 CrossplayPhonePolicy.useCustomFontTitle(
-                        this.plugin.getConfig().getBoolean("phone.crossplay-safe", true),
                         this.plugin.getConfig().getBoolean("phone.custom-gui", true),
                         this.services.glyphsAvailable(p)));
     }
@@ -743,16 +742,17 @@ AutoCloseable {
     }
 
     private ItemStack icon(String id, String title, String ... lore) {
-        // Both editions understand native items; custom item-model mappings
-        // are used only when an owner explicitly disables crossplay-safe UI.
-        boolean safe = this.plugin.getConfig().getBoolean("phone.crossplay-safe", true);
-        ItemStack i = GtmPhoneApps.item(safe ? Material.valueOf(CrossplayPhonePolicy.iconMaterialName(id)) : Material.PAPER,
-                title, lore);
-        if (!safe) {
-            i.editMeta(meta -> meta.setItemModel(Objects.requireNonNull(
-                    NamespacedKey.fromString(this.art.require(id).model()))));
-        }
-        return i;
+        // Crossplay must retain the same Java item_model ID on the server.
+        // Geyser maps this paper + item_model pair to the Bedrock model and
+        // the resource pack provides the texture. Never silently replace
+        // original GTM art with unrelated vanilla items just because the
+        // player has no Fabric mod.
+        ItemStack item = GtmPhoneApps.item(Material.PAPER, title, lore);
+        NamespacedKey model = Objects.requireNonNull(
+                NamespacedKey.fromString(this.art.require(id).model()),
+                "Unknown GTM phone model: " + id);
+        item.editMeta(meta -> meta.setItemModel(model));
+        return item;
     }
 
     private static ItemStack item(Material type, String title, String ... lines) {

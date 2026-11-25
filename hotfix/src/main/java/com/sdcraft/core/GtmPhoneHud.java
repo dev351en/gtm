@@ -407,8 +407,7 @@ implements AutoCloseable {
     }
 
     private Component glyph(Player p, String id, String fallback, boolean large) {
-        return !this.plugin.getConfig().getBoolean("phone.crossplay-safe", true)
-                && this.phone.services().glyphsAvailable(p) ? Component.text((String)this.art.require(id).glyph()).font(Key.key((String)"gtm", (String)(large ? "ui_large" : "ui"))) : Component.text((String)fallback);
+        return this.phone.services().glyphsAvailable(p) ? Component.text((String)this.art.require(id).glyph()).font(Key.key((String)"gtm", (String)(large ? "ui_large" : "ui"))) : Component.text((String)fallback);
     }
 
     void tick() {
