@@ -746,7 +746,7 @@ AutoCloseable {
         // Both editions understand native items; custom item-model mappings
         // are used only when an owner explicitly disables crossplay-safe UI.
         boolean safe = this.plugin.getConfig().getBoolean("phone.crossplay-safe", true);
-        ItemStack i = GtmPhoneApps.item(safe ? CrossplayPhonePolicy.iconMaterial(id) : Material.PAPER,
+        ItemStack i = GtmPhoneApps.item(safe ? Material.valueOf(CrossplayPhonePolicy.iconMaterialName(id)) : Material.PAPER,
                 title, lore);
         if (!safe) {
             i.editMeta(meta -> meta.setItemModel(Objects.requireNonNull(
