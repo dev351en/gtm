@@ -13,7 +13,7 @@ import org.objectweb.asm.MethodVisitor;
 import org.objectweb.asm.Opcodes;
 
 /**
- * Build-only, fail-closed repair of two verified call sites in the preserved
+ * Build-only, fail-closed repair of four verified call sites in the preserved
  * owner-supplied core. Every other instruction/class is retained. This does not
  * claim to recover the original missing source and never changes the input JAR.
  */
@@ -22,9 +22,13 @@ public final class PatchVehicleBytecode {
     private static final String CLASS_SHA256 = "dd621a2d4f8b5962c890f45559d84fe1adaed76957ff6441c66d8c777b24b4c6";
     private static final String ENTRY = "com/sdcraft/core/GtmVehicles.class";
     private static final String HELPER = "com/sdcraft/core/vehicle/VehicleRenderTransform";
+    private static final String BOARDING = "com/sdcraft/core/vehicle/VehicleBoarding";
+    private static final String OWNER = "com/sdcraft/core/GtmVehicles";
     private static final Map<String, String> METHODS = Map.of(
         "setModel", "(Lorg/bukkit/entity/ItemDisplay;Lcom/sdcraft/core/vehicle/RoadVehicleProfile$Render;)V",
-        "animate", "(Lcom/sdcraft/core/GtmVehicles$Active;)V"
+        "animate", "(Lcom/sdcraft/core/GtmVehicles$Active;)V",
+        "lambda$inventory$0", "(Lorg/bukkit/entity/Player;Lcom/sdcraft/core/GtmVehicles$Garage;I)V",
+        "lambda$openGarage$0", "(Lcom/sdcraft/core/vehicle/OwnedRoadVehicle;Lcom/sdcraft/core/vehicle/RoadVehicleProfile;Lorg/bukkit/inventory/meta/ItemMeta;)V"
     );
 
     public static void main(String[] args) throws Exception {
@@ -41,7 +45,7 @@ public final class PatchVehicleBytecode {
         Path destination = Path.of(args[1]).resolve(ENTRY);
         Files.createDirectories(destination.getParent());
         Files.write(destination, patched);
-        System.out.println("Vehicle render repair: exactly two verified call sites; input retained; output SHA-256 " + sha256(patched));
+        System.out.println("Vehicle repair: two render hooks plus garage boarding/lore hooks; input retained; output SHA-256 " + sha256(patched));
     }
 
     public static byte[] patch(byte[] original) throws Exception {
@@ -60,20 +64,46 @@ public final class PatchVehicleBytecode {
                 if (matches.put(name, 0) != null) throw new IllegalStateException("Ambiguous vehicle method: " + name);
                 return new MethodVisitor(Opcodes.ASM9, delegate) {
                     @Override public void visitMethodInsn(int opcode, String owner, String method, String desc, boolean isInterface) {
-                        if (owner.equals(HELPER)) throw new IllegalStateException("Vehicle render correction is already installed");
-                        if (method.equals("setTransformationMatrix")) {
+                        if (owner.equals(HELPER) || owner.equals(BOARDING)) throw new IllegalStateException("Vehicle correction is already installed");
+                        if ((name.equals("setModel") || name.equals("animate")) && method.equals("setTransformationMatrix")) {
                             if (opcode != Opcodes.INVOKEINTERFACE || !isInterface || !owner.equals("org/bukkit/entity/ItemDisplay") || !desc.equals("(Lorg/joml/Matrix4f;)V")) {
                                 throw new IllegalStateException("Unexpected vehicle matrix call in " + name);
                             }
                             matches.compute(name, (key, count) -> count + 1);
                             super.visitMethodInsn(Opcodes.INVOKESTATIC, HELPER, "compensateItemFacing", "(Lorg/joml/Matrix4f;)Lorg/joml/Matrix4f;", false);
+                        } else if (name.equals("lambda$inventory$0") && method.equals("enter")) {
+                            if (opcode != Opcodes.INVOKEVIRTUAL || isInterface || !owner.equals(OWNER)
+                                    || !desc.equals("(Lorg/bukkit/entity/Player;Ljava/util/UUID;Z)Z")) {
+                                throw new IllegalStateException("Unexpected garage boarding call");
+                            }
+                            matches.compute(name, (key, count) -> count + 1);
+                            super.visitMethodInsn(Opcodes.INVOKESTATIC, BOARDING, "enterFromGarage",
+                                    "(Lcom/sdcraft/core/GtmVehicles;Lorg/bukkit/entity/Player;Ljava/util/UUID;Z)Z", false);
+                            return;
+                        } else if (name.equals("lambda$openGarage$0") && method.equals("setLore")) {
+                            if (opcode != Opcodes.INVOKEINTERFACE || !isInterface
+                                    || !owner.equals("org/bukkit/inventory/meta/ItemMeta") || !desc.equals("(Ljava/util/List;)V")) {
+                                throw new IllegalStateException("Unexpected garage lore call");
+                            }
+                            matches.compute(name, (key, count) -> count + 1);
+                            super.visitVarInsn(Opcodes.ALOAD, 1); // Existing RoadVehicleProfile lambda capture.
+                            super.visitVarInsn(Opcodes.ALOAD, 0); // Existing OwnedRoadVehicle lambda capture.
+                            super.visitMethodInsn(Opcodes.INVOKESTATIC, BOARDING, "garageLore",
+                                    "(Ljava/util/List;Lcom/sdcraft/core/vehicle/RoadVehicleProfile;Lcom/sdcraft/core/vehicle/OwnedRoadVehicle;)Ljava/util/List;", false);
                         }
                         super.visitMethodInsn(opcode, owner, method, desc, isInterface);
+                    }
+                    @Override public void visitMaxs(int stack, int locals) {
+                        // The lore hook briefly has ItemMeta/List/profile/record
+                        // on the stack. Existing frames and local types stay intact.
+                        super.visitMaxs(name.equals("lambda$openGarage$0") ? Math.max(stack, 4) : stack, locals);
                     }
                 };
             }
         }, 0);
-        if (!matches.equals(Map.of("animate", 1, "setModel", 1))) throw new IOException("Expected exactly one matrix call in each vehicle render method, got " + matches);
+        if (!matches.equals(Map.of("animate", 1, "setModel", 1, "lambda$inventory$0", 1, "lambda$openGarage$0", 1))) {
+            throw new IOException("Expected exactly four reviewed vehicle call sites, got " + matches);
+        }
         return writer.toByteArray();
     }
 

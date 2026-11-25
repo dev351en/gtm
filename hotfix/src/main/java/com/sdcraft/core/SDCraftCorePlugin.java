@@ -179,6 +179,7 @@ TabCompleter {
     private GtmNativeFinishes nativeFinishes;
     private GtmWardrobe wardrobe;
     private GtmPhoneApps phoneApps;
+    private GtmClientHud clientHud;
     private GtmWebConsole webConsole;
     private GtmSigns signs;
     private GtmServiceWorkers serviceWorkers;
@@ -353,8 +354,9 @@ TabCompleter {
         Bukkit.getPluginManager().registerEvents((Listener)this.guns, (Plugin)this);
         Bukkit.getPluginManager().registerEvents((Listener)this.gta, (Plugin)this);
         Bukkit.getPluginManager().registerEvents((Listener)this.npcs, (Plugin)this);
-        this.gtmDialogue = new GtmDialogue(this, this.npcs, this.ledger);
+        this.gtmDialogue = new GtmDialogue(this, this.npcs, this.ledger, this.ai);
         Bukkit.getPluginManager().registerEvents((Listener)this.gtmDialogue, (Plugin)this);
+        this.gtmDialogue.start();
         World mainWorld = Bukkit.getWorld((String)this.getConfig().getString("world.name", "world"));
         if (mainWorld != null) {
             if (this.getConfig().getBoolean("world.apply-city-spawn", false)) {
@@ -367,7 +369,7 @@ TabCompleter {
             w.setGameRule(GameRules.ADVANCE_TIME, false);
         }
         Bukkit.getScheduler().runTaskTimer((Plugin)this, this::second, 20L, 20L);
-        Bukkit.getScheduler().runTaskTimer((Plugin)this, () -> this.npcs.tick(), 100L, 200L);
+        Bukkit.getScheduler().runTaskTimer((Plugin)this, () -> this.npcs.tick(), 100L, 20L);
         Bukkit.getScheduler().runTaskTimer((Plugin)this, () -> this.npcs.pulse(), 120L, 10L);
         for (Player player : Bukkit.getOnlinePlayers()) {
             this.authentication.begin(player);
@@ -392,6 +394,8 @@ TabCompleter {
     }
 
     public void onDisable() {
+        if (clientHud != null) this.shutdownPart("optional client HUD", clientHud::close);
+        if (ai != null) this.shutdownPart("NPC conversation backend", ai::close);
         if (webConsole != null) this.shutdownPart("local control centre", webConsole::close);
         Bukkit.getServicesManager().unregisterAll((Plugin)this);
         for (UUID id : new ArrayList<UUID>(this.duties.keySet())) {
@@ -813,6 +817,9 @@ TabCompleter {
             Objects.requireNonNull(this.getCommand("taxiroute")).setExecutor((CommandExecutor)this.taxi);
             Objects.requireNonNull(this.getCommand("foodroute")).setExecutor((CommandExecutor)this.foodCourier);
             this.phoneApps.start();
+            if (getConfig().getBoolean("phone.client-hud-enabled", true)) {
+                this.clientHud = new GtmClientHud(this, this.phoneApps);
+            }
             this.signs.start();
             this.taxi.start();
             this.foodCourier.start();
@@ -960,16 +967,26 @@ TabCompleter {
 
     boolean hasLoadedGtmPack(Player player) { return loadedPacks.contains(player.getUniqueId()); }
 
+    boolean hasClientHud(Player player) { return clientHud != null && clientHud.active(player); }
+
+    boolean openClientPhone(Player player) { return clientHud != null && clientHud.openPhone(player); }
+
+    boolean isAttackableNpc(Entity entity) { return npcs != null && npcs.isAttackable(entity); }
+
+    String npcDialogueStatus() { return ai == null ? "not-started" : ai.status(); }
+
     private void offerWeaponUpgrade(Player player) {
         try { GtmWeaponUpgrade.offer(this, player); }
         catch (RuntimeException failure) { getLogger().warning("Native weapon upgrade remains pending for " + player.getUniqueId() + ": " + failure.getClass().getSimpleName()); }
     }
 
     private void showRepairWelcome(Player player) {
+        if (clientHud != null && clientHud.capable(player)) return;
         if (!isAuthenticated(player) || !hasLoadedGtmPack(player) || phoneApps == null || !phoneApps.available(player) || isDowned(player)) return;
         NamespacedKey seen = new NamespacedKey(this, "repair_ui_seen_v1");
         if (player.getPersistentDataContainer().has(seen, PersistentDataType.BYTE)) return;
         Bukkit.getScheduler().runTaskLater(this, () -> {
+            if (clientHud != null && clientHud.capable(player)) return;
             if (!isAuthenticated(player) || !hasLoadedGtmPack(player) || !phoneApps.available(player) || isDowned(player)) return;
             if (player.getPersistentDataContainer().has(seen, PersistentDataType.BYTE)) return;
             // Do not interrupt another transaction menu, a vehicle ride or a login flow.
@@ -1314,6 +1331,9 @@ TabCompleter {
 
     private void onAuthenticationLost(Player player) {
         UUID id = player.getUniqueId();
+        if (clientHud != null) clientHud.authenticationLost(player);
+        if (gtmDialogue != null) gtmDialogue.authenticationLost(player);
+        if (ai != null) ai.forget(player.getUniqueId());
         if (this.vehicles != null) {
             this.vehicles.onAuthenticationLost(player);
         }
@@ -1388,14 +1408,16 @@ TabCompleter {
             return;
         }
         e.setCancelled(true);
+        if (e.getHand() != org.bukkit.inventory.EquipmentSlot.HAND) return;
+        boolean conversation = this.gtmDialogue != null && this.gtmDialogue.select(e.getPlayer(), e.getRightClicked());
         if (this.npcs.isAmbient(id)) {
-            e.getPlayer().sendMessage("\u00a76" + this.npcs.name(id) + " \u00a77(" + this.npcs.role(id) + "): \u00a7f" + this.npcs.greeting(id, "en"));
-            if (this.npcs.isMerchant(id)) {
+            if (!conversation) e.getPlayer().sendMessage("\u00a76" + this.npcs.name(id) + " \u00a77(" + this.npcs.role(id) + "): \u00a7f" + this.npcs.greeting(id, this.ledger.language(e.getPlayer().getUniqueId())));
+            if (this.npcs.isMerchant(id) && !e.getPlayer().isSneaking()) {
                 this.gta.handleNpcAction(e.getPlayer(), "view_catalog");
             }
             return;
         }
-        this.openNpc(e.getPlayer(), id);
+        if (!conversation || !e.getPlayer().isSneaking()) this.openNpc(e.getPlayer(), id);
     }
 
     @EventHandler
@@ -2166,7 +2188,8 @@ TabCompleter {
         }
         if (action.equals("status")) {
             this.msg(sender, "Paper core enabled; " + this.npcs.status() + ". Citizens=" + Bukkit.getPluginManager().isPluginEnabled("Citizens"));
-            this.msg(sender, "Players " + Bukkit.getOnlinePlayers().size() + ", active duty=" + this.duties.size() + ", downed=" + this.downed.size() + ". AI and autonomous driving require external verified bridges.");
+            this.msg(sender, "Players " + Bukkit.getOnlinePlayers().size() + ", active duty=" + this.duties.size() + ", downed=" + this.downed.size() + ".");
+            this.msg(sender, "NPC dialogue: " + npcDialogueStatus() + ". Autonomous traffic driving is not implemented.");
             return true;
         }
         if (action.equals("promotion")) {
@@ -2618,7 +2641,7 @@ TabCompleter {
                 this.err(sender, "/sdc talk <npc-id> <message>");
                 return true;
             }
-            this.ai.speak(p, a[1], this.npcs.name(a[1]), this.npcs.role(a[1]), this.npcs.dept(a[1]), this.ledger.language(id), String.join((CharSequence)" ", Arrays.copyOfRange(a, 2, a.length)), this.npcs.greeting(a[1], this.ledger.language(id)));
+            if (this.gtmDialogue != null) this.gtmDialogue.talkById(p, a[1], String.join(" ", Arrays.copyOfRange(a, 2, a.length)));
             return true;
         }
         if (action.equals("mission")) {

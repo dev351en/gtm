@@ -434,7 +434,7 @@ implements AutoCloseable {
                 if (prior != null && prior != inside) {
                     this.cinematic(p, inside ? "city_enter" : "city_exit", this.phone.services().district(p));
                 }
-                if (!this.phone.preferences(p.getUniqueId()).hud()) {
+                if (!this.phone.preferences(p.getUniqueId()).hud() || this.plugin.hasClientHud(p)) {
                     this.status.remove(p);
                     continue;
                 }

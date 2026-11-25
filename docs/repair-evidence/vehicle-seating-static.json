@@ -1,0 +1,124 @@
+{
+  "schema": "GTM_VEHICLE_SEATING_STATIC_VERIFICATION_V1",
+  "status": "PASS",
+  "scope": "Maintained four-seat traditional-auto geometry/profiles, existing emergency front seats, bounded garage boarding adapter; no live multiplayer claim in this static report.",
+  "tests": {
+    "geometry_python": 9,
+    "pack_regressions_python": 12,
+    "vehicle_junit": 31,
+    "aggregate_junit_at_vehicle_handoff": 87,
+    "equipment_compatibility_assertions": 826,
+    "exact_vehicle_bytecode_checks": 5
+  },
+  "java_test_report": "/workspace/scratch/99da9b9c810e/vehicle-seating-test-results/TEST-junit-jupiter.xml",
+  "geometry": {
+    "model": "gtm:rickshaw_traditional",
+    "raise_blocks": 0.45,
+    "states": [
+      "normal",
+      "damaged",
+      "critical",
+      "wreck"
+    ],
+    "widen_per_side_blocks": 0.42,
+    "rear_bench_width_blocks": 1.8279999999999998,
+    "seats": {
+      "driver": 1,
+      "passengers": 3,
+      "total": 4,
+      "rear_x": [
+        -0.6,
+        0.6,
+        0.0
+      ]
+    },
+    "existing_front_passenger_profiles_enabled": [
+      "gtm:emerg_patrol_sedan",
+      "gtm:emerg_police_suv"
+    ],
+    "canopy_raised_states": [
+      "normal",
+      "damaged",
+      "critical"
+    ],
+    "java_models": [
+      "assets/gtm/models/item/rickshaw_traditional.json",
+      "assets/gtm/models/item/rickshaw_traditional_critical.json",
+      "assets/gtm/models/item/rickshaw_traditional_damaged.json",
+      "assets/gtm/models/item/rickshaw_traditional_wreck.json",
+      "assets/gtm/models/item/vt_rickshaw_traditional_critical_body.json",
+      "assets/gtm/models/item/vt_rickshaw_traditional_critical_wheel_rl.json",
+      "assets/gtm/models/item/vt_rickshaw_traditional_critical_wheel_rr.json",
+      "assets/gtm/models/item/vt_rickshaw_traditional_damaged_body.json",
+      "assets/gtm/models/item/vt_rickshaw_traditional_damaged_wheel_rl.json",
+      "assets/gtm/models/item/vt_rickshaw_traditional_damaged_wheel_rr.json",
+      "assets/gtm/models/item/vt_rickshaw_traditional_normal_body.json",
+      "assets/gtm/models/item/vt_rickshaw_traditional_normal_wheel_rl.json",
+      "assets/gtm/models/item/vt_rickshaw_traditional_normal_wheel_rr.json",
+      "assets/gtm/models/item/vt_rickshaw_traditional_wreck_body.json",
+      "assets/gtm/models/item/vt_rickshaw_traditional_wreck_wheel_rl.json",
+      "assets/gtm/models/item/vt_rickshaw_traditional_wreck_wheel_rr.json"
+    ],
+    "bedrock_geometries": [
+      "models/entity/rd/rickshaw_traditional.geo.json",
+      "models/entity/rd/rickshaw_traditional_critical.geo.json",
+      "models/entity/rd/rickshaw_traditional_damaged.geo.json",
+      "models/entity/rd/rickshaw_traditional_wreck.geo.json",
+      "models/entity/rd/vt_rickshaw_traditional_critical_body.geo.json",
+      "models/entity/rd/vt_rickshaw_traditional_critical_wheel_rl.geo.json",
+      "models/entity/rd/vt_rickshaw_traditional_critical_wheel_rr.geo.json",
+      "models/entity/rd/vt_rickshaw_traditional_damaged_body.geo.json",
+      "models/entity/rd/vt_rickshaw_traditional_damaged_wheel_rl.geo.json",
+      "models/entity/rd/vt_rickshaw_traditional_damaged_wheel_rr.geo.json",
+      "models/entity/rd/vt_rickshaw_traditional_normal_body.geo.json",
+      "models/entity/rd/vt_rickshaw_traditional_normal_wheel_rl.geo.json",
+      "models/entity/rd/vt_rickshaw_traditional_normal_wheel_rr.geo.json",
+      "models/entity/rd/vt_rickshaw_traditional_wreck_body.geo.json",
+      "models/entity/rd/vt_rickshaw_traditional_wreck_wheel_rl.geo.json",
+      "models/entity/rd/vt_rickshaw_traditional_wreck_wheel_rr.geo.json",
+      "models/entity/rickshaw_traditional.geo.json",
+      "models/entity/rickshaw_traditional_critical.geo.json",
+      "models/entity/rickshaw_traditional_damaged.geo.json",
+      "models/entity/rickshaw_traditional_wreck.geo.json",
+      "models/entity/rt/vt_rickshaw_traditional_critical_body.geo.json",
+      "models/entity/rt/vt_rickshaw_traditional_critical_wheel_rl.geo.json",
+      "models/entity/rt/vt_rickshaw_traditional_critical_wheel_rr.geo.json",
+      "models/entity/rt/vt_rickshaw_traditional_damaged_body.geo.json",
+      "models/entity/rt/vt_rickshaw_traditional_damaged_wheel_rl.geo.json",
+      "models/entity/rt/vt_rickshaw_traditional_damaged_wheel_rr.geo.json",
+      "models/entity/rt/vt_rickshaw_traditional_normal_body.geo.json",
+      "models/entity/rt/vt_rickshaw_traditional_normal_wheel_rl.geo.json",
+      "models/entity/rt/vt_rickshaw_traditional_normal_wheel_rr.geo.json",
+      "models/entity/rt/vt_rickshaw_traditional_wreck_body.geo.json",
+      "models/entity/rt/vt_rickshaw_traditional_wreck_wheel_rl.geo.json",
+      "models/entity/rt/vt_rickshaw_traditional_wreck_wheel_rr.geo.json"
+    ],
+    "collision_half_width": 1.07,
+    "collision_max_y": 2.238,
+    "roof_underside_y": 2.0875,
+    "seated_head_with_helmet_max_y": 2.060447,
+    "minimum_head_clearance_blocks": 0.027053,
+    "normal_geometry_sha256": "bac1c4669f190a5a65a3aa313b528799bbeacdfb18e36c41f5e284c1e4d5a29a",
+    "profile_resource_sha256": "a78b5cc05343395dbb94b928af0ac9cd86fff16e745a38a5cf9bc28d4b711bf3",
+    "animation_resource_sha256": "3b2a112fe587c9b02ca01246fc4c506e8a755c827e80a4bb353a3bf79cf8f783",
+    "preserved": [
+      "driver and front wheel",
+      "driving parameters",
+      "wheel shape/radius/axis and vertical/depth pivots",
+      "all model IDs",
+      "all texture bytes and UVs",
+      "collapsed wreck height",
+      "other 84 profiles"
+    ]
+  },
+  "patched_GtmVehicles_class_sha256": "0677ac5af1e338e47bcf0c9db7395bd00ff4d3a61d6836587d881186638986f8",
+  "runtime_admission": "Existing core authentication, permissions, proximity, stationary condition, owner/key/lock/service reservation and property-volume checks preserved. Garage dispatch now uses the same automatic admission command path.",
+  "runtime_lifecycle": "Existing per-seat carrier, occupant validation, accepted-pose movement, safe exit, quit/death and deactivation logic preserved. Actual Paper26.3 teleport0 uses POSITION_RIDER passenger mode.",
+  "capacity_audit": "vehicle-capacity-audit.json",
+  "network_probe": "tools/probe_vehicle_passengers.py; results are a separate actual-server report",
+  "limits": [
+    "No invented rear bench in the30 civilian car meshes.",
+    "Four bus models still need real interiors and passenger geometry.",
+    "Native Bedrock, broad terrain/slope/suspension and four-GUI-client visuals are not certified."
+  ]
+}

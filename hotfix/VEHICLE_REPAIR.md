@@ -26,8 +26,14 @@ are not remapped.
 The latest full engine source is still unavailable. `RoadPhysics` is a maintained
 replacement using the original public method and record signatures, reconstructed
 from the owner-provided binary's API. It is not represented as the lost original
-source. The adapter itself is retained and receives two stack-neutral calls through
+source. The adapter itself is retained and receives four bounded hooks through
 the build-only ASM transformer `tools/PatchVehicleBytecode.java`.
+
+Two hooks correct the rendering transforms. The later seating repair changes
+the garage's one `enter` call to the maintained `VehicleBoarding` adapter and
+adds actual loaded capacity/access guidance to its existing lore callback. The
+adapter delegates to the engine's normal `/car enter` path; it does not replace
+authentication, locks, keys, reservations, proximity, collision or safe exits.
 
 The transformer checks the entire original core SHA-256, the vehicle class
 SHA-256, class identity, method descriptors, invocation descriptors and exact
@@ -51,7 +57,7 @@ dependency and is not required in the game.
   These modes read speed times the timestep themselves and are intentionally
   unaffected by the road integration change.
 
-## Executed verification
+## Executed verification of the initial rendering/handling repair
 
 Java 25 compilation and **24 vehicle JUnit tests passed**, with zero failed or skipped
 tests. Coverage includes analytic acceleration/stopping distance, timestep
@@ -112,7 +118,103 @@ repaired geometry's SHA-256 is
 the maintained profile resource is
 `cbafba36c9a031ffe5ed54421946e0a0e21198f4561bfa13b282fc94e698d4a4`.
 
-The final native visual check of the newly raised canopy is pending the staging
-restart and matching pack reload. Native Bedrock driving, laptop performance,
-broad collision/terrain coverage and deployment to the existing Daytona server
-remain outside the observations recorded here.
+The initial raised-canopy build subsequently passed the actual Java visual
+check; see `docs/repair-evidence/canopy-clearance.json` and
+`docs/repair-evidence/vehicle-canopy-final.png`. That historical image predates
+the wider four-seat cabin described below. Native Bedrock driving, laptop
+performance, broad collision/terrain coverage and deployment to the existing
+Daytona server remain outside these observations.
+
+## Driver plus three passengers: the subsequent 1.0.5 repair
+
+The loaded traditional-auto profile originally contained **three total seats**:
+driver, rear left and rear right. It did not satisfy the owner's requirement
+for **three passengers in addition to the driver**. The garage also always
+requested the driver seat, unlike world right-click and `/car enter`, which
+already choose a free passenger seat when the driver is unavailable. Locked
+vehicles correctly reject ordinary guests until the owner unlocks them.
+
+The traditional auto now contains four actual carrier positions. The existing
+rear seat names and indices remain; `rear_center` is appended. Rear x positions
+are -0.6, +0.6 and 0, with their original y=0.65 and z=-0.624. The driver is
+unchanged. Three 0.6-block-wide mounted player bounds fit across an existing
+bench widened from 0.988 to **1.828 blocks**; forward-facing vanilla helmet
+boxes have positive clearance between neighbours. This is not a claim that
+every possible independent arm/head animation has no visual intersection.
+
+The floor, rear body and canopy widen by **0.84 block total**. Posts and rear
+wheel assemblies move outward **0.42 block per side**. The rear animation
+pivots move from x=±0.546 to x=±0.966; their y, z, radius and axis are unchanged.
+All four art states retain matching width. Normal/damaged/critical states keep
+the previously verified 0.45-block canopy lift; the wreck remains collapsed
+and the engine already disallows boarding a wreck. Front wheel, driver, nose,
+all textures/UVs, item IDs, depth, energy and handling are preserved.
+
+The profile collision width is now **2.14 blocks**, length remains 2.6, and
+maxY remains 2.238. The existing `occupiedBounds` includes all four players.
+There are sixteen changed Java meshes and thirty-two corresponding raw/display
+Bedrock meshes, all protected by original per-file hashes. The Bedrock display
+export mirrors X (`8 - Java highX`); the repair and tests account for this,
+instead of silently moving a left wheel in the wrong direction.
+
+Two additional omissions were corrected without changing artwork:
+`gtm:emerg_police_suv` and `gtm:emerg_patrol_sedan` each have an authored pair of
+front leather seat blocks, but previously exposed only the driver. Their
+opposite front cushion now has a passenger anchor. The other **84 profile
+rows** and every unrelated animated-part row remain unchanged.
+
+Current resource fingerprints:
+
+| Resource | SHA-256 |
+| --- | --- |
+| Normal raw traditional-auto geometry | `bac1c4669f190a5a65a3aa313b528799bbeacdfb18e36c41f5e284c1e4d5a29a` |
+| Maintained road-profiles.tsv | `a78b5cc05343395dbb94b928af0ac9cd86fff16e745a38a5cf9bc28d4b711bf3` |
+| Maintained animated-parts.tsv | `3b2a112fe587c9b02ca01246fc4c506e8a755c827e80a4bb353a3bf79cf8f783` |
+| Patched GtmVehicles.class | `0677ac5af1e338e47bcf0c9db7395bd00ff4d3a61d6836587d881186638986f8` |
+
+Nine geometry tests and twelve pack regressions passed against the exact
+preserved inputs. Seven additional Java boarding tests cover loaded capacities,
+locks/keys, unsupported passenger claims, four separated carrier transforms,
+rear wheel pivots over complete revolutions, and the two emergency seats.
+At the vehicle handoff, all **87 current aggregate JUnit tests**, **826 original
+equipment compatibility assertions** and **five bytecode-patcher checks**
+passed. The final aggregate build report may include later unrelated tests.
+
+## Fleet capacity audit and remaining interior work
+
+[`vehicle-capacity-audit.json`](../docs/repair-evidence/vehicle-capacity-audit.json)
+and its [CSV table](../docs/repair-evidence/vehicle-capacity-audit.csv) record all
+87 model IDs, names, loaded driver/passenger counts, actual seat-related geometry,
+anchors and source fingerprints. Reproduce them with
+`python tools/audit_vehicle_capacity.py`.
+
+All thirty civilian car models contain only two authored front seat cuboids;
+none has a rear bench. The four buses are exterior body/window shells without
+passenger cushions or a usable aisle. Creating hidden passenger carriers inside
+those shells would not finish their interiors. Their current runtime capacity
+is explicitly displayed, and the audit records the required hollow cabin,
+real seating, doors and avatar headroom work. No capacity is inferred from a
+real-world model name. Other transport modes keep their existing profile seats;
+the audit distinguishes stored anchors from independently checked seating art.
+
+## Runtime boarding and passenger lifecycle
+
+The preserved engine creates one marker ArmorStand per profile seat and an
+equally sized occupant array; no hardcoded three-seat limit exists. Admission
+checks authentication, living session, range, line of sight, stopped movement,
+vehicle/key/service access and the entire occupied property footprint. Driver
+input comes only from the driver carrier. Passenger carriers follow the same
+accepted body pose. The actual staged Paper26.3 `CraftEntity.teleport0` uses
+`TeleportTransition.PassengerTeleportationMode.POSITION_RIDER`, so ordinary
+carrier teleports retain and reposition their passengers.
+
+Safe exit, quit, death, cancelled teleport recovery, parking, chunk deactivation
+and shutdown already iterate occupants and clear their rider records/carriers.
+Those paths remain preserved. `tools/probe_vehicle_passengers.py` is the bounded
+staging acceptance probe: fresh ordinary network Player registrations, locked
+guest rejection, four simultaneous carriers, fifth-rider refusal, shared
+movement/braking, exit/reboard, quit/login/reboard and parking. It positions only
+its own accounts at an observed starting point and never moves the GUI observer.
+Its pack statuses are explicitly **headless acknowledgements after byte/ZIP
+validation**, not rendered-client evidence. Its resulting JSON must be read
+before claiming those live multiplayer checks passed.

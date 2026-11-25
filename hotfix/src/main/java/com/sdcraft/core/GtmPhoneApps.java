@@ -92,6 +92,31 @@ AutoCloseable {
         return this.services;
     }
 
+    public record ClientApp(String id, String title, boolean enabled, String detail) {}
+
+    /** The optional client renders the same stable app registry and server gates. */
+    public List<ClientApp> clientApps(Player player) {
+        if (!available(player)) return List.of();
+        return APPS.stream().map(app -> {
+            Gate state = app.action() == null ? Gate.ready() : gate(player, app.action());
+            return new ClientApp(app.id(), app.title(), state.available(), state.detail());
+        }).toList();
+    }
+
+    public boolean clientAppAvailable(Player player, String id) {
+        return available(player) && APPS.stream().filter(app -> app.id().equals(id))
+                .anyMatch(app -> app.action() == null || gate(player, app.action()).available());
+    }
+
+    public void openClientApp(Player player, String id) throws Exception {
+        if (!available(player)) return;
+        App app = APPS.stream().filter(value -> value.id().equals(id)).findFirst()
+                .orElseThrow(() -> new IllegalArgumentException("Unknown phone app"));
+        searches.remove(player.getUniqueId());
+        if (app.action() != null) openAction(player, app.action());
+        else view(player, app.view(), 0);
+    }
+
     public PhoneStore.Preferences preferences(UUID player) {
         return this.store.state(player).preferences();
     }
@@ -171,6 +196,7 @@ AutoCloseable {
             return;
         }
         this.searches.remove(p.getUniqueId());
+        if (this.plugin.openClientPhone(p)) return;
         this.home(p);
     }
 

@@ -1,16 +1,18 @@
-# GTM 1.0.4 runtime repair
+# GTM 1.0.5 HUD, NPC and passenger repair
 
-This package updates an existing **1.0.3-r4-functional-candidate** GTM server. It contains the repaired plugin, matching native128 resource packs, a verified updater, and the local Control Centre opener. Keep the complete extracted package together.
+This update addresses the approved four-corner HUD, original phone logos, nearby NPC conversation, population crowding and the traditional auto's three passenger places. It updates an existing reviewed **1.0.3 functional** or **1.0.4 repair** server. It is an update package, not a complete Minecraft/server installation or a production deployment.
 
-**Acceptance status: Java-tested repair candidate, 25 November 2026.** Build, regression, server HTTP and updater checks have passed. The actual Java client shows the custom phone, all app icons, JEEVA submenu and held native pistol after normal login. Firing, reloading and basic driving controls have also passed native smoke checks. The final exact-byte restart also confirmed the clean phone and equipment catalogue, grounded wheels and the driver beneath the raised rickshaw canopy. Bedrock client testing is not complete. See `RELEASE_NOTES.md` for the verified behavior and remaining platform limits.
+The four-corner Java HUD is implemented by the **optional client component** in `client/`. Install the server update and that component together to see it. Ordinary Java clients can still join with the server resource pack and use the inventory-based phone. The exact corner layout and clickable overlay are not provided by that resource pack alone. A Bedrock equivalent has not been implemented or accepted.
 
-## Install into your existing server
+Read `RELEASE_NOTES.md` for the precise acceptance scope and `SPEC_REPAIR_2026-11-25.md` for the evidence and remaining work. The complete Revision 4 game is not certified by this candidate.
 
-Use Python **3.10 or newer**. Keep your existing Java 25 server runtime and launcher. The updater preserves worlds, accounts, owned assets, configuration and feature flags.
+## 1. Update the existing server
 
-1. Stop Paper and close its launcher. The updater refuses a running server.
+Use Python **3.10 or newer**, and retain the existing Java 25 runtime and launcher. Keep the complete extracted repair folder together. The updater preserves worlds, accounts, property/vehicle ownership, configuration and unrelated plugins.
+
+1. Stop Paper and close its launcher. The updater refuses an active world lock or a listening server port.
 2. Extract this repair ZIP into a separate folder.
-3. Run the updater from the extracted repair folder, supplying the folder containing your existing `server.properties` and worlds.
+3. From that extracted folder, supply the folder containing the existing `server.properties` and worlds:
 
 **Windows:**
 
@@ -24,31 +26,50 @@ Update-GTM.bat "C:\path\to\existing\GTM-server"
 sh Update-GTM.sh /path/to/existing/GTM-server
 ```
 
-These commands update Java, the verified client path. For an existing Geyser installation, append `--bedrock` to also update its pack and mappings; native Bedrock testing remains outstanding. An unsupported core binary, checksum failure or unsafe path stops the update. Keep the backup ID printed on success.
+The updater accepts only the fingerprinted 1.0.3, released 1.0.4, or this exact already-installed core. An unknown binary, checksum failure or unsafe path stops the update. Retain the backup ID printed on success. The existing portable launcher keeps its local resource-pack URL; other installations use this release's versioned HTTPS pack URL.
 
-Start your existing server normally, connect with the matching Minecraft version and accept the updated resource pack. The phone skin requires the pack to finish loading. Open `/phone`, `/gun` or `/car` to reach the repaired phone, native equipment and garage. Right-click fires a gun; sneak + right-click reloads using its matching ammunition.
+For an existing Geyser installation, append `--bedrock` to also update its pack and mappings. This opt-in supplies asset compatibility; it does not add or certify the four-corner Bedrock HUD.
 
-## Open the Control Centre
+Start the server normally. A GitHub push or download does not update a running Daytona server. The private host must be updated independently after its staging gates are met.
 
-After the repaired server starts, double-click **Open-Control-Centre.bat inside your server folder**. On Linux/macOS:
+## 2. Enable the optional HUD on the Java client
+
+Follow **`client/README.md`** for the pinned Minecraft 26.3, Fabric Loader and Fabric API versions. The client JAR belongs in the chosen Minecraft profile's `mods` folder, not the Paper server's `plugins` folder. Use a separate profile if you want to retain your ordinary unmodified client.
+
+Join the updated server, complete the normal login and accept its resource pack. The HUD only activates after authentication and successful pack loading. Its values come from the server account and the actual player inventory.
+
+| Screen position | Function |
+| --- | --- |
+| Top left | Nine real hotbar slots and selected item; normal number keys and scrolling still work. |
+| Bottom left | Minimap sampled from loaded world terrain, with available service markers. |
+| Top right | Wanted stars, wallet and bank balance supplied by the server. |
+| Bottom right | Persistent clickable phone shortcut and vehicle information while driving. |
+
+Use the client guide's phone/cursor keys, `/phone`, or right-click the actual phone item. The popup uses the original colourful brand art. Service transactions retain their existing server-side gates; some apps open the existing server inventory menu for their detailed actions. Full restyling of every transaction screen is not claimed.
+
+## 3. Talk to NPCs and use vehicles
+
+Right-click a nearby NPC to select it, then type **`// your message`** with a space after the slashes. The response appears in chat and an overhead speech bubble. Service staff keep their service menus; sneak-right-click selects conversation without opening that menu. Ordinary authenticated players no longer need an operator grant for dialogue. WorldEdit commands retain their distinct syntax.
+
+The default dialogue provider is explicitly **offline/scripted**. The generative provider adapter is included, but no language model or paid service is installed or enabled by this update. To use an existing local Ollama or HTTPS provider, follow the configuration section in `SPEC_REPAIR_2026-11-25.md`. `/sdc status` and the Control Centre report the configured backend and last result. Provider failures fall back with a visible notice instead of leaving an indefinite loading state.
+
+The traditional auto now has **one driver and three passenger places**. Existing passengers use a free seat instead of displacing the driver. Locked vehicles still reject guests. W/S apply throttle and braking/reverse, A/D steer, Space brakes and Shift exits. `/car` opens the owned garage. The included fleet audit records the actual supported capacity of every profile; rear seating/interiors for the wider car and bus catalogue remain separate unfinished work.
+
+`/gun` opens native equipment. Right-click fires; sneak-right-click reloads using the matching ammunition. Safe zones, ownership and authentication remain enforced. Ambient NPCs designated as tough can retaliate; other pedestrians flee, and protected service staff remain protected.
+
+## Control Centre
+
+After Paper starts, open **Open-Control-Centre.bat inside the server folder**. On Linux/macOS:
 
 ```bash
 python3 /path/to/existing/GTM-server/tools/open_control_centre.py --server /path/to/existing/GTM-server
 ```
 
-The dashboard connects to the running server on `127.0.0.1:8765`. It shows live status, players, pack loading, logs, an owner command console and a local guide. Its owner token is private; the opener handles it automatically.
-
-For an already repaired and running Daytona server, run this from the updated GitHub repository using your existing Daytona access configuration:
-
-```bash
-python tools/open_control_centre.py --daytona
-```
-
-Keep that terminal open while using the dashboard. This opens a localhost SSH tunnel; it does not install the update or restart the remote server. The in-game JEEVA guide and web guide use an offline fallback; they do not require a paid AI account.
+The dashboard connects to `127.0.0.1:8765` and shows live status, NPC dialogue backend status, players, pack loading, logs and an owner command console. Its token is private. For an already updated running Daytona server, use the repository's `python tools/open_control_centre.py --daytona` with the existing owner configuration. That command opens a local SSH tunnel; it does not deploy or restart the server. The web JEEVA tab remains a local help guide, separate from the NPC generative adapter.
 
 ## Roll back
 
-Stop Paper and its launcher, then use the backup ID printed by the updater:
+Stop Paper and its launcher, then use the recorded backup ID:
 
 ```bat
 Update-GTM.bat "C:\path\to\existing\GTM-server" --rollback BACKUP_ID
@@ -58,4 +79,4 @@ Update-GTM.bat "C:\path\to\existing\GTM-server" --rollback BACKUP_ID
 sh Update-GTM.sh /path/to/existing/GTM-server --rollback BACKUP_ID
 ```
 
-Rollback restores only the files changed by this repair. It refuses to overwrite files edited after installation. An interrupted update prints the receipt ID that must be rolled back before applying again. Detailed implementation and acceptance evidence are in `RUNTIME_REPAIR_2026-11-25.md`, `build-report.json`, `pack-repair-report.json` and the included verification reports.
+Rollback restores only files changed by this update and refuses to overwrite later edits. An interrupted transaction must be recovered using its receipt before another update. Remove the optional HUD JAR from the separate client profile to revert that client; the server updater never writes to a Minecraft profile.

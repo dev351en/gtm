@@ -9,10 +9,11 @@ import shutil
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-UPDATE_NAME = "GTM_Runtime_Repair_1.0.4.zip"
+UPDATE_NAME = "GTM_Runtime_Repair_1.0.5.zip"
+CLIENT_NAME = "GTM-Client-HUD-1.0.0.jar"
 JAVA_NAME = "GTM_Repair_128_Java.zip"
 BEDROCK_NAME = "GTM_Repair_128_Bedrock.mcpack"
-ASSETS = {UPDATE_NAME, JAVA_NAME, BEDROCK_NAME, "release-report.json", "SHA256SUMS"}
+ASSETS = {UPDATE_NAME, CLIENT_NAME, JAVA_NAME, BEDROCK_NAME, "release-report.json", "SHA256SUMS"}
 
 
 def digest(path: Path) -> str:
@@ -27,35 +28,39 @@ def package(payload: Path, output: Path) -> dict:
     required = {row["path"] for row in manifest["files"]} | {
         "repair-manifest.json", "build-report.json", "pack-repair-report.json",
         "install_runtime_repair.py", "Update-GTM.bat", "Update-GTM.sh", "README.md", "RELEASE_NOTES.md",
-        "RUNTIME_REPAIR_2026-11-25.md"}
+        "SPEC_REPAIR_2026-11-25.md", "client/" + CLIENT_NAME, "client/README.md",
+        "client/dependencies.lock.json", "client/build-report.json"}
     for name in required:
         file = payload / name
         if not file.is_file() or file.is_symlink(): raise ValueError("Missing release input: " + name)
+    client_report = json.loads((payload / "client/build-report.json").read_text())
+    if digest(payload / "client" / CLIENT_NAME) != client_report.get("sha256"):
+        raise ValueError("Optional HUD changed after the verified build")
     # Test reports are explicit allow-listed inputs; server logs and token files
     # are never collected by directory globbing.
     evidence = ROOT / "docs/repair-evidence"
     extras = {"evidence/" + p.name: p for p in evidence.glob("*.json") if p.is_file() and not p.is_symlink()}
-    for name in ["phone-native-java.png", "jeeva-native-java.png", "kavach-held-native-java.png", "equipment-native-java.png",
-                 "vehicle-native-java.png", "vehicle-driving-native-java.png",
-                 "weapon-reloaded-native-java.png", "control-centre-login.jpg",
-                 "phone-final-native-java.png", "vehicle-canopy-final.png"]:
+    for name in ["spec-hud-native-java.png", "spec-phone-native-java.png", "spec-npc-dialogue-native-java.png",
+                 "spec-auto-passengers-native-java.png", "spec-hud-bank-native-java.png",
+                 "vehicle-capacity-audit.csv", "control-centre-login.jpg"]:
         file = evidence / name
         if file.is_file() and not file.is_symlink(): extras["evidence/" + name] = file
     output.mkdir(parents=True, exist_ok=True)
     update = output / UPDATE_NAME
     with zipfile.ZipFile(update, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as z:
         for name, file in sorted({**{n: payload / n for n in required}, **extras}.items()):
-            info = zipfile.ZipInfo("GTM_Repair_1.0.4/" + name, (2026, 11, 25, 0, 0, 0))
+            info = zipfile.ZipInfo("GTM_Repair_1.0.5/" + name, (2026, 11, 25, 0, 0, 0))
             info.compress_type = zipfile.ZIP_DEFLATED
             info.external_attr = 0o100644 << 16
             z.writestr(info, file.read_bytes())
     shutil.copyfile(payload / "resourcepacks" / JAVA_NAME, output / JAVA_NAME)
+    shutil.copyfile(payload / "client" / CLIENT_NAME, output / CLIENT_NAME)
     shutil.copyfile(payload / "plugins/Geyser-Spigot/packs" / BEDROCK_NAME, output / BEDROCK_NAME)
     report = {"schema": "GTM_REPAIR_RELEASE_V1", "version": manifest["version"],
-              "status": "PASS", "scope": "Verified installable update; no production deployment.",
+              "status": "PASS", "scope": "Verified installable Java candidate with optional client HUD; no production deployment or Bedrock HUD acceptance.",
               "pack_url": manifest["java_pack"]["url"],
               "files": {name: {"sha256": digest(output / name), "bytes": (output / name).stat().st_size}
-                        for name in [UPDATE_NAME, JAVA_NAME, BEDROCK_NAME]}}
+                        for name in [UPDATE_NAME, CLIENT_NAME, JAVA_NAME, BEDROCK_NAME]}}
     (output / "release-report.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
     (output / "SHA256SUMS").write_text("".join(digest(output / name) + "  " + name + "\n"
                                               for name in sorted(ASSETS - {"SHA256SUMS"})), encoding="ascii")

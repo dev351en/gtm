@@ -27,18 +27,29 @@ public final class PatchVehicleBytecodeChecks {
                             require(opcode == Opcodes.INVOKESTATIC && !itf && method.equals("compensateItemFacing")
                                     && desc.equals("(Lorg/joml/Matrix4f;)Lorg/joml/Matrix4f;"), "Exact stack-neutral hook");
                             calls.merge(name, 1, Integer::sum);
+                        } else if (owner.equals("com/sdcraft/core/vehicle/VehicleBoarding")) {
+                            require(opcode == Opcodes.INVOKESTATIC && !itf, "Static maintained boarding adapter");
+                            if (name.equals("lambda$inventory$0")) {
+                                require(method.equals("enterFromGarage") && desc.equals(
+                                    "(Lcom/sdcraft/core/GtmVehicles;Lorg/bukkit/entity/Player;Ljava/util/UUID;Z)Z"), "Garage uses automatic admission");
+                            } else if (name.equals("lambda$openGarage$0")) {
+                                require(method.equals("garageLore") && desc.equals(
+                                    "(Ljava/util/List;Lcom/sdcraft/core/vehicle/RoadVehicleProfile;Lcom/sdcraft/core/vehicle/OwnedRoadVehicle;)Ljava/util/List;"), "Garage reports actual profile capacity");
+                            } else throw new AssertionError("Unexpected boarding hook: " + name);
+                            calls.merge(name, 1, Integer::sum);
                         }
                     }
                 };
             }
         }, 0);
-        require(calls.equals(Map.of("setModel", 1, "animate", 1)), "Only the intended two vehicle methods");
+        require(calls.equals(Map.of("setModel", 1, "animate", 1, "lambda$inventory$0", 1,
+                                  "lambda$openGarage$0", 1)), "Only the four intended vehicle methods");
         byte[] damaged = original.clone();
         damaged[damaged.length - 1] ^= 1;
         rejects(damaged, "Corrupt/unknown class");
         rejects(patched, "Already patched class");
         rejects(new byte[]{0, 1, 2}, "Non-class input");
-        System.out.println("Vehicle bytecode checks: deterministic, exactly two hooks, corrupt/unknown/already-patched input rejected (5 checks).");
+        System.out.println("Vehicle bytecode checks: deterministic, exactly four hooks, corrupt/unknown/already-patched input rejected (5 checks).");
     }
 
     private static void rejects(byte[] bytes, String label) throws Exception {

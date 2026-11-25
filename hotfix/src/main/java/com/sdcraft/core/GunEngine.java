@@ -284,7 +284,7 @@ implements Listener {
             SDCraftCorePlugin core2;
             JavaPlugin javaPlugin2;
             LivingEntity target = (LivingEntity)hit.getKey();
-            if (!target.isValid() || target.isDead() || (javaPlugin2 = this.plugin) instanceof SDCraftCorePlugin && (!(core2 = (SDCraftCorePlugin)javaPlugin2).isAuthenticated(p) || target instanceof Player && !core2.isAuthenticated(other = (Player)target) || !core2.properties().mayEnter(p, target.getLocation()))) continue;
+            if (!target.isValid() || target.isDead() || (javaPlugin2 = this.plugin) instanceof SDCraftCorePlugin && (!(core2 = (SDCraftCorePlugin)javaPlugin2).isAuthenticated(p) || target instanceof Player && !NpcCombatAccess.authenticatedPlayerOrAmbient(core2, other = (Player)target) || !core2.properties().mayEnter(p, target.getLocation()))) continue;
             target.damage(((Double)hit.getValue()).doubleValue(), (Entity)p);
         }
         this.sendAction(p, "\u00a76[" + type.name() + "] \u00a7e" + currentAmmo + " / " + type.maxAmmo + " \u00a77Ammo");

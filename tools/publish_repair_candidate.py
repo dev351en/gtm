@@ -16,7 +16,7 @@ import tempfile
 from package_repair_candidate import ASSETS, JAVA_NAME
 from publish_functional_runtime import PublicationError, api, gh
 
-TAG = "gtm-repair-1.0.4-20261125"
+TAG = "gtm-spec-repair-1.0.5-20261125"
 
 
 def hash_file(path: Path) -> str:
@@ -136,7 +136,7 @@ def publish(folder: Path, repo: str, commit: str) -> None:
         notes = Path(__file__).resolve().parents[1] / "packaging/repair/RELEASE_NOTES.md"
         if not notes.is_file(): raise PublicationError("Reviewed release notes are required")
         gh(["release", "create", TAG, "--repo", repo, "--target", commit,
-            "--draft", "--prerelease", "--latest=false", "--title", "GTM 1.0.4 runtime repair candidate",
+            "--draft", "--prerelease", "--latest=false", "--title", "GTM 1.0.5 HUD, NPC and passenger repair candidate",
             "--notes-file", str(notes)], stage="Create repair candidate draft")
         release = find_release(repo)
     if not release or not release.get("draft") or release.get("target_commitish") != commit:

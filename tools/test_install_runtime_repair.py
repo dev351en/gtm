@@ -18,7 +18,7 @@ from zipfile import ZipFile
 import install_runtime_repair as repair
 
 ROOT = Path(__file__).resolve().parents[1]
-CORE = "plugins/SDCraftCore-1.0.4-r4-repair.jar"
+CORE = "plugins/SDCraftCore-1.0.5-r4-spec-candidate.jar"
 OLD_CORE = "plugins/SDCraftCore-1.0.3-r4-functional-candidate.jar"
 
 
@@ -65,7 +65,7 @@ class RepairTransactionTests(unittest.TestCase):
         self.server.mkdir()
         self.payload.mkdir()
         self.files = {
-            CORE: archive({"plugin.yml": "name: SDCraftCore\nversion: 1.0.4-r4-repair\n", "marker": "new-runtime"}),
+            CORE: archive({"plugin.yml": "name: SDCraftCore\nversion: 1.0.5-r4-spec-candidate\n", "marker": "new-runtime"}),
             repair.JAVA_PACK: archive({"pack.mcmeta": '{"pack":{"pack_format":80,"description":"repair-test"}}'}),
             repair.BEDROCK_PACK: archive({"manifest.json": '{"test":"new-bedrock"}'}),
             repair.MAPPINGS: b'{"format_version":2,"items":{}}\n',
@@ -75,7 +75,7 @@ class RepairTransactionTests(unittest.TestCase):
         for name, data in self.files.items():
             put(self.payload, name, data)
         self.manifest = {
-            "schema": "GTM_RUNTIME_REPAIR_V1", "version": "1.0.4-r4-repair",
+            "schema": "GTM_RUNTIME_REPAIR_V1", "version": "1.0.5-r4-spec-candidate",
             "base_core_sha256": repair.BASE_CORE, "base_bedrock_sha256": repair.BASE_BEDROCK,
             "files": [{"path": name, "sha256": repair.digest(data), "bytes": len(data),
                        "optional_bedrock": name in {repair.BEDROCK_PACK, repair.MAPPINGS}}
@@ -223,6 +223,29 @@ class RepairTransactionTests(unittest.TestCase):
         self.assertFalse((self.server / "plugins/renamed-copy.jar").exists())
         self.assertEqual(repair.core_files(self.server), [(CORE, repair.digest(self.files[CORE]))])
         repair.rollback(self.server, result["backup"])
+        self.assertEqual(snapshot(self.server), before)
+
+    def test_reviewed_previous_repair_is_replaced_and_rolled_back_exactly(self):
+        previous = archive({"plugin.yml": "name: SDCraftCore\nversion: 1.0.4-r4-repair\n", "marker": "reviewed-previous-fixture"})
+        previous_name = "plugins/SDCraftCore-1.0.4-r4-repair.jar"
+        (self.server / OLD_CORE).unlink()
+        put(self.server, previous_name, previous)
+        before = snapshot(self.server)
+        with patch.object(repair, "REVIEWED_CORE_HASHES", repair.REVIEWED_CORE_HASHES | {repair.digest(previous)}):
+            result = self.installed()
+        self.assertFalse((self.server / previous_name).exists())
+        self.assertEqual(repair.core_files(self.server), [(CORE, repair.digest(self.files[CORE]))])
+        repair.rollback(self.server, result["backup"])
+        self.assertEqual(snapshot(self.server), before)
+
+    def test_payload_cannot_authorize_an_unreviewed_installed_core(self):
+        unknown = archive({"plugin.yml": "name: SDCraftCore\n", "marker": "unreviewed-core"})
+        (self.server / OLD_CORE).write_bytes(unknown)
+        self.manifest["reviewed_core_hashes"] = [repair.digest(unknown)]
+        self.write_manifest()
+        before = snapshot(self.server)
+        with self.assertRaisesRegex(repair.RepairError, "Unsupported or unrecognized"):
+            self.installed()
         self.assertEqual(snapshot(self.server), before)
 
     def test_running_loopback_port_refused(self):

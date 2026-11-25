@@ -24,6 +24,12 @@ from urllib.parse import urlsplit
 from zipfile import BadZipFile, ZipFile
 
 BASE_CORE = "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af"
+# These exact released inputs have the same retained data/schema contract.
+# A manifest cannot authorize an unknown installed plugin binary.
+REVIEWED_CORE_HASHES = frozenset({
+    BASE_CORE,
+    "cd7db28cf7959e5c0801507c647479ebffca67616a8c543333ce24c8051ad5ac",  # released 1.0.4
+})
 BASE_BEDROCK = "d02cc8f41f6f97799dedab824b6fd23049c01556475e0031a50824543b507aab"
 JAVA_PACK = "resourcepacks/GTM_Repair_128_Java.zip"
 BEDROCK_PACK = "plugins/Geyser-Spigot/packs/GTM_Repair_128_Bedrock.mcpack"
@@ -195,7 +201,7 @@ def verify_payload(payload: Path) -> tuple[dict, dict[str, bytes]]:
     if not isinstance(manifest, dict) or manifest.get("schema") != "GTM_RUNTIME_REPAIR_V1":
         raise RepairError("Unsupported repair manifest schema")
     if manifest.get("base_core_sha256") != BASE_CORE:
-        raise RepairError("This updater supports only the preserved 1.0.3 base core")
+        raise RepairError("This payload does not derive from the preserved 1.0.3 base core")
     if not isinstance(manifest.get("version"), str) or not re.fullmatch(r"[A-Za-z0-9._-]{1,64}", manifest["version"]):
         raise RepairError("Invalid repair version")
     rows = manifest.get("files")
@@ -376,7 +382,7 @@ def integrity_bytes(original: bytes, changes: dict[str, bytes | None]) -> bytes:
 def plan(server: Path, manifest: dict, files: dict[str, bytes], bedrock: bool) -> dict[str, bytes | None]:
     new_core_hash = digest(files[manifest["core_path"]])
     cores = core_files(server)
-    if any(value not in {BASE_CORE, new_core_hash} for _, value in cores):
+    if any(value not in REVIEWED_CORE_HASHES | {new_core_hash} for _, value in cores):
         raise RepairError("Unsupported or unrecognized SDCraftCore binary; no files changed")
     if bedrock and not (server / "plugins/Geyser-Spigot").is_dir():
         raise RepairError("--bedrock requires an existing Geyser-Spigot configuration")

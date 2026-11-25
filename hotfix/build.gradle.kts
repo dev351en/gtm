@@ -1,7 +1,7 @@
 plugins { java }
 
 group = "com.sdcraft"
-version = "1.0.4-r4-repair"
+version = "1.0.5-r4-spec-candidate"
 
 repositories {
     mavenCentral()
@@ -48,3 +48,17 @@ tasks.register<JavaExec>("equipmentCompatibilityChecks") {
     args(preservedCore.absolutePath)
 }
 tasks.check { dependsOn("patcherChecks", "equipmentCompatibilityChecks") }
+
+tasks.register<JavaExec>("patchNpcCombat") {
+    dependsOn(patcher.classesTaskName)
+    classpath = patcher.runtimeClasspath
+    mainClass.set("PatchNpcCombatBytecode")
+    args(preservedCore.absolutePath, layout.buildDirectory.dir("npc-combat-patch").get().asFile.absolutePath)
+}
+tasks.register<JavaExec>("npcCombatPatcherChecks") {
+    dependsOn(patcher.classesTaskName)
+    classpath = patcher.runtimeClasspath
+    mainClass.set("PatchNpcCombatBytecodeChecks")
+    args(preservedCore.absolutePath)
+}
+tasks.check { dependsOn("npcCombatPatcherChecks") }

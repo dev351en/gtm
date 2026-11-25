@@ -1,0 +1,5611 @@
+{
+  "schema": "GTM_VEHICLE_CAPACITY_AUDIT_V1",
+  "model_count": 87,
+  "basis": "Preserved actual native128 meshes and editable component/material records, compared with maintained loaded profile TSV. No marketing/name capacity inference.",
+  "mesh_count_caution": "Mesh-piece count is not passenger capacity: one bench can hold several players, overlapping saddle pieces form one seat, and some modes lack independently reviewed seating geometry.",
+  "editable_archive_sha256": "877b8b095f5d479681ed1bf7b8475e9984b7b0adca4777fac8bcdb4b2b703d8a",
+  "profile_resource_sha256": "a78b5cc05343395dbb94b928af0ac9cd86fff16e745a38a5cf9bc28d4b711bf3",
+  "animation_resource_sha256": "3b2a112fe587c9b02ca01246fc4c506e8a755c827e80a4bb353a3bf79cf8f783",
+  "driving_engine": {
+    "implementation": "Custom server-authoritative SDCraftCore GtmVehicles/RoadPhysics on Paper26.3; not a separate GTA or rigid-body engine.",
+    "road_step_seconds": 0.05,
+    "controls": "W/S throttle/brake-through-zero/reverse, A/D steering, Jump brake, Sneak safe exit.",
+    "movement": "Analytic longitudinal integration, bounded bicycle-arc steering, swept accepted movement/collision, fuel/health/odometer; one ArmorStand carrier per loaded seat.",
+    "passenger_follow": "Paper26.3 CraftEntity.teleport0 uses TeleportTransition.PassengerTeleportationMode.POSITION_RIDER; GtmVehicles transforms every carrier with the same accepted body pose.",
+    "limits": "Custom kinematic road model, not suspension/tyre/rigid-body simulation. Native driving checked previously on flat workshop terrain; no broad slope/terrain/Bedrock certification."
+  },
+  "models": [
+    {
+      "id": "gtm:hatchback_swift",
+      "title": "Maruva Swift 1.2",
+      "category": "hatchback",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.4,
+            0.51,
+            0.19
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.4,
+            0.51,
+            0.19
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_21",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.491875,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_22",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.148125,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.8864,
+        0.0,
+        -1.9,
+        0.8864,
+        1.45,
+        1.9
+      ],
+      "profile_geometry_provenance": "18af21deae0f72b5a9a2a04dca712f2da05d4bee0269a03cf00b37bf311bf7e8|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/hatchback_swift.geo.json",
+      "preserved_geometry_sha256": "17639525cc7db9b2f51e612090cab8140573f92451abf6ffc9ec05e90c01a0f3",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/hatchback_swift.parts.json",
+      "editable_source_sha256": "fec0ebc4e9dda3cb19f1b98b531258efc1d20fd8eb30fbd2664f2154d71bb41f",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:hatchback_baleno",
+      "title": "Maruva Baleno Premium",
+      "category": "hatchback",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.42,
+            0.51,
+            0.2
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.42,
+            0.51,
+            0.2
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_21",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.511875,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_22",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.168125,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.9367,
+        0.0,
+        -1.95,
+        0.9367,
+        1.45,
+        1.95
+      ],
+      "profile_geometry_provenance": "e864fbd1c9112a1a0cfc91695ebd2cdebd0d5cfabbd18f22610283fd6e5d3b6d|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/hatchback_baleno.geo.json",
+      "preserved_geometry_sha256": "7ac599d3c37b691d6900a1783387f9d6ee1b8a959cdfa8b8be89790ea2ba8be8",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/hatchback_baleno.parts.json",
+      "editable_source_sha256": "93fb13a1d288147e712511f9cfab87ab3e4374c4df298b3aaacbe47abd495e93",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:hatchback_wagonr",
+      "title": "Maruva Wagon Tallboy",
+      "category": "hatchback",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.38,
+            0.58,
+            0.18
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.38,
+            0.58,
+            0.18
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_21",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.471875,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_22",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.128125,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.8361,
+        0.0,
+        -1.8,
+        0.8361,
+        1.65,
+        1.8
+      ],
+      "profile_geometry_provenance": "e42090d30dd693d04af18de766a0df1dfaf34a5c8713adba98247cf303278f7e|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/hatchback_wagonr.geo.json",
+      "preserved_geometry_sha256": "dc3bd750d2992f0465f4b9c16fd3f33f6795fb8758aac0243f426152f4a47750",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/hatchback_wagonr.parts.json",
+      "editable_source_sha256": "aca908e2fdbfa213395260bfc9b8380288244231305495edb1bfd5eefdcb1058",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:hatchback_alto",
+      "title": "Maruva Alto City",
+      "category": "hatchback",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.36,
+            0.51,
+            0.17
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.36,
+            0.51,
+            0.17
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_21",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.461875,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_22",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.118125,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.8109,
+        0.0,
+        -1.7,
+        0.8109,
+        1.45,
+        1.7
+      ],
+      "profile_geometry_provenance": "adc5f324da948482dcd11292ec8abfffed69824935ca40b7ba811d229df02986|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/hatchback_alto.geo.json",
+      "preserved_geometry_sha256": "f75073c975e553283d0734d218a5f49e99da337897db5c23173002a8455c67ee",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/hatchback_alto.parts.json",
+      "editable_source_sha256": "8bb328655fc4558f9edaf2b76242b44caa071efaa9b82dcc984785a993fa546d",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:hatchback_i10",
+      "title": "Hondo CityGrand 1.2",
+      "category": "hatchback",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.41,
+            0.52,
+            0.19
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.41,
+            0.52,
+            0.19
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_21",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.501875,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_22",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.158125,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.9115,
+        0.0,
+        -1.9,
+        0.9115,
+        1.5,
+        1.9
+      ],
+      "profile_geometry_provenance": "a8377ce8af8835fcecdc9583760af543115941cfbc241e340ddc7e65b1b3d6fa|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/hatchback_i10.geo.json",
+      "preserved_geometry_sha256": "a9255cb2d8b8e76c427576004157cc80a0e077a9adfb85122715e4ad3e053d39",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/hatchback_i10.parts.json",
+      "editable_source_sha256": "d1014c1d268ef6428dd1ff94d6808ba86e8645e1965f477320fcdeaf0990e7d0",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:hatchback_tiago",
+      "title": "Tavara Tiago Compact",
+      "category": "hatchback",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.41,
+            0.52,
+            0.19
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.41,
+            0.52,
+            0.19
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_21",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.501875,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_22",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.158125,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.9115,
+        0.0,
+        -1.88,
+        0.9115,
+        1.5,
+        1.88
+      ],
+      "profile_geometry_provenance": "d2f5c1ef010ff9cd517e09ae653dbb138738a69a91be8311e2e4ffd3034302e7|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/hatchback_tiago.geo.json",
+      "preserved_geometry_sha256": "81e15a74fcf80dcbfd1474fc96ff5baa03e6078088c3a85404d10d77681aac3a",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/hatchback_tiago.parts.json",
+      "editable_source_sha256": "e9766449292796b4b18e0ba38cac120072bce0100e71c03346bf7a78551dd52d",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:hatchback_i20",
+      "title": "Hondo AeroSport 1.0T",
+      "category": "hatchback",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.44,
+            0.51,
+            0.2
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.44,
+            0.51,
+            0.2
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_21",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.521875,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_22",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.178125,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.9619,
+        0.0,
+        -2.0,
+        0.9619,
+        1.45,
+        2.0
+      ],
+      "profile_geometry_provenance": "5be19ac25b766dced83643f4826bdb4de70e5dd1dab6f1b6df598b2b6af50b26|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/hatchback_i20.geo.json",
+      "preserved_geometry_sha256": "2d7204240530c5a1d69250b9d0bccfd115a638ce390af7124d84fd5fe2666757",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/hatchback_i20.parts.json",
+      "editable_source_sha256": "3847b70741e6b0d26f383b0525eb22eec08b1a3e3a2651e8756ccb189ce6199a",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:sedan_dzire",
+      "title": "Maruva Swift Sedan",
+      "category": "sedan",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.42,
+            0.52,
+            0.2
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.42,
+            0.52,
+            0.2
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_22",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.511875,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_23",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.168125,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.9367,
+        0.0,
+        -2.0,
+        0.9367,
+        1.5,
+        2.0
+      ],
+      "profile_geometry_provenance": "d7aaeab7c79b7382c234250f5d1aade607379628a4645eba803fabb85f032a1f|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/sedan_dzire.geo.json",
+      "preserved_geometry_sha256": "9f8e531b897d1382b6cc87cf14dab5a529731ca18c83553f785dcd58cdf986d2",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/sedan_dzire.parts.json",
+      "editable_source_sha256": "c432b0da6d811ae541ab63ea751a0d2aae07899d799b8c880de06f42e3196301",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:sedan_aura",
+      "title": "Hondo Compact Sedan",
+      "category": "sedan",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.42,
+            0.52,
+            0.2
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.42,
+            0.52,
+            0.2
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_22",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.507875,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_23",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.164125,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.9266,
+        0.0,
+        -2.0,
+        0.9266,
+        1.5,
+        2.0
+      ],
+      "profile_geometry_provenance": "7482ff38ad62934aac7265a78fb370eb1ab8ba0b34cba0f45305ec4c9e463067|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/sedan_aura.geo.json",
+      "preserved_geometry_sha256": "928a1481b30b274dd71162da079af5044e15fec7005450c3cdb377a8f267eb5e",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/sedan_aura.parts.json",
+      "editable_source_sha256": "572b18db0ee2325cec7356bd01b0de01030f1527871dbc7d422dd4a6726abc93",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:sedan_amaze",
+      "title": "Hondo Accord Classic",
+      "category": "sedan",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.42,
+            0.52,
+            0.2
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.42,
+            0.52,
+            0.2
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_22",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.511875,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_23",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.168125,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.9367,
+        0.0,
+        -2.0,
+        0.9367,
+        1.5,
+        2.0
+      ],
+      "profile_geometry_provenance": "2fac1cc426173764e464e24bee8ad44a034f78028b4aede77f67b80a94fe95b0|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/sedan_amaze.geo.json",
+      "preserved_geometry_sha256": "38736d8c999a00dc32fca1d86e1ca8bcc3dae64165340df0e36dcab11b31a815",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/sedan_amaze.parts.json",
+      "editable_source_sha256": "8a2f113254c4fe2d19b549816f422abced8bd175a0b17f06716929c2b7af5538",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:sedan_verna",
+      "title": "Hondo Verna Executive",
+      "category": "sedan",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.44,
+            0.52,
+            0.22
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.44,
+            0.52,
+            0.22
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_22",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.521875,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_23",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.178125,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.9619,
+        0.0,
+        -2.2,
+        0.9619,
+        1.48,
+        2.2
+      ],
+      "profile_geometry_provenance": "c8fb812ac5a4671aa3a182638c253ef3dea178afeff7f80313c397ff20efeb6f|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/sedan_verna.geo.json",
+      "preserved_geometry_sha256": "d34ec4c3cb2ed912c651b7a064a8bd9c30873f444cbb7b029cb470d69dc8bcfc",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/sedan_verna.parts.json",
+      "editable_source_sha256": "825a3d95ac75b7699906f9b4d4003bee45d5019d4c9d4e5fbdd579032725607f",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:sedan_city",
+      "title": "Toyora City Cruiser",
+      "category": "sedan",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.43,
+            0.52,
+            0.23
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.43,
+            0.52,
+            0.23
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_22",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.519875,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_23",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.176125,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.9568,
+        0.0,
+        -2.25,
+        0.9568,
+        1.48,
+        2.25
+      ],
+      "profile_geometry_provenance": "413d44c1610bbb390aea14995b0bb4151b8375da224f3eaf0dd0640ccf0e4f6c|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/sedan_city.geo.json",
+      "preserved_geometry_sha256": "3fbad2a122a7927ceead15196321d342e145cc0786a3c74ac662988fe39db491",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/sedan_city.parts.json",
+      "editable_source_sha256": "dea153fa1bcf6deaafc62761862027f7409c63b55077a31f089898d64d4f5bf1",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:sedan_slavia",
+      "title": "Toyora Regal Sedan",
+      "category": "sedan",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.44,
+            0.52,
+            0.23
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.44,
+            0.52,
+            0.23
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_22",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.521875,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_23",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.178125,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.9619,
+        0.0,
+        -2.27,
+        0.9619,
+        1.5,
+        2.27
+      ],
+      "profile_geometry_provenance": "6dd41bd2545cdeaeb63a6d672c92504dd916ac7ff019a1e430e921b993d8e6b2|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/sedan_slavia.geo.json",
+      "preserved_geometry_sha256": "a0d976ba953e16974c54326f9fd93c5e65d1e1b68d90af81816c7667792b3854",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/sedan_slavia.parts.json",
+      "editable_source_sha256": "a97ea4a8ddd83a052ed6fb40a2474bda5e50bbca32fbdcc00ebd5d4c6702bf70",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:suv_thar",
+      "title": "Wahindra Thar 4x4 Offroader",
+      "category": "suv",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.46,
+            0.66,
+            0.2
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.46,
+            0.66,
+            0.2
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_27",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.541875,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_28",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.198125,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -1.0122,
+        0.0,
+        -2.2225,
+        1.0122,
+        1.9875,
+        2.0
+      ],
+      "profile_geometry_provenance": "d1f58bd4b62a219185150c8cb978736c59eb2d67696f8367ce963bd41f85dcad|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/suv_thar.geo.json",
+      "preserved_geometry_sha256": "b45c5ae92132340cc16f51f7f390f8ea886924289444403d226e1e458ca3dd0e",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/suv_thar.parts.json",
+      "editable_source_sha256": "3fcaa5aad27744705e44e71dff68d8512be6db2dbc855953284888b036fed042",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:suv_scorpio",
+      "title": "Wahindra Scorpio-N Patrol",
+      "category": "suv",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.47,
+            0.65,
+            0.23
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.47,
+            0.65,
+            0.23
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_21",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.551875,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_22",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.208125,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -1.0373,
+        0.0,
+        -2.33,
+        1.0373,
+        1.85,
+        2.33
+      ],
+      "profile_geometry_provenance": "aa463aa432a88674f05e7277bb6a99cf7bcb05f698ed7444939858829268ad3f|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/suv_scorpio.geo.json",
+      "preserved_geometry_sha256": "2301fb9b38a70dc4fa78685dd50057b038589fdf8870a260dd6fedcb5caba50e",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/suv_scorpio.parts.json",
+      "editable_source_sha256": "ff561b4a2bff1e671bbd283d9a8f093c3c7e4e4e7eda7c70121a201cd088c7f6",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:suv_bolero",
+      "title": "Wahindra Bolero Rugged",
+      "category": "suv",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.44,
+            0.66,
+            0.2
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.44,
+            0.66,
+            0.2
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_21",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.521875,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_22",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.178125,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.9619,
+        0.0,
+        -2.05,
+        0.9619,
+        1.88,
+        2.05
+      ],
+      "profile_geometry_provenance": "375ae653555788c5155c6ad7f14943c83b5b44d72abab138125b001be72a22b3|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/suv_bolero.geo.json",
+      "preserved_geometry_sha256": "b18515b2ec543217d113dddc477eea9b0355921ccbecc956c76ecb9d22070893",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/suv_bolero.parts.json",
+      "editable_source_sha256": "8954685c8b1d02ea0006352b8486c6523e08b6138324e22143618679064ce70b",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:suv_xuv700",
+      "title": "Wahindra XUV Sovereign",
+      "category": "suv",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.47,
+            0.61,
+            0.24
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.47,
+            0.61,
+            0.24
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_21",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.551875,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_22",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.208125,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -1.0373,
+        0.0,
+        -2.35,
+        1.0373,
+        1.75,
+        2.35
+      ],
+      "profile_geometry_provenance": "10b090ddc4cf6d94cb9fd2e96eebfb94793d6470f32b75810606df7a2c82c5ea|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/suv_xuv700.geo.json",
+      "preserved_geometry_sha256": "e53481c3eff1dc34607e4b2fbca03f0dc840835f72c04f7309c22447b93ae2e8",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/suv_xuv700.parts.json",
+      "editable_source_sha256": "05150ac829a497dfd1734f3280f8be15ca1f26321d9f8d16453476c06b44637b",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:suv_fortuner",
+      "title": "Toyora Fortuner 4WD",
+      "category": "suv",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.46,
+            0.64,
+            0.24
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.46,
+            0.64,
+            0.24
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_27",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.541875,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_28",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.198125,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -1.0122,
+        0.0,
+        -2.6145,
+        1.0122,
+        1.9175,
+        2.4
+      ],
+      "profile_geometry_provenance": "b8b757d0c6763c27e956422b37c32bf8e08a2a39774278cfb69475511333ba49|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/suv_fortuner.geo.json",
+      "preserved_geometry_sha256": "27375750f06656a80a165393a91bf66ac731654a0765433cc50bcbd6ca3efcb7",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/suv_fortuner.parts.json",
+      "editable_source_sha256": "5357c70160b75f70426e0a3c581d9e372b1ff8dd4bd815caf5673dce4fe80f51",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:suv_safari",
+      "title": "Tavara Safari Flagship",
+      "category": "suv",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.47,
+            0.62,
+            0.23
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.47,
+            0.62,
+            0.23
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_27",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.551875,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_28",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.208125,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -1.0373,
+        0.0,
+        -2.5508,
+        1.0373,
+        1.8675,
+        2.33
+      ],
+      "profile_geometry_provenance": "3a7822383e3456573035e41602db87d690fb4ef99f8fa44bb2a5dd6469de9547|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/suv_safari.geo.json",
+      "preserved_geometry_sha256": "feca1aaa544969c60dcf3a7bd2e13ad9109ae8bc94712e02d53eafb1fd30a4b1",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/suv_safari.parts.json",
+      "editable_source_sha256": "4911ce61d0a3dc532db0d23ac5a44106e0e32697f90e4615007a53d7cc244263",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:suv_harrier",
+      "title": "Tavara Harrier Monocoque",
+      "category": "suv",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.47,
+            0.59,
+            0.23
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.47,
+            0.59,
+            0.23
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_21",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.549875,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_22",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.206125,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -1.0323,
+        0.0,
+        -2.3,
+        1.0323,
+        1.7,
+        2.3
+      ],
+      "profile_geometry_provenance": "85774e8b947bee0f8f92691d6d33e49ce9263acd9d179aab0ed9dafc2f421bbe|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/suv_harrier.geo.json",
+      "preserved_geometry_sha256": "f6bd07919e41c86385a6f6bfca961639f48fa0c3c409342d028a76e0d06b2618",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/suv_harrier.parts.json",
+      "editable_source_sha256": "aec132a5819f6ce7e20ea7c7e3c8241e5097cf3b244b70d6aa0687791b65b69f",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:suv_nexon",
+      "title": "Tavara Nexon EV",
+      "category": "suv",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.45,
+            0.56,
+            0.2
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.45,
+            0.56,
+            0.2
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_21",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.531875,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_22",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.188125,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.987,
+        0.0,
+        -2.0,
+        0.987,
+        1.6,
+        2.0
+      ],
+      "profile_geometry_provenance": "ea1708e58a0c21c089927a4c70bba7d8ba93a5623f4df39232c15438a01b1ac6|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/suv_nexon.geo.json",
+      "preserved_geometry_sha256": "8d06d5429d7d02265d6c06726e9a81d0bccf59cf7ce9d642b425b1e1bd5e64dc",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/suv_nexon.parts.json",
+      "editable_source_sha256": "d354a819d14a85d9442214d42f91504bcdb90de8058aa52027f561dc321a0500",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:suv_punch",
+      "title": "Tavara Punch Micro-SUV",
+      "category": "suv",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.43,
+            0.56,
+            0.19
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.43,
+            0.56,
+            0.19
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_21",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.519875,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_22",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.176125,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.9568,
+        0.0,
+        -1.91,
+        0.9568,
+        1.6,
+        1.91
+      ],
+      "profile_geometry_provenance": "c6844f0c51541f8e42d1938f7a3504c3c45335b1e6d234f48bc01ca9ce57dac2|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/suv_punch.geo.json",
+      "preserved_geometry_sha256": "f4a78279ca69fedadcaf44b577c1e5bf27db729a7debee3c5a33926cae311380",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/suv_punch.parts.json",
+      "editable_source_sha256": "71e81e24190dbc3b57eeb5652b7507034d5e51b74aca01b6b3018ef26e2ff2c5",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:suv_creta",
+      "title": "Hondo Urban Cross",
+      "category": "suv",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.45,
+            0.57,
+            0.21
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.45,
+            0.57,
+            0.21
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_21",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.529875,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_22",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.186125,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.982,
+        0.0,
+        -2.15,
+        0.982,
+        1.63,
+        2.15
+      ],
+      "profile_geometry_provenance": "607233e581be7617c36ae84cf6a99c35857e90930b06a6211e09b2cf19e363c4|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/suv_creta.geo.json",
+      "preserved_geometry_sha256": "342b379353af69f054164a5c0470aca3459f985f63656c74c426217bf3631391",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/suv_creta.parts.json",
+      "editable_source_sha256": "57835104487192d938c1361826f176645987f44d50642360bd1df31bb47fa0c5",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:suv_seltos",
+      "title": "Hondo Trail Master",
+      "category": "suv",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.45,
+            0.57,
+            0.22
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.45,
+            0.57,
+            0.22
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_21",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.531875,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_22",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.188125,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.987,
+        0.0,
+        -2.18,
+        0.987,
+        1.64,
+        2.18
+      ],
+      "profile_geometry_provenance": "dec8dc1695b0417380e3fe80140430d0033dcd33f0fdf80feee45abab4b1ebdc|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/suv_seltos.geo.json",
+      "preserved_geometry_sha256": "e27005091f2ee5abb9433fa27eb5084b0a1c78aaae8e3348f65558a3ed9e2c2c",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/suv_seltos.parts.json",
+      "editable_source_sha256": "c2a8eacf4af27b7e0bf2312b83c130d60bf3e51ea376e59aa3001758aa2cbc6b",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:suv_jimny",
+      "title": "Maruva Jimny 5-Door",
+      "category": "suv",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.41,
+            0.6,
+            0.2
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.41,
+            0.6,
+            0.2
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_27",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.499875,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_28",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.156125,
+            0.4125,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.9065,
+        0.0,
+        -2.2127,
+        0.9065,
+        1.8075,
+        1.99
+      ],
+      "profile_geometry_provenance": "ea055895458ca24d8c2e0e73fa3ec5d1d4ef58767e50ed82d0e1bdf124ebeafc|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/suv_jimny.geo.json",
+      "preserved_geometry_sha256": "18e909be0cfc3c656c5551bb1404c6e534207cefb46f54bb8300a7740af91e2b",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/suv_jimny.parts.json",
+      "editable_source_sha256": "3d1511b5a1e05fb030ed511769e41c2f44afb84c84fde55ad3ba709558b87b57",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:luxury_series3",
+      "title": "SD Executive 3-Series",
+      "category": "luxury",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.46,
+            0.5,
+            0.24
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.46,
+            0.5,
+            0.24
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_25",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.535875,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_26",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.192125,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.9971,
+        0.0,
+        -2.3655,
+        0.9971,
+        1.44,
+        2.35
+      ],
+      "profile_geometry_provenance": "97f31d615ffa87af7649cbd41721a0cea73f6a60ee939149ff5cffd6a649460e|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/luxury_series3.geo.json",
+      "preserved_geometry_sha256": "81bc2e5462c8a0ca3e3472150e8c715c6c43a909eb82c91ce399b772a7d640f6",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/luxury_series3.parts.json",
+      "editable_source_sha256": "022811839a8e63137d1f34c764c8e2e4c49e1d9234feefbe92ec691453ab1010",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:luxury_eclass",
+      "title": "SD Prestige E-Chassis",
+      "category": "luxury",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.46,
+            0.51,
+            0.25
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.46,
+            0.51,
+            0.25
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_25",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.541875,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_26",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.198125,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -1.0122,
+        0.0,
+        -2.4635,
+        1.0122,
+        1.47,
+        2.45
+      ],
+      "profile_geometry_provenance": "4e6a1d59684405b5f6566119a7147fc4a1e7fb3d14f9d6b5fdcada2c8bb4080b|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/luxury_eclass.geo.json",
+      "preserved_geometry_sha256": "023433049e978a67d0acb1a3812ca5f726901ce5040940d5ff141f3e8a87967b",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/luxury_eclass.parts.json",
+      "editable_source_sha256": "f494b63d4dbdcc5491a74fb49cb5aaa147291a3d8f84873fe90243f764b07b57",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:luxury_q7",
+      "title": "SD Quattro Seven SUV",
+      "category": "luxury",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.49,
+            0.61,
+            0.25
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.49,
+            0.61,
+            0.25
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_25",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.565875,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_26",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.222125,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -1.0726,
+        0.0,
+        -2.5419,
+        1.0726,
+        1.74,
+        2.53
+      ],
+      "profile_geometry_provenance": "a5b558a0d2ac9125f9b9405a926765948d96cec5735ee7e20233d859d2448bd3|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/luxury_q7.geo.json",
+      "preserved_geometry_sha256": "7de85a1c793c8b1e193a533406c884b62997f6f150545e460d0741e8705b67d7",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/luxury_q7.parts.json",
+      "editable_source_sha256": "f8358cd539cb053086e7401b7954d73f2d2eff024bdfafcb879e3fa513d1b1c7",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:luxury_x5",
+      "title": "SD Bavaria X-Drive",
+      "category": "luxury",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.5,
+            0.61,
+            0.25
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.5,
+            0.61,
+            0.25
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_25",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.571875,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_26",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.228125,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -1.0876,
+        0.0,
+        -2.4733,
+        1.0876,
+        1.75,
+        2.46
+      ],
+      "profile_geometry_provenance": "4891cd339b13b9875a56d61e0e0832af6a8b0d0aeb0e1a944674750ca160ec39|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/luxury_x5.geo.json",
+      "preserved_geometry_sha256": "fe10437d21ee5a0f7b5f9cd6c6cf293511d2633e1a717a48dd05d4eea14c253a",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/luxury_x5.parts.json",
+      "editable_source_sha256": "1dd7fea55277cb4602b41bc724269b199515f5fb187025eecf0bf737c65b010a",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:luxury_rangerover",
+      "title": "SD Sovereign Imperial",
+      "category": "luxury",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 2,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.51,
+            0.65,
+            0.25
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.51,
+            0.65,
+            0.25
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_25",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.581875,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_26",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.238125,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -1.1128,
+        0.0,
+        -2.537,
+        1.1128,
+        1.87,
+        2.52
+      ],
+      "profile_geometry_provenance": "8589c17086092d3a1a678eeb1ed4058a5545d745f1026c6cd9615f14c5489c14|manifest driver anchor and mirrored authored front seat; no unverified rear rows",
+      "preserved_geometry_path": "models/entity/luxury_rangerover.geo.json",
+      "preserved_geometry_sha256": "12c0a4b6891a7eb11821740cf29b5574c1fc0a57497efd92291edf7cf53e6f5e",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/luxury_rangerover.parts.json",
+      "editable_source_sha256": "c78c6b7012e2b0a3e61b1c0035ff38e96bdc0d429ef3e981c7f18a1b9a92916f",
+      "interior_work_and_limits": "Two authored front seat cuboids only. Rear seating requires actual bench/cushion, hollow cabin, adult-avatar headroom and client validation; no rear capacity guessed."
+    },
+    {
+      "id": "gtm:moto_splendor",
+      "title": "Veero Splendor 100",
+      "category": "motorcycle",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            0.0,
+            0.7,
+            -0.32
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 1,
+      "independently_identified_seating_places": 1,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_6",
+          "material": "leather_black",
+          "origin_blocks": [
+            -0.14375,
+            0.55,
+            -0.58875
+          ],
+          "size_blocks": [
+            0.2875,
+            0.15,
+            0.5375
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.38,
+        0.0,
+        -1.0075,
+        0.38,
+        1.05,
+        1.0075
+      ],
+      "profile_geometry_provenance": "94271050d9892ef7d22aa4f56a2ea4af5692ab2e86f5e2f9dd9bcf1885b90d35|authored chassis leather saddle/cushion center and top",
+      "preserved_geometry_path": "models/entity/moto_splendor.geo.json",
+      "preserved_geometry_sha256": "ec29ea38bf8e33e1112d22c408b290f782cb8f50351b9b41c79e1c24f8b833cd",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/moto_splendor.parts.json",
+      "editable_source_sha256": "a0fc3ed3096bd0eb8aebe4d504adf6bbd168cfebe10277a0d2991b37a746b455",
+      "interior_work_and_limits": "One driver mount retained. Upholstery pieces form the authored saddle (Bullet pieces overlap); no distinct pillion place verified."
+    },
+    {
+      "id": "gtm:moto_classic350",
+      "title": "Royal Iron Classic 350",
+      "category": "motorcycle",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            0.0,
+            0.7,
+            -0.344
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 1,
+      "independently_identified_seating_places": 1,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_6",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.14375,
+            0.55,
+            -0.61275
+          ],
+          "size_blocks": [
+            0.2875,
+            0.15,
+            0.5375
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.4,
+        0.0,
+        -1.07,
+        0.4,
+        1.1,
+        1.07
+      ],
+      "profile_geometry_provenance": "70d2ba2834c421219c305b75931b2425f4bc4499eecd1be81a5071e693862712|authored chassis leather saddle/cushion center and top",
+      "preserved_geometry_path": "models/entity/moto_classic350.geo.json",
+      "preserved_geometry_sha256": "daaf682cc314b4587d2a47fef38c1da634e6647a6d07e2e419e46f163c373447",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/moto_classic350.parts.json",
+      "editable_source_sha256": "85ab99219d7b2bbaa6c8742c401ae6b575d0a7debed11812de1c5157d9c6a110",
+      "interior_work_and_limits": "One driver mount retained. Upholstery pieces form the authored saddle (Bullet pieces overlap); no distinct pillion place verified."
+    },
+    {
+      "id": "gtm:moto_bullet350",
+      "title": "Royal Iron Bullet 350",
+      "category": "motorcycle",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            0.0,
+            0.75625,
+            -0.4515
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 1,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_6",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.14375,
+            0.55,
+            -0.61275
+          ],
+          "size_blocks": [
+            0.2875,
+            0.15,
+            0.5375
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "wide_touring_saddle",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.18125,
+            0.625,
+            -0.774
+          ],
+          "size_blocks": [
+            0.3625,
+            0.13125,
+            0.645
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.4,
+        0.0,
+        -1.07,
+        0.4,
+        1.12,
+        1.07
+      ],
+      "profile_geometry_provenance": "4e1d5853b3ecdcc3d02c93632eb87265ce46fafa440e81cb24f7f3f1364bf7cf|authored chassis leather saddle/cushion center and top",
+      "preserved_geometry_path": "models/entity/moto_bullet350.geo.json",
+      "preserved_geometry_sha256": "83ec21f5024b0c8ffd845d9fee44dadaa1c21143abcf898bbc328d18179eab63",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/moto_bullet350.parts.json",
+      "editable_source_sha256": "36cb5a67d035e39470f7796671ead5fc50a3e5303990b43949661b3924ae9c44",
+      "interior_work_and_limits": "One driver mount retained. Upholstery pieces form the authored saddle (Bullet pieces overlap); no distinct pillion place verified."
+    },
+    {
+      "id": "gtm:moto_pulsar",
+      "title": "Wahindra Pulsar 220F",
+      "category": "motorcycle",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            0.0,
+            0.7,
+            -0.328
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 1,
+      "independently_identified_seating_places": 1,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_6",
+          "material": "leather_black",
+          "origin_blocks": [
+            -0.14375,
+            0.55,
+            -0.59675
+          ],
+          "size_blocks": [
+            0.2875,
+            0.15,
+            0.5375
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.39,
+        0.0,
+        -1.0255,
+        0.39,
+        1.15,
+        1.0255
+      ],
+      "profile_geometry_provenance": "b2abe046fa85ae96c2fe682ffc9483fd6ba02f54413b292dc1e46bef16fbcf85|authored chassis leather saddle/cushion center and top",
+      "preserved_geometry_path": "models/entity/moto_pulsar.geo.json",
+      "preserved_geometry_sha256": "c49216addd85736a885b717a60e1d875d56fef14b0b68bbe6f0d524e730ff0b1",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/moto_pulsar.parts.json",
+      "editable_source_sha256": "84dec4f30157fb3d0b89afbcf00f4dc78eea39df8673e79bcdf7b55cba12b981",
+      "interior_work_and_limits": "One driver mount retained. Upholstery pieces form the authored saddle (Bullet pieces overlap); no distinct pillion place verified."
+    },
+    {
+      "id": "gtm:moto_apache",
+      "title": "Tavara Apache RTR",
+      "category": "motorcycle",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            0.0,
+            0.7,
+            -0.3328125
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 1,
+      "independently_identified_seating_places": 1,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_6",
+          "material": "leather_black",
+          "origin_blocks": [
+            -0.14375,
+            0.55,
+            -0.6015625
+          ],
+          "size_blocks": [
+            0.2875,
+            0.15,
+            0.5375
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.4,
+        0.0,
+        -1.04,
+        0.4,
+        1.1,
+        1.04
+      ],
+      "profile_geometry_provenance": "a684a6e26c43949ec91fb42ef7f7f9e4d963b4bd2adea54086b0df249c013269|authored chassis leather saddle/cushion center and top",
+      "preserved_geometry_path": "models/entity/moto_apache.geo.json",
+      "preserved_geometry_sha256": "ffca8327dc0e8708899366f8ca5e4bcafb1886d99690725f46f1746214bef0f5",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/moto_apache.parts.json",
+      "editable_source_sha256": "122ed6045e89b8699000457212efa9f7bf5859e64cf897ad770509131e024073",
+      "interior_work_and_limits": "One driver mount retained. Upholstery pieces form the authored saddle (Bullet pieces overlap); no distinct pillion place verified."
+    },
+    {
+      "id": "gtm:moto_duke",
+      "title": "SD Duke 390 Naked",
+      "category": "motorcycle",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            0.0,
+            0.7,
+            -0.328
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 1,
+      "independently_identified_seating_places": 1,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_6",
+          "material": "leather_black",
+          "origin_blocks": [
+            -0.14375,
+            0.55,
+            -0.59675
+          ],
+          "size_blocks": [
+            0.2875,
+            0.15,
+            0.5375
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.41,
+        0.0,
+        -1.0255,
+        0.41,
+        1.1,
+        1.0255
+      ],
+      "profile_geometry_provenance": "3ce3caf1b7ac07f45a9a7c508f7a88e8eef83b0fa53c24e5918f5b7767e03340|authored chassis leather saddle/cushion center and top",
+      "preserved_geometry_path": "models/entity/moto_duke.geo.json",
+      "preserved_geometry_sha256": "825133d59e772a495ede6f1003f5755e839f4ba11b2d08f9416ef2afad551145",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/moto_duke.parts.json",
+      "editable_source_sha256": "9f95f671cdcfe6e3ec44130d6d93e69c3d50e2d5e7ccc88112a99ea24ce3a591",
+      "interior_work_and_limits": "One driver mount retained. Upholstery pieces form the authored saddle (Bullet pieces overlap); no distinct pillion place verified."
+    },
+    {
+      "id": "gtm:moto_himalayan",
+      "title": "Royal Iron Himalayan Explorer",
+      "category": "motorcycle",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            0.0,
+            0.7,
+            -0.352
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 1,
+      "independently_identified_seating_places": 1,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_6",
+          "material": "leather_black",
+          "origin_blocks": [
+            -0.14375,
+            0.55,
+            -0.62075
+          ],
+          "size_blocks": [
+            0.2875,
+            0.15,
+            0.5375
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.42,
+        0.0,
+        -1.1,
+        0.42,
+        1.35,
+        1.1
+      ],
+      "profile_geometry_provenance": "0a6dd208c467ef4bee28eb2e3b0be018400b6182178e1b4bde4a5dd6cd4a67a3|authored chassis leather saddle/cushion center and top",
+      "preserved_geometry_path": "models/entity/moto_himalayan.geo.json",
+      "preserved_geometry_sha256": "fad69a63771bea001412f3d8c500e170d2ffe0291438e4e3a1a4e80507beeda4",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/moto_himalayan.parts.json",
+      "editable_source_sha256": "628eb04b540559ccc07e68d6d39572664b98bce9708bb97c7dd5ab39cd68e139",
+      "interior_work_and_limits": "One driver mount retained. Upholstery pieces form the authored saddle (Bullet pieces overlap); no distinct pillion place verified."
+    },
+    {
+      "id": "gtm:moto_r15",
+      "title": "Hondo Supersport 150",
+      "category": "motorcycle",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            0.0,
+            0.7,
+            -0.318375
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 1,
+      "independently_identified_seating_places": 1,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_6",
+          "material": "leather_black",
+          "origin_blocks": [
+            -0.14375,
+            0.55,
+            -0.587125
+          ],
+          "size_blocks": [
+            0.2875,
+            0.15,
+            0.5375
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.3688,
+        0.0,
+        -1.0039,
+        0.3688,
+        1.13,
+        1.0039
+      ],
+      "profile_geometry_provenance": "e9e856e39ea7f00e863eec350fb528c203cd02496d13d2a3c816955e9be749a4|authored chassis leather saddle/cushion center and top",
+      "preserved_geometry_path": "models/entity/moto_r15.geo.json",
+      "preserved_geometry_sha256": "f4c9be7a0fd88648151c34c88a5c5458782517a02a3b8bf1b31fd9b6e2c61cae",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/moto_r15.parts.json",
+      "editable_source_sha256": "a0e0ffcb0a46cf2bbda1d9cff7aa0560c79b3baf53d686c0574a03c89ccefc7f",
+      "interior_work_and_limits": "One driver mount retained. Upholstery pieces form the authored saddle (Bullet pieces overlap); no distinct pillion place verified."
+    },
+    {
+      "id": "gtm:scooter_activa",
+      "title": "Hondo Activa 6G Commuter",
+      "category": "scooter",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            0.0,
+            0.85,
+            -0.2561875
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 1,
+      "independently_identified_seating_places": 1,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_6",
+          "material": "leather_black",
+          "origin_blocks": [
+            -0.18125,
+            0.7125,
+            -0.5374375
+          ],
+          "size_blocks": [
+            0.3625,
+            0.1375,
+            0.5625
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.3688,
+        0.0,
+        -0.92,
+        0.3688,
+        1.2,
+        0.92
+      ],
+      "profile_geometry_provenance": "d74a4fc5fe52569125b63653d692f1b24a96b6759ac547bf7f85929d783d79f3|authored chassis leather saddle/cushion center and top",
+      "preserved_geometry_path": "models/entity/scooter_activa.geo.json",
+      "preserved_geometry_sha256": "81a3bc16021df079a83fb5c4f1a9213aa4dda38641be56a6659ba568d65ef715",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/scooter_activa.parts.json",
+      "editable_source_sha256": "8046064355dc32cad55c0edc4cb654956c9bab3dae369b897a0ec73d97112565",
+      "interior_work_and_limits": "One driver mount retained. Upholstery pieces form the authored saddle (Bullet pieces overlap); no distinct pillion place verified."
+    },
+    {
+      "id": "gtm:scooter_jupiter",
+      "title": "Tavara Jupiter Metal",
+      "category": "scooter",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            0.0,
+            0.85,
+            -0.2561875
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 1,
+      "independently_identified_seating_places": 1,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_6",
+          "material": "leather_black",
+          "origin_blocks": [
+            -0.18125,
+            0.7125,
+            -0.5374375
+          ],
+          "size_blocks": [
+            0.3625,
+            0.1375,
+            0.5625
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.3688,
+        0.0,
+        -0.92,
+        0.3688,
+        1.2,
+        0.92
+      ],
+      "profile_geometry_provenance": "767ab8dbdb7e7e7b8a1f3424b45a475064016b1d4d0cd3d1d1550529d6b9795a|authored chassis leather saddle/cushion center and top",
+      "preserved_geometry_path": "models/entity/scooter_jupiter.geo.json",
+      "preserved_geometry_sha256": "d40c206635800a5687eda0190f2309aa8932378d38dd6de23c830aa85eb92c29",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/scooter_jupiter.parts.json",
+      "editable_source_sha256": "8037f1c954ad28e90199efb82aab1196f7f152ba4f5f7e7d9efaf05b1df0a22a",
+      "interior_work_and_limits": "One driver mount retained. Upholstery pieces form the authored saddle (Bullet pieces overlap); no distinct pillion place verified."
+    },
+    {
+      "id": "gtm:scooter_access",
+      "title": "Maruva Access 125",
+      "category": "scooter",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            0.0,
+            0.85,
+            -0.2618125
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 1,
+      "independently_identified_seating_places": 1,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_6",
+          "material": "leather_black",
+          "origin_blocks": [
+            -0.18125,
+            0.7125,
+            -0.5430625
+          ],
+          "size_blocks": [
+            0.3625,
+            0.1375,
+            0.5625
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.3688,
+        0.0,
+        -0.94,
+        0.3688,
+        1.2,
+        0.94
+      ],
+      "profile_geometry_provenance": "6268fb905f46df9adbace1a49ae774d454b2b0f8869a8be289561d90aa25ae82|authored chassis leather saddle/cushion center and top",
+      "preserved_geometry_path": "models/entity/scooter_access.geo.json",
+      "preserved_geometry_sha256": "ba1cb51be8d15dbac2a27ea1292defd8b90c2fcf8ab968dabb4784e6478ef848",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/scooter_access.parts.json",
+      "editable_source_sha256": "8abc1e1a791c5e8d6c4756932382af1dbfc2eec4e5ce7f5d6cdb345f224d7964",
+      "interior_work_and_limits": "One driver mount retained. Upholstery pieces form the authored saddle (Bullet pieces overlap); no distinct pillion place verified."
+    },
+    {
+      "id": "gtm:scooter_ather",
+      "title": "Tavara Ather 450X EV",
+      "category": "scooter",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            0.0,
+            0.85,
+            -0.253375
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 1,
+      "independently_identified_seating_places": 1,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_6",
+          "material": "leather_black",
+          "origin_blocks": [
+            -0.18125,
+            0.7125,
+            -0.534625
+          ],
+          "size_blocks": [
+            0.3625,
+            0.1375,
+            0.5625
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.3688,
+        0.0,
+        -0.91,
+        0.3688,
+        1.25,
+        0.91
+      ],
+      "profile_geometry_provenance": "11110e53b3c434448f4dd42797ec6655486bf80f866a5c1c1d3e5bfb7ad2a8a7|authored chassis leather saddle/cushion center and top",
+      "preserved_geometry_path": "models/entity/scooter_ather.geo.json",
+      "preserved_geometry_sha256": "b2074bced98e98c2ded1dd4abb7c1ab626684b0d57d3fde68a46bc63e1ebc8f1",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/scooter_ather.parts.json",
+      "editable_source_sha256": "73b2ad4cb135a01c5ddfbce324bcf32ffec3f0cb6f1a6883389086de7abe12af",
+      "interior_work_and_limits": "One driver mount retained. Upholstery pieces form the authored saddle (Bullet pieces overlap); no distinct pillion place verified."
+    },
+    {
+      "id": "gtm:rickshaw_traditional",
+      "title": "Indra Auto CNG Passenger",
+      "category": "rickshaw",
+      "runtime_total_seats": 4,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 3,
+      "previous_runtime_total_seats": 3,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            0.0,
+            0.60625,
+            0.208
+          ]
+        },
+        {
+          "name": "rear_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.6,
+            0.65,
+            -0.624
+          ]
+        },
+        {
+          "name": "rear_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.6,
+            0.65,
+            -0.624
+          ]
+        },
+        {
+          "name": "rear_center",
+          "role": "passenger",
+          "hip_blocks": [
+            0.0,
+            0.65,
+            -0.624
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 4,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_4",
+          "material": "leather_black",
+          "origin_blocks": [
+            -0.21875,
+            0.45,
+            0.05175
+          ],
+          "size_blocks": [
+            0.4375,
+            0.15625,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_5",
+          "material": "leather_black",
+          "origin_blocks": [
+            -0.494,
+            0.4625,
+            -0.827125
+          ],
+          "size_blocks": [
+            0.988,
+            0.1875,
+            0.40625
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -1.07,
+        0.0,
+        -1.3,
+        1.07,
+        2.238,
+        1.3
+      ],
+      "profile_geometry_provenance": "bac1c4669f190a5a65a3aa313b528799bbeacdfb18e36c41f5e284c1e4d5a29a|authored driver cushion and widened existing rear bench; repair105 driver +3 passengers, rear body/canopy +0.84 block wide and canopy +0.45 high; SHA-256 of packed normal Bedrock geometry",
+      "preserved_geometry_path": "models/entity/rickshaw_traditional.geo.json",
+      "preserved_geometry_sha256": "2f3079ee1509ba2193bb94ca0b4a01b92b7c1a8a327c65299ced553df79eb53d",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/rickshaw_traditional.parts.json",
+      "editable_source_sha256": "0e345dc6a49f2d0ae479b974340f0184288362ad9d9db1e058c8c7e229cf2695",
+      "interior_work_and_limits": "Driver plus three passenger mounts implemented; existing bench/cabin widened .84 block and roof raised .45. Network occupancy evidence and native visual acceptance are separate checks."
+    },
+    {
+      "id": "gtm:rickshaw_electric",
+      "title": "Indra Mayuri E-Rickshaw",
+      "category": "rickshaw",
+      "runtime_total_seats": 3,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 2,
+      "previous_runtime_total_seats": 3,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            0.0,
+            0.60625,
+            0.22
+          ]
+        },
+        {
+          "name": "rear_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.19,
+            0.65,
+            -0.66
+          ]
+        },
+        {
+          "name": "rear_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.19,
+            0.65,
+            -0.66
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 3,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_4",
+          "material": "leather_black",
+          "origin_blocks": [
+            -0.21875,
+            0.45,
+            0.06375
+          ],
+          "size_blocks": [
+            0.4375,
+            0.15625,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_5",
+          "material": "leather_black",
+          "origin_blocks": [
+            -0.38,
+            0.4625,
+            -0.863125
+          ],
+          "size_blocks": [
+            0.76,
+            0.1875,
+            0.40625
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.5059,
+        0.0,
+        -1.38,
+        0.5059,
+        1.8,
+        1.38
+      ],
+      "profile_geometry_provenance": "e5b5cfc1d2e000f66fe2f437100c1e7898403028c1d4cc285159245daa8da998|authored chassis leather seat cushions; cargo driver only",
+      "preserved_geometry_path": "models/entity/rickshaw_electric.geo.json",
+      "preserved_geometry_sha256": "40cf7e631a5cdd80f3f51cb76f674b42cbd09f0afbc19c1bdc10e23863a25b47",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/rickshaw_electric.parts.json",
+      "editable_source_sha256": "0b4115ae14add895804184907748221b07970be3f4e75a8c9ede391068592444",
+      "interior_work_and_limits": "Existing driver plus two rear passenger anchors retained; narrow bench and roof clearance require separate geometry/client review."
+    },
+    {
+      "id": "gtm:rickshaw_cargo",
+      "title": "Indra Loader Cargo 3-Wheeler",
+      "category": "rickshaw",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            0.0,
+            0.60625,
+            0.248
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 1,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_4",
+          "material": "leather_black",
+          "origin_blocks": [
+            -0.21875,
+            0.45,
+            0.09175
+          ],
+          "size_blocks": [
+            0.4375,
+            0.15625,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_5",
+          "material": "leather_black",
+          "origin_blocks": [
+            -0.532,
+            0.4625,
+            -0.947125
+          ],
+          "size_blocks": [
+            1.064,
+            0.1875,
+            0.40625
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.7,
+        0.0,
+        -1.55,
+        0.7,
+        1.7875,
+        1.55
+      ],
+      "profile_geometry_provenance": "8b5d67634da8ac6a3c26606e38b7408b711c190dfa346131e8368d15093f85c0|authored chassis leather seat cushions; cargo driver only",
+      "preserved_geometry_path": "models/entity/rickshaw_cargo.geo.json",
+      "preserved_geometry_sha256": "71ed44edf944c67a5b693b5ddfa25c54070f7f992eb81e77ee293b07fd2d8abb",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/rickshaw_cargo.parts.json",
+      "editable_source_sha256": "dece7f313de2d87455d4338dfc2777828575d6accef29cc0d81fe0ffb2759b50",
+      "interior_work_and_limits": "Driver-only cargo configuration retained; decorative rear upholstery is covered by cargo and is not an approved passenger place."
+    },
+    {
+      "id": "gtm:bus_single_deck",
+      "title": "Tavara Starbus City Transit",
+      "category": "bus",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.62,
+            1.12,
+            0.58
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": 0,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.2734,
+        0.0,
+        -5.75,
+        1.2734,
+        3.2905,
+        5.75
+      ],
+      "profile_geometry_provenance": "13be505f831403b50e0492062776bfd062aa929868dac1fbcfdbaf9191d64b47|manifest driver anchor only; additional passenger layout not commissioned",
+      "preserved_geometry_path": "models/entity/bus_single_deck.geo.json",
+      "preserved_geometry_sha256": "553e0a21a50f1aa15a655c836e51141a5d84a2f18110d9d7739c64989557e18c",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/bus_single_deck.parts.json",
+      "editable_source_sha256": "bdf823fbf4bd32efe15e24fcb0f69a236b7b7dd4ec03cfd07b65af8b485ba0e9",
+      "interior_work_and_limits": "Exterior body/window shells; no passenger cushions or internal aisle. Requires an authored interior, measured seats/boarding doors and avatar headroom before passenger capacity can be claimed."
+    },
+    {
+      "id": "gtm:bus_double_deck",
+      "title": "BEST Coastal Double-Decker",
+      "category": "bus",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.62,
+            1.54,
+            0.53
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": 0,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.2734,
+        0.0,
+        -5.25,
+        1.2734,
+        4.4,
+        5.25
+      ],
+      "profile_geometry_provenance": "73e359f72305a24fe32fb03288affc64e72eb7048c20e7f767b5c0972e23cc76|manifest driver anchor only; additional passenger layout not commissioned",
+      "preserved_geometry_path": "models/entity/bus_double_deck.geo.json",
+      "preserved_geometry_sha256": "c80041f8b8bdde0c3852c7736806e2453b81af9dcd8466175f1ae44499604714",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/bus_double_deck.parts.json",
+      "editable_source_sha256": "e07c1beac41bea1c3613520a4227c90083546b1720d420c40e4632c33f6932b2",
+      "interior_work_and_limits": "Exterior body/window shells; no passenger cushions or internal aisle. Requires an authored interior, measured seats/boarding doors and avatar headroom before passenger capacity can be claimed."
+    },
+    {
+      "id": "gtm:bus_minibus",
+      "title": "Wahindra Metro Minibus",
+      "category": "bus",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.53,
+            0.98,
+            0.34
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": 0,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.0894,
+        0.0,
+        -3.4,
+        1.0894,
+        2.9385,
+        3.4
+      ],
+      "profile_geometry_provenance": "ad9f919c2654e070b774c3fab60a19537f46b8313dd34e337d874d8caedcd06b|manifest driver anchor only; additional passenger layout not commissioned",
+      "preserved_geometry_path": "models/entity/bus_minibus.geo.json",
+      "preserved_geometry_sha256": "de3901110c8c81fc33f9c7c9900da793ce66b3b70895f3e22b63c6da55d6c152",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/bus_minibus.parts.json",
+      "editable_source_sha256": "36052b79b9a770a71f00a1ba2fa42ea4d01852f75ae4bddd3f830f57be08705b",
+      "interior_work_and_limits": "Exterior body/window shells; no passenger cushions or internal aisle. Requires an authored interior, measured seats/boarding doors and avatar headroom before passenger capacity can be claimed."
+    },
+    {
+      "id": "gtm:bus_intercity_coach",
+      "title": "Tavara Garuda Air-Suspension",
+      "category": "bus",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.65,
+            1.26,
+            0.68
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": 0,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.3194,
+        0.0,
+        -6.75,
+        1.3194,
+        3.6425,
+        6.75
+      ],
+      "profile_geometry_provenance": "d1dc97726410852e47c08529b528ccd097b95eab7cd592e4cf7d531683d4cbb6|manifest driver anchor only; additional passenger layout not commissioned",
+      "preserved_geometry_path": "models/entity/bus_intercity_coach.geo.json",
+      "preserved_geometry_sha256": "4fd6c29a99bf6c357cc6aae83d3a00de7917885db36cc5a3b7db8c31c292d61b",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/bus_intercity_coach.parts.json",
+      "editable_source_sha256": "07a73ed3c8d3add71c990c3330ef024b0eab32769d632d6b1f1c45f37a9e7280",
+      "interior_work_and_limits": "Exterior body/window shells; no passenger cushions or internal aisle. Requires an authored interior, measured seats/boarding doors and avatar headroom before passenger capacity can be claimed."
+    },
+    {
+      "id": "gtm:comm_mini_cargo",
+      "title": "Tavara Ace Mini Truck (Chhota Hathi)",
+      "category": "commercial",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.38,
+            0.65,
+            0.19
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": 0,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -0.8134,
+        0.0,
+        -1.9,
+        0.8134,
+        1.85,
+        1.9
+      ],
+      "profile_geometry_provenance": "90aa7abe2cbdecb6dfc4b00978f778d02a0430cadcde99b12cbad2e0d4b49227|manifest driver anchor only; additional passenger layout not commissioned",
+      "preserved_geometry_path": "models/entity/comm_mini_cargo.geo.json",
+      "preserved_geometry_sha256": "9bdd885bb8166b1d8478d49d9e442a9ee09fab35069cc43013b5d71c11bda8d2",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/comm_mini_cargo.parts.json",
+      "editable_source_sha256": "ee7d6dbad6e4ab6b759ca7a1226913ba1ecec56de05553bd437be72963fff2d5",
+      "interior_work_and_limits": "Driver-only profile retained; no extra usable seat or hollow passenger interior established from the delivered geometry."
+    },
+    {
+      "id": "gtm:comm_pickup",
+      "title": "Wahindra Bolero Maxi Truck",
+      "category": "commercial",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.42,
+            0.66,
+            0.25
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": 0,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -0.9054,
+        0.0,
+        -2.45,
+        0.9054,
+        1.9,
+        2.45
+      ],
+      "profile_geometry_provenance": "8c0e16459500acdccf98ae6cf172376b19b1597fa508872ef18ff8e7c973e0c7|manifest driver anchor only; additional passenger layout not commissioned",
+      "preserved_geometry_path": "models/entity/comm_pickup.geo.json",
+      "preserved_geometry_sha256": "2e5223c435f5abf6d698a2e9bae2858a766cc7beac491107a7daafcba25a8107",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/comm_pickup.parts.json",
+      "editable_source_sha256": "67c70fe35292133b451d6b3badd73557eb281cd21f3c32d6171ce3eacb9a575b",
+      "interior_work_and_limits": "Driver-only profile retained; no extra usable seat or hollow passenger interior established from the delivered geometry."
+    },
+    {
+      "id": "gtm:comm_light_truck",
+      "title": "Tavara 407 Light Hauler",
+      "category": "commercial",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.53,
+            0.91,
+            0.28
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": 0,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.0894,
+        0.0,
+        -2.75,
+        1.0894,
+        2.6,
+        2.75
+      ],
+      "profile_geometry_provenance": "8b0eea8bb644f05053a67133de7f4b77f87a5f84e98c967e1110f7794b5bc505|manifest driver anchor only; additional passenger layout not commissioned",
+      "preserved_geometry_path": "models/entity/comm_light_truck.geo.json",
+      "preserved_geometry_sha256": "9f6eef23e81b0b014c196cf77f0ad114a982dda13f1f2c644672637bc7d756b3",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/comm_light_truck.parts.json",
+      "editable_source_sha256": "6998889d23772922302f713c1842f2453ceba736ef0aedb3d93bce28bcd34efa",
+      "interior_work_and_limits": "Driver-only profile retained; no extra usable seat or hollow passenger interior established from the delivered geometry."
+    },
+    {
+      "id": "gtm:comm_medium_truck",
+      "title": "Tavara 1613 Medium Goods",
+      "category": "commercial",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.6,
+            1.08,
+            0.41
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": 0,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.2274,
+        0.0,
+        -4.1,
+        1.2274,
+        3.1,
+        4.1
+      ],
+      "profile_geometry_provenance": "66829aa8addbe8bc2466e3b21d09b608416b4bb2f0499873dcb054efe2c8b904|manifest driver anchor only; additional passenger layout not commissioned",
+      "preserved_geometry_path": "models/entity/comm_medium_truck.geo.json",
+      "preserved_geometry_sha256": "670a9e9013beddbcd187bec45f233c21ff0b297bf56d47f9e4273d69540432e1",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/comm_medium_truck.parts.json",
+      "editable_source_sha256": "125e1267ebc4e82730d2c7d81bbb42621f21402d299af816ab73dfff4f8b4756",
+      "interior_work_and_limits": "Driver-only profile retained; no extra usable seat or hollow passenger interior established from the delivered geometry."
+    },
+    {
+      "id": "gtm:comm_tipper",
+      "title": "Wahindra Blazo Heavy Tipper",
+      "category": "commercial",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.62,
+            1.22,
+            0.39
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": 0,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.2734,
+        0.0,
+        -3.9,
+        1.2734,
+        3.5,
+        3.9
+      ],
+      "profile_geometry_provenance": "04723894efbf09bb241a30736cf7e09bd447fc33012c115e064922818c50a582|manifest driver anchor only; additional passenger layout not commissioned",
+      "preserved_geometry_path": "models/entity/comm_tipper.geo.json",
+      "preserved_geometry_sha256": "b80434b3bf9bbec6ad34703960d0ae7ef941134a89532816f063574ecc06363c",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/comm_tipper.parts.json",
+      "editable_source_sha256": "f0656d46017fb0dd8971cc3b8e222a9354386250c27afa8e41e69ef16c4f7a2f",
+      "interior_work_and_limits": "Driver-only profile retained; no extra usable seat or hollow passenger interior established from the delivered geometry."
+    },
+    {
+      "id": "gtm:comm_container",
+      "title": "Tavara Signa 4825 Multi-Axle",
+      "category": "commercial",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.64,
+            1.36,
+            0.7
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": 0,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.2964,
+        0.0,
+        -7.0,
+        1.2964,
+        3.9,
+        7.0
+      ],
+      "profile_geometry_provenance": "5d74f0a8ffdad435235f9684923d065088e499a283a92443a7e57beb3cc5f42f|manifest driver anchor only; additional passenger layout not commissioned",
+      "preserved_geometry_path": "models/entity/comm_container.geo.json",
+      "preserved_geometry_sha256": "3d65841b66c7eb833ee51816c3110c4900fce1ab2891fbfbf62ac1e2666405b1",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/comm_container.parts.json",
+      "editable_source_sha256": "374f3bccbe474232ff7f05709b180397c5b2040ed01cac08a17a30d6b687fd2c",
+      "interior_work_and_limits": "Driver-only profile retained; no extra usable seat or hollow passenger interior established from the delivered geometry."
+    },
+    {
+      "id": "gtm:comm_delivery_van",
+      "title": "Wahindra Supro Delivery Van",
+      "category": "commercial",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.4,
+            0.68,
+            0.2
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": 0,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -0.8594,
+        0.0,
+        -1.95,
+        0.8594,
+        1.95,
+        1.95
+      ],
+      "profile_geometry_provenance": "7d2c9492f6bc54837cb4ef52186f1459aba0d922c4b44b97e1692c0b40f22ca5|manifest driver anchor only; additional passenger layout not commissioned",
+      "preserved_geometry_path": "models/entity/comm_delivery_van.geo.json",
+      "preserved_geometry_sha256": "f44fd74ed41299bf89a13beabc6bc2d3b227b0cfde3f25b38a7f4e1c59eeac63",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/comm_delivery_van.parts.json",
+      "editable_source_sha256": "1b0e63dcf96b0dac6ac95586ef2d4628d49e62507455d6ae4dcf80b9aced7ed0",
+      "interior_work_and_limits": "Driver-only profile retained; no extra usable seat or hollow passenger interior established from the delivered geometry."
+    },
+    {
+      "id": "gtm:emerg_police_suv",
+      "title": "SDPD Tactical Interceptor Scorpio",
+      "category": "emergency",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.47,
+            0.68,
+            0.24
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.47,
+            0.68,
+            0.24
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_25",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.551875,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_26",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.208125,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -1.0373,
+        0.0,
+        -2.35,
+        1.0373,
+        2.075,
+        2.4408
+      ],
+      "profile_geometry_provenance": "2d592fc31559dfe60a1fbf7de9027f0ede796a51db7b8ccfcf9a1855e9376c54|manifest driver anchor only; additional passenger layout not commissioned; repair105 enables existing opposite front leather cushion; original geometry retained",
+      "preserved_geometry_path": "models/entity/emerg_police_suv.geo.json",
+      "preserved_geometry_sha256": "a26183630543bf1b4aead1ce5267eaf63b34c1f04902e0b615d071eb47569727",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/emerg_police_suv.parts.json",
+      "editable_source_sha256": "5a05201151114dea9823aef72a8149e49e08b77c71111f6c24f39fa851e21b19",
+      "interior_work_and_limits": "Existing opposite front cushion enabled as passenger; original driver, art and handling preserved. Rear cabin/headroom need separate client review."
+    },
+    {
+      "id": "gtm:emerg_patrol_sedan",
+      "title": "SDPD Highway Patrol Dzire",
+      "category": "emergency",
+      "runtime_total_seats": 2,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 1,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.42,
+            0.54,
+            0.2
+          ]
+        },
+        {
+          "name": "front_passenger",
+          "role": "passenger",
+          "hip_blocks": [
+            0.42,
+            0.54,
+            0.2
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 2,
+      "independently_identified_seating_places": 2,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_25",
+          "material": "leather_tan",
+          "origin_blocks": [
+            -0.511875,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        },
+        {
+          "bone": "chassis",
+          "part": "part_26",
+          "material": "leather_tan",
+          "origin_blocks": [
+            0.168125,
+            0.3715,
+            -0.15625
+          ],
+          "size_blocks": [
+            0.34375,
+            0.46875,
+            0.3125
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.9367,
+        0.0,
+        -2.0,
+        0.9367,
+        1.675,
+        2.0838
+      ],
+      "profile_geometry_provenance": "3a8f89497e3e835ebdff7aa03ae7bcde8cba809e8d0c7e0ba5c16700ff6d9594|manifest driver anchor only; additional passenger layout not commissioned; repair105 enables existing opposite front leather cushion; original geometry retained",
+      "preserved_geometry_path": "models/entity/emerg_patrol_sedan.geo.json",
+      "preserved_geometry_sha256": "ec36a9ece50bf82df4a46cc29b2a582c2c5ef9a7588ad0c647deb6cb95531001",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/emerg_patrol_sedan.parts.json",
+      "editable_source_sha256": "c25e3cf7fc9525ae8f94dc8f4249099864b0aff49e10ee8b6314955be666040a",
+      "interior_work_and_limits": "Existing opposite front cushion enabled as passenger; original driver, art and handling preserved. Rear cabin/headroom need separate client review."
+    },
+    {
+      "id": "gtm:emerg_ambulance",
+      "title": "Mount Zonah Advanced Life Support Van",
+      "category": "emergency",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.49,
+            0.86,
+            0.26
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": 0,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -0.9954,
+        0.0,
+        -2.6,
+        0.9954,
+        2.45,
+        2.6
+      ],
+      "profile_geometry_provenance": "89f23c67f0c6581507478cb85a2bc01e7dcf44f4e8e9b6d730aec28942c1592e|manifest driver anchor only; additional passenger layout not commissioned",
+      "preserved_geometry_path": "models/entity/emerg_ambulance.geo.json",
+      "preserved_geometry_sha256": "7e1acbba52562b2bdc4fe40cbc848c510dcca511a4e4391d3ae621fbbd058cbf",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/emerg_ambulance.parts.json",
+      "editable_source_sha256": "047cbb1b00a3465e3b61c261db307fbb23e3d626c2e4cb5ea3cd42b01e9f6af0",
+      "interior_work_and_limits": "Driver-only profile retained; no extra usable seat or hollow passenger interior established from the delivered geometry."
+    },
+    {
+      "id": "gtm:emerg_fire_engine",
+      "title": "Indra Fire & Rescue Water Bowzer",
+      "category": "emergency",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.62,
+            1.19,
+            0.46
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": 0,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.2734,
+        0.0,
+        -4.6,
+        1.2734,
+        3.4,
+        4.6
+      ],
+      "profile_geometry_provenance": "c60286bcc3a820f65a0a2878a8bd3f9efaf2b8043032e8a080910b40849e1123|manifest driver anchor only; additional passenger layout not commissioned",
+      "preserved_geometry_path": "models/entity/emerg_fire_engine.geo.json",
+      "preserved_geometry_sha256": "9858620be16b62272bdad553962eed0ad92c3e588b1ebd989556e3a97b704fad",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/emerg_fire_engine.parts.json",
+      "editable_source_sha256": "1e5f5842d0fd39874c2748e8cdda4d900b0db89edb87a901492ba2d8e4334ae0",
+      "interior_work_and_limits": "Driver-only profile retained; no extra usable seat or hollow passenger interior established from the delivered geometry."
+    },
+    {
+      "id": "gtm:emerg_recovery_truck",
+      "title": "Highway Heavy Tow Crane",
+      "category": "emergency",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.6,
+            1.05,
+            0.38
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": 0,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.2274,
+        0.0,
+        -3.75,
+        1.2274,
+        3.0,
+        3.75
+      ],
+      "profile_geometry_provenance": "d5141feb9f6ccd94e0a3566e26bdb8a27ae00b1f67b439499ee8de09a677939f|manifest driver anchor only; additional passenger layout not commissioned",
+      "preserved_geometry_path": "models/entity/emerg_recovery_truck.geo.json",
+      "preserved_geometry_sha256": "ca477918e76d2f8c8d6667640685075eff81f718ddeadb52a1bc1f48f439d8d4",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/emerg_recovery_truck.parts.json",
+      "editable_source_sha256": "d08a46af30e931dc82d016eca00daf3bbbef5b861d33ee27e31f5aa7ceeddabe",
+      "interior_work_and_limits": "Driver-only profile retained; no extra usable seat or hollow passenger interior established from the delivered geometry."
+    },
+    {
+      "id": "gtm:emerg_rescue_van",
+      "title": "Disaster Response Mobile Command",
+      "category": "emergency",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.53,
+            0.94,
+            0.31
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": 0,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.0894,
+        0.0,
+        -3.1,
+        1.0894,
+        2.7198,
+        3.1
+      ],
+      "profile_geometry_provenance": "f8d030550f9989214f8aa658386a4ad082d7ea18cdc87596a68c29a4fecb929a|manifest driver anchor only; additional passenger layout not commissioned",
+      "preserved_geometry_path": "models/entity/emerg_rescue_van.geo.json",
+      "preserved_geometry_sha256": "2a011bbb44a1791f10a356ed6e37e48f378b45d55e2f743979f3d46f7f00b567",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/emerg_rescue_van.parts.json",
+      "editable_source_sha256": "43e7d6c92812f596535748b3e1778e8db760a1890119b541ef5761e7d44569b0",
+      "interior_work_and_limits": "Driver-only profile retained; no extra usable seat or hollow passenger interior established from the delivered geometry."
+    },
+    {
+      "id": "gtm:agri_compact_tractor",
+      "title": "Wahindra Oja Compact Tractor",
+      "category": "agricultural",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            0.0,
+            1.0605,
+            -0.672
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 1,
+      "independently_identified_seating_places": 1,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_4",
+          "material": "leather_black",
+          "origin_blocks": [
+            -0.21875,
+            0.873,
+            -0.8595
+          ],
+          "size_blocks": [
+            0.4375,
+            0.1875,
+            0.375
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.7674,
+        0.0,
+        -1.4,
+        0.7674,
+        2.1,
+        1.4
+      ],
+      "profile_geometry_provenance": "2a73db3da0d379276ad49c9d5d46d15d269cdfe839ff0731ad818b6ba96a880c|authored chassis leather saddle/cushion center and top",
+      "preserved_geometry_path": "models/entity/agri_compact_tractor.geo.json",
+      "preserved_geometry_sha256": "015a02a8fd80d1cbf7f99358aa6f66a790a5e7f7e6d864e6b1194be0698277d5",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/agri_compact_tractor.parts.json",
+      "editable_source_sha256": "861725f88b371fbcadffd9a21e22dce53d19548d324f9dbcb7401a89f948cfe6",
+      "interior_work_and_limits": "Authored driver saddle retained; no separate passenger cushion verified."
+    },
+    {
+      "id": "gtm:agri_heavy_tractor",
+      "title": "Wahindra Arjun Novo Heavy Tractor",
+      "category": "agricultural",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            0.0,
+            1.1565,
+            -0.864
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 1,
+      "independently_identified_seating_places": 1,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_4",
+          "material": "leather_black",
+          "origin_blocks": [
+            -0.21875,
+            0.969,
+            -1.0515
+          ],
+          "size_blocks": [
+            0.4375,
+            0.1875,
+            0.375
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -0.9514,
+        0.0,
+        -1.8,
+        0.9514,
+        2.5,
+        1.8
+      ],
+      "profile_geometry_provenance": "74e08966cb2df1159cab0f8b7a0d4924fa8ae73ba1c9213c6e1c79e5e13dbd78|authored chassis leather saddle/cushion center and top",
+      "preserved_geometry_path": "models/entity/agri_heavy_tractor.geo.json",
+      "preserved_geometry_sha256": "9a39c9cc2328b60d4c917475eae35071b12229d7e8faf5b3a2da0d36882fd09d",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/agri_heavy_tractor.parts.json",
+      "editable_source_sha256": "62a354159ea05613fe68f4fa6250e213e2950de71e0a467b4dcec9391b08ca45",
+      "interior_work_and_limits": "Authored driver saddle retained; no separate passenger cushion verified."
+    },
+    {
+      "id": "gtm:agri_harvester",
+      "title": "Wahindra Coastal Combine Harvester",
+      "category": "agricultural",
+      "runtime_total_seats": 1,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 1,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            0.0,
+            1.4685,
+            -1.632
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 1,
+      "independently_identified_seating_places": 1,
+      "upholstery_meshes_in_preserved_art": [
+        {
+          "bone": "chassis",
+          "part": "part_4",
+          "material": "leather_black",
+          "origin_blocks": [
+            -0.21875,
+            1.281,
+            -1.8195
+          ],
+          "size_blocks": [
+            0.4375,
+            0.1875,
+            0.375
+          ]
+        }
+      ],
+      "profile_bounds_blocks": [
+        -1.6,
+        0.0,
+        -3.4,
+        1.6,
+        3.8,
+        3.514
+      ],
+      "profile_geometry_provenance": "d32c087bcb1c381588adcd25d9f318e7f1e4b9bf7cdd2e9bcabf953702f4805f|authored chassis leather saddle/cushion center and top",
+      "preserved_geometry_path": "models/entity/agri_harvester.geo.json",
+      "preserved_geometry_sha256": "5d0dc263e91584961b5fa18fd16f374ff15d5ec9470ac3ca5f71ecdef9df239b",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/agri_harvester.parts.json",
+      "editable_source_sha256": "0fd616448c71dc24da1d47d39c79b3dbf4f8eafe6fb85f6e6dea4f2dc4ced850",
+      "interior_work_and_limits": "Authored driver saddle retained; no separate passenger cushion verified."
+    },
+    {
+      "id": "gtm:local_driving_cab",
+      "title": "Mumbai Suburban Driving Motor Coach (Cab)",
+      "category": "rail",
+      "runtime_total_seats": 7,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 6,
+      "previous_runtime_total_seats": 7,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.55,
+            1.625,
+            4.1
+          ]
+        },
+        {
+          "name": "row_0_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.78,
+            1.625,
+            -2.8
+          ]
+        },
+        {
+          "name": "row_0_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.78,
+            1.625,
+            -2.8
+          ]
+        },
+        {
+          "name": "row_1_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.78,
+            1.625,
+            -1.2
+          ]
+        },
+        {
+          "name": "row_1_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.78,
+            1.625,
+            -1.2
+          ]
+        },
+        {
+          "name": "row_2_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.78,
+            1.625,
+            0.4
+          ]
+        },
+        {
+          "name": "row_2_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.78,
+            1.625,
+            0.4
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": null,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.568,
+        0.0,
+        -5.0,
+        1.568,
+        3.4688,
+        9.865
+      ],
+      "profile_geometry_provenance": "a67055dfd38c8f7a6b74d6b6ec09d0e996c0a3a7bf3f425fd6e40d9c3fccce09|runtime anchors inside authored cabin envelope; cab-only control; intermediate/trailer coupling required",
+      "preserved_geometry_path": "models/entity/local_driving_cab.geo.json",
+      "preserved_geometry_sha256": "caa76c33f3937a32cddb903efa61648c18b988c9714696501279581b293e7e1f",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/local_driving_cab.parts.json",
+      "editable_source_sha256": "d497d1406885d42249b0c1af856acd512695f73c34e518aaba93ca75920a13ad",
+      "interior_work_and_limits": "Existing authored runtime anchors retained. No passenger-count increase; independent interior/boarding/clearance verification remains required."
+    },
+    {
+      "id": "gtm:local_motor",
+      "title": "Mumbai Suburban Motor Coach",
+      "category": "rail",
+      "runtime_total_seats": 6,
+      "runtime_driver_seats": 0,
+      "runtime_passenger_seats": 6,
+      "previous_runtime_total_seats": 6,
+      "runtime_seat_anchors": [
+        {
+          "name": "row_0_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.78,
+            1.625,
+            -2.8
+          ]
+        },
+        {
+          "name": "row_0_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.78,
+            1.625,
+            -2.8
+          ]
+        },
+        {
+          "name": "row_1_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.78,
+            1.625,
+            -1.2
+          ]
+        },
+        {
+          "name": "row_1_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.78,
+            1.625,
+            -1.2
+          ]
+        },
+        {
+          "name": "row_2_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.78,
+            1.625,
+            0.4
+          ]
+        },
+        {
+          "name": "row_2_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.78,
+            1.625,
+            0.4
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": null,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.568,
+        0.0,
+        -5.0,
+        1.568,
+        3.4688,
+        5.1375
+      ],
+      "profile_geometry_provenance": "0cb4313b7132f57dd4e39246fdab0866653f92cd988de3512dd2277f85bd4dbf|runtime anchors inside authored cabin envelope; cab-only control; intermediate/trailer coupling required",
+      "preserved_geometry_path": "models/entity/local_motor.geo.json",
+      "preserved_geometry_sha256": "b8fea46944d942c5597e2b399bd2e7498846d2159d90a20c169180f4144363df",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/local_motor.parts.json",
+      "editable_source_sha256": "1775b3f1f7d4a94430ae77ebe2b64cf223059a31b5cc75d351b03a1fcd68ed31",
+      "interior_work_and_limits": "Existing authored runtime anchors retained. No passenger-count increase; independent interior/boarding/clearance verification remains required."
+    },
+    {
+      "id": "gtm:local_trailer",
+      "title": "Mumbai Suburban Trailer Coach",
+      "category": "rail",
+      "runtime_total_seats": 6,
+      "runtime_driver_seats": 0,
+      "runtime_passenger_seats": 6,
+      "previous_runtime_total_seats": 6,
+      "runtime_seat_anchors": [
+        {
+          "name": "row_0_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.78,
+            1.625,
+            -2.8
+          ]
+        },
+        {
+          "name": "row_0_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.78,
+            1.625,
+            -2.8
+          ]
+        },
+        {
+          "name": "row_1_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.78,
+            1.625,
+            -1.2
+          ]
+        },
+        {
+          "name": "row_1_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.78,
+            1.625,
+            -1.2
+          ]
+        },
+        {
+          "name": "row_2_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.78,
+            1.625,
+            0.4
+          ]
+        },
+        {
+          "name": "row_2_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.78,
+            1.625,
+            0.4
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": null,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.568,
+        0.0,
+        -5.0,
+        1.568,
+        3.0938,
+        5.0
+      ],
+      "profile_geometry_provenance": "52f87e7ca29e616c14a05fd38c301b3c7098bd1803ff43b12d1f1ace39c6a6a9|runtime anchors inside authored cabin envelope; cab-only control; intermediate/trailer coupling required",
+      "preserved_geometry_path": "models/entity/local_trailer.geo.json",
+      "preserved_geometry_sha256": "b0b1a6a59373e4fe6f9d3ab1bb96a6d73044db6456f3ec72d52c7e384089fcb8",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/local_trailer.parts.json",
+      "editable_source_sha256": "9dbe8cd9d8fe5859c994b101e638c0bb2734e9a5a8698a7b9e408f4342ca185d",
+      "interior_work_and_limits": "Existing authored runtime anchors retained. No passenger-count increase; independent interior/boarding/clearance verification remains required."
+    },
+    {
+      "id": "gtm:metro_lead",
+      "title": "Indra Metro Lead Motor Car",
+      "category": "rail",
+      "runtime_total_seats": 7,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 6,
+      "previous_runtime_total_seats": 7,
+      "runtime_seat_anchors": [
+        {
+          "name": "driver",
+          "role": "driver",
+          "hip_blocks": [
+            -0.55,
+            1.625,
+            4.1
+          ]
+        },
+        {
+          "name": "row_0_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.78,
+            1.625,
+            -2.8
+          ]
+        },
+        {
+          "name": "row_0_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.78,
+            1.625,
+            -2.8
+          ]
+        },
+        {
+          "name": "row_1_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.78,
+            1.625,
+            -1.2
+          ]
+        },
+        {
+          "name": "row_1_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.78,
+            1.625,
+            -1.2
+          ]
+        },
+        {
+          "name": "row_2_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.78,
+            1.625,
+            0.4
+          ]
+        },
+        {
+          "name": "row_2_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.78,
+            1.625,
+            0.4
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": null,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.421,
+        0.0,
+        -5.0,
+        1.421,
+        3.4688,
+        5.1375
+      ],
+      "profile_geometry_provenance": "59aca59f1f6c48ec25185369a2456523624dc0e4dc88a601b36261f31d43d153|runtime anchors inside authored cabin envelope; cab-only control; intermediate/trailer coupling required",
+      "preserved_geometry_path": "models/entity/metro_lead.geo.json",
+      "preserved_geometry_sha256": "c69b7bb0852de7fc129b33c7060f94d10f393ea82cbe73c8976d6e68412040d3",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/metro_lead.parts.json",
+      "editable_source_sha256": "e9c7c1298f126f3a5cba6db2406876ddccc1c5bb11548493b617033799decfbc",
+      "interior_work_and_limits": "Existing authored runtime anchors retained. No passenger-count increase; independent interior/boarding/clearance verification remains required."
+    },
+    {
+      "id": "gtm:metro_middle",
+      "title": "Indra Metro Intermediate Car",
+      "category": "rail",
+      "runtime_total_seats": 6,
+      "runtime_driver_seats": 0,
+      "runtime_passenger_seats": 6,
+      "previous_runtime_total_seats": 6,
+      "runtime_seat_anchors": [
+        {
+          "name": "row_0_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.78,
+            1.625,
+            -2.8
+          ]
+        },
+        {
+          "name": "row_0_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.78,
+            1.625,
+            -2.8
+          ]
+        },
+        {
+          "name": "row_1_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.78,
+            1.625,
+            -1.2
+          ]
+        },
+        {
+          "name": "row_1_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.78,
+            1.625,
+            -1.2
+          ]
+        },
+        {
+          "name": "row_2_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.78,
+            1.625,
+            0.4
+          ]
+        },
+        {
+          "name": "row_2_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.78,
+            1.625,
+            0.4
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": null,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.421,
+        0.0,
+        -5.0,
+        1.421,
+        3.0938,
+        5.0
+      ],
+      "profile_geometry_provenance": "be39bf9ca9e807b8f42b077d3606d03c88021bdf120d0076a2046f2fedd7aac3|runtime anchors inside authored cabin envelope; cab-only control; intermediate/trailer coupling required",
+      "preserved_geometry_path": "models/entity/metro_middle.geo.json",
+      "preserved_geometry_sha256": "50120879de5fb288450453a52bbe78a66984cf33cfc4132562f913622a9f999c",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/metro_middle.parts.json",
+      "editable_source_sha256": "292c79fa0b893d9442f3343c24301bd3a952190a24bea0a3aac324267b71df43",
+      "interior_work_and_limits": "Existing authored runtime anchors retained. No passenger-count increase; independent interior/boarding/clearance verification remains required."
+    },
+    {
+      "id": "gtm:metro_accessible",
+      "title": "Indra Metro Universal Access Car",
+      "category": "rail",
+      "runtime_total_seats": 6,
+      "runtime_driver_seats": 0,
+      "runtime_passenger_seats": 6,
+      "previous_runtime_total_seats": 6,
+      "runtime_seat_anchors": [
+        {
+          "name": "row_0_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.78,
+            1.625,
+            -2.8
+          ]
+        },
+        {
+          "name": "row_0_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.78,
+            1.625,
+            -2.8
+          ]
+        },
+        {
+          "name": "row_1_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.78,
+            1.625,
+            -1.2
+          ]
+        },
+        {
+          "name": "row_1_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.78,
+            1.625,
+            -1.2
+          ]
+        },
+        {
+          "name": "row_2_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.78,
+            1.625,
+            0.4
+          ]
+        },
+        {
+          "name": "row_2_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.78,
+            1.625,
+            0.4
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": null,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.421,
+        0.0,
+        -5.0,
+        1.5978,
+        3.0938,
+        5.04
+      ],
+      "profile_geometry_provenance": "e0a3c5f3ff14fbf03c53443cdbad7dda13abb2ffbce701e2caae0fcb284a7f57|runtime anchors inside authored cabin envelope; cab-only control; intermediate/trailer coupling required",
+      "preserved_geometry_path": "models/entity/metro_accessible.geo.json",
+      "preserved_geometry_sha256": "baec80173c7333320f84ea2d34f0b59b49007fd65d15b4e2fc2160d91a74fc17",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/metro_accessible.parts.json",
+      "editable_source_sha256": "be353bc8bba6c04f6a1f7a2b0eb767b57d20a34a314a8f31cf7209202d3b3257",
+      "interior_work_and_limits": "Existing authored runtime anchors retained. No passenger-count increase; independent interior/boarding/clearance verification remains required."
+    },
+    {
+      "id": "gtm:skylink_cabin",
+      "title": "SkyLink 10-Passenger Aerial Gondola",
+      "category": "ropeway",
+      "runtime_total_seats": 4,
+      "runtime_driver_seats": 0,
+      "runtime_passenger_seats": 4,
+      "previous_runtime_total_seats": 4,
+      "runtime_seat_anchors": [
+        {
+          "name": "passenger_0",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.4,
+            0.8875,
+            -0.5
+          ]
+        },
+        {
+          "name": "passenger_1",
+          "role": "passenger",
+          "hip_blocks": [
+            0.4,
+            0.8875,
+            -0.5
+          ]
+        },
+        {
+          "name": "passenger_2",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.4,
+            0.8875,
+            0.5
+          ]
+        },
+        {
+          "name": "passenger_3",
+          "role": "passenger",
+          "hip_blocks": [
+            0.4,
+            0.8875,
+            0.5
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": null,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.012,
+        0.125,
+        -1.288,
+        1.012,
+        2.9142,
+        1.288
+      ],
+      "profile_geometry_provenance": "240966fbcadf09b5810c9c002f9e3bbf69dcd4e110a36bbaf9e9d8eb91d82861|four bounded runtime seats above authored cabin floor; client fit unqualified; terminal-controlled suspension",
+      "preserved_geometry_path": "models/entity/skylink_cabin.geo.json",
+      "preserved_geometry_sha256": "c168aa1bbd71581e67e3e83924efddad4d9e0bc3ae5a20d300835fbbf7212f19",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/skylink_cabin.parts.json",
+      "editable_source_sha256": "de708f6bb94ea6e1a3faf4580e3fbd8ff3256bd4ab45ebe55cf034ab4ac94816",
+      "interior_work_and_limits": "Existing authored runtime anchors retained. No passenger-count increase; independent interior/boarding/clearance verification remains required."
+    },
+    {
+      "id": "gtm:skylink_accessible",
+      "title": "SkyLink Universal Barrier-Free Cabin",
+      "category": "ropeway",
+      "runtime_total_seats": 4,
+      "runtime_driver_seats": 0,
+      "runtime_passenger_seats": 4,
+      "previous_runtime_total_seats": 4,
+      "runtime_seat_anchors": [
+        {
+          "name": "passenger_0",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.4,
+            0.8875,
+            -0.5
+          ]
+        },
+        {
+          "name": "passenger_1",
+          "role": "passenger",
+          "hip_blocks": [
+            0.4,
+            0.8875,
+            -0.5
+          ]
+        },
+        {
+          "name": "passenger_2",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.4,
+            0.8875,
+            0.5
+          ]
+        },
+        {
+          "name": "passenger_3",
+          "role": "passenger",
+          "hip_blocks": [
+            0.4,
+            0.8875,
+            0.5
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": null,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.104,
+        0.125,
+        -1.472,
+        1.104,
+        2.9142,
+        1.472
+      ],
+      "profile_geometry_provenance": "8552e267e724b661bea279126e2470d6af0c04098e975da6f34e1027f11c9891|four bounded runtime seats above authored cabin floor; client fit unqualified; terminal-controlled suspension",
+      "preserved_geometry_path": "models/entity/skylink_accessible.geo.json",
+      "preserved_geometry_sha256": "53d45c2f264e5c203a72a4487a608cccecea82079ed07faeb2040395e7072046",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/skylink_accessible.parts.json",
+      "editable_source_sha256": "a90821f97ac0a5d41e7353ed04ade695e99f183f95e77461fbf870f1fcd0942f",
+      "interior_work_and_limits": "Existing authored runtime anchors retained. No passenger-count increase; independent interior/boarding/clearance verification remains required."
+    },
+    {
+      "id": "gtm:skylink_grip",
+      "title": "SkyLink Detachable Cable Grip Assembly",
+      "category": "ropeway",
+      "runtime_total_seats": 0,
+      "runtime_driver_seats": 0,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 0,
+      "runtime_seat_anchors": [],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": null,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -0.2734,
+        0.5,
+        -0.4375,
+        0.2734,
+        1.1875,
+        0.375
+      ],
+      "profile_geometry_provenance": "afb638be318236e2f47d3286b11098344c3eba5f75b9f913e709717ec9b408ef|stationary functional cable support; no passenger or driving seat",
+      "preserved_geometry_path": "models/entity/skylink_grip.geo.json",
+      "preserved_geometry_sha256": "6d47cada928c2727e654d6628c48db318a72d4563da56a97e149e1bde373a398",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/skylink_grip.parts.json",
+      "editable_source_sha256": "c91dec3ed236a5cb75ee8eef166c7e37023e4b16f49c24c5601c81ae5a6abecc",
+      "interior_work_and_limits": "Existing authored runtime anchors retained. No passenger-count increase; independent interior/boarding/clearance verification remains required."
+    },
+    {
+      "id": "gtm:skylink_terminal_machinery",
+      "title": "SkyLink Terminal Drive Bullwheel & Bullgear",
+      "category": "ropeway",
+      "runtime_total_seats": 0,
+      "runtime_driver_seats": 0,
+      "runtime_passenger_seats": 0,
+      "previous_runtime_total_seats": 0,
+      "runtime_seat_anchors": [],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": null,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.6875,
+        0.0,
+        -1.6875,
+        1.6875,
+        2.5,
+        1.6875
+      ],
+      "profile_geometry_provenance": "70eb21dd2e499babbec8760b18dc40bf4e612ca001f49f159488b1053e5acc90|stationary functional cable support; no passenger or driving seat",
+      "preserved_geometry_path": "models/entity/skylink_terminal_machinery.geo.json",
+      "preserved_geometry_sha256": "95f2c2bd659a0bf382d2c21146e07a1cbd80bf6ef4ad85209a391a0f7032c044",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/skylink_terminal_machinery.parts.json",
+      "editable_source_sha256": "004febcb599b6a1a97012358fc040c1e2ad95d66d4752bb44849d3dd167cdb5a",
+      "interior_work_and_limits": "Existing authored runtime anchors retained. No passenger-count increase; independent interior/boarding/clearance verification remains required."
+    },
+    {
+      "id": "gtm:heli_police",
+      "title": "SDPD Air Support Patrol Helicopter",
+      "category": "helicopter",
+      "runtime_total_seats": 4,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 3,
+      "previous_runtime_total_seats": 4,
+      "runtime_seat_anchors": [
+        {
+          "name": "pilot",
+          "role": "driver",
+          "hip_blocks": [
+            -0.459,
+            1.1,
+            1.87712
+          ]
+        },
+        {
+          "name": "copilot",
+          "role": "passenger",
+          "hip_blocks": [
+            0.459,
+            1.1,
+            1.87712
+          ]
+        },
+        {
+          "name": "rear_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.459,
+            1.1,
+            0.0
+          ]
+        },
+        {
+          "name": "rear_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.459,
+            1.1,
+            0.0
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": null,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -4.928,
+        0.0,
+        -6.199,
+        4.928,
+        3.1135,
+        5.376
+      ],
+      "profile_geometry_provenance": "669ae01fd9fe43b31c329d3a8d48d60d2bfc01f5602874fa8c32ce9c08c35069|runtime anchors inside authored cockpit/hull; rotor clearance retains full source envelope; client fit unqualified",
+      "preserved_geometry_path": "models/entity/heli_police.geo.json",
+      "preserved_geometry_sha256": "35115e6ca159b6430d4fdd416dca2bda74b993ddfeb4c0900b44fc510812892b",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/heli_police.parts.json",
+      "editable_source_sha256": "6505aba51375977775e64d958555dd39c72389b317cb1e35310a706facd83161",
+      "interior_work_and_limits": "Existing authored runtime anchors retained. No passenger-count increase; independent interior/boarding/clearance verification remains required."
+    },
+    {
+      "id": "gtm:heli_media",
+      "title": "Indra 24 SkyCam Broadcast Helicopter",
+      "category": "helicopter",
+      "runtime_total_seats": 4,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 3,
+      "previous_runtime_total_seats": 4,
+      "runtime_seat_anchors": [
+        {
+          "name": "pilot",
+          "role": "driver",
+          "hip_blocks": [
+            -0.42075,
+            1.1,
+            1.7598
+          ]
+        },
+        {
+          "name": "copilot",
+          "role": "passenger",
+          "hip_blocks": [
+            0.42075,
+            1.1,
+            1.7598
+          ]
+        },
+        {
+          "name": "rear_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.42075,
+            1.1,
+            0.0
+          ]
+        },
+        {
+          "name": "rear_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.42075,
+            1.1,
+            0.0
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": null,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -4.62,
+        0.0,
+        -5.835,
+        4.62,
+        2.9855,
+        5.04
+      ],
+      "profile_geometry_provenance": "1c05cf05267418021b5cc366459bbb16aed67d8ee0e97af433d094a6f7c3258c|runtime anchors inside authored cockpit/hull; rotor clearance retains full source envelope; client fit unqualified",
+      "preserved_geometry_path": "models/entity/heli_media.geo.json",
+      "preserved_geometry_sha256": "522cc4fbe7a29654c6d61e8a73a1c37eec8c16cea1574fc82374466afcdaa04c",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/heli_media.parts.json",
+      "editable_source_sha256": "d066c4f764fbf20c8beed5ded802db8e29da9e6138cedab2ea2b88b9b3f30db8",
+      "interior_work_and_limits": "Existing authored runtime anchors retained. No passenger-count increase; independent interior/boarding/clearance verification remains required."
+    },
+    {
+      "id": "gtm:heli_rescue",
+      "title": "Coast Guard SAR Twin-Turbine Rescue Chopper",
+      "category": "helicopter",
+      "runtime_total_seats": 4,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 3,
+      "previous_runtime_total_seats": 4,
+      "runtime_seat_anchors": [
+        {
+          "name": "pilot",
+          "role": "driver",
+          "hip_blocks": [
+            -0.48,
+            1.1,
+            2.2626
+          ]
+        },
+        {
+          "name": "copilot",
+          "role": "passenger",
+          "hip_blocks": [
+            0.48,
+            1.1,
+            2.2626
+          ]
+        },
+        {
+          "name": "rear_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.48,
+            1.1,
+            0.0
+          ]
+        },
+        {
+          "name": "rear_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.48,
+            1.1,
+            0.0
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": null,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -5.94,
+        0.0,
+        -7.395,
+        5.94,
+        3.4975,
+        6.48
+      ],
+      "profile_geometry_provenance": "ede47ee30f1ee0c2a9f090e27b90369c07d96c3d4081613c4bfe7180804db9e0|runtime anchors inside authored cockpit/hull; rotor clearance retains full source envelope; client fit unqualified",
+      "preserved_geometry_path": "models/entity/heli_rescue.geo.json",
+      "preserved_geometry_sha256": "64f5e7a1972bdad9cd5b862f82343ed68ce970200997227320b0ad7a178e072c",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/heli_rescue.parts.json",
+      "editable_source_sha256": "7275ddca8500d997c8291628398a060329f45e9164a87ad60ae956d2e1198120",
+      "interior_work_and_limits": "Existing authored runtime anchors retained. No passenger-count increase; independent interior/boarding/clearance verification remains required."
+    },
+    {
+      "id": "gtm:heli_civilian",
+      "title": "Executive VIP Luxury Corporate Helicopter",
+      "category": "helicopter",
+      "runtime_total_seats": 4,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 3,
+      "previous_runtime_total_seats": 4,
+      "runtime_seat_anchors": [
+        {
+          "name": "pilot",
+          "role": "driver",
+          "hip_blocks": [
+            -0.478125,
+            1.1,
+            2.0112
+          ]
+        },
+        {
+          "name": "copilot",
+          "role": "passenger",
+          "hip_blocks": [
+            0.478125,
+            1.1,
+            2.0112
+          ]
+        },
+        {
+          "name": "rear_left",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.478125,
+            1.1,
+            0.0
+          ]
+        },
+        {
+          "name": "rear_right",
+          "role": "passenger",
+          "hip_blocks": [
+            0.478125,
+            1.1,
+            0.0
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": null,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -5.28,
+        0.0,
+        -6.615,
+        5.28,
+        3.1775,
+        5.76
+      ],
+      "profile_geometry_provenance": "d35a94c9bdf540b43741d291229830ae6f0680f59b6eb3c108e6b0dac0cf4019|runtime anchors inside authored cockpit/hull; rotor clearance retains full source envelope; client fit unqualified",
+      "preserved_geometry_path": "models/entity/heli_civilian.geo.json",
+      "preserved_geometry_sha256": "536faff38737911c67ab80659ac6eea4061bb28e449f9f0ab120d7ee6538d39e",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/heli_civilian.parts.json",
+      "editable_source_sha256": "a66aad844fae737ed7426f806c2e42c216ef0d12cf7b2d254c4d0f76260efa85",
+      "interior_work_and_limits": "Existing authored runtime anchors retained. No passenger-count increase; independent interior/boarding/clearance verification remains required."
+    },
+    {
+      "id": "gtm:marine_ferry",
+      "title": "Indra Gateway Double-Deck Passenger Ferry",
+      "category": "marine",
+      "runtime_total_seats": 9,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 8,
+      "previous_runtime_total_seats": 9,
+      "runtime_seat_anchors": [
+        {
+          "name": "helm",
+          "role": "driver",
+          "hip_blocks": [
+            -0.48,
+            1.5,
+            -0.45
+          ]
+        },
+        {
+          "name": "passenger_0",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.68,
+            1.5,
+            0.8
+          ]
+        },
+        {
+          "name": "passenger_1",
+          "role": "passenger",
+          "hip_blocks": [
+            0.68,
+            1.5,
+            0.8
+          ]
+        },
+        {
+          "name": "passenger_2",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.68,
+            1.5,
+            1.45
+          ]
+        },
+        {
+          "name": "passenger_3",
+          "role": "passenger",
+          "hip_blocks": [
+            0.68,
+            1.5,
+            1.45
+          ]
+        },
+        {
+          "name": "passenger_4",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.68,
+            1.5,
+            2.1
+          ]
+        },
+        {
+          "name": "passenger_5",
+          "role": "passenger",
+          "hip_blocks": [
+            0.68,
+            1.5,
+            2.1
+          ]
+        },
+        {
+          "name": "passenger_6",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.68,
+            1.5,
+            2.75
+          ]
+        },
+        {
+          "name": "passenger_7",
+          "role": "passenger",
+          "hip_blocks": [
+            0.68,
+            1.5,
+            2.75
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": null,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -2.99,
+        0.0,
+        -3.675,
+        2.99,
+        2.8875,
+        4.375
+      ],
+      "profile_geometry_provenance": "a5819e344ffffc69e1590210661685dd75db21a3106adc48a444ee29655d539c|runtime helm/deck anchors above authored deck; no invented world dock coordinates; client fit unqualified",
+      "preserved_geometry_path": "models/entity/marine_ferry.geo.json",
+      "preserved_geometry_sha256": "6497e12b3eabb617eb5de403dd4236f4f9b271249c200bb28a5af52cfcede572",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/marine_ferry.parts.json",
+      "editable_source_sha256": "61e5989e5914787a83793bae7a28857bcea8d8849423eb107480c7e030fabf4d",
+      "interior_work_and_limits": "Existing authored runtime anchors retained. No passenger-count increase; independent interior/boarding/clearance verification remains required."
+    },
+    {
+      "id": "gtm:marine_speedboat",
+      "title": "Marine Police Interceptor Speedboat",
+      "category": "marine",
+      "runtime_total_seats": 3,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 2,
+      "previous_runtime_total_seats": 3,
+      "runtime_seat_anchors": [
+        {
+          "name": "helm",
+          "role": "driver",
+          "hip_blocks": [
+            -0.39744,
+            1.5,
+            -0.45
+          ]
+        },
+        {
+          "name": "passenger_0",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.48576,
+            1.5,
+            0.8
+          ]
+        },
+        {
+          "name": "passenger_1",
+          "role": "passenger",
+          "hip_blocks": [
+            0.48576,
+            1.5,
+            0.8
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": null,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.104,
+        0.0,
+        -3.15,
+        1.104,
+        2.8875,
+        3.75
+      ],
+      "profile_geometry_provenance": "988abe083db8130c41b2cee3358ad9eaafacbac413607494a0396606df91276c|runtime helm/deck anchors above authored deck; no invented world dock coordinates; client fit unqualified",
+      "preserved_geometry_path": "models/entity/marine_speedboat.geo.json",
+      "preserved_geometry_sha256": "2a86829db6199ef36b4bf06578a8fcfcf743baf2c8f5a5e7c24f4f6f8dae003a",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/marine_speedboat.parts.json",
+      "editable_source_sha256": "41014a4815a3bc1c185d33eb164573d469f3dc9034747c62895cfe8cbd462576",
+      "interior_work_and_limits": "Existing authored runtime anchors retained. No passenger-count increase; independent interior/boarding/clearance verification remains required."
+    },
+    {
+      "id": "gtm:marine_police_launch",
+      "title": "SDPD Harbour Patrol Steel Launch",
+      "category": "marine",
+      "runtime_total_seats": 3,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 2,
+      "previous_runtime_total_seats": 3,
+      "runtime_seat_anchors": [
+        {
+          "name": "helm",
+          "role": "driver",
+          "hip_blocks": [
+            -0.48,
+            1.5,
+            -0.45
+          ]
+        },
+        {
+          "name": "passenger_0",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.68,
+            1.5,
+            0.8
+          ]
+        },
+        {
+          "name": "passenger_1",
+          "role": "passenger",
+          "hip_blocks": [
+            0.68,
+            1.5,
+            0.8
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": null,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.748,
+        0.0,
+        -3.675,
+        1.748,
+        2.8875,
+        4.375
+      ],
+      "profile_geometry_provenance": "6eaf7f71cf8d66e01781a756c1b86e8c9b4cbb539de3af53cca7463cbf56bf61|runtime helm/deck anchors above authored deck; no invented world dock coordinates; client fit unqualified",
+      "preserved_geometry_path": "models/entity/marine_police_launch.geo.json",
+      "preserved_geometry_sha256": "476ab68e71dd5373728051640c9f5b0b8ad8cc734dda27adc4b92806ca9eaf94",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/marine_police_launch.parts.json",
+      "editable_source_sha256": "d01b2a0fa68bbe979425a148bcde03537e995b8e078f65d8d281a7b66d17c4ca",
+      "interior_work_and_limits": "Existing authored runtime anchors retained. No passenger-count increase; independent interior/boarding/clearance verification remains required."
+    },
+    {
+      "id": "gtm:marine_rescue",
+      "title": "Coastal Lifeboat All-Weather Rescue Craft",
+      "category": "marine",
+      "runtime_total_seats": 3,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 2,
+      "previous_runtime_total_seats": 3,
+      "runtime_seat_anchors": [
+        {
+          "name": "helm",
+          "role": "driver",
+          "hip_blocks": [
+            -0.48,
+            1.5,
+            -0.45
+          ]
+        },
+        {
+          "name": "passenger_0",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.68,
+            1.5,
+            0.8
+          ]
+        },
+        {
+          "name": "passenger_1",
+          "role": "passenger",
+          "hip_blocks": [
+            0.68,
+            1.5,
+            0.8
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": null,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.656,
+        0.0,
+        -3.675,
+        1.656,
+        2.8875,
+        4.375
+      ],
+      "profile_geometry_provenance": "d18035d95d451363ea2d81e87583383ce17199349ea9c7413dca10ca5f0263d2|runtime helm/deck anchors above authored deck; no invented world dock coordinates; client fit unqualified",
+      "preserved_geometry_path": "models/entity/marine_rescue.geo.json",
+      "preserved_geometry_sha256": "f5cfb365f69894168da27bc6d1b15134985c8bd3c6dbc1da8534abb67a52f5b2",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/marine_rescue.parts.json",
+      "editable_source_sha256": "c2fa43ad3baffc378d59b9d24882b8a61cc496bc5f1704155741cd020020621f",
+      "interior_work_and_limits": "Existing authored runtime anchors retained. No passenger-count increase; independent interior/boarding/clearance verification remains required."
+    },
+    {
+      "id": "gtm:marine_fishing",
+      "title": "Sassoon Docks Wooden Fishing Trawler",
+      "category": "marine",
+      "runtime_total_seats": 3,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 2,
+      "previous_runtime_total_seats": 3,
+      "runtime_seat_anchors": [
+        {
+          "name": "helm",
+          "role": "driver",
+          "hip_blocks": [
+            -0.48,
+            1.5,
+            -0.45
+          ]
+        },
+        {
+          "name": "passenger_0",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.68,
+            1.5,
+            0.8
+          ]
+        },
+        {
+          "name": "passenger_1",
+          "role": "passenger",
+          "hip_blocks": [
+            0.68,
+            1.5,
+            0.8
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": null,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.932,
+        0.0,
+        -3.675,
+        1.932,
+        2.8875,
+        4.375
+      ],
+      "profile_geometry_provenance": "5d9f90e10937de1603d1e04616e103b5cc85a0d71768142057aee19c10acbac2|runtime helm/deck anchors above authored deck; no invented world dock coordinates; client fit unqualified",
+      "preserved_geometry_path": "models/entity/marine_fishing.geo.json",
+      "preserved_geometry_sha256": "132fb59b17333f0007f6003da8a8de7c21d576d2eac43121db0d1b5a531dc89b",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/marine_fishing.parts.json",
+      "editable_source_sha256": "75268c8e8e2a330766513223d4d818e1a90dc7ccce728c1cb598b512ade19f84",
+      "interior_work_and_limits": "Existing authored runtime anchors retained. No passenger-count increase; independent interior/boarding/clearance verification remains required."
+    },
+    {
+      "id": "gtm:marine_yacht",
+      "title": "Maya Harbour Luxury Motor Yacht",
+      "category": "marine",
+      "runtime_total_seats": 9,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 8,
+      "previous_runtime_total_seats": 9,
+      "runtime_seat_anchors": [
+        {
+          "name": "helm",
+          "role": "driver",
+          "hip_blocks": [
+            -0.48,
+            1.5,
+            -0.45
+          ]
+        },
+        {
+          "name": "passenger_0",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.68,
+            1.5,
+            0.8
+          ]
+        },
+        {
+          "name": "passenger_1",
+          "role": "passenger",
+          "hip_blocks": [
+            0.68,
+            1.5,
+            0.8
+          ]
+        },
+        {
+          "name": "passenger_2",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.68,
+            1.5,
+            1.45
+          ]
+        },
+        {
+          "name": "passenger_3",
+          "role": "passenger",
+          "hip_blocks": [
+            0.68,
+            1.5,
+            1.45
+          ]
+        },
+        {
+          "name": "passenger_4",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.68,
+            1.5,
+            2.1
+          ]
+        },
+        {
+          "name": "passenger_5",
+          "role": "passenger",
+          "hip_blocks": [
+            0.68,
+            1.5,
+            2.1
+          ]
+        },
+        {
+          "name": "passenger_6",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.68,
+            1.5,
+            2.75
+          ]
+        },
+        {
+          "name": "passenger_7",
+          "role": "passenger",
+          "hip_blocks": [
+            0.68,
+            1.5,
+            2.75
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": null,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -2.3,
+        0.0,
+        -3.675,
+        2.3,
+        2.8875,
+        4.375
+      ],
+      "profile_geometry_provenance": "c66f93affe8c7151f64da8225661b2c80b88eca13d019eb643d41469428646be|runtime helm/deck anchors above authored deck; no invented world dock coordinates; client fit unqualified",
+      "preserved_geometry_path": "models/entity/marine_yacht.geo.json",
+      "preserved_geometry_sha256": "910ef690930cd93510918a85fd9967047a1767c73f29085ab176482a5bfa1f28",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/marine_yacht.parts.json",
+      "editable_source_sha256": "c857e7647166afe09a8d2dbf2af5c79290fee64545e989337036336c245ca498",
+      "interior_work_and_limits": "Existing authored runtime anchors retained. No passenger-count increase; independent interior/boarding/clearance verification remains required."
+    },
+    {
+      "id": "gtm:marine_cargo",
+      "title": "Coastal Container & Bulk Freight Barge",
+      "category": "marine",
+      "runtime_total_seats": 3,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 2,
+      "previous_runtime_total_seats": 3,
+      "runtime_seat_anchors": [
+        {
+          "name": "helm",
+          "role": "driver",
+          "hip_blocks": [
+            -0.48,
+            1.5,
+            -0.45
+          ]
+        },
+        {
+          "name": "passenger_0",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.68,
+            1.5,
+            0.8
+          ]
+        },
+        {
+          "name": "passenger_1",
+          "role": "passenger",
+          "hip_blocks": [
+            0.68,
+            1.5,
+            0.8
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": null,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -3.91,
+        0.0,
+        -3.675,
+        3.91,
+        2.8875,
+        4.375
+      ],
+      "profile_geometry_provenance": "560af95ffe0ddbe19371259bdfc73f01a5a5afd88803745ef37e5d70d65a80e0|runtime helm/deck anchors above authored deck; no invented world dock coordinates; client fit unqualified",
+      "preserved_geometry_path": "models/entity/marine_cargo.geo.json",
+      "preserved_geometry_sha256": "4e94f5845cce090f22e3424c637e074d6514fd74a83cad4069dae7885b66c43e",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/marine_cargo.parts.json",
+      "editable_source_sha256": "ae13d90f36f6c1f0cf25277eb99bd5a6e00d9b138b1f827dfa0e8c1e0f87a8ff",
+      "interior_work_and_limits": "Existing authored runtime anchors retained. No passenger-count increase; independent interior/boarding/clearance verification remains required."
+    },
+    {
+      "id": "gtm:marine_water_taxi",
+      "title": "Express Harbour Catamaran Water Taxi",
+      "category": "marine",
+      "runtime_total_seats": 5,
+      "runtime_driver_seats": 1,
+      "runtime_passenger_seats": 4,
+      "previous_runtime_total_seats": 5,
+      "runtime_seat_anchors": [
+        {
+          "name": "helm",
+          "role": "driver",
+          "hip_blocks": [
+            -0.48,
+            1.5,
+            -0.45
+          ]
+        },
+        {
+          "name": "passenger_0",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.66176,
+            1.5,
+            0.8
+          ]
+        },
+        {
+          "name": "passenger_1",
+          "role": "passenger",
+          "hip_blocks": [
+            0.66176,
+            1.5,
+            0.8
+          ]
+        },
+        {
+          "name": "passenger_2",
+          "role": "passenger",
+          "hip_blocks": [
+            -0.66176,
+            1.5,
+            1.45
+          ]
+        },
+        {
+          "name": "passenger_3",
+          "role": "passenger",
+          "hip_blocks": [
+            0.66176,
+            1.5,
+            1.45
+          ]
+        }
+      ],
+      "identified_upholstery_mesh_piece_count": 0,
+      "independently_identified_seating_places": null,
+      "upholstery_meshes_in_preserved_art": [],
+      "profile_bounds_blocks": [
+        -1.504,
+        0.0,
+        -3.9375,
+        1.504,
+        2.8875,
+        3.9375
+      ],
+      "profile_geometry_provenance": "23bdddcfb3a1c2a2042a2c33e3bdcb733ffd347509b4aff91a3c381b1270a47e|runtime helm/deck anchors above authored deck; no invented world dock coordinates; client fit unqualified",
+      "preserved_geometry_path": "models/entity/marine_water_taxi.geo.json",
+      "preserved_geometry_sha256": "b5bd4b181b225964f7cb9bf2133307085a45c51095660472c84a706ee18f4b4e",
+      "editable_source_path": "GTM_Indraprastha_128/source/models/transport/editable/marine_water_taxi.parts.json",
+      "editable_source_sha256": "69c8cd0315e9dce8ffb293c988722ffdde81e3ed1766fa224a80e91587ef60d4",
+      "interior_work_and_limits": "Existing authored runtime anchors retained. No passenger-count increase; independent interior/boarding/clearance verification remains required."
+    }
+  ]
+}

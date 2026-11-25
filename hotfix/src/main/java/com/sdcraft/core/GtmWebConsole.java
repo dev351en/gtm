@@ -161,6 +161,7 @@ final class GtmWebConsole implements AutoCloseable {
             features.put(key, plugin.getConfig().getBoolean(key, key.equals("phone.enabled")));
         features.put("ai.external-enabled", plugin.getConfig().getBoolean("ai.external-enabled", false));
         data.put("features", features);
+        data.put("npcDialogue", plugin.npcDialogueStatus());
         data.put("pack", Map.of("url", serverProperties.getProperty("resource-pack", ""),
                 "sha1", serverProperties.getProperty("resource-pack-sha1", ""),
                 "required", serverProperties.getProperty("require-resource-pack", "false")));

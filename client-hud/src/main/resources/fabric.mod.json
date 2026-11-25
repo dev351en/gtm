@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "gtm_hud",
+  "version": "${version}",
+  "name": "GTM City HUD",
+  "description": "Optional four-corner GTM interface: live inventory, terrain map, city status and interactive phone.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.sdcraft.clienthud.GtmHudClient"] },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": ">=0.167.0"
+  }
+}

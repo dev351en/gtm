@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the 1.0.4 repair packs from the hash-verified, preserved 1.0.3 payload.
+"""Build the 1.0.5 repair packs from the hash-verified, preserved 1.0.3 payload.
 
 The historical payload is immutable. Outputs go to a separate directory; this
 tool does not deploy a server or edit its configuration. Its verification reads
@@ -368,19 +368,19 @@ def build(output: Path) -> dict:
     pose_models = repair_weapon_poses(java)
     canopy_report = repair_rickshaw_canopy(java, bedrock)
     metadata = json.loads(java["pack.mcmeta"])
-    metadata["pack"]["description"] = "GTM Indraprastha · 1.0.4 · Phone UI, native128 models and compatibility"
+    metadata["pack"]["description"] = "GTM Indraprastha · 1.0.5 · Phone UI, native128 models and compatibility"
     java["pack.mcmeta"] = encoded(metadata)
     manifest = json.loads(bedrock["manifest.json"])
     # A new content-versioned identity prevents the old hash-derived version
     # number from making clients treat this repaired pack as a downgrade.
-    manifest["header"]["version"] = [1, 0, 4]
+    manifest["header"]["version"] = [1, 0, 5]
     manifest["header"]["uuid"] = str(uuid.uuid5(uuid.NAMESPACE_URL, "https://github.com/dev351en/gtm/repair104/bedrock"))
-    manifest["header"]["name"] = "GTM Indraprastha 128 · Repair 1.0.4"
+    manifest["header"]["name"] = "GTM Indraprastha 128 · Repair 1.0.5"
     for module in manifest["modules"]:
-        module["version"] = [1, 0, 4]
+        module["version"] = [1, 0, 5]
         module["uuid"] = str(uuid.uuid5(uuid.NAMESPACE_URL, "https://github.com/dev351en/gtm/repair104/bedrock/" + module["type"]))
     bedrock["manifest.json"] = encoded(manifest)
-    report = {"version": "1.0.4-r4-repair", "input_java_sha256": hashlib.sha256(java_input).hexdigest(),
+    report = {"version": "1.0.5-r4-spec-candidate", "input_java_sha256": hashlib.sha256(java_input).hexdigest(),
               "input_bedrock_sha256": hashlib.sha256(bed_input).hexdigest(),
               "checks": validate_java(java), "bedrock_checks": validate_bedrock(bedrock, mappings),
               "first_person_pose_models": len(pose_models),

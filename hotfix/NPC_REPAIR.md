@@ -1,0 +1,42 @@
+# NPC population and combat repair
+
+## Verified causes
+
+The maintained adapter starts from `NpcService.class` in the preserved 1.0.3 core, whose JAR SHA-256 is `b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af`. CFR recovered this class without an unimplemented-method placeholder; the replacement preserves the existing named identities, generated identity/name/role/toughness policy, extended roster records, anchors, service protections and loot rules.
+
+The preserved adapter had four relevant defects:
+
+1. `navigate` returned immediately without Citizens. The actual Java staging configuration contains no Citizens plugin, so fallback villagers could not follow the requested chase, flee or wander paths.
+2. The native weapon engines rejected any `Player` target without an authenticated real-player session. Citizens represents human NPCs as `Player` entities, which deliberately never authenticate. These two target checks therefore prevented guns from hitting an otherwise attackable managed ambient NPC.
+3. Physical ownership existed only in two in-memory maps. Persistent fallback villagers had no owner/identity tag, and an unloaded entity could not be found by the cleanup lookup. There was no chunk-load adoption or duplicate reconciliation. This establishes a duplicate-creation risk; it does not prove that a particular live server has duplicate NPCs.
+4. A 32-actor cap, four-at-a-time admission and loaded-chunk gate applied only to the experimental extended roster. The normal 100-identity mode could spawn every nearby candidate at once and force-load its chunk. Several generated anchors also converged onto the same walkable position.
+
+The separate dialogue audit found that the actual staging config disables experimental dialogue, and ambient right-click produced a single fixed greeting. Dialogue/provider implementation and authentication wiring are maintained separately by the root integration work.
+
+## Resulting population behavior
+
+The persistent roster can contain 100 or 500 identities; at most 32 physical population/service actors are admitted together. Service workers consume the same total/non-police budget. Each evaluation admits at most four population actors. The main plugin evaluates every second. Existing limits can lower these bounds but cannot raise them above 32 and four.
+
+Actors are activated around authenticated real players with separate entry/exit distances. Nearby named staff have priority. Loaded geometry is inspected before spawning; no population method force-loads a chunk. Unsafe or unavailable positions defer. A default six-per-chunk admission limit and physical separation prevent stacking at duplicate anchors. These checks materialize actors on safe nearby positions without rewriting their recorded anchors.
+
+Every new owned entity carries the `population_identity` and `population_schema` persistent-data tags. The private ownership index binds a known logical identity to exactly one entity UUID. Public NPC metadata, display names, and a real player's persistent data cannot authorize combat or NPC ownership. Tagged fallback villagers can be adopted after load, and explicitly tagged duplicate materializations are removed. Chunk unload and shutdown release ownership and remove the owned physical entity. New materializations are not saved as independent permanent mobs. Citizens, when available, uses its documented in-memory registry rather than creating another permanent global-registry record.
+
+Untagged legacy NPCs are not deleted or adopted from names alone. An exact old display label near its original anchor suppresses another spawn and is counted as an anchor awaiting review. An owner must establish authoritative provenance before cleaning up such entities. This preserves unrelated NPCs and their skin/trait records. A read-only audit of the four central staging entity regions after the previous clean shutdown found 13 ordinary villagers and no surviving GTM-prefixed NPC labels; no legacy-copy cleanup is claimed from that snapshot.
+
+## Combat and movement
+
+Citizens navigation remains supported. Without Citizens, actual Paper `Mob.getPathfinder().moveTo` now receives wander, flee and chase destinations. Movement requests reject invalid actors, different worlds and unloaded destination chunks. The existing deterministic tough minority fights back when attacked; other ambient pedestrians flee. Named service NPCs remain protected.
+
+Explicitly selecting or messaging an ambient NPC pauses that actor's wandering for up to 30 seconds, refreshed by another explicit turn. The hold belongs to the authenticated player session and requires that player to remain alive, visible and within seven blocks. The fallback villager's previous AI state is restored on release. Damage immediately ends the hold before fleeing or retaliation, so conversation cannot suppress combat. Ambient proximity greetings alone never hold an actor.
+
+Retaliation stops on logout, death, a downed state, world change, expiry, leaving the pursuit radius, entering a protected civic area or leaving a damageable game mode. Melee requires both range and line of sight and retains the 1.1-second cooldown. It does not damage through walls. No wanted-level pursuit/arrest controller is claimed: that broader police simulation was not implemented by the preserved adapter.
+
+`NpcCombatAccess` admits either an authenticated real target or a strictly owned, currently active ambient NPC. It is a target-only hook. The legacy `GunEngine` source uses it directly. `PatchNpcCombatBytecode` replaces exactly two target-authentication calls in the preserved native `GtmEquipment.class`: one in `shoot` and the second authentication call in `trace`. Shooter authentication, permissions, property/safe-zone checks and the real-player tag minigame's first auth check are retained.
+
+The equipment transformer accepts only the known original class SHA-256 `3fbb26074b5f1fd1cd6fe2936836a232f8f08347ddd80d3c83632133f3e93145`. Its output is `bafc49db8c280b33dc93342dc7253725b0e44b21876dd4bb87e55517febccb71`. It rejects corrupt, unknown and already-patched bytes. This is a maintained, exact two-call patch, not a claim to have recovered the complete original equipment source.
+
+## Executed verification and remaining acceptance
+
+The maintained population adapter compiles against the actual Paper 26.3 build 255 API and the preserved runtime using Java 25. Sixteen JUnit tests passed: global limits and shared service budget, extreme configuration bounds, activation hysteresis, retaliation/auth/safe-zone conditions, melee visibility/cooldown, duplicate identity claims, unload/reclaim ownership, Paper fallback navigation dispatch, unloaded/cross-world rejection and stopping navigation, plus full-block/slab support and rejection of tall or partial collisions. Bytecode checks passed for deterministic output, exactly two replacements, conservation of other method calls and the tag-game auth check, plus rejection of three unsupported input classes.
+
+These checks do not establish live movement or fight-back behavior. The combined build still requires an actual staged client session for NPC selection, dialogue, movement, retaliation/fleeing and population stability. Citizens-present human-NPC rendering and Bedrock acceptance remain separate from the Citizens-absent Java staging test. Evidence from the earlier phone/vehicle acceptance must not be attributed to this later NPC build.

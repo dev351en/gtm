@@ -212,14 +212,18 @@ class VehicleRepairTest {
         assertEquals(65, roads);
     }
 
-    @Test void bundledProfileLoadsRaisedTraditionalCanopyWithoutMovingSeats() throws Exception {
+    @Test void bundledProfileLoadsFourSeatAutoAndPreservesDriverAndHandling() throws Exception {
         var profile = RoadVehicleCatalog.bundled().all().stream()
                 .filter(p -> p.id().equals("gtm:rickshaw_traditional")).findFirst().orElseThrow();
         assertEquals(2.238, profile.bounds().maxY());
+        assertEquals(2.14, profile.bounds().width());
         assertEquals(new VehicleGeometry.Point(0, .60625, .208), profile.seats().getFirst().hip());
         assertEquals(new VehicleGeometry.Point(0, .62, .208), profile.seats().getFirst().mount());
+        assertEquals(4, profile.seats().size());
+        assertEquals(3, profile.seats().stream().filter(s -> !s.driver()).count());
+        assertEquals(List.of(-.6, .6, 0.0), profile.seats().stream().filter(s -> !s.driver()).map(s -> s.hip().x()).toList());
         assertEquals(PROFILE.handling(), profile.handling());
-        assertEquals("256ff4ca40ae1a310995214a9b261ccfd5e7024a5af73bbdc7d6f31a11c3abf3", profile.geometryHash());
+        assertEquals("bac1c4669f190a5a65a3aa313b528799bbeacdfb18e36c41f5e284c1e4d5a29a", profile.geometryHash());
     }
 
     @Test void guidedModesKeepTheirOriginalSpeedTimesStepFuelContract() throws Exception {

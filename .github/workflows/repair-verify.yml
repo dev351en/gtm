@@ -1,15 +1,17 @@
-name: Verify and package GTM runtime repair
+name: Verify and package GTM HUD and runtime repair
 
 on:
   push:
-    branches: [fix/playable-ui-vehicles-20261125]
+    branches: [fix/spec-hud-npc-passengers-20261125]
   pull_request:
     branches: [main]
     paths:
       - 'hotfix/**'
+      - 'client-hud/**'
       - 'packaging/repair/**'
       - 'tools/*repair*'
       - 'tools/*control_centre*'
+      - 'tools/*vehicle*'
       - '.github/workflows/repair-verify.yml'
   workflow_dispatch:
 
@@ -42,7 +44,9 @@ jobs:
         run: python -m pip install -r tools/requirements-gtm128.txt
       - name: Compile and check the maintained repair overlay
         working-directory: hotfix
-        run: gradle --no-daemon clean check jar patchVehicle
+        run: gradle --no-daemon clean check jar patchVehicle patchNpcCombat
+      - name: Build and test the optional Java HUD from pinned official inputs
+        run: python client-hud/tools/build_verified.py --java-home "$JAVA_HOME"
       - name: Check pack references and update recovery
         run: |
           python -m unittest discover -s tools -p test_repaired_packs.py -v
@@ -52,12 +56,12 @@ jobs:
       - name: Build the exact repair payload
         run: |
           python tools/build_repaired_packs.py
-          python tools/build_repair_release.py --overlay hotfix/build/libs/GTM-Repair-Classes-1.0.4-r4-repair-overlay.jar --vehicle-class hotfix/build/vehicle-patch/com/sdcraft/core/GtmVehicles.class
+          python tools/build_repair_release.py --overlay hotfix/build/libs/GTM-Repair-Classes-1.0.5-r4-spec-candidate-overlay.jar --vehicle-class hotfix/build/vehicle-patch/com/sdcraft/core/GtmVehicles.class
           python tools/package_repair_candidate.py
       - name: Upload installable candidate
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
-          name: GTM-runtime-repair-1.0.4
+          name: GTM-runtime-repair-1.0.5
           path: dist/repair/*
           compression-level: 0
           if-no-files-found: error
@@ -70,6 +74,8 @@ jobs:
           path: |
             hotfix/build/reports/tests/
             hotfix/build/test-results/
+            client-hud/build/test-results/
+            client-hud/build/build-report.json
             build/repaired-release/build-report.json
             build/repaired-release/pack-repair-report.json
           if-no-files-found: ignore
@@ -77,7 +83,7 @@ jobs:
 
   publish:
     needs: verify
-    if: github.repository == 'dev351en/gtm' && github.event_name == 'push' && github.ref == 'refs/heads/fix/playable-ui-vehicles-20261125' && contains(github.event.head_commit.message, '[publish-repair]')
+    if: github.repository == 'dev351en/gtm' && github.event_name == 'push' && github.ref == 'refs/heads/fix/spec-hud-npc-passengers-20261125' && contains(github.event.head_commit.message, '[publish-repair]')
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
@@ -88,7 +94,7 @@ jobs:
           persist-credentials: false
       - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
         with:
-          name: GTM-runtime-repair-1.0.4
+          name: GTM-runtime-repair-1.0.5
           path: dist/repair
       - name: Publish verified candidate assets without deployment
         env:

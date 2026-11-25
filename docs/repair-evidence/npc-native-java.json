@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "environment": {
+    "game": "Minecraft Java26.3",
+    "paper": "26.3 build255",
+    "test_account": "GTMHudQA",
+    "permissions": "Normal registered player; not operator",
+    "citizens_installed": false,
+    "backend_mode": "offline scripted dialogue; no generative model connected",
+    "scope": "Isolated local staging, not live Daytona; Java render only, no Bedrock or Citizens-present acceptance"
+  },
+  "phase1": {
+    "core_sha256": "8a1e9807009255430e1d41d6e0df0728c9fae3355e2bde445f8a0ee04525a2ca",
+    "java_pack_sha1": "01e6a6693265203168a3f2abf5027f931f926415",
+    "optional_hud_sha256": "85b832bba3d008bfad32773a8c63b1b7772e567edb8148b81dbc331e83475691",
+    "observations": [
+      {
+        "result": "pass",
+        "action": "Near existing NPCs, type // hello, what do you do around here?",
+        "observed": "Imran Sheikh replied by name with his Store manager role. Explicit local-scripted/no-generative-model notice appeared; overhead bubble rendered."
+      },
+      {
+        "result": "pass",
+        "action": "Type // where can I buy ammunition?",
+        "observed": "Same selected Imran Sheikh answered about purchases, stock and a verified receipt. This establishes a reachable second conversation turn, not generative inference."
+      },
+      {
+        "result": "pass",
+        "action": "Read owned Sahil Sharma positions while walking nearby",
+        "observed": "Same owned UUID6ebb6269-20d5-4546-850b-a2ad697c543b moved from(-141.42344,67,-90.47247) at15:52:59 to(-154.70,67,-81.30) at15:55:28 and(-143.17863,67,-96.15457) at15:58:22. Actors were not teleported, frozen or moved by test commands."
+      },
+      {
+        "result": "defect_found_and_source_fixed",
+        "observed": "Several proximity bubbles overlapped and wandering actors walked away during attempted selection. Root added per-player cooldown, bubble spacing/scaling; NPC service added explicit authenticated nearby conversation hold with combat precedence. Those changes require final-build native check."
+      }
+    ],
+    "captures": [
+      {
+        "file": "docs/repair-evidence/npc-dialogue-phase1-native-java.png",
+        "original_f2": "2026-11-25_15.56.53.png",
+        "sha256": "4e752fe1288c5688d6de80d3d8c9ac6d5e35f462df852429ff3f4a9efddc8030",
+        "altered": false
+      },
+      {
+        "file": "docs/repair-evidence/npc-bubble-overlap-phase1.png",
+        "original_f2": "2026-11-25_15.56.06.png",
+        "sha256": "40e9603db6b4c65b763ea1a8221f262d1ddf070adbd7ffbbcc4a0777fc47a254",
+        "altered": false
+      }
+    ],
+    "captured_chat": "docs/repair-evidence/npc-native-chat.txt",
+    "test_player_placement": "Root moved only test player to inspected safe concrete anchor and adjusted orientation; owned NPCs kept normal pathfinding. A later conditional adjacent player teleport refused unsafe/unknown ground."
+  },
+  "final_build": {
+    "status": "pending native acceptance after combined restart"
+  },
+  "limits": [
+    "No claim of a connected generative AI provider from scripted replies.",
+    "No autonomous wanted-level police pursuit/arrest implementation claim.",
+    "No untagged legacy NPC deletion claim; existing unidentified actors are conservatively suppressed/reported.",
+    "Fight-back, fleeing and final right-click hold proof pending final native session."
+  ]
+}
