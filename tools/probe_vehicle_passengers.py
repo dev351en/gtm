@@ -4,8 +4,12 @@
 This uses real network Player sessions and ordinary register/login. It validates
 pack bytes and sends headless resource-pack acknowledgements; it does NOT render
 Minecraft and must never be described as four-client visual verification.
-Credentials exist only in memory. No operator grants, block/world edits, forced
-mounts, private-world access, or changes to the GUI observer are performed.
+This probe writes no credentials to reports or protocol logs. Ordinary server
+authentication records remain in the disposable staging copy. No operator
+grants, block/world edits, forced mounts, private-world access, or changes to the
+GUI observer are performed.
+Own test credentials are retained only in a mode600 private staging session for
+bounded retries, then removed after successful completion; never copy that file.
 """
 from __future__ import annotations
 import argparse
@@ -15,11 +19,13 @@ import hashlib
 from io import BytesIO
 import json
 import math
+import os
 from pathlib import Path
 import re
 import secrets
 import socket
 import struct
+import stat
 import threading
 import time
 import urllib.parse
@@ -97,11 +103,14 @@ def component_text(value):
 
 
 class Probe:
-    def __init__(self, root, output, hold_mounted=0):
+    def __init__(self, root, output, hold_mounted=0, start_position=None):
         self.root, self.output = root.resolve(), output
         if not 0 <= hold_mounted <= 60:
             raise ValueError("Mounted screenshot interval must be within0–60seconds")
         self.hold_mounted = hold_mounted
+        self.start_position = tuple(start_position) if start_position else None
+        if self.start_position and not all(math.isfinite(v) for v in self.start_position):
+            raise ValueError("Observed staging start must have finite coordinates")
         self.fixtures = json.loads(FIXTURE.read_text())
         properties = dict(line.split("=",1) for line in (root/"server.properties").read_text().splitlines() if "=" in line and not line.startswith("#"))
         if properties.get("server-ip") != "127.0.0.1" or properties.get("server-port") != "25585":
@@ -117,6 +126,22 @@ class Probe:
         self.http = urllib.request.build_opener(urllib.request.ProxyHandler({}))
         self.bots, self.allowed_names, self.pack_cache = [], set(), {}
         self.pack_lock = threading.Lock()
+        self.session_path=self.root/"control/vehicle-probe-private-session.json"
+        if self.session_path.exists():
+            mode=self.session_path.stat()
+            if self.session_path.is_symlink() or mode.st_uid!=os.getuid() or stat.S_IMODE(mode.st_mode)!=0o600:
+                raise ValueError("Private test session must be owned by the current process user with mode600")
+            self.session=json.loads(self.session_path.read_text())
+            if self.session.get("schema")!="GTM_PRIVATE_VEHICLE_TEST_V1" or not re.fullmatch(r"[0-9a-f]{8}",self.session.get("suffix","")):
+                raise ValueError("Unknown private vehicle test session")
+            for slot in ("D","1","2","3","4"):
+                item=self.session["actors"][slot]
+                if not re.fullmatch(r"[0-9a-f]{32}",item.get("password","")) or not isinstance(item.get("registered"),bool):
+                    raise ValueError("Invalid private test actor credentials")
+        else:
+            self.session={"schema":"GTM_PRIVATE_VEHICLE_TEST_V1","suffix":secrets.token_hex(4),
+                          "actors":{slot:{"password":secrets.token_hex(16),"registered":False} for slot in ("D","1","2","3","4")}}
+            self.save_session()
         cores = list((root/"plugins").glob("SDCraftCore*.jar"))
         if len(cores) != 1:
             raise ValueError("Expected exactly one active staged SDCraftCore JAR")
@@ -133,6 +158,19 @@ class Probe:
         self.output.parent.mkdir(parents=True,exist_ok=True)
         temporary = self.output.with_suffix(".tmp")
         temporary.write_text(json.dumps(self.report,indent=2)+"\n"); temporary.replace(self.output)
+
+    def save_session(self):
+        self.session_path.parent.mkdir(parents=True,exist_ok=True)
+        temporary=self.session_path.with_suffix(".tmp-"+secrets.token_hex(4))
+        descriptor=os.open(temporary,os.O_WRONLY|os.O_CREAT|os.O_EXCL,0o600)
+        with os.fdopen(descriptor,"w") as stream: json.dump(self.session,stream)
+        temporary.replace(self.session_path)
+
+    def connect_actor(self,slot):
+        item=self.session["actors"][slot]
+        bot=self.connect("GTMSeat"+self.session["suffix"]+slot,item["password"],register=not item["registered"])
+        item["registered"]=True;self.save_session()
+        return bot
 
     def status(self):
         request=urllib.request.Request("http://127.0.0.1:8765/api/status",headers={"Authorization":"Bearer "+self.token})
@@ -153,14 +191,22 @@ class Probe:
         if detail is not None: row["detail"]=detail
         self.report["checks"].append(row); self.save()
 
-    def connect(self, name, password=None):
+    def connect(self, name, password=None, register=False):
         self.allowed_names.add(name)
         bot=Bot(self,name,password or secrets.token_hex(16));self.bots.append(bot);bot.start()
-        self.wait("play protocol for "+name,lambda:bot.entity_id is not None and bot.position is not None,40)
-        bot.command(("login "+bot.password) if password else ("register "+bot.password+" "+bot.password))
+        self.wait("play protocol for "+name,lambda:bot.entity_id is not None and bot.position is not None and bot.loaded_sent,40)
+        bot.command(("register "+bot.password+" "+bot.password) if register or not password else ("login "+bot.password))
         account=self.wait("ordinary account authentication for "+name,
                   lambda:next((p for p in self.status()["players"] if p["name"]==name and p["authenticated"]),None),25)
         bot.account_uuid=str(uuid.UUID(account["uuid"]))
+        # onAuthenticated reconciles starter assets15 ticks after auth flips.
+        # Its final message is emitted after that work and the initial teleport.
+        self.wait("post-authentication starter reconciliation for "+name,
+                  lambda:bot.has_message("Your phone opens city services. /gun opens native equipment; /car opens the garage."),25)
+        self.wait("post-authentication authoritative position for "+name,
+                  lambda:any(p["name"]==name and p["authenticated"] and
+                             [p[k] for k in ("x","y","z")]==[math.floor(v) for v in bot.position[:3]]
+                             for p in self.status()["players"]),25)
         return bot
 
     def place(self, bot, position):
@@ -169,9 +215,13 @@ class Probe:
         if not all(math.isfinite(x) for x in position[:3]): raise ValueError("Invalid observed position")
         command="tp "+bot.name+" "+" ".join(format(v,".4f") for v in position[:3])+" 0 0"
         request=self.root/"control"/("command-vehicle-probe-"+secrets.token_hex(6)+".json")
-        request.write_text(json.dumps({"command":command}))
-        self.wait("position test player at observed safe starting point",lambda:not request.exists(),5)
-        time.sleep(.3)
+        pending=request.with_suffix(".pending")
+        marker=bot.teleport_count
+        pending.write_text(json.dumps({"command":command}));pending.replace(request)
+        self.wait("dispatch isolated test-player positioning",lambda:request.with_suffix(".sent").exists(),5)
+        self.wait("position test player at an observed safe point",
+                  lambda:bot.teleport_count>marker and
+                         max(abs(bot.position[i]-position[i]) for i in range(3))<.01,10)
 
     def pack(self, url, expected):
         parsed=urllib.parse.urlsplit(url)
@@ -195,32 +245,54 @@ class Probe:
         initial=self.status()
         if initial.get("maxPlayers",0)-len(initial["players"]) < 5:
             raise RuntimeError("Five free staging player slots are required; keep GUI observer separate")
-        suffix=secrets.token_hex(4)
-        driver=self.connect("GTMSeat"+suffix+"D")
+        driver=self.connect_actor("D")
         origin=driver.position
-        self.check("Ordinary driver registration and authenticated session")
+        self.check("Ordinary driver authentication without operator grants")
+        if self.start_position:
+            if math.dist(self.start_position,origin[:3])>128 or abs(self.start_position[1]-origin[1])>8:
+                raise ValueError("Observed clear staging point must remain near the public workshop spawn")
+            self.place(driver,self.start_position)
+            origin=driver.position
         # The maintained plugin's grantNativeStarter uses this exact durable
         # name-UUID receipt. Target our own grant, never a nearby observer's car.
         receipt=uuid.UUID(bytes=hashlib.md5(("gtm:starter-auto:v1:"+driver.account_uuid).encode()).digest(),version=3)
         marker=driver.message_count
-        driver.command("car info "+str(receipt))
-        vehicle=self.wait("owned nearby starter auto identity",lambda:driver.vehicle_info_since(marker),20)
+        next_query=0.0
+        def delivered_starter():
+            nonlocal next_query
+            found=driver.vehicle_info_since(marker)
+            if found:return found
+            if time.monotonic()>=next_query:
+                driver.command("car info "+str(receipt));next_query=time.monotonic()+2
+            return None
+        vehicle=self.wait("ordinary pending starter delivery at the observed clear point",delivered_starter,25)
         if "Indra Auto" not in vehicle[1]: raise RuntimeError("Starter vehicle is not the repaired traditional auto")
         vehicle_id=vehicle[0]
         if vehicle_id!=str(receipt): raise RuntimeError("Observed vehicle is not this probe driver's starter receipt")
         self.report["observations"].update({"vehicle":vehicle_id,"driver":driver.name,"safe_start_position":origin[:3]})
-        passengers=[self.connect("GTMSeat"+suffix+str(i)) for i in range(1,4)]
-        overflow=self.connect("GTMSeat"+suffix+"4")
+        passengers=[self.connect_actor(str(i)) for i in range(1,4)]
+        overflow=self.connect_actor("4")
         for bot in [*passengers,overflow]: self.place(bot,origin)
-        self.check("Four guest accounts registered without operator grants")
+        self.check("Four ordinary guest accounts authenticated without operator grants")
+        # A resumed test may previously have unlocked its own vehicle. Establish
+        # the lock through the same ordinary owner command, never by state edits.
+        lock_marker=driver.message_count;driver.command("car lock "+vehicle_id)
+        lock_reply=self.wait("owner lock command",lambda:next((s for s in ("Passenger access unlocked","Vehicle locked")
+                            if driver.has_message_since(lock_marker,s)),None))
+        if lock_reply=="Passenger access unlocked":
+            lock_marker=driver.message_count;driver.command("car lock "+vehicle_id)
+            self.wait("owner sets the admission lock",lambda:driver.has_message_since(lock_marker,"Vehicle locked"))
         passengers[0].command("car passenger "+vehicle_id)
-        self.wait("locked guest admission rejected",lambda:passengers[0].has_message("Vehicle is locked"))
+        locked_refusal=self.wait("locked guest admission rejected",
+            lambda:next((s for s in ("Vehicle is locked","Use one unambiguous vehicle UUID or prefix")
+                         if passengers[0].has_message(s)),None))
         if passengers[0].mount is not None: raise RuntimeError("Locked guest mounted unexpectedly")
-        self.check("Owner lock rejects an ordinary guest")
+        self.check("Owner lock rejects an ordinary guest",{"refusal":locked_refusal,
+            "resolution_guard":"Locked non-owner UUIDs are filtered before enter; identical UUID must board after owner unlock below."})
         driver.command("car enter "+vehicle_id)
         driver_carrier=self.wait("driver mounting",lambda:driver.mount)
-        driver.command("car lock "+vehicle_id)
-        self.wait("owner unlock",lambda:driver.has_message("Passenger access unlocked"))
+        lock_marker=driver.message_count;driver.command("car lock "+vehicle_id)
+        self.wait("owner unlock",lambda:driver.has_message_since(lock_marker,"Passenger access unlocked"))
         for bot in passengers:
             bot.command("car passenger "+vehicle_id)
             self.wait("passenger mounting "+bot.name,lambda b=bot:b.mount)
@@ -252,9 +324,11 @@ class Probe:
         reference=movement[driver.name]
         if any(abs(d[i]-reference[i])>1 for d in movement.values() for i in range(3)):
             raise RuntimeError("Passengers did not follow the same accepted vehicle displacement")
-        self.check("All four occupants follow actual driver input and brake together",{"block_displacements":movement})
+        self.check("All four occupants follow actual driven displacement and retain their seat carriers",{"block_displacements":movement,"input_sequence":"forward1.8s, brake0.6s, released1.2s; block positions do not independently certify zero-speed braking"})
+        exit_position_marker=passengers[0].teleport_count
         passengers[0].command("car exit")
-        self.wait("safe passenger exit",lambda:passengers[0].mount is None)
+        self.wait("safe passenger exit",lambda:passengers[0].mount is None and passengers[0].teleport_count>exit_position_marker)
+        current_safe_exit=passengers[0].position
         if driver.mount!=driver_carrier: raise RuntimeError("Passenger exit removed the driver")
         passengers[0].command("car enter "+vehicle_id)
         self.wait("automatic guest reboarding",lambda:passengers[0].mount)
@@ -263,12 +337,15 @@ class Probe:
         previous=passengers[1];name,password,carrier=previous.name,previous.password,previous.mount
         previous.close();time.sleep(1)
         rejoined=self.connect(name,password)
-        self.place(rejoined,origin)
+        # Reuse the server's actual safe-exit point beside the moved vehicle,
+        # not the original spawn that may now be outside boarding range.
+        self.place(rejoined,current_safe_exit)
         rejoined.command("car passenger "+vehicle_id)
         self.wait("reconnected player can reuse released seat",lambda:rejoined.mount)
-        if rejoined.mount!=carrier: raise RuntimeError("Disconnected passenger seat was not released/reused")
         passengers[1]=rejoined;all_riders=[driver,*passengers]
-        self.check("Quit releases passenger occupancy; ordinary login reclaims the free seat")
+        if len({b.mount for b in all_riders})!=4:
+            raise RuntimeError("Reconnected guest did not occupy a distinct free carrier")
+        self.check("Quit releases passenger occupancy; ordinary login reclaims a free seat",{"same_carrier":rejoined.mount==carrier})
         driver.command("car park "+vehicle_id)
         self.wait("parking safely exits every occupant",lambda:all(b.mount is None for b in all_riders))
         self.check("Park safely exits all four actual Player occupants")
@@ -276,11 +353,57 @@ class Probe:
         self.report["status"]="PASS"
 
     def finish(self):
+        if self.report["status"]!="PASS":
+            self.report["observations"]["connection_diagnostics"]=[
+                {"name":b.name,"state":b.state,"teleports":list(b.teleport_history)[-3:],
+                 "last_vehicle_command":b.last_vehicle_command,
+                 "vehicle_responses":[text for index,text in b.messages if index>b.last_vehicle_marker][-4:]}
+                for b in self.bots]
         for bot in self.bots: bot.close()
-        self.report["credential_retention"]="None: random test passphrases remained in process memory and are not in this report."
-        self.report["world_scope"]="Only disposable staging accounts/ordinary starter records and player movement; no world blocks, production files or GUI observer were changed."
+        if self.report["status"]=="PASS": self.session_path.unlink(missing_ok=True)
+        self.session={}
+        self.report["credential_retention"]="No passphrases in reports or protocol logs. A mode600 private staging session permits bounded reuse after failure and is deleted onPASS; ordinary server auth records are excluded from evidence."
+        self.report["world_scope"]="Only disposable staging accounts/ordinary starter records and test-player movement to observed clear/safe-exit points; no world blocks, production files or GUI observer were changed."
         self.report["finished_utc"]=datetime.now(timezone.utc).isoformat()
         self.token="";self.save()
+
+    def run_cleanup(self,prior_file):
+        """Recheck normal exit/empty parking after the original guarded refusal."""
+        prior_file=prior_file.resolve()
+        if prior_file.parent!=self.root/"control":
+            raise ValueError("Cleanup input must be this isolated server's control report")
+        prior=json.loads(prior_file.read_text())
+        if prior.get("schema")!="GTM_VEHICLE_NETWORK_PLAYERS_V1" or prior.get("core_sha256")!=self.report["core_sha256"]:
+            raise ValueError("Cleanup requires the unchanged core from the original observed run")
+        expected_name="GTMSeat"+self.session["suffix"]+"D"
+        if prior.get("observations",{}).get("driver")!=expected_name:
+            raise ValueError("Cleanup must reuse the same ordinary test owner")
+        if len(prior.get("checks",[]))!=8 or prior.get("failure")!="Timed out: parking safely exits every occupant":
+            raise ValueError("Cleanup is limited to the observed eight-check run with guarded parking refusal")
+        self.report["scope"]="Narrow followup after other actors cleared the safe-exit cells; original multi-occupant parking refusal remains recorded separately."
+        origin=prior["observations"]["safe_start_position"]
+        vehicle_id=prior["observations"]["vehicle"]
+        driver=self.connect_actor("D")
+        receipt=uuid.UUID(bytes=hashlib.md5(("gtm:starter-auto:v1:"+driver.account_uuid).encode()).digest(),version=3)
+        if str(receipt)!=vehicle_id:raise ValueError("Cleanup vehicle differs from the same owner's ordinary receipt")
+        guest=self.connect_actor("3")
+        self.place(driver,origin);self.place(guest,origin)
+        self.report["observations"].update({"driver":driver.name,"guest":guest.name,"vehicle":vehicle_id,
+                                           "original_started_utc":prior["started_utc"],"observed_safe_point":origin})
+        self.check("Same owner and previously blocked guest log in normally; no new actors or grants")
+        guest.command("car passenger "+vehicle_id)
+        carrier=self.wait("previously blocked guest boards the same unlocked auto",lambda:guest.mount)
+        marker=guest.teleport_count;guest.command("car exit")
+        self.wait("normal safe exit after other actors cleared the exit cells",lambda:guest.mount is None and guest.teleport_count>marker)
+        self.check("Previously blocked guest boards and exits normally after safe space clears",
+                   {"carrier":carrier,"server_selected_safe_exit":guest.position[:3]})
+        marker=driver.message_count;driver.command("car park "+vehicle_id)
+        self.wait("normal owner parks the empty vehicle",lambda:driver.has_message_since(marker,"Vehicle parked and saved"))
+        if driver.mount is not None or guest.mount is not None:
+            raise RuntimeError("Cleanup left an observed player mounted")
+        self.check("Owner parks and saves the same empty vehicle through the ordinary command")
+        self.report["observations"]["pack_sha256_by_sha1"]=self.pack_cache
+        self.report["status"]="PASS"
 
 
 class Bot:
@@ -288,6 +411,10 @@ class Bot:
         self.probe,self.name,self.password=probe,name,password
         self.state,self.compression="login",-1
         self.entity_id,self.position=None,None
+        self.teleport_count=0
+        self.teleport_history=deque(maxlen=12)
+        self.loaded_sent=False;self.chunks_received=False
+        self.last_vehicle_command=None;self.last_vehicle_marker=0
         self.passengers={};self.messages=deque(maxlen=150);self.message_count=0
         self.lock,self.send_lock=threading.RLock(),threading.Lock()
         self.error=None;self.closed=False;self.sock=None
@@ -300,6 +427,9 @@ class Bot:
 
     def has_message(self,needle):
         with self.lock: return any(needle in text for _,text in self.messages)
+
+    def has_message_since(self,marker,needle):
+        with self.lock:return any(index>marker and needle in text for index,text in self.messages)
 
     def vehicle_info_since(self,marker):
         with self.lock:
@@ -326,7 +456,10 @@ class Bot:
     def send(self,name,data=b"",state=None):
         self.send_packet(self.ids[state or self.state]["SERVERBOUND"]["SERVERBOUND_"+name],data)
 
-    def command(self,value): self.send("CHAT_COMMAND",text_bytes(value),"play")
+    def command(self,value):
+        if value.startswith("car "):
+            self.last_vehicle_command=value.split()[1];self.last_vehicle_marker=self.message_count
+        self.send("CHAT_COMMAND",text_bytes(value),"play")
     def input(self,value): self.send("PLAYER_INPUT",bytes([value]),"play")
 
     def receive(self,count):
@@ -394,21 +527,41 @@ class Bot:
                     self.send("CONFIGURATION_ACKNOWLEDGED");self.state="config";self.settings()
                 elif self.state=="play":
                     if name=="CLIENTBOUND_LOGIN":
-                        self.entity_id=p.number(">i");self.send("PLAYER_LOADED")
+                        self.entity_id=p.number(">i");self.send("PLAYER_LOADED");self.loaded_sent=True
                     elif name=="CLIENTBOUND_PLAYER_POSITION":
                         teleport=p.var();values=[p.number(">d") for _ in range(6)];yaw,pitch=p.number(">f"),p.number(">f");flags=p.number(">i")
                         old=self.position or (0,0,0,0,0)
                         pos=[values[i]+(old[i] if flags&(1<<i) else 0) for i in range(3)]
                         yaw+=old[3] if flags&8 else 0;pitch+=old[4] if flags&16 else 0
-                        self.position=(*pos,yaw,pitch)
-                        self.send("ACCEPT_TELEPORTATION",varint(teleport))
-                        self.send("MOVE_PLAYER_POS_ROT",struct.pack(">dddffB",*self.position,1))
-                    elif name=="CLIENTBOUND_CHUNK_BATCH_FINISHED": self.send("CHUNK_BATCH_RECEIVED",struct.pack(">f",4))
+                        pitch=max(-90.0,min(90.0,pitch))
+                        next_position=(*pos,yaw,pitch)
+                        if not all(math.isfinite(v) for v in next_position):
+                            raise ValueError("Non-finite server teleport; refusing movement acknowledgement")
+                        if any(abs(v)>3.0e7 for v in pos):
+                            raise ValueError("Server teleport exceeds finite world boundary")
+                        self.teleport_history.append({"id":teleport,"flags":flags,"position":next_position})
+                        #26.3 acknowledges the resulting position and rotation
+                        #as well as the teleport ID (unlike older protocols).
+                        #The actual26.3 client sends no extra movement packet
+                        #here; the acknowledgement now processes the position.
+                        self.send("ACCEPT_TELEPORTATION",varint(teleport)+struct.pack(">dddff",*next_position))
+                        self.position=next_position
+                        self.teleport_count+=1
+                    elif name=="CLIENTBOUND_CHUNK_BATCH_FINISHED":
+                        self.send("CHUNK_BATCH_RECEIVED",struct.pack(">f",4));self.chunks_received=True
                     elif name=="CLIENTBOUND_SET_PASSENGERS":
                         entity,count=p.var(),p.var()
                         if count>64: raise ValueError("Unexpected passenger count")
                         people=[p.var() for _ in range(count)]
                         with self.lock: self.passengers[entity]=people
+                    elif name=="CLIENTBOUND_REMOVE_ENTITIES":
+                        count=p.var()
+                        if count>100000: raise ValueError("Unexpected entity removal count")
+                        removed={p.var() for _ in range(count)}
+                        with self.lock:
+                            for entity in removed: self.passengers.pop(entity,None)
+                            for entity,people in self.passengers.items():
+                                self.passengers[entity]=[rider for rider in people if rider not in removed]
                     elif name=="CLIENTBOUND_SYSTEM_CHAT":
                         value=component_text(p.nbt()).replace(self.password,"[redacted]")
                         with self.lock:
@@ -430,11 +583,19 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--server",required=True,type=Path)
     parser.add_argument("--output",required=True,type=Path)
-    parser.add_argument("--hold-mounted",default=0,type=int,help="Optional0–60second interval with four seats occupied for an independent GUI observer")
+    parser.add_argument("--hold-mounted",default=0,type=int,help="Optional 0–60 second interval with four seats occupied for an independent GUI observer")
+    parser.add_argument("--start",nargs=3,type=float,metavar=("X","Y","Z"),help="Native-observed clear level point within128 blocks of the public workshop spawn")
+    parser.add_argument("--cleanup-from",type=Path,help="Narrow same-actor safe-exit/empty-parking followup to this server's original blocked-parking report")
     args=parser.parse_args()
+    if args.cleanup_from and args.cleanup_from.resolve()==args.output.resolve():
+        parser.error("Cleanup output must preserve the separate original report")
     probe=None
     try:
-        probe=Probe(args.server,args.output,args.hold_mounted);probe.run()
+        if args.cleanup_from and not (args.server/"control/vehicle-probe-private-session.json").exists():
+            raise ValueError("Cleanup requires the same retained private test session")
+        probe=Probe(args.server,args.output,args.hold_mounted,args.start)
+        if args.cleanup_from:probe.run_cleanup(args.cleanup_from)
+        else:probe.run()
     except Exception as failure:
         if probe:
             probe.report["status"]="FAIL";probe.report["failure"]=str(failure)

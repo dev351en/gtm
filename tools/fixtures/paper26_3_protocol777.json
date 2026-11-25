@@ -6,7 +6,15 @@
   "classes_sha256": {
     "net/minecraft/network/protocol/login/LoginProtocols.class": "d51fabcd1d767d4e3bae26b673d96b8293228a106c15a2dedbd3992954a0d2a5",
     "net/minecraft/network/protocol/configuration/ConfigurationProtocols.class": "8d20c2a63abd2f46a4278d4b1acd828b7efd96e22c46506e276eda885139510d",
-    "net/minecraft/network/protocol/game/GameProtocols.class": "0c3795edfc4cca18bc8e356527bc3a75759b7f0babc11476565d9cf2c5db78ae"
+    "net/minecraft/network/protocol/game/GameProtocols.class": "0c3795edfc4cca18bc8e356527bc3a75759b7f0babc11476565d9cf2c5db78ae",
+    "net/minecraft/network/protocol/game/ServerboundAcceptTeleportationPacket.class": "a3e5004f4e1f945c285cbfc25bf3f2a60360525018f6a447dd8010781ff2e01f",
+    "net/minecraft/network/protocol/game/ServerboundMovePlayerPacket$PosRot.class": "f8d2db274b1f19952e948bfe70a03d79eac0f5bcdd1d8efba0f11c647ff99663",
+    "net/minecraft/network/protocol/game/ServerboundPlayerInputPacket.class": "efd783cf44dbc4f9ebf816b7ef1c51fe006a31bec3bbcc55a7b139e4285f16d0",
+    "net/minecraft/world/entity/player/Input.class": "e0bdc3d94856464245f389431cc725865df0f0f224390766a7f3ec8a8a2bdf3b",
+    "net/minecraft/network/protocol/game/ClientboundPlayerPositionPacket.class": "c912c8fd1882b9bce5aa06756884e3857a4591788cb8e068c46f352f2b6ae710",
+    "net/minecraft/world/entity/PositionMoveRotation.class": "476ae616c187623066be0b10564dcf2cabd5eaac18e09c36619fdebfa78baed5",
+    "net/minecraft/world/entity/Relative.class": "454432c411e923d3641015bd69904281fd9c6185f6f0845859b2a81d6bb63bae",
+    "net/minecraft/world/phys/Vec3$1.class": "12e0bc4d88749bf482b690801a680e2eeaaf2eb205f59f91995faefba3932710"
   },
   "states": {
     "login": {
@@ -282,5 +290,7 @@
         "SERVERBOUND_CUSTOM_CLICK_ACTION": 68
       }
     }
-  }
+  },
+  "accept_teleportation_payload": "VarInt id, DOUBLE x/y/z, FLOAT yaw/pitch; actual26.3 codec verified by javap",
+  "position_acknowledgement_provenance": "Actual Mojang26.3 ClientPacketListener.handleMovePlayer sends ServerboundAcceptTeleportationPacket only; no immediate MovePlayerPosRot packet."
 }

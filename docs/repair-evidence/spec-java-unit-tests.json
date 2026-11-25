@@ -1,0 +1,32 @@
+{
+  "schema": "GTM_SPEC_SERVER_TESTS_V1",
+  "java": "25",
+  "core_sha256": "23c0020eb0e54093feeccba4f7e72681f0cc2a7e2e7965ef7aa8a683ccfe97cc",
+  "test_runs": [
+    {
+      "name": "JUnit Jupiter",
+      "tests": 94,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "JUnit Platform Suite",
+      "tests": 0,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "JUnit Vintage",
+      "tests": 0,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "junit_total": 94,
+  "junit_failures": 0,
+  "method": "Compiled maintained main classes/resources and all tests with JDK25; JUnit1.11.4 runner using exact preserved core and Paper26.3 libraries. Full Gradle clean check independently passed in GitHub Actions.",
+  "scope": "Unit/regression checks; actual native evidence is recorded separately."
+}

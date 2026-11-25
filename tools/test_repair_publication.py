@@ -184,5 +184,77 @@ class RepairPublicationTests(unittest.TestCase):
         self.assertNotIn("--force", gh.call_args.args[0])
         printed.assert_not_called()
 
+    def test_created_draft_listing_delay_retries_reads_without_recreating(self):
+        draft, public = release_record(draft=True), release_record()
+        empty_draft = draft | {"assets": []}
+        tag = {"object": {"type": "commit", "sha": COMMIT}}
+        with mock.patch.object(release, "find_release", side_effect=[None, None, None, empty_draft]) as lookup, \
+             mock.patch.object(release, "api", side_effect=[None, draft, tag, public, tag]), \
+             mock.patch.object(release, "verify_remote") as remote, \
+             mock.patch.object(release, "gh") as gh, mock.patch.object(release.time, "sleep") as sleep:
+            release.publish(self.folder, REPO, COMMIT)
+        self.assertEqual(lookup.call_args_list, [mock.call(REPO)] * 4)
+        self.assertEqual(sleep.call_args_list, [mock.call(1), mock.call(2)])
+        self.assertEqual([call.args[0][:2] for call in gh.call_args_list],
+                         [["release", "create"], ["release", "upload"], ["release", "edit"]])
+        self.assertEqual(remote.call_count, 2)
+        self.assertIn("--target", gh.call_args_list[0].args[0])
+        self.assertIn(COMMIT, gh.call_args_list[0].args[0])
+        self.assertNotIn("--clobber", gh.call_args_list[1].args[0])
+
+    def test_created_draft_visibility_retry_is_bounded_and_never_recreates(self):
+        with mock.patch.object(release, "find_release", return_value=None) as lookup, \
+             mock.patch.object(release, "api", return_value=None), \
+             mock.patch.object(release, "verify_remote") as remote, \
+             mock.patch.object(release, "gh") as gh, mock.patch.object(release.time, "sleep") as sleep, \
+             self.assertRaisesRegex(release.PublicationError, "five read-only lookups"):
+            release.publish(self.folder, REPO, COMMIT)
+        self.assertEqual(lookup.call_count, 6)  # initial lookup plus five after creation
+        self.assertEqual(sleep.call_args_list, [mock.call(1), mock.call(2), mock.call(3), mock.call(4)])
+        self.assertEqual(sum(call.args[0] for call in sleep.call_args_list), 10)
+        gh.assert_called_once()
+        self.assertEqual(gh.call_args.args[0][:2], ["release", "create"])
+        remote.assert_not_called()
+
+    def test_created_draft_wrong_commit_is_not_retried_or_uploaded(self):
+        wrong_draft = release_record(draft=True) | {"target_commitish": "b" * 40}
+        with mock.patch.object(release, "find_release", side_effect=[None, wrong_draft]) as lookup, \
+             mock.patch.object(release, "api", return_value=None), \
+             mock.patch.object(release, "verify_remote") as remote, \
+             mock.patch.object(release, "gh") as gh, mock.patch.object(release.time, "sleep") as sleep, \
+             self.assertRaisesRegex(release.PublicationError, "exact source commit"):
+            release.publish(self.folder, REPO, COMMIT)
+        self.assertEqual(lookup.call_count, 2)
+        sleep.assert_not_called()
+        gh.assert_called_once()
+        self.assertEqual(gh.call_args.args[0][:2], ["release", "create"])
+        remote.assert_not_called()
+
+    def test_created_draft_identity_error_is_not_treated_as_absent(self):
+        wrong_identity = release_record(draft=True) | {"tag_name": "another-release"}
+        with mock.patch.object(release, "api", side_effect=[
+                 [], None, [{"id": 17, "tag_name": release.TAG}], wrong_identity]) as api, \
+             mock.patch.object(release, "verify_remote") as remote, \
+             mock.patch.object(release, "gh") as gh, mock.patch.object(release.time, "sleep") as sleep, \
+             self.assertRaisesRegex(release.PublicationError, "different repair release identity"):
+            release.publish(self.folder, REPO, COMMIT)
+        self.assertEqual(api.call_count, 4)
+        self.assertEqual(api.call_args_list[-1], mock.call(f"repos/{REPO}/releases/17"))
+        sleep.assert_not_called()
+        gh.assert_called_once()
+        self.assertEqual(gh.call_args.args[0][:2], ["release", "create"])
+        remote.assert_not_called()
+
+    def test_failed_creation_has_no_followup_lookup_or_retry(self):
+        with mock.patch.object(release, "find_release", return_value=None) as lookup, \
+             mock.patch.object(release, "api", return_value=None), \
+             mock.patch.object(release, "gh", side_effect=release.PublicationError("Creation failed")) as gh, \
+             mock.patch.object(release.time, "sleep") as sleep, \
+             self.assertRaisesRegex(release.PublicationError, "Creation failed"):
+            release.publish(self.folder, REPO, COMMIT)
+        lookup.assert_called_once_with(REPO)
+        gh.assert_called_once()
+        sleep.assert_not_called()
+
 
 if __name__ == "__main__": unittest.main()

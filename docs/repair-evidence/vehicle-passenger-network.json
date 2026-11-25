@@ -1,0 +1,232 @@
+{
+  "schema": "GTM_VEHICLE_NETWORK_ACCEPTANCE_V2",
+  "status": "COMPLETED_WITH_OBSERVED_SAFE_PARKING_REFUSAL",
+  "result": "Eight actual multiplayer seating/movement/lifecycle assertions passed. The final fully occupied park correctly refused a blocked fourth safe exit; that original probe failure remains recorded. Three narrow same-account followup assertions passed after exit cells cleared, including normal passenger exit and saving the empty auto.",
+  "core_sha256": "17d9a549c83d16fa5cc15af66aa29dccbe45cef7793e49a47476d552c3bd447a",
+  "java_pack_sha256": "77782c8cade9ca7ac07d408e2f1425b8d73eb8d78408cca0a5454c14b28f8188",
+  "client_sha256_for_independent_native_observation": "b1bf80057b30e94c7d04b1d49ad06d442972f0cf0b441f710b5c513cfe92ab84",
+  "protocol": 777,
+  "environment": "isolated public-workshop Paper26.3; ordinary unprivileged network Player accounts",
+  "scope": "Real unprivileged network Player sessions; pack ACKs validate bytes/protocol state and do not render Minecraft. Separate native F2 observations establish the visible four-seat layout and ordinary right-click/Shift path.",
+  "model": "gtm:rickshaw_traditional",
+  "capacity": {
+    "driver": 1,
+    "passengers": 3,
+    "total": 4
+  },
+  "multiplayer_phase": {
+    "original_probe_status": "FAIL",
+    "original_failure": "Timed out: parking safely exits every occupant",
+    "source_report_sha256": "00633c344d2f44dea09229a10927f16f763519353d42b23611893353408661bf",
+    "started_utc": "2026-11-25T16:35:47.565601+00:00",
+    "finished_utc": "2026-11-25T16:37:13.589812+00:00",
+    "passed_assertions": [
+      {
+        "check": "Ordinary driver authentication without operator grants",
+        "status": "PASS"
+      },
+      {
+        "check": "Four ordinary guest accounts authenticated without operator grants",
+        "status": "PASS"
+      },
+      {
+        "check": "Owner lock rejects an ordinary guest",
+        "status": "PASS",
+        "detail": {
+          "refusal": "Use one unambiguous vehicle UUID or prefix",
+          "resolution_guard": "Locked non-owner UUIDs are filtered before enter; identical UUID must board after owner unlock below."
+        }
+      },
+      {
+        "check": "Driver plus three real Player network sessions simultaneously mounted",
+        "status": "PASS",
+        "detail": {
+          "distinct_carriers": 4
+        }
+      },
+      {
+        "check": "Fifth rider rejected while all four seats are occupied",
+        "status": "PASS"
+      },
+      {
+        "check": "All four occupants follow actual driven displacement and retain their seat carriers",
+        "status": "PASS",
+        "detail": {
+          "block_displacements": {
+            "GTMSeat3ca7a809D": [
+              0,
+              0,
+              2
+            ],
+            "GTMSeat3ca7a8091": [
+              0,
+              0,
+              2
+            ],
+            "GTMSeat3ca7a8092": [
+              0,
+              0,
+              2
+            ],
+            "GTMSeat3ca7a8093": [
+              0,
+              0,
+              2
+            ]
+          },
+          "input_sequence": "forward1.8s, brake0.6s, released1.2s; block positions do not independently certify zero-speed braking"
+        }
+      },
+      {
+        "check": "Passenger safe exit and automatic reboarding preserve driver ownership",
+        "status": "PASS"
+      },
+      {
+        "check": "Quit releases passenger occupancy; ordinary login reclaims a free seat",
+        "status": "PASS",
+        "detail": {
+          "same_carrier": true
+        }
+      }
+    ],
+    "observations": {
+      "vehicle": "651a2afe-5500-3626-9dc2-664f096435c4",
+      "driver": "GTMSeat3ca7a809D",
+      "safe_start_position": [
+        -181.5,
+        68.0,
+        -56.5
+      ],
+      "four_player_carriers": {
+        "GTMSeat3ca7a809D": 662,
+        "GTMSeat3ca7a8091": 663,
+        "GTMSeat3ca7a8092": 664,
+        "GTMSeat3ca7a8093": 665
+      }
+    },
+    "guarded_parking": {
+      "status": "REFUSED_WHILE_FOURTH_SAFE_EXIT_WAS_BLOCKED",
+      "server_messages": [
+        "A passenger needs a clear exit",
+        "No clear safe exit beside the vehicle. Move to open ground."
+      ],
+      "measured_vehicle_pose": [
+        -181.5,
+        68.015,
+        -52.10001921817858,
+        0.0
+      ],
+      "observed_blockers": "Driver and two passengers occupied the valid right/left/rear exits; another normally delivered test auto at(-181.5,68.515,-49.5) occupied the front exit region.",
+      "implementation": "Preserved safeExit checks four cardinal points through collision, standing-ground and property access gates. No unsafe forced exit or policy bypass was introduced."
+    }
+  },
+  "cleanup_followup": {
+    "schema": "GTM_VEHICLE_NETWORK_PLAYERS_V1",
+    "status": "PASS",
+    "protocol": 777,
+    "started_utc": "2026-11-25T16:40:53.371089+00:00",
+    "core_sha256": "17d9a549c83d16fa5cc15af66aa29dccbe45cef7793e49a47476d552c3bd447a",
+    "environment": "isolated public-workshop Paper26.3; ordinary unprivileged network Player accounts",
+    "visual_verification": false,
+    "pack_status_scope": "Downloaded SHA1 and ZIP integrity verified; SUCCESSFULLY_LOADED is a headless protocol ACK, not rendering evidence.",
+    "checks": [
+      {
+        "check": "Same owner and previously blocked guest log in normally; no new actors or grants",
+        "status": "PASS"
+      },
+      {
+        "check": "Previously blocked guest boards and exits normally after safe space clears",
+        "status": "PASS",
+        "detail": {
+          "carrier": 663,
+          "server_selected_safe_exit": [
+            -179.63,
+            68.02,
+            -52.10001921817858
+          ]
+        }
+      },
+      {
+        "check": "Owner parks and saves the same empty vehicle through the ordinary command",
+        "status": "PASS"
+      }
+    ],
+    "observations": {
+      "driver": "GTMSeat3ca7a809D",
+      "guest": "GTMSeat3ca7a8093",
+      "vehicle": "651a2afe-5500-3626-9dc2-664f096435c4",
+      "original_started_utc": "2026-11-25T16:35:47.565601+00:00",
+      "observed_safe_point": [
+        -181.5,
+        68.0,
+        -56.5
+      ],
+      "pack_sha256_by_sha1": {
+        "01e6a6693265203168a3f2abf5027f931f926415": "77782c8cade9ca7ac07d408e2f1425b8d73eb8d78408cca0a5454c14b28f8188"
+      }
+    },
+    "scope": "Narrow followup after other actors cleared the safe-exit cells; original multi-occupant parking refusal remains recorded separately.",
+    "credential_retention": "No passphrases in reports or protocol logs. A mode600 private staging session permits bounded reuse after failure and is deleted onPASS; ordinary server auth records are excluded from evidence.",
+    "world_scope": "Only disposable staging accounts/ordinary starter records and test-player movement to observed clear/safe-exit points; no world blocks, production files or GUI observer were changed.",
+    "finished_utc": "2026-11-25T16:40:58.399029+00:00"
+  },
+  "native_observation_record": "vehicle-native-observation.json",
+  "native_captures": [
+    "spec-auto-passengers-native-java.png",
+    "spec-auto-passengers-side-native-java.png",
+    "spec-auto-rightclick-native-java.png"
+  ],
+  "ordinary_verified_controls": {
+    "owner_access": "/car lock <full vehicle UUID> toggles guest access. Owner/key permissions remain required for driving.",
+    "passenger_command": "/car passenger <full vehicle UUID> with an unlocked, nearby, stopped vehicle and a free passenger seat.",
+    "automatic_command": "/car enter <full vehicle UUID> successfully reboarded a non-owner into a free passenger seat while the owner remained driver.",
+    "native_mouse": "An ordinary empty-hand right-click on the unlocked auto mounted the non-op GUI account as passenger; this is independently recorded in vehicle-native-observation.json.",
+    "exit": "/car exit passed through the network probe. Left Shift passed in the actual GUI. Exit can be refused until a collision-safe, authorized standing position is clear.",
+    "park": "/car park <full vehicle UUID> parks and saves; it does not delete or despawn the owned vehicle. Empty parking passed after normal exits; the occupied blocked-exit attempt is retained above."
+  },
+  "setup_iterations": [
+    {
+      "started_utc": "2026-11-25T16:21:10.409412+00:00",
+      "status": "SETUP_FAILURE",
+      "passed_checks": 0,
+      "cause": "Probe sent legacy ID-only teleport acknowledgement;26.3 now requires ID and resulting position/rotation. Corrected against actual packet codec."
+    },
+    {
+      "started_utc": "2026-11-25T16:22:17.221894+00:00",
+      "status": "SETUP_FAILURE",
+      "passed_checks": 0,
+      "cause": "Probe sent a legacy extra movement packet after the new positional teleport acknowledgement. Corrected to actual26.3 client acknowledgement-only handler and finite position guards."
+    },
+    {
+      "started_utc": "2026-11-25T16:24:03.293315+00:00",
+      "status": "SETUP_FAILURE",
+      "passed_checks": 2,
+      "cause": "Five ordinary authentications succeeded; locked admission used the intentionally filtered UUID resolver refusal, while probe expected the later enter-method lock message. Predicate corrected to exact preserved resolver behavior; positive same-UUID unlock/boarding still required."
+    },
+    {
+      "started_utc": "2026-11-25T16:27:05.035001+00:00",
+      "status": "SETUP_FAILURE",
+      "passed_checks": 1,
+      "cause": "Ordinary starter receipt remained pending after earlier test autos occupied the limited spawn parking footprints. No capacity or collision rule was changed. Next run moved only its owner to a native-observed clear level point and used the existing5-second delivery retry, with bounded fresh info queries."
+    },
+    {
+      "started_utc": "2026-11-25T16:34:10.237404+00:00",
+      "status": "SETUP_FAILURE",
+      "passed_checks": 0,
+      "cause": "An attempted chunk-dependent PLAYER_LOADED gate prevented ordinary registration in the protected login flow. Reverted to the already working login order; the same private session identities were reused for the successful feature run."
+    }
+  ],
+  "cleanup": {
+    "all_protocol_actors_disconnected": true,
+    "private_session_deleted": true,
+    "native_shutdown_record": "spec-staging-shutdown.json",
+    "world_scope": "Only disposable staging accounts/ordinary starter records and test-player movement to observed clear/safe-exit points; no world blocks, production files or GUI observer were changed."
+  },
+  "limits": [
+    "Shared displacement was2 blocks for every occupant at integer-block resolution; this assertion does not independently measure exact zero-speed braking.",
+    "Four real network occupants were rendered by one native GUI observer, not four simultaneously rendered GUI clients.",
+    "Garage inventory dispatch is source/bytecode/unit tested; this acceptance run did not click the garage inventory.",
+    "No Bedrock, production deployment, broad terrain/slope or full-fleet interior acceptance is asserted."
+  ],
+  "capacity_audit": "vehicle-capacity-audit.json"
+}

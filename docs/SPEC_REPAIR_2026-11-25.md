@@ -20,7 +20,7 @@ The implementation is in [client-hud](../client-hud/README.md), with the authent
 | Lower-right phone | Persistent shortcut and a non-pausing popup. `/phone` and real phone-item use route to that popup when the client component is active. |
 | Original app logos | The earlier colourful brand PNGs are copied byte-for-byte. Existing native128 HUD and service art is retained. No replacement logos were generated. |
 | App actions | Existing app registry, access gates and service routes. Detailed transactional screens can hand off to the existing server inventory UI. |
-| Vehicle instruments | Real driving speed, reverse state, energy/body and occupied-seat data, when supplied by the active vehicle. |
+| Vehicle instruments | Real driving speed, energy/body and occupied-seat data, when supplied by the active vehicle. |
 
 The project specification retains **no mandatory client mods**. Ordinary Java access is preserved. The exact movable hotbar, terrain map and clickable overlay use an **optional Fabric client**; a vanilla Java resource pack does not provide that arbitrary input/rendering capability. This is an explicit platform distinction. The component targets the actual Minecraft 26.3 client, Java 25, Loader 0.20.1 and API 0.167.0+26.3. Its build downloads pinned official inputs and never redistributes Minecraft binaries. See the [Fabric HUD API](https://docs.fabricmc.net/develop/rendering/hud).
 
@@ -59,7 +59,7 @@ ai:
 
 `YOUR_ALREADY_INSTALLED_MODEL` is a placeholder to replace with the owner's actual model name. The request uses Ollama's documented nonstreaming [chat endpoint](https://docs.ollama.com/api/chat). HTTP is accepted only for loopback; remote services require HTTPS. The limit of 200 is a process-lifetime daily counter, reset by a server restart; it is not a durable billing cap.
 
-For an existing HTTPS provider, use `provider: openai-compatible`, `endpoint: https://YOUR_EXISTING_PROVIDER/chat-endpoint` and its valid `model`. Put `JEEVA_API_KEY=...` in the private `plugins/SDCraftCore/ai-secrets.properties` file if required. `OPENAI_API_KEY` is accepted only for the official OpenAI host. Do not commit secrets. The update neither provisions hosting nor purchases inference. Invalid configuration or an unreachable provider uses local replies with an explicit notice. `/sdc status` and the local Control Centre expose configured mode and last result without credentials.
+For an existing HTTPS provider, use `provider: openai-compatible`, `endpoint: https://YOUR_EXISTING_PROVIDER/chat-endpoint` and its valid `model`. Put `JEEVA_API_KEY=...` in the private `plugins/SDCraftCore/ai-secrets.properties` file if required. `OPENAI_API_KEY` is accepted only for the official OpenAI host. Do not commit secrets. **Restart Paper normally after changing the provider settings or secrets; they are read at startup.** Then check the configured mode with `/sdc status` or the local Control Centre. Both expose the configured mode and last result without credentials. The update neither provisions hosting nor purchases inference. Invalid configuration or an unreachable provider uses local replies with an explicit notice.
 
 The previous `gtm.experimental-dialogue: false` no longer silently blocks the repaired public path. `dialogue.enabled: false` remains an explicit owner control. Permission metadata now permits ordinary authenticated players by default; other authentication and proximity gates remain.
 
@@ -80,10 +80,43 @@ Executed local checks at this checkpoint:
 - Java 25 maintained server compilation and **94 JUnit tests** passed: 31 vehicle, 22 console, 18 NPC, 11 provider, five HUD session and seven native equipment/upgrade tests.
 - **18 client JUnit tests** passed after correcting the shortcut conflict and minimap clipping discovered by native play.
 - **826 equipment compatibility assertions**, five vehicle patch checks and the NPC two-target patch checks passed. These counts describe boundary/compatibility assertions, not hundreds of gameplay scenarios.
-- **12 pack**, **nine auto geometry**, **24 updater** and **17 publication** Python tests passed.
+- **12 pack**, **nine auto geometry**, **24 updater** and **22 publication** Python tests passed. The publication checks include bounded read-only recovery when GitHub has not yet exposed a newly created draft; identity/source mismatches still stop publication.
 - The actual Fabric client joined staged Paper 26.3 with an ordinary newly registered, non-op account. The four corners, live balances, real slot selection, clickable popup, original colourful logos, phone-item command routing and authorized Bank service handoff were observed. The initial pass identified shortcut/map clipping defects for correction before final evidence.
 
-Final native acceptance, exact artifact hashes, independent CI and final screenshots are recorded below when completed. Earlier evidence is not silently relabelled as proof for this build.
+### Observed Java acceptance and reproducibility
+
+The [native HUD record](repair-evidence/spec-hud-native-java.json) contains the ordinary-login observations, original F2 sources and fingerprints. The full HUD/phone/map/service pass used core `23c0020e…`, client `b1bf8005…` and pack `77782c8c…`. It confirmed pre-login vanilla fallback, normal login, the corrected P shortcut, both minimap shapes, actual slot selection, click/command/item phone routes, real account values and the authorized Bank menu. Its screenshots are actual Minecraft output:
+
+![Four-corner HUD in the actual Java client](repair-evidence/spec-hud-native-java.png)
+
+![Phone popup with original logos](repair-evidence/spec-phone-native-java.png)
+
+The [NPC native record](repair-evidence/npc-native-java.json) separates the first dialogue pass from final behavioral checks. Normal right-click opened the conversation prompt. A barehand attack on Sahil Sharma interrupted his conversation hold, produced the fight-back response, advanced wanted level, and caused him to follow and damage the retreating player. A separate attack on Tara Yadav released her hold and made her flee without retaliating. No NPC teleport, operator grant, artificial damage command or test-only AI flag was used for these behaviors. Staging setup moved only the QA player to inspected positions. The physical population remained ten managed entities with ten distinct logical IDs across the observed interval; this is not a maximum-population performance benchmark.
+
+That playtest exposed a remaining collision between a multiline reply and its own nameplate. The final presentation build raises the bubble origin from 0.35 to 0.75 blocks above the actor. [The byte comparison](repair-evidence/spec-dialogue-presentation-delta.json) confirms that only `GtmDialogue` and its nested record/debug entries changed; the NPC, combat, vehicle, HUD bridge and console classes are identical. A final native session on core `17d9a549…` confirmed a complete two-line reply with clear separation above Imran Sheikh's own nameplate. Nearby moving nameplates can still overlap one another; this is not a complete label-decluttering system.
+
+The [final dialogue capture](repair-evidence/npc-dialogue-final-native-java.png) and [held Kavach capture](repair-evidence/spec-gun-native-java.png) are unaltered F2 screenshots from that final build. The pistol was the account's existing starter item; no operator item grant was used. Earlier photographs retain their original run fingerprints.
+
+The [passenger network record](repair-evidence/vehicle-passenger-network.json) checks the final server with five ordinary authenticated player connections. It observed owner lock refusal, successful boarding after unlock, one driver plus three passengers on four distinct seat carriers, rejection of a fifth rider, and common driven movement while retaining those seats. Every occupant's server block-position readout advanced by two blocks; those integer samples do not measure exact travel distance or establish zero-speed braking. A passenger exited and reboarded without replacing the driver; another quit, logged back in and reclaimed a free seat. This is actual server traffic and state, not a simulated vehicle unit fixture. The packet clients verified the pack download and integrity but did not render it; their load acknowledgements are not visual evidence.
+
+A separate normal Java client photographed the occupied auto during the same run. [The native observation record](repair-evidence/vehicle-native-observation.json), [rear-quarter frame](repair-evidence/spec-auto-passengers-native-java.png) and [side frame](repair-evidence/spec-auto-passengers-side-native-java.png) show three avatars across the rear bench and the driver ahead, with heads beneath the canopy and wheels grounded. The run also exercised a real safe-exit refusal: after three occupants exited near a wall, the fourth remained seated when no clear exit remained. That refused parking attempt is preserved separately from the successful seating, movement and reconnect checks.
+
+The narrow followup reused the same owner and previously blocked guest after the exit spaces cleared. Both logged in normally; the guest boarded and exited through the server-selected safe point, and the owner parked and saved the same empty auto. All three followup checks passed. The aggregate record retains the original parking timeout and this separate resolution; it does not rewrite the original result as an unconditional success.
+
+The ordinary GUI player then right-clicked that unlocked auto with an empty hand, boarded a passenger place and used Shift to exit safely. [Its raw F2 capture](repair-evidence/spec-auto-rightclick-native-java.png) and the native observation record verify the user-facing interaction independently of the network test's explicit commands.
+
+| Delivered component | SHA-256 |
+| --- | --- |
+| Server core 1.0.5 | `17d9a549c83d16fa5cc15af66aa29dccbe45cef7793e49a47476d552c3bd447a` |
+| Optional client 1.0.0 | `b1bf80057b30e94c7d04b1d49ad06d442972f0cf0b441f710b5c513cfe92ab84` |
+| Java resource pack | `77782c8cade9ca7ac07d408e2f1425b8d73eb8d78408cca0a5454c14b28f8188` |
+| Bedrock asset pack; native HUD not accepted | `d400f4ea63f05eaad0e4941013e35c5962a92bd7ee5c884468c565cf1ed474de` |
+
+[Independent initial CI](https://github.com/dev351en/gtm/actions/runs/45651043832) rebuilt the server and client from a clean checkout, ran all checks and assembled the update. The server, client and both pack hashes exactly matched the native checkpoint. That run preceded the final nameplate-height adjustment. Publication is gated on a fresh successful run at its final source commit; see the release's linked workflow result rather than treating the earlier run as that final gate.
+
+The [live Control Centre probe](repair-evidence/spec-console-http.json) passed 23 checks on the running server, including live authenticated state, the read-only `list` command and request rejection boundaries. Its NPC backend display truthfully reports offline/configured and last-result status. The [installer rehearsal](repair-evidence/spec-installer-integration.json) used the shipped shell/CLI entry point, both reviewed predecessor versions, the original launcher's Java-only preflight and byte-for-byte rollback of the 1,014-file test baseline. Native Windows and Bedrock execution are not inferred from that Linux rehearsal.
+
+After acceptance, the native client disconnected and quit normally. With zero players online, the staging harness sent Paper its ordinary stop command; [the shutdown record](repair-evidence/spec-staging-shutdown.json) confirms exit code zero on the exact final core. No process kill or production change was used.
 
 ## Installation, rollback and remaining work
 

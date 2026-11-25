@@ -12,6 +12,7 @@ from pathlib import Path
 import re
 import sys
 import tempfile
+import time
 
 from package_repair_candidate import ASSETS, JAVA_NAME
 from publish_functional_runtime import PublicationError, api, gh
@@ -58,6 +59,19 @@ def find_release(repo: str):
         if len(rows) < 100:
             return read_release(repo, matches[0].get("id")) if matches else None
     raise PublicationError("Release lookup exceeded its bounded page limit")
+
+
+def find_created_release(repo: str) -> dict:
+    # GitHub may briefly omit a successfully created draft from its listing.
+    # Retry only that absent result: identity errors and API failures propagate.
+    # Five reads, with at most ten seconds of total delay; never create again.
+    for delay in (0, 1, 2, 3, 4):
+        if delay:
+            time.sleep(delay)
+        release = find_release(repo)
+        if release is not None:
+            return release
+    raise PublicationError("Created repair draft is still unavailable after five read-only lookups; no upload or publication was attempted")
 
 
 def read_release(repo: str, release_id: int) -> dict:
@@ -138,7 +152,7 @@ def publish(folder: Path, repo: str, commit: str) -> None:
         gh(["release", "create", TAG, "--repo", repo, "--target", commit,
             "--draft", "--prerelease", "--latest=false", "--title", "GTM 1.0.5 HUD, NPC and passenger repair candidate",
             "--notes-file", str(notes)], stage="Create repair candidate draft")
-        release = find_release(repo)
+        release = find_created_release(repo)
     if not release or not release.get("draft") or release.get("target_commitish") != commit:
         raise PublicationError("Draft release does not match this exact source commit")
     verify_remote(repo, release, expected)

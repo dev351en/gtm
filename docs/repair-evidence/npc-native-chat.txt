@@ -1,3 +1,14 @@
 [15:56:40] [Render thread/INFO]: [System] [CHAT] [JEEVA] Local dialogue is active; no generative AI model is connected.
 [15:56:40] [Render thread/INFO]: [System] [CHAT] Imran Sheikh: Hello! I am Imran Sheikh (Store manager). How can I assist you today? Check /sdc help for official options.
 [15:56:49] [Render thread/INFO]: [System] [CHAT] Imran Sheikh: I can help with purchases, stock information and a verified receipt. (Type /sdc help for verified services)
+[16:05:58] [Render thread/INFO]: [System] [CHAT] [JEEVA] Local dialogue is active; no generative AI model is connected.
+[16:05:58] [Render thread/INFO]: [System] [CHAT] Sahil Sharma: Hello! I am Sahil Sharma (Construction worker). How can I assist you today? Check /sdc help for official options.
+[16:06:15] [Render thread/INFO]: [System] [CHAT] Sahil Sharma: To register a profession, use /sdc work join <role>. Clock in at your department's verified station with /sdc duty in. Pay is prorated by verified active duty t
+[16:08:18] [Render thread/INFO]: [System] [CHAT] Sahil Sharma: Good to see you again! It's Sahil Sharma. What brings you back?
+[16:08:34] [Render thread/INFO]: [System] [CHAT] Sahil Sharma: Good to see you again! It's Sahil Sharma. What brings you back?
+[16:08:34] [Render thread/INFO]: [System] [CHAT] [Talk] Type // followed by your message, or click here.
+[16:08:40] [Render thread/INFO]: [System] [CHAT] [Street] Sahil Sharma fights back!
+[16:11:47] [Render thread/INFO]: [System] [CHAT] Tara Yadav: Hello! I am Tara Yadav (Courier). How can I assist you today? Check /sdc help for official options.
+[16:12:03] [Render thread/INFO]: [System] [CHAT] Tara Yadav: Good to see you again! It's Tara Yadav. What brings you back?
+[16:12:03] [Render thread/INFO]: [System] [CHAT] [Talk] Type // followed by your message, or click here.
+[16:12:04] [Render thread/INFO]: [System] [CHAT] [Street] Tara Yadav runs for safety!

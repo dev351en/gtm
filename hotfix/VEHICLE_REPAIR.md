@@ -213,8 +213,96 @@ and shutdown already iterate occupants and clear their rider records/carriers.
 Those paths remain preserved. `tools/probe_vehicle_passengers.py` is the bounded
 staging acceptance probe: fresh ordinary network Player registrations, locked
 guest rejection, four simultaneous carriers, fifth-rider refusal, shared
-movement/braking, exit/reboard, quit/login/reboard and parking. It positions only
-its own accounts at an observed starting point and never moves the GUI observer.
+movement after throttle/brake inputs, exit/reboard, quit/login/reboard and
+parking. It positions only its own accounts at the observed starting point or a
+server-selected safe-exit point and never moves the GUI observer. Its block
+coordinate comparisons verify shared displacement, not exact braking speed.
 Its pack statuses are explicitly **headless acknowledgements after byte/ZIP
-validation**, not rendered-client evidence. Its resulting JSON must be read
-before claiming those live multiplayer checks passed.
+validation**, not rendered-client evidence. Final observed results are recorded
+below; the original blocked-parking phase is retained without relabelling its
+timeout as a pass.
+
+## Final 1.0.5 multiplayer and native acceptance
+
+The actual isolated Paper 26.3 server ran core SHA-256
+`17d9a549c83d16fa5cc15af66aa29dccbe45cef7793e49a47476d552c3bd447a`,
+Java pack `77782c8cade9ca7ac07d408e2f1425b8d73eb8d78408cca0a5454c14b28f8188`,
+and optional native client HUD
+`b1bf80057b30e94c7d04b1d49ad06d442972f0cf0b441f710b5c513cfe92ab84`.
+The composite [network acceptance record](../docs/repair-evidence/vehicle-passenger-network.json)
+preserves the exact outcomes of both live phases.
+
+On 25 November 2026, the main run passed **eight substantive assertions**:
+ordinary owner/guest authentication, locked-guest refusal, driver plus three
+simultaneous passengers, fifth-rider rejection, common driven displacement,
+normal passenger exit and automatic reboarding, and quit/login seat reuse.
+The owner occupied carrier 662; the three passengers occupied 663, 664 and 665.
+All four players moved **two blocks along the same axis**, retaining those
+carriers after ordinary forward/brake inputs. These integer coordinates verify
+shared movement; they do not independently establish an exact stopping speed.
+
+The final fully occupied `/car park` attempt **correctly refused the fourth
+exit**. Three players had already reached valid right/left/rear standing points;
+another ordinarily delivered test auto blocked the front point. The preserved
+engine checks four cardinal exit points, so it kept the remaining passenger
+seated and reported that clear exit space was required. The original probe
+therefore ended with a parking timeout; its eight earlier passes remain valid.
+No collision or access check was weakened to force a pass.
+
+A separate, narrow followup reconnected the **same owner and previously blocked
+guest**, after the other actors had cleared those points. It passed **three
+checks**: ordinary login without new actors/grants, normal passenger boarding
+and safe exit, and owner parking/saving of the now-empty same vehicle. The
+private test-session credentials, stored with mode `0600`, were deleted, all
+protocol actors disconnected, the GUI exited normally, and Paper then shut down
+with exit code `0`.
+The initial harness corrections and crowded-spawn delivery deferral are also
+disclosed in the composite record; they are not presented as vehicle test passes.
+
+The independent [native observation](../docs/repair-evidence/vehicle-native-observation.json)
+contains unchanged Minecraft F2 captures of the **driver and three rear
+passengers**, with heads beneath the canopy and wheels on the ground. One native
+GUI rendered the four real network actors; this was not four GUI clients.
+The same non-operator GUI account then boarded the unlocked auto through an
+ordinary empty-hand right-click and safely exited using Left Shift. The garage
+inventory click adapter remains source/bytecode/unit tested, rather than being
+claimed as part of this mouse-interaction acceptance.
+
+### Ordinary owner and passenger controls
+
+The auto holds **one driver plus three passengers**. `/car` shows owned vehicles;
+the preserved garage item lore includes the full vehicle UUID. Use that UUID
+when sharing the command path or choosing between nearby vehicles.
+
+| Action | Control | Observed behavior |
+| --- | --- | --- |
+| Owner toggles guest access | `/car lock <UUID>` | Switches between locked and unlocked; the successful test exercised both states. |
+| Passenger boards | Right-click the unlocked nearby auto with an empty hand | Native GUI mounted a passenger in a free seat. |
+| Explicit passenger boarding | `/car passenger <UUID>` | Three ordinary guests boarded the same unlocked, stopped auto. A fifth occupant was refused. |
+| Automatic boarding | `/car enter <UUID>` | An ordinary guest reboarded a passenger seat while the owner retained the driver seat. |
+| Leave | Left Shift, or `/car exit` | Uses a checked safe standing point; clear space if the game refuses an unsafe exit. |
+| Park and save | `/car park <UUID>` | Owner/key access required. It safely exits occupants when space permits and saves the vehicle; it does not remove or despawn it. |
+
+Unlocking passenger access does not give guests driving keys. The owner or an
+authorized keyholder retains driver access. Locked non-owner UUIDs are filtered
+by the preserved resolver, so a command may report an ambiguous/unavailable UUID
+instead of exposing that locked vehicle. This is separate from the visible
+right-click interaction and is covered by the lock/unlock acceptance sequence.
+
+### Driving engine and remaining fleet work
+
+Driving uses the preserved server-side `GtmVehicles` engine with the maintained
+`RoadPhysics` replacement at a 20 Hz game-tick timestep. It applies acceleration,
+coasting, braking through zero before reverse, bounded steering and accepted
+collision movement, then moves every seat carrier with the same body pose.
+The repair is a kinematic driving system; it does not claim a rigid-body
+suspension simulation or broad terrain/slope certification.
+
+The [87-model audit](../docs/repair-evidence/vehicle-capacity-audit.json) and its
+[CSV table](../docs/repair-evidence/vehicle-capacity-audit.csv) remain the capacity
+reference. The traditional auto now has one driver and three passenger places;
+the two omitted existing emergency
+front passenger seats are enabled. Thirty civilian car models currently have
+two authored front seats, and four bus models still need usable passenger
+interiors. Their missing rear seats/interiors have not been replaced by hidden
+carriers or guessed capacities.

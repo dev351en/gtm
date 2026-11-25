@@ -1,0 +1,37 @@
+{
+  "schema": "GTM_SPEC_INSTALLER_INTEGRATION_V1",
+  "fixture": "Independent preserved laptop copy; stopped, staging ports only",
+  "manifest_sha256": "5cb7437d2373bb6d3a64b964f71401b024694ddbf38523afb939c84d628a5cbb",
+  "tested_core_sha256": "17d9a549c83d16fa5cc15af66aa29dccbe45cef7793e49a47476d552c3bd447a",
+  "tested_java_pack_sha256": "77782c8cade9ca7ac07d408e2f1425b8d73eb8d78408cca0a5454c14b28f8188",
+  "baseline_file_count": 1014,
+  "paths": [
+    {
+      "from": "preserved1.0.3",
+      "installed_files": 11,
+      "launcher": {
+        "exit_code": 0,
+        "stdout": "Java-only mode selected: the reviewed Geyser/Floodgate JARs will be temporarily excluded before Paper loads plugins; no Bedrock listener or join address.\nPreflight passed: Java 25, pinned files, city world, authentication policy, disk and ports.\nProfile: public_world_2026_11_23_fresh_accounts_local_workshop. External AI remains optional/off.\nCheck complete. No server started.\n",
+        "stderr": ""
+      },
+      "rollback": "rolled_back",
+      "all_original_files_restored": true,
+      "client_mods_not_installed_by_server_updater": true
+    },
+    {
+      "from": "released1.0.4",
+      "installed_files": 7,
+      "launcher": {
+        "exit_code": 0,
+        "stdout": "Java-only mode selected: the reviewed Geyser/Floodgate JARs will be temporarily excluded before Paper loads plugins; no Bedrock listener or join address.\nPreflight passed: Java 25, pinned files, city world, authentication policy, disk and ports.\nProfile: public_world_2026_11_23_fresh_accounts_local_workshop. External AI remains optional/off.\nCheck complete. No server started.\n",
+        "stderr": ""
+      },
+      "rollback": "rolled_back",
+      "all_previous_files_restored": true
+    }
+  ],
+  "status": "PASS",
+  "production_changed": false,
+  "windows_executed": false,
+  "bedrock_client_executed": false
+}

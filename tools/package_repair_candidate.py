@@ -22,6 +22,10 @@ def digest(path: Path) -> str:
 
 def package(payload: Path, output: Path) -> dict:
     from install_runtime_repair import verify_payload
+    # The updater's containment checks compare canonical absolute paths. Honour
+    # explicit relative CLI directories in the same way as the default root.
+    payload = payload.resolve(strict=True)
+    output = output.resolve()
     # Uses the same boundary validation as the updater before exposing bytes.
     verify_payload(payload)
     manifest = json.loads((payload / "repair-manifest.json").read_text())
@@ -39,9 +43,14 @@ def package(payload: Path, output: Path) -> dict:
     # Test reports are explicit allow-listed inputs; server logs and token files
     # are never collected by directory globbing.
     evidence = ROOT / "docs/repair-evidence"
-    extras = {"evidence/" + p.name: p for p in evidence.glob("*.json") if p.is_file() and not p.is_symlink()}
+    reports = [*evidence.glob("spec-*.json"), *evidence.glob("population-*.json")]
+    reports += [evidence / name for name in ["npc-native-java.json", "vehicle-capacity-audit.json", "vehicle-seating-static.json", "vehicle-passenger-network.json", "vehicle-native-observation.json"]]
+    extras = {"evidence/" + p.name: p for p in reports if p.is_file() and not p.is_symlink()}
     for name in ["spec-hud-native-java.png", "spec-phone-native-java.png", "spec-npc-dialogue-native-java.png",
-                 "spec-auto-passengers-native-java.png", "spec-hud-bank-native-java.png",
+                 "spec-auto-passengers-native-java.png", "spec-auto-passengers-side-native-java.png", "spec-auto-rightclick-native-java.png", "spec-gun-native-java.png", "spec-hud-bank-native-java.png", "spec-hud-guide-native-java.png",
+                 "npc-bubble-overlap-phase1.png", "npc-dialogue-phase1-native-java.png",
+                 "npc-retaliation-native-java.png", "npc-flee-native-java.png", "npc-rightclick-before-layout-fix.png",
+                 "npc-dialogue-final-native-java.png", "npc-runtime-observations.txt", "npc-native-chat.txt",
                  "vehicle-capacity-audit.csv", "control-centre-login.jpg"]:
         file = evidence / name
         if file.is_file() and not file.is_symlink(): extras["evidence/" + name] = file

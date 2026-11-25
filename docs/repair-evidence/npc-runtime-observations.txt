@@ -1,0 +1,41 @@
+[16:04:27] [Server thread/INFO]: System chat: [Citizen] Sahil Roy has the following entity data: {"sdcraftcore:population_identity": "ambient_037", "sdcraftcore:population_schema": 1}
+[16:04:27] [Server thread/INFO]: System chat: [Shop] Imran Sheikh has the following entity data: {"sdcraftcore:population_identity": "imran_sheikh", "sdcraftcore:population_schema": 1}
+[16:04:27] [Server thread/INFO]: System chat: [Shop] Neha Patel has the following entity data: {"sdcraftcore:population_identity": "neha_patel", "sdcraftcore:population_schema": 1}
+[16:04:27] [Server thread/INFO]: System chat: [Citizen] Sahil Sharma has the following entity data: {"sdcraftcore:population_identity": "ambient_077", "sdcraftcore:population_schema": 1}
+[16:04:27] [Server thread/INFO]: System chat: [Citizen] Tara Chandra has the following entity data: {"sdcraftcore:population_identity": "ambient_078", "sdcraftcore:population_schema": 1}
+[16:04:27] [Server thread/INFO]: System chat: [Citizen] Sahil Rao has the following entity data: {"sdcraftcore:population_identity": "ambient_017", "sdcraftcore:population_schema": 1}
+[16:04:27] [Server thread/INFO]: System chat: [Citizen] Tara Bose has the following entity data: {"sdcraftcore:population_identity": "ambient_058", "sdcraftcore:population_schema": 1}
+[16:04:27] [Server thread/INFO]: System chat: [Citizen] Sahil Saxena has the following entity data: {"sdcraftcore:population_identity": "ambient_057", "sdcraftcore:population_schema": 1}
+[16:04:27] [Server thread/INFO]: System chat: [Citizen] Tara Agarwal has the following entity data: {"sdcraftcore:population_identity": "ambient_038", "sdcraftcore:population_schema": 1}
+[16:04:27] [Server thread/INFO]: System chat: [Citizen] Tara Yadav has the following entity data: {"sdcraftcore:population_identity": "ambient_018", "sdcraftcore:population_schema": 1}
+[16:04:27] [Server thread/INFO]: System chat: [Citizen] Sahil Sharma has the following entity data: [I; 1702331616, 848578276, -1811896119, -1338158834]
+[16:04:27] [Server thread/INFO]: [SD Craft] Paper core enabled; configured=100, active=10/32, police=0/6, other=10/32, ambient=8, admission cap=4, legacy anchors awaiting review=0, anchors=100. Citizens=false
+[16:04:27] [Server thread/INFO]: [SD Craft] NPC dialogue: configured=offline, last-result=not-contacted. Autonomous traffic driving is not implemented.
+[16:04:27] [Server thread/INFO]: System chat: [Citizen] Tara Yadav has the following entity data: [I; 1502347385, -1319550106, -1161418336, -524358976]
+[16:08:25] [Server thread/INFO]: System chat: [Citizen] Sahil Sharma has the following entity data: 1b
+[16:08:25] [Server thread/INFO]: System chat: [Citizen] Sahil Sharma has the following entity data: [-144.46368168326177d, 67.0d, -91.95415119599647d]
+[16:08:25] [Server thread/INFO]: System chat: GTMHudQA has the following entity data: [-146.95745585795808d, 67.0d, -87.06367378986471d]
+[16:09:06] [Server thread/INFO]: System chat: GTMHudQA has the following entity data: 1.3333321f
+[16:09:06] [Server thread/INFO]: System chat: Found no elements matching NoAI
+[16:09:06] [Server thread/INFO]: System chat: [Citizen] Sahil Sharma has the following entity data: [-151.0941709185832d, 67.0d, -94.27211376295534d]
+[16:11:55] [Server thread/INFO]: System chat: [Citizen] Tara Yadav has the following entity data: [-140.5433372290976d, 67.0d, -81.76957163143176d]
+[16:11:55] [Server thread/INFO]: System chat: [Citizen] Tara Yadav has the following entity data: 1b
+[16:11:55] [Server thread/INFO]: System chat: GTMHudQA has the following entity data: [-139.29899004145196d, 67.0d, -80.70163486769876d]
+[16:11:55] [Server thread/INFO]: System chat: GTMHudQA has the following entity data: 11.999999f
+[16:12:31] [Server thread/INFO]: System chat: [Citizen] Tara Yadav has the following entity data: [-144.9877754859526d, 67.0d, -88.05409058206376d]
+[16:12:31] [Server thread/INFO]: System chat: Found no elements matching NoAI
+[16:12:31] [Server thread/INFO]: System chat: GTMHudQA has the following entity data: 11.999999f
+[16:12:31] [Server thread/INFO]: [SD Craft] Paper core enabled; configured=100, active=10/32, police=0/6, other=10/32, ambient=8, admission cap=4, legacy anchors awaiting review=0, anchors=100. Citizens=false
+[16:12:31] [Server thread/INFO]: [SD Craft] NPC dialogue: configured=offline, last-result=offline. Autonomous traffic driving is not implemented.
+[16:12:31] [Server thread/INFO]: System chat: [Citizen] Sahil Roy has the following entity data: {"sdcraftcore:population_identity": "ambient_037", "sdcraftcore:population_schema": 1}
+[16:12:31] [Server thread/INFO]: System chat: [Shop] Imran Sheikh has the following entity data: {"sdcraftcore:population_identity": "imran_sheikh", "sdcraftcore:population_schema": 1}
+[16:12:31] [Server thread/INFO]: System chat: [Shop] Neha Patel has the following entity data: {"sdcraftcore:population_identity": "neha_patel", "sdcraftcore:population_schema": 1}
+[16:12:31] [Server thread/INFO]: System chat: [Citizen] Sahil Sharma has the following entity data: {"sdcraftcore:population_identity": "ambient_077", "sdcraftcore:population_schema": 1}
+[16:12:31] [Server thread/INFO]: System chat: [Citizen] Tara Chandra has the following entity data: {"sdcraftcore:population_identity": "ambient_078", "sdcraftcore:population_schema": 1}
+[16:12:31] [Server thread/INFO]: System chat: [Citizen] Sahil Rao has the following entity data: {"sdcraftcore:population_identity": "ambient_017", "sdcraftcore:population_schema": 1}
+[16:12:31] [Server thread/INFO]: System chat: [Citizen] Tara Bose has the following entity data: {"sdcraftcore:population_identity": "ambient_058", "sdcraftcore:population_schema": 1}
+[16:12:31] [Server thread/INFO]: System chat: [Citizen] Sahil Saxena has the following entity data: {"sdcraftcore:population_identity": "ambient_057", "sdcraftcore:population_schema": 1}
+[16:12:31] [Server thread/INFO]: System chat: [Citizen] Tara Agarwal has the following entity data: {"sdcraftcore:population_identity": "ambient_038", "sdcraftcore:population_schema": 1}
+[16:12:31] [Server thread/INFO]: System chat: [Citizen] Tara Yadav has the following entity data: {"sdcraftcore:population_identity": "ambient_018", "sdcraftcore:population_schema": 1}
+[16:20:03] [Server thread/INFO]: [SD Craft] Paper core enabled; configured=100, active=10/32, police=0/6, other=10/32, ambient=8, admission cap=4, legacy anchors awaiting review=0, anchors=100. Citizens=false
+[16:20:03] [Server thread/INFO]: [SD Craft] NPC dialogue: configured=offline, last-result=offline. Autonomous traffic driving is not implemented.

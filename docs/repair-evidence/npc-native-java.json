@@ -52,12 +52,167 @@
     "test_player_placement": "Root moved only test player to inspected safe concrete anchor and adjusted orientation; owned NPCs kept normal pathfinding. A later conditional adjacent player teleport refused unsafe/unknown ground."
   },
   "final_build": {
-    "status": "pending native acceptance after combined restart"
+    "status": "passed native presentation smoke",
+    "core_sha256": "17d9a549c83d16fa5cc15af66aa29dccbe45cef7793e49a47476d552c3bd447a",
+    "optional_hud_sha256": "b1bf80057b30e94c7d04b1d49ad06d442972f0cf0b441f710b5c513cfe92ab84",
+    "java_pack_sha256": "77782c8cade9ca7ac07d408e2f1425b8d73eb8d78408cca0a5454c14b28f8188",
+    "java_pack_sha1": "01e6a6693265203168a3f2abf5027f931f926415",
+    "login": "Normal /login by existing non-op QA; resource pack applied; authenticated custom HUD appeared.",
+    "dialogue": {
+      "result": "pass",
+      "at": "2026-11-25T16:19:21Z",
+      "npc": "Imran Sheikh",
+      "action": "Normal /sdc talk then // hello near the stationary existing service NPC.",
+      "observed": "Full two-line reply renders above its own NPC nameplate with a visible gap. Original close-view overlap is corrected. Nearby moving NPC nameplates can still overlap one another as they pass; no claim of a label decluttering system."
+    },
+    "held_gun": {
+      "result": "pass",
+      "at": "2026-11-25T16:16:50Z",
+      "action": "Select existing starter Kavach in slot1 at protectedspawn; normal F2; returnempty9.",
+      "observed": "Native Kavach9mmCompact held model and item label visible with the final HUD. No firearm was granted or fired for this final presentation check."
+    },
+    "post_reconnect_population": {
+      "at": "2026-11-25T16:20:03Z",
+      "reported": "configured100;active10/32;ambient8;admissioncap4;legacyanchors0;Citizensfalse"
+    },
+    "captures": [
+      {
+        "file": "docs/repair-evidence/npc-dialogue-final-native-java.png",
+        "original_f2": "2026-11-25_16.19.21.png",
+        "sha256": "60f978487da91da6e2e389519b176c10a2f43308b3d753471710288d1c23a022",
+        "altered": false
+      },
+      {
+        "file": "docs/repair-evidence/spec-gun-native-java.png",
+        "original_f2": "2026-11-25_16.16.50.png",
+        "sha256": "fde350383de477c8b9264d47390a37c7fddc0dec301efe1120b3f31583a64a80",
+        "altered": false
+      }
+    ],
+    "component_sha256": {
+      "NpcService": "e1ffa0447fde9957592a0e201072a503942b1f29da860f0d70b769526b6142f3",
+      "NpcPopulationPolicy": "90e6ecb05e5700f6eb48a43f870c464037a9cf753e94803c424eafb87d816d0b",
+      "NpcNavigation": "7adf486e632e62225316d934118660d6aa24cdeeaec5d2128376d02349944baf",
+      "NpcIdentityIndex": "8797296ad57d0b08e302a1c434e95d8fec81c2920cc7a95352a0dd2eba595fe7",
+      "NpcTerrain": "04a7458bab9e65c8286041fdecb60948380548543dce555fa11d255bda9df2da",
+      "NpcCombatAccess": "bcd55ee3439fc5670daaf01800731773b03844272b29f5324311a7c2b5329056",
+      "GunEngine": "d1d4b7768dfe486b7635eb9d8986d282ffbfe56fe00eaa3271c324001a0078fb",
+      "GtmEquipment": "bafc49db8c280b33dc93342dc7253725b0e44b21876dd4bb87e55517febccb71",
+      "GtmClientHud": "d43769bd99768bb8b5576f4ac45ef8960cd9bdc09e7cb3f583a4ca4ff0a9a952"
+    },
+    "behavior_provenance": "Root compared the final presentation-only build against the accepted23c behavior build. NpcService and its helpers, both gun engines, vehicle and HUD classes are byte-identical; only GtmDialogue and its nested debug-line metadata changed for the vertical bubble offset. The earlier combat captures retain their23c artifact provenance; they were not repeated or relabelled as final17d9 captures."
   },
   "limits": [
     "No claim of a connected generative AI provider from scripted replies.",
     "No autonomous wanted-level police pursuit/arrest implementation claim.",
-    "No untagged legacy NPC deletion claim; existing unidentified actors are conservatively suppressed/reported.",
-    "Fight-back, fleeing and final right-click hold proof pending final native session."
-  ]
+    "No untagged legacy NPC deletion claim; existing unidentified actors are conservatively suppressed/reported."
+  ],
+  "behavior_acceptance": {
+    "core_sha256": "23c0020eb0e54093feeccba4f7e72681f0cc2a7e2e7965ef7aa8a683ccfe97cc",
+    "optional_hud_sha256": "b1bf80057b30e94c7d04b1d49ad06d442972f0cf0b441f710b5c513cfe92ab84",
+    "java_pack_sha256": "77782c8cade9ca7ac07d408e2f1425b8d73eb8d78408cca0a5454c14b28f8188",
+    "java_pack_sha1": "01e6a6693265203168a3f2abf5027f931f926415",
+    "right_click": {
+      "result": "pass",
+      "at": "2026-11-25T16:08:34Z",
+      "npc_id": "ambient_077",
+      "npc_name": "Sahil Sharma",
+      "observed": "Ordinary right-click with empty hand selected this existing worker, replied by name and displayed the [Talk] // prompt. Courier right-click also succeeded at16:12:03."
+    },
+    "hold": {
+      "result": "pass",
+      "observed": "Normal explicit dialogue stopped the selected ambient actor and made it face the player; NoAI1 was read from the held villager. A normal punch immediately restored movement. No actor AI was changed by console/test commands."
+    },
+    "retaliation": {
+      "result": "pass",
+      "npc_id": "ambient_077",
+      "entity_uuid": "657784e0-3294-46e4-9400-a8c9b03d510e",
+      "punch_at": "2026-11-25T16:08:40Z",
+      "observed": "One ordinary barehand punch produced hit feedback, assault/wanted1 and the fights-back message. The worker followed the retreating player and repeatedly reduced the visible health bar. Player was returned to protected spawn after the bounded check; no downed message occurred.",
+      "player_health_before": 20.0,
+      "player_health_after": 1.3333321,
+      "health_after_at": "2026-11-25T16:09:06Z",
+      "held_npc_position": [
+        -144.46368168326177,
+        67.0,
+        -91.95415119599647
+      ],
+      "post_retaliation_npc_position": [
+        -151.0941709185832,
+        67.0,
+        -94.27211376295534
+      ],
+      "qualification": "This health change is observed during a retaliation sequence; it is not an assertion of a precise number of strikes because normal regeneration also applies."
+    },
+    "flee": {
+      "result": "pass",
+      "npc_id": "ambient_018",
+      "npc_name": "Tara Yadav",
+      "entity_uuid": "598c0079-b159-4366-bac6-29a0e0beeac0",
+      "punch_at": "2026-11-25T16:12:04Z",
+      "observed": "After ordinary conversation and right-click, one barehand punch produced runs-for-safety text. The courier immediately left her held position and ran away; she did not retaliate.",
+      "held_position": [
+        -140.5433372290976,
+        67.0,
+        -81.76957163143176
+      ],
+      "post_flee_position": [
+        -144.9877754859526,
+        67.0,
+        -88.05409058206376
+      ],
+      "position_sample_after_at": "2026-11-25T16:12:31Z",
+      "player_health_before": 11.999999,
+      "player_health_after": 11.999999
+    },
+    "population": {
+      "result": "pass_at_observed_location",
+      "before_at": "2026-11-25T16:04:27Z",
+      "after_at": "2026-11-25T16:12:31Z",
+      "physical_before": 10,
+      "physical_after": 10,
+      "unique_identities_before": 10,
+      "unique_identities_after": 10,
+      "duplicate_logical_ids": [],
+      "reported_cap": 32,
+      "admission_cap": 4,
+      "legacy_anchors_awaiting_review": 0,
+      "identities": [
+        "ambient_017",
+        "ambient_018",
+        "ambient_037",
+        "ambient_038",
+        "ambient_057",
+        "ambient_058",
+        "ambient_077",
+        "ambient_078",
+        "imran_sheikh",
+        "neha_patel"
+      ],
+      "qualification": "Native observation covered10 nearby actors, not a32-actor load/stress scenario. The hard32 maximum and four admissions are additionally tested in policy tests."
+    },
+    "captures": [
+      {
+        "file": "docs/repair-evidence/npc-rightclick-before-layout-fix.png",
+        "original_f2": "2026-11-25_16.08.39.png",
+        "sha256": "71a73f4d847b4923bdec0c21ca25a265fc45a52d77f87a81d8c1cdb13ccd3c80",
+        "altered": false
+      },
+      {
+        "file": "docs/repair-evidence/npc-retaliation-native-java.png",
+        "original_f2": "2026-11-25_16.08.46.png",
+        "sha256": "7f9936cce2f6d1bd2ba194b27e0c549b4bc4cc275b62f9c29a49afbeaefdc842",
+        "altered": false
+      },
+      {
+        "file": "docs/repair-evidence/npc-flee-native-java.png",
+        "original_f2": "2026-11-25_16.12.13.png",
+        "sha256": "7a882c6591d1a1f7b041895ff9287d5f7c654c4d47c3089718ef08e275e533ea",
+        "altered": false
+      }
+    ],
+    "server_observations": "docs/repair-evidence/npc-runtime-observations.txt",
+    "test_setup": "Only the ordinary QA player was positioned/oriented via isolated staging console after concrete-floor and air clearance checks. NPCs were not teleported, directly damaged, or AI-mutated by test commands. All selection, conversation, hits, retreat and eating used the actual client. Normal starter food restored health after retaliation; no health/setmode/invulnerability command was used.",
+    "presentation_issue": "Reply lower line overlapped the same NPC nameplate. Root prepared a separate vertical-offset correction; the final screenshot below must establish its visual result without attributing these combat captures to changed bytes."
+  }
 }

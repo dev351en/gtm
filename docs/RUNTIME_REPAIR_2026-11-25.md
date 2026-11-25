@@ -1,10 +1,12 @@
 # GTM runtime repair — 25 November 2026
 
+> **Historical 1.0.4 record.** This document's build commands, artifact hashes and screenshots describe that earlier repair. Its inventory phone did not implement the approved four-corner HUD. For the current 1.0.5 implementation, use [the specification repair record](SPEC_REPAIR_2026-11-25.md) and [current installation guide](../packaging/repair/README.md). Do not treat the historical screenshots or checks below as acceptance of the later build.
+
 ## Status and intended installation
 
 **Java-tested repair candidate — 25 November 2026.** This repair produces a real installable update, `GTM_Runtime_Repair_1.0.4.zip`, for an existing `1.0.3-r4-functional-candidate` server. Source compilation, regression tests, the running server's HTTP console and update/rollback checks have passed. The actual Minecraft 26.3 client shows the custom phone and icons, JEEVA submenu and held native pistol after ordinary login. Firing, reloading, safe-area restrictions, driving controls and grounded wheel animation have passed a native smoke test. The traditional rickshaw canopy has been raised to provide measured player clearance, with corresponding collision bounds and regression checks. The final exact-byte restart confirmed normal-login phone and equipment rendering, grounded wheels and the driver beneath the repaired canopy. Native Bedrock acceptance is outstanding.
 
-The update contains a patched `SDCraftCore-1.0.4-r4-repair.jar`, matching Java and Bedrock resource packs, Geyser mappings, the verified updater, and the Control Centre opener. It uses the existing server, worlds, accounts and launcher. It does not supply a replacement city save or require an account reset. The supported server profile uses Java 25 and Paper/Minecraft 26.3. See the [short installation guide](../packaging/repair/README.md) and [release acceptance notes](../packaging/repair/RELEASE_NOTES.md).
+The update contains a patched `SDCraftCore-1.0.4-r4-repair.jar`, matching Java and Bedrock resource packs, Geyser mappings, the verified updater, and the Control Centre opener. It uses the existing server, worlds, accounts and launcher. It does not supply a replacement city save or require an account reset. The supported server profile uses Java 25 and Paper/Minecraft 26.3. The [historical 1.0.4 installation guide](https://github.com/dev351en/gtm/blob/1d228a90ad4437e3b9f2cb4d1c4705c59dc2d7cd/packaging/repair/README.md) and [1.0.4 release notes](https://github.com/dev351en/gtm/blob/1d228a90ad4437e3b9f2cb4d1c4705c59dc2d7cd/packaging/repair/RELEASE_NOTES.md) remain pinned to their original source checkpoint.
 
 ## What caused the visible failures
 

@@ -32,6 +32,7 @@ import org.joml.Vector3f;
 
 /** Reachable, session-bound NPC conversations; one bounded bubble maintenance task. */
 final class GtmDialogue implements Listener, AutoCloseable {
+    private static final double BUBBLE_RISE = .75;
     private record Selection(UUID session, String npc, UUID entity, long until) {}
     private record Bubble(UUID speaker, TextDisplay display, long until, boolean ambient) {}
     private record Greeting(UUID player, String npc) {}
@@ -161,7 +162,7 @@ final class GtmDialogue implements Listener, AutoCloseable {
             if (!enabled() || bubble.until() <= now || speaker == null || !speaker.isValid() || !bubble.display().isValid()) {
                 remove(bubble.speaker()); continue;
             }
-            bubble.display().teleport(speaker.getLocation().add(0, speaker.getHeight() + .35, 0));
+            bubble.display().teleport(speaker.getLocation().add(0, speaker.getHeight() + BUBBLE_RISE, 0));
         }
         selections.entrySet().removeIf(entry -> {
             Player player = Bukkit.getPlayer(entry.getKey());
@@ -226,7 +227,7 @@ final class GtmDialogue implements Listener, AutoCloseable {
             if (existing.ambient()) remove(existing.speaker());
         }
         while (bubbles.size() >= 64) remove(bubbles.keySet().iterator().next());
-        TextDisplay display = speaker.getWorld().spawn(speaker.getLocation().add(0, speaker.getHeight() + .35, 0), TextDisplay.class, value -> {
+        TextDisplay display = speaker.getWorld().spawn(speaker.getLocation().add(0, speaker.getHeight() + BUBBLE_RISE, 0), TextDisplay.class, value -> {
             value.text(Component.text(text)); value.setBillboard(Display.Billboard.CENTER); value.setLineWidth(190);
             value.setSeeThrough(false); value.setShadowed(true); value.setPersistent(false); value.setViewRange(.4f);
             value.setBackgroundColor(Color.fromARGB(190, 12, 16, 20));

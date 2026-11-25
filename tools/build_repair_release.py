@@ -151,7 +151,13 @@ def build(overlay: Path, vehicle: Path, packs: Path, output: Path, pack_url: str
                          (client / "build/build-report.json", "build-report.json")]:
         target = output / "client" / name
         target.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(source, target)
+        if name == "README.md":
+            client_guide = source.read_text(encoding="utf-8")
+            client_guide = client_guide.replace("(../docs/repair-evidence/", "(../evidence/")
+            client_guide = client_guide.replace("(../docs/SPEC_REPAIR_2026-11-25.md)", "(../SPEC_REPAIR_2026-11-25.md)")
+            target.write_text(client_guide, encoding="utf-8")
+        else:
+            shutil.copyfile(source, target)
     record = ROOT / "docs/SPEC_REPAIR_2026-11-25.md"
     if record.is_file():
         # The standalone ZIP keeps its guide at the root; source-code links go
@@ -160,6 +166,7 @@ def build(overlay: Path, vehicle: Path, packs: Path, output: Path, pack_url: str
         guide_text = guide_text.replace("(../packaging/repair/README.md)", "(README.md)")
         guide_text = guide_text.replace("(../packaging/repair/RELEASE_NOTES.md)", "(RELEASE_NOTES.md)")
         guide_text = guide_text.replace("(repair-evidence/", "(evidence/")
+        guide_text = guide_text.replace("(RUNTIME_REPAIR_2026-11-25.md)", "(https://github.com/dev351en/gtm/blob/fix/spec-hud-npc-passengers-20261125/docs/RUNTIME_REPAIR_2026-11-25.md)")
         guide_text = guide_text.replace("(../client-hud/README.md)", "(client/README.md)")
         guide_text = guide_text.replace("(../", "(https://github.com/dev351en/gtm/blob/fix/spec-hud-npc-passengers-20261125/")
         (output / "SPEC_REPAIR_2026-11-25.md").write_text(guide_text, encoding="utf-8")

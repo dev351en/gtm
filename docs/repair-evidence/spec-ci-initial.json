@@ -1,0 +1,20 @@
+{
+  "schema": "GTM_SPEC_CI_V1",
+  "run_id": 45651043832,
+  "url": "https://github.com/dev351en/gtm/actions/runs/45651043832",
+  "source_commit": "8b557be1f2f669e3465e0d3bd79aff0d1cdd6921",
+  "status": "PASS",
+  "scope": "Initial independent full clean build and packaging; final publication is gated by a fresh run after native evidence and the nameplate-height correction.",
+  "core_and_pack_sha256": {
+    "plugins/SDCraftCore-1.0.5-r4-spec-candidate.jar": "23c0020eb0e54093feeccba4f7e72681f0cc2a7e2e7965ef7aa8a683ccfe97cc",
+    "resourcepacks/GTM_Repair_128_Java.zip": "77782c8cade9ca7ac07d408e2f1425b8d73eb8d78408cca0a5454c14b28f8188",
+    "plugins/Geyser-Spigot/packs/GTM_Repair_128_Bedrock.mcpack": "d400f4ea63f05eaad0e4941013e35c5962a92bd7ee5c884468c565cf1ed474de",
+    "plugins/Geyser-Spigot/custom_mappings/gtm_native128.json": "802042e7c3fc0c62ca9171437d94360cc45af8480dac1ba7f057ca5e48d37d45",
+    "Open-Control-Centre.bat": "d4ac710adff3c65ceb5745a78972730c2547da0a64e77b7b97ecbb24bcbf804d",
+    "tools/open_control_centre.py": "bb13af1167c83973a8f5808a821dede300a4589116b9b8a89742a2d3708441d2"
+  },
+  "client_sha256": "b1bf80057b30e94c7d04b1d49ad06d442972f0cf0b441f710b5c513cfe92ab84",
+  "client_hash_found_in_job_log": true,
+  "native_checkpoint_hashes_match": true,
+  "publication": "Skipped intentionally; no publish marker on this source checkpoint."
+}

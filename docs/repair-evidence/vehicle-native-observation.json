@@ -1,0 +1,45 @@
+{
+  "schema": "GTM_VEHICLE_NATIVE_OBSERVATION_V1",
+  "environment": "Isolated Paper26.3 native Java26.3 Fabric client, non-op GTMHudQA observer",
+  "core_sha256": "17d9a549c83d16fa5cc15af66aa29dccbe45cef7793e49a47476d552c3bd447a",
+  "client_sha256": "b1bf80057b30e94c7d04b1d49ad06d442972f0cf0b441f710b5c513cfe92ab84",
+  "java_pack_sha256": "77782c8cade9ca7ac07d408e2f1425b8d73eb8d78408cca0a5454c14b28f8188",
+  "vehicle_uuid": "651a2afe-5500-3626-9dc2-664f096435c4",
+  "body_pose": [
+    -181.5,
+    68.015,
+    -53.5,
+    0
+  ],
+  "occupants": [
+    "GTMSeat3ca7a809D",
+    "GTMSeat3ca7a8091",
+    "GTMSeat3ca7a8092",
+    "GTMSeat3ca7a8093"
+  ],
+  "observation_utc": "2026-11-25T16:36:29Z/2026-11-25T16:36:43Z",
+  "result": "Four real network Player avatars visibly seated in repaired traditional auto during probe hold; three across rear bench, driver forward, heads beneath canopy, wheels grounded. Screenshots are unaltered F2 output, not generated imagery.",
+  "captures": [
+    {
+      "source": "/workspace/scratch/99da9b9c810e/hud-client-test/game/screenshots/2026-11-25_16.36.43.png",
+      "file": "spec-auto-passengers-native-java.png",
+      "sha256": "609a864f664e79da274ef80acf7f4430d8bd6edd0b939cc5a31b277f19e98a85",
+      "observed": "Rear-quarter view shows three ordinary network player avatars across the rear bench."
+    },
+    {
+      "source": "/workspace/scratch/99da9b9c810e/hud-client-test/game/screenshots/2026-11-25_16.36.29.png",
+      "file": "spec-auto-passengers-side-native-java.png",
+      "sha256": "53d7f579e73346013cd2dcc65c45ce610030f0df9336a793c71c083a83f13f0b",
+      "observed": "Side view shows driver forward and three rear occupants aligned behind; distinct seats also independently checked by protocol probe."
+    }
+  ],
+  "right_click_boarding": {
+    "status": "PASS",
+    "observed_utc": "2026-11-25T16:38:13Z",
+    "controls": "One ordinary empty-hand right-click while aiming at the unlocked test auto, then one Left Shift press. No car command, grant, permission or vehicle pose change used.",
+    "result": "Passenger seat confirmation and mount shown; Left Shift placed the player safely beside the stationary auto; vehicle card/mount state cleared on normal next update. Observer returned aside afterward.",
+    "capture": "spec-auto-rightclick-native-java.png",
+    "sha256": "8b6e37ec1cf7be2a4bc1df6ad692331309eaab06c6c5f9a6269b38be71073021"
+  },
+  "scope": "These frames establish rendering of the four occupied seats. Network report separately checks distinct carriers, movement, overflow refusal and lifecycle. No Bedrock or live deployment assertion."
+}

@@ -8,7 +8,7 @@ The exact Java layout requires the optional client component. Ordinary clients c
 
 Use the **matching server core and resource pack together**, plus the optional HUD JAR for the requested layout. The historical resource pack linked below does not contain this repair. A repository Code ZIP is not a complete playable server installation. The [verification workflow](.github/workflows/repair-verify.yml) produces the installable update and separate client JAR after its checks.
 
-The server build uses maintained `hotfix/` source and exact checked patches over the preserved 1.0.3 binary. It does not mislabel the older `source/` tree as recovered original source. The updater supports the fingerprinted1.0.3 and released 1.0.4 cores and preserves world, player, ownership and authentication data. Production deployment is separate.
+The server build uses maintained `hotfix/` source and exact checked patches over the preserved 1.0.3 binary. It does not mislabel the older `source/` tree as recovered original source. The updater supports the fingerprinted 1.0.3 and released 1.0.4 cores and preserves world, player, ownership and authentication data. Production deployment is separate.
 
 ## Current checkpoint — 25 November 2026
 
