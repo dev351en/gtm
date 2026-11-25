@@ -190,5 +190,5 @@ if __name__ == "__main__":
     p.add_argument("--server-only", action="store_true", help="Produce a separate no-client-JAR release payload")
     args = p.parse_args()
     if args.server_only:
-        VERSION = "1.0.6-r4-crossplay"
+        VERSION = "1.0.7-r4-crossplay-models"
     print(json.dumps(build(args.overlay, args.vehicle_class, args.packs, args.output, args.pack_url, args.server_only), indent=2))
