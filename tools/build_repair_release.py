@@ -143,6 +143,8 @@ def build(overlay: Path, vehicle: Path, packs: Path, output: Path, pack_url: str
     if server_only:
         server_guide = ROOT / "docs/SERVER_ONLY_CROSSPLAY_2026-11-26.md"
         shutil.copyfile(server_guide, output / "SERVER_ONLY_CROSSPLAY.md")
+        shutil.copyfile(server_guide, output / "README.md")
+        shutil.copyfile(server_guide, output / "RELEASE_NOTES.md")
         return manifest
     client = ROOT / "client-hud"
     client_report = json.loads((client / "build/build-report.json").read_text())
