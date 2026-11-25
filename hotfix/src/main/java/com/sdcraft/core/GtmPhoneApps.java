@@ -196,7 +196,8 @@ AutoCloseable {
             return;
         }
         this.searches.remove(p.getUniqueId());
-        if (this.plugin.openClientPhone(p)) return;
+        // The authoritative phone is always a standard server inventory.
+        // No client handshake or Fabric installation is required.
         this.home(p);
     }
 
@@ -215,7 +216,10 @@ AutoCloseable {
 
     private Menu menu(Player p, String title, int size) {
         return new Menu(p, this.plugin.authenticatedSession(p), title, size,
-                this.services.glyphsAvailable(p) && this.plugin.getConfig().getBoolean("phone.custom-gui", true));
+                CrossplayPhonePolicy.useCustomFontTitle(
+                        this.plugin.getConfig().getBoolean("phone.crossplay-safe", true),
+                        this.plugin.getConfig().getBoolean("phone.custom-gui", true),
+                        this.services.glyphsAvailable(p)));
     }
 
     private void show(Player p, Menu m) {
