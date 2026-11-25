@@ -1,0 +1,413 @@
+{
+  "status": "OFFLINE_PINNED_TELEMETRY_AND_UPDATE_CHECK_FINDINGS",
+  "observed_at_utc": "2026-11-25T02:44:49.152525+00:00",
+  "blocked_event": {
+    "observed_by": "parent actual-cohort runner",
+    "time_utc": "2026-11-25T02:20:21Z",
+    "classification": "Automatic approval review rejected unsolicited third-party bStats telemetry; not a completed scenario failure",
+    "festival_pass_records_before_interrupt": 80,
+    "festival_complete": false,
+    "structure_scenario_executed_in_that_cohort": false
+  },
+  "artifacts": {
+    "Floodgate": {
+      "path": "integration-probe-r4/server-after-festival-telemetry-stop/plugins/floodgate-spigot-2.2.5-b141.jar",
+      "sha256": "21570aff9ce17d6983928e8552777760e1ede5050026b04c686b0ae112e6fd7e",
+      "bytes": 11561096
+    },
+    "Geyser": {
+      "path": "integration-probe-r4/server-after-festival-telemetry-stop/plugins/Geyser-Spigot-2.12.1-b1308.jar",
+      "sha256": "8682df3e77fd4a7e745ed671fbbb727aca32a77d89c97a50f5f77f20fdb191fa",
+      "bytes": 52219447
+    },
+    "VaultUnlocked": {
+      "path": "integration-probe-r4/server-after-festival-telemetry-stop/plugins/VaultUnlocked-2.20.3.jar",
+      "sha256": "fbc6651aca11e13376c115df66eeffa79592e79517be398299aa6beb49c22695",
+      "bytes": 134932
+    },
+    "ViaProxy": {
+      "path": "integration-probe-r4/dependencies/ViaProxy-3.4.14.jar",
+      "sha256": "2894bbfb2f4342f8fde887af6c689313efd5b0e46a8006775eea0e21e2948ab5",
+      "bytes": 48835170
+    }
+  },
+  "floodgate": {
+    "embedded_resource": "config.yml",
+    "embedded_metrics_enabled": true,
+    "runtime_path": "plugins/floodgate/config.yml",
+    "supported_setting": "metrics.enabled: false",
+    "global_bstats_setting_used": false,
+    "constructor": "org.geysermc.floodgate.util.Metrics(FloodgateConfig,PlatformUtils,FloodgateApi,String,PlayerLink,FloodgateLogger)",
+    "enabled_flow": "getMetrics at offsets4\u20138, isEnabled at27, boolean passed to relocated MetricsBase constructor at74",
+    "scheduler_guard": "MetricsBase constructor arg4: offsets121\u2013123 branch to130return when false; startSubmitting called at127 only when true",
+    "system_property_warning": "bstats.relocatecheck controls relocation checking, not telemetry. No bstats.enabled property was found in this pinned class.",
+    "attribution_limit": "Confirmed enabled reporter path; no rejected-request caller stack trace was available"
+  },
+  "other_supported_optouts": [
+    {
+      "dependency": "Geyser",
+      "path": "plugins/bStats/config.yml",
+      "setting": "enabled: false",
+      "class": "org.geysermc.geyser.platform.spigot.SpigotMetrics"
+    },
+    {
+      "dependency": "VaultUnlocked bStats",
+      "path": "plugins/bStats/config.yml",
+      "setting": "enabled: false",
+      "class": "net.milkbowl.vault.metrics.bukkit.Metrics"
+    },
+    {
+      "dependency": "VaultUnlocked FastStats",
+      "path": "plugins/faststats/config.properties",
+      "setting": "enabled=false",
+      "alternative_supported_jvm_property": "-Dfaststats.enabled=false",
+      "guard": "SimpleMetrics requires both its enabled config and faststats.enabled system property before scheduling"
+    }
+  ],
+  "viaproxy_scan": {
+    "identifier_matches": [],
+    "nested_jar_entries": [],
+    "scope": "All class/YAML/properties entries in the exact pinned JAR; absence applies to these telemetry implementations, not every possible network operation",
+    "existing_update_optout_preserved": "-DskipUpdateCheck=true"
+  },
+  "config_observations": {
+    "server-after-festival-telemetry-stop": {
+      "floodgate": {
+        "path": "integration-probe-r4/server-after-festival-telemetry-stop/plugins/floodgate/config.yml",
+        "sha256": "5f4bfda2ac1a26adb649fca2b1a6d2b8d2d210dd022d120434a5c3b2f38cd053",
+        "enabled": true
+      },
+      "bstats": {
+        "path": "integration-probe-r4/server-after-festival-telemetry-stop/plugins/bStats/config.yml",
+        "sha256": "0816d93af6533e985e074b49e8bc0c04f8bd9713b08ae42c956ac2beb8e7a788",
+        "enabled": false
+      },
+      "faststats": {
+        "path": "integration-probe-r4/server-after-festival-telemetry-stop/plugins/faststats/config.properties",
+        "sha256": "c54afaddb74c4842226fd091449da6e109e7990ac19b7bd0f7eba3edcf441ebb",
+        "flags": {
+          "enabled": "false",
+          "submitAdditionalMetrics": "false"
+        }
+      }
+    },
+    "server-workshop-recovery-test": {
+      "floodgate": {
+        "path": "integration-probe-r4/server-workshop-recovery-test/plugins/floodgate/config.yml",
+        "sha256": "bd792a09a67f0a282c87449c07cc1787483f53712b61776fd654a62db5034e2a",
+        "enabled": false
+      },
+      "bstats": {
+        "path": "integration-probe-r4/server-workshop-recovery-test/plugins/bStats/config.yml",
+        "sha256": "0816d93af6533e985e074b49e8bc0c04f8bd9713b08ae42c956ac2beb8e7a788",
+        "enabled": false
+      },
+      "faststats": {
+        "path": "integration-probe-r4/server-workshop-recovery-test/plugins/faststats/config.properties",
+        "sha256": "c54afaddb74c4842226fd091449da6e109e7990ac19b7bd0f7eba3edcf441ebb",
+        "flags": {
+          "enabled": "false",
+          "submitAdditionalMetrics": "false"
+        }
+      }
+    },
+    "server-functional-test": {
+      "floodgate": {
+        "path": "integration-probe-r4/server-functional-test/plugins/floodgate/config.yml",
+        "sha256": "bd792a09a67f0a282c87449c07cc1787483f53712b61776fd654a62db5034e2a",
+        "enabled": false
+      },
+      "bstats": {
+        "path": "integration-probe-r4/server-functional-test/plugins/bStats/config.yml",
+        "sha256": "0816d93af6533e985e074b49e8bc0c04f8bd9713b08ae42c956ac2beb8e7a788",
+        "enabled": false
+      },
+      "faststats": {
+        "path": "integration-probe-r4/server-functional-test/plugins/faststats/config.properties",
+        "sha256": "c54afaddb74c4842226fd091449da6e109e7990ac19b7bd0f7eba3edcf441ebb",
+        "flags": {
+          "enabled": "false",
+          "submitAdditionalMetrics": "false"
+        }
+      }
+    },
+    "laptop-profile-validation": {
+      "floodgate": {
+        "path": "integration-probe-r4/laptop-profile-validation/plugins/floodgate/config.yml",
+        "sha256": "101bbb4a09cd292717855ba499e6926ac493c9b95ce16a046e03ff4edd995cb6",
+        "enabled": false
+      },
+      "bstats": {
+        "path": "integration-probe-r4/laptop-profile-validation/plugins/bStats/config.yml",
+        "sha256": "6d2349601031d2ab8a25bda9d48ed27c208232018aad0ee43eaf31740099bb94",
+        "enabled": false
+      },
+      "faststats": {
+        "path": "integration-probe-r4/laptop-profile-validation/plugins/faststats/config.properties",
+        "sha256": "d64ccbf064b459fe40e097d106ef9cda8ff5af544b1fd9bd4374c6f34e08e153",
+        "flags": {
+          "enabled": "false",
+          "submitAdditionalMetrics": "false"
+        }
+      }
+    }
+  },
+  "proof": {
+    "path": "PINNED_DEPENDENCY_TELEMETRY_BYTECODE_R4.txt",
+    "sha256": "cbd4178f5f9759f0737826cd17c05c80ae8ec009de659d55aaf3a62e6e15be9a"
+  },
+  "execution": {
+    "server_started_by_audit": false,
+    "endpoint_contacted_or_retried": false,
+    "endpoint_rerouted": false,
+    "plugin_binary_modified": false,
+    "original_interrupted_copy_modified": false,
+    "runtime_absence_of_telemetry_certified": false
+  },
+  "fixture_recovery": "Preserve complete interrupted copy. Clean festival rerun uses a separate verified baseline. Retained-workshop mode uses a complete working clone and limits cleanup claims to6296 workshop fixture; unrelated7072 festival remains retained.",
+  "second_blocked_event": {
+    "observed_by": "parent actual-cohort runner",
+    "run": "20261125T022947312642Z",
+    "classification": "Automatic review rejected the embedded ViaVersion optional update request before server/gameplay scenarios; no retry or endpoint rerouting",
+    "scenario_result": "NOT_EXECUTED"
+  },
+  "embedded_viaversion": {
+    "container_sha256": "2894bbfb2f4342f8fde887af6c689313efd5b0e46a8006775eea0e21e2948ab5",
+    "working_directories": [
+      "integration-probe-r4/proxy",
+      "integration-probe-r4/proxy-profile"
+    ],
+    "config_file": "viaversion.yml",
+    "yaml_only_optout_effective": false,
+    "reason": "AbstractViaConfig.getUnsupportedOptions adds check-for-updates; Config.loadConfig removes it; loadFields defaults the absent value to true",
+    "observed_current_yaml_update_keys": [],
+    "separate_viaproxy_property": "skipUpdateCheck does not govern ViaVersion",
+    "public_api_available": "ViaVersionConfig.setCheckForUpdates(false), then verify isCheckForUpdates()==false",
+    "before_update_lifecycle": "ProtocolTranslatorInitEvent.registerPlatform supplier executes during ViaManager.init enable listeners after config.reload and before onServerLoaded updater check",
+    "adapter_implemented_or_started_by_audit": true,
+    "adapter_implementation_status": "IMPLEMENTED_AND_OFFLINE_VERIFIED_NO_PROXY_STARTUP",
+    "adapter_build": {
+      "status": "OFFLINE_PUBLIC_API_AND_LAUNCHER_VERIFIED",
+      "pinned_viaproxy_sha256": "2894bbfb2f4342f8fde887af6c689313efd5b0e46a8006775eea0e21e2948ab5",
+      "jar": "GTMIsolatedViaProxyOptOut.jar",
+      "jar_sha256": "d19624dafaf2c3ee4720a65c996df31d434417287db42ac54513b0379172f3cc",
+      "bytes": 9591,
+      "source_inputs": {
+        "src/qa/gtm/proxy/IsolatedViaProxy.java": "453c80c6d03a9b2a8ea7d383a6093ef1e7d507eed63d78ecd36c5a1da06f8822",
+        "src/qa/gtm/proxy/OptOutOfflineChecks.java": "49ce9ecefb7bbfd2d0ca15c1b1892e3044b7d26739d1a2d5991f88a8c11c99dc",
+        "src/qa/gtm/proxy/UpdateCheckOptOut.java": "17a171a2777e93a76140eb8073e2cfd81b993763f1c8f7b82c9d27f04e965a99"
+      },
+      "offline_assertions": 9,
+      "original_launcher_agent_verified": true,
+      "public_lifecycle": "ProtocolTranslatorInitEvent.registerPlatform",
+      "public_configuration": "ViaVersionConfig.setCheckForUpdates(false), then verify isCheckForUpdates()",
+      "endpoint_or_protocol_changes": false,
+      "server_or_proxy_started": false,
+      "stdout": "GTM_VIAVERSION_OFFLINE_CHECKS PASS assertions=9 original_launcher_agent=true server_started=false",
+      "stderr": ""
+    },
+    "preflight_test_cases": 7,
+    "runtime_early_marker": "GTM_VIAVERSION_UPDATES_DISABLED before_server_loaded=true",
+    "cohort_gate": "Exact offline inputs before any child/listener, then actual early-setting marker before Paper/pack startup; public pre-bind check retained",
+    "runtime_started_by_audit": false
+  },
+  "harness_sha256": {
+    "run-scenarios.py": "7039400d68c1705070556ae1e160322be034a2d63fc0cecc36d1d19a7b534791",
+    "run-cohort.py": "7d8fc10665852248779a2d85a3ae6e6c0515143139b269f1a1712b9127109836",
+    "run-isolated-server.py": "2ec449d741a8ee2d7f85606dcce04f5d448225fa9afd25479a3005f14980b2b7",
+    "run-isolated-proxy.py": "65899d7d8f3c60aaeaf45bcb48cdbc8677f27d6f2dcc5da89fac9d143543cb44",
+    "proxy_optout_guard.py": "d847c6b0aba82fb8ed1943ef5dea510fa7eca1b4d3d2172684f62029e85b5e2c",
+    "retained_workshop_guard.py": "045ad9173f9ca13087daed32d7dee82ad0613638e168409773fd56e0270d946f"
+  },
+  "workshop_recovery_actual": {
+    "status": "PASS",
+    "scenario_records": 28,
+    "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+    "report": "PAPER_FURNITURE_WORKSHOP_R4.json",
+    "sha256": "03029d5c313a32673fb203fe104f485d0e7e5182570a4c2369cf95fd9197086b",
+    "cleanup_scope": "WORKSHOP_6296_FIXTURE_ONLY",
+    "unrelated_festival_evidence_unchanged_after_shutdown": true
+  },
+  "third_blocked_event": {
+    "observed_by": "parent actual-cohort runner",
+    "run": "20261125T023919335912Z",
+    "classification": "Automatic approval review rejected optional official Minecraft discovery warmup before Paper/gameplay; not a completed mechanic failure",
+    "scenario_result": "NOT_EXECUTED",
+    "gameplay_acceptance_records": 0,
+    "paper_log_or_seasonal_report_observed": false,
+    "rejected_run_polled_or_retried_by_this_audit": false
+  },
+  "metadata_warmup_offline_audit": {
+    "source_path": "integration-probe-r4/WarmPaperMain.java",
+    "source_sha256": "5c57ff551c26aa96eec3a5a8172a1f686bff3272ce4b0a392a213134f7e5c45f",
+    "requests": [
+      {
+        "method": "GET",
+        "url": "https://client.discovery.minecraft-services.net/api/v1.0/discovery/MinecraftPE/builds/1.0.0.0",
+        "explicit_headers": {
+          "Accept": "application/json"
+        },
+        "request_body": null,
+        "authorization_or_cookie_header_supplied_by_helper": false
+      },
+      {
+        "method": "GET",
+        "url": "https://authorization.franchise.minecraft-services.net/.well-known/openid-configuration",
+        "explicit_headers": {
+          "Accept": "application/json"
+        },
+        "request_body": null,
+        "authorization_or_cookie_header_supplied_by_helper": false
+      }
+    ],
+    "connect_timeout_ms": 20000,
+    "read_timeout_ms": 20000,
+    "initial_parallel_wait_seconds": 25,
+    "scheduled_repeat_delay_seconds": 2,
+    "scheduler_shutdown_after_initial_wait_seconds": 45,
+    "response_handling": "Consume/close into OutputStream.nullOutputStream; no response substitution or auth/signature modification",
+    "delegates_to": "io.papermc.paperclip.Main",
+    "necessary_for_java_gameplay": false,
+    "request_success_claimed": false,
+    "network_or_helper_execution_by_audit": false
+  },
+  "java_only_boundary_observed": {
+    "packaged_launcher_source": "packaging/laptop/GtmLauncher.java",
+    "source_sha256_at_audit": "389bf0d2db6adde2027ed569ea8a4ac633538418d41bed93e4efa1bc5f1a41f4",
+    "observed_java_only_flag": "-DgeyserUdpPort=-1",
+    "ordinary_plugin_directory_still_loaded": true,
+    "optional_bridge_plugin_exclusion_in_that_observed_source": false,
+    "strict_scratch_mode": "Ordinarily exclude optional Geyser/Floodgate JARs, skip WarmPaperMain and start Paper directly; preserve core, world/account data, permissions/configuration and game rules",
+    "strict_scratch_status": "SUBSEQUENT_STRICT_MODE_IMPLEMENTED_AND_ACTUALLY_EXERCISED_SEE_STRICT_JAVA_ONLY_GAMEPLAY",
+    "endpoint_or_authentication_workaround": false,
+    "packaged_strict_exclusion_claimed": false
+  },
+  "strict_java_only_gameplay": {
+    "status": "ACTUAL_JAVA_ONLY_STARTUP_AND_GAMEPLAY_OBSERVED",
+    "mode": "--java-only-gameplay",
+    "environment": "GTM_JAVA_GAMEPLAY_ONLY=1",
+    "scoped_root": "integration-probe-r4/server-functional-test",
+    "source_sha256": {
+      "java_gameplay_guard.py": "8339d925105b5383e497f0f918f01acf1737005627c22534829e2d2cae6fcb70",
+      "test_java_gameplay_guard.py": "95e5977e8b9acfc0aa97f68fd0ec307434c0a28ac833456888bde65bf723a6a7",
+      "run-scenarios.py": "3a578e97ae01f0c957a19515f201ee46a2a99b6915a6dca6c0687c45b09e7e20",
+      "run-cohort.py": "a21b6c1edbed159af34d715a06259168abff538953f83c024702906ec2a133f5",
+      "run-isolated-server.py": "cbbbb09ac5fef12f33cea678869eaa6d1e4097fb5c65bfd64a5b8ca279c9eed5",
+      "run-isolated-proxy.py": "c38c496815a0dab28ac82f2aea8ebad40aaacb2931c0c0c5d1490f9dde8dca62"
+    },
+    "offline_cases": 8,
+    "combined_guard_cases": 21,
+    "preparation_journal_sha256": "2cd9e9a0fdf97f3699463282a83f1dacf22af708784830f567f4e5179ec2759c",
+    "preparation_observed": {
+      "status": "COMPLETE",
+      "excluded_original_jars": 2,
+      "other_plugin_data_files_unchanged": 79,
+      "cached_dependencies_verified": 105
+    },
+    "request_bootstrap_removed": "WarmPaperMain is not in the selected server arguments; the original Paper JAR is used directly",
+    "crossplay_plugin_admission": "Geyser and Floodgate original JAR bytes preserved outside plugins; top-level filename/descriptor aliases fail closed",
+    "optional_via_bedrock_translator": "Existing supported viaproxy.enableViaBedrock=false",
+    "normal_java_authentication_and_identity_unchanged": true,
+    "native_bedrock_qualification": false,
+    "actual_run": "20261125T024626783921Z",
+    "actual_result": "SEVEN_SCENARIOS_PASS_LATER_OTTOMAN_FAIL_BATCH_NOT_PASS",
+    "input_manifest_sha256": "0e36b76fde60301607764fef5e007cabbcd55250a8f450654ef2602697196722",
+    "summary_sha256": "5df9fcee103602a656855406dc8e67fe0cf770640797979c9dcf970973e63ba4",
+    "scenario_results": [
+      {
+        "scenario": "festival_functions",
+        "status": "PASS",
+        "pass": 85,
+        "fail": [],
+        "skip": [],
+        "fixture_remains": false,
+        "unexecuted_steps": []
+      },
+      {
+        "scenario": "structures",
+        "status": "PASS",
+        "pass": 38,
+        "fail": [],
+        "skip": [],
+        "fixture_remains": false,
+        "unexecuted_steps": []
+      },
+      {
+        "scenario": "ui",
+        "status": "PASS",
+        "pass": 26,
+        "fail": [],
+        "skip": [],
+        "fixture_remains": false,
+        "unexecuted_steps": []
+      },
+      {
+        "scenario": "cargo",
+        "status": "PASS",
+        "pass": 26,
+        "fail": [],
+        "skip": [],
+        "fixture_remains": false,
+        "unexecuted_steps": []
+      },
+      {
+        "scenario": "equipment",
+        "status": "PASS",
+        "pass": 24,
+        "fail": [],
+        "skip": [],
+        "fixture_remains": false,
+        "unexecuted_steps": []
+      },
+      {
+        "scenario": "power",
+        "status": "PASS",
+        "pass": 16,
+        "fail": [],
+        "skip": [],
+        "fixture_remains": false,
+        "unexecuted_steps": []
+      },
+      {
+        "scenario": "utilities",
+        "status": "PASS",
+        "pass": 27,
+        "fail": [],
+        "skip": [],
+        "fixture_remains": false,
+        "unexecuted_steps": []
+      },
+      {
+        "scenario": "ottoman",
+        "status": "FAIL",
+        "pass": 7,
+        "fail": [
+          {
+            "detail": "IllegalStateException: Furniture is unavailable, out of reach or suspended",
+            "result": "FAIL",
+            "at": "2026-11-25T02:52:05.708488032Z",
+            "name": "Deferred Open storage rechecks permission before opening its actual container"
+          }
+        ],
+        "skip": [],
+        "fixture_remains": false,
+        "unexecuted_steps": [
+          "A storage-bound ottoman still supplies its ordinary single seat",
+          "Disconnecting the optional binding leaves the real inventory and same entitlement"
+        ]
+      }
+    ],
+    "scope": "Original optional bridge JARs preserved outside admission, direct original Paper startup and unchanged Java identity/authentication/rules. Seven completed independent passes do not erase the later ottoman failure; no native Bedrock or universal network-absence certification."
+  },
+  "release_java_protocol_proxy_optout": {
+    "status": "OFFLINE_VERIFIED_NOT_YET_RUN",
+    "scope": "Only the exact release_override root with both existing local-profile/packaged-launcher guards, or the separate already guarded Java-only gameplay mode, selects the supported optional translator opt-out. Standard/paid modes retain prior behavior.",
+    "supported_property": "-Dviaproxy.enableViaBedrock=false",
+    "wrapper_sha256": "4bd3db9064a9198f7d8efda4f3833c445fd2a43ea299d18d670896b0624583f5",
+    "offline_test_sha256": "f9750e4f6767b93f72dd9798ce9eda7befec195ca6c1bc066501c20fd5cf3885",
+    "offline_cases": 4,
+    "original_dependency_or_adapter_modified": false,
+    "requests_executed_for_validation": 0,
+    "separate_launcher_evidence": "docs/reports/LAUNCHER_JAVA_ONLY_R4.json"
+  }
+}

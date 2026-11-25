@@ -1,0 +1,80 @@
+{
+  "recorded_utc": "2026-11-25T02:19:42.204982+00:00",
+  "classification": "Source-backed diagnosis with read-only checksummed native snapshot; no live activation callback trace",
+  "failed_actual_report": "docs/reports/PAPER_FURNITURE_WORKSHOP_R4_ATTEMPT_03.json",
+  "failed_report_sha256": "6444d8a9ab96dd973a7179ec433fcdbcfb59dbfee74c65b1e738243b4eae6035",
+  "observed_after_cleanup_snapshot": {
+    "source": "integration-probe-r4/server-functional-test/plugins/SDCraftCore/vehicles/parked.snapshot",
+    "sha256": "48a40ab1d3918bac9c10ac800852adf2ea04d650463091f853fb47b04f2774a0",
+    "checksum_valid": true,
+    "format": 1,
+    "sequence": 314,
+    "total_records": 18
+  },
+  "same_bay_records": [
+    {
+      "attempt": 1,
+      "id": "34bcbde1-abe6-4dda-b68f-20f36eab6b47",
+      "model": "gtm:rickshaw_cargo",
+      "pose": [
+        6310.5,
+        220.015,
+        6307.674999702636,
+        0.0
+      ]
+    },
+    {
+      "attempt": 2,
+      "id": "1b1ae255-3636-4d35-9ae8-698db3970f59",
+      "model": "gtm:rickshaw_cargo",
+      "pose": [
+        6310.5,
+        220.015,
+        6307.674999702636,
+        0.0
+      ]
+    },
+    {
+      "attempt": 3,
+      "id": "dbbe0894-1af6-4afa-bba3-d34817828395",
+      "model": "gtm:rickshaw_cargo",
+      "pose": [
+        6310.5,
+        220.015,
+        6307.674999702636,
+        0.0
+      ]
+    }
+  ],
+  "source_facts": [
+    "GtmVehicles.records is a LinkedHashMap loaded with the older native records",
+    "commitRecord appends a new entitlement to a LinkedHashMap snapshot and preserves that order in the live records map",
+    "The old periodic loop always begins at records.values start and spends one of two attempts even when activate refuses",
+    "The exact same normal activate and hoistCollision path succeeded when cleanup directly requested lowering of the retained vehicle"
+  ],
+  "diagnosis_inference": "The two previous blocked bay records precede the newly appended held record in memory and consume the two fixed-start admission attempts. This starvation is proved independently by the new deterministic scheduling regression. The snapshot file is sorted and is not misrepresented as the live insertion order.",
+  "correction": {
+    "attempts_per_existing_20_tick_interval": 2,
+    "max_records_scanned": 512,
+    "new_auth_or_collision_exemptions": false,
+    "owned_records_deleted_or_relocated": false,
+    "new_persistence_store": false,
+    "policy": "Transient rotating cursor advances after refused attempts; all current activate guards remain authoritative"
+  },
+  "source_files": {
+    "source/src/main/java/com/sdcraft/core/GtmVehicles.java": "89d3c29a94937d77689e320fec77ede7ef77c7d1f632651292526bccfffd0183",
+    "source/src/main/java/com/sdcraft/core/vehicle/VehicleAdmissionCursor.java": "a4c50d7a9064c8da34e6877db5cf9d2e82321ccaf08f62253d504eb291f0aafa",
+    "source/src/test/java/com/sdcraft/core/vehicle/VehicleAdmissionCursorTest.java": "f0ce5b10de7220eedb51c66aae2fd5efe591b63a52e323d043ab1663e295b14e"
+  },
+  "focused_gate": {
+    "status": "PASS",
+    "tests": 74,
+    "suites": 7,
+    "new_admission_cases": 5,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "log": "docs/reports/VEHICLE_ADMISSION_RECOVERY_R4.log"
+  },
+  "actual_retry_status": "PENDING_NEW_COHERENT_CORE_AND_CONTROLLED_RUN"
+}

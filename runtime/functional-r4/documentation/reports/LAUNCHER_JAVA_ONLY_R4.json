@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "status": "PINNED_PLUGIN_EXCLUSION_18_AND_COMPLETE_LAUNCHER_FIXTURE_PASS",
+  "scope": "The18 direct filesystem/process fixtures initialize no Paper/Geyser/Floodgate classes and open no listener/network request. The subsequent complete launcher fixture runs only its small local FixtureServer and pack HTTP listener, and verifies actual exclusion/restoration. The finished ZIP receives a separate post-archive smoke receipt.",
+  "core_changed": false,
+  "configuration_authentication_key_account_world_edits": false,
+  "optional_plugins": [
+    {
+      "file": "Geyser-Spigot-2.12.1-b1308.jar",
+      "name": "Geyser-Spigot",
+      "main": "org.geysermc.geyser.platform.spigot.GeyserSpigotPlugin",
+      "sha256": "8682df3e77fd4a7e745ed671fbbb727aca32a77d89c97a50f5f77f20fdb191fa"
+    },
+    {
+      "file": "floodgate-spigot-2.2.5-b141.jar",
+      "name": "floodgate",
+      "main": "org.geysermc.floodgate.SpigotPlugin",
+      "sha256": "21570aff9ce17d6983928e8552777760e1ede5050026b04c686b0ae112e6fd7e"
+    }
+  ],
+  "source_and_fixture_hashes": {
+    "packaging/laptop/GtmLauncher.java": "f6ce2e93344c8e3d0ad9439fc8ca8757d28d4d3e0aab7c6ffd16838c854dfa3a",
+    "tools/fixtures/GtmLauncherJavaOnlyCheck.java": "70009e4df9cd844c5ab63a80a6533effa91341a89267eb42f07e7d7a0cf80853",
+    "tools/test_launcher_java_only.py": "38966abc4eda80aa0caf07684c679e79ba8c8c1f4def7acb8957f0e99a964149",
+    "tools/test_laptop_bundle.py": "555d53ef6f47a3eab3b83dd4702a535c7605dabf49ad50894479fb6a9218860c",
+    "docs/LAUNCHER_JAVA_ONLY_R4.md": "8faa55f3bcf1e27b2ab61ea6f6a4495afc84ac06fa70dd167b6c1432762a212f",
+    "docs/reports/LAUNCHER_JAVA_ONLY_FIXTURES_R4.log": "4afdaf197d951c1d63e0e0ac79efb44231a1e7a11293e55d1bad406edc6b5f51"
+  },
+  "bytecode_audit": {
+    "method": "Java25 javap -p -c, no class initialization",
+    "outputs": {
+      "integration-probe-r4/launcher-java-only-audit/AssetUtils.javap.txt": "dda2afa4349b5d870a2dad81fe03b081bd125c0e30996d01e14c1c717bc208ab",
+      "integration-probe-r4/launcher-java-only-audit/DirectoryProviderSource.javap.txt": "b676ea49374eda9561d3616f3f7da6a73a927285177154b9eb2ac551f2bc2b3b",
+      "integration-probe-r4/launcher-java-only-audit/EncryptionUtils.javap.txt": "3b1df3a132576c60b9e85ab84d8352d89b17bba9f278e12bfbce3e107d678f4f",
+      "integration-probe-r4/launcher-java-only-audit/GeyserImpl.javap.txt": "48e2f227fb1460f201ef1be99ead9ac3214533d88e42fa225ce9c060feda650c",
+      "integration-probe-r4/launcher-java-only-audit/GeyserSpigotPlugin.javap.txt": "533b62894f092f5151f98cbdb31f190d158540cf2110696b16bf9f82b8c8560d"
+    },
+    "paper_runtime_jar_sha256": "f5cfa195ce74686a119cfde524ab80d930458b3a8ad24ef4f0c0a156b2a35855",
+    "ordered_calls": [
+      {
+        "class": "GeyserImpl",
+        "method": "initialize",
+        "offset": 22,
+        "call": "EncryptionUtils.getMojangPublicKey"
+      },
+      {
+        "class": "EncryptionUtils",
+        "method": "<clinit>",
+        "offset": 42,
+        "call": "getDiscoveryData; HTTPS URL connection to Minecraft client discovery"
+      },
+      {
+        "class": "GeyserImpl",
+        "method": "initialize",
+        "offset": 193,
+        "call": "AssetUtils.generateAssetCache"
+      },
+      {
+        "class": "GeyserImpl",
+        "method": "initialize",
+        "offset": 239,
+        "call": "startInstance"
+      },
+      {
+        "class": "GeyserImpl",
+        "method": "startInstance",
+        "offset_range": [
+          298,
+          349
+        ],
+        "call": "read geyserUdpPort; -1 throws UnsupportedOperationException"
+      }
+    ],
+    "paper_scan": "DirectoryProviderSource.walkFiles: Files.walk(path,1,FOLLOW_LINKS); preserved files outside plugins are not candidates"
+  },
+  "direct_fixtures": {
+    "tests": 18,
+    "passed": 18,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 18.44,
+    "log": "docs/reports/LAUNCHER_JAVA_ONLY_FIXTURES_R4.log",
+    "log_sha256": "4afdaf197d951c1d63e0e0ac79efb44231a1e7a11293e55d1bad406edc6b5f51",
+    "original_pinned_inputs_unchanged": true,
+    "sentinel_files_unchanged": true
+  },
+  "complete_launcher_fixture": {
+    "name": "CompleteLauncherFixtures.test_20_java_only_child_excludes_exact_optional_bootstraps_and_restores_them",
+    "status": "PASS",
+    "child": "FixtureServer, no plugin classloading",
+    "packaging_gate_discovered": 38,
+    "packaging_gate_passed": 35,
+    "packaging_gate_skipped": 3,
+    "gate_log": "docs/reports/LAPTOP_FUNCTIONAL_FIXTURES.log",
+    "gate_log_sha256": "4ee5cec094295d7cef792cb80d35e9ded400d95a4ced1ecff1542e8e991a9651"
+  },
+  "peer_review": {
+    "reviewer": "runtime_probe_support",
+    "scope": "Exact descriptor/pin, manifest-bound journal, one-copy invariant, symlink/path, world/child process gates, partial PREPARED and RESTORING/RESTORED lifecycle",
+    "concrete_defects_found": 0
+  },
+  "recovery": {
+    "location": "launcher/java-only",
+    "pending": "pending.properties",
+    "completed": "history/<run-uuid>.properties",
+    "phases": [
+      "PREPARED",
+      "EXCLUDED",
+      "RUNNING",
+      "RESTORING",
+      "RESTORED"
+    ],
+    "world_locks": "All existing session.lock files, read/write exclusive nonblocking locks",
+    "child_guard": "Recorded PID/start instant plus exact Paper JAR argument scan",
+    "no_overwrite_moves": true,
+    "read_only_check": true,
+    "new_verified_downloads": false,
+    "hard_power_loss_qualified": false
+  },
+  "native_client_qualified": false,
+  "windows_execution_qualified": false,
+  "sealed_release_smoke": "Separate post-archive receipt; this evidence does not claim a prior archive run"
+}

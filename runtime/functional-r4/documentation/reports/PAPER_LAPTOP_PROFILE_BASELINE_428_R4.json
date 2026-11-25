@@ -1,0 +1,344 @@
+{
+  "status": "PASS",
+  "scenario": "PROFILE",
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "java": "25.0.5.1",
+  "started_epoch_ms": 1795566111563,
+  "account": "GtmLaptopQA",
+  "actor_is_op": false,
+  "permissions_granted_by_probe": [],
+  "ordinary_inherited_permissions": {
+    "gtm.food": true,
+    "gtm.properties": true,
+    "gtm.finishes": true,
+    "gtm.furniture": true,
+    "gtm.equipment": true,
+    "gtm.wardrobe": true,
+    "gtm.phone": true,
+    "gtm.signs": true,
+    "gtm.vehicles.use": true
+  },
+  "checks": [
+    {
+      "name": "Actual workshop blocks, inherited permissions, spawn and durable starter auto",
+      "at": "2026-11-25T00:21:51.570552263Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    },
+    {
+      "name": "Ordinary phone command opens all 24 apps and property purchase menu",
+      "at": "2026-11-25T00:21:51.714444275Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    },
+    {
+      "name": "Property review offers the real 100 ARK local parcel",
+      "at": "2026-11-25T00:21:51.841060237Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    },
+    {
+      "name": "Actual plain-state bed is accepted by normal paid-shop backing validation",
+      "at": "2026-11-25T00:21:51.998767224Z",
+      "result": "PASS",
+      "detail": "Both actual bed halves are non-TileState; the ordinary property/complete-bed/backing check accepts them without writing entitlement or forcing sleep."
+    },
+    {
+      "name": "Property purchase commits exact debit and ordinary ownership",
+      "at": "2026-11-25T00:21:52.023805973Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    },
+    {
+      "name": "Furniture review charges through the ordinary paid asset outbox",
+      "at": "2026-11-25T00:21:52.141029561Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    },
+    {
+      "name": "Paid storage entitlement is delivered once and appears in owned controls",
+      "at": "2026-11-25T00:21:52.292971033Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    },
+    {
+      "name": "Owned furniture GUI starts the real backing selection",
+      "at": "2026-11-25T00:21:52.442986211Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    },
+    {
+      "name": "Actual sight targeting connects the surveyed empty barrel",
+      "at": "2026-11-25T00:21:52.597943590Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    },
+    {
+      "name": "Owned furniture GUI starts floor placement",
+      "at": "2026-11-25T00:21:52.740906683Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    },
+    {
+      "name": "Ordinary floor selection places the paid model inside the real claim",
+      "at": "2026-11-25T00:21:52.900406090Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    },
+    {
+      "name": "Owned model Use control opens the real storage backing",
+      "at": "2026-11-25T00:21:53.043153556Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    },
+    {
+      "name": "Functional model exposes its actual barrel inventory",
+      "at": "2026-11-25T00:21:53.233077030Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    },
+    {
+      "name": "Counter meal is reviewed before normal payment",
+      "at": "2026-11-25T00:21:53.341533180Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    },
+    {
+      "name": "Meal stock and payment create a real preparation ticket",
+      "at": "2026-11-25T00:21:53.492671943Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    },
+    {
+      "name": "Prepared food is collected through the public counter menu",
+      "at": "2026-11-25T00:22:10.495681517Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    },
+    {
+      "name": "Paid food reaches inventory and actual Paper consumption begins",
+      "at": "2026-11-25T00:22:10.661312876Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    },
+    {
+      "name": "Actual server ticks consume the paid meal and apply its nutrition",
+      "at": "2026-11-25T00:22:13.646805830Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    },
+    {
+      "name": "Ordinary sign categories and original catalogue open",
+      "at": "2026-11-25T00:22:13.792580236Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    },
+    {
+      "name": "Original sign design is claimed through its normal interface",
+      "at": "2026-11-25T00:22:13.941427007Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    },
+    {
+      "name": "Owned sign begins normal wall targeting",
+      "at": "2026-11-25T00:22:14.092130033Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    },
+    {
+      "name": "Actual wall ray trace mounts the sign on the supplied claim wall",
+      "at": "2026-11-25T00:22:14.264962658Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    },
+    {
+      "name": "Two actual map frames appear and their normal interaction opens information",
+      "at": "2026-11-25T00:22:15.495494080Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    },
+    {
+      "name": "Physical sign information is usable by the ordinary owner",
+      "at": "2026-11-25T00:22:15.640796969Z",
+      "result": "PASS",
+      "detail": "Ordinary non-OP game rules; menu/block events and view/position are explicit server-API test inputs."
+    }
+  ],
+  "unexecuted_steps": [],
+  "actual_block_states": [
+    {
+      "actual": "minecraft:barrel[facing=up,open=false]",
+      "position": [
+        -178,
+        68,
+        -74
+      ]
+    },
+    {
+      "actual": "minecraft:smoker[facing=south,lit=false]",
+      "position": [
+        -176,
+        68,
+        -74
+      ]
+    },
+    {
+      "actual": "minecraft:furnace[facing=south,lit=false]",
+      "position": [
+        -174,
+        68,
+        -74
+      ]
+    },
+    {
+      "actual": "minecraft:brewing_stand[has_bottle_0=false,has_bottle_1=false,has_bottle_2=false]",
+      "position": [
+        -172,
+        68,
+        -74
+      ]
+    },
+    {
+      "actual": "minecraft:water_cauldron[level=3]",
+      "position": [
+        -178,
+        68,
+        -71
+      ]
+    },
+    {
+      "actual": "minecraft:light[level=15,waterlogged=false]",
+      "position": [
+        -176,
+        69,
+        -71
+      ]
+    },
+    {
+      "actual": "minecraft:lever[face=wall,facing=west,powered=false]",
+      "position": [
+        -174,
+        68,
+        -71
+      ]
+    },
+    {
+      "actual": "minecraft:redstone_lamp[lit=false]",
+      "position": [
+        -173,
+        68,
+        -71
+      ]
+    },
+    {
+      "actual": "minecraft:oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]",
+      "position": [
+        -172,
+        68,
+        -71
+      ]
+    },
+    {
+      "actual": "minecraft:red_bed[facing=south,occupied=false,part=foot]",
+      "position": [
+        -178,
+        68,
+        -69
+      ]
+    },
+    {
+      "actual": "minecraft:red_bed[facing=south,occupied=false,part=head]",
+      "position": [
+        -178,
+        68,
+        -68
+      ]
+    },
+    {
+      "actual": "minecraft:smooth_stone",
+      "position": [
+        -185,
+        68,
+        -73
+      ]
+    },
+    {
+      "actual": "minecraft:smooth_stone",
+      "position": [
+        -184,
+        68,
+        -73
+      ]
+    },
+    {
+      "actual": "minecraft:bricks",
+      "position": [
+        -174,
+        68,
+        -68
+      ]
+    },
+    {
+      "actual": "minecraft:bricks",
+      "position": [
+        -174,
+        69,
+        -68
+      ]
+    },
+    {
+      "actual": "minecraft:bricks",
+      "position": [
+        -174,
+        70,
+        -68
+      ]
+    },
+    {
+      "actual": "minecraft:bricks",
+      "position": [
+        -173,
+        68,
+        -68
+      ]
+    },
+    {
+      "actual": "minecraft:bricks",
+      "position": [
+        -173,
+        69,
+        -68
+      ]
+    },
+    {
+      "actual": "minecraft:bricks",
+      "position": [
+        -173,
+        70,
+        -68
+      ]
+    }
+  ],
+  "initial_bank_cents": 100000,
+  "observed_final_bank_cents": 75500,
+  "expected_total_debit_cents": 24500,
+  "paid_property": "b950b3dd-d13d-5990-a296-b5b7ae04edec",
+  "paid_furniture": "2616b5b0-70f8-420d-aea3-ad5089349fc8",
+  "paid_food_order": "474f3fd1-0304-498e-990f-d644f43eb428",
+  "owned_sign": "b53050e9-fe38-4d13-9261-6ac2babeb665",
+  "actual_consume_events": 1,
+  "fixture_blocks_written_by_probe": 0,
+  "wheelchair_id": null,
+  "wheelchair_evidence": [],
+  "injected_player_input_events": 0,
+  "received_player_input_events": 0,
+  "scaffolding": [
+    "View and position teleportation on the disposable profile",
+    "Injected InventoryClickEvent and block/entity interaction events through registered listeners",
+    "Existing paid food selected in its real hotbar slot; hunger temporarily set to10 for actual Paper item use and restored afterward"
+  ],
+  "retained_state": "Ordinary paid property, furniture, sign and receipts remain only in this disposable clone. No account/bank/ownership record is edited by the companion. Motion parks the same existing furniture entitlement.",
+  "native_java_client_verified": false,
+  "native_bedrock_client_verified": false,
+  "classification": "Actual Paper local-profile acceptance with a normally authenticated non-OP player; no native-client rendering, cushion fit or human control certification."
+}

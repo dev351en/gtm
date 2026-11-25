@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "run": "20261125T013423Z",
+  "mode": "--java-only",
+  "checks": 10,
+  "core_sha256": "0b49d8e47935b4693f409ad51168a4a292f54b4536dc58ce717ab0bc45209d5c",
+  "launcher_sha256": "831d75109499d782a42eafe51dcf829e6f4609801e23de9bcddbc99315a2fc49",
+  "integrity_manifest_sha256": "c432f3be05df587bd6023127a7ade719c7b75aa6e21632eb22f6f673b78b8b5e",
+  "java_pack_sha256": "a128ec755a1a0d55fdfe9684337ec6f5b895a60e8e81792799a352edf5dbbfab",
+  "report": "PAPER_PACKAGED_LAUNCHER_RESTART_R4.json",
+  "report_sha256": "9b3fa2aa2a2f3cf03f99ed25373c3c65e1c6d5a648169597980e6e2704ba3ac9",
+  "test_only_plugins_installed": false,
+  "launcher_modified": false,
+  "core_or_integrity_manifest_modified": false,
+  "synthetic_account": "GtmLaptopQA",
+  "bank_cents": 50428,
+  "actual_startup_and_protocol_ui": true,
+  "native_java_or_bedrock_renderer": false,
+  "windows_execution_tested": false,
+  "geyser_disabled_by_documented_java_only_mode": true
+}

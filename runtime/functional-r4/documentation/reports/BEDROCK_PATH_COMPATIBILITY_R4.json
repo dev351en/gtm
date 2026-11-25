@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "Exact complete merged Bedrock archive path compatibility; native Bedrock import/rendering is not verified",
+  "bedrock_pack_sha256": "d02cc8f41f6f97799dedab824b6fd23049c01556475e0031a50824543b507aab",
+  "archive_entries": 12170,
+  "maximum_utf8_path_bytes": 72,
+  "longest_path": "models/entity/rd/vt_skylink_terminal_machinery_normal_bullwheel.geo.json",
+  "rejected_threshold_bytes": 80,
+  "catalogue_entries": 3554,
+  "structures_technical_bindings": 27,
+  "original_native128_art_changed": false,
+  "native_bedrock_client_verified": false,
+  "world_display_bindings": 1934
+}

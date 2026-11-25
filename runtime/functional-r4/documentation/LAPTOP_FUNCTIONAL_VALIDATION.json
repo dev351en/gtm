@@ -1,0 +1,42 @@
+{
+  "status": "OFFLINE_PACKAGING_AND_RETAINED_PROFILE_VERIFIED",
+  "complete_packaging_fixtures": {
+    "discovered": 38,
+    "passed": 35,
+    "skipped": 3,
+    "failures": 0,
+    "errors": 0,
+    "skipped_cases": [
+      "test_12_actual_private_interface_tcp_and_udp_conflicts (test_laptop_bundle.CompleteLauncherFixtures.test_12_actual_private_interface_tcp_and_udp_conflicts)",
+      "test_13_bedrock_preflight_reports_effective_bind_and_rejects_each_busy_port (test_laptop_bundle.CompleteLauncherFixtures.test_13_bedrock_preflight_reports_effective_bind_and_rejects_each_busy_port)",
+      "test_14_real_child_receives_exact_effective_geyser_overrides (test_laptop_bundle.CompleteLauncherFixtures.test_14_real_child_receives_exact_effective_geyser_overrides)"
+    ],
+    "reason": "No eligible private IPv4 interface in this environment; no Windows/native client execution is inferred",
+    "log": "reports/LAPTOP_FUNCTIONAL_FIXTURES.log",
+    "log_sha256": "4ee5cec094295d7cef792cb80d35e9ded400d95a4ced1ecff1542e8e991a9651"
+  },
+  "genuine_java_only_exclusion": {
+    "dedicated_offline_cases": 18,
+    "failures": 0,
+    "errors": 0,
+    "skips": 0,
+    "source_sha256": "f6ce2e93344c8e3d0ad9439fc8ca8757d28d4d3e0aab7c6ffd16838c854dfa3a",
+    "actual_pinned_jar_complete_launcher_child_fixture": "PASS; both optional bootstrap descriptors absent in child, original bytes restored after exit",
+    "evidence": "reports/LAUNCHER_JAVA_ONLY_R4.json"
+  },
+  "local_profile_fixtures": 13,
+  "depot_geometry_fixtures": 4,
+  "retained_ordinary_profile_checks": 24,
+  "retained_ordinary_depot_history": {
+    "initial_pass": 65,
+    "initial_harness_fail": 1,
+    "corrected_continuation_pass": 20,
+    "same_paid_state_preserved": true
+  },
+  "historical_packaged_launcher_restart_checks": 10,
+  "fresh_finished_archive_smoke": "Performed only after exact ZIP assembly; consult accompanying release receipt for final artifact hash and actual result",
+  "native_windows_execution": false,
+  "native_java_client_rendering": false,
+  "native_bedrock_client_rendering": false,
+  "protected_daytona_writes": false
+}

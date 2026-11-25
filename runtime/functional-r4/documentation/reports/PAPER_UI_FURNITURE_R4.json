@@ -1,0 +1,195 @@
+{
+  "status": "PASS",
+  "started_epoch_ms": 1795575033403,
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "java": "25.0.5.1",
+  "core_version": "1.0.3-r4-functional-candidate",
+  "test_account": "GtmQAR4",
+  "checks": [
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:33.432894840Z",
+      "name": "Inspect empty isolated fixture volume before edits"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:33.468575855Z",
+      "name": "Create bounded platform and real backing blocks"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:33.517122119Z",
+      "name": "Phone home exposes all24 exact native app models"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:33.618739480Z",
+      "name": "Real inventory event opens phone settings"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:33.729558305Z",
+      "name": "Settings event changes and durably saves map layout"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:34.210676184Z",
+      "name": "Live map item uses real Paper MapView and renderer"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:34.248085685Z",
+      "name": "Queued phone menu callback rechecks revoked permission"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:34.269777960Z",
+      "name": "Real inventory event opens sign categories"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:34.307865635Z",
+      "name": "Real inventory event opens original sign catalogue"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:34.455769949Z",
+      "name": "Sign claim creates exactly one durable owned design"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:34.510084638Z",
+      "name": "Owned sign admits two real protected map frames"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:34.608975070Z",
+      "name": "Real sign adapter rejects revoked access without losing placement"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:34.752275454Z",
+      "name": "Sign upload boundary rejects wrong grid and saves valid owner image"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:34.816712820Z",
+      "name": "Public physical news API excludes private account notices"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:34.922090077Z",
+      "name": "Real smoker binding rejects an ordinary barrel"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:35.019356250Z",
+      "name": "Placed smoker opens the real bound vanilla inventory"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:41.529463628Z",
+      "name": "Vanilla smoker actually processes a fixture ingredient"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:41.623566971Z",
+      "name": "Native display placement exposes saved controls in the owned GUI"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:41.708194143Z",
+      "name": "Owned display menu starts a connection-bound text entry"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:41.807956968Z",
+      "name": "Actual registered chat listener receives bounded fixture text"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:41.907888220Z",
+      "name": "Text callback reaches real placed furniture settings"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:42.019804767Z",
+      "name": "Exact Paper collisionless LIGHT targeting succeeds"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:42.114566359Z",
+      "name": "Light control changes a real LIGHT level and removal restores it"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:42.208265041Z",
+      "name": "Real floor ray trace places the authored minimum on support"
+    },
+    {
+      "detail": "Actual Paper server API; synthetic events are explicitly injected, not native-client rendering.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:42.316616632Z",
+      "name": "Menu cleanup callbacks close real owned interfaces"
+    },
+    {
+      "detail": "Unplaced QA ownership records and explicit test news remain only in this cloned server.",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:42.444618176Z",
+      "name": "Restore inspected air volume and original QA inventory/preferences"
+    }
+  ],
+  "unexecuted_steps": [],
+  "fixture_inspection": {
+    "allowed": true,
+    "occupied_samples": [],
+    "inspected_blocks": 2888,
+    "entities": 0,
+    "explicitly_loaded_chunks": [
+      "312,312",
+      "312,313",
+      "313,312",
+      "313,313"
+    ],
+    "bounds": [
+      4996,
+      219,
+      4996,
+      5015,
+      227,
+      5015
+    ]
+  },
+  "fixture_remains": false,
+  "qa_furniture_grants": [
+    "cd7aba1b-328f-47b8-b94e-6bbb731ebb40",
+    "c9d37777-26b7-488c-9d1b-c517062f9db5",
+    "df3e70c8-cf98-4c1d-b523-167ac8b76def"
+  ],
+  "qa_sign": "573ccebd-89ac-4e3c-aace-21d89bc855df",
+  "classification": "Actual Paper server API and injected event probes with a normally authenticated protocol player; not native Java/Bedrock rendering or complete gameplay qualification"
+}

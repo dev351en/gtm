@@ -1,0 +1,416 @@
+{
+  "status": "PASS",
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "expected_checks": 38,
+  "checks": [
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:12.081270925Z",
+      "name": "Inspect and journal the exact empty 45 by 45 structural fixture before edits"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:12.190886986Z",
+      "name": "Place six actual owned structures including a stage targeted at its real existing floor"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:12.315538208Z",
+      "name": "Normal projection ticks publish exact technical selectors, native geometry scale and post controls"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:12.570131690Z",
+      "name": "The wide arch menu uses its actual accessible post beyond the old centre reach"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:12.807881479Z",
+      "name": "A fresh post menu callback changes the actual owned decoration display"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:13.062378044Z",
+      "name": "Queued post control is revoked before the callback runs"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:13.308868682Z",
+      "name": "Permission loss preserves settings and rejects current use without bypassing ordinary reconstruction"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:13.560278952Z",
+      "name": "Restored permission reconstructs real projections with the actor standing inside the open arch"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:13.890830477Z",
+      "name": "An intervening native wall denies the actual post sight line and preserves the setting"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:14.065804568Z",
+      "name": "A stale menu away from the actual post cannot operate the wide structure"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:14.308012896Z",
+      "name": "The delayed remote action preserves the saved structure setting"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:14.575803512Z",
+      "name": "Begin a received-client walk through the full-size gateway opening"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:17.057589923Z",
+      "name": "Real client packets traverse the gateway without a teleport or filled-box obstruction"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:17.309377259Z",
+      "name": "Actual post and header solids reject explicit negative collision-guard events"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:17.562203560Z",
+      "name": "Begin a received-client walk through the full-size street arch"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:20.057524825Z",
+      "name": "Real client packets cross the full-size arch under its authored beam"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:20.310496984Z",
+      "name": "Begin a received-client walk through the native-size Independence gateway"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:22.057479316Z",
+      "name": "The later gateway admits an upright player while flexible ornaments remain visual"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:22.309747344Z",
+      "name": "Begin a received-client walk through the native-size midnight light arch"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:24.057676278Z",
+      "name": "The midnight arch remains traversable with a real reserved LIGHT backing"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:24.315927477Z",
+      "name": "The light arch changes its actual bound native light to level nine"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:24.564982782Z",
+      "name": "The ordinary light switch turns the real output off"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:24.816860885Z",
+      "name": "The ordinary light switch restores its saved finite brightness"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:25.061703681Z",
+      "name": "The tarp retains its actual solid counter and exposes the real accessible food-counter point"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:25.308815476Z",
+      "name": "The bandstand uses exactly seventy-eight existing full floor blocks"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:25.559377414Z",
+      "name": "Begin a received-client walk from a same-height real approach onto the stage"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:27.057576770Z",
+      "name": "The real player walks onto the backed stage without teleportation or artificial gravity"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:27.308601491Z",
+      "name": "Continue received-client walking across the actual stage floor"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:28.307651743Z",
+      "name": "Actual vanilla support keeps the player at the authored stage height"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:28.562982813Z",
+      "name": "Remove one journaled native platform cell after moving the actor clear"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:29.064505257Z",
+      "name": "Missing native support suspends the projection while retaining the exact owned placement"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:29.558137470Z",
+      "name": "Restored real support reconstructs the same stage through ordinary server ticks"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:29.811327071Z",
+      "name": "A fresh native snapshot reader retains all six exact geometry revisions and identities"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:30.066020389Z",
+      "name": "An owner at the actual distant post rotates the full arch through normal placement checks"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:30.309955180Z",
+      "name": "The rotated projection matches its solids and exposes the newly rotated post"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:32.807523946Z",
+      "name": "Real client movement crosses the rotated opening along the matching axis"
+    },
+    {
+      "detail": "Actual Paper world, native projections and recorded received-client walks; fixture grants/positioning and explicit negative menu/move events are test scaffolding",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:33.069901468Z",
+      "name": "Removal from the rotated post keeps the original owned identity and geometry revision"
+    },
+    {
+      "detail": "Original blocks, inventory and player mode restored; the six exact QA identities remain unplaced in the disposable clone",
+      "result": "PASS",
+      "at": "2026-11-25T02:50:33.386864801Z",
+      "name": "Restore every fixture cell and native backing while retaining the six original owned entitlements"
+    }
+  ],
+  "failed_steps": [],
+  "unexecuted_steps": [],
+  "cleanup_complete": true,
+  "fixture_remains": false,
+  "fixture_inspection": {
+    "allowed": true,
+    "bounds": [
+      7424,
+      219,
+      7424,
+      7469,
+      236,
+      7469
+    ],
+    "inspected_blocks": 34425,
+    "entities": 0,
+    "occupied": []
+  },
+  "projection_state": {
+    "gateway": false,
+    "arch": false,
+    "stage": false,
+    "native_gateway": false,
+    "light_arch": false,
+    "tarp": false,
+    "furniture_permission": true,
+    "actor": {
+      "x": 10.5,
+      "z": 3.5,
+      "y": 70.0
+    },
+    "walk": null,
+    "walk_moves": 47,
+    "walk_teleports": 0,
+    "walk_maximum_step": 0.14893617021334649
+  },
+  "received_client_walks": [
+    {
+      "key": "gateway_opening",
+      "accepted_distance": 7.0,
+      "teleport_events": 0,
+      "maximum_step": 0.14893617021334649,
+      "to": {
+        "x": 7434.5,
+        "z": 7438.5,
+        "y": 220.0
+      },
+      "from": {
+        "x": 7434.5,
+        "z": 7431.5,
+        "y": 220.0
+      },
+      "elapsed_ms": 2482,
+      "move_events": 47
+    },
+    {
+      "key": "street_arch_opening",
+      "accepted_distance": 7.0,
+      "teleport_events": 0,
+      "maximum_step": 0.14893617021334649,
+      "to": {
+        "x": 7454.5,
+        "z": 7438.5,
+        "y": 220.0
+      },
+      "from": {
+        "x": 7454.5,
+        "z": 7431.5,
+        "y": 220.0
+      },
+      "elapsed_ms": 2496,
+      "move_events": 47
+    },
+    {
+      "key": "independence_opening",
+      "accepted_distance": 5.0,
+      "teleport_events": 0,
+      "maximum_step": 0.14705882352973276,
+      "to": {
+        "x": 7454.5,
+        "z": 7456.5,
+        "y": 220.0
+      },
+      "from": {
+        "x": 7454.5,
+        "z": 7451.5,
+        "y": 220.0
+      },
+      "elapsed_ms": 1747,
+      "move_events": 34
+    },
+    {
+      "key": "light_arch_opening",
+      "accepted_distance": 5.0,
+      "teleport_events": 0,
+      "maximum_step": 0.14705882352973276,
+      "to": {
+        "x": 7454.5,
+        "z": 7463.5,
+        "y": 220.0
+      },
+      "from": {
+        "x": 7454.5,
+        "z": 7458.5,
+        "y": 220.0
+      },
+      "elapsed_ms": 1748,
+      "move_events": 34
+    },
+    {
+      "key": "bandstand_entry",
+      "accepted_distance": 4.0,
+      "teleport_events": 0,
+      "maximum_step": 0.1481481481487208,
+      "to": {
+        "x": 7435.5,
+        "z": 7452.5,
+        "y": 223.0
+      },
+      "from": {
+        "x": 7435.5,
+        "z": 7448.5,
+        "y": 223.0
+      },
+      "elapsed_ms": 1498,
+      "move_events": 27
+    },
+    {
+      "key": "bandstand_cross",
+      "accepted_distance": 3.0,
+      "teleport_events": 0,
+      "maximum_step": 0.1500000000005457,
+      "to": {
+        "x": 7438.5,
+        "z": 7452.5,
+        "y": 223.0
+      },
+      "from": {
+        "x": 7435.5,
+        "z": 7452.5,
+        "y": 223.0
+      },
+      "elapsed_ms": 999,
+      "move_events": 20
+    },
+    {
+      "key": "rotated_arch_opening",
+      "accepted_distance": 7.0,
+      "teleport_events": 0,
+      "maximum_step": 0.14893617021334649,
+      "to": {
+        "x": 7458.5,
+        "z": 7434.5,
+        "y": 220.0
+      },
+      "from": {
+        "x": 7451.5,
+        "z": 7434.5,
+        "y": 220.0
+      },
+      "elapsed_ms": 2498,
+      "move_events": 47
+    }
+  ],
+  "qa_furniture": {
+    "gateway": "a911b7aa-b3cc-4825-bffe-a1ed055b387a",
+    "arch": "34327292-5918-463c-86b5-bf4822cadf7c",
+    "stage": "b5d4de85-abc4-433d-8337-a9ebe0037d44",
+    "native_gateway": "dcb34a59-e991-4702-937c-671c882fc3bb",
+    "light_arch": "e1f627e2-3787-43fc-b780-3d831246721b",
+    "tarp": "cb9c7df3-10b3-4d52-8602-412960dafa0b"
+  },
+  "models": {
+    "gateway": "gtm:diwali_gateway",
+    "stage": "gtm:diwali_bandstand",
+    "tarp": "gtm:street_market_tarp",
+    "light_arch": "gtm:new_year_midnight_light_arch",
+    "arch": "gtm:diwali_street_arch",
+    "native_gateway": "gtm:independence_day_civic_gateway"
+  },
+  "classification": "Six representative actual Paper structures and seven real received protocol walks. Unit/resource checks cover the exact 27-model allowlist. Existing native stage blocks, real bound light and current authorization are observed. Direct grants, setup positioning, private menu opening, temporary world edits and negative move/menu events are explicit disposable-fixture scaffolding. No native Java/Bedrock renderer, human input, physical rain shielding, paid tarp order or JVM/power-loss durability claim."
+}

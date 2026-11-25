@@ -1,0 +1,301 @@
+{
+  "command": "python /workspace/scratch/d7d343b39c16/toolchains/run-gtm-gradle.py check jar",
+  "working_directory": "source",
+  "exit_code": 0,
+  "build_log": "reports/INTERACTION_FINAL_BUILD.log",
+  "source_sha256": "d3880782715a64f9f54024a61f7e5f79f09c899ad24b50253a02e392a61e6ef9",
+  "source_digest_file": "reports/INTERACTION_SOURCE_DIGEST.json",
+  "source_file_count": 115,
+  "source_changed_during_check": [],
+  "junit": {
+    "tests": 181,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "test_suites": [
+    {
+      "name": "com.sdcraft.core.AssetPurchaseTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.sdcraft.core.AtomicYamlStoreTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.sdcraft.core.CityRosterTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.sdcraft.core.CreativeArsenalAndHologramTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "Bilingual Dialogue & Intent Engine Unit Tests",
+      "tests": 39,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.sdcraft.core.FinishLedgerTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.sdcraft.core.GtmAssetCatalogTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.sdcraft.core.GtmFoodLedgerTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.sdcraft.core.GtmLedgerTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.sdcraft.core.ItemDeliveryTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "Ledger Financial & Security Unit Tests",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.sdcraft.core.MapAndGpsTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.sdcraft.core.MedicalSettlementTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.sdcraft.core.MissionSettlementTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.sdcraft.core.NpcPopulationTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "Policy Engine Deterministic Policy Tests",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "Restoration Engine & Firearms Unit Tests",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "Surface Spawn & GTA Starter Kit Policy Tests",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.sdcraft.core.VaultWalletTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.sdcraft.core.furniture.FurnitureRuntimeTest",
+      "tests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.sdcraft.core.gtm.AuthenticationStateTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.sdcraft.core.gtm.AuthenticationStoreTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.sdcraft.core.gtm.RegionBoundsTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.sdcraft.core.vehicle.RoadVehicleRuntimeTest",
+      "tests": 21,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "jars": [
+    {
+      "path": "source/build/libs/SDCraftCore-1.0.2-r4-interactions-candidate.jar",
+      "size": 627146,
+      "sha256": "14231bdedace63be6f37a282c78d45afa39bd22e3beefbbd5810adfbc99afe78"
+    }
+  ],
+  "live_client_tested": false,
+  "smoke_assertions_passed": 155,
+  "smoke_checks": {
+    "civic": 78,
+    "foundation": 36,
+    "infrastructure": 29,
+    "near-miss": 12
+  },
+  "recorded_at_utc": "2026-11-24T21:57:41.490526+00:00",
+  "version": "1.0.2-r4-interactions-candidate",
+  "target": {
+    "paper": "26.3.build.255-stable",
+    "java": 25,
+    "gradle": "9.2.1"
+  },
+  "source_base_commit": "560dcef9df1c3883f49b68597d43f188337a111b",
+  "branch": "gtm/playable-r4",
+  "reproduction_command": "cd source && gradle --no-daemon check jar",
+  "bindings": {
+    "unique_model_ids": 460,
+    "road_profiles": 65,
+    "furniture_profiles": 200,
+    "missing_java_item_models": [],
+    "missing_bedrock_paper_bindings": []
+  },
+  "source_profile_check": {
+    "command": "python3 tools/build_vehicle_runtime_profiles.py --check",
+    "road_profiles": 65,
+    "state_transforms": 260,
+    "passed": true
+  },
+  "isolated_menu_probe": {
+    "mockbukkit": "4.124.0",
+    "paper_mock_api": "26.3.build.200-stable",
+    "passed": 12,
+    "failed": 0,
+    "unsupported": 2,
+    "scope": "Actual final menu and targeting code with a fake backend; not full module or target-client validation.",
+    "unsupported_paths": [
+      "LIGHT targeting stops at wall",
+      "Visible collisionless LIGHT targeting"
+    ],
+    "exact_target_mock_status": "Cannot initialize: missing minecraft:world_clock registry fixture."
+  },
+  "runtime_feature_defaults": {
+    "vehicles.enabled": false,
+    "vehicles.all-road-models": false,
+    "furniture.enabled": false,
+    "furniture.services": [
+      "bank"
+    ],
+    "furniture.allow-public-staging-placement": false
+  },
+  "module_scope": {
+    "road_profiles": 65,
+    "initial_autorickshaw_profiles": 3,
+    "other_transport_without_native_runtime": 22,
+    "furniture_registry": 200,
+    "furniture_implemented_or_conditional": 79,
+    "furniture_bank_only_allowlist": 73,
+    "furniture_unsupported": 121
+  },
+  "not_run": [
+    "Actual Paper world startup",
+    "Native Java client gameplay",
+    "Bedrock client gameplay",
+    "Windows launcher execution",
+    "Multiplayer performance benchmark",
+    "Full crash fault-injection campaign",
+    "Current private Daytona export or deployment"
+  ],
+  "owner_eula_accepted_by_agent": false,
+  "artifacts": {
+    "core": {
+      "path": "source/build/libs/SDCraftCore-1.0.2-r4-interactions-candidate.jar",
+      "size_bytes": 627146,
+      "sha256": "14231bdedace63be6f37a282c78d45afa39bd22e3beefbbd5810adfbc99afe78"
+    },
+    "java_pack": {
+      "path": "build/runtime-packs/GTM_Runtime_128_Java.zip",
+      "size_bytes": 13449648,
+      "sha256": "6dd9b5cb653918956ed2b099f768b8bb91033c7d8ad0475606d77f6ba45d9334"
+    },
+    "bedrock_pack": {
+      "path": "build/runtime-packs/GTM_Runtime_128_Bedrock.mcpack",
+      "size_bytes": 8412504,
+      "sha256": "cee842bdbcacb03d3f45e7808febf1120cfd64ee50ca71725e92f10913ea0363"
+    },
+    "mappings": {
+      "path": "build/runtime-packs/gtm_runtime_mappings.json",
+      "size_bytes": 323130,
+      "sha256": "36d0893d4a86f3a61c2385d44b729a848cdaae9d28b83df69accee53e1a6f702"
+    },
+    "primary_model_status": {
+      "path": "docs/reports/PRIMARY_MODEL_FUNCTIONALITY_R4.csv",
+      "size_bytes": 400731,
+      "sha256": "bc3a231b5ef7d32fb7a1bcc19cd2f1f2620eabbcd3b86c83c29a8bb8b3bfe215"
+    }
+  },
+  "jar_validation": {
+    "crc": "passed",
+    "class_major_versions": [
+      69
+    ],
+    "descriptor_version": "1.0.2-r4-interactions-candidate",
+    "embedded_catalogues_match_source": true
+  },
+  "build_log_note": "Committed transcript normalizes trailing whitespace only; the original runner log is retained in the local toolchain evidence."
+}

@@ -1,0 +1,298 @@
+{
+  "status": "FAIL",
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "started_epoch_ms": 1795570978251,
+  "expected_checks": 50,
+  "checks": [
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:42:58.418920131Z",
+      "name": "Inspect actual empty paid depot barrels and supported cargo floor"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:42:58.582760736Z",
+      "name": "Ordinary furniture shop opens for paid source"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:42:58.753193027Z",
+      "name": "Normal paged catalog selects gtm:clothes_valet"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:42:58.853040523Z",
+      "name": "Normal positive local price buys source"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:42:58.972133738Z",
+      "name": "Paid asset outbox delivers exactly one source"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:42:59.125022356Z",
+      "name": "Owned source controls select the actual barrel"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:42:59.274083535Z",
+      "name": "Normal source backing selection begins"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:42:59.431198181Z",
+      "name": "Actual sight selection binds the real source barrel"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:42:59.573180972Z",
+      "name": "Normal source floor selection begins"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:42:59.728353745Z",
+      "name": "Owned source model appears beside its real storage"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:42:59.893270963Z",
+      "name": "Ordinary furniture shop opens for paid destination"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:00.028818500Z",
+      "name": "Normal paged catalog selects gtm:clothes_valet"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:00.585654954Z",
+      "name": "Normal positive local price buys destination"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:00.752117912Z",
+      "name": "Paid asset outbox delivers exactly one destination"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:00.786736052Z",
+      "name": "Owned destination controls select the actual barrel"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:00.921567664Z",
+      "name": "Normal destination backing selection begins"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:01.075213185Z",
+      "name": "Actual sight selection binds the real destination barrel"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:01.221125808Z",
+      "name": "Normal destination floor selection begins"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:01.378065887Z",
+      "name": "Owned destination model appears beside its real storage"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:01.533692266Z",
+      "name": "Ordinary furniture shop opens for paid nest"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:01.975130625Z",
+      "name": "Normal paged catalog selects gtm:shopping_cart_nest"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:02.121311576Z",
+      "name": "Normal positive local price buys nest"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:02.271911145Z",
+      "name": "Paid asset outbox delivers exactly one nest"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:02.424278330Z",
+      "name": "Owned nest controls select its normal floor placement"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:02.622161664Z",
+      "name": "The fixed original cart nest uses the actual supplied depot floor"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:02.961299824Z",
+      "name": "Actual ray targeting places the single paid original nest"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:02.994477227Z",
+      "name": "Normal owner rotation prepares the reviewed cart direction"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:03.077648017Z",
+      "name": "Second normal cardinal rotation leaves the original nest facing south"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:03.227905658Z",
+      "name": "The cart nest opens its actual borrow controls rather than a generic garage"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:03.823070610Z",
+      "name": "Borrow creates one component while preserving original entitlement and home"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:04.022089695Z",
+      "name": "Real counter menu reviews a new purchased chai"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:04.121552389Z",
+      "name": "Ordinary food review pays the configured counter price"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:04.273128986Z",
+      "name": "A real paid preparation ticket precedes food delivery"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:21.282788150Z",
+      "name": "Normal preparation completes before ordinary counter pickup"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:21.691218519Z",
+      "name": "The paid outbox provides exactly one new real consumable"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:21.886320389Z",
+      "name": "Actual supplied containers are commissioned through ordinary owner controls"
+    },
+    {
+      "detail": "Actual ordinary non-OP paid profile; declared menu/input events and stopped setup positions. No native rendered-client claim.",
+      "result": "PASS",
+      "at": "2026-11-25T01:43:22.083118870Z",
+      "name": "One paid stack enters exclusive real custody with two locked endpoints"
+    },
+    {
+      "detail": "IllegalStateException: Timed out: On-foot input moves the short cart and actual load incrementally",
+      "result": "FAIL",
+      "at": "2026-11-25T01:43:32.272306145Z",
+      "name": "On-foot input moves the short cart and actual load incrementally"
+    }
+  ],
+  "account": "GtmLaptopQA",
+  "initial_bank_cents": 50428,
+  "observed_bank_cents": 49128,
+  "expected_debit_cents": 1300,
+  "paid_furniture": [
+    {
+      "kind": "furniture",
+      "price_cents": 100,
+      "model": "gtm:clothes_valet",
+      "key": "source",
+      "id": "c7cd86af-9ad4-4690-aa68-93024295dd6e"
+    },
+    {
+      "kind": "furniture",
+      "price_cents": 100,
+      "model": "gtm:clothes_valet",
+      "key": "destination",
+      "id": "14e1c402-8dd7-4f53-8d36-e713fa98e254"
+    },
+    {
+      "kind": "furniture",
+      "price_cents": 100,
+      "model": "gtm:shopping_cart_nest",
+      "key": "nest",
+      "id": "d149570d-dedf-4d2c-b612-9c0fe8228c1b"
+    }
+  ],
+  "food_order": "ce135db3-f62b-4add-8581-6f0c5df82362",
+  "loan": "f09e7029-68a9-4290-9f35-9785f530633f",
+  "cargo_receipt": "5c37ff2d-08e1-4eb8-8bda-8a6f682fd597",
+  "motion": [],
+  "moving_samples": 0,
+  "travel_blocks": 0.0,
+  "max_step_blocks": 0.0,
+  "injected_input_events": 204,
+  "stopped_owner_repositions": 0,
+  "permissions_or_item_or_money_grants": false,
+  "world_fixture_writes": 0,
+  "paid_progress_retained": true,
+  "unexecuted_steps": [
+    "A real player body creates an actual obstruction ahead of the cart",
+    "Full cart and payload stop before crossing the real player body",
+    "Blocked input remains stopped and retains the exact current loan",
+    "Fresh normal login restores the parked loaded component without automatic motion",
+    "Parked supplied-load visual is reconstructed from durable custody",
+    "The physical cart reaches its real destination before any output",
+    "Explicit physical unloading transfers the same purchased metadata once",
+    "Released real destination holds exactly the original purchased stack",
+    "An unloaded cart still cannot return from far away",
+    "The same empty loan component is physically pushed back beside its nest",
+    "Physical unloaded return closes the original loan without a new entitlement",
+    "Returned loan and completed receipt remain closed across snapshot reopen"
+  ],
+  "scaffolding": [
+    "Normal menu and block-targeting event injection",
+    "PlayerInputEvent injection with actual server-tick cart/payload motion",
+    "Explicit production park before each bounded owner reposition",
+    "One actually paid food portion removed from player inventory before insertion into its actual opened owned barrel; no item factory or fabricated payload",
+    "Normal logout/login via the external protocol runner; no authentication reflection mutation",
+    "Read-only snapshot reopen; not a hard-power-loss proof"
+  ],
+  "native_java_bedrock_visual_qualified": false
+}

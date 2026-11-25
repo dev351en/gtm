@@ -1,0 +1,780 @@
+Pinned public binary inspection; no server was started.
+Date: 2026-11-25 UTC
+JAR: Geyser-Spigot-2.12.1-b1308.jar
+SHA-256: 8682df3e77fd4a7e745ed671fbbb727aca32a77d89c97a50f5f77f20fdb191fa
+Command: Java 25 javap -c -p -classpath <pinned-jar> org.geysermc.geyser.network.bedrock.nethernet.NetherNetServer
+Scope: constructor port selection, loopback warning/start, advertised override/fallback, boundAddress, builtin setup.
+
+Compiled from "GeyserConfig.java"
+public interface org.geysermc.geyser.configuration.GeyserConfig$BedrockConfig extends org.geysermc.geyser.api.network.BedrockListener {
+  public abstract java.lang.String address();
+  public abstract void address(java.lang.String);
+  public abstract int port();
+  public abstract void port(int);
+  public abstract int webrtcPort();
+  public abstract void webrtcPort(int);
+  public abstract int raknetPort();
+  public abstract void raknetPort(int);
+  public default org.geysermc.geyser.configuration.GeyserConfig$BedrockConfig$Transport transport();
+  public abstract void transport(org.geysermc.geyser.configuration.GeyserConfig$BedrockConfig$Transport);
+  public abstract boolean cloneRemotePort();
+  public abstract org.geysermc.geyser.configuration.GeyserConfig$SignalingConfig signaling();
+  public default int broadcastPort();
+  public default java.lang.String primaryMotd();
+  public default java.lang.String secondaryMotd();
+  public default java.lang.String serverName();
+}
+Compiled from "GeyserConfig.java"
+public interface org.geysermc.geyser.configuration.GeyserConfig$SignalingConfig {
+  public default org.geysermc.geyser.configuration.GeyserConfig$SignalingConfig$Mode mode();
+  public abstract void mode(org.geysermc.geyser.configuration.GeyserConfig$SignalingConfig$Mode);
+  public abstract int port();
+  public abstract void port(int);
+  public default java.util.List<java.lang.String> advertiseAddresses();
+  public abstract boolean stunDiscovery();
+  public abstract void stunDiscovery(boolean);
+  public abstract org.geysermc.geyser.configuration.GeyserConfig$SignalingConfig$BuiltinConfig builtin();
+  public abstract org.geysermc.geyser.configuration.GeyserConfig$SignalingConfig$NxsConfig nxs();
+}
+  public org.geysermc.geyser.network.bedrock.nethernet.NetherNetServer(org.geysermc.geyser.GeyserImpl);
+    Code:
+         0: aload_0
+         1: invokespecial #201                // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: new           #4                  // class java/lang/Object
+         8: dup
+         9: invokespecial #201                // Method java/lang/Object."<init>":()V
+        12: putfield      #203                // Field providerLifecycle:Ljava/lang/Object;
+        15: aload_0
+        16: aconst_null
+        17: invokestatic  #209                // Method java/util/concurrent/CompletableFuture.completedFuture:(Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;
+        20: putfield      #211                // Field providerStart:Ljava/util/concurrent/CompletableFuture;
+        23: aload_0
+        24: aconst_null
+        25: invokestatic  #209                // Method java/util/concurrent/CompletableFuture.completedFuture:(Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;
+        28: putfield      #213                // Field providerStopped:Ljava/util/concurrent/CompletionStage;
+        31: aload_0
+        32: new           #19                 // class org/geysermc/geyser/network/bedrock/nethernet/signaling/provider/GameOutcomeReporter
+        35: dup
+        36: aload_0
+        37: invokedynamic #230,  0            // InvokeDynamic #0:report:(Lorg/geysermc/geyser/network/bedrock/nethernet/NetherNetServer;)Lorg/geysermc/geyser/network/bedrock/nethernet/signaling/provider/GameOutcomeReporter$Sink;
+        42: invokespecial #233                // Method org/geysermc/geyser/network/bedrock/nethernet/signaling/provider/GameOutcomeReporter."<init>":(Lorg/geysermc/geyser/network/bedrock/nethernet/signaling/provider/GameOutcomeReporter$Sink;)V
+        45: putfield      #235                // Field gameOutcomes:Lorg/geysermc/geyser/network/bedrock/nethernet/signaling/provider/GameOutcomeReporter;
+        48: aload_0
+        49: aload_0
+        50: invokedynamic #247,  0            // InvokeDynamic #1:get:(Lorg/geysermc/geyser/network/bedrock/nethernet/NetherNetServer;)Ljava/util/function/Supplier;
+        55: putfield      #249                // Field providerStatusSupplier:Ljava/util/function/Supplier;
+        58: aload_0
+        59: aload_1
+        60: putfield      #251                // Field geyser:Lorg/geysermc/geyser/GeyserImpl;
+        63: aload_1
+        64: invokevirtual #256                // Method org/geysermc/geyser/GeyserImpl.config:()Lorg/geysermc/geyser/configuration/GeyserConfig;
+        67: invokeinterface #260,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig.bedrock:()Lorg/geysermc/geyser/configuration/GeyserConfig$BedrockConfig;
+        72: astore_2
+        73: aload_0
+        74: aload_2
+        75: invokeinterface #263,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$BedrockConfig.signaling:()Lorg/geysermc/geyser/configuration/GeyserConfig$SignalingConfig;
+        80: putfield      #265                // Field config:Lorg/geysermc/geyser/configuration/GeyserConfig$SignalingConfig;
+        83: aload_0
+        84: aload_2
+        85: invokeinterface #268,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$BedrockConfig.webrtcPort:()I
+        90: ifne          102
+        93: aload_2
+        94: invokeinterface #271,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$BedrockConfig.port:()I
+        99: goto          108
+       102: aload_2
+       103: invokeinterface #268,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$BedrockConfig.webrtcPort:()I
+       108: putfield      #273                // Field webrtcPort:I
+       111: aload_0
+       112: aload_0
+       113: getfield      #265                // Field config:Lorg/geysermc/geyser/configuration/GeyserConfig$SignalingConfig;
+       116: invokeinterface #274,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$SignalingConfig.port:()I
+       121: putfield      #276                // Field signalingPort:I
+       124: aload_0
+       125: aload_1
+       126: invokevirtual #280                // Method org/geysermc/geyser/GeyserImpl.getBootstrap:()Lorg/geysermc/geyser/GeyserBootstrap;
+       129: invokeinterface #286,  1          // InterfaceMethod org/geysermc/geyser/GeyserBootstrap.getConfigFolder:()Ljava/nio/file/Path;
+       134: ldc_w         #288                // String nethernet
+       137: invokeinterface #294,  2          // InterfaceMethod java/nio/file/Path.resolve:(Ljava/lang/String;)Ljava/nio/file/Path;
+       142: putfield      #296                // Field dataFolder:Ljava/nio/file/Path;
+       145: aload_0
+       146: new           #298                // class org/geysermc/geyser/network/BedrockPingHandler
+       149: dup
+       150: aload_1
+       151: invokespecial #300                // Method org/geysermc/geyser/network/BedrockPingHandler."<init>":(Lorg/geysermc/geyser/GeyserImpl;)V
+       154: putfield      #302                // Field pingResponder:Lorg/geysermc/geyser/network/BedrockPingHandler;
+       157: return
+
+  public void start();
+    Code:
+         0: aload_0
+         1: getfield      #265                // Field config:Lorg/geysermc/geyser/configuration/GeyserConfig$SignalingConfig;
+         4: invokeinterface #314,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$SignalingConfig.mode:()Lorg/geysermc/geyser/configuration/GeyserConfig$SignalingConfig$Mode;
+         9: astore_1
+        10: aload_1
+        11: invokevirtual #318                // Method org/geysermc/geyser/configuration/GeyserConfig$SignalingConfig$Mode.builtin:()Z
+        14: istore_2
+        15: aload_1
+        16: invokevirtual #321                // Method org/geysermc/geyser/configuration/GeyserConfig$SignalingConfig$Mode.nxs:()Z
+        19: istore_3
+        20: aload_0
+        21: getfield      #251                // Field geyser:Lorg/geysermc/geyser/GeyserImpl;
+        24: invokevirtual #256                // Method org/geysermc/geyser/GeyserImpl.config:()Lorg/geysermc/geyser/configuration/GeyserConfig;
+        27: invokeinterface #260,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig.bedrock:()Lorg/geysermc/geyser/configuration/GeyserConfig$BedrockConfig;
+        32: astore        4
+        34: new           #323                // class java/net/InetSocketAddress
+        37: dup
+        38: aload         4
+        40: invokeinterface #327,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$BedrockConfig.address:()Ljava/lang/String;
+        45: iconst_0
+        46: invokespecial #330                // Method java/net/InetSocketAddress."<init>":(Ljava/lang/String;I)V
+        49: invokevirtual #334                // Method java/net/InetSocketAddress.getAddress:()Ljava/net/InetAddress;
+        52: astore        5
+        54: aload         5
+        56: ifnull        88
+        59: aload         5
+        61: invokevirtual #339                // Method java/net/InetAddress.isLoopbackAddress:()Z
+        64: ifeq          88
+        67: aload_0
+        68: invokevirtual #343                // Method logger:()Lorg/geysermc/geyser/GeyserLogger;
+        71: aload         4
+        73: invokeinterface #327,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$BedrockConfig.address:()Ljava/lang/String;
+        78: invokedynamic #355,  0            // InvokeDynamic #2:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+        83: invokeinterface #361,  2          // InterfaceMethod org/geysermc/geyser/GeyserLogger.warning:(Ljava/lang/String;)V
+        88: aload         4
+        90: invokeinterface #365,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$BedrockConfig.transport:()Lorg/geysermc/geyser/configuration/GeyserConfig$BedrockConfig$Transport;
+        95: invokevirtual #368                // Method org/geysermc/geyser/configuration/GeyserConfig$BedrockConfig$Transport.raknet:()Z
+        98: ifeq          134
+       101: aload_0
+       102: getfield      #273                // Field webrtcPort:I
+       105: aload         4
+       107: invokeinterface #371,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$BedrockConfig.raknetPort:()I
+       112: if_icmpne     134
+       115: aload_0
+       116: invokevirtual #343                // Method logger:()Lorg/geysermc/geyser/GeyserLogger;
+       119: aload_0
+       120: getfield      #273                // Field webrtcPort:I
+       123: invokedynamic #376,  0            // InvokeDynamic #3:makeConcatWithConstants:(I)Ljava/lang/String;
+       128: invokeinterface #379,  2          // InterfaceMethod org/geysermc/geyser/GeyserLogger.error:(Ljava/lang/String;)V
+       133: return
+       134: iload_2
+       135: ifeq          249
+       138: aload_0
+       139: getfield      #251                // Field geyser:Lorg/geysermc/geyser/GeyserImpl;
+       142: invokevirtual #256                // Method org/geysermc/geyser/GeyserImpl.config:()Lorg/geysermc/geyser/configuration/GeyserConfig;
+       145: astore        7
+       147: aload         7
+       149: instanceof    #38                 // class org/geysermc/geyser/configuration/GeyserPluginConfig
+       152: ifeq          249
+       155: aload         7
+       157: checkcast     #38                 // class org/geysermc/geyser/configuration/GeyserPluginConfig
+       160: astore        6
+       162: aload_0
+       163: getfield      #276                // Field signalingPort:I
+       166: aload         6
+       168: invokeinterface #383,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserPluginConfig.java:()Lorg/geysermc/geyser/configuration/GeyserPluginConfig$IntegratedJavaConfig;
+       173: invokeinterface #384,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserPluginConfig$IntegratedJavaConfig.port:()I
+       178: if_icmpne     249
+       181: iconst_0
+       182: istore_2
+       183: aload_0
+       184: getfield      #276                // Field signalingPort:I
+       187: invokedynamic #387,  0            // InvokeDynamic #4:makeConcatWithConstants:(I)Ljava/lang/String;
+       192: astore        7
+       194: iload_3
+       195: ifne          233
+       198: iconst_1
+       199: istore_3
+       200: aload_0
+       201: invokevirtual #343                // Method logger:()Lorg/geysermc/geyser/GeyserLogger;
+       204: aload         7
+       206: aload_0
+       207: getfield      #265                // Field config:Lorg/geysermc/geyser/configuration/GeyserConfig$SignalingConfig;
+       210: invokeinterface #390,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$SignalingConfig.nxs:()Lorg/geysermc/geyser/configuration/GeyserConfig$SignalingConfig$NxsConfig;
+       215: invokeinterface #393,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$SignalingConfig$NxsConfig.endpoint:()Ljava/lang/String;
+       220: invokedynamic #398,  0            // InvokeDynamic #5:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       225: invokeinterface #361,  2          // InterfaceMethod org/geysermc/geyser/GeyserLogger.warning:(Ljava/lang/String;)V
+       230: goto          249
+       233: aload_0
+       234: invokevirtual #343                // Method logger:()Lorg/geysermc/geyser/GeyserLogger;
+       237: aload         7
+       239: invokedynamic #403,  0            // InvokeDynamic #6:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+       244: invokeinterface #361,  2          // InterfaceMethod org/geysermc/geyser/GeyserLogger.warning:(Ljava/lang/String;)V
+       249: invokestatic  #408                // Method tel/schich/libdatachannel/LibDataChannelArchDetect.initialize:()V
+       252: goto          291
+       255: astore        6
+       257: aload_0
+       258: invokevirtual #343                // Method logger:()Lorg/geysermc/geyser/GeyserLogger;
+       261: ldc_w         #410                // String os.name
+       264: invokestatic  #415                // Method java/lang/System.getProperty:(Ljava/lang/String;)Ljava/lang/String;
+       267: ldc_w         #417                // String os.arch
+       270: invokestatic  #415                // Method java/lang/System.getProperty:(Ljava/lang/String;)Ljava/lang/String;
+       273: aload         6
+       275: invokevirtual #420                // Method java/lang/LinkageError.getMessage:()Ljava/lang/String;
+       278: invokedynamic #425,  0            // InvokeDynamic #7:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       283: aload         6
+       285: invokeinterface #428,  3          // InterfaceMethod org/geysermc/geyser/GeyserLogger.error:(Ljava/lang/String;Ljava/lang/Throwable;)V
+       290: return
+       291: aload_0
+       292: invokevirtual #431                // Method applyLogLevel:()V
+       295: aload_0
+       296: getfield      #296                // Field dataFolder:Ljava/nio/file/Path;
+       299: iconst_0
+       300: anewarray     #433                // class java/nio/file/attribute/FileAttribute
+       303: invokestatic  #439                // Method java/nio/file/Files.createDirectories:(Ljava/nio/file/Path;[Ljava/nio/file/attribute/FileAttribute;)Ljava/nio/file/Path;
+       306: pop
+       307: goto          336
+       310: astore        6
+       312: aload_0
+       313: invokevirtual #343                // Method logger:()Lorg/geysermc/geyser/GeyserLogger;
+       316: aload_0
+       317: getfield      #296                // Field dataFolder:Ljava/nio/file/Path;
+       320: invokestatic  #443                // Method java/lang/String.valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+       323: invokedynamic #446,  0            // InvokeDynamic #8:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+       328: aload         6
+       330: invokeinterface #428,  3          // InterfaceMethod org/geysermc/geyser/GeyserLogger.error:(Ljava/lang/String;Ljava/lang/Throwable;)V
+       335: return
+       336: aload_0
+       337: getfield      #251                // Field geyser:Lorg/geysermc/geyser/GeyserImpl;
+       340: invokevirtual #450                // Method org/geysermc/geyser/GeyserImpl.eventBus:()Lorg/geysermc/geyser/event/GeyserEventBus;
+       343: aload_0
+       344: ldc_w         #452                // class org/geysermc/geyser/api/event/bedrock/SessionJoinEvent
+       347: aload_0
+       348: invokedynamic #464,  0            // InvokeDynamic #9:accept:(Lorg/geysermc/geyser/network/bedrock/nethernet/NetherNetServer;)Ljava/util/function/Consumer;
+       353: invokevirtual #470                // Method org/geysermc/geyser/event/GeyserEventBus.subscribe:(Ljava/lang/Object;Ljava/lang/Class;Ljava/util/function/Consumer;)Lorg/geysermc/event/subscribe/OwnedSubscriber;
+       356: pop
+       357: aload_0
+       358: getfield      #251                // Field geyser:Lorg/geysermc/geyser/GeyserImpl;
+       361: invokevirtual #450                // Method org/geysermc/geyser/GeyserImpl.eventBus:()Lorg/geysermc/geyser/event/GeyserEventBus;
+       364: aload_0
+       365: ldc_w         #472                // class org/geysermc/geyser/event/type/SessionDisconnectEventImpl
+       368: aload_0
+       369: invokedynamic #479,  0            // InvokeDynamic #10:accept:(Lorg/geysermc/geyser/network/bedrock/nethernet/NetherNetServer;)Ljava/util/function/Consumer;
+       374: invokevirtual #470                // Method org/geysermc/geyser/event/GeyserEventBus.subscribe:(Ljava/lang/Object;Ljava/lang/Class;Ljava/util/function/Consumer;)Lorg/geysermc/event/subscribe/OwnedSubscriber;
+       377: pop
+       378: aload_0
+       379: invokevirtual #483                // Method advertisedAddresses:()Ljava/util/List;
+       382: astore        6
+       384: iload_3
+       385: ifeq          457
+       388: aload         6
+       390: invokeinterface #488,  1          // InterfaceMethod java/util/List.isEmpty:()Z
+       395: ifeq          457
+       398: aload_0
+       399: getfield      #251                // Field geyser:Lorg/geysermc/geyser/GeyserImpl;
+       402: invokevirtual #256                // Method org/geysermc/geyser/GeyserImpl.config:()Lorg/geysermc/geyser/configuration/GeyserConfig;
+       405: invokeinterface #492,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig.advanced:()Lorg/geysermc/geyser/configuration/GeyserConfig$AdvancedConfig;
+       410: invokeinterface #495,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$AdvancedConfig.bedrock:()Lorg/geysermc/geyser/configuration/GeyserConfig$AdvancedBedrockConfig;
+       415: invokeinterface #498,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$AdvancedBedrockConfig.webrtcProxyProtocolRelays:()Ljava/util/List;
+       420: invokeinterface #488,  1          // InterfaceMethod java/util/List.isEmpty:()Z
+       425: ifne          457
+       428: aload_0
+       429: invokevirtual #343                // Method logger:()Lorg/geysermc/geyser/GeyserLogger;
+       432: iload_2
+       433: ifeq          442
+       436: ldc_w         #500                // String External signaling
+       439: goto          445
+       442: ldc_w         #502                // String NetherNet
+       445: invokedynamic #505,  0            // InvokeDynamic #11:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+       450: invokeinterface #379,  2          // InterfaceMethod org/geysermc/geyser/GeyserLogger.error:(Ljava/lang/String;)V
+       455: iconst_0
+       456: istore_3
+       457: aload_0
+       458: iload_2
+       459: invokevirtual #509                // Method warnIfBuiltinSettingsUnused:(Z)V
+       462: iload_2
+       463: ifeq          472
+       466: aload_0
+       467: aload         6
+       469: invokevirtual #513                // Method startInbuilt:(Ljava/util/List;)V
+       472: iload_3
+       473: ifeq          482
+       476: aload_0
+       477: aload         6
+       479: invokevirtual #516                // Method startProvider:(Ljava/util/List;)V
+       482: return
+      Exception table:
+         from    to  target type
+           249   252   255   Class java/lang/LinkageError
+           295   307   310   Class java/io/IOException
+
+  private java.util.List<java.lang.String> advertisedAddresses();
+    Code:
+         0: ldc_w         #885                // String geyserAdvertiseAddresses
+         3: ldc_w         #853                // String
+         6: invokestatic  #887                // Method java/lang/System.getProperty:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+         9: astore_1
+        10: aload_1
+        11: ldc_w         #889                // String ,
+        14: invokevirtual #893                // Method java/lang/String.split:(Ljava/lang/String;)[Ljava/lang/String;
+        17: invokestatic  #899                // Method java/util/Arrays.stream:([Ljava/lang/Object;)Ljava/util/stream/Stream;
+        20: invokestatic  #903                // Method addresses:(Ljava/util/stream/Stream;)Ljava/util/List;
+        23: astore_2
+        24: aload_2
+        25: invokeinterface #488,  1          // InterfaceMethod java/util/List.isEmpty:()Z
+        30: ifne          56
+        33: aload_0
+        34: invokevirtual #343                // Method logger:()Lorg/geysermc/geyser/GeyserLogger;
+        37: ldc_w         #615                // String ,
+        40: aload_2
+        41: invokestatic  #623                // Method java/lang/String.join:(Ljava/lang/CharSequence;Ljava/lang/Iterable;)Ljava/lang/String;
+        44: invokedynamic #906,  0            // InvokeDynamic #22:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+        49: invokeinterface #629,  2          // InterfaceMethod org/geysermc/geyser/GeyserLogger.info:(Ljava/lang/String;)V
+        54: aload_2
+        55: areturn
+        56: aload_0
+        57: getfield      #265                // Field config:Lorg/geysermc/geyser/configuration/GeyserConfig$SignalingConfig;
+        60: invokeinterface #909,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$SignalingConfig.advertiseAddresses:()Ljava/util/List;
+        65: invokeinterface #912,  1          // InterfaceMethod java/util/List.stream:()Ljava/util/stream/Stream;
+        70: invokestatic  #903                // Method addresses:(Ljava/util/stream/Stream;)Ljava/util/List;
+        73: areturn
+
+  private static java.util.List<java.lang.String> boundAddress(org.geysermc.geyser.configuration.GeyserConfig$BedrockConfig);
+    Code:
+         0: aload_0
+         1: invokeinterface #327,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$BedrockConfig.address:()Ljava/lang/String;
+         6: invokestatic  #994                // Method io/netty/util/NetUtil.createByteArrayFromIpAddressString:(Ljava/lang/String;)[B
+         9: astore_1
+        10: aload_1
+        11: ifnull        24
+        14: aload_1
+        15: invokestatic  #998                // Method java/net/InetAddress.getByAddress:([B)Ljava/net/InetAddress;
+        18: invokevirtual #1001               // Method java/net/InetAddress.isAnyLocalAddress:()Z
+        21: ifeq          28
+        24: invokestatic  #583                // InterfaceMethod java/util/List.of:()Ljava/util/List;
+        27: areturn
+        28: goto          36
+        31: astore_2
+        32: invokestatic  #583                // InterfaceMethod java/util/List.of:()Ljava/util/List;
+        35: areturn
+        36: aload_0
+        37: invokeinterface #327,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$BedrockConfig.address:()Ljava/lang/String;
+        42: invokestatic  #1006               // InterfaceMethod java/util/List.of:(Ljava/lang/Object;)Ljava/util/List;
+        45: areturn
+      Exception table:
+         from    to  target type
+            10    27    31   Class java/net/UnknownHostException
+
+  private void startInbuilt(java.util.List<java.lang.String>);
+    Code:
+         0: aload_0
+         1: getfield      #265                // Field config:Lorg/geysermc/geyser/configuration/GeyserConfig$SignalingConfig;
+         4: invokeinterface #562,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$SignalingConfig.builtin:()Lorg/geysermc/geyser/configuration/GeyserConfig$SignalingConfig$BuiltinConfig;
+         9: astore_2
+        10: aload_0
+        11: getfield      #251                // Field geyser:Lorg/geysermc/geyser/GeyserImpl;
+        14: invokevirtual #256                // Method org/geysermc/geyser/GeyserImpl.config:()Lorg/geysermc/geyser/configuration/GeyserConfig;
+        17: invokeinterface #492,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig.advanced:()Lorg/geysermc/geyser/configuration/GeyserConfig$AdvancedConfig;
+        22: invokeinterface #495,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$AdvancedConfig.bedrock:()Lorg/geysermc/geyser/configuration/GeyserConfig$AdvancedBedrockConfig;
+        27: astore_3
+        28: new           #53                 // class org/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder
+        31: dup
+        32: invokespecial #563                // Method org/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder."<init>":()V
+        35: astore        4
+        37: aload_3
+        38: invokeinterface #498,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$AdvancedBedrockConfig.webrtcProxyProtocolRelays:()Ljava/util/List;
+        43: invokeinterface #488,  1          // InterfaceMethod java/util/List.isEmpty:()Z
+        48: ifne          55
+        51: iconst_1
+        52: goto          56
+        55: iconst_0
+        56: istore        5
+        58: aload_1
+        59: invokeinterface #488,  1          // InterfaceMethod java/util/List.isEmpty:()Z
+        64: ifeq          88
+        67: aload_0
+        68: getfield      #265                // Field config:Lorg/geysermc/geyser/configuration/GeyserConfig$SignalingConfig;
+        71: invokeinterface #566,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$SignalingConfig.stunDiscovery:()Z
+        76: ifeq          88
+        79: iload         5
+        81: ifne          88
+        84: iconst_1
+        85: goto          89
+        88: iconst_0
+        89: istore        6
+        91: iload         6
+        93: ifne          155
+        96: ldc_w         #568                // String geyserStunServers
+        99: invokestatic  #415                // Method java/lang/System.getProperty:(Ljava/lang/String;)Ljava/lang/String;
+       102: ifnull        155
+       105: aload_0
+       106: invokevirtual #343                // Method logger:()Lorg/geysermc/geyser/GeyserLogger;
+       109: aload_0
+       110: getfield      #265                // Field config:Lorg/geysermc/geyser/configuration/GeyserConfig$SignalingConfig;
+       113: invokeinterface #566,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$SignalingConfig.stunDiscovery:()Z
+       118: ifne          127
+       121: ldc_w         #570                // String \"stun-discovery\" is off
+       124: goto          145
+       127: aload_1
+       128: invokeinterface #488,  1          // InterfaceMethod java/util/List.isEmpty:()Z
+       133: ifne          142
+       136: ldc_w         #572                // String \"advertise-addresses\" is set
+       139: goto          145
+       142: ldc_w         #574                // String \"webrtc-proxy-protocol-relays\" is set
+       145: invokedynamic #577,  0            // InvokeDynamic #12:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+       150: invokeinterface #361,  2          // InterfaceMethod org/geysermc/geyser/GeyserLogger.warning:(Ljava/lang/String;)V
+       155: iload         6
+       157: ifeq          167
+       160: aload_0
+       161: invokevirtual #580                // Method stunServers:()Ljava/util/List;
+       164: goto          170
+       167: invokestatic  #583                // InterfaceMethod java/util/List.of:()Ljava/util/List;
+       170: astore        7
+       172: aload_1
+       173: invokeinterface #488,  1          // InterfaceMethod java/util/List.isEmpty:()Z
+       178: ifeq          212
+       181: aload         7
+       183: invokeinterface #488,  1          // InterfaceMethod java/util/List.isEmpty:()Z
+       188: ifeq          212
+       191: iload         5
+       193: ifne          212
+       196: aload_0
+       197: getfield      #251                // Field geyser:Lorg/geysermc/geyser/GeyserImpl;
+       200: invokevirtual #256                // Method org/geysermc/geyser/GeyserImpl.config:()Lorg/geysermc/geyser/configuration/GeyserConfig;
+       203: invokeinterface #260,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig.bedrock:()Lorg/geysermc/geyser/configuration/GeyserConfig$BedrockConfig;
+       208: invokestatic  #587                // Method boundAddress:(Lorg/geysermc/geyser/configuration/GeyserConfig$BedrockConfig;)Ljava/util/List;
+       211: astore_1
+       212: aload         4
+       214: aload_1
+       215: invokevirtual #591                // Method org/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder.setAdvertisedAddresses:(Ljava/util/Collection;)Lorg/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder;
+       218: pop
+       219: aload         4
+       221: aload         7
+       223: invokevirtual #594                // Method org/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder.setStunServers:(Ljava/util/Collection;)Lorg/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder;
+       226: pop
+       227: goto          252
+       230: astore        8
+       232: new           #555                // class java/lang/IllegalArgumentException
+       235: dup
+       236: aload         8
+       238: invokevirtual #595                // Method java/lang/IllegalArgumentException.getMessage:()Ljava/lang/String;
+       241: invokedynamic #598,  0            // InvokeDynamic #13:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+       246: aload         8
+       248: invokespecial #600                // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;Ljava/lang/Throwable;)V
+       251: athrow
+       252: aload_0
+       253: aload         7
+       255: invokeinterface #488,  1          // InterfaceMethod java/util/List.isEmpty:()Z
+       260: ifne          267
+       263: iconst_1
+       264: goto          268
+       267: iconst_0
+       268: putfield      #602                // Field builtinStun:Z
+       271: ldc           #143                // String GEYSER_ADDITIONAL_HEADERS
+       273: invokestatic  #532                // Method java/lang/System.getenv:(Ljava/lang/String;)Ljava/lang/String;
+       276: astore        8
+       278: aload         8
+       280: ifnull        360
+       283: aload         8
+       285: invokestatic  #606                // Method responseHeaders:(Ljava/lang/String;)Ljava/util/Map;
+       288: astore        9
+       290: aload         4
+       292: aload         9
+       294: invokevirtual #610                // Method org/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder.setResponseHeaders:(Ljava/util/Map;)Lorg/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder;
+       297: pop
+       298: aload         9
+       300: invokeinterface #613,  1          // InterfaceMethod java/util/Map.isEmpty:()Z
+       305: ifne          335
+       308: aload_0
+       309: invokevirtual #343                // Method logger:()Lorg/geysermc/geyser/GeyserLogger;
+       312: ldc_w         #615                // String ,
+       315: aload         9
+       317: invokeinterface #619,  1          // InterfaceMethod java/util/Map.keySet:()Ljava/util/Set;
+       322: invokestatic  #623                // Method java/lang/String.join:(Ljava/lang/CharSequence;Ljava/lang/Iterable;)Ljava/lang/String;
+       325: invokedynamic #626,  0            // InvokeDynamic #14:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+       330: invokeinterface #629,  2          // InterfaceMethod org/geysermc/geyser/GeyserLogger.info:(Ljava/lang/String;)V
+       335: goto          360
+       338: astore        9
+       340: new           #555                // class java/lang/IllegalArgumentException
+       343: dup
+       344: aload         9
+       346: invokevirtual #595                // Method java/lang/IllegalArgumentException.getMessage:()Ljava/lang/String;
+       349: invokedynamic #632,  0            // InvokeDynamic #15:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+       354: aload         9
+       356: invokespecial #600                // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;Ljava/lang/Throwable;)V
+       359: athrow
+       360: goto          385
+       363: astore        5
+       365: aload_0
+       366: invokevirtual #343                // Method logger:()Lorg/geysermc/geyser/GeyserLogger;
+       369: aload         5
+       371: invokevirtual #595                // Method java/lang/IllegalArgumentException.getMessage:()Ljava/lang/String;
+       374: invokedynamic #635,  0            // InvokeDynamic #16:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+       379: invokeinterface #379,  2          // InterfaceMethod org/geysermc/geyser/GeyserLogger.error:(Ljava/lang/String;)V
+       384: return
+       385: aload_0
+       386: getfield      #296                // Field dataFolder:Ljava/nio/file/Path;
+       389: ldc_w         #637                // String identity.pem
+       392: invokeinterface #294,  2          // InterfaceMethod java/nio/file/Path.resolve:(Ljava/lang/String;)Ljava/nio/file/Path;
+       397: invokeinterface #641,  1          // InterfaceMethod java/nio/file/Path.toFile:()Ljava/io/File;
+       402: aload_0
+       403: getfield      #251                // Field geyser:Lorg/geysermc/geyser/GeyserImpl;
+       406: invokevirtual #256                // Method org/geysermc/geyser/GeyserImpl.config:()Lorg/geysermc/geyser/configuration/GeyserConfig;
+       409: invokeinterface #645,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig.gameplay:()Lorg/geysermc/geyser/configuration/GeyserConfig$GameplayConfig;
+       414: invokeinterface #648,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$GameplayConfig.serverName:()Ljava/lang/String;
+       419: invokedynamic #651,  0            // InvokeDynamic #17:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+       424: invokestatic  #657                // Method org/cloudburstmc/netty/util/nethernet/OperatorIdentity.fromPemOrCreate:(Ljava/io/File;Ljava/lang/String;)Lorg/cloudburstmc/netty/util/nethernet/OperatorIdentity;
+       427: astore        5
+       429: goto          466
+       432: astore        6
+       434: aload_0
+       435: invokevirtual #343                // Method logger:()Lorg/geysermc/geyser/GeyserLogger;
+       438: aload_0
+       439: getfield      #296                // Field dataFolder:Ljava/nio/file/Path;
+       442: ldc_w         #637                // String identity.pem
+       445: invokeinterface #294,  2          // InterfaceMethod java/nio/file/Path.resolve:(Ljava/lang/String;)Ljava/nio/file/Path;
+       450: invokestatic  #443                // Method java/lang/String.valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+       453: invokedynamic #660,  0            // InvokeDynamic #18:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+       458: aload         6
+       460: invokeinterface #428,  3          // InterfaceMethod org/geysermc/geyser/GeyserLogger.error:(Ljava/lang/String;Ljava/lang/Throwable;)V
+       465: return
+       466: aload         4
+       468: aload         5
+       470: invokevirtual #664                // Method org/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder.setIdentity:(Lorg/cloudburstmc/netty/util/nethernet/OperatorIdentity;)Lorg/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder;
+       473: aload_0
+       474: getfield      #251                // Field geyser:Lorg/geysermc/geyser/GeyserImpl;
+       477: invokevirtual #256                // Method org/geysermc/geyser/GeyserImpl.config:()Lorg/geysermc/geyser/configuration/GeyserConfig;
+       480: invokeinterface #492,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig.advanced:()Lorg/geysermc/geyser/configuration/GeyserConfig$AdvancedConfig;
+       485: invokeinterface #495,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$AdvancedConfig.bedrock:()Lorg/geysermc/geyser/configuration/GeyserConfig$AdvancedBedrockConfig;
+       490: invokeinterface #548,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$AdvancedBedrockConfig.signalingTrustedProxies:()Ljava/util/List;
+       495: invokestatic  #670                // Method org/cloudburstmc/netty/util/nethernet/TrustedProxies.parse:(Ljava/util/Collection;)Lorg/cloudburstmc/netty/util/nethernet/IpRangeSet;
+       498: invokevirtual #674                // Method org/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder.setForwardedForProxies:(Lorg/cloudburstmc/netty/util/nethernet/IpRangeSet;)Lorg/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder;
+       501: aload_0
+       502: getfield      #251                // Field geyser:Lorg/geysermc/geyser/GeyserImpl;
+       505: invokevirtual #256                // Method org/geysermc/geyser/GeyserImpl.config:()Lorg/geysermc/geyser/configuration/GeyserConfig;
+       508: invokeinterface #492,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig.advanced:()Lorg/geysermc/geyser/configuration/GeyserConfig$AdvancedConfig;
+       513: invokeinterface #495,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$AdvancedConfig.bedrock:()Lorg/geysermc/geyser/configuration/GeyserConfig$AdvancedBedrockConfig;
+       518: invokeinterface #545,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$AdvancedBedrockConfig.haproxyProtocolWhitelistedIps:()Ljava/util/List;
+       523: invokestatic  #670                // Method org/cloudburstmc/netty/util/nethernet/TrustedProxies.parse:(Ljava/util/Collection;)Lorg/cloudburstmc/netty/util/nethernet/IpRangeSet;
+       526: invokevirtual #677                // Method org/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder.setProxyProtocolProxies:(Lorg/cloudburstmc/netty/util/nethernet/IpRangeSet;)Lorg/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder;
+       529: aload_0
+       530: getfield      #251                // Field geyser:Lorg/geysermc/geyser/GeyserImpl;
+       533: invokevirtual #256                // Method org/geysermc/geyser/GeyserImpl.config:()Lorg/geysermc/geyser/configuration/GeyserConfig;
+       536: invokeinterface #492,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig.advanced:()Lorg/geysermc/geyser/configuration/GeyserConfig$AdvancedConfig;
+       541: invokeinterface #495,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$AdvancedConfig.bedrock:()Lorg/geysermc/geyser/configuration/GeyserConfig$AdvancedBedrockConfig;
+       546: invokeinterface #680,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$AdvancedBedrockConfig.validateBedrockLogin:()Z
+       551: ifeq          560
+       554: getstatic     #686                // Field org/cloudburstmc/netty/util/nethernet/TokenTrust.MINECRAFT_AUTH:Lorg/cloudburstmc/netty/util/nethernet/TokenTrust;
+       557: goto          563
+       560: getstatic     #689                // Field org/cloudburstmc/netty/util/nethernet/TokenTrust.ANY:Lorg/cloudburstmc/netty/util/nethernet/TokenTrust;
+       563: invokevirtual #693                // Method org/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder.setTokenTrust:(Lorg/cloudburstmc/netty/util/nethernet/TokenTrust;)Lorg/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder;
+       566: aload_0
+       567: invokedynamic #703,  0            // InvokeDynamic #19:getMotd:(Lorg/geysermc/geyser/network/bedrock/nethernet/NetherNetServer;)Lorg/cloudburstmc/netty/channel/nethernet/signaling/MotdProvider;
+       572: invokevirtual #707                // Method org/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder.setMotdProvider:(Lorg/cloudburstmc/netty/channel/nethernet/signaling/MotdProvider;)Lorg/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder;
+       575: pop
+       576: aload_2
+       577: invokeinterface #711,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$SignalingConfig$BuiltinConfig.https:()Lorg/geysermc/geyser/configuration/GeyserConfig$SignalingConfig$BuiltinConfig$HttpsConfig;
+       582: astore        6
+       584: aload         6
+       586: invokeinterface #714,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$SignalingConfig$BuiltinConfig$HttpsConfig.certificate:()Ljava/lang/String;
+       591: invokevirtual #535                // Method java/lang/String.isBlank:()Z
+       594: ifne          719
+       597: aload_0
+       598: getfield      #251                // Field geyser:Lorg/geysermc/geyser/GeyserImpl;
+       601: invokevirtual #717                // Method org/geysermc/geyser/GeyserImpl.configDirectory:()Ljava/nio/file/Path;
+       604: aload         6
+       606: invokeinterface #714,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$SignalingConfig$BuiltinConfig$HttpsConfig.certificate:()Ljava/lang/String;
+       611: invokeinterface #294,  2          // InterfaceMethod java/nio/file/Path.resolve:(Ljava/lang/String;)Ljava/nio/file/Path;
+       616: astore        7
+       618: aload         6
+       620: invokeinterface #720,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$SignalingConfig$BuiltinConfig$HttpsConfig.password:()Ljava/lang/String;
+       625: aload_0
+       626: getfield      #251                // Field geyser:Lorg/geysermc/geyser/GeyserImpl;
+       629: invokevirtual #717                // Method org/geysermc/geyser/GeyserImpl.configDirectory:()Ljava/nio/file/Path;
+       632: invokestatic  #725                // Method org/cloudburstmc/netty/util/nethernet/SecretValue.resolve:(Ljava/lang/String;Ljava/nio/file/Path;)Ljava/lang/String;
+       635: astore        8
+       637: aload         6
+       639: invokeinterface #728,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$SignalingConfig$BuiltinConfig$HttpsConfig.privateKey:()Ljava/lang/String;
+       644: invokevirtual #535                // Method java/lang/String.isBlank:()Z
+       647: ifeq          668
+       650: aload         4
+       652: aload         7
+       654: invokeinterface #641,  1          // InterfaceMethod java/nio/file/Path.toFile:()Ljava/io/File;
+       659: aload         8
+       661: invokevirtual #732                // Method org/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder.setHttpsKeystore:(Ljava/io/File;Ljava/lang/String;)Lorg/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder;
+       664: pop
+       665: goto          719
+       668: aload         4
+       670: aload         7
+       672: invokeinterface #641,  1          // InterfaceMethod java/nio/file/Path.toFile:()Ljava/io/File;
+       677: aload_0
+       678: getfield      #251                // Field geyser:Lorg/geysermc/geyser/GeyserImpl;
+       681: invokevirtual #717                // Method org/geysermc/geyser/GeyserImpl.configDirectory:()Ljava/nio/file/Path;
+       684: aload         6
+       686: invokeinterface #728,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$SignalingConfig$BuiltinConfig$HttpsConfig.privateKey:()Ljava/lang/String;
+       691: invokeinterface #294,  2          // InterfaceMethod java/nio/file/Path.resolve:(Ljava/lang/String;)Ljava/nio/file/Path;
+       696: invokeinterface #641,  1          // InterfaceMethod java/nio/file/Path.toFile:()Ljava/io/File;
+       701: aload         8
+       703: invokevirtual #535                // Method java/lang/String.isBlank:()Z
+       706: ifeq          713
+       709: aconst_null
+       710: goto          715
+       713: aload         8
+       715: invokevirtual #738                // Method org/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder.setHttpsPem:(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)Lorg/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder;
+       718: pop
+       719: aload_0
+       720: getfield      #251                // Field geyser:Lorg/geysermc/geyser/GeyserImpl;
+       723: invokevirtual #256                // Method org/geysermc/geyser/GeyserImpl.config:()Lorg/geysermc/geyser/configuration/GeyserConfig;
+       726: invokeinterface #260,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig.bedrock:()Lorg/geysermc/geyser/configuration/GeyserConfig$BedrockConfig;
+       731: astore        7
+       733: aload_0
+       734: getfield      #273                // Field webrtcPort:I
+       737: aload_0
+       738: getfield      #276                // Field signalingPort:I
+       741: if_icmpeq     748
+       744: iconst_1
+       745: goto          749
+       748: iconst_0
+       749: istore        8
+       751: aload_0
+       752: aload         4
+       754: iload         8
+       756: ifne          763
+       759: iconst_1
+       760: goto          764
+       763: iconst_0
+       764: invokevirtual #744                // Method org/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder.setIceOnLocalPort:(Z)Lorg/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder;
+       767: invokevirtual #748                // Method org/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling$Builder.build:()Lorg/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling;
+       770: putfield      #750                // Field signaling:Lorg/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling;
+       773: aload_0
+       774: getstatic     #754                // Field org/geysermc/mcprotocollib/network/helper/TransportHelper.TRANSPORT_TYPE:Lorg/geysermc/mcprotocollib/network/helper/TransportHelper$TransportType;
+       777: invokevirtual #758                // Method org/geysermc/mcprotocollib/network/helper/TransportHelper$TransportType.eventLoopGroupFactory:()Ljava/util/function/BiFunction;
+       780: iconst_0
+       781: invokestatic  #763                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+       784: new           #765                // class io/netty/util/concurrent/DefaultThreadFactory
+       787: dup
+       788: ldc_w         #767                // String NetherNet Built-in Signaling
+       791: iconst_1
+       792: invokespecial #770                // Method io/netty/util/concurrent/DefaultThreadFactory."<init>":(Ljava/lang/String;Z)V
+       795: invokeinterface #776,  3          // InterfaceMethod java/util/function/BiFunction.apply:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+       800: checkcast     #778                // class io/netty/channel/EventLoopGroup
+       803: putfield      #780                // Field inbuiltEventLoopGroup:Lio/netty/channel/EventLoopGroup;
+       806: aload_0
+       807: new           #782                // class org/geysermc/geyser/network/bedrock/nethernet/NetherNetChannelInitialiser
+       810: dup
+       811: aload_0
+       812: getfield      #251                // Field geyser:Lorg/geysermc/geyser/GeyserImpl;
+       815: invokespecial #783                // Method org/geysermc/geyser/network/bedrock/nethernet/NetherNetChannelInitialiser."<init>":(Lorg/geysermc/geyser/GeyserImpl;)V
+       818: putfield      #785                // Field inbuiltInitialiser:Lorg/geysermc/geyser/network/bedrock/nethernet/NetherNetChannelInitialiser;
+       821: new           #787                // class io/netty/bootstrap/ServerBootstrap
+       824: dup
+       825: invokespecial #788                // Method io/netty/bootstrap/ServerBootstrap."<init>":()V
+       828: astore        9
+       830: aload         9
+       832: aload_0
+       833: getfield      #780                // Field inbuiltEventLoopGroup:Lio/netty/channel/EventLoopGroup;
+       836: invokevirtual #792                // Method io/netty/bootstrap/ServerBootstrap.group:(Lio/netty/channel/EventLoopGroup;)Lio/netty/bootstrap/ServerBootstrap;
+       839: aload_0
+       840: getfield      #750                // Field signaling:Lorg/cloudburstmc/netty/channel/nethernet/signaling/NetherNetHTTPServerSignaling;
+       843: invokestatic  #798                // Method org/cloudburstmc/netty/channel/nethernet/NetherNetChannelFactory.server:(Lorg/cloudburstmc/netty/channel/nethernet/signaling/NetherNetServerSignaling;)Lio/netty/channel/ChannelFactory;
+       846: invokevirtual #802                // Method io/netty/bootstrap/ServerBootstrap.channelFactory:(Lio/netty/channel/ChannelFactory;)Lio/netty/bootstrap/AbstractBootstrap;
+       849: checkcast     #787                // class io/netty/bootstrap/ServerBootstrap
+       852: getstatic     #808                // Field org/cloudburstmc/netty/channel/nethernet/config/NetherChannelOption.NETHER_SERVER_PROXY_PROTOCOL:Lio/netty/channel/ChannelOption;
+       855: aload_0
+       856: getfield      #251                // Field geyser:Lorg/geysermc/geyser/GeyserImpl;
+       859: invokevirtual #256                // Method org/geysermc/geyser/GeyserImpl.config:()Lorg/geysermc/geyser/configuration/GeyserConfig;
+       862: invokeinterface #492,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig.advanced:()Lorg/geysermc/geyser/configuration/GeyserConfig$AdvancedConfig;
+       867: invokeinterface #495,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$AdvancedConfig.bedrock:()Lorg/geysermc/geyser/configuration/GeyserConfig$AdvancedBedrockConfig;
+       872: invokeinterface #498,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$AdvancedBedrockConfig.webrtcProxyProtocolRelays:()Ljava/util/List;
+       877: invokestatic  #670                // Method org/cloudburstmc/netty/util/nethernet/TrustedProxies.parse:(Ljava/util/Collection;)Lorg/cloudburstmc/netty/util/nethernet/IpRangeSet;
+       880: invokevirtual #812                // Method io/netty/bootstrap/ServerBootstrap.option:(Lio/netty/channel/ChannelOption;Ljava/lang/Object;)Lio/netty/bootstrap/AbstractBootstrap;
+       883: checkcast     #787                // class io/netty/bootstrap/ServerBootstrap
+       886: getstatic     #815                // Field org/cloudburstmc/netty/channel/nethernet/config/NetherChannelOption.NETHER_SERVER_PREFER_PROXIED_ADDRESS:Lio/netty/channel/ChannelOption;
+       889: aload_3
+       890: invokeinterface #540,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$AdvancedBedrockConfig.preferSignalingProxyAddress:()Z
+       895: invokestatic  #820                // Method java/lang/Boolean.valueOf:(Z)Ljava/lang/Boolean;
+       898: invokevirtual #812                // Method io/netty/bootstrap/ServerBootstrap.option:(Lio/netty/channel/ChannelOption;Ljava/lang/Object;)Lio/netty/bootstrap/AbstractBootstrap;
+       901: checkcast     #787                // class io/netty/bootstrap/ServerBootstrap
+       904: aload_0
+       905: getfield      #785                // Field inbuiltInitialiser:Lorg/geysermc/geyser/network/bedrock/nethernet/NetherNetChannelInitialiser;
+       908: invokevirtual #824                // Method io/netty/bootstrap/ServerBootstrap.childHandler:(Lio/netty/channel/ChannelHandler;)Lio/netty/bootstrap/ServerBootstrap;
+       911: pop
+       912: iload         8
+       914: ifeq          944
+       917: aload         9
+       919: getstatic     #827                // Field org/cloudburstmc/netty/channel/nethernet/config/NetherChannelOption.NETHER_SERVER_ICE_ADDRESS:Lio/netty/channel/ChannelOption;
+       922: new           #323                // class java/net/InetSocketAddress
+       925: dup
+       926: aload         7
+       928: invokeinterface #828,  1          // InterfaceMethod org/geysermc/geyser/api/network/BedrockListener.address:()Ljava/lang/String;
+       933: aload_0
+       934: getfield      #273                // Field webrtcPort:I
+       937: invokespecial #330                // Method java/net/InetSocketAddress."<init>":(Ljava/lang/String;I)V
+       940: invokevirtual #812                // Method io/netty/bootstrap/ServerBootstrap.option:(Lio/netty/channel/ChannelOption;Ljava/lang/Object;)Lio/netty/bootstrap/AbstractBootstrap;
+       943: pop
+       944: aload_0
+       945: aload         9
+       947: new           #323                // class java/net/InetSocketAddress
+       950: dup
+       951: aload         7
+       953: invokeinterface #828,  1          // InterfaceMethod org/geysermc/geyser/api/network/BedrockListener.address:()Ljava/lang/String;
+       958: aload_0
+       959: getfield      #276                // Field signalingPort:I
+       962: invokespecial #330                // Method java/net/InetSocketAddress."<init>":(Ljava/lang/String;I)V
+       965: invokevirtual #832                // Method io/netty/bootstrap/ServerBootstrap.bind:(Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;
+       968: invokeinterface #838,  1          // InterfaceMethod io/netty/channel/ChannelFuture.sync:()Lio/netty/channel/ChannelFuture;
+       973: invokeinterface #842,  1          // InterfaceMethod io/netty/channel/ChannelFuture.channel:()Lio/netty/channel/Channel;
+       978: putfield      #844                // Field inbuiltChannel:Lio/netty/channel/Channel;
+       981: aload         6
+       983: invokeinterface #714,  1          // InterfaceMethod org/geysermc/geyser/configuration/GeyserConfig$SignalingConfig$BuiltinConfig$HttpsConfig.certificate:()Ljava/lang/String;
+       988: invokevirtual #535                // Method java/lang/String.isBlank:()Z
+       991: ifeq          1000
+       994: ldc_w         #846                // String http://
+       997: goto          1003
+      1000: ldc_w         #848                // String https://
+      1003: astore        10
+      1005: aload_0
+      1006: invokevirtual #343                // Method logger:()Lorg/geysermc/geyser/GeyserLogger;
+      1009: aload         10
+      1011: aload         7
+      1013: invokeinterface #828,  1          // InterfaceMethod org/geysermc/geyser/api/network/BedrockListener.address:()Ljava/lang/String;
+      1018: aload_0
+      1019: getfield      #276                // Field signalingPort:I
+      1022: iload         8
+      1024: ifeq          1039
+      1027: aload_0
+      1028: getfield      #273                // Field webrtcPort:I
+      1031: invokedynamic #851,  0            // InvokeDynamic #20:makeConcatWithConstants:(I)Ljava/lang/String;
+      1036: goto          1042
+      1039: ldc_w         #853                // String
+      1042: invokedynamic #858,  0            // InvokeDynamic #21:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
+      1047: invokeinterface #629,  2          // InterfaceMethod org/geysermc/geyser/GeyserLogger.info:(Ljava/lang/String;)V
+      1052: goto          1075
+      1055: astore        6
+      1057: aload_0
+      1058: invokevirtual #861                // Method closeInbuiltResources:()V
+      1061: aload_0
+      1062: invokevirtual #343                // Method logger:()Lorg/geysermc/geyser/GeyserLogger;
+      1065: ldc_w         #863                // String Built-in signaling could not start
+      1068: aload         6
+      1070: invokeinterface #428,  3          // InterfaceMethod org/geysermc/geyser/GeyserLogger.error:(Ljava/lang/String;Ljava/lang/Throwable;)V
+      1075: return
+      Exception table:
+         from    to  target type
+           219   227   230   Class java/lang/IllegalArgumentException
+           283   335   338   Class java/lang/IllegalArgumentException
+            37   360   363   Class java/lang/IllegalArgumentException
+           385   429   432   Class java/lang/Exception
+           466  1052  1055   Class java/lang/Throwable
+
+Empty advertised-address override filtering (exact pinned methods):
+  private static java.util.List<java.lang.String> addresses(java.util.stream.Stream<java.lang.String>);
+    Code:
+         0: aload_0
+         1: invokedynamic #955,  0            // InvokeDynamic #25:apply:()Ljava/util/function/Function;
+         6: invokeinterface #961,  2          // InterfaceMethod java/util/stream/Stream.map:(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+        11: invokedynamic #1015,  0           // InvokeDynamic #28:test:()Ljava/util/function/Predicate;
+        16: invokeinterface #976,  2          // InterfaceMethod java/util/stream/Stream.filter:(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;
+        21: invokeinterface #1018,  1         // InterfaceMethod java/util/stream/Stream.distinct:()Ljava/util/stream/Stream;
+        26: invokeinterface #979,  1          // InterfaceMethod java/util/stream/Stream.toList:()Ljava/util/List;
+        31: areturn
+
+  private static boolean lambda$addresses$3(java.lang.String);
+    Code:
+         0: aload_0
+         1: invokevirtual #1773               // Method java/lang/String.isEmpty:()Z
+         4: ifne          11
+         7: iconst_1
+         8: goto          12
+        11: iconst_0
+        12: ireturn

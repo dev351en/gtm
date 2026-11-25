@@ -1,0 +1,24 @@
+{
+  "recorded_utc": "2026-11-25T01:10:27.749791+00:00",
+  "scope": "Owner-route and vehicle-capacity phase; root retains coherent final gate",
+  "focused_tests": {
+    "tests": 15,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "files": {
+    "source/src/main/java/com/sdcraft/core/GtmVehicles.java": "cca756a4687cf191132ad66a96ab380bbbfbcbdb343232df687c09ea5a6c188b",
+    "source/src/main/java/com/sdcraft/core/GtmVehicleServices.java": "54428d93965ca7796f3407d23dae7854b8b14abd69aa86d6e6100e1eed11eb0f",
+    "source/src/main/java/com/sdcraft/core/SDCraftCorePlugin.java": "b68ccecf1ad705e615021bb0f02dd713f27b22498b1c9ab2af67413f87b36af9",
+    "source/src/main/java/com/sdcraft/core/GtmTaxi.java": "1cff9ad3f748998bfe51f8bb2c2a2213ded34a89f25420fddaeb89766e57b79f",
+    "source/src/main/java/com/sdcraft/core/GtmFoodCourier.java": "93ed7f4d35fdc49e7fe62b15a7a5dc577d8d74b694609d93a9f21ae6ed07b199",
+    "source/src/main/java/com/sdcraft/core/vehicle/LocalOwnerCommissioning.java": "aed923023242c9d7ee0e44a79907f87650766b0440d3aae07f305881ae7433b4",
+    "source/src/main/java/com/sdcraft/core/vehicle/PaperRailSurvey.java": "c0f8de6e37ababe716af10bfde07bcbd95c3ecf11279bdebe644cd08745ca199",
+    "source/src/main/java/com/sdcraft/core/vehicle/VehicleMenuPage.java": "5a9b8befeeb8c2b93e94a405b72a63c84103d349bbe3aeddef1bd2f2bcc3fef9",
+    "source/src/main/resources/config.yml": "2563e1ec9330f4ba6fa1cbe5eba9e86d39bc1fa5f6903a501de7009eded06093",
+    "source/src/main/resources/plugin.yml": "6ee39c5a1c4175a06021ef2db354bfce3a1b7133e69a9567e04fec7823cde78e",
+    "source/src/test/java/com/sdcraft/core/vehicle/LocalOwnerCommissioningTest.java": "77c390a29c4cf96e2f875427c9716f05b8226687e1c59a44dc8b430db3d2f66b",
+    "source/src/test/java/com/sdcraft/core/vehicle/VehicleMenuPageTest.java": "d093e13096a23dc0dedd298f41b1ef1ba7e39e62f4f5e0fc907c188bfe774391"
+  }
+}

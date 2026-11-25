@@ -1,0 +1,259 @@
+{
+  "status": "PASS",
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "java": "25.0.5.1",
+  "core_version": "1.0.3-r4-functional-candidate",
+  "actor": "GtmQAR4",
+  "checks": [
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Inspect and durably journal empty fixture before edits",
+      "at": "2026-11-25T01:45:19.843422362Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Grant original traditional auto at real supported parking and mount driver",
+      "at": "2026-11-25T01:45:20.112896707Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Real translated client forward input moves the actual driver and consumes fuel",
+      "at": "2026-11-25T01:45:20.564918627Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Released client input brakes the same vehicle without moving the player separately",
+      "at": "2026-11-25T01:45:23.063027180Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Actual Paper passenger feet and bounding box clear the support after driving",
+      "at": "2026-11-25T01:45:23.564945632Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Authenticated horn and real headlight controls operate",
+      "at": "2026-11-25T01:45:24.074218751Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Headlight writes one real bounded LIGHT block then restores it",
+      "at": "2026-11-25T01:45:24.576432486Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Passenger mounts but cannot operate driver controls",
+      "at": "2026-11-25T01:45:25.071858472Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Permission revocation prevents a new vehicle admission",
+      "at": "2026-11-25T01:45:25.564182355Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Native electric and cargo auto identities grant without replacing the first",
+      "at": "2026-11-25T01:45:26.079811778Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Cargo binds the actual owned fixture barrel",
+      "at": "2026-11-25T01:45:26.576362809Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Cargo access uses one vanilla inventory and rejects hopper/break paths",
+      "at": "2026-11-25T01:45:27.064464094Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Lost vehicle permission closes cargo and cannot transfer items",
+      "at": "2026-11-25T01:45:27.567953173Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Explicit fleet consent and immutable route reserve the parked auto",
+      "at": "2026-11-25T01:45:28.194679867Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Real seated NPC drives through accepted server ticks and consumes fuel",
+      "at": "2026-11-25T01:45:30.069632331Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Paused NPC trip stays at its actual pose and retains its invited passenger",
+      "at": "2026-11-25T01:45:30.568686627Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Resumed NPC reaches actual route end without endpoint teleport",
+      "at": "2026-11-25T01:45:35.062290364Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Fleet release safely exits passenger and preserves final owned pose",
+      "at": "2026-11-25T01:45:35.572536435Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Human driver can remount the same stopped seat after NPC release",
+      "at": "2026-11-25T01:45:36.063111631Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Human remount restores player attachment without needing vehicle motion",
+      "at": "2026-11-25T01:45:36.567170352Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Water profile admits on actual two-deep source water",
+      "at": "2026-11-25T01:45:37.069923984Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Water helm has real running fuel use and a safe shore exit",
+      "at": "2026-11-25T01:45:37.574719654Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Flight profile lands on inspected support and has a pilot carrier",
+      "at": "2026-11-25T01:45:38.071327487Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Actual hover tick retains the pilot and charges engine load",
+      "at": "2026-11-25T01:45:38.567336036Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Real vanilla rail survey creates a clear driving-cab binding",
+      "at": "2026-11-25T01:45:39.091996630Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Passive motor/trailer delivery uses actual surveyed consist gaps",
+      "at": "2026-11-25T01:45:39.668964216Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "SkyLink terminal machines define an actual overhead cable",
+      "at": "2026-11-25T01:45:40.073408237Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Grip mounts to the existing cable and cabin hangs below linked anchors",
+      "at": "2026-11-25T01:45:40.579452556Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "Terminal-powered cable cabin moves across its linked grip",
+      "at": "2026-11-25T01:45:52.812849373Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper API/ticks. Setup teleports and injected protection events are test scaffolding, not native-client input.",
+      "name": "All retained QA ownership remains stable after actual operations",
+      "at": "2026-11-25T01:45:53.312172413Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Only QA transient components and unchanged fixture blocks removed; exact QA grant/route IDs remain in this disposable copy.",
+      "name": "Restore inspected fixture without deleting QA ownership receipts",
+      "at": "2026-11-25T01:45:53.874477911Z",
+      "result": "PASS"
+    }
+  ],
+  "unexecuted_steps": [],
+  "fixture_inspection": {
+    "entities": 0,
+    "inspected_blocks": 61065,
+    "occupied_samples": [],
+    "allowed": true,
+    "explicit_fixture_chunk_loads": [
+      "317,320",
+      "317,321",
+      "317,322",
+      "318,320",
+      "318,321",
+      "318,322",
+      "319,321",
+      "319,322",
+      "320,317",
+      "320,318",
+      "320,319",
+      "320,320",
+      "320,321",
+      "320,322",
+      "321,317",
+      "321,318",
+      "321,319",
+      "321,320",
+      "321,321",
+      "321,322"
+    ],
+    "bounds": [
+      5088,
+      217,
+      5088,
+      5133,
+      240,
+      5147
+    ]
+  },
+  "fixture_remains": false,
+  "qa_vehicle_grants": [
+    "623e456c-99dc-303b-8e9a-9de82fbf8afe",
+    "d63878d6-4786-3682-bfd8-4525bf9851ee",
+    "d8b581d5-af8e-3667-9ca7-9fde10193963",
+    "4cb598c8-2333-38eb-bd09-d5289af1aed4",
+    "739b3581-8722-3320-8fab-b74440d66faa",
+    "fc9a06a3-0c55-3ab9-86e0-15b8573ff143",
+    "5a8f3361-8eb9-3816-baa2-2aa3460232b9",
+    "e03320e5-bb2f-3d1f-b584-58adb877e499",
+    "6a106070-f5b7-3e4d-ad4b-009d7e51a76a",
+    "5c4065c8-b721-38fa-883b-0af042d3381f",
+    "74c7d368-8dcf-3cf8-9b74-00875b54bf52",
+    "581ed0c5-66b9-3cef-8ab7-a6bfa90ff5d9"
+  ],
+  "rail_route": "qa_transport_rail_48c646d3",
+  "cable_route": "qa_transport_cable_48c646d3",
+  "fleet_trip": "46f5cb6a-6fa8-3815-a8a2-beb71ae2a9ee",
+  "classification": "Actual exact-target Paper API/tick probe with a normally authenticated protocol player. Setup teleports, direct module calls and injected protection events are explicit scaffolding. Not native client visual/input, crossplay, fare purchase or real reconnect qualification.",
+  "not_tested": [
+    "Native Java/Bedrock rendering and controls",
+    "Real disconnect/login/restart and second-actor invitee isolation",
+    "Full paid Taxi GUI/Ledger booking",
+    "Water/air/rail steering input from a native client",
+    "All87 individual visual seat fits",
+    "Power loss and production deployment"
+  ]
+}

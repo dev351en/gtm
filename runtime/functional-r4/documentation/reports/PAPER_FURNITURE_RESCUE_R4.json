@@ -1,0 +1,238 @@
+{
+  "status": "PASS",
+  "started": "2026-11-25T00:59:52.297Z",
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "checks": [
+    {
+      "name": "Inspect and journal the bounded empty ground and water fixture",
+      "milliseconds": 2210,
+      "status": "PASS"
+    },
+    {
+      "name": "Stage original entitlements and place an unbound real stretcher",
+      "milliseconds": 52,
+      "status": "PASS"
+    },
+    {
+      "name": "An invitation cannot move the non-owner patient before acceptance",
+      "milliseconds": 14,
+      "status": "PASS"
+    },
+    {
+      "name": "Another player cannot consume or accept the patient's invitation",
+      "milliseconds": 8,
+      "status": "PASS"
+    },
+    {
+      "name": "Declining closes consent without mounting or moving furniture",
+      "milliseconds": 4,
+      "status": "PASS"
+    },
+    {
+      "name": "Accepted patient occupies the actual calibrated carrier",
+      "milliseconds": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "Ordinary PlayerInputEvent moves the same gurney and real patient",
+      "milliseconds": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "Travel remains bounded and release parks the actual patient",
+      "milliseconds": 30,
+      "status": "PASS"
+    },
+    {
+      "name": "Actual wall blocks the full gurney and patient sweep",
+      "milliseconds": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "Blocked motion cannot creep through the wall",
+      "milliseconds": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "Persistent blocked input leaves the authoritative pose unchanged",
+      "milliseconds": 19,
+      "status": "PASS"
+    },
+    {
+      "name": "One left edge turns the full stretcher and holding it does not repeat",
+      "milliseconds": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "Cardinal turn persists one orientation",
+      "milliseconds": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "Right edge restores the direction for a real reverse step",
+      "milliseconds": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "Reverse uses the same bounded current pose",
+      "milliseconds": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "Release and jump brake halt reverse motion",
+      "milliseconds": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "Patient can dismount beside the current stopped gurney",
+      "milliseconds": 5,
+      "status": "PASS"
+    },
+    {
+      "name": "Dismount preserves one entitlement and checkpoints its current pose",
+      "milliseconds": 11,
+      "status": "PASS"
+    },
+    {
+      "name": "Current permission loss stops an accepted trip and releases its patient",
+      "milliseconds": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "No old participant session continues movement after access loss",
+      "milliseconds": 15,
+      "status": "PASS"
+    },
+    {
+      "name": "Surface swimmer explicitly requests the owned station's checked rescue",
+      "milliseconds": 3,
+      "status": "PASS"
+    },
+    {
+      "name": "No lifebuoy carries the swimmer before acceptance",
+      "milliseconds": 20,
+      "status": "PASS"
+    },
+    {
+      "name": "Accepted buoy uses the actual derived ring and calibrated passenger feet",
+      "milliseconds": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "Actual water travel advances incrementally before an inserted obstacle",
+      "milliseconds": 13,
+      "status": "PASS"
+    },
+    {
+      "name": "A changed water route stops and releases the swimmer locally",
+      "milliseconds": 36,
+      "status": "PASS"
+    },
+    {
+      "name": "A fresh acceptance is required after the obstructed rescue",
+      "milliseconds": 5,
+      "status": "PASS"
+    },
+    {
+      "name": "Second accepted route travels to its actual nearby shore",
+      "milliseconds": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "Arrival leaves a real standing player on supported dry shore",
+      "milliseconds": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "The original stretcher can return to its preserved stationary bed mode",
+      "milliseconds": 25,
+      "status": "PASS"
+    },
+    {
+      "name": "Bound use invokes ordinary actual Minecraft sleep",
+      "milliseconds": 15,
+      "status": "PASS"
+    },
+    {
+      "name": "Bed use preserves the same ID and transport remains disabled while bound",
+      "milliseconds": 9,
+      "status": "PASS"
+    },
+    {
+      "name": "Restore fixture world and participant state without deleting entitlements",
+      "milliseconds": 41,
+      "status": "PASS"
+    }
+  ],
+  "unexecuted": [],
+  "fixture_inspection": {
+    "occupied": [],
+    "entities": 0,
+    "inspected_blocks": 5887,
+    "bounds": [
+      5796,
+      218,
+      5796,
+      5825,
+      225,
+      5825
+    ],
+    "allowed": true
+  },
+  "fixture_remains": false,
+  "injected_PlayerInputEvents": 13,
+  "sampled_actual_moving_ticks": 173,
+  "maximum_actual_mounted_step": 0.040000000000873115,
+  "water_stop_observations": [
+    {
+      "source_below": "minecraft:water[level=0]",
+      "mounted": false,
+      "in_water": false,
+      "active_tows": 0,
+      "position": [
+        5812.1,
+        220.02,
+        5803.5
+      ],
+      "phase": "first_detached_tick",
+      "source_block_light": 14
+    },
+    {
+      "source_below": "minecraft:water[level=0]",
+      "mounted": false,
+      "in_water": false,
+      "active_tows": 0,
+      "position": [
+        5812.1,
+        220.02,
+        5803.5
+      ],
+      "phase": "late_release",
+      "source_block_light": 14
+    },
+    {
+      "source_below": "minecraft:water[level=0]",
+      "mounted": false,
+      "in_water": false,
+      "active_tows": 0,
+      "position": [
+        5812.1,
+        219.5,
+        5803.5
+      ],
+      "phase": "stopped_only_vertical_fixture_reentry",
+      "source_block_light": 14
+    }
+  ],
+  "native_java_client_qualified": false,
+  "native_bedrock_client_qualified": false,
+  "ordinary_purchase_flow_qualified": false,
+  "scaffolding": [
+    "Existing QA operator's explicit public staging access; patient remains non-OP",
+    "Two original entitlement fixture grants, no item inventory copied",
+    "Journaled empty floor/illuminated source-water pool/bed/walls and temporary night",
+    "Player positioning and injected real Paper input/menu events",
+    "After actual tow detachment only, explicit vertical reentry into the same water column for fresh consent; not a gravity or native swimming test",
+    "Actual carrier/passenger/world movement and FUR2 reopen are observed"
+  ]
+}

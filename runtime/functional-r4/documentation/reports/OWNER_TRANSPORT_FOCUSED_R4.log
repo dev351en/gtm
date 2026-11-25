@@ -1,0 +1,75 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Task :compileJava
+
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+LocalOwnerCommissioningTest > configurationCopiesItsDefinitions() PASSED
+
+LocalOwnerCommissioningTest > exactInclusiveBlockEdgesAndEntireBodyAreChecked() PASSED
+
+LocalOwnerCommissioningTest > cannotBridgeSeparatePermittedParcels() PASSED
+
+LocalOwnerCommissioningTest > publicStagingBypassCannotStandInForPaidOwnership() PASSED
+
+LocalOwnerCommissioningTest > malformedOrFractionalCoordinateCannotExpandAuthority() PASSED
+
+LocalOwnerCommissioningTest > baselineDisabledEvenWithARegion() PASSED
+
+LocalOwnerCommissioningTest > emptyOversizedAndOverlappingRegionsAreRejected() PASSED
+
+LocalOwnerCommissioningTest > straightLongCoachKeepsRealWidthAndAuthoritativeEndOverhang() PASSED
+
+LocalOwnerCommissioningTest > anotherWorldAndAltitudeAreRejected() PASSED
+
+LocalOwnerCommissioningTest > cannotEnableOutsideExplicitLocalProfile() PASSED
+
+VehicleMenuPageTest > stalePageAfterOwnershipChangesClampsToAvailableContent() PASSED
+
+VehicleMenuPageTest > menuContentCannotFollowAChangedMutableSource() PASSED
+
+VehicleMenuPageTest > full128CapacityHasARealThirdPage() PASSED
+
+VehicleMenuPageTest > expandedBoundRetainsSmallDefaultAndRejectsUnboundedCapacity() PASSED
+
+VehicleMenuPageTest > everyOneOf87VehiclesIsReachableExactlyOnce() PASSED
+
+[Incubating] Problems report is available at: file:///workspace/scratch/d7d343b39c16/gtm/source/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 15s
+4 actionable tasks: 4 executed
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.2.1/userguide/configuration_cache_enabling.html
+/workspace/scratch/d7d343b39c16/gtm/source/src/main/java/com/sdcraft/core/GtmFurnitureMobility.java:243: warning: [removal] EntityState in TeleportFlag has been deprecated and marked for removal
+            boolean seat=projection.seat().teleport(seat(owned,next),TeleportFlag.EntityState.RETAIN_PASSENGERS);
+                                                                                 ^
+/workspace/scratch/d7d343b39c16/gtm/source/src/main/java/com/sdcraft/core/GtmFurnitureMobility.java:243: warning: [removal] RETAIN_PASSENGERS in EntityState has been deprecated and marked for removal
+            boolean seat=projection.seat().teleport(seat(owned,next),TeleportFlag.EntityState.RETAIN_PASSENGERS);
+                                                                                             ^
+/workspace/scratch/d7d343b39c16/gtm/source/src/main/java/com/sdcraft/core/GtmFurnitureRescueMobility.java:244: warning: [removal] EntityState in TeleportFlag has been deprecated and marked for removal
+            boolean seat=session.patient==null||projection.seat().teleport(marker(owned,next),TeleportFlag.EntityState.RETAIN_PASSENGERS);
+                                                                                                          ^
+/workspace/scratch/d7d343b39c16/gtm/source/src/main/java/com/sdcraft/core/GtmFurnitureRescueMobility.java:244: warning: [removal] RETAIN_PASSENGERS in EntityState has been deprecated and marked for removal
+            boolean seat=session.patient==null||projection.seat().teleport(marker(owned,next),TeleportFlag.EntityState.RETAIN_PASSENGERS);
+                                                                                                                      ^
+/workspace/scratch/d7d343b39c16/gtm/source/src/main/java/com/sdcraft/core/GtmFurnitureRescueMobility.java:327: warning: [removal] EntityState in TeleportFlag has been deprecated and marked for removal
+    private boolean projectTow(Tow tow,Point point){internalMove=true;try{return tow.carrier.teleport(towMarker(tow.carrier.getWorld(),point),TeleportFlag.EntityState.RETAIN_PASSENGERS)&&tow.ring.teleport(towRing(tow.ring.getWorld(),point));}catch(RuntimeException failure){return false;}finally{internalMove=false;}}
+                                                                                                                                                          ^
+/workspace/scratch/d7d343b39c16/gtm/source/src/main/java/com/sdcraft/core/GtmFurnitureRescueMobility.java:327: warning: [removal] RETAIN_PASSENGERS in EntityState has been deprecated and marked for removal
+    private boolean projectTow(Tow tow,Point point){internalMove=true;try{return tow.carrier.teleport(towMarker(tow.carrier.getWorld(),point),TeleportFlag.EntityState.RETAIN_PASSENGERS)&&tow.ring.teleport(towRing(tow.ring.getWorld(),point));}catch(RuntimeException failure){return false;}finally{internalMove=false;}}
+                                                                                                                                                                      ^
+/workspace/scratch/d7d343b39c16/gtm/source/src/main/java/com/sdcraft/core/GtmFurnitureCameras.java:137: warning: [removal] matchColor(@org.jetbrains.annotations.NotNull Color) in MapPalette has been deprecated and marked for removal
+    private byte colour(int rgb){if(palette.size()>2048)palette.clear();return palette.computeIfAbsent(rgb,color->MapPalette.matchColor(new java.awt.Color(color)));}
+                                                                                                                            ^
+/workspace/scratch/d7d343b39c16/gtm/source/src/main/java/com/sdcraft/core/GunEngine.java:216: warning: [removal] valueOf(@org.jetbrains.annotations.NotNull String) in Sound has been deprecated and marked for removal
+            p.getWorld().playSound(eye, Sound.valueOf(type.soundName), 1.0f, type.pitch);
+                                             ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+8 warnings

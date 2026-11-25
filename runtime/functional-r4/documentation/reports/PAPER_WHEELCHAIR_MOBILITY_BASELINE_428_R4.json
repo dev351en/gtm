@@ -1,0 +1,3265 @@
+{
+  "schema": "GTM_PAPER_WHEELCHAIR_MOBILITY_R4_V1",
+  "classification": "Separate actual Paper paid-account cohorts; historical failure retained, ordinary paid progress reused, no native renderer",
+  "historical_motion_run": "20261125T002732408524Z",
+  "historical_motion": {
+    "status": "FAIL",
+    "scenario": "MOBILITY_EVENTS",
+    "server": "26.3-255-c22378f (MC: 26.3)",
+    "java": "25.0.5.1",
+    "started_epoch_ms": 1795566493261,
+    "account": "GtmLaptopQA",
+    "actor_is_op": false,
+    "permissions_granted_by_probe": [],
+    "ordinary_inherited_permissions": {},
+    "checks": [
+      {
+        "name": "Paid-property wheelchair shop opens from an actual clear floor target",
+        "detail": "Ordinary paid property/shop/owned controls; PlayerInputEvent and menu events are explicit server-event test input.",
+        "result": "PASS",
+        "at": "2026-11-25T00:28:13.376434549Z"
+      },
+      {
+        "name": "Ordinary catalogue selects the exact wheelchair design",
+        "detail": "Ordinary paid property/shop/owned controls; PlayerInputEvent and menu events are explicit server-event test input.",
+        "result": "PASS",
+        "at": "2026-11-25T00:28:13.463159363Z"
+      },
+      {
+        "name": "Wheelchair review confirms its ordinary75 ARK purchase",
+        "detail": "Ordinary paid property/shop/owned controls; PlayerInputEvent and menu events are explicit server-event test input.",
+        "result": "PASS",
+        "at": "2026-11-25T00:28:13.591707020Z"
+      },
+      {
+        "name": "Paid outbox delivers one furniture entitlement without adding a vehicle record",
+        "detail": "Ordinary paid property/shop/owned controls; PlayerInputEvent and menu events are explicit server-event test input.",
+        "result": "PASS",
+        "at": "2026-11-25T00:28:13.742993184Z"
+      },
+      {
+        "name": "Owned wheelchair controls start ordinary floor placement",
+        "detail": "Ordinary paid property/shop/owned controls; PlayerInputEvent and menu events are explicit server-event test input.",
+        "result": "PASS",
+        "at": "2026-11-25T00:28:13.890582308Z"
+      },
+      {
+        "name": "Real floor ray trace places the wheelchair inside its paid claim",
+        "detail": "Ordinary paid property/shop/owned controls; PlayerInputEvent and menu events are explicit server-event test input.",
+        "result": "PASS",
+        "at": "2026-11-25T00:28:14.051571610Z"
+      },
+      {
+        "name": "Normal owned Use mounts the real wheelchair carrier",
+        "detail": "Ordinary paid property/shop/owned controls; PlayerInputEvent and menu events are explicit server-event test input.",
+        "result": "PASS",
+        "at": "2026-11-25T00:28:14.188997911Z"
+      },
+      {
+        "name": "Actual rider feet and attachment are safe before movement",
+        "detail": "Ordinary paid property/shop/owned controls; PlayerInputEvent and menu events are explicit server-event test input.",
+        "result": "PASS",
+        "at": "2026-11-25T00:28:14.490907895Z"
+      },
+      {
+        "name": "Real PlayerInputEvent moves chair, rider and current store pose backwards",
+        "detail": "Ordinary paid property/shop/owned controls; PlayerInputEvent and menu events are explicit server-event test input.",
+        "result": "PASS",
+        "at": "2026-11-25T00:28:14.891302269Z"
+      },
+      {
+        "name": "Released input stops immediately before a cardinal turn",
+        "detail": "Ordinary paid property/shop/owned controls; PlayerInputEvent and menu events are explicit server-event test input.",
+        "result": "PASS",
+        "at": "2026-11-25T00:28:15.038816887Z"
+      },
+      {
+        "name": "A left-key edge turns the actual chair once",
+        "detail": "Ordinary paid property/shop/owned controls; PlayerInputEvent and menu events are explicit server-event test input.",
+        "result": "PASS",
+        "at": "2026-11-25T00:28:15.188981209Z"
+      },
+      {
+        "name": "Holding the turn key does not repeat rotation",
+        "detail": "Ordinary paid property/shop/owned controls; PlayerInputEvent and menu events are explicit server-event test input.",
+        "result": "PASS",
+        "at": "2026-11-25T00:28:15.390594583Z"
+      },
+      {
+        "name": "Forward input moves the real occupied wheelchair at low speed",
+        "detail": "Ordinary paid property/shop/owned controls; PlayerInputEvent and menu events are explicit server-event test input.",
+        "result": "PASS",
+        "at": "2026-11-25T00:28:16.392223946Z"
+      },
+      {
+        "name": "Jump brakes despite held forward input",
+        "detail": "Ordinary paid property/shop/owned controls; PlayerInputEvent and menu events are explicit server-event test input.",
+        "result": "PASS",
+        "at": "2026-11-25T00:28:16.638831631Z"
+      },
+      {
+        "name": "First released right-key edge turns toward north",
+        "detail": "Ordinary paid property/shop/owned controls; PlayerInputEvent and menu events are explicit server-event test input.",
+        "result": "PASS",
+        "at": "2026-11-25T00:28:16.788366820Z"
+      },
+      {
+        "name": "The first right turn is persisted in the current cardinal pose",
+        "detail": "Ordinary paid property/shop/owned controls; PlayerInputEvent and menu events are explicit server-event test input.",
+        "result": "PASS",
+        "at": "2026-11-25T00:28:16.938550753Z"
+      },
+      {
+        "name": "Second right-key edge turns toward the parcel boundary",
+        "detail": "Ordinary paid property/shop/owned controls; PlayerInputEvent and menu events are explicit server-event test input.",
+        "result": "PASS",
+        "at": "2026-11-25T00:28:17.088402007Z"
+      },
+      {
+        "name": "The chair faces east and begins the bounded boundary approach",
+        "detail": "Ordinary paid property/shop/owned controls; PlayerInputEvent and menu events are explicit server-event test input.",
+        "result": "PASS",
+        "at": "2026-11-25T00:28:17.238883382Z"
+      },
+      {
+        "name": "Owned parcel edge stops the full body before crossing",
+        "detail": "Ordinary paid property/shop/owned controls; PlayerInputEvent and menu events are explicit server-event test input.",
+        "result": "PASS",
+        "at": "2026-11-25T00:28:23.239881072Z"
+      },
+      {
+        "name": "Continued forward input cannot bypass the blocked boundary",
+        "detail": "Ordinary paid property/shop/owned controls; PlayerInputEvent and menu events are explicit server-event test input.",
+        "result": "PASS",
+        "at": "2026-11-25T00:28:23.838507727Z"
+      },
+      {
+        "name": "Ordinary dismount uses a clear exit beside the CURRENT chair",
+        "detail": "Ordinary paid property/shop/owned controls; PlayerInputEvent and menu events are explicit server-event test input.",
+        "result": "PASS",
+        "at": "2026-11-25T00:28:23.990801472Z"
+      },
+      {
+        "name": "Parked FUR2 reopens with the same one paid entitlement and latest pose",
+        "detail": "IllegalStateException: Rider remains mounted after ordinary dismount",
+        "result": "FAIL",
+        "at": "2026-11-25T00:28:24.238397467Z"
+      }
+    ],
+    "unexecuted_steps": [],
+    "actual_block_states": [],
+    "initial_bank_cents": 75500,
+    "observed_final_bank_cents": 68000,
+    "expected_total_debit_cents": 7500,
+    "paid_property": "b950b3dd-d13d-5990-a296-b5b7ae04edec",
+    "paid_furniture": "6125a2d1-dd9d-4110-869f-a8f69a4c2b4f",
+    "paid_food_order": null,
+    "owned_sign": null,
+    "actual_consume_events": 0,
+    "fixture_blocks_written_by_probe": 0,
+    "wheelchair_id": "6125a2d1-dd9d-4110-869f-a8f69a4c2b4f",
+    "wheelchair_evidence": [
+      {
+        "carrier_y": 68.62,
+        "pose": [
+          -174.5,
+          68.0,
+          -72.5,
+          2
+        ],
+        "rider_bbox_min_y": 68.02000000000001,
+        "health": 20.0,
+        "phase": "mounted",
+        "rider": [
+          -174.5,
+          68.02000000000001,
+          -72.5
+        ]
+      },
+      {
+        "carrier_y": 68.62,
+        "pose": [
+          -174.5,
+          68.0,
+          -72.01999999999998,
+          2
+        ],
+        "rider_bbox_min_y": 68.02000000000001,
+        "health": 20.0,
+        "phase": "backward_stopped",
+        "rider": [
+          -174.5,
+          68.02000000000001,
+          -72.01999999999998
+        ]
+      },
+      {
+        "carrier_y": 68.62,
+        "pose": [
+          -174.5,
+          68.0,
+          -72.01999999999998,
+          1
+        ],
+        "rider_bbox_min_y": 68.02000000000001,
+        "health": 20.0,
+        "phase": "left_turn",
+        "rider": [
+          -174.5,
+          68.02000000000001,
+          -72.01999999999998
+        ]
+      },
+      {
+        "carrier_y": 68.62,
+        "pose": [
+          -175.70000000000005,
+          68.0,
+          -72.01999999999998,
+          1
+        ],
+        "rider_bbox_min_y": 68.02000000000001,
+        "health": 20.0,
+        "phase": "forward_braked",
+        "rider": [
+          -175.70000000000005,
+          68.02000000000001,
+          -72.01999999999998
+        ]
+      },
+      {
+        "carrier_y": 68.62,
+        "pose": [
+          -171.4999999999999,
+          68.0,
+          -72.01999999999998,
+          3
+        ],
+        "rider_bbox_min_y": 68.02000000000001,
+        "health": 20.0,
+        "phase": "parcel_boundary",
+        "rider": [
+          -171.4999999999999,
+          68.02000000000001,
+          -72.01999999999998
+        ]
+      }
+    ],
+    "injected_player_input_events": 11,
+    "received_player_input_events": 0,
+    "scaffolding": [
+      "View and position teleportation on the disposable profile",
+      "Injected normal menu/block events through actual registered listeners",
+      "Explicit PlayerInputEvent objects delivered through the actual event manager; not native-client control"
+    ],
+    "retained_state": "Ordinary paid property, furniture, sign and receipts remain only in this disposable clone. No account/bank/ownership record is edited by the companion. Motion parks the same existing furniture entitlement.",
+    "native_java_client_verified": false,
+    "native_bedrock_client_verified": false,
+    "classification": "Actual Paper local-profile acceptance with a normally authenticated non-OP player; no native-client rendering, cushion fit or human control certification."
+  },
+  "continuation_run": "20261125T003905455521Z",
+  "parking": {
+    "status": "PASS",
+    "scenario": "MOBILITY_PARK",
+    "server": "26.3-255-c22378f (MC: 26.3)",
+    "java": "25.0.5.1",
+    "started_epoch_ms": 1795567183880,
+    "account": "GtmLaptopQA",
+    "actor_is_op": false,
+    "permissions_granted_by_probe": [],
+    "ordinary_inherited_permissions": {},
+    "checks": [
+      {
+        "detail": "Existing paid wheelchair only; ordinary owner mount and safe dismount, with no further purchase or injected movement.",
+        "name": "Approach the single existing paid wheelchair without another purchase",
+        "at": "2026-11-25T00:39:43.904507050Z",
+        "result": "PASS"
+      },
+      {
+        "detail": "Existing paid wheelchair only; ordinary owner mount and safe dismount, with no further purchase or injected movement.",
+        "name": "Normal reconstruction permits the ordinary owner mount command",
+        "at": "2026-11-25T00:39:44.518331748Z",
+        "result": "PASS"
+      },
+      {
+        "detail": "Existing paid wheelchair only; ordinary owner mount and safe dismount, with no further purchase or injected movement.",
+        "name": "Request a safe dismount beside the unchanged current paid chair",
+        "at": "2026-11-25T00:39:44.825352361Z",
+        "result": "PASS"
+      },
+      {
+        "detail": "Existing paid wheelchair only; ordinary owner mount and safe dismount, with no further purchase or injected movement.",
+        "name": "Actual dismount and FUR2 reopen preserve the paid chair and balance",
+        "at": "2026-11-25T00:39:45.053455424Z",
+        "result": "PASS"
+      }
+    ],
+    "unexecuted_steps": [],
+    "actual_block_states": [],
+    "initial_bank_cents": 68000,
+    "observed_final_bank_cents": 68000,
+    "expected_total_debit_cents": 0,
+    "paid_property": "b950b3dd-d13d-5990-a296-b5b7ae04edec",
+    "paid_furniture": null,
+    "paid_food_order": null,
+    "owned_sign": null,
+    "actual_consume_events": 0,
+    "fixture_blocks_written_by_probe": 0,
+    "wheelchair_id": "6125a2d1-dd9d-4110-869f-a8f69a4c2b4f",
+    "wheelchair_evidence": [
+      {
+        "rider_bbox_min_y": 68.02000000000001,
+        "pose": [
+          -171.4999999999999,
+          68.0,
+          -72.01999999999998,
+          3
+        ],
+        "carrier_y": 68.62,
+        "rider": [
+          -171.4999999999999,
+          68.02000000000001,
+          -72.01999999999998
+        ],
+        "phase": "parking_continuation",
+        "health": 20.0
+      },
+      {
+        "exit": [
+          -172.49379999999988,
+          68.0,
+          -72.01999999999998
+        ],
+        "pose": [
+          -171.4999999999999,
+          68.0,
+          -72.01999999999998,
+          3
+        ],
+        "phase": "parked_reopened",
+        "same_entitlement": "6125a2d1-dd9d-4110-869f-a8f69a4c2b4f"
+      }
+    ],
+    "wheelchair_dismount_observations": [
+      {
+        "phase": "before_leave",
+        "at": "2026-11-25T00:39:44.802026143Z",
+        "diagnosis": {
+          "classification": "READ_ONLY_ACTUAL_EXIT_PREDICATES",
+          "server": "26.3-255-c22378f (MC: 26.3)",
+          "chair": "6125a2d1-dd9d-4110-869f-a8f69a4c2b4f",
+          "pose": [
+            -171.4999999999999,
+            68.0,
+            -72.01999999999998,
+            3
+          ],
+          "bank": 68000,
+          "mounted": true,
+          "rider_size": [
+            0.6000000238418579,
+            1.7999999523162842
+          ],
+          "current_exit": "Location{world=CraftWorld{key=minecraft:overworld},x=-172.49379999999988,y=68.0,z=-72.01999999999998,pitch=0.0,yaw=-90.0}",
+          "candidates": [
+            {
+              "position": [
+                -170.3811999999999,
+                68.0,
+                -72.01999999999998
+              ],
+              "bounds": [
+                -170.68120001192082,
+                68.0,
+                -72.32000001192091,
+                -170.08119998807896,
+                69.85,
+                -71.71999998807905
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": false,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -171,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=0.5, maxZ=1.0]",
+                    "BoundingBox [minX=0.5, minY=0.5, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -171,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=0.5, maxZ=1.0]",
+                    "BoundingBox [minX=0.5, minY=0.5, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            },
+            {
+              "position": [
+                -172.49379999999988,
+                68.0,
+                -72.01999999999998
+              ],
+              "bounds": [
+                -172.7938000119208,
+                68.0,
+                -72.32000001192091,
+                -172.19379998807895,
+                69.85,
+                -71.71999998807905
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": true,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -173,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -173,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -173,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            },
+            {
+              "position": [
+                -171.4999999999999,
+                68.0,
+                -70.99329999999998
+              ],
+              "bounds": [
+                -171.80000001192082,
+                68.0,
+                -71.2933000119209,
+                -171.19999998807896,
+                69.85,
+                -70.69329998807905
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": false,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -71
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -71
+                  ],
+                  "data": "minecraft:oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=0.1875, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -71
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            },
+            {
+              "position": [
+                -171.4999999999999,
+                68.0,
+                -73.04669999999999
+              ],
+              "bounds": [
+                -171.80000001192082,
+                68.0,
+                -73.34670001192092,
+                -171.19999998807896,
+                69.85,
+                -72.74669998807906
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": false,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -74
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -74
+                  ],
+                  "data": "minecraft:brewing_stand[has_bottle_0=false,has_bottle_1=false,has_bottle_2=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0625, minY=0.0, minZ=0.0625, maxX=0.9375, maxY=0.125, maxZ=0.9375]",
+                    "BoundingBox [minX=0.4375, minY=0.125, minZ=0.4375, maxX=0.5625, maxY=0.875, maxZ=0.5625]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -74
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            }
+          ]
+        },
+        "rider_position": "Location{world=CraftWorld{key=minecraft:overworld},x=-171.4999999999999,y=68.02000000000001,z=-72.01999999999998,pitch=40.364536,yaw=-90.0}",
+        "rider_vehicle": "CraftArmorStand{uuid=237b8ea7-8bb9-4d56-b997-ad7d95bb0d71}",
+        "ready": true
+      },
+      {
+        "phase": "event_lowest",
+        "at": "2026-11-25T00:39:44.813781915Z",
+        "diagnosis": {
+          "classification": "READ_ONLY_ACTUAL_EXIT_PREDICATES",
+          "server": "26.3-255-c22378f (MC: 26.3)",
+          "chair": "6125a2d1-dd9d-4110-869f-a8f69a4c2b4f",
+          "pose": [
+            -171.4999999999999,
+            68.0,
+            -72.01999999999998,
+            3
+          ],
+          "bank": 68000,
+          "mounted": false,
+          "rider_size": [
+            0.6000000238418579,
+            1.7999999523162842
+          ],
+          "current_exit": "Location{world=CraftWorld{key=minecraft:overworld},x=-172.49379999999988,y=68.0,z=-72.01999999999998,pitch=0.0,yaw=-90.0}",
+          "candidates": [
+            {
+              "position": [
+                -170.3811999999999,
+                68.0,
+                -72.01999999999998
+              ],
+              "bounds": [
+                -170.68120001192082,
+                68.0,
+                -72.32000001192091,
+                -170.08119998807896,
+                69.85,
+                -71.71999998807905
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": false,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -171,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=0.5, maxZ=1.0]",
+                    "BoundingBox [minX=0.5, minY=0.5, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -171,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=0.5, maxZ=1.0]",
+                    "BoundingBox [minX=0.5, minY=0.5, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            },
+            {
+              "position": [
+                -172.49379999999988,
+                68.0,
+                -72.01999999999998
+              ],
+              "bounds": [
+                -172.7938000119208,
+                68.0,
+                -72.32000001192091,
+                -172.19379998807895,
+                69.85,
+                -71.71999998807905
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": true,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -173,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -173,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -173,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            },
+            {
+              "position": [
+                -171.4999999999999,
+                68.0,
+                -70.99329999999998
+              ],
+              "bounds": [
+                -171.80000001192082,
+                68.0,
+                -71.2933000119209,
+                -171.19999998807896,
+                69.85,
+                -70.69329998807905
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": false,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -71
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -71
+                  ],
+                  "data": "minecraft:oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=0.1875, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -71
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            },
+            {
+              "position": [
+                -171.4999999999999,
+                68.0,
+                -73.04669999999999
+              ],
+              "bounds": [
+                -171.80000001192082,
+                68.0,
+                -73.34670001192092,
+                -171.19999998807896,
+                69.85,
+                -72.74669998807906
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": false,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -74
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -74
+                  ],
+                  "data": "minecraft:brewing_stand[has_bottle_0=false,has_bottle_1=false,has_bottle_2=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0625, minY=0.0, minZ=0.0625, maxX=0.9375, maxY=0.125, maxZ=0.9375]",
+                    "BoundingBox [minX=0.4375, minY=0.125, minZ=0.4375, maxX=0.5625, maxY=0.875, maxZ=0.5625]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -74
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            }
+          ]
+        },
+        "rider_position": "Location{world=CraftWorld{key=minecraft:overworld},x=-171.4999999999999,y=68.02000000000001,z=-72.01999999999998,pitch=40.364536,yaw=-90.0}",
+        "rider_vehicle": "null",
+        "ready": true,
+        "event_cancelled": false,
+        "event_cancellable": true,
+        "dismounted": "237b8ea7-8bb9-4d56-b997-ad7d95bb0d71",
+        "dismounted_instance": "6125a2d1-dd9d-4110-869f-a8f69a4c2b4f"
+      },
+      {
+        "phase": "event_monitor",
+        "at": "2026-11-25T00:39:44.818091084Z",
+        "diagnosis": {
+          "classification": "READ_ONLY_ACTUAL_EXIT_PREDICATES",
+          "server": "26.3-255-c22378f (MC: 26.3)",
+          "chair": "6125a2d1-dd9d-4110-869f-a8f69a4c2b4f",
+          "pose": [
+            -171.4999999999999,
+            68.0,
+            -72.01999999999998,
+            3
+          ],
+          "bank": 68000,
+          "mounted": false,
+          "rider_size": [
+            0.6000000238418579,
+            1.7999999523162842
+          ],
+          "current_exit": "Location{world=CraftWorld{key=minecraft:overworld},x=-172.49379999999988,y=68.0,z=-72.01999999999998,pitch=0.0,yaw=-90.0}",
+          "candidates": [
+            {
+              "position": [
+                -170.3811999999999,
+                68.0,
+                -72.01999999999998
+              ],
+              "bounds": [
+                -170.68120001192082,
+                68.0,
+                -72.32000001192091,
+                -170.08119998807896,
+                69.85,
+                -71.71999998807905
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": false,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -171,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=0.5, maxZ=1.0]",
+                    "BoundingBox [minX=0.5, minY=0.5, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -171,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=0.5, maxZ=1.0]",
+                    "BoundingBox [minX=0.5, minY=0.5, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            },
+            {
+              "position": [
+                -172.49379999999988,
+                68.0,
+                -72.01999999999998
+              ],
+              "bounds": [
+                -172.7938000119208,
+                68.0,
+                -72.32000001192091,
+                -172.19379998807895,
+                69.85,
+                -71.71999998807905
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": true,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -173,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -173,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -173,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            },
+            {
+              "position": [
+                -171.4999999999999,
+                68.0,
+                -70.99329999999998
+              ],
+              "bounds": [
+                -171.80000001192082,
+                68.0,
+                -71.2933000119209,
+                -171.19999998807896,
+                69.85,
+                -70.69329998807905
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": false,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -71
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -71
+                  ],
+                  "data": "minecraft:oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=0.1875, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -71
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            },
+            {
+              "position": [
+                -171.4999999999999,
+                68.0,
+                -73.04669999999999
+              ],
+              "bounds": [
+                -171.80000001192082,
+                68.0,
+                -73.34670001192092,
+                -171.19999998807896,
+                69.85,
+                -72.74669998807906
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": false,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -74
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -74
+                  ],
+                  "data": "minecraft:brewing_stand[has_bottle_0=false,has_bottle_1=false,has_bottle_2=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0625, minY=0.0, minZ=0.0625, maxX=0.9375, maxY=0.125, maxZ=0.9375]",
+                    "BoundingBox [minX=0.4375, minY=0.125, minZ=0.4375, maxX=0.5625, maxY=0.875, maxZ=0.5625]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -74
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            }
+          ]
+        },
+        "rider_position": "Location{world=CraftWorld{key=minecraft:overworld},x=-171.4999999999999,y=68.02000000000001,z=-72.01999999999998,pitch=40.364536,yaw=-90.0}",
+        "rider_vehicle": "null",
+        "ready": true,
+        "event_cancelled": false,
+        "event_cancellable": true,
+        "dismounted": "237b8ea7-8bb9-4d56-b997-ad7d95bb0d71",
+        "dismounted_instance": "6125a2d1-dd9d-4110-869f-a8f69a4c2b4f"
+      },
+      {
+        "phase": "after_leave",
+        "at": "2026-11-25T00:39:44.822696756Z",
+        "diagnosis": {
+          "classification": "READ_ONLY_ACTUAL_EXIT_PREDICATES",
+          "server": "26.3-255-c22378f (MC: 26.3)",
+          "chair": "6125a2d1-dd9d-4110-869f-a8f69a4c2b4f",
+          "pose": [
+            -171.4999999999999,
+            68.0,
+            -72.01999999999998,
+            3
+          ],
+          "bank": 68000,
+          "mounted": false,
+          "rider_size": [
+            0.6000000238418579,
+            1.7999999523162842
+          ],
+          "current_exit": "Location{world=CraftWorld{key=minecraft:overworld},x=-172.49379999999988,y=68.0,z=-72.01999999999998,pitch=0.0,yaw=-90.0}",
+          "candidates": [
+            {
+              "position": [
+                -170.3811999999999,
+                68.0,
+                -72.01999999999998
+              ],
+              "bounds": [
+                -170.68120001192082,
+                68.0,
+                -72.32000001192091,
+                -170.08119998807896,
+                69.85,
+                -71.71999998807905
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": false,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -171,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=0.5, maxZ=1.0]",
+                    "BoundingBox [minX=0.5, minY=0.5, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -171,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=0.5, maxZ=1.0]",
+                    "BoundingBox [minX=0.5, minY=0.5, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            },
+            {
+              "position": [
+                -172.49379999999988,
+                68.0,
+                -72.01999999999998
+              ],
+              "bounds": [
+                -172.7938000119208,
+                68.0,
+                -72.32000001192091,
+                -172.19379998807895,
+                69.85,
+                -71.71999998807905
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": true,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -173,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -173,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -173,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            },
+            {
+              "position": [
+                -171.4999999999999,
+                68.0,
+                -70.99329999999998
+              ],
+              "bounds": [
+                -171.80000001192082,
+                68.0,
+                -71.2933000119209,
+                -171.19999998807896,
+                69.85,
+                -70.69329998807905
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": false,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -71
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -71
+                  ],
+                  "data": "minecraft:oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=0.1875, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -71
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            },
+            {
+              "position": [
+                -171.4999999999999,
+                68.0,
+                -73.04669999999999
+              ],
+              "bounds": [
+                -171.80000001192082,
+                68.0,
+                -73.34670001192092,
+                -171.19999998807896,
+                69.85,
+                -72.74669998807906
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": false,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -74
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -74
+                  ],
+                  "data": "minecraft:brewing_stand[has_bottle_0=false,has_bottle_1=false,has_bottle_2=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0625, minY=0.0, minZ=0.0625, maxX=0.9375, maxY=0.125, maxZ=0.9375]",
+                    "BoundingBox [minX=0.4375, minY=0.125, minZ=0.4375, maxX=0.5625, maxY=0.875, maxZ=0.5625]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -74
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            }
+          ]
+        },
+        "rider_position": "Location{world=CraftWorld{key=minecraft:overworld},x=-171.4999999999999,y=68.62,z=-72.01999999999998,pitch=40.364536,yaw=-90.0}",
+        "rider_vehicle": "null",
+        "ready": true
+      }
+    ],
+    "injected_player_input_events": 0,
+    "received_player_input_events": 0,
+    "scaffolding": [
+      "Existing paid chair reused without another debit or grant",
+      "View/position and ordinary owner mount command if not already mounted",
+      "Actual safe dismount and unchanged FUR2 reopen; no input injected"
+    ],
+    "retained_state": "Ordinary paid property, furniture, sign and receipts remain only in this disposable clone. No account/bank/ownership record is edited by the companion. Motion parks the same existing furniture entitlement and retains its normal current exit; it does not restore an old position inside the moved chair.",
+    "native_java_client_verified": false,
+    "native_bedrock_client_verified": false,
+    "classification": "Actual Paper local-profile acceptance with a normally authenticated non-OP player; no native-client rendering, cushion fit or human control certification."
+  },
+  "translated_protocol": {
+    "status": "PASS",
+    "scenario": "MOBILITY_PROTOCOL",
+    "server": "26.3-255-c22378f (MC: 26.3)",
+    "java": "25.0.5.1",
+    "started_epoch_ms": 1795567185258,
+    "account": "GtmLaptopQA",
+    "actor_is_op": false,
+    "permissions_granted_by_probe": [],
+    "ordinary_inherited_permissions": {},
+    "checks": [
+      {
+        "detail": "Ordinary non-OP rules; view/position and mount command are scaffolding; this scenario injects no PlayerInputEvent.",
+        "name": "Existing paid wheelchair is approached without a new entitlement",
+        "at": "2026-11-25T00:39:45.300565005Z",
+        "result": "PASS"
+      },
+      {
+        "detail": "Ordinary non-OP rules; view/position and mount command are scaffolding; this scenario injects no PlayerInputEvent.",
+        "name": "Reconstructed paid wheelchair accepts the ordinary owner Use command",
+        "at": "2026-11-25T00:39:45.910020433Z",
+        "result": "PASS"
+      },
+      {
+        "detail": "Ordinary non-OP rules; view/position and mount command are scaffolding; this scenario injects no PlayerInputEvent.",
+        "name": "Protocol input window opens on the actual occupied carrier",
+        "at": "2026-11-25T00:39:46.200979160Z",
+        "result": "PASS"
+      },
+      {
+        "detail": "Ordinary non-OP rules; view/position and mount command are scaffolding; this scenario injects no PlayerInputEvent.",
+        "name": "Received protocol input moved the same real wheelchair and rider",
+        "at": "2026-11-25T00:39:51.201793556Z",
+        "result": "PASS"
+      },
+      {
+        "detail": "Ordinary non-OP rules; view/position and mount command are scaffolding; this scenario injects no PlayerInputEvent.",
+        "name": "Released protocol input leaves the chair stopped",
+        "at": "2026-11-25T00:39:51.357879673Z",
+        "result": "PASS"
+      },
+      {
+        "detail": "Ordinary non-OP rules; view/position and mount command are scaffolding; this scenario injects no PlayerInputEvent.",
+        "name": "Protocol movement parks the same original furniture record",
+        "at": "2026-11-25T00:39:51.501788756Z",
+        "result": "PASS"
+      }
+    ],
+    "unexecuted_steps": [],
+    "actual_block_states": [],
+    "initial_bank_cents": 68000,
+    "observed_final_bank_cents": 68000,
+    "expected_total_debit_cents": 0,
+    "paid_property": "b950b3dd-d13d-5990-a296-b5b7ae04edec",
+    "paid_furniture": null,
+    "paid_food_order": null,
+    "owned_sign": null,
+    "actual_consume_events": 0,
+    "fixture_blocks_written_by_probe": 0,
+    "wheelchair_id": "6125a2d1-dd9d-4110-869f-a8f69a4c2b4f",
+    "wheelchair_evidence": [
+      {
+        "rider_bbox_min_y": 68.02000000000001,
+        "pose": [
+          -171.4999999999999,
+          68.0,
+          -72.01999999999998,
+          3
+        ],
+        "carrier_y": 68.62,
+        "rider": [
+          -171.4999999999999,
+          68.02000000000001,
+          -72.01999999999998
+        ],
+        "phase": "protocol_ready",
+        "health": 20.0
+      },
+      {
+        "rider_bbox_min_y": 68.02000000000001,
+        "pose": [
+          -172.0999999999999,
+          68.0,
+          -72.01999999999998,
+          3
+        ],
+        "carrier_y": 68.62,
+        "rider": [
+          -172.0999999999999,
+          68.02000000000001,
+          -72.01999999999998
+        ],
+        "phase": "protocol_moved",
+        "health": 20.0
+      },
+      {
+        "exit": [
+          -173.0937999999999,
+          68.0,
+          -72.01999999999998
+        ],
+        "pose": [
+          -172.0999999999999,
+          68.0,
+          -72.01999999999998,
+          3
+        ],
+        "phase": "parked_reopened",
+        "same_entitlement": "6125a2d1-dd9d-4110-869f-a8f69a4c2b4f"
+      }
+    ],
+    "wheelchair_dismount_observations": [
+      {
+        "phase": "event_lowest",
+        "at": "2026-11-25T00:39:51.350621253Z",
+        "diagnosis": {
+          "classification": "READ_ONLY_ACTUAL_EXIT_PREDICATES",
+          "server": "26.3-255-c22378f (MC: 26.3)",
+          "chair": "6125a2d1-dd9d-4110-869f-a8f69a4c2b4f",
+          "pose": [
+            -172.0999999999999,
+            68.0,
+            -72.01999999999998,
+            3
+          ],
+          "bank": 68000,
+          "mounted": false,
+          "rider_size": [
+            0.6000000238418579,
+            1.7999999523162842
+          ],
+          "current_exit": "Location{world=CraftWorld{key=minecraft:overworld},x=-173.0937999999999,y=68.0,z=-72.01999999999998,pitch=0.0,yaw=-90.0}",
+          "candidates": [
+            {
+              "position": [
+                -170.98119999999992,
+                68.0,
+                -72.01999999999998
+              ],
+              "bounds": [
+                -171.28120001192084,
+                68.0,
+                -72.32000001192091,
+                -170.681199988079,
+                69.85,
+                -71.71999998807905
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": false,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -171,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=0.5, maxZ=1.0]",
+                    "BoundingBox [minX=0.5, minY=0.5, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -171,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=0.5, maxZ=1.0]",
+                    "BoundingBox [minX=0.5, minY=0.5, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            },
+            {
+              "position": [
+                -173.0937999999999,
+                68.0,
+                -72.01999999999998
+              ],
+              "bounds": [
+                -173.39380001192083,
+                68.0,
+                -72.32000001192091,
+                -172.79379998807897,
+                69.85,
+                -71.71999998807905
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": true,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -174,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -174,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -174,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -174,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -174,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -174,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -173,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -173,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            },
+            {
+              "position": [
+                -172.0999999999999,
+                68.0,
+                -70.99329999999998
+              ],
+              "bounds": [
+                -172.40000001192084,
+                68.0,
+                -71.2933000119209,
+                -171.79999998807898,
+                69.85,
+                -70.69329998807905
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": false,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -173,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -173,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    67,
+                    -71
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -173,
+                    68,
+                    -71
+                  ],
+                  "data": "minecraft:redstone_lamp[lit=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -173,
+                    69,
+                    -71
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -71
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -71
+                  ],
+                  "data": "minecraft:oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=0.1875, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -71
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            },
+            {
+              "position": [
+                -172.0999999999999,
+                68.0,
+                -73.04669999999999
+              ],
+              "bounds": [
+                -172.40000001192084,
+                68.0,
+                -73.34670001192092,
+                -171.79999998807898,
+                69.85,
+                -72.74669998807906
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": false,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -173,
+                    67,
+                    -74
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -173,
+                    68,
+                    -74
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    69,
+                    -74
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -173,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -74
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -74
+                  ],
+                  "data": "minecraft:brewing_stand[has_bottle_0=false,has_bottle_1=false,has_bottle_2=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0625, minY=0.0, minZ=0.0625, maxX=0.9375, maxY=0.125, maxZ=0.9375]",
+                    "BoundingBox [minX=0.4375, minY=0.125, minZ=0.4375, maxX=0.5625, maxY=0.875, maxZ=0.5625]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -74
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            }
+          ]
+        },
+        "rider_position": "Location{world=CraftWorld{key=minecraft:overworld},x=-172.0999999999999,y=68.02000000000001,z=-72.01999999999998,pitch=40.364536,yaw=-90.0}",
+        "rider_vehicle": "null",
+        "ready": true,
+        "event_cancelled": false,
+        "event_cancellable": true,
+        "dismounted": "c14d9f26-9322-48c9-81ae-a6af42d12b08",
+        "dismounted_instance": "6125a2d1-dd9d-4110-869f-a8f69a4c2b4f"
+      },
+      {
+        "phase": "event_monitor",
+        "at": "2026-11-25T00:39:51.354612799Z",
+        "diagnosis": {
+          "classification": "READ_ONLY_ACTUAL_EXIT_PREDICATES",
+          "server": "26.3-255-c22378f (MC: 26.3)",
+          "chair": "6125a2d1-dd9d-4110-869f-a8f69a4c2b4f",
+          "pose": [
+            -172.0999999999999,
+            68.0,
+            -72.01999999999998,
+            3
+          ],
+          "bank": 68000,
+          "mounted": false,
+          "rider_size": [
+            0.6000000238418579,
+            1.7999999523162842
+          ],
+          "current_exit": "Location{world=CraftWorld{key=minecraft:overworld},x=-173.0937999999999,y=68.0,z=-72.01999999999998,pitch=0.0,yaw=-90.0}",
+          "candidates": [
+            {
+              "position": [
+                -170.98119999999992,
+                68.0,
+                -72.01999999999998
+              ],
+              "bounds": [
+                -171.28120001192084,
+                68.0,
+                -72.32000001192091,
+                -170.681199988079,
+                69.85,
+                -71.71999998807905
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": false,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -171,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=0.5, maxZ=1.0]",
+                    "BoundingBox [minX=0.5, minY=0.5, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -171,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=0.5, maxZ=1.0]",
+                    "BoundingBox [minX=0.5, minY=0.5, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -171,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            },
+            {
+              "position": [
+                -173.0937999999999,
+                68.0,
+                -72.01999999999998
+              ],
+              "bounds": [
+                -173.39380001192083,
+                68.0,
+                -72.32000001192091,
+                -172.79379998807897,
+                69.85,
+                -71.71999998807905
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": true,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -174,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -174,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -174,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -174,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -174,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -174,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -173,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -173,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            },
+            {
+              "position": [
+                -172.0999999999999,
+                68.0,
+                -70.99329999999998
+              ],
+              "bounds": [
+                -172.40000001192084,
+                68.0,
+                -71.2933000119209,
+                -171.79999998807898,
+                69.85,
+                -70.69329998807905
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": false,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -173,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -173,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    67,
+                    -71
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -173,
+                    68,
+                    -71
+                  ],
+                  "data": "minecraft:redstone_lamp[lit=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -173,
+                    69,
+                    -71
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -72
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -72
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -71
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -71
+                  ],
+                  "data": "minecraft:oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=0.1875, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -71
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            },
+            {
+              "position": [
+                -172.0999999999999,
+                68.0,
+                -73.04669999999999
+              ],
+              "bounds": [
+                -172.40000001192084,
+                68.0,
+                -73.34670001192092,
+                -171.79999998807898,
+                69.85,
+                -72.74669998807906
+              ],
+              "overlaps_chair": false,
+              "loaded": true,
+              "border": true,
+              "air": false,
+              "supported": true,
+              "may_enter": true,
+              "obstructed": false,
+              "blocks": [
+                {
+                  "cell": [
+                    -173,
+                    67,
+                    -74
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -173,
+                    68,
+                    -74
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    69,
+                    -74
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -173,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -173,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -74
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -74
+                  ],
+                  "data": "minecraft:brewing_stand[has_bottle_0=false,has_bottle_1=false,has_bottle_2=false]",
+                  "collision": [
+                    "BoundingBox [minX=0.0625, minY=0.0, minZ=0.0625, maxX=0.9375, maxY=0.125, maxZ=0.9375]",
+                    "BoundingBox [minX=0.4375, minY=0.125, minZ=0.4375, maxX=0.5625, maxY=0.875, maxZ=0.5625]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -74
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    67,
+                    -73
+                  ],
+                  "data": "minecraft:bricks",
+                  "collision": [
+                    "BoundingBox [minX=0.0, minY=0.0, minZ=0.0, maxX=1.0, maxY=1.0, maxZ=1.0]"
+                  ]
+                },
+                {
+                  "cell": [
+                    -172,
+                    68,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                },
+                {
+                  "cell": [
+                    -172,
+                    69,
+                    -73
+                  ],
+                  "data": "minecraft:air",
+                  "collision": []
+                }
+              ],
+              "entities": [],
+              "external_vehicle_bounds": [
+                "BoundingBox [minX=-182.15, minY=68.035, minZ=-72.8, maxX=-180.85, maxY=70.015, maxZ=-70.2]"
+              ]
+            }
+          ]
+        },
+        "rider_position": "Location{world=CraftWorld{key=minecraft:overworld},x=-172.0999999999999,y=68.02000000000001,z=-72.01999999999998,pitch=40.364536,yaw=-90.0}",
+        "rider_vehicle": "null",
+        "ready": true,
+        "event_cancelled": false,
+        "event_cancellable": true,
+        "dismounted": "c14d9f26-9322-48c9-81ae-a6af42d12b08",
+        "dismounted_instance": "6125a2d1-dd9d-4110-869f-a8f69a4c2b4f"
+      }
+    ],
+    "injected_player_input_events": 0,
+    "received_player_input_events": 2,
+    "scaffolding": [
+      "View and position teleportation on the disposable profile",
+      "Ordinary owner command mounts the already paid parked chair",
+      "No PlayerInputEvent injected by this companion; separate protocol client supplies backward then release after the logged ready marker"
+    ],
+    "retained_state": "Ordinary paid property, furniture, sign and receipts remain only in this disposable clone. No account/bank/ownership record is edited by the companion. Motion parks the same existing furniture entitlement and retains its normal current exit; it does not restore an old position inside the moved chair.",
+    "native_java_client_verified": false,
+    "native_bedrock_client_verified": false,
+    "classification": "Actual Paper local-profile acceptance with a normally authenticated non-OP player; no native-client rendering, cushion fit or human control certification."
+  },
+  "source_report_sha256": {
+    "20261125T002732408524Z/mobility.json": "00bc576d6d75f0495e701bda77b162cbdf630308b0e7b91cd34932e61c8abf00",
+    "20261125T003905455521Z/mobility_park.json": "82b2ed8be97abbd002e6a46522eab88fc6ed782753a011aa854f6276724aff8a",
+    "20261125T003905455521Z/mobility_protocol.json": "7ead64f274ce86de83dc47f1b2bd9c05313248519f55f2d3a3db7d1a2140b0a1"
+  },
+  "native_java_client_verified": false,
+  "native_bedrock_client_verified": false
+}

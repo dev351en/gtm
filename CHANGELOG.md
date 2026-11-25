@@ -5,6 +5,21 @@
 
 ---
 
+## 2026-11-25 — Recovered functional binaries and existing-Daytona laptop connector
+
+This checkpoint preserves recovered `1.0.3-r4-functional-candidate` runtime artifacts and native128 artwork on the existing development branch. It does **not** recover or publish the missing source commit `628c01bcd7ed5d95b21c9ea049990346135a0604`, rebuild that commit, merge production, or deploy to the live Daytona sandbox. See [the recovery record](docs/FUNCTIONAL_BUILD_RECOVERY.md).
+
+- Added `runtime/functional-r4/` with the exact core JAR, Java and Bedrock packs, item/display mappings, optional Geyser display bridge with corresponding AGPL source/license, compiled launcher and four wrappers. [The manifest](runtime/functional-r4/manifest.json) records exact sizes/hashes. Core SHA-256 is `b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af`; Java pack SHA-256 is `5b5e132a2c670b07e8c0c389e086bd2dee1002ed7de72a6bdcd93acc6d6cba9a`.
+- Preserved the delivered runtime documentation and recorded historical evidence. The missing source checkout's recorded build passed 644 JUnit tests in 79 suites plus 155 domain assertions. An actual Linux Paper launch verified authentication, pack serving, and clean shutdown. These are historical verified-artifact results, not a new source rebuild or native-client certification.
+- Added the separately recovered editable artwork payload under `creative/delivery/`; the assembler reconstructs `GTM_Indraprastha_128_Assets.zip` from exact verified bytes. Native `INDRAPRASTHA_128_V1` artwork remains distinct from missing engine/launcher source.
+- Added `Start-Daytona.bat` and the compatible `connect_daytona_server.bat` entry point for the same existing running Daytona game. The connector uses the owner's private local credential, establishes its own SSH forwarding, and waits for an actual Minecraft status response plus matching ping before printing READY. It neither deploys the GitHub payload nor starts/restarts the remote sandbox or Paper.
+- The connector passed 39 offline tests using synthetic responses/processes, covering credential handling, request restrictions, status parsing, false-readiness rejection, and owned-process cleanup. Native Windows execution and a live Daytona connection remain unverified.
+- Documented that `Start-GTM-Java-Only.bat` belongs to the separate portable local package and starts the dated public-world/workshop copy. It does not connect to the existing Daytona world. A repository Code ZIP contains the recovered payload, not an assembled full server.
+- Excluded the cached Mojang server bundler, inherited EULA acceptance, private account/authentication/key material, and the world from this runtime payload. Fresh local playtest configuration is not a safe overwrite for a private server.
+- Preserved earlier `source/`, tests, and tools as their published checkpoint. They cannot be presented as corresponding source for the recovered 1.0.3 binary. Existing authentication providers, version compatibility, world geometry, and state migrations must be inspected before any private-server update.
+- Added deterministic artifact assembly with per-chunk/full-file checks. The publication workflow may create GitHub Release `gtm-functional-r4-1.0.3` after its verification succeeds; the update ZIP remains a binary/asset payload, not a full server or automatic Daytona deployment.
+- Remaining: latest core/launcher source recovery; native Java/Bedrock client verification; native Windows/laptop verification; target-specific integration and actual live Daytona deployment; complete furnishing/commissioning and the full Revision 4 city/campaign. No automatic wholesale config or world overwrite is introduced.
+
 ## 2026-11-25 — Laptop runtime integration candidate
 
 Development continues on `gtm/playable-r4`, based on the native128 creative checkpoint `80d13c2`. This is version `1.0.1-r4-candidate`; the full master specification remains incomplete. The [51-section acceptance matrix](docs/PLAYABLE_R4_ACCEPTANCE.md) is the current implementation tracker, with [build evidence](docs/BUILD_RUNTIME_R4_REPORT.md), [laptop instructions](docs/LAPTOP_BUNDLE.md) and [engineering handoff](docs/PLAYABLE_R4_HANDOFF.md).

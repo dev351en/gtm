@@ -1,0 +1,96 @@
+{
+  "fixture_remains": false,
+  "checks": [
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "result": "PASS",
+      "at": "2026-11-25T00:54:38.652760738Z",
+      "name": "Inspect and journal empty owned-function fixture before any edit"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "result": "PASS",
+      "at": "2026-11-25T00:54:38.733151732Z",
+      "name": "Place original traffic pole with a real reserved lever"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "result": "PASS",
+      "at": "2026-11-25T00:54:38.900762364Z",
+      "name": "Commission inspected intersection and reject a remote control"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "result": "PASS",
+      "at": "2026-11-25T00:54:39.880085437Z",
+      "name": "Actual timed N/S green drives the bound lever and visible phase label"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "result": "PASS",
+      "at": "2026-11-25T00:54:40.193507818Z",
+      "name": "Prepare a real auto and immutable managed road route"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "result": "PASS",
+      "at": "2026-11-25T00:54:51.956430508Z",
+      "name": "N/S amber and then all-red are observed before E/W green"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "result": "PASS",
+      "at": "2026-11-25T00:54:54.879942154Z",
+      "name": "Actual NPC driving brakes the whole auto before the red stop line"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "result": "PASS",
+      "at": "2026-11-25T00:55:05.880756052Z",
+      "name": "A red phase remains a planned wait beyond the old ten-second blockage timeout"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "result": "PASS",
+      "at": "2026-11-25T00:55:11.129615020Z",
+      "name": "Green releases the same NPC and auto through actual server motion"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "result": "PASS",
+      "at": "2026-11-25T00:55:11.384366250Z",
+      "name": "Permission loss stops the actual controller and releases its output"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "result": "PASS",
+      "at": "2026-11-25T00:55:11.630548678Z",
+      "name": "Saved lane geometry reopens without inventing running phase state"
+    },
+    {
+      "detail": "Only disposable fixture, supplied inventory and captured physical player state restored; consumed receipt and bank debit are retained",
+      "result": "PASS",
+      "at": "2026-11-25T00:55:11.935483378Z",
+      "name": "Restore exact inspected geometry and QA inventory while retaining real payment/consumption receipts"
+    }
+  ],
+  "unexecuted_steps": [],
+  "classification": "Actual Paper mechanics; synthetic isolated setup. No native rendering, end-user certification or medical measurement.",
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "fixture_inspection": {
+    "entities": 0,
+    "allowed": true,
+    "occupied": [],
+    "bounds": [
+      6096,
+      219,
+      6096,
+      6145,
+      227,
+      6145
+    ]
+  },
+  "status": "PASS",
+  "scenario": "traffic",
+  "actual_consume_events": 0
+}

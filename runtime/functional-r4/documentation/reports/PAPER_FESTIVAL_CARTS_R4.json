@@ -1,0 +1,1011 @@
+{
+  "status": "PASS",
+  "expected_checks": 129,
+  "checks": [
+    {
+      "name": "Inspect the existing paid depot floor and actual retained supplied food",
+      "at": "2026-11-25T02:40:03.308792194Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Normal paid shop opens for gtm:diwali_procession_cart",
+      "at": "2026-11-25T02:40:03.489719520Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Normal catalog selects original gtm:diwali_procession_cart",
+      "at": "2026-11-25T02:40:04.356413594Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Positive local price pays for gtm:diwali_procession_cart",
+      "at": "2026-11-25T02:40:04.506463060Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Paid outbox delivers one original gtm:diwali_procession_cart",
+      "at": "2026-11-25T02:40:04.656945479Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Actual normal floor placement preserves gtm:diwali_procession_cart",
+      "at": "2026-11-25T02:40:04.814619231Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Original rendered selector opens its real push controls for gtm:diwali_procession_cart",
+      "at": "2026-11-25T02:40:05.415751672Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Current-session on-foot push begins for gtm:diwali_procession_cart",
+      "at": "2026-11-25T02:40:05.559933887Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Real original body advances and parks for gtm:diwali_procession_cart",
+      "at": "2026-11-25T02:40:06.464037286Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "A released cardinal turn starts for gtm:diwali_procession_cart",
+      "at": "2026-11-25T02:40:06.609341880Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Held turn stays one cardinal step for gtm:diwali_procession_cart",
+      "at": "2026-11-25T02:40:07.012679427Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Turned original body moves on the second axis for gtm:diwali_procession_cart",
+      "at": "2026-11-25T02:40:07.606815528Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Ordinary owner removal retains the used paid gtm:diwali_procession_cart",
+      "at": "2026-11-25T02:40:07.765766533Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Normal paid shop opens for gtm:holi_procession_cart",
+      "at": "2026-11-25T02:40:07.922950608Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Normal catalog selects original gtm:holi_procession_cart",
+      "at": "2026-11-25T02:40:08.806301725Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Positive local price pays for gtm:holi_procession_cart",
+      "at": "2026-11-25T02:40:08.955771677Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Paid outbox delivers one original gtm:holi_procession_cart",
+      "at": "2026-11-25T02:40:09.105871092Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Actual normal floor placement preserves gtm:holi_procession_cart",
+      "at": "2026-11-25T02:40:09.262184278Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Original rendered selector opens its real push controls for gtm:holi_procession_cart",
+      "at": "2026-11-25T02:40:09.860996328Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Current-session on-foot push begins for gtm:holi_procession_cart",
+      "at": "2026-11-25T02:40:10.008266439Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Real original body advances and parks for gtm:holi_procession_cart",
+      "at": "2026-11-25T02:40:10.909610800Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "A released cardinal turn starts for gtm:holi_procession_cart",
+      "at": "2026-11-25T02:40:11.057108476Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Held turn stays one cardinal step for gtm:holi_procession_cart",
+      "at": "2026-11-25T02:40:11.460456434Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Turned original body moves on the second axis for gtm:holi_procession_cart",
+      "at": "2026-11-25T02:40:12.064843947Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Ordinary owner removal retains the used paid gtm:holi_procession_cart",
+      "at": "2026-11-25T02:40:12.210989054Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Normal paid shop opens for gtm:ganesh_procession_cart",
+      "at": "2026-11-25T02:40:12.364454686Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Normal catalog selects original gtm:ganesh_procession_cart",
+      "at": "2026-11-25T02:40:13.256583538Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Positive local price pays for gtm:ganesh_procession_cart",
+      "at": "2026-11-25T02:40:13.407951471Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Paid outbox delivers one original gtm:ganesh_procession_cart",
+      "at": "2026-11-25T02:40:13.556032736Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Actual normal floor placement preserves gtm:ganesh_procession_cart",
+      "at": "2026-11-25T02:40:13.711539406Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Original rendered selector opens its real push controls for gtm:ganesh_procession_cart",
+      "at": "2026-11-25T02:40:14.308815910Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Current-session on-foot push begins for gtm:ganesh_procession_cart",
+      "at": "2026-11-25T02:40:14.456907228Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Real original body advances and parks for gtm:ganesh_procession_cart",
+      "at": "2026-11-25T02:40:15.356531836Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "A released cardinal turn starts for gtm:ganesh_procession_cart",
+      "at": "2026-11-25T02:40:15.507621730Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Held turn stays one cardinal step for gtm:ganesh_procession_cart",
+      "at": "2026-11-25T02:40:15.911827335Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Turned original body moves on the second axis for gtm:ganesh_procession_cart",
+      "at": "2026-11-25T02:40:16.506553201Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Ordinary owner removal retains the used paid gtm:ganesh_procession_cart",
+      "at": "2026-11-25T02:40:16.659446416Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Normal paid shop opens for gtm:navratri_procession_cart",
+      "at": "2026-11-25T02:40:16.811990495Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Normal catalog selects original gtm:navratri_procession_cart",
+      "at": "2026-11-25T02:40:17.855947782Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Positive local price pays for gtm:navratri_procession_cart",
+      "at": "2026-11-25T02:40:18.005825145Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Paid outbox delivers one original gtm:navratri_procession_cart",
+      "at": "2026-11-25T02:40:18.156327746Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Actual normal floor placement preserves gtm:navratri_procession_cart",
+      "at": "2026-11-25T02:40:18.311632372Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Original rendered selector opens its real push controls for gtm:navratri_procession_cart",
+      "at": "2026-11-25T02:40:18.910531235Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Current-session on-foot push begins for gtm:navratri_procession_cart",
+      "at": "2026-11-25T02:40:19.057579791Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Real original body advances and parks for gtm:navratri_procession_cart",
+      "at": "2026-11-25T02:40:19.956205859Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "A released cardinal turn starts for gtm:navratri_procession_cart",
+      "at": "2026-11-25T02:40:20.107547324Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Held turn stays one cardinal step for gtm:navratri_procession_cart",
+      "at": "2026-11-25T02:40:20.510589862Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Turned original body moves on the second axis for gtm:navratri_procession_cart",
+      "at": "2026-11-25T02:40:21.107635403Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Ordinary owner removal retains the used paid gtm:navratri_procession_cart",
+      "at": "2026-11-25T02:40:21.259047726Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Normal paid shop opens for gtm:eid_procession_cart",
+      "at": "2026-11-25T02:40:21.414862675Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Normal catalog selects original gtm:eid_procession_cart",
+      "at": "2026-11-25T02:40:22.456075089Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Positive local price pays for gtm:eid_procession_cart",
+      "at": "2026-11-25T02:40:22.605895232Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Paid outbox delivers one original gtm:eid_procession_cart",
+      "at": "2026-11-25T02:40:22.755777138Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Actual normal floor placement preserves gtm:eid_procession_cart",
+      "at": "2026-11-25T02:40:22.914355892Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Original rendered selector opens its real push controls for gtm:eid_procession_cart",
+      "at": "2026-11-25T02:40:23.512798839Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Current-session on-foot push begins for gtm:eid_procession_cart",
+      "at": "2026-11-25T02:40:23.658482567Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Real original body advances and parks for gtm:eid_procession_cart",
+      "at": "2026-11-25T02:40:24.556216352Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "A released cardinal turn starts for gtm:eid_procession_cart",
+      "at": "2026-11-25T02:40:24.708217527Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Held turn stays one cardinal step for gtm:eid_procession_cart",
+      "at": "2026-11-25T02:40:25.109567592Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Turned original body moves on the second axis for gtm:eid_procession_cart",
+      "at": "2026-11-25T02:40:25.707062038Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Ordinary owner removal retains the used paid gtm:eid_procession_cart",
+      "at": "2026-11-25T02:40:25.859405867Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Normal paid shop opens for gtm:sankranti_procession_cart",
+      "at": "2026-11-25T02:40:26.012395753Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Normal catalog selects original gtm:sankranti_procession_cart",
+      "at": "2026-11-25T02:40:27.055889014Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Positive local price pays for gtm:sankranti_procession_cart",
+      "at": "2026-11-25T02:40:27.205760790Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Paid outbox delivers one original gtm:sankranti_procession_cart",
+      "at": "2026-11-25T02:40:27.355710902Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Actual normal floor placement preserves gtm:sankranti_procession_cart",
+      "at": "2026-11-25T02:40:27.512184593Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Original rendered selector opens its real push controls for gtm:sankranti_procession_cart",
+      "at": "2026-11-25T02:40:28.108055940Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Current-session on-foot push begins for gtm:sankranti_procession_cart",
+      "at": "2026-11-25T02:40:28.256987184Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Real original body advances and parks for gtm:sankranti_procession_cart",
+      "at": "2026-11-25T02:40:29.156376320Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "A released cardinal turn starts for gtm:sankranti_procession_cart",
+      "at": "2026-11-25T02:40:29.307063761Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Held turn stays one cardinal step for gtm:sankranti_procession_cart",
+      "at": "2026-11-25T02:40:29.709415725Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Turned original body moves on the second axis for gtm:sankranti_procession_cart",
+      "at": "2026-11-25T02:40:30.308134598Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Ordinary owner removal retains the used paid gtm:sankranti_procession_cart",
+      "at": "2026-11-25T02:40:30.461172956Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Normal paid shop opens for gtm:christmas_procession_cart",
+      "at": "2026-11-25T02:40:30.618184172Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Normal catalog selects original gtm:christmas_procession_cart",
+      "at": "2026-11-25T02:40:31.655937861Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Positive local price pays for gtm:christmas_procession_cart",
+      "at": "2026-11-25T02:40:31.805705987Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Paid outbox delivers one original gtm:christmas_procession_cart",
+      "at": "2026-11-25T02:40:31.955932044Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Actual normal floor placement preserves gtm:christmas_procession_cart",
+      "at": "2026-11-25T02:40:32.111786706Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Original rendered selector opens its real push controls for gtm:christmas_procession_cart",
+      "at": "2026-11-25T02:40:32.708476760Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Current-session on-foot push begins for gtm:christmas_procession_cart",
+      "at": "2026-11-25T02:40:32.857004939Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Real original body advances and parks for gtm:christmas_procession_cart",
+      "at": "2026-11-25T02:40:33.756819585Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "A released cardinal turn starts for gtm:christmas_procession_cart",
+      "at": "2026-11-25T02:40:33.908699386Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Held turn stays one cardinal step for gtm:christmas_procession_cart",
+      "at": "2026-11-25T02:40:34.309702323Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Turned original body moves on the second axis for gtm:christmas_procession_cart",
+      "at": "2026-11-25T02:40:34.910088908Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Ordinary owner removal retains the used paid gtm:christmas_procession_cart",
+      "at": "2026-11-25T02:40:35.059765579Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Normal paid shop opens for gtm:new_year_procession_cart",
+      "at": "2026-11-25T02:40:35.211147432Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Normal catalog selects original gtm:new_year_procession_cart",
+      "at": "2026-11-25T02:40:36.407691944Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Positive local price pays for gtm:new_year_procession_cart",
+      "at": "2026-11-25T02:40:36.555753549Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Paid outbox delivers one original gtm:new_year_procession_cart",
+      "at": "2026-11-25T02:40:36.705820945Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Actual normal floor placement preserves gtm:new_year_procession_cart",
+      "at": "2026-11-25T02:40:36.860789332Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Original rendered selector opens its real push controls for gtm:new_year_procession_cart",
+      "at": "2026-11-25T02:40:37.458857541Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Current-session on-foot push begins for gtm:new_year_procession_cart",
+      "at": "2026-11-25T02:40:37.607035387Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Real original body advances and parks for gtm:new_year_procession_cart",
+      "at": "2026-11-25T02:40:38.506177962Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "A released cardinal turn starts for gtm:new_year_procession_cart",
+      "at": "2026-11-25T02:40:38.656859931Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Held turn stays one cardinal step for gtm:new_year_procession_cart",
+      "at": "2026-11-25T02:40:39.060190162Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Turned original body moves on the second axis for gtm:new_year_procession_cart",
+      "at": "2026-11-25T02:40:39.656465640Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Ordinary owner removal retains the used paid gtm:new_year_procession_cart",
+      "at": "2026-11-25T02:40:39.810200777Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Normal paid shop opens for gtm:christmas_gift_cart",
+      "at": "2026-11-25T02:40:39.961469420Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Normal catalog selects original gtm:christmas_gift_cart",
+      "at": "2026-11-25T02:40:41.155900215Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Positive local price pays for gtm:christmas_gift_cart",
+      "at": "2026-11-25T02:40:41.305797024Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Paid outbox delivers one original gtm:christmas_gift_cart",
+      "at": "2026-11-25T02:40:41.455974197Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Actual normal floor placement preserves gtm:christmas_gift_cart",
+      "at": "2026-11-25T02:40:41.611251186Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Original rendered selector opens its real push controls for gtm:christmas_gift_cart",
+      "at": "2026-11-25T02:40:42.208101919Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Current-session on-foot push begins for gtm:christmas_gift_cart",
+      "at": "2026-11-25T02:40:42.356853366Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Real original body advances and parks for gtm:christmas_gift_cart",
+      "at": "2026-11-25T02:40:43.256283858Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "A released cardinal turn starts for gtm:christmas_gift_cart",
+      "at": "2026-11-25T02:40:43.408156813Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Held turn stays one cardinal step for gtm:christmas_gift_cart",
+      "at": "2026-11-25T02:40:43.811010496Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Turned original body moves on the second axis for gtm:christmas_gift_cart",
+      "at": "2026-11-25T02:40:44.407967280Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Ordinary owner removal retains the used paid gtm:christmas_gift_cart",
+      "at": "2026-11-25T02:40:44.559734728Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "The already paid gift cart is placed beside the existing supplied source",
+      "at": "2026-11-25T02:40:44.712114173Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "An empty original gift cart approaches the real source on foot",
+      "at": "2026-11-25T02:40:45.307791193Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "The original empty cart reaches real source pickup distance",
+      "at": "2026-11-25T02:40:46.056178763Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Normal unloaded owner rotation aligns the inspected cargo bypass",
+      "at": "2026-11-25T02:40:46.216130116Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Normal gifted-cart push is stopped by actual logout",
+      "at": "2026-11-25T02:40:46.812339268Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Fresh normal login preserves the original parked gift-cart pose",
+      "at": "2026-11-25T02:40:47.255997233Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Owner commissions the actual two paid storage endpoints",
+      "at": "2026-11-25T02:40:48.043555189Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Exactly the earlier paid chai enters real exclusive festival custody",
+      "at": "2026-11-25T02:40:48.262759190Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Actual loaded gift cart turns east without changing entitlement",
+      "at": "2026-11-25T02:40:48.664506800Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Loaded gift cart moves east around the inspected real lamp",
+      "at": "2026-11-25T02:40:51.956158078Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Current owner turns north for the checked clear cargo corridor",
+      "at": "2026-11-25T02:40:52.108205390Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "The real load follows the original north-facing cart",
+      "at": "2026-11-25T02:40:52.513557414Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Original gift cart carries the same supplied metadata along the actual depot",
+      "at": "2026-11-25T02:41:08.856894254Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "The current loaded cart turns west toward its actual empty destination",
+      "at": "2026-11-25T02:41:09.008119668Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "West-facing supplied transport approaches the real destination",
+      "at": "2026-11-25T02:41:09.413883635Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Physical cart arrival stops before writing the existing destination",
+      "at": "2026-11-25T02:41:13.756175759Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Explicit normal unloading places the same purchased chai once",
+      "at": "2026-11-25T02:41:13.923700473Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Released real inventory and old receipt refuse replay",
+      "at": "2026-11-25T02:41:14.170766711Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "Empty original gift cart is parked and retained by normal removal",
+      "at": "2026-11-25T02:41:14.309452417Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    },
+    {
+      "name": "All nine paid originals remain single entitlements after physical use",
+      "at": "2026-11-25T02:41:14.457063975Z",
+      "result": "PASS",
+      "detail": "Normal paid non-OP original-cart flow; disclosed events and stopped setup. No native renderer claim."
+    }
+  ],
+  "account": "GtmLaptopQA",
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "started_epoch_ms": 1795574403154,
+  "prior_paid_cart_report_sha256": "7a659b212a972b1e1c37c57cf16b01e968fdab4fc6c775eaa34785865ee5a16a",
+  "prior_cart_completion_scenario": "PAID_CART_PHYSICAL_RETURN_COMPLETION",
+  "prior_original_food_sha256": "25246e1f00de9fc6e968115a2225aa63983df3bedc2dd5299e688a0788ae2955",
+  "prior_closed_loan": "f09e7029-68a9-4290-9f35-9785f530633f",
+  "prior_released_receipt": "5c37ff2d-08e1-4eb8-8bda-8a6f682fd597",
+  "prior_collected_food_order": "ce135db3-f62b-4add-8581-6f0c5df82362",
+  "initial_bank_cents": 49128,
+  "observed_bank_cents": 48228,
+  "expected_debit_cents": 900,
+  "paid_furniture": [
+    {
+      "id": "328770b7-2334-4ffd-a36a-181eb87ff442",
+      "price_cents": 100,
+      "model": "gtm:diwali_procession_cart"
+    },
+    {
+      "id": "9e017f64-e08f-43e4-9ad6-38ede7de4437",
+      "price_cents": 100,
+      "model": "gtm:holi_procession_cart"
+    },
+    {
+      "id": "9d47cb82-b958-4865-a2ab-4f004cab7bd1",
+      "price_cents": 100,
+      "model": "gtm:ganesh_procession_cart"
+    },
+    {
+      "id": "1ad46697-b494-4da2-bf6f-d60255a600bf",
+      "price_cents": 100,
+      "model": "gtm:navratri_procession_cart"
+    },
+    {
+      "id": "3c8b224b-2dad-4ada-9020-24e8822b053d",
+      "price_cents": 100,
+      "model": "gtm:eid_procession_cart"
+    },
+    {
+      "id": "500603eb-c1e9-4501-9219-2013c99afb97",
+      "price_cents": 100,
+      "model": "gtm:sankranti_procession_cart"
+    },
+    {
+      "id": "6ed65030-f45f-4974-b741-948a85b19eb2",
+      "price_cents": 100,
+      "model": "gtm:christmas_procession_cart"
+    },
+    {
+      "id": "5332ba34-6dd6-4c83-be4f-d2c1126a80e6",
+      "price_cents": 100,
+      "model": "gtm:new_year_procession_cart"
+    },
+    {
+      "id": "b504d4b5-5188-4b9d-b603-c8d6ff17ccb9",
+      "price_cents": 100,
+      "model": "gtm:christmas_gift_cart"
+    }
+  ],
+  "cargo_receipt": "1eb81979-873f-40d5-b234-23db5e6b61b6",
+  "actual_trips": [
+    {
+      "to_z": -120.09999999999991,
+      "from_x": -136.5,
+      "cart": "328770b7-2334-4ffd-a36a-181eb87ff442",
+      "from_z": -120.5,
+      "to_x": -136.5
+    },
+    {
+      "to_z": -120.09999999999991,
+      "from_x": -136.5,
+      "cart": "328770b7-2334-4ffd-a36a-181eb87ff442",
+      "from_z": -120.09999999999991,
+      "to_x": -136.75000000000006
+    },
+    {
+      "to_z": -120.09999999999991,
+      "from_x": -136.5,
+      "cart": "9e017f64-e08f-43e4-9ad6-38ede7de4437",
+      "from_z": -120.5,
+      "to_x": -136.5
+    },
+    {
+      "to_z": -120.09999999999991,
+      "from_x": -136.5,
+      "cart": "9e017f64-e08f-43e4-9ad6-38ede7de4437",
+      "from_z": -120.09999999999991,
+      "to_x": -136.75000000000006
+    },
+    {
+      "to_z": -120.09999999999991,
+      "from_x": -136.5,
+      "cart": "9d47cb82-b958-4865-a2ab-4f004cab7bd1",
+      "from_z": -120.5,
+      "to_x": -136.5
+    },
+    {
+      "to_z": -120.09999999999991,
+      "from_x": -136.5,
+      "cart": "9d47cb82-b958-4865-a2ab-4f004cab7bd1",
+      "from_z": -120.09999999999991,
+      "to_x": -136.75000000000006
+    },
+    {
+      "to_z": -120.09999999999991,
+      "from_x": -136.5,
+      "cart": "1ad46697-b494-4da2-bf6f-d60255a600bf",
+      "from_z": -120.5,
+      "to_x": -136.5
+    },
+    {
+      "to_z": -120.09999999999991,
+      "from_x": -136.5,
+      "cart": "1ad46697-b494-4da2-bf6f-d60255a600bf",
+      "from_z": -120.09999999999991,
+      "to_x": -136.75000000000006
+    },
+    {
+      "to_z": -120.09999999999991,
+      "from_x": -136.5,
+      "cart": "3c8b224b-2dad-4ada-9020-24e8822b053d",
+      "from_z": -120.5,
+      "to_x": -136.5
+    },
+    {
+      "to_z": -120.09999999999991,
+      "from_x": -136.5,
+      "cart": "3c8b224b-2dad-4ada-9020-24e8822b053d",
+      "from_z": -120.09999999999991,
+      "to_x": -136.75000000000006
+    },
+    {
+      "to_z": -120.09999999999991,
+      "from_x": -136.5,
+      "cart": "500603eb-c1e9-4501-9219-2013c99afb97",
+      "from_z": -120.5,
+      "to_x": -136.5
+    },
+    {
+      "to_z": -120.09999999999991,
+      "from_x": -136.5,
+      "cart": "500603eb-c1e9-4501-9219-2013c99afb97",
+      "from_z": -120.09999999999991,
+      "to_x": -136.75000000000006
+    },
+    {
+      "to_z": -120.09999999999991,
+      "from_x": -136.5,
+      "cart": "6ed65030-f45f-4974-b741-948a85b19eb2",
+      "from_z": -120.5,
+      "to_x": -136.5
+    },
+    {
+      "to_z": -120.09999999999991,
+      "from_x": -136.5,
+      "cart": "6ed65030-f45f-4974-b741-948a85b19eb2",
+      "from_z": -120.09999999999991,
+      "to_x": -136.75000000000006
+    },
+    {
+      "to_z": -120.09999999999991,
+      "from_x": -136.5,
+      "cart": "5332ba34-6dd6-4c83-be4f-d2c1126a80e6",
+      "from_z": -120.5,
+      "to_x": -136.5
+    },
+    {
+      "to_z": -120.09999999999991,
+      "from_x": -136.5,
+      "cart": "5332ba34-6dd6-4c83-be4f-d2c1126a80e6",
+      "from_z": -120.09999999999991,
+      "to_x": -136.75000000000006
+    },
+    {
+      "to_z": -120.09999999999991,
+      "from_x": -136.5,
+      "cart": "b504d4b5-5188-4b9d-b603-c8d6ff17ccb9",
+      "from_z": -120.5,
+      "to_x": -136.5
+    },
+    {
+      "to_z": -120.09999999999991,
+      "from_x": -136.5,
+      "cart": "b504d4b5-5188-4b9d-b603-c8d6ff17ccb9",
+      "from_z": -120.09999999999991,
+      "to_x": -136.75000000000006
+    },
+    {
+      "to_z": -115.5,
+      "from_x": -139.5,
+      "cart": "b504d4b5-5188-4b9d-b603-c8d6ff17ccb9",
+      "from_z": -115.5,
+      "to_x": -139.80000000000007
+    },
+    {
+      "to_z": -115.5,
+      "from_x": -139.80000000000007,
+      "cart": "b504d4b5-5188-4b9d-b603-c8d6ff17ccb9",
+      "from_z": -115.5,
+      "to_x": -138.1999999999997
+    },
+    {
+      "to_z": -123.50000000000182,
+      "from_x": -138.1999999999997,
+      "cart": "b504d4b5-5188-4b9d-b603-c8d6ff17ccb9",
+      "from_z": -115.5,
+      "to_x": -138.1999999999997
+    },
+    {
+      "to_z": -123.50000000000182,
+      "from_x": -138.1999999999997,
+      "cart": "b504d4b5-5188-4b9d-b603-c8d6ff17ccb9",
+      "from_z": -123.50000000000182,
+      "to_x": -140.30000000000018
+    }
+  ],
+  "moving_samples": 714,
+  "travel_blocks": 17.85000000000406,
+  "maximum_tick_step": 0.025000000000005684,
+  "injected_input_events": 766,
+  "stopped_owner_repositions": 28,
+  "unexecuted_steps": [],
+  "world_fixture_writes": 0,
+  "permissions_or_item_or_money_grants": false,
+  "native_java_bedrock_visual_qualified": false,
+  "scaffolding": [
+    "Ordinary menu InventoryClickEvent and real PlayerInputEvent injection",
+    "Stopped-only owner view/position setup after actual geometry and LOS checks",
+    "Read-only reopening of the original FUR2 snapshot",
+    "No generated food or inventory transfer: earlier normally purchased chai travels between its two actual existing paid barrels"
+  ]
+}

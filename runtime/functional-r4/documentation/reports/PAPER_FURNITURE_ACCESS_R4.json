@@ -1,0 +1,265 @@
+{
+  "status": "PASS",
+  "started_epoch_ms": 1795570289041,
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "java": "25.0.5.1",
+  "checks": [
+    {
+      "name": "Inspect and journal the empty fixture and both original owned autos before writes",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:29.283925903Z"
+    },
+    {
+      "name": "Place four stable supplied QA model identities on inspected support",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:29.494174441Z"
+    },
+    {
+      "name": "Owner commissions the real validator and turnstile with an actual closed collider",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:30.426181964Z"
+    },
+    {
+      "name": "Remote customer purchase refuses without a debit or delivery",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:30.615410355Z"
+    },
+    {
+      "name": "Obstructed customer purchase refuses before payment",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:30.830673232Z"
+    },
+    {
+      "name": "Deferred fare menu captures the normal customer then rechecks revoked permission",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:31.088797295Z"
+    },
+    {
+      "name": "Revoked callback creates no payment and no ticket",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:31.213588714Z"
+    },
+    {
+      "name": "Ordinary customer buys one real paid serial through the visible menu",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:31.424993203Z"
+    },
+    {
+      "name": "Paid serial, acknowledged ledger payload and actual inventory agree exactly",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:31.899801985Z"
+    },
+    {
+      "name": "Reopening the consumed purchase menu cannot buy a second serial",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:32.044174010Z"
+    },
+    {
+      "name": "Consumed menu replay and forged unknown serial leave money and barrier unchanged",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:32.184039319Z"
+    },
+    {
+      "name": "The actual paid ticket cannot be used by another account",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:32.266092633Z"
+    },
+    {
+      "name": "Valid scan consumes the actual item and durable serial before opening a traversable entrance",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:32.489110490Z"
+    },
+    {
+      "name": "Timed safe close restores the entrance collider and spent copied serial cannot replay",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:36.217311196Z"
+    },
+    {
+      "name": "Owner arms the retail passage and tags an actual supplied stack in place",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:36.648914634Z"
+    },
+    {
+      "name": "Foreign customer cannot clear the owner's active stock tag",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:36.695708185Z"
+    },
+    {
+      "name": "A real carried tagged stack crossing the actual sensor emits a native alarm",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:36.823828464Z"
+    },
+    {
+      "name": "Owner checkout clears only its tag and untagged crossing produces no alarm",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:39.072604544Z"
+    },
+    {
+      "name": "Disarming waits for the real occupied closed footprint to clear",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:39.266533697Z"
+    },
+    {
+      "name": "Retail close and lifecycle stop leave no phantom sensor session",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:39.677329692Z"
+    },
+    {
+      "name": "Owner inspects the bay around their actual stopped existing auto",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:40.926619068Z"
+    },
+    {
+      "name": "Ordinary customer pays a three-minute lease for their actual auto in that bay",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:41.067363463Z"
+    },
+    {
+      "name": "Parking lease binds exact vehicle, paid item and original fixed expiry",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:42.304119596Z"
+    },
+    {
+      "name": "Concurrent lease, foreign vehicle and reserved meter mutation refuse without another debit",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:42.477933363Z"
+    },
+    {
+      "name": "Paid parking recovery survives snapshot reopen without extra charge or extra time",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:42.669318951Z"
+    },
+    {
+      "name": "Remote parking recovery refuses while its original paid expiry remains fixed",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:31:42.964571961Z"
+    },
+    {
+      "name": "Real wall-clock expiry removes paid status without fines or vehicle movement",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:34:43.068014315Z"
+    },
+    {
+      "name": "Expired bay releases ordinary owner removal and cannot reactivate its old receipt",
+      "result": "PASS",
+      "detail": "Actual Paper inventory, paid ledger, native collision/output and clock. Injected menu/movement events and declared test relocation are QA scaffolding.",
+      "at": "2026-11-25T01:34:43.271267359Z"
+    },
+    {
+      "name": "Restore inspected geometry and original inventories and poses, retaining real paid proof",
+      "result": "PASS",
+      "detail": "Four stable unplaced supplied QA furniture identities remain in the disposable copy. Both original vehicle identities and current conditions are preserved. The customer's 2 ARK charges and real parking receipt remain; no currency, vehicle or permission was granted.",
+      "at": "2026-11-25T01:34:43.518863106Z"
+    }
+  ],
+  "declared_steps": [
+    "Inspect and journal the empty fixture and both original owned autos before writes",
+    "Place four stable supplied QA model identities on inspected support",
+    "Owner commissions the real validator and turnstile with an actual closed collider",
+    "Remote customer purchase refuses without a debit or delivery",
+    "Obstructed customer purchase refuses before payment",
+    "Deferred fare menu captures the normal customer then rechecks revoked permission",
+    "Revoked callback creates no payment and no ticket",
+    "Ordinary customer buys one real paid serial through the visible menu",
+    "Paid serial, acknowledged ledger payload and actual inventory agree exactly",
+    "Reopening the consumed purchase menu cannot buy a second serial",
+    "Consumed menu replay and forged unknown serial leave money and barrier unchanged",
+    "The actual paid ticket cannot be used by another account",
+    "Valid scan consumes the actual item and durable serial before opening a traversable entrance",
+    "Timed safe close restores the entrance collider and spent copied serial cannot replay",
+    "Owner arms the retail passage and tags an actual supplied stack in place",
+    "Foreign customer cannot clear the owner's active stock tag",
+    "A real carried tagged stack crossing the actual sensor emits a native alarm",
+    "Owner checkout clears only its tag and untagged crossing produces no alarm",
+    "Disarming waits for the real occupied closed footprint to clear",
+    "Retail close and lifecycle stop leave no phantom sensor session",
+    "Owner inspects the bay around their actual stopped existing auto",
+    "Ordinary customer pays a three-minute lease for their actual auto in that bay",
+    "Parking lease binds exact vehicle, paid item and original fixed expiry",
+    "Concurrent lease, foreign vehicle and reserved meter mutation refuse without another debit",
+    "Paid parking recovery survives snapshot reopen without extra charge or extra time",
+    "Remote parking recovery refuses while its original paid expiry remains fixed",
+    "Real wall-clock expiry removes paid status without fines or vehicle movement",
+    "Expired bay releases ordinary owner removal and cannot reactivate its old receipt"
+  ],
+  "unexecuted_steps": [],
+  "fixture_remains": false,
+  "fixture_inspection": {
+    "bounds": [
+      6720,
+      219,
+      6720,
+      6744,
+      225,
+      6744
+    ],
+    "inspected_blocks": 3456,
+    "occupied_samples": [],
+    "entities": 0,
+    "explicitly_loaded_chunks": [
+      "420,420",
+      "420,421",
+      "421,420",
+      "421,421"
+    ]
+  },
+  "owner": "GtmQAR4",
+  "customer": "GtmMedicalQA",
+  "customer_is_op": false,
+  "qa_furniture_grants": {
+    "ticket_validator": "59549648-9a3f-31ed-8227-e8baef957ca4",
+    "security_turnstile_rfid": "2379aa00-a36b-3d31-a5ae-cfcf9cb3697f",
+    "retail_security_gate": "a4485bf4-3cad-3c85-9d14-3967f2f5ff81",
+    "parking_meter": "342c43ca-bb2f-3990-bfb1-3b471dfc1df6"
+  },
+  "vehicle_grants": 0,
+  "currency_grants": 0,
+  "permission_grants": [],
+  "temporary_denial": "gtm.furniture=false only",
+  "bank_before": 100000,
+  "actual_fare_cents": 100,
+  "actual_parking_cents": 100,
+  "ticket_serial": "96d42b9d-d136-4f56-9ad1-3795e37ffe96",
+  "lease_serial": "afd4ff87-6494-4020-bfe3-3ff631f9fa9b",
+  "lease_created": 1795570301071,
+  "lease_expires": 1795570481071,
+  "observed_after_lease_ms": 182448,
+  "reused_original_vehicles": [
+    "d36c9246-3201-331b-9229-86001d33c107",
+    "57cb3c8a-4f6b-3d7f-b9ba-2d8674fa7af8"
+  ],
+  "restored_original_vehicle_poses": [
+    "57cb3c8a-4f6b-3d7f-b9ba-2d8674fa7af8",
+    "d36c9246-3201-331b-9229-86001d33c107"
+  ],
+  "injected_menu_events": 4,
+  "injected_movement_events": 4,
+  "classification": "Actual effects on isolated Paper26.3 with an ordinary authenticated paying customer and an explicit staging operator. Existing original autos relocated only for journaled setup, retaining real conditions. Supplied QA furniture and stock, temporary forged spent ticket copy, injected native events. No native-client render or cross-file crash certification."
+}

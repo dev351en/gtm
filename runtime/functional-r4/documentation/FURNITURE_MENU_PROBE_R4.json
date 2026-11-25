@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "recorded_at_utc": "2026-11-24T21:57:51.434004+00:00",
+  "status": "focused_mock_probe_passed_with_explicit_unimplemented_api_limits",
+  "project": "tools/probes/furniture_menu",
+  "command": "cd tools/probes/furniture_menu && gradle --no-daemon --offline run",
+  "java": "25.0.5.1",
+  "gradle": "9.2.1",
+  "mock": {
+    "artifact": "org.mockbukkit.mockbukkit:mockbukkit-v26.3:4.124.0",
+    "paper_api": "26.3.build.200-stable",
+    "baseline": "the mock artifact advertised baseline",
+    "production_api_unchanged": "26.3.build.255-stable"
+  },
+  "exit_code": 0,
+  "duration_seconds": 19.569,
+  "counts": {
+    "total": 14,
+    "passed": 12,
+    "failed": 0,
+    "unsupported_in_mock": 2
+  },
+  "results": [
+    {
+      "name": "owned_native_icons_and_private_collection",
+      "status": "passed"
+    },
+    {
+      "name": "pagination_preserves_owned_identity",
+      "status": "passed"
+    },
+    {
+      "name": "inventory_shift_and_number_key_cannot_move_icons",
+      "status": "passed"
+    },
+    {
+      "name": "duplicate_click_executes_one_use",
+      "status": "passed"
+    },
+    {
+      "name": "changed_session_between_click_and_callback",
+      "status": "passed"
+    },
+    {
+      "name": "revoked_permission_between_click_and_callback",
+      "status": "passed"
+    },
+    {
+      "name": "ownership_rechecked_before_use",
+      "status": "passed"
+    },
+    {
+      "name": "failure_closes_menu_without_replay",
+      "status": "passed"
+    },
+    {
+      "name": "connected_storage_repair_routes_to_module",
+      "status": "passed"
+    },
+    {
+      "name": "light_target_stops_at_wall",
+      "status": "unsupported_in_mock",
+      "exception": "org.mockbukkit.mockbukkit.exception.UnimplementedOperationException: Not implemented"
+    },
+    {
+      "name": "visible_collisionless_light_routes_actual_block",
+      "status": "unsupported_in_mock",
+      "exception": "org.mockbukkit.mockbukkit.exception.UnimplementedOperationException: Not implemented"
+    },
+    {
+      "name": "target_session_invalidation_and_left_cancel",
+      "status": "passed"
+    },
+    {
+      "name": "foreign_block_denial_is_respected",
+      "status": "passed"
+    },
+    {
+      "name": "unloaded_ray_rejected_without_chunk_load",
+      "status": "passed"
+    }
+  ],
+  "input_sha256": {
+    "source/build/libs/SDCraftCore-1.0.2-r4-interactions-candidate.jar": "14231bdedace63be6f37a282c78d45afa39bd22e3beefbbd5810adfbc99afe78",
+    "source/src/main/java/com/sdcraft/core/GtmFurnitureMenu.java": "f0ee4261269bcf72880a7a3065b138294e376fdc9619c4c3eede4bf82fb4ce2b",
+    "source/src/main/java/com/sdcraft/core/FurnitureTargeting.java": "d613c173c582dd8728a7876f7c24fab7a76e8b32c499edb7ef791d1b52e6f25a",
+    "tools/probes/furniture_menu/src/main/java/com/sdcraft/core/MenuProbe.java": "662d17e8c6b93917a71991230788ba84888edf3ee6e1124bf607d5f389a0a8a7",
+    "tools/probes/furniture_menu/build.gradle.kts": "ebc8a8abe332d6929f30cdae983357f67a2e122d89b5b730e4327d18364fd661",
+    "tools/probes/furniture_menu/settings.gradle.kts": "54ec74294dc8b987a384f393f4c250be54013a797ca6f26aff8aaaa46d6892cd"
+  },
+  "inputs_unchanged_during_run": true,
+  "original_stdout_sha256": "fbce2b3af30c0e197164daf6ab28122a8fd0d9d6ec4422cddab104050215af8a",
+  "execution_scope": {
+    "production_sources_compiled_directly": [
+      "source/src/main/java/com/sdcraft/core/GtmFurnitureMenu.java",
+      "source/src/main/java/com/sdcraft/core/FurnitureTargeting.java"
+    ],
+    "backend": "Fake furniture backend records calls and can throw IOException; actual menu and Bukkit event routing are used.",
+    "real_module_persistence_or_container_contents_tested": false,
+    "permission_session_callback_checks_tested": true,
+    "unloaded_ray_does_not_load_chunk_tested": true,
+    "paper_server_started": false,
+    "real_city_loaded": false,
+    "minecraft_eula_accepted": false,
+    "java_client_tested": false,
+    "bedrock_client_tested": false,
+    "production_build_evidence": "INTERACTION_RUNTIME_R4_EVIDENCE.json"
+  },
+  "unsupported_api": {
+    "method": "org.mockbukkit.mockbukkit.block.BlockMock.isPassable",
+    "exception": "org.mockbukkit.mockbukkit.exception.UnimplementedOperationException",
+    "production_caller": "com.sdcraft.core.FurnitureTargeting.backing",
+    "effect": "Both LIGHT visibility cases stop before their assertions; neither is counted as passed. They remain exact-server/client acceptance cases."
+  },
+  "limits": [
+    "The exact production Paper API build255 cannot initialize this MockBukkit registry because minecraft:world_clock is absent; no production dependency was downgraded.",
+    "The failed-save case verifies UI closure and no automatic redispatch against a throwing fake backend, not real file crash recovery.",
+    "No vehicle driving, furniture seating, collision shape, sleep, storage inventory or multiplayer performance certification is implied."
+  ]
+}

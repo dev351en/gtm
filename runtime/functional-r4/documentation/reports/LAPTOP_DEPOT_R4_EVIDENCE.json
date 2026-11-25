@@ -1,0 +1,244 @@
+{
+  "status": "PASS_WITH_RETAINED_HARNESS_FAILURE_AND_CONTINUATION",
+  "classification": "Actual Paper ordinary non-operator paid depot acceptance, with real translated protocol input and walking; no native client rendering certification.",
+  "core_sha256": "0b49d8e47935b4693f409ad51168a4a292f54b4536dc58ce717ab0bc45209d5c",
+  "initial_run": "20261125T012542421854Z",
+  "initial_report": {
+    "path": "PAPER_LAPTOP_DEPOT_INITIAL_R4.json",
+    "sha256": "c224ad6432855389e72b9e8029c2b405007c52afc15e07524e5d9581cc4a4817",
+    "pass": 65,
+    "fail": 1,
+    "companion_sha256": "ad60e49ce866b0a7cfffe5cde05798dd5df598656903c4a0c62c8c81fed4b3aa"
+  },
+  "continuation_run": "20261125T013044145219Z",
+  "continuation_report": {
+    "path": "PAPER_LAPTOP_DEPOT_FLEET_CONTINUATION_R4.json",
+    "sha256": "63c18046b72042c1bf7ce9f08b53112db550bb067ee138a76ae416bf3f344eec",
+    "pass": 20,
+    "fail": 0,
+    "companion_sha256": "966c9e2e1e1dfd742cfdcfcf8a45ac38000452d02d286267a7cc1c01ccfdf767"
+  },
+  "failure_boundary": "Initial run stopped after65 passing steps at first taxi route walk. Test client retained a stale vehicle reference after the server sent a real dismount packet. Handler now clears only that stale client state on an observed set_passengers packet excluding the client. No server vehicle, ownership, route, account or balance was reset.",
+  "paid_state_retained": true,
+  "continuation_prior_report_sha256": "c224ad6432855389e72b9e8029c2b405007c52afc15e07524e5d9581cc4a4817",
+  "initial_bank_cents": 68000,
+  "continuation_initial_bank_cents": 54600,
+  "final_bank_cents": 50428,
+  "expected_total_debit_cents": 17572,
+  "owned_vehicle_ids": {
+    "motor": "eb099ac9-f967-40fe-99a8-a1b97d0d99e8",
+    "ferry": "da35c098-9e12-48cf-a076-a57c80c5f587",
+    "terminal_west": "103d8c4c-f1f0-4910-abd6-bbde75892b23",
+    "heli": "88a6a5e1-e46b-4b3f-9af3-80065d974271",
+    "cabin": "7591d710-4c56-4fdb-b932-af96a4a3cc38",
+    "cab": "fc013189-121d-4eae-8d5b-2c9fab736c46",
+    "terminal_east": "14ee3994-8a48-4edf-9905-7ee13efe6ff8",
+    "trailer": "d352670a-7473-4ddc-b760-d15cc92303c9",
+    "taxi_auto": "73dc68f1-34d6-4089-a2fb-b6c309a248b1",
+    "scooter": "f47c6237-c358-438d-b439-c86722106d5b"
+  },
+  "actual_motion": [
+    {
+      "phase": "rail_cab",
+      "to": {
+        "z": -135.5,
+        "y": 64.125,
+        "x": -100.49949999999995
+      },
+      "actual_player_health": 20.0,
+      "max_step_blocks": 0.07500000000001705,
+      "energy_after": 239.987994,
+      "energy_before": 240.0,
+      "vehicle": "fc013189-121d-4eae-8d5b-2c9fab736c46",
+      "moving_samples": 26,
+      "from": {
+        "z": -135.5,
+        "y": 64.125,
+        "x": -101.5
+      }
+    },
+    {
+      "phase": "water_ferry",
+      "to": {
+        "z": -161.39032500000002,
+        "y": 62.55,
+        "x": -164.8
+      },
+      "actual_player_health": 20.0,
+      "max_step_blocks": 0.07499999999998863,
+      "energy_after": 119.96542584999997,
+      "energy_before": 119.9998,
+      "vehicle": "da35c098-9e12-48cf-a076-a57c80c5f587",
+      "moving_samples": 36,
+      "from": {
+        "z": -163.2,
+        "y": 62.55,
+        "x": -164.8
+      }
+    },
+    {
+      "phase": "air_climb",
+      "to": {
+        "z": -124.5,
+        "y": 65.265,
+        "x": -104.5
+      },
+      "actual_player_health": 20.0,
+      "max_step_blocks": 0.125,
+      "energy_after": 159.93105000000025,
+      "energy_before": 159.99760000000003,
+      "vehicle": "88a6a5e1-e46b-4b3f-9af3-80065d974271",
+      "moving_samples": 10,
+      "from": {
+        "z": -124.5,
+        "y": 64.015,
+        "x": -104.5
+      }
+    },
+    {
+      "phase": "air_land",
+      "to": {
+        "z": -124.5,
+        "y": 64.015,
+        "x": -104.5
+      },
+      "actual_player_health": 20.0,
+      "max_step_blocks": 0.125,
+      "energy_after": 159.85970000000054,
+      "energy_before": 159.93105000000025,
+      "vehicle": "88a6a5e1-e46b-4b3f-9af3-80065d974271",
+      "moving_samples": 10,
+      "from": {
+        "z": -124.5,
+        "y": 65.265,
+        "x": -104.5
+      }
+    },
+    {
+      "phase": "ropeway_cabin",
+      "to": {
+        "z": -105.5,
+        "y": 67.7258,
+        "x": -111.23
+      },
+      "actual_player_health": 20.0,
+      "max_step_blocks": 0.060000000000002274,
+      "energy_after": 239.99676,
+      "energy_before": 240.0,
+      "vehicle": "7591d710-4c56-4fdb-b932-af96a4a3cc38",
+      "moving_samples": 8,
+      "from": {
+        "z": -105.5,
+        "y": 67.7258,
+        "x": -111.5
+      }
+    },
+    {
+      "max_step_blocks": 0.17849999999999966,
+      "actual_player_health": 20.0,
+      "to": {
+        "x": -74.69524999999999,
+        "y": 64.015,
+        "z": -132.5
+      },
+      "phase": "paid_taxi",
+      "from": {
+        "x": -86.4375,
+        "y": 64.015,
+        "z": -132.5
+      },
+      "moving_samples": 81,
+      "vehicle": "73dc68f1-34d6-4089-a2fb-b6c309a248b1",
+      "energy_before": 15.999749999999999,
+      "energy_after": 15.952780999999998
+    },
+    {
+      "max_step_blocks": 0.19950000000000045,
+      "actual_player_health": 20.0,
+      "to": {
+        "x": -125.92200000000018,
+        "y": 64.015,
+        "z": -132.5
+      },
+      "phase": "paid_courier",
+      "from": {
+        "x": -139.5,
+        "y": 64.015,
+        "z": -132.5
+      },
+      "moving_samples": 87,
+      "vehicle": "f47c6237-c358-438d-b439-c86722106d5b",
+      "energy_before": 40.0,
+      "energy_after": 39.91418199999983
+    }
+  ],
+  "protocol_walks": [
+    {
+      "move_events": 40,
+      "teleport_events": 0,
+      "from": {
+        "x": -86.5,
+        "y": 64.0,
+        "z": -132.5
+      },
+      "key": "taxi_first",
+      "to": {
+        "x": -80.5,
+        "y": 64.0,
+        "z": -132.5
+      },
+      "elapsed_ms": 2048
+    },
+    {
+      "move_events": 40,
+      "teleport_events": 0,
+      "from": {
+        "x": -80.5,
+        "y": 64.0,
+        "z": -132.5
+      },
+      "key": "taxi_second",
+      "to": {
+        "x": -74.5,
+        "y": 64.0,
+        "z": -132.5
+      },
+      "elapsed_ms": 2099
+    },
+    {
+      "move_events": 2,
+      "teleport_events": 0,
+      "from": {
+        "x": -139.65,
+        "y": 64.0,
+        "z": -132.5
+      },
+      "key": "courier_grounding",
+      "to": {
+        "x": -139.5,
+        "y": 64.0,
+        "z": -132.5
+      },
+      "elapsed_ms": 111
+    },
+    {
+      "move_events": 94,
+      "teleport_events": 0,
+      "from": {
+        "x": -139.5,
+        "y": 64.0,
+        "z": -132.5
+      },
+      "key": "courier",
+      "to": {
+        "x": -125.5,
+        "y": 64.0,
+        "z": -132.5
+      },
+      "elapsed_ms": 4898
+    }
+  ],
+  "native_java_client_verified": false,
+  "native_bedrock_client_verified": false,
+  "production_or_private_daytona_modified": false
+}

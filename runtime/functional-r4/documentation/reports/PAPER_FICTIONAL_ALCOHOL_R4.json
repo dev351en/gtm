@@ -1,0 +1,132 @@
+{
+  "fixture_inspection": {
+    "occupied": [],
+    "allowed": true,
+    "entities": 0,
+    "bounds": [
+      6096,
+      219,
+      6096,
+      6145,
+      227,
+      6145
+    ]
+  },
+  "server": "26.3-255-c22378f (MC: 26.3)",
+  "classification": "Actual Paper mechanics; synthetic isolated setup. No native rendering, end-user certification or medical measurement.",
+  "unexecuted_steps": [],
+  "checks": [
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "name": "Inspect and journal empty owned-function fixture before any edit",
+      "at": "2026-11-25T01:01:31.453336945Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "name": "Place the original test bench and inspect its actual measurement controls",
+      "at": "2026-11-25T01:01:31.595017349Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "name": "A real counter purchase requires the explicit consequences review",
+      "at": "2026-11-25T01:01:31.699546861Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "name": "Ordinary paid outbox debits exactly20 ARK and delivers one128-model drink",
+      "at": "2026-11-25T01:01:31.946328066Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "name": "Actual Paper consumption creates one receipt and adverse effects without changing world time",
+      "at": "2026-11-25T01:01:33.692887604Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "name": "The real bench issues a fresh receipt-linked nonzero fictional reading",
+      "at": "2026-11-25T01:01:33.951641241Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "name": "Queue a cancelled-event regression with its unconsumed token moved to another slot",
+      "at": "2026-11-25T01:01:34.197471859Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "name": "Final cancellation and relocated item cannot create a consumption receipt",
+      "at": "2026-11-25T01:01:34.449835360Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "name": "Final substituted consumption cannot record the original drink token",
+      "at": "2026-11-25T01:01:34.692380885Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "name": "Saved harm acknowledgement is idempotent and a wrong-type marker fails before effects",
+      "at": "2026-11-25T01:01:34.956501652Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "name": "A duplicate consumed item token is refused without another health penalty",
+      "at": "2026-11-25T01:01:35.193268882Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "name": "Nearby subject receives an explicit per-session consent prompt",
+      "at": "2026-11-25T01:01:35.461297947Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "name": "Subject may decline without issuing a reading or changing either exposure",
+      "at": "2026-11-25T01:01:35.692977361Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "name": "A fresh accepted request tests the nearby subject's real current state",
+      "at": "2026-11-25T01:01:35.944449888Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "name": "Accepted consent reaches the actual measurement action",
+      "at": "2026-11-25T01:01:36.192904772Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "name": "Seven-day and abstinence states drive the actual Paper health attribute",
+      "at": "2026-11-25T01:01:36.461073679Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Actual Paper blocks/items/menu events/vehicle ticks. Setup grants, positions, permissions and the separate health-rule clock sample are disclosed scaffolding.",
+      "name": "Consumption receipt survives snapshot reopen and queued remote bench use refuses",
+      "at": "2026-11-25T01:01:36.695396063Z",
+      "result": "PASS"
+    },
+    {
+      "detail": "Only disposable fixture, supplied inventory and captured physical player state restored; consumed receipt and bank debit are retained",
+      "name": "Restore exact inspected geometry and QA inventory while retaining real payment/consumption receipts",
+      "at": "2026-11-25T01:01:37.019655860Z",
+      "result": "PASS"
+    }
+  ],
+  "fixture_remains": false,
+  "actual_consume_events": 1,
+  "scenario": "alcohol",
+  "status": "PASS"
+}

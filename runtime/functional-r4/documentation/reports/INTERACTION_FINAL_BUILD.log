@@ -1,0 +1,402 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build
+
+> Task :compileJava
+/workspace/scratch/d7d343b39c16/gtm/source/src/main/java/com/sdcraft/core/GunEngine.java:217: warning: [removal] valueOf(@org.jetbrains.annotations.NotNull String) in Sound has been deprecated and marked for removal
+            p.getWorld().playSound(eye, Sound.valueOf(type.soundName), 1.0f, type.pitch);
+                                             ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+
+> Task :processResources UP-TO-DATE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :civicChecks
+GTM civic rules: 78 checks passed
+
+> Task :foundationChecks
+GTM foundation: 36 checks passed
+
+> Task :infrastructureChecks
+GTM infrastructure: 29 checks passed
+
+> Task :nearMissChecks
+GTM near-miss: 12 checks passed
+
+> Task :jar
+
+> Task :test
+
+AssetPurchaseTest > failedAcknowledgmentPreservesRetryAndDoesNotDebitAgain() PASSED
+
+AssetPurchaseTest > vehicleDebitAndPendingOwnershipSurviveRestartAndRetry() PASSED
+
+AssetPurchaseTest > immutablePurchaseIdentityCannotChangeModelKindOrPrice() PASSED
+
+AssetPurchaseTest > serverGrantHasNoDebitAndCannotBeAcknowledgedByAnotherOwner() PASSED
+
+AssetPurchaseTest > paidVehicleServiceSurvivesRestartWithoutChargingAgain() PASSED
+
+AssetPurchaseTest > failedPersistenceRollsBackBothDebitAndGrant() PASSED
+
+AssetPurchaseTest > insufficientFundsInvalidDataAndUnknownAccountLeaveNoGrant() PASSED
+
+AssetPurchaseTest > unavailableFundsOrFailedServiceSaveNeverCharge() PASSED
+
+AtomicYamlStoreTest > committedStateSurvivesReopen() PASSED
+
+AtomicYamlStoreTest > malformedExistingStateIsPreserved() PASSED
+
+AtomicYamlStoreTest > failedSaveRollsBackAndPreservesOriginal() PASSED
+
+AtomicYamlStoreTest > externalChangesAreNeverOverwritten() PASSED
+
+CityRosterTest > hinglishBankRequestGetsLocalBankGuidance() PASSED
+
+CityRosterTest > additionsAreBoundedAndPrisonersRotate() PASSED
+
+CreativeArsenalAndHologramTest > testVehicleArsenalMapping() PASSED
+
+CreativeArsenalAndHologramTest > testHologramDefinitions() PASSED
+
+CreativeArsenalAndHologramTest > testTeleportLandmarksCoordinates() PASSED
+
+CreativeArsenalAndHologramTest > testFirearmsArsenalMapping() PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Safety boundary: Dialogue responses always provide /sdc command references and never execute direct actions PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Bilingual police response adapts to department context PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Bilingual medical response adapts to player language (en vs hi) PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [1] hello, GREETING PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [2] Hi there, GREETING PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [3] Hey officer, GREETING PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [4] नमस्ते डॉक्टर साहब, GREETING PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [5] namaste ji, GREETING PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [6] yes please, YES_NO PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [7] हाँ जरूर, YES_NO PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [8] haan theek hai, YES_NO PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [9] no cancel that, YES_NO PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [10] नहीं रद्द करें, YES_NO PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [11] I need a doctor, MEDICAL PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [12] hospital treatment, MEDICAL PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [13] दवा और इलाज चाहिए, MEDICAL PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [14] ilaj kitna lagega, MEDICAL PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [15] I want to report a crime, POLICE_CRIME PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [16] police help me, POLICE_CRIME PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [17] पुलिस थाना कहाँ है, POLICE_CRIME PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [18] chori ho gayi, POLICE_CRIME PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [19] how much is the fee, PRICE_QUOTE PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [20] what is the price, PRICE_QUOTE PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [21] खर्चा कितना होगा, PRICE_QUOTE PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [22] deposit money into bank, BANKING PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [23] transfer to player, BANKING PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [24] बैंक खाता बैलेंस, BANKING PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [25] paisa jama karna hai, BANKING PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [26] I need a taxi ride, TRANSPORT PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [27] bus to station, TRANSPORT PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [28] टैक्सी का किराया, TRANSPORT PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [29] I want a police job, ROLE_DUTY PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [30] clock in for duty, ROLE_DUTY PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [31] नौकरी चाहिए, ROLE_DUTY PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [32] naukri aur duty, ROLE_DUTY PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [33] goodbye see you, FAREWELL PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Intent classifier identifies intents in English, Hindi, and Hinglish > [34] अलविदा, FAREWELL PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Fallback greeting is returned with help guidance on unknown inputs PASSED
+
+Bilingual Dialogue & Intent Engine Unit Tests > Dialogue responses cover all 20 named characters without errors PASSED
+
+FinishLedgerTest > ownedDesignCanBeReappliedAfterRestartWithoutCharging() PASSED
+
+FinishLedgerTest > failedCommitRestoresBothBalanceAndEntitlement() PASSED
+
+FinishLedgerTest > designsHaveDistinctStableIds() PASSED
+
+GtmAssetCatalogTest > corruptOrUnsupportedCataloguesFailClosed() PASSED
+
+GtmAssetCatalogTest > staffPaperCatalogueNeverIssuesOwnedFoodOrRuntimeWeaponFinishes() PASSED
+
+GtmAssetCatalogTest > duplicateAndReassignedIdentifiersAreRejected() PASSED
+
+GtmAssetCatalogTest > brokenAliasesCannotFallBackToAnUnrelatedItem() PASSED
+
+GtmAssetCatalogTest > foodAliasesAreExactAndAllActualFinishEntitlementsStayOneBased() PASSED
+
+GtmAssetCatalogTest > everyLegacyCityIdentifierRetainsItsSemanticNameAndCategory() PASSED
+
+GtmFoodLedgerTest > ordersDebitOnceAndPersistAcrossRestarts() PASSED
+
+GtmFoodLedgerTest > failedPaymentAndRefundLeaveNoPartialState() PASSED
+
+GtmFoodLedgerTest > cancellationIsAtomicAndOldOrderCannotReplay() PASSED
+
+GtmFoodLedgerTest > invalidCatalogueAndInsufficientFundsFailClosed() PASSED
+
+GtmLedgerTest > failedPurchaseDoesNotCreateOwnership() PASSED
+
+GtmLedgerTest > malformedLedgerFailsClosed() PASSED
+
+GtmLedgerTest > auditFailureDoesNotTurnCommittedPaymentIntoRetry() PASSED
+
+GtmLedgerTest > loansAndBalancePersistTogether() PASSED
+
+GtmLedgerTest > failedAtomicWriteRestoresInMemoryState() PASSED
+
+GtmLedgerTest > loanClockGraceAndInsufficientFunds() PASSED
+
+GtmLedgerTest > overflowCannotPartiallyDebitSender() PASSED
+
+GtmLedgerTest > purchaseAndKeyLifecyclePersistAtomically() PASSED
+
+ItemDeliveryTest > foodCollectionAndDeliveryBecomeDurableTogether() PASSED
+
+ItemDeliveryTest > insufficientPaymentAndInvalidItemNeverCreateDebtOrQueue() PASSED
+
+ItemDeliveryTest > failedSaveRollsBackChargeAndQueue() PASSED
+
+ItemDeliveryTest > paymentAndQueueSurviveRestartAndRequestReplay() PASSED
+
+Ledger Financial & Security Unit Tests > Rank requires credits, verified duty time, and explicit admin approval PASSED
+
+Ledger Financial & Security Unit Tests > Starter grant gives $500 wallet and $1000 bank exactly once (Idempotency) PASSED
+
+Ledger Financial & Security Unit Tests > External Vault wallet credit and debit use the same persisted cash balance PASSED
+
+Ledger Financial & Security Unit Tests > Language preference switching PASSED
+
+Ledger Financial & Security Unit Tests > Transactions log file is created and appended PASSED
+
+Ledger Financial & Security Unit Tests > Withdraw transfers funds from bank to wallet atomically PASSED
+
+Ledger Financial & Security Unit Tests > Charge wallet and charge bank deduct funds properly PASSED
+
+Ledger Financial & Security Unit Tests > PIN security: PBKDF2WithHmacSHA256 hashing, salt generation, constant-time verification PASSED
+
+Ledger Financial & Security Unit Tests > Deposit transfers funds from wallet to bank atomically PASSED
+
+Ledger Financial & Security Unit Tests > Duty salary credits active duty earnings and career points PASSED
+
+Ledger Financial & Security Unit Tests > Transfer sends bank funds between two registered players PASSED
+
+MapAndGpsTest > testDistrictBoundaries() PASSED
+
+MapAndGpsTest > testDirectionCalculation() PASSED
+
+MedicalSettlementTest > walletAndBankDebitAndReceiptCommitTogether() PASSED
+
+MedicalSettlementTest > failedSaveLeavesNoDebitOrReceipt() PASSED
+
+MedicalSettlementTest > insufficientFundsAreNotPartiallyChargedOrRetriedAfterTopup() PASSED
+
+MedicalSettlementTest > aNewDeathCannotReuseAPendingEarlierReceipt() PASSED
+
+MissionSettlementTest > receiptCannotBeReusedForDifferentReward() PASSED
+
+MissionSettlementTest > failedPaymentCreatesNeitherRewardNorReceipt() PASSED
+
+MissionSettlementTest > completionReplayAfterRestartDoesNotPayTwice() PASSED
+
+NpcPopulationTest > 100-person target generates 80 ambient profiles after 20 named NPCs PASSED
+
+NpcPopulationTest > Tough pedestrian selection is deterministic and respects percentage bounds PASSED
+
+NpcPopulationTest > Invalid population policy is rejected PASSED
+
+Policy Engine Deterministic Policy Tests > Police responders dispatched per level 1/2/3 and bounded by free slots PASSED
+
+Policy Engine Deterministic Policy Tests > Money formatting properly prints dollars and cents PASSED
+
+Policy Engine Deterministic Policy Tests > Witness awareness check follows 70% immediate, 20% delayed, 10% silent PASSED
+
+Policy Engine Deterministic Policy Tests > Robbery calculation enforces 25% wallet cap and $2000 maximum PASSED
+
+Policy Engine Deterministic Policy Tests > NPC hysteresis: spawn at <=64 blocks, persist until >96 blocks PASSED
+
+Policy Engine Deterministic Policy Tests > Taxi quote enforces base fare $25.00 plus $6.00 per 100 blocks PASSED
+
+Policy Engine Deterministic Policy Tests > NPC hysteresis accepts lower proximity distances for a dense ambient pool PASSED
+
+Restoration Engine & Firearms Unit Tests > Gun types enforce proper magazine capacities, range, and ammo profiles PASSED
+
+Restoration Engine & Firearms Unit Tests > Restorable zone spatial boundary calculation PASSED
+
+Restoration Engine & Firearms Unit Tests > Restoration engine 5-minute timer policy PASSED
+
+Surface Spawn & GTA Starter Kit Policy Tests > Surface spawn is positioned above ground level (Y >= 70) in Civic Center Plaza PASSED
+
+Surface Spawn & GTA Starter Kit Policy Tests > Starter kit ammunition and food quantities match roleplay balance PASSED
+
+Surface Spawn & GTA Starter Kit Policy Tests > Underground rescue logic detects low Y coordinates (<66) and legacy underground spawn PASSED
+
+Surface Spawn & GTA Starter Kit Policy Tests > Civic Center plaza NPCs are anchored within immediate visible proximity (<=10m) of surface spawn PASSED
+
+Surface Spawn & GTA Starter Kit Policy Tests > Starter vehicle UUID matches MTVehicles Sedan Black PASSED
+
+VaultWalletTest > anOnlineSessionMustAuthenticateBeforeAnyWalletMutation() PASSED
+
+VaultWalletTest > externalPluginsCannotReserveUnregisteredOfflineIdentities() PASSED
+
+VaultWalletTest > vaultTransactionsUseTheCityWalletWithCentPrecision() PASSED
+
+FurnitureRuntimeTest > storageRequiresMatchingNearbyExclusiveRealBlockBinding() PASSED
+
+FurnitureRuntimeTest > unsupportedApplianceCannotBecomeAnEntitlement() PASSED
+
+FurnitureRuntimeTest > corruptedSnapshotRefusesLoadingAndPreservesDamagedEvidence() PASSED
+
+FurnitureRuntimeTest > grantCannotBeReusedForAnotherOwnerOrAsset() PASSED
+
+FurnitureRuntimeTest > everyMutationRejectsDifferentOwner() PASSED
+
+FurnitureRuntimeTest > lightIntentAndRestorationBindingPersistAcrossRemove() PASSED
+
+FurnitureRuntimeTest > entitlementAndChunkLimitsDoNotPartiallyChangeState() PASSED
+
+FurnitureRuntimeTest > removalReturnsTheSameEntitlementWithoutMintingAnything() PASSED
+
+FurnitureRuntimeTest > paidGrantReplaySurvivesRestartWithoutDuplicateEntitlement() PASSED
+
+FurnitureRuntimeTest > allTwoHundredNativeIdsHaveReviewedCapabilitiesWithoutSpecialistFallback() PASSED
+
+FurnitureRuntimeTest > quarterTurnsAreExactAndRejectNonfiniteCoordinates() PASSED
+
+FurnitureRuntimeTest > bindingCannotCrossWorlds() PASSED
+
+FurnitureRuntimeTest > staleWriterFailsWithoutOverwritingOtherOwnersPurchase() PASSED
+
+FurnitureRuntimeTest > sameWorldOverlapRejectedButOtherWorldIndependent() PASSED
+
+FurnitureRuntimeTest > capabilityRegistryRejectsMissingDuplicateAndUnexpectedServiceRows() PASSED
+
+FurnitureRuntimeTest > rotationChecksActualBoundsAndPreservesPlacementOnFailure() PASSED
+
+AuthenticationStateTest > unknownIdentityFloodHasBoundedBookkeepingAndRecoversAfterWindow() PASSED
+
+AuthenticationStateTest > accountBudgetSurvivesReconnectAndIpChanges() PASSED
+
+AuthenticationStateTest > passphrasesWithSpacesQuotesAndUnicodeReachHasherWithoutTruncation() PASSED
+
+AuthenticationStateTest > unverifiedConnectionNeverStartsAuthenticated() PASSED
+
+AuthenticationStateTest > networkBudgetPreventsAccountSprayingAndIsNotResetBySuccessfulLogin() PASSED
+
+AuthenticationStateTest > hashCompletionFromDisconnectedSessionCannotAuthenticateReplacement() PASSED
+
+AuthenticationStateTest > authenticatedAccountCanRetryWithoutClearingOtherPeoplesLimits() PASSED
+
+AuthenticationStateTest > timeoutAndLogoutInvalidateAccessAndLateCompletions() PASSED
+
+AuthenticationStoreTest > credentialFilesHaveOwnerOnlyPermissionsWhenPosixAvailable() PASSED
+
+AuthenticationStoreTest > passwordChangeRequiresOldSecretAndInvalidatesInFlightProof() PASSED
+
+AuthenticationStoreTest > consoleRecoveryChangesCredentialButPreservesIdentity() PASSED
+
+AuthenticationStoreTest > cancelledWorkerCannotCommitCredentialsAfterShutdown() PASSED
+
+AuthenticationStoreTest > corruptedCredentialStoreFailsClosedInsteadOfCreatingNewAccounts() PASSED
+
+AuthenticationStoreTest > staleWriterCannotReplaceNewerCredentialsAndDoesNotPublishFailedState() PASSED
+
+AuthenticationStoreTest > samePasswordHasIndependentSaltsAndHashes() PASSED
+
+AuthenticationStoreTest > credentialsSurviveRestartWithoutPlaintextOrAccountMutation() PASSED
+
+AuthenticationStoreTest > registrationDoesNotReplaceCredentialsOrStealCaseVariantName() PASSED
+
+AuthenticationStoreTest > concurrentRegistrationHasOnlyOneWinner() PASSED
+
+AuthenticationStoreTest > unicodeNormalizationAllowsEquivalentPassphraseAndChecksCodePoints() PASSED
+
+RegionBoundsTest > rejectsOverlapButAllowsAdjacentFloors() PASSED
+
+RegionBoundsTest > halfOpenAndWorldSpecific() PASSED
+
+RoadVehicleRuntimeTest > autoSeatsAndDistinctEnergyFollowAuthoredCushions() PASSED
+
+RoadVehicleRuntimeTest > unboundedTimeAndUnfundedPositionAreRejected() PASSED
+
+RoadVehicleRuntimeTest > emptyOrDestroyedVehiclesDoNotMoveAndFinalFuelCannotBeOverspent() PASSED
+
+RoadVehicleRuntimeTest > separateStaleWriterCannotReplaceCurrentOwnership() PASSED
+
+RoadVehicleRuntimeTest > savedVehicleRoundTripPreservesEveryField() PASSED
+
+RoadVehicleRuntimeTest > partialCollisionConsumesActualDistanceAndAppliesImpactDamage() PASSED
+
+RoadVehicleRuntimeTest > allSixtyFiveModelsAndAllDamageBindingsResolve() PASSED
+
+RoadVehicleRuntimeTest > unknownModelCapacityAndMismatchedServiceOwnerAreRejected() PASSED
+
+RoadVehicleRuntimeTest > motorcycleScooterAndTractorSeatsFollowRealCushions() PASSED
+
+RoadVehicleRuntimeTest > failedServiceCheckpointPublishesNeitherRefillNorReceipt() PASSED
+
+RoadVehicleRuntimeTest > forwardMotionConsumesOnlyFundedDistanceAndRespectsSpeed() PASSED
+
+RoadVehicleRuntimeTest > olderAsyncCheckpointCannotOverwriteNewerState() PASSED
+
+RoadVehicleRuntimeTest > corruptedStateIsRejectedWithoutReplacingTheFile() PASSED
+
+RoadVehicleRuntimeTest > brakeAndReverseCannotInstantlyInvertMomentum() PASSED
+
+RoadVehicleRuntimeTest > modelPoseUsesBukkitForwardAndRejectsNonfinite() PASSED
+
+RoadVehicleRuntimeTest > orientedVehiclesAndTouchingFacesAreHandled() PASSED
+
+RoadVehicleRuntimeTest > steeringFollowsTravelDirectionAndDoesNotPivotAtRest() PASSED
+
+RoadVehicleRuntimeTest > onlyOwnerMayGrantKeysAndRevocationRemovesDrivingAuthority() PASSED
+
+RoadVehicleRuntimeTest > malformedAndDuplicateProfilesFailClosed() PASSED
+
+RoadVehicleRuntimeTest > orientedCollisionRejectsBroadPhaseFalsePositive() PASSED
+
+RoadVehicleRuntimeTest > serviceReceiptAndRefillCommitInTheSameSnapshot() PASSED
+
+> Task :check
+
+[Incubating] Problems report is available at: file:///workspace/scratch/d7d343b39c16/gtm/source/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 22s
+9 actionable tasks: 8 executed, 1 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.2.1/userguide/configuration_cache_enabling.html

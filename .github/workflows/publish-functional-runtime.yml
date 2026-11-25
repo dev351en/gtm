@@ -1,0 +1,53 @@
+name: Publish recovered functional runtime candidate
+
+on:
+  push:
+    branches: [gtm/playable-r4]
+    paths:
+      - 'runtime/functional-r4/**'
+      - 'creative/delivery/**'
+      - 'tools/assemble_functional_runtime.py'
+      - 'tools/test_assemble_functional_runtime.py'
+      - 'tools/publish_functional_runtime.py'
+      - 'tools/test_publish_functional_runtime.py'
+      - 'tools/daytona_tunnel.py'
+      - 'tools/test_daytona_tunnel.py'
+      - 'Start-Daytona.bat'
+      - 'connect_daytona_server.bat'
+      - 'docs/DAYTONA_LAPTOP_CONNECTION.md'
+      - '.github/workflows/publish-functional-runtime.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gtm-functional-r4-1.0.3-publication
+  cancel-in-progress: false
+
+jobs:
+  candidate:
+    if: github.repository == 'dev351en/gtm' && github.ref == 'refs/heads/gtm/playable-r4'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      # Official actions/checkout v4.4.0, verified 2026-11-25.
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+          lfs: false
+      - name: Verify the offline assembler and connector
+        run: |
+          python3 -m unittest discover -s tools -p test_assemble_functional_runtime.py -v
+          python3 -m unittest discover -s tools -p test_publish_functional_runtime.py -v
+          python3 -m unittest discover -s tools -p test_daytona_tunnel.py -v
+      - name: Assemble exact verified payload and downloadable assets
+        run: python3 tools/assemble_functional_runtime.py --output dist/functional-r4
+      - name: Publish a verified candidate without replacing existing assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GTM_REPOSITORY: ${{ github.repository }}
+          GTM_COMMIT: ${{ github.sha }}
+        run: python3 tools/publish_functional_runtime.py --directory dist/functional-r4 --repo "$GTM_REPOSITORY" --commit "$GTM_COMMIT"

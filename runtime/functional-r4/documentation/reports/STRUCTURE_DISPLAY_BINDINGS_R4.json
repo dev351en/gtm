@@ -1,0 +1,45 @@
+{
+  "status": "PASS_STATIC_RUNTIME_BINDINGS_NATIVE_CLIENT_NOT_RUN",
+  "scope": "All27 authored structural selectors resolve through the same Geyser ItemDisplay bridge as existing furniture and vehicles; exact held meshes/native128 pixels/UVs retained.",
+  "production_core_changed": false,
+  "core_sha256": "b7c76cd3a664e1bb7e1e56fd2098f7ef0a71e921d47170ed10c4e658974715af",
+  "missing_bindings_found": 27,
+  "prior_world_display_bindings": 1907,
+  "current_world_display_bindings": 1934,
+  "prior_bedrock_pack_sha256": "c10b185151751c94c6e670a3beab8e0d36e28a1c9b9478fcd745d5c6965641cf",
+  "java_pack_sha256": "5b5e132a2c670b07e8c0c389e086bd2dee1002ed7de72a6bdcd93acc6d6cba9a",
+  "bedrock_pack_sha256": "d02cc8f41f6f97799dedab824b6fd23049c01556475e0031a50824543b507aab",
+  "display_mapping_sha256": "c9e7b290e689b4cc77862d68bce7fe3c0c02e0b4aaa748eaaed60d8f0965cc09",
+  "ordinary_item_mapping_sha256": "7ee03be5ee70bf21512cad88f3085cd3ad7dc46470623227ae23cbe46567d540",
+  "catalogue_sha256": "b4ef5e795ecbca49ae9af57331cebc17e0753baaa38f9756b145277c9fd109ae",
+  "native128_art_changed": false,
+  "automated_tests": {
+    "merged_pack_boundary_cases": 14,
+    "furniture_structure_overlay_cases": 10,
+    "failures": 0
+  },
+  "regression": "Real structural overlay -> actual target discovery -> generated Geyser extension mappings and attached display geometries for all27 selectors. Builder refuses any declared required display target missing from resolved projections.",
+  "current_packs": [
+    {
+      "file": "GTM_Runtime_128_Java.zip",
+      "sha256": "5b5e132a2c670b07e8c0c389e086bd2dee1002ed7de72a6bdcd93acc6d6cba9a",
+      "sha1": "717ac30ea44352a14d6e53d5d93ea53d01d0befc",
+      "size_bytes": 16722227,
+      "entries": 10665
+    },
+    {
+      "file": "GTM_Runtime_128_Bedrock.mcpack",
+      "sha256": "d02cc8f41f6f97799dedab824b6fd23049c01556475e0031a50824543b507aab",
+      "sha1": "e64639db914cea6c2783f6e85b66fc9b9131b35c",
+      "size_bytes": 17044733,
+      "entries": 12170
+    }
+  ],
+  "bedrock_resource_paths": {
+    "entries": 12170,
+    "maximum_utf8_bytes": 72,
+    "rejected_at_or_above_bytes": 80
+  },
+  "native_java_client_verified": false,
+  "native_bedrock_client_verified": false
+}

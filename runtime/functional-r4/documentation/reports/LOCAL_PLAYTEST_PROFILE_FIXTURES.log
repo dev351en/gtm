@@ -1,0 +1,18 @@
+test_account_data_and_existing_property_registry_are_not_overwritten (__main__.LocalProfile.test_account_data_and_existing_property_registry_are_not_overwritten) ... ok
+test_actual_world_backings_permissions_and_paid_claim (__main__.LocalProfile.test_actual_world_backings_permissions_and_paid_claim) ... ok
+test_all_catalog_prices_are_positive_local_purchases_with_original_baseline_costs (__main__.LocalProfile.test_all_catalog_prices_are_positive_local_purchases_with_original_baseline_costs) ... ok
+test_backing_entities_match_exact_paper255_registry_and_beds_are_plain_states (__main__.LocalProfile.test_backing_entities_match_exact_paper255_registry_and_beds_are_plain_states) ... ok
+test_duplicate_config_key_and_repeat_install_are_refused (__main__.LocalProfile.test_duplicate_config_key_and_repeat_install_are_refused) ... ok
+test_exact_rollback_restores_originals_and_absent_files (__main__.LocalProfile.test_exact_rollback_restores_originals_and_absent_files) ... ok
+test_external_revive_plugin_is_refused_before_medical_activation (__main__.LocalProfile.test_external_revive_plugin_is_refused_before_medical_activation) ... ok
+test_preserves_all_existing_block_entities_and_supplies_empty_backings (__main__.LocalProfile.test_preserves_all_existing_block_entities_and_supplies_empty_backings) ... ok
+test_private_import_and_changed_public_world_are_refused_before_writes (__main__.LocalProfile.test_private_import_and_changed_public_world_are_refused_before_writes) ... ok
+test_reviewed_depot_adds_only_air_and_preserves_real_water_and_shore (__main__.LocalProfile.test_reviewed_depot_adds_only_air_and_preserves_real_water_and_shore) ... ok
+test_rollback_refuses_new_account_even_before_world_save (__main__.LocalProfile.test_rollback_refuses_new_account_even_before_world_save) ... ok
+test_rollback_refuses_new_progress_without_overwriting_any_file (__main__.LocalProfile.test_rollback_refuses_new_progress_without_overwriting_any_file) ... ok
+test_running_world_lock_is_refused (__main__.LocalProfile.test_running_world_lock_is_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 46.252s
+
+OK

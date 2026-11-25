@@ -1,0 +1,23 @@
+test_any_secondary_world_lock_prevents_exclusion (test_launcher_java_only.JavaOnlySelection.test_any_secondary_world_lock_prevents_exclusion) ... ok
+test_any_secondary_world_lock_prevents_restoration (test_launcher_java_only.JavaOnlySelection.test_any_secondary_world_lock_prevents_restoration) ... ok
+test_changed_manifest_refuses_restore_without_mutation (test_launcher_java_only.JavaOnlySelection.test_changed_manifest_refuses_restore_without_mutation) ... ok
+test_changed_preserved_bytes_refuse_restore (test_launcher_java_only.JavaOnlySelection.test_changed_preserved_bytes_refuse_restore) ... ok
+test_completed_restoration_journal_is_archived_after_interruption (test_launcher_java_only.JavaOnlySelection.test_completed_restoration_journal_is_archived_after_interruption) ... ok
+test_descriptor_alias_is_refused_before_any_move (test_launcher_java_only.JavaOnlySelection.test_descriptor_alias_is_refused_before_any_move) ... ok
+test_descriptor_valid_synthetic_plugin_is_not_a_reviewed_pin (test_launcher_java_only.JavaOnlySelection.test_descriptor_valid_synthetic_plugin_is_not_a_reviewed_pin) ... ok
+test_duplicate_exact_plugin_alias_is_refused (test_launcher_java_only.JavaOnlySelection.test_duplicate_exact_plugin_alias_is_refused) ... ok
+test_exact_selection_and_byte_identical_clean_restore (test_launcher_java_only.JavaOnlySelection.test_exact_selection_and_byte_identical_clean_restore) ... ok
+test_journal_traversal_is_refused (test_launcher_java_only.JavaOnlySelection.test_journal_traversal_is_refused) ... ok
+test_live_recorded_child_prevents_recovery_until_actual_exit (test_launcher_java_only.JavaOnlySelection.test_live_recorded_child_prevents_recovery_until_actual_exit) ... ok
+test_missing_both_copies_never_recreates_plugin_bytes (test_launcher_java_only.JavaOnlySelection.test_missing_both_copies_never_recreates_plugin_bytes) ... ok
+test_original_destination_collision_never_overwrites (test_launcher_java_only.JavaOnlySelection.test_original_destination_collision_never_overwrites) ... ok
+test_partial_exclusion_recovers_only_the_missing_original (test_launcher_java_only.JavaOnlySelection.test_partial_exclusion_recovers_only_the_missing_original) ... ok
+test_partial_restoration_is_idempotently_recovered (test_launcher_java_only.JavaOnlySelection.test_partial_restoration_is_idempotently_recovered) ... ok
+test_read_only_pending_inspection_does_not_restore_or_rewrite (test_launcher_java_only.JavaOnlySelection.test_read_only_pending_inspection_does_not_restore_or_rewrite) ... ok
+test_symbolic_optional_jar_is_refused (test_launcher_java_only.JavaOnlySelection.test_symbolic_optional_jar_is_refused) ... ok
+test_unjournaled_preserved_file_is_never_overwritten (test_launcher_java_only.JavaOnlySelection.test_unjournaled_preserved_file_is_never_overwritten) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 18.440s
+
+OK

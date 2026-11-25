@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-11-25T00:49:29.431458+00:00",
+  "scope": "Laptop launcher configuration and isolated fixture processes; no native Minecraft or Bedrock client",
+  "java_version": "25.0.5.1+2",
+  "geyser": {
+    "version": "2.12.1 build 1308",
+    "jar_sha256": "8682df3e77fd4a7e745ed671fbbb727aca32a77d89c97a50f5f77f20fdb191fa",
+    "config_version": 12
+  },
+  "result": {
+    "tests": 35,
+    "passed": 32,
+    "skipped": 3,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 11.881
+  },
+  "skips": [
+    "test_12_actual_private_interface_tcp_and_udp_conflicts",
+    "test_13_bedrock_preflight_reports_effective_bind_and_rejects_each_busy_port",
+    "test_14_real_child_receives_exact_effective_geyser_overrides"
+  ],
+  "skip_reason": "The test executor exposes no eligible up non-loopback RFC1918 IPv4. No substituted or invented local address was used.",
+  "passed_mechanisms": [
+    "strict RFC1918 boundary and literal validation",
+    "OS-route preference and current-interface matching",
+    "explicit local selection and ambiguous/down/loopback rejection",
+    "reviewed NetherNet builtin profile validation and duplicate-key rejection",
+    "actual child JVM Geyser disablement for --java-only and bedrock.enabled=false",
+    "pack bind/client-host loopback enforcement",
+    "portable crossplay builder keeps bedrock.bind=auto",
+    "existing authentication/private-source preservation and launcher HTTP/clean-stop fixtures",
+    "actual Java-only shell wrapper from a path with spaces forwards --check, preserves EULA and launches/stops the disabled-Geyser fixture child"
+  ],
+  "network_policy": {
+    "java": "127.0.0.1",
+    "pack_http": "127.0.0.1",
+    "bedrock": "runtime selected current local RFC1918 IPv4",
+    "transport": "nethernet",
+    "signaling": "builtin",
+    "stun_discovery": false,
+    "advertise_addresses": [],
+    "no_private_adapter": "actionable startup stop; explicit --java-only supported",
+    "inactive_profile": "Geyser explicitly disabled with -DgeyserUdpPort=-1"
+  },
+  "not_verified": [
+    "native Windows execution",
+    "native Bedrock client signaling/gameplay",
+    "native Java client presentation",
+    "actual private-interface socket cases on this test host",
+    "Paper/Geyser startup with the new launcher"
+  ],
+  "fixture_log": "reports/LAPTOP_NETHERNET_FIXTURES_R4.log",
+  "pinned_implementation_evidence": "reports/GEYSER_NETHERNET_PINNED_BYTECODE_R4.txt",
+  "primary_sources": [
+    "https://geysermc.org/blog/preparing-for-nethernet/",
+    "https://geysermc.org/wiki/geyser/geyser-command-line-arguments-and-system-properties/",
+    "https://mojang.github.io/bedrock-protocol-docs/guides/nether-net-onboarding-guide/"
+  ],
+  "source_sha256": {
+    "packaging/laptop/GtmLauncher.java": "f23caae61369765c6a4cfab405e486fae922673a0cb9ecdf6db163887e38987d",
+    "packaging/laptop/geyser-local.yml": "91bf471ba08dc1a818933bcac1190418968c2ff1d4fb34a6b2a4f994148cbe95",
+    "packaging/laptop/README_LAPTOP.txt": "c1bff7b97323eea1d2a86288867bc2028bbeb632468ee9f1922c7abdc20c4c28",
+    "tools/build_laptop_bundle.py": "bc6f8085245f737696966e6478e565c37e9ad211acdd9a5c77e1a8991dead4ad",
+    "tools/test_laptop_bundle.py": "47e44202aaf8b95808d81d58c02d4516b4e301c34703614d91e94e831ff8b447",
+    "tools/fixtures/GtmLauncherNetworkCheck.java": "25484b953b3020dd895e0ac7ba97482b71bd1950b60c6cbf42b7020e2c7604ec",
+    "packaging/laptop/Start-GTM-Java-Only.bat": "172c8b74742ef9517a2edaf507017a5c7b547136c0f2278c67096365e581dec1",
+    "packaging/laptop/Start-GTM-Java-Only.sh": "5b118ba4f149047d08ee64ddd89f488747c939df01658caf6e074acb03468437",
+    "tools/fixtures/PinnedGeyserAdvertiseCheck.java": "86dc07fe1d4ad8f50047803c85b8107faafc423005e6e0a7959be12987538296"
+  },
+  "pinned_empty_override": {
+    "status": "PASS",
+    "method": "NetherNetServer.addresses(Stream)",
+    "empty_property_result": [],
+    "blank_and_duplicate_filter": "PASS",
+    "server_or_listener_created": false,
+    "log": "reports/GEYSER_EMPTY_ADVERTISE_CHECK_R4.log"
+  }
+}

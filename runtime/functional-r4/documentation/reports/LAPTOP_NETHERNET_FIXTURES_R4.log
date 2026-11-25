@@ -1,0 +1,40 @@
+test_01_fresh_bundle_does_not_accept_eula (test_laptop_bundle.CompleteLauncherFixtures.test_01_fresh_bundle_does_not_accept_eula) ... ok
+test_02_preflight_and_integrity_failures (test_laptop_bundle.CompleteLauncherFixtures.test_02_preflight_and_integrity_failures) ... ok
+test_03_authentication_mode_change_refused (test_laptop_bundle.CompleteLauncherFixtures.test_03_authentication_mode_change_refused) ... ok
+test_04_port_conflict_refused (test_laptop_bundle.CompleteLauncherFixtures.test_04_port_conflict_refused) ... ok
+test_05_http_pack_and_clean_stop_lifecycle (test_laptop_bundle.CompleteLauncherFixtures.test_05_http_pack_and_clean_stop_lifecycle) ... ok
+test_06_private_import_preserves_accounts_and_source (test_laptop_bundle.CompleteLauncherFixtures.test_06_private_import_preserves_accounts_and_source) ... ok
+test_07_launcher_rejects_manually_running_world (test_laptop_bundle.CompleteLauncherFixtures.test_07_launcher_rejects_manually_running_world) ... ok
+test_08_missing_world_cannot_generate_a_replacement (test_laptop_bundle.CompleteLauncherFixtures.test_08_missing_world_cannot_generate_a_replacement) ... ok
+test_09_archive_cannot_contain_itself (test_laptop_bundle.CompleteLauncherFixtures.test_09_archive_cannot_contain_itself) ... ok
+test_10_existing_acceptance_is_copied_exactly_and_cannot_replace_an_import (test_laptop_bundle.CompleteLauncherFixtures.test_10_existing_acceptance_is_copied_exactly_and_cannot_replace_an_import) ... ok
+test_11_private_interface_route_and_override_policy (test_laptop_bundle.CompleteLauncherFixtures.test_11_private_interface_route_and_override_policy) ... ok
+test_12_actual_private_interface_tcp_and_udp_conflicts (test_laptop_bundle.CompleteLauncherFixtures.test_12_actual_private_interface_tcp_and_udp_conflicts) ... skipped 'No unambiguous active private IPv4 on this test host; pure route-policy tests still apply'
+test_13_bedrock_preflight_reports_effective_bind_and_rejects_each_busy_port (test_laptop_bundle.CompleteLauncherFixtures.test_13_bedrock_preflight_reports_effective_bind_and_rejects_each_busy_port) ... skipped 'No unambiguous active private IPv4 on this test host; pure route-policy tests still apply'
+test_14_real_child_receives_exact_effective_geyser_overrides (test_laptop_bundle.CompleteLauncherFixtures.test_14_real_child_receives_exact_effective_geyser_overrides) ... skipped 'No unambiguous active private IPv4 on this test host; pure route-policy tests still apply'
+test_15_java_only_explicitly_disables_geyser_without_a_usable_bind (test_laptop_bundle.CompleteLauncherFixtures.test_15_java_only_explicitly_disables_geyser_without_a_usable_bind) ... ok
+test_16_launcher_checks_transport_identity_and_duplicate_settings (test_laptop_bundle.CompleteLauncherFixtures.test_16_launcher_checks_transport_identity_and_duplicate_settings) ... ok
+test_17_crossplay_builder_leaves_address_selection_to_the_laptop (test_laptop_bundle.CompleteLauncherFixtures.test_17_crossplay_builder_leaves_address_selection_to_the_laptop) ... ok
+test_18_pack_service_cannot_move_to_a_network_or_wildcard_bind (test_laptop_bundle.CompleteLauncherFixtures.test_18_pack_service_cannot_move_to_a_network_or_wildcard_bind) ... ok
+test_19_java_only_wrapper_forwards_check_and_starts_the_disabled_child (test_laptop_bundle.CompleteLauncherFixtures.test_19_java_only_wrapper_forwards_check_and_starts_the_disabled_child) ... ok
+test_bedrock_profile_preserves_identity_and_requires_runtime_safe_networking (test_laptop_bundle.InputSafety.test_bedrock_profile_preserves_identity_and_requires_runtime_safe_networking) ... ok
+test_checksum_mismatch_fails_closed (test_laptop_bundle.InputSafety.test_checksum_mismatch_fails_closed) ... ok
+test_dependency_telemetry_is_opted_out_before_first_boot (test_laptop_bundle.InputSafety.test_dependency_telemetry_is_opted_out_before_first_boot) ... ok
+test_display_bridge_cannot_omit_corresponding_source (test_laptop_bundle.InputSafety.test_display_bridge_cannot_omit_corresponding_source) ... ok
+test_display_bridge_requires_exact_license_and_build_source (test_laptop_bundle.InputSafety.test_display_bridge_requires_exact_license_and_build_source) ... ok
+test_download_requires_pinned_https_host (test_laptop_bundle.InputSafety.test_download_requires_pinned_https_host) ... ok
+test_duplicate_geyser_settings_cannot_disagree_with_preflight (test_laptop_bundle.InputSafety.test_duplicate_geyser_settings_cannot_disagree_with_preflight) ... ok
+test_hard_plugin_dependencies_parsed (test_laptop_bundle.InputSafety.test_hard_plugin_dependencies_parsed) ... ok
+test_lfs_pointer_is_not_a_download (test_laptop_bundle.InputSafety.test_lfs_pointer_is_not_a_download) ... ok
+test_local_workshop_flag_cannot_modify_a_private_import (test_laptop_bundle.InputSafety.test_local_workshop_flag_cannot_modify_a_private_import) ... ok
+test_old_core_cannot_be_packaged (test_laptop_bundle.InputSafety.test_old_core_cannot_be_packaged) ... ok
+test_property_updates_preserve_identity_mode (test_laptop_bundle.InputSafety.test_property_updates_preserve_identity_mode) ... ok
+test_real_spigot_command_logging_key_is_disabled_without_changing_aliases (test_laptop_bundle.InputSafety.test_real_spigot_command_logging_key_is_disabled_without_changing_aliases) ... ok
+test_running_world_lock_refused (test_laptop_bundle.InputSafety.test_running_world_lock_refused) ... ok
+test_windows_zip_paths_are_checked (test_laptop_bundle.InputSafety.test_windows_zip_paths_are_checked) ... ok
+test_zip_case_collision_rejected (test_laptop_bundle.InputSafety.test_zip_case_collision_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 11.881s
+
+OK (skipped=3)
