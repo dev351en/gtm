@@ -153,6 +153,9 @@ def merge_bedrock(target, incoming):
 
 def java_model(files, identifier, visiting=None):
     """Resolve inheritance, including legacy finish parent meshes and texture slots."""
+    # Minecraft resource locations without a namespace use minecraft, including
+    # the valid "item/generated" parent used by preserved third-party models.
+    identifier = identifier if ":" in identifier else "minecraft:" + identifier
     visiting = set() if visiting is None else visiting
     if identifier in visiting:
         raise ValueError("Java model parent cycle: " + identifier)
