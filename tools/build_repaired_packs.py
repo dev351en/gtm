@@ -36,6 +36,7 @@ SCREENS = {"home": (6, "\uf100"), "menu3": (3, "\uf101"),
 ATLAS_BLOCKS = "assets/minecraft/atlases/blocks.json"
 ATLAS_ITEMS = "assets/minecraft/atlases/items.json"
 ITEM_DIRECTORIES = ("items", "custom", "ui", "finish", "outfits")
+LEGACY_AMMO_MODEL = "assets/minecraft/models/item/phantom_membrane_org.json"
 
 
 def preserved_bytes(path: str) -> bytes:
@@ -160,6 +161,18 @@ def repair_atlases(java: dict[str, bytes]):
     ]})
 
 
+def repair_legacy_json(java: dict[str, bytes]):
+    # The inherited backup model is not selected by an item, but Minecraft
+    # parses it during reload. Its original ten override records lack commas.
+    # Keep every predicate/model unchanged and repair only the serialization.
+    original = java[LEGACY_AMMO_MODEL].decode("utf-8")
+    fixed = original.replace('}\n       {', '},\n       {')
+    data = json.loads(fixed)
+    if [row["predicate"].get("custom_model_data") for row in data.get("overrides", [])] != list(range(1, 11)):
+        raise ValueError("Unexpected legacy ammo backup model; refusing an unrelated repair")
+    java[LEGACY_AMMO_MODEL] = encoded(data)
+
+
 def atlas_sprites(java: dict[str, bytes], atlas: str) -> set[str]:
     """Evaluate the relevant 26.3 directory/single atlas providers.
 
@@ -251,8 +264,16 @@ def validate_java(java: dict[str, bytes], core: Path = CORE, require_skin: bool 
     duplicates = item_sprites & block_sprites
     if duplicates:
         raise ValueError("Sprites copied into both item and block atlases: " + sorted(duplicates)[0])
-    refs, textures, font_files, custom_items = set(), set(), set(), 0
+    refs, textures, font_files, custom_items, parsed_models = set(), set(), set(), 0, 0
     for path, content in java.items():
+        if "/models/" in path and path.endswith(".json"):
+            try:
+                parsed = json.loads(content)
+            except (ValueError, UnicodeError) as failure:
+                raise ValueError("Malformed model JSON: " + path) from failure
+            if not isinstance(parsed, dict):
+                raise ValueError("Model must be a JSON object: " + path)
+            parsed_models += 1
         if path.startswith("assets/") and "/items/" in path and path.endswith(".json"):
             refs.update(model_nodes(json.loads(content)))
             custom_items += int(not path.startswith("assets/minecraft/"))
@@ -291,6 +312,7 @@ def validate_java(java: dict[str, bytes], core: Path = CORE, require_skin: bool 
                     raise ValueError("Phone container skin does not match slot geometry")
     return {"runtime_ui_items": len(required), "phone_apps": sum(r["family"] == "phone" for r in required),
             "custom_item_definitions": custom_items, "resolved_item_model_roots": len(refs),
+            "parsed_model_json_files": parsed_models,
             "model_texture_references": len(textures), "font_bitmaps": len(font_files),
             "custom_atlas_sprites": sum(not value.startswith("minecraft:") for value in item_sprites | block_sprites),
             "duplicate_item_block_sprites": len(duplicates),
@@ -340,6 +362,7 @@ def build(output: Path) -> dict:
     add_screens(java)
     add_aliases(java, bedrock, mappings)
     repair_atlases(java)
+    repair_legacy_json(java)
     pose_models = repair_weapon_poses(java)
     metadata = json.loads(java["pack.mcmeta"])
     metadata["pack"]["description"] = "GTM Indraprastha · 1.0.4 · Phone UI, native128 models and compatibility"

@@ -21,6 +21,7 @@ class RepairedPackTests(unittest.TestCase):
         repair.add_screens(java)
         repair.add_aliases(java, bedrock, mappings)
         repair.repair_atlases(java)
+        repair.repair_legacy_json(java)
         repair.repair_weapon_poses(java)
         return java, bedrock, mappings
 
@@ -63,7 +64,10 @@ class RepairedPackTests(unittest.TestCase):
     def test_skin_and_alias_overlay_preserves_all_original_art_bytes(self):
         java, bedrock, _ = self.patched()
         for name, data in self.java.items():
-            if "/models/" in name and java[name] != data:
+            if name == repair.LEGACY_AMMO_MODEL:
+                expected = json.loads(data.decode().replace('}\n       {', '},\n       {'))
+                self.assertEqual(expected, json.loads(java[name]))
+            elif "/models/" in name and java[name] != data:
                 before, after = json.loads(data), json.loads(java[name])
                 for hand in ("firstperson_righthand", "firstperson_lefthand"):
                     before.get("display", {}).pop(hand, None)
@@ -94,6 +98,19 @@ class RepairedPackTests(unittest.TestCase):
             model = json.loads(java[f"assets/gtm/models/item/{identifier}.json"])
             self.assertEqual([0, 6, 0], model["display"]["firstperson_righthand"]["translation"])
             self.assertEqual([0, 6, 0], model["display"]["firstperson_lefthand"]["translation"])
+
+    def test_every_included_model_is_valid_json(self):
+        java, _, _ = self.patched()
+        for name, data in java.items():
+            if "/models/" in name and name.endswith(".json"):
+                with self.subTest(name=name):
+                    self.assertIsInstance(json.loads(data), dict)
+
+    def test_malformed_unselected_model_blocks_release_validation(self):
+        java, _, _ = self.patched()
+        java[repair.LEGACY_AMMO_MODEL] = self.java[repair.LEGACY_AMMO_MODEL]
+        with self.assertRaisesRegex(ValueError, "Malformed model JSON"):
+            repair.validate_java(java)
 
     def test_skin_bounds_match_native_inventory_and_font_advance(self):
         java, _, _ = self.patched()
