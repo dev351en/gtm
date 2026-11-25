@@ -50,7 +50,8 @@ jobs:
           python -m unittest discover -s tools -p test_repaired_packs.py -v
           python -m unittest discover -s tools -p test_rickshaw_canopy.py -v
           python -m unittest discover -s tools -p test_install_runtime_repair.py -v
-      - name: Build server-only 1.0.7 without Fabric
+          python -m unittest discover -s tools -p test_crossplay_asset_checks.py -v
+      - name: Build server-only 1.0.7 with original modelled assets
         run: |
           python tools/build_repaired_packs.py
           python tools/build_repair_release.py --server-only --overlay hotfix/build/libs/GTM-Repair-Classes-1.0.5-r4-spec-candidate-overlay.jar --vehicle-class hotfix/build/vehicle-patch/com/sdcraft/core/GtmVehicles.class --output build/crossplay-release
