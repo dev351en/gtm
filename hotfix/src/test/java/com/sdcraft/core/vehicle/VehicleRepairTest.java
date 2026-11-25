@@ -212,6 +212,16 @@ class VehicleRepairTest {
         assertEquals(65, roads);
     }
 
+    @Test void bundledProfileLoadsRaisedTraditionalCanopyWithoutMovingSeats() throws Exception {
+        var profile = RoadVehicleCatalog.bundled().all().stream()
+                .filter(p -> p.id().equals("gtm:rickshaw_traditional")).findFirst().orElseThrow();
+        assertEquals(2.238, profile.bounds().maxY());
+        assertEquals(new VehicleGeometry.Point(0, .60625, .208), profile.seats().getFirst().hip());
+        assertEquals(new VehicleGeometry.Point(0, .62, .208), profile.seats().getFirst().mount());
+        assertEquals(PROFILE.handling(), profile.handling());
+        assertEquals("256ff4ca40ae1a310995214a9b261ccfd5e7024a5af73bbdc7d6f31a11c3abf3", profile.geometryHash());
+    }
+
     @Test void guidedModesKeepTheirOriginalSpeedTimesStepFuelContract() throws Exception {
         for (var profile : RoadVehicleCatalog.bundled().all()) {
             if (profile.mode() == RoadVehicleProfile.Mode.ROAD) continue;

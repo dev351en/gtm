@@ -2,7 +2,7 @@
 
 ## Status and intended installation
 
-**Draft acceptance report.** This repair produces a real installable update, `GTM_Runtime_Repair_1.0.4.zip`, for an existing `1.0.3-r4-functional-candidate` server. Source compilation, regression tests, the running server's HTTP console and update/rollback checks have passed. Native Java client testing is still in progress after finding and correcting additional texture-atlas and held-weapon defects. Native Bedrock acceptance is outstanding. The corrected Java pack must be rechecked before this report is promoted to a ready release.
+**Java-tested repair candidate — 25 November 2026.** This repair produces a real installable update, `GTM_Runtime_Repair_1.0.4.zip`, for an existing `1.0.3-r4-functional-candidate` server. Source compilation, regression tests, the running server's HTTP console and update/rollback checks have passed. The actual Minecraft 26.3 client shows the custom phone and icons, JEEVA submenu and held native pistol after ordinary login. Firing, reloading, safe-area restrictions, driving controls and grounded wheel animation have passed a native smoke test. The traditional rickshaw canopy has been raised to provide measured player clearance, with corresponding collision bounds and regression checks. The final exact-byte restart confirmed normal-login phone and equipment rendering, grounded wheels and the driver beneath the repaired canopy. Native Bedrock acceptance is outstanding.
 
 The update contains a patched `SDCraftCore-1.0.4-r4-repair.jar`, matching Java and Bedrock resource packs, Geyser mappings, the verified updater, and the Control Centre opener. It uses the existing server, worlds, accounts and launcher. It does not supply a replacement city save or require an account reset. The supported server profile uses Java 25 and Paper/Minecraft 26.3. See the [short installation guide](../packaging/repair/README.md) and [release acceptance notes](../packaging/repair/RELEASE_NOTES.md).
 
@@ -14,15 +14,15 @@ The configured public download and the actual runtime were out of step. The earl
 
 The first real Minecraft 26.3 test exposed a second defect: the UI, finish and outfit PNGs existed in the pack, but their directories were absent from the item texture atlas. File-existence checks alone had passed. Minecraft logged missing textures for `gtm:ui/app_bank`, other phone apps, finishes and outfits. The revised builder registers the required atlas sources and removes an inherited blocks-atlas override that duplicated item sprites. Regression tests now reject an existing PNG that is absent from the effective item/block atlas, as well as duplicate registration. [Pack regressions](../tools/test_repaired_packs.py)
 
-A separate pack-ready issue prevented the phone skin from activating after the normal login-phase download. In the native test, `/pack` produced the play-phase acknowledgement and immediately activated the dark/gold skin. The main plugin now checks the player's inherited resource-pack status on join as well as later status events. The final acceptance check must verify that ordinary login activates the interface without this manual resend. [Pack-ready and welcome wiring](../hotfix/src/main/java/com/sdcraft/core/SDCraftCorePlugin.java)
+A separate pack-ready issue prevented the phone skin from activating after the normal login-phase download. In the first native test, `/pack` produced the play-phase acknowledgement and immediately activated the dark/gold skin. The main plugin now checks the player's inherited resource-pack status on join as well as later status events. The next real-client test confirmed ordinary login activates the interface without this manual resend. [Pack-ready and welcome wiring](../hotfix/src/main/java/com/sdcraft/core/SDCraftCorePlugin.java)
 
 ### Weapons
 
-The latest runtime already contained native firearm behavior and artwork, but the starter kit favored QualityArmory, the catalogue put thirty light-tag items before the firearms, and the old administrator menu reused four generic types under unrelated labels. Some old ammunition tags also did not match their reload engine. The repair routes normal equipment access to the native catalogue, puts firearms first, supplies matching ammunition and preserves authored finishes. The client additionally showed the original first-person pose almost entirely below the screen; only the first-person display transforms are adjusted, leaving the mesh, textures and inventory preview intact. [Weapon implementation and evidence](../hotfix/WEAPONS.md)
+The latest runtime already contained native firearm behavior and artwork, but the starter kit favored QualityArmory, non-firearm catalogue entries preceded the firearms, and the old administrator menu reused four generic types under unrelated labels. Some old ammunition tags also did not match their reload engine. The repair routes normal equipment access to the native catalogue, puts firearms first, supplies matching ammunition and preserves authored finishes. The client additionally showed the original first-person pose almost entirely below the screen; only the first-person display transforms are adjusted, leaving the mesh, textures and inventory preview intact. [Weapon implementation and evidence](../hotfix/WEAPONS.md)
 
 ### Vehicles
 
-The preserved vehicle adapter did not compensate for the client's additional `ItemDisplay` Y rotation. For the traditional auto, this made the front wheel orbit its authored pivot and rise above the roof during animation. The repair applies the inverse rotation at the two checked render-transform call sites. The road controller also receives revised acceleration, braking, coasting, turning and fuel accounting. [Vehicle explanation and mathematical tests](../hotfix/VEHICLE_REPAIR.md)
+The preserved vehicle adapter did not compensate for the client's additional `ItemDisplay` Y rotation. For the traditional auto, this made the front wheel orbit its authored pivot and rise above the roof during animation. The repair applies the inverse rotation at the two checked render-transform call sites. The road controller also receives revised acceleration, braking, coasting, turning and fuel accounting. An elevated native-client view exposed a separate canopy-clearance defect: the seated player's head intersected the roof. The traditional auto canopy is now 0.45 blocks higher with its four posts extended, and its collision profile encloses the repaired geometry. The bounded change covers normal, damaged and critical variants in six Java models and twelve Bedrock geometries; seats, wheels, texture bytes and the other 86 profiles are unchanged. [Vehicle explanation and mathematical tests](../hotfix/VEHICLE_REPAIR.md)
 
 ## What is available in the repaired game
 
@@ -30,7 +30,7 @@ The preserved vehicle adapter did not compensate for the client's additional `It
 
 Open the phone item or use `/phone`. The repaired Java phone provides a dark/gold container skin, the existing 24 native128 app icons, and shortcuts for JEEVA, equipment, garage and settings. The skin is attached to the actual inventory and its existing click handlers. Page controls remain session-bound; closing or replacing a screen invalidates its old actions. [Phone implementation](../hotfix/src/main/java/com/sdcraft/core/GtmPhoneApps.java)
 
-After authentication and a successful matching pack load, the welcome flow can open the phone once for that connection. Existing feature flags and permissions still apply. The HUD uses a compact sidebar for district, wanted level, wallet, bank, health and armour, plus a short driving readout when relevant. It does not repeatedly overwrite the on-foot weapon ammunition readout. [HUD implementation](../hotfix/src/main/java/com/sdcraft/core/GtmPhoneHud.java)
+After authentication and a successful matching pack load, the welcome flow can open the phone once for the player's saved repair receipt. Reconnecting does not repeatedly reopen it. Existing feature flags and permissions still apply. The HUD uses a compact sidebar for district, wanted level, wallet, bank, health and armour, plus a short driving readout when relevant. It does not repeatedly overwrite the on-foot weapon ammunition readout. [HUD implementation](../hotfix/src/main/java/com/sdcraft/core/GtmPhoneHud.java)
 
 JEEVA offers clickable help topics and a private question route. It can explain driving, weapons, banking and city services using the implemented local guide and available player state. This is the offline fallback, with no paid AI dependency. It is not represented as an unrestricted external generative model. [Local assistant](../hotfix/src/main/java/com/sdcraft/core/GtmPhoneAssistant.java)
 
@@ -64,14 +64,14 @@ The vehicle tests exercise analytic distances, timestep consistency, turning, fu
 Use Python **3.10 or newer** for the updater. Keep the server's existing Java 25 runtime and launcher. Extract the entire repair ZIP into a separate folder, stop Paper and its launcher, then run one of these commands from the extracted repair folder:
 
 ```bat
-Update-GTM.bat "C:\path\to\existing\GTM-server" --bedrock
+Update-GTM.bat "C:\path\to\existing\GTM-server"
 ```
 
 ```bash
-sh Update-GTM.sh /path/to/existing/GTM-server --bedrock
+sh Update-GTM.sh /path/to/existing/GTM-server
 ```
 
-`--bedrock` updates an existing Geyser pack and mappings. Omit it when updating Java only. Supplying `--bedrock` does not enable disabled features or install a missing Geyser runtime.
+The commands above update Java, the verified client path. For an existing Geyser installation, append `--bedrock` to also update its pack and mappings. This optional flag does not enable disabled features or install a missing Geyser runtime; native Bedrock testing remains outstanding.
 
 The updater verifies the manifest, plugin identity, supported base fingerprint, each file's size and SHA-256, and the Java pack's SHA-1 and ID before making changes. It acquires the world session locks and checks the configured local gameplay and launcher ports. Unknown core binaries, unsafe paths, symlinks, an incomplete earlier transaction or a running server stop the operation. [Updater](../tools/install_runtime_repair.py)
 
@@ -84,11 +84,10 @@ The repair ZIP can be transferred and extracted separately on the existing host.
 ```bash
 python3 /home/daytona/repair/install_runtime_repair.py apply \
   --payload /home/daytona/repair \
-  --server /home/daytona/sdcraft_server \
-  --bedrock
+  --server /home/daytona/sdcraft_server
 ```
 
-Adjust the paths to the actual extraction and server directories. This example assumes an existing Geyser installation; omit `--bedrock` for Java only. The repair uses its published, versioned Java pack URL when there is no local portable launcher. The updater itself does not contact Daytona, start or stop a server, or change network access. Deployment to the user's existing host remains separate from the isolated staging results.
+Adjust the paths to the actual extraction and server directories. This example updates Java only. Append `--bedrock` if the server already has Geyser and you also want the optional Bedrock pack and mapping update. The repair uses its published, versioned Java pack URL when there is no local portable launcher. The updater itself does not contact Daytona, start or stop a server, or change network access. Deployment to the user's existing host remains separate from the isolated staging results.
 
 ## Open the actual Control Centre
 
@@ -152,6 +151,7 @@ With Java 25, Gradle 9.2.1 and the pinned Python dependencies available:
 python -m pip install -r tools/requirements-gtm128.txt
 gradle -p hotfix --no-daemon clean check jar patchVehicle
 python -m unittest discover -s tools -p 'test_repaired_packs.py' -v
+python -m unittest discover -s tools -p 'test_rickshaw_canopy.py' -v
 python -m unittest discover -s tools -p 'test_install_runtime_repair.py' -v
 python tools/build_repaired_packs.py
 python tools/build_repair_release.py \
@@ -160,25 +160,76 @@ python tools/build_repair_release.py \
 python tools/package_repair_candidate.py
 ```
 
-The pack builder reconstructs the preserved inputs from their checked repository parts. It retains the native128 artwork and stable IDs, adds the inventory compatibility skins and weapon aliases, repairs atlas registration, and changes only the specified gun hand-pose metadata. It writes separate outputs and never changes the preserved functional payload. The compiled overlay JAR is a build input; install the assembled `SDCraftCore-1.0.4-r4-repair.jar`, not the overlay by itself.
+The independent [GitHub Actions build](https://github.com/dev351en/gtm/actions/runs/45638152091) completed this full Gradle check/build/patch sequence, the pack, updater and publication tests, and candidate-artifact packaging. Its core and pack matched the local inputs at that checkpoint. This successful run preceded the final bounded canopy repair; the additional local tests and final target hashes below cover that change. The final source commit must pass the same independent workflow, including the new canopy tests, before publication. The earlier successful run is evidence for that checkpoint, not a claim that CI has already verified the later files. [CI evidence](repair-evidence/github-ci.json)
+
+The pack builder reconstructs the preserved inputs from their checked repository parts. It retains the native128 artwork and stable IDs, adds the inventory compatibility skins and weapon aliases, repairs atlas registration and the malformed inherited backup model, adjusts the specified gun hand-pose metadata, and applies the bounded traditional-rickshaw canopy repair. It writes separate outputs and never changes the preserved functional payload. The compiled overlay JAR is a build input; install the assembled `SDCraftCore-1.0.4-r4-repair.jar`, not the overlay by itself.
 
 ## Verification evidence and remaining limits
 
+### Observed native Java result
+
+The official Minecraft 26.3 client connected to the isolated repaired Paper server, completed the normal account login, and displayed the custom phone skin and every app icon. JEEVA opened a styled submenu, and the held Kavach model was fully visible. The inventory retained exactly one pistol and 32 rounds after the restart/login cycle. The corresponding resource reload logged zero missing-model-texture and zero duplicate-sprite warnings.
+
+These are original F2 screenshots from that client, copied without image editing. The phone, equipment catalogue and canopy images show the final exact pack; the JEEVA, held-weapon, reload and driving images record the earlier successful gameplay checks:
+
+![Final-pack Minecraft 26.3 phone with loaded app icons and dark/gold inventory skin](repair-evidence/phone-final-native-java.png)
+
+![Actual Minecraft 26.3 JEEVA submenu](repair-evidence/jeeva-native-java.png)
+
+![Actual Minecraft 26.3 held Kavach pistol with corrected first-person placement](repair-evidence/kavach-held-native-java.png)
+
+![Final-pack Minecraft equipment catalogue with native firearms visible](repair-evidence/equipment-native-java.png)
+
+The subsequent native gameplay check observed firing outside the inspected spawn safe zone, reloading with the matching ammunition and rejection of firing within that safe zone. The first shot displayed 11/12 rounds; the final reload tooltip displayed 12/12 and 30 reserve rounds after the complete two-shot input sequence. It did not test target-damage balance or combat accuracy. [Native Java record](repair-evidence/native-java.json)
+
+![Actual Minecraft inventory after native firearm firing and reload](repair-evidence/weapon-reloaded-native-java.png)
+
+The owned rickshaw accelerated to an observed 14 km/h, steered while moving at 15 km/h, reversed at 9 km/h, braked to zero and allowed the player to dismount. Fuel decreased to 99%; body health remained 100%. The front wheel stayed below the body at ground level after rotation. This was a local smoke test, not a survey of every model, road, slope or collision condition. [Native Java record](repair-evidence/native-java.json)
+
+![Actual Minecraft owned rickshaw with grounded front wheel](repair-evidence/vehicle-native-java.png)
+
+![Actual Minecraft rickshaw steering while moving](repair-evidence/vehicle-driving-native-java.png)
+
+An elevated side view separately exposed the driver's head clipping the canopy. The implemented 0.45-block canopy lift and extended posts provide measured clearance for the preserved driver and rear-seat positions through the bounded pitch range; the smallest calculated helmet clearance is approximately 0.027 blocks. The matching runtime profile now encloses the roof at a maximum Y of 2.238. Seven geometry regressions guard the exact input fingerprints, the permitted changes, display bounds and profile agreement. The final native-client side view confirmed the driver beneath the repaired roof, with the wheels still grounded. [Clearance calculation](repair-evidence/canopy-clearance.json), [geometry tests](../tools/test_rickshaw_canopy.py)
+
+![Final-pack Minecraft rickshaw showing the mounted driver beneath the repaired canopy](repair-evidence/vehicle-canopy-final.png)
+
+The final pack also repairs missing commas in an unused inherited ammo backup model, preserving its ten IDs and model targets. All included model JSON is parsed during validation. The final exact-byte restart completed successfully. The server used core `cd7db28…`, and the client downloaded and rendered Java pack `03b6d50…`; the cached pack SHA-1 was verified. Its final pack reload logged zero missing-model-texture warnings, zero duplicate-sprite warnings and zero model-load failures. Full fingerprints appear below. [Final native smoke record](repair-evidence/native-java.json)
+
+### Executed checks
+
 | Check | Executed result | Evidence |
 | --- | --- | --- |
-| Java compilation and JUnit | 52 passed; zero failures, errors or skipped tests | [Java report](repair-evidence/java-unit-tests.json) |
+| Independent GitHub Actions build | Full Gradle clean/check/JAR/patch, Python checks and installable artifact succeeded for the preceding checkpoint; final canopy-inclusive publication is gated on a fresh run | [CI report](repair-evidence/github-ci.json), [workflow run](https://github.com/dev351en/gtm/actions/runs/45638152091) |
+| Java compilation and JUnit | 53 passed, including 24 vehicle tests; zero failures, errors or skipped tests | [Java report](repair-evidence/java-unit-tests.json) |
 | Vehicle transformer | Five strict input/call-site/repeat checks passed | [Java report](repair-evidence/java-unit-tests.json), [vehicle notes](../hotfix/VEHICLE_REPAIR.md) |
 | Original equipment compatibility | 826 assertions across 133 records and derived behavior | [Java report](repair-evidence/java-unit-tests.json), [weapon notes](../hotfix/WEAPONS.md) |
-| Resource pack regressions | 10 passed, including item-atlas reachability | [Pack tests](../tools/test_repaired_packs.py); generated `pack-repair-report.json` |
+| Resource pack regressions | 12 passed, including item-atlas reachability and every included model JSON | [Pack tests](../tools/test_repaired_packs.py); generated `pack-repair-report.json` |
+| Traditional-rickshaw canopy repair | Seven passed; guarded geometry changes, driver/rear-seat clearance, culling bounds and runtime profile agreement | [Canopy tests](../tools/test_rickshaw_canopy.py), [clearance report](repair-evidence/canopy-clearance.json) |
 | Updater regressions | 22 passed, including real process-held locks and shell execution | [Updater tests](../tools/test_install_runtime_repair.py) |
-| Full portable install/rollback | Existing launcher check passed; all 1,013 original files restored exactly | [Integration report](repair-evidence/installer-integration.json) |
+| Publication fixtures | 17 passed, including target and asset fingerprint guards | [Publication tests](../tools/test_repair_publication.py) |
+| Final portable install/rollback | Final target bytes installed through the shipped CLI; existing launcher check passed; all 1,013 original files restored exactly | [Integration report](repair-evidence/installer-integration.json) |
 | Running Paper HTTP console | 23 of 23 checks passed | [HTTP report](repair-evidence/console-http.json) |
-| Native Java client | In progress; first run found atlas and first-person-pose defects; corrected pack awaiting recheck | Native-client acceptance update pending |
+| Native browser console view | Actual sign-in page displayed; authenticated browser layout remains unverified | [Console verification](../hotfix/CONSOLE_VERIFICATION.md) |
+| Native Java client UI | Normal login, custom phone and all icons, JEEVA submenu, visible held pistol and no duplicate repair grant observed; final exact bytes rechecked for phone, catalogue and canopy | Original F2 screenshots above and [native Java record](repair-evidence/native-java.json) |
+| Native Java weapons and driving | Fire/reload, safe-area refusal, acceleration/steering/braking/reverse/dismount and grounded wheel observed | [Native Java record](repair-evidence/native-java.json); final reconnect also verified repaired canopy clearance |
 | Native Bedrock client | Not completed | No Bedrock gameplay acceptance claim |
 | User's Daytona deployment | Not performed by these checks | Isolated staging only |
 
-The full portable-bundle integration used the earlier repair payload fingerprint recorded in its report. Subsequent pack/adapter corrections require the final release manifest to identify the delivered bytes; the report is evidence for installer preservation and launcher compatibility, not an assertion that every later binary has had a complete gameplay test.
+The full portable-bundle integration was repeated against the final canopy-inclusive target core and pack hashes below. It exercised the shipped updater CLI with Bedrock file updates enabled, the existing launcher's Java-only preflight, and explicit rollback. All 1,013 original bundle files and the two existing coordination-lock files matched the pre-update baseline after rollback. This establishes installation, preservation and launcher compatibility for those bytes; completed gameplay observations are recorded separately.
 
-The test sandbox cannot satisfy the preserved NetherNet launcher's requirement for an active private LAN IPv4 interface. Java-only launcher validation succeeded. Windows wrapper execution, the Windows lock branch, native Bedrock appearance and controls, and laptop driving feel remain separate checks. Generated contact sheets and layout previews are not client screenshots or gameplay evidence.
+### Final candidate fingerprints
 
-Each downloadable release includes its manifest, `SHA256SUMS`, `build-report.json`, `pack-repair-report.json` and selected verification evidence. Those records identify the actual assembled files. Acceptance status must follow the native-client results rather than a successful ZIP build alone.
+These identify the exact payload verified by the full portable-bundle installation and rollback. The manifest also records sizes, installation paths and the pack UUID.
+
+| File | SHA-256 |
+| --- | --- |
+| `SDCraftCore-1.0.4-r4-repair.jar` | `cd7db28cf7959e5c0801507c647479ebffca67616a8c543333ce24c8051ad5ac` |
+| `GTM_Repair_128_Java.zip` | `03b6d50e96c09643b289cb4a5afd6d6aea0830267e0bf174336f8d6269e9022e` |
+| `GTM_Repair_128_Bedrock.mcpack` | `1595eb5f9b487b7528c933ecc46f0e7ad5182d268e1d62f5ddb1c342599d2eba` |
+
+The Java pack SHA-1 used by Minecraft is `6c18645d1ee9f41daa132ef82c61f3dd8b1d2390`. [Exact-byte installation report](repair-evidence/installer-integration.json)
+
+The test sandbox cannot satisfy the preserved NetherNet launcher's requirement for an active private LAN IPv4 interface. Java-only launcher validation succeeded. Windows wrapper execution, the Windows lock branch, native Bedrock appearance and controls, and laptop driving feel remain separate checks. Audio acceptance was unavailable because the isolated client has no OpenAL output device. Generated contact sheets and layout previews are not client screenshots or gameplay evidence.
+
+Each downloadable release includes its manifest, `SHA256SUMS`, `build-report.json`, `pack-repair-report.json` and selected verification evidence. Those records identify the actual assembled files. The Java candidate has the native acceptance evidence described above. Bedrock, Windows execution and deployment to the existing live host retain the stated limits.

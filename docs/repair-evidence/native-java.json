@@ -1,0 +1,173 @@
+{
+  "recorded_utc": "2026-11-25T14:55:16.866475+00:00",
+  "result": "PASSED_OBSERVED_NATIVE_GAMEPLAY_AND_FINAL_SMOKE",
+  "environment": {
+    "client": "Official Minecraft Java 26.3",
+    "client_jar_sha1": "e877b6a07acd633fb3bb475002175cec036e7b87",
+    "server": "Paper 26.3 build 255",
+    "java": "Temurin 25.0.5.1+2",
+    "identity": "GTMVerify (isolated development test account)",
+    "endpoint": "127.0.0.1:25585",
+    "viewport": [
+      960,
+      600
+    ],
+    "gui_scale": 2,
+    "renderer": "Software Mesa through an isolated Xephyr X server; unmodified official client",
+    "authentication": "Normal /register followed by normal /login after a complete server and client restart"
+  },
+  "tested_artifacts": {
+    "core_sha256": "4903c7bdabe635673f378a5b07d44f11cb32aeea2771b5675ac2ff12488cf696",
+    "pack_sha1": "3d4f7d60a3f9777842d3c969b0cec5e747b6c851",
+    "pack_sha256": "0618469a882c8e6f23489d88a1ead090463efa3cd53b28520d8195e653445a9d",
+    "pack_uuid": "423b9cb0-6867-5675-ae86-ba55b4ac7e08"
+  },
+  "observations": [
+    {
+      "check": "Normal-login phone",
+      "result": "PASS",
+      "actions": "Reconnect with the required pack, /login, then /phone without using /pack",
+      "observed": "Dark/gold custom phone frame and all home app icons and side shortcuts render; no magenta missing textures.",
+      "screenshot": "phone-native-java.png"
+    },
+    {
+      "check": "JEEVA graphical guide",
+      "result": "PASS",
+      "actions": "Click the JEEVA side shortcut from the phone",
+      "observed": "Styled JEEVA menu opens with service and help actions. This verifies the local graphical guide, not an external LLM integration.",
+      "screenshot": "jeeva-native-java.png"
+    },
+    {
+      "check": "Visible and discoverable native firearms",
+      "result": "PASS",
+      "actions": "/gun; inspect the first page; select starter Kavach in the hotbar",
+      "observed": "Distinct native firearm models appear on the first equipment page, and the equipped Kavach renders in first person.",
+      "screenshot": "kavach-held-native-java.png",
+      "catalog_capture": "2026-11-25_14.40.22.png"
+    },
+    {
+      "check": "Once-only starter persistence",
+      "result": "PASS",
+      "actions": "Normal registration, full server/client shutdown and restart, normal login",
+      "observed": "Exactly one native Kavach and the original 32 matching reserve rounds remained before any shots. No second repair grant occurred."
+    },
+    {
+      "check": "Protected spawn combat restriction",
+      "result": "PASS",
+      "actions": "Right-click Kavach while inside the configured spawn safe zone",
+      "observed": "Combat is disabled in this safe area; magazine was not consumed."
+    },
+    {
+      "check": "Native firing and matching ammunition reload",
+      "result": "PASS",
+      "actions": "Walk normally outside the inspected 18-block spawn safe zone; right-click; sneak and right-click; inspect the inventory tooltip",
+      "observed": "The first shot displayed Kavach 9mm Compact 11/12. After reload, tooltip displayed Charge 12/12 and reserve ammunition was 30. The held modifier/click sequence produced one additional shot before sneaking reached the server, so the sequence consumed two rounds.",
+      "screenshot": "weapon-reloaded-native-java.png"
+    },
+    {
+      "check": "Owned vehicle access and wheel rendering",
+      "result": "PASS",
+      "actions": "/car, select the owned starter rickshaw, inspect front and rear third-person views",
+      "observed": "Garage entry mounts the owned rickshaw. The front wheel remains below the body at ground level, including after wheel rotation; no orbit above the roof was observed.",
+      "screenshot": "vehicle-native-java.png"
+    },
+    {
+      "check": "Vehicle handling",
+      "result": "PASS",
+      "actions": "W for 1.8 seconds; W+D for 1.8 seconds; Space brake; S reverse; Space brake; Shift exit",
+      "observed": "Forward acceleration displayed 14 km/h, moving steering displayed 15 km/h, reverse displayed 9 km/h, braking displayed 0 km/h, and safe dismount worked. Fuel decreased to 99%; body remained 100%.",
+      "screenshot": "vehicle-driving-native-java.png"
+    },
+    {
+      "check": "Resource atlas runtime audit",
+      "result": "PASS_FOR_ACTIVE_MODELS",
+      "observed": "The earlier tested pack produced zero missing-model-texture warnings and zero duplicate-sprite warnings. One inherited unused malformed phantom_membrane_org JSON was identified in that pack; the later final_pack_smoke below verifies its repaired replacement without attributing earlier gameplay checks to the final bytes."
+    }
+  ],
+  "screenshots": {
+    "vehicle-native-java.png": {
+      "original_capture": "2026-11-25_14.51.43.png",
+      "sha256": "7f8bfb416cf8ee26dc9b1f50e541f32d6ed4e6de285e3b03a241d8ae3e654752",
+      "capture_method": "Minecraft F2 screenshot, copied byte-for-byte without alteration"
+    },
+    "vehicle-driving-native-java.png": {
+      "original_capture": "2026-11-25_14.51.46.png",
+      "sha256": "6572080dd6822dd4a3077181b09d7a3bf0c11c786cef30d95965ba33c08aa11e",
+      "capture_method": "Minecraft F2 screenshot, copied byte-for-byte without alteration"
+    },
+    "weapon-reloaded-native-java.png": {
+      "original_capture": "2026-11-25_14.54.07.png",
+      "sha256": "25b077f48149a4ba15361247697ed0eb60fe7f92b0d619bc771ece06bff22ab8",
+      "capture_method": "Minecraft F2 screenshot, copied byte-for-byte without alteration"
+    }
+  },
+  "scope_limits": [
+    "Java 26.3 desktop client only; no Bedrock client session.",
+    "Isolated local staging world only; no live Daytona or production deployment.",
+    "No claim of comprehensive slope, curb, high-speed collision, multiplayer latency or vehicle roster testing.",
+    "No audio acceptance: the isolated client environment has no OpenAL output device and only visual assets were fully downloaded.",
+    "No damage-balancing or combat-target accuracy claim from this UI smoke test.",
+    "The final build smoke rechecked normal-login phone rendering, the native equipment catalogue, mounted rickshaw canopy clearance and pack loading. Earlier firing, reload and driving observations retain their separate tested_artifacts hashes above; those full sequences were not repeated after the targeted canopy and unused-JSON changes."
+  ],
+  "final_pack_smoke": {
+    "status": "PASS",
+    "recorded_utc": "2026-11-25T15:09:41.458542+00:00",
+    "tested_artifacts": {
+      "core_sha256": "cd7db28cf7959e5c0801507c647479ebffca67616a8c543333ce24c8051ad5ac",
+      "pack_sha256": "03b6d50e96c09643b289cb4a5afd6d6aea0830267e0bf174336f8d6269e9022e",
+      "pack_sha1": "6c18645d1ee9f41daa132ef82c61f3dd8b1d2390",
+      "pack_uuid": "69a2aa6e-2557-5700-968c-a236b01f8c83",
+      "client_cached_pack_sha1_verified": true
+    },
+    "session": "Normal client reconnect and /login following a graceful staging-server restart with the final core and required Java pack.",
+    "observations": [
+      {
+        "check": "Normal-login phone",
+        "result": "PASS",
+        "actions": "Reconnect, /login, /phone without /pack",
+        "observed": "The custom dark/gold phone frame, all 24 home app icons and the side shortcuts render without magenta missing textures.",
+        "screenshot": "phone-final-native-java.png"
+      },
+      {
+        "check": "Native equipment catalogue",
+        "result": "PASS",
+        "actions": "/gun; inspect first page; move the pointer away from item slots",
+        "observed": "Distinct functional native firearms appear first, with matching ammunition and navigation icons rendered. Final capture has no tooltip obscuring the catalogue.",
+        "screenshot": "equipment-native-java.png"
+      },
+      {
+        "check": "Mounted rickshaw canopy and wheels",
+        "result": "PASS",
+        "actions": "/car; select the existing owned starter rickshaw; inspect the mounted rear/side third-person view; dismount normally",
+        "observed": "The driver head remains beneath the raised canopy. Wheel geometry stays below the body and at ground level. The stationary HUD shows 0 km/h, fuel 99%, body 100%. This checks the targeted clearance correction; the earlier driving sequence was not repeated.",
+        "screenshot": "vehicle-canopy-final.png"
+      }
+    ],
+    "resource_reload_audit": {
+      "scope": "Only the final server-pack reload at 15:02:36 UTC until the vanilla reload on disconnect at 15:08:51 UTC. Earlier pack attempts and later disconnected title-menu Realms requests are excluded.",
+      "server_pack_reload_marker": "server/00000001/69a2aa6e-2557-5700-968c-a236b01f8c83",
+      "missing_model_texture_warnings": 0,
+      "duplicate_sprite_warnings": 0,
+      "model_load_failures": 0,
+      "other_errors": "One SoundSystem startup error because the isolated environment has no OpenAL output device; audio is outside acceptance scope."
+    },
+    "screenshots": {
+      "phone-final-native-java.png": {
+        "original_capture": "2026-11-25_15.03.24.png",
+        "sha256": "e7bd1aa8533d9d91d4bcceb724148261749c6a6e496517880ad6917d64d34e8d",
+        "capture_method": "Minecraft F2 screenshot, copied byte-for-byte without alteration"
+      },
+      "equipment-native-java.png": {
+        "original_capture": "2026-11-25_15.08.44.png",
+        "sha256": "47a13af40de51511f232c6dd2422d016200aa9038b44588dcedeee7d66f56532",
+        "capture_method": "Minecraft F2 screenshot, copied byte-for-byte without alteration"
+      },
+      "vehicle-canopy-final.png": {
+        "original_capture": "2026-11-25_15.06.01.png",
+        "sha256": "7f620a2d5d7c00be34609dbe1d7b6e99ab14c045c804ef42713a8e6a7b3ffdf3",
+        "capture_method": "Minecraft F2 screenshot, copied byte-for-byte without alteration"
+      }
+    },
+    "client_shutdown": "Disconnected through the normal menu and chose Quit Game; both the official client and nested-client harness reported exit 0."
+  }
+}

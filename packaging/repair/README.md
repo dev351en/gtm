@@ -2,7 +2,7 @@
 
 This package updates an existing **1.0.3-r4-functional-candidate** GTM server. It contains the repaired plugin, matching native128 resource packs, a verified updater, and the local Control Centre opener. Keep the complete extracted package together.
 
-**Acceptance status: draft, 25 November 2026.** Build, regression, server HTTP and updater checks have passed. Native Java client testing is in progress after correcting an atlas defect found during that test. Bedrock client testing is not complete. See `RELEASE_NOTES.md` for the current verification boundary; this package is not yet declared a fully accepted Java/Bedrock release.
+**Acceptance status: Java-tested repair candidate, 25 November 2026.** Build, regression, server HTTP and updater checks have passed. The actual Java client shows the custom phone, all app icons, JEEVA submenu and held native pistol after normal login. Firing, reloading and basic driving controls have also passed native smoke checks. The final exact-byte restart also confirmed the clean phone and equipment catalogue, grounded wheels and the driver beneath the raised rickshaw canopy. Bedrock client testing is not complete. See `RELEASE_NOTES.md` for the verified behavior and remaining platform limits.
 
 ## Install into your existing server
 
@@ -15,16 +15,16 @@ Use Python **3.10 or newer**. Keep your existing Java 25 server runtime and laun
 **Windows:**
 
 ```bat
-Update-GTM.bat "C:\path\to\existing\GTM-server" --bedrock
+Update-GTM.bat "C:\path\to\existing\GTM-server"
 ```
 
 **Linux/macOS:**
 
 ```bash
-sh Update-GTM.sh /path/to/existing/GTM-server --bedrock
+sh Update-GTM.sh /path/to/existing/GTM-server
 ```
 
-Use `--bedrock` for an existing Geyser installation. Omit it for a Java-only update. An unsupported core binary, checksum failure or unsafe path stops the update. Keep the backup ID printed on success.
+These commands update Java, the verified client path. For an existing Geyser installation, append `--bedrock` to also update its pack and mappings; native Bedrock testing remains outstanding. An unsupported core binary, checksum failure or unsafe path stops the update. Keep the backup ID printed on success.
 
 Start your existing server normally, connect with the matching Minecraft version and accept the updated resource pack. The phone skin requires the pack to finish loading. Open `/phone`, `/gun` or `/car` to reach the repaired phone, native equipment and garage. Right-click fires a gun; sneak + right-click reloads using its matching ammunition.
 

@@ -7,6 +7,7 @@ import unittest
 from PIL import Image
 
 import build_repaired_packs as repair
+from repair_rickshaw_canopy import JAVA_PATHS, BEDROCK_PATHS
 
 
 class RepairedPackTests(unittest.TestCase):
@@ -23,6 +24,7 @@ class RepairedPackTests(unittest.TestCase):
         repair.repair_atlases(java)
         repair.repair_legacy_json(java)
         repair.repair_weapon_poses(java)
+        repair.repair_rickshaw_canopy(java, bedrock)
         return java, bedrock, mappings
 
     def test_old_pack_without_runtime_app_definitions_is_rejected(self):
@@ -61,10 +63,14 @@ class RepairedPackTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "wrong base material"):
             repair.validate_bedrock(bedrock, mappings)
 
-    def test_skin_and_alias_overlay_preserves_all_original_art_bytes(self):
+    def test_overlay_preserves_art_except_approved_metadata_and_canopy(self):
         java, bedrock, _ = self.patched()
         for name, data in self.java.items():
-            if name == repair.LEGACY_AMMO_MODEL:
+            if name in JAVA_PATHS:
+                # Exact guarded canopy/post geometry is covered independently
+                # by test_rickshaw_canopy; this is the complete scoped allowlist.
+                continue
+            elif name == repair.LEGACY_AMMO_MODEL:
                 expected = json.loads(data.decode().replace('}\n       {', '},\n       {'))
                 self.assertEqual(expected, json.loads(java[name]))
             elif "/models/" in name and java[name] != data:
@@ -76,7 +82,8 @@ class RepairedPackTests(unittest.TestCase):
             elif name != repair.ATLAS_BLOCKS:
                 self.assertEqual(data, java[name], name)
         for name, data in self.bedrock.items():
-            self.assertEqual(data, bedrock[name], name)
+            if name not in BEDROCK_PATHS:
+                self.assertEqual(data, bedrock[name], name)
 
     def test_existing_png_without_atlas_registration_is_rejected(self):
         java, _, _ = self.patched()

@@ -35,6 +35,12 @@ def package(payload: Path, output: Path) -> dict:
     # are never collected by directory globbing.
     evidence = ROOT / "docs/repair-evidence"
     extras = {"evidence/" + p.name: p for p in evidence.glob("*.json") if p.is_file() and not p.is_symlink()}
+    for name in ["phone-native-java.png", "jeeva-native-java.png", "kavach-held-native-java.png", "equipment-native-java.png",
+                 "vehicle-native-java.png", "vehicle-driving-native-java.png",
+                 "weapon-reloaded-native-java.png", "control-centre-login.jpg",
+                 "phone-final-native-java.png", "vehicle-canopy-final.png"]:
+        file = evidence / name
+        if file.is_file() and not file.is_symlink(): extras["evidence/" + name] = file
     output.mkdir(parents=True, exist_ok=True)
     update = output / UPDATE_NAME
     with zipfile.ZipFile(update, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as z:

@@ -46,6 +46,7 @@ jobs:
       - name: Check pack references and update recovery
         run: |
           python -m unittest discover -s tools -p test_repaired_packs.py -v
+          python -m unittest discover -s tools -p test_rickshaw_canopy.py -v
           python -m unittest discover -s tools -p test_install_runtime_repair.py -v
           python -m unittest discover -s tools -p test_repair_publication.py -v
       - name: Build the exact repair payload

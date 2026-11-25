@@ -1,27 +1,31 @@
 {
+  "at": "2026-11-25T15:02:28.198894+00:00",
   "fixture": "Independent copy of the preserved 757 MB laptop bundle; only staging TCP/UDP ports changed before installation",
-  "payload_manifest_sha256": "7d475e30d7f205447476f42a2f6ec8d496e8bfc1155331144b69dfda0ea54170",
+  "payload_manifest_sha256": "d1de879045bc60abcdc73d5b27a22753b418d2ed171ac08048d4787e7017095c",
+  "tested_core_sha256": "cd7db28cf7959e5c0801507c647479ebffca67616a8c543333ce24c8051ad5ac",
+  "tested_java_pack_sha256": "03b6d50e96c09643b289cb4a5afd6d6aea0830267e0bf174336f8d6269e9022e",
+  "tested_java_pack_sha1": "6c18645d1ee9f41daa132ef82c61f3dd8b1d2390",
+  "tested_bedrock_pack_sha256": "1595eb5f9b487b7528c933ecc46f0e7ad5182d268e1d62f5ddb1c342599d2eba",
   "installed_file_count": 11,
-  "backup": "20261125T143609Z-2457114313",
+  "backup": "20261125T150225Z-3d9d8f420e",
+  "installer_cli": true,
   "java_launcher_check": {
     "command": "java -jar launcher/gtm-launcher.jar --check --java-only",
     "exit": 0,
-    "result": "Preflight passed: Java 25, pinned files, city world, authentication policy, disk and ports. Check complete. No server started."
+    "stdout": "Java-only mode selected: the reviewed Geyser/Floodgate JARs will be temporarily excluded before Paper loads plugins; no Bedrock listener or join address.\nPreflight passed: Java 25, pinned files, city world, authentication policy, disk and ports.\nProfile: public_world_2026_11_23_fresh_accounts_local_workshop. External AI remains optional/off.\nCheck complete. No server started.\n",
+    "stderr": ""
   },
   "bedrock_launcher_check": {
-    "exit": 1,
-    "limitation": "Sandbox lacks the up non-loopback private IPv4 LAN interface required by the existing NetherNet profile."
+    "status": "not_repeated",
+    "limitation": "Earlier unchanged profile check established this sandbox lacks the up non-loopback private IPv4 LAN interface required by NetherNet."
   },
   "rollback": {
     "status": "rolled_back",
-    "backup": "20261125T143609Z-2457114313",
+    "backup": "20261125T150225Z-3d9d8f420e",
     "worlds_and_accounts": "unchanged"
   },
   "preserved_original_file_count": 1013,
+  "checked_baseline_file_count": 1015,
   "changed_original_files": {},
-  "extra_lock_files": [
-    ".gtm-repair.lock",
-    "launcher/.running.lock"
-  ],
-  "result": "passed; all 1,013 original bundle files restored byte-for-byte, only updater/launcher coordination locks added"
+  "result": "passed; final canopy-inclusive candidate bytes installed and validated by the original Java launcher; all baseline files restored byte-for-byte"
 }

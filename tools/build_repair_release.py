@@ -85,6 +85,11 @@ def build(overlay: Path, vehicle: Path, packs: Path, output: Path, pack_url: str
     core_path = "plugins/SDCraftCore-" + VERSION + ".jar"
     report = build_core(overlay, vehicle, output / core_path)
     pack_report = json.loads((packs / "pack-repair-report.json").read_text())
+    expected_profile = pack_report.get("traditional_rickshaw_canopy", {}).get("profile_resource_sha256")
+    compiled_profile = members(output / core_path).get("vehicle/road-profiles.tsv", b"")
+    if not expected_profile or sha(compiled_profile) != expected_profile:
+        raise ValueError("Compiled vehicle collision profile does not match the repaired pack geometry; rebuild the overlay")
+    report["vehicle_profile_sha256"] = expected_profile
     copies = {
         "resourcepacks/GTM_Repair_128_Java.zip": packs / "GTM_Repair_128_Java.zip",
         "plugins/Geyser-Spigot/packs/GTM_Repair_128_Bedrock.mcpack": packs / "GTM_Repair_128_Bedrock.mcpack",
@@ -121,7 +126,15 @@ def build(overlay: Path, vehicle: Path, packs: Path, output: Path, pack_url: str
     notes = ROOT / "packaging/repair/RELEASE_NOTES.md"
     if notes.is_file(): shutil.copyfile(notes, output / "RELEASE_NOTES.md")
     record = ROOT / "docs/RUNTIME_REPAIR_2026-11-25.md"
-    if record.is_file(): shutil.copyfile(record, output / "RUNTIME_REPAIR_2026-11-25.md")
+    if record.is_file():
+        # The standalone ZIP keeps its guide at the root; source-code links go
+        # to the maintained repository instead of pointing outside extraction.
+        guide_text = record.read_text(encoding="utf-8")
+        guide_text = guide_text.replace("(../packaging/repair/README.md)", "(README.md)")
+        guide_text = guide_text.replace("(../packaging/repair/RELEASE_NOTES.md)", "(RELEASE_NOTES.md)")
+        guide_text = guide_text.replace("(repair-evidence/", "(evidence/")
+        guide_text = guide_text.replace("(../", "(https://github.com/dev351en/gtm/blob/fix/playable-ui-vehicles-20261125/")
+        (output / "RUNTIME_REPAIR_2026-11-25.md").write_text(guide_text, encoding="utf-8")
     return manifest
 
 

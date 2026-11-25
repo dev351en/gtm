@@ -53,7 +53,7 @@ dependency and is not required in the game.
 
 ## Executed verification
 
-Java 25 compilation and **23 JUnit tests passed**, with zero failed or skipped
+Java 25 compilation and **24 vehicle JUnit tests passed**, with zero failed or skipped
 tests. Coverage includes analytic acceleration/stopping distance, timestep
 consistency, reverse/brake behavior, inertia, empty/failing engines, partial
 collision/fuel accounting, bounded steering, constant-radius turning, all 87
@@ -61,10 +61,58 @@ bundled profiles and all 65 road profiles, and the preserved fleet controller
 successfully completing a curved route with the revised physics.
 
 The render tests reproduce the original wheel orbit, check the corrected full
-revolution, and verify body/front orientation. The separate build checks exercise
+revolution, and verify body/front orientation. The new resource-loading test
+reads the actual bundled vehicle catalogue and confirms the traditional auto's
+raised collision roof, unchanged driver seat/handling and exact repaired geometry
+hash. All **53 aggregate repair-module JUnit tests passed** after rebuilding the
+overlay with the new profile resource. The separate build checks exercise
 determinism, exact hook counts and rejection of invalid/repeated patch input.
 
-This is source, bytecode and mathematical verification. It does not establish a
-native Java/Bedrock visual playtest, driving feel on a laptop, actual per-tick
-Paper collision behavior or deployment to the existing Daytona server. Those
-observations must remain separate from the passing regression results.
+## Native client observation and canopy correction
+
+The actual Java 26.3 client mounted the starter traditional auto in staging.
+The tester observed forward acceleration (14 km/h), simultaneous forward/steering
+(15 km/h), reverse (9 km/h), braking to zero, and safe exit. Fuel changed to 99%
+while body health remained 100%. Front and side screenshots at 14:51–14:52 UTC on
+25 November 2026 show the front wheel below the chassis, without the previous
+above-roof orbit. These observations are a bounded road-driving check, not a
+terrain, slope, multiplayer or Bedrock stress test.
+
+The elevated side screenshot also revealed a separate, genuine defect: the
+driver's head intersected the canopy. The low front camera hid that intersection.
+The preserved profile places the driver carrier at y=0.62. Minecraft 26.3's
+`Avatar.DEFAULT_VEHICLE_ATTACHMENT` is 0.6, leaving the player's feet at y=0.02.
+The local client bytecode confirms a player render scale of 0.9375, root lift of
+1.501, and outer head box reaching 8.5 model units above its pivot. The visible
+head therefore reaches approximately y=1.925 at level pitch and y=1.977 at a
+15-degree pitch. The original canopy spans y=1.6375–1.7875.
+
+[`tools/repair_rickshaw_canopy.py`](../tools/repair_rickshaw_canopy.py) raises only
+that model's canopy by **0.45 blocks** and extends its four support posts. Its
+normal, damaged and critical static/animated body models receive the same
+world-space correction. Collapsed wreck art is preserved. Six Java model files
+and twelve corresponding Bedrock source/display geometry files change; all
+texture bytes, UVs, wheel geometry, pivots, item IDs, seat positions and handling
+parameters remain unchanged. The helper rejects unexpected or previously
+modified inputs using their exact SHA-256 values.
+
+The new roof underside is y=2.0875. This clears the higher rear seat's avatar,
+including a vanilla helmet throughout the head-pitch range, by at least 0.027
+blocks. The runtime profile's maximum y is rounded upward to **2.238** to enclose
+the actual rendered canopy. The other 86 profile rows remain byte-for-byte
+unchanged. Bedrock source bounds grow with the canopy; the display bridge's
+existing broad culling bounds already enclose it and are checked explicitly.
+
+**Seven canopy regression tests passed** against the actual preserved packs.
+They check world-space head clearance, post attachment, collision bounds, exact
+scope of geometry edits, unchanged wheels and textures, one-row profile changes,
+deterministic output, and rejection of incorrect or repeated input. The normal
+repaired geometry's SHA-256 is
+`256ff4ca40ae1a310995214a9b261ccfd5e7024a5af73bbdc7d6f31a11c3abf3`;
+the maintained profile resource is
+`cbafba36c9a031ffe5ed54421946e0a0e21198f4561bfa13b282fc94e698d4a4`.
+
+The final native visual check of the newly raised canopy is pending the staging
+restart and matching pack reload. Native Bedrock driving, laptop performance,
+broad collision/terrain coverage and deployment to the existing Daytona server
+remain outside the observations recorded here.

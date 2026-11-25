@@ -1,0 +1,89 @@
+{
+  "schema": "GTM_TRADITIONAL_CANOPY_VERIFICATION_V1",
+  "at": "2026-11-25T15:01:49.902968+00:00",
+  "status": "PASS",
+  "scope": "Measured traditional-auto canopy and posts only, with final Java 26.3 native confirmation after staging restart and matching pack reload; no production or world changes.",
+  "verification": {
+    "python_canopy_tests": 7,
+    "passed": 7,
+    "failed": 0,
+    "command": "python3 -m unittest discover -s tools -p test_rickshaw_canopy.py -v",
+    "aggregate_java_junit_passed": 53,
+    "vehicle_junit_passed": 24,
+    "overlay_build": "Gradle compileJava jar succeeded with Java25"
+  },
+  "model": "gtm:rickshaw_traditional",
+  "raise_blocks": 0.45,
+  "states": [
+    "normal",
+    "damaged",
+    "critical"
+  ],
+  "original_roof_underside_y": 1.6375,
+  "original_roof_top_y": 1.7875,
+  "repaired_roof_underside_y": 2.0875,
+  "repaired_roof_top_y_approx": 2.237512,
+  "collision_max_y": 2.238,
+  "maximum_seated_head_with_vanilla_helmet_y": 2.060447,
+  "minimum_clearance_blocks": 0.027053,
+  "measurement_source": "Local actual26.3 Avatar/HumanoidModel/AvatarRenderer/LivingEntityRenderer bytecode; preserved pack geometry and runtime profile",
+  "profile_sha256": "cbafba36c9a031ffe5ed54421946e0a0e21198f4561bfa13b282fc94e698d4a4",
+  "normal_geometry_sha256": "256ff4ca40ae1a310995214a9b261ccfd5e7024a5af73bbdc7d6f31a11c3abf3",
+  "java_models": [
+    "assets/gtm/models/item/rickshaw_traditional.json",
+    "assets/gtm/models/item/rickshaw_traditional_critical.json",
+    "assets/gtm/models/item/rickshaw_traditional_damaged.json",
+    "assets/gtm/models/item/vt_rickshaw_traditional_critical_body.json",
+    "assets/gtm/models/item/vt_rickshaw_traditional_damaged_body.json",
+    "assets/gtm/models/item/vt_rickshaw_traditional_normal_body.json"
+  ],
+  "bedrock_geometries": [
+    "models/entity/rd/rickshaw_traditional.geo.json",
+    "models/entity/rd/rickshaw_traditional_critical.geo.json",
+    "models/entity/rd/rickshaw_traditional_damaged.geo.json",
+    "models/entity/rd/vt_rickshaw_traditional_critical_body.geo.json",
+    "models/entity/rd/vt_rickshaw_traditional_damaged_body.geo.json",
+    "models/entity/rd/vt_rickshaw_traditional_normal_body.geo.json",
+    "models/entity/rickshaw_traditional.geo.json",
+    "models/entity/rickshaw_traditional_critical.geo.json",
+    "models/entity/rickshaw_traditional_damaged.geo.json",
+    "models/entity/rt/vt_rickshaw_traditional_critical_body.geo.json",
+    "models/entity/rt/vt_rickshaw_traditional_damaged_body.geo.json",
+    "models/entity/rt/vt_rickshaw_traditional_normal_body.geo.json"
+  ],
+  "unchanged": [
+    "other 86 runtime profiles",
+    "all seats",
+    "driving parameters",
+    "wheels and pivots",
+    "model IDs",
+    "textures and UVs",
+    "collapsed wreck art"
+  ],
+  "test_assertions": [
+    "actual bundled profile loads the new height",
+    "all other files remain byte-identical",
+    "head-pitch envelope and higher rear seat clear the canopy",
+    "four support posts meet the canopy",
+    "collision bounds enclose rendered height",
+    "Bedrock source bounds are updated",
+    "existing Bedrock display-bridge bounds enclose the canopy",
+    "incorrect and repeated inputs are rejected",
+    "output is deterministic"
+  ],
+  "native_client_verification": {
+    "status": "PASS",
+    "recorded_at": "2026-11-25T15:09:05.322243+00:00",
+    "client": "Minecraft Java 26.3",
+    "observations": [
+      "The final native side view shows the seated driver below the raised canopy.",
+      "The wheels remain grounded beneath the vehicle body."
+    ],
+    "core_sha256": "cd7db28cf7959e5c0801507c647479ebffca67616a8c543333ce24c8051ad5ac",
+    "java_pack_sha256": "03b6d50e96c09643b289cb4a5afd6d6aea0830267e0bf174336f8d6269e9022e",
+    "screenshot": "vehicle-canopy-final.png",
+    "screenshot_repository_path": "docs/repair-evidence/vehicle-canopy-final.png",
+    "native_test_report": "native-java.json",
+    "scope": "Driver clearance and grounded-wheel observation on the final Java staging build; no native Bedrock or broad terrain coverage claimed."
+  }
+}

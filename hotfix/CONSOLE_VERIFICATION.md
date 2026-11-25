@@ -14,7 +14,7 @@ The bearer token is generated after the port bind succeeds, written atomically w
 
 ## Automated policy and queue tests
 
-`ConsoleSecurityTest` has 12 tests and `ConsoleCommandQueueTest` has 10 tests. All 22 passed with Java 25 and the pinned JUnit Platform 1.11.4 runner. They were also part of the aggregate run in which all 52 repair-module JUnit tests passed.
+`ConsoleSecurityTest` has 12 tests and `ConsoleCommandQueueTest` has 10 tests. All 22 passed with Java 25 and the pinned JUnit Platform 1.11.4 runner. They were also part of the aggregate run in which all 53 repair-module JUnit tests passed.
 
 Coverage includes:
 
@@ -23,13 +23,13 @@ Coverage includes:
 - queue serialization, cancellation before execution, timeout while an action is already running, scheduling failure, command failure, and release of a completed queue slot;
 - audit failure before dispatch, audit failure after dispatch, and a lifecycle command closing its own queue without deadlocking.
 
-The full overlay compiled and its JAR was built by Gradle with Java 25. The aggregate tests used the standalone pinned JUnit runner after dependency retrieval interrupted the Gradle `check` invocation; this report does not describe that interrupted Gradle invocation as successful.
+The full overlay compiled and its JAR was built by Gradle with Java 25. The aggregate local tests used the pinned standalone JUnit runner. The independent GitHub build also completed the full Gradle `clean check jar patchVehicle` pipeline successfully; see the CI evidence in the repair report.
 
 ## Actual HTTP integration
 
 The probe is [`tools/probe_web_console.py`](../tools/probe_web_console.py). It was executed by the native staging harness in the same process/network environment as Paper, rather than against a mock. It reads the token locally and does not print or include it in its report.
 
-At **2026-11-25 14:35:58 UTC**, the probe recorded **23 passed checks out of 23** against the running **Minecraft 26.3 / SDCraftCore 1.0.4-r4-repair** server. The report is saved as [`console-http-verification.json`](console-http-verification.json).
+At **2026-11-25 15:02:57 UTC**, the probe recorded **23 passed checks out of 23** against the running **Minecraft 26.3 / SDCraftCore 1.0.4-r4-repair** server. The report is saved as [`console-http-verification.json`](console-http-verification.json).
 
 | Actual request or observation | Result |
 | --- | --- |

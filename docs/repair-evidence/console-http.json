@@ -1,13 +1,13 @@
 {
   "schema": "GTM_REPAIR_CONSOLE_HTTP_PROBE_V1",
-  "at": "2026-11-25T14:35:58.639620+00:00",
+  "at": "2026-11-25T15:02:57.771463+00:00",
   "scope": "Actual loopback HTTP server and read-only Paper console command; no native client or Daytona deployment claim.",
   "observed": {
     "version": "1.0.4-r4-repair",
     "minecraft": "26.3",
-    "tps": 20.000007253291557,
-    "mspt": 0.9261053762376237,
-    "player_count": 0
+    "tps": 19.591060652185014,
+    "mspt": 11.837806435643564,
+    "player_count": 1
   },
   "passed": true,
   "checks": [
