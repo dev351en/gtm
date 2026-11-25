@@ -11,9 +11,9 @@ import shutil
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-NAME = "GTM_Server_Only_Crossplay_1.0.6.zip"
-PREFIX = "GTM_Server_Only_Crossplay_1.0.6/"
-VERSION = "1.0.6-r4-crossplay"
+NAME = "GTM_Server_Only_Crossplay_1.0.7.zip"
+PREFIX = "GTM_Server_Only_Crossplay_1.0.7/"
+VERSION = "1.0.7-r4-crossplay-models"
 
 
 def sha256(path: Path) -> str:
@@ -35,7 +35,7 @@ def package(payload: Path, output: Path) -> dict:
         "repair-manifest.json", "build-report.json",
         "pack-repair-report.json", "install_runtime_repair.py",
         "Update-GTM.bat", "Update-GTM.sh", "README.md",
-        "RELEASE_NOTES.md", "SERVER_ONLY_CROSSPLAY.md",
+        "RELEASE_NOTES.md", "SERVER_ONLY_CROSSPLAY.md", "crossplay-model-audit.json",
     })
     forbidden = ("client/", ".minecraft/", "world/", "playerdata/", "secrets")
     entries: dict[str, Path] = {}
